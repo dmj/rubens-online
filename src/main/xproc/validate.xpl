@@ -34,6 +34,10 @@
       <p:with-input port="source" select="$registry"/>
       <p:with-input port="schema" href="{resolve-uri('../schema/mets.xsd', static-base-uri())}"/>
     </p:validate-with-xml-schema>
+    <p:validate-with-schematron>
+      <p:with-input port="source" select="$registry"/>
+      <p:with-input port="schema" href="{resolve-uri('../schema/mets.sch', static-base-uri())}"/>
+    </p:validate-with-schematron>
   </p:group>
 
   <p:sink/>
