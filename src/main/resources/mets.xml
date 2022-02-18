@@ -1,0 +1,1167 @@
+<mets xmlns="http://www.loc.gov/METS/"
+      xmlns:premis="http://www.loc.gov/premis/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd
+                          http://www.loc.gov/premis/v3 https://www.loc.gov/standards/premis/v3/premis-v3-0.xsd">
+
+  <amdSec>
+    <rightsMD ID="cc-by-sa">
+      <mdWrap MDTYPE="PREMIS:RIGHTS">
+        <xmlData>
+          <premis:rightsStatement>
+            <premis:rightsStatementIdentifier>
+              <premis:rightsStatementIdentifierType>urn:uuid:613292d7-3bda-424b-b714-297044c371ab</premis:rightsStatementIdentifierType>
+              <premis:rightsStatementIdentifierValue>URN</premis:rightsStatementIdentifierValue>
+            </premis:rightsStatementIdentifier>
+            <premis:rightsBasis>license</premis:rightsBasis>
+            <premis:licenseInformation>
+              <premis:licenseDocumentationIdentifier>
+                <premis:licenseDocumentationIdentifierType>URI</premis:licenseDocumentationIdentifierType>
+                <premis:licenseDocumentationIdentifierValue>http://diglib.hab.de/copyright.html</premis:licenseDocumentationIdentifierValue>
+              </premis:licenseDocumentationIdentifier>
+              <premis:licenseTerms>Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland (CC BY-SA 3.0 DE) </premis:licenseTerms>
+            </premis:licenseInformation>
+            <premis:linkingAgentIdentifier>
+              <premis:linkingAgentIdentifierType>URI</premis:linkingAgentIdentifierType>
+              <premis:linkingAgentIdentifierValue>https://d-nb.info/gnd/8989-8</premis:linkingAgentIdentifierValue>
+              <premis:linkingAgentRole>grantor</premis:linkingAgentRole>
+              <premis:linkingAgentRole>rightsholder</premis:linkingAgentRole>
+            </premis:linkingAgentIdentifier>
+          </premis:rightsStatement>
+        </xmlData>
+      </mdWrap>
+    </rightsMD>
+  </amdSec>
+
+  <fileSec>
+    <fileGrp ADMID="cc-by-sa">
+      <file ID="edoc_ed000083_archivalien_SAA_sig-v-144" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-v-144.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_nachlass_mechtelt_alteren_15640605" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/nachlass_mechtelt_alteren_15640605.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-294" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-294.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_jan_rubens_15651109" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_jan_rubens_15651109.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_jan_rubens_stadtwache_15660708" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/jan_rubens_stadtwache_15660708.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-474" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-474.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_herzog_alba_15671214" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_herzog_alba_15671214.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_jan_rubens_15670115" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_jan_rubens_15670115.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_besitz_jan_rubens_15760601" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/besitz_jan_rubens_15760601.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-cert-22" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-cert-22.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-45-30" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-45-30.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-45-4" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-45-4.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-50-144" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-50-144.xml"/>
+      </file>
+      <!-- 1570-1579 -->
+      <file ID="edoc_ed000083_archivalien_HAStK_best-45-37" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-45-37.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-45-4-32" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-45-4-32.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-45-38" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-45-38.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-45-39" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-45-39.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-330" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-330.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_jan_rubens_15750508" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_jan_rubens_15750508.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-gf-75" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-gf-75.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-2570" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-2570.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-347" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-347.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-351" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-351.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-20-97" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-20-97.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_maria_pypelincx_15770614" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_maria_pypelincx_15770614.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_clara_touion_15770614" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_clara_touion_15770614.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-1915" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-1915.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-300" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-300.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_jan_rubens_15790218" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_jan_rubens_15790218.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_taufbuch_reymont_ringout_15791108" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/taufbuch_reymont_ringout_15791108.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-299" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-299.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-301" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-301.xml"/>
+      </file>
+      <!-- 1580-1589 -->
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-300-310" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-300-310.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-1915-310" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-1915-310.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-1915-310_sub_numero" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-1915-310_sub_numero.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-302" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-302.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-360" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-360.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_taufbuch_reymont_ringout_15810429" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/taufbuch_reymont_ringout_15810429.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-366" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-366.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-303" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-303.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-304" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-304.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_jan_rubens_15820924" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_jan_rubens_15820924.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_jan_rubens_15820930" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_jan_rubens_15820930.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_maria_pypelincx_15820930" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_maria_pypelincx_15820930.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_maria_pypelincx_15821010" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_maria_pypelincx_15821010.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_jan_rubens_15821010" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_jan_rubens_15821010.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-30-1463" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-30-1463.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_jan_rubens_15830501" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_jan_rubens_15830501.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_rubens_pypelincx_15830105" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_rubens_pypelincx_15830105.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-20-102" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-20-102.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_croy_15830312" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_croy_15830312.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-374" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-374.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_testament_clara_touion_15830718" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/testament_clara_touion_15830718.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-20-103" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-20-103.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-373" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-373.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-373-377" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-373-377.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-373-382" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-373-382.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-377" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-377.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-378" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-378.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-23-6" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-23-6.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_epitaph_jan_rubens_15870301" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/epitaph_jan_rubens_15870301.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-cert-48" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-cert-48.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-23-6-2" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-23-6-2.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-20-105" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-20-105.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_HAStK_best-23-6-3" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/HAStK_best-23-6-3.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-397" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-397.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-397-585" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-397-585.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_eheschliessung_blandina_rubens_15900805" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/eheschliessung_blandina_rubens_15900805.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-402" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-402.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-402-581" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-402-581.xml"/>
+      </file>
+      <!-- 1590-1599 -->
+      <file ID="edoc_ed000083_archivalien_quittung_mitgift_blandina_15940831" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/quittung_mitgift_blandina_15940831.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-676" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-676.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-677" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-677.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-563" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-563.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_rubens_freimeister_lukasgilde_15981018" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/rubens_freimeister_lukasgilde_15981018.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-cert-59" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-cert-59.xml"/>
+      </file>
+      <!-- 1600-1609 -->
+      <file ID="edoc_ed000083_archivalien_SAA_sig-cert-61" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-cert-61.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-440" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-440.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-440-295" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-440-295.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-443" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-443.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-20" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-20.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-441" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-441.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_quittung_parcq_pypelincx_16020305" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/quittung_parcq_pypelincx_16020305.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-449" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-449.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_philipp_rubens_doktor_rechte_16030613" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/philipp_rubens_doktor_rechte_16030613.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-cert-64" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-cert-64.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-453" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-453.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-454" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-454.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-459" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-459.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-459-123" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-459-123.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-463" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-463.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brabantisierung_philipp_rubens_16061115" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brabantisierung_philipp_rubens_16061115.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_testament_maria_pypelincx_16061218" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/testament_maria_pypelincx_16061218.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_empfang_testament_pypelincx_16070109" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/empfang_testament_pypelincx_16070109.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-567" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-567.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_brief_erzherzog_albrecht_16070804" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/brief_erzherzog_albrecht_16070804.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-473" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-473.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-v-154" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-v-154.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_naturalisierung_philipp_rubens_16090119" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/naturalisierung_philipp_rubens_16090119.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-gf-75-2" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-gf-75-2.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ehrenkette_rubens_16090808" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ehrenkette_rubens_16090808.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ernennung_hofmaler_16090923" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ernennung_hofmaler_16090923.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_epitaph_maria_pypelincx_16081019" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/epitaph_maria_pypelincx_16081019.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pr-245" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pr-245.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-cert-70" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-cert-70.xml"/>
+      </file>
+      <!-- 1610-1619 -->
+      <file ID="edoc_ed000083_archivalien_AGRB_registre-des-gages-1610" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/AGRB_registre-des-gages-1610.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_pk-568" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_pk-568.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_pk-568-42v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_pk-568-42v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-50" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-50.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-49" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-49.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_st_walburgis_132r_1610" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/st_walburgis_132r_1610.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_st_walburgis_150r_1610" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/st_walburgis_150r_1610.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_st_walburgis_152r_161006" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/st_walburgis_152r_161006.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_st_walburgis_152r1_16100617" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/st_walburgis_152r1_16100617.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-483" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-483.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_nachlass_maria_pypelincx_16100628" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/nachlass_maria_pypelincx_16100628.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-486" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-486.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-568" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-568.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-r-50-320" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-r-50-320.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-699" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-699.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-483-II" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-483-II.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_GAA_16101101" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/GAA_16101101.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-494" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-494.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_taufakte_clara_serena_16110321" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/taufakte_clara_serena_16110321.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-f-6742" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-f-6742.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-491" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-491.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_AGRB_sig-1225" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/AGRB_sig-1225.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2848" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2848.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_epitaph_philipp_rubens_16110828" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/epitaph_philipp_rubens_16110828.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-ga-4665" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-ga-4665.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_antwerpen_kolveniersgilde_kreuzabnahme_1611bis1615" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/antwerpen_kolveniersgilde_kreuzabnahme_1611bis1615.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_rubens_epitaph_moretus_16120427" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/rubens_epitaph_moretus_16120427.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-506" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-506.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-504" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-504.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-503" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-503.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-507" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-507.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2860" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2860.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-509" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-509.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-512" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-512.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-512-238" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-512-238.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pr-102" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pr-102.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_AGRB_sig-1837" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/AGRB_sig-1837.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-511" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-511.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-511-161" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-511-161.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-512-245" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-512-245.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-512-189" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-512-189.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-512-30" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-512-30.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-512-103" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-512-103.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-511-239" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-511-239.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2866" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2866.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2872" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2872.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-517" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-517.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_gartenmauer_kolvenieren_16150725" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/gartenmauer_kolvenieren_16150725.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_AGRB_sig-1838" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/AGRB_sig-1838.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2878" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2878.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-506-83" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-506-83.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-n-3838" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-n-3838.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2690" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2690.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2690-395v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2690-395v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pr-48" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pr-48.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-530" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-530.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-530-23" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-530-23.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-530-37" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-530-37.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-n-2707" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-n-2707.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-530-195" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-530-195.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-530-212" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-530-212.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-530-222" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-530-222.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-535" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-535.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-536" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-536.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2901" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2901.xml"/>
+      </file>
+      <!-- 1620-1629 -->
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-544" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-544.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-546" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-546.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_AGRB_sig-1225-1621" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/AGRB_sig-1225-1621.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-f-303" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-f-303.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_antwerpen_kolveniersgilde_kreuzabnahme_16210213bis16221215" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/antwerpen_kolveniersgilde_kreuzabnahme_16210213bis16221215.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-550" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-550.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-573" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-573.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-573_sub_dato" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-573_sub_dato.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-716" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-716.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-551" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-551.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2690-325" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2690-325.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2690-478r" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2690-478r.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_PierpontMorgan_sig-ma-386" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/PierpontMorgan_sig-ma-386.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_AGRB_sig-1225-1622" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/AGRB_sig-1225-1622.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_AGRB_papiers-etat-1622" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/AGRB_papiers-etat-1622.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-555" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-555.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-555-59" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-555-59.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2919" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2919.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_honorar_politische_arbeiten_16230930" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/honorar_politische_arbeiten_16230930.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_rubens_antrag_adelsprädikat_16240129" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/rubens_antrag_adelsprädikat_16240129.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_antwerpen_hochaltar_mechelen_16240502" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/antwerpen_hochaltar_mechelen_16240502.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_adelspatent_bewilligung_16240914" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/adelspatent_bewilligung_16240914.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-570" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-570.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-722" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-722.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-574" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-574.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_tod_isabella_brant_volieren_16260620" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/tod_isabella_brant_volieren_16260620.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-580" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-580.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-584" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-584.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-ib-821" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-ib-821.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-581" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-581.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-581-20" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-581-20.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-581-21" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-581-21.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-581-21r" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-581-21r.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-581-21v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-581-21v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-581-22" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-581-22.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-581-22v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-581-22v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-585" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-585.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-583" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-583.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-591" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-591.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-591-324" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-591-324.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-591-314" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-591-314.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-727" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-727.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-589" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-589.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_Zeugnis_Delmonte_16280819" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/Zeugnis_Delmonte_16280819.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_nachlass_isabella_brant_16280828" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/nachlass_isabella_brant_16280828.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-596" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-596.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ernennung_sekretär_staatsrat_16290427" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ernennung_sekretär_staatsrat_16290427.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ernennung_sekretaer_staatsrat_philipp_an_isabella_16290427" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ernennung_sekretaer_staatsrat_philipp_an_isabella_16290427.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ernennung_staatsrat_antwort_isabella_16290517" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ernennung_staatsrat_antwort_isabella_16290517.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-729" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-729.xml"/>
+      </file>
+      <!-- 1630-1639 -->
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-597" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-597.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-602" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-602.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-597-267" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-597-267.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-600" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-600.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-730" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-730.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-577" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-577.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-592" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-592.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ehevertrag_rubens_fourment_16301204" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ehevertrag_rubens_fourment_16301204.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_hochzeit_rubens_fourment_16301206" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/hochzeit_rubens_fourment_16301206.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-600-140" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-600-140.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_england_ritterdiplom_16301215" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/england_ritterdiplom_16301215.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-600-158" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-600-158.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2962" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2962.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2919-847" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2919-847.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2968" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2968.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2968-611r" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2968-611r.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2968-794v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2968-794v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2968-842v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2968-842v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2968-883v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2968-883v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_tagebuch_michiel_ophovius_16310204" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/tagebuch_michiel_ophovius_16310204.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-578" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-578.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_erhebung_ritterstand_spanien_16310716" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/erhebung_ritterstand_spanien_16310716.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_tagebuch_michiel_ophovius_16310807" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/tagebuch_michiel_ophovius_16310807.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_adelsprivileg_spanien_16310820" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/adelsprivileg_spanien_16310820.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_tagebuch_michiel_ophovius_16310823" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/tagebuch_michiel_ophovius_16310823.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_AGRB_sig-1225-1633" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/AGRB_sig-1225-1633.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2979" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2979.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2979-526v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2979-526v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-627" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-627.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2985" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2985.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-579" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-579.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-628" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-628.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-735" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-735.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-579-2" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-579-2.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-579-3" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-579-3.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-736" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-736.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-629" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-629.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_kauf_landgut_steen_16350512" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/kauf_landgut_steen_16350512.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-628-310" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-628-310.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-2991" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-2991.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-634" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-634.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-634-95" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-634-95.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-637" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-637.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-737" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-737.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_AGRB_sig-f-315" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/AGRB_sig-f-315.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-580" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-580.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-640" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-640.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-642" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-642.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3002" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3002.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3002-646v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3002-646v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3002-654v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3002-654v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-649" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-649.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-649-187v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-649-187v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-505" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-505.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-649-193" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-649-193.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3008" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3008.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-582" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-582.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-n-3393-3" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-n-3393-3.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-n-3393" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-n-3393.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-n-3393-2" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-n-3393-2.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-741" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-741.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3014" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3014.xml"/>
+      </file>
+      <!-- 1640- -->
+      <file ID="edoc_ed000083_archivalien_rubens_steuerfreiheit_16400109" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/rubens_steuerfreiheit_16400109.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-741-185" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-741-185.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_testament-rubens-1640" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/testament-rubens-1640.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_epitaph_peter_paul_rubens_16400530" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/epitaph_peter_paul_rubens_16400530.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_isabella_brant_16401025" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/isabella_brant_16401025.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3020" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3020.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3020-619v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3020-619v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3020-653v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3020-653v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3020-653v1" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3020-653v1.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-pk-583" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-pk-583.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3026" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3026.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_nachlass_rubens_erbteilung_16430124" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/nachlass_rubens_erbteilung_16430124.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_nachlassverteilung_bestellung_vertreter_16430124" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/nachlassverteilung_bestellung_vertreter_16430124.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_nachlass_rubens_vollmacht_16430227" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/nachlass_rubens_vollmacht_16430227.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3026-513v" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3026-513v.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-sr-676" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-sr-676.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_erbteilung_rubens_16430701" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/erbteilung_rubens_16430701.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_testament_clara_johanna_rubens_16440811" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/testament_clara_johanna_rubens_16440811.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_nachlass_rubens_vermoegensteilung_16450711" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/nachlass_rubens_vermoegensteilung_16450711.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_bestellung_nachlassverwalter_16450828" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/bestellung_nachlassverwalter_16450828.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_SAA_sig-n-3399" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/SAA_sig-n-3399.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_ARL_sig-b-3038" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/ARL_sig-b-3038.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_nachlass_peter_paul_rubens_16460409" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/nachlass_peter_paul_rubens_16460409.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_versteigerung_rubenshaus_16600916" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/versteigerung_rubenshaus_16600916.xml"/>
+      </file>
+      <file ID="edoc_ed000083_archivalien_plakat_verkauf_steen_16821013" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="archivalien/plakat_verkauf_steen_16821013.xml"/>
+      </file>
+    </fileGrp>
+
+    <fileGrp ADMID="cc-by-sa">
+      <file ID="edoc_ed000083_viten_Anna-Roemer-Visscher-Aan-Rubens-1621" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Anna-Roemer-Visscher-Aan-Rubens-1621.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Baglione-Le-vite-1642" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Baglione-Le-vite-1642.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Bellori-Le-vite-1672" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Bellori-Le-vite-1672.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Bullart-Academie-des-Sciences-1682" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Bullart-Academie-des-Sciences-1682.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_de-Bie-Gulden-Cabinet-1662" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/de-Bie-Gulden-Cabinet-1662.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_de-la-Serre-Histoire-entree-1632" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/de-la-Serre-Histoire-entree-1632.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Félibien-Entretiens-1685" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Félibien-Entretiens-1685.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Gelenius-De-admiranda-sacra-et-civili-1645" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Gelenius-De-admiranda-sacra-et-civili-1645.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Gerbier-Claghtdicht-1620" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Gerbier-Claghtdicht-1620.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Gölnitzius-Ulysses-Belgica-Gallius-1631" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Gölnitzius-Ulysses-Belgica-Gallius-1631.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Houbraken-Groote-Schouburgh-1718" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Houbraken-Groote-Schouburgh-1718.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Lambert-van-den-Bos-Konstkabinet-1640" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Lambert-van-den-Bos-Konstkabinet-1640.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Lopez-de-Zarate-Obras-varias-1651" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Lopez-de-Zarate-Obras-varias-1651.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Miraeus-Vita-Alberti-Pii-1622" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Miraeus-Vita-Alberti-Pii-1622.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Marino-la-Galleria-1620" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Marino-la-Galleria-1620.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Moeri-Le-grand-Dictionnaire-1681" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Moeri-Le-grand-Dictionnaire-1681.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Moretus-Vorwort-Senecaausgabe-1615" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Moretus-Vorwort-Senecaausgabe-1615.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Peacham-Compleat-Gentleman-1634" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Peacham-Compleat-Gentleman-1634.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Sagittarius-Ulysses-Saxonius-1621" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Sagittarius-Ulysses-Saxonius-1621.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Sandrart-Teutsche-Academie-1675" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Sandrart-Teutsche-Academie-1675.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Scioppius-Scaliger-hypobolimaeus" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Scioppius-Scaliger-hypobolimaeus.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Simon-Ingels-De-getrouwe-herderin-1658" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Simon-Ingels-De-getrouwe-herderin-1658.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Smids-Gallerye-1685" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Smids-Gallerye-1685.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Smids-Gallerye-der-uitmuntende-Vrouwen-1690" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Smids-Gallerye-der-uitmuntende-Vrouwen-1690.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Smids-Poesye-1694" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Smids-Poesye-1694.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Sweerts-Monumenta-sepulcralia-1613" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Sweerts-Monumenta-sepulcralia-1613.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Vollenhoves-Poezy-1686" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Vollenhoves-Poezy-1686.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Vondel-Bespiegelingen-1700" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Vondel-Bespiegelingen-1700.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Vondel-Gebroeders-1650" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Vondel-Gebroeders-1650.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Vondel-Hollantsche-Parnas-1660" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Vondel-Hollantsche-Parnas-1660.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Vondel-Poezy-of-verscheidene-Gedichten-1651" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Vondel-Poezy-of-verscheidene-Gedichten-1651.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_von-Ramßla-Reisebeschreibung-1620-1734" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/von-Ramßla-Reisebeschreibung-1620-1734.xml"/>
+      </file>
+    </fileGrp>
+
+    <fileGrp ADMID="cc-by-sa">
+      <file ID="edoc_ed000083_viten_dubos-reflexions-critique-1" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/dubos-reflexions-critique-1.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_dubos-reflexions-critique-2" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/dubos-reflexions-critique-2.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_dubos-reflexions-critique-3" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/dubos-reflexions-critique-3.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Orlandi-abecedario-1733" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Orlandi-abecedario-1733.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Peacham-Complete-Gentleman-1627" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Peacham-Complete-Gentleman-1627.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_de-Piles-Abrege-1699" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/de-Piles-Abrege-1699.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_de-Piles-Conversation" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/de-Piles-Conversation.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_de-Piles-Cours-de-Peinture-1708" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/de-Piles-Cours-de-Peinture-1708.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_de-Piles-Dialogue-sur-le-Coloris-1699" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/de-Piles-Dialogue-sur-le-Coloris-1699.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_de-Piles-Dissertation-1681" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/de-Piles-Dissertation-1681.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_de-Piles-Elemens-1766" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/de-Piles-Elemens-1766.xml"/>
+      </file>
+    </fileGrp>
+
+    <fileGrp ADMID="cc-by-sa">
+      <file ID="edoc_ed000083_viten_Asterius-1615" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Asterius-1615.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_baudius-epistolarum-1636" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/baudius-epistolarum-1636.xml"/>
+      </file>
+      <file ID="edoc_ed000083_viten_Rubens-Electorum-libri-1608" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="viten/Rubens-Electorum-libri-1608.xml"/>
+      </file>
+    </fileGrp>
+
+    <fileGrp ADMID="cc-by-sa">
+      <file ID="edoc_ed000083_cdr_CDR-Band-1" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="cdr/CDR-Band-1.xml"/>
+      </file>
+      <file ID="edoc_ed000083_cdr_CDR-Band-2" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="cdr/CDR-Band-2.xml"/>
+      </file>
+      <file ID="edoc_ed000083_cdr_CDR-Band-3" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="cdr/CDR-Band-3.xml"/>
+      </file>
+      <file ID="edoc_ed000083_cdr_CDR-Band-4" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="cdr/CDR-Band-4.xml"/>
+      </file>
+      <file ID="edoc_ed000083_cdr_CDR-Band-5" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="cdr/CDR-Band-5.xml"/>
+      </file>
+      <file ID="edoc_ed000083_cdr_CDR-Band-6" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="cdr/CDR-Band-6.xml"/>
+      </file>
+    </fileGrp>
+
+    <fileGrp ADMID="cc-by-sa">
+      <file ID="edoc_ed000083_fg_introduction" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="tei-introduction.xml"/>
+      </file>
+    </fileGrp>
+
+    <fileGrp ADMID="cc-by-sa">
+      <file ID="edoc_ed000083_register_bibl" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="register/register-bibl.xml"/>
+      </file>
+      <file ID="edoc_ed000083_register_corporate" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="register/register-corporate.xml"/>
+      </file>
+      <file ID="edoc_ed000083_register_person" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="register/register-person.xml"/>
+      </file>
+      <file ID="edoc_ed000083_register_place" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="register/register-place.xml"/>
+      </file>
+      <file ID="edoc_ed000083_register_work" MIMETYPE="application/xml">
+        <FLocat LOCTYPE="URL" xlink:href="register/register-work.xml"/>
+      </file>
+    </fileGrp>
+  </fileSec>
+
+  <structMap>
+    <div/>
+  </structMap>
+
+</mets>
