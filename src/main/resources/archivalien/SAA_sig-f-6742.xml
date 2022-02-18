@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_015">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_015"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-f-6742">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -40,7 +39,7 @@
                         <idno type="signatur">F. 6742, fol. 17</idno>
                     </msIdentifier>
                     <head>
-                        <title>Brief des Kaufmanns <rs type="person" ref="#grand_jan">Jan le Grand</rs> an <rs type="person" ref="#eeckhoute_lieven">Lieven vuytten Eeckhoute</rs>
+                        <title>Brief des Kaufmanns <rs type="person" ref="../register/register-person.xml#grand_jan">Jan le Grand</rs> an <rs type="person" ref="../register/register-person.xml#eeckhoute_lieven">Lieven vuytten Eeckhoute</rs>
                             bezüglich eines Gemäldes für St.-Winoksbergen, für dessen Ausführung
                             er Rubens empfiehlt, "ein guter Meister, den man den Gott der Maler
                             nennt"</title>
@@ -57,8 +56,7 @@
                         <listBibl>
                             <bibl>A. E. E. Monballieu: P. P. Rubens en het "Nachtmael" voor St.-Winoksbergen
                                 (1611), een niet uitgevoerd schilderij van de meester. In: Jaarboek
-                                Koninklijk Museum voor Schone Kunsten Antwerpen, 1965. S. 183-205.<ptr
-                                    type="opac" cRef="129945838"/></bibl>
+                                Koninklijk Museum voor Schone Kunsten Antwerpen, 1965. S. 183-205.<ptr type="opac" cRef="129945838"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -69,17 +67,15 @@
         <body>
             <div xml:lang="nld">
                 <p> Sedert hebbe den uwen 9 deser ontfangen met ingesloten op dermonde als oock mede
-                    dien voor <rs type="person" ref="#bardelets_peeter">Peeter Bardelets</rs>,
+                    dien voor <rs type="person" ref="../register/register-person.xml#bardelets_peeter">Peeter Bardelets</rs>,
                     leveren als hy compt, die ick sie een mate medebrenght om een stuck schilderye
                     te doen maecken, een nachtmael<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Jesus Christus</term><index indexName="stw"><term xml:lang="deu">Das letzte Abendmahl</term></index>
                     </index><note resp="A.H." type="footnote">Dieses Gemälde ist jedoch nie
-                        entstanden.</note> om inde <rs type="corporate" ref="#abtei_st_winoksbergen"
-                        >Abdye van Sint Winocxberghe</rs><index indexName="stw">
+                        entstanden.</note> om inde <rs type="corporate" ref="../register/register-corporate.xml#abtei_st_winoksbergen">Abdye van Sint Winocxberghe</rs><index indexName="stw">
                         <term xml:lang="deu">St. Winoksbergen</term>
                     </index> te stellen, daer ick gerne om uwentwille alle behelp aen doen sal. Wy
-                    hebben hier een goet meester die de god van de schilders is genaempt, <rs
-                        type="person" ref="#rubens_peter_paul">Peeter Rubbens</rs>, tis den schilder
+                    hebben hier een goet meester die de god van de schilders is genaempt, <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter Rubbens</rs>, tis den schilder
                     van sijn Altesse. Conden wy van hem gedient worden, versecker danck daeraen
                     sullen haelen. Dan is diere can wel stucken maecken daer hy 10 of 1200 guldens
                     van heeft naer de grootte. Hy heeft hier diversche stucken gemaeckt die in
@@ -94,16 +90,15 @@
                         Dorking (Surrey) befindet. Das Gemälde selbst befindet sich heute im Prado,
                         Madrid. Vgl. <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989,
                             S. 167 und 309 <ptr type="gbv" cRef="022373535"/></bibl></note>, tot
-                        <rs type="corporate" ref="#antwerpen_abtei_st_michiels">Sinte
+                        <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Sinte
                         Michiels</rs><index indexName="stw">
                         <term xml:lang="deu">Madonna della Vallicella</term>
                     </index><index indexName="psw">
                         <term type="PND" xml:lang="deu">Gregor (Papst, I.)</term>
-                    </index><note resp="A.H." type="footnote">Rubens' erste Fassung der <rs type="work" ref="#jaffe_64">Madonna
+                    </index><note resp="A.H." type="footnote">Rubens' erste Fassung der <rs type="work" ref="../register/register-work.xml#jaffe_64">Madonna
                         della Vallicella</rs> wurde nach der Ablehung durch die Oratorianer der Chiesa
                         Nuova zur Grablege der Maria Pypelincx in St-Michiels verbracht. Vgl.
-                            <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S. 159<ptr
-                                type="gbv" cRef="022373535"/></bibl></note>,
+                            <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S. 159<ptr type="gbv" cRef="022373535"/></bibl></note>,
                     Preeckheren ende Borchtkerck<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term xml:lang="deu">Anbetung der
                             Hirten</term></index>
@@ -113,8 +108,8 @@
                         <term type="SWD" xml:lang="deu">Eucharistie</term>
                     </index><index indexName="stw">
                         <term xml:lang="deu">Dominikanerkirche</term>
-                    </index><note resp="A.H." type="footnote">Die <rs type="work" ref="#jaffe_121">"Anbetung der Hirten"</rs> und das
-                        <rs type="work" ref="#jaffe_88">"Altarsakrament"</rs> sind
+                    </index><note resp="A.H." type="footnote">Die <rs type="work" ref="../register/register-work.xml#jaffe_121">"Anbetung der Hirten"</rs> und das
+                        <rs type="work" ref="../register/register-work.xml#jaffe_88">"Altarsakrament"</rs> sind
                         noch heute in der Dominikanerkirche St. Paul in Antwerpen zu
                         sehen.</note> die fray syn. Dan vande prys en can Ul. nyet
                     schryven voor wy de mate en sien </p>

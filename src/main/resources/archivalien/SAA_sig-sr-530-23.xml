@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_140">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_140"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-530-23">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -62,12 +61,11 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#borcht_gielis">Gielis van der Borcht</rs> ende Jou<hi
-                        rend="super">ffr</hi>
-                    <rs type="person" ref="#lantmeter_philipoote">Philippote de Lantmetere</rs>, 
+                    <rs type="person" ref="../register/register-person.xml#borcht_gielis">Gielis van der Borcht</rs> ende Jou<hi rend="super">ffr</hi>
+                    <rs type="person" ref="../register/register-person.xml#lantmeter_philipoote">Philippote de Lantmetere</rs>, 
                     <span from="" xml:lang="lat"> eus uxor, cum tutis alienus</span>, 
                     heur gegeven metten rechte bekenden schuldich te zijn
-                    van goeder rchtveerdiger schult <rs type="person" ref="#rubens_peter_paul">Petro
+                    van goeder rchtveerdiger schult <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro
                         Paulo Rubens</rs>, schilder van henne Hoochheden<index indexName="psw">
                         <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog, VII.)</term>
                     </index><index indexName="psw">
@@ -82,34 +80,27 @@
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
                     </index>, alzoo daerinne dedoemt ende gecondemneert waren, gelijck wij hen ende
                     elcken van hen t' hennen versuecke daerinne doemen ende condemneren midts desen
-                    wel ende volcommelijck opte leggen ende te voldoene aende voors. <rs
-                        type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> oft den
+                    wel ende volcommelijck opte leggen ende te voldoene aende voors. <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs> oft den
                     brengers deser brieven van op heden date, deses ende vier jaren naestcommende
-                    ende voorts jae<hi rend="super">rl</hi> verloop daeraft te betalen tegen den pe<hi
-                        rend="super">nn</hi> 16 inneg<hi rend="super">es</hi> op heden date, oft wel
+                    ende voorts jae<hi rend="super">rl</hi> verloop daeraft te betalen tegen den pe<hi rend="super">nn</hi> 16 inneg<hi rend="super">es</hi> op heden date, oft wel
                     alsdan daervore rente te constitueren op goede vaste panden binnen dese stadt
                     gelegen ter contentemente van voors. Ruebens oft den brengere deses brieve,
                     sonder eenich utstel oft dilay, calierende daervore <span from="" xml:lang="lat">se et sua quaecumque</span> ende
                     specialijck de voors. Jou<hi rend="super">ff</hi> Philippote de Lantmeter, <span from="" xml:lang="lat">cum
                     tutis alienis</span> pr<hi rend="super">ed</hi> een bosch beplant met eycken, abeelen
                     gronden ende toebehoorten, groot sevenhondert 71 roeden gelgen bynnen der
-                    prachte van <rs type="place" ref="#wilrijk">Wilrijk</rs>, opte hooge heye, int
-                    Verlaeren, tusschen <rs type="person" ref="#flie_peeter">P<hi rend="super">rs</hi>
-                        de la Flie</rs> erve, <span from="" xml:lang="lat">ex una ende</span> <rs type="person" ref="#pape_laureys"
-                            >Laureys de Pape</rs> erve, <span from="" xml:lang="lat">ex alters</span>, 
+                    prachte van <rs type="place" ref="../register/register-place.xml#wilrijk">Wilrijk</rs>, opte hooge heye, int
+                    Verlaeren, tusschen <rs type="person" ref="../register/register-person.xml#flie_peeter">P<hi rend="super">rs</hi>
+                        de la Flie</rs> erve, <span from="" xml:lang="lat">ex una ende</span> <rs type="person" ref="../register/register-person.xml#pape_laureys">Laureys de Pape</rs> erve, <span from="" xml:lang="lat">ex alters</span>, 
                     omme zuytwaerts aende Scheeren strate
                     ende noch een boschke metten gronde ende toebehoorten, groot drijhondert
                     tweenviertich roeden, onbegrepen dermaten oock gelgen tot Wilrijck voors.
-                    gelijck heur de voors. twee partijen bosch verstorven zijn van wijlen <rs
-                        type="person" ref="#lantmeter_philipp">Philips de Lantmeter</rs>, heuren
+                    gelijck heur de voors. twee partijen bosch verstorven zijn van wijlen <rs type="person" ref="../register/register-person.xml#lantmeter_philipp">Philips de Lantmeter</rs>, heuren
                     vader den welcken die in scheydinge ende deylingen voor schepenen alhier
                     gepasseert opten <date when="1576-08-06">6<hi rend="super">den</hi> dach
                         Augusti anno XV<hi rend="super">c</hi> sessentzeventich</date>, belast miet 42
-                    schell. oude groote Br<hi rend="super">ab</hi> chijs den Hertoge van <rs
-                        type="place" ref="#brabant">Brabant</rs> ende noch verbonden voor omtrent
-                    zessehondert gulden eens aen <rs type="person" ref="#woestijnen_jaspar">Ja<hi
-                            rend="super">sp</hi> van de Woestijnen</rs> ende <rs type="person"
-                        ref="#kerckhove_gielis">Gielis van de Kerckhove de jonge</rs>, sonder meer
+                    schell. oude groote Br<hi rend="super">ab</hi> chijs den Hertoge van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs> ende noch verbonden voor omtrent
+                    zessehondert gulden eens aen <rs type="person" ref="../register/register-person.xml#woestijnen_jaspar">Ja<hi rend="super">sp</hi> van de Woestijnen</rs> ende <rs type="person" ref="../register/register-person.xml#kerckhove_gielis">Gielis van de Kerckhove de jonge</rs>, sonder meer
                     ende dit elck eurer een voor al, als principael ende sonder divisie ende opt
                     vommisse als vore ende op parate, reelde end heerlijcke executie, renunchierende
                     tot meerder sekerhyt de voors. comparanten van alle beneficien ende exceptien
@@ -128,13 +119,13 @@
                  <div type="note" rend="margin">
                      <head>Marginalie:</head>
                  <p>Comparant S<hi rend="super">r</hi>
-                        <rs type="person" ref="#rubens_peter_paul">Peeter Paulo Ruebens</rs> ende
+                        <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter Paulo Ruebens</rs> ende
                         verclaerede hem voldsen ende bereit te zijn van Gielis van der Borcht ende
                         zijne huysvrouwe van de somme van tweehondert gulden ende in desen contracte
                         geruert als gerestrictieert in de somme van derthienhondert gulden eens
                         daervore ende voors. Jou<hi rend="super">ff</hi> Philippote Landmeters opten
                             <date when="1618-07-31">lesten July XVI<hi rend="super">c</hi>
-                            achthien</date> aen <rs type="person" ref="#nispen_adrian">Adrian van
+                            achthien</date> aen <rs type="person" ref="../register/register-person.xml#nispen_adrian">Adrian van
                             Nispen</rs> getransporteert heeft de bosschen in desen contracte
                      vermelt, consenterende ocersulcx daer cassatie ende voors. contract.</p>
                         <closer><dateline>Actum <date when="1623-11-14">14. November 1623</date>.<lb/>

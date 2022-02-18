@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_059">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_059"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-373">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -47,8 +46,7 @@
                         <msItem>
                           
                             <filiation>
-                                <note resp="A.H." type="footnote">Vgl. hierzu auch das Dokument vom <ref
-                                    type="rubens" cRef="ed_rubens_005">15. Juni 1610</ref></note>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch das Dokument vom <ref type="rubens" cRef="ed_rubens_005">15. Juni 1610</ref></note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -60,8 +58,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 255f. und 305<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 255f. und 305<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
                                 Gerechtsgebouw, 15.-30. Oktober 1977, S. 241, Nr. 149</bibl>
                         </listBibl>
@@ -82,46 +79,37 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Jouffrauwe <rs type="person" ref="#pypelincx_maria">Marie Pypelinx</rs>,
-                    wettighe huysvrouwe Meesters <rs type="person" ref="#rubens_jan">Janne
+                <p> Jouffrauwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelinx</rs>,
+                    wettighe huysvrouwe Meesters <rs type="person" ref="../register/register-person.xml#rubens_jan">Janne
                     Rubens</rs>, Oud-Schepen deser stadt, die heur omme tghene des nabeschreven
                     staet te mogen doene volcomelijck ende onwederroepelijck gemechticht heeft,
                     breeder blijckende bij eenre opender procuratie in pampiere geschreven,
                     gepasseert opden <date when="--08-22">XXII<hi rend="super">en</hi> Augusti</date>
-                    lestleden, onder den segel der stadt van <rs type="place" ref="#colen"
-                    >Colen</rs>, quam vidimus, gaff terve ende in erflijcken rechte <rs
-                        type="person" ref="#homissen_peeter">Peeter Hoomissen</rs> ende <rs
-                        type="person" ref="#biestmans_lucia">Lucia Biestmans</rs>, een huys metten
+                    lestleden, onder den segel der stadt van <rs type="place" ref="../register/register-place.xml#colen">Colen</rs>, quam vidimus, gaff terve ende in erflijcken rechte <rs type="person" ref="../register/register-person.xml#homissen_peeter">Peeter Hoomissen</rs> ende <rs type="person" ref="../register/register-person.xml#biestmans_lucia">Lucia Biestmans</rs>, een huys metten
                     gronde ende toebehoorten, genombreert numero een, eertyden genaempt den
                     vliegenden Hert<index indexName="stw">
                         <term xml:lang="nld">vliegende Hert</term>
-                    </index> ende daer nu ter tijt vuythanght het Moeriaenshooft<index
-                        indexName="stw">
+                    </index> ende daer nu ter tijt vuythanght het Moeriaenshooft<index indexName="stw">
                         <term xml:lang="nld">Moeriaenshooft</term>
-                    </index>, gestaen ende geleghen int <rs type="place" ref="#borgerhout"
-                        >Borgerhout</rs> alhier, gelijck ende in alle der manieren den voors.
-                    Meester <rs type="person" ref="#rubens_jan">Jan Ruebens</rs> tvoors. huys
+                    </index>, gestaen ende geleghen int <rs type="place" ref="../register/register-place.xml#borgerhout">Borgerhout</rs> alhier, gelijck ende in alle der manieren den voors.
+                    Meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebens</rs> tvoors. huys
                     aencommen, bleven ende verstorven is, mits der doot ende atflijvicheyt van
-                    wijlen <rs type="person" ref="#lantmeter_jan">Janne de Lantmetere</rs>, sijnen
-                    schoonvader, ende jouffrouwe <rs type="person" ref="#spirinx_barbara">Barbara
-                        Arens alias Spierincx</rs>, zijne moeder, ende hem daerenteynden opden <date
-                        when="1576-08-06">VI<hi rend="super">en</hi> Augusti anno XV<hi rend="super"
-                            >c</hi> sessentzeventich</date> in scheydinge te deele bevallen is,
+                    wijlen <rs type="person" ref="../register/register-person.xml#lantmeter_jan">Janne de Lantmetere</rs>, sijnen
+                    schoonvader, ende jouffrouwe <rs type="person" ref="../register/register-person.xml#spirinx_barbara">Barbara
+                        Arens alias Spierincx</rs>, zijne moeder, ende hem daerenteynden opden <date when="1576-08-06">VI<hi rend="super">en</hi> Augusti anno XV<hi rend="super">c</hi> sessentzeventich</date> in scheydinge te deele bevallen is,
                     blijckende bijder selver scheydinge ende der declaratie daernaer gevolcht,
                     tsjaers erflijck, boven den eenen Carolus gulden erflijck, die de voors.
                     erfnemere den voors. erfgevere gereet affgelost ende affgequeten heeft, omme
                     noch eenenderttich Carolus guldenen goet van goude ende swaer van gewichte oft
                     de weerde daervoere in anderen ganckbaeren gelde naer advenant jaerlijck ende
-                    erflijckere renten, dandum alle jaeren den <date when="--09-12">XII<hi
-                            rend="super">en</hi> Septembris</date>, waeraff deerste jaer renten vallen
+                    erflijckere renten, dandum alle jaeren den <date when="--09-12">XII<hi rend="super">en</hi> Septembris</date>, waeraff deerste jaer renten vallen
                     ende verschijnen sal den <date when="--09-12">XII<hi rend="super">en</hi>
                         Septembris</date> proximi, los ende vrij van allen vijffde, honderste,
                     thiende, twintichste, meerdere ende mindere penningen dijer oppe commen souden
                     moghen, te waerne, op nyet darr jaerlijcx voeren wtgaende, anders dat medepant
                     is ende blijft over <measure type="currency" quantity="8">VIII</measure> Karolus
-                    guldenen erflijck <rs type="person" ref="#lodewiycx_peeter">Peeteren
-                    Lodewycx</rs> die jouffrouwe <rs type="person" ref="#lantmeter_jaquelijne"
-                        >Jacqueline Lantmeters</rs> jaerlijcx betalen moet vuyt heuren speelhoff
+                    guldenen erflijck <rs type="person" ref="../register/register-person.xml#lodewiycx_peeter">Peeteren
+                    Lodewycx</rs> die jouffrouwe <rs type="person" ref="../register/register-person.xml#lantmeter_jaquelijne">Jacqueline Lantmeters</rs> jaerlijcx betalen moet vuyt heuren speelhoff
                     metten huyse daerbij geleghen, sonder dees huys cost, last oft schade,
                     conditione dat de voors. erfnemeren gehouden ende schuldich zelen wesen ende
                     geloven pro se et suis des voors. afgevers eenenderttich Carolus guldenen
@@ -132,10 +120,8 @@
                             XV<hi rend="super">c</hi> vijventachtentich</date>, item vijff Carolus
                     guldenen erflijck opten <date when="1586-09-12">XII<hi rend="super">en</hi>
                         Septembris anno XV<hi rend="super">c</hi> sessentachtentich</date>, item vijff
-                    Carolus guldenen erflijck opden <date when="1587-09-12">XII<hi rend="super"
-                        >en</hi> Septembris anno XV<hi rend="super">c</hi> sevenentachtentich</date>,
-                    item vijff Carolus guldenen erflijck opden <date when="1588-09-12">XII<hi
-                            rend="super">en</hi> Septembris anno XV<hi rend="super">c</hi>
+                    Carolus guldenen erflijck opden <date when="1587-09-12">XII<hi rend="super">en</hi> Septembris anno XV<hi rend="super">c</hi> sevenentachtentich</date>,
+                    item vijff Carolus guldenen erflijck opden <date when="1588-09-12">XII<hi rend="super">en</hi> Septembris anno XV<hi rend="super">c</hi>
                         achtentachtentich</date> ende de resterende vijff Carolus guldenen erflijck
                     opden <date when="1589-09-12">XII<hi rend="super">en</hi> Septembris anno
                             XV<hi rend="super">c</hi> ende negenentachtentich</date>, elcken penninck

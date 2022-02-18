@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listPerson type="register" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu">
+<listPerson type="register" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     
     <person xml:id="aachen_hans_von">
         <persName key="PND_118643525">
@@ -61,7 +61,7 @@
             <forename>Hans</forename>
             <surname>Ackerman</surname>
         </persName>
-        <note type="annotation">Mann von <rs type="person" ref="#liesvelt_maria">Maria van Liesvelt</rs></note>
+        <note type="annotation">Mann von <rs type="person" ref="../register/register-person.xml#liesvelt_maria">Maria van Liesvelt</rs></note>
     </person>
 
     <person xml:id="aerts_peeter">
@@ -85,8 +85,8 @@
             <forename>Dierick</forename>
             <surname>Alaerts</surname>
         </persName>
-        <note type="annotation">Vater von <rs type="person" ref="#alaerts_susanna">Susanna Alaerts</rs>, 
-            Mann von <rs type="person" ref="#gielis_catharina">Catharina Gielis</rs>.</note>
+        <note type="annotation">Vater von <rs type="person" ref="../register/register-person.xml#alaerts_susanna">Susanna Alaerts</rs>, 
+            Mann von <rs type="person" ref="../register/register-person.xml#gielis_catharina">Catharina Gielis</rs>.</note>
     </person>
 
     <person xml:id="alaerts_susanna">
@@ -94,9 +94,9 @@
             <forename>Susanna</forename>
             <surname>Alaerts</surname>
         </persName>
-        <note type="annotation">Frau von <rs type="person" ref="#bol_jan">Jan Bol</rs>, 
-            Tochter von <rs type="person" ref="#alaerts_dierick"></rs>Dierick Alaerts und 
-            <rs type="person" ref="#gielis_catharina">Catharina Gielis</rs>.</note>
+        <note type="annotation">Frau von <rs type="person" ref="../register/register-person.xml#bol_jan">Jan Bol</rs>, 
+            Tochter von <rs type="person" ref="../register/register-person.xml#alaerts_dierick"/>Dierick Alaerts und 
+            <rs type="person" ref="../register/register-person.xml#gielis_catharina">Catharina Gielis</rs>.</note>
     </person>
     
     <person xml:id="alba_herzog_iii">
@@ -134,9 +134,7 @@
             </placeName>
         </death>
         <note type="annotation">Italienischer Maler, genannt "l´Albane (1578-1660)</note>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/albani_francesco.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/albani_francesco.html">www.artcyclopedia.com</ref>
         </note>
 
     </person>
@@ -328,9 +326,7 @@
                 <country>Italien</country>
                 <settlement type="city">Palermo</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/anguissola_sofonisba.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/anguissola_sofonisba.html">www.artcyclopedia.com</ref></note>
         <note type="annotation">Italienische Malerin</note>
     </person>
     
@@ -570,7 +566,7 @@
             <forename>Jacques</forename>
             <surname>Arnouts</surname>
         </persName>
-        <note type="annotation">Bruder von <rs type="person" ref="#arnouts_jan_baptista">Jan Baptista Arnouts</rs>.</note>
+        <note type="annotation">Bruder von <rs type="person" ref="../register/register-person.xml#arnouts_jan_baptista">Jan Baptista Arnouts</rs>.</note>
     </person>
 
     <person xml:id="arnouts_jan_baptista">
@@ -579,7 +575,7 @@
             <forename type="middle">Baptista</forename>
             <surname>Arnouts</surname>
         </persName>
-        <note type="annotation">Bruder von <rs type="person" ref="#arnouts_jacques">Jacques Arnouts</rs>.</note>
+        <note type="annotation">Bruder von <rs type="person" ref="../register/register-person.xml#arnouts_jacques">Jacques Arnouts</rs>.</note>
     </person>
 
     <person xml:id="arrian">
@@ -675,7 +671,7 @@
             <nameLink>vander</nameLink>
             <surname>Ast</surname>
         </persName>
-        <note type="annotation">Mann von <rs type="person" ref="#minne_helena">Helena Minne</rs>.</note>
+        <note type="annotation">Mann von <rs type="person" ref="../register/register-person.xml#minne_helena">Helena Minne</rs>.</note>
     </person>
 
     <person xml:id="ast_marie">
@@ -769,7 +765,7 @@
             <forename>Michiels</forename>
             <surname>Bacheler</surname>
         </persName>
-        <note type="annotation">Mann von <rs type="person" ref="#pierone_appolonia">Appolonia oft Pierone Moreau</rs>.</note>
+        <note type="annotation">Mann von <rs type="person" ref="../register/register-person.xml#pierone_appolonia">Appolonia oft Pierone Moreau</rs>.</note>
     </person>
 
     <person xml:id="backer_andries">
@@ -779,7 +775,7 @@
             <surname>Backer</surname>
         </persName>
         <note type="annotation">Auch als Andreas Baeckaert bekannt; Doktor; verheiratet mit
-            <rs type="person" ref="#thys_magdalena">Magdalena Thys</rs>.</note>
+            <rs type="person" ref="../register/register-person.xml#thys_magdalena">Magdalena Thys</rs>.</note>
     </person>
 
     <person xml:id="backer_jan">
@@ -837,11 +833,8 @@
         <note type="annotation">ital. Maler und Kunstschriftsteller, würdigt Peter Paul Rubens 1642
             in seiner Vitensammlung<bibl>Giovanni Baglione: Le Vite dei Pittori, Scultori et
                 Architetti. Dal Pontificato di Gregorio XIII. del 1572. In fino a’tempi di Papa
-                Urbano Ottavo nel 1642. Rom: Andrea Fei, 1642. <ptr type="gbv" cRef="134557867"
-            /></bibl></note>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/baglione_giovanni.html"
-                >´www.artcyclopedia.com</ref></note>
+                Urbano Ottavo nel 1642. Rom: Andrea Fei, 1642. <ptr type="gbv" cRef="134557867"/></bibl></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/baglione_giovanni.html">´www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="baifius_lazarus">
@@ -869,7 +862,7 @@
             <surname>Balbani</surname>
         </persName>
         <note type="annotation">Witwe
-            von <rs type="person" ref="#goes_peter">Peeter van der Goes</rs>, die das Haus Sint Jan aus dem Nachlass von <rs type="person" ref="#lantmeter_jan">Jan de Lantmeter</rs> kaufte.</note>
+            von <rs type="person" ref="../register/register-person.xml#goes_peter">Peeter van der Goes</rs>, die das Haus Sint Jan aus dem Nachlass von <rs type="person" ref="../register/register-person.xml#lantmeter_jan">Jan de Lantmeter</rs> kaufte.</note>
     </person>
 
     <person xml:id="balen_hendrik">
@@ -890,9 +883,7 @@
             </placeName>
         </death>
         <note type="annotation">Flämischer Maler und Zeichner</note>
-        <note type="references">Links zu Abbildungen auf <ref
-                target="http://www.artcyclopedia.com/artists/balen_hendrick_van.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen auf <ref target="http://www.artcyclopedia.com/artists/balen_hendrick_van.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="balen_geertruyt">
@@ -961,9 +952,7 @@
             </placeName>
         </death>
         <note type="annotation">Maler und Künstler</note>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/barocci_federico.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/barocci_federico.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -1157,9 +1146,7 @@
             </placeName>
         </death>
         <note type="annotation">Maler</note>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/bellini_giovanni.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/bellini_giovanni.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -1190,8 +1177,7 @@
             <nameLink>van</nameLink>
             <surname>Bemel</surname>
         </persName>
-        <note type="annotation">Apotheker in Antwerpen, Mann von <rs type="person"
-                ref="#geverts_maria"/></note>
+        <note type="annotation">Apotheker in Antwerpen, Mann von <rs type="person" ref="../register/register-person.xml#geverts_maria"/></note>
     </person>
 
     <person xml:id="benignus_julius">
@@ -1448,9 +1434,7 @@
                 <country>Niederlande</country>
                 <settlement type="city">Utrecht</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/bloemaert_abraham.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/bloemaert_abraham.html">www.artcyclopedia.com</ref></note>
         <note type="annotation">Niederländischer Maler und Graphiker; Sohn von Cornelis Bloemaert</note>
         
     </person>
@@ -1660,9 +1644,7 @@
                 <country>Italien</country>
                 <settlement type="city">Venedig</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über die <ref
-                target="http://www.artcyclopedia.com/artists/bordone_paris.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über die <ref target="http://www.artcyclopedia.com/artists/bordone_paris.html">www.artcyclopedia.com</ref></note>
     </person>
     
     <person xml:id="borghese_camillo">
@@ -1829,9 +1811,7 @@
                 <settlement type="city">Paris</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/bourdon_sebastien.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/bourdon_sebastien.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -1880,9 +1860,7 @@
                 <country>Italien</country>
                 <settlement type="city">Rom</settlement>
             </placeName></death>
-        <note type="references">Bramante bei <ref
-                target="http://www.artcyclopedia.com/artists/bramante_donato.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Bramante bei <ref target="http://www.artcyclopedia.com/artists/bramante_donato.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="brandt_guilliam">
@@ -1996,9 +1974,7 @@
         </persName>
         <birth when="1554">1554</birth>
         <death when="1626">1626</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/bril_paul.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/bril_paul.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="brintes_catarina">
@@ -2246,9 +2222,7 @@
                 <settlement type="city">Paris</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/le_brun_charles.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/le_brun_charles.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -2425,9 +2399,7 @@
                 <country>Italien</country>
                 <settlement type="city">Messina</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/caravaggio_polidoro_da.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/caravaggio_polidoro_da.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="caligua">
@@ -2549,9 +2521,7 @@
                 <country>Italien</country>
                 <settlement type="city">Parma</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungenüber <ref
-                target="http://www.artcyclopedia.com/artists/carracci_agostino.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungenüber <ref target="http://www.artcyclopedia.com/artists/carracci_agostino.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="carracci_annibale">
@@ -2567,9 +2537,7 @@
                 <country>Italien</country>
                 <settlement type="city">Rom</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/carracci_annibale.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/carracci_annibale.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="caravaggio">
@@ -2586,9 +2554,7 @@
                 <settlement type="city">Port'Ercole</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/caravaggio.html"
-            >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/caravaggio.html">www.artcyclopedia.com</ref>
         </note>
     </person>
     
@@ -2727,9 +2693,7 @@
             </placeName>
         </death>
         <note type="annotation">Ital. Maler und Architekt </note>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/cesari_giuseppe.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/cesari_giuseppe.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -2866,9 +2830,7 @@
         </persName>
         <birth notBefore="1239" notAfter="1240">um 1240</birth>
         <death notBefore="1301" notAfter="1302">um 1302</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/cimabue.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/cimabue.html">www.artcyclopedia.com</ref></note>
     </person>
     
     <person xml:id="cioli_andrea">
@@ -3276,9 +3238,7 @@
                 <country>Italien</country>
                 <settlement type="city">Correggio</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/correggio.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/correggio.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="corsputte_nicolas">
@@ -3326,9 +3286,7 @@
                 <settlement type="city">Rom</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/pietro_da_cortona.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/pietro_da_cortona.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -3351,9 +3309,7 @@
                 <settlement type="city">Antwerpen</settlement>
             </placeName></birth>
         <death when="1671-07-04">4. Juli 1671</death>
-        <note type="references">Links zu Abbildungen über die <ref
-                target="http://www.artcyclopedia.com/artists/cossiers_jan.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über die <ref target="http://www.artcyclopedia.com/artists/cossiers_jan.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="cottington_francis">
@@ -3783,9 +3739,7 @@
                 <country>Italien</country>
                 <settlement type="city">Neapel</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/domenichino.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/domenichino.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="doncker_melchior">
@@ -3886,9 +3840,7 @@
                 <settlement type="city">Nürnberg</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/durer_albrecht.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/durer_albrecht.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -3984,9 +3936,7 @@
                 <settlement type="city">London</settlement>
             </placeName></death>
          <note type="annotation">flämischer Maler, Graphiker und Radierer; Mitarbeiter im Atelier von Rubens</note>
-        <note type="references">Links zu Abbildung über <ref
-                target="http://www.artcyclopedia.com/artists/van_dyck_sir_anthony.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildung über <ref target="http://www.artcyclopedia.com/artists/van_dyck_sir_anthony.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="dyck_geeraert">
@@ -4142,8 +4092,7 @@
                 <country>England</country>
                 <settlement type="city">Richmond</settlement>
             </placeName></death>
-        <note type="references">Eintrag im <ref target="http://www.bbkl.de/e/elisabeth_k_v_e.shtml"
-                >Biographisch-Bibliographischen Kirchenlexikon (BBKL)</ref></note>
+        <note type="references">Eintrag im <ref target="http://www.bbkl.de/e/elisabeth_k_v_e.shtml">Biographisch-Bibliographischen Kirchenlexikon (BBKL)</ref></note>
     </person>
 
     <person xml:id="elst_barbara">
@@ -4853,9 +4802,7 @@
         </persName>
         <birth when="1576">1576</birth>
         <death when="1650">1650</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/galle_i_cornelis.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/galle_i_cornelis.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="gamel_jan">
@@ -5208,9 +5155,7 @@
                 <settlement type="city">Castelfranco Veneto</settlement>
             </placeName></birth>
         <death notAfter="1510-10-25">vor dem 25. Oktober 1510</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/giorgione.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/giorgione.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="girin_jean">
@@ -5284,9 +5229,7 @@
                 <country>Niederlande</country>
                 <settlement type="city">Haarlem</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildung über <ref
-                target="http://www.artcyclopedia.com/artists/goltzius_hendrick.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildung über <ref target="http://www.artcyclopedia.com/artists/goltzius_hendrick.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="gonnelli_giovanni">
@@ -5545,9 +5488,7 @@
                 <country>Italien</country>
                 <settlement type="city">Bologna</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/guercino.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/guercino.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="guerreau_jacques">
@@ -6862,10 +6803,8 @@
                 <settlement type="city">Antwerpen</settlement>
             </placeName>
         </death>
-        <note type="references">Informationen und Abbildungen auf <ref
-                target="http://www.jacobjordaens.org/">www.jacobjordaens.org</ref>, weitere Links zu
-            Abbildungen auf <ref target="http://www.artcyclopedia.com/artists/jordaens_jacob.html"
-                >www.artcyclopedia.com.</ref></note>
+        <note type="references">Informationen und Abbildungen auf <ref target="http://www.jacobjordaens.org/">www.jacobjordaens.org</ref>, weitere Links zu
+            Abbildungen auf <ref target="http://www.artcyclopedia.com/artists/jordaens_jacob.html">www.artcyclopedia.com.</ref></note>
     </person>
 
     <person xml:id="jordaens_lucas">
@@ -7312,9 +7251,7 @@
                 <settlement type="city">Rom</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/lanfranco_giovanni.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/lanfranco_giovanni.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -7547,9 +7484,7 @@
                 <settlement type="city">Cloux (heute Clos-Lucé)</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/leonardo_da_vinci.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/leonardo_da_vinci.html">www.artcyclopedia.com</ref>
         </note>
     </person>
     
@@ -7635,9 +7570,7 @@
                 <settlement type="city">Leiden</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/leyden_lucas_van.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/leyden_lucas_van.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -7746,9 +7679,7 @@
                 <country>Italien</country>
                 <settlement type="city">Ferrara</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über die <ref
-                target="http://www.artcyclopedia.com/artists/ligorio_pirro.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über die <ref target="http://www.artcyclopedia.com/artists/ligorio_pirro.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="limming_philippa">
@@ -7960,9 +7891,7 @@
         </persName>
         <birth when="1600">1600</birth>
         <death when="1682">1682</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/claude_lorrain.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/claude_lorrain.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="lucas_jacques">
@@ -8390,9 +8319,7 @@
                 <settlement type="city">Antwerpen</settlement>
             </placeName>
         </death>
-        <note type="references">Links zu Abbildungen seiner Werle über <ref
-                target="http://www.artcyclopedia.com/artists/massys_quentin.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen seiner Werle über <ref target="http://www.artcyclopedia.com/artists/massys_quentin.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="matheus_janus">
@@ -8759,9 +8686,7 @@
                 <settlement type="city">Caprese</settlement>
             </placeName></birth>
         <death when="1564-02-18">18. Februar 1564</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/michelangelo_buonarroti.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/michelangelo_buonarroti.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="michiel_panneelmaecker">
@@ -9140,9 +9065,7 @@
         <birth when="1528">1528</birth>
         <death when="1592">1592</death>
         <note type="annotation">Italienischer Maler</note>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/muziano_girolamo.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/muziano_girolamo.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="myntens_jan">
@@ -9771,9 +9694,7 @@
                 <settlement type="city">Venedig</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/palma_vecchio.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/palma_vecchio.html">www.artcyclopedia.com</ref>
         </note>
     </person>
     <person xml:id="palma_giovane">
@@ -9794,9 +9715,7 @@
                 <settlement type="city"/>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/palma_giovane.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/palma_giovane.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -9960,9 +9879,7 @@
                 <settlement type="city">Casalmaggiore</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/parmigianino.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/parmigianino.html">www.artcyclopedia.com</ref>
         </note>
     </person>
     
@@ -10056,9 +9973,7 @@
         </persName>
         <birth/>
         <death/>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/penni_giovan_francesco.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/penni_giovan_francesco.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -10209,9 +10124,7 @@
                 <country>Italien</country>
                 <settlement type="city">Fontignano</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/perugino_pietro.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/perugino_pietro.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="pharnakes">
@@ -10466,9 +10379,7 @@
                 <settlement type="city">Rom</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/sebastiano_del_piombo.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/sebastiano_del_piombo.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -10646,9 +10557,7 @@
         </persName>
         <birth when="1586">1586</birth>
         <death when="1667">1667</death>
-        <note type="references">Links zu Abbildungen über die <ref
-                target="http://www.artcyclopedia.com/artists/poelenburgh_cornelis_van.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über die <ref target="http://www.artcyclopedia.com/artists/poelenburgh_cornelis_van.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="polyainos">
@@ -10709,9 +10618,7 @@
                 <settlement type="city">Antwerpen</settlement>
             </placeName></death>
         <!-- fläm. Kupferstecher -->
-        <note type="references">Links zu Abbildung auf <ref
-                target="http://www.artcyclopedia.com/artists/pontius_paulus.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildung auf <ref target="http://www.artcyclopedia.com/artists/pontius_paulus.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="poorten_andries">
@@ -10741,9 +10648,7 @@
                 <settlement type="city">Ferrara</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/pordenone_il.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/pordenone_il.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -10765,9 +10670,7 @@
         <death when="1622">1622</death>
         <note type="annotation">kommt 1596 an den Hof des Erzherzogs Albrecht in Brüssel und dient
             als Hofmaler bei Vincenzo Gonzaga in Mantua</note>
-        <note type="references">Frans Pourbus d.J. in der <ref
-                target="http://www.artcyclopedia.com/artists/pourbus_the_younger_frans.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Frans Pourbus d.J. in der <ref target="http://www.artcyclopedia.com/artists/pourbus_the_younger_frans.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="poussin_nicolas">
@@ -10783,9 +10686,7 @@
                 <country>Italien</country>
                 <settlement type="city">Rom</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildung über <ref
-                target="http://www.artcyclopedia.com/artists/poussin_nicolas.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildung über <ref target="http://www.artcyclopedia.com/artists/poussin_nicolas.html">www.artcyclopedia.com</ref></note>
     </person>
     
     <person xml:id="pozzo_cassiano">
@@ -10841,9 +10742,7 @@
                 <settlement type="city">Paris</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/primaticcio_francesco.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/primaticcio_francesco.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -11082,9 +10981,7 @@
                 <settlement type="city">Rom</settlement>
             </placeName>
         </death>
-        <note type="references">Links zu Werken Raffaels über <ref
-                target="http://www.artcyclopedia.com/artists/raphael.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Werken Raffaels über <ref target="http://www.artcyclopedia.com/artists/raphael.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="raguet">
@@ -11204,11 +11101,8 @@
                 <country>Niederlande</country>
                 <settlement type="city">Amsterdam</settlement>
             </placeName></death>
-        <note type="references">Homepage zu Leben und Werk Rembrandts: <ref
-                target="http://www.rembrandtpainting.net/">www.rembrandtpainting.net</ref></note>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/rembrandt_van_rijn.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Homepage zu Leben und Werk Rembrandts: <ref target="http://www.rembrandtpainting.net/">www.rembrandtpainting.net</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/rembrandt_van_rijn.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="remeeus_david">
@@ -11239,9 +11133,7 @@
         </persName>
         <birth when="1575">1575</birth>
         <death when="1642">1642</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/reni_guido.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/reni_guido.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="reymbouts_johanna">
@@ -11433,9 +11325,7 @@
                 <settlement type="city">Mantua</settlement>
             </placeName>
         </death>
-        <note type="references">Links zu Werken Romanos über<ref
-                target="http://www.artcyclopedia.com/artists/giulio_romano.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Werken Romanos über<ref target="http://www.artcyclopedia.com/artists/giulio_romano.html">www.artcyclopedia.com</ref></note>
     </person>
     
     <person xml:id="roncalli_cristoforo">
@@ -11494,9 +11384,7 @@
                 <country>Italien</country>
                 <settlement type="city">Rom</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/rosa_salvator.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/rosa_salvator.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="roscius_quintus">
@@ -11963,9 +11851,7 @@
         <birth when="1568">1568</birth>
         <death when="1629">1629</death>
         <note type="annotation">Fläm. Kupferstecher u. Maler</note>
-        <note type="references">Aegidius Sadeler II in der <ref
-                target="http://www.artcyclopedia.com/artists/sadeler_ii_aegidius.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Aegidius Sadeler II in der <ref target="http://www.artcyclopedia.com/artists/sadeler_ii_aegidius.html">www.artcyclopedia.com</ref></note>
     </person>
     
     <person xml:id="saftingen_jacob">
@@ -12053,9 +11939,7 @@
         </persName>
         <birth when="1510">1510</birth>
         <death when="1563">1563</death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/salviati_francesco.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/salviati_francesco.html">www.artcyclopedia.com</ref>
         </note>
     </person>
     
@@ -12140,9 +12024,7 @@
                 <settlement type="city">Florenz</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/andrea_del_sarto.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/andrea_del_sarto.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -12155,9 +12037,7 @@
         <birth when="1576">1576</birth>
         <death when="1639">1639</death>
         <note type="annotation">Niederländ. Maler, Zeichner, Radierer</note>
-        <note type="references">Roelandt Savery in der <ref
-                target="http://www.artcyclopedia.com/artists/savery_roelandt.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references">Roelandt Savery in der <ref target="http://www.artcyclopedia.com/artists/savery_roelandt.html">www.artcyclopedia.com</ref>
         </note>
     </person>
     
@@ -12410,9 +12290,7 @@
                 <country>Belgien</country>
                 <settlement type="city">Antwerpen</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/seghers_daniel.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/seghers_daniel.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="seleukos_ii_kallinikos">
@@ -12784,9 +12662,7 @@
                 <country>Belgien</country>
                 <settlement type="city">Antwerpen</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/snyders_frans.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/snyders_frans.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="sokrates">
@@ -12836,9 +12712,7 @@
                 <country>Niederlande</country>
                 <settlement type="city">Haarlem</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/soutman_pieter.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/soutman_pieter.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="soy_franchoise">
@@ -13043,9 +12917,7 @@
         </persName>
         <birth when="1616">1616</birth>
         <death when="1655">1655</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/le_sueur_eustache.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/le_sueur_eustache.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="sueton">
@@ -13233,9 +13105,7 @@
                 <country>Belgien</country>
                 <settlement type="city">Brüssel</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/teniers_the_younger_david.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/teniers_the_younger_david.html">www.artcyclopedia.com</ref></note>
         <!-- Schwiegersohn Jan Brueghels dÄ, verheiratet mit Anna Brueghel -->
     </person>
 
@@ -13250,9 +13120,7 @@
                 <settlement type="city">Lucca</settlement>
             </placeName></birth>
         <death when="1650">1650</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/testa_pietro.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/testa_pietro.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="terbeke_maria">
@@ -13378,9 +13246,7 @@
                 <country>Niederlande</country>
                 <settlement type="city">’s-Hertogenbosch</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/thulden_theodoor_van.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/thulden_theodoor_van.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="thys_anna">
@@ -13522,9 +13388,7 @@
                 <country>Italien</country>
                 <settlement type="city">Venedig</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/tintoretto.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/tintoretto.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="tiras_jan">
@@ -13546,9 +13410,7 @@
                 <country>Italien</country>
                 <settlement type="city">Venedig</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/titian.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/titian.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="torquatus_lucius_manlius">
@@ -13801,9 +13663,7 @@
         </persName>
         <birth when="1487">1487</birth>
         <death when="1564">1564</death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/giovanni_martini_da_udine.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/giovanni_martini_da_udine.html">www.artcyclopedia.com</ref>
         </note>
     </person>
     <person xml:id="uffel_lucas">
@@ -13882,9 +13742,7 @@
         <birth when="1501">1501</birth>
         <death when="1547">1547</death>
         <note type="annotation">Ital. maler und Zeichner</note>
-        <note type="references">Perino del Vaga in der <ref
-                target="http://www.artcyclopedia.com/artists/perino_del_vaga.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Perino del Vaga in der <ref target="http://www.artcyclopedia.com/artists/perino_del_vaga.html">www.artcyclopedia.com</ref></note>
     </person>
     
     <person xml:id="valavez_palamede">
@@ -14018,9 +13876,7 @@
                 <country>Italien</country>
                 <settlement type="city">Florenz</settlement>
             </placeName></death>
-        <note type="references">Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/vasari_giorgio.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Abbildungen über <ref target="http://www.artcyclopedia.com/artists/vasari_giorgio.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="vasseur_henrick">
@@ -14056,11 +13912,8 @@
                 <settlement type="city">Brüssel</settlement>
             </placeName></death>
         <note type="annotation">Historienmaler in Antwerpen, dritter Lehrer des Peter Paul Rubens</note>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/veen_otto_van.html"
-                >www.artcyclopedia.com</ref></note>
-        <note type="references">Die Amorum Emblemata (1608) online beim <ref
-                target="http://emblems.let.uu.nl/v1608.html">Emblem Project Utrecht
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/veen_otto_van.html">www.artcyclopedia.com</ref></note>
+        <note type="references">Die Amorum Emblemata (1608) online beim <ref target="http://emblems.let.uu.nl/v1608.html">Emblem Project Utrecht
                 (http://emblems.let.uu.nl/)</ref></note>
     </person>
     
@@ -14256,9 +14109,7 @@
         </persName>
         <birth when="1644">1644</birth>
         <death when="1708">1708</death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/vermeulen_cornelis.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/vermeulen_cornelis.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="vermeulen_peeter">
@@ -14282,9 +14133,7 @@
                 <country>Italien</country>
                 <settlement type="city">Venedig</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/veronese_paolo.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/veronese_paolo.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="verpoopten_steven">
@@ -14507,9 +14356,7 @@
                 <settlement type="city">Rom</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/volterra_daniele_da.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/volterra_daniele_da.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -14540,9 +14387,7 @@
             </placeName>
         </death>
         <note type="references">
-            <ref
-                target="http://gso.gbv.de/DB=1.28/REL?PPN=004292839&amp;RELTYPE=TT&amp;COOKIE=U8026,K8026,D1.28,E1f5b1fe7-1bb,I50,B0023++++++,SY,A\9008+1,,0,H12-21,,23,,30,,73,,76-78,,88-90,NHAB+WOLFENBUETTEL,R194.95.134.121,FN"
-                >Joost van den Vondel im VD 17</ref>
+            <ref target="http://gso.gbv.de/DB=1.28/REL?PPN=004292839&amp;RELTYPE=TT&amp;COOKIE=U8026,K8026,D1.28,E1f5b1fe7-1bb,I50,B0023++++++,SY,A\9008+1,,0,H12-21,,23,,30,,73,,76-78,,88-90,NHAB+WOLFENBUETTEL,R194.95.134.121,FN">Joost van den Vondel im VD 17</ref>
         </note>
     </person>
 
@@ -14607,9 +14452,7 @@
                 <country>Belgien</country>
                 <settlement type="city">Antwerpen</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/vos_cornelis_de.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/vos_cornelis_de.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="vos_marten">
@@ -14626,9 +14469,7 @@
                 <country>Belgien</country>
                 <settlement type="city">Antwerpen</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/vos_martin_de.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/vos_martin_de.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="vos_pauwel">
@@ -14685,9 +14526,7 @@
                 <country>Belgien</country>
                 <settlement type="city">Antwerpen</settlement>
             </placeName></death>
-        <note type="annotation">Links zu Abbildungen auf <ref
-                target="http://www.artcyclopedia.com/artists/vorsterman_the_elder_lucas.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="annotation">Links zu Abbildungen auf <ref target="http://www.artcyclopedia.com/artists/vorsterman_the_elder_lucas.html">www.artcyclopedia.com</ref></note>
         <!-- Kupferstecher -->
     </person>
 
@@ -14713,9 +14552,7 @@
                 <settlement type="city">Antwerpen</settlement>
             </placeName></death>
         <note type="annotation">fläm. Schlachten- und Genremaler</note>
-        <note type="references">Links zu Abbildungen auf <ref
-                target="http://www.artcyclopedia.com/artists/vrancx_bastiaen.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen auf <ref target="http://www.artcyclopedia.com/artists/vrancx_bastiaen.html">www.artcyclopedia.com</ref></note>
     </person>
     
     <person xml:id="vries_adriaen">
@@ -15024,9 +14861,7 @@
                 <country>Belgien</country>
                 <settlement type="city">Antwerpen</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/wildens_jan.html"
-            >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/wildens_jan.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="willighen_francois">
@@ -15067,9 +14902,7 @@
                 <country>Niederlande</country>
                 <settlement type="city">Amsterdam</settlement>
             </placeName></death>
-        <note type="references">Links zu Abbildungen über die <ref
-                target="http://www.artcyclopedia.com/artists/wit_jacob_de.html"
-                >www.artcyclopedia.com</ref></note>
+        <note type="references">Links zu Abbildungen über die <ref target="http://www.artcyclopedia.com/artists/wit_jacob_de.html">www.artcyclopedia.com</ref></note>
     </person>
 
     <person xml:id="witte_adriaen">
@@ -15367,9 +15200,7 @@
                 <settlement type="city">Rom</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/zuccaro_taddeo.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/zuccaro_taddeo.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 
@@ -15390,9 +15221,7 @@
                 <settlement type="city">Ancona</settlement>
             </placeName>
         </death>
-        <note type="references"> Links zu Abbildungen über <ref
-                target="http://www.artcyclopedia.com/artists/zuccaro_federico.html"
-                >www.artcyclopedia.com</ref>
+        <note type="references"> Links zu Abbildungen über <ref target="http://www.artcyclopedia.com/artists/zuccaro_federico.html">www.artcyclopedia.com</ref>
         </note>
     </person>
 

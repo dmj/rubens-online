@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_128">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_128"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-511-239">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -61,16 +60,13 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Jouffrouwe <rs type="person" ref="#lantmeter_philipoote">Philipoote de
-                    Lantmeter</rs>, Philips dochters wijlen, wettige huysvrouwe van <rs
-                        type="person" ref="#borcht_gielis">Gielis van der Borcht</rs> wijlens goeden
+                <p>Jouffrouwe <rs type="person" ref="../register/register-person.xml#lantmeter_philipoote">Philipoote de
+                    Lantmeter</rs>, Philips dochters wijlen, wettige huysvrouwe van <rs type="person" ref="../register/register-person.xml#borcht_gielis">Gielis van der Borcht</rs> wijlens goeden
                     zij ter hooger vierscharen alhier voor hare dotale ende innegebrochte goeden
-                    utgewonnen heeft, volgende der acten daeraff zijnde, vander dater den <date
-                        when="--04-18">18<hi rend="super">den</hi> dach Aprilis</date> lestleden, met
+                    utgewonnen heeft, volgende der acten daeraff zijnde, vander dater den <date when="--04-18">18<hi rend="super">den</hi> dach Aprilis</date> lestleden, met
                     een vremdem momboir heut gegeven metten rechte, bekende dat zij omme een somme
-                    gelts, die heur al ende wel is vergouden vercocht heeft wel ende wettelijck S<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>, schildere
+                    gelts, die heur al ende wel is vergouden vercocht heeft wel ende wettelijck S<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs>, schildere
                     van henne hoocheden<index indexName="psw">
                         <term type="PND">Albrecht (Österreich, Erzherzog, VII.)</term>
                     </index><index indexName="psw">
@@ -78,20 +74,17 @@
                     </index>, eene rente van sevenendertich gulden, ende thien stuyvers erffelijck,
                     met allen den achterstelle daeraff, verloopen ende verschenen tot desen dage toe
                     die heur comparante verstorven is midt der doot ende afflijcvicheyt des voors.
-                    wijlen <rs type="person" ref="#lantmeter_philipp">Philips de Lantmetere</rs>,
+                    wijlen <rs type="person" ref="../register/register-person.xml#lantmeter_philipp">Philips de Lantmetere</rs>,
                     heurs vaders als eenige dochtere ende erffgenaem desselfs den welcken die in
                     scheydinge ende deylinge, voor Schepenen deser stadt<index indexName="gsw">
                         <term type="TGN">Antwerpen</term>
-                    </index> gepasseert, opten <date when="1576-08-06">sesten Augusti anno XV<hi
-                            rend="super">c</hi> sessentseventich</date> tusschen Jo<hi rend="super">ffe</hi>
-                    <rs type="person" ref="#lantmeter_jaquelijne">Jacquelijne de Lantmeters</rs> met
+                    </index> gepasseert, opten <date when="1576-08-06">sesten Augusti anno XV<hi rend="super">c</hi> sessentseventich</date> tusschen Jo<hi rend="super">ffe</hi>
+                    <rs type="person" ref="../register/register-person.xml#lantmeter_jaquelijne">Jacquelijne de Lantmeters</rs> met
                     heure consorten te deele bevallen was ende die men in vijffhondert guldenen
-                    erffel. heffende is; op de Staten van <rs type="place" ref="#brabant"
-                    >Brabant</rs>, in 't quartier deser stadt, staende te boecke op no. 64 droech
+                    erffel. heffende is; op de Staten van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs>, in 't quartier deser stadt, staende te boecke op no. 64 droech
                     op, te waerne</p>
                 <closer>
-                    <signed>Relatu <rs type="person" ref="#brueseghem_d">D<hi rend="super"
-                    >ni</hi> Breuseghem</rs></signed><lb/>
+                    <signed>Relatu <rs type="person" ref="../register/register-person.xml#brueseghem_d">D<hi rend="super">ni</hi> Breuseghem</rs></signed><lb/>
                     <dateline><date when="1614-12-02">Secunde Decembris 1614</date></dateline>
                 </closer>
             </div>

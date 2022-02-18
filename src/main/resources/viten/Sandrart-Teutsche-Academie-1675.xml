@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_340">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_340"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,8 +11,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="Sandrart-Teutsche-Academie-1675">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="Sandrart-Teutsche-Academie-1675">
                     <msIdentifier>
                         <repository>unbekannt</repository>
                     </msIdentifier>
@@ -59,9 +56,7 @@
                     absonderlich gezeichnet und Anno 1586. zu Basel ausgehen lassen/ bey THOMAS
                     GUARIN, die wol seine Lehrschule der Jugend mögen genannt werden/ weil auch die
                     Allerberühmteste keinen Abscheu getragen/ ganze Bilder und Historien/ zu ihren
-                    studien/ nachzuzeichen und nachzumahlen. Also bekandte mir Anno 1637.<note
-                        resp="N.B." type="footnote">recte 1627</note> der berühmte <rs type="person"
-                        ref="#rubens_peter_paul">Peter Paulio Rubens</rs>/ als ich ihm auf seiner
+                    studien/ nachzuzeichen und nachzumahlen. Also bekandte mir Anno 1637.<note resp="N.B." type="footnote">recte 1627</note> der berühmte <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peter Paulio Rubens</rs>/ als ich ihm auf seiner
                     Reiß durch Holland aufgewartet/ in dem Amsterdamer Fahrschiff nach Utrecht (da
                     ich über diesem Büchlein speculirte) daß er in seiner Jugend dasselbe meistens
                     nachgezeichnet habe/ und möge in Warheit wol für ein besonders Kleinod unserer
@@ -70,13 +65,12 @@
 
             <div xml:lang="deu">
                 <head>Das XVI. Capitel.<note resp="A.H." type="footnote">vgl. dieses Kapitel in der
-                        Online-Ausgabe der Teutschen Academie auf <ref
-                            target="http://ta.sandrart.net/513">Sandrart.net</ref>.</note><lb/>
-                    <rs type="person" ref="#rubens_peter_paul">Peter Paul Rubens</rs>/ und noch
+                        Online-Ausgabe der Teutschen Academie auf <ref target="http://ta.sandrart.net/513">Sandrart.net</ref>.</note><lb/>
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peter Paul Rubens</rs>/ und noch
                     drey<lb/> andere Mahlere.<lb/> Innhalt.</head>
                 <p>
                     <pb n="290"/>Antorf ist glückseliger dann Rom/ in Aufziehung der Mahlere. CXXVI.
-                        <rs type="person" ref="#rubens_peter_paul">Peter Paul Rubens</rs>/ Mahler
+                        <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peter Paul Rubens</rs>/ Mahler
                     von Antorf: Sein Lehrmeister: Komt zu Erzherzog Alberto in Dienst: Von dar nach
                     Rom: Seine Werke zu Rom: Komt wieder zuruck in Niderland/ und daselbst in großes
                     Ansehen: Seine Werke: Besucht die Künstlere in Holland: Sein Urtheil über die
@@ -100,8 +94,7 @@
                     und entweder von Urbino/ Florenz/ Venedig oder meistentheils von Bolognen waren.
                     Also daß Antorf sich dißfals billich herfür thun/ und vor andere glückselig
                     schätzen kan. </p>
-                <p>Unter andern nun der aus ihr entsproßenen/ ist auch <rs type="person"
-                        ref="#rubens_peter_paul">Peter Paul Rubens</rs>/ der fürtreffliche Künstler/
+                <p>Unter andern nun der aus ihr entsproßenen/ ist auch <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peter Paul Rubens</rs>/ der fürtreffliche Künstler/
                     so alda Anno 1577. den 28. Junii, von fürnehmen Eltern gebohren worden. Nachdem
                     er dann zu allen der Jugend nöthigen Exercitien angehalten worden/ ließ er in
                     den Studien alsobald ein sonderbares Ingenium, Witz und Verstand verspüren/ also
@@ -127,12 +120,9 @@
                     Statuen der Antichen/ auch die Werke von Michaël Angelo, Leonardo da Vince/
                     Raphaël d’Urbino, und andere genau betrachtet/ jedoch gänzlich zu folgen
                     Bedenken gehabt/ indem ihm vorgemeldte Venetianische Manier mehr angestanden. Er
-                    mahlte allda <rs type="work" ref="#rom_oratorianer_vallicella">zwey
-                        Altar-Blätter</rs> für den Herzogen von Mantua/ das <rs type="work"
-                        ref="#jaffe_82b">eine mit stehenden Heiligen</rs>/ <rs type="work"
-                        ref="#jaffe_82c">das andere aber mit den Heiliginnen</rs> erfüllt/ alles in
-                    Lebens-Größe/ so noch zu Rom in Chiesa Nova, neben dem<rs type="work"
-                        ref="#jaffe_82a"> hohen Altar</rs> gestellt/ zu sehen ist. Ingleichen
+                    mahlte allda <rs type="work" ref="../register/register-work.xml#rom_oratorianer_vallicella">zwey
+                        Altar-Blätter</rs> für den Herzogen von Mantua/ das <rs type="work" ref="../register/register-work.xml#jaffe_82b">eine mit stehenden Heiligen</rs>/ <rs type="work" ref="../register/register-work.xml#jaffe_82c">das andere aber mit den Heiliginnen</rs> erfüllt/ alles in
+                    Lebens-Größe/ so noch zu Rom in Chiesa Nova, neben dem<rs type="work" ref="../register/register-work.xml#jaffe_82a"> hohen Altar</rs> gestellt/ zu sehen ist. Ingleichen
                     verfärtigte er in selbiger Stadt die Creutzigung Christi/ welcher an den beyden
                     Händen fäst angenagelt ist/ mit den Füßen aber ledig/ und frey henket/ auf
                     ungemeine Weiß/ sonsten mit vielen Bildern sehr herzhaft und Geistreich
@@ -150,7 +140,7 @@
                     theils Künstlere kein Gab noch völlige Wißenschaft in großen Figuren gehabt/
                     theils gar zu verdroßen zu solcher Arbeit waren/ und mehr ihrem Appetit in
                     spatzieren gehen/ und Gesellschaft suchen/ als der Arbeit nachgehangen; dahero
-                    er/ <rs type="person" ref="#rubens_peter_paul">Rubens</rs>/ von Natur ganz
+                    er/ <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>/ von Natur ganz
                     anderst gesinnt/ indem er sich nur den fürnehmsten der Stadt gesellet/ in seinem
                     laboriren expedit und fleißig/ gegen jederman höflich/ und freundlich/ bey allen
                     angenehm/ und beliebt worden/ und in seiner Profession großen Nutzen geschaft;
@@ -166,13 +156,13 @@
                     unzahlbare in Kupfer gebrachte Werke gnugsam an den Tag geben/ wohin ich
                     geliebter Kürze halben den günstigen Leser will angewiesen haben. Seiner
                     fürnehmsten Werke nur zu gedenken/ so mahlte er unter andern für den König in
-                    Franckreich <rs type="work" ref="#medicizyklus">die Galleria in Paris/ den
+                    Franckreich <rs type="work" ref="../register/register-work.xml#medicizyklus">die Galleria in Paris/ den
                         Lutzenburger Pallast</rs>/ das Leben König Heinrichs des Vierdten/ und
                     seiner Gemahlin/ Maria de Medicis, Allegoricè/ Poëtisch und allermaßen
                     sinnreich/ womit er großes Lob und reiche Bezahlung in kurzer Zeit erhalten.
                     Nach solchen färtigte er viele große Werke für den König in Spanien/ und andere
                     Cavallier/ nicht ohne mindern herrlichen Ruhm: dannenhero allenthalben allein
-                    von <rs type="person" ref="#rubens_peter_paul">Rubens</rs> geredt/ und gesagt
+                    von <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> geredt/ und gesagt
                     wurde. </p>
                 <p>Weil aber indeßen ihm seine Frau erkrankte/ und ohne Ersprießungen der Arzeneyen
                     ihr Leben ganz schleunig endete/ verreiste er/ die Traurigkeit zu vergeßen/ nach
@@ -180,8 +170,7 @@
                     gesehen/ un gehört/ zu besuchen. Also kame er auch nach Utrecht zu dem von
                     Hundhorst/ welcher ihn wol empfangen/ und alles unterhanden habende gezeigt/
                     unter andern auch einen Diogenes mit einer Laternen in der Hand/ so bey hellem
-                    Tag auf dem von Volk-erfülten Platz zu Athen Menschen suchte. Dem <rs
-                        type="person" ref="#rubens_peter_paul">Rubens</rs> beliebte zwar die
+                    Tag auf dem von Volk-erfülten Platz zu Athen Menschen suchte. Dem <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> beliebte zwar die
                     Invention wol/ sahe aber doch alsobald/ daß selbiges nur ein junger Mahler/
                     deren in dem Zimmer viel beysammen stunden/ gemacht; daher er zu wißen begehrte/
                     wer diesen Diogenes angefangen/ Hundhorst antwortet: Dieser junge Teutsche/ und
@@ -204,14 +193,13 @@
                     Manier zu mahlen/ besonders in Nachtstücken; des Blomarts edle Zeichen-Kunst/
                     und Pullenburgs vernünftige kleine Figuren/ die auf Raphaels Weise/ mit
                     zierlichen Landschaften/ Ruinen/ Thieren/ und dergleichen/ vergesellschaftet
-                    waren/ weswegen <rs type="person" ref="#rubens_peter_paul">Rubens</rs> etliche
+                    waren/ weswegen <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> etliche
                     für sich zu verfärtigen ihme bestellet hat. </p>
                 <p>Nach diesem machte er viele große Werke für den König in Engeland Carlo Stuart,
                     und Herzog von Buckingam, wie allda in den Häusern Banchetin und Jeerk zu sehen/
                     zu solcher großen Werke Beschleunigung zog er ihme selbst viele junge Leute zu
                     Hülf/ richtete sie fleißig ab/ jeden nach seiner bästen Inclination und
-                    Capacität/ die ihm nach malen in dem seinen merklich geholffen haben/ <pb
-                        n="292"/>weil sie meistens alle Thiere/ Vögel/ Fische/ Landschaften/ Bäume/
+                    Capacität/ die ihm nach malen in dem seinen merklich geholffen haben/ <pb n="292"/>weil sie meistens alle Thiere/ Vögel/ Fische/ Landschaften/ Bäume/
                     Bäch/ Gründ/ Luft/ Wasser und Wälder/ gemacht. Also machte er allezeit selbst
                     die Invention von vorhabenden Werken auf ein model 2. oder 3. Spannen hoch/ und
                     ließe nach selbigem seiner Discipel einen/ Antonium von Dik/ Jacob Jordan von
@@ -233,31 +221,27 @@
                     Buckingam/ um seinen Palast geschwind mit Kunststucken zu erfüllen/ solches
                     verlangt/ und den Kauf durch den Kunst-reichen Michael de Blon von Amsterdam/
                     als den wahren Mæcenas aller Tugend per 60000. Niderländische Gulden schließen
-                    lassen/ woraus erhellet/ daß <rs type="person" ref="#rubens_peter_paul"
-                    >Rubens</rs> neben seiner eignen Kunst/ auch aus anderer Wißenschaft und
+                    lassen/ woraus erhellet/ daß <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> neben seiner eignen Kunst/ auch aus anderer Wißenschaft und
                     Handlung seinen Nutzen fürtreflich zu machen/ und also sich selbst den Weg zum
                     Reichthum wol zu bahnen wuste. Demnach/ als einsmals der weitberühmte
                     Alchimist-Meister Brendel von Londen/ den jedermann hochgeehrt/ zu ihm kommen
                     und contestirt/ wie nahe er zu der rechten Tinctura gelangt/ daß in kurzer Zeit
-                    das gewiße Goldmachen gefunden werden könte/ mit Erbieten/ wann <rs
-                        type="person" ref="#rubens_peter_paul">Rubens</rs> ihm wolte ein Haus
+                    das gewiße Goldmachen gefunden werden könte/ mit Erbieten/ wann <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> ihm wolte ein Haus
                     einrichten/ und die nohtwendige Unkosten indessen herschiessen/ wolle er mit
-                    ihme in Gesellschaft verbleiben/ antwortete ihm <rs type="person"
-                        ref="#rubens_peter_paul">Rubens</rs>: M. Brendlin/ ihr komt allein um 20.
+                    ihme in Gesellschaft verbleiben/ antwortete ihm <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>: M. Brendlin/ ihr komt allein um 20.
                     Jahr zu spat/ dann um selbige Zeit schon hab ich durch den Pensel und die Farben
                     den rechten wahrhaften Lapidem Philosophicum gefunden. </p>
                 <p>Auf eine andere Zeit/ als der zu Antorf wohnende Kunst-reiche Historien-Mahler/
                     Abraham Janson/ wie hiernächst an seinem Ort gemeldet werden soll/ wegen seiner
                     Trägheit und anderer übler Gebräuche seinem Glück sehr schädlich gewesen/
-                    gesehen/ daß <rs type="person" ref="#rubens_peter_paul">Rubens</rs> wegen seiner
+                    gesehen/ daß <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> wegen seiner
                     Geschicklichkeit sich treflich empor schwinge/ gedachte er solchen großen Ruf zu
                     hindern/ und forderte ihn zum Wettstreit aus/ also daß/ welches unter ihren
                     beeden Stucken das bäste seye/ durch die Erkenner der Warheit solte geurtheilet
                     werden/ sich selbsten gewiße Hoffnung machend/ weil meistens aus blossen
                     Gedanken/ er aber alles correct, mit guter Bedachtsamkeit und langer Zeit nach
                     dem Leben mahlte/ daß er wegen so großer Aehnlichkeit der Natur und starken
-                    Kraft der Farben/ des andern Arbeit leichtlich niderlegen werde/ aber <rs
-                        type="person" ref="#rubens_peter_paul">Rubens</rs> länet sein Begehren
+                    Kraft der Farben/ des andern Arbeit leichtlich niderlegen werde/ aber <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> länet sein Begehren
                     färtig ab/ und sprach/ daß er nicht erst wolte anfangen/ um Streit zu mahlen/
                     sondern er habe es allezeit in Brauch gehabt/ wolle es auch forthin noch
                     continuiren/ hingegen möchte er Janson auch seine Weise behalten. </p>
@@ -266,18 +250,16 @@
                     verschickt/ weil aber der König ungefähr merkte/ worauf es angesehen/ und sein
                     Intent ganz auf ein anders zielte/ wandte er die Sach alsobald um/ unter dem
                     Prætext, daß sie in Gebrauch hätten zu Gesandten keine andere/ als Fürsten und
-                    Herzogen anzunehmen/ obschon die Person <rs type="person"
-                        ref="#rubens_peter_paul">Rubens</rs> außer diesen Handlungen ihme sehr lieb
+                    Herzogen anzunehmen/ obschon die Person <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> außer diesen Handlungen ihme sehr lieb
                     und angenehm seye/ empfienge derentwegen selbigen als ein Privat-Person sehr
                     gnädig/ und machte ihme diese Gelegenheit sehr zu Nutzen/ weil der Kauf um die
                     fürnehme Werke in das Banket-Haus kurz vorher geschloßen/ die bald hernach von
                     Antorf zu großem Contento des Königs/ übersandt worden. </p>
-                <p>Als <rs type="person" ref="#rubens_peter_paul">Rubens</rs> in Spanien war/
+                <p>Als <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> in Spanien war/
                     contrafätete er unter andern König Philippum, die Königin/ Duc d’Olivares, die
                     nachmalen durch den Paulus Pontius, Lucas Vastermann in Kupfer gebracht worden/
                     auch copirte er allda viele große Werke des Escurial nach Titians gemahlten
-                    Stucken/ brachte sie mit in Niderland/ und weil allda ruchbar worden/ daß <rs
-                        type="person" ref="#rubens_peter_paul">Rubens</rs> in Spanien/ auf Befehlt
+                    Stucken/ brachte sie mit in Niderland/ und weil allda ruchbar worden/ daß <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> in Spanien/ auf Befehlt
                     der Infantin Isabella, als Regentin des Niderlands/ den damals befindlichen
                     schlechten Zustand der Spanischen Niderlanden/ dem König vorstellen solte/ wie
                     nämlich ein Ort nach dem andern in Holländische Hände käme/ damit Seine Majestät
@@ -285,26 +267,25 @@
                     auch die Antwort samt vielen andern Heimlichkeiten anvertraut worden/ besuchte
                     ihn zu Antorf bey seiner Zuruckkunft einer der fürnehmsten Lands-Fürsten/ der
                     sonst schon verdächtig ungerechter Sachen wider den König war/ und trachtete in
-                    geheim von dem <rs type="person" ref="#rubens_peter_paul">Rubens</rs> zu
+                    geheim von dem <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> zu
                     erfahren/ was zu seinem Verlangen dienete/ weil er aber biß in Tod alles bey
                     sich zu behalten willens ware/ ergrimmte dieser Fürst so sehr/ daß er auch mit
                     Drohworten um sich warf/ welche Gefahr/ samt Erwegung dieses Herrn großer
                     Autorität in Staats-Sachen/ und daß alles je länger je üblers Aussehen hatte/
-                    dem <rs type="person" ref="#rubens_peter_paul">Rubens</rs> Ursach gabe/ sich von
+                    dem <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> Ursach gabe/ sich von
                     allen Staats-Sachen gänzlich zu entschlagen/ und sich in der Stille bey seinen
                     Musen aufzuhalten/ woraus man seinen klugen Verstand abnehmen können/ durch
                     deßen Führung er sich noch bey guter Zeit aus dem Staub gemacht; dann bald
                     darauf viel dergleichen eingezogen/ ruinirt/ und gestürzt worden. </p>
                 <p>Zu selbiger Zeit traffe die Stadt Antorf grosser Schaden wegen ausbleibender
-                    Spanisch- und Indianischer Flotten/ die von den Feinden hinweg <pb n="293"
-                    />genommen worden/ daß also die nach Niderland vermeinte Wechsel ausgebliben/
+                    Spanisch- und Indianischer Flotten/ die von den Feinden hinweg <pb n="293"/>genommen worden/ daß also die nach Niderland vermeinte Wechsel ausgebliben/
                     wordurch bey den Creditoribus wegen des Vorschußes überaus große Noht
                     entstunden/ die viele Banqueroten zu Antorf nach sich zoge/ daß fast kein
                     einiger ohne vermerklichen großen Schaden geblieben/ außer der von Glück
-                    begünstigte <rs type="person" ref="#rubens_peter_paul">Rubens</rs>/ unangesehen
+                    begünstigte <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>/ unangesehen
                     er sehr große Baarschaft in Wechsel disponirt/ so doch ganz ohne Schaden und
                     Unglück davon kommen. Bey solchen überal in der Luft schwebenden Ungewittern
-                    hielte sich <rs type="person" ref="#rubens_peter_paul">Rubens</rs> in seinen
+                    hielte sich <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> in seinen
                     studien zu Haus in großer Einsamkeit/ arbeitete beständig/ und samlete darbey so
                     wol von seiner eignen Hand/ als auch von andern guten Gemählden/ Handrissen/
                     statuen/ Bildern von Helffenbein/ meistentheils durch die fleißige Nachforschung
@@ -319,8 +300,7 @@
                     überlassen/ das übrige aber offentlich durch einen Ausruf verkauft werden/ wie
                     auch kurz nach seinem Tod/ auf angestellten Tag in seiner Behausung an den meist
                     Bietenden/ nach Lands Gebrauch/ gegen baaren Geld geschehen/ da dieselbe
-                    dermaßen hoch an Wehrt gebracht worden/ weil jederman etwas aus <rs
-                        type="person" ref="#rubens_peter_paul">Rubens</rs> Cabinet haben wolte/ daß
+                    dermaßen hoch an Wehrt gebracht worden/ weil jederman etwas aus <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> Cabinet haben wolte/ daß
                     sie eine unglaubliche Summa Gelds getragen. </p>
                 <p>Nach seiner ersten aus Italien gebrachten Manier hat er emsig dahin getrachtet/
                     die Stärke des Colorits von Caravaggio, als deßen Hand er sehr beobachtet/

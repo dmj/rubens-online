@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_181">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_181"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,8 +18,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="SAA_sig-sr-585">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="SAA_sig-sr-585">
                     <msIdentifier>
                         <country>Belgien</country>
                         <settlement>Antwerpen</settlement>
@@ -45,13 +44,7 @@
                             
                             <filiation>
                                 <note resp="A.H." type="footnote">Zu Rubens' Erwerbungen von Grund und Immobilien am
-                                    Wapper sowie den Transaktionen dazu Vgl. auch die Akten vom <ref type="rubens"
-                                        cRef="ed_rubens_012">1. November 1610</ref>, <ref type="rubens"
-                                            cRef="ed_rubens_013">4. Januar 1611</ref>, <ref type="rubens"
-                                                cRef="ed_rubens_114">30. Mai 1613</ref>, <ref type="rubens"
-                                                    cRef="ed_rubens_184">16. Juni 1628</ref>, <ref type="rubens"
-                                                        cRef="ed_rubens_219">27. Februar</ref> und <ref type="rubens"
-                                                            cRef="ed_rubens_220">7. März 1635</ref>.</note>
+                                    Wapper sowie den Transaktionen dazu Vgl. auch die Akten vom <ref type="rubens" cRef="ed_rubens_012">1. November 1610</ref>, <ref type="rubens" cRef="ed_rubens_013">4. Januar 1611</ref>, <ref type="rubens" cRef="ed_rubens_114">30. Mai 1613</ref>, <ref type="rubens" cRef="ed_rubens_184">16. Juni 1628</ref>, <ref type="rubens" cRef="ed_rubens_219">27. Februar</ref> und <ref type="rubens" cRef="ed_rubens_220">7. März 1635</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -86,12 +79,12 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#smeken_hans">Hans Smeken</rs> in houwelycke gehadt
-                    hebbende <rs type="person" ref="#alsdorp_geertruyt">Geertruyt van Alsdorp</rs>
-                    ende <rs type="person" ref="#hendricx_tanneke">Tanneke Hendricx</rs> nu ter tijd
+                    <rs type="person" ref="../register/register-person.xml#smeken_hans">Hans Smeken</rs> in houwelycke gehadt
+                    hebbende <rs type="person" ref="../register/register-person.xml#alsdorp_geertruyt">Geertruyt van Alsdorp</rs>
+                    ende <rs type="person" ref="../register/register-person.xml#hendricx_tanneke">Tanneke Hendricx</rs> nu ter tijd
                     zijne wettige huysvrouwe, ende bekenden dat hij omme eene somme gelts, die hen
                     al ende wel is vergouden, vercocht hebben wel ende wettelijck S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>, Edelman
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs>, Edelman
                     vanden huyse van hare doorlichtichste Hoogheyt, sesse huyskens oft wooninghen
                     elck met een hoffken, gronde ende allen den toebehoorten gestaen ende gelegen de
                     drye daeraff neffen malcanderen opden Wapper<index indexName="stw">
@@ -111,8 +104,7 @@
                     </index>, tusschen den naerbescreven Bleyckhoff nu tertyt de voors. coopere
                     toebehoorende aen deen zijde noortwaerts ende andere drye huysen oft wooningen
                     mitsgaders den hoeckhuyse behoudende blyven aen dander zyde zuyt waerts. Ende
-                    dander drye huysen oft wooninghen int <rs type="place" ref="#hoplant"
-                    >Hopland</rs> alhier, tegens over de Lammekensraem tusschen den vutganck vanden
+                    dander drye huysen oft wooninghen int <rs type="place" ref="../register/register-place.xml#hoplant">Hopland</rs> alhier, tegens over de Lammekensraem tusschen den vutganck vanden
                     voor ende naerbescreven bleyckhoff, nu oock de voors. coopere toebehoorende aen
                     dese zijde oostwaerts ende der voors. vercooperen andere twee huysen mitsgaders
                     de voors. hoeckhuyse de witte roose die zij (als voore) oock tot henwaerdere
@@ -140,30 +132,24 @@
                     ordniarisen gemeynen muer, naer rechte verheyscht wordt ende voorder nyet, alles
                     in conformiteyt vande contracte daeraff tusschen partyen voors. gemaeckt opden
                         <date when="--05-12">tweelffsten mey</date> lestleden by, hen lieden in
-                    presentie vande notaris <rs type="person" ref="#huffel_de_jonge">vande
+                    presentie vande notaris <rs type="person" ref="../register/register-person.xml#huffel_de_jonge">vande
                     Huffel</rs> de jonge onderteeckent, in welcke voornoempte sesse huysen mits
                     gaders enden voors. hoeckhuyse de witte Roose, ende mede oock, inde voors.
                     andere huysen die hij vercooperen als voore thenwaerdere behoudene blijven,
                     wesend tsamen elff in getale, mette hove ende toebehoorten de voorgenoempde Hans
-                    Smekens ende Geertuyt van Alsdorp zijne eerste huysvrouwe was opde <date
-                        when="1606-10-14">veerthiende Octobris anno 16<hi rend="super">c</hi> ende
-                        sesse</date>, bij erffgenamen van <rs type="person" ref="#meer_catlijne"
-                        >Catlijne de Meer</rs> Janssone wijlen daer moeder aff was <rs type="person"
-                        ref="#valcx_anna">Anna Valcx</rs> ende heure consorten inde qualiteyt zoo
+                    Smekens ende Geertuyt van Alsdorp zijne eerste huysvrouwe was opde <date when="1606-10-14">veerthiende Octobris anno 16<hi rend="super">c</hi> ende
+                        sesse</date>, bij erffgenamen van <rs type="person" ref="../register/register-person.xml#meer_catlijne">Catlijne de Meer</rs> Janssone wijlen daer moeder aff was <rs type="person" ref="../register/register-person.xml#valcx_anna">Anna Valcx</rs> ende heure consorten inde qualiteyt zoo
                     zij compareerde, gegoeyt ende geerft zijn geweest zijnde voorts. alle de zelve
                     erffhuysen den voors. vercooperen alleene ende int geheele blijven toebehoorende
-                    vuyt crachte vande scheydinge ende de deylinge tusschen hen ende <rs
-                        type="person" ref="#smeken_elisabeth">Elizabeth Smekens</rs> daer moeder aff
-                    was de voors. Geertuyt van Alsdorp met <rs type="person"
-                        ref="#lambrecht_henrick">Henrick Lambrechts</rs> heueren wettigen man ende
+                    vuyt crachte vande scheydinge ende de deylinge tusschen hen ende <rs type="person" ref="../register/register-person.xml#smeken_elisabeth">Elizabeth Smekens</rs> daer moeder aff
+                    was de voors. Geertuyt van Alsdorp met <rs type="person" ref="../register/register-person.xml#lambrecht_henrick">Henrick Lambrechts</rs> heueren wettigen man ende
                     momboir, opte <date when="1622-02-21">eenentwintichsten dach February inde Jare
                             16<hi rend="super">c</hi> ende tweentwintich</date> voor Schepenen deser
                     stadt gepasseert, naer luydt der brieven daeraff zijnde, als wij verstanden,
                     alzoo dat de voorneompde comparanten vercoopers, de voorgenoempde sesse huyskens
                     oft wooningen mette hoffkens ende toebehoorten gelyck voors. staet opdroegen met
-                    verthydene ende claerlycke quyte schonden ’t allen dagen, ter voornoemde S<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Petri Pauli Rubens</rs> ende ’t
+                    verthydene ende claerlycke quyte schonden ’t allen dagen, ter voornoemde S<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petri Pauli Rubens</rs> ende ’t
                     zijnre naercommelinge behoeff met alle de rechte dat hij comparante daeraene
                     haden ende houdende waren ende bekende dat zij egeen recht meer daerane en
                     behielden ende geloffden hem die te waerne Jaer ende dach tegens alle daegene
@@ -177,7 +163,7 @@
             
             <div xml:lang="nld">
                 <p>Solutum – 2 gulden, 10 stuyvers, 18 ort<lb/> Pontgelt bedraagende 25 gulden.<lb/>
-                    recepit</p><closer><signed> <rs type="person" ref="#fabri_d">D. Fabri</rs></signed>
+                    recepit</p><closer><signed> <rs type="person" ref="../register/register-person.xml#fabri_d">D. Fabri</rs></signed>
                         <dateline><date when="1627-08-14">14 Augusti 1627</date>.</dateline></closer>
             </div>
         </body>

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_235a">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_235a"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-3002-646v">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -49,8 +49,7 @@
                                   
                                     Zur Bezahlung der Bilder für den Landsitz El Pardo
                                     vergleiche auch die Akten vom <ref type="rubens" cRef="ed_rubens_231">9. Dezember
-                                        1636</ref> sowie Eintragungen über eine weitere Zahlung aus dem Jahr <ref
-                                            type="rubens" cRef="ed_rubens_239">1638</ref>.</note>
+                                        1636</ref> sowie Eintragungen über eine weitere Zahlung aus dem Jahr <ref type="rubens" cRef="ed_rubens_239">1638</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -64,8 +63,7 @@
                             archives du Nord. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3. Antwerpen 1888.
                             S. 129f.</bibl>
                             <bibl>Svetlana Alpers: The Decorations of the Torre de la Parada (Corpus
-                                Rubenianum Ludwig Burchard. Bd. 9). Brüssel 1971. S. 280-288<ptr
-                                    type="opac" cRef="125032544"/></bibl></listBibl>
+                                Rubenianum Ludwig Burchard. Bd. 9). Brüssel 1971. S. 280-288<ptr type="opac" cRef="125032544"/></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -77,22 +75,17 @@
            
             
             <div xml:lang="fra">
-                <p><pb n="646v"/>2500 livres à messire <rs type="person"
-                    ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>, chevalier, secrétaire du
+                <p><pb n="646v"/>2500 livres à messire <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubens</rs>, chevalier, secrétaire du
                     Conseil privé du Roi<index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
                     </index>, en une lettre de descharge de pareille somme datée du
-                        <date when="1637-01-07">septiesme de janvier 1637</date>, sur <rs
-                        type="person" ref="#philipp_iv_spanien">Philippe</rs> Le Roy<index
-                        indexName="psw">
+                        <date when="1637-01-07">septiesme de janvier 1637</date>, sur <rs type="person" ref="../register/register-person.xml#philipp_iv_spanien">Philippe</rs> Le Roy<index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
-                    </index>, recepveur des licentes en <rs type="place" ref="#antwerpen"
-                    >Anvers</rs>, dont est faict recepte cy-devant, folio 205, verso, en tant moings
-                    de 10000 pareilles livres que Son Altèze, par son ordonnance du <date
-                        when="1636-12-09">nœufiesme de décembre</date> dernier, at ordonné luy estre
+                    </index>, recepveur des licentes en <rs type="place" ref="../register/register-place.xml#antwerpen">Anvers</rs>, dont est faict recepte cy-devant, folio 205, verso, en tant moings
+                    de 10000 pareilles livres que Son Altèze, par son ordonnance du <date when="1636-12-09">nœufiesme de décembre</date> dernier, at ordonné luy estre
                     furniz à bon compte de ce que coustront les peinctures que Sadite Altèze luy at
                     faict faire par ordre exprès de Sa Majesté et pour ornement de certaine maison
-                    de plaisance d’icelle au <rs type="work" ref="#torre_parada">Pardo</rs><index indexName="stw">
+                    de plaisance d’icelle au <rs type="work" ref="../register/register-work.xml#torre_parada">Pardo</rs><index indexName="stw">
                         <term type="GKD" xml:lang="spa">Madrid<index indexName="stw"><term xml:lang="spa">Palacio Real</term></index></term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="spa">El Pardo</term>
@@ -103,8 +96,7 @@
                     deniers desdites licentes, se faisant ce présent paiement pour le quart à payer
                         promptement.<note resp="A.H." type="footnote">Zu den Zahlungen vergleiche
                             <bibl>Svetlana Alpers: The Decorations of the Torre de la Parada (Corpus
-                            Rubenianum Ludwig Burchard. Bd. 9). Brüssel 1971. S. 280-288<ptr
-                                type="opac" cRef="125032544"/></bibl></note>
+                            Rubenianum Ludwig Burchard. Bd. 9). Brüssel 1971. S. 280-288<ptr type="opac" cRef="125032544"/></bibl></note>
                 </p>
             </div>
           

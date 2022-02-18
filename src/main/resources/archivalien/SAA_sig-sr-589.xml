@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_187">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_187"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,10 +20,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-589">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -50,8 +49,7 @@
                     <msContents>
                         <msItem>
                            
-                            <note resp="A.H." type="footnote">Rubens hatte am <ref type="rubens"
-                                cRef="ed_rubens_176">23. Juni 1627</ref> bereits zusammen mit Jan van
+                            <note resp="A.H." type="footnote">Rubens hatte am <ref type="rubens" cRef="ed_rubens_176">23. Juni 1627</ref> bereits zusammen mit Jan van
                                 Halmale und Cornelis Schut in ihrer gemeinsamen Eigenschaft als Vormund der
                                 Kinder des Jan Brueghel eine Rente auf das Haus Den Bok verkauft.</note>
                         </msItem>
@@ -76,64 +74,52 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Jonker <rs type="person" ref="#halmale_pauwel">Pauwels van Halmale</rs>,
-                    schepene deser stadt, <rs type="person" ref="#balen_hendrik">Henrick van
+                <p> Jonker <rs type="person" ref="../register/register-person.xml#halmale_pauwel">Pauwels van Halmale</rs>,
+                    schepene deser stadt, <rs type="person" ref="../register/register-person.xml#balen_hendrik">Henrick van
                         Balen</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Balen, Hendrik van (Künstler,
                         1575-1632)</term>
-                    </index>, constschilder ende <rs type="person" ref="#schut_cornelis">Cornelis
-                        Schut</rs>, in den naeme ende als testamentelijke momboiren<index
-                        indexName="stw">
+                    </index>, constschilder ende <rs type="person" ref="../register/register-person.xml#schut_cornelis">Cornelis
+                        Schut</rs>, in den naeme ende als testamentelijke momboiren<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormundschaft</term>
-                    </index> over d’onbejaerde kinderen van wijlen <rs type="person"
-                        ref="#brueghel_jan_aeltere">Jan Brueghel</rs><index indexName="psw">
+                    </index> over d’onbejaerde kinderen van wijlen <rs type="person" ref="../register/register-person.xml#brueghel_jan_aeltere">Jan Brueghel</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Breughel, Jan (der Ältere) </term>
-                    </index> daer moeder aff was jouffrouwe <rs type="person"
-                        ref="#marienberghe_catharina">Catharina van Marienberge</rs>, soo voor hun
-                    selven als inden naem ende hen sterckmaekende voor <rs type="person"
-                        ref="#rubens_peter_paul">Pedro Paulo Ruebens</rs>, hennen medemomboir, dicta
-                    qualitate, vercochten <rs type="person" ref="#raet_franciscus">Franciscus de
-                        Raet</rs>, coopman alhier ende jouffrouwe <rs type="person"
-                        ref="#maes_margareta">Margareta Maes</rs>, sijne huysvrouwe, eene schone
+                    </index> daer moeder aff was jouffrouwe <rs type="person" ref="../register/register-person.xml#marienberghe_catharina">Catharina van Marienberge</rs>, soo voor hun
+                    selven als inden naem ende hen sterckmaekende voor <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Paulo Ruebens</rs>, hennen medemomboir, dicta
+                    qualitate, vercochten <rs type="person" ref="../register/register-person.xml#raet_franciscus">Franciscus de
+                        Raet</rs>, coopman alhier ende jouffrouwe <rs type="person" ref="../register/register-person.xml#maes_margareta">Margareta Maes</rs>, sijne huysvrouwe, eene schone
                     groote huysinghe eertijts twee woningen geweest sijnde, met poorte, diversche
                     neercameren, oppercameren, solders, twee keukens, plaetse, hove, achterhuyse,
                     borneputte, regenbacke, verscheyde kelders ende eene steene lene ende bancken
-                    voor aen strate, gronden ende allen den toebehoorten geheeten Den Bock<index
-                        indexName="stw">
+                    voor aen strate, gronden ende allen den toebehoorten geheeten Den Bock<index indexName="stw">
                         <term xml:lang="nld">Den Bok</term>
                     </index> gestaen ende gelegen in de Gasthuys Beemden, alhier waeren achter den
-                    nieuwen Tapissiers Pandt, tusschen <rs type="person" ref="#snouck_gaspar">Gaspar
+                    nieuwen Tapissiers Pandt, tusschen <rs type="person" ref="../register/register-person.xml#snouck_gaspar">Gaspar
                         Snoecx</rs> huys ende erve aen d’een sijde ende Michiel Lambrechts erve ende
-                    huys nu Heer <rs type="person" ref="#heemssen_david">David Heemssen</rs> aen
+                    huys nu Heer <rs type="person" ref="../register/register-person.xml#heemssen_david">David Heemssen</rs> aen
                     d’ander sijde behalvens dat de pompe op de plaetse van dese huysinge in dese
-                    selffs <rs type="person" ref="#lambrechts_michiel">Michiel Lambrechts</rs>, maer
+                    selffs <rs type="person" ref="../register/register-person.xml#lambrechts_michiel">Michiel Lambrechts</rs>, maer
                     hangende is bij gedoochsaemheyt gelegen, oock is de venstre in de groote keukene
                     boven reycx staende aen de noortsijde, gelijck ende in alle der manieren ende
                     met alsulke gerechticheden ende servituten de voorseyde wijlen Jan Brueghel ende
-                    jouffrouwe <rs type="person" ref="#marienberghe_catharina">Catharina van
-                        Marienberghe</rs> sijne huysvrouwe, t’ voors. huys op den <date
-                        when="1619-03-09">9<hi rend="super">den</hi> Marty anno XVI<hi rend="super"
-                        >c</hi> ende negenthien</date> gecocht ende gecregen hebben tegens <rs
-                        type="person" ref="#gobijn_peeter">Peeter Gobijn</rs>, coopman was binnen
+                    jouffrouwe <rs type="person" ref="../register/register-person.xml#marienberghe_catharina">Catharina van
+                        Marienberghe</rs> sijne huysvrouwe, t’ voors. huys op den <date when="1619-03-09">9<hi rend="super">den</hi> Marty anno XVI<hi rend="super">c</hi> ende negenthien</date> gecocht ende gecregen hebben tegens <rs type="person" ref="../register/register-person.xml#gobijn_peeter">Peeter Gobijn</rs>, coopman was binnen
                     dese stadt hebbende de voors. wijlen Jouffouwe Catharina van Marienberghe
-                    desselffs weduwe, t’ voors. huys op den <date when="1627-06-23">23<hi rend="super"
-                            >sten</hi> Juny anno XVI<hi rend="super">c</hi> ende seventwintich</date>
-                    bij transporte vercregen tegens jouffrouwe <rs type="person"
-                        ref="#brueghel_paeschina">Passchijne Breugel</rs> ende consorten al prout
+                    desselffs weduwe, t’ voors. huys op den <date when="1627-06-23">23<hi rend="super">sten</hi> Juny anno XVI<hi rend="super">c</hi> ende seventwintich</date>
+                    bij transporte vercregen tegens jouffrouwe <rs type="person" ref="../register/register-person.xml#brueghel_paeschina">Passchijne Breugel</rs> ende consorten al prout
                     litteras quas tradidere ende omme welck voors. huyse een hoochsten enden meesten
                     progfijte brengene heeft man ’t selver ter vele ende diversche Vrijdaegen ter
                     vrijer Vrijdaechsmerckt deser stadt eenenyegelijck even naer doen uitroepen ende
-                    veylen te coopen door <rs type="person" ref="#halen_peeter">Peeter van
+                    veylen te coopen door <rs type="person" ref="../register/register-person.xml#halen_peeter">Peeter van
                     Halen</rs> gesworen oudecleercooper deser stadt waeraff naer vele ende lange
                     roepens namentlijck des Vrijdaeghs een <date when="--03-31">lesten dach der
                         maent van Meerte</date> lestleden als leste ende hoochste verdieren ende
                     meest daeromme biedende een coop ende palmslach ontfangen ende behouden heeft
-                        <rs type="person" ref="#vijvere_peeter">Peeter vanden Vijvere</rs> tot
+                        <rs type="person" ref="../register/register-person.xml#vijvere_peeter">Peeter vanden Vijvere</rs> tot
                     behoeff van den voors. Franciscus de Raet voor de somme van vijff hondert gulden
-                    erffelijck volgende de coopcedulle daerafff sijnde onderteeckent <rs
-                        type="person" ref="#waerbeke_jan">J. Waerbeeke</rs> notaris, droeghen oppe
+                    erffelijck volgende de coopcedulle daerafff sijnde onderteeckent <rs type="person" ref="../register/register-person.xml#waerbeke_jan">J. Waerbeeke</rs> notaris, droeghen oppe
                     te waerne, op niet daer jaerlijcx uitgaende, uitgenomen den casteelchijs soo
                     verre die daervuyt gaet put ende brantgelt, ’t welck den cooper moet dragen
                     sonder corten, behoudelijck dat de voors. huysingen medepant is ende blijft over
@@ -147,7 +133,7 @@
                     <dateline>Pondtgelt bedragende 50 gl. <date when="1628-07-17">decima septima July 1628</date>.<lb/>
                                         
                         Solutum 2 gl. register 3 etc.</dateline><lb/>
-                    <signed><rs type="person" ref="#fabri">Fabri</rs></signed><dateline> eodem die.</dateline></closer>
+                    <signed><rs type="person" ref="../register/register-person.xml#fabri">Fabri</rs></signed><dateline> eodem die.</dateline></closer>
             </div>
         </body>
      

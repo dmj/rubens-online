@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_192">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_192"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ernennung_sekretaer_staatsrat_philipp_an_isabella_16290427">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -38,8 +37,7 @@
                         <msItem>
                             
                             <filiation>
-                                <note resp="A.H." type="footnote">Vgl. hierzu ein weiteres <ref type="rubens"
-                                    cRef="ed_rubens_191">Dokument selben Datums</ref>, das in den Archives générales
+                                <note resp="A.H." type="footnote">Vgl. hierzu ein weiteres <ref type="rubens" cRef="ed_rubens_191">Dokument selben Datums</ref>, das in den Archives générales
                                     du Royaume, Brüssel aufbewahrt wurde und die Antwort der Infantin
                                     Isabella vom <ref type="rubens" cRef="ed_rubens_193">17. Mai 1629</ref>.</note>
                             </filiation>
@@ -59,8 +57,7 @@
                        </source></recordHist></adminInfo>
                     <listBibl>
                         <bibl>Louis Prosper Gachard: Histoire politique et
-                            diplomatique de Pierre-Paul Rubens. Brüssel: Office de Publicite, 1877. 293f.<ptr
-                                type="opac" cRef="306740680"/></bibl>
+                            diplomatique de Pierre-Paul Rubens. Brüssel: Office de Publicite, 1877. 293f.<ptr type="opac" cRef="306740680"/></bibl>
                     </listBibl></additional></msDesc>
             </sourceDesc>
         </fileDesc>
@@ -80,19 +77,18 @@
             <div part="Y" xml:lang="fra">
                  <salute>Madame ma bonne tante<index indexName="psw">
                         <term type="PND">Isabella (Spanien, Infantin)</term>
-                 </index>,</salute><lb/> <p>Les services et bonnes parties de <rs type="person"
-                        ref="#rubens_peter_paul">Pierre-Paul Rubens</rs> me font prier V. A. de
+                 </index>,</salute><lb/> <p>Les services et bonnes parties de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubens</rs> me font prier V. A. de
                     faire dépêcher à son proffit pantente de l’office de secrétaire de mon conseil
                     privé par delà, à condition de ne le deservir et qu’ayant son filz aisné l’eage
                     et souffisance pour exercer ledict estat, et s’en déportant ledict Rubens, luy
                     en serons données lettres patentes de commission, afin de par effect le
                     desservir et en estre mis en possession.</p>
                 <closer><salute> Je prie Dieu, madame ma bonne tante, conserver V. A. en parfaicte santé, à longues années.</salute><lb/>
-                 <dateline>De <rs type="place" ref="#madrid">Madrid</rs>, le <date when="1629-04-27">27<hi rend="super">e</hi> d’avril 1629</date>. 
+                 <dateline>De <rs type="place" ref="../register/register-place.xml#madrid">Madrid</rs>, le <date when="1629-04-27">27<hi rend="super">e</hi> d’avril 1629</date>. 
                      M<hi rend="super">s</hi><hi rend="smallCaps">Leg</hi><hi rend="super">s</hi> v<hi rend="super">t</hi>.</dateline>
-                <signed rend="text-align:right">Vostre bon nepveu,<lb/><rs type="person" ref="#philipp_iv_spanien">
+                <signed rend="text-align:right">Vostre bon nepveu,<lb/><rs type="person" ref="../register/register-person.xml#philipp_iv_spanien">
                         <hi rend="smallCaps">Philippe</hi></rs><index indexName="psw"><term type="PND">Philipp (Spanien, König, IV.)</term> </index>.</signed><lb/>
-                    <signed rend="text-align:right"><rs type="person" ref="#brito_j_o">J. O. <hi rend="smallCaps">De Brito</hi>.</rs></signed></closer>
+                    <signed rend="text-align:right"><rs type="person" ref="../register/register-person.xml#brito_j_o">J. O. <hi rend="smallCaps">De Brito</hi>.</rs></signed></closer>
             </div>
         </body>
         

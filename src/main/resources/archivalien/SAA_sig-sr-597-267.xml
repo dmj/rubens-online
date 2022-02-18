@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_197">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_197"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-597-267">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -75,15 +74,12 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Heer <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>
+                <p> Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs>
                     secretaris van de secreten readt van sijne majesteit ende edelman vande huyse
-                    van haere hoocheyt bekende opgebeurt ende ontfangen te hebben van <rs
-                        type="person" ref="#weerde_peeter">Peeter</rs> ende <rs type="person"
-                        ref="#weerde_jan">Jan van Weerde</rs> proprietaris en uyter tyt vande huysen
+                    van haere hoocheyt bekende opgebeurt ende ontfangen te hebben van <rs type="person" ref="../register/register-person.xml#weerde_peeter">Peeter</rs> ende <rs type="person" ref="../register/register-person.xml#weerde_jan">Jan van Weerde</rs> proprietaris en uyter tyt vande huysen
                     naebescreven de capitaele penningen vande vijffentseventich carolusguldens
-                    erffelyck mette achterstelle daeraff verschenen die <rs type="person"
-                        ref="#hesius_jean">Jan Hesius</rs> voor hem selven ende inde naeme van
-                    jouffrouwe <rs type="person" ref="#esche_helene">Helene van Esche</rs>, sijne
+                    erffelyck mette achterstelle daeraff verschenen die <rs type="person" ref="../register/register-person.xml#hesius_jean">Jan Hesius</rs> voor hem selven ende inde naeme van
+                    jouffrouwe <rs type="person" ref="../register/register-person.xml#esche_helene">Helene van Esche</rs>, sijne
                     huysvrouwe opden <date when="1614-05-09">9 Meye anno 16<hi rend="super">c</hi>
                         ende vierthien</date>, hem comparant vercocht ende getransporteert heeft op
                     eene huysinge mette hove, gronde ende toebehoorten geheeten Den gulden
@@ -91,8 +87,7 @@
                         <term xml:lang="ndl">Den gulden Aerent</term>
                     </index><index indexName="stw">
                         <term xml:lang="ndl">Den gulden Arent</term>
-                    </index>, gestaen ende gelegen inde Meirstraete met dry kleyne huysen in ’t <rs
-                        type="place" ref="#hoplant">Hoplant</rs> gestaen prout <span from="" xml:lang="lat">littera quam
+                    </index>, gestaen ende gelegen inde Meirstraete met dry kleyne huysen in ’t <rs type="place" ref="../register/register-place.xml#hoplant">Hoplant</rs> gestaen prout <span from="" xml:lang="lat">littera quam
                             tradidit, quitavit, promittens res</span>.</p> <closer>Sonder argelist.<lb/>
                     <dateline><date when="1630-06-27">Vigesima septima Juny 1630</date>.<lb/> Solutus 24 st.
                     </dateline></closer>

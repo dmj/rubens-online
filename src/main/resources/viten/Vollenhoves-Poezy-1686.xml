@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_291">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_291"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="person" ref="#vollenhove_joannes">Joannes Vollenhove</rs>: Poezy,
+                <title><rs type="person" ref="../register/register-person.xml#vollenhove_joannes">Joannes Vollenhove</rs>: Poezy,
                         <date when="1686">1686</date></title>
             </titleStmt>
             <publicationStmt>
@@ -22,8 +12,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="vollenhove_poezy_1686">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="vollenhove_poezy_1686">
                     <msIdentifier>
                         <repository>unbekannt</repository>
                     </msIdentifier>
@@ -57,25 +54,20 @@
         <body>
             <div part="Y" xml:lang="nld">
                 <head><pb n="490"/>AAN DEN HEER<lb/>
-                    <rs type="person" ref="#leu_pieter">PIETER LEU</rs><index indexName="psw">
+                    <rs type="person" ref="../register/register-person.xml#leu_pieter">PIETER LEU</rs><index indexName="psw">
                         <term xml:lang="deu">Leu, Pieter</term>
-                    </index>,<lb/> VERMAART SCHILDER TE <rs type="place" ref="#london"
-                        >LONDEN</rs><gap resp="N.B." reason="cancelled"/>
+                    </index>,<lb/> VERMAART SCHILDER TE <rs type="place" ref="../register/register-place.xml#london">LONDEN</rs><gap resp="N.B." reason="cancelled"/>
                 </head>
-                <p><pb n="491"/>Wal hangtge kunst van Holbeen, <rs type="person"
-                        ref="#dyck_anthonis_van">Dyk</rs><index indexName="psw">
+                <p><pb n="491"/>Wal hangtge kunst van Holbeen, <rs type="person" ref="../register/register-person.xml#dyck_anthonis_van">Dyk</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Dyck, Anthonis van</term>
-                    </index>,<lb/> En <rs type="person" ref="#rubens_peter_paul">Rubens</rs><index
-                        indexName="psw">
+                    </index>,<lb/> En <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
-                    </index>, of <rs type="place" ref="#italien">Itaalje</rs>, ryk<lb/> Van geesten,
+                    </index>, of <rs type="place" ref="../register/register-place.xml#italien">Itaalje</rs>, ryk<lb/> Van geesten,
                     die geen ouden weken,<lb/> In 't klein of levens groot, tell toon?<lb/> Of
-                    steekt uw hallt dus uit, gewoon<lb/> Die meesters naar de kroon te sieken?<gap
-                        resp="N.B." reason="cancelled"/>
+                    steekt uw hallt dus uit, gewoon<lb/> Die meesters naar de kroon te sieken?<gap resp="N.B." reason="cancelled"/>
                 </p>
                 <p><pb n="492"/>
-                    <gap resp="N.B." reason="cancelled"/>Te Londen in Wynmaant, <date when="1674"
-                        >MDCLXXIV</date>. </p>
+                    <gap resp="N.B." reason="cancelled"/>Te Londen in Wynmaant, <date when="1674">MDCLXXIV</date>. </p>
             </div>
         </body>
     </text>

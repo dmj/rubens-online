@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_190">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_190"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-596">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -65,25 +64,23 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p><rs type="person" ref="#snayers_louis">Loys Snayers</rs> in den naeme van heer
-                        <rs type="person" ref="#cordes_jan_carlo">Jan Carlo de Cordes</rs>, Heere
-                    van <rs type="place" ref="#wichelen">Wichelen</rs>, <rs type="place"
-                        ref="#ceescamp">Ceescamp</rs>, etc. die hem comparant omme ’tgene
+                <p><rs type="person" ref="../register/register-person.xml#snayers_louis">Loys Snayers</rs> in den naeme van heer
+                        <rs type="person" ref="../register/register-person.xml#cordes_jan_carlo">Jan Carlo de Cordes</rs>, Heere
+                    van <rs type="place" ref="../register/register-place.xml#wichelen">Wichelen</rs>, <rs type="place" ref="../register/register-place.xml#ceescamp">Ceescamp</rs>, etc. die hem comparant omme ’tgene
                     naerbescreven wort te mogen doen specialijcken gemechticht heeft bij procuratie
                     gepasseert op den <date when="--01-15">vijfthienden January</date> lestleden
-                    voor den notaris <rs type="person" ref="#pute_waesberghe">Waesberghe van
+                    voor den notaris <rs type="person" ref="../register/register-person.xml#pute_waesberghe">Waesberghe van
                     Pute</rs> van getuyghen ons gethoont sijnde in dyer qualiteyt bekende dat hij
                     omme eene somme van penningen die hij hem tot sijnen contentemente is ontfangen,
                     vercocht overgegeven, gecedeert ende getransporteert heeft, mits desen aen
-                    Joncker <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubbens</rs>,
+                    Joncker <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubbens</rs>,
                     edelman van den huyse van haere Hoocheden alsulcken dertien hondert twintich
-                    ponden sethien schellingen acht grooten Vlaems eens, als <rs type="person"
-                        ref="#arnouts_jan_baptista">Jan Baptista Arnoults</rs> comparerende op den
+                    ponden sethien schellingen acht grooten Vlaems eens, als <rs type="person" ref="../register/register-person.xml#arnouts_jan_baptista">Jan Baptista Arnoults</rs> comparerende op den
                         <date when="1619-04-13">derthiensten dach der maent Aprilis van den jaere
                         XVIc negenthiene</date> voor wethouderen deser stadt ende daernaer op den
                         <date when="1619-04-15">vijfthiensten dach derselver maent</date> voor
-                    schepenen der heerlijckheyt van den <rs type="place" ref="#doel">Doel</rs> en
-                        <rs type="place" ref="#kieldrecht">Kildrecht</rs>, bekent heeft schuldich te
+                    schepenen der heerlijckheyt van den <rs type="place" ref="../register/register-place.xml#doel">Doel</rs> en
+                        <rs type="place" ref="../register/register-place.xml#kieldrecht">Kildrecht</rs>, bekent heeft schuldich te
                     sijne aenden voornoemden heere Jan Carlo de Cordes ende aen hem oft aen den
                     brenger ’s briefs gelooft te betaelen in drije payementen, daervan het leste
                     verschenen is den <date when="1623-04-13">derthiensten Aprilis van den jaere
@@ -92,14 +89,11 @@
                     jegenwoordige ende toecommende ende specialijcken een hondert vijvenviertich
                     gemeten, twee hondert vijfthien roeden lants mette vruchten daervan te
                     procederen, gelegen inden Hoogen Doel. Item de erffmeijereije van Kildrecht ende
-                        d’<rs type="place" ref="#bavenschoir">Bavenschoir</rs>, gelegen ’t selve
-                    Schoir in <rs type="place" ref="#hulsterambacht">Hulster Ambacht</rs>, onder <rs
-                        type="place" ref="#ossenisse">Ossenisse</rs>, welcke partijen van goeden den
-                    voorseyden Jan Baptista Arnoultes getransporteert sijn bij <rs type="person"
-                        ref="#arnouts_jacques">Jacques Arnoults</rs> sijnen testamentelijcken
+                        d’<rs type="place" ref="../register/register-place.xml#bavenschoir">Bavenschoir</rs>, gelegen ’t selve
+                    Schoir in <rs type="place" ref="../register/register-place.xml#hulsterambacht">Hulster Ambacht</rs>, onder <rs type="place" ref="../register/register-place.xml#ossenisse">Ossenisse</rs>, welcke partijen van goeden den
+                    voorseyden Jan Baptista Arnoultes getransporteert sijn bij <rs type="person" ref="../register/register-person.xml#arnouts_jacques">Jacques Arnoults</rs> sijnen testamentelijcken
                     momboir geweest sijnde op rekeninge van sijne vaderlijcke goeden ende andere
-                    broederlijcke ende susterlijcke versterffenissen op den <date when="1614-02-13"
-                        >derthiensten February XVI<hi rend="super">c</hi> verthiene</date> ende noch
+                    broederlijcke ende susterlijcke versterffenissen op den <date when="1614-02-13">derthiensten February XVI<hi rend="super">c</hi> verthiene</date> ende noch
                     de huysinge, schuere, stallinge, wagenhuyse, backhuyse ende duyvenhuyse op den
                     voorseyden landen in den Doele die den voorseyden Jan Baptista daerop heeft
                     gestelt te vooren belast sijnde mette commeren ende lasten in de voorseyde

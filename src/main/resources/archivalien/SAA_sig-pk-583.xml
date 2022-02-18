@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_249">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_249"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-pk-583">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -51,8 +50,7 @@
                                 Antwerpsch Archievenblad Bd. IV. 1869. S. 400-472; Bd. VII. 1870. S. 1-113;
                                 Bd. XIII. 1876. S. 215-345; bes. bd. XIII. S. 208f., S. 296 u. 302</bibl>,
                                 wo Honorare von Rubens genannt werden.</note>
-                            <note resp="A.H." type="footnote">Christoffel van Wesel wurde am <ref type="rubens"
-                                cRef="ed_rubens_240">19. August 1639</ref> ein Weingeschenk vergütet, dass
+                            <note resp="A.H." type="footnote">Christoffel van Wesel wurde am <ref type="rubens" cRef="ed_rubens_240">19. August 1639</ref> ein Weingeschenk vergütet, dass
                                 er für Rubens' Entwurf des Wagens ausgelegt hatte. Vgl. dort.</note>
                             
                         </msItem>
@@ -65,8 +63,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Franz Jozef Peter van den Branden: Geschiedenis
-                            der Antwerpsche Schilderschool. Antwerpen 1883. S. 571<ptr type="gbv"
-                            cRef="194552292"/></bibl>
+                            der Antwerpsche Schilderschool. Antwerpen 1883. S. 571<ptr type="gbv" cRef="194552292"/></bibl>
                             <bibl>Pierre Génard: Intrede van den
                                 Prins-Kardinaal Ferdinand van Spanje te Antwerpen, op 17 April 1635. In:
                                 Antwerpsch Archievenblad Bd. IV. 1869. S. 400-472; Bd. VII. 1870. S. 1-113;
@@ -87,22 +84,21 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Geresolveert ende geconsenteert, dat totte descriptie van de <rs type="work"
-                        ref="#pompa_introitus">incompste van sijne Hoochheyt den
+                <p>Geresolveert ende geconsenteert, dat totte descriptie van de <rs type="work" ref="../register/register-work.xml#pompa_introitus">incompste van sijne Hoochheyt den
                         Prince-Cardinael</rs><index indexName="psw">
                         <term type="PND">Fernando (Infante Cardenal)</term>
                     </index><index indexName="psw">
                         <term type="PND">Kardinalinfant Ferdinand</term>
-                    </index>, bij Meester <rs type="person" ref="#gevaerts_caspar">Caspar
+                    </index>, bij Meester <rs type="person" ref="../register/register-person.xml#gevaerts_caspar">Caspar
                         Gevarts</rs><index indexName="psw">
                         <term type="PND">Gevaerts, Jean Gaspard</term>
                     </index>, Greffier deser stadt, beschreven, sal worden bijgevueght de figuere
-                    van den <rs type="work" ref="#jaffe_1363">waghen triumphael ter oorsaecke van de
+                    van den <rs type="work" ref="../register/register-work.xml#jaffe_1363">waghen triumphael ter oorsaecke van de
                         victorie van Calloo</rs><index indexName="stw">
                         <term xml:lang="deu">Triumphwagen für die Schlacht bei Calloo</term>
                     </index><index indexName="stw">
                         <term xml:lang="deu">Triumphwagen</term>
-                    </index>, bij <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Rubens</rs>
+                    </index>, bij <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Paulo Rubens</rs>
                     geinventeert.</p> <closer><dateline>Actum in Collegio <date when="1641-12-09">9 Decembris
                         1641</date></dateline></closer>
             </div>

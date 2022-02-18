@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_160">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_160"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="AGRB_papiers-etat_1622">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -70,15 +69,11 @@
     <text>
         <body>
             <div xml:lang="fra">
-                 <head>A ceulx du magistrat d’<rs type="place" ref="#antwerpen">Anvers</rs><index
-                        indexName="gsw">
+                 <head>A ceulx du magistrat d’<rs type="place" ref="../register/register-place.xml#antwerpen">Anvers</rs><index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
-                 </index>.</head> <p><rs type="person" ref="#isabella_von_spanien">Isabel</rs><index
-                        indexName="psw">
+                 </index>.</head> <p><rs type="person" ref="../register/register-person.xml#isabella_von_spanien">Isabel</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
-                    </index>, etc. Chers et bien amez, estant informez que <rs type="person"
-                        ref="#rubens_peter_paul">Pierre-Paulo Rubens</rs>, nostre pensionnaire<index
-                        indexName="stw">
+                    </index>, etc. Chers et bien amez, estant informez que <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paulo Rubens</rs>, nostre pensionnaire<index indexName="stw">
                         <term xml:lang="deu">Hofmaler</term>
                     </index>, auroit couru et court encore danger de sa personne par les agressions
                     d’un sein malveillant, que l’on dit avoir juré sa mort, nous sommes occasionnez
@@ -86,8 +81,7 @@
                         préjudice<index indexName="stw">
                         <term xml:lang="deu">Schutz</term>
                     </index>, ains que doniez incontinent l’ordre qu’il convient pour son repos et
-                    assurance, et Dieu vous ait (en sa saincte garde).<lb/> Le <date
-                        when="1622-04-29">29 d’avril 1622</date>. </p>
+                    assurance, et Dieu vous ait (en sa saincte garde).<lb/> Le <date when="1622-04-29">29 d’avril 1622</date>. </p>
             </div>
         </body>
         

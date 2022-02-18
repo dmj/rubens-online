@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_189">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_189"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc> 
-                &register-corporate; 
-                &register-person; 
-                &register-place;
-                &register-work; 
+                
+ 
+                
+
+ 
+                
+
+
+                
+
+ 
                 <msDesc xml:lang="deu" xml:id="nachlass_isabella_brant_16280828">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -51,8 +50,7 @@
                     </source></recordHist></adminInfo>
                     <listBibl>
                         <bibl>Max Rooses: Staat van goederen in het Sterffhuys van Isabella Brant, in:
-                            Rubens-Bulletijn - Bulletin-Rubens. Bd. 4, 1896, S. 154-188<ptr type="gbv"
-                                cRef="167057901"/></bibl>
+                            Rubens-Bulletijn - Bulletin-Rubens. Bd. 4, 1896, S. 154-188<ptr type="gbv" cRef="167057901"/></bibl>
                     </listBibl>
                     </additional></msDesc>
             </sourceDesc>
@@ -75,19 +73,14 @@
 
                 <p>Staat van allen den goederen haeffelycke ende erffelycke, schulden ende weder
                     schulden achtergelaeten ende competerende den sterffhuyse van wijlen jouffrouwe
-                        <rs type="person" ref="#brant_isabella">Isabella Brant</rs> wettighe
-                    huysvrouwe geweest heeft van Heer <rs type="person" ref="#rubens_peter_paul"
-                        >Petro Paulo Rubens</rs>, Edelman vanden huyse van haer doorluchtichste
-                    Hoocheyt, die op den <date when="1626-06-20">twintichsten Junij A<hi rend="super"
-                            >o</hi> XVI<hi rend="super">c</hi> sessentwintich</date> deser weerelt is
-                    overleden naelatende twee hender beyder kinderen naementlyck <rs type="person"
-                        ref="#rubens_albert">Alberthus</rs><index indexName="psw">
+                        <rs type="person" ref="../register/register-person.xml#brant_isabella">Isabella Brant</rs> wettighe
+                    huysvrouwe geweest heeft van Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo Rubens</rs>, Edelman vanden huyse van haer doorluchtichste
+                    Hoocheyt, die op den <date when="1626-06-20">twintichsten Junij A<hi rend="super">o</hi> XVI<hi rend="super">c</hi> sessentwintich</date> deser weerelt is
+                    overleden naelatende twee hender beyder kinderen naementlyck <rs type="person" ref="../register/register-person.xml#rubens_albert">Alberthus</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Albert</term>
-                    </index> oudt alsdoen derthien jaeren ende <rs type="person"
-                        ref="#rubens_nikolaas">Nicolaes Rubens</rs> oudt doen tertijt neghen jaeren
+                    </index> oudt alsdoen derthien jaeren ende <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">Nicolaes Rubens</rs> oudt doen tertijt neghen jaeren
                     welcken desen staet mits gaeders rekeninghe ende bewijs, den voorschreven Heer
-                    Petro Paulo Rubens als vaeder ende opper testamentelycke momboir<index
-                        indexName="stw">
+                    Petro Paulo Rubens als vaeder ende opper testamentelycke momboir<index indexName="stw">
                         <term xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term xml:lang="deu">Vormundschaft</term>
@@ -108,10 +101,10 @@
                     wapenen ende ringhen, vuytgenomen deghene die inde caskens byde agaeten bevonden
                     sijn, al breeder naer inhout vanden selven contracte daertoe men hem is
                     refererende, ende mits desen overgevende ende doende is aen M<hi rend="super">r</hi>
-                    <rs type="person" ref="#brant_jan">Jan Brandt</rs>, oudt schepen deser stadt van
-                        <rs type="place" ref="#antwerpen">Antwerpen</rs>, der selver kinderen
+                    <rs type="person" ref="../register/register-person.xml#brant_jan">Jan Brandt</rs>, oudt schepen deser stadt van
+                        <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs>, der selver kinderen
                     grootvaeder, ende M<hi rend="super">r</hi>
-                    <rs type="person" ref="#brant_hendrick">Hendrick Brandt</rs>, Greffijer der
+                    <rs type="person" ref="../register/register-person.xml#brant_hendrick">Hendrick Brandt</rs>, Greffijer der
                     selver stadt der voorschreven kinderen oom, beyde inden naem ende als mede
                     testamentelijcke momboiren over der selve kinderen, vander administratie by hem
                     rendant gehadt ende gehanteert over sterffhuijs ende naegelaetene goeden sijnder
@@ -167,12 +160,11 @@
                             <row>
                                 <cell>Item is te wetene dat deser kinderen vaeder naer de doodt
                                     hender moeder vuijtter handt ten meesten proffijte vercocht
-                                    heeft aenden heer <rs type="person"
-                                        ref="#buckingham_herzog_villiers">Hertoghe van
+                                    heeft aenden heer <rs type="person" ref="../register/register-person.xml#buckingham_herzog_villiers">Hertoghe van
                                         Bucqingam</rs><index indexName="psw">
                                         <term type="PND" xml:lang="deu">Buckingham, George Villiers
                                             of (1592-1628)</term>
-                                    </index> in <rs type="place" ref="#england">Engelant</rs>
+                                    </index> in <rs type="place" ref="../register/register-place.xml#england">Engelant</rs>
                                     eenighe schilderyen, antiquiteijten van marber, agaten ende
                                     andere juweelen ter somme toe van eenhondert duysent gulden
                                     eens, daer aene gecort sesthien duijsent gulden eens,
@@ -186,17 +178,14 @@
                                     afflijvighe in desen niet en was begonst ende de resterende
                                     thien duijsent guldenen gesmolten sijn in geloefte gedaen aenden
                                     ghenen die den coop vande voorschreven partyen den selven
-                                    hertoghe heeft aengebracht ende vercocht<note resp="A.H."
-                                        type="footnote">Das Gemälde, das möglicherweise als Pendant
+                                    hertoghe heeft aengebracht ende vercocht<note resp="A.H." type="footnote">Das Gemälde, das möglicherweise als Pendant
                                         eines "Sturz der Verdammten" in der Sammlung Buckinghams
                                         gedacht war, wurde nie ausgeführt und geliefert. Vgl.
                                             <bibl>David Freedberg: Rubens. The Live of Christ after
                                             the Passion (Corpus Rubenianum Ludwig Burchard. Bd. 7).
-                                            London 1984. S. 229f. und 235f.<ptr type="opac"
-                                                cRef="125032390"/></bibl></note>, Ergo suijver
+                                            London 1984. S. 229f. und 235f.<ptr type="opac" cRef="125032390"/></bibl></note>, Ergo suijver
                                     ontfanghen de somme van</cell>
-                                <cell><measure type="currency" quantity="84000">guld. lXXXIIII<hi rend="super"
-                                    >m</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="84000">guld. lXXXIIII<hi rend="super">m</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item de voorder principael schilderijen ende andere inden
@@ -209,18 +198,15 @@
                             </row>
                             <row>
                                 <cell>Item noch competeerden desen sterffhuisje eenighe copere
-                                    plaeten gesneden soo van <rs type="person"
-                                        ref="#vostermans_lucas">Lucas Vostermans</rs><index
-                                        indexName="psw">
+                                    plaeten gesneden soo van <rs type="person" ref="../register/register-person.xml#vostermans_lucas">Lucas Vostermans</rs><index indexName="psw">
                                         <term type="PND" xml:lang="deu">Vorsterman, Lucas (Künstler,
                                             1595-1675)</term>
-                                    </index>, <rs type="person" ref="#pontius_paulus">Paulus
+                                    </index>, <rs type="person" ref="../register/register-person.xml#pontius_paulus">Paulus
                                         Pontius</rs><index indexName="psw">
                                         <term type="PND" xml:lang="deu">Pontius, Paulus</term>
                                     </index> ende van andere meesters meest halff sleet synde diemen
                                     aenden rendant heeft overgelaeten ende vercocht ter somme van</cell>
-                                <cell><measure type="currency" quantity="1500">guld. XV<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="1500">guld. XV<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Somma van dese vuytgetrocken gereede proffijten compt
@@ -238,62 +224,46 @@
                     <p>
                         <table>
                             <row>
-                                <cell>Ierst ontvangen van mynen Eerw. Heere den Abt van <rs
-                                        type="corporate" ref="#antwerpen_abtei_st_michiels">Sinte
+                                <cell>Ierst ontvangen van mynen Eerw. Heere den Abt van <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Sinte
                                         Michiels clooster</rs><index indexName="stw">
                                         <term xml:lang="deu">Anbetung der Könige</term>
                                     </index> alhier over t’gene hy desen sterffhuyse schuldich was
                                     de somme van<note resp="A.H." type="footnote">Rubens hatte für
-                                        den Hochaltar der Abtei St. Michiels eine <rs type="work"
-                                            ref="#jaffe_780">Anbetung der Könige</rs> gemalt.Vgl.
+                                        den Hochaltar der Abtei St. Michiels eine <rs type="work" ref="../register/register-work.xml#jaffe_780">Anbetung der Könige</rs> gemalt.Vgl.
                                             <bibl>Max Rooses: Staat van goederen in het Sterffhuys
                                             van Isabella Brant, in: Rubens-Bulletijn -
-                                            Bulletin-Rubens. Bd. 4, 1896, S. 162<ptr type="gbv"
-                                                cRef="167057901"/></bibl></note></cell>
-                                <cell><measure type="currency" quantity="750">guld. VII<hi rend="super"
-                                    >c</hi>l</measure>.</cell>
+                                            Bulletin-Rubens. Bd. 4, 1896, S. 162<ptr type="gbv" cRef="167057901"/></bibl></note></cell>
+                                <cell><measure type="currency" quantity="750">guld. VII<hi rend="super">c</hi>l</measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item ontvanghen vande kerckmeesters van onse Lieve Vrouwe
                                         kercke<index indexName="stw">
                                         <term type="SWD" xml:lang="deu">Antwerpen /
                                             Liebfrauenkathedrale</term>
-                                    </index> alhier voor den <rs type="work" ref="#jaffe_814"
-                                        >hooghen aultaer</rs> aldaer de somme van</cell>
-                                <cell><measure type="currency" quantity="1500">guld. XV<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                    </index> alhier voor den <rs type="work" ref="../register/register-work.xml#jaffe_814">hooghen aultaer</rs> aldaer de somme van</cell>
+                                <cell><measure type="currency" quantity="1500">guld. XV<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item ontfanghen van mynen Eerw. heere den Bisop van <rs
-                                        type="place" ref="#gent">Gendt</rs> over t’gene hij desen
+                                <cell>Item ontfanghen van mynen Eerw. heere den Bisop van <rs type="place" ref="../register/register-place.xml#gent">Gendt</rs> over t’gene hij desen
                                     sterffhuijse oyck schuldich was compt hier de somme van</cell>
-                                <cell><measure type="currency" quantity="1000">guld. X<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="1000">guld. X<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item ontfanghen van wegen de groote kercke van <rs
-                                        type="place" ref="#aalst">Aelst</rs><index indexName="stw">
+                                <cell>Item ontfanghen van wegen de groote kercke van <rs type="place" ref="../register/register-place.xml#aalst">Aelst</rs><index indexName="stw">
                                         <term type="PND" xml:lang="deu">Rochus (Heiliger)</term>
-                                    </index><note resp="A.H." type="footnote">Der <rs type="work"
-                                            ref="#altar_st_rochus">Altar des hl. Rochus</rs>
+                                    </index><note resp="A.H." type="footnote">Der <rs type="work" ref="../register/register-work.xml#altar_st_rochus">Altar des hl. Rochus</rs>
                                         befindet sich noch heute in der St. Maartenskerk in
                                     Aalst.</note> de somme van</cell>
-                                <cell><measure type="currency" quantity="500">guld. V<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="500">guld. V<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item ontfanghen van <rs type="person" ref="#descamps_joris"
-                                        >Joris Descamps</rs> van weghen de <rs type="person"
-                                        ref="#sigismund_iii_polen">Conincklijcke Ma<hi rend="super"
-                                        >t</hi></rs><index indexName="psw">
+                                <cell>Item ontfanghen van <rs type="person" ref="../register/register-person.xml#descamps_joris">Joris Descamps</rs> van weghen de <rs type="person" ref="../register/register-person.xml#sigismund_iii_polen">Conincklijcke Ma<hi rend="super">t</hi></rs><index indexName="psw">
                                         <term type="PND" xml:lang="deu">Sigismund Wasa (Polen,
                                             König, III.)</term>
-                                    </index> van <rs type="place" ref="#polen">Polen</rs> de somme
+                                    </index> van <rs type="place" ref="../register/register-place.xml#polen">Polen</rs> de somme
                                     van thien hondert guldenen eens op rekeninghe vande
-                                    achthienhondert gulden die de selve Coninckliycke Ma<hi
-                                        rend="super">t</hi> desen sterffhuyse schuldich was comt</cell>
-                                <cell><measure type="currency" quantity="1000">guld. X<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                    achthienhondert gulden die de selve Coninckliycke Ma<hi rend="super">t</hi> desen sterffhuyse schuldich was comt</cell>
+                                <cell><measure type="currency" quantity="1000">guld. X<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Soodat de selve Conincklycke Ma<hi rend="super">t</hi> daeraff
@@ -307,45 +277,38 @@
                                         <term type="PND" xml:lang="deu">Isabella (Spanien,
                                         Infantin)</term>
                                     </index> de somme van</cell>
-                                <cell><measure type="currency" quantity="500">guld. V<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="500">guld. V<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item ontfangen van Mynheer <rs type="person" ref="#biel_herr"
-                                        >Biel</rs> de somme van</cell>
+                                <cell>Item ontfangen van Mynheer <rs type="person" ref="../register/register-person.xml#biel_herr">Biel</rs> de somme van</cell>
                                 <cell><measure type="currency" quantity="384">guld. III<hi rend="super">c</hi> lXXXIIII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item ontfanghen van <rs type="person" ref="#halen_peeter"
-                                        >Peeter Van Haelen</rs> oude cleercooper van vercochte oude
+                                <cell>Item ontfanghen van <rs type="person" ref="../register/register-person.xml#halen_peeter">Peeter Van Haelen</rs> oude cleercooper van vercochte oude
                                     cleederen van d’afflijvighe in desen de somme van</cell>
                                 <cell><measure type="currency" quantity="385">guld. III<hi rend="super">c</hi> LXXXV</measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item ontfanghen van S<hi rend="super">r</hi>
-                                    <rs type="person" ref="#fourment_daniel">Daniel Fourment</rs>
+                                    <rs type="person" ref="../register/register-person.xml#fourment_daniel">Daniel Fourment</rs>
                                     ter saecken ende als reste van eenighe agaten byden rendant int
                                     leven der afflijvighe gesonden naer Indijen de somme van</cell>
-                                <cell><measure type="currency" quantity="900">guld. IX<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="900">guld. IX<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item ontfangen van Mijnheer <rs type="person"
-                                        ref="#hemelaer_herr">Hemelaer</rs> canoninck alhier de somme
+                                <cell>Item ontfangen van Mijnheer <rs type="person" ref="../register/register-person.xml#hemelaer_herr">Hemelaer</rs> canoninck alhier de somme
                                     van</cell>
-                                <cell><measure type="currency" quantity="500">guld. V<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="500">guld. V<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item S<hi rend="super">r</hi>
-                                    <rs type="person" ref="#arnouts_jan_baptista">Jan Baptista
+                                    <rs type="person" ref="../register/register-person.xml#arnouts_jan_baptista">Jan Baptista
                                         Aernouts</rs> is desen sterffhuijse schuldich van gelt hem
                                     bij d’ouders in desen in deposito gedaen de somme van neghen
                                     hondert vijfftich ponden Vlems eens, ende daeraff t’verloop
                                     rentsgewijse tachter is voor ses jaren waarvore specialijck
                                     verbonden staet sijn hoeve mette huysinghe ende toebehoorten
-                                    gestaen ende geleghen inden <rs type="place" ref="#doel"
-                                    >Doel</rs> groot drijentvijftich oft vierentvyftich gemeten, dan
+                                    gestaen ende geleghen inden <rs type="place" ref="../register/register-place.xml#doel">Doel</rs> groot drijentvijftich oft vierentvyftich gemeten, dan
                                     soomen onseker is, wannier dese schult gecouvreert sal worden
                                     hier voor</cell>
                                 <cell>memorie.</cell>
@@ -372,8 +335,7 @@
                             <cell>Eerst degene diegene die metter doodt der voorsch. Jouffrouwe
                                 Isabella Brandt bevonden sijn Ierst competeert daeraff desen
                                 gemeynen sterffhuys een groote huijsinghe metten hove, gronde ende
-                                toebehoorten gestaen ende gelegen op den Wapper<index
-                                    indexName="stw">
+                                toebehoorten gestaen ende gelegen op den Wapper<index indexName="stw">
                                     <term xml:lang="deu">Rubenshaus</term>
                                 </index><index indexName="stw">
                                     <term xml:lang="nld">Rubenshuis</term>
@@ -385,11 +347,9 @@
                             <cell>Item een huijs metten gronde ende toebehoorten achter de
                                 voorschreven groote huijssinge geleghen vuijtcommende jegens over de
                                 Lammekens Raem belast met vyffentwintich guldenen erffelyck
-                                competerende de Weduwe <rs type="person" ref="#rol_weduwe">Rol</rs>.
-                                Item sevenentdertich guldenen erffelyck competerende de Weduwe <rs
-                                    type="person" ref="#broeck_weduwe">Vanden Broeck</rs> ende drije
-                                guldenen erffelyck het <rs type="corporate"
-                                    ref="#kloster_roosenberghe_waasmunster">Clooster Van
+                                competerende de Weduwe <rs type="person" ref="../register/register-person.xml#rol_weduwe">Rol</rs>.
+                                Item sevenentdertich guldenen erffelyck competerende de Weduwe <rs type="person" ref="../register/register-person.xml#broeck_weduwe">Vanden Broeck</rs> ende drije
+                                guldenen erffelyck het <rs type="corporate" ref="../register/register-corporate.xml#kloster_roosenberghe_waasmunster">Clooster Van
                                     Roosenberghe</rs> daeraff de huere in toecomende rekeninghe
                                 verantwoort sal worden hieroyck voor</cell>
                             <cell>memorie.</cell>
@@ -398,8 +358,7 @@
                             <cell>Item een huijs metten gronde ende toebehoorten genaempt de
                                     Sterre<index indexName="stw">
                                     <term xml:lang="nld">De Sterre</term>
-                                </index> gestaen ende geleghen in de Jodestraete alhier,<note
-                                    resp="A.H." type="footnote">Rubens kaufte das Haus de Sterre am
+                                </index> gestaen ende geleghen in de Jodestraete alhier,<note resp="A.H." type="footnote">Rubens kaufte das Haus de Sterre am
                                         <ref type="rubens" cRef="ed_rubens_162">14. Mai
                                 1622</ref>.</note> vrij ende onbelast sijnde, daervan in toecomende
                                 rekeninghe vande huere oyck verantwoortdt sal worden.</cell>
@@ -408,16 +367,14 @@
                         <row>
                             <cell>Item een hoeve mette huijsinge daerop staende, gronde ende
                                 toebehoorten groot int geheele tweentdertich gemeten broecklants al
-                                saemen geleghen onder <rs type="place" ref="#zwijndrecht"
-                                >Swyndrecht</rs> in <rs type="place" ref="#flandern">Vlaenderen</rs>
+                                saemen geleghen onder <rs type="place" ref="../register/register-place.xml#zwijndrecht">Swyndrecht</rs> in <rs type="place" ref="../register/register-place.xml#flandern">Vlaenderen</rs>
                                 alles vrij ende onbelast synde, daer van ten respecte van huere in
                                 toecomende rekeninghe oyck verantwoort sal worden</cell>
                             <cell>memorie.</cell>
                         </row>
                         <row>
                             <cell>Item eene rente van t’sestich guldenen t’soaers gheheven wordende
-                                op de heeren staeten slants van <rs type="place" ref="#brabant"
-                                    >Brabant</rs> int quartier deser stadt van Antwerpen op den naem
+                                op de heeren staeten slants van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs> int quartier deser stadt van Antwerpen op den naem
                                 van <gap reason="illegible"/> die vanden verloope verachtert stont
                                 vierthien off vijffthien jaeren daeroppe ontfanghen synde twee
                                 jaeren verloops vervallen <gap reason="illegible"/> bedraegende</cell>
@@ -430,7 +387,7 @@
                                     Aerent<index indexName="stw">
                                     <term xml:lang="nld">Den gulden Aerent</term>
                                 </index> gestaen ende geleghen achter de Lammekens Raems alhier
-                                toebehoorende <rs type="person" ref="#hesius_jean">Jan Hesius</rs>
+                                toebehoorende <rs type="person" ref="../register/register-person.xml#hesius_jean">Jan Hesius</rs>
                                 die verachtert stont van zes jaeren <gap reason="illegible"/>
                             </cell>
                             <cell/>
@@ -438,8 +395,7 @@
                         <row>
                             <cell>Item eene rente van vyffentwintich guldenen vier stuyvers t’siaers
                                 geheven wordende op deser stadt van Antwerpen heure ende gemeijne
-                                ingesetenen goeden der selver staende te voeck op den naem van <gap
-                                    reason="illegible"/> die van den verloope verachtert staet van
+                                ingesetenen goeden der selver staende te voeck op den naem van <gap reason="illegible"/> die van den verloope verachtert staet van
                                 drijentwintich jaeren daeraff ontfanghen op rekeninghe twee jaeren
                                 verloops gevallen bedraegende</cell>
                             <cell><measure type="currency" quantity="50">guld. l.</measure> –
@@ -447,10 +403,8 @@
                         </row>
                         <row>
                             <cell>Item eene rente van een hondert vyfftich guldenen erffelyck oyck
-                                geheven wordende op deser stadt van Antwerpen op den naem van <gap
-                                    reason="illegible"/> die vanden verloope verachtert stont van
-                                seven jaeren daerop ontfanghen een jaer verloops gevallen <gap
-                                    reason="illegible"/> compt. </cell>
+                                geheven wordende op deser stadt van Antwerpen op den naem van <gap reason="illegible"/> die vanden verloope verachtert stont van
+                                seven jaeren daerop ontfanghen een jaer verloops gevallen <gap reason="illegible"/> compt. </cell>
                             <cell><measure type="currency" quantity="150">guld. I<hi rend="super">c</hi> L</measure>.</cell>
                         </row>
                         <row>
@@ -463,29 +417,24 @@
                         <row>
                             <cell>Item eene rente van sesse hondert vyffentwintich gulden erffelyck
                                 quytbaer den penninck sesthiene geheven wordende op sommighe
-                                bosschen geleghen tot <rs type="place" ref="#hubais">Hubais</rs> int
-                                quartier van <rs type="place" ref="#namur">Naemen</rs> toebehoorende
-                                den Heer <rs type="person" ref="#warfuse_van_graf">Grave van
+                                bosschen geleghen tot <rs type="place" ref="../register/register-place.xml#hubais">Hubais</rs> int
+                                quartier van <rs type="place" ref="../register/register-place.xml#namur">Naemen</rs> toebehoorende
+                                den Heer <rs type="person" ref="../register/register-person.xml#warfuse_van_graf">Grave van
                                 Warfusé</rs> die vanden verloope verachtert stont van vier jaeren
                                 d’leste daeraff gevallen, daerop ontfanghen synde op rekeninghe</cell>
-                            <cell><measure type="currency" quantity="937">guld. IX<hi rend="super">c</hi>XXXVII</measure> - <measure type="currency" quantity="10"
-                                        >X st</measure>.</cell>
+                            <cell><measure type="currency" quantity="937">guld. IX<hi rend="super">c</hi>XXXVII</measure> - <measure type="currency" quantity="10">X st</measure>.</cell>
                         </row>
                         <row>
                             <cell>Item eene rente van seven hondert tweentviertich gulden erffelyck
-                                quytbaer als boven gehipothiceert op twee hoeven geleghen onder <rs
-                                    type="place" ref="#melsele">Melsele</rs> ende Swyndrecht in
-                                Vlaenderen toebehoorende <rs type="person" ref="#stocx_cornelis"
-                                    >Cornelis Stocx</rs> die vanden verloope verachtert stont
+                                quytbaer als boven gehipothiceert op twee hoeven geleghen onder <rs type="place" ref="../register/register-place.xml#melsele">Melsele</rs> ende Swyndrecht in
+                                Vlaenderen toebehoorende <rs type="person" ref="../register/register-person.xml#stocx_cornelis">Cornelis Stocx</rs> die vanden verloope verachtert stont
                                 alleenlyck van eenen jaere daervan in toecommende rekeninge
                                 verantwoortdt sal worden</cell>
                             <cell>memorie.</cell>
                         </row>
                         <row>
                             <cell>Item eene rente van twee duysent gulden t’siaers quytbaer den
-                                penninck sesthiene gehipoticeert opde stadt van <rs type="place"
-                                    ref="#ypern">Yperen</rs> ende <rs type="place" ref="#ninhove"
-                                    >Ninhoven</rs> die vanden verloope verachtert stont t’sedert
+                                penninck sesthiene gehipoticeert opde stadt van <rs type="place" ref="../register/register-place.xml#ypern">Yperen</rs> ende <rs type="place" ref="../register/register-place.xml#ninhove">Ninhoven</rs> die vanden verloope verachtert stont t’sedert
                                     <gap reason="illegible"/> daeraff in toecommende rekeninghe oyck
                                 verantwoordt sal worden </cell>
                             <cell>memorie.</cell>
@@ -498,32 +447,28 @@
                         vanden Heere Hertoghe van Bucquingam als andere.</p>
 
                     <p>Item competeert daeraff desen gemeynen sterffhuyse een huijs metten gronde
-                        ende toebehoorten gestaen ende geleghen op den Wapper alhier<index
-                            indexName="stw">
+                        ende toebehoorten gestaen ende geleghen op den Wapper alhier<index indexName="stw">
                             <term type="GKD" xml:lang="deu">Antwerpen / Rubenshaus</term>
                         </index><index indexName="stw">
                             <term type="GKD" xml:lang="nld">Antwerpen / Rubenshuis</term>
                         </index> neffens de voorsch. groote huijsinghe vry ende onbelast synde by
-                            <rs type="person" ref="#hove_geeraert">Geeraert Van Hove</rs> meulder
+                            <rs type="person" ref="../register/register-person.xml#hove_geeraert">Geeraert Van Hove</rs> meulder
                         gebruyckt wordende tot dertich gulden t’siaers. </p>
                     <p> Item noch competeert desen sterffhuijse een ander huysken daer neffens
-                        gestaen oyck onbelast synde by <rs type="person" ref="#smits_syke">Syke
+                        gestaen oyck onbelast synde by <rs type="person" ref="../register/register-person.xml#smits_syke">Syke
                             Smits</rs> gebruyckt wordende tot zesthien gulden t’siaers. </p>
-                    <p>Item noch een huysken oyck aldaer gestaen oyck ende onbelast synde by <rs
-                            type="person" ref="#peeters_balthasar">Balthasar Peeters</rs> gebruyckt
+                    <p>Item noch een huysken oyck aldaer gestaen oyck ende onbelast synde by <rs type="person" ref="../register/register-person.xml#peeters_balthasar">Balthasar Peeters</rs> gebruyckt
                         wordende toto dertich gulden t’siaers. </p>
                     <p>Item een juijs gestaen achter der voorschreven huijsinghe vuyttcommende
-                        iegens-over de Lammekens Raem onbelast synde by <rs type="person"
-                            ref="#huybrechts_marcus">Marcus Huybrechts</rs> gebruyckt wordende tot
+                        iegens-over de Lammekens Raem onbelast synde by <rs type="person" ref="../register/register-person.xml#huybrechts_marcus">Marcus Huybrechts</rs> gebruyckt wordende tot
                         zessentdertich gulden t’siaers. </p>
                     <p> Item noch een huijs daer neffens oft ontrent gestaen oyck vry ende onbelast
-                        sijnde by <rs type="person" ref="#boeck_michiel">Michiel De Boeck</rs>
+                        sijnde by <rs type="person" ref="../register/register-person.xml#boeck_michiel">Michiel De Boeck</rs>
                         gebruydt wordende tot vierentviertich gulden t’siaers. </p>
-                    <p>Item noch een huysken aldaar gestaen oyck onbelast synde by de Weduwe <rs
-                            type="person" ref="#smits_weduwe">Smits</rs> gebruyckt wordende tot
+                    <p>Item noch een huysken aldaar gestaen oyck onbelast synde by de Weduwe <rs type="person" ref="../register/register-person.xml#smits_weduwe">Smits</rs> gebruyckt wordende tot
                         tweentwintich gulden. </p>
                     <p> Item noch een huijsken daerby gestaen insgelycx vry ende onbelast synde bij
-                            <rs type="person" ref="#leenaerts_fernandt">Fernandt Leenaerts</rs>
+                            <rs type="person" ref="../register/register-person.xml#leenaerts_fernandt">Fernandt Leenaerts</rs>
                         gebruyct wordende tot twintich guldenen t’siaers.</p>
 
 
@@ -534,24 +479,21 @@
                             <cell>memorie.</cell>
                         </row>
                         <row>
-                            <cell>Item een hove metten huijse van plaisancien geleghen tot <rs
-                                    type="place" ref="#eeckeren">Eeckeren</rs> genaemt t’hoff van
-                                Urssel gecocht van <rs type="person" ref="#loemans_jaques">Jacques
+                            <cell>Item een hove metten huijse van plaisancien geleghen tot <rs type="place" ref="../register/register-place.xml#eeckeren">Eeckeren</rs> genaemt t’hoff van
+                                Urssel gecocht van <rs type="person" ref="../register/register-person.xml#loemans_jaques">Jacques
                                     Loemans</rs> groot <gap reason="illegible"/> belast alleenlyck
                                 met eenighe corentkens ende eenighe heerlycke chijnsen dewelcke
                                 hoeve aenden voorschreven Loemans verhuert is vierhondert guldenen
                                 t’siaers waer van de selve huere inde naeste rekeninghe oyck
                                 verantwoort sal worden<note resp="A.H." type="footnote">Vgl. das
-                                    dazugehörige Dokument vom <ref type="rubens"
-                                        cRef="ed_rubens_174">29. Mai 1627</ref>.</note></cell>
+                                    dazugehörige Dokument vom <ref type="rubens" cRef="ed_rubens_174">29. Mai 1627</ref>.</note></cell>
                             <cell>memorie.</cell>
                         </row>
                         <row>
                             <cell>Item eene rente van achtentviertich gulden thien stuyvers t’siaers
                                 geheven wordende op de heeren staeten van Brabant int quartiert
                                 deser stadt van Antwerpen op den naam van <gap reason="illegible"/>
-                                ende dat metten verloopen daer aff verschenen t’sedert den <gap
-                                    reason="illegible"/> A<hi rend="super">o</hi>
+                                ende dat metten verloopen daer aff verschenen t’sedert den <gap reason="illegible"/> A<hi rend="super">o</hi>
                                 <date when="1609">xvj<hi rend="super">c</hi>neghen</date>
                                 herrewaerdere waer van t’verloop in toecommende rekeninghe oijck
                                 verantwoordt sal worden</cell>
@@ -560,7 +502,7 @@
                         <row>
                             <cell>Item eene rente van twee duysent-vijffhondert gulden t’siaers
                                 quytbaer den penninck sesthiene gecocht op de nieuwe middelen vande
-                                vaert von <rs type="place" ref="#bruessel">Brussel</rs> daer van
+                                vaert von <rs type="place" ref="../register/register-place.xml#bruessel">Brussel</rs> daer van
                                 t’verloop oyck in toecommende rekeninghe goetgedaen sal worden dus
                                 hier </cell>
                             <cell>memorie.</cell>
@@ -568,10 +510,8 @@
                         <row>
                             <cell>Ende noch gecocht eene rente van sessehondert vijffentwintich
                                 guldenen erffelyck quijtbaer den penninck sesthiene gehipoticeert op
-                                d’landt toebehoorende Joncker <rs type="person"
-                                    ref="#doyenbrugge_jan_duras">Jan Doyenbrugge de Duras</rs>
-                                geleghen tot <rs type="place" ref="#assenede">Assenede</rs> ende <rs
-                                    type="place" ref="#hove">Hove</rs> in Vlaenderen by t’sas van
+                                d’landt toebehoorende Joncker <rs type="person" ref="../register/register-person.xml#doyenbrugge_jan_duras">Jan Doyenbrugge de Duras</rs>
+                                geleghen tot <rs type="place" ref="../register/register-place.xml#assenede">Assenede</rs> ende <rs type="place" ref="../register/register-place.xml#hove">Hove</rs> in Vlaenderen by t’sas van
                                 Gendt daer van t’verloop insgelyckx in toecommende rekeninghe goet
                                 gedaen sal worden hier voor</cell>
                             <cell>memorie.</cell>
@@ -605,18 +545,15 @@
 
                         <table>
                             <row>
-                                <cell>Ierst betaelt aen <rs type="person" ref="#gheeus_anthonis"
-                                        >Anthoni Cornelis Gheeus</rs> van eender weddinghe met hem
+                                <cell>Ierst betaelt aen <rs type="person" ref="../register/register-person.xml#gheeus_anthonis">Anthoni Cornelis Gheeus</rs> van eender weddinghe met hem
                                     int leven der aflijvighe aengegaen de somme van</cell>
-                                <cell><measure type="currency" quantity="900">guld. IX<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="900">guld. IX<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aenden waschmaecker over t’egene t’sterffhuijs
                                     hem schuldich was van flambeeuwen gebruyckt int leven vande
                                     afflijvighe in desen</cell>
-                                <cell><measure type="currency" quantity="17">guld. XVII</measure> - <measure
-                                        type="currency" quantity="16">XVI
+                                <cell><measure type="currency" quantity="17">guld. XVII</measure> - <measure type="currency" quantity="16">XVI
                                         st.</measure></cell>
                             </row>
                             <row>
@@ -625,11 +562,10 @@
                                 <cell><measure type="currency" quantity="84">guld. LXXXIIII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt <rs type="person" ref="#enghelen_aerthus">Aerthus
+                                <cell>Item betaelt <rs type="person" ref="../register/register-person.xml#enghelen_aerthus">Aerthus
                                         van Enghelen</rs> hovenier voor t’gruen by hem totte
                                     voorsch. maeltijt gelevert</cell>
-                                <cell><measure type="currency" quantity="5">guld. V</measure> – <measure
-                                        type="currency" quantity="9">IX
+                                <cell><measure type="currency" quantity="5">guld. V</measure> – <measure type="currency" quantity="9">IX
                                         st.</measure></cell>
                             </row>
                             <row>
@@ -647,7 +583,7 @@
                                     </measure> st.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#huybrechts_hans">Hans
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#huybrechts_hans">Hans
                                         Huybrechts</rs> cruijdenier over zuycker, cruyt ende andere
                                     specerye t’synen huijse gehaelt t’saemen de somme van</cell>
                                 <cell><measure type="currency" quantity="54">guld. LIIII</measure>.</cell>
@@ -657,8 +593,7 @@
                                 <cell><measure type="currency" quantity="24">guld. XXIIII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#cock_gijsbrecht"
-                                        >Gijsbrecht den Cock</rs> vande vuytvaert te cocken</cell>
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#cock_gijsbrecht">Gijsbrecht den Cock</rs> vande vuytvaert te cocken</cell>
                                 <cell><measure type="currency" quantity="6">guld. VI</measure>.</cell>
                             </row>
                             <row>
@@ -667,9 +602,7 @@
                                 <cell><measure type="currency" quantity="5">guld. V</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item aende Dekens vande <rs type="corporate"
-                                        ref="#rhetorikerkammer_de_violieren">Violiere</rs><index
-                                        indexName="stw">
+                                <cell>Item aende Dekens vande <rs type="corporate" ref="../register/register-corporate.xml#rhetorikerkammer_de_violieren">Violiere</rs><index indexName="stw">
                                         <term xml:lang="nld">De Violieren</term>
                                     </index> alhier voor het bancquet daermede die vande Violiere
                                     vereert syn geworden ten tyde vande begraeffenisse der voorsch.
@@ -677,8 +610,7 @@
                                         anlässlich des Todes von Isabella Brant ein ein
                                         außerordentliches Totengeld für ein Festmahl für die
                                         Vorsteher der zur Lukas-Gilde gehörigen Rhetorikerkammer De
-                                        Violieren. Vgl. den <ref type="rubens"
-                                            xml:id="ed_rubens_170">Eintrag in den Liggeren der Gilde
+                                        Violieren. Vgl. den <ref type="rubens" xml:id="ed_rubens_170">Eintrag in den Liggeren der Gilde
                                             vom 20. Juni 1626.</ref>
                                     </note>
                                 </cell>
@@ -700,20 +632,17 @@
                             </row>
                             <row>
                                 <cell>Item over diversche partijen van schulden die desen
-                                    sterffhuyse schuldich getelt in handen van <gap
-                                        reason="illegible"/>
-                                    <rs type="person" ref="#montfort_van">van Montfort</rs> ende <rs
-                                        type="person" ref="#magdalene_magd">Magdalene</rs> den
+                                    sterffhuyse schuldich getelt in handen van <gap reason="illegible"/>
+                                    <rs type="person" ref="../register/register-person.xml#montfort_van">van Montfort</rs> ende <rs type="person" ref="../register/register-person.xml#magdalene_magd">Magdalene</rs> den
                                     Knecht ende dienstmaert geweest heeft desselffs sterffhuys de
                                     somme van achthien hondert guldens eens die al ten selven
                                     effecte syn geemployeert sonder dat den rendant de specifficatie
                                     daer aff heeft gereserveert compt</cell>
-                                <cell><measure type="currency" quantity="1800">guld. XVIII<hi rend="super"
-                                    >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="1800">guld. XVIII<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aen S<hi rend="super">r</hi>
-                                    <rs type="person" ref="#offermans_herr">Offermans</rs>, over
+                                    <rs type="person" ref="../register/register-person.xml#offermans_herr">Offermans</rs>, over
                                     t’gene t’sterffhuys hem schuldich was van asin int leven
                                     derafflyvighe van hem gehadt</cell>
                                 <cell><measure type="currency" quantity="156">guld. I<hi rend="super">c</hi>LVI</measure>.</cell>
@@ -721,32 +650,27 @@
                             <row>
                                 <cell>Item betaelt over t’gene t’sterffhuys schuldich was van boter
                                     ende caes</cell>
-                                <cell><measure type="currency" quantity="18">guld. XVIII</measure> - <measure
-                                        type="currency" quantity="18">XVIII st.</measure></cell>
+                                <cell><measure type="currency" quantity="18">guld. XVIII</measure> - <measure type="currency" quantity="18">XVIII st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aanden cleermaecker over t’fatsoen van cleederen</cell>
-                                <cell><measure type="currency" quantity="6">guld. VI</measure> - <measure
-                                        type="currency" quantity="14">XIIII st.</measure></cell>
+                                <cell><measure type="currency" quantity="6">guld. VI</measure> - <measure type="currency" quantity="14">XIIII st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt van gecocht lynwaet</cell>
-                                <cell><measure type="currency" quantity="4">guld. IIII</measure> - <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="4">guld. IIII</measure> - <measure type="currency" quantity="10">X
                                     st</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person">Elisabeth Melyn</rs> over
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml">Elisabeth Melyn</rs> over
                                     t’gene heur quam van doecken by heur gelevert om op te
                                     schilderen</cell>
-                                <cell><measure type="currency" quantity="12">guld. XII</measure> - <measure
-                                        type="currency" quantity="1">I
+                                <cell><measure type="currency" quantity="12">guld. XII</measure> - <measure type="currency" quantity="1">I
                                     st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt over lobben ende craeghen</cell>
-                                <cell><measure type="currency" quantity="17">guld. XVII</measure> - <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="17">guld. XVII</measure> - <measure type="currency" quantity="10">X
                                         st.</measure></cell>
                             </row>
                             <row>
@@ -756,8 +680,7 @@
                                 </cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#broechem_andries"
-                                        >Andries van Broechem</rs> ter saecken van</cell>
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#broechem_andries">Andries van Broechem</rs> ter saecken van</cell>
                                 <cell><measure type="currency" quantity="186">guld. I<hi rend="super">c</hi>LXXXVI</measure>.</cell>
                             </row>
                             <row>
@@ -766,8 +689,7 @@
                                 <cell><measure type="currency" quantity="45">guld. XLV</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#arens_melchior"
-                                        >Melchior Arens</rs> zeepsieder over t’gene t’sterffhuys hem
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#arens_melchior">Melchior Arens</rs> zeepsieder over t’gene t’sterffhuys hem
                                     schuldich was van gelevert zeep ende olie om te schilderen de
                                     somme van</cell>
                                 <cell>guld. <measure type="currency" quantity="144">I<hi rend="super">c</hi>
@@ -779,8 +701,7 @@
                             </row>
                             <row>
                                 <cell>Item betaelt aen pampier gelevert aen den drucker</cell>
-                                <cell><measure type="currency" quantity="64">guld. LXIIII</measure> - <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="64">guld. LXIIII</measure> - <measure type="currency" quantity="10">X
                                         st.</measure></cell>
                             </row>
                             <row>
@@ -788,24 +709,19 @@
                                 <cell><measure type="currency" quantity="7">guld. VII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#catharine_magd"
-                                        >Catharine</rs> die eertyts de dienstmaerte was ten desen
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#catharine_magd">Catharine</rs> die eertyts de dienstmaerte was ten desen
                                     sterffjuyse over t’gene heuren man quam lynwaet te weven</cell>
-                                <cell><measure type="currency" quantity="11">guld. XI</measure> - <measure
-                                        type="currency" quantity="12">XII
+                                <cell><measure type="currency" quantity="11">guld. XI</measure> - <measure type="currency" quantity="12">XII
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#wyck_cornelis"
-                                        >Cornelis van Wyck</rs> over t’gene t’sterffhuijs hem
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#wyck_cornelis">Cornelis van Wyck</rs> over t’gene t’sterffhuijs hem
                                     schuldig was van gelevert passement ende ander zydewerck de
                                     somme van</cell>
-                                <cell><measure type="currency" quantity="256">guld. II<hi
-                                            rend="super">c</hi> LVI</measure>.</cell>
+                                <cell><measure type="currency" quantity="256">guld. II<hi rend="super">c</hi> LVI</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#vrancx_sebastiaen"
-                                        >Sebastiaen Francx</rs><index indexName="psw">
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#vrancx_sebastiaen">Sebastiaen Francx</rs><index indexName="psw">
                                         <term type="PND" xml:lang="deu">Vrancx, Sebastian</term>
                                     </index> over t’gene hem quam van een schilderije by hem voor de
                                     afflyvighe gemaeckt int leven van haer voor den rendant de somme
@@ -816,8 +732,7 @@
                                             goederen in het Sterffhuys van Isabella Brant, in:
                                             Rubens-Bulletijn - Bulletin-Rubens. Bd. 4, 1896, S.
                                                 175<ptr type="gbv" cRef="167057901"/></bibl></note></cell>
-                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super"
-                                    >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aenden timmerman over t’gene hem competeerde de
@@ -836,8 +751,7 @@
                             <row>
                                 <cell>Item betaelt over t’gene men schuldich was vande leveringhe
                                     van eenen silveren becker </cell>
-                                <cell><measure type="currency" quantity="22">guld. XXII</measure> - <measure
-                                        type="currency" quantity="18">XVIII st.</measure></cell>
+                                <cell><measure type="currency" quantity="22">guld. XXII</measure> - <measure type="currency" quantity="18">XVIII st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aenden besteder vande wagens op Calis over t’gene
@@ -845,15 +759,13 @@
                                 <cell><measure type="currency" quantity="46">guld. XLVI</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#salomon">Salomon</rs>
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#salomon">Salomon</rs>
                                     den hoeymaecker over t’gene t’sterffhuys hem schuldich was </cell>
-                                <cell><measure type="currency" quantity="14">guld. XIIII</measure> - <measure
-                                        type="currency" quantity="5">V
+                                <cell><measure type="currency" quantity="14">guld. XIIII</measure> - <measure type="currency" quantity="5">V
                                     st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person"
-                                        ref="#michiel_panneelmaecker">Michiel</rs> den
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#michiel_panneelmaecker">Michiel</rs> den
                                     panneelmaecker over t’gene t’sterffhuys hem schuldich was voor
                                     reste van geleverde panneelen de somme van</cell>
                                 <cell><measure type="currency" quantity="162">guld. I<hi rend="super">c</hi> LXII</measure>.</cell>
@@ -866,35 +778,29 @@
                             <row>
                                 <cell>Item betaelt over t’gene t’sterffhuys schuldich was aen eas
                                     ende andersints </cell>
-                                <cell><measure type="currency" quantity="4">guld. IIII</measure> - <measure
-                                        type="currency" quantity="19">XIX
+                                <cell><measure type="currency" quantity="4">guld. IIII</measure> - <measure type="currency" quantity="19">XIX
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#enghelen_aerthus"
-                                        >Aertus Van Engelen</rs> timmerman over t’gene t’sterffhuys
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#enghelen_aerthus">Aertus Van Engelen</rs> timmerman over t’gene t’sterffhuys
                                     hem schuldich was</cell>
                                 <cell><measure type="currency" quantity="21">guld. XXI</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen Mynheer <rs type="person"
-                                        ref="#montfort_bruessel">Montfort</rs> tot Brussel over
+                                <cell>Item betaelt aen Mynheer <rs type="person" ref="../register/register-person.xml#montfort_bruessel">Montfort</rs> tot Brussel over
                                     t’gene t’sterffhuys hem schuldich was van verschoten gelde</cell>
-                                <cell><measure type="currency" quantity="119">guld. I<hi rend="super">c</hi>XIX</measure> - <measure
-                                        type="currency" quantity="4">IIII
+                                <cell><measure type="currency" quantity="119">guld. I<hi rend="super">c</hi>XIX</measure> - <measure type="currency" quantity="4">IIII
                                         st</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#jorgen_hans">Hans
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#jorgen_hans">Hans
                                         Jorgen</rs> over t’gene t’sterffhuys hem schuldich was voor
                                     een oude rekeninghe comt</cell>
                                 <cell><measure type="currency" quantity="96">guld. XCVI</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#schut_cornelis"
-                                        >Cornelis Schut</rs> ter saecken van gelevert</cell>
-                                <cell><measure type="currency" quantity="17">guld. XVII</measure> - <measure
-                                        type="currency" quantity="2">II
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#schut_cornelis">Cornelis Schut</rs> ter saecken van gelevert</cell>
+                                <cell><measure type="currency" quantity="17">guld. XVII</measure> - <measure type="currency" quantity="2">II
                                         st.</measure></cell>
                             </row>
                             <row>
@@ -914,7 +820,7 @@
                                 <cell>Item betaelt aenen officier van den Doel over eenighe costen
                                     by hem verschoten int dvinceren de hoeve van den voorschreven
                                         S<hi rend="super">r</hi>
-                                    <rs type="person" ref="#arnouts_jan_baptista">Jan Baptista
+                                    <rs type="person" ref="../register/register-person.xml#arnouts_jan_baptista">Jan Baptista
                                         Aernoults</rs> aldaer geleghen voor t’gebreck vande voorsch.
                                     negenhondert vyfftich ponden vlems mette verloope hem by
                                     d’ouders in desen als vore is geseyt in deposito gedaen de somme
@@ -922,13 +828,11 @@
                                 <cell><measure type="currency" quantity="115">guld. I<hi rend="super">c</hi>XV</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen Monsieur <rs type="person" ref="#becque_herr"
-                                        >Del Becque</rs> ter saecken voorschreven de somme van</cell>
+                                <cell>Item betaelt aen Monsieur <rs type="person" ref="../register/register-person.xml#becque_herr">Del Becque</rs> ter saecken voorschreven de somme van</cell>
                                 <cell><measure type="currency" quantity="129">guld. I <hi rend="super">c</hi>XXIX</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#vos_cornelis"
-                                        >Cornelis De Vos</rs><index indexName="psw">
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#vos_cornelis">Cornelis De Vos</rs><index indexName="psw">
                                         <term type="PND" xml:lang="deu">Vos, Cornelis de </term>
                                     </index> voor twee copijen die begrepen syn onder de parceelen
                                     als vore vercocht aenden heere Hertoghe van Bucquingam</cell>
@@ -941,150 +845,122 @@
                             </row>
                             <row>
                                 <cell>Item betaelt aen naegelen ende yserwerck</cell>
-                                <cell><measure type="currency" quantity="4">guld. IIII</measure> - <measure
-                                        type="currency" quantity="15">XV
+                                <cell><measure type="currency" quantity="4">guld. IIII</measure> - <measure type="currency" quantity="15">XV
                                         st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aenden gelaesmaeker over t’gene hem quam voor
                                     t’vermaecken van eenighe gelaesen</cell>
-                                <cell><measure type="currency" quantity="7">guld. VII</measure> - <measure
-                                        type="currency" quantity="18">XVIII st.</measure></cell>
+                                <cell><measure type="currency" quantity="7">guld. VII</measure> - <measure type="currency" quantity="18">XVIII st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item noch betaelt over t’gene t’sterffhuys schuldich was van
                                     gelevert yserwerck</cell>
-                                <cell><measure type="currency" quantity="7">guld. VII</measure> - <measure
-                                        type="currency" quantity="4">IIII
+                                <cell><measure type="currency" quantity="7">guld. VII</measure> - <measure type="currency" quantity="4">IIII
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item aen heer ende meester <rs type="person"
-                                        ref="#biel_laurentius">Laurentius Biel</rs> over t’gene
+                                <cell>Item aen heer ende meester <rs type="person" ref="../register/register-person.xml#biel_laurentius">Laurentius Biel</rs> over t’gene
                                     t’sterffhuys hem schuldich was van eenighe by hem voorden
                                     rendant gedaen de somme van</cell>
-                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super"
-                                    >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aen verscheyden visiten over d’afflyvighe in heur
-                                    zieckte gedaen namentlyck aen doctor <rs type="person"
-                                        ref="#unnis_dr">Unnis</rs></cell>
-                                <cell><measure type="currency" quantity="16">gulden XVI</measure> - <measure
-                                        type="currency" quantity="16">XVI
+                                    zieckte gedaen namentlyck aen doctor <rs type="person" ref="../register/register-person.xml#unnis_dr">Unnis</rs></cell>
+                                <cell><measure type="currency" quantity="16">gulden XVI</measure> - <measure type="currency" quantity="16">XVI
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Aen doctor <rs type="person" ref="#verwilt_dr">Verwilt</rs>
+                                <cell>Aen doctor <rs type="person" ref="../register/register-person.xml#verwilt_dr">Verwilt</rs>
                                     gelycke</cell>
-                                <cell><measure type="currency" quantity="16">guldens XVI</measure> - <measure
-                                        type="currency" quantity="16">XVI
+                                <cell><measure type="currency" quantity="16">guldens XVI</measure> - <measure type="currency" quantity="16">XVI
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Aen doctor <rs type="person" ref="#lazarus_dr">Lazarus</rs></cell>
+                                <cell>Aen doctor <rs type="person" ref="../register/register-person.xml#lazarus_dr">Lazarus</rs></cell>
                                 <cell><measure type="currency" quantity="30">guld. XXX</measure> -</cell>
                             </row>
                             <row>
-                                <cell>Ende aen doctor <rs type="person" ref="#vereycken_dr"
-                                        >Vereycken</rs></cell>
+                                <cell>Ende aen doctor <rs type="person" ref="../register/register-person.xml#vereycken_dr">Vereycken</rs></cell>
                                 <cell><measure type="currency" quantity="11">guld. XI</measure>-</cell>
                             </row>
                             <row>
                                 <cell>Compt t’saemen</cell>
-                                <cell><measure type="currency" quantity="103">guld. I<hi rend="super">c</hi>III</measure> - <measure
-                                        type="currency" quantity="12">XII
+                                <cell><measure type="currency" quantity="103">guld. I<hi rend="super">c</hi>III</measure> - <measure type="currency" quantity="12">XII
                                         st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aen versheyden cloosters die voor d’afflyvighe in
                                     heur sieckte gebeden hebben t’saemen</cell>
-                                <cell><measure type="currency" quantity="61">guld. LXI</measure> - <measure
-                                        type="currency" quantity="16">XVI
+                                <cell><measure type="currency" quantity="61">guld. LXI</measure> - <measure type="currency" quantity="16">XVI
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#juste_schilder"
-                                    >Justo</rs> den schilder over t’gene hem quam van</cell>
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#juste_schilder">Justo</rs> den schilder over t’gene hem quam van</cell>
                                 <cell><measure type="currency" quantity="34">guld. XXXIIII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#cornelis_picqueur"
-                                        >Cornelis</rs> den picqueur ter saecken ende als reste van
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#cornelis_picqueur">Cornelis</rs> den picqueur ter saecken ende als reste van
                                     t’houden van een peerdt </cell>
-                                <cell><measure type="currency" quantity="75">guld. LXXV</measure> - <measure
-                                        type="currency" quantity="8">VIII
+                                <cell><measure type="currency" quantity="75">guld. LXXV</measure> - <measure type="currency" quantity="8">VIII
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#tyckemans_nicolaes"
-                                        >Nicolaes Tyckemans</rs> over t’gene t’sterfhuys hem
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#tyckemans_nicolaes">Nicolaes Tyckemans</rs> over t’gene t’sterfhuys hem
                                     schuldich was voor het snyden van eenighe plaeten de somme van</cell>
-                                <cell><measure type="currency" quantity="900">guld. IX<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="900">guld. IX<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen heer <rs type="person" ref="#rockox_nicolaas"
-                                        >Nicolaes Roccocx</rs><index indexName="psw">
+                                <cell>Item betaelt aen heer <rs type="person" ref="../register/register-person.xml#rockox_nicolaas">Nicolaes Roccocx</rs><index indexName="psw">
                                         <term type="PND" xml:lang="deu">Rockox, Nicolaas</term>
                                     </index> over t’gene t’sterffhuys hem schuldich was ter saecken
                                     van de somme van</cell>
                                 <cell><measure type="currency" quantity="1075">guld. X<hi rend="super">c</hi>LXXV</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen Jouffrouwe <rs type="person" ref="#moy_maria"
-                                        >Maria de Moy</rs> over t’gene t’sterffhuys heur schuldich
+                                <cell>Item betaelt aen Jouffrouwe <rs type="person" ref="../register/register-person.xml#moy_maria">Maria de Moy</rs> over t’gene t’sterffhuys heur schuldich
                                     was van geleenden gelden de somme van</cell>
                                 <cell><measure type="currency" quantity="365">guld. III<hi rend="super">c</hi> LXV</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#baeck_magdalena"
-                                        >Magdalena Baeck</rs> die dienstmaerte was van desen
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#baeck_magdalena">Magdalena Baeck</rs> die dienstmaerte was van desen
                                     sterffhuyse over soo vele d’afflyvighe van heur in bewaernisse
                                     hadde ontfangen de somme van</cell>
                                 <cell><measure type="currency" quantity="300">guld. III<hi rend="super">c</hi></measure>
                                     -</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen Monsieur <rs type="person" ref="#lunden_herr"
-                                        >Lunden</rs> over soo veele van hem ontleent tottet coopen
+                                <cell>Item betaelt aen Monsieur <rs type="person" ref="../register/register-person.xml#lunden_herr">Lunden</rs> over soo veele van hem ontleent tottet coopen
                                     de voorschreven rente van twee duysent guldenen erffelyck op de
                                     steden van Ninhoven ende Yperen de somme van</cell>
                                 <cell><measure type="currency" quantity="3097">guld. III<hi rend="super">m</hi>
                                         XCVII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen Monsieur <rs type="person" ref="#gan_herr"
-                                        >Gan</rs> over t’gene t’sterffhuys hem schuldich was van
+                                <cell>Item betaelt aen Monsieur <rs type="person" ref="../register/register-person.xml#gan_herr">Gan</rs> over t’gene t’sterffhuys hem schuldich was van
                                     gecochte agaten begrepen inden coop van Bucquingam de somme van</cell>
-                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super"
-                                    >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person"
-                                        ref="#michiel_taffelreelmaecker">Michiel</rs> den
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#michiel_taffelreelmaecker">Michiel</rs> den
                                     taffelreelmaeckere over t’gene t’sterffhuys hem schuldich was
                                     van geleverde lysten de somme van</cell>
-                                <cell><measure type="currency" quantity="100">guld. I<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="100">guld. I<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#clerck_cornelis"
-                                        >Cornelis de Clerck</rs> zydelaeckencooper over t’gene het
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#clerck_cornelis">Cornelis de Clerck</rs> zydelaeckencooper over t’gene het
                                     sterffhuys hem schuldich was van geleverde stoffen de somme van</cell>
                                 <cell><measure type="currency" quantity="324">guld. III<hi rend="super">c</hi>
                                         XXIIII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#dupont_pauwel"
-                                        >Pauwels Dupont</rs> over t’gene hem quam van gesneden
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#dupont_pauwel">Pauwels Dupont</rs> over t’gene hem quam van gesneden
                                     printen de somme van</cell>
-                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super"
-                                    >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen d’erffgenamen van <rs type="person"
-                                        ref="#hans_hans">Hans Hans</rs> over t’gene hem quem van
+                                <cell>Item betaelt aen d’erffgenamen van <rs type="person" ref="../register/register-person.xml#hans_hans">Hans Hans</rs> over t’gene hem quem van
                                     eene partye medalien vercocht onder de parceelen gelevert aenden
                                     Hertoghe van Bucquingam de somme van</cell>
                                 <cell><measure type="currency" quantity="222">guld. II<hi rend="super">c</hi>
@@ -1093,46 +969,41 @@
                             <row>
                                 <cell>Item betaelt over t’gene t’sterffhuys schuldich was van eenen
                                     Olifants tant de somme van</cell>
-                                <cell><measure type="currency" quantity="200">guld. II<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="200">guld. II<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item worde hier last bemaeckt over soo veele van desen
                                     sterffhuyse wegen geleent aen S<hi rend="super">r</hi>
-                                    <rs type="person" ref="#brandt_guilliam">Guilliam Brandt</rs> de
+                                    <rs type="person" ref="../register/register-person.xml#brandt_guilliam">Guilliam Brandt</rs> de
                                     somme van</cell>
-                                <cell><measure type="currency" quantity="2000">guldens II<hi rend="super"
-                                >m</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="2000">guldens II<hi rend="super">m</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#bouwelaer_peter"
-                                        >Peter Bouwelaer</rs> over t’gene t’sterffhuys hem schuldich
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#bouwelaer_peter">Peter Bouwelaer</rs> over t’gene t’sterffhuys hem schuldich
                                     was van geleverde wynen de somme van</cell>
                                 <cell><measure type="currency" quantity="96">guld. XCVI</measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aen S<hi rend="super">r</hi>
-                                    <rs type="person" ref="#selsius_sieur">Selsius</rs> tot
+                                    <rs type="person" ref="../register/register-person.xml#selsius_sieur">Selsius</rs> tot
                                     Duynkercken over t’gene den rendant van hem ontfanghen hadde als
                                     wanneer hy de antiquiteyten vanden Hertoghe van Bucquingam naer
                                     Calis voer de somme van</cell>
                                 <cell><measure type="currency" quantity="386">guld. III<hi rend="super">c</hi> LXXXVI</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Aen <rs type="person" ref="#hemselroy_lion">Lion
+                                <cell>Aen <rs type="person" ref="../register/register-person.xml#hemselroy_lion">Lion
                                     Hemselroy</rs> weert int Gulden Hooft op de Minnebroedersruye
                                     over t’gene t’sterffhuys hem schuldich was betaelt</cell>
                                 <cell><measure type="currency" quantity="60">guld. LX</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#ryckaert_merten"
-                                        >Merten Ryckaert</rs> over t’gene men hem van outs schuldich
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#ryckaert_merten">Merten Ryckaert</rs> over t’gene men hem van outs schuldich
                                     was de somme van</cell>
-                                <cell><measure type="currency" quantity="250">guld. II<hi rend="super"
-                                    >c</hi>L</measure>.</cell>
+                                <cell><measure type="currency" quantity="250">guld. II<hi rend="super">c</hi>L</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#vos_pauwel">Pauwels
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#vos_pauwel">Pauwels
                                         de Vos</rs><index indexName="psw">
                                         <term type="PND" xml:lang="deu">Vos, Paulus de</term>
                                     </index> over t’gene hem oyck quam van een oude schult de somme
@@ -1141,31 +1012,27 @@
                                         X</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#ryswyck_dierick"
-                                        >Dierick Van Ryswyck</rs> goutsmit over t’hersette van
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#ryswyck_dierick">Dierick Van Ryswyck</rs> goutsmit over t’hersette van
                                     eenighe agaten in ringhen</cell>
                                 <cell><measure type="currency" quantity="76">guld. LXXVI</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#diericksens_hans"
-                                        >Hans Diricksens</rs> tijckwever over t’gene t’sterffhuys
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#diericksens_hans">Hans Diricksens</rs> tijckwever over t’gene t’sterffhuys
                                     hem schuldich was van geleverde tycken daermen op schildert</cell>
                                 <cell><measure type="currency" quantity="348">guld. III<hi rend="super">c</hi>
                                         XLVIII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#port_aerthus">Aerthus
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#port_aerthus">Aerthus
                                         de la Port</rs> over t’gene t’sterffhuys hem schuldich was
                                     over gelevert lynwaet</cell>
                                 <cell><measure type="currency" quantity="88">guld. LXXXVIII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#vermeulen_peeter"
-                                        >Peeter Vermeulen</rs> laeckenvercooper over t’gene
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#vermeulen_peeter">Peeter Vermeulen</rs> laeckenvercooper over t’gene
                                     t’sterffhuys hem schuldich was van gelevert laecken ende baey de
                                     somme van</cell>
-                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super"
-                                    >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="300">guld. III<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aen den Weerdt in de Mundt alhier over t’gene
@@ -1174,13 +1041,12 @@
                                         XIIII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#stockmans_brouwer"
-                                        >Stockmans</rs> den brouwer in de Zwaen aende Brabantsche
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#stockmans_brouwer">Stockmans</rs> den brouwer in de Zwaen aende Brabantsche
                                     coren merckt over t’gene hem quam van gelevert bier de somme van</cell>
                                 <cell><measure type="currency" quantity="60">guld. LX</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#broeck_peeter">Peeter
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#broeck_peeter">Peeter
                                         vanden Broeck</rs> Apothecaris over t’gene t’sterffhuijs hem
                                     oyck schuldich was over geleverde medicamenten de somme van</cell>
                                 <cell><measure type="currency" quantity="160">guld. I<hi rend="super">c</hi> LX</measure>.</cell>
@@ -1189,8 +1055,7 @@
                                 <cell>Item betaelt aen Andries Van Broechem weerdt in den Gulden
                                     Leeuw tot Brussel over t’gene t’sterffhuijs hem schuldich was
                                     van vertheerde costen de somme van</cell>
-                                <cell><measure type="currency" quantity="900">guld. IX<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="900">guld. IX<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aen casmaecker over soo veele t’sterffhuijs hem
@@ -1203,8 +1068,7 @@
                                 <cell>Item betaelt aanden gelaesmaecker over t’gene t’sterffhuijs
                                     hem schuldich was van gelaesen ende reparatien by hem toto
                                     behoeff vande voorsch. huysen gelevert ende gedaen t’samen</cell>
-                                <cell><measure type="currency" quantity="52">guld. LII</measure> – <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="52">guld. LII</measure> – <measure type="currency" quantity="10">X
                                         st.</measure></cell>
                             </row>
                             <row>
@@ -1220,14 +1084,13 @@
                                 <cell><measure type="currency" quantity="86">guld. LXXXVI</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aenden Procureur <rs type="person"
-                                        ref="#bosch_procureur">vanden Bosch</rs> over t’gene
+                                <cell>Item betaelt aenden Procureur <rs type="person" ref="../register/register-person.xml#bosch_procureur">vanden Bosch</rs> over t’gene
                                     t’sterffhuijs hem oyck schuldich was</cell>
                                 <cell><measure type="currency" quantity="49">guld. XLIX</measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aen S<hi rend="super">r</hi>
-                                    <rs type="person" ref="#broeck_alexander">Alexander Vanden
+                                    <rs type="person" ref="../register/register-person.xml#broeck_alexander">Alexander Vanden
                                         Broeck</rs> over de cappitaele penninghen vande
                                     zevenentdertich guld. thien stuyvers erffelyck vuytgegaen
                                     hebbende op t’voorsch. huys gestaen tegens over de Lammekens
@@ -1242,8 +1105,7 @@
                                 <cell><measure type="currency" quantity="749">guld. VII<hi rend="super">c</hi>XLIX</measure>-<measure type="currency" quantity="6">VI st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#reesbroeck_reynier"
-                                        >Reynier Reesbroeck</rs> over de cappitaele penninghen vande
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#reesbroeck_reynier">Reynier Reesbroeck</rs> over de cappitaele penninghen vande
                                     vyffentwintich gulden erffelyck die hy opt voorgeruert huys oyck
                                     geheven heeft</cell>
                                 <cell>guld. 400,-</cell>
@@ -1279,38 +1141,33 @@
                     <p>
                         <table>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#smeken_hans">Hans
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#smeken_hans">Hans
                                         Smekens</rs> over de coop penninghen van zeven huijskens van
                                     hem tot behoeff van desen gemeynen sterffhuyse gecocht gestaen
                                     by ende omtrent de voorsch. groote huysinghe metten hove byden
                                     heer renant in desen gebruyckt wordende gelyck hier vore onder
                                     den derden cappittel ende proffyten deses staet is geseyt, de
                                     somme van</cell>
-                                <cell><measure type="currency" quantity="4000">guld. IIII<hi rend="super"
-                                    >m</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="4000">guld. IIII<hi rend="super">m</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aenen Notaris <rs type="person"
-                                        ref="#uffel_notaris">Van Uffel</rs> voor besoignen by hem
+                                <cell>Item betaelt aenen Notaris <rs type="person" ref="../register/register-person.xml#uffel_notaris">Van Uffel</rs> voor besoignen by hem
                                     gedaen int coopen vande voorschreven huyskens</cell>
                                 <cell><measure type="currency" quantity="24">guld. XXIIII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#bogaert_jaspar"
-                                        >Jaspar Vanden Bogaert</rs> voor maeckelaerdijloon vande
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#bogaert_jaspar">Jaspar Vanden Bogaert</rs> voor maeckelaerdijloon vande
                                     selve huyskens</cell>
                                 <cell><measure type="currency" quantity="30">guld. XXX</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#loemans_jaques"
-                                        >Jacques Loemans</rs> over de coop penninghen van de
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#loemans_jaques">Jacques Loemans</rs> over de coop penninghen van de
                                     voorsch. hoeve metten hove ende huyse van plaisancien geheeten
                                     t’hoff van Ursel geleghen tot Eeckeren</cell>
                                 <cell>guld. 7407</cell>
                             </row>
                             <row>
-                                <cell>Ende in handen vande <rs type="corporate"
-                                        ref="#jesuitenkolleg_antwerpen">Paters vande Societeyt
+                                <cell>Ende in handen vande <rs type="corporate" ref="../register/register-corporate.xml#jesuitenkolleg_antwerpen">Paters vande Societeyt
                                     Jesu</rs> alhier over de capitale penninghen van eene rente
                                     metten onbetaelden verloop die zij opt voorsc. hoff heffende
                                     waeren</cell>
@@ -1323,37 +1180,30 @@
                                 </cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aende Rentmeester vanden Graeve <rs type="person"
-                                        ref="#hoochstraeten_van">van Hoochstraeten</rs> over de
+                                <cell>Item betaelt aende Rentmeester vanden Graeve <rs type="person" ref="../register/register-person.xml#hoochstraeten_van">van Hoochstraeten</rs> over de
                                     verloopen van eenighe chynsen als rentkens alnoch vuytgaende opt
                                     voorschreven hoff van Ursel t’saemen</cell>
-                                <cell><measure type="currency" quantity="1006">guld. X<hi rend="super">c</hi>VI</measure> - <measure
-                                        type="currency" quantity="15">XV
+                                <cell><measure type="currency" quantity="1006">guld. X<hi rend="super">c</hi>VI</measure> - <measure type="currency" quantity="15">XV
                                         st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt over de capitaele penninghen met eenighe verloops
                                     vande achtenviertich guldenen thien stuyvers t’siaers diemen als
                                     vore gecocht heeft op deser stadt van Antwerpen heur ende der
-                                    gemeynre ingesetenen goeden der selver op den naem van <gap
-                                        reason="illegible"/> t’saemen de somme van</cell>
-                                <cell><measure type="currency" quantity="1000">guld. X<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                    gemeynre ingesetenen goeden der selver op den naem van <gap reason="illegible"/> t’saemen de somme van</cell>
+                                <cell><measure type="currency" quantity="1000">guld. X<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt over de capitaele penninghen vande twee duysent
                                     vyff hondert gulden erffelyck quytbaer tegen den penninck
                                     sesthiene diemen als vore gecocht heeft op de nieuwe middelen
                                     vande vaert van Brusselen de somme van</cell>
-                                <cell><measure type="currency" quantity="40000">guld. XL<hi rend="super"
-                                >m</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="40000">guld. XL<hi rend="super">m</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#maignaert_thomas"
-                                        >Thomas Maignaert</rs> over den maeckelaerdye-loon der
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#maignaert_thomas">Thomas Maignaert</rs> over den maeckelaerdye-loon der
                                     voorsc. rente ende van andere, t’saemen</cell>
-                                <cell><measure type="currency" quantity="200">guld. II<hi rend="super"
-                                >c</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="200">guld. II<hi rend="super">c</hi></measure>.</cell>
                             </row>
                             <row>
                                 <cell>Item betaelt over de cappitaele penninghen vande
@@ -1361,17 +1211,14 @@
                                     gecocht opt lant toebehoorende Joncker Jan Doyenbrugge de Duras
                                     geleghen tot Assenede ende Hove in Vlaenderen by t’sas van Gendt
                                     bedraegende tegens den penninck sesthienen de somme van</cell>
-                                <cell><measure type="currency" quantity="10000">guld. X<hi rend="super"
-                                >m</hi></measure>.</cell>
+                                <cell><measure type="currency" quantity="10000">guld. X<hi rend="super">m</hi></measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen <rs type="person" ref="#dierick_cassier"
-                                        >Dirick</rs> den cassier van S<hi rend="super">r</hi> Lunden
+                                <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#dierick_cassier">Dirick</rs> den cassier van S<hi rend="super">r</hi> Lunden
                                     voor syne moeyten ende tytverlet by hem gehadt int ontfanghen
                                     ende vuytgeven de voorsch. penninghen gecomen vanden Hertoghe
                                     van Bucquingam de somme van</cell>
-                                <cell><measure type="currency" quantity="150">guld. I<hi rend="super"
-                                    >c</hi>L</measure>-.</cell>
+                                <cell><measure type="currency" quantity="150">guld. I<hi rend="super">c</hi>L</measure>-.</cell>
                             </row>
                             <row>
                                 <cell>Somma van dese gemeyne lasten ende vuytgeven comt t’saemen
@@ -1420,13 +1267,11 @@
                             <row>
                                 <cell>Ierst betaelt aen achtendertich wapenen aen d’lyck der
                                     afflyvighen ende tot verscheyden plaetsen gebruyckt</cell>
-                                <cell><measure type="currency" quantity="19">guld. XIX</measure> – <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="19">guld. XIX</measure> – <measure type="currency" quantity="10">X
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aenden Heere Pastoir van <rs type="corporate"
-                                        ref="#st_jacob_antwerpen">Sint Jacobs kercke</rs> over syn
+                                <cell>Item betaelt aenden Heere Pastoir van <rs type="corporate" ref="../register/register-corporate.xml#st_jacob_antwerpen">Sint Jacobs kercke</rs> over syn
                                     recht vande begraeffenisse der selve afflyvighe</cell>
                                 <cell><measure type="currency" quantity="3">guld. III</measure>.</cell>
                             </row>
@@ -1438,8 +1283,7 @@
                             <row>
                                 <cell>Item betaelt aenden graffmaecker voor d’maecken van heuren
                                     graeve</cell>
-                                <cell><measure type="currency" quantity="2">guld. II</measure> – <measure
-                                        type="currency" quantity="8">VIII
+                                <cell><measure type="currency" quantity="2">guld. II</measure> – <measure type="currency" quantity="8">VIII
                                         st.</measure></cell>
                             </row>
                             <row>
@@ -1448,17 +1292,13 @@
                                 <cell><measure type="currency" quantity="6">guld. VI</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aende cnaepen van <rs type="corporate"
-                                        ref="#lukasgilde_antwerpen">Sincte Lucas gulde</rs> van die
+                                <cell>Item betaelt aende cnaepen van <rs type="corporate" ref="../register/register-corporate.xml#lukasgilde_antwerpen">Sincte Lucas gulde</rs> van die
                                     vande selve gulde met heur afflijvighe begraeffenisse te roepen</cell>
-                                <cell><measure type="currency" quantity="1">guld. I</measure> - <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="1">guld. I</measure> - <measure type="currency" quantity="10">X
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item van gelycken betaelt aenden cnaep vande <rs
-                                        type="corporate" ref="#romanistengilde_antwerpen"
-                                        >Romanisten</rs><note resp="A.H." type="footnote">Rubens
+                                <cell>Item van gelycken betaelt aenden cnaep vande <rs type="corporate" ref="../register/register-corporate.xml#romanistengilde_antwerpen">Romanisten</rs><note resp="A.H." type="footnote">Rubens
                                         Eintritt in die 1572 gegründete Bruderschaft zur Verehrung
                                         der heiligen Petrus und Paulus ist für den 29. Juni 1609
                                         belegt. Vgl. <bibl>Nils Büttner: Herr P. P. Rubens: von der
@@ -1466,13 +1306,11 @@
                                             7) Göttingen : Vandenhoeck &amp; Ruprecht, 2006, S.
                                                 44.<ptr type="opac" cRef="515922463"/></bibl></note>
                                     ter saecken voorsch.</cell>
-                                <cell><measure type="currency" quantity="1">guld. I</measure> - <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="1">guld. I</measure> - <measure type="currency" quantity="10">X
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aende Heeren van <rs type="corporate"
-                                        ref="#antwerpen_abtei_st_michiels">Sincte Michiels
+                                <cell>Item betaelt aende Heeren van <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Sincte Michiels
                                     clooster</rs> voor allen de kercken rechten der voorschreven
                                     afflyvighe al noch van t’celebreren van eenige missen t’saemen</cell>
                                 <cell><measure type="currency" quantity="57">guld. LVII</measure>.</cell>
@@ -1499,30 +1337,25 @@
                             </row>
                             <row>
                                 <cell>Compt t’saemen</cell>
-                                <cell><measure type="currency" quantity="24">guld. XXIIII</measure> - <measure
-                                        type="currency" quantity="14">XIIII st.</measure></cell>
+                                <cell><measure type="currency" quantity="24">guld. XXIIII</measure> - <measure type="currency" quantity="14">XIIII st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen t’<rs type="corporate"
-                                        ref="#karmeliter_antwerpen">Clooster vande Carmelieten</rs>
+                                <cell>Item betaelt aen t’<rs type="corporate" ref="../register/register-corporate.xml#karmeliter_antwerpen">Clooster vande Carmelieten</rs>
                                     alhier over het celebreren van een jaermisse over de voorsch.
                                     afflyvighe</cell>
-                                <cell><measure type="currency" quantity="110">guld. I<hi rend="super">c</hi>X</measure> - <measure
-                                        type="currency" quantity="7">VII
+                                <cell><measure type="currency" quantity="110">guld. I<hi rend="super">c</hi>X</measure> - <measure type="currency" quantity="7">VII
                                         st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt voor t’celebreren d’jaergetyde over de
                                     voorschreven afflyvighe</cell>
-                                <cell><measure type="currency" quantity="9">guld. IX</measure> – <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="9">guld. IX</measure> – <measure type="currency" quantity="10">X
                                         st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt voor d’naeyen van twelff hempden voor de voorsch.
                                     twee weesen</cell>
-                                <cell><measure type="currency" quantity="4">guld. IIII</measure> - <measure
-                                        type="currency" quantity="16">XVI
+                                <cell><measure type="currency" quantity="4">guld. IIII</measure> - <measure type="currency" quantity="16">XVI
                                         st.</measure></cell>
                             </row>
                             <row>
@@ -1531,8 +1364,7 @@
                                 <cell><measure type="currency" quantity="12">guld. XII</measure>.</cell>
                             </row>
                             <row>
-                                <cell>Item betaelt voor eenen tabbaert voor <rs type="person"
-                                        ref="#rubens_nikolaas">Nicolaes Rubbens</rs></cell>
+                                <cell>Item betaelt voor eenen tabbaert voor <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">Nicolaes Rubbens</rs></cell>
                                 <cell><measure type="currency" quantity="6">guld. VI</measure>.</cell>
                             </row>
                             <row>
@@ -1543,36 +1375,31 @@
                             <row>
                                 <cell>Item noch betaelt aenden schoenmaecker voor een ander
                                     rekeninghe van schoenen by henlieden oyck gehadt</cell>
-                                <cell><measure type="currency" quantity="16">guld. XVI</measure> - <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="16">guld. XVI</measure> - <measure type="currency" quantity="10">X
                                         st.</measure></cell>
                             </row>
                             <row>
                                 <cell>Item betaelt aenden hoey cremer over eenighe hoeyen ende ander
                                     cremerye by hen oyck gehadt t’saemen</cell>
-                                <cell><measure type="currency" quantity="60">guld. LX</measure> – <measure
-                                        type="currency" quantity="10">X
+                                <cell><measure type="currency" quantity="60">guld. LX</measure> – <measure type="currency" quantity="10">X
                                         st.</measure></cell>
                             </row>
                             <row>
-                                <cell>Item betaelt aen een gelas by <rs type="person"
-                                        ref="#rubens_albert">Albertus Rubens</rs> ten Augustynen
+                                <cell>Item betaelt aen een gelas by <rs type="person" ref="../register/register-person.xml#rubens_albert">Albertus Rubens</rs> ten Augustynen
                                     daer hy scholen gegaen heeft gegeven</cell>
                                 <cell><measure type="currency" quantity="20">guld. XX</measure>.</cell>
                             </row>
                             <row>
                                 <cell>Somma van dese particuliere lasten ende vuyt geven compt
                                     sevenhondert neghen en twintich guld. thien stuyvers eens -</cell>
-                                <cell><measure type="currency" quantity="729">VII<hi rend="super"
-                                            >c</hi>XXIX guld.</measure>
+                                <cell><measure type="currency" quantity="729">VII<hi rend="super">c</hi>XXIX guld.</measure>
                                     <measure type="currency" quantity="10"> st</measure>.</cell>
                             </row>
                             <row>
                                 <cell>De selve kinderen compt vande gereede overschiet ende baete
                                     als voore ter somme van </cell>
                                 <cell><measure type="currency" quantity="874">guld. 
-                                        X<hi rend="super">c</hi>LXXIIII</measure> - <measure
-                                        type="currency" quantity="12">XII
+                                        X<hi rend="super">c</hi>LXXIIII</measure> - <measure type="currency" quantity="12">XII
                                         st</measure>.</cell>
                             </row>
                             <row>
@@ -1612,14 +1439,13 @@
                                 XVI<hi rend="super">c</hi> ende achtentwintich</date> ende was
                         onderteeckent Pietro Paulo Rubens, J. Brandt, Henr. Brandt.</p>
 
-                    <p>Onder stondt geschreven <span from="" xml:lang="lat">Collata concordat cum suo originali quod attestor</span> <rs
-                            type="person" ref="#hercke_franciscus">Fran<hi rend="super">cus</hi>
+                    <p>Onder stondt geschreven <span from="" xml:lang="lat">Collata concordat cum suo originali quod attestor</span> <rs type="person" ref="../register/register-person.xml#hercke_franciscus">Fran<hi rend="super">cus</hi>
                             Hercke</rs> notarius admiss.</p>
 
                     <p>Gecollationneert ende bevonden accorderene mette voorsch. copye auctenticque,
                         by my ondersch. openbaer notaris t’Antwerpen residerende – Oirconde ex.</p>
 
-                    <closer rend="text-align:right"><signed rend="text-align:right"><rs type="person" ref="#guyot_toussaint">T.
+                    <closer rend="text-align:right"><signed rend="text-align:right"><rs type="person" ref="../register/register-person.xml#guyot_toussaint">T.
                         GUYOT</rs>; Nots pub<hi rend="super">us</hi></signed>.</closer>
                 </div>
 

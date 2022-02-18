@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_170">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_170"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,10 +15,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="tod_isabella_brant_volieren_16260620">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -63,8 +62,7 @@
                         <listBibl>
                             <bibl>Philipp Félix Rombouts, Théodore François Xavier
                                 van Lerius: De Liggeren en andere historische Archieven der Antwerpsche sint
-                                Lucasgilde, Bd. 1, Antwerpen: Koninck ; Buschmann, 1864. S. 627<ptr type="opac"
-                                    cRef="32365987X"/></bibl>
+                                Lucasgilde, Bd. 1, Antwerpen: Koninck ; Buschmann, 1864. S. 627<ptr type="opac" cRef="32365987X"/></bibl>
                         </listBibl>
                     </additional></msDesc>
             </sourceDesc>        
@@ -83,11 +81,9 @@
                 <p>
                     <table>
                         <row>
-                            <cell>Noch ontfangen van Signor <rs type="person"
-                                    ref="#rubens_peter_paul">Peeter-Paulo Ribbens</rs>
+                            <cell>Noch ontfangen van Signor <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter-Paulo Ribbens</rs>
                                 <note resp="N.B." type="footnote">Rubens</note> over syn beset op
-                                d’uytvaert van syn huysvrouw, <note resp="N.B." type="footnote"
-                                    >Isabella Brant</note></cell>
+                                d’uytvaert van syn huysvrouw, <note resp="N.B." type="footnote">Isabella Brant</note></cell>
                             <cell>110. -</cell>
                         </row>
                     </table>

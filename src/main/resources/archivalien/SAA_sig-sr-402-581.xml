@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_070">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_070"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-402-581">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -72,19 +71,15 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, weduwe
-                    wijlen Meester <rs type="person" ref="#rubens_jan">Jan Ruebens</rs>, in sijnen
-                    levene Schepen deser stadt, <span from="" xml:lang="lat">cum tutore, constituit</span> Meesteren <rs type="person"
-                        ref="#peckius_petrus">Pietren Peccius</rs>, advocaet inden grooten Raide tot
-                        <rs type="place" ref="#mechelen">Mechelen</rs>, Meesters <rs type="person"
-                        ref="#yeus_pieter">Pietern Yeus</rs>, <rs type="person"
-                        ref="#hooffstadt_jan">Jannen vander Hooffstadt</rs>, <rs type="person"
-                        ref="#daele_pieter">Pieteren van Daele</rs>, procureurs postulerende voorde
+                <p>Jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs>, weduwe
+                    wijlen Meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebens</rs>, in sijnen
+                    levene Schepen deser stadt, <span from="" xml:lang="lat">cum tutore, constituit</span> Meesteren <rs type="person" ref="../register/register-person.xml#peckius_petrus">Pietren Peccius</rs>, advocaet inden grooten Raide tot
+                        <rs type="place" ref="../register/register-place.xml#mechelen">Mechelen</rs>, Meesters <rs type="person" ref="../register/register-person.xml#yeus_pieter">Pietern Yeus</rs>, <rs type="person" ref="../register/register-person.xml#hooffstadt_jan">Jannen vander Hooffstadt</rs>, <rs type="person" ref="../register/register-person.xml#daele_pieter">Pieteren van Daele</rs>, procureurs postulerende voorde
                     Weth der ende voors. stede van Mechelen, tzamen ende elcken van hen besundere,
                     <span from="" xml:lang="lat">ad petendum et exigendum</span>, alsulcken achterstel van twee hondert Carolus guldens
                     tsjaers als zij, constituante, heeft ende heffende is op sekere hoeve, gelegen
-                    te <rs type="place" ref="#hombeek">Humbeke</rs>, onder Mechelen voors.,
-                    toebehoirende <rs type="person" ref="#kerckhove_philip">Philipsen vanden
+                    te <rs type="place" ref="../register/register-place.xml#hombeek">Humbeke</rs>, onder Mechelen voors.,
+                    toebehoirende <rs type="person" ref="../register/register-person.xml#kerckhove_philip">Philipsen vanden
                         Kerckhove</rs>, met zijne consoirten, quictantie van hunnen ontfange te
                     gevene ende te verlijdene, ende, bij faulte van betalinge, de voors. hoeve
                     daervore te doen besetten, evincerene, lites contestandum alle daghen, etc,

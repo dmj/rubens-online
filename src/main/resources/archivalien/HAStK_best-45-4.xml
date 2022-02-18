@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xml:id="ed_rubens-002" >
+<TEI xml:id="ed_rubens-002">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -80,8 +72,7 @@
                     deur monde van van den voors. heere den suppliant geconsenteert binnen deser
                     stat vrylick ende peyselick te moghen woonen ende neerslaen, seggende dat synen
                     persoon aengenaem was, waer op de suppliant hem verlatende ende gedaen hebbende
-                    den eedt van getrouwicheyt aen dese stat int incommen van sekere gaffele <rs
-                        type="place" ref="#windeck">Windeck</rs> heeft een huys gehuert, ende van als
+                    den eedt van getrouwicheyt aen dese stat int incommen van sekere gaffele <rs type="place" ref="#windeck">Windeck</rs> heeft een huys gehuert, ende van als
                     prouisie gemaeckt om eerlicken ende tamelicken binnen deser stat te woonen ende
                     hem te houden, maer is gebeurt dat opden 28 May lestleden sekere heeren
                     commissarissen den suppliant voer hen omboden hebbende, beuolen hebben bennen

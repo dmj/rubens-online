@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_254">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_254"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc> 
-                &register-corporate; 
-                &register-person; 
-                &register-place;
-                &register-work; 
+                
+ 
+                
+
+ 
+                
+
+
+                
+
+ 
                 <msDesc xml:lang="deu" xml:id="nachlass_peter_paul_rubens_16460409">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -82,36 +79,31 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Afrekeninge tusschen Vrouwe <rs type="person" ref="#fourment_helene">Helena
+                <p>Afrekeninge tusschen Vrouwe <rs type="person" ref="../register/register-person.xml#fourment_helene">Helena
                         Fourment</rs><index indexName="psw">
                         <term type="PND">Fourment, Hélène</term>
-                    </index> weduwe van wylen Heer <rs type="person" ref="#rubens_peter_paul">Peeter
+                    </index> weduwe van wylen Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter
                         Paulo Rubens</rs><index indexName="psw">
                         <term type="PND">Rubens, Peter Paul</term>
-                    </index> Riddere Heere van Steene etc. met Joncker <rs type="person"
-                        ref="#broechoven_jan_baptista">Janbaptista van Broechoven</rs> Heere van
+                    </index> Riddere Heere van Steene etc. met Joncker <rs type="person" ref="../register/register-person.xml#broechoven_jan_baptista">Janbaptista van Broechoven</rs> Heere van
                     Bercheyck oudt Schepene deser Stadt heuren tegenwoordigen man, ter eenre, Ende
-                    Joncker <rs type="person" ref="#rubens_albert">Albert Rubens</rs><index
-                        indexName="psw">
+                    Joncker <rs type="person" ref="../register/register-person.xml#rubens_albert">Albert Rubens</rs><index indexName="psw">
                         <term type="PND">ubens, Albert</term>
                     </index> Secretaris van zijne mat<hi rend="super">s</hi> secreten rade des
-                    voors. wylen Heeren Peeters Paulo soe daer moeder aff was Vrouwe <rs
-                        type="person" ref="#brant_isabella">Isabella Brandt</rs><index
-                        indexName="psw">
+                    voors. wylen Heeren Peeters Paulo soe daer moeder aff was Vrouwe <rs type="person" ref="../register/register-person.xml#brant_isabella">Isabella Brandt</rs><index indexName="psw">
                         <term type="PND">Brant, Isabella</term>
                     </index> ter andere zijde, ende voldoeninge van ’t gene den selven Joncker
                     Albert ter saken van zyne vaderlycken goeden ende andersints ten laste vande
                     voornoempde Vrouwe Helena Fourment is toecomende.<lb/>
                     <hi rend="italic">Gepresenteert den <date when="1646-04-09">9 April 1646</date>
-                        aen Heeren en Meester <rs type="person" ref="#haecx_melchior">Melchior
-                        Haecx</rs> binnen borgermeestere, <rs type="person" ref="#buren_jacob">Jacob
+                        aen Heeren en Meester <rs type="person" ref="../register/register-person.xml#haecx_melchior">Melchior
+                        Haecx</rs> binnen borgermeestere, <rs type="person" ref="../register/register-person.xml#buren_jacob">Jacob
                             van Buren</rs> Schepene en my secretaris onderschreven als der toe
-                        gecommiteert ondert. <rs type="person" ref="#weerdt_gregorius">G. de
-                        Weerdt</rs>. Is gecompareert H<hi rend="super">r</hi> ende M<hi rend="super"
-                            >r</hi>
-                        <rs type="person" ref="#rubens_philippus">Philips Rubens</rs> Schepene deser
+                        gecommiteert ondert. <rs type="person" ref="../register/register-person.xml#weerdt_gregorius">G. de
+                        Weerdt</rs>. Is gecompareert H<hi rend="super">r</hi> ende M<hi rend="super">r</hi>
+                        <rs type="person" ref="../register/register-person.xml#rubens_philippus">Philips Rubens</rs> Schepene deser
                         stadt als procuratie hebbende van Jo<hi rend="super">r</hi> Albert Rubens
-                        voorden notaris <rs type="person" ref="#cantelbeck_notar">Cantelbeeck</rs>
+                        voorden notaris <rs type="person" ref="../register/register-person.xml#cantelbeck_notar">Cantelbeeck</rs>
                         gepasseert den <date when="1645-12-07">7<hi rend="super">en</hi> Decembris
                             1645</date>, alhier gethoont.</hi>
                 </p>
@@ -123,12 +115,10 @@
                             <cell>1. Iesrt voorde helft vande bate van sekere rekeningen tusschen de
                                 voornoempde V<hi rend="super">re</hi> Helena Fourment ter eenre den
                                 voors. Joncker Albert ende meester Philips Rubens als procuratie
-                                hebbende van Joncker <rs type="person" ref="#rubens_nikolaas"
-                                    >Niclaes Rubens</rs> op den <date when="1645-12-02">tweeden
+                                hebbende van Joncker <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">Niclaes Rubens</rs> op den <date when="1645-12-02">tweeden
                                     decembris avnden Jare sesthienhondert ende vyffenveertich</date>
                                 in presentie vanden notaris Guyot gesloten ende geteekent vyff
-                                duysent drye hondert ende vyffentwintich guldens seven stuyvers <hi
-                                    rend="italic">blyckt by de rekeninge als inden text alhier
+                                duysent drye hondert ende vyffentwintich guldens seven stuyvers <hi rend="italic">blyckt by de rekeninge als inden text alhier
                                     gezien</hi></cell>
                             <cell>gld. 5325 – 7</cell>
                         </row>
@@ -146,8 +136,7 @@
                         <row>
                             <cell>3. Item voor een vierendedeel hem competerende van syns moeders
                                 wegen inde naebeschreven vyff huysen, te weten twee daer van
-                                geteeckent numero vier ende vyff gestaen aenden Wapper<index
-                                    indexName="stw">
+                                geteeckent numero vier ende vyff gestaen aenden Wapper<index indexName="stw">
                                     <term xml:lang="de">Wapper</term>
                                 </index> tegens over de Lammekens Rame, Item twee geteeckend numero
                                 ses ende seven oick aldaer gestaen, ende het vyffde geteeckent
@@ -159,8 +148,7 @@
                                 vyftich guldens waer van het voorsch. vierdedeel daer van de
                                 voornoempde Joncker Albert Rubens ten behoeve van Joncker Niclaes
                                 Rubens aenden welcken de voorsch. huysen hier naer worden
-                                toegevuecht behoorlycke transport sal doen. <hi rend="italic"
-                                    >blijckt vanden staet als inden text alhier gezien</hi></cell>
+                                toegevuecht behoorlycke transport sal doen. <hi rend="italic">blijckt vanden staet als inden text alhier gezien</hi></cell>
                             <cell>gld. 1512 – 10</cell>
                         </row>
                         <row>
@@ -169,10 +157,8 @@
                                     <term xml:lang="nld">De Sterre</term>
                                 </index> in de Jodestrate alhier gestaen welcke huys int geheele
                                 geschat is geweest op twee duysent acht hondert guldenen als blyckt
-                                by den IIIII<hi rend="super"
-                                >en</hi> articule vanden voorsch. tweeden capittele van ontfanck soo
-                                dat voorsch. vierdedeel daer van de voors. Jonc<hi rend="super"
-                                >r</hi> Albert transport sal doen ten behoeve als vore compt.</cell>
+                                by den IIIII<hi rend="super">en</hi> articule vanden voorsch. tweeden capittele van ontfanck soo
+                                dat voorsch. vierdedeel daer van de voors. Jonc<hi rend="super">r</hi> Albert transport sal doen ten behoeve als vore compt.</cell>
                             <cell>gld. 700 – </cell>
                         </row>
                         <row>
@@ -192,8 +178,7 @@
                         </row>
                         <row>
                             <cell>6. Item voor het vierdedeel van eene rente van hondert ende
-                                vyftich guldenen erffelyck geheven wordende op dese stadt van <rs
-                                    type="place" ref="#antwerpen">Antwerpen</rs> waer van het
+                                vyftich guldenen erffelyck geheven wordende op dese stadt van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> waer van het
                                 capitael int geheel bedraeght gelyck articule seven evnden
                                 voorschreven tweeden capittele van ontfanck blyckt drye duysent
                                 guldenen ende het voorsch. vierdedeel (waervan de voornoempde
@@ -228,8 +213,7 @@
                         <row>
                             <cell>10. Item voor het vierdedeel den voornoempden Joncker Albert
                                 competerende als vore eene rente van sestich guldenen erffelyck
-                                geheven wordende op de Staten van <rs type="place" ref="#brabant"
-                                    >Brabant</rs> int quartier deser stadt, waer van het capitael
+                                geheven wordende op de Staten van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs> int quartier deser stadt, waer van het capitael
                                 int geheele bedraecht gelyck articulo lv van den voorsch. tweeden capittele van den ontfanck
                                 van den staet deses sterfhuys geseght wordt negenhondert ende setich
                                 guldenen ende het vierdedeel daer van dewelcke metten verloopen daer
@@ -246,15 +230,13 @@
                         <row>
                             <cell>12. Item voor zyn viederdeel van een derdedeel hem competerende
                                 als vore in een derdendeel van een bempt geheeten de Muylen gelegen
-                                tot <rs type="place" ref="#muyse">Muysen</rs> boven <rs type="place"
-                                    ref="#mechelen">Mechelen</rs> tusschen de twee Wielbruggen groot
+                                tot <rs type="place" ref="../register/register-place.xml#muyse">Muysen</rs> boven <rs type="place" ref="../register/register-place.xml#mechelen">Mechelen</rs> tusschen de twee Wielbruggen groot
                                 int geheel twee budneren tachtentich roeden,<lb/> Item van een stuk
                                 bepts geheeten de Brugge groot een bunder een dachwant ende
                                 vierentsestich roeden ende eenen bempt genaempt den Peerboom groot
                                 een half bunder sessentachtentich roeden t’ samen sesse budneren
                                 twee dachwant dryentachtentich roeden onbegrepen gementioneert inden
-                                    LXXXIII<hi rend="super"
-                                >en</hi> articule vanden voorschreven capittele ende byden LXXXIIII<hi rend="super">en</hi>
+                                    LXXXIII<hi rend="super">en</hi> articule vanden voorschreven capittele ende byden LXXXIIII<hi rend="super">en</hi>
                                 geschat het voorsch. derdendeel in een derdendeel int geheel op
                                 twelff hondert guldenen soo dat ’t voorsch. vierdedeel d’ welck de
                                 voornoempde Joncker Albert sal transporteren ten behoeve van Joncker
@@ -264,9 +246,7 @@
                         <row>
                             <cell>13. Item voor een vierde paert den voornoempde Joncker Albert
                                 competerende als vore van een obligatie van twelff hondert ende
-                                vyftich guldenen eend die <rs type="person" ref="#serrarts_joos"
-                                    >Joos Serrarts</rs> woonende tot <rs type="place"
-                                    ref="#bruessel">Brussel</rs> schuldich is en daer voore
+                                vyftich guldenen eend die <rs type="person" ref="../register/register-person.xml#serrarts_joos">Joos Serrarts</rs> woonende tot <rs type="place" ref="../register/register-place.xml#bruessel">Brussel</rs> schuldich is en daer voore
                                 gehipoticqueert staet de helft van een hoffstadt metten huyse daer
                                 oppe staende inde Vleeschouwers strate tot Brussel gelyck inden XCVIII<hi rend="super">e</hi>
                                 articule vanden eersten capittele vanden voorschreven sterfhuyse
@@ -279,10 +259,8 @@
                             <cell>14. Item vyfthien guldenen eens voor seventhien stuyvers ende
                                 eenen halven erffelyck die hy vuyt zij paert vande sessehondert ende
                                 vyffebtwintich guldenen erffelyck geheven wordende op de goeden van
-                                Heer <rs type="person" ref="#doyenbrugge_jan_duras">Jan Doyenbruge
-                                    de Duras</rs> heere van Gembre ter <rs type="place"
-                                    ref="#loewen">Looven</rs> gelegen int quartier van <rs
-                                    type="place" ref="#assenede">Assenede</rs> Selsate ende
+                                Heer <rs type="person" ref="../register/register-person.xml#doyenbrugge_jan_duras">Jan Doyenbruge
+                                    de Duras</rs> heere van Gembre ter <rs type="place" ref="../register/register-place.xml#loewen">Looven</rs> gelegen int quartier van <rs type="place" ref="../register/register-place.xml#assenede">Assenede</rs> Selsate ende
                                 Eertvelde breeder vermelt byden XIIII<hi rend="super">e</hi>
                                 articule vanden tweeden capittele vanden vooorsch. staet, welcke
                                 seventhien stuyvers eenen halven erffelijck de voorsch. Joncker
@@ -293,8 +271,7 @@
                     </table>
                 </p>
                 <p>Het gene de voors. Joncker Albertus moet hebben achtentwintich duysent acht
-                    hondert tweendertich guldens.<lb/> Dico <measure type="currency"
-                        quantity="28832">XXVIII<hi rend="super">m</hi> VIII<hi rend="super">c</hi>
+                    hondert tweendertich guldens.<lb/> Dico <measure type="currency" quantity="28832">XXVIII<hi rend="super">m</hi> VIII<hi rend="super">c</hi>
                         XXXII</measure> guld. </p>
             </div>
             <div xml:lang="nld">
@@ -303,8 +280,7 @@
                     <table>
                         <row>
                             <cell>1. Iesrt de naebeschreven parcheelen van meublen inden sterffhuyse
-                                van zijnen Heer vader bevonden ende hem aen geschat te weten (by <hi
-                                    rend="italic">bekennen van den contradicent ende staet vanden
+                                van zijnen Heer vader bevonden ende hem aen geschat te weten (by <hi rend="italic">bekennen van den contradicent ende staet vanden
                                     sterfhuyse in syne qualiteyt.</hi>)</cell>
                         </row>
                         <row>
@@ -330,8 +306,7 @@
                             <cell>gld. 54 –</cell>
                         </row>
                         <row>
-                            <cell>7. Voorde helft van een contrefeytsel van Jouff<hi rend="super"
-                                >re</hi> Lunden int geheel geschatt op hondert vierenveertich
+                            <cell>7. Voorde helft van een contrefeytsel van Jouff<hi rend="super">re</hi> Lunden int geheel geschatt op hondert vierenveertich
                                 guldenen waer van d’ander helft de voorkinderen toecompt</cell>
                             <cell>gld. 72 –</cell>
                         </row>
@@ -364,13 +339,11 @@
                             <cell>13. Den <date when="1642-08-12">twelftsten Augusti vanden jare
                                     sesthienhondert ende tweenvertich</date> door zijn ordre betaelt
                                 an S<hi rend="super">r</hi>
-                                <rs type="person" ref="#lunden_arnoult">Arnout Lunden</rs></cell>
+                                <rs type="person" ref="../register/register-person.xml#lunden_arnoult">Arnout Lunden</rs></cell>
                             <cell>gld. 6508 – 5</cell>
                         </row>
                         <row>
-                            <cell>14. Item twee duysent drye hondert negenentsestich gul<hi
-                                    rend="super">s</hi> ende elff stuivers by <rs type="person"
-                                    ref="#lindemans_jan">Jan Lindemans</rs> oude cleercooper
+                            <cell>14. Item twee duysent drye hondert negenentsestich gul<hi rend="super">s</hi> ende elff stuivers by <rs type="person" ref="../register/register-person.xml#lindemans_jan">Jan Lindemans</rs> oude cleercooper
                                 ingehouden ter saken van gelt aen den voornoempden joncker Albert
                                 betaelt ende schilderyen by hem inden uytroep van desen sterffhuyse
                                 gecocht</cell>
@@ -460,13 +433,9 @@
                     </table>
                 </p>
                 <p>Dit bewys bedraecht achtentwintich duysent negen hondert vierendertich gul. eenen
-                    stuyver een oort.<lb/> Moet hebben als voren <measure type="currency"
-                        quantity="28832">xxviii<hi rend="super">m</hi> viii<hi rend="super">c</hi>
+                    stuyver een oort.<lb/> Moet hebben als voren <measure type="currency" quantity="28832">xxviii<hi rend="super">m</hi> viii<hi rend="super">c</hi>
                         xxxii</measure> guld. Sulcx dat hem te vele bewesen is hondert twee guld.
-                    een stv. i oort.<lb/> Dico <measure type="currency" quantity="102">i<hi
-                            rend="super">c</hi> ii</measure> guld <measure type="currency"
-                        quantity="1">i</measure> stv. <measure type="currency" quantity="1"
-                    >i</measure> oort. </p>
+                    een stv. i oort.<lb/> Dico <measure type="currency" quantity="102">i<hi rend="super">c</hi> ii</measure> guld <measure type="currency" quantity="1">i</measure> stv. <measure type="currency" quantity="1">i</measure> oort. </p>
             </div>
             <div xml:lang="nld">
                 <p><hi rend="smallCaps">Ander afrekeninge</hi> tusschen de voornoempde Vrouwe Helena
@@ -483,18 +452,15 @@
                                 ende Heer en Meester Philips Rubens als gemachticht vanden
                                 voornoempden Joncker Niclaes op den <date when="1645-12-02">tweeden
                                     decembris vanden ajre duysent sesse hondert ende
-                                vyffenveertich</date> in presentie vanden notaris <rs type="person"
-                                    ref="#guyot_toussaint">Guyot</rs> gesloten ende geteeckent vyff
-                                duysent drye hondert vyffentwintich guldens seven stuyvers <hi
-                                    rend="italic">(blyckt by de afrekeninge als in den text.)</hi></cell>
+                                vyffenveertich</date> in presentie vanden notaris <rs type="person" ref="../register/register-person.xml#guyot_toussaint">Guyot</rs> gesloten ende geteeckent vyff
+                                duysent drye hondert vyffentwintich guldens seven stuyvers <hi rend="italic">(blyckt by de afrekeninge als in den text.)</hi></cell>
                             <cell>gld. 5325 – 7</cell>
                         </row>
                         <row>
                             <cell>2. Item sesthieduysent vyff hondert seventseventich guldens
                                 achthien stuyvers voor zyn kintsgedeelte oft achtste deel vande
                                 suyvere bate vande goeden zans Heeren vaders volgens den staet van
-                                zynen sterfhuyse gepasseert ende gesloten als vore <hi rend="italic"
-                                    >(blyckt by den staet als in den text.)</hi></cell>
+                                zynen sterfhuyse gepasseert ende gesloten als vore <hi rend="italic">(blyckt by den staet als in den text.)</hi></cell>
                             <cell>gld. 16577 – 18</cell>
                         </row>
                         <row>
@@ -547,11 +513,7 @@
                     </table>
                 </p>
                 <p>Somma beloopt van ’t gene Jo<hi rend="super">r</hi> Niclaes hebben moet
-                    vierentwintich duysent ses hondert tweendertich guldens seven <note resp="N.B."
-                        type="footnote">recte: vijftien </note> stuyvers.<lb/> Dico <measure
-                        type="currency" quantity="23632">xxiii<hi rend="super">m</hi> vi<hi
-                            rend="super">c</hi> xxxii</measure> gl. <measure type="currency"
-                        quantity="15">xv</measure> stuyvers. </p>
+                    vierentwintich duysent ses hondert tweendertich guldens seven <note resp="N.B." type="footnote">recte: vijftien </note> stuyvers.<lb/> Dico <measure type="currency" quantity="23632">xxiii<hi rend="super">m</hi> vi<hi rend="super">c</hi> xxxii</measure> gl. <measure type="currency" quantity="15">xv</measure> stuyvers. </p>
             </div>
             <div xml:lang="nld">
                 <p>Daer tegens wordt den voorneompden Joncker Niclaes bewesen ende in betalinge
@@ -635,8 +597,7 @@
                             <cell>18. Item twee duysent ses hondert veerthien guldens ende vier
                                 stuyvers door ordre vanden voornoempden Joncker Niclaes Rubens
                                 betaelt aen S<hi rend="super">r</hi>
-                                <rs type="person" ref="#lunden_arnoult">Arnout Lunden</rs> den <date
-                                    when="1642-08-09">negensten Augusti van den jare sesthienhondert
+                                <rs type="person" ref="../register/register-person.xml#lunden_arnoult">Arnout Lunden</rs> den <date when="1642-08-09">negensten Augusti van den jare sesthienhondert
                                     ende tweentveertich</date></cell>
                             <cell>gld. 2614 – 4</cell>
                         </row>
@@ -693,7 +654,7 @@
                     wylen Peeter Paulo Rubens ter andere zyden. <hi rend="italic">(Syn gecompareert
                         de voorn. H<hi rend="super">r</hi> en M<hi rend="super">r</hi> Philips
                         Rubens en S<hi rend="super">r</hi>
-                        <rs type="person" ref="#hanikart_peeter">Peeter Hanicart</rs> byde schepenen
+                        <rs type="person" ref="../register/register-person.xml#hanikart_peeter">Peeter Hanicart</rs> byde schepenen
                         deser stadt als momboirs van de Weesen in desen.)</hi><lb/> De voors vyff
                     kinderen moeten hebben.<lb/>
                     <table>
@@ -711,8 +672,7 @@
                         <row>
                             <cell>2. Item voor vyff sevenste gedeelten inde helft van eene hoeve
                                 metten huysingen ende landen inden Doel breeder gementioneert hier
-                                voren inden xvii<hi
-                                    rend="super">e</hi> Articuke van debet van joncker Albert Rubens
+                                voren inden xvii<hi rend="super">e</hi> Articuke van debet van joncker Albert Rubens
                                 ende aldaer hem bewesen</cell>
                             <cell>gld. 6267 – 15</cell>
                         </row>
@@ -720,8 +680,7 @@
                             <cell>3. Item voor hunne vyff achtste deelen inde helft van het capitael
                                 eender rente van vyfthien hondert guldens erffelyck ten penninck
                                 sesthiene diemen te heffen plachte op de nieuwe geoctroyeerde
-                                middelen der stadt Brussel byde selve stadt afgequeten omtrent <date
-                                    when="1644-11">novembri vanden jare sesthien hondert ende
+                                middelen der stadt Brussel byde selve stadt afgequeten omtrent <date when="1644-11">novembri vanden jare sesthien hondert ende
                                     vierenveertich</date> gelyck inden lxxv<hi rend="super">en</hi> articule vanden
                                 tweeden ontfanck van den Staet des sterfhuys van den voors. wylen
                                 Heer Peeter Paulo Rubens breeder staet vermelt bedroegen de selve
@@ -741,8 +700,7 @@
                     </table>
                 </p>
                 <p>De Weesen moeten hebben t’samen de somme van achtennegentich duysent twee hondert
-                    sevenenvyftich guldens vyf stv.<lb/> Dico <measure type="currency"
-                        quantity="98257">xcviii<hi rend="super">m</hi> ii<hi rend="super">c</hi>
+                    sevenenvyftich guldens vyf stv.<lb/> Dico <measure type="currency" quantity="98257">xcviii<hi rend="super">m</hi> ii<hi rend="super">c</hi>
                         lvii</measure> gl. <measure type="currency" quantity="5">v</measure> st.
                 </p>
             </div>
@@ -750,9 +708,8 @@
                 <p>Daertegens wordt anede voorsch. vyff naerkinderen ende hunne momboirs bewesen
                     ende in betaelinge gegeven by consente en approbatie van myne Eerw. Heer ende
                     Borgermeesteren en Schepenen deser stadt volgende der selver apostille gestelt
-                    op der voorsch. momboiren requeste vander date den <date when="1646-03-16"
-                        >sesthienden meerte van den jare sesthien hondert ende sessenveertich</date>
-                    onderteeckent <rs type="person" ref="#buren_o">O. van Buren</rs>, de navolgende
+                    op der voorsch. momboiren requeste vander date den <date when="1646-03-16">sesthienden meerte van den jare sesthien hondert ende sessenveertich</date>
+                    onderteeckent <rs type="person" ref="../register/register-person.xml#buren_o">O. van Buren</rs>, de navolgende
                     partyen <hi rend="italic">(blyckt by de Reg<hi rend="super">te</hi> ende consent
                         als inden text alhier gesien)</hi><lb/>
                     <table>
@@ -775,10 +732,8 @@
                                 van Steene<index indexName="stw">
                                     <term xml:lang="nld">Het Steen</term>
                                 </index> mette huysingen landen bosschen ende bempden gelegen inde
-                                prochie van<rs type="corporate" ref="#st_hubertus_elewijt"> Ste
-                                    Huybrecht Elewyt</rs>, ende onder <rs type="place"
-                                    ref="#eppegem">Eppegem</rs> tusschen <rs type="place"
-                                    ref="#vilvoorde">Vilvoorden</rs> ende Eppegem mitsgaders van een
+                                prochie van<rs type="corporate" ref="../register/register-corporate.xml#st_hubertus_elewijt"> Ste
+                                    Huybrecht Elewyt</rs>, ende onder <rs type="place" ref="../register/register-place.xml#eppegem">Eppegem</rs> tusschen <rs type="place" ref="../register/register-place.xml#vilvoorde">Vilvoorden</rs> ende Eppegem mitsgaders van een
                                 halff bunder met eenige roeden bosch ende van drye bunderen ende een
                                 dachwant bempts oft weyde breeder gementioneert inden lx en lxI<hi rend="super">en</hi> articulen van het
                                 tweede capittel vanden ontfanck oft baten van den staet des
@@ -789,15 +744,12 @@
                         </row>
                         <row>
                             <cell>3. Item de helft van negen bunderen ende een halff achtentsestich
-                                ende een halff roeden bosch gelegen onder Cappellen ende <rs
-                                    type="place" ref="#smal_brabant">Smal Brabant</rs> mits gaders
-                                van twee bunderen bleckbosch gelegen onder <rs type="place"
-                                    ref="#capelle_op_den_bosch">Capellen op den bosch</rs>, ende can
+                                ende een halff roeden bosch gelegen onder Cappellen ende <rs type="place" ref="../register/register-place.xml#smal_brabant">Smal Brabant</rs> mits gaders
+                                van twee bunderen bleckbosch gelegen onder <rs type="place" ref="../register/register-place.xml#capelle_op_den_bosch">Capellen op den bosch</rs>, ende can
                                 een stucxken lants genaempt het Eerdeken gelegen vast neffens de
                                 voorsch. twee bunderen bleckbosch breeder gementioneert in den lxx<hi rend="super">en</hi>
                                 <hi rend="smallCaps">lxxii,
-                                        lxxiii</hi> en <hi
-                                    rend="smallCaps">
+                                        lxxiii</hi> en <hi rend="smallCaps">
                                     lxxiiii
                                 </hi> articulen vanden voorsch. tweeden capittele van ontfanck des
                                 voorsch. staets en aldaer gestelt int geheel op prys te weten de
@@ -813,7 +765,7 @@
                         <row>
                             <cell>4. Item de drye vierde deelen van een huys van plaisantien met
                                 verscheyden parcheelen van lande eens deels geinvadeert liggende
-                                onder <rs type="place" ref="#eeckeren">Eeckeren</rs> hier voren
+                                onder <rs type="place" ref="../register/register-place.xml#eeckeren">Eeckeren</rs> hier voren
                                 indem vyfden articule van credit des voorsch. Jonckers Alberts
                                 breeder gementioneert te weten de helft daer van toecomende den
                                 sterfhuyse des voors. hunnen Heer vaders een vierdedeel daer van t’
@@ -835,7 +787,7 @@
                         </row>
                         <row>
                             <cell>6. Item eene rente van hondert en vijftich guldenen op dese stadt
-                                van <rs type="place" ref="#antwerpen">Antwerpen</rs> te weten de
+                                van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> te weten de
                                 helft toecomende den sterfhuyse des voorn. Heeren huns vaders, een
                                 vierendeel toecommende Joncker Albert Rubens die ten behoeve vande
                                 voorsch. kinderen daer aff transport sal doen ende ’t resterende
@@ -888,12 +840,10 @@
                                 Duras Heere van Gembre ter Looven gelegen int quartier van Assenede,
                                 waer van breeder mentie wordt gemaeckt indem XIIII<hi rend="super">en</hi> articule vanden
                                 credit vanden voorsch. Joncker Albert welcke vierdedeel de
-                                voorn.Vrouwe Helena op den <date when="1643-05-29"
-                                    >negenentwintichsten meye van den jare sesthienhondert ende
+                                voorn.Vrouwe Helena op den <date when="1643-05-29">negenentwintichsten meye van den jare sesthienhondert ende
                                     dryenveertich</date> vercregen heeft by transport vanden
                                 voornoempden Joncker Niclaes Rubens compt voor het capitael van twee
-                                jaren acht maenden verloops verschenen den <date when="1646-01-01"
-                                    >eersten january vanden jaren sesthienhondert, en
+                                jaren acht maenden verloops verschenen den <date when="1646-01-01">eersten january vanden jaren sesthienhondert, en
                                 sessenveertich</date> t’samen</cell>
                             <cell>gld. 2916–14</cell>
                         </row>
@@ -913,8 +863,7 @@
                             <cell>15. Item seventhien stuyvers ende eenen halven erffelyck die
                                 Joncker Albert van zijn gedeelte inde voorschreven rente ten behoeve
                                 vande voorsch. kinderen sal cederen beloopende gelyck hier voren
-                                articulo XIIII<hi rend="super"
-                                    >o</hi> van zynen crediet hem goed gedaen wordt</cell>
+                                articulo XIIII<hi rend="super">o</hi> van zynen crediet hem goed gedaen wordt</cell>
                             <cell>gld. 15–</cell>
                         </row>
                         <row>
@@ -928,20 +877,15 @@
                         <row>
                             <cell>17. Item eene rente van hondert twelff guldens ende thien stuyvers
                                 sjaers die de voors Vrouwe Helena Fourment gecocht heeft ten behoeve
-                                vande voornoempde hare vyff kinderen ten laste van heer <rs
-                                    type="person" ref="#gootens_jan">Jan Gootens</rs> oudt Schepene
+                                vande voornoempde hare vyff kinderen ten laste van heer <rs type="person" ref="../register/register-person.xml#gootens_jan">Jan Gootens</rs> oudt Schepene
                                 der Stadt Mechelen ende zijne huysvrouwe ende der selver bosch
                                 gelegen inde Tisselstrate onder Puers genaempt Portugael ende noch
                                 seven dachwanden bosch gelegen onder Smal Brabant alias Ophombeke,
                                 volgens de constitutie brieven daer van zijnde voor Schepenen der
-                                bancke van Ophombeke voors. gepasseert den <date when="1644-09-20"
-                                    >twintichsten septemberis vanden jare sesthienhondert en
-                                    vierenveertich</date>. Ende voor Schepenen van Puers den <date
-                                    when="1644-10-20">twintichsten Octobris vanden selven
-                                jare</date> vervallende jaerlycx den <date when="--09-18"
-                                    >achthienden septemb.</date> ende is het verloop ter
-                                voorschreven kinderen behoeve loopende van den <date
-                                    when="1644-09-18">achthienden Septembris des jaers van den jare
+                                bancke van Ophombeke voors. gepasseert den <date when="1644-09-20">twintichsten septemberis vanden jare sesthienhondert en
+                                    vierenveertich</date>. Ende voor Schepenen van Puers den <date when="1644-10-20">twintichsten Octobris vanden selven
+                                jare</date> vervallende jaerlycx den <date when="--09-18">achthienden septemb.</date> ende is het verloop ter
+                                voorschreven kinderen behoeve loopende van den <date when="1644-09-18">achthienden Septembris des jaers van den jare
                                     sesthienhondert ende vierenveertich</date> bedragende in
                                 capitael ten penninck sesthiene <hi rend="italic">(blyckt by den
                                     brief als inden text)</hi></cell>
@@ -949,18 +893,14 @@
                         </row>
                         <row>
                             <cell>18. Item eene rente van sesse hondert vijffentwintich
-                                guld.erffelyck ten penninck sesthiene die <rs type="person"
-                                    ref="#vandenberge_louis">Louis Vandenberge</rs> notaris ende <rs
-                                    type="person" ref="#pannemaker_cornelis">Cornelis De
-                                Pannemaker</rs> apotecaris opden <date when="1645-02-21"
-                                    >eenentwintichsten February vanden jare sesthienhondert en de
+                                guld.erffelyck ten penninck sesthiene die <rs type="person" ref="../register/register-person.xml#vandenberge_louis">Louis Vandenberge</rs> notaris ende <rs type="person" ref="../register/register-person.xml#pannemaker_cornelis">Cornelis De
+                                Pannemaker</rs> apotecaris opden <date when="1645-02-21">eenentwintichsten February vanden jare sesthienhondert en de
                                     vyffenveertich</date> vercocht hebben den momboiren ende ten
                                 behoeve vande voorschreve vijff kinderen op eenen grooten Raemhoff
                                 metten huyse daer inne staende borneputten, spoelbacken, metten
                                 nieuwen wasch huyse daer op gemaeckt gronde ende toebehoorten groot
                                 een hondert achtenvyftich roeden ende dryentsestich voeten genaempt
-                                de roose rame gestaen ende gelegen voorby <rs type="corporate"
-                                    ref="#antwerpen_abtei_st_michiels">Sinte Michiels clooster</rs>
+                                de roose rame gestaen ende gelegen voorby <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Sinte Michiels clooster</rs>
                                 alhier in Sinte Michiels strate. Item noch een stuck erven daer
                                 achter aen gelegen, comende achter aen ’t straetken sonder eynde
                                 groot wesende sevenendertich roeden tweendertich voeten gelegen inde
@@ -990,17 +930,13 @@
                         <row>
                             <cell>20. Item eene rente van derthien guldenen twee ende eenen halven
                                 stuyver erffelyck quytbaer ten penninck sesthiene metten
-                                openstaenden verloopen daer van t’ sedert <date when="--12-25"
-                                    >kersmisse</date> inden jare duysent sesse hondert ende <gap
-                                    reason="illegible"/> geheven wordende op eene groote hoffstadt
+                                openstaenden verloopen daer van t’ sedert <date when="--12-25">kersmisse</date> inden jare duysent sesse hondert ende <gap reason="illegible"/> geheven wordende op eene groote hoffstadt
                                 met den huysingen daer op staende gronde hoeve stallen daer toe
                                 behoorende met twee cleyne huyskens daer achter aengelegen ende
                                 allen den toebehoorte binnen der stadt Vilvoorden op den hoeck vande
                                 lange Molenstrate wesende een vermaerde herberge gemeynnelyck
                                 genaempt den Keyser welcke rente de momboiren der selver kinderen
-                                thunnen behoeve hebben gecocht van <rs type="person"
-                                    ref="#anthoni_hans">Hans Anthoni</rs> ende <rs type="person"
-                                    ref="#vasseur_henrick">Henrick Vasseur</rs> en zyn daer inne
+                                thunnen behoeve hebben gecocht van <rs type="person" ref="../register/register-person.xml#anthoni_hans">Hans Anthoni</rs> ende <rs type="person" ref="../register/register-person.xml#vasseur_henrick">Henrick Vasseur</rs> en zyn daer inne
                                 voor Schepenen van Vilvoorden gegoeyt ende geerft geweest den vierde
                                 may inden jare duysent sessehondert en vyffenveertich en is daer
                                 vore betaelt geweest de somme van</cell>
@@ -1013,16 +949,12 @@
 
                 <p> Dit bewys bedraght achtenegentich duysent negenthien guldens acht stuyvers een
                     oort.</p>
-                <p rend="text-align:center"><lb/> Dico <measure type="currency" quantity="9819"
-                            >XCVIII<hi rend="super">m</hi> XIX</measure> gld. <measure
-                        type="currency" quantity="8">VIII</measure> st. een oort.<lb/></p>
-                <p>Ende moeten hebben als vore <measure type="currency" quantity="98257">XCVIII<hi
-                            rend="super">m</hi> II<hi rend="super">c</hi> l VII</measure> gld. vyf
+                <p rend="text-align:center"><lb/> Dico <measure type="currency" quantity="9819">XCVIII<hi rend="super">m</hi> XIX</measure> gld. <measure type="currency" quantity="8">VIII</measure> st. een oort.<lb/></p>
+                <p>Ende moeten hebben als vore <measure type="currency" quantity="98257">XCVIII<hi rend="super">m</hi> II<hi rend="super">c</hi> l VII</measure> gld. vyf
                     stuyvers.</p>
                 <p> Soo compt hun goet twee hondert sevenendertich guld. seventhien [lees sesthien]
                     st. een blanck.</p>
-                <p rend="text-align:center">Dico <measure type="currency" quantity="237">II<hi
-                            rend="super">c</hi> XXXVII</measure> gld. XVII [lees XVI] stv. dry
+                <p rend="text-align:center">Dico <measure type="currency" quantity="237">II<hi rend="super">c</hi> XXXVII</measure> gld. XVII [lees XVI] stv. dry
                     quaert.<lb/></p>
 
                 <p>Ende is te weten dat vande huysen ende gronden van erven hier voren de

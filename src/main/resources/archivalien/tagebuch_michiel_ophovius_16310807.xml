@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_259">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_259"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="tagebuch_michiel_ophovius_16310807">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -37,13 +36,11 @@
                     </head>
                     <msContents>
                         <msItem>
-                            <note resp="N.B." type="footnote">Auszug aus einem Tagebuch von <rs
-                                type="person" ref="#ophovius_michael">Ophovius</rs> vom 7. und 8. August
+                            <note resp="N.B." type="footnote">Auszug aus einem Tagebuch von <rs type="person" ref="../register/register-person.xml#ophovius_michael">Ophovius</rs> vom 7. und 8. August
                                 1631, dessen Einträge vom 4. August 1629 bis zum 1. Januar 1631 reichen.</note>
                             <filiation>
                                 <note resp="A.H." type="footnote">Vgl. hierzu auch Ophovius' Tagebucheinträge vom
-                                    <ref type="rubens" cRef="ed_rubens_258">4. Februar</ref> und <ref
-                                        type="rubens" cRef="ed_rubens_260">23. August 1631</ref>.</note>
+                                    <ref type="rubens" cRef="ed_rubens_258">4. Februar</ref> und <ref type="rubens" cRef="ed_rubens_260">23. August 1631</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -77,16 +74,15 @@
         <body>
             <div xml:lang="lat">
                 <p><note resp="N.B." type="footnote">Unter dem Datum vom 7. August:</note> Domi
-                    invisi <rs type="person" ref="#rubens_peter_paul">Rubbens</rs>. </p>
+                    invisi <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubbens</rs>. </p>
             </div>
 
             <div xml:lang="lat">
                 <p>
                     <note resp="N.B." type="footnote">Unter dem Datum vom 8. August:</note> Pransus
-                    in domo Marcgravii cum <rs type="person" ref="#oncle_d">D. van Oncle</rs>,
+                    in domo Marcgravii cum <rs type="person" ref="../register/register-person.xml#oncle_d">D. van Oncle</rs>,
                     Rubbens, D. Praeposito Trajectensi, et D<hi rend="super">no</hi>
-                    <rs type="person" ref="#ridderspoore">Ridderspoore</rs> et filia et <rs
-                        type="person" ref="#bocquetius_p">P. Bocquetio</rs>. </p>
+                    <rs type="person" ref="../register/register-person.xml#ridderspoore">Ridderspoore</rs> et filia et <rs type="person" ref="../register/register-person.xml#bocquetius_p">P. Bocquetio</rs>. </p>
             </div>
         </body>
         

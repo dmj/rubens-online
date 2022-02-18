@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_033">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_033"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="HAStK_best-23-6-2">
                     <msIdentifier>
                         <country>Deutschland</country>
@@ -51,8 +50,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 266<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 266<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Leonard Ennen: Über den Geburtsort des Peter Paul Rubens: mit Beilagen.
                                 Köln 1861, S. 81<ptr type="gbv" cRef="146162528"/></bibl>
                         </listBibl>
@@ -75,11 +73,9 @@
             <div xml:lang="lat">
                 <p> Universis et singulis cuiuscunque status, conditionis et praeeminentiae fuerint,
                     ad quos hae nostrae patentes literae pervenerint, easdem legerint vel audiverint,
-                    nos consules et senatus imperialis et liberae civitatis <rs type="place"
-                        ref="#koeln">Coloniae Agrippinae</rs> digna salutatione praemissa notum facimus
-                    et attestamur, honestam <rs type="person" ref="#pypelincx_maria">Mariam
-                        Pepelings</rs> quondam doctissimi viri <rs type="person" ref="#rubens_jan"
-                        >Johannis Rubens</rs>, legum doctoris, conjugem, viduam cum jam dicta marito
+                    nos consules et senatus imperialis et liberae civitatis <rs type="place" ref="../register/register-place.xml#koeln">Coloniae Agrippinae</rs> digna salutatione praemissa notum facimus
+                    et attestamur, honestam <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Mariam
+                        Pepelings</rs> quondam doctissimi viri <rs type="person" ref="../register/register-person.xml#rubens_jan">Johannis Rubens</rs>, legum doctoris, conjugem, viduam cum jam dicta marito
                     suo ab anno minoris numeri sexagesimo nono usque in hunc infra scriptum annum et
                     diem in hac civitate nostra consuetum domicilium habuisse seque viduam adhuc
                     habitare atque uti morigeram civem et incolam bene doceat, in omnibus gessisse

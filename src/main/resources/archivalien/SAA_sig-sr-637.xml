@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_229">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_229"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-637">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -58,12 +57,11 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p><rs type="person" ref="#wouters_jeronimus">Jeronimus Wouters</rs> hem geneirende
+                <p><rs type="person" ref="../register/register-person.xml#wouters_jeronimus">Jeronimus Wouters</rs> hem geneirende
                     met Peerden, wonende op de Peerdenmerckt, in’t Sweert, heeft geloft en is borge
-                    gebleven geloffde ende bleef borge als principael mits dese voors. <rs
-                        type="person" ref="#janssens_henrick">Henrick Janssens</rs> wonende in ’t
-                    Nieuw Vosmeer bij <rs type="place" ref="#bergen_op_zoom">Bergen op Zoom</rs> aen
-                        <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Rubens</rs>, riddere
+                    gebleven geloffde ende bleef borge als principael mits dese voors. <rs type="person" ref="../register/register-person.xml#janssens_henrick">Henrick Janssens</rs> wonende in ’t
+                    Nieuw Vosmeer bij <rs type="place" ref="../register/register-place.xml#bergen_op_zoom">Bergen op Zoom</rs> aen
+                        <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Paulo Rubens</rs>, riddere
                     etc. voor de dencxt van alsulcken peert, wesende eene zwertte hencxt, hebbende
                     eene witte colle voor het voorhooft ende achter eene witte voet, als den selven
                     Henrick Janssens van sondage lestleden aende voors. heer Rubens heeft vercocht,

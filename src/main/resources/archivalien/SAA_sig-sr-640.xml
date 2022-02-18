@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_233">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_233"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-640">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -69,27 +68,23 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Comparante Jonker <rs type="person" ref="#halmale_pauwel">Pauwels van
+                <p>Comparante Jonker <rs type="person" ref="../register/register-person.xml#halmale_pauwel">Pauwels van
                     Halmale</rs>, onsen mede schepene inder weth alhier inde naeme ende als
-                    wethouder, <rs type="person" ref="#rubens_peter_paul">Petro Paulo Ruebens</rs>,
+                    wethouder, <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo Ruebens</rs>,
                     riddere, testamentayre momboirs<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormundschaft</term>
-                    </index> over de onbejaerde kinderen wijlen <rs type="person"
-                        ref="#brueghel_jan_aeltere">Jans Bruegel</rs><index indexName="psw">
+                    </index> over de onbejaerde kinderen wijlen <rs type="person" ref="../register/register-person.xml#brueghel_jan_aeltere">Jans Bruegel</rs><index indexName="psw">
                         <term type="PND">Breughel, Jan (der Ältere)</term>
                     </index> voor welcken ende synen medemomboir hy hemselve sterckmaeckende ende
-                    inder qualiteyt bekende opgebeurt ende ontfangen te hebben van <rs type="person"
-                        ref="#kraenenborg_peeter">Peeter van Kraenenborg</rs>, oudecleercooper, ende
-                        <rs type="person" ref="#gillis_susanna">Susanna Gillis</rs>, sijne
+                    inder qualiteyt bekende opgebeurt ende ontfangen te hebben van <rs type="person" ref="../register/register-person.xml#kraenenborg_peeter">Peeter van Kraenenborg</rs>, oudecleercooper, ende
+                        <rs type="person" ref="../register/register-person.xml#gillis_susanna">Susanna Gillis</rs>, sijne
                     huysvrouwe de capitaele penning vande achtthien Carolus guldenen ende vijfthien
                     stuyvers tjaars metten achterstelle, daeraff tot nu toe verschenen, die de selve
-                    Peeter van Kraenenborg ende seine huysvrouwe opden <date when="1631-06-04"
-                        >vierden Juni anno 16<hi rend="super">c</hi> eenentdertig</date>, vercocht
+                    Peeter van Kraenenborg ende seine huysvrouwe opden <date when="1631-06-04">vierden Juni anno 16<hi rend="super">c</hi> eenentdertig</date>, vercocht
                     ende bepandt hebben tot behoeve vande vors. kinderen Jans Bruegel opde helft van
-                    een rente van tweensestig gulden thien stuyvers erffelyck, die <rs type="person"
-                        ref="#moonssere_hans">Hans Moonssere</rs>, waschcooper alhier ende
+                    een rente van tweensestig gulden thien stuyvers erffelyck, die <rs type="person" ref="../register/register-person.xml#moonssere_hans">Hans Moonssere</rs>, waschcooper alhier ende
                     consoorten opde <date when="1628-08-02">tweede augusti 16<hi rend="super">c</hi>
                         achtentwintig</date> verlede hebben tot beoeve des voors. Peeter van
                     Kraenenborg ende seine huysvrouwe op deser huys metter gronde ende toebehoorende

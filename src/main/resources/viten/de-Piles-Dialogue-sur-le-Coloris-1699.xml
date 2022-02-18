@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_262">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_262"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="piles_dialogue_1699">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -54,10 +53,8 @@
                     <term type="structure" target="#title_page" xml:lang="deu">Titelblatt</term>
                 </index>
                 <p rend="text-align:center">
-                    <!--(leere Seite)--> DIALOGUE<lb/> SUR<lb/> LE COLORIS<lb/> A <rs type="place"
-                        ref="#paris">PARIS</rs>,<lb/> Chez <hi rend="smallCaps">
-                        <rs type="person" ref="#langlois_nicolas">Nicolas Langlois <index
-                                indexName="psw">
+                    <!--(leere Seite)--> DIALOGUE<lb/> SUR<lb/> LE COLORIS<lb/> A <rs type="place" ref="../register/register-place.xml#paris">PARIS</rs>,<lb/> Chez <hi rend="smallCaps">
+                        <rs type="person" ref="../register/register-person.xml#langlois_nicolas">Nicolas Langlois <index indexName="psw">
                                 <term type="PND" xml:lang="deu">Langlois, Nicolas</term>
                                 <index indexName="fsw">
                                     <term type="structure" target="#publisher">Verleger</term>
@@ -75,8 +72,7 @@
                 <p>
                     <!--(leere Seite)-->
                     <pb n="1"/><hi rend="smallCaps">PAmphile</hi> &amp; Damon sortant il y a
-                    quelques jours de l'<rs type="corporate" ref="#academie_royale_peinture"
-                        >Academie de Peinture</rs><index indexName="stw">
+                    quelques jours de l'<rs type="corporate" ref="../register/register-corporate.xml#academie_royale_peinture">Academie de Peinture</rs><index indexName="stw">
                         <term type="SWD" xml:lang="fra">Paris</term>
                         <index indexName="stw">
                             <term xml:lang="fra">Académie Royale de Peinture et de Sculpture</term>
@@ -85,18 +81,15 @@
                     l'apresdinée, s'aviserent de me venir voir: Et comme ce sont gens de merite, qui
                     ayment les Arts, &amp; qui s'y connoissent tres-bien, je crû ne pouvoir
                     mieux reconnoître leur civilité, qu'en leur faisant voir quelques Tableaux
-                    &amp; quelques autres curiositez que j'avois receuës de <rs type="place"
-                        ref="#rom">Rome</rs> le jour precedent. Je leur montray donc d'abord cinq ou
+                    &amp; quelques autres curiositez que j'avois receuës de <rs type="place" ref="../register/register-place.xml#rom">Rome</rs> le jour precedent. Je leur montray donc d'abord cinq ou
                     six Tableaux de mediocre grandeur qu'ils trouverent fort à <pb n="2"/> leur gré;
                     &amp; apres avoir fait retourner une grande Baccanale<index indexName="stw">
                         <term type="SWD" xml:lang="deu"> Vecellio, Tiziano</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Bacchanal</term>
                         </index>
-                    </index> qu'un habile homme m'avoit copiée d'apres le <rs type="person"
-                        ref="#tizian">Titien</rs><note resp="A.H." type="footnote">vgl. Das <rs
-                            type="work" ref="#tizian_bacchanal_andrier">Bacchanal der Andrier von
-                            Tizian</rs> und <rs type="work" ref="#jaffe_1340">Rubens' Kopie</rs>
+                    </index> qu'un habile homme m'avoit copiée d'apres le <rs type="person" ref="../register/register-person.xml#tizian">Titien</rs><note resp="A.H." type="footnote">vgl. Das <rs type="work" ref="../register/register-work.xml#tizian_bacchanal_andrier">Bacchanal der Andrier von
+                            Tizian</rs> und <rs type="work" ref="../register/register-work.xml#jaffe_1340">Rubens' Kopie</rs>
                         davon.</note>
                     <index indexName="psw">
                         <term type="PND" xml:lang="deu">Tizian</term>
@@ -109,8 +102,7 @@
                     <lb/>Ne sçaurois-je estre arbitre de votre different, interrompis-je, &amp;
                     quelle est donc cette querelle? <lb/>Nous sortons de l'Academie de Peinture,
                     reprit Pamphile, &amp; chemin faisant, nous nous entretenions Damon
-                    &amp; moy des choses qui se sont dites dans la Conference<index
-                        indexName="stw">
+                    &amp; moy des choses qui se sont dites dans la Conference<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Paris</term>
                         <index indexName="stw">
                             <term xml:lang="fra">Académie Royale de Peinture et de Sculpture</term>
@@ -200,14 +192,13 @@
                     est certain, reprit Damon, qu'un Ouvrage n'est jamais parfait quand il y manque
                     quelque chose: mais voudriez vous que le Coloris fust une partie aussi
                     necessaire à la Peinture que le Dessein? <lb/>En doutez-vous ? dit Pamphile, ne
-                    sçavez-vous pas que vous detruisez le tout si vous en retranchez une par<pb
-                        n="10"/> tie, principalement quand elle est aussi essentielle à son tout,
+                    sçavez-vous pas que vous detruisez le tout si vous en retranchez une par<pb n="10"/> tie, principalement quand elle est aussi essentielle à son tout,
                     comme est celle du Coloris à l'Art de Peinture. <lb/>Je juge assez, reprit
                     Damon, que vous voulez dire que tous les objets ne tombant sous la veuë que par
                     la Couleur, &amp; n'estant distinguez les uns des autres que par là, ils
                     doivent estre imitez par leur Couleur aussi bien que par leur forme exterieure:
                     j'en tombe d'accord. Mais que me répondrez vous quand je vous feray voir des
-                    Tableaux de <rs type="person" ref="#caldara_poliodoro">Polidore de
+                    Tableaux de <rs type="person" ref="../register/register-person.xml#caldara_poliodoro">Polidore de
                         Caravage</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Polidoro (da Caravaggio)</term>
                     </index> qui passent pour de tresbeaux Ouvrages de Peinture, quoy qu'ils ne
@@ -256,8 +247,7 @@
                     pour nous expliquer. Mais le nom de Dessein, qu'on leur donne n'est pas celuy
                     qui convient à l'une des parties de la Peinture. Le Dessein est fort équivoque
                     &amp; se prend de differentes façons, qu'on peut reduire à trois, comme a
-                    fait <rs type="person" ref="#felibien_andre">M. Felibien</rs><index
-                        indexName="psw">
+                    fait <rs type="person" ref="../register/register-person.xml#felibien_andre">M. Felibien</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Félibien, André</term>
                     </index> dans ses Entretiens<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Félibien, André</term>
@@ -318,8 +308,7 @@
                     parler, dit Pamphile, d'un certain Sculpteur aveugle, qui faisoit des portraits
                     de cire fort ressemblans? <lb/>Non seulement j'en ay oüi parler; reprit Damoiv,
                     mais je l'ay veu à Rome, &amp; je me suis entretenu plusieurs fois avec luy.
-                    Il estoit de <rs type="place" ref="#gambassi">Cambassi</rs> dans la <rs
-                        type="place" ref="#toskana">Toscane</rs>. C'estoit un homme fort bien fait,
+                    Il estoit de <rs type="place" ref="../register/register-place.xml#gambassi">Cambassi</rs> dans la <rs type="place" ref="../register/register-place.xml#toskana">Toscane</rs>. C'estoit un homme fort bien fait,
                     de belle taille, &amp; qui paroissoit âgé d'environ 50. ans; il avoit
                     beaucoup d'esprit &amp; de bon sens, aymant à parler, &amp; disant
                     agreablement les choses. Un jour entr'autres l'ayant rencontré dans le Palais
@@ -328,22 +317,20 @@
                         <index indexName="stw">
                             <term xml:lang="ita">Palazzo Giustiniani</term>
                         </index>
-                    </index> qu'il copioit une <rs type="work" ref="#athena_giustinani">statuë de
+                    </index> qu'il copioit une <rs type="work" ref="../register/register-work.xml#athena_giustinani">statuë de
                         Minerve</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Minerva</term>
                     </index><index indexName="psw">
                         <term type="PND" xml:lang="deu">Athene</term>
                     </index>, je pris occasion de luy demander s'il ne voyoit pas un peu, pour
                     copier aussi juste qu'il faisoit? Je ne voy rien, me dit-il, &amp; mes yeux
-                    sont au bout de mes doigts. Mais encore, luy dis je, comment est il pos<pb
-                        n="19"/> sible que ne voyant goûte du tout, vous fassiez de si belles
+                    sont au bout de mes doigts. Mais encore, luy dis je, comment est il pos<pb n="19"/> sible que ne voyant goûte du tout, vous fassiez de si belles
                     choses? Je taste, dit-il, mon Original, j'en examine attentivement les
                     dimensions, les éminences &amp; les cavitez, je tasche de les retenir dans
                     ma memoire, puis-je porte la main sur ma cire, &amp; par la comparaison que
                     je fais de' l'un à l'autre, portant &amp; rapportant ainsi plusieurs fois la
                     main, je termine le mieux que je puis mon Ouvrage. En effet, il n'y a nulle
-                    apparence qu'il eust aucun usage de la veuë, puiscque le Duc de <rs type="place"
-                        ref="#bracciano">Bracciane</rs>, pour éprouver ce qui en estoit, luy fit
+                    apparence qu'il eust aucun usage de la veuë, puiscque le Duc de <rs type="place" ref="../register/register-place.xml#bracciano">Bracciane</rs>, pour éprouver ce qui en estoit, luy fit
                     faire son portrait dans une cave fort obscure, &amp; que ce portrait fut
                     trouvé tres- bien &amp; tres ressemblant. Mais quoyque cet Ouvrage fust
                     admiré de tous ceux qui le voyoient, on ne laissa pas d'objecter à l'ouvrier que
@@ -352,20 +339,17 @@
                     barbe. Hé bien, <pb n="20"/> dit-il, qu'on m'en donne un autre. On luy proposa
                     de faire le portrait de l'une des Demoiselles de la Duchesse; il l'entreprit,
                     &amp; le fit tres ressemblant. J'ay encore vû de la main de ce Sculpteur le
-                    portrait du feu Roy d'<rs type="place" ref="#england">Angleterre</rs>, &amp;
-                    celuy du Pape <rs type="person" ref="#barberini_maffeo">Urbain VIII.</rs><index
-                        indexName="psw">
+                    portrait du feu Roy d'<rs type="place" ref="../register/register-place.xml#england">Angleterre</rs>, &amp;
+                    celuy du Pape <rs type="person" ref="../register/register-person.xml#barberini_maffeo">Urbain VIII.</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Urban (Papst, VIII.)</term>
                     </index> tous deux copiez d'aprés le marbre tres-finis &amp;
                     tres-ressemblans. <lb/>Sans aller plus loin, interrompit Pamphile, nous avons à
-                    Paris un portrait de sa main. <lb/>N'est ce pas celuy de seu <rs type="person"
-                        ref="#hesselin_louis">M. Hesselin</rs>, repliqua Damon. <lb/>Celuy-là mesme,
+                    Paris un portrait de sa main. <lb/>N'est ce pas celuy de seu <rs type="person" ref="../register/register-person.xml#hesselin_louis">M. Hesselin</rs>, repliqua Damon. <lb/>Celuy-là mesme,
                     reprit Pamphile, &amp; M. Hesselin en fut si content, &amp; trouva la
                     chose si merveilleuse, qu'il pria cet illustre aveugle de vouloir bien se
                     laisser peindre pour emporter son portrait en France, &amp; pour y conserver
                     sa memoire. J'ay vû autrefois ce portrait, &amp; je m'apperceus en le
-                    regardant, que le Peintre luy avoit mis un œil à chaque bout de doigt <pb n="21"
-                    /> pour faire voir que ceux qu'il avoir ailleurs, luy estoient tout à fait
+                    regardant, que le Peintre luy avoit mis un œil à chaque bout de doigt <pb n="21"/> pour faire voir que ceux qu'il avoir ailleurs, luy estoient tout à fait
                     inutiles. Enfin, vous voyez par là; continua Pamphile , qu'il n'est pas toûjours
                     necessaire pour juger des contours que l'œil les voye, c'est assez que les mains
                     puissent les toucher. En effet, il n'y a personne qui dans la plus grande
@@ -376,8 +360,7 @@
                     cet Aveugle que son Art qui est tout dans le Dessein, luy avoir donné moyen de
                     satisfaire son esprit, &amp; de se consoler en quelque façon de la perte
                     qu'il avoit faite d'un sens aussi pretieux qu'est celuy de la veuë: &amp;
-                    que s'il avoit este Peintre, il auroit esté privé de cette consolation. <lb/><pb
-                        n="22"/> C'est, repartit Pamphile, que Ia Couleur &amp; la Lumiere ne
+                    que s'il avoit este Peintre, il auroit esté privé de cette consolation. <lb/><pb n="22"/> C'est, repartit Pamphile, que Ia Couleur &amp; la Lumiere ne
                     sont l'objet que de la veuë, &amp; que le Dessein l'est encore du toucher,
                     comme je vous l'ay déja dit. Je vous avouë que la pureté &amp; la
                     delicatesse du Dessein est un grand charme pour moy; mais vous m'avoüerez aussi
@@ -500,8 +483,7 @@
                     Pamphile, &amp; je croy que le beau Dessein doit charmer un esprit bien
                     fait; d'autant plus qu'il exprima une partie des mouvemens de l'ame qui luy
                     tiennent lieu de Couleur, &amp; luy donnent une espece de vie tresagreable.
-                    Mais en tout <unclear reason="illegible"
-                    >c</unclear><!--(Tintenfleck, wahrsch. cela)-->, il n'y a rien que le Sculpteur
+                    Mais en tout <unclear reason="illegible">c</unclear><!--(Tintenfleck, wahrsch. cela)-->, il n'y a rien que le Sculpteur
                     ne puisse faire; &amp; ces choses considerées par rapport à un ouvrage de
                     Peinture, demeureront toûjours imparfaites sans le secours du Coloris, lequel
                     met le Peintre au dessus du Sculpteur, &amp; fait que les objets peints
@@ -513,8 +495,7 @@
                     Tableaux à choisir, interrompis-je, lesquels prendriez vous, ou ceux qui sont
                     mieux Dessinez que Coloriez, ou ceux qui sont mieux Coloriez que Dessinez?
                     <lb/>Vous pouvez bien croire, me repondit Pamphile, qu'aprés ce que j'ay dit du
-                        <unclear reason="illegible"
-                    >Coris</unclear><!--(Coloris,
+                        <unclear reason="illegible">Coris</unclear><!--(Coloris,
                     Tintenfleck)--> à l'égard d'un
                     ouvrage de Peinture, je dois preferer les Tableaux où la Couleur sera mieux
                     entenduë, pourveu que le Dessein n'y soit point trop mal. La raison de cela est,
@@ -526,15 +507,13 @@
                     de Tableaux où je verrois de la beauté dans quelque partie que ce soit: mais je
                     préfererais toujours ceux du Titien aux autres, pour sa raison que je viens de
                     vous dire. <lb/>Et lequel de ces deux Peintres aimeriez-vous mieux estre,
-                    continuay-je, de <rs type="person" ref="#raffael">Raphaël</rs><index
-                        indexName="psw">
+                    continuay-je, de <rs type="person" ref="../register/register-person.xml#raffael">Raphaël</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Raffael</term>
                     </index> ou du Titien ? <lb/>Vous m'embarassez fort, repondit Pamphile; attendez
                     que j'y pense un peu. <lb/>Je ne croyois pas, repris-je, que vous dûssiez
                     balancer de cette forte, aprés ce que je viens de vous entendre dire.
                     <lb/>J'aimerois mieux estre Raphaël, continua Pamphile, &amp; j'estime que
-                    le Titien est un plus grand Peintre. <lb/>Je vous entends bien, luy dis-je, <pb
-                        n="34"/> c'est à-dire, que Raphaël avec la correction de son Dessein, avoit
+                    le Titien est un plus grand Peintre. <lb/>Je vous entends bien, luy dis-je, <pb n="34"/> c'est à-dire, que Raphaël avec la correction de son Dessein, avoit
                     plusieurs autres talerns, &amp; que tout cela ensemble vous plaist davantage
                     que le Coloris du Titien. <lb/>Je vous avouë, dit Pamphile, que je suis encore
                     assez irresolu: neantmoius la correction du Dessein de Raphaël, l'élegance de
@@ -587,8 +566,7 @@
                     faire connoistre la necessité. <lb/>Les mieux sensez, me dit-il, en usent ainsi
                     pour seconder les desseins du Roy<index indexName="psw">
                         <term type="PND" xml:lang="deu">Ludwig (Frankreich, König, XIV.)</term>
-                    </index>, qui pour faire fleurir la Peinture dans son Royaume, y a étably <rs
-                        type="corporate" ref="#academie_royale_peinture">une Academie de ce bel
+                    </index>, qui pour faire fleurir la Peinture dans son Royaume, y a étably <rs type="corporate" ref="../register/register-corporate.xml#academie_royale_peinture">une Academie de ce bel
                         Art</rs><index indexName="stw">
                         <term type="SWD" xml:lang="fra">Paris</term>
                         <index indexName="stw">
@@ -642,15 +620,13 @@
                     leurs regles: au lieu que le principe dont je vous parle, est un chemin
                     infaillible pour s'acquerir dans le Dessein une maniere trés-sçavante &amp;
                     tres-solide. Et si vous voulez en estre persuadé, prenez la peine de lire
-                    quelques vies des Peintres qui vivoient du temps de <rs type="person"
-                        ref="#medici_giovanni_papst">Leon X.</rs><index indexName="psw">
+                    quelques vies des Peintres qui vivoient du temps de <rs type="person" ref="../register/register-person.xml#medici_giovanni_papst">Leon X.</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Leo X. (Papst)</term>
-                    </index> &amp; de <rs type="person" ref="#franz_i_frankreich">François
+                    </index> &amp; de <rs type="person" ref="../register/register-person.xml#franz_i_frankreich">François
                         premier</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Franz (Frankreich, König, I.)</term>
                     </index>; &amp; vous verrez que ceux qui avoient le plus de connoissance
-                    dans le Dessein, se l'étoient acquise par le moyen de l'Anatomie. <lb/><pb
-                        n="43"/> Ah! vous parlez d'un sicele bien different du nostre, interrompit
+                    dans le Dessein, se l'étoient acquise par le moyen de l'Anatomie. <lb/><pb n="43"/> Ah! vous parlez d'un sicele bien different du nostre, interrompit
                     Damon en soûpirant; les Peintres de ce temps-là travailloient à s'établir une
                     solide reputation, &amp; ceux d'aujourd'huy ne travaillent la pluspart que
                     pour amasser de l'argent. Cependant, ils ne laissent pas de se croire de fort
@@ -682,16 +658,13 @@
                     repeit Damon. <lb/>Je ne dis pas cela, repartit Pamphile; mais seulement
                     qu'elles ne sont gueres connuës. <lb/>Le Titien à vostre avis, continua Damon,
                     &amp; les autres bons Coloristes ne les ont-ils pas connuës ces regles?
-                    <lb/>Je croy, dit Pamphile, qu'ils en ont connu la meilleure partie: mais <rs
-                        type="person" ref="#giorgione">Giorgion</rs><index indexName="psw">
+                    <lb/>Je croy, dit Pamphile, qu'ils en ont connu la meilleure partie: mais <rs type="person" ref="../register/register-person.xml#giorgione">Giorgion</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Giorgione</term>
                     </index>, Titien<index indexName="psw">
                         <term type="PND" xml:lang="deu">Tizian</term>
-                    </index>, <rs type="person" ref="#rubens_peter_paul">Rubens</rs><index
-                        indexName="psw">
+                    </index>, <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
-                    </index> &amp; <rs type="person" ref="#dyck_anthonis_van">Vandeik</rs><index
-                        indexName="psw">
+                    </index> &amp; <rs type="person" ref="../register/register-person.xml#dyck_anthonis_van">Vandeik</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Dyck, Anthonis van</term>
                     </index>, plus que les autres. <lb/>Hé bien, dit Damon, ce qu'ils nous ont
                     laissé sont autant de Livres <pb n="46"/> publics qui peuvent instruire tous les
@@ -704,8 +677,7 @@
                     outre cela, il faut avoir l'esprit tourné d'une maniere à profiter de tout, à ne
                     remarquer que ce qui est remarquable, &amp; à penetrer les veritables causes
                     des effets qu'on admire. Vous avez fort bien dit, que les Ouvrages de ces grands
-                    Hommes estoient des Livres où les preceptes du Coloris estoient écrits: <pb
-                        n="47"/> mais ignorez-vous que toutes sortes de personnes ne sont pas
+                    Hommes estoient des Livres où les preceptes du Coloris estoient écrits: <pb n="47"/> mais ignorez-vous que toutes sortes de personnes ne sont pas
                     capables d'entendre tous les Livres &amp; d'en profiter, principalement
                     quand ils sont aussi difficiles à entendre que ceux-là? Il y a des Peintres qui
                     ont copié le Titien durant beaucoup d'années, qui l'ont examiné avec soin,
@@ -713,8 +685,7 @@
                     cependant pour n'avoir pas fait celles qu'ils devoient, ils ne l'ont jamais
                     compris: &amp; c'est pour cela que les copies qu'ils ont faites avec tout le
                     soin possible, &amp; qu'ils croyent estre dans une grande exactitude, sont
-                    encore fort éloignées de la conduite qui se trouve dans les Originaux. <lb/><rs
-                        type="person" ref="#poussin_nicolas">Le Poussin</rs><index indexName="psw">
+                    encore fort éloignées de la conduite qui se trouve dans les Originaux. <lb/><rs type="person" ref="../register/register-person.xml#poussin_nicolas">Le Poussin</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Poussin, Nicolas</term>
                     </index>, luy dis-je, n'auroit-il point esté de ces gens-là? (parlez-nous
                     franchement;) car pour avoir autant copié, qu'il a fait, les Ouvrages du Titien,
@@ -754,8 +725,7 @@
                     je viens de vous dire, c'est qu'en s'attachant au Coloris, on néglige le
                     Dessein, &amp; que le charme de l'un fait oublier la necessité de l'autre.
                     <lb/>Pour lors, repliqua Pamphile, ce n'est pas la faute du Coloris; mais de
-                    l'esprit qui a trop peu d'étenduë pour faire attention à deux choses en même <pb
-                        n="51"/> temps. Ce ne sont pas de ces sortes d'esprits que demande la
+                    l'esprit qui a trop peu d'étenduë pour faire attention à deux choses en même <pb n="51"/> temps. Ce ne sont pas de ces sortes d'esprits que demande la
                     Peinture, elle n'admet dans ses bonnes graces que ceux qui sont capables
                     d'embrasser plusieurs objets, ou qui sont si bien tournez &amp; qui sçavent
                     si bien se ménager qu'ils ne s'attachent qu'aux choses qui doivent augmenter par
@@ -802,8 +772,7 @@
                     l'habitude a passé jusqu'à l'organe, &amp; que les yeux du Peintre voyent
                     les objets naturels colorez, comme ils ont accoûtumé de les peindre. <lb/>Et
                     quel moyen donc de sortir de là? poursuivis-je. <lb/>Pour moy, dit Pamphile, je
-                    croirois(supposé qu'on en eut bien envie) qu'il faudroit changer du blanc au <pb
-                        n="55"/> nôir, &amp; porter les choses dans l'autre extremité pendant
+                    croirois(supposé qu'on en eut bien envie) qu'il faudroit changer du blanc au <pb n="55"/> nôir, &amp; porter les choses dans l'autre extremité pendant
                     quelque temps. Et si l'on faisoit bien (poursuivit il d'un ton railleur) l'on
                     interposeroit l'autorité des Magistrats, afin d'interdire pour six ans aux
                     Peintres, la Laque &amp; la Terre verte. <lb/>C'est en effet, repartit
@@ -854,7 +823,7 @@
                     tirer le Peintre du naufrage où il se seroit innocemment engagé. , <lb/>Il faut
                     joindre cela au régime, dit Damon en souriant. Je sçay bien, continua-t-il, que
                     Rubens est un de vos Heros de Peinture, &amp; que vous avez toûjours estimé
-                        l'<rs type="work" ref="#jaffe_707_754">Ouvrage qui est dans la gallerie du
+                        l'<rs type="work" ref="../register/register-work.xml#jaffe_707_754">Ouvrage qui est dans la gallerie du
                         Luxembourg</rs><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Paris</term>
                         <index indexName="stw">
@@ -870,15 +839,13 @@
                         <index indexName="stw">
                             <term xml:lang="deu">Medici-Zyklus (1628-1631)</term>
                         </index>
-                    </index>, comme une des plus belles choses qui soient dans l'<rs type="place"
-                        ref="#europa">Europe</rs>, si l'on en retranchoit (disiez-vous) en beaucoup
+                    </index>, comme une des plus belles choses qui soient dans l'<rs type="place" ref="../register/register-place.xml#europa">Europe</rs>, si l'on en retranchoit (disiez-vous) en beaucoup
                     d'endroits le goût de Dessein dont il n'est pas question presentement. Mais tout
                     le monde n'est pas de vôtre goût, &amp; ceux qui sont d'un sentiment
                     contraire, disent qu'on trouve peu de verité dans les Ouvrages de Rubens, quand
                     on les examine de prés, que les Couleurs &amp; les Lumieres y sont
                     exagerées, que ce n'est qu'un fard, &amp; qu'enfin ce n'est point ainsi que
-                    l'on voit ordinairement la Nature. <lb/>O le beau fard! s'écria Pamphile, <pb
-                        n="60"/> &amp; plût à Dieu, mon cher Damon, que les Tableaux qu'on fait
+                    l'on voit ordinairement la Nature. <lb/>O le beau fard! s'écria Pamphile, <pb n="60"/> &amp; plût à Dieu, mon cher Damon, que les Tableaux qu'on fait
                     aujourd'huy, fussent fardez de cette sorte; ne sçavez-vous pas que la Peinture
                     n'est qu'un fard, qu'il est de son essence de tromper, &amp; que le plus
                     grand trompeur en cet Art est le plus grand Peintre. La Nature est ingrate
@@ -917,21 +884,15 @@
                     est vray, reprit Pamphile: mais quoique tout le monde les regarde, tout le monde
                     ne les voit pas: &amp; ce que chacun y voit n'est que par rapport à sa
                     connoissance. Je vois par exemple que la foule de nos Peintres admire les
-                    Ouvrages de <rs type="person" ref="#testa_pietro">Pietre Teste</rs><index
-                        indexName="psw">
+                    Ouvrages de <rs type="person" ref="../register/register-person.xml#testa_pietro">Pietre Teste</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Testa, Pietro</term>
                     </index>, qui sont un cahos de bizareries, pendant qu'ils ne connoissent pas
-                    seulement le nom d'<rs type="person" ref="#veen_otto">Otho Vaenius</rs><index
-                        indexName="psw">
+                    seulement le nom d'<rs type="person" ref="../register/register-person.xml#veen_otto">Otho Vaenius</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Veen, Otto van</term>
-                    </index>, dont les Ouvrages meritent assurement beaucoup de <unclear
-                        reason="illegible">lange</unclear>
+                    </index>, dont les Ouvrages meritent assurement beaucoup de <unclear reason="illegible">lange</unclear>
                     <!--(Tintenfleck, evtl. louange?)-->. <lb/>Otho Vaenius? repeta Damon. N'est-ce
-                    pas luy qui a fait les <term type="stw">emblèmes d'<rs type="person"
-                            ref="#horaz">Horace</rs><note resp="A.H." type="footnote">Eine <ref
-                                target="http://emblems.let.uu.nl/va1612.html">Web-Edition der Q.
-                                Horatii Flacci Emblemata von 1612</ref> wird vom <ref
-                                target="http://emblems.let.uu.nl/">Emblem Project Utrecht</ref>
+                    pas luy qui a fait les <term type="stw">emblèmes d'<rs type="person" ref="../register/register-person.xml#horaz">Horace</rs><note resp="A.H." type="footnote">Eine <ref target="http://emblems.let.uu.nl/va1612.html">Web-Edition der Q.
+                                Horatii Flacci Emblemata von 1612</ref> wird vom <ref target="http://emblems.let.uu.nl/">Emblem Project Utrecht</ref>
                             präsentiert.</note>
                         <index indexName="stw">
                             <term type="SWD" xml:lang="deu">Veen, Otto van</term>
@@ -945,18 +906,15 @@
                         <index indexName="stw">
                             <term xml:lang="lat">Amoris divini Emblemata</term>
                         </index>
-                    </index> &amp; profane<note resp="A.H." type="footnote">Das <ref
-                            target="http://emblems.let.uu.nl/">Emblem Project Utrecht</ref>
-                        präsentiert Web-Editionen der <ref
-                            target="http://emblems.let.uu.nl/v1608.html">Amorum emblemata
-                        (1608)</ref> und seinem Gegenstück, den <ref
-                            target="http://emblems.let.uu.nl/v1615.html">Amoris divini emblemata
+                    </index> &amp; profane<note resp="A.H." type="footnote">Das <ref target="http://emblems.let.uu.nl/">Emblem Project Utrecht</ref>
+                        präsentiert Web-Editionen der <ref target="http://emblems.let.uu.nl/v1608.html">Amorum emblemata
+                        (1608)</ref> und seinem Gegenstück, den <ref target="http://emblems.let.uu.nl/v1615.html">Amoris divini emblemata
                             (1615)</ref>.</note><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Veen, Otto van</term>
                         <index indexName="stw">
                             <term xml:lang="lat">Amorum emblemata</term>
                         </index>
-                    </index>, &amp; la vie de saint <rs type="person" ref="#aquin_thomas">Thomas
+                    </index>, &amp; la vie de saint <rs type="person" ref="../register/register-person.xml#aquin_thomas">Thomas
                         d'Aquin</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Thomas (von Aquin)</term>
                     </index>? <lb/>Luy-même, dit Pamphile. <lb/>Il est vray que je n'en ay jamais
@@ -986,14 +944,11 @@
                     se voit de bien gravé d'aprés les Ouvrages du Titien, &amp; d'après ceux de
                     l'école de <pb n="66"/> Rubens, en donne encore l'intelligence. <lb/>Et
                     qu'appellez-vous bien graver, reprit Damon? Est-ce couper le cuivre hardiment
-                    comme <rs type="person" ref="#goltzius_hendrick">Goltius</rs><index
-                        indexName="psw">
+                    comme <rs type="person" ref="../register/register-person.xml#goltzius_hendrick">Goltius</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Goltzius, Hendrik</term>
-                    </index>, ou poliment comme <rs type="person" ref="#bloemaert_abraham"
-                        >Bloëmart</rs><index indexName="psw">
+                    </index>, ou poliment comme <rs type="person" ref="../register/register-person.xml#bloemaert_abraham">Bloëmart</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Bloemaert, Abraham</term>
-                    </index> &amp; <rs type="person" ref="#natalis_michel">Natalis</rs><index
-                        indexName="psw">
+                    </index> &amp; <rs type="person" ref="../register/register-person.xml#natalis_michel">Natalis</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Natalis, Michel</term>
                     </index>? <lb/>Ce n'est pas cela précisement, repliqua Pamplile, la premiere
                     façon que vous attribuez à Goltius n'y est pas mesme fort propre; puisque pour
@@ -1058,8 +1013,7 @@
                     faisant(oder faifant) souvenir qu'il estoit tard, luy dit que ce seroit pour une
                     autre fois. Là-dessus après quelques civilitez de part &amp; d'autre, ils se
                     retirerent chez-eux, &amp; me laisserent fort satisfait de leur entretien. </p>
-                <p rend="text-align:center"> De l'Imprimerie d'<rs type="person"
-                        ref="#lambin_antoine">Antoine Lambin <index indexName="psw">
+                <p rend="text-align:center"> De l'Imprimerie d'<rs type="person" ref="../register/register-person.xml#lambin_antoine">Antoine Lambin <index indexName="psw">
                             <term xml:lang="deu">Lambin, Antoine</term>
                             <index indexName="fsw">
                                 <term type="structure" target="#printer">Drucker</term>

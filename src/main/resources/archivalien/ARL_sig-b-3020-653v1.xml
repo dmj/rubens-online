@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_248c">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_248c"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-3020-653v1">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -78,16 +78,13 @@
             <div xml:lang="fra">
                 <p><pb n="653v"/>2500 livres au même en une lettre de descharge de pareille somme
                     datée du <date when="1640-11-10">10e de novembre 1640</date>, levée sur ledit
-                    <rs type="person"
-                    ref="#philipp_iv_spanien">Philippe</rs> Le Roy<index indexName="psw">
+                    <rs type="person" ref="../register/register-person.xml#philipp_iv_spanien">Philippe</rs> Le Roy<index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
                     </index>, dont est faict recepte cy-devant folio 272, pour la parpaye de 10000
                     pareilles à 50 sols pièce comptant et les aultres 3000 philippes de trois en
                     trois mois suivans, pour estre lesdits deniers employés au payement de dix huict
                     peintures que, par ordre de Sa Majesté, sont esté faictz en ladite ville
-                    d’Anvers par les peinctres <rs type="person"
-                        ref="#rubens_peter_paul">Rubbens</rs> en <rs type="person"
-                            ref="#snyders_frans">Sneyders</rs><index indexName="psw">
+                    d’Anvers par les peinctres <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubbens</rs> en <rs type="person" ref="../register/register-person.xml#snyders_frans">Sneyders</rs><index indexName="psw">
                                 <term type="PND">Snyders, Frans</term>
                             </index>. </p>
             </div>

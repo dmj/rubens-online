@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_227">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_227"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,8 +17,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="SAA_sig-sr-634">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="SAA_sig-sr-634">
                     <msIdentifier>
                         <country>Belgien</country>
                         <settlement>Antwerpen</settlement>
@@ -43,8 +42,7 @@
                         <msItem>
                              <filiation>
                                 <note resp="A.H." type="footnote">Zum Erwerb von Het Steen Vgl. auch die Akten vom
-                                    <ref type="rubens" cRef="ed_rubens_224">12. Mai 1635</ref> und <ref
-                                        type="rubens" cRef="ed_rubens_225">1. Dezember 1635</ref>, zum Verkauf des Landguts das
+                                    <ref type="rubens" cRef="ed_rubens_224">12. Mai 1635</ref> und <ref type="rubens" cRef="ed_rubens_225">1. Dezember 1635</ref>, zum Verkauf des Landguts das
                                     <ref type="rubens" cRef="ed_rubens_255">Verkaufsplakat (Oktober
                                         1682)</ref>.</note>
                             </filiation>
@@ -71,34 +69,29 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Compareerde Joncker <rs type="person" ref="#robiano_lancelot">Lancelot de
+                <p>Compareerde Joncker <rs type="person" ref="../register/register-person.xml#robiano_lancelot">Lancelot de
                     Robiano</rs>, stadshouder des leenhofs van sijne majesteit inde lande van
                     Mechelen, bekende dat hij voor de lichtinge vande twintich duysent gulden eens
                     over de capitaele penninge met seven hondert sessenseventich gulden ende vier
                     stuyvers eens over de verloopen van de vierhondert ende sesthien patacons ende
-                    32 s. erffelyck die hij comparant als momboir van jouffrouwe <rs type="person"
-                        ref="#tkint_catharina">Catharina</rs> ende <rs type="person"
-                        ref="#tkint_johanna">Johanna ’t Kint geseyt Roodebeke</rs>, heffende was
+                    32 s. erffelyck die hij comparant als momboir van jouffrouwe <rs type="person" ref="../register/register-person.xml#tkint_catharina">Catharina</rs> ende <rs type="person" ref="../register/register-person.xml#tkint_johanna">Johanna ’t Kint geseyt Roodebeke</rs>, heffende was
                     opde heerleyckheyt goede ende lande van Steene<index indexName="stw">
                         <term xml:lang="deu">Het Steen</term>
                     </index><index indexName="stw">
                         <term xml:lang="deu">Hof van Ursele</term>
-                    </index>, ende der heer <rs type="person" ref="#rubens_peter_paul">Pietro Paulo
+                    </index>, ende der heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo
                         Rubens</rs> riddere heer van Steene ende secretaris van syne majesteit
                     secreten raedt hem alsnu quytende is, verbonden ende capitaelyck te pande
                     gestelt heeft mits desen sijne huyssinge van plaisantie met thore, pachters huys
-                    ende ontrent vijftich bunderen lants onder de baenderyen van <rs type="place"
-                        ref="#hoboken">Hoboken</rs> soo te hooge als te leege, belast alleenlyck met
-                    eenige cleyne chysen, item met vier duysent guldenen eens capitaels aen <rs
-                        type="person" ref="#iwenen_carolus">Carolus van Iewenen</rs> 
+                    ende ontrent vijftich bunderen lants onder de baenderyen van <rs type="place" ref="../register/register-place.xml#hoboken">Hoboken</rs> soo te hooge als te leege, belast alleenlyck met
+                    eenige cleyne chysen, item met vier duysent guldenen eens capitaels aen <rs type="person" ref="../register/register-person.xml#iwenen_carolus">Carolus van Iewenen</rs> 
                     ende aende
                     voors. heer Rubens van te voren verbonden voor de lichtinge van 5781 gulden, 7
                     stuyvers eens, <span from="" xml:lang="lat">et ulterius se et sua</span>, welck speciale verbintenisse sal, welck
                     speciale verbintenisse sal commen te cesseren, so wanneer de voors. comparant
                     sal bekomen ende overgeleverd hebben aen de voorgeschreven heer Rubens,
                     behoorlycke ratificatie van voors. Jouffrouwe Catharina met haeren manne ende
-                    nae voorgaende decreten van wethouders der stadt van <rs type="place"
-                        ref="#mechelen">Mechelen</rs> mits haer alnoch minderjaerigheyt gepasseert,
+                    nae voorgaende decreten van wethouders der stadt van <rs type="place" ref="../register/register-place.xml#mechelen">Mechelen</rs> mits haer alnoch minderjaerigheyt gepasseert,
                     ende gelycken authorisatie oft decreet van de selven wethouders te respect van
                     de voorseide jouffrouwe Johanna ’t Kint oick alnoch minderjaerich Kinde
                     verleene, </p><closer><salute>onder argelist.</salute>s<lb/>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_278">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_278"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,8 +15,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="moretus_senecae_operae_1615">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="moretus_senecae_operae_1615">
                     <msIdentifier>
                         <repository>unbekannt</repository>
                     </msIdentifier>
@@ -59,50 +58,40 @@
             <text xml:id="ed_rubens_278_lat">
                 <body>
                     <div part="Y" xml:lang="lat">
-                        <p>Quo maius novae <rs type="person" ref="#seneca">ANNAEI SENECAE</rs><index
-                                indexName="psw">
+                        <p>Quo maius novae <rs type="person" ref="../register/register-person.xml#seneca">ANNAEI SENECAE</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Seneca, Lucius Annaeus
                                 (Philosophus)</term>
                             </index> editioni ornamentum accederet, de verá Philosophi imagine
                             sedulò mihi inquirendum duxi, quam enim sapientissimus eius Interpres,
-                                <rs type="person" ref="#lipsius_justus">IUSTUS LIPSIUS</rs><index
-                                indexName="psw">
+                                <rs type="person" ref="../register/register-person.xml#lipsius_justus">IUSTUS LIPSIUS</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Lipsius, Justus</term>
                             </index>, olim ex Urbe, eleganti magis quàm fidá amici manu pictam
                             acceperat. atque in priori editione apponi iusserat haud undique
                             perfectam postmodum deprehendit. Defuncti igitur iudicio meritó lubenter
-                            satisfacere conantem, opportuné <rs type="person"
-                                ref="#rubens_peter_paul">Petrus-Paullus Rubenius</rs><index
-                                indexName="psw">
+                            satisfacere conantem, opportuné <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petrus-Paullus Rubenius</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                             </index>, aeui nostri Apelles<index indexName="psw">
                                 <term type="PND" xml:lang="deu">Apelles</term>
-                            </index>, adiuuit. qui cùm huberrimum rei antiquariae thesaurum <rs
-                                type="place" ref="#rom">Romà</rs>
-                            <rs type="place" ref="#antwerpen">Antverpiam</rs> attulerit, nec eximii
+                            </index>, adiuuit. qui cùm huberrimum rei antiquariae thesaurum <rs type="place" ref="../register/register-place.xml#rom">Romà</rs>
+                            <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiam</rs> attulerit, nec eximii
                             Philosophi imaginem. pre aliis veteris aevi deliciis, neglexit: atque
                             adeò pro suo in LIPSIUM, atque ipsum SENECAM, affectu, duplicem eam
                             liberaliter suppeditauit.<lb/> Prior ex Luculleò marmore fabrefacta,
-                            quondam Romae in aedibus Ducis AB <rs type="person"
-                                ref="#altemps_herzog">ALTEMPS</rs> visebatur: deinceps Illustrissimo
-                            Cardinali <rs type="person" ref="#borghese_scipione">BORGESIO</rs><index
-                                indexName="psw">
+                            quondam Romae in aedibus Ducis AB <rs type="person" ref="../register/register-person.xml#altemps_herzog">ALTEMPS</rs> visebatur: deinceps Illustrissimo
+                            Cardinali <rs type="person" ref="../register/register-person.xml#borghese_scipione">BORGESIO</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Borghese, Scipione</term>
                             </index> oblata, inter cius admiranda Antiquitatis monumenta cernitur.
                             Vera est effigies (ut. LIPSIANIS eam vocibus describam) in balneo animam
                             iam exhalantis, et in verbis monitisque aureis deficientis, vividum,
                             acre igneum aliquid refert. Manus digitosque ita exporrectos vides. ut
                             Sapientiae et Constantiae praecepta aduocatis Scriptoribus dictantem.
-                            haud obscurè cum <rs type="person" ref="#tacitus">Tacito</rs><index
-                                indexName="psw">
+                            haud obscurè cum <rs type="person" ref="../register/register-person.xml#tacitus">Tacito</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Tacitus</term>
                             </index> agnoscas: a quibus nec vicinae mortis cruciatus, satis peritè
                             in ipso vultu ab artifice adumbrati. Sapientem prohibebant. Facies parum
                             formosa, nesco quid prae se ferat, buccá hianti, turgentibus labris,
-                            naribus distensis; ut hominem Cordukbae (in <rs type="place"
-                                ref="#baetica">Baeticae</rs> provinciae coloniá, quae <rs
-                                type="place" ref="#afrika">Africae</rs> proximé adiacet) et
-                            parentibus <rs type="place" ref="#cordoba">Cordubensibus</rs> natum,
+                            naribus distensis; ut hominem Cordukbae (in <rs type="place" ref="../register/register-place.xml#baetica">Baeticae</rs> provinciae coloniá, quae <rs type="place" ref="../register/register-place.xml#afrika">Africae</rs> proximé adiacet) et
+                            parentibus <rs type="place" ref="../register/register-place.xml#cordoba">Cordubensibus</rs> natum,
                             minimè requioras. Sed et corpus, longá valetudine, multo studio, et, ex
                             Taciti sententiá, parvo vicru renuarum, paullo attentiùs considera: quod
                             cùm exercitiis durioribus, cultu agri et fossione vinearum, firmasse
@@ -114,22 +103,19 @@
                             habità honostatis ratione, velo abduxit.<lb/> Alteram quam spectas
                             effigiem, è protorypo marmorco idem Rubenius expressit: quod Romá
                             allatum, in elegantissimo Muséo asseruat: planè idem cum eiusdem
-                            Philosophi simulacro apud Illustrissimum Cardinalem <rs type="person"
-                                ref="#farnese_odoardo">FARNESIUM</rs><index indexName="psw">
+                            Philosophi simulacro apud Illustrissimum Cardinalem <rs type="person" ref="../register/register-person.xml#farnese_odoardo">FARNESIUM</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Farnese, Odoardo (Kardinal)</term>
-                            </index> exstante, et à <rs type="person" ref="#orsini_fulvio"
-                                >Fulvio</rs><index indexName="psw">
+                            </index> exstante, et à <rs type="person" ref="../register/register-person.xml#orsini_fulvio">Fulvio</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Orsini, Fulvio</term>
                                 <index indexName="stw">
                                     <term type="SWD" xml:lang="lat">Imagines et elogia illustrium et
                                         eruditorum</term>
                                 </index>
-                            </index> inter Illustrium Imagines; <rs type="person"
-                                ref="#faber_johann">Fabri</rs><index indexName="psw">
+                            </index> inter Illustrium Imagines; <rs type="person" ref="../register/register-person.xml#faber_johann">Fabri</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Faber, Johann (Arzt,
                                 1574-1629)</term>
                             </index>
-                            <rs type="person" ref="#bamberg">Bambergensis</rs> Commentario, non
+                            <rs type="person" ref="../register/register-person.xml#bamberg">Bambergensis</rs> Commentario, non
                             satis ad amussim edito. Prerogatiuam utrumque hanc habet, quód cum
                             nummis, quibus ipsum SENECAE nomen inscriptum, perquàm exacté conueniat.
                             Capillitio intonso et promisso, ab imagine priori nonnihil ista differt:
@@ -156,13 +142,11 @@
                             überreichen Schatz von Altertümern aus Rom nach Antwerpen gebracht und
                             das Bild des vortrefflichen Philosophen nicht vor anderen Kostbarkeiten
                             des Altertums vernachlässigt hat; und in seiner Herzensneigung zu
-                            Lipsius und Seneca selbst hat er er <note resp="N.B." type="footnote"
-                                >dieses Bild</note> bereitwillig sogar zweifach dargeboten.<lb/> Das
+                            Lipsius und Seneca selbst hat er er <note resp="N.B." type="footnote">dieses Bild</note> bereitwillig sogar zweifach dargeboten.<lb/> Das
                             erste, aus lucullischem Marmor <note resp="N.B." type="footnote">vgl.
                                     <bibl>Gaius Plinius Secundus: Naturkunde. lateinisch-deutsch.
                                     hrsg. und übers. von Roderich König. München [u.a.] 1973-.
-                                    XXXVI, 49 f.<ptr type="opac" cRef="125190433"
-                            /></bibl></note>gefertigt, war einstmals im Palast des Herzogs von
+                                    XXXVI, 49 f.<ptr type="opac" cRef="125190433"/></bibl></note>gefertigt, war einstmals im Palast des Herzogs von
                             Altemps zu sehen, dann dem erlauchten Kardinal Borhese angeboten worden
                             und ist jetzt unter seinen bewunderungswürdigen Altertümern zu sehen. Es
                             ist eine wirklichkeitsnahe Darstellung Senecas (daß ich sie mit des
@@ -196,16 +180,12 @@
                             und) in einem sehr geschmackvollen Museum bewahrt: es ist fast identisch
                             mit einem Bildwerk desselben Philosophen, das sich im Besitz des
                             erlauchten Kardinal Farnese befindet und von Fulvio Orsini unter den
-                            Darstellungen der Berühmten <note resp="N.B." type="footnote"
-                            >Männer</note>, die ein Kommentar des Faber<note resp="N.B."
-                                type="footnote">Johann Faber</note> aus Bamberg erläutert, nur
-                            unbefriedigend veröffentlicht ist. Dieses hat von beiden <note
-                                resp="N.B." type="footnote">Porträtdarstellungen</note> den Vorzug,
+                            Darstellungen der Berühmten <note resp="N.B." type="footnote">Männer</note>, die ein Kommentar des Faber<note resp="N.B." type="footnote">Johann Faber</note> aus Bamberg erläutert, nur
+                            unbefriedigend veröffentlicht ist. Dieses hat von beiden <note resp="N.B." type="footnote">Porträtdarstellungen</note> den Vorzug,
                             daß es mit Münzen, denen der Name desselben Seneca aufgeprägt ist, sehr
                             genau übereinstimmt. Mit dem ungestützten und lang in die Stirn
                             fallenden Haar weicht es um einiges von dem vorhergehenden Bildnis ab;
-                            jedoch den Fürsten der mannhaften philosophischen Schule <note
-                                resp="N.B." type="footnote">der Stoiker</note>, den Mann des
+                            jedoch den Fürsten der mannhaften philosophischen Schule <note resp="N.B." type="footnote">der Stoiker</note>, den Mann des
                             schärfsten Geistes und der größten Gesinnung, der von Nachwachen und
                             Nachtarbeit beinahe verzehrt wurde, stellt es vortrefflich dar, so daß
                             allein die Darstellung des Antlitzes ganz von selbst zu den

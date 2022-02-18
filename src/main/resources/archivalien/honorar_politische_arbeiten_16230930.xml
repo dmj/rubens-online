@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_163">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_163"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,17 +17,24 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="honorar_politische_arbeiten_16230930">
                     <msIdentifier>
                         <!-- richtig??? die Angaben im Buch stimmen wohl nicht mit der aus der provenance überein-->
                         <country>Niederlande</country>
                         <settlement type="city">Den Haag</settlement>
                         <repository>Königliche Bibliothek</repository>
-                        <collection></collection>
+                        <collection/>
                         <idno type="signatur">[71 D 60 fol. 48]</idno>
                     </msIdentifier>
                     <head>
@@ -96,34 +95,28 @@
         <body>
             <div part="Y" xml:lang="spa">
                 <p>
-                    <hi rend="smallCaps">Dona <rs type="person" ref="#isabella_von_spanien">Isabel
+                    <hi rend="smallCaps">Dona <rs type="person" ref="../register/register-person.xml#isabella_von_spanien">Isabel
                             Clara Eugenia</rs><index indexName="psw">
                             <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
-                        </index>, por la gracia de Dios, Infanta de <rs type="place" ref="#spanien"
-                            >Spana</rs>, etc.,</hi><lb/>Don <rs type="person" ref="#pereda_caspar"
-                        >Gaspar Ruiz de Pereda</rs>, del habito de <rs type="corporate"
-                        ref="#orden_von_santiago">S. Tiago</rs>, del consejo de guerra del rey<index
-                        indexName="psw">
+                        </index>, por la gracia de Dios, Infanta de <rs type="place" ref="../register/register-place.xml#spanien">Spana</rs>, etc.,</hi><lb/>Don <rs type="person" ref="../register/register-person.xml#pereda_caspar">Gaspar Ruiz de Pereda</rs>, del habito de <rs type="corporate" ref="../register/register-corporate.xml#orden_von_santiago">S. Tiago</rs>, del consejo de guerra del rey<index indexName="psw">
                         <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
                     </index>, mi senor, en estos Estados y veedor general deste su felicissimo
-                    exercito, y <rs type="person" ref="#maeda_luis">Luis de Casuso Maeda</rs>,
-                    contador del, saved que teniendo consideracion a las buenas partes de <rs
-                        type="person" ref="#rubens_peter_paul">Pedro Paulo Rubens</rs> y a lo que ha
+                    exercito, y <rs type="person" ref="../register/register-person.xml#maeda_luis">Luis de Casuso Maeda</rs>,
+                    contador del, saved que teniendo consideracion a las buenas partes de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Paulo Rubens</rs> y a lo que ha
                     servido a Su Magestad, para que pueda continuarlo con mas comodidad, hemos
                     tenido por bien de senalarle, como por tenor de la presente le senalamos, diez
-                    escudos de entretenimiento al mes en el castillo de <rs type="place"
-                        ref="#antwerpen">Anveres</rs>, sin obligacion de presentarse a las muestras.
+                    escudos de entretenimiento al mes en el castillo de <rs type="place" ref="../register/register-place.xml#antwerpen">Anveres</rs>, sin obligacion de presentarse a las muestras.
                     Por tanto os ordenamos y mandamos se los asenteis y hagais buenos en los libros
                     de vuestros officios, para que goze dellos desde el dia de la data desta en
                     adelante: que tal es nuestra voluntad, y que se le libren y paguen segun y como
                     a los demas entretenidos en el dho castillo.</p>
                 <closer>
-                    <dateline> Datta en <rs type="place" ref="#bruessel">Brusselas</rs> a <date when="1623-09-30">treinta de
+                    <dateline> Datta en <rs type="place" ref="../register/register-place.xml#bruessel">Brusselas</rs> a <date when="1623-09-30">treinta de
                     setiembre de mill y seiscientos y veinte y tres anos</date>.
                     </dateline><lb/>
                     <signed><hi rend="smallCaps">Isabel</hi></signed><lb/>
                     <salute>Por mandado de Su Alteza:</salute><lb/>
-                    <signed><rs type="person" ref="#urquina_matheo">Matheo de Urquina</rs>.</signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#urquina_matheo">Matheo de Urquina</rs>.</signed>
                 </closer>
             </div>
 
@@ -138,32 +131,27 @@
         <body>
             <div xml:lang="deu">
                 <head>Übersetzung:</head>
-                <p> Doña <rs type="person" ref="#isabella_von_spanien">Isabella Clara Eugenia</rs>,
-                    von Gottes Gnaden Infantin von <rs type="place" ref="#spanien">Spanien</rs>,
-                    usw.<lb/> Don Caspar Ruiz de Pereda, Mitglied des <rs type="corporate"
-                        ref="#orden_von_santiago">Ordens von Santiago</rs>, Mitglied des
+                <p> Doña <rs type="person" ref="../register/register-person.xml#isabella_von_spanien">Isabella Clara Eugenia</rs>,
+                    von Gottes Gnaden Infantin von <rs type="place" ref="../register/register-place.xml#spanien">Spanien</rs>,
+                    usw.<lb/> Don Caspar Ruiz de Pereda, Mitglied des <rs type="corporate" ref="../register/register-corporate.xml#orden_von_santiago">Ordens von Santiago</rs>, Mitglied des
                     Militärgerichts des Königs<index indexName="psw">
                         <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
                     </index>, mein Herr in diesen Staaten, und Hüter Ihrer Armee, und Luis de Casuso
-                    Maeda, dessen Buchhalter, nehmen Sie zur Kenntnis, daß auf Grund der guten <note
-                        resp="N.B." type="footnote">Seiten</note> von <rs type="person"
-                        ref="#rubens_peter_paul">Peter Paul Rubens</rs> und der guten Dienste für
+                    Maeda, dessen Buchhalter, nehmen Sie zur Kenntnis, daß auf Grund der guten <note resp="N.B." type="footnote">Seiten</note> von <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peter Paul Rubens</rs> und der guten Dienste für
                     Ihre Majestät, damit er mit mehr Komfort weiter dienen kann, wir ihm, wie wir
-                    Ihnen in diesem Brief mitteilen, 10 Gulden Unterhalt im Monat in der Festung <rs
-                        type="place" ref="#antwerpen">Antwerpen</rs> zugeteilt und ihn von der
+                    Ihnen in diesem Brief mitteilen, 10 Gulden Unterhalt im Monat in der Festung <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> zugeteilt und ihn von der
                     Verpflichtung entbunden haben, sich mustern lassen zu müssen. Von daher befehlen
                     wir Ihnen, daß Sie ihm dies erteilen und in eure Bücher eintragen, damit er es
                     vom heutigen Tag an erhält. Das ist unserer Willen, und daß es so geschieht, wie
                     es in der Festung Antwerpen für alle andere Unterhaltenen die Norm ist.</p>
                 <closer>
-                    <dateline><rs type="place" ref="#bruessel">Brüssel</rs>, den <date when="1623-09-30"
-                    >30.September 1623</date>.</dateline><lb/>
+                    <dateline><rs type="place" ref="../register/register-place.xml#bruessel">Brüssel</rs>, den <date when="1623-09-30">30.September 1623</date>.</dateline><lb/>
                     <signed>Isabel</signed><lb/>
                     <salute>Mit dem Befehl Euer Hoheit</salute><lb/>
                     <signed>Matheo de Urquina</signed>
                 </closer>
             </div>
-                <div xml:lang="deu"><p>Ihre Hoheit gewährt <rs type="person" ref="#rubens_peter_paul">Pedro Pablo
+                <div xml:lang="deu"><p>Ihre Hoheit gewährt <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Pablo
                     Rubens</rs> 10 Gulden Unterhalt im Monat in der Festung Antwerpen ohne die
                     Verpflichtung, zur Armee zu erscheinen.</p></div>
             

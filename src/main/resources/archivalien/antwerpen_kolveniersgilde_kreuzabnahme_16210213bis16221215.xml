@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_109">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_109"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc> 
-                &register-corporate; 
-                &register-person; 
-                &register-place;
-                &register-work; 
+                
+ 
+                
+
+ 
+                
+
+
+                
+
+ 
                 <msDesc xml:lang="deu" xml:id="antwerpen_kolveniersgilde_kreuzabnahme_16210213bis16221215">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -42,19 +41,17 @@
                                     Rubens, contenant une vie inédite de ce grand peintre par Philippe
                                     Rubens, son neveu. Présenté à la séance du 17 janvier 1835, in: Nouveaux
                                     mémoires de l’Académie royale des sciences et belles lettres de
-                                    Bruxelles 10, 1837, S. 4-13, Sonderdruck <ptr type="opac"
-                                        cRef="38519238X"/></bibl></note>
+                                    Bruxelles 10, 1837, S. 4-13, Sonderdruck <ptr type="opac" cRef="38519238X"/></bibl></note>
                             <filiation>
                                 <note resp="A.H." type="footnote">Vgl. zum Auftrag der Kolveniersgilde an Rubens
                                     auch folgende Dokumente vom <ref type="rubens" cRef="ed_rubens_108">7. September
-                                        1611- 16. Dezember 1622</ref> und <ref type="rubens" cRef="ed_rubens_110"
-                                            >Einträge in den Büchern der Gilde</ref>.</note>
+                                        1611- 16. Dezember 1622</ref> und <ref type="rubens" cRef="ed_rubens_110">Einträge in den Büchern der Gilde</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
                     <history>
                         <origin>
-                            <origDate from="1621-02-13"  to="1622-12-15">13. Februar 1621 und 15. Dezember 1622</origDate>                            
+                            <origDate from="1621-02-13" to="1622-12-15">13. Februar 1621 und 15. Dezember 1622</origDate>                            
                             <origPlace>Antwerpen</origPlace>
                         </origin>
                     </history>
@@ -66,8 +63,7 @@
                                 1620. The Art Museum, Princeton University, hg. John Rupert Martin.
                                 Princeton/New Jersey 1972, S. 61f.<ptr type="gbv" cRef="306896001"/></bibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 456f<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 456f<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Victor van Grimberghen (Grimbergen): Historische levensbeschryving van
                                 P. P. Rubens benevens eene naeuwkeurige opgave zyner schilderyen.
                                 Rotterdam, 1840, S. 412</bibl>
@@ -79,8 +75,7 @@
                                 Rubens, contenant une vie inédite de ce grand peintre par Philippe
                                 Rubens, son neveu. Présenté à la séance du 17 janvier 1835, in: Nouveaux
                                 mémoires de l’Académie royale des sciences et belles lettres de
-                                Bruxelles 10, 1837, S. 4-13, Sonderdruck <ptr type="opac"
-                                    cRef="38519238X"/></bibl>
+                                Bruxelles 10, 1837, S. 4-13, Sonderdruck <ptr type="opac" cRef="38519238X"/></bibl>
                         </listBibl>
                     </additional></msDesc>
             </sourceDesc>
@@ -98,17 +93,12 @@
     <text>
         <body>
             <div part="Y" xml:lang="nld">
-                <p> Op heden den <date when="1622-12-15">XV<hi rend="super">en</hi> december XVI<hi
-                            rend="super">c</hi> tweentwintich</date> de Camer vergadert synde by den
-                    dienende ende oude Dekens ende Oudermans soe heeft den Deken <rs type="person"
-                        ref="#loose_jan">Jan Loose</rs> overgelevert de generale quictantie van <rs
-                        type="person" ref="#rubens_peter_paul">Petro Paulo Rubens</rs> schilder daer
+                <p> Op heden den <date when="1622-12-15">XV<hi rend="super">en</hi> december XVI<hi rend="super">c</hi> tweentwintich</date> de Camer vergadert synde by den
+                    dienende ende oude Dekens ende Oudermans soe heeft den Deken <rs type="person" ref="../register/register-person.xml#loose_jan">Jan Loose</rs> overgelevert de generale quictantie van <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo Rubens</rs> schilder daer
                     by hy bekent voldaen te syne vande somme van vierhondert ponden vlaems in volle
-                    betaelinge van het maeken vande schilderye staende op den Aultaer<index
-                        indexName="stw">
+                    betaelinge van het maeken vande schilderye staende op den Aultaer<index indexName="stw">
                         <term xml:lang="deu">Kreuzabnahme</term>
-                    </index><note resp="A.H." type="footnote">Das Tryptichon mit der <rs type="work"
-                            ref="#jaffe_189ABC">Kreuzabnahme</rs> befindet sich in der
+                    </index><note resp="A.H." type="footnote">Das Tryptichon mit der <rs type="work" ref="../register/register-work.xml#jaffe_189ABC">Kreuzabnahme</rs> befindet sich in der
                         Liebfrauenkathedrale Antwerpen.</note> in dato <date when="1621-02-13">13
                         februari 1621</date>. </p>
             </div>

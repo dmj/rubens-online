@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_092">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_092"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="testament_maria_pypelincx_16061218">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -62,8 +61,7 @@
                      </source></recordHist></adminInfo>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                                bloedverwanten. Antwerpen 1877, S. S. 371-376<ptr type="gbv" cRef="146162595"
-                                /></bibl></listBibl></additional></msDesc>
+                                bloedverwanten. Antwerpen 1877, S. S. 371-376<ptr type="gbv" cRef="146162595"/></bibl></listBibl></additional></msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -78,9 +76,7 @@
     <text>
         <body>
             <div part="Y" xml:lang="nld">
-                <salute>Inden Name Ons Heeren Amen.</salute> <p>Ick <rs type="person" ref="#pypelincx_maria"><hi
-                            rend="smallCaps">Maria</hi> PYPELINCX</rs>, weduwe wijlen Meester <rs
-                        type="person" ref="#rubens_jan"><hi rend="smallCaps">Jan</hi> RUEBENS</rs>,
+                <salute>Inden Name Ons Heeren Amen.</salute> <p>Ick <rs type="person" ref="../register/register-person.xml#pypelincx_maria"><hi rend="smallCaps">Maria</hi> PYPELINCX</rs>, weduwe wijlen Meester <rs type="person" ref="../register/register-person.xml#rubens_jan"><hi rend="smallCaps">Jan</hi> RUEBENS</rs>,
                     in sijnen tijt Schepen, aenmerckende de broosheydt der menschelijcker natueren
                     ende dat wij niet sekerder en hebben dan de doot ende niet onsekerder dan de ure
                     derselver ende willende hierom in tijts van mijne tijtelijcke goeden disponeren
@@ -95,15 +91,11 @@
                     geestelijcke oft wereltlijcke rechten hierinne niet onderhouden oft
                     achtervolcht:</p> 
                     <p>Voort eerste bevele ick mijne siele aen Godt van Hemelrijck,
-                    ende mijn lichaem der heyligher eerden; begeerende <rs type="corporate"
-                        ref="#antwerpen_abtei_st_michiels">tSinte Michiels</rs> begraven te worden
+                    ende mijn lichaem der heyligher eerden; begeerende <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">tSinte Michiels</rs> begraven te worden
                     sonder pomperye, ende in alle mijne naer te laetene goeden daerinne institueere
                     ick, noeme ende institueere, midts desen, voer mijne gerechte erfgenamen mijne
-                    twee sonen <rs type="person" ref="#rubens_philipp"><hi rend="smallCaps"
-                        >Philips</hi> RUEBENS</rs> ende <rs type="person" ref="#rubens_peter_paul"
-                            ><hi rend="smallCaps">Peeter-Paulo</hi> RUEBENS</rs> ende mijne dochter
-                    saliger <rs type="person" ref="#rubens_blandina"><hi rend="smallCaps"
-                        >Blandina</hi> RUEBENS</rs>’ ses kinders, om onder hunlieden staecxghewijse
+                    twee sonen <rs type="person" ref="../register/register-person.xml#rubens_philipp"><hi rend="smallCaps">Philips</hi> RUEBENS</rs> ende <rs type="person" ref="../register/register-person.xml#rubens_peter_paul"><hi rend="smallCaps">Peeter-Paulo</hi> RUEBENS</rs> ende mijne dochter
+                    saliger <rs type="person" ref="../register/register-person.xml#rubens_blandina"><hi rend="smallCaps">Blandina</hi> RUEBENS</rs>’ ses kinders, om onder hunlieden staecxghewijse
                     ghepaert, ghescheyden ende gedeylt te worden, wel verstaende dat overmidts mijne
                     dochtere mij seer veel heeft gecost in bruyloft en cleederen en cleynodien en
                     allen mijn beste muebels heeft ghehadt, soe in een bedde van 20, jae nu wel 25
@@ -119,7 +111,7 @@
                     guldens, soe sullen mijn twee sonen daervoren hebben ende behouden altemael mijn
                     muebels, huysraet, bedden en ledecanten, stoelen en bancken, tresooren, cussens,
                     tafelcleederen en allet lijwaet, behalven een paer fijne breede slapelakens die
-                    ick <rs type="person" ref="#constantia">
+                    ick <rs type="person" ref="../register/register-person.xml#constantia">
                         <hi rend="smallCaps">Constantia</hi>
                     </rs> mijns dochters dochter begeere gegeven; ick salder (wilt Godt) een
                     briefken op naeyen, soe dat men geenen wtroep en hoeft houden; want potten en
@@ -140,13 +132,11 @@
                     hondert guldens ende ick groote schaden hebbe ghehadt voer, en meest nae hunnen
                     houwelyck, niet alleene vant verbranden van mijn hoeven, maar, duer den quaden
                     tijt, heel renten van vijfentwintich guldens erffelijck met verloop en al
-                    verloren ende de banckeroete van <rs type="person" ref="#wedeghe_caspar"><hi
-                            rend="smallCaps">Caspar de </hi>WEDEGHE</rs> van 1146 guldens; twee
-                    huysen in <rs type="place" ref="#borgerhout">Borgerhout</rs> verbrandt, wel
+                    verloren ende de banckeroete van <rs type="person" ref="../register/register-person.xml#wedeghe_caspar"><hi rend="smallCaps">Caspar de </hi>WEDEGHE</rs> van 1146 guldens; twee
+                    huysen in <rs type="place" ref="../register/register-place.xml#borgerhout">Borgerhout</rs> verbrandt, wel
                     twintich jaeren verloopen op lant heb moeten quyt schelden: een corenrente van u
-                    vader heel verloren ende aende rente van 200 gulden tsjaers tot <rs type="place"
-                        ref="#hombeek">Hombeke</rs>, soe van tproces als quytscheldinghe, wel twee
-                    dusent en vier hondert guldens verloren: aen <rs type="person" ref="#truyken">
+                    vader heel verloren ende aende rente van 200 gulden tsjaers tot <rs type="place" ref="../register/register-place.xml#hombeek">Hombeke</rs>, soe van tproces als quytscheldinghe, wel twee
+                    dusent en vier hondert guldens verloren: aen <rs type="person" ref="../register/register-person.xml#truyken">
                         <hi rend="smallCaps">Truyken</hi>
                     </rs> moeten geben, voer mijn suster<index indexName="psw">
                         <term xml:lang="deu">Susanna Pypelincx</term>
@@ -173,23 +163,19 @@
                     te vreden sijn met soe vele alsser gebreeckt aen tgene sij gehadt hebben tot
                     vervallinghe vande somme van drij dusent twee hondert guldens, ende hiermede
                     stil staen tot dat mijne twee voers. sonen elck soe veel hebben ende trecken als
-                    mijn dochter gehadt heeft in gelde, renten oft lant soot daer is, te weten: <hi
-                        rend="smallCaps">Philips</hi>, mijnen sone, sal voer sijn twee hondert
-                    guldens erffelijck nemen de hoeve ende landen genoempt Moerendael<index
-                        indexName="stw">
+                    mijn dochter gehadt heeft in gelde, renten oft lant soot daer is, te weten: <hi rend="smallCaps">Philips</hi>, mijnen sone, sal voer sijn twee hondert
+                    guldens erffelijck nemen de hoeve ende landen genoempt Moerendael<index indexName="stw">
                         <term xml:lang="nld">Moerendael</term>
                     </index>, eensdeels leen wesende (dwelck leen hij evenwel voren wt soude mogen
-                    nehmen,) te <rs type="place" ref="#nispen">Nispen</rs> geleghen, met allen
+                    nehmen,) te <rs type="place" ref="../register/register-place.xml#nispen">Nispen</rs> geleghen, met allen
                     heuren appenditien ende dependentien oft twee hondert guldens erffelijck
                     daervore tsijnen keuse ende optie, daer toe de helft vande muebels, huysraet,
                     boecken, etc. als voerseyt is, ende <hi rend="smallCaps">Peeter</hi>, mijnen
-                    sone, dander helft wtgenommen de ses silveren lepels, daer sullen <hi
-                        rend="smallCaps">Philips</hi> ende <hi rend="smallCaps">Peeter</hi> elck
-                    twee af hebben, daeronder die daer St. Jan op staet, ende <rs type="person"
-                        ref="#constantia">
+                    sone, dander helft wtgenommen de ses silveren lepels, daer sullen <hi rend="smallCaps">Philips</hi> ende <hi rend="smallCaps">Peeter</hi> elck
+                    twee af hebben, daeronder die daer St. Jan op staet, ende <rs type="person" ref="../register/register-person.xml#constantia">
                         <hi rend="smallCaps">Constancie</hi>
                     </rs> mijn nichtken, dander twee, omdat mijn peetken ist, oft sij den eenen en
-                    haer suster <rs type="person" ref="#crestienne">
+                    haer suster <rs type="person" ref="../register/register-person.xml#crestienne">
                         <hi rend="smallCaps">Crestienne</hi>
                     </rs> den anderen. Ende voort sal <hi rend="smallCaps">Peeter-Paulo</hi> oock
                     vande gereetste renten oft anders twee hondert guldens erffelijck, voeren wt
@@ -225,8 +211,7 @@
                     sterfhuys ende naer te latene goeden oft oock over de voers. mijnder dochter
                     kinderen. Ende want mijne meyninghe, wttersten wille ende intencie sulcx is als
                     voerscreven slaet, soo hebbe ick dit met mynder eygehener hant geschreven ende
-                    onterteeckent in <rs type="place" ref="#antwerpen">Antwerpen</rs> opten <date
-                        when="1606-12-18">achtienden December sestien hondert ende sesse</date>;
+                    onterteeckent in <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> opten <date when="1606-12-18">achtienden December sestien hondert ende sesse</date>;
                     oock begeere ick wat men bevinden sal naer datum van desen dat ick voer mijns
                     dochters man oft haer kinderen heb verschoten, gecocht en betaelt, sal al
                     afgerekent worden aen haere tweendertich hondert guldens, en daeraen

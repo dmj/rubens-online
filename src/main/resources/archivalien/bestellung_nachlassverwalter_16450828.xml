@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_305">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_305"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <!-- ID vergeben -->
     <teiHeader>
         <fileDesc>
@@ -22,17 +14,23 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="bestellung_nachlassverwalter_16450828">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Verteilung des Nachlasses von Peter Paul Rubens. Schöffenakte vom28. August 1645 zur Bestellung des
                         Binnenbürgermeisters Melchior Haecx zum Nachlassverwalter</idno></msIdentifier>
                     
                     <head>
-                        <title>Verteilung des Nachlasses von Peter Paul Rubens. Schöffenakte vom <date
-                            when="1645-08-28">28. August 1645</date> zur Bestellung des
+                        <title>Verteilung des Nachlasses von Peter Paul Rubens. Schöffenakte vom <date when="1645-08-28">28. August 1645</date> zur Bestellung des
                             Binnenbürgermeisters Melchior Haecx zum Nachlassverwalter</title>
                     </head>
                     
@@ -63,45 +61,36 @@
     <text>
         <body>
             <div part="Y" xml:lang="nld">
-                <p>Akte voor Schepenen <rs type="person" ref="#sandlin_schoeffe">SANDELIN</rs>
-                    en <rs type="person" ref="#deschamp_schoeffe">DESCHAMPS</rs>.<lb/>
-                Vrouw <rs type="person" ref="#fourment_helene">HELENA FOURMENT</rs>, weduwe van
-                    wijlen Heer <rs type="person" ref="#rubens_peter_paul">PIETRO– PAULO
-                    RUBENS</rs>, Riddere ende Heere van Steene, met Joncker <rs type="person"
-                        ref="#broechoven_jan_baptista">JAN BAPTISTA VAN BROECKHOVEN</rs>, Heer van
-                        <rs type="place" ref="#bercheycke">Bercheycke</rs> ende oudt Schepen deser
+                <p>Akte voor Schepenen <rs type="person" ref="../register/register-person.xml#sandlin_schoeffe">SANDELIN</rs>
+                    en <rs type="person" ref="../register/register-person.xml#deschamp_schoeffe">DESCHAMPS</rs>.<lb/>
+                Vrouw <rs type="person" ref="../register/register-person.xml#fourment_helene">HELENA FOURMENT</rs>, weduwe van
+                    wijlen Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">PIETRO– PAULO
+                    RUBENS</rs>, Riddere ende Heere van Steene, met Joncker <rs type="person" ref="../register/register-person.xml#broechoven_jan_baptista">JAN BAPTISTA VAN BROECKHOVEN</rs>, Heer van
+                        <rs type="place" ref="../register/register-place.xml#bercheycke">Bercheycke</rs> ende oudt Schepen deser
                     stadt, nu ter tyt haeren man ende momboir, in dierste partye, Heer ende Meester
-                        <rs type="person" ref="#rubens_philippus">PHILIPS RUBENS</rs> ende Sieur <rs
-                        type="person" ref="#hanikart_peeter">PEETER HANICAERT</rs>, beyde Schepenen
+                        <rs type="person" ref="../register/register-person.xml#rubens_philippus">PHILIPS RUBENS</rs> ende Sieur <rs type="person" ref="../register/register-person.xml#hanikart_peeter">PEETER HANICAERT</rs>, beyde Schepenen
                     deser stadt, als testamentelycke momboiren vande vyff minderjarighe kinderen der
                     voors. Vrouwe HELENA FOURMENT, die sy behouden heeft vanden voors. haeren
                     iersten man, inde tweede partye; Ende als om tnaebeschreven te mogen doene,
                     consent ende authorisatie vercregen hebbende van myne Eerweerde Heeren
                     Borgemeesteren ende Schepenen deser stadt, by appostille collegiael, gestelt op
                     hunne requeste in date den <date when="--08-17">seventhiensten dach deser
-                        tegenwoordiger maendt Augusti</date>, ende byden Greffier <rs type="person"
-                        ref="#gevaerts_caspar">GEVAERTS</rs> onderteeckent ; dHeer <rs type="person"
-                        ref="#lunden_arnoult">ARNOULT LUNDEN</rs>, Raedt ende Generael vande Munte
+                        tegenwoordiger maendt Augusti</date>, ende byden Greffier <rs type="person" ref="../register/register-person.xml#gevaerts_caspar">GEVAERTS</rs> onderteeckent ; dHeer <rs type="person" ref="../register/register-person.xml#lunden_arnoult">ARNOULT LUNDEN</rs>, Raedt ende Generael vande Munte
                     Synre Majesteyt binnen deser stadt, inden naeme ende als tottet naebeschreven
-                    specialyck ende volcommelyck gemechticht van Joncker <rs type="person"
-                        ref="#rubens_albert">ALBERT RUBENS</rs>, des voors. heer Pietro Paulo
-                    voorsone, daer moeder aff was Vrouwe <rs type="person" ref="#brant_isabella"
-                        >ISABELLA BRANDT</rs>, ende Secretaris vanden Secreten Raedt van Syne voors.
-                    Majesteyt, naer luyt der procuratie by hem opden <date when="1645-07-20"
-                        >twintichsten dach der maendt July lestleden</date>, voor <rs type="person"
-                        ref="#frenne_geeraert">GEERAERT DU FRENNE</rs> als Notaris tot <rs
-                        type="person" ref="#bruessel">Brussel</rs>, in presentie van sekere
+                    specialyck ende volcommelyck gemechticht van Joncker <rs type="person" ref="../register/register-person.xml#rubens_albert">ALBERT RUBENS</rs>, des voors. heer Pietro Paulo
+                    voorsone, daer moeder aff was Vrouwe <rs type="person" ref="../register/register-person.xml#brant_isabella">ISABELLA BRANDT</rs>, ende Secretaris vanden Secreten Raedt van Syne voors.
+                    Majesteyt, naer luyt der procuratie by hem opden <date when="1645-07-20">twintichsten dach der maendt July lestleden</date>, voor <rs type="person" ref="../register/register-person.xml#frenne_geeraert">GEERAERT DU FRENNE</rs> als Notaris tot <rs type="person" ref="../register/register-person.xml#bruessel">Brussel</rs>, in presentie van sekere
                     getuyghen gepasseert. Ende de voorgenoempde Meester PHILIPS RUBENS noch inden
                     naeme ende als om tnaebeschreven oock te mogen doene, volcommelyck gemechticht
-                    van Joncker <rs type="person" ref="#rubens_nikolaas">NICOLAES RUBENS</rs>, Heere
+                    van Joncker <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">NICOLAES RUBENS</rs>, Heere
                     van Rameye, des voors. Jonckers ALBERTS broeder, by sekere andere procuratie by
                     hem opden <date when="--07-11">elfsten dach derselver maendt July</date> voor
-                    den Notaris <rs type="person" ref="#guyot_toussaint">GUYOT</rs> alhier
+                    den Notaris <rs type="person" ref="../register/register-person.xml#guyot_toussaint">GUYOT</rs> alhier
                     gepasseert, welcke twee procuratien mette voors. geappostilleerde requeste ten
                     desen originelyck syn gethoont, ende indyer qualiteyt inde derde partye. Ende
                     bekenden ende verclaerden alsoo de voorgenoempde Jonckers ALBERT ende NICOLAES
                     RUBENS tegens die vande ierste ende tweede partye, proces hadden gemoveert inden
-                    Raede van <rs type="place" ref="#brabant">Brabant</rs>, ende noch meer andere
+                    Raede van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs>, ende noch meer andere
                     questien in het toecommende tusschen deen ende dander vande voors. partyen
                     waeren geschaepen te rysen, ten opsiene vande successie der goederen byden
                     voors. Heer PIETRO-PAÜLO RUBENS achtergelaeten ende anderssints, dat sy van
@@ -110,9 +99,7 @@
                 <p> Inden iersten, soo hebben de comparanten vande leste partye inder voors.
                     quaeliteyt geapprobeert, gelyck sy approberen mits desen, den staet, inventaris
                     ende rekeninge van hunre voors. constituanten moederlycke goeden, byden voors.
-                    hunnen vader den <date when="1626-07-26">sessentwintichsten July anno XVI<hi
-                            rend="super">c</hi> sessentwintich</date> ende den <date
-                        when="1628-08-18">achthiensten Augusti XVI<hi rend="super">c</hi>
+                    hunnen vader den <date when="1626-07-26">sessentwintichsten July anno XVI<hi rend="super">c</hi> sessentwintich</date> ende den <date when="1628-08-18">achthiensten Augusti XVI<hi rend="super">c</hi>
                         achtentwintich</date> respective aen hunne momboirs overgegeven ende
                     gepasseert, mette declaratie vande selve momboirs daeronder gestelt,
                     renuncierende dyen volgende aen alle pretensien van continuatie van gemeynschap
@@ -127,8 +114,7 @@
                     van dyen, souden mogen gevallen wesen, soo van gelycken by deselve leste
                     comparanten wort geratificeert ende geapprobeert de quittancie byde voorschreve
                     hunne momboirs aenden voors. hunnen vaeder gegeven ende gepasseert voor den
-                    voors. Notaris GUYOT ende sekere getuyghen, opden <date when="1630-11-29"
-                        >negenentwintichsten Novembris anno XVI<hi rend="super">c</hi> ende
+                    voors. Notaris GUYOT ende sekere getuyghen, opden <date when="1630-11-29">negenentwintichsten Novembris anno XVI<hi rend="super">c</hi> ende
                         dertich</date>, gelovende voorts dat sylieden, ter saecken van desselffs
                     huns vaeders adminiitratie ende momboirdye over hun ende hunne goeden gehadt,
                     syn sterffhuys nyet aenspreken noch molesteren en sullen, directelyck noch
@@ -141,11 +127,9 @@
                 <p> Des soo sullen aende voors. Jonckers Albert ende NICOLAES RUBENS alleen, elcken
                     voor de hellicht, volgen, die penningen by hun oft iemandt van hun, soo voor
                     capitael als verloopen ontfangen, van eene rente van vier hondert guldenen
-                    erffelyck die geheven wierde ten laste vande goeden van Joncker <rs
-                        type="person" ref="#locquingien_christiaen">CHRISTIAEN VAN LOCQUINGIEN</rs>,
+                    erffelyck die geheven wierde ten laste vande goeden van Joncker <rs type="person" ref="../register/register-person.xml#locquingien_christiaen">CHRISTIAEN VAN LOCQUINGIEN</rs>,
                     ende totten dyen noch alsulcken obligatie van dry duysent sevenentachtentich
-                    guldenen ende thien stuyvers eens, als Heer <rs type="person"
-                        ref="#varick_nicolaes">NICOLAES VAN VARICK</rs>, Marcqgrave deser stadt,
+                    guldenen ende thien stuyvers eens, als Heer <rs type="person" ref="../register/register-person.xml#varick_nicolaes">NICOLAES VAN VARICK</rs>, Marcqgrave deser stadt,
                     schuldich is, procederende van penningen byden voors. Heer PIETRO-PAULO RUBENS
                     ende de momboiren van syne voors. voorkinderen int gemeyn, aenden selven Heere
                     Marcqgrave geleent, ende sal desniettemin de voldoeninge vande selve obligatie,
@@ -168,20 +152,17 @@
                 <p> Sullen voorts de voors. Vrouwe HELENA FOURMENT metten voors. haeren man,
                     comparanten in dierste partye, affgaen, gelyck sy doen mits desen, de tochte van
                     alsulcken deel als haer die competeert inde goederen vanden Nieuwen Doel,
-                    mitsgaeders inde hoffstede ende landen gelegen onder <rs type="place"
-                        ref="#zwijndrecht">Swyndrecht ende Borcht</rs> respective ende inde rente
+                    mitsgaeders inde hoffstede ende landen gelegen onder <rs type="place" ref="../register/register-place.xml#zwijndrecht">Swyndrecht ende Borcht</rs> respective ende inde rente
                     van sesse hondert vyffentwintich guldens erffelyck, geheven wordende opde hoeve
-                    ende landen van Heer <rs type="person" ref="#doyenbrugge_jan_duras">JAN
-                        DOYENBRUGGEN DE DURAS</rs>, gelegen int quartier van <rs type="place"
-                        ref="#assenede">Assenede</rs>, behoudelyck dat allen tgene vande selve
-                    tochte byde voors. Vrouwe ontfangen ende voorts totten <date when="1645-08-01"
-                        >iersten dach deser maendt Augusti XVI<hi rend="super">c</hi>
+                    ende landen van Heer <rs type="person" ref="../register/register-person.xml#doyenbrugge_jan_duras">JAN
+                        DOYENBRUGGEN DE DURAS</rs>, gelegen int quartier van <rs type="place" ref="../register/register-place.xml#assenede">Assenede</rs>, behoudelyck dat allen tgene vande selve
+                    tochte byde voors. Vrouwe ontfangen ende voorts totten <date when="1645-08-01">iersten dach deser maendt Augusti XVI<hi rend="super">c</hi>
                         vyffenviertich</date> daervan gevallen is, nae raete van tyde, by haer
                     behouden, genoten ende geproffiteert sal worden, sonder dat sy ende haeren man
                     yet sullen hebben te draegen inde oncosten, verschoten penningen ende interesten
-                    byden erffgenaemen van Meester <rs type="person" ref="#nispen_cornelis">CORNELIS
+                    byden erffgenaemen van Meester <rs type="person" ref="../register/register-person.xml#nispen_cornelis">CORNELIS
                         VAN NISPEN</rs> gepretendeert, ende waerom tusschen hem ende de generaele
-                    gelande vanden <rs type="place" ref="#doel">Doel</rs>, is hangende proces
+                    gelande vanden <rs type="place" ref="../register/register-place.xml#doel">Doel</rs>, is hangende proces
                     indecis, welcke pretensien, met doncosten vanden selven processe, sullen syn
                     ende blyven ten laste vande comparanten vande tweede ende derde partye, naer
                     raete van yders gedeelte inde voors. goeden vanden Nieuwen Doel, behoudelyck
@@ -193,15 +174,12 @@
                         <sic>propreteyt</sic>
                         <corr>proprieteyt</corr>
                     </choice> die sy waeren pretenderende aen het vierde paert, maeckende vyff
-                    hondert guldenen erffelyck, gehipoticeert opde stadt van <rs type="place"
-                        ref="#ypern">Yperen</rs> ende op sConincx domynen van <rs type="place"
-                        ref="#ninhove">Ninoven</rs>, mits daeraen behoudende gelyck hun dat byde
+                    hondert guldenen erffelyck, gehipoticeert opde stadt van <rs type="place" ref="../register/register-place.xml#ypern">Yperen</rs> ende op sConincx domynen van <rs type="place" ref="../register/register-place.xml#ninhove">Ninoven</rs>, mits daeraen behoudende gelyck hun dat byde
                     comparanten vande tweede ende derde partye wort toegestaen, de tochte, soo voor
                     het gepasseerde als voor het toecommende, hun beyder ende der lancxtlevende van
                     hun beyder leven geduerende, ende sal de proprieteyt vande selve vyffhondert
                     guldens erffelyck, mede oock in vollen rechte, soo van tochte als proprieteyt,
-                    dandere vyff hondert guldenen erffelyck vande selve rente van <rs type="place"
-                        ref="#ypern">Iperen</rs>, mitsgaeders het vaederlyck gedeelte, wesende de
+                    dandere vyff hondert guldenen erffelyck vande selve rente van <rs type="place" ref="../register/register-place.xml#ypern">Iperen</rs>, mitsgaeders het vaederlyck gedeelte, wesende de
                     hellicht vande voorgemelde goeden inden Nieuwen Doel, tot Swyndrecht ende Borcht
                     respective gelegen, ende vande rente van sesse hondert vyffentwintich guldenen
                     erffelyck tot Assenede, tusschen de voor- ende naekinderen desselffs
@@ -209,9 +187,7 @@
                     sullen mogen pretenderen eenich kintsgedeelte, haer generaelyck gemaeckt byden
                     testamente vanden voors. Heer PIETRO PAULO RUBENS, gepasseert voorden Notaris
                     GUYOT ende sekere getuygen, den <date when="1640-05-27">sevenentwintichsten May
-                            XVI<hi rend="super">c</hi> viertich</date>.<note resp="A.H."
-                        type="footnote">Vgl. das letzte <ref type="rubens" cRef="ed_rubens_246"
-                            >Testament von Peter Paul Rubens</ref>.</note></p>
+                            XVI<hi rend="super">c</hi> viertich</date>.<note resp="A.H." type="footnote">Vgl. das letzte <ref type="rubens" cRef="ed_rubens_246">Testament von Peter Paul Rubens</ref>.</note></p>
                 <p> Welck testament anderssints sal sorteren syn volcommen effect ende by partyen in
                     alle syne poincten ende leden preciselyck achtervolcht, ende dyenvolgende mette
                     ierste commoditeyt geprocedeert worden tot finale scheydinge ende deylinge vande

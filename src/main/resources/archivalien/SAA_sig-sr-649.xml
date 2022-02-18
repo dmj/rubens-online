@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_236">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_236"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,10 +15,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-649">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -60,15 +59,13 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p><pb n="68r-v"/><rs type="person" ref="#princen_gillis">Gillis Princen</rs> inde
+                <p><pb n="68r-v"/><rs type="person" ref="../register/register-person.xml#princen_gillis">Gillis Princen</rs> inde
                     name ende als (onder andere) tottet gene naebescreven, procuratie hebbende van
-                    den heer <rs type="person" ref="#rubens_peter_paul">Petro Paulo Ruebens</rs>,
-                    ridders, (op den <date when="1634-12-19">negenthienste Decembris anno 16<hi
-                            rend="super">c</hi> ende vierendertig</date>, voorde notaris M<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#nicoleis_j">J. Nicoleis</rs> ende prefectie vanden
+                    den heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo Ruebens</rs>,
+                    ridders, (op den <date when="1634-12-19">negenthienste Decembris anno 16<hi rend="super">c</hi> ende vierendertig</date>, voorde notaris M<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#nicoleis_j">J. Nicoleis</rs> ende prefectie vanden
                     getuygen gepasseert, ons te desen originelycken gethoont, in dyer qualiteyt ter
-                    eenre, ende van <rs type="person" ref="#man_nicolaes">Nicolaes de Man</rs>,
+                    eenre, ende van <rs type="person" ref="../register/register-person.xml#man_nicolaes">Nicolaes de Man</rs>,
                     brouwer alhier, ten andere zijde, ende bekende ende verclaerde ter beiden zijden
                     aaengaende der scheymueren gemaeckt bij den voors. S<hi rend="super">r</hi> Petro
                     Paulo Ruebens, tusschen zijn huys ende erve ende thuys ende erve van voors.
@@ -79,8 +76,7 @@
                     </index><index indexName="stw">
                         <term type="GKD" xml:lang="nld">	
                             Antwerpen</term><index indexName="stw"><term xml:lang="nld">Rubenshuis</term></index>
-                    </index> alhier gestaen. Alzoo derselven mueren eerst bij den voors. S<hi
-                        rend="super">r</hi> Rubbens gemaect zijnde tot redelycke hoichte, gecocht
+                    </index> alhier gestaen. Alzoo derselven mueren eerst bij den voors. S<hi rend="super">r</hi> Rubbens gemaect zijnde tot redelycke hoichte, gecocht
                     heeft in alles ter somme van eenhondert elft gulden seventhien ende eene halven
                     stuyver eens. Daervan de voors. de Man bereet is te dragen de helft van de
                     honderdvijfenvijftig achthien stuyvers een blanck, ende deselve mueren nyet

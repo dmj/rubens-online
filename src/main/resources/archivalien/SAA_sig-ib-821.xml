@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_173">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_173"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-ib-821">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -80,9 +79,9 @@
                    Die <date when="1627-05-27">Vigesima septima May 1627</date>
                 </head> 
                 <p>Compareerde S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs>
                     constschilder van haere Hoocheyt woonende binnen deser Stadt my Notaris bekend
-                    synde. <span from="" xml:lang="lat">Et constituit</span> <rs type="person" ref="#guyot_toussaint">Toussein
+                    synde. <span from="" xml:lang="lat">Et constituit</span> <rs type="person" ref="../register/register-person.xml#guyot_toussaint">Toussein
                     Guyot</rs> oick Notharius alhier, hem gevende volcommen ende absolute
                         macht<index indexName="stw">
                         <term xml:lang="deu">Vollmacht</term>
@@ -91,19 +90,16 @@
                     goedenisse ende erffenisse van de huyssinge ende hoeve mette landen daertoe
                     behoorende genaemt thoff van Urssel<index indexName="stw">
                         <term xml:lang="nld">Hof van Ursele</term>
-                    </index> gelegen tot <rs type="place" ref="#eeckeren">Eeckeren</rs><index
-                        indexName="stw">
+                    </index> gelegen tot <rs type="place" ref="../register/register-place.xml#eeckeren">Eeckeren</rs><index indexName="stw">
                         <term xml:lang="deu">Eeckeren</term>
-                    </index> by <rs type="person" ref="#loemans_jaques">Jacques Loemans</rs> te
+                    </index> by <rs type="person" ref="../register/register-person.xml#loemans_jaques">Jacques Loemans</rs> te
                     doene ende te passerene, de commeren ende lasten daerop wytgaende tot syns
                     constituants laste te nehmen ende geloven te betaelen, brieven ende bescheeden
                     daeraff in behoorlycker forme te passeren <span from="" xml:lang="lat">Et generatliter etc. Promittens</span> etc.
                 </p>
-                <closer><dateline>Actum <rs type="place" ref="#antwerpen">Antverpie</rs> ter presentiën van <rs
-                        type="person" ref="#pont_philipp">Philips de Pont</rs> ende <rs
-                        type="person" ref="#panneels_guillaume">Guill<hi rend="super">e</hi>
+                <closer><dateline>Actum <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpie</rs> ter presentiën van <rs type="person" ref="../register/register-person.xml#pont_philipp">Philips de Pont</rs> ende <rs type="person" ref="../register/register-person.xml#panneels_guillaume">Guill<hi rend="super">e</hi>
                             Panneels</rs> <span from="" xml:lang="lat">Incolis testibus.</span></dateline><lb/>
-                    <signed><rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens.</rs></signed></closer> 
+                    <signed><rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubens.</rs></signed></closer> 
             </div>
         </body>
         

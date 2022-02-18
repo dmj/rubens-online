@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_090">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_090"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-463">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -49,8 +48,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                                bloedverwanten. Antwerpen 1877, S. 366f.<ptr type="gbv" cRef="146162595"
-                                /></bibl></listBibl>
+                                bloedverwanten. Antwerpen 1877, S. 366f.<ptr type="gbv" cRef="146162595"/></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -66,30 +64,23 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, inden
-                    name ende als volcomelijck gemechticht van <rs type="person"
-                        ref="#rubens_philipp">Philips</rs> ende <rs type="person"
-                        ref="#rubens_peter_paul">Peeteren-Paulus Rubbens</rs>, haere sonen, omme,
+                <p> Jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs>, inden
+                    name ende als volcomelijck gemechticht van <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips</rs> ende <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeteren-Paulus Rubbens</rs>, haere sonen, omme,
                     onder andere, tgene naebeschreven wordt te mogen doene, breederf, blijckende bij
-                    zekere opene procuratie in papiere gescreven, in date den <date
-                        when="1604-08-04">vierden Augusti lestleden</date>, voor <rs
-                        type="person" ref="#wyse_alexander">Alexander de Wyse</rs>, Notaris,
-                    residerende tot <rs type="place" ref="#rom">Roomen</rs>, in presentien van
+                    zekere opene procuratie in papiere gescreven, in date den <date when="1604-08-04">vierden Augusti lestleden</date>, voor <rs type="person" ref="../register/register-person.xml#wyse_alexander">Alexander de Wyse</rs>, Notaris,
+                    residerende tot <rs type="place" ref="../register/register-place.xml#rom">Roomen</rs>, in presentien van
                     sekere getuygen, <span from="" xml:lang="lat">quam vidimus</span>, bekende ende verlijde, indyer qualiteyt,
-                    opgebuert ende ontfangen te hebbene van <rs type="person" ref="#rogge_lenaert"
-                        >Lenaert Rogge</rs>, proprietaris vande panden naebeschreven, de capitale
+                    opgebuert ende ontfangen te hebbene van <rs type="person" ref="../register/register-person.xml#rogge_lenaert">Lenaert Rogge</rs>, proprietaris vande panden naebeschreven, de capitale
                     penningen vande tweelff Carolus guldens erfflijck metten achterstelle daeraff
-                    verloopen ende verschenen, die <rs type="person" ref="#decker_pauwel">Pauwels de
+                    verloopen ende verschenen, die <rs type="person" ref="../register/register-person.xml#decker_pauwel">Pauwels de
                         Decker, Lodewycxssone</rs>, opten <date when="1549-01-22">XXII Januarij
                         inden jare XV<hi rend="super">c</hi> negenenveertich</date>, vercocht heeft
-                        <rs type="person" ref="#perteler_jan">Janne Perteler</rs>, op drije
+                        <rs type="person" ref="../register/register-person.xml#perteler_jan">Janne Perteler</rs>, op drije
                     wooningen, waeraff deene het hoeckhuys es, gestaen ende gelegen inde Meyerstrate
-                    int Hoplant, opden hoeck aldaer, ende die <rs type="person" ref="#huys_jaspar"
-                        >Jaspar Huys</rs>, opden <date when="1573-12-12">XII Decembris inden
-                        jare van LXXIII</date>, <rs type="person" ref="#lantmeter_philipp">Philippe
+                    int Hoplant, opden hoeck aldaer, ende die <rs type="person" ref="../register/register-person.xml#huys_jaspar">Jaspar Huys</rs>, opden <date when="1573-12-12">XII Decembris inden
+                        jare van LXXIII</date>, <rs type="person" ref="../register/register-person.xml#lantmeter_philipp">Philippe
                         de Lantmetere</rs> overgegeven ende getransporteert heeft, ende welcke
-                    voornoempde rente van tweelff guldens erffiijck, opten <date
-                        when="1576-08-06">VI Augusti anno LXXVI<hi rend="super">tich</hi></date>,
+                    voornoempde rente van tweelff guldens erffiijck, opten <date when="1576-08-06">VI Augusti anno LXXVI<hi rend="super">tich</hi></date>,
                     onder andere, aengecavelt ende te deele bevallen is opde voors. constituanten.
                     </p>
                 <closer>Quitavit. <salute>Gelovende</salute>, enz. <salute>Sonder argelist</salute>.<lb/>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_268">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_268"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,10 +16,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="peacham_gentleman_1634">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -69,9 +68,8 @@
                                 Villiers, erster Herzog von Buckingham, kaufte York House in den
                                 1620er Jahren.</note>, also the Galleries and Roomes are ennobled
                             with the possession of those Romane Heads, and Statues, which lately
-                            belonged to Sir <rs type="person" ref="#rubens_peter_paul">Peter Paul
-                                Rubens</rs> Knight, that exquisit Painter of <rs type="place"
-                                ref="#antwerpen">Antwerp</rs>. </p>
+                            belonged to Sir <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peter Paul
+                                Rubens</rs> Knight, that exquisit Painter of <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerp</rs>. </p>
                     </div>
                     <div xml:lang="eng">
                         <p><pb n="110"/>And if a Painter will meddle with History, then are old
@@ -80,8 +78,7 @@
                             hath not been his onely making. But his Statues, before named, and his
                             workes doe testifie it for him: yea while he is at worke, he useth to
                             have some good historian or Poet read to him, which is rare in men of
-                            his profession, yet absolutely necessary.<gap resp="N.B."
-                                reason="cancelled"/>
+                            his profession, yet absolutely necessary.<gap resp="N.B." reason="cancelled"/>
                         </p>
                     </div>
                     <div xml:lang="eng">

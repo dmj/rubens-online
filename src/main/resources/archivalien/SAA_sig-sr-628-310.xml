@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_225">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_225"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,8 +18,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="SAA_sig-sr-628-310">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="SAA_sig-sr-628-310">
                     <msIdentifier>
                         <country>Belgien</country>
                         <settlement>Antwerpen</settlement>
@@ -45,9 +44,7 @@
                         <msItem>
                            
                             <filiation>
-                                <note resp="A.H." type="footnote">Zum Erwerb von Het Steen Vgl. auch die Akten vom <ref
-                                    type="rubens" cRef="ed_rubens_224">12. Mai 1635</ref> und <ref type="rubens"
-                                        cRef="ed_rubens_227">23. Februar 1636</ref>, zum Verkauf des Landguts das
+                                <note resp="A.H." type="footnote">Zum Erwerb von Het Steen Vgl. auch die Akten vom <ref type="rubens" cRef="ed_rubens_224">12. Mai 1635</ref> und <ref type="rubens" cRef="ed_rubens_227">23. Februar 1636</ref>, zum Verkauf des Landguts das
                                     <ref type="rubens" cRef="ed_rubens_255">Verkaufsplakat (Oktober
                                         1682)</ref>.</note>
                             </filiation>
@@ -73,18 +70,15 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Jonker <rs type="person" ref="#robiano_lancelot">Lancelot de Robiano</rs>,
-                    stadhouder des leenshofs van sijne maejesteit inde lande van <rs type="place"
-                        ref="#mechelen">Mechelen</rs> ende bekende dat hij in plaetse van comitie,
+                <p>Jonker <rs type="person" ref="../register/register-person.xml#robiano_lancelot">Lancelot de Robiano</rs>,
+                    stadhouder des leenshofs van sijne maejesteit inde lande van <rs type="place" ref="../register/register-place.xml#mechelen">Mechelen</rs> ende bekende dat hij in plaetse van comitie,
                     die hij gehouden is te stellene, voor de lichtinge van vijffduysent sevenhondert
                     eenentachtentich ponde drij schelle Arthois die hij comparant als momboir van de
-                    kinderen wijlen Heer <rs type="person" ref="#tkint_jan_baptista">Jans Baptista
-                        t’Kint</rs> in sijne leven heere was van Capelle en Nieuwekerke op <rs
-                        type="place" ref="#dyssel">Dyssel</rs>, ende nu ontfangende is vuyt handen
-                    voors. heer <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubbens</rs>
+                    kinderen wijlen Heer <rs type="person" ref="../register/register-person.xml#tkint_jan_baptista">Jans Baptista
+                        t’Kint</rs> in sijne leven heere was van Capelle en Nieuwekerke op <rs type="place" ref="../register/register-place.xml#dyssel">Dyssel</rs>, ende nu ontfangende is vuyt handen
+                    voors. heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubbens</rs>
                     riddere ende secretaris van sijnere majesteit secreten raet van de penninge die
-                    hij schuldig is over de coep vande heerlyckheyt ende van goeden van Steen<index
-                        indexName="stw">
+                    hij schuldig is over de coep vande heerlyckheyt ende van goeden van Steen<index indexName="stw">
                         <term xml:lang="nld">Het Steen</term>
                     </index><index indexName="stw">
                         <term xml:lang="nld">Hof van Ursele</term>
@@ -92,10 +86,9 @@
                     inder voors. qualiteyt daerop is heffende verbonden ende te pande gestelt heeft
                     mits dese sijne huyssinge van plaisantie met thore, pachters huys, stallinge en
                     omtrent de vijftich bunderen lants, gronde ende alle de andere toebehoerten
-                    gelegen tot ende onder de baenderije van <rs type="place" ref="#">Hoboke</rs> so
+                    gelegen tot ende onder de baenderije van <rs type="place" ref="../register/register-place.xml#">Hoboke</rs> so
                     te hooge als ten leege, belast alleenlyck met eenige cleyne chynsen en met vier
-                    duysent guldens eens capitaels aen <rs type="person" ref="#iwenen_cornelis"
-                        >Cornelis van Iewenen</rs>, sonder meer so hij verclaerde.</p>
+                    duysent guldens eens capitaels aen <rs type="person" ref="../register/register-person.xml#iwenen_cornelis">Cornelis van Iewenen</rs>, sonder meer so hij verclaerde.</p>
                     <closer>
                         <dateline><date when="1635-12-01">Primo decembris 1635</date><lb/> Soluit 36 st. </dateline>
                     </closer>

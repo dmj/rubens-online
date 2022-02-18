@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_127">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_127"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-512-103">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -44,8 +43,7 @@
                             <filiation>
                                 <note resp="A.H." type="footnote">Vgl. auch das Testament der Maria Pypelincx vom
                                     <ref type="rubens" cRef="ed_rubens_092">18. Dezember 1606</ref> und die
-                                    Empfangsbestätigung über dieses Testament durch den Notar Peeter Rubens vom <ref
-                                        type="rubens" cRef="ed_rubens_093">9. Januar 1607</ref>.</note>
+                                    Empfangsbestätigung über dieses Testament durch den Notar Peeter Rubens vom <ref type="rubens" cRef="ed_rubens_093">9. Januar 1607</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -57,8 +55,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                                bloedverwanten. Antwerpen 1877. S. 464-470<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                bloedverwanten. Antwerpen 1877. S. 464-470<ptr type="gbv" cRef="146162595"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -77,34 +74,30 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#rubens_peter_paul">Peeter-Paulo Rubbens</rs>, M<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#rubens_jan">Janssone</rs> wijlen, daer moeder van was
-                    wijlen jouffrouwe <rs type="person" ref="#pypelincx_maria">Maria Pypelincx</rs>,
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter-Paulo Rubbens</rs>, M<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#rubens_jan">Janssone</rs> wijlen, daer moeder van was
+                    wijlen jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Maria Pypelincx</rs>,
                     voor hen selven ende voorts met M<hi rend="super">r</hi>
-                    <rs type="person" ref="#brant_jan">Jan Brant</rs>, gesworen Greffier deser
+                    <rs type="person" ref="../register/register-person.xml#brant_jan">Jan Brant</rs>, gesworen Greffier deser
                     stadt, tsamen rechtlijcke momboiren over de naergelatene kinderen van wijlen
                         M<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_philipp">Philips Rubens</rs>, Secretaris was
+                    <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips Rubens</rs>, Secretaris was
                     deser stadt, ende als omme tgene naerbescreven wort vande selve kinderen wegen
                     te mogen doene volcomen consent hebbende vande Weesmeesteren deser stadt,
                     gedateert den <date when="--11-26">sessentwintichsten dach der voorleden maent
-                        Novembris</date> ende onderteeckent <rs type="person" ref="#witte_a">A. de
+                        Novembris</date> ende onderteeckent <rs type="person" ref="../register/register-person.xml#witte_a">A. de
                         Witte</rs>, ons getoont sijnde, ende de voors. Peeter-Paulo Rubbens noch
                     inden name ende als bijden testamente der voors. wijlen jouffrouwe Maria
-                    Pypelincx, onder heur hanteecken, den <date when="1606-12-18">XVIII<hi
-                            rend="super">en</hi> December XVI<hi rend="super">c</hi> sesse</date>,
-                    geexpedieert ende toegesloten sijnde, bij heur bekent ende gepasseert voor <rs
-                        type="person" ref="#rubens_peeter">Peeter Rubbens</rs>, als Notaris alhier,
+                    Pypelincx, onder heur hanteecken, den <date when="1606-12-18">XVIII<hi rend="super">en</hi> December XVI<hi rend="super">c</hi> sesse</date>,
+                    geexpedieert ende toegesloten sijnde, bij heur bekent ende gepasseert voor <rs type="person" ref="../register/register-person.xml#rubens_peeter">Peeter Rubbens</rs>, als Notaris alhier,
                     ende sekere getuygen, opden <date when="1607-01-09">negensten Januari inden
                         jare XVI<hi rend="super">c</hi> ende seven</date>, geordonneert
                     testamentelijck momboir<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
-                    </index> over de kinderen van wijlen jouffrouwe <rs type="person"
-                        ref="#rubens_blandina">Blandina Rubbens</rs>, sijne sustere, daer vader van
-                    was Joncker <rs type="person" ref="#parcq_simeon">Simon de Perck</rs>, in dyer
-                    qualiteyt in deen partye ende <rs type="person" ref="#lenaerts_henrick">Henrick
-                        Lenaerts</rs>, van <rs type="place" ref="#duysel">Duysel</rs>, in dander
+                    </index> over de kinderen van wijlen jouffrouwe <rs type="person" ref="../register/register-person.xml#rubens_blandina">Blandina Rubbens</rs>, sijne sustere, daer vader van
+                    was Joncker <rs type="person" ref="../register/register-person.xml#parcq_simeon">Simon de Perck</rs>, in dyer
+                    qualiteyt in deen partye ende <rs type="person" ref="../register/register-person.xml#lenaerts_henrick">Henrick
+                        Lenaerts</rs>, van <rs type="place" ref="../register/register-place.xml#duysel">Duysel</rs>, in dander
                     partye, bekenden ende verlijden onderlinge, in beyde partyen, dat de voors.
                     Peeter-Paulo Rubbens ende M<hi rend="super">r</hi> Jan Brant, inder voors.
                     qualiteyt, gegeven hebben ende gaven terve ende in erffelijcken rechte den
@@ -113,13 +106,11 @@
                     daerop liggende vanden affgebranden huyse eertijden genaempt Den
                         Beerendans<index indexName="stw">
                         <term xml:lang="nld">Den Beerendans</term>
-                    </index>, gelegen in <rs type="place" ref="#borgerhout">Borgerhout</rs>, buyten
-                    deser stadt, tusschen derve vanden affgebranden huyse van <rs type="person"
-                        ref="#raet_jacob">Jacobe Raet</rs> oft sijns actie hebbende, daer een
+                    </index>, gelegen in <rs type="place" ref="../register/register-place.xml#borgerhout">Borgerhout</rs>, buyten
+                    deser stadt, tusschen derve vanden affgebranden huyse van <rs type="person" ref="../register/register-person.xml#raet_jacob">Jacobe Raet</rs> oft sijns actie hebbende, daer een
                     steenen muerken plach te stane, ende voorder niet, oostwaerts, derve vande
-                    erffgenamen <rs type="person" ref="#lantmeter_jan">Jans de Lantmetere</rs>
-                    eensdeels ende derve vande erfgenamen <rs type="person" ref="#wouters_cornelis"
-                        >Cornelis Wouters</rs>, daer het gelint tusschen beyde staende van voore tot
+                    erffgenamen <rs type="person" ref="../register/register-person.xml#lantmeter_jan">Jans de Lantmetere</rs>
+                    eensdeels ende derve vande erfgenamen <rs type="person" ref="../register/register-person.xml#wouters_cornelis">Cornelis Wouters</rs>, daer het gelint tusschen beyde staende van voore tot
                     achtere tot gelijcken coste halff ende halff plach onderhouden te wordden,
                     commende achter suytwaerts aende gracht ende hoff vande voorgenoempde
                     erffgenamen Jans de Lantmetere ende voor noortwaerts aen sHeerenstrate, gelijck
@@ -129,8 +120,7 @@
                     voor tgebreck van sijne rente van tweendertich guldenen erffelijck vande selve
                     erve, als leste ende hoochste ende meest daeromme biedende, metten vuytganck
                     vander bernender keerssen, coopere gebleven ende daervooren bekent is, in
-                    presentie vande Wethouderen der Hooftbancke van <rs type="place" ref="#Deurne"
-                        >Deurne</rs>, opden <date when="1583-07-11">elfsten dach Julij inden
+                    presentie vande Wethouderen der Hooftbancke van <rs type="place" ref="../register/register-place.xml#Deurne">Deurne</rs>, opden <date when="1583-07-11">elfsten dach Julij inden
                         jare XV<hi rend="super">c</hi> ende dryentachtentich</date>, met conditie soo
                     naermaels eenige huysen oft edificie geraecte gemaect te worddene achter op dese
                     erve, dat men daer lancx geen licht en sal mogen scheppen ter gracht oft
@@ -139,14 +129,12 @@
                     eenich vuyl oft onreyn water, als zeepsop, bloet oft anderssins, leyden doen oft
                     laeten leyden inde gracht vanden hove vande voors. erffgenamen Jans de
                     Lantmetere, maer wel hemelende schoon water vanden borneputte ende anders geen,
-                    al volgende de coopcedulle onderteeckent bij <rs type="person"
-                        ref="#wynaerts_huybrecht">Huybrecht Wynaerts</rs>, gesworen Greffier der
+                    al volgende de coopcedulle onderteeckent bij <rs type="person" ref="../register/register-person.xml#wynaerts_huybrecht">Huybrecht Wynaerts</rs>, gesworen Greffier der
                     voors. Hooftbancke van Deurne, ende andere brieven ende bescheeden daervan
                     sijnde, die voorgenoempde erffgeveren mede overgaven, tsjaers erffelijck omme
                     tweelff guldenen, goet van goude ende swaer van gewichte, oft de weerde
                     daervoore in anderen goeden ganckbaren gelde, gelijck telcken dage van
-                    betalingen t<rs type="place" ref="#antwerpen">Antwerpen</rs><index
-                        indexName="gsw">
+                    betalingen t<rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs><index indexName="gsw">
                         <term type="TGN">Antwerpen</term>
                     </index> gemeynelijck in Borssen gaen sal, naer advenant, jaerlijckere ende
                     erffelijckere rente, te geldene ende te betalene vanden voors. erfaemere ende
@@ -169,19 +157,15 @@
                     verbonden ende tonderpande geseth hem selven ende alle sijne goeden, ruerende
                     ende onruerende, tegenwoordige ende toecommende. </p>
 
-                <p>De Weesmeesteren der stad van Antwerpen hebben geconsenteert dat Meester <rs
-                        type="person" ref="#brant_jan">Jan Brandt</rs> ende <rs type="person"
-                        ref="#rubens_peter_paul">Pedro-Paulo Rubens</rs>, als momboiren over den
-                    kinderen wijlen Meester <rs type="person" ref="#rubens_philipp">Philip
-                    Ruebns</rs>, Secretaris was deser stadt, daer moeder aff is jouffrouwe <rs
-                        type="person" ref="#moy_maria">Marie de Moy</rs>, moghen mette
+                <p>De Weesmeesteren der stad van Antwerpen hebben geconsenteert dat Meester <rs type="person" ref="../register/register-person.xml#brant_jan">Jan Brandt</rs> ende <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro-Paulo Rubens</rs>, als momboiren over den
+                    kinderen wijlen Meester <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philip
+                    Ruebns</rs>, Secretaris was deser stadt, daer moeder aff is jouffrouwe <rs type="person" ref="../register/register-person.xml#moy_maria">Marie de Moy</rs>, moghen mette
                     mededeelhebbers vercoopen, ghoeden, vestigen ende erven, eene ledige erve
                     gelegen tot Borgerhoudt buytten deser stadt geheeten Beerendans, daerinne den
                     voors. kinderen is competeerende een derde paert ende ghedeelte, overmits de
                     voors. momboiren verclaerden tselve beter gedaen te sijne dan gelaten.</p>
                     <closer>
-                        <dateline>Actum desen <date when="1614-11-26">sessentwintichsten November anno XVI<hi
-                        rend="super">c</hi> ende veerthien</date>.
+                        <dateline>Actum desen <date when="1614-11-26">sessentwintichsten November anno XVI<hi rend="super">c</hi> ende veerthien</date>.
                         </dateline><lb/> 
                         <signed>A. de Witte.</signed>
                     </closer>

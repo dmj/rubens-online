@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_039">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_039"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-330">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -54,8 +53,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
-                                Schilderschool. Antwerpen 1883, S. 402 f.<ptr type="gbv" cRef="194552292"
-                                /></bibl>
+                                Schilderschool. Antwerpen 1883, S. 402 f.<ptr type="gbv" cRef="194552292"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -74,27 +72,25 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Meester <rs type="person" ref="#veen_cornelis">Cornelis van Veen</rs>, Janssone
-                    wijlen, borger binnen der stadt van <rs type="place" ref="#leiden">Leyden</rs>
-                    in <rs type="place" ref="#holland">Hollant</rs> Bekende ende verclaerde mits
+                <p> Meester <rs type="person" ref="../register/register-person.xml#veen_cornelis">Cornelis van Veen</rs>, Janssone
+                    wijlen, borger binnen der stadt van <rs type="place" ref="../register/register-place.xml#leiden">Leyden</rs>
+                    in <rs type="place" ref="../register/register-place.xml#holland">Hollant</rs> Bekende ende verclaerde mits
                     desen, hoe dat hy naer lange voorgaende opset ende voornemen entlicken soo veel
                     gedaen heeft dat hy opten <date when="---20">XX</date>.<hi rend="super">en</hi>
                     van October lestleden hem uyt der voirschreve stadt van Leyden heeft gemaect
-                    ende nyet sonder grooten ongemaek ende pericule van synen persoone opten <date
-                        when="---24">XXIIII</date>.<hi rend="super">en</hi> der selver maent octobris
-                    binnen deser stadt van <rs type="place" ref="#antwerpen">Antwerpen</rs> is
+                    ende nyet sonder grooten ongemaek ende pericule van synen persoone opten <date when="---24">XXIIII</date>.<hi rend="super">en</hi> der selver maent octobris
+                    binnen deser stadt van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> is
                     gecomen daervan wy hem onder letteren van attestatie hebben vercleert, ende
                     alsoo hy comparant hem sichtent der selver tyt stadelicken binnen deser stadt
                     heeft gehouden hem in alles dragende als een getrouwen ondersaet van syne
                     majesteyt toebehoirt, ende die tertyt van meyningen is te reysen van hier naer
-                        <rs type="place" ref="#aachen">Aken</rs> ende hem aldaer int badt te begeven
+                        <rs type="place" ref="../register/register-place.xml#aachen">Aken</rs> ende hem aldaer int badt te begeven
                     omme te besoecken oft hij, deur die gratie van Godt den Heere, aldaer eenige
                     bate in sijne indispositie van den huepe soude connen gecrijgen, begeerende
                     darvan hy comparant onser brieven van attestatie de welcke wy hem hebben gegunt
                     ende gegeven, mits dat voor ons wede ter selver tyt gecompareert syn in heure
-                    propre persoonen <rs type="person" ref="#verhulst_adam">Adam Verhulst</rs>
-                    coopman etc. s’ oudt <num type="cardinal" value="20">XX</num> jaren ende <rs
-                        type="person" ref="#schaarlaken_jan">Jan van Schaarlaken</rs> inwoonder
+                    propre persoonen <rs type="person" ref="../register/register-person.xml#verhulst_adam">Adam Verhulst</rs>
+                    coopman etc. s’ oudt <num type="cardinal" value="20">XX</num> jaren ende <rs type="person" ref="../register/register-person.xml#schaarlaken_jan">Jan van Schaarlaken</rs> inwoonder
                     derselver stadt oudt <num type="cardinal" value="28">XXVIII</num> jaren
                     juraverunt et affirmaverunt dat zy den voirgenoempten Meesteren Cornelise van
                     Veen zeer wel kennen gelyck zy opten <date when="---30">XXX</date>.

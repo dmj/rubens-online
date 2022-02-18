@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_183">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_183"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-591">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -74,16 +73,15 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#smeken_hans">Hans Smekens</rs> in houwelycke gehadt
-                    hebbende wijlen <rs type="person" ref="#alsdorp_geertruyt">Geertruyt Van
-                    Alsdorf</rs>, ende <rs type="person" ref="#hendricx_tanneke">Tanneke
+                    <rs type="person" ref="../register/register-person.xml#smeken_hans">Hans Smekens</rs> in houwelycke gehadt
+                    hebbende wijlen <rs type="person" ref="../register/register-person.xml#alsdorp_geertruyt">Geertruyt Van
+                    Alsdorf</rs>, ende <rs type="person" ref="../register/register-person.xml#hendricx_tanneke">Tanneke
                     Henricx</rs>, nu ter tijt zijne wettighe huysvrouwe, ende bekenden dat hij omme
                     eene somme gelts die hen al ende wel is vergouden, vercocht hebben wel ende
                     wettelyck S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>, edelman
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs>, edelman
                     vande huyse van hare doorluchtichste hoocheyt een huysken oft wooninghe metten
-                    hofken, gronde ende alle de toebehoorten gestaen ende gelegen int <rs
-                        type="place" ref="#hoplant">Hoptlandt</rs> alhier, tegens over de Lammekens
+                    hofken, gronde ende alle de toebehoorten gestaen ende gelegen int <rs type="place" ref="../register/register-place.xml#hoplant">Hoptlandt</rs> alhier, tegens over de Lammekens
                     Rame, tusschen de andere dry huyskens oft wooninghen ende erve der voors.
                     coopere van te vooren toebehoorende ende van hen comparanten in de voorleden
                         <date when="1627">Jare 16<hi rend="super">c</hi> ende sevenentwintich</date>
@@ -114,8 +112,7 @@
                     blijven halff ende half, midts betaelen by de voors. vercoopers oft henne
                     naecommelinge (als zij die zelve willen gebruycken) alleenlyck deen helft vanden
                     zelven muer, naer rechte verheyscht wordt ende voorder nyet, alles in
-                    conformiteyt vande goedenisse vande <date when="1627-07-28">28<hi rend="super"
-                            >sten</hi> July</date> lestleden, daerbij de voors. coopere, andere
+                    conformiteyt vande goedenisse vande <date when="1627-07-28">28<hi rend="super">sten</hi> July</date> lestleden, daerbij de voors. coopere, andere
                     sesse huyskens, dry op de Wapper<index indexName="stw">
                         <term xml:lang="deu">Wapper</term>
                     </index><index indexName="gsw">
@@ -125,29 +122,27 @@
                     </index> ende de voors. dry int Hoplandt neffens dit op nu vercocht huysken als
                     voore, Oostwaerts gestaen, van hen comparanten gecocht heeft, ende de notarialen
                     contracte daerinne vermelt, ende in welck vernoempde op nu vercocht huysken,
-                    mitdtsgadere inde voors. andere sesse huyskens, de voors. <date
-                        when="1627-07-28">28<hi rend="super">e</hi> July</date> lestleden bij hen
+                    mitdtsgadere inde voors. andere sesse huyskens, de voors. <date when="1627-07-28">28<hi rend="super">e</hi> July</date> lestleden bij hen
                     comparanten, als voore, vercocht ende mede oock inde voorschreven hoeckhuyse De
                     Witte Roose ende de andere huysen die hem comparanten vercooperen, als voore,
                     ’thenwaerdere behoudende blijven, geweest zijnde ’t samen elff in getaele, mette
                     hoven ende toebehoorten de vernoempde Hans Smekens ende Geertruyt van Alsdorp
                     zijne eerste huysvrouwe was, opte <date when="1606-10-14">veerthiende Octobris
                         inde Jare 16<hi rend="super">c</hi> ende sesse</date>, hij erffgevinghe van
-                        <rs type="person" ref="#meer_catlijne">Cathijne de Meere</rs> Jansdochtere
-                    wijlen, daer moeder aff was <rs type="person" ref="#valcx_anna">Anna Valcx</rs>
+                        <rs type="person" ref="../register/register-person.xml#meer_catlijne">Cathijne de Meere</rs> Jansdochtere
+                    wijlen, daer moeder aff was <rs type="person" ref="../register/register-person.xml#valcx_anna">Anna Valcx</rs>
                     ende heure consorte, inder qualiteyt zoo hij compareerde, gegoyt ende geerft
                     zijn geweest sijnde voorts alle de zelven elff huysen den voors. vercooperen
                     alleene ende int geheele blijven toebehoorende, vut crachte vande scheydinge
-                    ende deylinghe tusschen hem ende <rs type="person" ref="#smeken_elisabeth"
-                        >Elisabeth Smekens</rs>, daer moeder aff was de voors. Geertruyt van
-                    Alsdorp, met <rs type="person" ref="#lambrecht_henrick">Henrick Lambrechts</rs>
+                    ende deylinghe tusschen hem ende <rs type="person" ref="../register/register-person.xml#smeken_elisabeth">Elisabeth Smekens</rs>, daer moeder aff was de voors. Geertruyt van
+                    Alsdorp, met <rs type="person" ref="../register/register-person.xml#lambrecht_henrick">Henrick Lambrechts</rs>
                     heure man ende momboir, opte <date when="1622-02-21">21<hi rend="super">e</hi>
                         February anno 16<hi rend="super">c</hi> ende tweentwintich</date> voor
                     schepene deser stadt gepasseert, al naer luydt der brieven daeraff zijnde, als
                     wij verstonden, alzoo dat de voors. comparanten vercooperen ’t voors. huysken
                     oft wooninghe mette hoffken, gronde ende toebehoorten, gelijck voors. stadt, op
                     droeghen met verscheydene ende claerlycke quyte schonden t’allen dage des voors.
-                        <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Ruebens</rs> ende ’t
+                        <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Paulo Ruebens</rs> ende ’t
                     zijne naecommelinghe behoeff, met allen de rechte etc. te waerne etc. van alle
                     commeren ende claengiën ende op nyet daer vutgaende,</p>
                 <closer>
@@ -157,7 +152,7 @@
                 </div>
             
             <div xml:lang="nld"><p>Pantgelt beloopende vier gulden, vier stuyvers recepit </p>
-                <closer><signed><rs type="person" ref="#fabri_d">d. Fabri</rs></signed>
+                <closer><signed><rs type="person" ref="../register/register-person.xml#fabri_d">d. Fabri</rs></signed>
                     <dateline><date when="1628-06-21">21 Juny</date>.<lb/> Solutum 2 gl. 8 st.</dateline>
                 </closer>
             </div>

@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_273">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_273"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,8 +11,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="vondel_gebroeders_1650">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="vondel_gebroeders_1650">
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Wolfenbüttel</settlement>
@@ -54,7 +51,7 @@
                 <index indexName="fsw">
                     <term type="structure" target="#title_page" xml:lang="deu">Titelblatt</term>
                 </index>
-                <p rend="text-align:center"><rs type="person" ref="#vondel_joost">J. V.
+                <p rend="text-align:center"><rs type="person" ref="../register/register-person.xml#vondel_joost">J. V.
                         VONDELS</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Vondel, Joost van den</term>
                         <index indexName="fsw">
@@ -66,14 +63,11 @@
                             <term xml:lang="nld">Gebroeders</term>
                         </index>
                     </index><lb rend="line-height:120%"/> GEBROEDERS.<lb rend="line-height:120%"/>
-                        TREURSPEL.<lb rend="line-height:120%"/> Fuimus Troës.<lb
-                        rend="line-height:120%"/> t'<hi rend="smallCaps">Amsterdam</hi>:<lb
-                        rend="line-height:120%"/> Voor <rs type="person" ref="#wees_abraham">Abraham
+                        TREURSPEL.<lb rend="line-height:120%"/> Fuimus Troës.<lb rend="line-height:120%"/> t'<hi rend="smallCaps">Amsterdam</hi>:<lb rend="line-height:120%"/> Voor <rs type="person" ref="../register/register-person.xml#wees_abraham">Abraham
                         de Wees<index indexName="psw">
                             <term xml:lang="deu">Wees, Abraham de</term>
                             <index indexName="fsw">
-                                <term type="structure" target="#printer" xml:lang="deu"
-                                >Drucker</term>
+                                <term type="structure" target="#printer" xml:lang="deu">Drucker</term>
                             </index>
                         </index></rs>, Boeckverkooper op den Middeldam,<lb/> in 't Nieuwe Testament.
                         <hi rend="smallCaps">Anno</hi>
@@ -86,15 +80,12 @@
                 </index>
                 <head rend="text-align:center"><pb n="A2"/>Den zeer eerwaerdigen en
                     voortreflycken<lb/> HEERE,<lb/>
-                    <rs type="person" ref="#vossius_gerhard">GEERAERT VOSSIUS</rs><index
-                        indexName="psw">
+                    <rs type="person" ref="../register/register-person.xml#vossius_gerhard">GEERAERT VOSSIUS</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Vossius, Gerardus Joannes</term>
-                    </index>,<lb/> Kanonick der Aertsbisschoppelycke Kercke<lb/> Te <hi
-                        rend="smallCaps">
-                        <rs type="place" ref="#canterbury">Kantelbergh</rs>
+                    </index>,<lb/> Kanonick der Aertsbisschoppelycke Kercke<lb/> Te <hi rend="smallCaps">
+                        <rs type="place" ref="../register/register-place.xml#canterbury">Kantelbergh</rs>
                     </hi>. </head>
-                <p><pb n="A3r"/>Hier word ick belust om door <rs type="person"
-                        ref="#rubens_peter_paul">Rubens</rs><index indexName="psw">
+                <p><pb n="A3r"/>Hier word ick belust om door <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                     </index>, de glori der penseelen onzer eeuwe, een heerlyck en koninglyck
                     tafereel, als een treurtoneel, te stoffeeren. Hy valt aen het tekenen, or

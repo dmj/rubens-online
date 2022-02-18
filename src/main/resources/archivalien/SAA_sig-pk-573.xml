@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_154">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_154"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Jacob Jordaens wird durch den Magistrat der Stadt Antwerpen zum
-                    <term>Prodekan</term> der Lukas-Gilde ernannt (<date
-                        when="1621-09-28">28.</date></title>
+                    <term>Prodekan</term> der Lukas-Gilde ernannt (<date when="1621-09-28">28.</date></title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -22,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-pk-573">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -69,10 +67,10 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Gecommitteert ende geordonneert <rs type="person" ref="#jordaens_jacob">Jacques
+                <p>Gecommitteert ende geordonneert <rs type="person" ref="../register/register-person.xml#jordaens_jacob">Jacques
                         Jordaens</rs> te wesen Deken<index indexName="stw">
                         <term xml:lang="deu">Dekan</term>
-                    </index> van <rs type="corporate" ref="#lukasgilde_antwerpen">Sinte
+                    </index> van <rs type="corporate" ref="../register/register-corporate.xml#lukasgilde_antwerpen">Sinte
                         Lucasgulde</rs><index indexName="stw">
                         <term xml:lang="deu">Lukas-Gilde</term>
                     </index> binnen deser stadt<index indexName="gsw">

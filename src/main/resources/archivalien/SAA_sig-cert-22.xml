@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens-038">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens-038"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-cert-22">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -46,8 +45,7 @@
                     <msContents>
                         <msItem>                           
                             <note resp="A.H.">Hinweise auf diese Quelle bei <bibl>J.C. Dierckxsens: Antverpia
-                                christo nascens et crescens, Bd. 4, Antwerpen 1773, S. 352-354.<ptr
-                                    type="gbv" cRef="36254025X"/></bibl> Dort auch die Erklärung des
+                                christo nascens et crescens, Bd. 4, Antwerpen 1773, S. 352-354.<ptr type="gbv" cRef="36254025X"/></bibl> Dort auch die Erklärung des
                                 Franziskaners Jan Porthaise, daß er im Juli 1566 mit <quote>Monsieur de Roucouques
                                 [d.i. Nikolaas Rockox], ancien, riche et habile Luthérien, qui avoit esté trois
                                 fois Bourguemestre d’Anvers, item Monsieur Reubeins, premier Conseiller d’Anvers
@@ -63,14 +61,11 @@
                     <additional>
                         <listBibl>
                             <bibl>J.C. Dierckxsens: Antverpia
-                                christo nascens et crescens, Bd. 4, Antwerpen 1773, S. 352-354.<ptr
-                                    type="gbv" cRef="36254025X"/></bibl>
+                                christo nascens et crescens, Bd. 4, Antwerpen 1773, S. 352-354.<ptr type="gbv" cRef="36254025X"/></bibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 135 u. 200<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 135 u. 200<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
-                                Schilderschool. Antwerpen 1883, S. 361f.<ptr type="gbv" cRef="194552292"
-                                /></bibl>
+                                Schilderschool. Antwerpen 1883, S. 361f.<ptr type="gbv" cRef="194552292"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -89,23 +84,17 @@
         <body>
             <div xml:lang="nld">
                 <p> Ten versuecke van M<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_jan">Jan Ruebens</rs> doctor in rechten. <rs
-                        type="person" ref="#schoonhoven_jan">Jan van Schoonhoven</rs> ridder deser
-                    stadt buytenborgermeester, heer <rs type="person" ref="#ursele_lanceloot"
-                        >Lanceloot van Ursele</rs>, heer <rs type="person" ref="#werve_jan">Jan
-                        vanden Werve</rs>, heer <rs type="person" ref="#heyden_jacob">Jacob van der
-                        Heyden</rs> oock alle <del rend="overstrike">same</del> ridders, <rs
-                        type="person" ref="#ranst_mertten">Mertten van Ranst</rs>, M<hi rend="super">r</hi>
-                    <rs type="person" ref="#cygny_gelein">Gelein de le Cygny</rs> ende M<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#mansdale_anton">Anton van Mansdale</rs> alle <del
-                        rend="overstrike">scepenen</del> onse medescepenen, M<hi rend="super">rs</hi>
-                    <rs type="person" ref="#asseliers_jan">Jan van Asseliers</rs> ende <rs
-                        type="person" ref="#moy_hendrick">Henrick de Moy</rs> beyde deser stadt
+                    <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebens</rs> doctor in rechten. <rs type="person" ref="../register/register-person.xml#schoonhoven_jan">Jan van Schoonhoven</rs> ridder deser
+                    stadt buytenborgermeester, heer <rs type="person" ref="../register/register-person.xml#ursele_lanceloot">Lanceloot van Ursele</rs>, heer <rs type="person" ref="../register/register-person.xml#werve_jan">Jan
+                        vanden Werve</rs>, heer <rs type="person" ref="../register/register-person.xml#heyden_jacob">Jacob van der
+                        Heyden</rs> oock alle <del rend="overstrike">same</del> ridders, <rs type="person" ref="../register/register-person.xml#ranst_mertten">Mertten van Ranst</rs>, M<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#cygny_gelein">Gelein de le Cygny</rs> ende M<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#mansdale_anton">Anton van Mansdale</rs> alle <del rend="overstrike">scepenen</del> onse medescepenen, M<hi rend="super">rs</hi>
+                    <rs type="person" ref="../register/register-person.xml#asseliers_jan">Jan van Asseliers</rs> ende <rs type="person" ref="../register/register-person.xml#moy_hendrick">Henrick de Moy</rs> beyde deser stadt
                     secretaris. Ende hebben byden eede die zij respective tot henlieden offitien
                     gedaen hebben verclaert ende geaffirmeert, verclaeren ende affirmeeren mits
                     desen warachtich ende gekende te syne dat de voirs. M<hi rend="super">r</hi> Jan
-                    Ruebens by nuen deser stadt van <rs type="place" ref="#antwerpen">Antwerpen</rs>
+                    Ruebens by nuen deser stadt van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs>
                     sekere jaeren heeft gedient als scepene ende een van de weth geweest. Ende dat
                     hy hen int bedienen van dien eerlick gedragen heeft, ymmers dat zij anders nyet
                     en weten. Ende gelyck alhier de costuymen van doene is, dat de gedeputeerden

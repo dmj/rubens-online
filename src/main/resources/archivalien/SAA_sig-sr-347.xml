@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_042">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_042"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-347">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -69,34 +68,20 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Jouffrouwe <rs type="person" ref="#lantmeter_catlijne">Catlijne Lantmeters</rs>,
-                        <rs type="person" ref="#lantmeter_jan">Jans</rs> dochtere wijlen vanden
-                    eersten bedde, daer moeder af was jouffrouwe <rs type="person"
-                        ref="#vervloet_catlijne">Catlijne Vervloet</rs>, wettighe huysvrouwe <rs
-                        type="person" ref="#mockenborch_jan">Jans van Mokenborch</rs>, coopman, met
+                <p> Jouffrouwe <rs type="person" ref="../register/register-person.xml#lantmeter_catlijne">Catlijne Lantmeters</rs>,
+                        <rs type="person" ref="../register/register-person.xml#lantmeter_jan">Jans</rs> dochtere wijlen vanden
+                    eersten bedde, daer moeder af was jouffrouwe <rs type="person" ref="../register/register-person.xml#vervloet_catlijne">Catlijne Vervloet</rs>, wettighe huysvrouwe <rs type="person" ref="../register/register-person.xml#mockenborch_jan">Jans van Mokenborch</rs>, coopman, met
                     eenen vrempden momboire haar gegeven metten rechte, bij consente des voors.
                     haers mans ende omme tgene nabescreven wordt volcommelick ende onwederoepelicken
                     gemechticht vanden zelven haren manne, breeder blijckende bij sekere procuratie
                     opten <date when="--08-04">IIII<hi rend="super">en</hi> deser maent Augusti</date>
-                    voor <rs type="person" ref="#eynde_bartholomaeus">Bartholomaeus van Eynde</rs>,
-                    woonende tot <rs type="place" ref="#mechelen">Mechelen</rs>, als Notaris, ende
-                    sekere getuygen, quam vidimus, ex I<hi rend="super">a</hi>, <rs type="person"
-                        ref="#lantmeter_philipp">Philips de Lantmetere</rs>, oick des voirs. wijlen
-                    Jans sone vanden tweeden bedde, daer moeder af was jouffrouwe <rs type="person"
-                        ref="#arens_barbara">Barbara Arens</rs> die men hiet Spierincx, ex II<hi
-                        rend="super">a</hi>, jouffrouwe <rs type="person" ref="#lantmeter_barbara"
-                        >Barbara Lantmeters</rs>, weduwe wijlen <rs type="person"
-                        ref="#mannarts_melchior">Melchiors Mannarts</rs>, cum tutore, ex III<hi
-                        rend="super">a</hi>, jouffrouwe <rs type="person" ref="#lantmeter_jaquelijne"
-                        >Jaquelijne Lantmeters</rs> met <rs type="person" ref="#sorck_henrick"
-                        >Henricke van Sorck</rs>, ejus marito et tutore, ex IIII<hi rend="super"
-                    >a</hi>, beyde oick des voors. wijlen Jans dochteren vanden tweeden bedde, daer
-                    moeder af was de voors. wijlen jouffrouwe <rs type="person" ref="#arens_barbara"
-                        >Barbara Ahrens</rs>, ende <rs type="person" ref="#pypelincx_hendrick"
-                        >Henrick Pypelinck</rs>, als grootvader vanden wettigen kinderen jouffrouwe
-                        <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, zijnre
-                    dochtere, gheinstitueerde erfgenamen vanden voors. wijlen <rs type="person"
-                        ref="#lantmeter_jan">Jan Lantmeters</rs> ende Barbara Ahrens, quos suscepit,
+                    voor <rs type="person" ref="../register/register-person.xml#eynde_bartholomaeus">Bartholomaeus van Eynde</rs>,
+                    woonende tot <rs type="place" ref="../register/register-place.xml#mechelen">Mechelen</rs>, als Notaris, ende
+                    sekere getuygen, quam vidimus, ex I<hi rend="super">a</hi>, <rs type="person" ref="../register/register-person.xml#lantmeter_philipp">Philips de Lantmetere</rs>, oick des voirs. wijlen
+                    Jans sone vanden tweeden bedde, daer moeder af was jouffrouwe <rs type="person" ref="../register/register-person.xml#arens_barbara">Barbara Arens</rs> die men hiet Spierincx, ex II<hi rend="super">a</hi>, jouffrouwe <rs type="person" ref="../register/register-person.xml#lantmeter_barbara">Barbara Lantmeters</rs>, weduwe wijlen <rs type="person" ref="../register/register-person.xml#mannarts_melchior">Melchiors Mannarts</rs>, cum tutore, ex III<hi rend="super">a</hi>, jouffrouwe <rs type="person" ref="../register/register-person.xml#lantmeter_jaquelijne">Jaquelijne Lantmeters</rs> met <rs type="person" ref="../register/register-person.xml#sorck_henrick">Henricke van Sorck</rs>, ejus marito et tutore, ex IIII<hi rend="super">a</hi>, beyde oick des voors. wijlen Jans dochteren vanden tweeden bedde, daer
+                    moeder af was de voors. wijlen jouffrouwe <rs type="person" ref="../register/register-person.xml#arens_barbara">Barbara Ahrens</rs>, ende <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henrick Pypelinck</rs>, als grootvader vanden wettigen kinderen jouffrouwe
+                        <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs>, zijnre
+                    dochtere, gheinstitueerde erfgenamen vanden voors. wijlen <rs type="person" ref="../register/register-person.xml#lantmeter_jan">Jan Lantmeters</rs> ende Barbara Ahrens, quos suscepit,
                     hem daervore sterckmakende, ende in dijer qualityt inde V<hi rend="super">e</hi>
                     partije, bekenden ende verclaerden dat zij, naer voorgaende lotinghe ende
                     cavelinghe geschiet opten <date when="--05-17">XVII<hi rend="super">en</hi>
@@ -110,132 +95,86 @@
                     goeden, daeraf is der voors. Jouffrouwe Catlijne Lantmeters te deele bevallen
                     ende sal hebben ende behouden voor haer ende haren nacommelinghen, inden
                     eersten, een rente van twelf guldenen, vijf stuvers, twee ende een halve grooten
-                    brabants erffelick (metten achterstelle van <measure type="currency"
-                        quantity="18">XVIII</measure> guldenen ende <measure type="currency"
-                        quantity="9">IX</measure> stuvers eens Sint-Jansmisse, anno <date
-                        when="1575">LXXV</date> lestleden, daeraf verschenen,) (alhier gerekent
+                    brabants erffelick (metten achterstelle van <measure type="currency" quantity="18">XVIII</measure> guldenen ende <measure type="currency" quantity="9">IX</measure> stuvers eens Sint-Jansmisse, anno <date when="1575">LXXV</date> lestleden, daeraf verschenen,) (alhier gerekent
                     wordende tegens den penninck <num type="ordinal" value="20">XX</num>, hoewel
-                    deselve te quytene staet tegens de penninck <num type="ordinal" value="24"
-                        >XXIIII</num>, volgende sekere scheydinge ende deylinge tusschen den
-                    kinderen wijlen <rs type="person" ref="#arens_lambrecht">Lambrecht Arens</rs>,
+                    deselve te quytene staet tegens de penninck <num type="ordinal" value="24">XXIIII</num>, volgende sekere scheydinge ende deylinge tusschen den
+                    kinderen wijlen <rs type="person" ref="../register/register-person.xml#arens_lambrecht">Lambrecht Arens</rs>,
                     die men heet Spierincx, voor Schepenen dezer stadt opten <date when="1527-10-03">
                         III<hi rend="super">en</hi> Octobris anno XV<hi rend="super">e</hi>
                     XXVII</date> gepasseert ende die men, jaerlicx heffende is opde goeden van
-                    jouffrouwe <rs type="person" ref="#heyst_marie">Marie</rs> ende <rs
-                        type="person" ref="#heyst_michiels">Michiels van Heyst</rs>, gelegen tot <rs
-                        type="place" ref="#zandhoven">Santhoven</rs>, verschijnende jaerlicx te
+                    jouffrouwe <rs type="person" ref="../register/register-person.xml#heyst_marie">Marie</rs> ende <rs type="person" ref="../register/register-person.xml#heyst_michiels">Michiels van Heyst</rs>, gelegen tot <rs type="place" ref="../register/register-place.xml#zandhoven">Santhoven</rs>, verschijnende jaerlicx te
                     Kersmisse. Item, noch die drij ponden Brabants erffelick metten twelf gulden
                     achterstels Sint-Jansmisse anno <date when="1575">LXXV</date> lestleden daeraf
-                    verloopen ende verschenen, ter quytinge staende tegens den penninck <num
-                        type="ordinal" value="16">XVI<hi rend="super">e</hi></num>, die men jaerlicx
+                    verloopen ende verschenen, ter quytinge staende tegens den penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num>, die men jaerlicx
                     Johannis heffende is op twee cameren cum fundo et pertinentiis, gestaen ende
-                    gelegen inde strate vande Legvuyte, tusschen <rs type="person" ref="#houte_jan"
-                        >Jans van Houte</rs> erve, aen deen zijde, ende <rs type="person"
-                        ref="#werve_jan_vanden">Jans vanden Werve</rs> erve, es altera, ende die <rs
-                        type="person" ref="#wouters_marie">Marie Wouters</rs> opten <date
-                        when="1534-12-16">XVI<hi rend="super">en</hi> Decembris anno XXXIIII</date>
+                    gelegen inde strate vande Legvuyte, tusschen <rs type="person" ref="../register/register-person.xml#houte_jan">Jans van Houte</rs> erve, aen deen zijde, ende <rs type="person" ref="../register/register-person.xml#werve_jan_vanden">Jans vanden Werve</rs> erve, es altera, ende die <rs type="person" ref="../register/register-person.xml#wouters_marie">Marie Wouters</rs> opten <date when="1534-12-16">XVI<hi rend="super">en</hi> Decembris anno XXXIIII</date>
                     lestleden den voors. wijlen Jan de Lantmeter overgegeven ende getransporteert
                     heeft. Item, noch een rente van zesse Carolus guldenen erffeliek ter quytinge
-                    staende tegens den penninck <num type="ordinal" value="16">XVI<hi rend="super"
-                        >e</hi></num>, metten <measure type="currency" quantity="18">XVIII</measure>
+                    staende tegens den penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num>, metten <measure type="currency" quantity="18">XVIII</measure>
                     guldenen eens achterstels Sint-Jansmisse anno <date when="1575">LXXV</date>
                     lestleden daeraf verschenen, die men jaerlicx te Kersmisse hebbende is inde
                         <measure type="currency" quantity="59">LIX</measure> Carolus guldenen
                     tsjaers erffelijcker renten op eenre wooninge eenaempt den Witten Sleutel,
-                    gestaen bijde Coepoorte. Item, noch <measure type="currency" quantity="37"
-                        >XXXVII</measure> guldenen, <measure type="currency" quantity="10"
-                    >X</measure> stuvers erfelick vande een hondert vijftich Carolus guldenen
-                    erffelick, ter quytinge staende tegens den penninck <num type="ordinal"
-                        value="16">XVI<hi rend="super">e</hi></num>, die men jaerlicx deen helft den
+                    gestaen bijde Coepoorte. Item, noch <measure type="currency" quantity="37">XXXVII</measure> guldenen, <measure type="currency" quantity="10">X</measure> stuvers erfelick vande een hondert vijftich Carolus guldenen
+                    erffelick, ter quytinge staende tegens den penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num>, die men jaerlicx deen helft den
                         <date when="--07-15">XV<hi rend="super">en</hi> Julij</date> ende dander helft
                     den <date when="--01-15">XV<hi rend="super">en</hi> Januarij</date> heffende is
-                    opte Staten ’sLants van <rs type="place" ref="#brabant">Brabant</rs>, ende die
-                    jouffrouwe <rs type="person" ref="#boubert_elizabeth">Elizabeth de Boubert alias
+                    opte Staten ’sLants van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs>, ende die
+                    jouffrouwe <rs type="person" ref="../register/register-person.xml#boubert_elizabeth">Elizabeth de Boubert alias
                         Pargamont</rs> opten <date when="1553-08-04">IIII<hi rend="super">en</hi>
                         Augusti anno XV<hi rend="super">c</hi>LIII</date> den voors. wijlen Jan de
-                    Lantmetere vercocht ende overgegeven heeft. Item, noch die <measure
-                        type="currency" quantity="18">XVIII</measure> guldenen <measure
-                        type="currency" quantity="15">XV</measure> stuvers eens vande <measure
-                        type="currency" quantity="75">LXXV</measure> guldenen eens, die den <date
-                        when="1575-07-15">XV<hi rend="super">en</hi> Julij anno LXXV</date> lestleden
+                    Lantmetere vercocht ende overgegeven heeft. Item, noch die <measure type="currency" quantity="18">XVIII</measure> guldenen <measure type="currency" quantity="15">XV</measure> stuvers eens vande <measure type="currency" quantity="75">LXXV</measure> guldenen eens, die den <date when="1575-07-15">XV<hi rend="super">en</hi> Julij anno LXXV</date> lestleden
                     daeraf verloopen ende verschenen zijn. Item, noch het vijfde paert vande
-                        <measure type="currency" quantity="18">XVIII</measure> guldenen, <measure
-                        type="currency" quantity="15">XV</measure> stuvers erffelick, ter quytinghe
-                    staende tegens den penninck <num type="ordinal" value="16">XVI<hi rend="super"
-                        >e</hi></num>, metten achterstelle daeraf verloopen ende verschenen, die men
+                        <measure type="currency" quantity="18">XVIII</measure> guldenen, <measure type="currency" quantity="15">XV</measure> stuvers erffelick, ter quytinghe
+                    staende tegens den penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num>, metten achterstelle daeraf verloopen ende verschenen, die men
                     jaerlicx den lesten Augusti heffende is opde Domeynen ’sLants van Brabant. Item
                     noch het vijfde paert vande vierentsestich Carolus guldenen erffelick, metten
-                    achterstelle daeraf verloopen, ter quytinge staende tegens den penninck <num
-                        type="ordinal" value="16">XVI<hi rend="super">e</hi></num>, die
-                    Burgermeesteren, Schepenen ende Rade dezer stadt opten <date when="1549-06-25"
-                            >XXV<hi rend="super">en</hi> Junij anno XLIX</date> den voors. wijlen <rs
-                        type="person" ref="#lantmeter_jan">Janne de Lantmetere</rs> vercocht hebben
+                    achterstelle daeraf verloopen, ter quytinge staende tegens den penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num>, die
+                    Burgermeesteren, Schepenen ende Rade dezer stadt opten <date when="1549-06-25">XXV<hi rend="super">en</hi> Junij anno XLIX</date> den voors. wijlen <rs type="person" ref="../register/register-person.xml#lantmeter_jan">Janne de Lantmetere</rs> vercocht hebben
                     opder zelver stadt, heure ende der gemeynre ingesetene goeden derselver. Item,
                     noch het vijfde paert vande hondert Carolus guldenen erffelick, metten
-                    achterstelle daeraf verschenen, ter quytinghe staende tegens den penninck <num
-                        type="ordinal" value="12">XII<hi rend="super">e</hi></num>, die
-                    Burgermeesteren, Schepenen ende Raedt voorgenoempt opten eersten <date
-                        when="1555-04">Aprilis anno XV<hi rend="super">c</hi>LV</date> den voors.
+                    achterstelle daeraf verschenen, ter quytinghe staende tegens den penninck <num type="ordinal" value="12">XII<hi rend="super">e</hi></num>, die
+                    Burgermeesteren, Schepenen ende Raedt voorgenoempt opten eersten <date when="1555-04">Aprilis anno XV<hi rend="super">c</hi>LV</date> den voors.
                     wijlen janne de Lantmetere vercocht hebben opder zelver stadt, heure ende der
                     gemeynre ingesetene goeden derzelver, verschijnende jaerlicx deen helft den
                     <date when="--10-01">eersten Octobris</date> ende dander helft den <date when="--04-01">eersten Aprilis</date>. Item, noch een hoeve
                     metten steenen huyse dwelck een vuytspanninge ende herberge is, metten stallen,
                     schuere, hove, lande, heyde, weyde, bossche, fundo et pertinentiis, groot tsamen
-                    omtrent veerthien buynderen, gestaen ende gelegen onder <rs type="place"
-                        ref="#schilde">tSchilde</rs>, <rs type="place" ref="#wezel">Wezele</rs> ende
-                        <rs type="place" ref="#wijnegem">Wijneghem</rs>, in diverse parcheelen,
+                    omtrent veerthien buynderen, gestaen ende gelegen onder <rs type="place" ref="../register/register-place.xml#schilde">tSchilde</rs>, <rs type="place" ref="../register/register-place.xml#wezel">Wezele</rs> ende
+                        <rs type="place" ref="../register/register-place.xml#wijnegem">Wijneghem</rs>, in diverse parcheelen,
                     ghelijck de voors. wijlen Jan de Lantmetere deselve opten <sic>
-                        <date when="1659-08-06">VI<hi rend="super">en</hi> Augusti anno XVI<hi
-                                rend="super">c</hi>LIX</date>
+                        <date when="1659-08-06">VI<hi rend="super">en</hi> Augusti anno XVI<hi rend="super">c</hi>LIX</date>
                         <note>Jahreszahl kann nicht stimmen</note></sic> gecocht heeft, waeraf het lant, 
                     volgende den bescheede daeraf zijnde,
-                    geestimeert is op derthien hondert ende <measure type="currency" quantity="22"
-                        >XXII</measure> guldenen, ende de voors. huysinge op drij hondert guldenen
-                    eens, maeckende tsamen <measure type="currency" quantity="1622">XVI<hi
-                            rend="super">c</hi>XXII</measure> guldenen eens, waerane gecort den
-                    commere nabescreven, namelick <measure type="currency" quantity="16"
-                    >XVI</measure> schellingen Tournoisen erffelick, daer men jaerlicx vore betaelt
+                    geestimeert is op derthien hondert ende <measure type="currency" quantity="22">XXII</measure> guldenen, ende de voors. huysinge op drij hondert guldenen
+                    eens, maeckende tsamen <measure type="currency" quantity="1622">XVI<hi rend="super">c</hi>XXII</measure> guldenen eens, waerane gecort den
+                    commere nabescreven, namelick <measure type="currency" quantity="16">XVI</measure> schellingen Tournoisen erffelick, daer men jaerlicx vore betaelt
                         <measure type="currency" quantity="12">XII</measure> stuvers der kercken,
-                    prochiaenschape ende der capellanen tot Schilde voors. Item, <measure
-                        type="currency" quantity="8">VIII</measure> schellingen Tournoisen
+                    prochiaenschape ende der capellanen tot Schilde voors. Item, <measure type="currency" quantity="8">VIII</measure> schellingen Tournoisen
                     erffelick, daer men jaerlicx vore betaelt sesse stuvers, der kercken tot
                     Wijneghem, den prochiaen, capellaen ende den Heyligen Geest aldaer. Item,
                         <measure type="currency" quantity="12">XII</measure> hoenderen drij
                     schellingen Tournoise ende <measure type="currency" quantity="30">XXX</measure>
                     stuvers erffelick, daer men jaerlicx vore betaelt twee Carolus guldenen, twelff
                     stuvers, een half ende <measure type="currency" quantity="6">VI</measure> mijten
-                    Brabants, den godshuyse van <rs type="place" ref="#affligem">Aflegem</rs>. Item,
+                    Brabants, den godshuyse van <rs type="place" ref="../register/register-place.xml#affligem">Aflegem</rs>. Item,
                     thien schellingen Lovens ende twee hinnen erffelick, daer men jaerlicx vore
-                    betaelt <measure type="currency" quantity="27">XXVII</measure> stuvers <rs
-                        type="person" ref="#lantmeter_cornelis">Cornelisen</rs> Jans sone, maeckende
-                    tsamen in gelde vier gulden <measure type="currency" quantity="17"
-                    >XVII</measure> stuvers eenen halven ende sesse mijten. Item, vijf veertelen
-                    ende een moecken rogx erffelick <rs type="person" ref="#reyns_margriete"
-                        >Margriete Reyns</rs>, dewelcke tot <measure type="currency" quantity="20"
-                        >XX</measure> stuvers de veertele rekenende ende oick den penninck <num
-                        type="ordinal" value="24">XXIIII<hi rend="super">e</hi></num>, gemerct die
+                    betaelt <measure type="currency" quantity="27">XXVII</measure> stuvers <rs type="person" ref="../register/register-person.xml#lantmeter_cornelis">Cornelisen</rs> Jans sone, maeckende
+                    tsamen in gelde vier gulden <measure type="currency" quantity="17">XVII</measure> stuvers eenen halven ende sesse mijten. Item, vijf veertelen
+                    ende een moecken rogx erffelick <rs type="person" ref="../register/register-person.xml#reyns_margriete">Margriete Reyns</rs>, dewelcke tot <measure type="currency" quantity="20">XX</measure> stuvers de veertele rekenende ende oick den penninck <num type="ordinal" value="24">XXIIII<hi rend="super">e</hi></num>, gemerct die
                     onquytbaer zijn, beloopende tzamen thien guldenen twee stuvers ende eenen halven
                     ende <measure type="currency" quantity="6">VI</measure> mijten ontquytbaer
-                    renten tegens den penninek <measure type="currency" quantity="24"
-                    >XXIIII</measure> ter quytinge staende, soo bedraecht de bate vander zelver
-                    hoeven de somme van <measure type="currency" quantity="1378">XIII<hi rend="super"
-                            >c</hi>LXXVIII</measure> gulden <measure type="currency" quantity="18"
-                        >XVIII</measure> stuvers eens, die bij hun comparanten gesamenderhant
-                    geredresseert zijn op <measure type="currency" quantity="1200">XII<hi rend="super"
-                            >c</hi></measure> guldenen eens. Item, noch den pacht vander zelver
+                    renten tegens den penninek <measure type="currency" quantity="24">XXIIII</measure> ter quytinge staende, soo bedraecht de bate vander zelver
+                    hoeven de somme van <measure type="currency" quantity="1378">XIII<hi rend="super">c</hi>LXXVIII</measure> gulden <measure type="currency" quantity="18">XVIII</measure> stuvers eens, die bij hun comparanten gesamenderhant
+                    geredresseert zijn op <measure type="currency" quantity="1200">XII<hi rend="super">c</hi></measure> guldenen eens. Item, noch den pacht vander zelver
                     hoeven verschenen Sint Jansmisse anno <date when="1575">LXXV</date> lestleden,
-                    bedragende, zoo in gelde als in rogge, de veertele tot <measure type="currency"
-                        quantity="20">XX</measure> stuvers gerekent, de somme van hondert <measure
-                        type="currency" quantity="43">XLIII</measure> guldenen eens. Item, noch een
-                    huys cum fundo et pertinentiis gequoteert N<hi rend="super">o</hi> V<hi rend="super"
-                        >o</hi> vande vijf huysen gestaen buyten de Kipdorppoorte alhier,
-                    geestimeert wesende op <measure type="currency" quantity="496">IIII<hi
-                            rend="super">c</hi>XCVI</measure> guldenen eens ende dat metten hueren
+                    bedragende, zoo in gelde als in rogge, de veertele tot <measure type="currency" quantity="20">XX</measure> stuvers gerekent, de somme van hondert <measure type="currency" quantity="43">XLIII</measure> guldenen eens. Item, noch een
+                    huys cum fundo et pertinentiis gequoteert N<hi rend="super">o</hi> V<hi rend="super">o</hi> vande vijf huysen gestaen buyten de Kipdorppoorte alhier,
+                    geestimeert wesende op <measure type="currency" quantity="496">IIII<hi rend="super">c</hi>XCVI</measure> guldenen eens ende dat metten hueren
                     tsedert tSint Jansmisse anno <date when="1575">LXXV</date> daeraf verschenen.
                     Item, noch een huys cum fundo et pertinentiis eenaempt het Tweede Gebot gestaen
                     ende gelegen <gap reason="illegible"/> geschat wesende <gap reason="illegible"/>
-                    op nyet daer jaerlicx vuytgaende anders dan medepant over hondert <measure
-                        type="currency" quantity="67">LXVII</measure> guldenen vier stuvers
+                    op nyet daer jaerlicx vuytgaende anders dan medepant over hondert <measure type="currency" quantity="67">LXVII</measure> guldenen vier stuvers
                     erffelick den Capittele tOnser Vrouwen<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Antwerpen</term><index indexName="stw"><term xml:lang="deu">Liebfrauenkathedrale</term></index>
                     </index> alhier, die men jaerlicx gelden ende betaelen moet vuyten anderen
@@ -244,25 +183,20 @@
                     een vierendeel jaers hueren Sint Jansmisse anno <date when="1575">LXXV</date>
                     daeraf verschenen. Item, noch een huys cum fundo et pertinentiis, geheeten
                     Lubeeck, metter hueren tsedert Joannis anno <date when="1575">LXXV</date> daeraf
-                    verschenen, gestaen ende gelegen opten Goddart alhier, tusschen <rs
-                        type="person" ref="#simon_peeter">Peeter Simons</rs> huys ende erve aen deen
+                    verschenen, gestaen ende gelegen opten Goddart alhier, tusschen <rs type="person" ref="../register/register-person.xml#simon_peeter">Peeter Simons</rs> huys ende erve aen deen
                     zijde ende thuys geheelen dYseren Vercken aen dander zijde, welck huys de voors.
                     wijlen Jan de Lantmetere opden elfsten Meerte anno <date when="1569">LXIX</date>
-                    lestleden gecocht ende terve eenomen heeft van <rs type="person"
-                        ref="#lemmens_franchois">Franchois van Lemmens</rs> ende <rs type="person"
-                        ref="#bacquelerot_clara">Clara de Bacquelerot</rs>, sijnen wijve,
+                    lestleden gecocht ende terve eenomen heeft van <rs type="person" ref="../register/register-person.xml#lemmens_franchois">Franchois van Lemmens</rs> ende <rs type="person" ref="../register/register-person.xml#bacquelerot_clara">Clara de Bacquelerot</rs>, sijnen wijve,
                     geestimeert zijnde op hondert tachtenlich guldenen erffelick, daerane
-                    afgetrocken ierst vijftich guldenen erffelick <rs type="person"
-                        ref="#verpoopten_steven">Steven Verpoopten</rs>, seepsieder, oft actie
-                    hebbende, ende noch vijftich guldenen erffelick jouffrouwe <rs type="person"
-                        ref="#eeckeren_cornelia">Cornelia van Eeckeren</rs> jaerlicx vuyten voors.
+                    afgetrocken ierst vijftich guldenen erffelick <rs type="person" ref="../register/register-person.xml#verpoopten_steven">Steven Verpoopten</rs>, seepsieder, oft actie
+                    hebbende, ende noch vijftich guldenen erffelick jouffrouwe <rs type="person" ref="../register/register-person.xml#eeckeren_cornelia">Cornelia van Eeckeren</rs> jaerlicx vuyten voors.
                     huyse gaende, zoo bedraecht alnoch de bate vanden zelven huyse tachtentich
                     guldenen erffelick, die bij hun comparanten gedresseert zijn op zestich guldenen
                     erffelick. Item, noch de helft van sestien veertelen haveren erffelick metten
                     vier veertelen tot <measure type="currency" quantity="20">XX</measure> stuvers
                     de veertele achterstels tSint Jansmisse anno <date when="1575">LXXV</date>
                     daeraf verschenen, die men jaerlicx te Kersmisse heffende is opde goeden ende
-                    gronden van erven gelegen <rs type="place" ref="#sint_wilboorts">Sint
+                    gronden van erven gelegen <rs type="place" ref="../register/register-place.xml#sint_wilboorts">Sint
                     Wilboorts</rs>, toebehoorende der pastorijen aldaer, geestimeert zijnde, mits
                     deselve rente nyet quytbaer en is, op tachtentich guldenen eens. Item, noch die
                     derthien guldenen <measure type="currency" quantity="16">XVI</measure> stuvers
@@ -270,28 +204,22 @@
                     vuyt heurer cavelinge geloeft heeft vuyt te reycken. Item, noch die vier
                     guldenen <measure type="currency" quantity="11.5">XI½</measure> stuvers eens die
                     de voors. Philips de Lantmetere haer hiernae oick vuyt sijnder cavelinghe
-                    geloeft heeft te betalen, ende daertoe noch die <measure type="currency"
-                        quantity="24">XXIIII</measure> guldenen <measure type="currency"
-                        quantity="12.5">XII½</measure> stuyers eens die den voors. kinderen
+                    geloeft heeft te betalen, ende daertoe noch die <measure type="currency" quantity="24">XXIIII</measure> guldenen <measure type="currency" quantity="12.5">XII½</measure> stuyers eens die den voors. kinderen
                     jouffrouwe Marie Pypelincx hierna te veele bewezen zijn. Item, den voors.
                     Philipsen de Lantmetere is daertegens te deele bevallen ende sal hebben ende
                     behouden pro se et suis ierst, die sessendertich Carolus guldenen erffelick
-                    metten negen guldenen achterstels Sint Jansmisse anno <date when="1575"
-                    >LXXV</date> daeraf verschenen die <rs type="person" ref="#oost_reynier">Reynier
+                    metten negen guldenen achterstels Sint Jansmisse anno <date when="1575">LXXV</date> daeraf verschenen die <rs type="person" ref="../register/register-person.xml#oost_reynier">Reynier
                         van Oost</rs> opten <date when="1555-09-10">X<hi rend="super">en</hi>
                         Septembris anno XV<hi rend="super">c</hi>LV</date> den voors. wijlen Jan de
                     Lantmeter vercocht heeft op een huys cum fundo et pertinentiis, geheeten den
                     Gouden Gulden gestaen opte Catlijneveste alhier. Item, noch een rente van
-                        <measure type="currency" quantity="37">XXXVII</measure> guldenen <measure
-                        type="currency" quantity="10">X</measure> stuvers erffelick ter quytinge
-                    staende tegens den penninck <num type="ordinal" value="16">XVI<hi rend="super"
-                        >e</hi></num> metten <measure type="currency" quantity="18">XVIII</measure>
+                        <measure type="currency" quantity="37">XXXVII</measure> guldenen <measure type="currency" quantity="10">X</measure> stuvers erffelick ter quytinge
+                    staende tegens den penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num> metten <measure type="currency" quantity="18">XVIII</measure>
                     guldenen <measure type="currency" quantity="15">XV</measure> stuvers eens
                     achterstels Sint Jansmisse anno <date when="1575">LXXV</date> daeraf verschenen,
                     die men jaerlicx deen helft den I<hi rend="super">en</hi> Januarij ende dan der
                     helft den eersten Julij heffende is opde drij Staten ’sLants van Brabant in eene
-                    rente van vijf hondert Carolus guldenen ende die <rs type="person"
-                        ref="#cordes_josijne">Josijne de Cordes</rs> den voors. wijlen Janne
+                    rente van vijf hondert Carolus guldenen ende die <rs type="person" ref="../register/register-person.xml#cordes_josijne">Josijne de Cordes</rs> den voors. wijlen Janne
                     Lantmetere opten <date when="1551-12-22">XXII<hi rend="super">en</hi> Decembris
                         anno LI</date> voor Schepenen dezer stadt overgegeven ende getransporteert
                     heeft. Item, noch het vijfde paert vanden voors. achtien guldenen,
@@ -299,112 +227,80 @@
                     achterstelle daeraf verloopen ende verschenen, daeraf der voors. Jouffrouwe
                     Catlijne Lantmeters hiervoren gelijcke vijfde paert te deele bevallen ende
                     bewesen is. Item, noch een huys metten hove, gronde ende toebehoorten, gestaen
-                    ende gelegen tot <rs type="place" ref="#wilrijk">Wilrijck</rs> aende Biest,
+                    ende gelegen tot <rs type="place" ref="../register/register-place.xml#wilrijk">Wilrijck</rs> aende Biest,
                     groot al tsamen eenentachtentich roeden, geschat wesende op tachtentich Carolus
                     guldenen erffelijck, daerane afgecort eenen schelinck Brabants den godshuyse van
-                        <rs type="corporate" ref="#antwerpen_abtei_st_michiels">Sinte Michiels</rs>
+                        <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Sinte Michiels</rs>
                     alhier te chijse ende eenen schellinck seven ende eenen halven grooten Brabants
-                    erffelick der kercken tot Wilrijck, die tegens den penninck <num type="ordinal"
-                        value="24">XXIIII</num> gherekent, zoo compt de bate vanden selven huyse te
-                    bedragen de somme van <measure type="currency" quantity="1267">XII<hi rend="super"
-                            >c</hi>LXVII</measure> guldenen <measure type="currency" quantity="8"
-                        >VIII</measure> stuvers eens, die bij hen, comparanten, geredresseert zijn
+                    erffelick der kercken tot Wilrijck, die tegens den penninck <num type="ordinal" value="24">XXIIII</num> gherekent, zoo compt de bate vanden selven huyse te
+                    bedragen de somme van <measure type="currency" quantity="1267">XII<hi rend="super">c</hi>LXVII</measure> guldenen <measure type="currency" quantity="8">VIII</measure> stuvers eens, die bij hen, comparanten, geredresseert zijn
                     ter sommen van thien hondert Carolus guldenen eens. Item, noch eenen bosch
                     beplant met eycken abeelen, gronde ende allen den toebehoorten, groot,
                     navolgende der metinge daeraf gedaen, zeven hondert eenentseventich roeden,
                     gelegen binnen der prochie van Wilrijcke opte Hooge Heyde int Verlaer, tusschen
-                        <rs type="person" ref="#flie_peeter">Peeters de la Flie</rs> erve aen deen
-                    zijde ende <rs type="person" ref="#pape_laureys">Laureys de Pape</rs> erve aen
+                        <rs type="person" ref="../register/register-person.xml#flie_peeter">Peeters de la Flie</rs> erve aen deen
+                    zijde ende <rs type="person" ref="../register/register-person.xml#pape_laureys">Laureys de Pape</rs> erve aen
                     dander zijde, commende zuytwaerts aen ’sHeeren strate, welcken bosch de voors.
                     wijlen Jan de Lantmetere opten <date when="1553-08-11">XI<hi rend="super">en</hi>
                         Augusti anno XV<hi rend="super">c</hi>LIII</date> voor Schepenen deser stadt
-                    gecocht ende gecregen heeft tegens <rs type="person" ref="#locke_cornelia"
-                        >Cornleia vanden Locke</rs> met haren consorten, geestimeert zijnde op zesse
-                    hondert vijftich guldenen eens, waerane afgecort <measure type="currency"
-                        quantity="41">XLI</measure> oude grooten, daer men jaerlicx vore betaelt
+                    gecocht ende gecregen heeft tegens <rs type="person" ref="../register/register-person.xml#locke_cornelia">Cornleia vanden Locke</rs> met haren consorten, geestimeert zijnde op zesse
+                    hondert vijftich guldenen eens, waerane afgecort <measure type="currency" quantity="41">XLI</measure> oude grooten, daer men jaerlicx vore betaelt
                     thien schellingen drij grooten den Hertoge van Brabant die tegens den penninck
                         <num type="ordinal" value="24">XXIIII</num> gerekent, zoo bedraecht de bate
-                    vanden zelven bossche de somme van <measure type="currency" quantity="600">VI<hi
-                            rend="super">c</hi></measure> guldenen <measure type="currency"
-                        quantity="10">X</measure> stuvers eens, die naderhant bij hen, comparanten,
-                    oick geredresseert zijn op <measure type="currency" quantity="550">V<hi
-                            rend="super">c</hi>L</measure> guldenen eens. Item, noch een bosschen cum
-                    fundo et pertinentiis, groot <measure type="currency" quantity="342">III<hi
-                            rend="super">c</hi>XLII</measure> roeden, ombegrepen der maten, dwelck
+                    vanden zelven bossche de somme van <measure type="currency" quantity="600">VI<hi rend="super">c</hi></measure> guldenen <measure type="currency" quantity="10">X</measure> stuvers eens, die naderhant bij hen, comparanten,
+                    oick geredresseert zijn op <measure type="currency" quantity="550">V<hi rend="super">c</hi>L</measure> guldenen eens. Item, noch een bosschen cum
+                    fundo et pertinentiis, groot <measure type="currency" quantity="342">III<hi rend="super">c</hi>XLII</measure> roeden, ombegrepen der maten, dwelck
                     wijlen de voors. Jan de Lantmetere opten <date when="1543-01-23">XXIII Januarij
                         anno XV<hi rend="super">c</hi>XLIII</date> voor Schepenen van Wilrijck voors.
-                    (waeronder tzelve bosschen gelegen is), gecocht ende gecregen heeft van <rs
-                        type="person" ref="#janssen_henricksen">Henricksen Janssen</rs> ende zijnen
-                    wijve, geestimeert op <measure type="currency" quantity="325">III<hi rend="super"
-                            >c</hi>XXV</measure> guldenen eens. Item, noch een huys gequoteert
-                    numero drij, metten hove, fundo et pertinentiis, in <rs type="place"
-                        ref="#borgerhout">Borgerhout</rs> gestaen, geestimeert (op nyet daer
+                    (waeronder tzelve bosschen gelegen is), gecocht ende gecregen heeft van <rs type="person" ref="../register/register-person.xml#janssen_henricksen">Henricksen Janssen</rs> ende zijnen
+                    wijve, geestimeert op <measure type="currency" quantity="325">III<hi rend="super">c</hi>XXV</measure> guldenen eens. Item, noch een huys gequoteert
+                    numero drij, metten hove, fundo et pertinentiis, in <rs type="place" ref="../register/register-place.xml#borgerhout">Borgerhout</rs> gestaen, geestimeert (op nyet daer
                     jaerlicx vuytgaende, anders dan dat tselve huys medepant is over sekeren commer
                     die men jaerlicx betalen moet vuyten boven nabescreven hiernaest gestaen) op
-                    vier hondert <measure type="currency" quantity="1006">X<hi rend="super"
-                    >c</hi>VI</measure> guldenen eens. ltem, noch de huere vanden zelven huyse
+                    vier hondert <measure type="currency" quantity="1006">X<hi rend="super">c</hi>VI</measure> guldenen eens. ltem, noch de huere vanden zelven huyse
                     verschenen Sint Jansmisse anno <date when="1575">LXXV</date>, bedragende
-                        <measure type="currency" quantity="52">LII</measure> guldenen <measure
-                        type="currency" quantity="2">II</measure> stuvers eens. ltem, noch een huys
-                    cum fundo et pertinentiis, metter hueren tzedert Sint Jansmisse anno <date
-                        when="1575">LXXV</date> daeraf verschenen, eenaempt het <num type="ordinal"
-                        value="9">IX<hi rend="super">e</hi></num> Gebot, geestimeert, op nyet daer
+                        <measure type="currency" quantity="52">LII</measure> guldenen <measure type="currency" quantity="2">II</measure> stuvers eens. ltem, noch een huys
+                    cum fundo et pertinentiis, metter hueren tzedert Sint Jansmisse anno <date when="1575">LXXV</date> daeraf verschenen, eenaempt het <num type="ordinal" value="9">IX<hi rend="super">e</hi></num> Gebot, geestimeert, op nyet daer
                     jaerlicx vuytgaende anders dan medepant over den voorgenoemden commere vuyten
-                    huysen hieromtrent gestaen jaerlicx gaende, op <measure type="currency"
-                        quantity="1536">XV<hi rend="super">c</hi>XXXVI</measure> guldenen eens. ltem,
+                    huysen hieromtrent gestaen jaerlicx gaende, op <measure type="currency" quantity="1536">XV<hi rend="super">c</hi>XXXVI</measure> guldenen eens. ltem,
                     noch de twee derdendeelen vanden huyse eenaempt het Eerste Gebot, metten twee
                     derdendeelen vanden grooten kelder onder de voors. Thien Geboden gestaen,
                     geschat wesende op twee hondert Carolus guldenen erffeliek, daerane gecort de
                     twee derdendeelen van twintich schellingen Brabants grontchijs den capittele
-                    tOnser Vrouwen alhier ende twee derdendeelen vande <measure type="currency"
-                        quantity="40">XL</measure> ponden Brabants erffelick den selven capitlele
+                    tOnser Vrouwen alhier ende twee derdendeelen vande <measure type="currency" quantity="40">XL</measure> ponden Brabants erffelick den selven capitlele
                     daer jaerlicx vuytgaende, behalvens dat deselve twee derdendeelen oick medepant
                     zijn over het resterende derdendeel vanden selven commere, ende over noch
                     anderen commere ende chijs die men jaerlicx gelden ende betalen moet vuyten
                     huysen eenaempt het <num type="ordinal" value="6">VI<hi rend="super">e</hi></num>,
                         <num type="ordinal" value="8">VIII<hi rend="super">e</hi></num> ende Thiende
                     Geboden, soe beloept de bate vanden zelven twee derdendeelen de somme van
-                        <measure type="currency" quantity="328">III<hi rend="super"
-                    >c</hi>XXVIII</measure> guldenen <measure type="currency" quantity="10.5"
-                    >X½</measure> stuvers eens. Item, noch een rente van <measure type="currency"
-                        quantity="10">X</measure> stuvers erffelick, met <measure type="currency"
-                        quantity="3">III</measure> guldenen <measure type="currency" quantity="17.5"
-                        >XVII½</measure> stuvers eens achterstels daeraf verschenen, die men
+                        <measure type="currency" quantity="328">III<hi rend="super">c</hi>XXVIII</measure> guldenen <measure type="currency" quantity="10.5">X½</measure> stuvers eens. Item, noch een rente van <measure type="currency" quantity="10">X</measure> stuvers erffelick, met <measure type="currency" quantity="3">III</measure> guldenen <measure type="currency" quantity="17.5">XVII½</measure> stuvers eens achterstels daeraf verschenen, die men
                     jaerlicx heffende is opde goeden gelegen onder Wilrijck die toebehooren plagen
-                    de kinderen <rs type="person" ref="#loecke_raes">Raes van Loecke</rs>. ltem,
-                    noch een rentken van drij vierendeelen van eenen chijnsgulden, metten <measure
-                        type="currency" quantity="27">XXVII</measure> stuvers achterstels tSint
+                    de kinderen <rs type="person" ref="../register/register-person.xml#loecke_raes">Raes van Loecke</rs>. ltem,
+                    noch een rentken van drij vierendeelen van eenen chijnsgulden, metten <measure type="currency" quantity="27">XXVII</measure> stuvers achterstels tSint
                     Jansmisse <date when="1575">LXXV</date> daeraf verschenen, dir men jaerlicx
                     tSint Jansmisse heffende is op een huys cum fundo et pertinentiis, gestaen ende
                     gelegen inde Cuyperstrate, genaempt het Paradijs, waeraf de voors. Philips
                     gehouden ende schuldich sal wesen ende geloefde, mits desen, vuyt te reycken
-                    ende te betalen der voors. Jouffrouwe Catlijne Lantmeters de somme van <measure
-                        type="currency" quantity="4">IIII</measure> guldenen <measure
-                        type="currency" quantity="11.5">XI½</measure> stuvers die hem meer
+                    ende te betalen der voors. Jouffrouwe Catlijne Lantmeters de somme van <measure type="currency" quantity="4">IIII</measure> guldenen <measure type="currency" quantity="11.5">XI½</measure> stuvers die hem meer
                     aengedeylt ende bewesen is dan hem voor zijn contingent is toecommende. Item,
                     der voors. Jouffrouwe Barbara Lantmeters is daertegens te deele bevallen ende
                     sal hebben ende behouden, voor haer ende haren, nacommelingen, inden eersten,
-                    een rente van achthien Carolus guldenen erffelick, metten <measure
-                        type="currency" quantity="36">XXXVI</measure> guldenen achterstels Sint
+                    een rente van achthien Carolus guldenen erffelick, metten <measure type="currency" quantity="36">XXXVI</measure> guldenen achterstels Sint
                     Jansmisse anno <date when="1575">LXXV</date> daeraf verschenen, ter quytinge
                     staende tegens den penninck <num type="ordinal" value="18">XVIII</num>, die bij
-                    hun, comparanten, geredresseert zijn opden penninck <num type="ordinal"
-                        value="16">XVI<hi rend="super">e</hi></num>, die men jaerlicx deen helft den
+                    hun, comparanten, geredresseert zijn opden penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num>, die men jaerlicx deen helft den
                         <date when="--05-30">XXX<hi rend="super">en</hi> Maij</date> ende dander helft
                     den <date when="--11-30">XXX<hi rend="super">en</hi> Novembris</date> heffende is
-                    opde stadt van <rs type="place" ref="#bruessel">Bruesselc</rs>. ltem, noch
+                    opde stadt van <rs type="place" ref="../register/register-place.xml#bruessel">Bruesselc</rs>. ltem, noch
                     gelijcke <measure type="currency" quantity="37">XXXVII</measure>
-                    <note resp="N.B." type="footnote">i.e. guldenen</note><measure type="currency"
-                        quantity="10">X</measure> stuvers erffelick vande voors. een hondert
+                    <note resp="N.B." type="footnote">i.e. guldenen</note><measure type="currency" quantity="10">X</measure> stuvers erffelick vande voors. een hondert
                     vijftich Carolus guldenen tsjaers erffelicker renten ter quytinge staende tegens
                     den penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num>, die
                     men jaerlicx deen helft den <date when="--07-15">XV<hi rend="super">en</hi>
                     Julij</date> ende dander helft den <date when="--01-15">XV<hi rend="super">en</hi>
                         Januarij</date> heffende is opte Staten ’sLants van Brabant. Item, noch die
-                        <measure type="currency" quantity="18">XVIII</measure> guldenen <measure
-                        type="currency" quantity="15">XV</measure> stuvers eens vande <measure
-                        type="currency" quantity="75">LXXV</measure> guldenen eens die den <date
-                        when="1575-07-15">XV<hi rend="super">en</hi> Julij anno LXXV</date> lestleden
+                        <measure type="currency" quantity="18">XVIII</measure> guldenen <measure type="currency" quantity="15">XV</measure> stuvers eens vande <measure type="currency" quantity="75">LXXV</measure> guldenen eens die den <date when="1575-07-15">XV<hi rend="super">en</hi> Julij anno LXXV</date> lestleden
                     daeraf verschenen zijn. Item, noch het vijfde paert vande voors. achtien
                     guldenen, vierentsestich guldenen ende hondert Carolus guldenen erffelick,
                     metten achterstelle daeraf verloopen ende verschenen, daeraf der voors.
@@ -414,63 +310,44 @@
                     alhier, die men heet de Braderijstrate, (metter hueren tSint Jansmisse anno
                         <date when="1575">LXXV</date> daeraf verschenen), tusschen thuys geheeten
                     d’Weynijser, ex una, ende thuys geheeten den Kegeleere ex altera, daeraf de
-                    voors. wijlen Jan de Lantmetere de zesse zevenste gedeelten opten <date
-                        when="1527-12-27">XXVII<hi rend="super">en</hi> Decembris anno XV<hi
-                            rend="super">e</hi>XXVIl</date> gecocht ende terve genomen heeft tegens
-                        <rs type="person" ref="#anthonis_cornelis">Cornelis Anthonis</rs> met sijnen
+                    voors. wijlen Jan de Lantmetere de zesse zevenste gedeelten opten <date when="1527-12-27">XXVII<hi rend="super">en</hi> Decembris anno XV<hi rend="super">e</hi>XXVIl</date> gecocht ende terve genomen heeft tegens
+                        <rs type="person" ref="../register/register-person.xml#anthonis_cornelis">Cornelis Anthonis</rs> met sijnen
                     consorten, geschat wesende op drij hondert dertich Carolus guldenen erffelick,
                     daerane afgecort den commer nabesereven jaerlicx vuyten voors. huyse gaende,
                     namelick <num type="cardinal" value="27">XXVIII</num> oude Engelschen den
-                    capittele van Onser Liever Vrouwen, daer men jaerlicx vore betaelt <measure
-                        type="currency" quantity="2">II</measure> schellingen <measure
-                        type="currency" quantity="4">IIII</measure> deniers Brabants. Item, omtrent
+                    capittele van Onser Liever Vrouwen, daer men jaerlicx vore betaelt <measure type="currency" quantity="2">II</measure> schellingen <measure type="currency" quantity="4">IIII</measure> deniers Brabants. Item, omtrent
                         <measure type="currency" quantity="16">XVI</measure> schellingen twee
                     grooten payements, daer men jaerlicx vore betaelt twee grooten Brabants den
                     Prochiaen inde Borcht. Item, drij grooten Brabants erffelick der kercken van
                     Onser Liever Vrouwen. Item, eenen grooten Brabants erffelick der Borchtkercke.
                     Item, <measure type="currency" quantity="20">XX</measure> schellingen Brabants
-                    erffelick <rs type="person" ref="#vos_pauwel">Pauwels de Vos</rs>. Item, een
-                    pont, twee schellingen, sesse grooten Brabants erffelick <rs type="person"
-                        ref="#werve_merten">Merten vanden Werve</rs> oft actie hebbende. Item, twee
-                    guldenen acht stuvers vanden hondersten chijspenninck ende <measure
-                        type="currency" quantity="2.5">II½</measure> stuvers vanden kelderdeuren
-                    tsamen gerekent tegens den penninck <num type="ordinal" value="24">XXIIII<hi
-                            rend="super">e</hi></num> ende noch hondert <measure type="currency"
-                        quantity="30">XXX</measure> guldenen erffelick ter quytinge staende tegens
+                    erffelick <rs type="person" ref="../register/register-person.xml#vos_pauwel">Pauwels de Vos</rs>. Item, een
+                    pont, twee schellingen, sesse grooten Brabants erffelick <rs type="person" ref="../register/register-person.xml#werve_merten">Merten vanden Werve</rs> oft actie hebbende. Item, twee
+                    guldenen acht stuvers vanden hondersten chijspenninck ende <measure type="currency" quantity="2.5">II½</measure> stuvers vanden kelderdeuren
+                    tsamen gerekent tegens den penninck <num type="ordinal" value="24">XXIIII<hi rend="super">e</hi></num> ende noch hondert <measure type="currency" quantity="30">XXX</measure> guldenen erffelick ter quytinge staende tegens
                     den penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num> den
-                    kinderen <rs type="person" ref="#hertsbeke_aert">Aerts van Hertsbeke</rs>, zoo
-                    bedraecht de bate van dijen de somme van twee duysent <measure type="currency"
-                        quantity="923">IX<hi rend="super">c</hi>XXIII</measure> guldenen die
-                    gereduceert zijn ter sommen van twee duysent <measure type="currency"
-                        quantity="43">XLIII</measure> guldenen <measure type="currency" quantity="8"
-                        >VIII</measure> stuvers. Item, noch een huys cum fundo et pertinentiis,
+                    kinderen <rs type="person" ref="../register/register-person.xml#hertsbeke_aert">Aerts van Hertsbeke</rs>, zoo
+                    bedraecht de bate van dijen de somme van twee duysent <measure type="currency" quantity="923">IX<hi rend="super">c</hi>XXIII</measure> guldenen die
+                    gereduceert zijn ter sommen van twee duysent <measure type="currency" quantity="43">XLIII</measure> guldenen <measure type="currency" quantity="8">VIII</measure> stuvers. Item, noch een huys cum fundo et pertinentiis,
                     gestaen in Borgerhout alhier, gequoteert n<hi rend="super">o</hi> vier, metten
-                        <measure type="currency" quantity="7">VII</measure> guldenen <measure
-                        type="currency" quantity="10">X</measure> stuvers eens versehenen hueren
+                        <measure type="currency" quantity="7">VII</measure> guldenen <measure type="currency" quantity="10">X</measure> stuvers eens versehenen hueren
                     tSint Jansmisse inden jare <date when="1575">LXXV</date> lestleden, geestimeert,
                     op nyet daer jaerlicx vuytgaende dan medepant, gelijck de voors. andere huysen
-                    hierneffens gestaen, op <measure type="currency" quantity="496">IIII<hi
-                            rend="super">c</hi>XCVI</measure> guldenen eens. Item, noch een huys cum
-                    fundo et pertinentiis ende de huere daeraf tsedert ten voors. Sint Jansdage<note
-                        resp="A.H." type="footnote">24. Juni, Feiertag Johannes des Täufers</note>
+                    hierneffens gestaen, op <measure type="currency" quantity="496">IIII<hi rend="super">c</hi>XCVI</measure> guldenen eens. Item, noch een huys cum
+                    fundo et pertinentiis ende de huere daeraf tsedert ten voors. Sint Jansdage<note resp="A.H." type="footnote">24. Juni, Feiertag Johannes des Täufers</note>
                     anno <date when="1575">LXXV</date> verschenen, genaempt het Vijfde Gebot,
                     gheschat wesende, op nyet daer jaerliex vuytgaende dan medepant met de voors.
                     andere huysen de Geboden genaempt over den commer hiervoren verclaert, op
                         <measure type="currency" quantity="908">XIIII<hi rend="super">c</hi>
                     VIII</measure> guldenen eens. Item, noch een stede cum fundo et pertinentiis,
-                    groot omtrent drij buynderen (met <measure type="currency" quantity="64"
-                    >LXIIII</measure> guldenen <measure type="currency" quantity="10">X</measure>
+                    groot omtrent drij buynderen (met <measure type="currency" quantity="64">LXIIII</measure> guldenen <measure type="currency" quantity="10">X</measure>
                     stuvers eens pachts daeraf ten voors. Sint Jansdagc verschenen), gestaen ende
                     gelegen tot Loenhout, geschat wesende boven den gerechten heerenchijs op
                         <measure type="currency" quantity="432">IIIIc XXXII</measure> guldenen eens,
-                    die bij hun, comparanten, geredresseert zijn op <measure type="currency"
-                        quantity="500">V<hi rend="super">c</hi></measure> guldenen eens. Item, Item,
+                    die bij hun, comparanten, geredresseert zijn op <measure type="currency" quantity="500">V<hi rend="super">c</hi></measure> guldenen eens. Item, Item,
                     noch den achterstel van <measure type="currency" quantity="15">XV</measure>
-                    verteelten rogx (die bij hen, comparanten, geestimeert sijn op <measure
-                        type="currency" quantity="18">XVIII</measure> guldenenen eens) oick vande
-                    voors. stede ten voors. Sint Jansdage verschenen ende daertoe noch die <measure
-                        type="currency" quantity="27">XXVII</measure> guldenen <measure
-                        type="currency" quantity="1.5">I½</measure> stuvers eens die den voors.
+                    verteelten rogx (die bij hen, comparanten, geestimeert sijn op <measure type="currency" quantity="18">XVIII</measure> guldenenen eens) oick vande
+                    voors. stede ten voors. Sint Jansdage verschenen ende daertoe noch die <measure type="currency" quantity="27">XXVII</measure> guldenen <measure type="currency" quantity="1.5">I½</measure> stuvers eens die den voors.
                     kinderen jouffrouwe Marie Pypelincx hiervoren te vele te deele bevallen sijn.
                     Item, der voors. Jouffrouwe Jaquelijne Lantmeters is daertegens te deele
                     bevallen ende sal hebben ende behouden voor haer ende haren nacomelingen, inden
@@ -478,31 +355,22 @@
                     fundo et pertinentiis, geleghen in diverse parcheelen onder Wilrijck int
                     Neerlant ende Artselar, groot int geheele elf buynderen vierenviiftich roeden
                         <num type="cardinal" value="221">II<hi rend="super">c</hi>XXI</num> voeten,
-                    die geschat ende geestimeert zijn op drijendertich hondert <measure
-                        type="currency" quantity="40">XL</measure> Carolus guldenen eens, daerane
+                    die geschat ende geestimeert zijn op drijendertich hondert <measure type="currency" quantity="40">XL</measure> Carolus guldenen eens, daerane
                     afgetrocken twee ponden <measure type="currency" quantity="8">VIII</measure>
-                    schellingen Brabants erffelick grontchijs den godshuyse van <rs type="place"
-                        ref="#nazareth_antwerpen">Nazareth</rs> buyten <rs type="place" ref="#lier"
-                        >Liere</rs>. Item, <measure type="currency" quantity="15">XV</measure>
-                    mijten chijs den Hertoge van Brabant. Item, <measure type="currency"
-                        quantity="19">XIX</measure> mijten chijs der canterijen tOnser Liever
-                    Vrouwen alhier, ende dat deselve noch medepant is over omtrent <measure
-                        type="currency" quantity="16">XVI</measure> schellingen onderhalven grooten
+                    schellingen Brabants erffelick grontchijs den godshuyse van <rs type="place" ref="../register/register-place.xml#nazareth_antwerpen">Nazareth</rs> buyten <rs type="place" ref="../register/register-place.xml#lier">Liere</rs>. Item, <measure type="currency" quantity="15">XV</measure>
+                    mijten chijs den Hertoge van Brabant. Item, <measure type="currency" quantity="19">XIX</measure> mijten chijs der canterijen tOnser Liever
+                    Vrouwen alhier, ende dat deselve noch medepant is over omtrent <measure type="currency" quantity="16">XVI</measure> schellingen onderhalven grooten
                     ende twee capuynen jaerlicx betaelt wordende vuyt sekere andere stede hierbij
                     gelegen, soo bedraecht de bate van dyen de somme van drij duysent een hondert
                     guldenen eens. Item, noch den pacht vander zelver hoeven, soo in gelde als in
                     terwe, tot twee guldenen <measure type="currency" quantity="9">IX</measure>
-                    stuvers de veertele gerekent, verschenen tSint Jansmisse anno <date when="1575"
-                        >LXXV</date> lestleden, bedragende tsamen een hondert tsestich guldenen
+                    stuvers de veertele gerekent, verschenen tSint Jansmisse anno <date when="1575">LXXV</date> lestleden, bedragende tsamen een hondert tsestich guldenen
                     eenen stuvers ende <measure type="currency" quantity="12">XII</measure> mijten
                     Brabants eens. Item, noch <measure type="currency" quantity="26">XXVI</measure>
                     guldenen thien stuvers erffelick (metten derthien guldenen vijf stuvers eens
                     achterstel daeraf ten voors. Sint Jansmisse anno <date when="1575">LXXV</date>
-                    verschenen) die men jaerlicx deen helft den <date when="--07-15">XV<hi
-                            rend="super">en</hi> Julii</date> ende dander helft den <date
-                        when="--01-15">XV<hi rend="super">en</hi> Januarii</date> heffende is opde
-                    voors. Staten ’sLants van Brabant ende die de voors. <rs type="person"
-                        ref="#boubert_elizabeth">Elizabeht de Bouvaert</rs> den voors. wijlen Janne
+                    verschenen) die men jaerlicx deen helft den <date when="--07-15">XV<hi rend="super">en</hi> Julii</date> ende dander helft den <date when="--01-15">XV<hi rend="super">en</hi> Januarii</date> heffende is opde
+                    voors. Staten ’sLants van Brabant ende die de voors. <rs type="person" ref="../register/register-person.xml#boubert_elizabeth">Elizabeht de Bouvaert</rs> den voors. wijlen Janne
                     de Lantmetere opten <date when="1553-08-04">IIII<hi rend="super">en</hi> Augusti
                         anno LIII</date> lestleden overgegeven ende getransporteert heeft. Item,
                     noch het V<hi rend="super">e</hi> paert vande voors. achtien guldenen,
@@ -511,57 +379,40 @@
                     Catlijne Philipsen ende jouffrouwe Barbara Lantmeters oick elcken een vijfde
                     paart hiervoren te deele bevallen ende bewesen is. Item, noch een half spade
                     broecklants buyten sdijcx ende binnen sdijcx, gronde ende toebehoorten, gelegen
-                    int <rs type="place" ref="#hofvierendeel">Hofvierendeel</rs>, tusschen des
-                    godshuys van Sinte Michiels erve, ex una, ende des Heylichs Geests erve tot <rs
-                        type="place" ref="#hoboken">Hoboken</rs>, ex altera, welck stuck lants de
-                    voors. wijlen Jan de Lantmetere opten <date when="1554-06-02">II<hi rend="super"
-                            >en</hi> Junij anno XV<hi rend="super">c</hi>LIIII</date> gecocht ende
-                    gecregen heeft tegens <rs type="person" ref="#matheus_peeter">Peeteren
-                    Matheus</rs> met sijnen consorten, geestimeert wesende op <measure
-                        type="currency" quantity="240">II<hi rend="super">c</hi>XL</measure> guldenen
-                    eens. Item, noch een huys cum fundo et pertinentiis, gequoteert N<hi rend="super"
-                        >o</hi> secundo, metter hueren tsedert Sint Jansmisse anno <date when="1575"
-                        >LXXV</date> daeraf verschenen, gestaen buyten de Kipdorppoorte alhier,
+                    int <rs type="place" ref="../register/register-place.xml#hofvierendeel">Hofvierendeel</rs>, tusschen des
+                    godshuys van Sinte Michiels erve, ex una, ende des Heylichs Geests erve tot <rs type="place" ref="../register/register-place.xml#hoboken">Hoboken</rs>, ex altera, welck stuck lants de
+                    voors. wijlen Jan de Lantmetere opten <date when="1554-06-02">II<hi rend="super">en</hi> Junij anno XV<hi rend="super">c</hi>LIIII</date> gecocht ende
+                    gecregen heeft tegens <rs type="person" ref="../register/register-person.xml#matheus_peeter">Peeteren
+                    Matheus</rs> met sijnen consorten, geestimeert wesende op <measure type="currency" quantity="240">II<hi rend="super">c</hi>XL</measure> guldenen
+                    eens. Item, noch een huys cum fundo et pertinentiis, gequoteert N<hi rend="super">o</hi> secundo, metter hueren tsedert Sint Jansmisse anno <date when="1575">LXXV</date> daeraf verschenen, gestaen buyten de Kipdorppoorte alhier,
                     geestimeert wesende op nyet daer jaerliex vuytgaende dan medepant over den
-                    commer hiervoren geruert, op <measure type="currency" quantity="496"
-                    >IIIIcXCVI</measure> guldenen eens. Item, noch een stede met een stuck lants,
+                    commer hiervoren geruert, op <measure type="currency" quantity="496">IIIIcXCVI</measure> guldenen eens. Item, noch een stede met een stuck lants,
                     gronde ende toebehoorten, groot omtrent een half buyndere oft badt dan een
                     gemet, luttel min oft meer, onbegrepen der maten, gelegen tot Wilrijck inde
                     Dorenstrate, oost mijns Heeren des Prelaets van Sint Michiels erve, zuytwaerts,
                     hen comparanten erve, west, de Dorenstrate, commende noortwaerts aen Gommar van
-                    Horcke erve, welcke stede de voors. wijlen Jan de Lantmeter opten <date
-                        when="1554-06-01">I<hi rend="super">en</hi> Junij anno LIIII</date> lestleden
-                    voor Schepenen van Wilrijck gecocht ende gecregen heeft tegens <rs type="person"
-                        ref="#knyf_jan">Jan</rs> ende <rs type="person" ref="#knyf_ghijsbrecht"
-                        >Ghijsbrecht Knyf</rs>, gheschat op nyet daer jaerlicx vuytgaende op twee
+                    Horcke erve, welcke stede de voors. wijlen Jan de Lantmeter opten <date when="1554-06-01">I<hi rend="super">en</hi> Junij anno LIIII</date> lestleden
+                    voor Schepenen van Wilrijck gecocht ende gecregen heeft tegens <rs type="person" ref="../register/register-person.xml#knyf_jan">Jan</rs> ende <rs type="person" ref="../register/register-person.xml#knyf_ghijsbrecht">Ghijsbrecht Knyf</rs>, gheschat op nyet daer jaerlicx vuytgaende op twee
                     hondert vijftich guldenen eens, die geredresseert zijn op drij hondert Carolus
-                    guldenen eens. Item, noch drij guldenen ende <measure type="currency"
-                        quantity="15">XV</measure> stuvers eens die <rs type="person"
-                        ref="#cops_jan">Jan Cops</rs>, huerlinck vande voors. stede, schuldich is
-                    van een vierendeel jaers hueren verschenen Sint Jansmisse anno <date when="1575"
-                        >LXXV</date>. Item, een elsenbosch metten opgaende houten, gronde ende
+                    guldenen eens. Item, noch drij guldenen ende <measure type="currency" quantity="15">XV</measure> stuvers eens die <rs type="person" ref="../register/register-person.xml#cops_jan">Jan Cops</rs>, huerlinck vande voors. stede, schuldich is
+                    van een vierendeel jaers hueren verschenen Sint Jansmisse anno <date when="1575">LXXV</date>. Item, een elsenbosch metten opgaende houten, gronde ende
                     toebehoorten, groot een vierendeel buynders, gelegen tot Wilrijck inde
-                    Dorniekstrate, tusschen des cloosters van Sinte Michiels erve, ex una, ende <rs
-                        type="person" ref="#herde_thomas">Thomas de Herde</rs> erve, ex altera, ende
+                    Dorniekstrate, tusschen des cloosters van Sinte Michiels erve, ex una, ende <rs type="person" ref="../register/register-person.xml#herde_thomas">Thomas de Herde</rs> erve, ex altera, ende
                     oick aende derde zijde rammende metter vierder zijden aende voors.
                     Dornickstrate, gelijck de voors. wijlen Jan de Lantmetere tselve boschen opten
-                        <date when="1550-01-16">XVI<hi rend="super">en</hi> Januarij anno XV<hi
-                            rend="super">e</hi> ende vijftich</date> bij transporte vercregen heeft
-                    van <rs type="person" ref="#herde_catlijne">Catlijne de Herde</rs> met Meesteren
+                        <date when="1550-01-16">XVI<hi rend="super">en</hi> Januarij anno XV<hi rend="super">e</hi> ende vijftich</date> bij transporte vercregen heeft
+                    van <rs type="person" ref="../register/register-person.xml#herde_catlijne">Catlijne de Herde</rs> met Meesteren
                     Reynieren Lemmens, haren manne ende momboire, geestimeert zijnde op nyet daer
                     jaerlicx vuytgaende dan medepant over sekeren chijs die men jaerlicx betaelt
                     vuyt andere erven hierneffens gelegen, op een hondert Carolus guldenen eens, die
                     geredresseert sijn op <measure type="currency" quantity="80">LXXX</measure>
                     guldenen eens. Item, noch eenen speelhof met sekere huysinge daerop staende,
-                    fundo et pertinentiis ende de huere daeraf tzedert tSint Jansmisse anno <date
-                        when="1575">LXXV</date> verschenen, gestaen ende gelegen in Borgerhout,
+                    fundo et pertinentiis ende de huere daeraf tzedert tSint Jansmisse anno <date when="1575">LXXV</date> verschenen, gestaen ende gelegen in Borgerhout,
                     geschat zijnde op zessenvijftich guldenen erffelick, daerane gecort acht Carolus
                     guldenen erffelick den rijcken Gasthuyse alhier. Item, noch acht Carolus
-                    guldenen <rs type="person" ref="#lodewiycx_peeter">Peeteren Lodewycx</rs> oft
-                    actie hebbende, zoo bedraecht de bate van dyen de somme van <measure
-                        type="currency" quantity="40">XL</measure> Carolus guldenen erffelick, die
-                    bij hun, comparanten, geredresseert zijn op <measure type="currency"
-                        quantity="704">VII<hi rend="super">c</hi>IIII</measure> guldenen eens, waeraf
+                    guldenen <rs type="person" ref="../register/register-person.xml#lodewiycx_peeter">Peeteren Lodewycx</rs> oft
+                    actie hebbende, zoo bedraecht de bate van dyen de somme van <measure type="currency" quantity="40">XL</measure> Carolus guldenen erffelick, die
+                    bij hun, comparanten, geredresseert zijn op <measure type="currency" quantity="704">VII<hi rend="super">c</hi>IIII</measure> guldenen eens, waeraf
                     de voors. Jouffrouwe Jaquelijne gehouden ende schuldich sal wesen ende geloeft
                     mits desen vuyt te reycken ende te betaelen der voors. Jouffrouwe Catharina
                     Lantmeters de somme van <measure type="currency" quantity="13">XIII</measure>
@@ -572,28 +423,20 @@
                     metten twee jaren achterstels Sint Jansmisse anno <date when="1575">LXXV</date>
                     lestleden daeraf verloopen ende verschenen die men jaerlicx Sint Jansmisse
                     heffende is op drij wooningen, daeraf deene een hoeckhuys, is gestaen ende
-                    gelegen inde Meyerstrate int <rs type="place" ref="#hoplant">Hoplant</rs>, opden
-                    hoeck aldaer, ende die <rs type="person" ref="#huys_jaspar">Jaspar Huys</rs>
+                    gelegen inde Meyerstrate int <rs type="place" ref="../register/register-place.xml#hoplant">Hoplant</rs>, opden
+                    hoeck aldaer, ende die <rs type="person" ref="../register/register-person.xml#huys_jaspar">Jaspar Huys</rs>
                     opden <date when="1573-12-12">XII<hi rend="super">en</hi> Decembris anno
                     LXXIII</date> den voors. Philips de Lantmetere overgegeven ende getransporteert
-                    heeft. Item, noch een rente van thien Carolus guldenen erffelick metten <measure
-                        type="currency" quantity="25">XXV</measure> guldenen achterstels Sint
+                    heeft. Item, noch een rente van thien Carolus guldenen erffelick metten <measure type="currency" quantity="25">XXV</measure> guldenen achterstels Sint
                     Jansmisse anno <date when="1575">LXXV</date> daeraf verschenen, die men jaerlicx
-                    heeft ende heffende is opte stadt van <rs type="place" ref="#bruessel"
-                    >Bruessele</rs>, ter quytinge staende tegens den penninck <num type="ordinal"
-                        value="18">XVIII<hi rend="super">c</hi></num>, ende die bij hun, comparanten,
-                    geredresseert zijn opden penninck <num type="ordinal" value="16">XVI<hi
-                            rend="super">e</hi></num>. Item, noch die drij Carolus guldenen erffelick
+                    heeft ende heffende is opte stadt van <rs type="place" ref="../register/register-place.xml#bruessel">Bruessele</rs>, ter quytinge staende tegens den penninck <num type="ordinal" value="18">XVIII<hi rend="super">c</hi></num>, ende die bij hun, comparanten,
+                    geredresseert zijn opden penninck <num type="ordinal" value="16">XVI<hi rend="super">e</hi></num>. Item, noch die drij Carolus guldenen erffelick
                     metten achterstelle tsedert Sint Jansmisse anno <date when="1575">LXXV</date>
-                    daeraf verschenen, die men jaerlicx heffende is op drij huyskens gestaen tot <rs
-                        type="place" ref="#berchem">Berchem</rs> tegens over de brouwerije het Cruys
+                    daeraf verschenen, die men jaerlicx heffende is op drij huyskens gestaen tot <rs type="place" ref="../register/register-place.xml#berchem">Berchem</rs> tegens over de brouwerije het Cruys
                     genaempt, verschijnende jaerlicx te half Meerte. Item, noch een rente van vijf
-                    ponden Brabants erffelick met een Jaer achterstels Sint Jansmisse anno <date
-                        when="1575">LXXV</date> daeraf verschenen, die men jaerlicx heffende is op
+                    ponden Brabants erffelick met een Jaer achterstels Sint Jansmisse anno <date when="1575">LXXV</date> daeraf verschenen, die men jaerlicx heffende is op
                     een huys, cum fundo et pertinentiis, genaempt den Anckere, gestaen ende gelegen
-                    inde Vaertstrate geheeten de Jodestrate, tusschen <rs type="person"
-                        ref="#haze_peeter">Peeters de Haze</rs> huys ende erve ex una ende <rs
-                        type="person" ref="#hodart_claes">Claes Hodart</rs> ende sijn wijfs erven ex
+                    inde Vaertstrate geheeten de Jodestrate, tusschen <rs type="person" ref="../register/register-person.xml#haze_peeter">Peeters de Haze</rs> huys ende erve ex una ende <rs type="person" ref="../register/register-person.xml#hodart_claes">Claes Hodart</rs> ende sijn wijfs erven ex
                     altera. Item, noch <measure type="currency" quantity="48">XLVIII</measure>
                     Carolus guldenen <measure type="currency" quantity="10">X</measure> stuvers
                     erffelick metten <measure type="currency" quantity="24">XXIIII</measure>
@@ -606,34 +449,25 @@
                     elcken van hen hiervoren een vijfde deel bewesen ende te deele bevallen is.
                     Item, noch een huys metten gronde ende toebehoorten ende de vijftich guldenen
                     eens hueren daeraf ten voors. Sint Jansdage verschenen, gestaen ende gelegen op
-                        <rs type="place" ref="#sinte_catlijneveste">Sinte Catlijneveste</rs>
-                    tusschen Meester <rs type="person" ref="#houte_jan">Jan van Houte</rs>, des
+                        <rs type="place" ref="../register/register-place.xml#sinte_catlijneveste">Sinte Catlijneveste</rs>
+                    tusschen Meester <rs type="person" ref="../register/register-person.xml#houte_jan">Jan van Houte</rs>, des
                     advocaets, erve was, ex una, noortwaerts ende derfgenamcn van Diego Villegas
-                    huysinge, ex altera, gelijck de voors. wijlen Jan de Lantmetere opten <date
-                        when="1551-04-17">XVII<hi rend="super">en</hi> Aprilis anno XV<hi rend="super"
-                        >c</hi> eenenvijftich</date> daerinne bij mjjnen Heere den Amptman, inden
+                    huysinge, ex altera, gelijck de voors. wijlen Jan de Lantmetere opten <date when="1551-04-17">XVII<hi rend="super">en</hi> Aprilis anno XV<hi rend="super">c</hi> eenenvijftich</date> daerinne bij mjjnen Heere den Amptman, inden
                     name van sijnen officien, gegoeyt ende geerft is, geschat wezende op vier
                     hundert vijftich guldenen erffelick, daeraf getrocken twee hondert Carolus
-                    guldenen erffelick Meesteren <rs type="person" ref="#stendlin_frederck"
-                        >Fredercke Stendlin</rs> daer jaerlick op vuytgaende, zoo bedraecht de bate
+                    guldenen erffelick Meesteren <rs type="person" ref="../register/register-person.xml#stendlin_frederck">Fredercke Stendlin</rs> daer jaerlick op vuytgaende, zoo bedraecht de bate
                     noch vanden selven huyse de somme van twee hondert vijftich guldenen erffelick
                     die bij hun, comparanten, geredresseert sijn op twee doysent acht hondert
                     Carolus guldenen eens. Item, noch een huys metten gronde ende toebehoorten ende
-                        <measure type="currency" quantity="16">XVI</measure> guldenen ende <measure
-                        type="currency" quantity="6">VI</measure> stuvers hueren vanden selven huyse
+                        <measure type="currency" quantity="16">XVI</measure> guldenen ende <measure type="currency" quantity="6">VI</measure> stuvers hueren vanden selven huyse
                     ten voors. Sint Jansdage verschenen, gequoteert N<hi rend="super">o</hi> prima,
                     geestimeert op nyet daer jaerlicx vuytgaende dan medepant over den voors.
-                    commere vuyten hove hierbij gelegen jaerlicx gaende, opde somme van <measure
-                        type="currency" quantity="496">IIII<hi rend="super">c</hi>XCVI</measure>
-                    guldenen eens. Item noch een rente van sesse veertelen rogx (metten <measure
-                        type="currency" quantity="19">XIX</measure> veertelen ende een halff die bij
-                    hun, comparanten, tsamen gerekent worden tot elf guldenen <measure
-                        type="currency" quantity="7.5">VII½</measure> stuvers eens, verschenen ten
+                    commere vuyten hove hierbij gelegen jaerlicx gaende, opde somme van <measure type="currency" quantity="496">IIII<hi rend="super">c</hi>XCVI</measure>
+                    guldenen eens. Item noch een rente van sesse veertelen rogx (metten <measure type="currency" quantity="19">XIX</measure> veertelen ende een halff die bij
+                    hun, comparanten, tsamen gerekent worden tot elf guldenen <measure type="currency" quantity="7.5">VII½</measure> stuvers eens, verschenen ten
                     voors. Sint-Jansdage anno <date when="1575">LXXV</date>) die men jaerlicx te
                     half Meerte heffende is op een stede met huyse, hove, lande, fundo et
-                    pertinentiis, groot vier buynderen ende een half, gestaen ende gelegen ter <rs
-                        type="place" ref="#beke">Beke</rs> onder <rs type="place" ref="#loenhout"
-                        >Loenhout</rs>, ende welcke rente <rs type="person" ref="#venne_aerdt">Aerdt
+                    pertinentiis, groot vier buynderen ende een half, gestaen ende gelegen ter <rs type="place" ref="../register/register-place.xml#beke">Beke</rs> onder <rs type="place" ref="../register/register-place.xml#loenhout">Loenhout</rs>, ende welcke rente <rs type="person" ref="../register/register-person.xml#venne_aerdt">Aerdt
                         vande Venne</rs> orden <date when="1554-03-08">VIII<hi rend="super">en</hi>
                         Martij anno XV<hi rend="super">c</hi>LIIII</date> den voors. wijlen Jan de
                     Lantmetere opte selve stede vercocht ende gehipothiceert heeft. Item noch een
@@ -641,15 +475,12 @@
                     guldenen erffelick met drij vierendeel jaers achterstels tSint Jansmisse anno
                         <date when="1575">LXXV</date> daeraf verschenen, die men heffende is op een
                     huys cum fundo et pertinentiis, geheeten den Berendans, gestaen ende gelegen in
-                    Borgerhout tusschen <rs type="person" ref="#raets_jacob">Jacob Raets</rs>
+                    Borgerhout tusschen <rs type="person" ref="../register/register-person.xml#raets_jacob">Jacob Raets</rs>
                     huysinghe oostwaerts, der voors. comparanten erve westwaert’s daeraf de voors.
                     kinderen vuytreycken moeten als hun meer te deele bevallen ende bewesen dan hun
-                    voor hun contingent is toecommende, ierst, der voors. Jouffrouwe <rs
-                        type="person" ref="#lantmeter_catharina">Catharina Lantmeters</rs>
-                    <measure type="currency" quantity="24">XXIIII</measure> guldenen <measure
-                        type="currency" quantity="20.5">XX½</measure> stuvers ende der voors.
-                    Jouffrouwe Barbara Lantmeters <measure type="currency" quantity="27"
-                    >XXVII</measure> guldenen <measure type="currency" quantity="1.5">I½</measure>
+                    voor hun contingent is toecommende, ierst, der voors. Jouffrouwe <rs type="person" ref="../register/register-person.xml#lantmeter_catharina">Catharina Lantmeters</rs>
+                    <measure type="currency" quantity="24">XXIIII</measure> guldenen <measure type="currency" quantity="20.5">XX½</measure> stuvers ende der voors.
+                    Jouffrouwe Barbara Lantmeters <measure type="currency" quantity="27">XXVII</measure> guldenen <measure type="currency" quantity="1.5">I½</measure>
                     stuvers eens, ende dit al navolgende den brieve ende bescheede daeraf zijnde,
                     ende mits dezen, etc. Ghelovende, etc. conditione dat waert dat men namaels
                     bevonde vuyte voors. panden ende gronden van erven den eenen oft den anderen
@@ -666,17 +497,15 @@
                     huercedullen ende conventien daeraf zijnde, daeraf de lasten ende reparatien tot
                     nu toe gedaen, wesen zelen tot gemeyne lasten vande partijen voorgenoempt.
                     Finalicken is noch ondersproken dat aengaende zeker omtrent een buynder lants te
-                    leene gehouden wordende van <rs type="person" ref="#claes_joos">Joos Claes</rs>
-                    begrepen onder den lande ende hoeve tot <rs type="place" ref="#aartselaar"
-                        >Artselaer</rs> gelegen, der voors. Jouffrouwe Jaquelijne hiervoren tot
+                    leene gehouden wordende van <rs type="person" ref="../register/register-person.xml#claes_joos">Joos Claes</rs>
+                    begrepen onder den lande ende hoeve tot <rs type="place" ref="../register/register-place.xml#aartselaar">Artselaer</rs> gelegen, der voors. Jouffrouwe Jaquelijne hiervoren tot
                     deele bevallen, dwelck de voors. Philips de Lantmetere sustineert, als outste
                     sone, hem alleene te competeren, dat deselve Philips dyen aengaende alnoch
                     blijvende is op sijn geheel ende ongeprejudicieert omme tselve (ingevalle men
                     bevint deselve Philips daerinne gerecht te zijne), te verhalen tegens sijnen
                     medeerfgenamen zoo hij vinden sal te behooren, mitsgaders dat de voors.
                     comparanten alnoch gesamenderhant, desen nyetyegenstaende, ongeprejudicieert
-                    blijven nopende alsulcken verloope van <measure type="currency" quantity="1200"
-                            >XII<hi rend="super">c</hi></measure> guldenen eens, daeraf te thien
+                    blijven nopende alsulcken verloope van <measure type="currency" quantity="1200">XII<hi rend="super">c</hi></measure> guldenen eens, daeraf te thien
                     hondert guldenen eens alnoch onbetaelt zijn, als de voors. kinderen jouffrouwe
                     Marie Pypelincx gehouden waren volgende den testamente van heuren voors.
                     grootvadere ende grootmoedere wijlen, voor alle scheydinge ende deylinge, inne

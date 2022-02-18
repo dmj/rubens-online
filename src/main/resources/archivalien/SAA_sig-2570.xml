@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_041">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_041"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-2570">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -69,8 +68,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 186f.<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 186f.<ptr type="gbv" cRef="146162595"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -90,38 +88,23 @@
                 <p> 
                     <table>
                         <row>
-                            <cell>2213. – <rs type="person" ref="#rubens_jan">Jan Rubens</rs>, jaerlicx <measure
-                        type="currency" quantity="75">LXXV</measure> ₤<lb/> Opden <date
-                        when="1576-07-13">XIII<hi rend="super">en</hi> Julij anno XV<hi rend="super"
-                            >c</hi>LXXVI</date> is gecompareert <rs type="person"
-                        ref="#pypelincx_dionisius">Denys Pypelinck</rs>, heeft gepresenteert eenen
-                    erfrentbrieff luydende op Meester <rs type="person" ref="#rubens_jan">Jan
-                        Rubbens</rs>, Scepen deser stadt, van <measure type="currency" quantity="75"
-                        >LXXV</measure> Karolus gulden tsjaers, te quytene den penninck <measure
-                        type="currency" quantity="12">XII<hi rend="super">e</hi></measure>, in date
-                        <date when="1565-06-27">XXVII Junij anno XV<hi rend="super"
-                    >c</hi>LXV</date>, onder den grooten segel opt octroye van <measure
-                        type="currency">V<hi rend="super">c</hi>M</measure> ponden van <measure
-                        type="currency" quantity="40">XL</measure> groten Vlems tpont.<lb/>
+                            <cell>2213. – <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Rubens</rs>, jaerlicx <measure type="currency" quantity="75">LXXV</measure> ₤<lb/> Opden <date when="1576-07-13">XIII<hi rend="super">en</hi> Julij anno XV<hi rend="super">c</hi>LXXVI</date> is gecompareert <rs type="person" ref="../register/register-person.xml#pypelincx_dionisius">Denys Pypelinck</rs>, heeft gepresenteert eenen
+                    erfrentbrieff luydende op Meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan
+                        Rubbens</rs>, Scepen deser stadt, van <measure type="currency" quantity="75">LXXV</measure> Karolus gulden tsjaers, te quytene den penninck <measure type="currency" quantity="12">XII<hi rend="super">e</hi></measure>, in date
+                        <date when="1565-06-27">XXVII Junij anno XV<hi rend="super">c</hi>LXV</date>, onder den grooten segel opt octroye van <measure type="currency">V<hi rend="super">c</hi>M</measure> ponden van <measure type="currency" quantity="40">XL</measure> groten Vlems tpont.<lb/>
                     Gereduceert vanden penninck <measure type="currency" quantity="12">XII</measure>
                     op XX<gap reason="illegible"/>XLV ₤ Artois Tachter <date when="1575-12-27">XXVII Decembris
-                    LXXV</date>, <num type="cardinal" value="5">V</num> jaren: <measure
-                        type="currency" quantity="375">III<hi rend="super">c</hi>LXXV</measure> ₤,
-                    afgenomen twee jaren, rest <measure type="currency" quantity="225">II<hi
-                            rend="super">c</hi>XXV</measure> ₤, compt, in <num type="cardinal"
-                        value="12">XII</num> jaren, alle jare:</cell>
+                    LXXV</date>, <num type="cardinal" value="5">V</num> jaren: <measure type="currency" quantity="375">III<hi rend="super">c</hi>LXXV</measure> ₤,
+                    afgenomen twee jaren, rest <measure type="currency" quantity="225">II<hi rend="super">c</hi>XXV</measure> ₤, compt, in <num type="cardinal" value="12">XII</num> jaren, alle jare:</cell>
                             <!-- müsste hier  eine <gap> stehen oder ist gemeint, dass die folgende Angabe rechtsbündig ist??? -->
-                            <cell><measure type="currency" quantity="18">XVIII</measure> ₤ <measure type="currency"
-                        quantity="15">XV</measure> st. </cell></row></table></p></div>
+                            <cell><measure type="currency" quantity="18">XVIII</measure> ₤ <measure type="currency" quantity="15">XV</measure> st. </cell></row></table></p></div>
                                 
-                         <div  xml:lang="nld" type="note" rend="margin" >
+                         <div xml:lang="nld" type="note" rend="margin">
                              <head>Marginalie:</head>
-                       <p>Nota. Hieraff eenen nieuwen schuldbrief geexpedieert te sijne ten behoeve van Meester <rs
-                            type="person" ref="#rubens_jan">Jan Ruebens</rs>, overmits Joncker <rs
-                            type="person" ref="#stembor_jan">Jan van Stembor</rs>, Schepen deser
+                       <p>Nota. Hieraff eenen nieuwen schuldbrief geexpedieert te sijne ten behoeve van Meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebens</rs>, overmits Joncker <rs type="person" ref="../register/register-person.xml#stembor_jan">Jan van Stembor</rs>, Schepen deser
                             stadt, verclaerde den ouden brief verloren te sijne. </p>
-                             <closer><dateline> Actum den <date  when="1607-05-09">IX Maij 1607</date>.</dateline><lb/> 
-                                 <signed><rs type="person" ref="#moy_hendrick">H. de Moy</rs></signed></closer>
+                             <closer><dateline> Actum den <date when="1607-05-09">IX Maij 1607</date>.</dateline><lb/> 
+                                 <signed><rs type="person" ref="../register/register-person.xml#moy_hendrick">H. de Moy</rs></signed></closer>
                            
               
             </div>

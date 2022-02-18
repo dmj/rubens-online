@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_314">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_314"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <!-- ID vergeben -->
     <teiHeader>
         <fileDesc>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brief_jan_rubens_15790218">
                     <msIdentifier><repository>unbekannt</repository>
                         <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
@@ -63,22 +62,17 @@
     <text>
         <body>
             <div xml:lang="nld">
-              <head>Aen mijn Heere mijn Heere Meester <rs type="person"
-                  ref="#gillis_jan">Jan Gillis</rs></head> <salute>Eerw. wijse, voersinighe Heer
+              <head>Aen mijn Heere mijn Heere Meester <rs type="person" ref="../register/register-person.xml#gillis_jan">Jan Gillis</rs></head> <salute>Eerw. wijse, voersinighe Heer
                         ende beminde neve. </salute>
-                <p> Ick hebbe ghelaten tot noch toe op Uwer E. brief vanden <date when="1579-01-27"
-                        >27 Januarij</date> te antwoerden, deur grooter oorsake dije voerhanden is,
-                    te weten, dat <rs type="person" ref="#gillis_joachim">JOACHIM</rs> Uwer Eer.
+                <p> Ick hebbe ghelaten tot noch toe op Uwer E. brief vanden <date when="1579-01-27">27 Januarij</date> te antwoerden, deur grooter oorsake dije voerhanden is,
+                    te weten, dat <rs type="person" ref="../register/register-person.xml#gillis_joachim">JOACHIM</rs> Uwer Eer.
                     sone gheresolveert is binnen thien oft elff daghen af te comen, om met Uwer Eer.
                     te beraden belanghende sijn houwelijck, dat schijnt dat Godt hem te goeden heeft
                     toegeschickt, ende grootelijck tsijnen vordeel ende eere ende troost van Uwer
                     Eer. is. Hij heeft hier kennisse ghecreghen aen eene edele jonghe Jouffrouwe van
-                        <rs type="place" ref="#holland">Hollant</rs>, ghenaempt <rs type="person"
-                        ref="#rapars_isabella">ISABEAU RAPARS, alias van WALEN</rs>, woonende
-                    teghenwoerdich bij hare moeder weduwe, te <rs type="place" ref="#vianen"
-                        >Vianen</rs>. Sij is seer wijs, eerlck ende ghemannieert ende voorts al’wat
-                    eene jonghe dochter mach sijn. Sij heeft ghewoont bij Mevrouwe <rs type="person"
-                        ref="#meghen_frau_van">VAN MEGHEN</rs> ende heeft gracie in Uwer E. sone
+                        <rs type="place" ref="../register/register-place.xml#holland">Hollant</rs>, ghenaempt <rs type="person" ref="../register/register-person.xml#rapars_isabella">ISABEAU RAPARS, alias van WALEN</rs>, woonende
+                    teghenwoerdich bij hare moeder weduwe, te <rs type="place" ref="../register/register-place.xml#vianen">Vianen</rs>. Sij is seer wijs, eerlck ende ghemannieert ende voorts al’wat
+                    eene jonghe dochter mach sijn. Sij heeft ghewoont bij Mevrouwe <rs type="person" ref="../register/register-person.xml#meghen_frau_van">VAN MEGHEN</rs> ende heeft gracie in Uwer E. sone
                     ghevonden ende het schijnt dat sij met em wel te vreden soude sijn ende hare
                     vrinden daertoe lichtelijck verstaen souden: sij heeft soo veel te Hove ghesien,
                     dat sij liever eenen vanden langhen tabbaert hadde dan eenen hovelinck. Sij
@@ -106,10 +100,10 @@
                     Eer. willen orlof vraghen, oft wij hem soo veel doen hebben sullen sonder
                     interest als wij rekenen sullen ten scherpsten wat hem van noode is, ende oft
                     Uwer Eer. dat betalen sal, ons tselve wel afnemende, een letterken dat Uwer Eer.
-                    aen mij oft aen <rs type="person" ref="#gillis_joachim">JOCHEM</rs> sal believen
+                    aen mij oft aen <rs type="person" ref="../register/register-person.xml#gillis_joachim">JOCHEM</rs> sal believen
                     te schrijven, daermede te kennen ghevende dat het voors. geit opghelicht synde,
                     betaelt sal worden; sal ghenouch sijn om dat te vinden, oft wel mach Uwer Eer.
-                    aen <rs type="person" ref="#chyni_cosmo">COSMO CHYNI</rs> oft ymant anders dijen
+                    aen <rs type="person" ref="../register/register-person.xml#chyni_cosmo">COSMO CHYNI</rs> oft ymant anders dijen
                     aengaende schrijven. Niemant en soude, meynende dienst ende vrintschap te doen,
                     gherne ondanck hebben. Hoe langher dat Uwer Eer. uytstelt, hoe hij meer verteren
                     sal, want daer hij is, daer vallen groote costen. Sijnen tijt gaet dese maent
@@ -119,11 +113,9 @@
                     tontghaen, ende dese goede occasie niet te verhinderen. Daer sijn alle weken
                     twee oft drij ordinarisse boden op Cuelen, soo volcken als desen aencomen is,
                     tsanderdaechs vertreckt eenen herwaerts. Mijn huys is wel vintbaer, als het
-                    opgheschrift luyt soo volcht: Ten huyse van <rs type="person" ref="#rubens_d">D.
-                        RUEBENS</rs>, onder Spenrenmachere, zu <rs type="place" ref="#gulich"
-                        >Gulich</rs>, naest <rs type="person" ref="#souderman_d">D. SOUDERMAN</rs>,
-                    inde huysinghe vanden Burghemeester <rs type="person" ref="#pijl_buergermeister"
-                        >PIJLL</rs>. Ick wete wel dat dese tijdinghe Uwer Eer. vrempt om hooren sal
+                    opgheschrift luyt soo volcht: Ten huyse van <rs type="person" ref="../register/register-person.xml#rubens_d">D.
+                        RUEBENS</rs>, onder Spenrenmachere, zu <rs type="place" ref="../register/register-place.xml#gulich">Gulich</rs>, naest <rs type="person" ref="../register/register-person.xml#souderman_d">D. SOUDERMAN</rs>,
+                    inde huysinghe vanden Burghemeester <rs type="person" ref="../register/register-person.xml#pijl_buergermeister">PIJLL</rs>. Ick wete wel dat dese tijdinghe Uwer Eer. vrempt om hooren sal
                     sijn, maer ick wil noch een ander schrijven daer Uwer E. haer oock in verblijden
                     sal. Dat is, dat JOACHIM ghisteren heeft beghost openbaerlick te lesen inde
                     groot schole vande juristen, titulum: inst. de fidejussoribus. Hij quyt hem seer
@@ -144,7 +136,7 @@
                     sin toe. Daer schijnt oock niet veel aen te ligghen, als men deur dese lessen
                     weet dat hij gheleert ghenouch is, ende pretenderende de Stat te dienen, en
                     soude daarom gheen vordeel hebben. In eenen noot, kant hij dat te Douay oft in
-                        <rs type="place" ref="#frankreich">Vranckerijck</rs> doen sonder grooten
+                        <rs type="place" ref="../register/register-place.xml#frankreich">Vranckerijck</rs> doen sonder grooten
                     cost. Belanghende voorder de sake van sijn houwelijck. Uwer Eer. sal duncken dat
                     hij noch te jonck is, ende behoorde te voren de practique ende Franchois ghesien
                     ende gheleert te hebden, maer als hij totten dienst vander Stat soude verstaen,
@@ -153,7 +145,7 @@
                     de sonen vroech besteden. Hij heeft een ghesont dispost lichaem, het waer jammer
                     dat bedorven wert, soo lichtelijck soude gheschieden oft mueghelick deur diverse
                     oorsaken quader comen moecht, als hy niet houwende hier bleef oft voorder in
-                    Vranckerijck oft <rs type="place" ref="#italien">Italien</rs> (soo de jonghe
+                    Vranckerijck oft <rs type="place" ref="../register/register-place.xml#italien">Italien</rs> (soo de jonghe
                     mans al reysen willen) vertrock. Oock soo is Uwer Eer. oudt; soo oock sijn
                     grootvader ende grootmoeder ende sijne moeder weeck. Uwer Eer. behoorden seer te
                     begheren hem ende allen dander binnen uwen leven te besteden, soo om hen beter
@@ -179,11 +171,9 @@
                     ende secreten vanden lande ende stadt, ende uwe pampieren ende memorien
                     oversiene, ende hem fatsonere, om, als Uwer Eer. sal willen rusten, uwen staet
                     te bedienen. Maer dit moet voer ghaen, men moet het ijser smeden te wijle dat
-                    werm is. Belieft Uwer Eer. na de dochter te vernemen, daer is des griffiers <rs
-                        type="person" ref="#martini_willem">MARTINI</rs> huysvrouwe, dije kentse
-                    wel; sij heeft den voerleden somer <rs type="place" ref="#antwerpen"
-                        >tHantwerpen</rs> bij haer gheweest. Ick en weet niet voorder dan JOACHIM
-                    mij en seet ende opgheeft ende <rs type="person" ref="#aricon">ARICON</rs> oock.
+                    werm is. Belieft Uwer Eer. na de dochter te vernemen, daer is des griffiers <rs type="person" ref="../register/register-person.xml#martini_willem">MARTINI</rs> huysvrouwe, dije kentse
+                    wel; sij heeft den voerleden somer <rs type="place" ref="../register/register-place.xml#antwerpen">tHantwerpen</rs> bij haer gheweest. Ick en weet niet voorder dan JOACHIM
+                    mij en seet ende opgheeft ende <rs type="person" ref="../register/register-person.xml#aricon">ARICON</rs> oock.
                     Ick en hebbe de dochter niet ghesien ende en weet anders niet te raden dan dat
                     niet dan goet en is, dat hij wel houdt, ende dat Uwer Eer. hem daertoe helpe,
                     ende in allen gheval providere van gelt, om hier te betalen dat hij schuldich is
@@ -194,9 +184,8 @@
                     hertelijck aen Uwer Eer. goede gracien ende bidde Godt dat hij ten besten rade
                     ende leere dese ende allen syne ende uwe saken. </p>
                 <closer>Gheschreven, <dateline>den <date when="1579-02-18">18 Februarij
-                        1579</date></dateline> in <placeName><rs type="place" ref="#koeln"
-                            >Cuelen</rs>.</placeName><salute>Uwer Eer. dienaer ende neve,
-                            </salute><signed><rs type="person" ref="#rubens_jan">J.
+                        1579</date></dateline> in <placeName><rs type="place" ref="../register/register-place.xml#koeln">Cuelen</rs>.</placeName><salute>Uwer Eer. dienaer ende neve,
+                            </salute><signed><rs type="person" ref="../register/register-person.xml#rubens_jan">J.
                         RUEBENS.</rs></signed></closer>
             </div>
         </body>

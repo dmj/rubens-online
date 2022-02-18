@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_122">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_122"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-511">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -45,8 +44,7 @@
                             <filiation>
                                 <note resp="A.H." type="footnote">Jacques van Ephem, Peeter von Oostendorp und
                                     Johann Wielant legten noch ein weiteres Schulbekenntnis über 8000 Gulden
-                                    gegenüber Peter Paul Rubens ab. Vgl. dieses Dokument vom <ref type="rubens"
-                                        cRef="ed_rubens_123">4. Juli 1614</ref>.</note>
+                                    gegenüber Peter Paul Rubens ab. Vgl. dieses Dokument vom <ref type="rubens" cRef="ed_rubens_123">4. Juli 1614</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -70,23 +68,23 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Joncker <rs type="person" ref="#ephem_jacques">Jacques van Ephem</rs>, generael
+                <p> Joncker <rs type="person" ref="../register/register-person.xml#ephem_jacques">Jacques van Ephem</rs>, generael
                     van de licenten van henne Hoocheden bynnen dese stadt<index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
-                    </index> ende Joncker <rs type="person" ref="#oostendorp_peeter">Peeter van
+                    </index> ende Joncker <rs type="person" ref="../register/register-person.xml#oostendorp_peeter">Peeter van
                         Oostendorp</rs>, beyde voor henselven ende voorts in den name ende
-                    vervangende Jonker <rs type="person" ref="#wielant_johann">Jehan Wielant</rs>,
-                    baillu der stede ende lande van <rs type="place" ref="#goere">Goere</rs>, dat
-                    men noempt <rs type="place" ref="#westvoers">Westvoers</rs>, bekenden dat zij
+                    vervangende Jonker <rs type="person" ref="../register/register-person.xml#wielant_johann">Jehan Wielant</rs>,
+                    baillu der stede ende lande van <rs type="place" ref="../register/register-place.xml#goere">Goere</rs>, dat
+                    men noempt <rs type="place" ref="../register/register-place.xml#westvoers">Westvoers</rs>, bekenden dat zij
                     ende de voors. J<hi rend="super">o</hi> Jehan Wielant schuldich zijn ieder
                     rechtveerdiger schuldt S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> de somme
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs> de somme
                     van eenduysent guldenen eens van twintich stuyvers Brabants stuck toecommende,
                     toecommend ter causen van gelijcke somme die van voors. Ruebens hen goetgedaen
                     ende voldaen heeft. welcke voors. somme van eenduysent guldenen teprijsen
                     voors., hebben de voors. comparanten geloeft ende geloeffden midts desen dat zij
                     ende voors. J<hi rend="super">o</hi>
-                    <rs type="person" ref="#wielant_johann">Johan Wielant</rs> wel ende vocommelijck
+                    <rs type="person" ref="../register/register-person.xml#wielant_johann">Johan Wielant</rs> wel ende vocommelijck
                     ende elck een voor al, als principael ende sonder divisie opleggen ende voldoen
                     selen, aende voors. Pietro Paulo Ruebens, oft den brengere deser brieven, in
                     dese navolgende manieren, te weten bynnen zesse maenden naest commende, nu
@@ -97,9 +95,7 @@
                         <date when="1616-07-03">derden July inden jare XVI<hi rend="super">c</hi>
                         ende zesthien</date>, sonder eenich uutatel oft dilay, verbinden daervore
                     ende te pande setten, alzulcke drij mael tweentzeventich ende eenhalft gemeten
-                    lants, gelegen inden bedijcten noortlande van <rs type="place" ref="#santvliet"
-                        >Santvliet</rs>; zoe ende gelijck zij comparanten ende de voors. Joncker <rs
-                        type="person" ref="#wielant_johann">Janne Wielant</rs>, elcken van hen de
+                    lants, gelegen inden bedijcten noortlande van <rs type="place" ref="../register/register-place.xml#santvliet">Santvliet</rs>; zoe ende gelijck zij comparanten ende de voors. Joncker <rs type="person" ref="../register/register-person.xml#wielant_johann">Janne Wielant</rs>, elcken van hen de
                     tweentzeventich ende een halft gemeten lants daeraff volgende de cavelingen last
                     gemaect, te deele bevallen zijn ende hen dyenvolgende zijn competerende, metten
                     vruchten, baten ende emolumenten daeraff te procederen, ende voordane hen selven
@@ -124,10 +120,9 @@
                     voorts ende machtich makend zij comparanten <gap reason="illegible"/> 
                     <span from="" xml:lang="lat">pariter et infelidum</span>, omme
                     van hennentwegen te gaen ende te compareren voort wethouders van Santvliet,
-                    voorschreven ende alomme elders daert van noode wese ende de voors. S<hi
-                        rend="super">r</hi> Pietro Paulo Ruebens begeven sal ende alene ’tgene
+                    voorschreven ende alomme elders daert van noode wese ende de voors. S<hi rend="super">r</hi> Pietro Paulo Ruebens begeven sal ende alene ’tgene
                     verstgreven is te vernyewen ende ander werven te passeren ende hen ende elcken
-                    van hen in’t <rs type="place" ref="#puderhout">Puderhout</rs> van dyen
+                    van hen in’t <rs type="place" ref="../register/register-place.xml#puderhout">Puderhout</rs> van dyen
                     vonnisselijc te doen ende laten condemneren. Ende voorts etc. alwaert etc.
                     gelovende etc. Geloven voorts zij comparanten dat zij theure verstgreven is
                     bijden voors. J<hi rend="super">o</hi> Johan Wielant selen wettlijck doen

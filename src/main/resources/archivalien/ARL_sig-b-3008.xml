@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_239">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_239"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-3008">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -39,13 +39,12 @@
                     </head>
                     <msContents>
                         <msItem>
-                            <locus></locus>
+                            <locus/>
                             <title>P</title>
                             <filiation>
                                 <note resp="A.H." type="footnote">Zur Bezahlung der Bilder für den Landsitz El Pardo
                                     Vgl. auch die Akten vom <ref type="rubens" cRef="ed_rubens_231">9. Dezember
-                                        1636</ref> sowie Eintragungen über eine weitere Zahlung aus dem Jahr <ref
-                                            type="rubens" cRef="ed_rubens_235">1637</ref>.</note>
+                                        1636</ref> sowie Eintragungen über eine weitere Zahlung aus dem Jahr <ref type="rubens" cRef="ed_rubens_235">1637</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -74,16 +73,14 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p>3000 livres dudit prix à <rs type="person" ref="#rubens_peter_paul">Pierre-Paul
-                        Rubens</rs>, chevalier, etc. en une lettre de descharge levée sur <rs
-                        type="person" ref="#philipp_iv_spanien">Philippe</rs> Le Roi<index
-                        indexName="psw">
+                <p>3000 livres dudit prix à <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul
+                        Rubens</rs>, chevalier, etc. en une lettre de descharge levée sur <rs type="person" ref="../register/register-person.xml#philipp_iv_spanien">Philippe</rs> Le Roi<index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
                     </index>, recepveur des licentes en Anvers, de 12000 pareilles livres que Son
                     Altèze, par son ordonnance du <date when="1637-11-27">27<hi rend="super">e</hi> de
                         novembre 1637</date>, at ordonné luy estre furniz et que luy restent deuz
                     pour les painctures par luy faictes par ordre de sadicte Altèze pour l’ornement
-                    de sa maison de plaisance à <rs type="work" ref="#torre_parada">Prado</rs><index indexName="stw">
+                    de sa maison de plaisance à <rs type="work" ref="../register/register-work.xml#torre_parada">Prado</rs><index indexName="stw">
                         <term type="GKD" xml:lang="spa">Madrid<index indexName="stw"><term xml:lang="spa">Palacio Real</term></index></term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="spa">El Pardo</term>
@@ -93,18 +90,14 @@
                     promptement et les restans trois quarts de trois en trois mois desdits licentes
                     d’Anvers, se faisant ce présent payement pour ledit quart à payer promptement,
                     ayant encor receu au mesme effect la somme de 10000 pareilles livres par ladite
-                    ordonnance de <measure type="currency" quantity="12000">XII<hi rend="super"
-                    >m</hi></measure> livres et quictance y servante, ladicte somme de 3000
+                    ordonnance de <measure type="currency" quantity="12000">XII<hi rend="super">m</hi></measure> livres et quictance y servante, ladicte somme de 3000
                         livres.</p><note resp="A.H." type="footnote">Zu den Zahlungen vergleiche <bibl>Svetlana Alpers: The
                             Decorations of the Torre de la Parada (Corpus Rubenianum Ludwig
-                            Burchard. Bd. 9). Brüssel 1971. S. 280-288<ptr type="opac"
-                                cRef="125032544"/></bibl></note>
+                            Burchard. Bd. 9). Brüssel 1971. S. 280-288<ptr type="opac" cRef="125032544"/></bibl></note>
                    
-                    <note type="contemporary" place="margin">par ordonnance de la somme de <measure
-                            type="currency" quantity="12000">XII<hi rend="super">m</hi></measure>
+                    <note type="contemporary" place="margin">par ordonnance de la somme de <measure type="currency" quantity="12000">XII<hi rend="super">m</hi></measure>
                         livres en date du <date when="1637-11-27">27<hi rend="super">e</hi> novembre
-                            1637</date> et la quictanxe de <measure type="currency" quantity="3000"
-                                >III<hi rend="super">m</hi> livres</measure>.</note>
+                            1637</date> et la quictanxe de <measure type="currency" quantity="3000">III<hi rend="super">m</hi> livres</measure>.</note>
                
             </div>
         </body>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_145">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_145"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-530-222">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -47,8 +46,7 @@
                         <msItem>
                             <filiation>
                                 <note resp="A.H." type="footnote">Rubens bestätigte den Erhalt einer Rente über 300
-                                Gulden auf das Anwesen bei Kipdorp am <ref type="rubens" cRef="ed_rubens_161"
-                                    >29. April 1622</ref>.</note>
+                                Gulden auf das Anwesen bei Kipdorp am <ref type="rubens" cRef="ed_rubens_161">29. April 1622</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -76,16 +74,15 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#haze_jan">Jan de Haze</rs>, Janssons wijlen vercocht
+                    <rs type="person" ref="../register/register-person.xml#haze_jan">Jan de Haze</rs>, Janssons wijlen vercocht
                     omme een somme gelts die hem al ende wel is vergouden S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>, schildere
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs>, schildere
                     van hunne Hoocheden, tsiaers erffelijck drijhondert guldenen van 20 stuyvers te
                     drij penningen ’tstuck goets ganckbaers ende gepermitteerts gelts ten dage van
                     elcker betalinge, jaerlijcker ende erffelijcker renten, ierst op eenen
                     hoveniershoft groot vier bunderen eenendertich roeden ende vierentzeventich
                     voeten die eertijts twee hovniers hoven ende een stuck lants geweest ist, metten
-                    gronde ende allen den toebehoorten, gelegen buyten dese stadt<index
-                        indexName="gsw">
+                    gronde ende allen den toebehoorten, gelegen buyten dese stadt<index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
                     </index>, tusschen de Kipdorp ende Roode Poorte, aldaer tusschen sekere twee
                     hoveniershoven eertijds raemhoven geweest zijnde aenden Dambrugschen Steenwech
@@ -94,8 +91,7 @@
                     achter costwaert aen des Heeren Strate, gelgen tusschen den Rooden Moelen ende
                     d’erve van den Moelen genempt De Fortuyne welcken hoveniershoff bij comferant of
                     den <date when="1617-03-22">22 Marty anno XVI<hi rend="super">c</hi> ende
-                        seventhien</date> getransporteert hebben aen <rs type="person"
-                        ref="#a_adrisen">Adrisen van A.</rs> hovenier, heeft deselve Adriaen opten
+                        seventhien</date> getransporteert hebben aen <rs type="person" ref="../register/register-person.xml#a_adrisen">Adrisen van A.</rs> hovenier, heeft deselve Adriaen opten
                         <date when="1618-10-26">26<hi rend="super">sten</hi> dach deser maendt
                         Octobris</date> verclaert, t’ voors. transport maer simulaet geweest te
                     zijn, ende dyen volgende hem comparant den selven hoveniershoff weeromme
@@ -103,14 +99,9 @@
                     toebehoorten geheeten De Broetgans<index indexName="stw">
                         <term xml:lang="nld">de Broetgans</term>
                     </index> gestaen ende gelegen in de Appelstrate alhier, daer inne hij comparant
-                    opten <date when="1606-12-09">negensten dach Decembris anno XVI<hi
-                            rend="super">c</hi> ende zesse</date> bij <rs type="person"
-                        ref="#wouters_peeter">Peeter Wouters</rs> notaris, als gemechticht van <rs
-                        type="person" ref="#bardoul_boudewijn">Boudewijn Bardoul</rs> ende <rs
-                        type="person" ref="#haze_johanne">Johanne de Haze</rs> zijne huysvroiuwe,
+                    opten <date when="1606-12-09">negensten dach Decembris anno XVI<hi rend="super">c</hi> ende zesse</date> bij <rs type="person" ref="../register/register-person.xml#wouters_peeter">Peeter Wouters</rs> notaris, als gemechticht van <rs type="person" ref="../register/register-person.xml#bardoul_boudewijn">Boudewijn Bardoul</rs> ende <rs type="person" ref="../register/register-person.xml#haze_johanne">Johanne de Haze</rs> zijne huysvroiuwe,
                     gegoeyt ende geerft is al prout litteras daeraff zijnde <span from="" xml:lang="lat">et ulterius super se et
-                        sua</span> quejaer rente vallen ende verschijnen sal den <date when="1619-10-27"
-                            >27<hi rend="super">sten</hi> dach Octobris anno XVI<hi rend="super">c</hi>
+                        sua</span> quejaer rente vallen ende verschijnen sal den <date when="1619-10-27">27<hi rend="super">sten</hi> dach Octobris anno XVI<hi rend="super">c</hi>
                         ende negenthien</date>, te waerne op twaelff schellingen Brabants erffelijck
                     grontchijs den heyligen geeste tsint Willeborts buyten dese stadt. Item
                     achtentwintich schellingen zesse penningen Brabants erffelijck grontchijs den
@@ -119,7 +110,7 @@
                     </index> alhier ende veerthien vierteln zeyn erffelijck ook gronchijs utten
                     hoveniers hove. Item drij schellingen Brabants erffelijck over eenen chijagulden
                     aen de Witsusters alhier ende tweentzestich guldes ende thien stuyvers
-                    erffelijck <rs type="person" ref="#terbeke_maria">Marien Terbeke</rs>, dienen
+                    erffelijck <rs type="person" ref="../register/register-person.xml#terbeke_maria">Marien Terbeke</rs>, dienen
                     heet Caesvelt utten voors. huyse de Broetgans jaerlijcks voren gaende prout
                     litteras ende anders nyet samen <span from="" xml:lang="lat">quod ipse aut sui quitabunt ad plurimum</span>,
                     teenemale elcken penning daeraff altijt met zesthien penningen goete ganckbaers

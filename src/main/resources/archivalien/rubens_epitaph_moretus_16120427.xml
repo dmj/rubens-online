@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_111">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_111"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="rubens_epitaph_moretus_16120427">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -76,11 +75,8 @@
         <body>
             <div part="Y" xml:lang="nld">
                 <p> Ic onderscreven bekenne ontfanghen te hebben van S<hi rend="super">r</hi>
-                    <rs type="person" ref="#moretus_balthasar">Balthasar Moretus</rs> de somme van
-                    seshondert guldens eens tot betalinghe van syn vaders<note resp="A.H."
-                        type="footnote">Der 1610 verstorbene <rs type="person" ref="#moretus_jan"
-                            >Jan Moretus</rs>.</note> saligher <rs type="work" ref="#jaffe_167"
-                        >epitaphium</rs><index indexName="stw">
+                    <rs type="person" ref="../register/register-person.xml#moretus_balthasar">Balthasar Moretus</rs> de somme van
+                    seshondert guldens eens tot betalinghe van syn vaders<note resp="A.H." type="footnote">Der 1610 verstorbene <rs type="person" ref="../register/register-person.xml#moretus_jan">Jan Moretus</rs>.</note> saligher <rs type="work" ref="../register/register-work.xml#jaffe_167">epitaphium</rs><index indexName="stw">
                         <term xml:lang="deu">Auferstehung</term>
                     </index><note resp="A.H." type="footnote">Das Tryptichon mit der Auferstehung
                         Christi befindet sich in der Liebfrauenkathedrale zu Antwerpen. Vgl.
@@ -90,7 +86,7 @@
                     <closer>
                         <dateline>Tot bevestinghe der waerheyt hebbe des quittantie met mijn handt
                         ghescreven en onderteekent desen <date when="1612-04-27">27 aprill 1612</date>.</dateline><lb/>
-                        <signed><rs type="person" ref="#rubens_peter_paul">Pietro Pauolo Rubens.</rs></signed>
+                        <signed><rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Pauolo Rubens.</rs></signed>
                     </closer>
             </div>
         </body>

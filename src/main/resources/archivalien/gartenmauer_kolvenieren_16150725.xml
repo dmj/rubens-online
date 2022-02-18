@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
-    xml:id="ed_rubens_132">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_132"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Rubens errichtet eine Gartenmauer zu den benachbarten Kolvenieren, <date when="1615-07-25"
-                        >25. Juli 1615</date></title>
+                <title>Rubens errichtet eine Gartenmauer zu den benachbarten Kolvenieren, <date when="1615-07-25">25. Juli 1615</date></title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -22,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="gartenmauer_kolvenieren_16150725">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -72,15 +69,13 @@
                 <p>
                     <table>
                         <row>
-                            <cell>Item betaelt aen <rs type="person" ref="#vos_andries">Andries de
+                            <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#vos_andries">Andries de
                                     Vos</rs>, voor 323 potten biers aldaer gedroncken by de
-                                arbeyders in ’t maeken van de muer ende huysken, daer aff S<hi
-                                    rend="super">r</hi>
-                                <rs type="person" ref="#rubens_peter_paul">Rubbens</rs> de helft van
+                                arbeyders in ’t maeken van de muer ende huysken, daer aff S<hi rend="super">r</hi>
+                                <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubbens</rs> de helft van
                                 het bier moet gelden in respecte van de muer en voorders nyet, ’t
                                 samen bedragende volgens de twee kerven gespecifieerd N° 33</cell>
-                            <cell><measure type="currency" quantity="40">xl</measure> gl. <measure
-                                    type="currency" quantity="2">ij</measure> st.</cell>
+                            <cell><measure type="currency" quantity="40">xl</measure> gl. <measure type="currency" quantity="2">ij</measure> st.</cell>
                         </row>
                         <row>
                             <cell>Item betaelt de erffscheyders voort meten van den nieuwen
@@ -90,8 +85,7 @@
                             st</cell>
                         </row>
                         <row>
-                            <cell>Item 1615 compt <rs type="person" ref="#craeyer_franchoys"
-                                    >Franchoys De Craeyer</rs> voort opmaeken vanden muer boven den
+                            <cell>Item 1615 compt <rs type="person" ref="../register/register-person.xml#craeyer_franchoys">Franchoys De Craeyer</rs> voort opmaeken vanden muer boven den
                                 accoirde met hem aengegaen aengaende synen frydom</cell>
                             <cell><measure type="currency" quantity="149">j<hi rend="super">c</hi>
                                     xlix</measure> gl. – st.</cell>

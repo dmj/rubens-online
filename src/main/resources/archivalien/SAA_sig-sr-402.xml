@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_069">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_069"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-402">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -51,8 +50,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                            bloedverwanten. Antwerpen 1877, S. 329f.<ptr type="gbv" cRef="146162595"
-                            /></bibl>
+                            bloedverwanten. Antwerpen 1877, S. 329f.<ptr type="gbv" cRef="146162595"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -71,37 +69,30 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Jouffrouwe <rs type="person" ref="#pypelincx_maria">Maria Pypelincx</rs>, <rs
-                        type="person" ref="#pypelincx_hendrick">Henricx</rs> dochtere wijlen, daer
-                    moeder aff was jouffrouwe <rs type="person" ref="#touion_clara">Clara
-                    Colyns</rs>, weduwe wijlen Meester <rs type="person" ref="#rubens_jan">Jans
+                <p> Jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Maria Pypelincx</rs>, <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henricx</rs> dochtere wijlen, daer
+                    moeder aff was jouffrouwe <rs type="person" ref="../register/register-person.xml#touion_clara">Clara
+                    Colyns</rs>, weduwe wijlen Meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jans
                     Rubbens</rs>, Scepene deser stadt geweest zijnde, <span from="" xml:lang="lat">cum tutore</span>, 
                     vercocht ende
                     liet affquyten den momboiren ende tot behoeff vande wettigen kinderen wijlen
-                    Meester <rs type="person" ref="#gavarelles_jan">Jans de Gaverelles</rs>, daer
-                    moeder aff was jouffrouwe <rs type="person" ref="#struyve_johanna">Johanna
+                    Meester <rs type="person" ref="../register/register-person.xml#gavarelles_jan">Jans de Gaverelles</rs>, daer
+                    moeder aff was jouffrouwe <rs type="person" ref="../register/register-person.xml#struyve_johanna">Johanna
                         Struyve</rs>, die sevenendertich Carolus guldenen ende thien stuvers
                     erfflijck, metten achterstelle daeraff gevallen ende verschenen, die de voors.
-                    Meester <rs type="person" ref="#gavarelles_jan">Jan van Gaverelles</rs>,
-                    Greffier vande Lakenhalle alhier, <span from="" xml:lang="lat">cum suis</span>, opden <date when="1521-05-31"
-                        >lesten May anno XV<hi rend="super">c</hi> ende eenentzeventich</date>
-                    vercocht hebben gehadt <rs type="person" ref="#pypelincx_hendrick">Henricken
+                    Meester <rs type="person" ref="../register/register-person.xml#gavarelles_jan">Jan van Gaverelles</rs>,
+                    Greffier vande Lakenhalle alhier, <span from="" xml:lang="lat">cum suis</span>, opden <date when="1521-05-31">lesten May anno XV<hi rend="super">c</hi> ende eenentzeventich</date>
+                    vercocht hebben gehadt <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henricken
                         Pypelinck</rs> ende jouffrouwe Clara Colyns, zijn huysvrouwe, ierst op een
                     stede met huyse, hove, lande, <span from="" xml:lang="lat">fundo et pertinentiis</span>, groot drije vierendeel
-                    bunders, gestaen ende gelegen tot <rs type="place" ref="#edegem">Edeghem</rs>,
-                    inden Elst, tusschen sHeerenstraete, oost- ende zuytwaert, ende <rs
-                        type="person" ref="#verbert_jan">Jans Verbert</rs> erve, westwaert, item op
+                    bunders, gestaen ende gelegen tot <rs type="place" ref="../register/register-place.xml#edegem">Edeghem</rs>,
+                    inden Elst, tusschen sHeerenstraete, oost- ende zuytwaert, ende <rs type="person" ref="../register/register-person.xml#verbert_jan">Jans Verbert</rs> erve, westwaert, item op
                     noch een stuck lants <span from="" xml:lang="lat">cum fundo et pertinentiis</span>, geheeten nu ter tijt tGroot
                     halff Bunder, gelegen tEdegem voors. opt Hoochvelt, groot een halff bunder, item
                     op noch een vierendeel lants metter schueren daerop staende, <span from="" xml:lang="lat">fundo et
-                    pertinentiis</span>, gelegen inde prochie van <rs type="place" ref="#edegem"
-                    >Edinghen</rs>, tusschen der Heeren van <rs type="corporate"
-                        ref="#pitzenborch_mechelen">Pitzenborch</rs> erve, ende op noch een halff
-                    bunder lants <span from="" xml:lang="lat">cum fundo et pertinentiis</span>, gelegen tEdegem voors., tusschen <rs
-                        type="person" ref="#maes_anthonis">Anthonis Maes</rs> erve, oostwaert, ende
-                        <rs type="person" ref="#persant_jan">Jans Persants</rs> erve, westwaert,
-                    comende, noortwaert, aen des Goidshuys van <rs type="corporate"
-                        ref="#antwerpen_abtei_st_michiels">Sinte Michiels</rs> erve, verschijnende
+                    pertinentiis</span>, gelegen inde prochie van <rs type="place" ref="../register/register-place.xml#edegem">Edinghen</rs>, tusschen der Heeren van <rs type="corporate" ref="../register/register-corporate.xml#pitzenborch_mechelen">Pitzenborch</rs> erve, ende op noch een halff
+                    bunder lants <span from="" xml:lang="lat">cum fundo et pertinentiis</span>, gelegen tEdegem voors., tusschen <rs type="person" ref="../register/register-person.xml#maes_anthonis">Anthonis Maes</rs> erve, oostwaert, ende
+                        <rs type="person" ref="../register/register-person.xml#persant_jan">Jans Persants</rs> erve, westwaert,
+                    comende, noortwaert, aen des Goidshuys van <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Sinte Michiels</rs> erve, verschijnende
                     jaerlijcx <date when="--06-01">1<hi rend="super">a</hi> Junij</date>, al prout
                     <span from="" xml:lang="lat">litteræ quas tradidit</span> ende welcke rente haer comparante toecomen bleven ende
                     verstorven is vanden voors. hueren vadere ende moedere ende die haer, onder

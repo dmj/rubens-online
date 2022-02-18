@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_193">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_193"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ernennung_staatsrat_antwort_isabella_16290517">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -47,8 +46,7 @@
                         <msItem>
                            <filiation>
                             <note resp="A.H." type="footnote">Vgl. hierzu die beiden Akten über die Ernennung
-                                Rubens'' vom 27. April 1629. Gachard kopierte sie im <ref type="rubens"
-                                    cRef="ed_rubens_191">Archives générales du Royaume, Brüssel (AGBR)</ref> und
+                                Rubens'' vom 27. April 1629. Gachard kopierte sie im <ref type="rubens" cRef="ed_rubens_191">Archives générales du Royaume, Brüssel (AGBR)</ref> und
                                 <ref type="rubens" cRef="ed_rubens_192"> im Staatsarchiv in Simancas</ref>.</note>
                             </filiation>
                         </msItem>
@@ -94,18 +92,14 @@
             <div part="Y" xml:lang="spa">
                 <p>La carta de V. M<hi rend="super">d</hi><index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
-                    </index> de <date when="1629-04-27">27 del passado</date> he recivido con <rs
-                        type="person" ref="#rubens_peter_paul">Pedro Pablo Rubens</rs>, y en la
-                    conformidad que me manda V. M<hi rend="super">d</hi>, partirá luego para <rs
-                        type="place" ref="#england">Inglaterra</rs> á tratar lo de la suspension de
+                    </index> de <date when="1629-04-27">27 del passado</date> he recivido con <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Pablo Rubens</rs>, y en la
+                    conformidad que me manda V. M<hi rend="super">d</hi>, partirá luego para <rs type="place" ref="../register/register-place.xml#england">Inglaterra</rs> á tratar lo de la suspension de
                         armas<index indexName="stw"><term xml:lang="deu">Waffenstillstand</term>
                     </index><index indexName="stw"><term xml:lang="deu">Friedensverhandlungen</term>
-                    </index> entre la corona de V. M<hi rend="super">d</hi> y aquella<index
-                        indexName="psw"><term type="PND">Charles (England, King, I.) </term>
+                    </index> entre la corona de V. M<hi rend="super">d</hi> y aquella<index indexName="psw"><term type="PND">Charles (England, King, I.) </term>
                     </index><index indexName="psw"><term type="PND">Karl (England, König, I.)</term>
                     </index>. Y no lleva órden para tratar de incluir en ella á Olandeses, porque el
-                    comis Juan Khesseler está platicando de la tregua con ellos en <rs type="place"
-                        ref="#roosendaal">Rossendal</rs>, y hasta agora pareze que ay alguna
+                    comis Juan Khesseler está platicando de la tregua con ellos en <rs type="place" ref="../register/register-place.xml#roosendaal">Rossendal</rs>, y hasta agora pareze que ay alguna
                     aparencia: pero con lo que he dispuesto y ordenado, se verá presto su intencion
                     y inclinacion, de que daré quenta á V. M<hi rend="super">d</hi>. Y si acaso se
                     rompiere la plática que Khesseler trae con ellos y no se viere aparecia de
@@ -115,7 +109,7 @@
                     embiare. Y yo he dado á Rubens las instruciones convinientes, conforme á la
                     mente de V. M<hi rend="super">d</hi>.</p>
                 <closer>
-                    <dateline>De <rs type="place" ref="#bruessel">Brusselas</rs>, á <date when="1629-05-17">17 de mayo de 1629</date>.</dateline>
+                    <dateline>De <rs type="place" ref="../register/register-place.xml#bruessel">Brusselas</rs>, á <date when="1629-05-17">17 de mayo de 1629</date>.</dateline>
                 </closer>
             </div>
         </body>
@@ -126,12 +120,10 @@
                 <head>Übersetzung:</head>
                 <p>Den Brief Euer Majestät vom <date when="1629-04-27">27. letzten Monats</date>
                     habe ich mit Pedro Pablo Rubens bekommen und in Übereinstimmung mit dem Befehl
-                    von Euer Majestät wird er gleich Richtung <rs type="place" ref="#england"
-                        >England</rs> abreisen, um über den Waffenstillstand zwischen der Kronen
+                    von Euer Majestät wird er gleich Richtung <rs type="place" ref="../register/register-place.xml#england">England</rs> abreisen, um über den Waffenstillstand zwischen der Kronen
                     Euer Majestät und der englischen Krone zu verhandeln. Und er trägt nicht den
                     Befehl, die Holländer darin einzuschließen, denn der Kommissar Jan Khesseler
-                    bespricht bereits die Waffenruhe mit ihnen in <rs type="place" ref="#roosendaal"
-                        >Roosendaal</rs>, und bis jetzt scheint es einige Fortschritte zu geben.
+                    bespricht bereits die Waffenruhe mit ihnen in <rs type="place" ref="../register/register-place.xml#roosendaal">Roosendaal</rs>, und bis jetzt scheint es einige Fortschritte zu geben.
                     Aber nachdem was ich angeordnet und befohlen habe, wird man schnell ihre Absicht
                     und die Tendenz sehen, über die ich Euer Majestät berichten werde. Und für den
                     Fall, daß die Verhandlung zwischen Khesseler und den Holländern scheitert und
@@ -141,7 +133,7 @@
                     ihn dann rechtzeitig erreicht. Und ich habe Rubens die passenden Instruktionen
                     in Übereinstimmung mit der Meinung Ihrer Majestät gegeben.<lb/></p>
                     <closer>
-                        <dateline><rs type="place" ref="#bruessel">Brüssel</rs>, den <date when="1629-05-17">17.
+                        <dateline><rs type="place" ref="../register/register-place.xml#bruessel">Brüssel</rs>, den <date when="1629-05-17">17.
                         Mai 1629</date></dateline>
                     </closer>
                 

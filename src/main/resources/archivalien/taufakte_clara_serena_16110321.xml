@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_014">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_014"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="taufakte_clara_serena_16110321">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -46,8 +45,7 @@
                         bloedverwanten</bibl></source></recordHist></adminInfo>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877 S. 414<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                zijne bloedverwanten. Antwerpen 1877 S. 414<ptr type="gbv" cRef="146162595"/></bibl>
                         </listBibl>
                     </additional></msDesc>
             </sourceDesc>
@@ -66,13 +64,13 @@
             <div part="Y" xml:lang="lat">
                 <p>
                     <date when="1611-03-21">21 Martius A<hi rend="super">o</hi> 1611</date><lb/>
-                    Infans: <rs type="person" ref="#rubens_clara_serena">
+                    Infans: <rs type="person" ref="../register/register-person.xml#rubens_clara_serena">
                         <hi rend="smallCaps">Clara</hi> <hi rend="smallCaps">Sere</hi><hi rend="super">na</hi></rs>.<lb/> 
-                    Parentes: S<hi rend="super">r</hi> <rs type="person" ref="#rubens_peter_paul"><hi rend="smallCaps">Petrus
-                        Paulus</hi> RUBENS</rs>; <rs type="person" ref="#brant_isabella">
+                    Parentes: S<hi rend="super">r</hi> <rs type="person" ref="../register/register-person.xml#rubens_peter_paul"><hi rend="smallCaps">Petrus
+                        Paulus</hi> RUBENS</rs>; <rs type="person" ref="../register/register-person.xml#brant_isabella">
                         <hi rend="smallCaps">Isabella</hi>
-                    </rs>. <lb/> Susceptores: <rs type="person" ref="#rubens_philipp">Philippus
-                        RUBENS</rs>, <rs type="person" ref="#moy_clara"><hi rend="smallCaps">Clara
+                    </rs>. <lb/> Susceptores: <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philippus
+                        RUBENS</rs>, <rs type="person" ref="../register/register-person.xml#moy_clara"><hi rend="smallCaps">Clara
                             de</hi> MOY</rs>. </p>
             </div>
         </body>

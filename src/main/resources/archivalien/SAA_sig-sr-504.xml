@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_113">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_113"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-504">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -64,13 +63,12 @@
     </teiHeader>
     <text>
         <body>
-            <div  xml:lang="nld">
+            <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#doncker_melchior">Melchior Doncker</rs> ende Jouff<hi
-                        rend="super">vr</hi>. <rs type="person" ref="#veltwijck_anne">Anne van
+                    <rs type="person" ref="../register/register-person.xml#doncker_melchior">Melchior Doncker</rs> ende Jouff<hi rend="super">vr</hi>. <rs type="person" ref="../register/register-person.xml#veltwijck_anne">Anne van
                         Veltwijck</rs>, zijne wettige huysvrouwe verkochten omme eene somme gelts,
                     die hen al ende wel is vergouden S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>, schilder
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs>, schilder
                     van henne hoocheden, tsjaers erffelijcke een hondert ende vijftich guldenen van
                     twintich stuvers te drij grooten Brabants tstuck gelts, ganckbaers ende
                     gepermittierts gelts, jaerlijcke ende erffelijcke renten op een huys voor aen
@@ -93,38 +91,30 @@
                     plaetse van ’tburgshuys, met noch eenen hoft communiceerende achter derve van
                     den Groenen Ridder voors. dwelck voors. achterhuys ende hoft nu gebueckt ende
                     geappliceert is totte voors. huyse ende erve, geheeten Den Gulden Rinck. Gelijck
-                    ende in alle de manieren zij comparanten des voors. huysen opten <date
-                        when="1603-01-07">7<hi rend="super">den</hi> dach January anno 1600 ende
-                        drij</date> van <rs type="person" ref="#pierone_appolonia">Appolonia oft
-                        Pierone Moreau</rs>, weduwe wijlen <rs type="person"
-                            ref="#bacheler_michiels">Michiels Bacheler</rs>, <span from="" xml:lang="lat">cum tutore</span> ende consorten
+                    ende in alle de manieren zij comparanten des voors. huysen opten <date when="1603-01-07">7<hi rend="super">den</hi> dach January anno 1600 ende
+                        drij</date> van <rs type="person" ref="../register/register-person.xml#pierone_appolonia">Appolonia oft
+                        Pierone Moreau</rs>, weduwe wijlen <rs type="person" ref="../register/register-person.xml#bacheler_michiels">Michiels Bacheler</rs>, <span from="" xml:lang="lat">cum tutore</span> ende consorten
                     gecocht ende gecregen hebben prout litteras daeraff zijn <span from="" xml:lang="lat">et uterius super se et
-                    sua quacumque</span> dandum, alle jare den <date when="--05-22">22<hi rend="super"
-                        >sten</hi> dach May</date>, daeraff d’ieste jaer rente vallen ende
+                    sua quacumque</span> dandum, alle jare den <date when="--05-22">22<hi rend="super">sten</hi> dach May</date>, daeraff d’ieste jaer rente vallen ende
                     verschijnen sal den <date when="1614-05-22">22<hi rend="super">sten</hi> May
                         anno 1600 ende vierthien</date>. Te waerne van alle andere commeren ende
                     calaengien, utgenomen seven schellingen Brabants een oude hinne ende een oude
                     Ingelschen tsjaers de capittel tonser Lieven Vrouwen<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Antwerpen</term><index indexName="stw"><term xml:lang="deu">Liebfrauenkathedrale</term></index>
-                    </index> alhier. Item negen schellingen Brabants chijs <rs type="person"
-                        ref="#scheyff_jan">Janne Scheyff</rs> utten voers. huyse in de
+                    </index> alhier. Item negen schellingen Brabants chijs <rs type="person" ref="../register/register-person.xml#scheyff_jan">Janne Scheyff</rs> utten voers. huyse in de
                     Coepoortstrate als vore geschreven ende eenentzestich gulden van de eenhondert
-                    gulden erff<hi rend="super">el</hi> den kinderen van <rs type="person"
-                        ref="#lhermite_gielis">Gielis Lhermite</rs> metten voors. voor ende
+                    gulden erff<hi rend="super">el</hi> den kinderen van <rs type="person" ref="../register/register-person.xml#lhermite_gielis">Gielis Lhermite</rs> metten voors. voor ende
                     achterhuyse metten toebehoorten, gestaan in ’t Coppenhol voorgen., jaerlijcx
                     voren gaende naer inhoudt der brieven ende anders nyet, sijnde de voors. voor
                     ende achterhuyse metten toebehoorten noch meepant over de resterende
                     negendertich gulden erffelijck van de voors. eenhondert gulden van de kinderen
                     Lhermite ende over twee renten elck van zesse gulden erff<hi rend="super">el</hi>
-                    ende over noch achthien gulden erff<hi rend="super">el</hi>. alle dewelke <rs
-                        type="person" ref="#were_hans">Hans van Were</rs> voors. uut zijn huyse ende
+                    ende over noch achthien gulden erff<hi rend="super">el</hi>. alle dewelke <rs type="person" ref="../register/register-person.xml#were_hans">Hans van Were</rs> voors. uut zijn huyse ende
                     erve hierbij is neffens gelegen, gelden ende betalen moet sonder deselfde huyse
                     metten toebehoorten, cost of last oick naer inhoude der brieve ende anders nyet.
                     Behoudelijk dat zij oft henne nacommelingen de voors. eenhondert ende vijtich
                     gulden erff<hi rend="super">el</hi> af zelen mogen lossen ende quiten theure goede
-                    moeytte, metter helft daeraff, te mede elcken penning daeraff altijt met <num
-                        type="ordinal" value="16">16<hi rend="super">de</hi></num> pe<hi rend="super"
-                    >nn</hi> den voorschreven munt ende met verschenen renten.</p>
+                    moeytte, metter helft daeraff, te mede elcken penning daeraff altijt met <num type="ordinal" value="16">16<hi rend="super">de</hi></num> pe<hi rend="super">nn</hi> den voorschreven munt ende met verschenen renten.</p>
                     <closer>
                         <dateline>Die <date when="1613-05-22">22 May 1613</date>
                         </dateline>
@@ -134,8 +124,7 @@
                         <div type="note" rend="margin">    
                             <head>Marginalie:</head>
                     <p>Comparant S<hi rend="super">r</hi> Pietro
-                        Paulo Rubens ende bekende dat jouffrouwe <rs type="person"
-                            ref="#veltwijck_anne">Anna van Veltwijck</rs>, weduwe van wijlen
+                        Paulo Rubens ende bekende dat jouffrouwe <rs type="person" ref="../register/register-person.xml#veltwijck_anne">Anna van Veltwijck</rs>, weduwe van wijlen
                         Melchior Doncker, hem afgeledt ende betaelt heeft de capitale penningen
                         metten verloope der selver van de eenhondert ende vijftich guldenen
                         erffelijck, in desen contracte begrepen contente ende oversulcx inde

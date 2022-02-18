@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_076">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_076"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-cert-59">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -52,8 +51,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                                bloedverwanten. Antwerpen 1877, S. 335f.<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                bloedverwanten. Antwerpen 1877, S. 335f.<ptr type="gbv" cRef="146162595"/></bibl>
                         </listBibl>
                     </additional>
                   
@@ -73,26 +71,21 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Ten versuecke van jouffrouwe <rs type="person" ref="#pypelincx_maria">Maria
-                        Pypelincx</rs>, weduwe van wijlen Meester <rs type="person"
-                        ref="#rubens_jan">Jan Ruebbens</rs>, ende van jouffrouwe <rs type="person"
-                        ref="#pypelincx_susanne">Susanna Pypelincx</rs>, heur sustere, wettighe
-                    huysvrouwe van <rs type="person" ref="#schot_peeter">Peeter de Schot</rs>, alle,
+                <p> Ten versuecke van jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Maria
+                        Pypelincx</rs>, weduwe van wijlen Meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebbens</rs>, ende van jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_susanne">Susanna Pypelincx</rs>, heur sustere, wettighe
+                    huysvrouwe van <rs type="person" ref="../register/register-person.xml#schot_peeter">Peeter de Schot</rs>, alle,
                     nu ter tijt, woonende binnen dese stadt.<lb/>
-                    <rs type="person" ref="#meys_henrick">Henrick Meys</rs>, caniffassier, woonende
+                    <rs type="person" ref="../register/register-person.xml#meys_henrick">Henrick Meys</rs>, caniffassier, woonende
                     binnen deser stadt, out ontrent vijftich jaren ende <gap resp="N.B." reason="cancelled"/> juraverunt et
                     affirmaverunt dat zij wel kennen <note resp="N.B." type="footnote">dat</note> de
-                    voirnoemde producenten zijn wettighe dochters van wijlen <rs type="person"
-                        ref="#pypelincx_hendrick">Henrick Pypelinck</rs>, die broeder was van wijlen
-                        <rs type="person" ref="#pypelincx_dionisius">Dionijs Pypelick</rs>, sulcx
-                    dat deselve producenten zijn medeerffgenamen van wijlen <rs type="person"
-                        ref="#pypelincx_marie">Maria Pypelincx</rs>, Dionijsdochter wijlen voors.,
+                    voirnoemde producenten zijn wettighe dochters van wijlen <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henrick Pypelinck</rs>, die broeder was van wijlen
+                        <rs type="person" ref="../register/register-person.xml#pypelincx_dionisius">Dionijs Pypelick</rs>, sulcx
+                    dat deselve producenten zijn medeerffgenamen van wijlen <rs type="person" ref="../register/register-person.xml#pypelincx_marie">Maria Pypelincx</rs>, Dionijsdochter wijlen voors.,
                     henne nichte, nu Dionij’s eenighe dochtere was, nu onlancx binnen der stede van
-                        <rs type="place" ref="#bruegge">Brugghe</rs> overleden zijnde, sonder
+                        <rs type="place" ref="../register/register-place.xml#bruegge">Brugghe</rs> overleden zijnde, sonder
                     wettighe eenige kinderen oft sonder broeders oft susters oft broeders- oft
                     susterskinderen achtergelaten te hebben, redene van henne wetenheyt allegerende,
-                    want zij deponenten soo metten voors. <note resp="N.B." type="footnote"
-                    >Dionijs</note> eertijts geweest zijn vande Collecteurs van deser stadts
+                    want zij deponenten soo metten voors. <note resp="N.B." type="footnote">Dionijs</note> eertijts geweest zijn vande Collecteurs van deser stadts
                     bierassijse.</p>
                 <closer><salute>Sonder argelist.</salute></closer>
                 <note resp="A.H." type="footnote">Der überarbeitete
@@ -105,9 +98,9 @@
                 <p>Ten versuecke van jouffrouwe Maria Pypelincx, weduwe van wijlen Meester Jan
                     Ruebens, ende van jouffrouwe Susanna Pypelincx, heure sustere, wettighe
                     huysvrouwe van Peeter de Schot, alle woonende nu ter tijt binnen dese stadt.<lb/>
-                    <del rend="overstrike"><rs type="person" ref="#hertoghe_abraham">Abraham de
+                    <del rend="overstrike"><rs type="person" ref="../register/register-person.xml#hertoghe_abraham">Abraham de
                             Hertoghe</rs>, commis, etc., out onrtent vijfenvijftich jaren</del>
-                    <rs type="person" ref="#henricx_jaspar">Jaspar Henricx</rs>, coopman van sijde
+                    <rs type="person" ref="../register/register-person.xml#henricx_jaspar">Jaspar Henricx</rs>, coopman van sijde
                     ende sijdelakenen, out ontrent tachtentich jaren, ende Henrick Meys,
                     canifassier, ontrent vijftich jaren, beyde oic woonende binnen dese stadt <gap reason="illegible"/><sic/>
                     juraverunt et affirmaverunt, dat zij wel kennen de voirnoemde producenten ende

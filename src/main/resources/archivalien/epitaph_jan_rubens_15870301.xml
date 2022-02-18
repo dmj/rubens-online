@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_064">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_064"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="epitaph_jan_rubens_15870301">
                     <msIdentifier>
                     <country>Deutschland</country>
@@ -51,8 +50,7 @@
                                Künstler. (Kunst und Künstler in Köln: Abtheilung der Künstlernachrichten),
                                Köln 1850, S. 353<ptr type="opac" cRef="150479808"/></bibl>
                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                               zijne bloedverwanten. Antwerpen 1877, S. 264f.<ptr type="gbv"
-                                   cRef="146162595"/></bibl>
+                               zijne bloedverwanten. Antwerpen 1877, S. 264f.<ptr type="gbv" cRef="146162595"/></bibl>
                            <bibl>Rosine de Dijn: Liebe, Last und Leidenschaft : Frauen im Leben von
                                Rubens. Stuttgart [u.a.] 2002, S. 106<ptr type="gbv" cRef="460138448"/></bibl>
                        </listBibl>
@@ -79,23 +77,21 @@
                 <body>
                     <div xml:lang="lat">
                         <p rend="text-align:center"> DEO OPTIMO MAXIMO SACRUM.<lb/>
-                            <rs type="person" ref="#rubens_jan"><hi rend="smallCaps">Joanni</hi>
+                            <rs type="person" ref="../register/register-person.xml#rubens_jan"><hi rend="smallCaps">Joanni</hi>
                                 RUBENIO</rs><lb/>
                             <hi rend="smallCaps">clarissimo jurisconsulto, qui</hi>
-                            <rs type="place" ref="#italien">
+                            <rs type="place" ref="../register/register-place.xml#italien">
                                 <hi rend="smallCaps">Italiam</hi>
                             </rs><lb/>
                             <hi rend="smallCaps">per septennium, maximamque<lb/> sequanorum partem
                                 ad capiendum<lb/> ingenii cultum judiciumque confirmandum<lb/>
-                                peragravit, seduloque lustravit.<lb/> deinde, in <rs type="place"
-                                    ref="#belgien">belgium</rs> reversus, <rs type="place"
-                                    ref="#antwerpen">antverpiae</rs><lb/> scabinorum senatus collegio
+                                peragravit, seduloque lustravit.<lb/> deinde, in <rs type="place" ref="../register/register-place.xml#belgien">belgium</rs> reversus, <rs type="place" ref="../register/register-place.xml#antwerpen">antverpiae</rs><lb/> scabinorum senatus collegio
                                 adlectus<lb/> id munus, per annos sex integros,<lb/> magna cum laude
                                 gessit<lb/> ac demum, civilibus bellis exortis,<lb/> quo procul ab
                                 eis nimirum quietis<lb/> amans ageret, patriam, cui propter<lb/>
                                 administratae reipublicae justitiaeque<lb/> merita charus erat ultro
                                 reliquit<lb/> seque</hi>
-                            <rs type="place" ref="#koeln">
+                            <rs type="place" ref="../register/register-place.xml#koeln">
                                 <hi rend="smallCaps">Coloniam Agrippinam</hi>
                             </rs>
                             <hi rend="smallCaps">omni<lb/> cum familia recepit<lb/> in eaque</hi> 19
@@ -103,7 +99,7 @@
                                 nostrique temporis<lb/> historiae cognitione longe praestanti<lb/>
                                 universis ab humanitate, morum suavitate,<lb/> benificientiaeque
                                 promptitudine<lb/> pergrato<lb/>
-                                <rs type="person" ref="#pypelincx_maria">maria pypelinga</rs>
+                                <rs type="person" ref="../register/register-person.xml#pypelincx_maria">maria pypelinga</rs>
                                 uxor<lb/> septem ex eo liberorum mater,<lb/> cum qua annis</hi> 26
                                 <hi rend="smallCaps">concorditer sine<lb/> ulla querula vixit,<lb/>
                                 marito dulcissimo bene merenti<lb/> posuit<lb/> natus</hi>
@@ -111,7 +107,7 @@
                             <date when="1530-03-14">XIX<sic/> <hi rend="smallCaps">CALEND</hi>.<lb/>
                                 <hi rend="smallCaps">Aprilis ANNO</hi> 1530</date>.<lb/>
                             <hi rend="smallCaps">DENATUS</hi>
-                            <rs type="place" ref="#koeln">
+                            <rs type="place" ref="../register/register-place.xml#koeln">
                                 <hi rend="smallCaps">Coloniae</hi>
                             </rs>
                             <date when="1587-03-01"><hi rend="smallCaps">CALEND. MARTII.<lb/>
@@ -125,30 +121,25 @@
                         <head>Übersetzung<note resp="A.H." type="footnote">Übersetzung durch Rosine de Dijn. Vgl. <bibl>Rosine de Dijn: Liebe, Last und Leidenschaft : Frauen im Leben von
                             Rubens. Stuttgart [u.a.] 2002, S. 106<ptr type="gbv" cRef="460138448"/></bibl></note>:</head>
                         <p> Dem besten und höchsten Gott geweihtes Grabmal für den äußerst berühmten
-                            Rechtsgelehrten <rs type="person" ref="#rubens_jan">Johnnes Rubens</rs>,
-                            der sieben Jahre lang <rs type="place" ref="#italien">Italien</rs> und
-                            den größten Teil der Freigrafschaft <rs type="place" ref="#burgund"
-                                >Burgund</rs> aufmerksam bereiste, um Geistesbildung zu erwerben und
-                            seine Urteilskraft zu stärken. Anschließend nach <rs type="place"
-                                ref="#belgien">Belgien</rs> zurückgekehrt, wurde er in <rs
-                                type="place" ref="#antwerpen">Antwerpen</rs> in das Kollegium des
+                            Rechtsgelehrten <rs type="person" ref="../register/register-person.xml#rubens_jan">Johnnes Rubens</rs>,
+                            der sieben Jahre lang <rs type="place" ref="../register/register-place.xml#italien">Italien</rs> und
+                            den größten Teil der Freigrafschaft <rs type="place" ref="../register/register-place.xml#burgund">Burgund</rs> aufmerksam bereiste, um Geistesbildung zu erwerben und
+                            seine Urteilskraft zu stärken. Anschließend nach <rs type="place" ref="../register/register-place.xml#belgien">Belgien</rs> zurückgekehrt, wurde er in <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> in das Kollegium des
                             Schöffenrates gewählt. Dieses Amt bekleidete er sechs Jahre lang in
                             höchst lobenswerter Weise. Als schließlich der Bürgerkrieg ausbrach,
                             hielt er sich, der zweifellos den Frieden liebte, weit von ihm fern und
                             verließ das Vaterland, in welchem er wegen seiner Verdienste um die
                             Verwaltung des Gemeinwesens und des Rechtswesens berühmt war. Er suchte
-                                <rs type="place" ref="#koeln">Köln</rs> auf, das ihn mit der ganzen
+                                <rs type="place" ref="../register/register-place.xml#koeln">Köln</rs> auf, das ihn mit der ganzen
                             Familie aufnahm, und verbrachte dort 19 Jahre. Zudem gewidmet einem Mann
                             von herausragender Kenntnis der antiken sowie zeitgenössischen
                             Geschichte, der allen durch seine Menschlichkeit, seine liebenswerten
                             Sitten und seine Bereitschaft zur Wohltätigkeit sehr angenehm war. Seine
-                            Frau, <rs type="person" ref="#pypelincx_maria">Maria Pypelincx</rs>, die
+                            Frau, <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Maria Pypelincx</rs>, die
                             ihm Mutter von sieben Kindern wurde und mit der er 26 Jahre einträchtig
-                            ohne jeden Streit zusammenlebte, hat es <note resp="N.B."
-                                type="footnote">das Grabmal</note> ihrem geliebten und würdigen
+                            ohne jeden Streit zusammenlebte, hat es <note resp="N.B." type="footnote">das Grabmal</note> ihrem geliebten und würdigen
                             Ehemann errichtet. Geboren zu Antwerpen am <date when="1530-03-14">14.
-                                März des Jahres 1530</date>, gestorben zu Köln am <date
-                                when="1587-03-01">1. März 1587</date>. </p>
+                                März des Jahres 1530</date>, gestorben zu Köln am <date when="1587-03-01">1. März 1587</date>. </p>
                         
                     </div>
                 </body>

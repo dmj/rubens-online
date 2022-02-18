@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_084">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_084"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="philipp_rubens_doktor_rechte_16030613">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -47,8 +46,7 @@
                         <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
                     <listBibl>
                         <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                            bloedverwanten. Antwerpen 1877, S. 353-357<ptr type="gbv" cRef="146162595"
-                            /></bibl>
+                            bloedverwanten. Antwerpen 1877, S. 353-357<ptr type="gbv" cRef="146162595"/></bibl>
                     </listBibl>
                     </additional></msDesc>
             </sourceDesc>
@@ -58,7 +56,7 @@
         <body>
             <div part="Y" xml:lang="lat">
                 <salute>In nomine DOMINI, Amen.</salute><lb/> 
-                <p>Gloriosa studiorum mater, urbs <rs type="place" ref="#rom">Roma</rs>, quae inter
+                <p>Gloriosa studiorum mater, urbs <rs type="place" ref="../register/register-place.xml#rom">Roma</rs>, quae inter
                     omnes Mundi civitates celeberrima scientiarum omnium studio decorata existit,
                     atque singularibus privilegiis Pontificiis et lmperialibus sublimata, cujus
                     etiam in toto terrarum Orbe veneranda, famosissima, et antiquissima
@@ -76,8 +74,7 @@
                     Respublicas, aliasque dignitates caeteris hominum generibus, et ejusdem Ordinis
                     singularibus privilegiis, praerogativis, laudibus et honoribus ac dignitatum
                     culmine, (id quod omnium forum praestantissima virtus expostulat) veniant
-                    meritissime praeferendi. Cum itaque Magnificus et Excellens Dominus <rs type="person" ref="#rubens_philipp"><hi
-                        rend="smallCaps">Philippus</hi> RUBENS</rs>, <rs type="place" ref="#antwerpen">Antverpiensis</rs>, qui scientia
+                    meritissime praeferendi. Cum itaque Magnificus et Excellens Dominus <rs type="person" ref="../register/register-person.xml#rubens_philipp"><hi rend="smallCaps">Philippus</hi> RUBENS</rs>, <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiensis</rs>, qui scientia
                     praeclarus, moribus modestus, ingenio acutus, et omni doctrina praeditus, sua
                     florente aetate celeberrimis in studiis exercitatus, assiduis vigiliis juribus
                     Pontificio et Caesareo sollicitam et curiosam operam jugiter impendit et navavit;
@@ -86,27 +83,20 @@
                     professione ac juramento super sanctis Dei Evaltgeliis palam et publice in
                     manibus Collegii infrascriptorum illustrium Dominorum juris utriusque Doctorum,
                     sacrique Concistorii Concistorialium Advocatorum praestito, juxta formam
-                    literarum felicis recordationis <rs type="person" ref="#pius_iv_papst">PII Papae quarti</rs><index indexName="psw"><term type="PND" xml:lang="deu">Pius (Papst, IV.)XII</term></index>, fuerit legitime praesentatus per
+                    literarum felicis recordationis <rs type="person" ref="../register/register-person.xml#pius_iv_papst">PII Papae quarti</rs><index indexName="psw"><term type="PND" xml:lang="deu">Pius (Papst, IV.)XII</term></index>, fuerit legitime praesentatus per
                     Illustrem juris utriusque Doctorem sacrique Concistorii Concistorialium
-                    Advocatum videlicet Dominum <rs type="person" ref="#benignus_julius"><hi rend="smallCaps">Julium</hi> BENIGNUM</rs>, ejus
-                    Promotorem coram Illustri et Reverendo Patre Domino <rs type="person" ref="#millino_juan_garcia"><hi rend="smallCaps"
-                    >Joanne</hi> GARSIA MILLINO</rs>, sacrae Rotae auditore, ac Illustrissimi et
+                    Advocatum videlicet Dominum <rs type="person" ref="../register/register-person.xml#benignus_julius"><hi rend="smallCaps">Julium</hi> BENIGNUM</rs>, ejus
+                    Promotorem coram Illustri et Reverendo Patre Domino <rs type="person" ref="../register/register-person.xml#millino_juan_garcia"><hi rend="smallCaps">Joanne</hi> GARSIA MILLINO</rs>, sacrae Rotae auditore, ac Illustrissimi et
                     Reverendissimi in Christo Patris et Dominorum <hi rend="smallCaps">Petri</hi>,
                     miseratione divina, tituli Sancti N<hi rend="smallCaps">icolai</hi> in Carcere
-                    Diaconi Cardinalis <rs type="person" ref="#aldobrandini_pietro">ALDOBRANDINI</rs>, Sanctae Romanae Ecclesiae Camerarii inclitique
+                    Diaconi Cardinalis <rs type="person" ref="../register/register-person.xml#aldobrandini_pietro">ALDOBRANDINI</rs>, Sanctae Romanae Ecclesiae Camerarii inclitique
                     Romani studii Universitatis Cancellarii in Offitio Cancellariatus hujusmodi
                     Locumtenente meritissimo examinandus et approbandus in jure Canonico et Civili:
                     Et ob hoc se subjecerit arduo rigoroso et tremebundo examini privato omnium
                     infrascriptorum illustrium Dominorum juris utriusque Doctorum sacrique
-                    Concistorii Concistorialium Advocatorum, videlicet Dominorum <rs type="person" ref="#velli_muzio"><hi
-                        rend="smallCaps">Mutii</hi> VELLII</rs>, Decani, <rs type="person" ref="#scotti_bernardino"><hi rend="smallCaps"
-                            >Bernardini</hi> SCOTTI</rs>, <rs type="person" ref="#spada_giovanni_battista"><hi rend="smallCaps">Joannis Baptistae</hi> SPADAE</rs>, 
-                    <rs type="person" ref="#theophilus_sertorius">S<hi rend="smallCaps">ertorii</hi> THEOPHILI</rs>, <rs type="person" ref="#rubeus_hieronymus"><hi rend="smallCaps">Hieronymi
-                                    de</hi> RUBEIS</rs>, <rs type="person" ref="#benini_giovanni">J<hi rend="smallCaps">oannis</hi> BENINI</rs>, <rs type="person" ref="#pheus_julius">J<hi rend="smallCaps"
-                                        >ulii</hi> PHEI</rs>, <rs type="person" ref="#zacchia_laudivio">L<hi rend="smallCaps">audivii</hi> ZACCHIAE</rs>, <rs type="person" ref="#pamphili_giovanni_battista"><hi
-                                            rend="smallCaps">Joannis Baptistae </hi>PAMPHILII</rs> et <rs type="person" ref="#guicciardini_aloysius"><hi rend="smallCaps"
-                        >Aloysii</hi> GUICCIARDINI</rs>, in qua quidem examine dictus Dominus P<hi
-                        rend="smallCaps">hilippus</hi> puncta sibi assignata in jure Canonico <hi rend="italic">c.
+                    Concistorii Concistorialium Advocatorum, videlicet Dominorum <rs type="person" ref="../register/register-person.xml#velli_muzio"><hi rend="smallCaps">Mutii</hi> VELLII</rs>, Decani, <rs type="person" ref="../register/register-person.xml#scotti_bernardino"><hi rend="smallCaps">Bernardini</hi> SCOTTI</rs>, <rs type="person" ref="../register/register-person.xml#spada_giovanni_battista"><hi rend="smallCaps">Joannis Baptistae</hi> SPADAE</rs>, 
+                    <rs type="person" ref="../register/register-person.xml#theophilus_sertorius">S<hi rend="smallCaps">ertorii</hi> THEOPHILI</rs>, <rs type="person" ref="../register/register-person.xml#rubeus_hieronymus"><hi rend="smallCaps">Hieronymi
+                                    de</hi> RUBEIS</rs>, <rs type="person" ref="../register/register-person.xml#benini_giovanni">J<hi rend="smallCaps">oannis</hi> BENINI</rs>, <rs type="person" ref="../register/register-person.xml#pheus_julius">J<hi rend="smallCaps">ulii</hi> PHEI</rs>, <rs type="person" ref="../register/register-person.xml#zacchia_laudivio">L<hi rend="smallCaps">audivii</hi> ZACCHIAE</rs>, <rs type="person" ref="../register/register-person.xml#pamphili_giovanni_battista"><hi rend="smallCaps">Joannis Baptistae </hi>PAMPHILII</rs> et <rs type="person" ref="../register/register-person.xml#guicciardini_aloysius"><hi rend="smallCaps">Aloysii</hi> GUICCIARDINI</rs>, in qua quidem examine dictus Dominus P<hi rend="smallCaps">hilippus</hi> puncta sibi assignata in jure Canonico <hi rend="italic">c.
                     praesbiter de pecul. cler.</hi> et in jure civili <hi rend="italic">l. clare c. de fideicom.</hi> miro ordine
                     recitavit, continuando rubricas, textus dividendo, notabilia colligendo, pro et
                     contra arguendo, argumentisque eorundem de Collegia Dominorum acute et
@@ -121,8 +111,7 @@
                     virtute et honestate quibus eundem Dominum P<hi rend="smallCaps">hilippum</hi>
                     Altissimus illustravit, prout in dicto suo examine mirifice demonstravit,
                     Auctoritate ejusdem Illustrissimi et Reverendissimi Domini Cardinalis Camerarii
-                    et Cancellarii, et qua in hac parte fungitur eundem Dominum P<hi
-                        rend="smallCaps">hilippum</hi> benemeritum, dignum, sufficientem et idoneum
+                    et Cancellarii, et qua in hac parte fungitur eundem Dominum P<hi rend="smallCaps">hilippum</hi> benemeritum, dignum, sufficientem et idoneum
                     ad dictum utriusque juris Doctoratus gradum assumendum et recipiendum fore et
                     esse pronunciavit et declaravit, ac ipsum in jure Canonico et Civili Doctorem
                     fecit, creavit, deputavit et solemniter ordinavit, ita quod in futurum omnibus
@@ -138,10 +127,8 @@
                     privatim exercendi pro ejus libito voluntatis: His sic peractis praefatus Dominus
                         <hi rend="smallCaps">Philippus</hi>, considerans quod ad perfectionem
                     cujuslibet humani actus finis congruus appetendus est, per quem appareat
-                    principium et medium apto praecessisse, a praedicto illustri Domino J<hi
-                        rend="smallCaps">ulio</hi> BENIGNO, Promotore solita doctoratus insignia
-                    sibi dari et concedi humiliter postulavit. Unde praedictus Illustris Dominus J<hi
-                        rend="smallCaps">ulius</hi> BENIGNUS Promotor petitioni suae honestae annuens,
+                    principium et medium apto praecessisse, a praedicto illustri Domino J<hi rend="smallCaps">ulio</hi> BENIGNO, Promotore solita doctoratus insignia
+                    sibi dari et concedi humiliter postulavit. Unde praedictus Illustris Dominus J<hi rend="smallCaps">ulius</hi> BENIGNUS Promotor petitioni suae honestae annuens,
                     ipsum in Cathedram Doctoralem collocavit eique libros juris Canonici et Civilis
                     clausos, mox et apertos, in manibus praebuit, ac digito annulari Annulum pro
                     desponsatione, et capiti biretum pro corona imposuit, ac ut intelligeret se
@@ -151,20 +138,15 @@
                     solito praedicti IIlustrissimi et Reverendissimi Domini Cardinalis Camerarii et
                     Cancellarii sigillo munitum in privilegii forma, praedictus Reverendus Pater
                     Dominus Locumtenens per me Notarium dictique Collegii Secretarium fieri,
-                    subscribi et publicari mandavit. Acta fuerunt haec Romae, in regione Sancti E<hi
-                        rend="smallCaps">ustachii</hi>, in gymnasio publico, anno a Nativitate
+                    subscribi et publicari mandavit. Acta fuerunt haec Romae, in regione Sancti E<hi rend="smallCaps">ustachii</hi>, in gymnasio publico, anno a Nativitate
                     Domini <date when="1603">MDCIII</date>, Pontificatus sanctissimi in CHRISTO Patris et Domini Domini
-                    <rs type="person" ref="#clemens_viii_papst"> CLEMENTIS, divina providentia, Papae VIII</rs><index indexName="psw"><term type="PND" xml:lang="deu">Clemens (Papst, VIII.)</term></index>, anno ejus XII, Indictione prima, die
-                    <date when="1603-06-13">XIII Junii</date>, praesentibus illustri Domino <rs type="person" ref="#albertino_petro">P<hi rend="smallCaps">etro</hi>
-                        ALBERTlNO</rs>, Romano utriusque juris Doctore et in Almo, etc. Domino <rs type="person" ref="#baily_petro"><hi
-                            rend="smallCaps">Petro le</hi> BAILY</rs>, Domino <rs type="person" ref="#ursino_egidio"><hi rend="smallCaps"
-                                >Egidio</hi> URSINO</rs> utriusque juris. Doctore et Domino <rs type="person" ref="#rolli_bernadino">B<hi rend="smallCaps"
-                        >ernardino</hi> ROLLI</rs>, testibus, etc.</p>
+                    <rs type="person" ref="../register/register-person.xml#clemens_viii_papst"> CLEMENTIS, divina providentia, Papae VIII</rs><index indexName="psw"><term type="PND" xml:lang="deu">Clemens (Papst, VIII.)</term></index>, anno ejus XII, Indictione prima, die
+                    <date when="1603-06-13">XIII Junii</date>, praesentibus illustri Domino <rs type="person" ref="../register/register-person.xml#albertino_petro">P<hi rend="smallCaps">etro</hi>
+                        ALBERTlNO</rs>, Romano utriusque juris Doctore et in Almo, etc. Domino <rs type="person" ref="../register/register-person.xml#baily_petro"><hi rend="smallCaps">Petro le</hi> BAILY</rs>, Domino <rs type="person" ref="../register/register-person.xml#ursino_egidio"><hi rend="smallCaps">Egidio</hi> URSINO</rs> utriusque juris. Doctore et Domino <rs type="person" ref="../register/register-person.xml#rolli_bernadino">B<hi rend="smallCaps">ernardino</hi> ROLLI</rs>, testibus, etc.</p>
                     
                 <closer>
                     <signed><hi rend="smallCaps">Jo</hi>. GARSIAS MILLINUS,</signed>Rotae Auditor Cūs.<lb/> Ego <signed>
-                        <rs type="person" ref="#janningus_jeffridus">J<hi
-                            rend="smallCaps">effridus</hi> JANNINGUS</rs>,
+                        <rs type="person" ref="../register/register-person.xml#janningus_jeffridus">J<hi rend="smallCaps">effridus</hi> JANNINGUS</rs>,
                     </signed> Apostolica auctoritate, Notarius
                     ac dicti Colleggii Secretarius, una cum praemissis omnibus interfui. 
                 </closer>

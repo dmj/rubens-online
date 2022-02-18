@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
-    xml:id="ed_rubens_297">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_297"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,10 +14,17 @@
                 
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="rubens_steuerfreiheit_16400109">
                     <msIdentifier><country>Belgien</country><settlement>Antwerpen</settlement><repository>Stadsarchief (SAA)</repository><collection>Notariaatsarchief: Hendrick van Cantelbeck Jr.: Protocollen, en staten van rekeningen 1640</collection><idno>N 3394, sub dato</idno></msIdentifier>
                     
@@ -62,8 +60,8 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Compareerde, in propren persoone, heer <rs type="person" ref="#rubens_peter_paul">PETRO-PAULO RUBBENS</rs>, Riddere,
-                    tegenwoordich in dienst van Zyne Coninclyke Majesieyt van <rs type="place" ref="#spanien">Spaignien</rs>, domesticque
+                <p>Compareerde, in propren persoone, heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">PETRO-PAULO RUBBENS</rs>, Riddere,
+                    tegenwoordich in dienst van Zyne Coninclyke Majesieyt van <rs type="place" ref="../register/register-place.xml#spanien">Spaignien</rs>, domesticque
                     dienaer van zyne doorte luchtige Hoocheyt den Prince-Cardinael, met pensioen
                     ende salaris, inwoonder deser stadt, my Notario bekent, bekende ende verclaerde
                     al ist zoo hy heer comparant, opden <date when="--01-05">vyfden January</date> lestleden, opde Accyse
@@ -80,8 +78,8 @@
                     andersints genoten heeft ende oversulx houdende van igene voors. nyet gehouden
                     te zyn, verzueckende hiervan aen die van den Accyse alhier wete gedaen ende hem
                     acte gemaect te worden, een ofte meer, in behoirlycke formen. </p><closer>Aldus gedaen
-                        binnen deser stadt van <rs type="place" ref="#antwerpen">Antwerpen</rs>, ter presentien van <rs type="person" ref="#donckers_guillielmo">GUILLIELMO DONCKERS</rs> ende
-                        <rs type="person" ref="#drion_jan">Jan DRION</rs>, des heer comparants dienaers, als getuygen hiertoe versocht.
+                        binnen deser stadt van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs>, ter presentien van <rs type="person" ref="../register/register-person.xml#donckers_guillielmo">GUILLIELMO DONCKERS</rs> ende
+                        <rs type="person" ref="../register/register-person.xml#drion_jan">Jan DRION</rs>, des heer comparants dienaers, als getuygen hiertoe versocht.
                     <signed>PIETRO-PAUOLO RUBENS.</signed></closer>
             </div>
             <div xml:lang="nld">
@@ -93,12 +91,12 @@
                     aenden heer Tresorier deser stadt. Actum den <date when="1640-01-10">thienden January XVI<hi rend="super">c</hi> viertich</date>
                     voors. </p>
                 <p>Daernaer opden <date when="1640-01-12">XII<hi rend="super">en</hi> January anno voers.</date> tgene voers. oick voorgelesen ende
-                    geinsinueert aen Joncher <rs type="person" ref="#brecht_eduaert">EDUAERT van BRECHT</rs>, Tresorier Generael deser stadt,
+                    geinsinueert aen Joncher <rs type="person" ref="../register/register-person.xml#brecht_eduaert">EDUAERT van BRECHT</rs>, Tresorier Generael deser stadt,
                     tsynen woonhuyse in St. Anthonisstraete alhier, die dat aenhoort hebbende, my
                     voor antwoorde gaff dat hy daervan aen mynen Eerw. Heeren Borgemeesteren ende
                     Schepenen voors. met den eersten rappoort doen zoude, versoeckende hiervan
                     copie, die ick dcnzelven Heer Tresorier auctenticquelyck gelevert hebbe.</p><closer>
-                    <salute>Toirconden.</salute><signed> <rs type="person" ref="#cantelbeke_hendrick">H. VAN CANTELBECK</rs>, Notaris.</signed></closer> 
+                    <salute>Toirconden.</salute><signed> <rs type="person" ref="../register/register-person.xml#cantelbeke_hendrick">H. VAN CANTELBECK</rs>, Notaris.</signed></closer> 
             </div>
         </body>
     </text>

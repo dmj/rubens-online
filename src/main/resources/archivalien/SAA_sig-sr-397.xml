@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_066">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_066"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-397">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -70,18 +69,17 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, weduwe
-                    wijlen meester <rs type="person" ref="#rubens_jan">Jans Rubens</rs>, <span from="" xml:lang="lat">
+                <p>Jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs>, weduwe
+                    wijlen meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jans Rubens</rs>, <span from="" xml:lang="lat">
                         cum tutore</span>,
                     heeft gedesisteert ende desisteert, bij desen, vander leveringe bij haer
                     genomen, ten lesten omrijden van mijnen Heere den Amptman, opte brouwerije
                     genaempt de Goublomme<index indexName="stw">
                         <term xml:lang="nld">De Goubloeme</term>
                     </index>, tmuerhof ende bleyckerije daerane, gelegen inde Nieuwstadt alhier,
-                    constituerende Meesteren <rs type="person" ref="#prestere_nicasius">Nicasium de
-                        Prestere</rs>, Meesteren <rs type="person" ref="#lanschot_jan">Jannen
-                        Lanschot</rs>, Procureurs inden Rade van <rs type="person" ref="#brabant"
-                        >Brabant</rs>, pariter et insolidum ad files in forma, ende specialijck, soo
+                    constituerende Meesteren <rs type="person" ref="../register/register-person.xml#prestere_nicasius">Nicasium de
+                        Prestere</rs>, Meesteren <rs type="person" ref="../register/register-person.xml#lanschot_jan">Jannen
+                        Lanschot</rs>, Procureurs inden Rade van <rs type="person" ref="../register/register-person.xml#brabant">Brabant</rs>, pariter et insolidum ad files in forma, ende specialijck, soo
                     verre des noot zij, de voors. desisteringe inden Rade van Brabant te vernieuwen,
                     ende voorts alwart. </p>
                 <closer>

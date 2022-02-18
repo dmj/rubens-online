@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_135">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_135"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-506-83">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -62,68 +61,52 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>De voorseyde heer amptman bekende ende verclaerde also <rs type="person"
-                        ref="#schot_peeter">Peeter de Schot</rs> als man ende monboir van jouffrouwe
-                        <rs type="person" ref="#pypelincx_susanne">Susanna Pypelincx</rs> item <rs
-                        type="person" ref="#rubens_peter_paul">Peeter Paulo Rubbens</rs> soo als
-                    erfgenaem van wylen jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie
+                <p>De voorseyde heer amptman bekende ende verclaerde also <rs type="person" ref="../register/register-person.xml#schot_peeter">Peeter de Schot</rs> als man ende monboir van jouffrouwe
+                        <rs type="person" ref="../register/register-person.xml#pypelincx_susanne">Susanna Pypelincx</rs> item <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter Paulo Rubbens</rs> soo als
+                    erfgenaem van wylen jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie
                         Pypelincx</rs> als oock momboir<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index> van de onbejaerde kinderen van wylen M<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_philipp">Philips Rubbens</rs> in zyn leven
-                    Secretaris was deser stdt van <rs type="place" ref="#antwerpen"
-                        >Antwerpen</rs><index indexName="gsw">
+                    <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips Rubbens</rs> in zyn leven
+                    Secretaris was deser stdt van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs><index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
-                    </index> oock mede van de kinderen van Jouffrrouwe <rs type="person"
-                        ref="#rubens_blandina">Blandina Ruebbens</rs> altsamen voor de eene helft
+                    </index> oock mede van de kinderen van Jouffrrouwe <rs type="person" ref="../register/register-person.xml#rubens_blandina">Blandina Ruebbens</rs> altsamen voor de eene helft
                     van de hoeve metten landen ende toebehoorten hier naer verhaelt vuyt crachte van
-                    der voluntaire condempnatie van wylen vrouwe <rs type="person"
-                        ref="#wyck_catharina">Catharina van Wyck</rs> weduwe van wylen heere <rs
-                        type="person" ref="#erp_godevaert">Godevaert van Erp</rs> voor scepenen der
-                    voorseyde stadt van Antwerpen op den <date when="1572-06-25">XXV juny XV<hi
-                            rend="super">c</hi> tweentseventich</date> tot proffyte van wylen <rs
-                        type="person" ref="#pypelincx_hendrick">Henrick Pypelinck</rs> ende
-                    Juoffrouw <rs type="person" ref="#touion_clara">Clara de Tonnion</rs> gepasseert
+                    der voluntaire condempnatie van wylen vrouwe <rs type="person" ref="../register/register-person.xml#wyck_catharina">Catharina van Wyck</rs> weduwe van wylen heere <rs type="person" ref="../register/register-person.xml#erp_godevaert">Godevaert van Erp</rs> voor scepenen der
+                    voorseyde stadt van Antwerpen op den <date when="1572-06-25">XXV juny XV<hi rend="super">c</hi> tweentseventich</date> tot proffyte van wylen <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henrick Pypelinck</rs> ende
+                    Juoffrouw <rs type="person" ref="../register/register-person.xml#touion_clara">Clara de Tonnion</rs> gepasseert
                     ende de executien daerop gepasckent naer voorgaende sommatien mitsgaders ten
-                    versuecken van heer <rs type="person" ref="#tendeloo_jan">Janne Tendeloo</rs>
-                    met zyn consoorten woonende bynnen der stadt van <rs type="place"
-                        ref="#bruessel">Bruessele</rs> crediteuren van de voorseyde vrouwe Catharina
+                    versuecken van heer <rs type="person" ref="../register/register-person.xml#tendeloo_jan">Janne Tendeloo</rs>
+                    met zyn consoorten woonende bynnen der stadt van <rs type="place" ref="../register/register-place.xml#bruessel">Bruessele</rs> crediteuren van de voorseyde vrouwe Catharina
                     van Wyck in conformiteyt van de vlountaire condempnatie acte van consente ende
                     authoristie respective de dato <date when="1613-06-17">XVII</date> ende
                         <date when="1613-06-14">XIV Juny inden jare XVI<hi rend="super">c</hi>
-                        derthiene</date>, inden raide geordonneert in <rs type="place"
-                        ref="#brabant">Brabant</rs> verleden gepasseert ende geexpedieert naer
+                        derthiene</date>, inden raide geordonneert in <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs> verleden gepasseert ende geexpedieert naer
                     breeder vuytwysen van der acte daervan zynde dat de voorseyde heer Amptman vuyt
                     crachte ende naer vermoden syn voorseyde offitie ende als daertoe specialyck
                     daertoe geauthoriseert zynde, executerende tvoorseyde vonnis hadde ten versuecke
                     ende vervolge laste ende pericule vande voorseyde Peeter de Schot ende
                     consoorten tot vele ende diversche vrydaghen ter vryer vrydaeghs merct deser
-                    stadt by <rs type="person" ref="#venne_huybrecht">Huybrechts van der Venne</rs>
-                    als substituyt van <rs type="person" ref="#baes_henrick">Henrick Baes</rs>
+                    stadt by <rs type="person" ref="../register/register-person.xml#venne_huybrecht">Huybrechts van der Venne</rs>
+                    als substituyt van <rs type="person" ref="../register/register-person.xml#baes_henrick">Henrick Baes</rs>
                     gesworen oudecleercoopere myne heere de Amptmans doen vuytroepene veyl te coope
                     eenen jegelijcken even nae eene hoeve met huyssinge lande bosschen ende
                     beempden, heyde, weyde, gronde ende allen den toebehoorten groot omtrent dertich
                     bunderen ende een vierendeel (zonder den cooper nochtans eenge maete ofte
                     grootte toe te seggen) genaempt de Proesthoeve<index indexName="stw">
                         <term xml:lang="nld">Proesthoeve</term>
-                    </index>, gestaen ende gelen in diversche parcheelen onder <rs type="place"
-                        ref="#itegem">Iteghem</rs> ende <rs type="place" ref="#herenthout"
-                        >Herenthout</rs> waeronder begrepen omtrent vier bunderen schaer eycken
+                    </index>, gestaen ende gelen in diversche parcheelen onder <rs type="place" ref="../register/register-place.xml#itegem">Iteghem</rs> ende <rs type="place" ref="../register/register-place.xml#herenthout">Herenthout</rs> waeronder begrepen omtrent vier bunderen schaer eycken
                     bosch de welcke soo tweelff als derthien jaeren out zijn. Gelyck ende in alle
                     der manieren de voorscreven hoeve metten lande, gronde ende toebehoorten
                     lestmael toebehoort heeft wylen de voorscreven vrouwe Catharina van Wyck ende
-                    waervan jegenwoirdelyck pachter is <rs type="person"
-                        ref="#verschueren_engelbert">Engelbert Verschueren</rs> waer aff nae vele
-                    ende lange roepens namentlyck des vrydaghs den <date when="1616-09-06"
-                        >sesten deser jegenwoordige maent septembris</date> als leste ende hoochste
+                    waervan jegenwoirdelyck pachter is <rs type="person" ref="../register/register-person.xml#verschueren_engelbert">Engelbert Verschueren</rs> waer aff nae vele
+                    ende lange roepens namentlyck des vrydaghs den <date when="1616-09-06">sesten deser jegenwoordige maent septembris</date> als leste ende hoochste
                     verdierdere ende meest daeromme biedende den coop ende palmslach ontfangen en
-                    behouden heeft <rs type="person" ref="#keyser_guille">Guille de Keyser</rs> in
+                    behouden heeft <rs type="person" ref="../register/register-person.xml#keyser_guille">Guille de Keyser</rs> in
                     den naeme ende tot behoeff van alle de voorsreven executanten hier bovens
                     genoempt voor de somme van tweehondert dryentsestich carolus gulden erffelyck
-                    naer luyt van de coopcedulle daeraff zynde geteeckent <rs type="person"
-                        ref="#huffel_j">J. Van Huffel</rs>. Voor de welcke de voorseyde Peeter de
-                    Schot ende Peeter Paulo Rubbens voor de executanten van Antwerpen ende <rs
-                        type="person" ref="#cantelbeke_anthonis">Anthonio van Cantelbeke</rs> in den
+                    naer luyt van de coopcedulle daeraff zynde geteeckent <rs type="person" ref="../register/register-person.xml#huffel_j">J. Van Huffel</rs>. Voor de welcke de voorseyde Peeter de
+                    Schot ende Peeter Paulo Rubbens voor de executanten van Antwerpen ende <rs type="person" ref="../register/register-person.xml#cantelbeke_anthonis">Anthonio van Cantelbeke</rs> in den
                     name van de tweede executanten oft crediteuren van Bruessel, alder mede present
                     zynde ende den coop respective geaccepteert hebben soo hem selver comparant in
                     der voorseyder qualiteyt (omme de voorseyde cooperen dyen volgende nae deser
@@ -134,38 +117,31 @@
                     last van <measure type="currency" quantity="36.5">XXXVI ½</measure> st.
                     grontchys ende heere van Herenthout verachtert van vier oft vyff jaeren; Item
                     van <measure type="currency" quantity="19">XIX</measure> stuyvers 4 den.
-                    brabants chrontchyns den selven heer van Herenthout, verachtert seder <date
-                        when="1612-10-01">Bamisse anno XVI<hi rend="super">c</hi>
+                    brabants chrontchyns den selven heer van Herenthout, verachtert seder <date when="1612-10-01">Bamisse anno XVI<hi rend="super">c</hi>
                         tweelffve</date><note resp="A.H." type="footnote">Bamisse bezeichnet den
-                        Festtag des hl. Bavo am 1. Oktober.</note>. Item van <measure
-                        type="currency" quantity="19">XIX</measure> stuyvers ende noch 6 ½ st. oft 7
-                    ½ hunnen grontchyns den heere van Itegem verachtert sedert <date
-                        when="1612-12-25">kersmisse XVI<hi rend="super">c</hi>
+                        Festtag des hl. Bavo am 1. Oktober.</note>. Item van <measure type="currency" quantity="19">XIX</measure> stuyvers ende noch 6 ½ st. oft 7
+                    ½ hunnen grontchyns den heere van Itegem verachtert sedert <date when="1612-12-25">kersmisse XVI<hi rend="super">c</hi>
                         tweelffve</date><note resp="A.H." type="footnote">Kersmisse liegt auf dem
                         25. Dezember.</note>. Item van vyff stuyvers 4 den. grontchyns <gap reason="illegible"/>
                     verachtert sedert <date when="1612-12-25">kersmisse XVI<hi rend="super">c</hi>
                         twelffve</date>. Item van twee stuyvers grontchyns den goidtshuyse van
-                    Tongerloo verachtert sedert <date when="1612-12-25">kersmisse XVI<hi
-                            rend="super">c</hi> tweelffve</date>. Item van dry gulden 4 stuyvers chys
-                    de cappelrye van <rs type="place" ref="#gerlaer">Gerlaer</rs> verachtert sedert
+                    Tongerloo verachtert sedert <date when="1612-12-25">kersmisse XVI<hi rend="super">c</hi> tweelffve</date>. Item van dry gulden 4 stuyvers chys
+                    de cappelrye van <rs type="place" ref="../register/register-place.xml#gerlaer">Gerlaer</rs> verachtert sedert
                     de jare <date when="1609">XVI<hi rend="super">c</hi> negen</date>. Item van eenen
-                    scelling Brabants aen de chyshove van <rs type="place" ref="#kwerps"
-                    >Quarebbe</rs> verachtert geduerende de troublen ende daernae ende van een
-                    veertel rogge chys de capellrye van <rs type="place" ref="#noderwyck"
-                    >Noderwyck</rs> verachtert als boven van aldyen beevonden wert die daerop te
+                    scelling Brabants aen de chyshove van <rs type="place" ref="../register/register-place.xml#kwerps">Quarebbe</rs> verachtert geduerende de troublen ende daernae ende van een
+                    veertel rogge chys de capellrye van <rs type="place" ref="../register/register-place.xml#noderwyck">Noderwyck</rs> verachtert als boven van aldyen beevonden wert die daerop te
                     gaene. Item van twee veertelen rogs den hyligen geest van Iteghem verachtert
                     sedert <date when="--12-25">Kersmisse</date> daernae, alle welcke commeren ende
                     chynse den coopere sal moeten dragen sonder affcortine van synen coop alles met
                     tien verloope van dyen ende zoo bevonden wert die minder oft meerder te zyne zyn
-                    schade ende bate Onder welcke voorseyde landen twee partyen leen zyn onder <rs
-                        type="person" ref="#fierens_catharina">Catharina Fierens</rs> de welcke den
+                    schade ende bate Onder welcke voorseyde landen twee partyen leen zyn onder <rs type="person" ref="../register/register-person.xml#fierens_catharina">Catharina Fierens</rs> de welcke den
                     cooper sal moeten verheffen voor heer ende hoff de rechte soo van relieve als
                     andere betaelen oock sonder affcortinge ende mindernisse van zyn coop soo by
                     oock sal by aldyen bevonden wert datter meer leengoeden onder zyn met oock allen
                     anderen heerlycken rechten soo verre de voorscreven goeden oft eenge van dyen
                     daermede belast zyn daeronder men verstaet te begrypen de present penningen.
                     Ende van <measure type="currency" quantity="32">XXXII</measure> gulden erffelyk
-                        <rs type="person" ref="#ceulen_peter">Peter van Ceulen</rs> daer jaerlycks
+                        <rs type="person" ref="../register/register-person.xml#ceulen_peter">Peter van Ceulen</rs> daer jaerlycks
                     vuytgaende prout litterae ende anders nyet. Ende desen voornoemden commer ende
                     laste hebben geloeft ende geloeffden mits desen den voorseyden Peeter de Schot,
                     Peeter Paulo Rubbens ende Anthonio de Cantelbeke in der voorseyder qualiteyt van

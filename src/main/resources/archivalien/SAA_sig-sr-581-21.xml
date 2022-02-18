@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_176">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_176"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-581-21">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -50,14 +49,11 @@
                         <msItem>
                            <filiation>
                                <note resp="A.H." type="footnote">Rubens, van Halmale und Schut traten am selben Tag
-                                   noch mehrere Male als Vormund der Kinder von Jan Brueghel auf: Vgl. den <ref
-                                       type="rubens" cRef="ed_rubens_175">Verkauf des Hauses De Meerminne</ref>,
+                                   noch mehrere Male als Vormund der Kinder von Jan Brueghel auf: Vgl. den <ref type="rubens" cRef="ed_rubens_175">Verkauf des Hauses De Meerminne</ref>,
                                    den <ref type="rubens" cRef="ed_rubens_177">Verkauf einer Rente des Jan
                                        Brueghel</ref>, einen weiteren <ref type="rubens" cRef="ed_rubens_178">Verkauf
                                            einer Rente</ref>, die <ref type="rubens" cRef="ed_rubens_179">Veräußerung
-                                               einer Rente auf das Haus De Wijngaert</ref> und den <ref type="rubens"
-                                                   cRef="ed_rubens_180">Verkauf des Hauses Sint Marten</ref>. Am <ref
-                                                       type="rubens" cRef="ed_rubens_187">17. Juli 1628</ref> dann verkauften
+                                               einer Rente auf das Haus De Wijngaert</ref> und den <ref type="rubens" cRef="ed_rubens_180">Verkauf des Hauses Sint Marten</ref>. Am <ref type="rubens" cRef="ed_rubens_187">17. Juli 1628</ref> dann verkauften
                                    Rubens, Pauwel van Halmale, Hendrick van Balen und Cornelis Schut das Haus Den
                                    Bok an Franciscus de Raet.</note>
                            </filiation>
@@ -93,9 +89,8 @@
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormundschaft</term>
-                    </index> vercocht omme eene somme gelts de voors. Jouffrouwe <rs type="person"
-                        ref="#marienberghe_catharina">Catharina van Marienverge</rs>, weduwe vande
-                    voors. wijlen <rs type="person" ref="#brueghel_jan_aeltere">Jan
+                    </index> vercocht omme eene somme gelts de voors. Jouffrouwe <rs type="person" ref="../register/register-person.xml#marienberghe_catharina">Catharina van Marienverge</rs>, weduwe vande
+                    voors. wijlen <rs type="person" ref="../register/register-person.xml#brueghel_jan_aeltere">Jan
                         Breugel</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Breughel, Jan (der Ältere) </term>
                     </index> de sesse sevenste deelen van d’eene helft daervan heur d’ander helft
@@ -105,21 +100,18 @@
                     genaempt Den Bock<index indexName="stw">
                         <term xml:lang="nld">Den Bock</term>
                     </index>, gestaen ende gelegen inde Gasthuysbempten alhier waren achter de
-                    nieuwe Tapissiers pant, tusschen <rs type="person" ref="#snouck_gaspar">Gaspars
-                        Snouck</rs> huys aen d’eene sijde ende <rs type="person"
-                        ref="#lambrecht_michiel">Michiels Lambrechts</rs> huys ende erve aen d’ander
+                    nieuwe Tapissiers pant, tusschen <rs type="person" ref="../register/register-person.xml#snouck_gaspar">Gaspars
+                        Snouck</rs> huys aen d’eene sijde ende <rs type="person" ref="../register/register-person.xml#lambrecht_michiel">Michiels Lambrechts</rs> huys ende erve aen d’ander
                     sijde, behalvens dat de pompe opde plaetse van dese huysinge in desselfs.
                     Michiels Lambrechts muer hangende is bij gedoochsaemheyt, gelyck oick is de
-                    venstere ende groote ceuckenvaende Noortsijde staende huysinge opde <date
-                        when="1619-03-09">negenste dach Meerts van de Jare 16<hi rend="super">c</hi>
+                    venstere ende groote ceuckenvaende Noortsijde staende huysinge opde <date when="1619-03-09">negenste dach Meerts van de Jare 16<hi rend="super">c</hi>
                         negenthiene</date> vercocht ende getransporteert heeft aen voors. wijlen
                     Janne Breugel van wijlen hen comparante selve sesse sevenste deel inde helft
                     toecomende bleven ende verstorven sijn ende omme welcke hhuysinge ten hoochste
-                    ende meeste proffyte te brengene is de selve door <rs type="person"
-                        ref="#halen_peeter">Peeter van Hale</rs>, oudcleercooper tot vele ende
+                    ende meeste proffyte te brengene is de selve door <rs type="person" ref="../register/register-person.xml#halen_peeter">Peeter van Hale</rs>, oudcleercooper tot vele ende
                     diversche vrijdagen ter Vrijdags merct te coope geveylt waaarvan als leste ende
                     hoogste verdierdere ende meest daervore biedende cooperse gebleven is, de voors.
-                    Jouffrouwe <rs type="person" ref="#marienberghe_catharina">Catharina van
+                    Jouffrouwe <rs type="person" ref="../register/register-person.xml#marienberghe_catharina">Catharina van
                         Marienberge</rs> voorde somme van vijffhondert tweenseventich guldene
                     erffelyck alvolgende breiven ende bescheden daervan sijnde die sijn mede
                     overgaven, droege oppe ende te waerne ende vuytgenomen Casteelchys, soo wesen

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_264">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_264"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,10 +16,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc> 
-                &register-corporate; 
-                &register-person; 
-                &register-place;
-                &register-work; 
+                
+ 
+                
+
+ 
+                
+
+
+                
+
+ 
                 <msDesc xml:lang="deu" xml:id="goelnitz_ulysses_1631">
                     <msIdentifier>
                         <country>Deutschland</country>
@@ -60,16 +59,14 @@
                 <body>
                     <div type="title_page" xml:lang="lat">
                         <index indexName="fsw">
-                            <term type="structure" target="#title_page" xml:lang="deu"
-                            >Titelblatt</term>
+                            <term type="structure" target="#title_page" xml:lang="deu">Titelblatt</term>
                         </index>
                         <p rend="text-align:center">
-                            <rs type="person" ref="#goelnitzius_abraham">
+                            <rs type="person" ref="../register/register-person.xml#goelnitzius_abraham">
                                 <hi rend="smallCaps">Abrah: GölnitzI. <index indexName="psw">
                                         <term type="PND" xml:lang="deu">Gölnitzius, Abraham</term>
                                         <index indexName="fsw">
-                                            <term type="structure" target="#author" xml:lang="deu"
-                                                >Verfasser</term>
+                                            <term type="structure" target="#author" xml:lang="deu">Verfasser</term>
                                         </index>
                                     </index></hi>
                             </rs><lb/> ULYSSES<lb/>
@@ -78,34 +75,29 @@
                             <hi rend="smallCaps">belgium hispan:<lb/> regnum galliae<lb/> ducat.
                                 sabaudiae<lb/> turinum</hi>
                             <hi rend="italic">usq. PedemontI<lb/> Metropolin</hi><lb/> Cum Privilegio<lb/>
-                            <rs type="person" ref="#duysend_cornelis">Cornelis Cl.Dusend <index
-                                    indexName="psw">
+                            <rs type="person" ref="../register/register-person.xml#duysend_cornelis">Cornelis Cl.Dusend <index indexName="psw">
                                     <term type="PND" xml:lang="deu">Duysend, Cornelis C.</term>
                                     <index indexName="fsw">
-                                        <term type="structure" target="engraver" xml:lang="deu"
-                                            >Stecher</term>
+                                        <term type="structure" target="engraver" xml:lang="deu">Stecher</term>
                                     </index>
                                 </index></rs> sculpsit<lb/>
-                            <rs type="place" ref="#leyden">
+                            <rs type="place" ref="../register/register-place.xml#leyden">
                                 <hi rend="smallCaps">Lugduni Batav</hi>
-                            </rs><lb/> Ex <rs type="corporate" ref="#verlagshaus_elzeviriana_leiden"
-                                >officina ELZEVRIANA <index indexName="psw">
+                            </rs><lb/> Ex <rs type="corporate" ref="../register/register-corporate.xml#verlagshaus_elzeviriana_leiden">officina ELZEVRIANA <index indexName="psw">
                                     <term type="PND" xml:lang="deu">Elzevier (Familie)</term>
                                     <index indexName="fsw">
-                                        <term type="structure" target="#publisher" xml:lang="deu"
-                                            >Verleger</term>
+                                        <term type="structure" target="#publisher" xml:lang="deu">Verleger</term>
                                     </index>
                                 </index></rs><lb/>
-                            <date when="1631">CI&#x0186; I&#x0186;C XXXI</date>
+                            <date when="1631">CIƆ IƆC XXXI</date>
                         </p>
                     </div>
                     <div part="Y" xml:lang="lat">
                         <p>
-                            <pb n="71"/>A <rs type="person" ref="#plantin_christophe"
-                                >Plantino</rs><index indexName="psw">
+                            <pb n="71"/>A <rs type="person" ref="../register/register-person.xml#plantin_christophe">Plantino</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Plantin, Christophe</term>
-                            </index> ad <rs type="person" ref="#rubens_peter_paul">RUBENIUM</rs> te
-                            ducam, vivum <rs type="place" ref="#europa">Europae</rs> miraculum.
+                            </index> ad <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">RUBENIUM</rs> te
+                            ducam, vivum <rs type="place" ref="../register/register-place.xml#europa">Europae</rs> miraculum.
                             Ingenua artificis humanitas non negabit artem, humanae aemulam naturae
                             videas. quae ibi sculpta, caelata, pictáque vidi, cogitatione, non calamo
                             habeo. Unius tabulae sit mentio, aestimii supra quinque mill. florenorum;
@@ -113,16 +105,12 @@
                                 magnum<note resp="A.H." type="footnote">Möglicherweise handelt es
                                 sich hier um das "Kleine Jüngste Gericht" in der Alten Pinakothek
                                 München. vgl. <bibl>Michael Jaffé: Rubens - Catalogo completo.
-                                    Milano 1989. S. 247. Nr. 527<ptr type="gbv" cRef="022373535"
-                                /></bibl></note><index indexName="stw">
+                                    Milano 1989. S. 247. Nr. 527<ptr type="gbv" cRef="022373535"/></bibl></note><index indexName="stw">
                                 <term type="SWD" xml:lang="deu">Jüngstes Gericht (Motiv)</term>
-                            </index>. superiùs, coeli amoena, corporumq&#x00B4;ue ad ea volatus:
+                            </index>. superiùs, coeli amoena, corporumq´ue ad ea volatus:
                             alios in coelo gaudio diffluere; alios apud inferos torqueri, hîc
-                            corporum raptus, inferorum gurges, mixtae infelici interitu maribus <pb
-                                n="72"/>foeminae, juvenes senibus. ita ut spectatorem suum tormenta
-                            terreant, &amp; alliciant gaudia, Praeter hanc, <rs type="work"
-                                ref="#jaffe_707_754">viginti &amp; plures tabulas</rs><index
-                                indexName="stw">
+                            corporum raptus, inferorum gurges, mixtae infelici interitu maribus <pb n="72"/>foeminae, juvenes senibus. ita ut spectatorem suum tormenta
+                            terreant, &amp; alliciant gaudia, Praeter hanc, <rs type="work" ref="../register/register-work.xml#jaffe_707_754">viginti &amp; plures tabulas</rs><index indexName="stw">
                                 <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term>
                                 <index indexName="stw">
                                     <term xml:lang="deu">Medici-Zyklus (1622-1625)</term>
@@ -138,17 +126,14 @@
                                     <term xml:lang="fra">Palais du Luxembourg</term>
                                 </index>
                             </index>
-                            <rs type="place" ref="#paris">Parisios</rs> deferendas, impensis Reginae
+                            <rs type="place" ref="../register/register-place.xml#paris">Parisios</rs> deferendas, impensis Reginae
                                 matris<note resp="A.H." type="footnote">vgl. den Zwischen Rubens und
-                                Maria de'Medici geschlossenen <ref type="rubens"
-                                    cRef="ed_rubens_001">Vertrag vom 26. Februar
+                                Maria de'Medici geschlossenen <ref type="rubens" cRef="ed_rubens_001">Vertrag vom 26. Februar
                                 1622</ref>.</note><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Maria (Frankreich,
                                     Königin)(1573-1642)</term>
-                            </index>, manu &amp; operâ Rubenii pictas vidimus<note resp="N.B."
-                                type="footnote">Abraham Gölnitzius, aus Danzig stammend, war
-                                Sekretär des dänischen Königs <rs type="person"
-                                    ref="#christian_iv_daenemark">Christian IV</rs>. Er reiste durch
+                            </index>, manu &amp; operâ Rubenii pictas vidimus<note resp="N.B." type="footnote">Abraham Gölnitzius, aus Danzig stammend, war
+                                Sekretär des dänischen Königs <rs type="person" ref="../register/register-person.xml#christian_iv_daenemark">Christian IV</rs>. Er reiste durch
                                 die burgundischen Niederlande und durch Frankreich und ließ seine
                                 Reiseschilderung 1631 in Amsterdam erscheinen. Aus der Tatsache,
                                 dass er in Rubens’ Atelier ein Weltgericht und mehr als zwanzig
@@ -157,10 +142,9 @@
                                     <bibl>Bulletin Rubens: annales de la Commission Officielle
                                     instituée par le Conseil Communal de la Ville d'Anvers pour la
                                     publication des documents relatifs à la vie et aux oeuvres de
-                                    Rubens = Rubens-bulletijn. Bd. 5. Antwerpen 1910. S. 223f.<ptr
-                                        type="gbv" cRef="167057901"/></bibl>.</note>; alias alias,
+                                    Rubens = Rubens-bulletijn. Bd. 5. Antwerpen 1910. S. 223f.<ptr type="gbv" cRef="167057901"/></bibl>.</note>; alias alias,
                             silentio potiùs quàm calamo à nobis fingendas. Superest palatium
-                            magnificum <rs type="person" ref="#rodriguez_simon">
+                            magnificum <rs type="person" ref="../register/register-person.xml#rodriguez_simon">
                                 <hi rend="italic">Simonis Roderigi</hi>
                             </rs>, <hi rend="italic">Baronis de Rodes</hi>; in quod intromissus
                             contemplare hortum aurantiis &amp; citriis malis virentem, fontes
@@ -174,59 +158,49 @@
                                 potest.<hi rend="italic">Turris</hi> re &amp; nomine praefert
                             Archangelum Michaëlem<index indexName="psw">
                                 <term type="PND" xml:lang="deu">Michael (Erzengel)</term>
-                            </index>, urbis tutelaré, statuâ versatili aeneâ pedum xv perfecta. <hi
-                                rend="italic">Supremae contignationes</hi>, sunt armamentarium
+                            </index>, urbis tutelaré, statuâ versatili aeneâ pedum xv perfecta. <hi rend="italic">Supremae contignationes</hi>, sunt armamentarium
                             &amp; repositorium jaculorum, arcuum &amp; ejusdem generis
                             veterum armorú. <hi rend="italic">Curia conclavia</hi> merentur videri
-                            ob tot tot tabulas, Principú pictorum opera. Una <hi rend="italic"
-                                >judicium Salomonis</hi><index indexName="stw">
+                            ob tot tot tabulas, Principú pictorum opera. Una <hi rend="italic">judicium Salomonis</hi><index indexName="stw">
                                 <term type="SWD" xml:lang="deu">Das salomonische Urteil</term>
                             </index><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Salomon</term>
                             </index>, Rubenii manu pictum<note resp="A.H." type="footnote">Michael
                                 Jaffé listet inb seinem Werkkatalog lediglich zwei Bilder dieses
                                 Sujets. Er hält es für wahrscheinlich, dass das heute in Kopenhagen
-                                aufbewahrte <rs type="work" ref="#jaffe_371">Urteil des Salomon</rs>
+                                aufbewahrte <rs type="work" ref="../register/register-work.xml#jaffe_371">Urteil des Salomon</rs>
                                 ursprünglich in einem niederländischen Rathaussaal hing, ohne jedoch
                                 über den genauen Ort zu spekulieren. vgl. <bibl>Michael Jaffé:
-                                    Rubens - Catalogo completo. Milano 1989. S. 218. Nr. 371<ptr
-                                        type="gbv" cRef="022373535"/></bibl> Wenn es sich bei dem
+                                    Rubens - Catalogo completo. Milano 1989. S. 218. Nr. 371<ptr type="gbv" cRef="022373535"/></bibl> Wenn es sich bei dem
                                 von Gölnitzius beschriebenen Werk vielleicht auch nicht um das
                                 Kopenhagener Gemälde handelt, wird man es sich dennoch eine
                                 Vorstellung davon machen können.</note>, pretio ter mille florenor.
                             habet. alae sive latera, icones Scabinorum tenent. januae superstat
-                            Iudicium extremum. Conclave adsitú exhibet <rs type="person"
-                                ref="#isabella_von_spanien">
+                            Iudicium extremum. Conclave adsitú exhibet <rs type="person" ref="../register/register-person.xml#isabella_von_spanien">
                                 <hi rend="italic">Isabellam Archiducem</hi>
                             </rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
                             </index> in encaeniis paganis psitt acum arcu dejicienté de turri. de hoc
                             exercitio Meter. l. vi. Alia tabula <hi rend="italic">eandem
                                 Mariamontino</hi><note resp="A.H." type="footnote">Ein um 1615
-                                datierendes <rs type="work" ref="#jaffe_329">Porträt der
+                                datierendes <rs type="work" ref="../register/register-work.xml#jaffe_329">Porträt der
                                 Infantin</rs> zeigt im Hintergrund das Schloss Mariemont.</note>
-                            reducem exhibet; arx est paucis leucis <rs type="place" ref="#bruessel"
-                                >Bruxellâ</rs> abjuncta, silvâ circummunita, feris ab<pb n="125"
-                                />undans,(<hi rend="italic">en esté le sejour d´Archiduc</hi>.) Alia
+                            reducem exhibet; arx est paucis leucis <rs type="place" ref="../register/register-place.xml#bruessel">Bruxellâ</rs> abjuncta, silvâ circummunita, feris ab<pb n="125"/>undans,(<hi rend="italic">en esté le sejour d´Archiduc</hi>.) Alia
                             cóclavia alias tabulas, triumphali currui pro introitu Isabellae
                             impositas, habent: in alio, videbis <hi rend="smallCaps">xvii</hi>
-                            <rs type="place" ref="#belgien">Belgii</rs> Ordines, adversis armis
-                            inter se congredientes; inter quos medio loco posita ipsa <hi
-                                rend="italic">Belgica</hi>; supernè è nubibus <rs type="person"
-                                ref="#albrecht_von_oesterreich">Albertus</rs><index indexName="psw">
+                            <rs type="place" ref="../register/register-place.xml#belgien">Belgii</rs> Ordines, adversis armis
+                            inter se congredientes; inter quos medio loco posita ipsa <hi rend="italic">Belgica</hi>; supernè è nubibus <rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">Albertus</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog,
                                     VII.)</term>
                             </index> &amp; Isabella cum palmis procedunt. Ante curiam, in area
                                 <hi rend="italic">rotundus circus</hi> è lapide stratus, cui pegma
-                            olim institit, supplicio <rs type="person" ref="#montmorency_philippe"
-                                >Hornani</rs><index indexName="psw">
+                            olim institit, supplicio <rs type="person" ref="../register/register-person.xml#montmorency_philippe">Hornani</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Horne, Filips van Montmorency
                                 van</term>
-                            </index> &amp; <rs type="person" ref="#egmond_lamoral"
-                                >Egmondani</rs><index indexName="psw">
+                            </index> &amp; <rs type="person" ref="../register/register-person.xml#egmond_lamoral">Egmondani</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Egmont, Lamoraal /van
                                 (männlich)</term>
-                                </index> Comitum (nefas dictu) destinatum.<note resp="N.B." type="footnote"><rs type="person" ref="#goelnitzius_abraham">Abraham Gölnitzius</rs>, aus <rs type="place" ref="#danzig">Danzig</rs> stammend, war Sekretär des dänischen Königs <rs type="person" ref="#christian_iv_daenemark">Christian IV</rs><index indexName="psw"><term type="PND" xml:lang="deu">Christian (Dänemark, König, IV.)</term></index>. Er reiste durch die burgundischen <rs type="place" ref="#niederlande">Niederlande</rs> und durch <rs type="place" ref="#frankreich">Frankreich</rs> und ließ seine Reiseschilderung <date when="1631">1631</date> in <rs type="place" ref="#amsterdam">Amsterdam</rs> erscheinen. Aus der Tatsache, dass er in Rubens’ Atelier ein Weltgericht und mehr als zwanzig Bilder des Medici-Zyklus<index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term type="SWD" xml:lang="deu">Medici-Zyklus (1628-1631) </term></index></index><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term type="SWD" xml:lang="deu">Medici-Zyklus (1622-1625) </term></index></index><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term type="SWD" xml:lang="deu">Jüngstes Gericht</term></index></index> gesehen hat, schloss Max Rooses im <bibl>Bulletin Rubens: annales de la Commission Officielle instituée
+                                </index> Comitum (nefas dictu) destinatum.<note resp="N.B." type="footnote"><rs type="person" ref="../register/register-person.xml#goelnitzius_abraham">Abraham Gölnitzius</rs>, aus <rs type="place" ref="../register/register-place.xml#danzig">Danzig</rs> stammend, war Sekretär des dänischen Königs <rs type="person" ref="../register/register-person.xml#christian_iv_daenemark">Christian IV</rs><index indexName="psw"><term type="PND" xml:lang="deu">Christian (Dänemark, König, IV.)</term></index>. Er reiste durch die burgundischen <rs type="place" ref="../register/register-place.xml#niederlande">Niederlande</rs> und durch <rs type="place" ref="../register/register-place.xml#frankreich">Frankreich</rs> und ließ seine Reiseschilderung <date when="1631">1631</date> in <rs type="place" ref="../register/register-place.xml#amsterdam">Amsterdam</rs> erscheinen. Aus der Tatsache, dass er in Rubens’ Atelier ein Weltgericht und mehr als zwanzig Bilder des Medici-Zyklus<index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term type="SWD" xml:lang="deu">Medici-Zyklus (1628-1631) </term></index></index><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term type="SWD" xml:lang="deu">Medici-Zyklus (1622-1625) </term></index></index><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term type="SWD" xml:lang="deu">Jüngstes Gericht</term></index></index> gesehen hat, schloss Max Rooses im <bibl>Bulletin Rubens: annales de la Commission Officielle instituée
                                     par le Conseil Communal de la Ville d'Anvers pour la publication des documents relatifs à la
                                     vie et aux oeuvres de Rubens = Rubens-bulletijn. Bd. 5. Antwerpen 1910. S. 223f.</bibl>, daß Gölnitzius <date when="1624">1624</date> im Rubenshaus<index indexName="gsw"><term type="GKD" xml:lang="deu">Antwerpen</term><index indexName="gsw"><term type="GKD" xml:lang="deu">Rubenshaus</term></index></index> zu Gast gewesen sein muss.</note></p>
                     </div>
@@ -237,12 +211,9 @@
                 <body>
                     <div part="Y" xml:lang="deu">
                         <head>Übersetzung:</head>
-                        <p><pb n="71"/> Von <rs type="person" ref="#plantin_christophe"
-                                >Plantinus</rs><index indexName="psw">
+                        <p><pb n="71"/> Von <rs type="person" ref="../register/register-person.xml#plantin_christophe">Plantinus</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Plantin, Christophe</term>
-                            </index> will ich dich hin zu <rs type="person" ref="#rubens_peter_paul"
-                                >Rubens</rs> führen, einem wahren Wunder in <rs type="place"
-                                ref="#europa">Europa</rs>. Die edle Natur eines Künstlers wird nicht
+                            </index> will ich dich hin zu <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> führen, einem wahren Wunder in <rs type="place" ref="../register/register-place.xml#europa">Europa</rs>. Die edle Natur eines Künstlers wird nicht
                             leugnen, dass man die Kunst bestrebt sieht, es der Natur des Menschen
                             gleichzutun. Was ich bei Rubens an Skulpturen, Ziselierarbeiten und
                             Gemälden gesehen habe, ist in Gedanken, nicht aber mit Worten zu fassen.
@@ -256,9 +227,7 @@
                             der Hölle, wo die Körper dahingerafft werden und Ströme von Toten sich
                             ergießen – <pb n="72"/>Frauen wie Männer, Junge wie Alte einem grausigen
                             Ende preisgegeben. Die Pein der einen stößt den Betrachter ab, die
-                            Freude der andern zieht ihn an. Neben diesem Gemälde sahen wir <rs
-                                type="work" ref="#jaffe_707_754">mehr als zwanzig weitere</rs><index
-                                indexName="stw">
+                            Freude der andern zieht ihn an. Neben diesem Gemälde sahen wir <rs type="work" ref="../register/register-work.xml#jaffe_707_754">mehr als zwanzig weitere</rs><index indexName="stw">
                                 <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term>
                                 <index indexName="stw">
                                     <term xml:lang="deu">Medici-Zyklus (1622-1625)</term>
@@ -277,11 +246,9 @@
                             der französischen Königinmutter<index indexName="psw">
                                 <term type="PND" xml:lang="deu">Maria (Frankreich,
                                     Königin)(1573-1642)</term>
-                            </index> bestellt worden und sollten nach <rs type="place" ref="#paris"
-                                >Paris</rs> überführt werden. Von den übrigen aber muss ich
+                            </index> bestellt worden und sollten nach <rs type="place" ref="../register/register-place.xml#paris">Paris</rs> überführt werden. Von den übrigen aber muss ich
                             schweigen, da ich sie mit Worten nicht beschreiben kann. Schließlich
-                            will ich das prächtige Palais des <rs type="person"
-                                ref="#rodriguez_simon">Simon Rodriguez,</rs> Baron von Rodes,
+                            will ich das prächtige Palais des <rs type="person" ref="../register/register-person.xml#rodriguez_simon">Simon Rodriguez,</rs> Baron von Rodes,
                             erwähnen. Dort ist ein Garten mit Apfel- und Zitronenbäumen eingelassen,
                             und siehe, es gibt Brunnen und Statuen, die voller Hinterlist Wasser
                             speien – da sehe man sich vor und trete beiseite! </p>
@@ -307,8 +274,7 @@
                             </index> von der Hand des Peter Paul Rubens – hat einen Wert von
                             dreitausend Gulden. In den Flügeln oder Seitenräumen sind Bilder der
                             Schöffen zu sehen, über den Türen das Jüngste Gericht. Einer der
-                            angrenzenden Räume zeigt die Erzherzogin <rs type="person"
-                                ref="#isabella_von_spanien">Isabella</rs><index indexName="psw">
+                            angrenzenden Räume zeigt die Erzherzogin <rs type="person" ref="../register/register-person.xml#isabella_von_spanien">Isabella</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
                             </index>, wie sie bei einem Einweihungsfest auf dem Lande von einem Turm
                             herab mit dem Bogen auf einen Papagei schießt. Zu diesem Brauch
@@ -317,23 +283,20 @@
                             Brüssel entfernt liegt, umgeben von einem Wald, der voller wilder Tiere
                             ist <pb n="125"/> (die Sommerresidenz des Erzherzogs). In den anderen
                             Räumen hängen, bei einem Triumphwagen für den feierlichen Einzug der
-                            Isabella, weitere Gemälde: Auf einem sind die siebzehn Stände der <rs
-                                type="place" ref="#niederlande">Niederlande</rs> zu sehen, wie sie
+                            Isabella, weitere Gemälde: Auf einem sind die siebzehn Stände der <rs type="place" ref="../register/register-place.xml#niederlande">Niederlande</rs> zu sehen, wie sie
                             mit Waffengewalt aufeinander losschreiten. In der Mitte befindet sich
-                            die Provinz <rs type="place" ref="#brabant">Brabant</rs>, wobei von oben
-                            her <rs type="person" ref="#albrecht_von_oesterreich">Albert</rs><index
-                                indexName="psw">
+                            die Provinz <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs>, wobei von oben
+                            her <rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">Albert</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog,
                                     VII.)</term>
                             </index> und Isabella mit Siegespalmen erscheinen. Auf einem Platz vor
                             dem Rathaus ist eine kreisrunde Bahn aus Pflastersteinen, da stand einst
                             das Schafott, das (so grässlich es sich anhört) für die Hinrichtung der
-                            Grafen <rs type="person" ref="#montmorency_philippe">von
+                            Grafen <rs type="person" ref="../register/register-person.xml#montmorency_philippe">von
                                 Hoorn</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Horne, Filips van Montmorency
                                 van</term>
-                            </index> und <rs type="person" ref="#egmond_lamoral">Egmond</rs><index
-                                indexName="psw">
+                            </index> und <rs type="person" ref="../register/register-person.xml#egmond_lamoral">Egmond</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Egmont, Lamoraal /van
                                 (männlich)</term>
                             </index> bestimmt war. </p>

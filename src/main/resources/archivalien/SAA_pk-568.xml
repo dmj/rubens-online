@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_017">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_017"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_pk-568">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -50,7 +49,7 @@
                             </note>
                             <filiation>
                                 <note resp="A.H." type="footnote">Vgl. im Hinblick auf die Bezahlung der Anbetung der Könige auch die Dokumente vom
-                                    <ref  type="rubens" cRef="ed_rubens_017a"> 4. August 1610</ref>, von
+                                    <ref type="rubens" cRef="ed_rubens_017a"> 4. August 1610</ref>, von
                                     <ref type="rubens" cRef="ed_rubens_018">  1609/1610</ref> und  von
                                 <ref type="rubens" cRef="ed_rubens_019">  1609/1610</ref></note>
                             </filiation>
@@ -66,11 +65,9 @@
                             <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
                                 Gerechtsgebouw, 15.-30. Oktober 1977. S. 255, Nr. 246.</bibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877. S. 395.<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                zijne bloedverwanten. Antwerpen 1877. S. 395.<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
-                                Schilderschool. Antwerpen 1883. S. 486. <ptr type="gbv" cRef="194552292"
-                                /></bibl>
+                                Schilderschool. Antwerpen 1883. S. 486. <ptr type="gbv" cRef="194552292"/></bibl>
                             <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S. 167 und
                                 309.<ptr type="gbv" cRef="022373535"/></bibl>
                         </listBibl>
@@ -95,11 +92,9 @@
         <body>
             <div xml:lang="nld">                
                 <p><pb n="294v-295r"/>
-                    Geordonneert den tresoriers ende <rs type="person" ref="#maes_guillam">Guillam
-                        Maes</rs>, vuyt te reycken ende te betaelen aen <rs type="person"
-                        ref="#rubens_peter_paul">Peeter Rubbens</rs>, schilder, de somme van duysent
-                    guldens, ende dat op rekeninge van seker stuck schilderije van de <rs
-                        type="work" ref="#jaffe_948">Drije Coningen</rs><index indexName="stw">
+                    Geordonneert den tresoriers ende <rs type="person" ref="../register/register-person.xml#maes_guillam">Guillam
+                        Maes</rs>, vuyt te reycken ende te betaelen aen <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter Rubbens</rs>, schilder, de somme van duysent
+                    guldens, ende dat op rekeninge van seker stuck schilderije van de <rs type="work" ref="../register/register-work.xml#jaffe_948">Drije Coningen</rs><index indexName="stw">
                             <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw">
                                 <term xml:lang="deu">Anbetung der Könige</term></index>
                     </index>

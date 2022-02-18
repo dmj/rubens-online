@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_312">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_312"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Brief von Maria Pypelickx an Graf <rs type="person" ref="#nassau_johan"
-                        >Johann von Nassau</rs></title>
+                <title>Brief von Maria Pypelickx an Graf <rs type="person" ref="../register/register-person.xml#nassau_johan">Johann von Nassau</rs></title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -21,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brief_maria_pypelincx_15770614">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Maria Pypelickx an Graf Johann von Nassau vom 14. Juni 1577</idno></msIdentifier>
                     
@@ -64,7 +62,7 @@
                 <p>Aiant maintenant plus de six ans continuèlement pleuré ce nostre désastre,
                     calamité et affliction l’une sur l’aultre, il a pleu à ce bon Dieu, source de
                     toute miséricorde, me consoler un peu, m’ayant donné le moyen inespéré de
-                    pouvoir supplier à Monsieur <rs type="person" ref="#oranien_nassau_moritz">le
+                    pouvoir supplier à Monsieur <rs type="person" ref="../register/register-person.xml#oranien_nassau_moritz">le
                         Prince D'ORANGE</rs>, vostre frère, (affin qu'il nous laisse avec la
                     généralité iouyr aussi un peu par sa grâce de ceste paix, que par sa saincte et
                     sage conduite nostre pays a recouvert) avec l'espérance qu'il (suyvant son doux
@@ -86,24 +84,20 @@
                     n'estant bien que soions séparez si long d'ensemble, nous demandons pour
                     l’honneur de Dieu, que le nous veuillës rendre en don et aumosne, affin qu'il y
                     puisse aller avec nous finir le reste de ses iours, changeant sa prison d'une
-                    bonne ville, comme est celle-cy, en un petit village appelé <rs type="place"
-                        ref="#nispen">Nispen</rs>, subiect à Monsieur le Prince d ORANGES, solitaire
+                    bonne ville, comme est celle-cy, en un petit village appelé <rs type="place" ref="../register/register-place.xml#nispen">Nispen</rs>, subiect à Monsieur le Prince d ORANGES, solitaire
                     et esloigné des bonnes villes et gens, où mes parens ont une maison aux champs
                     propre pour se cacher et nous nourrir sans schandale. Il y a une petite ville
-                    deux lieues de là, dite <rs type="place" ref="#bergen_op_zoom"
-                        >Berghen-op-ten-Zoom</rs>, guerres fréquentée, laquelle luy estant avec lad.
+                    deux lieues de là, dite <rs type="place" ref="../register/register-place.xml#bergen_op_zoom">Berghen-op-ten-Zoom</rs>, guerres fréquentée, laquelle luy estant avec lad.
                     maison attribuée, pour y estre quand il ne fait pas bon au village, la grâce que
                     nous feriés deviendroit d'autant plus illustre ; le tout à mesme condition et
                     caution qu'il est icy, spécialement qu'il ne bougera iamais de là sans vostre
                     congé. Si cela ne se peut faire, il s'enclorra estroictement en une seule maison
-                    oü mes parens se tiennent à Lire, petite ville en <rs type="place"
-                        ref="#brabant">Brabant</rs>, sans en sortir sur la rue, ce que luy pèseroit
+                    oü mes parens se tiennent à Lire, petite ville en <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs>, sans en sortir sur la rue, ce que luy pèseroit
                     plus que ne fait l'estre icy en plus grande liberté, mais il sy condamneroit
                     volontiers pour le respect de nous autres. Si aussi il fault qu’il demeure au
                     prison en exil hors du pays, nous prions derechef dévotement qu'il puisse estre
-                    confiné en quelque aultre lieu plus près du pays, comme seroit <rs type="place" ref="#aachen">Aix</rs>, <rs type="place" ref="#duisburg">Duysburch</rs>,
-                    le territoire de <rs type="place" ref="#kleve">Clève</rs>, <rs type="place"
-                        ref="#juelich">Juilliers</rs> etc. pour pouvoir de prés mieux entendre à noz
+                    confiné en quelque aultre lieu plus près du pays, comme seroit <rs type="place" ref="../register/register-place.xml#aachen">Aix</rs>, <rs type="place" ref="../register/register-place.xml#duisburg">Duysburch</rs>,
+                    le territoire de <rs type="place" ref="../register/register-place.xml#kleve">Clève</rs>, <rs type="place" ref="../register/register-place.xml#juelich">Juilliers</rs> etc. pour pouvoir de prés mieux entendre à noz
                     affaires et n'estre tant esloigné de nous. Tant que pouvons comprendre (sauve
                     Monseigneur vostre discrétion) il n'y a en cecy nul inconvénient, n'estant qu’un
                     changement de prison en quelqu'endroit plus dure, et sy aura ce bien que la
@@ -119,10 +113,8 @@
                     plaisir et service de V.-Il.-S. et prions Dieu vouloir augmenter ses sainctes
                     grâces sur elle et les siens. </p>
                 <closer><dateline>Ce <date when="1577-06-14">14 de juin Tan de salut
-                        1577</date>,</dateline>de <placeName><rs type="place" ref="#siegen"
-                            >Sieghen</rs></placeName>. <salute>De Vostre lllustre Seigneurie
-                        très-humble servante. </salute><signed><rs type="person"
-                            ref="#pypelincx_maria">MARIE RUEBENS.</rs></signed></closer>
+                        1577</date>,</dateline>de <placeName><rs type="place" ref="../register/register-place.xml#siegen">Sieghen</rs></placeName>. <salute>De Vostre lllustre Seigneurie
+                        très-humble servante. </salute><signed><rs type="person" ref="../register/register-person.xml#pypelincx_maria">MARIE RUEBENS.</rs></signed></closer>
             </div>
         </body>
     </text>

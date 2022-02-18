@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_331">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_331"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,8 +11,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:id="piles_elemens_1766" xml:lang="deu">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:id="piles_elemens_1766" xml:lang="deu">
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Göttingen</settlement>
@@ -78,8 +77,7 @@
                     rencontrent quelques difficultés dans la pratique. Mais combien de jeunes gens
                     qui commencent à peindre &amp; qui ne se trouvent point à portée de demander
                     de pareils éclaircissemens à des Artistes de cette profession! C'est ce qui a
-                    toujours fait desirer un ouvrage tel que celui-ci,<pb facs="00000008" n="iv"
-                    />qui sût capable de donner une notion générale de tout ce qui regarde le
+                    toujours fait desirer un ouvrage tel que celui-ci,<pb facs="00000008" n="iv"/>qui sût capable de donner une notion générale de tout ce qui regarde le
                     méchanisme de la pratique, dans les différens genres de peinture qui sont en
                     usage actuellement. On a donc cru faire plaisir aux amateurs de cet art,
                     &amp; même à ceux qui le professent, en leur donnant une nouvelle édition de
@@ -111,8 +109,7 @@
 
             <div type="contents" xml:lang="fra">
                 <index indexName="fsw">
-                    <term type="structure" target="#contents" xml:lang="deu"
-                    >Inhaltsverzeichnis</term>
+                    <term type="structure" target="#contents" xml:lang="deu">Inhaltsverzeichnis</term>
                 </index>
                 <head><pb facs="00000011"/> TABLE<lb/> DES CHAPITRES<lb/> contenus dans cet ouvrage.</head>
                 <div xml:lang="fra">
@@ -1251,8 +1248,7 @@
                         représenter. Ensuite on y a ajouté des ombres &amp; des clairs,
                         &amp; enfin on y a appliqué différentes couleurs pour imiter ces objets
                         plus au naturel. On employa sans doute alors des couleurs de diverse espece,
-                        suivant les surfaces des corps sur lesquels s'appliquoit cette peinture,<pb
-                            facs="00000028" n="4"/>comme sur des murs, sur des planches, des étoffes
+                        suivant les surfaces des corps sur lesquels s'appliquoit cette peinture,<pb facs="00000028" n="4"/>comme sur des murs, sur des planches, des étoffes
                         &amp; autres corps. Tantôt on ne se servoit que de terres, tantôt de
                         sucs de plantes, tantôt de teintures tirées des métaux &amp; des
                         minéraux, &amp; quelquefois des uns &amp; des autres en même tems;
@@ -1285,8 +1281,7 @@
                             jeunes gens dans cet ouvrage. </p>
                         <p>Cette imitation de la nature, par le moyen du dessein &amp; des
                             couleurs, peut se faire de différentes manieres, dont les principales
-                            sont la peinture en détrempe, à fresque, à huile, au pastel, en minia<pb
-                                facs="00000030" n="6"/>ture, en émail, &amp;c, dont nous allons
+                            sont la peinture en détrempe, à fresque, à huile, au pastel, en minia<pb facs="00000030" n="6"/>ture, en émail, &amp;c, dont nous allons
                             parler successivement. </p>
                     </div>
                     <div xml:lang="fra">
@@ -1319,8 +1314,7 @@
                             trait qui en marque le contour. Cette partie suppose, 1°. une grande
                             connoissance de l'anatomie, qui comprend la science des <unclear reason="illegible">o</unclear>, &amp;
                             qui enseigne le nom, l'office, l'origine &amp; l'insertion des
-                            muscles, pour pouvoir les exprimer selon leurs divers mou<pb
-                                facs="00000032" n="8"/>vemens. 2°. Une étude exacte de l'antique,
+                            muscles, pour pouvoir les exprimer selon leurs divers mou<pb facs="00000032" n="8"/>vemens. 2°. Une étude exacte de l'antique,
                             c'est-à-dire, des statues anciennes grecques, lesquelles sont, de l'aveu
                             de tous les gens d'art, les regles de la beauté &amp; de la juste
                             proportion du corps humain. 3°. Le caractere des passions, ou la science
@@ -1335,8 +1329,7 @@
                             de géométrie, ou du moins la partie de cette science qui regarde la
                             pratique. </p>
                         <p>Le coloris comprend deux choses: la couleur locale, &amp; le clair
-                            obscur. Par la couleur locale, on entend celle qui est<pb
-                                facs="00000033" n="9"/>essentielle &amp; propre à chaque objet;
+                            obscur. Par la couleur locale, on entend celle qui est<pb facs="00000033" n="9"/>essentielle &amp; propre à chaque objet;
                             ce qui oblige de connoître parfaitement l'amitié &amp; l'antipathie
                             des couleurs, leur union, leur force &amp; leur douceur, pour ne pas
                             allier ensemble des objets dont les couleurs discordantes feroient aux
@@ -1367,8 +1360,7 @@
                         <p>Voilà ce qui regarde la peinture en général; les deux premieres parties,
                             que l'on confond souvent ensemble, &amp; qui sont comprises alors
                             sous le nom général de composition, en sont proprement la théorie,
-                            &amp; peuvent être entendues par toutes<pb facs="00000035" n="11"
-                            />sortes de personnes intelligentes, sans être Peintre. Les deux autres
+                            &amp; peuvent être entendues par toutes<pb facs="00000035" n="11"/>sortes de personnes intelligentes, sans être Peintre. Les deux autres
                             en sont la pratique, &amp; regardent proprement le méchanisme de la
                             peinture, dont nous traitons ici. </p>
                     </div>
@@ -1418,8 +1410,7 @@
                         <head>De la Peinture en mosaïque.</head>
                         <p> On imagina ensuite une autre espece de peinture qui se faisoit avec de
                             petites pierres de rapport &amp; des cailloux de différente couleur
-                            qu'on appliquoit les uns contre les autres sur un enduit de mortier<pb
-                                facs="00000038" n="14"/>frais, &amp; avec lesquels on imitoit la
+                            qu'on appliquoit les uns contre les autres sur un enduit de mortier<pb facs="00000038" n="14"/>frais, &amp; avec lesquels on imitoit la
                             nature dans toutes ses nuances. Pour certaines couleurs difficiles à
                             trouver, au défaut des pierres naturelles, on s'en servoit
                             d'artificielles préparées au feu. Ce travail s'appelloit de mosaïque,
@@ -1491,8 +1482,7 @@
                             peuvent se parfondre étant mises dans un fourneau. Ces émaux ou
                             compositions se broyent avec de l'huile d'aspic, &amp; lorfqu'on
                             veut s'en servir on les délaye avec de cette même huile, comme on délaye
-                            dans la miniature les couleurs ordinaires<pb facs="00000042" n="18"
-                            />avec de l'eau gommée. La pratique de peindre en émail est aussi la
+                            dans la miniature les couleurs ordinaires<pb facs="00000042" n="18"/>avec de l'eau gommée. La pratique de peindre en émail est aussi la
                             même que celle de la miniature, tant pour le mêlange des couleurs que
                             pour la maniere de les appliquer &amp; de finir en pointillant. Cet
                             ouvrage se fait à diverses reprises &amp; se retouche tant que l'on
@@ -1508,8 +1498,7 @@
                         <head>De la Peinture au pastel.</head>
                         <p> La peinture au pastel est ainsi nommée, parce qu'elle se pratique avec
                             des crayons composés de différentes couleurs préparées &amp;
-                            réduites en pâte, avec de l'eau plus ou moins gommée, suivant leur na<pb
-                                facs="00000043" n="19"/>ture. Après les avoir broyé avec cette eau,
+                            réduites en pâte, avec de l'eau plus ou moins gommée, suivant leur na<pb facs="00000043" n="19"/>ture. Après les avoir broyé avec cette eau,
                             on mêle ensuite les couleurs avec du blanc de craie très fin, selon les
                             diverses teintes que l'on veut faire, &amp; on les roule en forme de
                             crayons. On y mêle aussi quelquefois un peu d'eau de savon pour les
@@ -1668,8 +1657,7 @@
                             couleur. On colle enfin sur le tableau, au bord où se termine la soie,
                             une petite dentelle d'or, ou d'argent, ou de soie, qui sert à mieux
                             surprendre la vue; car on a de la peine à se persuader que ce n'est pas
-                            un crêpe de soie qui couvre tout le tableau, dont le sujet néanmoins<pb
-                                facs="00000052" n="28"/>paroît encore fort distinctement, quoiqu'à
+                            un crêpe de soie qui couvre tout le tableau, dont le sujet néanmoins<pb facs="00000052" n="28"/>paroît encore fort distinctement, quoiqu'à
                             travers de cette soie. </p>
                     </div>
                     <div xml:lang="fra">
@@ -1686,8 +1674,7 @@
                             &amp; presqu’à sec tout le patron avec une grosse brosse de poil de
                             porc, plate par dessous &amp; dont les barbes sont coupées, afin que
                             le poil soit plus ferme. On a soin de ne prendre que peu de couleur à la
-                            fois, de peur qu'elle ne déborde &amp; ne passe dans le fond par<pb
-                                facs="00000053" n="29"/>dessous les bords des ouvertures faites au
+                            fois, de peur qu'elle ne déborde &amp; ne passe dans le fond par<pb facs="00000053" n="29"/>dessous les bords des ouvertures faites au
                             patron. Les couleurs peuvent être à détrempe ou à huile, suivant la
                             nature de l'ouvrage. </p>
                         <p>C'est de cette maniere que l'on écrit les grands livres d'église, au
@@ -1702,8 +1689,7 @@
                             représente du velours cizelé, ou du damas à grandes fleurs &amp; à
                             feuillages, sur un fond d'or, ou d'une autre couleur que les fleurs.
                             Cette tapisserie se fait sur des cuirs dorés avec une feuille d'argent,
-                            &amp; vernis ensuite en couleur d'or, ou sur des toiles &amp;<pb
-                                facs="00000054" n="30"/>étoffes blanches ou teintes de quelque
+                            &amp; vernis ensuite en couleur d'or, ou sur des toiles &amp;<pb facs="00000054" n="30"/>étoffes blanches ou teintes de quelque
                             couleur claire. Ces cuirs sont minces &amp; fermes, &amp; par
                             feuilles d'environ deux pieds en quarré: les étoffes sont par bandes, à
                             peu près de même largeur. On fait aussi de pareilles tapisseries sur des
@@ -1718,8 +1704,7 @@
                             qu'on le desire, &amp; l'on se sert ensuite de la même couleur plus
                             foncée, pour marquer les fleurs &amp; autres ornemens découpés sur
                             le patron, ce qui se comprend aisément, après tout ce qu'on a déja dit
-                            là-dessus. C'est ainsi que sont décorées la plupart<pb facs="00000055"
-                                n="31"/>des loges de nos salles de spectacle, à Paris. </p>
+                            là-dessus. C'est ainsi que sont décorées la plupart<pb facs="00000055" n="31"/>des loges de nos salles de spectacle, à Paris. </p>
                     </div>
                 </div>
 
@@ -1785,8 +1770,7 @@
                             fait: 4°. enfin on évite par-là un grand inconvénient qui est arrivé à
                             plusieurs bons dessinateurs, lesquels ont tellement laissé prendre le
                             dessus à l'habitude du crayon, que lorsqu'ils ont voulu ensuite manier
-                            le pinceau, ils ne l'ont pu faire que relativement à cette habitude,<pb
-                                facs="00000059" n="35"/>ce qui leur a fait naître des difficultés
+                            le pinceau, ils ne l'ont pu faire que relativement à cette habitude,<pb facs="00000059" n="35"/>ce qui leur a fait naître des difficultés
                             presqu'insurmontables: au lieu que le maniement du crayon n'étant qu'un
                             moyen, il doit toujours se rapporter au maniement du pinceau comme à sa
                             fin. En effet, dans la peinture, on ne peint pas pour dessiner, mais on
@@ -1801,8 +1785,7 @@
                             se divise en ostéologie &amp; en myologie: l'une nous expose la
                             structure des os ou de la charpente qui soutient cette machine mouvante;
                             l'autre rend compte du mouvement &amp; de l'usage des différens
-                            muscles qui en lient toutes les parties, &amp; qui servent à l'af<pb
-                                facs="00000060" n="36"/>fermir dans toutes sortes d'attitudes. Voyez
+                            muscles qui en lient toutes les parties, &amp; qui servent à l'af<pb facs="00000060" n="36"/>fermir dans toutes sortes d'attitudes. Voyez
                             ce que nous avons dit de cette science dans l’abrégé d’anatomie à
                             l’usage des peintres, avec les figures de Tortebat, brochure infolio,
                             imprimée à Paris, chez Jombert, en 1765. </p>
@@ -1835,8 +1818,7 @@
                         <p>Il y a deux sortes de papiers sur lesquels on peut dessiner, le blanc,
                             &amp; celui qui est d'une demi-teinte: celui-ci se subdivise en
                             trois especes, le gris, le bleu &amp; le bistré. Le papier gris
-                            &amp; le bleu viennent tour colorés des moulins où ils se fabri<pb
-                                facs="00000062" n="38"/>quent. Mais le bistré se fait de papier
+                            &amp; le bleu viennent tour colorés des moulins où ils se fabri<pb facs="00000062" n="38"/>quent. Mais le bistré se fait de papier
                             blanc sur lequel on passe avec une éponge, ou autrement, de l'eau de
                             suie plus ou moins chargée de cette couleur, selon que l’on desire que
                             le papier soit plus ou moins brun. </p>
@@ -1884,8 +1866,7 @@
                             la mie de pain rassis. Au défaut de charbon de fusain, on esquisse avec
                             de la pierre noire, avec laquelle on trace légérement sa pensée sur le
                             papier. La sanguine ne vaut rien pour cela, parce qu'elle est difficile
-                            à effacer entierement, &amp; qu'elle<pb facs="00000065" n="41"
-                            />laisse toujours sur le papier blanc une espece de graisse qui tache
+                            à effacer entierement, &amp; qu'elle<pb facs="00000065" n="41"/>laisse toujours sur le papier blanc une espece de graisse qui tache
                             &amp; salit le papier. </p>
                         <p>Cette légere esquisse étant faite, &amp; chaque chose se trouvant
                             arrêtée à sa place, on remet le dessein au net, en repassant un crayon
@@ -1932,8 +1913,7 @@
                             couleurs, selon qu'on veut donner plus ou moins de force aux endroits
                             qu'on touche. Pour cet effet il faut avoir auprès de soi de l'eau nette,
                             dans laquelle vous déchargerez votre pinceau tant &amp; si peu que
-                            vous le jugerez nécessaire; de même que vous pouvez re<pb
-                                facs="00000068" n="44"/>passer le pinceau tant qu'il vous plaira sur
+                            vous le jugerez nécessaire; de même que vous pouvez re<pb facs="00000068" n="44"/>passer le pinceau tant qu'il vous plaira sur
                             les ombres que vous voudrez fortifier &amp; rendre plus obscures. </p>
                         <p>Cette façon de dessiner est beaucoup plus prompte &amp; plus
                             expéditive que les autres, mais elle n'est pas si propre à finir. Elle
@@ -1965,8 +1945,7 @@
                             regardant l'une puis l'autre, &amp; comparant ainsi la proportion
                             qui est entr'eux. Il faut dire, par exemple, en soi-même: il me semble
                             que cette ligne est longue comme la moitié de cette autre, ou que cette
-                            distance est égale à cette autre, ou qu'elle<pb facs="00000070" n="46"
-                            />est plus ou moins grande, &amp; ainsi du reste. Ce n'est pas que,
+                            distance est égale à cette autre, ou qu'elle<pb facs="00000070" n="46"/>est plus ou moins grande, &amp; ainsi du reste. Ce n'est pas que,
                             quand votre dessein sera achevé, vous ne puissiez, si vous voulez, vous
                             servir de compas, pour voir par curiosité si vous avez rencontré juste,
                             ou de combien vous vous serez écarté de votre original. Le célebre
@@ -1997,8 +1976,7 @@
                             jour sans, dessiner: nulla dies sine lineâ. </p>
                         <p>A l'égard du goût, si on n'a soin de se le former d'abord à l'amour des
                             bonnes choses, il est bien difficile qu'il ne s accoutume aux mauvaises,
-                            lesquelles on ne quitte ensuite qu'avec beaucoup de peine,<pb
-                                facs="00000072" n="48"/>&amp; où l'on court risque de demeurer
+                            lesquelles on ne quitte ensuite qu'avec beaucoup de peine,<pb facs="00000072" n="48"/>&amp; où l'on court risque de demeurer
                             toute sa vie. </p>
                         <p>On vient de dire qu'il faut par un exercice continuel accoutumer ses yeux
                             à juger &amp; sa main à travailler avec facilité. Si ces habitudes
@@ -2015,8 +1993,7 @@
                         <head>Par quels objets il faut commencer à dessiner.</head>
                         <p> On a vu dans l'article précédent combien il est essentiel pour ceux qui
                             commencent à dessiner, de n'imiter d'abord que des choses capables de
-                            leur faire un bon goût; ainsi il n'est plus question ici<pb
-                                facs="00000073" n="49"/>que de savoir s'il faut commencer par
+                            leur faire un bon goût; ainsi il n'est plus question ici<pb facs="00000073" n="49"/>que de savoir s'il faut commencer par
                             dessiner ou du paysage, ou des fleurs, ou des animaux, ou des figures
                             humaines, ou de toutes ces choses indifféremment. Car il s'en trouve qui
                             n'ont en vue que d'apprendre à faire l'une de ces choses là en
@@ -2030,8 +2007,7 @@
                             trouveroient à l'original. Ainsi les défauts en sont moins sensibles; au
                             lieu, que pour peu qu'on s'éloigne de la proportion des parties d'une
                             tête, les moindres défauts en sont très reconnoissables. D'où il
-                            s'ensuit que l'on remarque soi-même plus facilement quand on a man<pb
-                                facs="00000074" n="50"/>qué, &amp; d'où provient la différence
+                            s'ensuit que l'on remarque soi-même plus facilement quand on a man<pb facs="00000074" n="50"/>qué, &amp; d'où provient la différence
                             qui se trouve entre la tête que l'on dessine, &amp; l'original que
                             l'on copie. Enfin il est constant que celui qui dessine bien une tête,
                             copiera bien une fleur, ou toute autre chose; mais quiconque ne sait
@@ -2116,8 +2092,7 @@
                         <p> On appelle un dessein croqué, celui qui n'étant point terminé d'ouvrage
                             &amp; de travail, &amp; n'étant touché que par de grands coups,
                             ne laisse pas de faire beaucoup d'effet, étant vu d'une certaine
-                            distance. Or, comme cette façon de dessiner<pb facs="00000079" n="55"
-                            />est expéditive &amp; libertine, pour ainsi dire, l'esprit qui est
+                            distance. Or, comme cette façon de dessiner<pb facs="00000079" n="55"/>est expéditive &amp; libertine, pour ainsi dire, l'esprit qui est
                             naturellement actif, libre &amp; impatient, s'en accommoderoit
                             assez, s'il n'en prévoyoit les conséquences, &amp; s'il ne faisoit
                             réflexion que pour donner ces coups libres, il faut en avoir étudié les
@@ -2135,8 +2110,7 @@
                         <p> Le dessein se prend non seulement pour la justesse des contours
                             &amp; pour la proportion des parties, mais encore pour une imitation
                             du caractere des objets visibles; &amp; ce caractere n'est autre
-                            chose que l'effet que les objets font d'abord aux yeux. C'est<pb
-                                facs="00000080" n="56"/>dans cette derniere signification que le
+                            chose que l'effet que les objets font d'abord aux yeux. C'est<pb facs="00000080" n="56"/>dans cette derniere signification que le
                             dessein est un instrument dont on a besoin en toutes rencontres, pour
                             exprimer plus nettement &amp; plus vivement sa pensée. Si vous
                             voulez vous en servir avec succès, il faut que vous fassiez attention
@@ -2167,8 +2141,7 @@
                             ombres le fond du papier ne paroisse point trop inégal, ou trop sensible
                             dans son inégalité. </p>
                         <p>Les draperies, dont la nature est d'être remuantes &amp; d'avoir une
-                            forme incertaine, veulent être touchées avec plus de fer<pb
-                                facs="00000082" n="58"/>meté. Elles sont ou ondoyantes ou cassées:
+                            forme incertaine, veulent être touchées avec plus de fer<pb facs="00000082" n="58"/>meté. Elles sont ou ondoyantes ou cassées:
                             les hachures conviennent très bien à l'une &amp; à l'autre sorte, en
                             conservant un mouvement de la main conforme à la nature des plis. </p>
                         <p>La plupart des animaux sont couverts ou de poil ou de plume, &amp;
@@ -2182,7 +2155,7 @@
                             qui en paroît à nos yeux. Or ces caracteres de variété &amp; de
                             légéreté ne peuvent bien s'exprimer en dessein que par la pointe du
                             crayon, ou par la plume dont on dessine, que l'on tourne &amp; que
-                            l'on manie diversement, selon la différence <unclear reason="illegible"></unclear> sens dont la plume ou le
+                            l'on manie diversement, selon la différence <unclear reason="illegible"/> sens dont la plume ou le
                             poil de<pb facs="00000083" n="59"/>l'animal sont tournés, ou du
                             mouvement ondoyant &amp; bisarre dont le poil ou &amp; floccons
                             de laine sont disposés. </p>
@@ -2201,8 +2174,7 @@
                         <p> Il n'y a presque personne qui n'aime la peinture, mais il y en a très
                             peu qui soient nés avec les talens nécessaires pour y réussir. Ceux qui
                             commencent à dessiner &amp; qui n'ont point de génie, imitent
-                            servilement leur original sans y mettre l'esprit,<pb facs="00000084"
-                                n="60"/>&amp; sans songer à l'effet de l'ouvrage, soit pour la
+                            servilement leur original sans y mettre l'esprit,<pb facs="00000084" n="60"/>&amp; sans songer à l'effet de l'ouvrage, soit pour la
                             rondeur, soit pour l'expression, s'attachant seulement à une fidélité
                             extérieure dont on peut véritablement les louer par dessus les autres.
                             Mais ceux qui ont du génie, étant frappés d'abord par l'effet de
@@ -2258,8 +2230,7 @@
                     </index>
                     <head>CHAPITRE III.<lb/> De l'attelier du Peintre.</head>
                     <p> Il est toujours fort à propos de rechercher avec soin tout ce qui peut
-                        contribuer à donner de la facilité dans l'exécution.<pb facs="00000087"
-                            n="63"/>Les commençans ont bien de la peine à faire quelque chose d'un
+                        contribuer à donner de la facilité dans l'exécution.<pb facs="00000087" n="63"/>Les commençans ont bien de la peine à faire quelque chose d'un
                         peu passable avec tous les secours possibles quel sera donc leur ouvrage,
                         s'ils ne se servent que de médiocres ou de méchans outils? Nous allons
                         parcourir en ce chapitre, ceux qui sont le plus nécessaires aux peintres en
@@ -2290,8 +2261,7 @@
                             avec les couleurs, elles en ternissent l'éclat &amp; la vivacité. La
                             difficulté est de trouver une tranche de porphyre ou de serpentin qui
                             soit unie &amp; bien droite, &amp; en même tems d'une grandeur
-                            assez raisonnable pour pouvoir y broyer commodément.<pb facs="00000089"
-                                n="65"/>C'est pourquoi à leur défaut on se sert de granit d'Orient,
+                            assez raisonnable pour pouvoir y broyer commodément.<pb facs="00000089" n="65"/>C'est pourquoi à leur défaut on se sert de granit d'Orient,
                             qui est fort dur; ou d'écaille de mer, qui l'est aussi quand elle est de
                             bonne qualité. La grise est ordinairement plus dure que la rouge.
                             L'écaillé de mer a même un avantage par dessus les autres pierres, c'est
@@ -2322,8 +2292,7 @@
                             ou du rouge tendre après du bleu ou du noir. Pour bien broyer les
                             couleurs, il n'y faut mettre ni trop d'eau ni trop peu. La trop grande
                             quantité d'eau noie les couleurs; en y en mettant trop peu, le broyement
-                            en devient plus difficile. Il suffit d'y mêler assez d'eau<pb
-                                facs="00000091" n="67"/>pour le pouvoir faire facilement: quand la
+                            en devient plus difficile. Il suffit d'y mêler assez d'eau<pb facs="00000091" n="67"/>pour le pouvoir faire facilement: quand la
                             couleur est broyée, on la laisse sécher à l'ombre, en la garantissant de
                             la poussiere; &amp; l'eau se seche &amp; s'évapore ensuite peu à
                             peu. </p>
@@ -2389,8 +2358,7 @@
                             étant ferme &amp;: délié &amp; un peu courbe, quand la brosse
                             est faite, les poils se trouvent assez écartés les uns des autres par le
                             bout, qui est fort doux; &amp; comme on en laisse le poil fort long,
-                            on peut passer légérement cette brosse en tout sens sur<pb
-                                facs="00000095" n="71"/>l'ouvrage peint à huile, pour abattre les
+                            on peut passer légérement cette brosse en tout sens sur<pb facs="00000095" n="71"/>l'ouvrage peint à huile, pour abattre les
                             inégalités de la couleur sans la traîner ni l'ôter de sa place. Cette
                             brosse est plate par dessous &amp; ne prend presque point de couleur
                             par l'extrêmité de ses poils: c'est pourquoi on la nettoie en la
@@ -2422,8 +2390,7 @@
                             par le bout quon enfonce dans le poil, &amp; taillé à quatre faces
                             avec quelques petites hoches. On doit prendre garde de n'enfoncer le
                             manche dans le poil qu'un peu plus avant que le commencement de la
-                            ligature; car s'il étoit enfoncé trop avant, la brosse ne seroit<pb
-                                facs="00000097" n="73"/>point assez garnie par le bas; &amp;
+                            ligature; car s'il étoit enfoncé trop avant, la brosse ne seroit<pb facs="00000097" n="73"/>point assez garnie par le bas; &amp;
                             s'il ne l'étoit pas assez, le poil ne tiendroit pas sur le manche. </p>
                         <p>Pour lier le poil sur le manche, on commence par faire un noeud
                             particulier à la ficelle dont on se sert; la seule inspection de la fig.
@@ -2470,8 +2437,7 @@
                             pourquoi lorsque les brosses que l'on fait doivent servir pour cette
                             sorte de peinture, au lieu de colle forte, il faut imbiber le poil sur
                             le manche, ainsi que la ficelle qui le serre, avec quelque couleur à
-                            huile fort siccative, qui fera le même effet<pb facs="00000100" n="76"
-                            />que la colle forte, 'quand elle sera bien seche, Alors cette couleur
+                            huile fort siccative, qui fera le même effet<pb facs="00000100" n="76"/>que la colle forte, 'quand elle sera bien seche, Alors cette couleur
                             ne se détrempera point à l'eau, ni même à l'huile, si l'on vouloit
                             employer ces brosses pour peindre à huile. Il faut seulement prendre
                             garde de ne pas mettre trop de couleur à huile sur les premiers tours de
@@ -2505,8 +2471,7 @@
                     <div xml:lang="fra">
                         <head>Maniere de faire les pinceaux.</head>
                         <p> Les pinceaux se fabriquent à peu près de même maniere que les brosses
-                            pointues, &amp; plus les pinceaux sont petits, plus<pb
-                                facs="00000102" n="78"/>le poil doit en être fin; sur-tout on doit
+                            pointues, &amp; plus les pinceaux sont petits, plus<pb facs="00000102" n="78"/>le poil doit en être fin; sur-tout on doit
                             avoir attention qu'ils fassent bien la pointe, mais ce doit être une
                             pointe émoussée, &amp; il faut qu'ils soient bien garnis de poil
                             vers cette pointe. Il y en a de longs &amp; de courts, suivant les
@@ -2521,8 +2486,7 @@
                             aussi son ouverture plus petite que celle de l'autre bout qui est vers
                             le gros de la plume: afin que le pinceau, qu'on fait entrer la pointe la
                             premiere avec un peu de force par le gros bout du tuyau, ne puisse
-                            sortir par l'autre bout qu'autant qu'il est nécessaire<pb
-                                facs="00000103" n="79"/>pour lui donner une longueur suffisante. On
+                            sortir par l'autre bout qu'autant qu'il est nécessaire<pb facs="00000103" n="79"/>pour lui donner une longueur suffisante. On
                             coupe quarrément le poil du pinceau, un peu au dessous du dernier noeud,
                             pour le pouvoir pousser dans le tuyau avec un petit bâton coupé de même
                             par le bout, &amp; qui soit un peu moins gros que le tuyau. Une
@@ -2570,8 +2534,7 @@
                             conviendra. </p>
                         <p>Lorsque les pinceaux ont été ainsi nettoyés, il faut pour les tenir
                             propres les essuyer avec un petit linge blanc qu'on doit avoir exprès
-                            pour cela &amp; pour essuyer sa palette, lorsqu'il en est besoin:<pb
-                                facs="00000106" n="82"/>en cet état les pinceaux sont prêts pour
+                            pour cela &amp; pour essuyer sa palette, lorsqu'il en est besoin:<pb facs="00000106" n="82"/>en cet état les pinceaux sont prêts pour
                             s'en servir le lendemain. Si l'on ne doit pas s'en servir de quelque
                             tems, il faut les tremper dans l'huile &amp; les serrer en
                             quelqu'endroit, ayant soin de les poser de façon que l'huile ne puisse
@@ -2735,8 +2698,7 @@
                             cette propreté, il faut avoir soin de nettoyer tous les jours sa palette
                             après qu'on a quitté le travail. Pour la bien nettoyer, il faut
                             commencer par lever avec le couteau les couleurs qui restent &amp;
-                            qui peuvent servir une autre fois. Si l'on a occa<pb facs="00000116"
-                                n="92"/>sion d'employer ces mêmes couleurs le lendemain, alors il
+                            qui peuvent servir une autre fois. Si l'on a occa<pb facs="00000116" n="92"/>sion d'employer ces mêmes couleurs le lendemain, alors il
                             suffit de les remettre sur une autre palette; mais si l'on ne doit pas
                             s'en servir de si-tôt, il faut mettre dans de l'eau les couleurs les
                             plus siccatives, telles que le blanc, la terre d'ombre &amp; le
@@ -2751,8 +2713,7 @@
                             l'ocre jaune, les stils de grain, la terre verte, l'outremer,
                             &amp;c, qui étant mises dans l'eau, quittent leur huile &amp; se
                             mêlent dans l'eau. C'est pourquoi il seroit inutile de les y mettre pour
-                            les conserver. Quand on veut faire usage des couleurs<pb facs="00000117"
-                                n="93"/>qu'on a mises dans l'eau, avant que de les mettre sur la
+                            les conserver. Quand on veut faire usage des couleurs<pb facs="00000117" n="93"/>qu'on a mises dans l'eau, avant que de les mettre sur la
                             palette il faut souffler dessus pour en ôter les gouttelettes d'eau qui
                             y sont attachées, &amp; les laisser encore sécher un peu de tems
                             pour dissiper le peu d'humidité qui y reste. </p>
@@ -2799,8 +2760,7 @@
                             qu'elles le sont sur la palette, &amp; la couleur qui s'emboit
                             aussi-tôt qu'elle est couchée, fait de la peine à peindre à ceux qui
                             n'en ont pas l'habitude. Il faut donc laisser cette pratique aux plus
-                            habiles, lesquels peuvent non seulement se servir de fonds blancs<pb
-                                facs="00000120" n="96"/>quand ils veulent peindre sur le bois, mais
+                            habiles, lesquels peuvent non seulement se servir de fonds blancs<pb facs="00000120" n="96"/>quand ils veulent peindre sur le bois, mais
                             aussi de toiles imprimées de cette couleur, ou à huile ou à détrempe. Si
                             c'est à détrempe, il faut que la toile soit fine, &amp; l'imprimure
                             très légere, à la maniere du Titien &amp; de Paul Veronèse.
@@ -2831,8 +2791,7 @@
                         elle est propre au grand comme au petit. Il n'y a pas de doute qu'elle
                         seroit la plus parfaite de toutes les manieres de peindre, si les couleurs
                         ne se ternissoient point par la suite des tems; mais elles brunissent
-                        toujours de plus en plus &amp; tirent sur un jaune<pb facs="00000122"
-                            n="98"/>brun, ce qui vient de l'huile avec laquelle toutes les couleurs
+                        toujours de plus en plus &amp; tirent sur un jaune<pb facs="00000122" n="98"/>brun, ce qui vient de l'huile avec laquelle toutes les couleurs
                         sont broyées &amp; incorporées. La plus grande commodité de ce travail
                         est de voir d'abord ce qu'on fait tel qu'il doit paroître dans la suite, car
                         les couleurs à l'huile ne changent point en séchant comme celles à détrempe:
@@ -2895,8 +2854,7 @@
                             d'une carnation fraîche &amp; vive. </p>
                         <p>Avant que de se mettre à peindre, il faut faire sur la palette avec
                             l'extrêmité du couteau toutes les principales teintes dont on a besoin
-                            pour imiter ce que l'on veut copier. Ces teintes se font en pre<pb
-                                facs="00000126" n="102"/>nant avec le bout du couteau un peu des
+                            pour imiter ce que l'on veut copier. Ces teintes se font en pre<pb facs="00000126" n="102"/>nant avec le bout du couteau un peu des
                             couleurs capitales qui sont au haut de la palette, &amp; en les
                             mêlant ensemble jusqu'à ce qu'on ait trouvé la teinte qu'on cherche. Les
                             corps naturels ont leurs jours, leurs ombres &amp; leurs reflets ou
@@ -2911,8 +2869,7 @@
                             ses demi-teintes. Pour en imiter les jours, on fait ordinairement quatre
                             teintes claires. La premiere est composée de blanc &amp; d'un peu de
                             jaune: la seconde, de blanc, de vermillon &amp; de lacque: de ces
-                            deux dernieres également &amp; en très petite quantité. La<pb
-                                facs="00000127" n="103"/>troisieme se fait comme la seconde, en y
+                            deux dernieres également &amp; en très petite quantité. La<pb facs="00000127" n="103"/>troisieme se fait comme la seconde, en y
                             mettant un peu plus de laque &amp; de vermillon: la quatrieme, comme
                             la troisieme, y mêlant encore un peu plus de ces deux dernieres
                             couleurs. On peut, si l'on veut, en faire une cinquieme encore plus
@@ -2928,8 +2885,7 @@
                         <p>Les teintes pour les ombres se mettent ensuite des demi teintes: il
                             suffit d'en faire deux. La premiere sera composée de laque, d'ocre jaune
                             &amp; d'outremer, ensorte que le jaune y soit en plus grande
-                            quantité que les deux autres, dont on mettra<pb facs="00000128" n="104"
-                            />également. La seconde sera très bonne avec du stil de grain fin, de la
+                            quantité que les deux autres, dont on mettra<pb facs="00000128" n="104"/>également. La seconde sera très bonne avec du stil de grain fin, de la
                             laque &amp; un peu de noir d'os. Faisons présentement une
                             récapitulation de l'arrangement de toutes ces couleurs sur la palette,
                             comme on le voit fig. 9. </p>
@@ -2944,8 +2900,7 @@
                             dessous, observant toujours de mettre les plus claires du côté du pouce.
                             Entre ces deux rangs il est bon de mettre un peu de jaune, parce qu'on
                             en a souvent besoin, &amp; qu'il est plus commode de le prendre à
-                            cet endroit avec le pinceau, pour le mêler en<pb facs="00000129" n="105"
-                            />peignant avec les teintes que l'on a préparées. Il est marqué par un
+                            cet endroit avec le pinceau, pour le mêler en<pb facs="00000129" n="105"/>peignant avec les teintes que l'on a préparées. Il est marqué par un
                             E, même figure 9. </p>
                         <p>Pour les autres couleurs, comme la laque fine, le vermillon, l'outremer
                             &amp; le massicot, on les met où l'on veut: il semble néanmoins que
@@ -2960,8 +2915,7 @@
                             qu'il n'y ait qu'à les placer comme elles sont pour produire tout
                             l'effet qu'on desire, &amp; pour rendre exactement la tête originale
                             qu'on se propose d'imiter. Elles ne sont composées qu'à peu près
-                            &amp; pour faciliter le mêlange qu'on en doit faire ensuite. Car<pb
-                                facs="00000130" n="106"/>lorsque quelque teinte ne produit pas la
+                            &amp; pour faciliter le mêlange qu'on en doit faire ensuite. Car<pb facs="00000130" n="106"/>lorsque quelque teinte ne produit pas la
                             couleur que vous souhaitez, il faut avec le pinceau prendre, de côté
                             &amp; d'autre ce qui y manque, &amp; la rendre enfin telle
                             qu'elle doit être, en augmentant ou diminuant l'une ou l'autre. </p>
@@ -3008,8 +2962,7 @@
                             finir une draperie avec de la laque fine, on en fait l'ébauche avec de
                             la commune. De même, une draperie qu'on doit finir avec le plus bel
                             outremer, s'ebauche avec du plus commun. Enfin, au lieu d'outremer dans
-                            la premiere teinte d'ombre, &amp; même dans les demi-teintes,<pb
-                                facs="00000133" n="109"/>on peut se servir de charbon de saule, qui
+                            la premiere teinte d'ombre, &amp; même dans les demi-teintes,<pb facs="00000133" n="109"/>on peut se servir de charbon de saule, qui
                             est un peu bleuâtre, ou de noir d'os pour ébaucher, &amp; finir
                             ensuite avec l'outremer: mais la pratique n'en est pas si bonne, ni les
                             teintes si fraîches. </p>
@@ -3035,8 +2988,7 @@
                             a des peintres qui finissent en hachant avec des teintes participantes,
                             ce qui réussit admirablement dans les grands ouvrages. </p>
                         <p>Ce qui fait que quelques couleurs ne paroissent point fraîches ou
-                            qu'elles ne conservent pas long-tems leur beauté &amp;<pb
-                                facs="00000134" n="110"/>leur éclat, c'est que le peintre les
+                            qu'elles ne conservent pas long-tems leur beauté &amp;<pb facs="00000134" n="110"/>leur éclat, c'est que le peintre les
                             tourmente quelquefois trop en travaillant. Car étant brouillées
                             ensemble, il s'en trouve qui alterent &amp; corrompent les autres,
                             en émoussant pour ainsi dire leur pointe &amp; leur vivacité. C'est
@@ -3051,8 +3003,7 @@
                             comme le noir de fumée, le verd-de-gris, &amp; quelques autres qu'on
                             doit employer à part, si l'on est forcé de s'en servir. Et même
                             lorsqu'il est nécessaire de donner plus de force à quelques parties d'un
-                            ouvrage, on doit attendre qu'il soit sec, si l'on veut le re<pb
-                                facs="00000135" n="111"/>toucher avec des couleurs capables de nuire
+                            ouvrage, on doit attendre qu'il soit sec, si l'on veut le re<pb facs="00000135" n="111"/>toucher avec des couleurs capables de nuire
                             aux autres. Il y a des peintres qui ne font point toutes ces
                             observations, elles sont néanmoins très nécessaires pour conserver la
                             béauté du coloris. </p>
@@ -3170,8 +3121,7 @@
                             brosse, ce qui ne seroit pas propre &amp; feroit un mauvais effet à
                             la vue. On ne glace point à huile sur un fond qui n'est pas bien sec. Il
                             y a des personnes qui mettent une couche de vernis ordinaire sur le fond
-                            qu'ils veulent glacer, pour le rendre plus uni, ou lors<pb
-                                facs="00000143" n="119"/>qu'il est trop embu, &amp; quand le
+                            qu'ils veulent glacer, pour le rendre plus uni, ou lors<pb facs="00000143" n="119"/>qu'il est trop embu, &amp; quand le
                             vernis est sec, ils glacent par dessus: mais le vernis gâte toujours la
                             couleur, comme nous l'avons déja remarqué. Il faut que la couleur, avec
                             laquelle on glace, soit fine pour se bien étendre, &amp; pour se
@@ -3270,8 +3220,7 @@
                             &amp; le rendre plus durable, mais il est dangereux à calciner
                             aussi-bien que l'orpin; &amp; quelque purifié qu'il puisse être, il
                             ne faut l'employer que seul, car il gâteroit les couleurs avec
-                            lesquelles on pourroit le mêler. On est ce<pb facs="00000149" n="125"
-                            />pendant obligé d'en user à cause qu'il seche beaucoup, &amp; l'on
+                            lesquelles on pourroit le mêler. On est ce<pb facs="00000149" n="125"/>pendant obligé d'en user à cause qu'il seche beaucoup, &amp; l'on
                             en mêle seulement un peu dans les noirs qui ne sécheroient jamais tout
                             seuls. Il faut bien prendre garde de ne pas se servir, pour les autres
                             couleurs, de brosses ou de pinceaux avec lesquels on ait employé du
@@ -3289,8 +3238,7 @@
                         &amp; de la préparation des huiles qui servent à la peinture.</head>
                     <p> On a vu ci-devant que. la peinture pouvoit se pratiquer sur des toiles ou
                         sur des planches préparées, &amp; même sur des murailles; nous allons
-                        expliquer dans ce chapitre les différentes manieres d'impri<pb
-                            facs="00000150" n="126"/>mer les surfaces qu'on veut peindre pour les
+                        expliquer dans ce chapitre les différentes manieres d'impri<pb facs="00000150" n="126"/>mer les surfaces qu'on veut peindre pour les
                         rendre propres à recevoir cette peinture. </p>
                     <div xml:lang="fra">
                         <head>Maniere d'imprimer les toiles pour la peinture à huile.</head>
@@ -3321,8 +3269,7 @@
                             tout sens avec une pierre de ponce bien applatie, pour en emporter tous
                             les noeuds &amp; les inégalités. </p>
                         <p>On imprime ensuite la toile avec quelque couleur simple &amp; amie
-                            des autres couleurs, comme du brun rouge broyé à<pb facs="00000152"
-                                n="128"/>l'huile, médiocrement épais, dans lequel on met quelque
+                            des autres couleurs, comme du brun rouge broyé à<pb facs="00000152" n="128"/>l'huile, médiocrement épais, dans lequel on met quelque
                             siccatif, qui est pour l'ordinaire un peu de mine rouge ou de blanc de
                             plomb bien broyé, pour le faire plutôt sécher. La couleur de cette
                             imprimure se broye avec de l'huile de noix ou de lin; &amp; pour la
@@ -3368,8 +3315,7 @@
                             leurs couleurs sont demeurées très vives &amp; très éclatantes. Car
                             la couleur des fonds paroît toujours &amp; tue, comme on dit, celles
                             qu'on y met ensuite, sur-tout si elles sont d'une teinte différente,
-                            &amp; s'il n'y en a pas fort épais. Alors l'huile venant à s'éva<pb
-                                facs="00000155" n="131"/>porer en séchant, il ne reste plus que la
+                            &amp; s'il n'y en a pas fort épais. Alors l'huile venant à s'éva<pb facs="00000155" n="131"/>porer en séchant, il ne reste plus que la
                             couleur qui est toujours assez mince pour laisser entrevoir le fond.
                             C'est pourquoi, pour bien garnir un tableau de couleur, on est obligé de
                             peindre une même chose à plusieurs reprises &amp; avec la même
@@ -3402,8 +3348,7 @@
                             qu'elle soit plus seche &amp; que l'humidité n'en fasse pas détacher
                             les couleurs par écailles, comme il arrive quelquefois, à cause de
                             l'huile qui lui résiste &amp; qui l'empêche de s'échapper. On fait
-                            un enduit avec de la chaux &amp; de la poudre de marbre ou du<pb
-                                facs="00000157" n="133"/>ciment fait de tuiles bien battues, on
+                            un enduit avec de la chaux &amp; de la poudre de marbre ou du<pb facs="00000157" n="133"/>ciment fait de tuiles bien battues, on
                             l'étend avec la truelle pour le rendre bien uni, &amp; on l'imbibe
                             d'huile de lin avec une grosse brosse. Ensuite ayant préparé une
                             composition de poix grecque, de mastic &amp; de gros vernis qu'on
@@ -3452,8 +3397,7 @@
                             &amp; d'unir à chaque couche le côté sur lequel on doit travailler,
                             avant que d'y en mettre une nouvelle. Il faut passer ces couches fort
                             promptement &amp; ne frotter que légérement, de peur de détremper la
-                            colle de la derniere couche. Ces différentes couches<pb facs="00000160"
-                                n="136"/>servent à remplir les pores du bois &amp; à rendre le
+                            colle de la derniere couche. Ces différentes couches<pb facs="00000160" n="136"/>servent à remplir les pores du bois &amp; à rendre le
                             fond plus uni. Enfin on imprime ces planches d'une couleur à huile qui
                             doit être médiocrement épaisse, en la couchant uniment avec la brosse
                             douce. Cette couleur est composée, comme nous l'avons dit ci-devant,
@@ -3520,8 +3464,7 @@
                             beaucoup d'autre huile dans les couleurs avec celle-ci, parce qu'elles
                             ne serviroient qu'à la faire jaunir. </p>
                         <p>Quoique l'huile de noix soit siccative, il y a pourtant quelques couleurs
-                            qui, étant mêlées &amp; broyées avec cette huile,<pb facs="00000164"
-                                n="140"/>ne sechent jamais: il y en a d'autres qui ne sechent que
+                            qui, étant mêlées &amp; broyées avec cette huile,<pb facs="00000164" n="140"/>ne sechent jamais: il y en a d'autres qui ne sechent que
                             difficilement. C'est ce qui a obligé les peintres de chercher quelques
                             moyens pour faire sécher ces sortes de couleurs. </p>
                         <p>On a trouvé, par exemple, que la couperose blanche fondue &amp;
@@ -3535,8 +3478,7 @@
                             ne soit pas nouvellement broyé, ni avec de nouvelle huile; autrement il
                             seroit lui-même difficile à sécher, sur-tout en hiver: on remarquera à
                             cette occasion, en général, que toutes les couleurs à huile sechent bien
-                            plus promptement en été qu'en hiver.<pb facs="00000165" n="141"
-                            />Cependant comme la couperose est un sel, il est à craindre qu'elle ne
+                            plus promptement en été qu'en hiver.<pb facs="00000165" n="141"/>Cependant comme la couperose est un sel, il est à craindre qu'elle ne
                             se sépare des couleurs par la suite, sur-tout si les tableaux sont
                             exposés à l'humidité, &amp; qu'en se fondant avec cette humidité
                             elle ne laisse sur les tableaux une espece de farine blanche quand elle
@@ -3568,8 +3510,7 @@
                             seroit des années entieres à sécher. </p>
                         <p>On peut encore faire de l'huile siccative d'une autre maniere. On prend
                             de l'émail ou de l'azur en poudre, &amp; on le fait bouillir dans de
-                            l'huile de noix. Au bout de quelque tems on retire le vaisseau<pb
-                                facs="00000167" n="143"/>du feu, &amp; on laisse reposer le
+                            l'huile de noix. Au bout de quelque tems on retire le vaisseau<pb facs="00000167" n="143"/>du feu, &amp; on laisse reposer le
                             tout. Le dessus de cette huile sert à mêler avec le blanc &amp; à le
                             détremper: on s'en sert aussi pour les autres couleurs qu'on veut
                             conserver pures &amp; éclatantes. </p>
@@ -3640,8 +3581,7 @@
                         d'y appliquer de l'or ou de l'argent moulu en quelques endroits, vous
                         détremperez de l'or en coquille avec de l'eau gommée, &amp; vous l'y
                         appliquerez un peu épais, autrement l'or venant à sécher, se retireroit par
-                        petits points; au lieu que si l'or ou l'argent est en bonne consistance,<pb
-                            facs="00000171" n="147"/>vous en admirerez la beauté sur le vernis. Le
+                        petits points; au lieu que si l'or ou l'argent est en bonne consistance,<pb facs="00000171" n="147"/>vous en admirerez la beauté sur le vernis. Le
                         tout étant bien sec &amp; l'estampe étant encore sur son même chassis,
                         si vous appréhendez qu'elle ne se casse ou ne se déchire par la suite, il
                         faut avoir un carton ou un petit ais mince de la même grandeur que l'estampe
@@ -3675,8 +3615,7 @@
                             d'eau nette, collez proprement cette estampe sur un chassis de bois avec
                             de la colle de farine, &amp; laissez la sécher. Prenez ensuite du
                             vernis ordinaire &amp; mêlez y trois fois autant d'huile de
-                            térébenthine, faites le chauffer un peu sur les cendres<pb
-                                facs="00000173" n="149"/>chaudes, &amp; l'ayant bien brouillé
+                            térébenthine, faites le chauffer un peu sur les cendres<pb facs="00000173" n="149"/>chaudes, &amp; l'ayant bien brouillé
                             avec une brosse de poil de porc: couchez-en également par-tout sur le
                             derriere de votre estampe. S'il se trouve quelques endroits où le vernis
                             n'ait point pénétré, mettez-y une goutte de la même huile &amp;
@@ -3726,8 +3665,7 @@
                             mêlé avec du blanc de plomb: c'est ainsi qu'on rend toutes les étoffes
                             noires, de soie ou autres. </p>
                         <p>Pour les fonds &amp; les rochers, on prend du blanc mêlé avec du noir
-                            d'os. Les maisons, les masures &amp; les fabriques d'ar<pb
-                                facs="00000176" n="152"/>chitecture se représentent aussi avec le
+                            d'os. Les maisons, les masures &amp; les fabriques d'ar<pb facs="00000176" n="152"/>chitecture se représentent aussi avec le
                             même gris plus ou moins foncé. </p>
                         <p>Les éloignemens, paysages &amp; terrasses se font de différente
                             maniere. Quand les arbres sont dans le lointain, on prend un peu de bleu
@@ -3743,8 +3681,7 @@
                             elles doivent être rougeâtres. Si elles doivent être claires, on y met
                             plus de blanc, particulierement lorsqu'elles approchent davantage du
                             soleil. Les nuées ordinaires se font communément avec du charbon de
-                            saule, du blanc &amp; tant soit peu de rouge. <pb facs="00000177"
-                                n="153"/>
+                            saule, du blanc &amp; tant soit peu de rouge. <pb facs="00000177" n="153"/>
                         </p>
                         <p>Les eaux se font avec des cendres vertes &amp; bleues, quelquefois
                             avec du blanc. </p>
@@ -3781,8 +3718,7 @@
                             demie d'esprit de térébenthine, autant d'esprit de vin, deux gros de
                             mastic en larmes, &amp; faire bouillir le tout l'espace d'une heure
                             dans un pot de terre vernissé: lorsqu'il sera froid, vous en appliquerez
-                            une couche sur le verre, bien également. La<pb facs="00000179" n="155"
-                            />premiere couche étant seche, il faut y en mettre une seconde, de sitôt
+                            une couche sur le verre, bien également. La<pb facs="00000179" n="155"/>premiere couche étant seche, il faut y en mettre une seconde, de sitôt
                             que celleci sera presque seche, on doit coucher dessus le plus
                             proprement qu'il se pourra l'estampe qui doit être préparée auparavant,
                             comme on va le voir. </p>
@@ -3797,8 +3733,7 @@
                             comme ci - devant. Cela fait, vous l'appliquerez sur le verre, faisant
                             ensorte qu'elle s'y colle bien uniment, sans faire aucun pli ni élevure
                             du papier. Alors vous mouillerez le bout du doigt dans de l'eau nette,
-                            &amp; ayant humecté l'estampe par derriere,<pb facs="00000180"
-                                n="156"/>vous enleverez, en frottant avec le même doigt, tout le
+                            &amp; ayant humecté l'estampe par derriere,<pb facs="00000180" n="156"/>vous enleverez, en frottant avec le même doigt, tout le
                             papier où l'impression n'a pas marqué. Il n'y restera enfin que les
                             traits de l'estampe sur lesquels vous pourrez peindre par derriere avec
                             des couleurs à huile, les plus vives &amp; les plus légeres,
@@ -3815,8 +3750,7 @@
                             mettant un peu sur le feu. Appliquez ensuite l'estampe sur ce verre
                             ainsi préparé, du côté de l'impression, après l'avoir fait bouillir
                             l'espace d'un demi - quart d'heure dans de l'esprit de vin: d'autres se
-                            contentent de l'y laisser tremper pendant vingt - quatre<pb
-                                facs="00000181" n="157"/>heures, sans la faire bouillir. Le verre
+                            contentent de l'y laisser tremper pendant vingt - quatre<pb facs="00000181" n="157"/>heures, sans la faire bouillir. Le verre
                             sur lequel l'estampe est collée étant refroidi, mouillez le bout du
                             doigt, frottez - en doucement sur le papier que vous enleverez petit à
                             petit, jusqu'à ce qu'il ne reste plus que l'impression. Alors vous
@@ -3833,8 +3767,7 @@
                         <p> Prenez une estampe de moyenne grandeur &amp; rognez - en la marge
                             jusqu'au bord de la gravure. Mettez - la tremper dans de l'eau commune,
                             pendant trois jours dans un bassin plat &amp; uni, qui soit assez
-                            grand pour la contenir sans être pliée. Ayez un<pb facs="00000182"
-                                n="158"/>verre de la grandeur de votre estampe, frottez - le devant
+                            grand pour la contenir sans être pliée. Ayez un<pb facs="00000182" n="158"/>verre de la grandeur de votre estampe, frottez - le devant
                             le feu avec de la térébenthine de Venise, observant d'y en mettre le
                             moins épais que vous pourrez. Ayant retiré votre estampe de l'eau,
                             mettez - la entre deux serviettes bien étendues pour l'essorer un peu;
@@ -3924,8 +3857,7 @@
                     <head>CHAPITRE VII.<lb/> Des secrets concernant les tableaux peints à huile.</head>
                     <p> Après avoír expliqué dans les chapitres précédens la maniere de peindre à
                         huile, &amp; la façon de préparer les toiles &amp; les huiles qui
-                        servent à ce genre de peinture, nous donnerons dans celui-ci<pb
-                            facs="00000187" n="163"/>différens secrets pour conserver les tableaux,
+                        servent à ce genre de peinture, nous donnerons dans celui-ci<pb facs="00000187" n="163"/>différens secrets pour conserver les tableaux,
                         pour les vernir, &amp; pour nettoyer ceux dont les couleurs sont sales
                         &amp; gâtées &amp; leur rendre leur premier éclat. </p>
 
@@ -3942,8 +3874,7 @@
                             sont bien seches, il est presque toujours embu en tout ou en partie,
                             mais principalement s'il est peint sur un fond qui n'étoit pas bien sec.
                             C'est ce qui oblige de le vernir pour rendre aux couleurs toute leur
-                            vivacité, &amp; pour donner un luisant à tout le ta<pb
-                                facs="00000188" n="164"/>bleau. Il y a plusieurs sortes de vernis
+                            vivacité, &amp; pour donner un luisant à tout le ta<pb facs="00000188" n="164"/>bleau. Il y a plusieurs sortes de vernis
                             pour les tableaux à huile. Le principal corps dont ces vernis sont
                             composés, est de la térébenthine, qui doit être fort claire, &amp;
                             de l'huile de térébenthine. Il faut encore y ajouter une autre matiere
@@ -3959,8 +3890,7 @@
                             fiole de verre plus grande qu'il ne faut pour les contenir, &amp;
                             l'on fait chauffer la fiole au bain-marie, dans de l'eau qu'on laisse
                             bouillir environ un quart-d'heure. Il faut avoir soin de plonger la
-                            fiole dans l'eau froide avant que de la<pb facs="00000189" n="165"
-                            />mettre sur le feu, ensorte qu'elle s'échauffe petit à petit, car une
+                            fiole dans l'eau froide avant que de la<pb facs="00000189" n="165"/>mettre sur le feu, ensorte qu'elle s'échauffe petit à petit, car une
                             chaleur trop grande &amp; trop subite pourroit faire casser le
                             vaisseau de verre, &amp; le feu prenant à toutes ces drogues qui
                             sont très inflammables, pourroit brûler ceux qui s'en trouveroient
@@ -3991,8 +3921,7 @@
                             ces taches, à moins que d'enlever tout le vernis. On se sert pour cela
                             de petits morceaux de linge trempés dans de l'esprit de vin, dont on
                             frotte le tableau aux endroits tachés, &amp; l'on change de linge à
-                            chaque fois qu'on recommence à frotter,<pb facs="00000191" n="167"
-                            />parce qu'il s'imbibe aussi-tôt du vernis qu'il détrempe. Il faut
+                            chaque fois qu'on recommence à frotter,<pb facs="00000191" n="167"/>parce qu'il s'imbibe aussi-tôt du vernis qu'il détrempe. Il faut
                             frotter légérement avec ce linge trempé dans l'esprit de vin, car si le
                             tableau étoit nouvellement peint, l'esprit de vin dissoudroit la couleur
                             avec le vernis. Quand on a emporté toutes les taches, on met un autre
@@ -4025,8 +3954,7 @@
                             coller sur le lieu aux endroits où ils doivent être placés. Toutes les
                             especes de colles ne sont pas propres pour cet usage: jusqu'ici l'on n'a
                             rien trouvé de meilleur ou de plus capable de conserver les toiles
-                            &amp; les tableaux, que de l'or-couleur rendu épais<pb
-                                facs="00000193" n="169"/>&amp; gluant par une grande cuisson:
+                            &amp; les tableaux, que de l'or-couleur rendu épais<pb facs="00000193" n="169"/>&amp; gluant par une grande cuisson:
                             cette colle s'appelle du maroufle. On en frotte le derriere de la toile,
                             en le couchant assez épais, &amp; l'on en fait de même à l'endroit
                             du mur où l'on doit coller le tableau. Cette toile étant appliquée
@@ -4148,8 +4076,7 @@
                         <p> Prenez une bonne quantité d'oseille, &amp; ayant étendu votre
                             tableau par terre ou sur une table à plat, frottez-le partout &amp;
                             fortement avec une bonne poignée d'oseille, ensorte qu'elle mousse
-                            &amp; qu'elle ne fasse plus qu'une boue. Renouvellez<pb
-                                facs="00000200" n="176"/>les poignées d'oseille &amp; frottez-en
+                            &amp; qu'elle ne fasse plus qu'une boue. Renouvellez<pb facs="00000200" n="176"/>les poignées d'oseille &amp; frottez-en
                             toujours jusqu'à ce que le tableau soit entierement couvert de cette
                             boue; alors ayant ôté de dessus tout le marc &amp; les feuilles
                             &amp; n'y laissant que la boue, prenez une décrotoire un peu rude
@@ -4250,8 +4177,7 @@
                             est un petit tableau qui contient en raccourci, dans toutes les parties
                             de la peinture, tout ce qu'on doit peindre en grand sur la muraille.
                             C'est proprement le guide de l'ouvrier &amp; le modele de tout
-                            l'ouvrage. Le peintre doit y mettre non<pb facs="00000206" n="182"
-                            />seulement tout son feu pour l'invention, pour la disposition &amp;
+                            l'ouvrage. Le peintre doit y mettre non<pb facs="00000206" n="182"/>seulement tout son feu pour l'invention, pour la disposition &amp;
                             pour le clair-obscur, mais encore y arrêter toutes les couleurs, tant
                             pour chaque objet en particulier, que pour l'union &amp; l'harmonie
                             du tout ensemble. </p>
@@ -4268,8 +4194,7 @@
                             &amp; humide lorsqu'on y applique les couleurs. Au reste cet enduit
                             ne peut être bon ni de longue durée, qu'autant qu'il est appliqué avec
                             quelque précaution sur la pierre ou sur la brique. Le sable doit être
-                            bien passé par le crible ou panier des<pb facs="00000207" n="183"
-                            />maçons, &amp; la chaux doit être éteinte depuis long-tems. On
+                            bien passé par le crible ou panier des<pb facs="00000207" n="183"/>maçons, &amp; la chaux doit être éteinte depuis long-tems. On
                             applique ordinairement deux couches d'enduit l'une sur l'autre. La
                             premiere qui touche la pierre, n'étant pas celle sur laquelle on doit
                             peindre, doit être fort raboteuse, quoique couchée également, c'est
@@ -4283,8 +4208,7 @@
                             sert pour la construdtion de ce contre-mur, se peut faire de chaux
                             &amp; de ciment, ainsi que le crépissage dont on le recouvre; mais
                             pour l'enduit il doit toujours être composé de chaux &amp; de sable
-                            de riviere. On se sert à Rome d'une espece de sable appellé<pb
-                                facs="00000208" n="184"/>pozzolane, qui se tire de la terre
+                            de riviere. On se sert à Rome d'une espece de sable appellé<pb facs="00000208" n="184"/>pozzolane, qui se tire de la terre
                             lorsqu'on creuse des puits. </p>
                         <p>Les anciens peignoient à fresque sur le stuc, qui est un enduit fait de
                             chaux &amp; de poudre de marbre, &amp; ils prenoient un soin
@@ -4299,8 +4223,7 @@
                             dépense d'un contre-mur, on peut se contenter de la piquer de plusieurs
                             trous en tout sens &amp; de biais pour y faire entrer le premier
                             enduit de mortier, ensorte qu'il ne puisse pas s'écailler ni se
-                            détacher. Mais si le mur étoit de pierre très poreuse, comme<pb
-                                facs="00000209" n="185"/>le caillou &amp; la pierre de meuliere,
+                            détacher. Mais si le mur étoit de pierre très poreuse, comme<pb facs="00000209" n="185"/>le caillou &amp; la pierre de meuliere,
                             ou bâti de briques, dont les joints soient de mortier qui ait soufflé
                             &amp; débordé en bâtissant, alors le fond sera assez raboteux
                             &amp; inégal pour retenir le premier enduit. On a déja vu que ce
@@ -4368,8 +4291,7 @@
                             sa propre satisfaction. </p>
                         <p>Lorsqu'on peint à fresque de petits ouvrages sur des fonds de stuc frais,
                             lequel se fait, comme on a vu, de chaux &amp; de poudre de marbre
-                            blanc; comme cet enduit de stuc est extrêmement blanc, on se<pb
-                                facs="00000213" n="189"/>contente de piquer avec une moyenne
+                            blanc; comme cet enduit de stuc est extrêmement blanc, on se<pb facs="00000213" n="189"/>contente de piquer avec une moyenne
                             aiguille le dessein ou carton, &amp; de le poncer sur l'enduit avec
                             du charbon pilé &amp; enfermé dans un petit sachet de toile un peu
                             claire. </p>
@@ -4387,8 +4309,7 @@
                             qui puissent conserver leur couleur en se garantissant de la brûlure de
                             la chaux, &amp; en résistant au sel ou amertume de ce minéral. Pour
                             conserver leur vivacité &amp; que l'ouvrage soit durable, il faut
-                            employer ces couleurs promptement, pendant que l'enduit est<pb
-                                facs="00000214" n="190"/>encore frais &amp; humide, &amp; ne
+                            employer ces couleurs promptement, pendant que l'enduit est<pb facs="00000214" n="190"/>encore frais &amp; humide, &amp; ne
                             retoucher jamais à sec avec des couleurs détrempées de jaunes d'oeufs,
                             de colle ou de gomme, comme font quelques-uns, parce qu'elles
                             noircissent &amp; n'ont jamais alors tant de vivacité que quand
@@ -4403,8 +4324,7 @@
                             se connoître que par la pratique. </p>
                         <p>L'ocre ou brun rouge; c'est une terre naturelle, ainsi que les couleurs
                             suivantes. L'ocre jaune est de même nature: elle devient rouge quand on
-                            la brûle; au contraire l'ocre rouge devient jaune: pour les<pb
-                                facs="00000215" n="191"/>calciner, on les met au feu dans une boîte
+                            la brûle; au contraire l'ocre rouge devient jaune: pour les<pb facs="00000215" n="191"/>calciner, on les met au feu dans une boîte
                             de fer. Il en est de même de l'ocre de rut, qui fait un jaune obscur;
                             c'est une espece de limon qui se trouve dans les ruisseaux des mines de
                             fer; lorsqu'elle est calcinée, elle prend une fort belle couleur. </p>
@@ -4433,8 +4353,7 @@
                             noir, &amp; d'employer l'émail pur par dessus en finissant. </p>
                         <p>La terre d'ombre est une couleur obscure. Il faut la calciner dans une
                             boîte de fer, pour la rendre plus brune, &amp; pour l'empêcher de
-                            s'écailler. A l'égard de la terre de Cologne, elle est d'un noir rous<pb
-                                facs="00000217" n="193"/>sâtre, qui est sujet à se décharger
+                            s'écailler. A l'égard de la terre de Cologne, elle est d'un noir rous<pb facs="00000217" n="193"/>sâtre, qui est sujet à se décharger
                             &amp; à rougir par la suite. </p>
                         <p>Il y a du noir de terre qui vient d'Allemagne; on tire aussi du même pays
                             une autre espece de noir, appellé noir d'Allemagne, qui est très beau,
@@ -4483,8 +4402,7 @@
                         <p>Avant que de commencer à peindre, il faut bien broyer toutes ses couleurs
                             avec de l'eau commune, ensuite on prépare les principales teintes que
                             l'on met séparément dans des écuelles ou vases de terre. Nous venons de
-                            dire que ces couleurs s'éclaircissent à mesure que l'enduit se<pb
-                                facs="00000220" n="196"/>seche, c'est pourquoi, pour ne s'y point
+                            dire que ces couleurs s'éclaircissent à mesure que l'enduit se<pb facs="00000220" n="196"/>seche, c'est pourquoi, pour ne s'y point
                             tromper, les peintres ont ordinairement plusieurs morceaux de tuile bien
                             seche &amp; unie, &amp; ils y font l'épreuve des teintes dont
                             ils veulent se servir. Car la tuile étant seche, boit aussi-tôt ce qu'il
@@ -4515,8 +4433,7 @@
                             desire, &amp; l'on est bien dans l'obligation de le faire tout de
                             suite autant qu'on le peut, n'y ayant plus moyen de retoucher son
                             ouvrage quand il est sec, sur-tout celui qui est exposé aux injures de
-                            l'air. A l'égard des ouvrages qui se trouvent à couvert,<pb
-                                facs="00000222" n="198"/>on pourroit en retoucher les bruns avec des
+                            l'air. A l'égard des ouvrages qui se trouvent à couvert,<pb facs="00000222" n="198"/>on pourroit en retoucher les bruns avec des
                             couleurs délayées dans du jus de figuier, &amp; les clairs avec des
                             pastels, mais le mieux est de peindre comme si l'on étoit privé de cette
                             ressource. </p>
@@ -4634,8 +4551,7 @@
                         <head>De l'échafaud.</head>
                         <p> Quoique le maçon soit exposé au danger le premier, il est bon cependant
                             de faire attention à la solidité de l'échafaud avant que le peintre y
-                            expose sa vie. Si le premier, ordinairement trop téméraire,<pb
-                                facs="00000229" n="205"/>s'embarrasse peu d'être précipité du haut
+                            expose sa vie. Si le premier, ordinairement trop téméraire,<pb facs="00000229" n="205"/>s'embarrasse peu d'être précipité du haut
                             en bas, ce n'est pas une nécessité que le second court le même danger.
                             Car le bonheur de l'un ne peut garantir l'autre des accidens qui peuvent
                             lui arriver. </p>
@@ -4694,8 +4610,7 @@
                             travail, pour n'avoir plus rien à penser alors qu'à le suivre. Il faut
                             en outre faire des cartons, c'est-à-dire, un dessein aussi grand que
                             tout l'ouvrage sur plusieurs feuilles de papier: on les assemble ensuite
-                            &amp; on les attache sur le lieu même qu'on doit peindre,<pb
-                                facs="00000232" n="208"/>&amp; l'on regarde le tout d'un peu
+                            &amp; on les attache sur le lieu même qu'on doit peindre,<pb facs="00000232" n="208"/>&amp; l'on regarde le tout d'un peu
                             loin pour pour en mieux voir l'ensemble &amp; pour pouvoir corriger
                             ce qu'on trouvera de défectueux dans sa composition. </p>
                     </div>
@@ -4713,8 +4628,7 @@
                             &amp; de relief une architecture qu'on veut représenter sur une
                             surface courbe ou inclinée. Pour cet effet on trace de petits carreaux
                             sur le dessein ou esquisse en petit, &amp; l'on transporte le même
-                            nombre de carreaux (agrandis seulement suivant la gran<pb
-                                facs="00000233" n="209"/>deur du lieu) sur la muraille où l'on doit
+                            nombre de carreaux (agrandis seulement suivant la gran<pb facs="00000233" n="209"/>deur du lieu) sur la muraille où l'on doit
                             peindre. Après cette opération, le peintre ayant examiné la quantité de
                             carreaux qu'il pourra peindre en un jour, fera enduire cette étendue de
                             mur par le maçon: ensuite il retracera sur ce nouvel enduit les mêmes
@@ -4767,8 +4681,7 @@
                         <head>De la façon de peindre.</head>
                         <p> La peinture à fresque ne differe de celle à huile qu'en ce qu'elle exige
                             une plus grande promptitude &amp; beaucoup de dextérité, à cause de
-                            l'incommodité de l'enduit &amp; de la nécessité où l'on est de se<pb
-                                facs="00000236" n="212"/>conformer à la nature du lieu qu'on doit
+                            l'incommodité de l'enduit &amp; de la nécessité où l'on est de se<pb facs="00000236" n="212"/>conformer à la nature du lieu qu'on doit
                             peindre. C'est pourquoi, outre les couleurs qu'on doit avoir disposées
                             par ordre &amp; arrangées dans de petits godets de terre, il faut se
                             munir d'une palette faite exprès. Elle se fait de fer-blanc avec des
@@ -4821,8 +4734,7 @@
                             peu humectés. Quelquefois on se sert du doigt pour le même usage,
                             surtout lorsqu'il s'agit de fondre des têtes, des pieds, des mains,
                             &amp; d'autres endroits délicats, &amp; que l'enduit commence à
-                            se durcir. Mais lorsqu'il est besoin de fondre<pb facs="00000239"
-                                n="215"/>&amp; d'attendrir quelque grande partie, comme un ciel,
+                            se durcir. Mais lorsqu'il est besoin de fondre<pb facs="00000239" n="215"/>&amp; d'attendrir quelque grande partie, comme un ciel,
                             une gloire céleste, &amp;c. il faut le faire tout d'abord sur
                             l'enduit encore frais, ou quand il n'est qu'à moitié sec, &amp;
                             alors on se sert pour cet effet des outils qui conviennent le mieux,
@@ -4840,8 +4752,7 @@
                             remettre. Cependant dans les lieux qui sont à l'abri de la pluie, on
                             peut, sans abattre l'enduit, repeindre une nouvelle figure par dessus
                             l'ancienne, pourvu qu'elle soit d'une teinte plus légere &amp; plus
-                            délicate que la premiere. Ceci soit dit seu<pb facs="00000240" n="216"
-                            />lement en passant pour vous lever tout scrupule à ce sujet, &amp;
+                            délicate que la premiere. Ceci soit dit seu<pb facs="00000240" n="216"/>lement en passant pour vous lever tout scrupule à ce sujet, &amp;
                             vous suggérer quelqu'expédient en pareille occasion. </p>
                     </div>
 
@@ -4860,8 +4771,7 @@
                         <p> Le blanc de chaux est le meilleur de tous pour mêler avec les couleurs à
                             fresque, soit pour les carnations, soit pour les draperies, pourvu que
                             la chaux soit vieille éteinte, &amp; fusée à l'air depuis un an ou
-                            pour le moins depuis six mois. Ce blanc se détrempe avec de l'eau com<pb
-                                facs="00000241" n="217"/>mune &amp; se passe à travers un tamis
+                            pour le moins depuis six mois. Ce blanc se détrempe avec de l'eau com<pb facs="00000241" n="217"/>mune &amp; se passe à travers un tamis
                             de crin. Il faut ensuite le laisser reposer quelque tems dans un
                             vaisseau assez grand; &amp; ayant versé doucement l'eau qui surnage,
                             on se sert du blanc qui se trouve au fond du vase. Pour l'employer dans
@@ -4880,8 +4790,7 @@
                             &amp; on les purifie en les faisant bouillir dans de l'eau avec un
                             peu de chaux vive. On les jette ensuite dans un tamis pour écouler la
                             premiere eau, &amp; on les lave dans de l'eau de riviere ou de
-                            fontaine. On les pile une seconde fois, &amp; après les<pb
-                                facs="00000242" n="218"/>avoir lavées on les met encore égonter dans
+                            fontaine. On les pile une seconde fois, &amp; après les<pb facs="00000242" n="218"/>avoir lavées on les met encore égonter dans
                             le même crible. On réitere plusieurs fois ces lotions &amp; cette
                             trituration jusqu'à ce que l'eau en sorte aussi nette qu'elle l'étoit en
                             l'y versant. Alors on broie ces coquilles d'oeufs sur le marbre à broyer
@@ -4900,8 +4809,7 @@
                         <p> La maniere de tirer parti de ce marbre est de le réduire en poudre,
                             &amp; de le broyer sur le marbre avec de l'eau. On y ajoute un peu
                             de chaux pour lui donner plus de corps. Etant ainsi préparé, il est bon
-                            à employer. Cependant il est assez inutile<pb facs="00000243" n="219"
-                            />de prendre cette peine lorsqu'on peut avoir de bonne chaux vieille
+                            à employer. Cependant il est assez inutile<pb facs="00000243" n="219"/>de prendre cette peine lorsqu'on peut avoir de bonne chaux vieille
                             éteinte, ou du blanc de coquilles d'oeufs. </p>
                     </div>
 
@@ -4918,8 +4826,7 @@
                             le plus clair de cette infusion; renversez ensuite cette eau par
                             inclination, sans remuer le cinabre qui est au fond, &amp;
                             remettez-y de nouvelle eau de chaux échauffée comme ci-devant. Après
-                            plusieurs lotions le cinabre se trouve im<pb facs="00000244" n="220"
-                            />pregné de la nature &amp; des qualités de la chaux, &amp; il
+                            plusieurs lotions le cinabre se trouve im<pb facs="00000244" n="220"/>pregné de la nature &amp; des qualités de la chaux, &amp; il
                             s'incorpore plus facilement avec l'enduit. </p>
                     </div>
 
@@ -4964,8 +4871,7 @@
                         <p> A Rome on fait usage de deux terres jaunes. L'une tire sur le jaune
                             clair, l'autre est d'un jaune extrêmement foncé. Toutes deux sont
                             excellentes dans leur espece Lorsqu'on fait les mêler à propos dans les
-                            draperies, elles ne cedent en rien pour<pb facs="00000246" n="222"
-                            />l'éclat au plus beau safran. Dans les autres endroits de l'Italie, on
+                            draperies, elles ne cedent en rien pour<pb facs="00000246" n="222"/>l'éclat au plus beau safran. Dans les autres endroits de l'Italie, on
                             trouve des terres jaunes qui approchent beaucoup de celles-ci. </p>
                     </div>
 
@@ -4989,8 +4895,7 @@
                         <p> La terre verte qu'on tire de Vérone, est la plus belle de toutes,
                             &amp; même elle est l'unique dont on puisse faire usage pour les
                             draperies dans la peinture à fresque. Les autres verds sont presque tous
-                            artificiels &amp; ennemis de la chaux. On trouve<pb facs="00000247"
-                                n="223"/>bien d'autres terres vertes, mais elles sont de beaucoup
+                            artificiels &amp; ennemis de la chaux. On trouve<pb facs="00000247" n="223"/>bien d'autres terres vertes, mais elles sont de beaucoup
                             inférieures à celle-ci. </p>
                     </div>
 
@@ -5032,8 +4937,7 @@
                             toutes les autres tandis que l'enduit est encore bien frais, sans, quoi
                             elle n'y tiendroit point. Une heure après on y en remet une seconde
                             couche pour lui donner plus de vivacité &amp; d'éclat. L'émail peut
-                            servir pour les ombres ordinaires &amp; les demi<pb facs="00000249"
-                                n="225"/>teintes; mais dans les ombres fortes, il faut employer du
+                            servir pour les ombres ordinaires &amp; les demi<pb facs="00000249" n="225"/>teintes; mais dans les ombres fortes, il faut employer du
                             noir de charbon. Il est inutile d'avertir que toutes les couleurs dont
                             nous venons de parler, se mêlent avec du blanc pour faire les clairs,
                             les demi-teintes &amp; même les ombres, suivant l'usage de la
@@ -5068,8 +4972,7 @@
                             l'enduit par parties, lesquelles venant à se détacher, laisseroient voir
                             le fond du mur, ce qui défigureroit tout l'ouvrage. A l'égard des
                             murailles nouvellement bâties, il suffit d'y passer une couche de ce
-                            plâtre ainsi détrempé avec de l'eau de colle, tandis<pb facs="00000251"
-                                n="227"/>que le mortier du mur est encore frais, &amp; les
+                            plâtre ainsi détrempé avec de l'eau de colle, tandis<pb facs="00000251" n="227"/>que le mortier du mur est encore frais, &amp; les
                             couleurs y pénétreront facilement. </p>
                     </div>
                 </div>
@@ -5119,8 +5022,7 @@
                             toutes les saletés. Jettez cette premiere eau, remettez vos rognures
                             dans un chauderon avec de l'eau nette: il en faut environ douze pintes
                             pour une livre de rognures. Faites bouillir le tout ensemble jusqu'à ce
-                            qu'il soit réduit à deux pintes, ou du moins jusqu'à ce que la peau<pb
-                                facs="00000254" n="230"/>soit presqu'entierement fondue. Passez le
+                            qu'il soit réduit à deux pintes, ou du moins jusqu'à ce que la peau<pb facs="00000254" n="230"/>soit presqu'entierement fondue. Passez le
                             tout, encore chaud, au travers d'un gros linge dans un pot étroit
                             &amp; un peu haut, pour en séparer les morceaux qui ne sont pas tout
                             à fait fondus, laissez-le reposer &amp; se refroidir jusqu'à ce que
@@ -5153,8 +5055,7 @@
                             racle le plus proprement qu'il est possible. Il faut faire la même chose
                             pour le bois. </p>
                         <p>Si l'on a dessein de peindre sur de la toile, on la choisit toujours à
-                            demi usée pour qu'elle soit plus douce, &amp; pour n'être<pb
-                                facs="00000256" n="232"/>pas obligé d'y mettre plusieurs couches de
+                            demi usée pour qu'elle soit plus douce, &amp; pour n'être<pb facs="00000256" n="232"/>pas obligé d'y mettre plusieurs couches de
                             colle, qui pourroient faire fendre &amp; écailler la peinture par la
                             suite. </p>
                         <p>Ayant donc étendu &amp; bandé votre toile de tous côtés sur un
@@ -5187,8 +5088,7 @@
                             arrondie, seulement un peu vers l'endroit où est le trou pour mettre le
                             pouce. On borde ce trou d'un morceau de peau ou d'un cuir mince, pour
                             que le fer-blanc ne blesse pas la main. La partie supérieure de cette
-                            palette, c'est-à-dire, l'extrêmité la plus éloi<pb facs="00000258"
-                                n="234"/>gnée du pouce, doit avoir des rebords un peu relevés pour
+                            palette, c'est-à-dire, l'extrêmité la plus éloi<pb facs="00000258" n="234"/>gnée du pouce, doit avoir des rebords un peu relevés pour
                             retenir les couleurs qu'on y arrange, en cas qu'on vienne à la pencher
                             un peu trop sans y songer. On fait aussi vers le haut de la palette
                             quelques creux ou enfoncomens, pour y placer chaque couleur dans son
@@ -5238,8 +5138,7 @@
                             facilement les changemens qu'on jugera à propos, en passant légérement
                             un linge blanc sur ces premiers traits. Quand le dessein est arrêté au
                             charbon, il faut le mettre au net, ce qu'on fait avec une petite brosse
-                            longue &amp; pointue trempée dans quelque teinture fort<pb
-                                facs="00000261" n="237"/>claire, qui n'ait point de corps, &amp;
+                            longue &amp; pointue trempée dans quelque teinture fort<pb facs="00000261" n="237"/>claire, qui n'ait point de corps, &amp;
                             qui ne puisse pas se mêler avec la couleur qu'on doit coucher dessus. On
                             peut se servir pour cet effet d'un peu de terre d'ombre bien broyée,
                             délayée avec beaucoup d'eau &amp; très peu de colle. Après que ce
@@ -5289,8 +5188,7 @@
                             brosse ou pinceau de poil doux, observant de le faire très promptement
                             pour ne pas détremper le fond sur lequel on glace. On prendra garde que
                             ce fond ne puisse pas boire la couleur avec laquelle on le glace, car
-                            alors il s'y feroit des taches, comme il arrive au papier<pb
-                                facs="00000264" n="240"/>lorsqu'il n'est pas assez collé &amp;
+                            alors il s'y feroit des taches, comme il arrive au papier<pb facs="00000264" n="240"/>lorsqu'il n'est pas assez collé &amp;
                             qu'on y passe un lavis. C'est pourquoi, quand on veut glacer quelque
                             ouvrage en détrempe, il faut l'encoller auparavant. Cet encollage se
                             fait en passant légérement sur le tableau une couche de colle claire
@@ -5439,8 +5337,7 @@
                             les bien choisir. Pour cet effet, il faut les humecter un peu, &amp;
                             après les avoir tournés sur le doigt, si tous les poils se tiennent
                             ensemble &amp; ne font qu'une pointe, c'est une marque qu'ils sont
-                            bons. Si au contraire ils ne se rassemblent pas bien &amp; qu'ils<pb
-                                facs="00000273" n="249"/>fassent plusieurs pointes, ou qu'il y ait
+                            bons. Si au contraire ils ne se rassemblent pas bien &amp; qu'ils<pb facs="00000273" n="249"/>fassent plusieurs pointes, ou qu'il y ait
                             des poils plus longs les uns que les autres, ils ne valent rien,
                             particulierement pour le pointillage &amp; pour les carnations.
                             Quand ils sont trop pointus &amp; qu'il n'y a que quatre ou cinq
@@ -5455,8 +5352,7 @@
                             lui donner une bonne pointe, il faut le passer souvent sur le bord de
                             vos levres en travaillant, le serrant &amp; l'humectant avec la
                             langue, même après l'avoir trempé dans la couleur. Par ce moyen s'il y
-                            en a trop, on l'ôte du pinceau, &amp; il n'y en demeure<pb
-                                facs="00000274" n="250"/>que ce qu'il en faut pour faire des traits
+                            en a trop, on l'ôte du pinceau, &amp; il n'y en demeure<pb facs="00000274" n="250"/>que ce qu'il en faut pour faire des traits
                             égaux &amp; unis. On ne doit pas craindre que cela fasse aucun mal,
                             car toutes les couleurs qu'on emploie pour la miniature (excepté
                             l'orpin, qui est un poison), quand elles sont préparées, n'ont ni
@@ -5527,8 +5423,7 @@
                             vessie. On peut faire la même couleur en broyant de l'Inde avec la gomme
                             gutte. </p>
                         <p>Le bistre n'est que de la suie infusée dans de l'eau commune. Mais pour
-                            le rendre très beau, &amp; en faire différentes<pb facs="00000278"
-                                n="254"/>teintes, on prend des écailles de suie de cheminée, on les
+                            le rendre très beau, &amp; en faire différentes<pb facs="00000278" n="254"/>teintes, on prend des écailles de suie de cheminée, on les
                             broie sur un marbre avec de l'eau, puis on met cette couleur dans un
                             pot; à mesure qu'on y mêle de l'eau, le bistre s'éclaircit: plus on
                             approche du marc, &amp; plus il est noir. Quelques uns font bouillir
@@ -5592,8 +5487,7 @@
                         <p>Il est certain qu'on peut donner du moins autant de force à la miniature
                             qu'à la peinture à huile, quand on fait bien ménager sa couleur. Le
                             bistre, fait avec de la suie de cheminée, est d'un merveilleux secours
-                            pour produire cet effet, lorsqu'on sait s'en servir à propos,<pb
-                                facs="00000282" n="258"/>sur-tout quand on y mêle du carmin, ce qui
+                            pour produire cet effet, lorsqu'on sait s'en servir à propos,<pb facs="00000282" n="258"/>sur-tout quand on y mêle du carmin, ce qui
                             dépend des occasions. </p>
                         <p>Pour peindre sur le vélin avec plus de propreté, il est bon d'arrêter
                             auparavant sa pensée &amp; de dessiner correctement sur un papier
@@ -5608,8 +5502,7 @@
                             dessus le vélin, repliant les bords du dessein par derriere la planche,
                             afin qu'il ne vacille point. Le tout étant posé sur une table, on passe
                             légérement avec une pointe d'argent ou de tout autre métal, par dessus
-                            tous, les contours, en appuyant très peu;<pb facs="00000283" n="259"
-                            />puis ôtant le papier, le dessein se trouve marqué nettement sur le
+                            tous, les contours, en appuyant très peu;<pb facs="00000283" n="259"/>puis ôtant le papier, le dessein se trouve marqué nettement sur le
                             vélin. Si par hasard on vouloit y changer quelque chose, cela se fait en
                             effaçant l'endroit avec un peu de mie de pain rassis, &amp; en
                             retraçant ce que l'on veut avec une pointe d'argent. </p>
@@ -5692,8 +5585,7 @@
                             contours de vos figures &amp; de vos draperies avec un filet de
                             carmin, vous coucherez vos clairs &amp; vos ombres, &amp; vous
                             ébaucherez l'ouvrage comme il a été dit ci-devant. Si c'est pour des
-                            femmes &amp; des enfans, ou autre coloris<pb facs="00000288" n="264"
-                            />tendre, on couche une teinte faite de blanc &amp; d'un peu de
+                            femmes &amp; des enfans, ou autre coloris<pb facs="00000288" n="264"/>tendre, on couche une teinte faite de blanc &amp; d'un peu de
                             bleu. Si c'est une carnation d'homme, au lieu de bleu on y met un peu de
                             vermillon; &amp; si c'en est une de vieillard, on y mêle de l'ocre.
                             Ensuite on recherche tous les traits avec une teinte formée de
@@ -5740,8 +5632,7 @@
                             chairs soient naturelles avec les réflexions qu'elles font les unes sur
                             les autres, car les réflexions leur donnent quelque transparence, de la
                             tendresse &amp; du relief; ce que les Italiens appellent morbidessa.
-                            Il faut encore leur donner les teintes des ré<pb facs="00000291" n="267"
-                            />flexions qu'elles prennent des étoffes &amp; des autres corps
+                            Il faut encore leur donner les teintes des ré<pb facs="00000291" n="267"/>flexions qu'elles prennent des étoffes &amp; des autres corps
                             illuminés qui sont auprès d'elles. Ce sont de grandes perfections du
                             coloris qui se remarquent dans peu de peintres. </p>
                     </div>
@@ -5775,8 +5666,7 @@
                         <p>Les draperies violettes se font avec un mêlange de carmin &amp;
                             d'outremer, y ajoutant du blanc pour les clairs. S'il y a plus de
                             carmin, le violet sera colombin; &amp; si l'outremer y domine, il
-                            tirera sur le bleu. On l'acheve en pointillant avec les<pb
-                                facs="00000293" n="269"/>mêmes couleurs un peu plus fortes. </p>
+                            tirera sur le bleu. On l'acheve en pointillant avec les<pb facs="00000293" n="269"/>mêmes couleurs un peu plus fortes. </p>
                         <p>On fait une draperie couleur de chair en couchant du blanc, du vermillon
                             &amp; de la laque, mêlés ensemble, le tout fort pâle, &amp; en
                             mettant moins de blanc pour les ombres. Cette sorte de draperie doit
@@ -5791,8 +5681,7 @@
                             de fiel toute pure dans les ombres, &amp; même on y mêle un peu de
                             bistre, dans les plus fortes, s'il en est besoin. Pour les clairs on
                             finit en pointillant avec les mêmes couleurs avec lesquelles on a
-                            ébauché On peut faire une autre sorte de jaune<pb facs="00000294"
-                                n="270"/>avec du jaune de Naples &amp; du stil de grain, au lieu
+                            ébauché On peut faire une autre sorte de jaune<pb facs="00000294" n="270"/>avec du jaune de Naples &amp; du stil de grain, au lieu
                             de massicot, mêlés avec de la gomme gutte. </p>
                         <p>Les draperies vertes se font en mettant sur le tout une couche de verd de
                             Vérone ou de montagne. Si elles paroissent trop bleuâ-tres, on y mêle du
@@ -5859,8 +5748,7 @@
                             un peu d'ocre; pour ébaucher les ombres, servez-vous de bistre, de blanc
                             &amp; d'ocre; &amp; dans les fortes ombres, de bistre pur. Mais
                             avant que de finir il faut faire en certains endroits de petites teintes
-                            d'ocre &amp; de blanc, ou de blanc &amp; d'outremer. On<pb
-                                facs="00000298" n="274"/>finira avec les couleurs du fond, à
+                            d'ocre &amp; de blanc, ou de blanc &amp; d'outremer. On<pb facs="00000298" n="274"/>finira avec les couleurs du fond, à
                             l'ordinaire, un peu plus fortes, &amp; l'on rehaussera de massicot.
                             On peut même rayer ces linges avec de petites lignes, deux bleues
                             &amp; deux rouges, ce qu'on appelle draperies Egyptiennes. </p>
@@ -5988,8 +5876,7 @@
                         pratiquer avec beaucoup plus de propreté. Enfin il n'est pas besoin d'une si
                         grande attention pour les couleurs, parce qu'elles ne s'alterent point par
                         le mêlange, comme celles à huile, &amp; elles ne changent point après
-                        qu'elles ont été appliquées sur le papier. On peut donc faire avec les<pb
-                            facs="00000306" n="282"/>différens crayons, dans la peinture au pastel,
+                        qu'elles ont été appliquées sur le papier. On peut donc faire avec les<pb facs="00000306" n="282"/>différens crayons, dans la peinture au pastel,
                         ce que l'on fait avec les pinceaux dans les autres sortes de peinture, le
                         maniement des uns faisant le même effet que celui des autres: on touche
                         &amp; l'on adoucit, selon qu'on veut faire paroître plus d'esprit dans
@@ -6003,8 +5890,7 @@
                         ordinairement ceux de sanguine, parce que n'étant pas si durs, ils seroient
                         plus sujets à se rompre, &amp; qu'étant plus grands, ils donnent plus de
                         liberté &amp; de facilité pour les manier &amp; pour peindre. </p>
-                    <p>La peinture au pastel est propre particu<pb facs="00000307" n="283"
-                        />lierement pour les portraits, &amp; ils se font ordinairement de
+                    <p>La peinture au pastel est propre particu<pb facs="00000307" n="283"/>lierement pour les portraits, &amp; ils se font ordinairement de
                         grandeur naturelle. Plusieurs peintres de nos jours, tels que MM. de la
                         Tour, Roslin, Lundberg, Perronneau, &amp;c. ont porté cette sorte de
                         peinture à un très haut degré de perfection, &amp; leurs portraits au
@@ -6019,8 +5905,7 @@
                     <div xml:lang="fra">
                         <head>Des couleurs primitives &amp; composées.</head>
                         <p> Pour avoir un assortiment complet de pastels, il en faut faire de toutes
-                            les couleurs, tant simples que composées, avec les<pb facs="00000308"
-                                n="284"/>nuances ou teintes de chacune, depuis le plus clair
+                            les couleurs, tant simples que composées, avec les<pb facs="00000308" n="284"/>nuances ou teintes de chacune, depuis le plus clair
                             jusqu'au plus brun. On doit aussi s'en pourvoir de toutes les teintes
                             nécessaires pour les carnations, &amp; plusieurs autres de couleurs
                             rompues pour les fonds, &amp; pour divers autres sujets qui peuvent
@@ -6390,8 +6275,7 @@
                         <head>Boîte pour serrer les pastels.</head>
                         <p> </p>
                         <p>Voilà à peu près tous les pastels dont on peut avoir besoin pour peindre
-                            quelque chose que ce soit. Pour les conserver, il<pb facs="00000326"
-                                n="302"/>faut avoir une boîte assez grande, large &amp; plate,
+                            quelque chose que ce soit. Pour les conserver, il<pb facs="00000326" n="302"/>faut avoir une boîte assez grande, large &amp; plate,
                             d'environ deux pouces de hauteur, &amp; partagée en petites cellules
                             par des séparations de bois mince pour y arranger les pastels selon
                             l'ordre des couleurs, &amp; empêcher qu'ils ne se confondent les uns
@@ -6407,8 +6291,7 @@
                         <p> On a vu au commencement de cet ouvrage que cette sorte de peinture se
                             pratique sur du papier gris &amp; sur du bleu; il faut le choisir
                             assez fort &amp; d'un grain fin &amp; égal. Le papier doit être
-                            fort pour que l'on puisse repasser de ssus avec les<pb facs="00000327"
-                                n="303"/>pastels autant de fois qu'il en sera besoin: il doit être
+                            fort pour que l'on puisse repasser de ssus avec les<pb facs="00000327" n="303"/>pastels autant de fois qu'il en sera besoin: il doit être
                             d'un grain fin &amp; égal, afin que le travail en soit plus délicat
                             &amp; plus beau: enfin il doit avoir du grain, parce que le pastel
                             s'y attache d'autant plus facilement &amp; y tient d'autant mieux
@@ -6478,8 +6361,7 @@
                             &amp; délicatesse, ménageant les jours, les demi-teintes &amp;
                             les ombres, de maniere que la tête paroisse ronde, bien éclairée, bien
                             coloriée &amp; de bon goût. A l'égard du dessein, on le suppose
-                            toujours dans celui qui veut peindre au pastel, sans<pb facs="00000331"
-                                n="307"/>quoi ce ne seroit plus qu'un barbouillage, &amp; par
+                            toujours dans celui qui veut peindre au pastel, sans<pb facs="00000331" n="307"/>quoi ce ne seroit plus qu'un barbouillage, &amp; par
                             conséquent du papier, des crayons, &amp; ce qui est encore pis, du
                             tems perdu. </p>
                     </div>
@@ -6609,8 +6491,7 @@
                         presque à toutes une figure ronde ou ovale, parce que si elles étoint
                         plates, l'or se tourmenteroit au feu, &amp; feroit éclater l'émail. Il
                         ne faut pas aussi qu'elles soient trop épaisses, c'est assez qu'elles
-                        puissent soutenir l'émail qu'on met dessus &amp; dessous. On les for<pb
-                            facs="00000339" n="315"/>tifie seulement tout autour par le moyen d'un
+                        puissent soutenir l'émail qu'on met dessus &amp; dessous. On les for<pb facs="00000339" n="315"/>tifie seulement tout autour par le moyen d'un
                         cercle qui a plus d'épaisseur. </p>
                     <p>Lorsque la plaque d'or est forgée bien égale par-tout, on y applique dessus
                         &amp; dessous un émail blanc, quoiqu'on ne doive travailler qu'un des
@@ -6625,8 +6506,7 @@
                         champ à toutes les autres couleurs que l'on y met ensuite. </p>
                     <p>Cet émail blanc est une chose assez commune &amp; dont tous les orfevres
                         se servent. Lorsqu'il est bien broyé &amp; purgé avec de l'eau-forte,
-                        &amp; ensuite bien lavé dans de l'eau claire, on le broie dans un<pb
-                            facs="00000340" n="316"/>mortier de caillou, de chalcédoine ou d'agathe,
+                        &amp; ensuite bien lavé dans de l'eau claire, on le broie dans un<pb facs="00000340" n="316"/>mortier de caillou, de chalcédoine ou d'agathe,
                         autant qu'il est nécessaire pour le détremper simplement avec l'eau
                         &amp; le mettre au feu. C'est l'ouvrage de l'orfevre qui prépare
                         ordinairement ces sortes de plaques pour tous ceux qui travaillent en émail. </p>
@@ -6708,8 +6588,7 @@
                             état elle se coupe facilement sur une table avec un couteau, &amp;
                             l'on en fait des morceaux de la grandeur que l'on veut. Ordinairement on
                             les taille de la longueur de trois pouces sur deux de largeur, puis pour
-                            donner à ces moufles la courbure néces<pb facs="00000345" n="321"
-                            />saire, il faut avoir un cylindre de bois proportionné à la courbure
+                            donner à ces moufles la courbure néces<pb facs="00000345" n="321"/>saire, il faut avoir un cylindre de bois proportionné à la courbure
                             que vous voulez leur donner, &amp; les lier sur ce, cylindre avec de
                             la ficelle, pour qu'elles en prennent bien la forme en séchant.
                             N'oubliez pas sur-tout de mettre une feuille de papier entre la moufle
@@ -6724,8 +6603,7 @@
                             quelques petits trous des deux côtés pour faciliter l'entrée de la
                             chaleur par dessous ces moufles, &amp; pour qu'elle reverbere plus
                             aisément sur vos ouvrages quand ils y sont placés. Lorsqu'elles seront
-                            bien seches vous les approcherez du feu petit à petit,<pb
-                                facs="00000346" n="322"/>afin qu'elles s'échauffent &amp;
+                            bien seches vous les approcherez du feu petit à petit,<pb facs="00000346" n="322"/>afin qu'elles s'échauffent &amp;
                             qu'elles perdent entierement leur humidité: car si elles n'étoient pas
                             parfaitement seches, elles se casseroient d'abord qu'elles sentiroient
                             la chaleur. On les approche ensuite peu à peu d'un plus grand feu,
@@ -6816,8 +6694,7 @@
                             vos plaques d'or émaillées, y fasse un petit cercle, ou une petite baste
                             de fil de fer applati pour poser ladite plaque dessus toutes les fois
                             que vous la mettrez au feu lorsque vous travaillerez dessus, parce que
-                            cela l'entretient toujours droite, &amp; empêche que<pb
-                                facs="00000351" n="327"/>les bords ne se fondent &amp; que
+                            cela l'entretient toujours droite, &amp; empêche que<pb facs="00000351" n="327"/>les bords ne se fondent &amp; que
                             l'émail ne parfonde plutôt aux bords qu'au milieu. </p>
                     </div>
                     <div xml:lang="fra">
@@ -6867,8 +6744,7 @@
                             plus rien: il faut donc les rappeller ou les faire revenir en les
                             mettant sur la plaque d'or ou de fer à l'entrée du fourneau sur les
                             charbons, du foyer. Mais auparavant il faudra faire exhaler l'huile
-                            d'aspic loin du feu, ce qui produira deux bons effets:<pb
-                                facs="00000354" n="330"/>l'huile s'évaporera, &amp; en même tems
+                            d'aspic loin du feu, ce qui produira deux bons effets:<pb facs="00000354" n="330"/>l'huile s'évaporera, &amp; en même tems
                             votre ouvrage s'échauffera peu à peu &amp; se trouvera
                             insensiblement en état de soutenir le feu du charbon sur lequel vous
                             allez le mettre. Sans cette précaution il arriveroit deux inconvéniens:
@@ -6930,8 +6806,7 @@
                             autant pesant de poudre de pierre de ponce pilée, &amp; le tiers de
                             la pesanteur des deux de sel commun. Vous prendrez un de vos creusets
                             plats, qui soit assez grand pour contenir vos plaques &amp; vos
-                            petits morceaux de cuivre stratum super stratum, avec la pré<pb
-                                facs="00000358" n="334"/>cédente composition, observant que le
+                            petits morceaux de cuivre stratum super stratum, avec la pré<pb facs="00000358" n="334"/>cédente composition, observant que le
                             premier &amp; le dernier lit soient de cette même composition bien
                             mêlée, &amp; que le dernier lit soit même assez épais. Couvrez
                             exactement ce creuset avec un autre qui s'emboîte dessus comme un
@@ -7001,8 +6876,7 @@
                         <p>Il faut avoir aussi une aiguille de buis: on la fait avec un morceau de
                             buis bien sec, de la même longueur des aiguilles d'acier, on à peu près:
                             elle doit être très pointue d'un bout, &amp; un peu émoussée
-                            &amp; ronde de l'autre bout. Ce bout arrondi<pb facs="00000362"
-                                n="338"/>est pour effacer quelquefois ce que l'on juge à propos
+                            &amp; ronde de l'autre bout. Ce bout arrondi<pb facs="00000362" n="338"/>est pour effacer quelquefois ce que l'on juge à propos
                             d'ôter, &amp; le bout pointu sert à nettoyer les parties de
                             l'ouvrage qui se trouvent boueuses &amp; mal unies. </p>
                     </div>
@@ -7022,8 +6896,7 @@
                             &amp; rond par la pointe, quoique tranchante: il doit être assez
                             ployant, parce qu'il est à plusieurs fins. Son premier usage est de
                             ramasser les couleurs quand on les broie sur la pierre d'agathe: l'autre
-                            est de faire des teintes sur les palettes. Le même coutelier qui<pb
-                                facs="00000363" n="339"/>fera vos aiguilles fera aussi le couteau.
+                            est de faire des teintes sur les palettes. Le même coutelier qui<pb facs="00000363" n="339"/>fera vos aiguilles fera aussi le couteau.
                             Ces outils doivent être de bon acier, afin qu'ils ne s'usent pas si
                             aisément, parce qu'en s'usant il en pourroit rester quelques parcelles
                             sur votre palette &amp; sur la pierre d'agathe. </p>
@@ -7081,8 +6954,7 @@
                             de petites noix. Les grandes servent à mettre vos couleurs quand elles
                             ne sont que pilées &amp; lavées avant que de les broyer; les petites
                             sont pour mettre celles qui sont broyées &amp; séchées, toutes
-                            prêtes à employer au pinceau sur les ou<pb facs="00000366" n="342"
-                            />vrages. On doit écrire sur ces boîtes le nom des couleurs quelles
+                            prêtes à employer au pinceau sur les ou<pb facs="00000366" n="342"/>vrages. On doit écrire sur ces boîtes le nom des couleurs quelles
                             contiennent, soit tendres ou dures. Les dures doivent être séparées des
                             tendres &amp; mises dans de petites boîtes différentes, afin de ne
                             point s'y tromper, &amp; que d'un coup d'oeil on puisse lire leurs
@@ -7099,8 +6971,7 @@
                         <p>Le bleu se fait avec du même émail ou azur, dont se servent les peintres.
                             Il faut le purger &amp; le préparer en le mettant dans une bouteille
                             de verre avec de bonne eau-de-vie: on la bouche bien &amp; on
-                            l'expose au soleil pendant cinq ou six jours,<pb facs="00000367" n="343"
-                            />l'agitant deux ou trois fois par jour. De cette maniere toute
+                            l'expose au soleil pendant cinq ou six jours,<pb facs="00000367" n="343"/>l'agitant deux ou trois fois par jour. De cette maniere toute
                             l'impureté de l'émail se précipitera au fond, &amp; ce qui surnagera
                             demeurera put &amp; très beau: les peintres peuvent s'en servir
                             alors pour leurs tableaux. Il faut broyer ensuite cet azur purifié sur
@@ -7180,8 +7051,7 @@
                         <p>Le feu de reverbere se fait, comme on a dit ci-devant, dans un fourneau
                             où le feu est tellement arrangé qu'il reste un vuide dans le milieu pour
                             y mettre ce que l'on veut parfondre. Faute de fourneau on se sert d'une
-                            moufle d'orfevre, qui est un petit arc de terre de la même<pb
-                                facs="00000372" n="348"/>matiere que les creusets, à peu près de
+                            moufle d'orfevre, qui est un petit arc de terre de la même<pb facs="00000372" n="348"/>matiere que les creusets, à peu près de
                             même forme que ces tuiles creuses que l'on nomme faîtieres. On met cette
                             moufle dans une terrine, &amp; on la couvre dessus &amp; tout à
                             l'entour de bons charbons bien allumés. Sous cette moufle on met son
@@ -7258,8 +7128,7 @@
                     <div xml:lang="fra">
                         <head>Définition de la peinture.</head>
                         <p> Qu'il ait une idée juste de sa profession, que l'on définit de cette
-                            sorte. C'est un art qui, par le moyen du dessein &amp;<pb
-                                facs="00000376" n="352"/>de la couleur, imite sur une superficie
+                            sorte. C'est un art qui, par le moyen du dessein &amp;<pb facs="00000376" n="352"/>de la couleur, imite sur une superficie
                             plate tous les objets visibles. Par cette définition on doit comprendre
                             trois choses, le dessein, le coloris, &amp; la composition:
                             &amp; bien que cette derniere partie n'y paroisse pas bien nettement
@@ -7275,8 +7144,7 @@
                             disposition. Par l'invention, le Peintre doit trouver &amp; faire
                             entrer dans son sujet les objets les plus propres à l'exprimer &amp;
                             à l'orner: &amp; par la disposition, il doit les situer de la
-                            maniere la plus avantageuse pour en tirer un grand<pb facs="00000377"
-                                n="353"/>effet &amp; pour contenter les yeux, en faisant voir de
+                            maniere la plus avantageuse pour en tirer un grand<pb facs="00000377" n="353"/>effet &amp; pour contenter les yeux, en faisant voir de
                             belles parties: qu'elle soit bien contrastée, bien diversifiée,
                             &amp; liée de grouppes. </p>
                     </div>
@@ -7334,8 +7202,7 @@
                     <div xml:lang="fra">
                         <head>Le paysage.</head>
                         <p> Que le paysage ne soit point coupé de trop d'objets, qu'il y en ait peu,
-                            mais qu'ils soient bien choisis. Et en cas<pb facs="00000380" n="356"
-                            />qu'une grande quantité d'objets y soient renfermés, il faut qu'ils
+                            mais qu'ils soient bien choisis. Et en cas<pb facs="00000380" n="356"/>qu'une grande quantité d'objets y soient renfermés, il faut qu'ils
                             soient ingénieusement grouppés de lumieres &amp; d'ombres; que le
                             site en soit bien lié &amp; bien dégagé; que les arbres en soient
                             différens de forme, de couleur &amp; de touche, autant que la
@@ -7375,8 +7242,7 @@
                     <div xml:lang="fra">
                         <head>Le clair-obscur.</head>
                         <p> Et le clair-obscur est l'art de distribuer avantageusement les lumieres
-                            &amp; les ombres, tant sur les objets particuliers, que<pb
-                                facs="00000382" n="358"/>dans le général du tableau: sur les objets
+                            &amp; les ombres, tant sur les objets particuliers, que<pb facs="00000382" n="358"/>dans le général du tableau: sur les objets
                             particuliers, pour leur donner le relief &amp; la rondeur
                             convenable: &amp; dans le général du tableau, pour y faire voir les
                             objets avec plaisir, en donnant occasion à la vue de se reposer d'espace
@@ -7391,8 +7257,7 @@
                             se peut faire de quatre façons. Premierement par les ombres naturelles
                             des corps. 2°. Par les grouppes, c'est-à-dire, en disposant les objets
                             d'une maniere que les lumieres se trouvent liées ensemble, &amp; les
-                            ombres pareillement ensemble, comme on le voit grossierement<pb
-                                facs="00000383" n="359"/>dans une grappe de raisin (1)<note place="bottom">(1) Nous nous sommes étendus
+                            ombres pareillement ensemble, comme on le voit grossierement<pb facs="00000383" n="359"/>dans une grappe de raisin (1)<note place="bottom">(1) Nous nous sommes étendus
                                 davantage sur cet exemple dans notre Cours de peinture par
                                 principes, in-12. qui se vend chez le même Libraire.</note>, dont les
                             grains du côté de la lumiere font une masse de clair, &amp; les
@@ -7425,8 +7290,7 @@
                             compétiteur s'étant apperçu, il s'en est prévalu dans tout ce qu'il a
                             fait depuis. </p>
                         <p>Dans la Flandre, Otho Venius en jetta des fondemens solides, &amp;
-                            les communiqua à Rubens, son éleve: celui-ci les rendit<pb
-                                facs="00000385" n="361"/>plus sensibles, &amp; en fit tellement
+                            les communiqua à Rubens, son éleve: celui-ci les rendit<pb facs="00000385" n="361"/>plus sensibles, &amp; en fit tellement
                             connoître les avantages de la nécessité, que les meilleurs Peintres
                             Flamans, qui l'ont suivi, se sont rendus recommandables par cette
                             partie: car sans elle, tous les soins qu'ils ont pris d'imiter si
@@ -7486,8 +7350,7 @@
                             ne point ennuyer ceux qui n'ont aucun doute sur les choses qu'elle
                             contient. Mais pour ceux qui en desirent des preuves, on a tâché de les
                             satisfaire dans les remarques suivantes, dans lesquelles les uns
-                            &amp; les autres trouveront qu’on a traité plusieurs<pb
-                                facs="00000388" n="364"/>matieres qui se sont présentées
+                            &amp; les autres trouveront qu’on a traité plusieurs<pb facs="00000388" n="364"/>matieres qui se sont présentées
                             naturellement, &amp; qui ne leur seront peut-être pas indifférentes.
                         </p>
                     </div>
@@ -7549,8 +7412,7 @@
                     </index>
                     <head>CHAPITRE II.<lb/> Qu'il est bon de se servir des études d'autrui.</head>
                     <p> IL n'est pas possible de bien représenter les objets, non seulement qu'on
-                        n'a point vus, mais qu'on n'a point dessinés. Si un<pb facs="00000392"
-                            n="368"/>Peintre n'a point vu de lion, il ne sauroit peindre un lion;
+                        n'a point vus, mais qu'on n'a point dessinés. Si un<pb facs="00000392" n="368"/>Peintre n'a point vu de lion, il ne sauroit peindre un lion;
                         &amp; s'il en a vu, il ne peut représenter cet animal qu'imparfaitement,
                         à moins qu'il ne l'ait dessiné ou peint d'après nature, ou d'après l'ouvrage
                         d'un autre. </p>
@@ -7564,8 +7426,7 @@
                         &amp; ce changement se fait en comparant les idées de ce qu'on a vu,
                         &amp; en choisissant ce que l'on en trouve de bon. Raphaël, par exemple,
                         qui dans sa jeunesse n'avoit chez le Pérugin, son maître, que les idées des
-                        ouvrages de ce Peintre, les ayant ensuite comparés avec<pb facs="00000393"
-                            n="369"/>ceux de Michel-Ange &amp; avec l'antique, a choisi ce qui
+                        ouvrages de ce Peintre, les ayant ensuite comparés avec<pb facs="00000393" n="369"/>ceux de Michel-Ange &amp; avec l'antique, a choisi ce qui
                         lui a semblé de meilleur, &amp; s'est fait un goût épuré, tel que nous
                         le voyons dans ses ouvrages. </p>
                     <p>Le génie se sert donc de la mémoire comme d'un vase où il met en réserve les
@@ -7595,8 +7456,7 @@
                     <p>Il trouvera même deux avantages en étudiant d'abord d'après les ouvrages des
                         habiles maîtres: le premier est, qu'il y verra la nature débarrassée de
                         beaucoup de choses qu'on est obligé de rejetter quand on la copie: le second
-                        est, qu'il apprendra par-là à faire un bon choix de la nature,<pb
-                            facs="00000395" n="371"/>à n'en prendre que le beau, &amp; à
+                        est, qu'il apprendra par-là à faire un bon choix de la nature,<pb facs="00000395" n="371"/>à n'en prendre que le beau, &amp; à
                         rectifier ce qu'elle a de défectueux. Ainsi un génie bien réglé &amp;
                         soutenu de la théorie, sert à mettre utilement en usage, non seulement ses
                         études propres, mais encore celles des autres. </p>
@@ -7659,8 +7519,7 @@
                     <p>Il est visible que les anciens sculpteurs ont recherché cette simplicité
                         naturelle, &amp; que Raphaël a puisé dans leurs ouvrages avec le bon
                         goût, celle qu'il a répandue dans ses figures. Mais quoique la nature soit
-                        la source de la beauté, l'art, dit-on<pb facs="00000399" n="375"
-                        />communément, la surpasse; plusieurs auteurs en ont parlé dans ces termes,
+                        la source de la beauté, l'art, dit-on<pb facs="00000399" n="375"/>communément, la surpasse; plusieurs auteurs en ont parlé dans ces termes,
                         &amp; c'est un problême qu'il est bon de résoudre. </p>
                 </div>
 
@@ -7678,8 +7537,7 @@
                         parfait. Mais si on la considere en elle-même dans son intention &amp;
                         dans le général de ses productions, on la trouvera parfaite. </p>
                     <p>C'est dans ce général que les anciens sculpteurs ont puisé la perfection de
-                        leurs ouvrages, &amp; d'où Polyclete a tiré les belles<pb
-                            facs="00000400" n="376"/>proportions de la statue qu'il fit pour la
+                        leurs ouvrages, &amp; d'où Polyclete a tiré les belles<pb facs="00000400" n="376"/>proportions de la statue qu'il fit pour la
                         postérité, &amp; qu'on appella la regle. Il en est de même des Peintres.
                         Les effets avantageux de la nature leur ont donné envie de les imiter,
                         &amp; une expérience heureuse a réduit peu à peu ces mêmes effets en
@@ -7693,8 +7551,7 @@
                         pris jusqu'ici d'imiter cette maîtresse des arts, on trouvera qu'elle leur a
                         laissé encore beaucoup de chemin à faire pour arriver jusqu'à elle,
                         &amp; qu'elle contient une source de beautés qu'ils n'épuiseront jamais.
-                        C'est ce qui fait dire que dans les arts on ap<pb facs="00000401" n="377"
-                        />prend encore tous les jours, parce que l'expérience &amp; les
+                        C'est ce qui fait dire que dans les arts on ap<pb facs="00000401" n="377"/>prend encore tous les jours, parce que l'expérience &amp; les
                         réflexions découvrent sans cesse quelque chose de nouveau dans les effets de
                         la nature, qui sont sans nombre &amp; toujours différens les uns des
                         autres. </p>
@@ -7712,8 +7569,7 @@
                         beaux-arts. Le mot d'antique néanmoins est plus particulierement en usage
                         pour signifier les sculptures de ces tems-là, tant statues &amp;
                         basreliefs, que médailles &amp; pierres gravées. Tous ces ouvrages ne
-                        sont pas également bons; mais dans les médiocres même, il<pb facs="00000402"
-                            n="378"/>y a un certain caractere de beauté qui fait que les
+                        sont pas également bons; mais dans les médiocres même, il<pb facs="00000402" n="378"/>y a un certain caractere de beauté qui fait que les
                         connoisseurs les distinguent des ouvrages modernes. </p>
                     <p>Ce n'est pas de ces sculptures modernes que l’on entend parler ici, c’est des
                         sculptures antiques les plus parfaites, &amp; que l’on ne regarde
@@ -7871,8 +7727,7 @@
                         se l'imagine, faux ou vrais, fabuleux ou historiques. Et si un Peintre
                         s'imaginant qu'Alexandre fût vêtu comme nous le sommes aujourd'hui,
                         &amp; qu’il représentât ce conquérant avec un chapeau &amp; une
-                        perruque, comme font les Comédiens, il feroit sans doute<pb facs="00000412"
-                            n="388"/>une chose très ridicule, &amp; une faute très grossiere;
+                        perruque, comme font les Comédiens, il feroit sans doute<pb facs="00000412" n="388"/>une chose très ridicule, &amp; une faute très grossiere;
                         mais cette faute seroit contre l'histoire, &amp; non pas contre la
                         peinture, supposé d'ailleurs que les choses représentées le fussent selon
                         toutes les regles de cet art. </p>
@@ -7891,8 +7746,7 @@
                     </index>
                     <head>CHAPITRE IX.<lb/> Des idées imparfaites de la peinture.</head>
                     <p> Il y a peu de personnes qui aient une idée bien nette de la peinture, j'y
-                        comprends les Peintres mêmes, dont plusieurs<pb facs="00000413" n="389"
-                        />mettent toute l'essence de leur art dans le dessein, &amp; d'autres ne
+                        comprends les Peintres mêmes, dont plusieurs<pb facs="00000413" n="389"/>mettent toute l'essence de leur art dans le dessein, &amp; d'autres ne
                         la font consister que dans la couleur. La plupart des personnes qui ont à
                         soutenir dans le monde un caractere spirituel, &amp; entr'autres les
                         gens de lettres, ne conçoivent d'ordinaire la peinture que par l'invention,
@@ -7940,8 +7794,7 @@
                     <p>La peinture, comme les autres arts, n'a été connue que par le progrès qu'elle
                         a fait dans l'esprit des hommes. Ceux qui commencerent à la renouveller en
                         Italie, &amp; qui par conséquent n'en pouvoient avoir que de foibles
-                        principes, ne laisserent pas de s'attirer de l'admira<pb facs="00000416"
-                            n="392"/>tion par la nouveauté de leurs ouvrages; &amp; à mesure que
+                        principes, ne laisserent pas de s'attirer de l'admira<pb facs="00000416" n="392"/>tion par la nouveauté de leurs ouvrages; &amp; à mesure que
                         le nombre des Peintres s'augmenta, &amp; que l'émulation leur donna des
                         lumieres, les tableaux augmenterent de prix &amp; de beauté, il se forma
                         des amateurs &amp; des connoisseurs, &amp; les choses étant venues à
@@ -7985,8 +7838,7 @@
                         toute la perfection de la peinture. </p>
                     <p>Comme il est nécessaire dans la profession de cet art de commencer par le
                         dessein, &amp; qu’il est constant que la source du bon goût &amp; de
-                        la correction se trouve dans les sculptures antiques &amp; dans les<pb
-                            facs="00000419" n="395"/>ouvrages de Raphaël, qui en ont tiré leur plus
+                        la correction se trouve dans les sculptures antiques &amp; dans les<pb facs="00000419" n="395"/>ouvrages de Raphaël, qui en ont tiré leur plus
                         grand mérite, la plupart des jeunes Peintres ne manquent pas d’aller à Rome
                         pour y étudier, d'en rapporter du moins l'estime générale des ouvrages qu'on
                         y admire, &amp; de la transmettre à tous ceux qui les écoutent. C'est
@@ -8000,8 +7852,7 @@
                         préférence qu'ils donnerent aux autres parties de la peinture, lesquelles
                         étant en grand nombre les occupent le reste de leur vie. </p>
                     <p>On ne s'étoit donc attaché jusque-là qu'à ce qui dépend de l'invention
-                        &amp; du dessein: &amp; quoique Raphaël ait inventé<pb
-                            facs="00000420" n="396"/>très ingénieusement, qu'il ait dessiné d'une
+                        &amp; du dessein: &amp; quoique Raphaël ait inventé<pb facs="00000420" n="396"/>très ingénieusement, qu'il ait dessiné d'une
                         correction &amp; d'une élégance achevée, qu'il ait exprimé les passions
                         de l'ame avec une force &amp; une grace infinie, qu'il ait traité ses
                         sujets avec toute la convenance &amp; toute la noblesse possible,
@@ -8101,8 +7952,7 @@
                     <head>CHAPITRE XIV.<lb/> Des expressions.</head>
                     <p> Les expressions sont la pierre de touche de l'esprit du Peintre. Il montre
                         par la justesse dont il les distribue, sa pénétration &amp; son
-                        discernement; mais il faut le même esprit dans le spectateur pour les<pb
-                            facs="00000426" n="402"/>bien appercevoir, que dans le Peintre pour les
+                        discernement; mais il faut le même esprit dans le spectateur pour les<pb facs="00000426" n="402"/>bien appercevoir, que dans le Peintre pour les
                         bien exécuter. </p>
                     <p>On doit considérer un tableau comme une scene, où chaque figure joue son
                         rôle. Les figures bien dessinées &amp; bien coloriées sont admirables à
@@ -8133,8 +7983,7 @@
                     <head>CHAPITRE XVI.<lb/> Des draperies.</head>
                     <p> On dit, en terme de peinture, jetter une draperie, pour dire habiller une
                         figure &amp; lui donner une draperie. Ce mot de jetter me paroît
-                        d'autant plus expressif, que les draperies ne doivent point être<pb
-                            facs="00000428" n="404"/>arrangées comme les habits dont on se sert dans
+                        d'autant plus expressif, que les draperies ne doivent point être<pb facs="00000428" n="404"/>arrangées comme les habits dont on se sert dans
                         le monde; mais qu'en suivant le caractere de la pure nature, laquelle est
                         éloignée de toute affectation, les plis se trouvent comme par hasard autour
                         des membres, qu'ils les fassent paroître ce qu'ils sont; &amp; que par
@@ -8148,8 +7997,7 @@
                         leurs figures. Ils se sont très souvent servis de linges mouillés pour leurs
                         draperies, ou bien ils ont multiplié les mêmes plis, afin que cette
                         répétition fît une espece de hachure qui, par son obscurité, rendît plus
-                        sensibles les membres qu'elles entourent. Ils ont observé cette derniere<pb
-                            facs="00000429" n="405"/>méthode plus ordinairement dans les basreliefs.
+                        sensibles les membres qu'elles entourent. Ils ont observé cette derniere<pb facs="00000429" n="405"/>méthode plus ordinairement dans les basreliefs.
                         Mais dans l'une &amp; dans l'autre maniere dont ils ont traité leurs
                         draperies, ils ont observé un merveilleux ordre de placer les plis. </p>
                     <p>Le Peintre, qui par la diversité de ses couleurs &amp; de ses lumieres,
@@ -8163,8 +8011,7 @@
                         peinture est une superficie plate, qu'il faut anéantir en trompant les yeux,
                         &amp; en ne laissant rien d'équivoque. Le Peintre est donc obligé de
                         garder cet ordre dans, toutes ses draperies, de quelque nature qu'elles
-                        puissent être, fines ou grosses, travaillées ou sim<pb facs="00000430"
-                            n="406"/>ples; mais qu'il préfere sur-tout la majesté des plis à la
+                        puissent être, fines ou grosses, travaillées ou sim<pb facs="00000430" n="406"/>ples; mais qu'il préfere sur-tout la majesté des plis à la
                         richesse des étoffes, qui ne conviennent que dans les histoires dans
                         lesquelles elle a été, ou pourroit être vraisemblablement employée selon les
                         tems &amp; les coutumes. </p>
@@ -8178,8 +8025,7 @@
                         bien prendre garde que la cause en soit naturelle &amp; vraisemblable,
                         &amp; de ne pas faire dans un même tableau des draperies volantes de
                         côtés différens, lorsqu'elles ne peuvent être agitées que pat le vent,
-                        &amp; lorsque la figure est en repos défaut dans lequel<pb
-                            facs="00000431" n="407"/>sont tombés, sans y penser, plusieurs habiles
+                        &amp; lorsque la figure est en repos défaut dans lequel<pb facs="00000431" n="407"/>sont tombés, sans y penser, plusieurs habiles
                         Peintres. </p>
                 </div>
                 <div type="chapter" xml:lang="fra">
@@ -8196,8 +8042,7 @@
                         universelle des parties de son art. Si ce n'est pas dans un si grand détail
                         que ceux qui peignent ordinairement l’histoire, du moins spéculativement
                         &amp; en général. Et s'il ne termine pas tous les objets en particulier
-                        qui composent son tableau, ou qui accompagnent son<pb facs="00000432"
-                            n="408"/>paysage, il est obligé du moins d'en spécifier vivement le goût
+                        qui composent son tableau, ou qui accompagnent son<pb facs="00000432" n="408"/>paysage, il est obligé du moins d'en spécifier vivement le goût
                         &amp; le caractere, &amp; de donner d'autant plus d'esprit à son
                         ouvrage qu'il sera moins fini. </p>
                     <p>Je ne prétends pas néanmoins exclure de ce talent l'exactitude du travail, au
@@ -8244,8 +8089,7 @@
                     </index>
                     <head>CHAPITRE XIX.<lb/> COLORIS.<lb/> Troisieme partie de la peinture.</head>
                     <p> La maniere peu convenable dont plusieurs de nos Peintres parloient du
-                        coloris, me fit entreprendre sa défense par un<pb facs="00000435" n="411"
-                        />dialogue (1)<note place="bottom">(1) Ce dialogue sur le coloris, est
+                        coloris, me fit entreprendre sa défense par un<pb facs="00000435" n="411"/>dialogue (1)<note place="bottom">(1) Ce dialogue sur le coloris, est
                             inséré dans le Recueil de différens ouvrages de M. de Piles, sur la
                             peinture, in-12. imprimé à Paris chez Jombert.</note> que je fis imprimer il y a vingt-quatre ans; &amp;
                         n'ayant rien de meilleur à dire aujourd'hui que ce qui est contenu dans ce
@@ -8295,8 +8139,7 @@
                         Transfiguration de Raphaël est le plus bel ouvrage qui soit sorti de son
                         pinceau: &amp; quelquefois il s'entend de l'ouvrage même, &amp; l'on
                         dit, par exemple, de tous les Peintres de l'antiquité, le plus savant
-                        pinceau est celui d'Apelle. Mais ici le mot de pinceau signifie sim<pb
-                            facs="00000438" n="414"/>plement la façon extérieure dont il a été manié
+                        pinceau est celui d'Apelle. Mais ici le mot de pinceau signifie sim<pb facs="00000438" n="414"/>plement la façon extérieure dont il a été manié
                         pour employer les couleurs: &amp; lorsque ces mêmes couleurs n'ont point
                         été trop agitées, &amp;, comme on dit, trop tourmentées par le mouvement
                         d'une main pesante, &amp; qu'au contraire le mouvement en paroît libre,
@@ -8313,8 +8156,7 @@
                     </index>
                     <head>CHAPITRE XXII.<lb/> Des licences.</head>
                     <p> Les licences sont si nécessaires, qu'il y en a dans tous les arts. Elles
-                        sont contre les regles, à prendre les choses à la lettre;<pb facs="00000439"
-                            n="415"/>mais à les prendre selon l'esprit, les licences servent de
+                        sont contre les regles, à prendre les choses à la lettre;<pb facs="00000439" n="415"/>mais à les prendre selon l'esprit, les licences servent de
                         regles quand elles sont prises bien à propos. Or il n'y a personne de bon
                         sens qui ne les trouve à propos, lorsque l'ouvrage dans lequel on les
                         emploie fait plus d'effet, &amp; que par leur moyen le Peintre arrive
@@ -8355,8 +8197,7 @@
                         pour se proportionner à l'intelligence des hommes, a coutume d'exprimer les
                         choses divines sous la figure des choses humaines, &amp; qui, pour
                         l'instruction des fideles, se sert d'idées &amp; de comparaisons
-                        palpables &amp; sensibles. Nous en avons même un passage<pb
-                            facs="00000442" n="418"/>au sujet des fleuves, dans le
+                        palpables &amp; sensibles. Nous en avons même un passage<pb facs="00000442" n="418"/>au sujet des fleuves, dans le
                         quatre-vingt-dix-septieme pseaume, où il est dit: que les fleuves battront
                         des mains &amp; que les montagnes tressailliront de joie en la présence
                         du Seigneur. Le Peintre qui a la même intention d'instruire &amp;
@@ -8371,8 +8212,7 @@
                         Amplement, &amp; non en figure. </p>
                     <p>A quoi il est aisé de répondre, que de la même façon que l'écriture-sainte,
                         en introduisant des fleuves sous des figures humaines, n'a point eu
-                        intention de parler de ceux que les païens adoroient, &amp;<pb
-                            facs="00000443" n="419"/>que pouvant s'expliquer naturellement &amp;
+                        intention de parler de ceux que les païens adoroient, &amp;<pb facs="00000443" n="419"/>que pouvant s'expliquer naturellement &amp;
                         simplement, elle s'est néanmoins servie d'un style figuré, sans crainte de
                         séduire les fideles: tout de même aussi le Peintre chrétien, qui doit imiter
                         l'écriture, est fort éloigné de vouloir altérer la vérité de l'histoire: il
@@ -8447,8 +8287,7 @@
                         louables, pourvu qu'ils demeurent dans les bornes de la vérité de
                         l'histoire, de la vraisemblance &amp; de la modestie. Il y a des sujets
                         qui sont plus favorables à représenter du nud les uns que les autres;
-                        &amp; l'on s'en peut servir, par exemple, dans les fables,<pb
-                            facs="00000448" n="424"/>dans la supposition des pays chauds, desquels
+                        &amp; l'on s'en peut servir, par exemple, dans les fables,<pb facs="00000448" n="424"/>dans la supposition des pays chauds, desquels
                         nous n'avons point de relation sur les modes, &amp; parmi les ouvriers
                         des an ciens tems. Caton le censeur, au rapport de Plutarque, travailloit
                         tout nud parmi ses ouvriers, lorsqu'il étoit revenu du sénat; &amp;
@@ -8492,8 +8331,7 @@
                         l'histoire &amp; la vraisemblance. </p>
                     <p>On remarque que les sculpteurs Grecs ont fait plus ordinairement des figures
                         nues que les Romains: je n'en sai pas d'autre raison, sinon que les Grecs
-                        ont choisi des sujets plus convenables au desir qu'ils<pb facs="00000451"
-                            n="427"/>avoient de faire admirer la profondeur de leur science dans la
+                        ont choisi des sujets plus convenables au desir qu'ils<pb facs="00000451" n="427"/>avoient de faire admirer la profondeur de leur science dans la
                         construction &amp; dans l'assemblage des parties du corps humain. Il
                         représentoient dans leurs statues plutôt des dieux que des hommes, &amp;
                         dans leurs bas-reliefs, plutôt des bacchanales &amp; des sacrifices, que
@@ -8510,8 +8348,7 @@
                     <head>CHAPITRE XXV.<lb/> De la grace.</head>
                     <p> La nécessité de la grace dans la peinture, généralement parlant, est une
                         chose qui n'a besoin d'aucunes preuves. Il se rencontre seulement une
-                        difficulté sur ce point: savoir si cette grace est nécessaire<pb
-                            facs="00000452" n="428"/>dans toutes sortes de sujets, dans les combats,
+                        difficulté sur ce point: savoir si cette grace est nécessaire<pb facs="00000452" n="428"/>dans toutes sortes de sujets, dans les combats,
                         comme dans les fêtes; dans les soldats, comme dans les femmes. </p>
                     <p>Je conclus pour l'affirmative: &amp; la raison que j'en donne est, que
                         bien que la grace se laisse d'abord appercevoir sur le visage, ce n'est pas
@@ -8543,8 +8380,7 @@
                     </index>
                     <head>CHAPITRE XXVI.<lb/> De la connoissance des desseins.</head>
                     <p> Les desseins dont on veut parler ici sont les pensées que les Peintres
-                        expriment ordinairement sur du papier pour<pb facs="00000454" n="430"
-                        />l'exécution d'un ouvrage qu'ils méditent. On doit encore mettre au nombre
+                        expriment ordinairement sur du papier pour<pb facs="00000454" n="430"/>l'exécution d'un ouvrage qu'ils méditent. On doit encore mettre au nombre
                         des desseins les études des grands maîtres, c'est-à-dire, les parties qu'ils
                         ont dessinées d'après nature, comme des têtes, des mains, des pieds,
                         &amp; des figures entieres: des draperies, des animaux, des arbres, des
@@ -8636,8 +8472,7 @@
                         se servoient pour caractériser lés choses avec peu de traits. Ainsi, pour
                         satisfaire pleinement à la curiosité, il seroit bon d'avoir d'un même maître
                         des desseins de toutes les façons; c'est-à-dire, non seulement de sa
-                        premiere, seconde &amp; derniere maniere, mais encore<pb facs="00000460"
-                            n="436"/>des esquisses très légeres, aussi-bien que des desseins très
+                        premiere, seconde &amp; derniere maniere, mais encore<pb facs="00000460" n="436"/>des esquisses très légeres, aussi-bien que des desseins très
                         finis. J'avoue cependant que les curieux, purement spéculatifs, n'y
                         trouveront pas si bien leur compte que ceux qui, ayant aussi de la pratique
                         manuelle, sont plus capables de goûter cette curiosité. </p>
@@ -8680,8 +8515,7 @@
                         la comparaison des ouvrages de peinture avec l'idée que l'on a établie du
                         Peintre parfait, est le meilleur moyen pour bien connoître le degré d'estime
                         qui leur est dû; mais comme on n'a pas ordinairement un assez grand nombre
-                        de tableaux en sa disposition, ni de desseins assez finis pour<pb
-                            facs="00000463" n="439"/>exercer sa critique, &amp; pour s'acquérir
+                        de tableaux en sa disposition, ni de desseins assez finis pour<pb facs="00000463" n="439"/>exercer sa critique, &amp; pour s'acquérir
                         en peu de tems une habitude de bien juger, les bonnes estampes pourront
                         tenir lieu de tableaux; car, à la réserve de la couleur locale, elles sont
                         susceptibles de toutes les parties de la peinture. Et outre qu'elles
@@ -8698,8 +8532,7 @@
                         s'instruire, que la peine qu'il a d'apprendre, &amp; la facilité qu'il a
                         d'oublier; deux choses dont la plupart des hommes se plaignent avec beaucoup
                         de raison: car depuis que l'on recherche les sciences &amp; les arts,
-                        &amp; que pour les pénétrer on a mis au jour une in<pb facs="00000464"
-                            n="440"/>finité de volumes, on nous a mis en même tems devant les yeux
+                        &amp; que pour les pénétrer on a mis au jour une in<pb facs="00000464" n="440"/>finité de volumes, on nous a mis en même tems devant les yeux
                         un objet terrible &amp; capable de rebuter notre esprit &amp; notre
                         mémoire. Cependant nous avons plus que jamais besoin de l'un &amp; de
                         l'autre, ou du moins, de trouver les moyens de les aider - dans leurs
@@ -8713,8 +8546,7 @@
                     <p>Leur origine est de 1460. Elle vient d'un nommé Maso Finiguerra, orfevre de
                         Florence, qui gravoit sur ses ouvrages, &amp; qui en les moulant avec du
                         soufre fondu, s'apperçut que ce qui sortoit du moule marquoit dans ses
-                        empreintes les mêmes choses que la gravure, par le noir que le<pb
-                            facs="00000465" n="441"/>soufre avoit tiré des tailles. Il essaya d'en
+                        empreintes les mêmes choses que la gravure, par le noir que le<pb facs="00000465" n="441"/>soufre avoit tiré des tailles. Il essaya d'en
                         faire autant sur des bandes d'argent avec du papier humide, en passant un
                         rouleau, bien uni pardessus, ce qui lui réussit. Cette nouveauté donna envie
                         à un autre orfevre de la même ville, nommé Baccio Bandinelli d'en essayer,
@@ -8743,8 +8575,7 @@
                         à l'eau-forte, que le Parmésan mit aussi-tôt en usage. </p>
                     <p>Ces premieres estampes attirerent par leur nouveauté l'admiration de tous
                         ceux qui les virent, &amp; les habiles Peintres qui travailloient pour
-                        la gloire, voulurent s'en servir pour faire part au monde de leurs<pb
-                            facs="00000467" n="443"/>ouvrages. Raphaël entr'autres employa le burin
+                        la gloire, voulurent s'en servir pour faire part au monde de leurs<pb facs="00000467" n="443"/>ouvrages. Raphaël entr'autres employa le burin
                         du fameux Marc-Antoine pour graver plusieurs de ses tableaux &amp; de
                         ses desseins; &amp; ces admirables estampes ont été autant de Renommées
                         qui ont porté le nom de Raphaël par toute la terre. Depuis Marc-Antoine, un
@@ -8789,8 +8620,7 @@
                         seulement les expériences de physique, mais toutes celles qui peuvent
                         augmenter les connoissances qu'ils ont des choses naturelles. </p>
                     <p>A ceux qui suivent les armes, les plans &amp; les élevations des places
-                        de guerre, les ordres de batailles, &amp; les livres de forti<pb
-                            facs="00000470" n="446"/>fication, dont les figures démonstratives font
+                        de guerre, les ordres de batailles, &amp; les livres de forti<pb facs="00000470" n="446"/>fication, dont les figures démonstratives font
                         la plus grande partie. </p>
                     <p>Aux voyageurs, les vues particulieres des palais, des villes &amp; des
                         lieux considérables, pour les préparer aux choses qu'ils ont à voir, ou pour
@@ -8820,8 +8650,7 @@
                         copiées d'après l'antique. </p>
                     <p>Aux graveurs, un choix de pieces de différentes manieres, tant au burin qu'à
                         l'eau-forte. Ce choix leur doit servir aussi pour voir le progrès de la
-                        gravure depuis Albert Dure jusqu'aux artistes de notre<pb facs="00000472"
-                            n="448"/>tems, en passant par les ouvrages de Marc-Antoine, de Corneille
+                        gravure depuis Albert Dure jusqu'aux artistes de notre<pb facs="00000472" n="448"/>tems, en passant par les ouvrages de Marc-Antoine, de Corneille
                         Cort, des Carraches, des Sadelers, de Goltzius, de Muller, de Vostermans, de
                         Pontius, de Bolsvert, de Vischer, &amp; enfin par un grand nombre
                         d'autres que je ne nomme point, qui ont eu un caractere particulier,
@@ -8915,8 +8744,7 @@
                         particulier est contenu dans un ou dans plusieurs porte-feuilles, dans
                         lesquels on trouve: </p>
                     <p>Premierement les portraits des souverains qui ont gouverné un pays, les
-                        princes &amp; princesses qui en sont descendus, ceux<pb facs="00000478"
-                            n="454"/>qui ont tenu quelque rang considérable dans l'état, dans
+                        princes &amp; princesses qui en sont descendus, ceux<pb facs="00000478" n="454"/>qui ont tenu quelque rang considérable dans l'état, dans
                         l'église, dans les armes, dans la robe: ceux qui se sont rendus
                         recommandables dans les différentes professions, &amp; les particuliers
                         qui ont quelque part dans les événemens historiques. Ils accompagnent ces
@@ -9072,8 +8900,7 @@
                             jeunes gentilshommes; de sorte que ceux qui avoient du talent le
                             cultivoient par l'exercice; ils s'en prévaloient dans l'occasion,
                             &amp; se distinguoient par la supériorité de leurs connoissances. Je
-                            renvoie donc ceux au moins qui n'ont pas acquis cette pratique ma<pb
-                                facs="00000488" n="464"/>nuelle, à l'idée que j'ai donnée de la
+                            renvoie donc ceux au moins qui n'ont pas acquis cette pratique ma<pb facs="00000488" n="464"/>nuelle, à l'idée que j'ai donnée de la
                             perfection. </p>
                     </div>
                     <div xml:lang="fra">
@@ -9120,8 +8947,7 @@
                             lesquels ont suivi leurs maîtres de fort près, &amp; dans le savoir
                             &amp; dans la maniere. On a vu plusieurs Peintres qui ont suivi le
                             goût d'un autre pays que le leur, comme il y en a eu qui, dans leur pays
-                            même, ont passé d'une maniere a une autre, &amp; qui dans ce pas<pb
-                                facs="00000491" n="467"/>sage ont fait plusieurs tableaux fort
+                            même, ont passé d'une maniere a une autre, &amp; qui dans ce pas<pb facs="00000491" n="467"/>sage ont fait plusieurs tableaux fort
                             équivoques sur ce qui regarde le nom de l'auteur. </p>
                         <p>Néanmoins cet inconvénient ne manque pas de remede pour ceux qui, non
                             contens de s'attacher au caractere de la main du maître, ont assez de
@@ -9184,8 +9010,7 @@
                             de Raphaël, lesquelles ayant été mises par curiosité l'une auprès de
                             l'autre, persuaderent les connoisseurs qu'elles étoient toutes deux
                             originales. Titien a répété jusqu'a sept ou huit fois les mêmes
-                            tableaux, comme on joue plusieurs fois une<pb facs="00000495" n="471"
-                            />comédie qui a réussi. Et nous voyons plusieurs tableaux répétés des
+                            tableaux, comme on joue plusieurs fois une<pb facs="00000495" n="471"/>comédie qui a réussi. Et nous voyons plusieurs tableaux répétés des
                             meilleurs maîtres d'Italie disputer encore aujourd'hui de bonté
                             &amp; de primauté. Mais combien en voyons-nous d'autres qui ont déçu
                             les Peintres mêmes les plus habiles? Parmi plusieurs exemples que j'en
@@ -9215,8 +9040,7 @@
                             toute sa vie dans cette opinion, si Vasari, qui avoit vu faire la copie,
                             ne l'avoit désabusé. Car celui-ci étant arrivé à Mantoue, fut très bien
                             reçu de Jules Romain, qui, après lui avoir montré toutés les curiosités
-                            de ce Duc, lui dit qu'il leur restoit encore à voir la<pb
-                                facs="00000497" n="473"/>plus belle chose qui fût dans le palais,
+                            de ce Duc, lui dit qu'il leur restoit encore à voir la<pb facs="00000497" n="473"/>plus belle chose qui fût dans le palais,
                             savoir le portrait de Leon X, de la main de Raphaël; &amp; le lui
                             ayant montré, Vasari lui dit, qu'il étoit en effet très beau, mais qu'il
                             n'étoit pas de Raphaël. Jules Romain l'ayant plus attentivement
@@ -9232,8 +9056,7 @@
                             même davantage: car il n'est pas naturel d'imiter un si excellent homme,
                             jusqu'à tromper. </p>
                         <p>Puisque Jules Romain, tout habile qu'il étoit, après avoir été averti,
-                            &amp; avoir examiné le tableau, persistoit vivement à se<pb
-                                facs="00000498" n="474"/>tromper dans le jugement qu'il faisoit sur
+                            &amp; avoir examiné le tableau, persistoit vivement à se<pb facs="00000498" n="474"/>tromper dans le jugement qu'il faisoit sur
                             son propre ouvrage, comment pourroiton trouver étrange que d'autres
                             Peintres, moins habiles que lui, se laissassent surprendre sur l'ouvrage
                             des autres? C'est ainsi que la vérité se peut quelquefois cacher à la
@@ -9361,8 +9184,7 @@
                         parties, le coloris qui ne vient que le dernier n'y trouve plus de place.
                         L'esprit de l'homme est trop borné, &amp; la vie est trop courte, pour
                         approfondir toutes les parties de la peinture &amp; les posséder
-                        parfaitement toutes à la fois. Ce n'est pas que les Romains<pb
-                            facs="00000505" n="481"/>méprisent le coloris, car ils ne peuvent
+                        parfaitement toutes à la fois. Ce n'est pas que les Romains<pb facs="00000505" n="481"/>méprisent le coloris, car ils ne peuvent
                         mépriser une chose dont ils n'ont jamais eu une idée bien juste; mais
                         seulement qu'étant prévenus d'autres parties où ils tâchent de se
                         perfectionner, &amp; n'ayant pas le tems de s'appliquer à connoître le
@@ -9380,8 +9202,7 @@
                         mêlé d'un peu d'antique &amp; d'un naturel bien choisi, avec des
                         couleurs fondues, fort approchantes du naturel &amp; employées d'un
                         pinceau léger. Le Corrége est le meilleur exemple de ce goût, &amp; les
-                        Carraches qui ont tâché de l'imiter, ont été plus cor<pb facs="00000506"
-                            n="482"/>rects que lui dans le dessein, mais inférieurs à lui dans le
+                        Carraches qui ont tâché de l'imiter, ont été plus cor<pb facs="00000506" n="482"/>rects que lui dans le dessein, mais inférieurs à lui dans le
                         goût de ce même dessein, dans la grace, dans la délicatesse, &amp; dans
                         la fonte des couleurs. Annibal, dans le séjour qu'il fit à Rome, prit
                         tellement le goût Romain, que je ne compte pour Lombards que les ouvrages

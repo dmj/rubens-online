@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_058">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_058"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="testament_clara_touion_15830718">
                     <msIdentifier><repository>unbekannt</repository>
                         <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
@@ -49,8 +48,7 @@
                     <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
                     <listBibl>
                         <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                            zijne bloedverwanten. Antwerpen 1877, S. 302-305<ptr type="gbv"
-                                cRef="146162595"/></bibl>
+                            zijne bloedverwanten. Antwerpen 1877, S. 302-305<ptr type="gbv" cRef="146162595"/></bibl>
                         <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
                             Gerechtsgebouw, 15.-30. Oktober 1977, S. 241, Nr. 148</bibl>
                     </listBibl>
@@ -74,14 +72,11 @@
                     jegenwoordich openbaer instrument van testamente selen sien oft haaren lesen,
                     dat, op heden den <date when="1583-07-18">achtiensten dach der maent van
                         Julio, int jaer desselfs ONS HEEREN, als men schreeff duysent vijff hondert
-                        ende drijentachtentich</date>, voor mij <rs type="person"
-                        ref="#rubens_severijn"><hi rend="smallCaps">Severijn</hi> RUBBENS</rs>,
-                    openbaer Notaris bijden Rade van <rs type="place" ref="#brabant">Brabandt</rs>
-                    geadmitteert, <rs type="place" ref="#antwerpen">tAntwerpen</rs> residerende,
+                        ende drijentachtentich</date>, voor mij <rs type="person" ref="../register/register-person.xml#rubens_severijn"><hi rend="smallCaps">Severijn</hi> RUBBENS</rs>,
+                    openbaer Notaris bijden Rade van <rs type="place" ref="../register/register-place.xml#brabant">Brabandt</rs>
+                    geadmitteert, <rs type="place" ref="../register/register-place.xml#antwerpen">tAntwerpen</rs> residerende,
                     ende ten bijwesene vanden getuygen nagenoempt, gecompareert is, in properen
-                    persoone, deersame jouffrouwe <rs type="person" ref="#touion_clara"><hi
-                            rend="smallCaps">Clara</hi> COLYNS</rs>, weduwe van wijlen <rs
-                        type="person" ref="#pypelincx_hendrick"><hi rend="smallCaps">Henrick</hi>
+                    persoone, deersame jouffrouwe <rs type="person" ref="../register/register-person.xml#touion_clara"><hi rend="smallCaps">Clara</hi> COLYNS</rs>, weduwe van wijlen <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick"><hi rend="smallCaps">Henrick</hi>
                         PYPELINCX</rs>, haerder memorie ende verstantenisse overal wel mechtich
                     wesende ende volcomelijck gebruyckende, alzoot opentlijck bleeck; aenmerckende
                     ende overdenckende der menschelijcker natueren broosheyt ende cranckheyt ende
@@ -121,17 +116,13 @@
                     ende bevonden selen wordden, egeen overal vuytgenomen oft gereserveert, ruerende
                     ende overschietende, boven alle lasten ende wettige schulden, van haeren
                     sterffhuyse in alle deselve goeden, heeft zij testatrice geinstitueert ende
-                    institueert, mits desen, jouffrouwe <rs type="person" ref="#pypelincx_maria"><hi
-                            rend="smallCaps">Marie</hi> PYPELINCX</rs>, haere dochtere, in deen
-                    helft, ende jouffrouwe <rs type="person" ref="#pypelincx_susanne"><hi
-                            rend="smallCaps">Suzanna</hi> PYPELlNCX</rs>, oick haere dochtere
+                    institueert, mits desen, jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria"><hi rend="smallCaps">Marie</hi> PYPELINCX</rs>, haere dochtere, in deen
+                    helft, ende jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_susanne"><hi rend="smallCaps">Suzanna</hi> PYPELlNCX</rs>, oick haere dochtere
                     (gereserveert de conditie ende restrictie naeheschreven), in dander helft, al
                     met vollen rechte van institutien, wel verstaende ende opde conditie ende
                     restrictie nochtans, soo verre eenighe swaricheyt viele, vuyt zaken vander
-                    compaignie die wijlen <rs type="person" ref="#moleneer_peeter"><hi
-                            rend="smallCaps">Peeter de</hi> MOLENEER</rs>, der voorschreven
-                    jouffrouwe <hi rend="smallCaps">Suzanna</hi> man was, gehadt heeft met <rs
-                        type="person" ref="#beke_jan"><hi rend="smallCaps">Jan vander</hi>
+                    compaignie die wijlen <rs type="person" ref="../register/register-person.xml#moleneer_peeter"><hi rend="smallCaps">Peeter de</hi> MOLENEER</rs>, der voorschreven
+                    jouffrouwe <hi rend="smallCaps">Suzanna</hi> man was, gehadt heeft met <rs type="person" ref="../register/register-person.xml#beke_jan"><hi rend="smallCaps">Jan vander</hi>
                     BEKE</rs>, ende der continuatie derzelver compaignie, alzoo datter eenige
                     goeden, die deselve Joulfrouwe <hi rend="smallCaps">Suzanna</hi> van haer
                     testatrice erven soude, inde schulden vander selve compaignie souden moden
@@ -155,15 +146,13 @@
                     testatrice, bij mij Notaris voor- ende nagenoempt, gemaeckt ende gelevert te
                     worddene eene oft meer openbare instrumenten in behoorlijcker formen, dwelck
                     aldus is geschiet, binnen deser stadt van Antwerpen, ten jaere maende ende dage
-                    voors., ter presentien van <rs type="person" ref="#schot_peeter"><hi
-                            rend="smallCaps">Peeter de</hi> SCHOT</rs> ende <rs type="person"
-                        ref="#jacobs_rombout"><hi rend="smallCaps">Rombout</hi> JACOBS</rs>, als
+                    voors., ter presentien van <rs type="person" ref="../register/register-person.xml#schot_peeter"><hi rend="smallCaps">Peeter de</hi> SCHOT</rs> ende <rs type="person" ref="../register/register-person.xml#jacobs_rombout"><hi rend="smallCaps">Rombout</hi> JACOBS</rs>, als
                     getuygen hiertoe geroepen ende sunderlinghe gebeden.<lb/> </p>
                     <closer><salute>In kennissen der
                     waerheyt van allen tghene voors. staet, soo hebbe ick openbaeren Notaris
                     tAntwerpen residerende, dese jegewoordighe onderteeckent met mijnen
                     gewoonlijcken hantteckene daertoe versocht zijnde.</salute><lb/>
-                    <signed><rs type="person" ref="#rubens_severijn"><hi rend="smallCaps">Severinus</hi>
+                    <signed><rs type="person" ref="../register/register-person.xml#rubens_severijn"><hi rend="smallCaps">Severinus</hi>
                         RUBBENS</rs><lb/> Nots. admissus.</signed></closer> 
             </div>
         </body>

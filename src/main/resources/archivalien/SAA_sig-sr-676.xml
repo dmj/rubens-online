@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_251">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_251"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,8 +16,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="SAA_sig-sr-676">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="SAA_sig-sr-676">
                     <msIdentifier>
                         <country>Belgien</country>
                         <settlement>Antwerpen</settlement>
@@ -44,8 +41,7 @@
                             <filiation>
                                 <note resp="A.H." type="footnote">Zur Verteilung und Veräußerung des
                                     Nachlasses von Peter Paul Rubens vgl. auch Dokumente zur
-                                    Erbeitung zwischen den Kindern erster und zweiter Ehe vom <ref
-                                        type="rubens" cRef="ed_rubens_299">24. Januar 1643</ref>,
+                                    Erbeitung zwischen den Kindern erster und zweiter Ehe vom <ref type="rubens" cRef="ed_rubens_299">24. Januar 1643</ref>,
                                     der Erbteilung zwischen Helena Fourment und Nikolaas Rubens vom
                                         <ref type="rubens" cRef="ed_rubens_302">1. Juli 1643</ref>,
                                     die <ref type="rubens" cRef="ed_rubens_300">Bestellung eines
@@ -68,13 +64,13 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Ten versueeke van vrouwe <rs type="person" ref="#fourment_helene">Helena
+                <p>Ten versueeke van vrouwe <rs type="person" ref="../register/register-person.xml#fourment_helene">Helena
                         Fourment</rs><index indexName="psw">
                         <term type="PND">Fourment, Hélène</term>
-                    </index> weduwe van wylen heer <rs type="person" ref="#rubens_peter_paul">Pietro
+                    </index> weduwe van wylen heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro
                         Paulo Rubens</rs>, heere van Steene, enz. ende van de momboirs van heure
                     minderjaerige kinderen.<lb/> Compareerde S<hi rend="super">r</hi>
-                    <rs type="person" ref="#fourment_daniel">Daniel Fourment</rs> d’oude, coopman
+                    <rs type="person" ref="../register/register-person.xml#fourment_daniel">Daniel Fourment</rs> d’oude, coopman
                     ende jngeseten poorter deser stadt, oudt 78 jaeren, ons wel bekent synde, et
                     juravit etc., jerst rechtelyck daer toe gedhaegt synde, alsoo de voers. heer
                     Pietro Paulo Rubens jn den jaere <date when="1630">1630</date> versocht ten
@@ -84,24 +80,22 @@
                         <term type="PND">Rubens, Albert</term>
                     </index><index indexName="psw">
                         <term xml:lang="deu">Nikolaas Rubens</term>
-                    </index> daer moeder aff was vrouwe <rs type="person" ref="#brant_isabella"
-                        >Isabel Brandt</rs><index indexName="psw">
+                    </index> daer moeder aff was vrouwe <rs type="person" ref="../register/register-person.xml#brant_isabella">Isabel Brandt</rs><index indexName="psw">
                         <term type="PND">Brant, Isabella</term>
                     </index>, gescheyden was vande selve kinderen, ende hen voldaen oft versekert
                     hadde van henne moederlycke goeden, om waeover geen groot ondersueck te doen,
-                    soo hebben heeren ende meesters <rs type="person" ref="#brant_jan">Jan
-                    Brandt</rs>, schepen, ende <rs type="person" ref="#brant_hendrick">Hendrick
+                    soo hebben heeren ende meesters <rs type="person" ref="../register/register-person.xml#brant_jan">Jan
+                    Brandt</rs>, schepen, ende <rs type="person" ref="../register/register-person.xml#brant_hendrick">Hendrick
                         Brandt</rs>, synen sone, greffier respective deser stadt, grootvader ende
                     oom respective ende testamentelycke momboirs vande voors. twee voorkinderen,
                     opten <date when="1630-11-29">XXIX<hi rend="super">en</hi> dach Novembris vande
                         voors. jaer XVI<hi rend="super">c</hi> ende dertich</date> voor den Notaris
-                        <rs type="person" ref="#guyot_toussaint">Guyot</rs> alhier gepasseert
+                        <rs type="person" ref="../register/register-person.xml#guyot_toussaint">Guyot</rs> alhier gepasseert
                     absolute quictancie, daerby verclaert ende gecontenteert te syn van alle tgene
                     dat denselven kinderen soude mogen competeren voor henne moederlycke goeden,
                     nyet daeraff vuytgenomen noch gereserveert, van welcke passeringe van quictancie
                     hem attestant wete gegeven synde, heeft hy in tvoors. houwelyck iesrt
-                    geconsenteert, maer by aldyen de voorgenoemde heer <rs type="person"
-                        ref="#rubens_peter_paul">Ruebens</rs> van syne voors. voorkinderen nyet en
+                    geconsenteert, maer by aldyen de voorgenoemde heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Ruebens</rs> van syne voors. voorkinderen nyet en
                     ware gescheyden geweest, soo en soude de tvoors. houwelyck geenen voortsganck
                     hebben gehadt.</p>
                 <closer>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_115">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_115"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-507">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -75,19 +74,15 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs>, in den
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubens</rs>, in den
                     naeme ende als testamentelijcken momboir<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
-                    </index> over de kinderen van wijlen jouffrouwe <rs type="person"
-                        ref="#rubens_blandina">Blandina Rubens</rs> zijne zustere, daer vader aff is
-                        <rs type="person" ref="#parcq_simeon">Simeon du Parck</rs>, die hij hierinne
+                    </index> over de kinderen van wijlen jouffrouwe <rs type="person" ref="../register/register-person.xml#rubens_blandina">Blandina Rubens</rs> zijne zustere, daer vader aff is
+                        <rs type="person" ref="../register/register-person.xml#parcq_simeon">Simeon du Parck</rs>, die hij hierinne
                     vervinck ende geloefde te vervache hem daervore sterckmaeckende ende in dyer
-                    qualiteyt bekende opgebeurt ende ontfangen te hebben van <rs type="person"
-                        ref="#velde_maria">Maria van de Velde</rs> weduwe wijlen <rs type="person"
-                        ref="#hoboken_guillaume">Guilleaumus van Hoboken</rs> den <date
-                        when="1608-04-11">elfsten dach der maent aprilis anno 1600 ende
+                    qualiteyt bekende opgebeurt ende ontfangen te hebben van <rs type="person" ref="../register/register-person.xml#velde_maria">Maria van de Velde</rs> weduwe wijlen <rs type="person" ref="../register/register-person.xml#hoboken_guillaume">Guilleaumus van Hoboken</rs> den <date when="1608-04-11">elfsten dach der maent aprilis anno 1600 ende
                     acht</date> tot behoeven van wijlen Jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#pypelincx_maria">Maria Pypelincx</rs>, daer voors.
+                    <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Maria Pypelincx</rs>, daer voors.
                     kinderen grootmoedere was, bewesen ende geassigneert heeft op een huys genaempt
                     ’t Papegaeyken<index indexName="stw">
                         <term xml:lang="nld">Papegaeyken</term>
@@ -98,8 +93,7 @@
                     den hoeck vanden Oudaene. Gelijck ende in alle der manieren de voors. rente, den
                     voors. kinderen (onder andere) aengedeylt ende ten deele bevallen is bij
                     scheydinge ende deylinge tusschen hem comparant ende synen broeder mede oyck
-                    momboir was over de voors. kinderen met henne consoirten den <date
-                        when="1610-09-17">seventhiensten dach der maent Septembris anno 1600
+                    momboir was over de voors. kinderen met henne consoirten den <date when="1610-09-17">seventhiensten dach der maent Septembris anno 1600
                         ende thien</date> voor schepenen deser stadt gepasseert.</p>
                 <closer><salute><span from="" xml:lang="lat">Probatur litteras
                     quas tradidit</span>, quitant ende gelovende. Sonder arglist.</salute></closer> 

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_098">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_098"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-gf-75-2">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -84,15 +83,15 @@
                         <date when="1609-03-23">driyentwintichsten dach van Maert inden jaer
                             XVI.<hi rend="super">c</hi> ende negen</date> zyn voor ons notaris ende
                     ghetuygen naegenaemt gecompareert M<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_philipp">Philips Rubens</rs> secretaris deser
+                    <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips Rubens</rs> secretaris deser
                     stadt toeco<hi rend="super">m</hi> bruydegom geasisteert met S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Peeter Rubens</rs> syn broeder ter
-                    eene, ende Jouffrou <rs type="person" ref="#moy_maria">Marie de Moy</rs>
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter Rubens</rs> syn broeder ter
+                    eene, ende Jouffrou <rs type="person" ref="../register/register-person.xml#moy_maria">Marie de Moy</rs>
                         toeco<hi rend="super">m</hi> bruyt geassisteert met M<hi rend="super">r</hi>
-                    <rs type="person" ref="#moy_hendrick">Hendricks de Moy</rs> oock secretaris
-                    deser stadt ende jouffrouwe <rs type="person" ref="#gulick_clara">Clara van
+                    <rs type="person" ref="../register/register-person.xml#moy_hendrick">Hendricks de Moy</rs> oock secretaris
+                    deser stadt ende jouffrouwe <rs type="person" ref="../register/register-person.xml#gulick_clara">Clara van
                         Gulick</rs> heuren vader en moeder, mitsgaders M<hi rend="super">r</hi>
-                    <rs type="person" ref="#brant_jan">Jan Brandt</rs> Griffier deser stadt, ende
+                    <rs type="person" ref="../register/register-person.xml#brant_jan">Jan Brandt</rs> Griffier deser stadt, ende
                     hebben vercleert onderlinge in communicatur ende in spraecke gebracht te hebben
                     van een toecomende<gap resp="N.B." reason="cancelled"/></p>
             </div>

@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
-    xml:id="ed_rubens_077">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_077"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-cert-61">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -59,8 +57,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 337f.<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 337f.<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
                             Gerechtsgebouw, 15.-30. Oktober 1977, S. 254, Nr. 239</bibl>
                             <bibl>Max Rooses: Rubens' Leven
@@ -89,14 +86,11 @@
            <body>
             <div xml:lang="lat">
                 <p> Universis et singulis praesentes litteras visuris sive legi audituris, Consules
-                    et Senatus civitatis <rs type="place" ref="#antwerpen">Antverpiae</rs> salutem.
+                    et Senatus civitatis <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiae</rs> salutem.
                     Votum facimus ac harum serie testamur, apud nos et in confinibus nostris, divina
                     favente clementia, salubrem spirare auram, nec ullam pestis aut contagii labern
-                    grassari. Tum quoque die in calce praesentium scripto, ex parte <rs type="person"
-                        ref="#rubens_peter_paul">Petri Rubbens</rs>, quondam Magistri <rs
-                        type="person" ref="#rubens_jan">Joannis</rs> filii, expositum nobis esse,
-                    eumdem Petrum nunc temporis ex hac civitate Antverpiae <rs type="place"
-                        ref="#italien">Italiam</rs> versus profecturum, negociorum suorum causa, et
+                    grassari. Tum quoque die in calce praesentium scripto, ex parte <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petri Rubbens</rs>, quondam Magistri <rs type="person" ref="../register/register-person.xml#rubens_jan">Joannis</rs> filii, expositum nobis esse,
+                    eumdem Petrum nunc temporis ex hac civitate Antverpiae <rs type="place" ref="../register/register-place.xml#italien">Italiam</rs> versus profecturum, negociorum suorum causa, et
                     ut absque ulla difficultate et suspicionc morbi praesertim contagiosi, ubicumque
                     admitteretur et venire possit, cum nimirum ipse et tota haec civitas (Dei
                     beneficio) sit immunis a peste similique morbo contagioso, idcirco nos Consules
@@ -113,15 +107,12 @@
                 <head>Übersetzung<note resp="A.H." type="footnote">Übersetzung nach <bibl>Max Rooses: Rubens' Leven
                     en Werken. Amsterdam/Antwerpen/Gent 1903, S. 54</bibl></note>:</head>
                 <p>Allen und jeden, die diesen Brief lesen oder hören werden, wünschen die
-                    Bürgermeister und der Rat von <rs type="place" ref="#antwerpen">Antwerpen</rs>
+                    Bürgermeister und der Rat von <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs>
                     Heil. Wir sprechen den Wunsch aus und bestätigen hiermit, daß man in unserer
                     Stadt und in unserer Umgegend durch eine gütige Schickung Gottes eine gesunde
                     Luft einatmet und hier weder die Pest noch sonst eine andere ansteckende
-                    Krankheit herrscht. Ferner, da uns an dem hierunter bezeichneten Tage von <rs
-                        type="person" ref="#rubens_peter_paul">Petrus Rubbens</rs>, Sohn von <rs
-                        type="person" ref="#rubens_jan">Joannes</rs>, ehemals Ratsmitglied,
-                    angezeigt ist, daß er jetzt Geschäfte halber nach <rs type="place"
-                        ref="#italien">Italien</rs> zu reisen beabsichtige, und damit er ohne jede
+                    Krankheit herrscht. Ferner, da uns an dem hierunter bezeichneten Tage von <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petrus Rubbens</rs>, Sohn von <rs type="person" ref="../register/register-person.xml#rubens_jan">Joannes</rs>, ehemals Ratsmitglied,
+                    angezeigt ist, daß er jetzt Geschäfte halber nach <rs type="place" ref="../register/register-place.xml#italien">Italien</rs> zu reisen beabsichtige, und damit er ohne jede
                     Schwierigkeit noch Verdacht, daß er mit irgendeiner und besonders einer
                     ansteckenden Krankheit behaftet sei, überall aus- und eingehen könne, weil er ja
                     selbst und diese ganze Stadt (durch Gottes Gnade) verschont ist von der Pest

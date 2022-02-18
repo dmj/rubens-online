@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
-    xml:id="ed_rubens_020b">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_020b"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="st_walburgis_152r_161006">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -65,8 +64,7 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877. S. 419f.<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877. S. 419f.<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Victor van Grimberghen (Grimbergen): Verzameling van oorkonden, aengaende
                                 het concept van vergrooting der stad Antwerpen van het jaer 1580. Antwerpen
                                 1858</bibl>
@@ -95,13 +93,12 @@
                     <pb n="152r"/>
                     <table>
                         <row>
-                            <cell>Betaelt in <rs type="place" ref="#klyn_zeelant">Klyn-Zeelant</rs>,
-                                ende verteert daer men met <rs type="person"
-                                    ref="#rubens_peter_paul">Peeter Rubbens</rs>, schilder, heeft
-                                geaccordeert vant <rs type="work" ref="#jaffe_135ABC">schilderen vanden hoogen autaer</rs><index indexName="psw">
+                            <cell>Betaelt in <rs type="place" ref="../register/register-place.xml#klyn_zeelant">Klyn-Zeelant</rs>,
+                                ende verteert daer men met <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter Rubbens</rs>, schilder, heeft
+                                geaccordeert vant <rs type="work" ref="../register/register-work.xml#jaffe_135ABC">schilderen vanden hoogen autaer</rs><index indexName="psw">
                                     <term type="GND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term type="GND" xml:lang="deu">Kreuzaufrichtungsaltar</term></index>
                                 </index>, present mijnheer
-                                den Pastor en <rs type="person" ref="#geest_cornelis">Cornelis van
+                                den Pastor en <rs type="person" ref="../register/register-person.xml#geest_cornelis">Cornelis van
                                     der Geest</rs> ende kerckmeesters<lb/></cell>
                             <cell>gl. 9 – 10.</cell>
                         </row>

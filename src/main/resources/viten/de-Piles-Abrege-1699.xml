@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_330">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_330"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,8 +11,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:id="piles_abrege_1699" xml:lang="deu">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:id="piles_abrege_1699" xml:lang="deu">
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Göttingen</settlement>
@@ -35,8 +32,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Roger de Piles: Abregé de la vie des peintres avec des reflexions
-                                sur leurs ouvrages. Paris: Muguet, 1699.<ptr type="gbv"
-                                    cRef="627105327"/></bibl>
+                                sur leurs ouvrages. Paris: Muguet, 1699.<ptr type="gbv" cRef="627105327"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -84,8 +80,7 @@
                     qu'elles en demandent beaucoup, sans quoy elles deviennent ennuyeuses; J'ay donc
                     crû devoir d'autant plus me dispenser de rapporter ces descriptions, qu'il est
                     aisé d'y avoir recours. Je me suis contenté de donner icy, autant que je l'ay pû
-                    faire, une idée generale des Peintres dont les Ouvra ges<pb facs="00000009"
-                    />sont en quelque estime parmi le monde. J'ay voulu seulement toucher en peu de
+                    faire, une idée generale des Peintres dont les Ouvra ges<pb facs="00000009"/>sont en quelque estime parmi le monde. J'ay voulu seulement toucher en peu de
                     mots les choses les plus essentielles: comme le païs, le pere, le jour de la
                     naissance, le maître, les Ouvrages en general avec les lieux où ils se trouvent,
                     le talent, les actions remarquables, le tems de la mort, &amp; les disciples
@@ -93,8 +88,7 @@
                     c'est que je n'en ay pas été éclairci. </p>
                 <p>Je ne parle que des principaux Peintres, c'est à dire de ceux qui ont contribué
                     au renouvellement de la Peinture, ou qui l'ont élevée au degré de perfection,
-                    dans lequel nous la voyons, ou enfin dont les Ouvrages ont<pb facs="00000010"
-                    />entrée dans les cabinets des Curieux: car il y a beaucoup de Peintres, qui
+                    dans lequel nous la voyons, ou enfin dont les Ouvrages ont<pb facs="00000010"/>entrée dans les cabinets des Curieux: car il y a beaucoup de Peintres, qui
                     bien qu'ils ne soient pas du premier ordre, ne laissent pas d'estre fort
                     estimez. On en trouvera icy quelquesuns dont le merite est mediocre generalement
                     parlant, mais qui ont quelque talent particulier, ou qui font connoistre que la
@@ -120,8 +114,7 @@
                     assez peu de curiosité. </p>
                 <p>Comme il n'y a point de Peintre mediocres qui n'ait quelquefois bien peint, ny
                     d'excellent Peintre qui n'ait fait des choses mediocres, ce n'est pas sur un
-                    nombre choisi de leurs Tableaux, mais sur le general de<pb facs="00000013"
-                    />leurs Ouvrages que j'exposeray mes sentimens. </p>
+                    nombre choisi de leurs Tableaux, mais sur le general de<pb facs="00000013"/>leurs Ouvrages que j'exposeray mes sentimens. </p>
                 <p>J'ay déliberé long-tems si je les abandonnerois au public, j'en ay prévû tous les
                     inconveniens &amp; toutes les difficultez. Je sai que dans cette matiere où
                     l'on confond souvent le Goût avec la raison, il étoit impossible de contenter
@@ -138,8 +131,7 @@
                     meilleurs auteurs qui ont tâché dans leurs Ouvrages de nous proposer la
                     perfection. </p>
                 <p>C'est donc pour mettre à couvert de temerité les jugemens que j'ay faits des
-                    Ouvrages en général des principaux Peintres, que j'ay trouvé à<pb
-                        facs="00000015"/>propos de donner icy l'idée du Peintre parfait sur laquelle
+                    Ouvrages en général des principaux Peintres, que j'ay trouvé à<pb facs="00000015"/>propos de donner icy l'idée du Peintre parfait sur laquelle
                     je me suis reglé. Quoique j'aye tâché de la rendre juste, je ne prétens pas ôter
                     à personne la liberté d'en faire l'application selon son goût, comme je le fais
                     selon le mien: car je suis bien persuadé que chacun ne voit pas également tout
@@ -149,8 +141,7 @@
             </div>
             <div type="contents" xml:lang="fra">
                 <index indexName="fsw">
-                    <term type="structure" target="#contents" xml:lang="deu"
-                    >Inhaltsverzeichnis</term>
+                    <term type="structure" target="#contents" xml:lang="deu">Inhaltsverzeichnis</term>
                 </index>
                 <head><pb facs="00000016"/> TABLE<lb/> DES CHAPITRES.<lb/> LIVRE PREMIER.</head>
                 <p>
@@ -501,8 +492,7 @@
                     &amp; débiter par tel Libraire &amp; Imprimeur qu'il voudra choisir dans
                     nôtre Royaume, en beau papier &amp; beau caractére, suivant les Réglemens,
                     pendant le tems de dix années entiéres &amp; consécutives, à commencer du
-                    jour qu'il sera achevé d'imprimer; un Livre qu'il a composé, inti<pb
-                        facs="00000022"/>tulé: Abregé de la Vie des Peintres, avec des Réflexions
+                    jour qu'il sera achevé d'imprimer; un Livre qu'il a composé, inti<pb facs="00000022"/>tulé: Abregé de la Vie des Peintres, avec des Réflexions
                     sur leurs Ouvrages; Faisons défenses à toutes autres personnes de quelque
                     qualité &amp; condition qu'elles soient, d'imprimer ou faire imprimer ledit
                     Livre, sans le consentement dudit Sieur de Piles, ou de ses Ayans-cause, à peine
@@ -518,8 +508,7 @@
                     accoûtumée, à peine de nullité d'icelles. Du contenu desquelles vous mandons que
                     vous fassiez jouïr &amp; user ledit Exposant, &amp; tous ceux qui auront
                     droit de luy, plainement &amp; paisiblement, sans permettre qu'ils y soient
-                    troublez. Voulons qu'en mettant au commencement ou à la fin du Livre copie<pb
-                        facs="00000023"/>ou Extrait des Présentes, elles soient tenuës pour bien
+                    troublez. Voulons qu'en mettant au commencement ou à la fin du Livre copie<pb facs="00000023"/>ou Extrait des Présentes, elles soient tenuës pour bien
                     &amp; dûëment signifiées. Mandons au prémier nôtre Huissier ou Sergent sur
                     ce requis, faire pour l'éxécution des Présentes, tous Exploits nécessaires, sans
                     demander autre permission, nonobstant clameur de Haro, charte Normande,
@@ -595,8 +584,7 @@
                     &amp; faire entrer dans son sujet les objets les plus propres à l'exprimer
                     &amp; à l'orner: &amp; par la Disposition il doit les situer de la
                     maniere la plus avantageuse, pour en tirer un grand effet, &amp; pour
-                    contenter les yeux, en faisant voir de belles parties: qu'elle soit bien con<pb
-                        facs="00000028" n="4"/>trastée, bien diversifiée, &amp; liée de groupes. </p>
+                    contenter les yeux, en faisant voir de belles parties: qu'elle soit bien con<pb facs="00000028" n="4"/>trastée, bien diversifiée, &amp; liée de groupes. </p>
                 <p><note place="margin-left">Le Dessein. II. Partie.</note> Que le Peintre dessine correctement d'un bon
                     goût &amp; d'un stile varié, tantôt héroïque &amp; tantôt champêtre,
                     selon le caractére des figures que l'on introduit: attendu que l'élégance des
@@ -670,8 +658,7 @@
                     par les ombres naturelles des corps. 2. Par les groupes: c'est-à-dire en
                     disposant les objets d'une maniére que les lumiéres se trouvent liées ensemble,
                     &amp; les ombres pareillement ensemble, comme on le voit grossiérement dans
-                    une grape de raisin, dont les grains du côté de la lumiére font une masse<pb
-                        facs="00000032" n="8"/>de clair, &amp; les grains du côté opposé font
+                    une grape de raisin, dont les grains du côté de la lumiére font une masse<pb facs="00000032" n="8"/>de clair, &amp; les grains du côté opposé font
                     une masse d'ombre, &amp; que le tout ne forme qu'un groupe &amp; comme
                     un seul objet; en sorte neanmoins qu'en cet artifice il ne paroisse aucune
                     affectation: mais que les objets se trouvent ainsi situez naturellement
@@ -705,8 +692,7 @@
                 <p><note place="margin-right">L'accord des Couleurs.</note> Que dans la distribution de ses couleurs il y
                     ait un accord qui fasse le meme effet pour les yeux, que la Musique pour les
                     oreilles. </p>
-                <p><note place="margin-right">Vnité d'objet.</note> Que s'il y a plusieurs groupes de Clair<pb
-                        facs="00000034" n="10"/>obscur dans un Tableau, il y en ait un qui soit plus
+                <p><note place="margin-right">Vnité d'objet.</note> Que s'il y a plusieurs groupes de Clair<pb facs="00000034" n="10"/>obscur dans un Tableau, il y en ait un qui soit plus
                     sensible, &amp; qui domine sur les autres, en sorte qu'il y ait unité
                     d'objet, comme dans la Composition, unité de sujet. </p>
                 <p><note place="margin-left">Le Pinceau.</note> Que le Pinceau soit hardi &amp; léger s'il est
@@ -838,8 +824,7 @@
                         habiles Maîtres: Le premier est, qu'il y verra la Nature débarassée de
                         beaucoup de choses qu'on est obligé de rejetter quand on la copie: le second
                         est, qu'il apprendra par là à faire un bon chois de la Nature, à n'en
-                        prendre que le beau, &amp; à rectifier ce qu'elle a de défectueux.<pb
-                            facs="00000042" n="18"/>Ainsi un Génie bien réglé &amp; soûtenu de
+                        prendre que le beau, &amp; à rectifier ce qu'elle a de défectueux.<pb facs="00000042" n="18"/>Ainsi un Génie bien réglé &amp; soûtenu de
                         la Téorie, sert à mettre utilement en usage, non seulement ses Etudes
                         propres, mais encore celles des autres. </p>
                     <p>Leonard de Vinci a écrit que les taches qui se trouvent sur un vieux mur,
@@ -1108,8 +1093,7 @@
                         s'imaginant qu' Aléxandre fût vêtu comme nous le sommes aujourd'huy,
                         &amp; qu'il représentât ce Conquérant avec un Chapeau &amp; une
                         Perruque comme font les Comédiens, il feroit sans doute une chose
-                        trés-ridicule, &amp; une faute trés<pb facs="00000056" n="32"
-                        />grossiére: mais cette faute seroit contre l'Histoire, &amp; non pas
+                        trés-ridicule, &amp; une faute trés<pb facs="00000056" n="32"/>grossiére: mais cette faute seroit contre l'Histoire, &amp; non pas
                         contre la Peinture; supposé d'ailleurs que les choses réprésentées le
                         fussent selon toutes les Régles de cet Art. </p>
                     <p>Mais quoy que le Peintre réprésente la Nature par Essence, &amp;
@@ -1148,8 +1132,7 @@
                         jugement, &amp; pour remplir l'étenduë de leur connoissance. </p>
                     <p>Je reviens à Saint Augustin, 8 je dis que s'il avoit eu la véritable Idée de
                         la Peinture, qui n'est autre que l'imitation du vray, &amp; qu'il eût
-                        fait réfléxion que par cette imitation on peut élever en<pb facs="00000058"
-                            n="34"/>mille façons le coeur des Fidéles à l'Amour Divin, il auroit
+                        fait réfléxion que par cette imitation on peut élever en<pb facs="00000058" n="34"/>mille façons le coeur des Fidéles à l'Amour Divin, il auroit
                         fait le Panégyrique de ce bel Art avec d'autant plus de chaleur qu'il étoit
                         luy-même trés-sensible à tout ce qui peut porter à Dieu. </p>
                     <p>Un autre Pére avoit une Idée de la Peinture plus juste, c'est Saint Grégoire
@@ -1169,8 +1152,7 @@
                     <p> J'Ay fait voir cy-dessus que l'Essence de la Peinture consistoit dans une
                         fidéle imitation, à la faveur de laquelle les Peintres pourroient instruire
                         &amp; divertir selon la mesure de leur Génie. J'ay parlé ensuite des
-                        fausses Idées de la Peinture, &amp; je tâcheray dans ce Chapitre<pb
-                            facs="00000059" n="35"/>de montrer comment ces Idées imparfaites se sont
+                        fausses Idées de la Peinture, &amp; je tâcheray dans ce Chapitre<pb facs="00000059" n="35"/>de montrer comment ces Idées imparfaites se sont
                         glissées jusqu'à nous. </p>
                     <p>La Peinture comme les autres Arts n'a été connuë que par le progrés qu'elle a
                         fait dans l'esprit des hommes. Ceux qui commencérent à la renouveller en
@@ -1225,8 +1207,7 @@
                         jeunes Peintres ne manquent pas d'aller à Rome pour y étudier, d'en
                         rapporter du moins l'estime générale des Ouvrages qu'on y admire, &amp;
                         de la transmettre à tous ceux qui les écoûtent. C'est ainsi qu'un grand
-                        nombre de Curieux &amp; d'Amateurs de la Peinture ont<pb facs="00000062"
-                            n="38"/>conservé sur la foy d'autruy, ou sur l'autorité des Auteurs
+                        nombre de Curieux &amp; d'Amateurs de la Peinture ont<pb facs="00000062" n="38"/>conservé sur la foy d'autruy, ou sur l'autorité des Auteurs
                         cette prémiére Idée qu'ils ont reçûë; savoir, que toute la perfection de la
                         Peinture étoit dans les Ouvrages de Raphaël. </p>
                     <p>Les Peintres Romains sont aussi demeurez la plûpart dans cette opinion,
@@ -1369,8 +1350,7 @@
                         d'autant plus expressif, que les Draperies ne doivent point être arangées
                         comme les habits dont on se sert dans le monde: mais qu'en suivant le
                         caractere de la pure Nature, laquelle est éloignée de toute affectation, les
-                        plis se trouvent comme par hazard au tour des membres, qu'ils les<pb
-                            facs="00000069" n="45"/>fassent paroître ce qu'ils sont; &amp; que
+                        plis se trouvent comme par hazard au tour des membres, qu'ils les<pb facs="00000069" n="45"/>fassent paroître ce qu'ils sont; &amp; que
                         par un artifice industrieux ils les contrastent en les marquant, &amp;
                         qu'ils les caressent, pour ainsi dire, par leurs tendres sinüositez,
                         &amp; par leur molesse. </p>
@@ -1523,8 +1503,7 @@
                     <head rend="text-align:center">CHAPITRE XXI.<lb/> Du Pinceau.</head>
                     <p> LE terme de Pinceau se prend quelquefois pour la source de toutes les
                         parties de la Peinture, comme lorsqu'on dit, que le Tableau de la
-                        Transfiguration de Raphaël est le plus bel Ouvrage qui<pb facs="00000077"
-                            n="53"/>soit sorti de son Pinceau: &amp; quelquefois il s'entend de
+                        Transfiguration de Raphaël est le plus bel Ouvrage qui<pb facs="00000077" n="53"/>soit sorti de son Pinceau: &amp; quelquefois il s'entend de
                         l'Ouvrage même, &amp; l'on dit par éxemple, de tous les Peintres de
                         l'Antiquité, le plus savant Pinceau est celuy d'Apelle. Mais icy le mot de
                         Pinceau signifie simplement la façon extérieure dont il a été manié pour
@@ -1543,8 +1522,7 @@
                         <term type="structure" target="#chapter" xml:lang="deu">Kapitel</term>
                     </index>
                     <head rend="text-align:center">CHAPITRE XXII.<lb/> Des Licences.</head>
-                    <p> LEs Licences sont si nécessaires, qu'il y en a dans tous les Arts.<pb
-                            facs="00000078" n="54"/>Elles sont contre les Régles à prendre les
+                    <p> LEs Licences sont si nécessaires, qu'il y en a dans tous les Arts.<pb facs="00000078" n="54"/>Elles sont contre les Régles à prendre les
                         choses à la lettre, mais à les prendre selon l'esprit, les Licences servent
                         de Régles quand elles sont prises bien à propos. Or il n'y a personne de bon
                         sens qui ne les trouve à propos, lorsque l'Ouvrage dans lequel on les
@@ -1563,8 +1541,7 @@
                     <head rend="text-align:center">CHAPITRE XXIII.<lb/> De quelle autorité les
                         Peintres ont réprésenté sous des Figures humaines les choses Divines,
                         &amp; celles qui sont spirituelles ou inanimées.</head>
-                    <p> L'Ecriture nous parle en plusieurs endroits des Apparitions de<pb
-                            facs="00000079" n="55"/>Dieu aux hommes, ou réellement par le ministére
+                    <p> L'Ecriture nous parle en plusieurs endroits des Apparitions de<pb facs="00000079" n="55"/>Dieu aux hommes, ou réellement par le ministére
                         des Anges, ou en vision par des songes &amp; des éxtases. Il y a une
                         belle description de Dieu sous la forme d'un Vieillard dans le septiéme
                         Chapitre de Daniel, vers. 9. La même Ecriture nous parle aussi de plusieurs
@@ -1656,8 +1633,7 @@
                         profiter, entrer dans l'esprit du Peintre, &amp; les regarder comme n'y
                         estant point. </p>
                     <p><pb facs="00000084" n="60"/> L'autorité de peindre des aîles aux Anges se
-                        peut tirer de ceux de l'Arche d'Alliance, &amp; du 9<hi rend="super"
-                        >e</hi>. Chapitre de Daniel v. 21. Mais ces passages n'obligent pas à donner
+                        peut tirer de ceux de l'Arche d'Alliance, &amp; du 9<hi rend="super">e</hi>. Chapitre de Daniel v. 21. Mais ces passages n'obligent pas à donner
                         indispensablement des aîles aux Anges, puisqu'il est certain qu'ils ont
                         apparu toûjours sans aîles. Le Peintre néanmoins peut en user
                         indifféremment, selon que son Art, le bon sens, &amp; l'instruction des
@@ -1789,8 +1765,7 @@
                     <p>Quoy que la connoissance des Desseins ne soit pas si estimable ni si étenduë
                         que celle des Tableaux, elle ne laisse pas d'être délicate &amp;
                         piquante, à cause que leur grand nombre donne plus d'occasion à ceux qui les
-                        aiment, d'exercer leur critique, &amp; que l'Ouvrage<pb facs="00000091"
-                            n="67"/>qui s'y rencontre est tout esprit; les Desseins marquent
+                        aiment, d'exercer leur critique, &amp; que l'Ouvrage<pb facs="00000091" n="67"/>qui s'y rencontre est tout esprit; les Desseins marquent
                         davantage le caractére du Maître, &amp; font voir si son Génie est vis
                         ou pesant; si ses pensées sont élevées ou communes; &amp; enfin s'il a
                         une bonne habitude &amp; un bon Goût de toutes les parties qui peuvent
@@ -1807,8 +1782,7 @@
                         curiosité, parce que ne pénétrant pas encore assez avant dans l'esprit des
                         Desseins, ils n'en peuvent goûter tout le plaisir, &amp; sont plus
                         sensibles à celuy que donnent les Estampes qui ont été gravées avec soin
-                        d'aprés les bons Tableaux; cela peut venir aussi par la<pb facs="00000092"
-                            n="68"/>crainte d'être trompez, &amp; de prendre, comme il arrive
+                        d'aprés les bons Tableaux; cela peut venir aussi par la<pb facs="00000092" n="68"/>crainte d'être trompez, &amp; de prendre, comme il arrive
                         assez souvent, des Copies pour des Originaux, faute d'éxpérience. </p>
                     <p>Il y a trois choses en général à remarquer dans les Desseins: la Sience,
                         l'Esprit, &amp; la Liberté. Par la Sience, j'entens une bonne
@@ -1825,8 +1799,7 @@
                         touchez; &amp; si les Desseins savans n'ont pas toûjours de la Liberté,
                         il s'y rencontre ordinairement de l'Esprit. </p>
                     <p>Je pourrois nommer icy quantité de Peintres, dont les Desseins ont beaucoup
-                        de Liberté sans aucun Esprit, où dont la main hardie ne produit que des<pb
-                            facs="00000093" n="69"/>éxpressions vagues. J'en pourrois nommer aussi
+                        de Liberté sans aucun Esprit, où dont la main hardie ne produit que des<pb facs="00000093" n="69"/>éxpressions vagues. J'en pourrois nommer aussi
                         de fort habiles, dont les Desseins paroissent estantez, quoy que savans
                         &amp; spirituels; parce que leur main étoit retenuë par leur jugement,
                         &amp; qu'ils se sont attachez préférablement à toutes choses, à la
@@ -1878,8 +1851,7 @@
                         n'en ferois que peu ou point du tout de cas, &amp; je ne puis la mieux
                         éxprimer que par le mot de Caractére. Ce Caractére donc consiste dans la
                         maniére dont le Peintre pense les choses, c'est le Cachet qui le distingue
-                        des autres, &amp; qu'il imprime sur ses Ouvrages comme la vive image<pb
-                            facs="00000096" n="72"/>de son Esprit. C'est ce Caractére qui remuë
+                        des autres, &amp; qu'il imprime sur ses Ouvrages comme la vive image<pb facs="00000096" n="72"/>de son Esprit. C'est ce Caractére qui remuë
                         nôtre imagination; &amp; c'est par luy que les habiles Peintres, aprés
                         avoir étudié sous la Discipline de leurs Maîtres, ou d'aprés les Ouvrages
                         des autres, se sentent forcez par une douce violence à donner l'essort à
@@ -1934,8 +1906,7 @@
                         beaucoup de raison: car depuis que l'on recherche les Siences &amp; les
                         Arts, &amp; que pour les pénétrer on a mis au jour une infinité de
                         Volumes, on nous a mis en même tems devant les yeux un objet terrible
-                        &amp; capable de rebuter nôtre esprit &amp; nôtre mé<pb
-                            facs="00000099" n="75"/>moire. Cependant nous avons plus que jamais
+                        &amp; capable de rebuter nôtre esprit &amp; nôtre mé<pb facs="00000099" n="75"/>moire. Cependant nous avons plus que jamais
                         besoin de l'un &amp; de l'autre, ou du moins, de trouver les moyens de
                         les aider dans leurs fonctions. En voicy un tres-puissant, &amp; qui est
                         une des plus heureuses productions des derniers siécles. C'est l'invention
@@ -2006,8 +1977,7 @@
                         confusion. </p>
                     <p>Mais chaque particulier peut choisir seulement des sujets qui luy soient
                         propres, &amp; qui puissent, ou rafraîchir sa mémoire, ou fortifier ses
-                        connoissances, &amp; suivre en cela l'inclination qu'il<pb
-                            facs="00000103" n="79"/>a pour les choses de son Goût &amp; de sa
+                        connoissances, &amp; suivre en cela l'inclination qu'il<pb facs="00000103" n="79"/>a pour les choses de son Goût &amp; de sa
                         profession. </p>
                     <p>Aux Théologiens, par éxemple, rien n'est plus convenable qeu les Estampes qui
                         regardent la Réligion &amp; les Mystéres, les Histoires saintes,
@@ -2060,8 +2030,7 @@
                         Vischer, &amp; enfin par un grand nombre d'autres que je ne nomme point,
                         qui ont eu un Caractére particulier, &amp; qui par différentes voyes se
                         sont tous efforcez d'imiter, ou la Nature, quand ils ont fait leur
-                        Invention, ou les Tableaux de différentes ma<pb facs="00000106" n="82"
-                        />niéres, quand ils ont eu pour fin la fidélité de leur imitation. En
+                        Invention, ou les Tableaux de différentes ma<pb facs="00000106" n="82"/>niéres, quand ils ont eu pour fin la fidélité de leur imitation. En
                         comparant ainsi l'Ouvrage de tous ces Maîtres, ils peuvent juger lesquels
                         ont mieux entendu la conduite des Tailles, le ménagement de la Lumiére,
                         &amp; la valeur des tons par rapport au Clair-obscur; lesquels ont sû le
@@ -2137,8 +2106,7 @@
                         &amp; de donner au moins une teinture des beaux Arts, qu'il n'est pas
                         permis aux honnêtes gens d'ignorer. </p>
                     <p>Ces effets sont généraux: maix chacun en peut sentir de particuliers selon
-                        ses lumiéres &amp; son inclination; &amp; ce n'est<pb
-                            facs="00000110" n="86"/>que par ces effets particuliers que chacun peut
+                        ses lumiéres &amp; son inclination; &amp; ce n'est<pb facs="00000110" n="86"/>que par ces effets particuliers que chacun peut
                         régler la collection qu'il en doit faire. </p>
                     <p>Car il est aisé de juger, que dans la diversité des conditions dont on vient
                         de parler, la curiosité des Estampes, l'ordre, &amp; le chois qu'il y
@@ -2245,8 +2213,7 @@
                         sont les lumiéres du Discours, &amp; les véritables moyens par où les
                         Auteurs se communiquent: C'est encore par le manque de ces moyens que nous
                         avons perdu les Machines d'Archiméde &amp; de Héron l'Ancien, &amp;
-                        la connoissance de beaucoup de Plantes de Dioscoride, de<pb facs="00000116"
-                            n="92"/>beaucoup d'Animaux, &amp; de beaucoup de Productions
+                        la connoissance de beaucoup de Plantes de Dioscoride, de<pb facs="00000116" n="92"/>beaucoup d'Animaux, &amp; de beaucoup de Productions
                         curieuses de la Nature, que les veilles &amp; les méditations des
                         Anciens nous avoient découvertes. Mais sans nous arrêter à regretter des
                         choses perduës, profitons de celles que les Estampes nous ont sauvées,
@@ -2280,8 +2247,7 @@
                             l'Expression générale du sujet, des Passions de l'Ame en particulier,
                             des Allégories, &amp; de ce qui dépend du Costume <note place="bottom">Mot de
                                 l'Art, qui signifie les modes, les tem, &amp; les lieux:</note>
-                            &amp; de la Poëtique: Et l'intelligence des Principes fait<pb
-                                facs="00000118" n="94"/>trouver la cause des effets que l'on admire,
+                            &amp; de la Poëtique: Et l'intelligence des Principes fait<pb facs="00000118" n="94"/>trouver la cause des effets que l'on admire,
                             soit qu'ils viennent du bon Goût, de la Correction ou de l'Elégance du
                             Dessein; soit que les Objets y paroissent disposez avantageusement, ou
                             que les Couleurs, les Lumiéres &amp; les Ombres y soient bien
@@ -2300,8 +2266,7 @@
                             dans un Tableau. </p>
                         <p>Ce n'est pas que les Amateurs de ce bel Art, qui auroient assez de Génie
                             &amp; d'inclination ne pûssent entrer, pour ainsi dire, dans le
-                            Sanctuaire, &amp; aquérir la connoissance de tous ces détails,<pb
-                                facs="00000119" n="95"/>par les lumiéres que des réflexions
+                            Sanctuaire, &amp; aquérir la connoissance de tous ces détails,<pb facs="00000119" n="95"/>par les lumiéres que des réflexions
                             sérieuses leur procureroient insensiblement. </p>
                         <p>Le Goût des Arts étoit tellement à la mode du tems d'Aléxandre, que pour
                             les connoître un peu à fond, on faisoit apprendre à dessiner à tous les
@@ -2542,8 +2507,7 @@
                         jeune homme qu'elle aimoit, s'étant endormi à la lumiére d'une lampe,
                         l'ombre de son visage qui donnoit sur une muraille luy paroissobit si
                         ressemblante, qu'elle en voulut tracer les éxtrémitez, &amp; faire ainsi
-                        le Portrait de son Amant. S'il est vray, comme il y a<pb facs="00000132"
-                            n="108"/>apparence, que l'Ombre a suscité l'Inventeur de la Peinture,
+                        le Portrait de son Amant. S'il est vray, comme il y a<pb facs="00000132" n="108"/>apparence, que l'Ombre a suscité l'Inventeur de la Peinture,
                         l'Imitation est si naturelle à l'homme, qu'il n'aura pas attendu jusqu'au
                         tems de Corinthia à tracer des Figures sur son Ombre, qui est aussi ancienne
                         que luy-même. </p>
@@ -2577,8 +2541,7 @@
                         dans le siécle d'Aléxandre le Grand, où les beaux Arts étoient dans leur
                         vigueur: &amp; quoy que nous n'ayons point de leurs Ouvrages, on peut
                         néanmoins juger du degré de leur perfection par ceux de Sculpture du même
-                        siécle, qui sont venus jusqu'à nous, &amp; par le<pb facs="00000134"
-                            n="110"/>grand prix dont on les payoit; car on a donné à Timanthe,
+                        siécle, qui sont venus jusqu'à nous, &amp; par le<pb facs="00000134" n="110"/>grand prix dont on les payoit; car on a donné à Timanthe,
                         &amp; ensuite à Apelle pour un seul Tableau jusqu'à cent talens, qui
                         valent de nôtre monnoye, cent quatre-vingt mille livres. </p>
                     <p>Nous avons à la vérité quelques morceaux de Peinture Antique, mais ni les
@@ -2594,8 +2557,7 @@
                         plus avant que l'Auteur de cet Ouvrage. Il est vray qu'ils n'avoient pas
                         l'usage de l'huile, laquelle donne tant de force aux Couleurs; mais ils
                         pouvoient avoir des Sécrets que nous ignorons, &amp; Pline nous dit
-                        qu'Apelle se servoit d'un vernis, qui donnoit de la<pb facs="00000135"
-                            n="111"/>vigueur à ses Couleurs, &amp; qui les conservoit. Quoy
+                        qu'Apelle se servoit d'un vernis, qui donnoit de la<pb facs="00000135" n="111"/>vigueur à ses Couleurs, &amp; qui les conservoit. Quoy
                         qu'il en soit, on ne peut pas aller contre le témoignage universel des
                         anciens Auteurs qui ont parlé des Peintres de ces tems-là, &amp; des
                         Ecrits desquels on doit inférer que la Peinture y étoit dans un haut degré
@@ -2686,8 +2648,7 @@
                             qualité qu'on ne peut assez louër; dans l'ajustement des coëffures, dans
                             la distribution des cheveux, &amp; dans les agrémens de la bouche. </p>
                         <p>Il avoit beaucoup de Génie &amp; d'élévation d'esprit: mais les
-                            loüanges qu'on luy donnoit, &amp; qu'il croyoit mériter,<pb
-                                facs="00000140" n="116"/>le rendirent éxtrémement orgueilleux,
+                            loüanges qu'on luy donnoit, &amp; qu'il croyoit mériter,<pb facs="00000140" n="116"/>le rendirent éxtrémement orgueilleux,
                             parlant des autres avec mépris, &amp; de soy-même, comme ayant
                             conduit l'Art à sa derniére perfection. Il ne faisoit pas de difficulté
                             de se nommer le Maître &amp; le Prince de la Peinture: &amp; il
@@ -2725,8 +2686,7 @@
                     </div>
                     <div xml:lang="fra">
                         <head rend="text-align:center">TIMANTHE.</head>
-                        <p> TImanthe vivoit dans le même tems que Pamphile. On ne sait<pb
-                                facs="00000142" n="118"/>point le lieu de sa naissance; mais il a
+                        <p> TImanthe vivoit dans le même tems que Pamphile. On ne sait<pb facs="00000142" n="118"/>point le lieu de sa naissance; mais il a
                             été un des plus savans &amp; des plus judicieux Peintres de son
                             siécle. Parmi les Ouvrages qu'il a faits, le plus célébré, &amp;
                             dont quantité d'Auteurs ont parlé avec éloge, est le Sacrifice
@@ -2763,8 +2723,7 @@
                             qu'il avoit pour maxime de ne laisser passer aucun jour sans dessiner:
                             ce qui donna lieu à ce Proverbe, Nulla dies sine linea, Nul jour sans
                             tirer quelque ligne; c'est-à-dire, sans s'éxercer au Dessein. </p>
-                        <p>La force de son Génie &amp; l'assiduité<pb facs="00000144" n="120"
-                            />de ses Etudes ne luy donnérent pas cette bonne opinion que les habiles
+                        <p>La force de son Génie &amp; l'assiduité<pb facs="00000144" n="120"/>de ses Etudes ne luy donnérent pas cette bonne opinion que les habiles
                             prénnent ordinairement d'eux-mêmes. Il ne voulut juger de sa capacité
                             que par la comparaison de celle des autres qu'il alloit visiter. Tout le
                             monde sait ce qui arriva entre luy &amp; Protogéne. Celuy-cy
@@ -2855,8 +2814,7 @@
                         <p>Quoy qu'Apelle fût fort éxact dans son Ouvrage, il savoit jusqu'à quel
                             point il devoit travailler sans fatiguer son Esprit. Il dit un jour,
                             parlant de Protogéne, qu'il étoit habile, mais qu'il gâtoit souvent les
-                            belles choses qu'il faisoit à force de les vouloir perfectionner;<pb
-                                facs="00000149" n="125"/>qu'il ne savoit pas quitter son travail,
+                            belles choses qu'il faisoit à force de les vouloir perfectionner;<pb facs="00000149" n="125"/>qu'il ne savoit pas quitter son travail,
                             que le trop étoit plus à craindre que le trop peu, &amp; que s'étoit
                             être bien savant que de savoir ce qui suffit. </p>
                         <p>Un de ses Disciples luy montrant un Tableau pour en savoir son sentiment,
@@ -2874,8 +2832,7 @@
                             pour écouter ce qu'on en diroit, dans le dessein d'en profiter. De sorte
                             qu'un Cordonnier passant un jour devant le maison d'Apelle, &amp; y
                             trouvant un Tableau ainsi éxposé, reprit avec liberté quelque défaut
-                            qu'il apperçût à une Sandale, laquelle fut changée<pb facs="00000150"
-                                n="126"/>incontinent aprés: mais le lendemain repassant par le même
+                            qu'il apperçût à une Sandale, laquelle fut changée<pb facs="00000150" n="126"/>incontinent aprés: mais le lendemain repassant par le même
                             endroit, tout glorieux de voir qu'on eut profité de sa critique, censura
                             aussi-tôt une Cuisse où il n'y avoit rien à redire: ce qui obligea
                             Apelle de sortir de derriére sa toile, &amp; de dire au Cordonnier
@@ -2893,8 +2850,7 @@
                             qu'on n'auroit pû sauver d'un embrazement. Il vouloit qu'on pût
                             transporter les Ouvrages des habiles Peintres d'un Païs dans un autre,
                             &amp; ne pouvoit souffrir qu'un Tableau ne pût appartenir qu'à un
-                            seul Maître; parce que la Peinture,<pb facs="00000151" n="127"
-                            />disoit-il, est an bien commun à toute la Terre. </p>
+                            seul Maître; parce que la Peinture,<pb facs="00000151" n="127"/>disoit-il, est an bien commun à toute la Terre. </p>
                         <p>Pline fait la déscription des plus beaux Ouvrages d'Apelle, &amp;
                             l'on peut juger de leur éxcellence par le prix qu'il en recevoit: car on
                             les luy payoit quelquefois cent talens, &amp; d'autres fois sans
@@ -2913,8 +2869,7 @@
                             distrait dans les Etudes qu'il jugeoit nécessaires pour la perfection de
                             son Art. </p>
                         <p>Il finissoit éxtrémement ses Tableaux. Apelle dit de luy, qu'il ne savoit
-                            pas se retirer de dessus son Ouvrage, &amp; qu'à<pb facs="00000152"
-                                n="128"/>force de le travailler il en diminuoit la beauté, &amp;
+                            pas se retirer de dessus son Ouvrage, &amp; qu'à<pb facs="00000152" n="128"/>force de le travailler il en diminuoit la beauté, &amp;
                             fatiguoit son Esprit. Il vouloit que les choses peintes parûssent
                             vrayes, &amp; non vrayes semblables: ainsi à force d'éxiger de son
                             Art plus qu'il ne devoit, il en retiroit moins qu'il n'auroit pû faire. </p>
@@ -2968,8 +2923,7 @@
                             Je rapporteray seulement icy un endroit de Quintilien, où l'on voit les
                             talens particuliers de six fameux Peintres. Protogéne, dit-il, éxcéloit
                             pour l'éxactitude; Pamphile &amp; Mélanthius pour l'ordonnance;
-                            Antiphilus pour la, facilité; Théon Samien pour la fécon<pb
-                                facs="00000155" n="131"/>dité des Idées; &amp; Apelle pour la
+                            Antiphilus pour la, facilité; Théon Samien pour la fécon<pb facs="00000155" n="131"/>dité des Idées; &amp; Apelle pour la
                             Grace &amp; pour les Conceptions ingénieuses. </p>
                         <p>Pline die que les habiles Peintres de ce temps-là ne se servoient que de
                             quatre couleurs capitales, dont ils composoient toutes les autres Ce
@@ -2988,8 +2942,7 @@
                             d'employer les couleurs, est une sujettion qui a pû dégoûter le Titien
                             de cette pratique. </p>
                         <p>Je diray encore des Peintres &amp; des Sculpteurs de ces tems-là, que
-                            reconnoissant qu'il n'y avait point d'Ouvrage<pb facs="00000156" n="132"
-                            />si accompli où l'on ne pût ajoûter toûjours quelque perfection, ils
+                            reconnoissant qu'il n'y avait point d'Ouvrage<pb facs="00000156" n="132"/>si accompli où l'on ne pût ajoûter toûjours quelque perfection, ils
                             observérent, en mettant leur nom, d'éxprimer que l'Ouvrage n'étoit pas
                             achevé, quoy qu'ils y eûssent fait tout leur possible: Nous en voyons
                             des éxemples sur les Statuës Grécques sur lesquelles on trouve, par
@@ -3019,8 +2972,7 @@
                         Peinture dans la Toscane, &amp; Cimabué fut leur prémier Disciple. Ce
                         Peintre étoit d'une noble Famille de Florence, &amp; ses Parens qui luy
                         trouvérent de la disposition pour les Siences, l'y appliquérent. Il s'y
-                        éxerça quelque tems: mais l'arrivée de ces<pb facs="00000158" n="134"
-                        />Peintres Grecs réveilla son inclination, &amp; le détermina
+                        éxerça quelque tems: mais l'arrivée de ces<pb facs="00000158" n="134"/>Peintres Grecs réveilla son inclination, &amp; le détermina
                         entiérement du côté de la Peinture. Les progrés considérables qu'il y fit
                         augmentérent son courage, &amp; luy aquirent tant de réputation, que
                         Charles I. Roy de Naples, passant par Florence, alla voir Cimabué, &amp;
@@ -3093,8 +3045,7 @@
                         venir à Rome, où il peignît entr'autres choses le Tableau de Mosaïque dont
                         on vient de parler. Il réprésente la Barque de Saint Pierre, agitée par la
                         tempête; &amp; il est connu de tous les Peintres sous le nom de la Nave
-                        del Giotto. Cette histoire du Cercle de Giotto<pb facs="00000162" n="138"
-                        />fait voir qu'en ces tems-là la hardiesse de la main avoit la meilleure
+                        del Giotto. Cette histoire du Cercle de Giotto<pb facs="00000162" n="138"/>fait voir qu'en ces tems-là la hardiesse de la main avoit la meilleure
                         part à l’éstime qu'on faisoit des Tableaux &amp; des Peintres, &amp;
                         que les véritables Principes du Coloris n'étoient que peu ou point connus.
                         Giotto a travaillé en beaucoup d'endroits: à Florence, à Pise, à Rome, à
@@ -3239,8 +3190,7 @@
                     <head rend="text-align:center">JEAN ANGELIC.</head>
                     <p> DE Fiésole, Réligieux de Saint Dominique, se rendit considérable par sa
                         Peinture: mais encore plus par sa fervente piété, &amp; par une humilité
-                        si profonde, qu’il refusa l’Archevêché de Flo<pb facs="00000170" n="146"
-                        />rence que Nicolas V. luy offrit. Ce Pape l'employa pour les Peintures de
+                        si profonde, qu’il refusa l’Archevêché de Flo<pb facs="00000170" n="146"/>rence que Nicolas V. luy offrit. Ce Pape l'employa pour les Peintures de
                         sa Chapelle, &amp; luy fit faire quelques Ouvrages de Miniature dans des
                         Livres d'Eglise. Dans ses meilleurs Tableaux il laissoit quelquefois des
                         fautes grossiéres, pour modérer les loüanges qu'il en auroit pû éspérer. Il
@@ -3257,8 +3207,7 @@
                     <p> DE Florence, fit un usage de l'Etat Monastique bien différent de celuy de
                         Jean Angélic, dont nous venons de parler: car aprés avoir été élevé dans un
                         Convent de Carmes dés l'âge de huit ans, &amp; avoir pris l’Habit à
-                        seize, il arriva que Masaccio, peignant une Cha<pb facs="00000171" n="147"
-                        />pelle dans le même Convent, &amp; Lippi l'ayant vû travailler
+                        seize, il arriva que Masaccio, peignant une Cha<pb facs="00000171" n="147"/>pelle dans le même Convent, &amp; Lippi l'ayant vû travailler
                         plusieurs fois, celuycy conçût une grande passion pour la Peinture; il se
                         mit à dessiner avec attache, &amp; la grande facilité qu'il y trouva,
                         réveilla le talent qu'il avoit pour cet Art, &amp; l'empêcha de vaquer à
@@ -3274,8 +3223,7 @@
                         ressemblance qu'on y trouva. Cela amolit le coeur du Patron, qui aprés luy
                         avoir fait faire quelques Portraits, le mit en liberté. De là Lippi passa à
                         Naples, où le Roy Alfonse l'employa: mais l'amour de la Patrie le fit
-                        retourner à Florence. Il y travailla pour le Duc Côme de Médicis, duquel<pb
-                            facs="00000172" n="148"/>il gagna l'affection, &amp; luy fit
+                        retourner à Florence. Il y travailla pour le Duc Côme de Médicis, duquel<pb facs="00000172" n="148"/>il gagna l'affection, &amp; luy fit
                         quantité d'Ouvrages. Comme l'amour des femmes le détournoit de son travail
                         &amp; luy faisoit perdre trop de tems, ce Duc, qui étoit impatient de
                         voir finir un Tableau qu'il luy avoit ordonné, le fit enfermer dans une
@@ -3293,8 +3241,7 @@
                     <p>A quelque tems de là, faisant un Ouvrage dans une Eglise de Spoléte, il
                         devint amoureux d'une femme, &amp; s'étant opiniâtré à la poursuivre
                         contre les avis qu'on luy donnoit, les parens de cette femme
-                        l’empoisonnérent l'année 1488. en la cinquante - septiéme de son âge.<pb
-                            facs="00000173" n="149"/>Le Grand Duc luy fit faire une Sépulture de
+                        l’empoisonnérent l'année 1488. en la cinquante - septiéme de son âge.<pb facs="00000173" n="149"/>Le Grand Duc luy fit faire une Sépulture de
                         marbre, &amp; Angelus Politianus fit son Epitaphe en vers Latins. </p>
                     <p>Tous les Peintres précédens n'ont point eu le secret de peindre à l'huile,
                         ils peigaoient à fresque ou à détrempe, &amp; pour cette derniére sorte
@@ -3417,8 +3364,7 @@
                         qui vouloient avoir un Tableau de sa main, luy donnérent une chambre pour
                         ttavailler plus commodément, &amp; afin que le lieu ne fut embarassé
                         d'aucune chose inutile à son Art, ils en ôtérent tous les meubles, à la
-                        réserve d'une vieille Armoire, qui leur sembla trop<pb facs="00000180"
-                            n="156"/>difficile à transporter. Pinturrichio, dont le naturel étoit
+                        réserve d'une vieille Armoire, qui leur sembla trop<pb facs="00000180" n="156"/>difficile à transporter. Pinturrichio, dont le naturel étoit
                         vif &amp; impatient, youlût qu'on l'ôtât à l'heure même: mais en la
                         transportant, il s'en rompit une piéce, dans laquelle il y avoit cinq cens
                         Ducats d'or cachez. Cela surprit tellement Pinturrichio, &amp; luy donna
@@ -3437,8 +3383,7 @@
                 </div>
                 <div xml:lang="fra">
                     <head rend="text-align:center">ANDRÉ MANTEIGNE.</head>
-                    <p> NÉ dans un Village auprés de Padouë, gardoit les moutons dans<pb
-                            facs="00000181" n="157"/>sa jeunesse; &amp; comme on s'apperçût,
+                    <p> NÉ dans un Village auprés de Padouë, gardoit les moutons dans<pb facs="00000181" n="157"/>sa jeunesse; &amp; comme on s'apperçût,
                         qu'au lieu d'en avoir soin, il s'amusoit à les dessiner; on le mit chez un
                         Peintre nommé Jacques Squarcioné, qui le trouva dans la suite si aimable,
                         qu'il l'adopta pour son fils &amp; l'institua son héritier. Le progrés
@@ -3474,8 +3419,7 @@
                         Corps, qu'il s'attira l'estime &amp; l'amitié des grans Seigneurs. Il
                         fut d'abord Orfévre, puis il s'adonna à graver des Coins de Médailles, où il
                         éxcella. Mais son Génie se sentant trop à l'étroit dans cet Exercice, il se
-                        tourna du côté de la Peinture, où son inclination le portoit. La facilité<pb
-                            facs="00000183" n="159"/>qu'il y trouva luy donna tant de courage
+                        tourna du côté de la Peinture, où son inclination le portoit. La facilité<pb facs="00000183" n="159"/>qu'il y trouva luy donna tant de courage
                         &amp; tant d'application à l'étude, qu'il devint dans cet Art un des
                         plus habiles de son tems. Il fit plusieurs Ouvrages pour divers lieux
                         d'Italie, principalement pour le Duc d'Urbain. La grande réputation de
@@ -3562,8 +3506,7 @@
                         d'autre choses, qui ont été perduës lorsque Milan fut pris par François
                         Premier. Leonard se retira à Florence, où il peignit la grande Sale du
                         Conseil, &amp; où il trouva la réputation de Michelange fort établie, ce
-                        qui forma une vive émulation entr'eux: Leonard étant allé à<pb
-                            facs="00000188" n="164"/>Rome à l'Election de Leon X. Michelange s'y
+                        qui forma une vive émulation entr'eux: Leonard étant allé à<pb facs="00000188" n="164"/>Rome à l'Election de Leon X. Michelange s'y
                         trouva aussi, &amp; leur jalousie s'y étant augmentée à l'éxcés, Leonard
                         passa en France. Il y fut bien reçû. Il y soûtint par sa présence &amp;
                         par son Ouvrage la réputation qu'il s'étoit établie; &amp; le Roy
@@ -3598,8 +3541,7 @@
                         tres-spirituelles. J'ay un Dessein de sa main de cette fameuse Céne qu'il a
                         peinte à Milan, &amp; dont on ne voit presque plus aucun vestige. Ce
                         Dessein seul est une preuve suffisante, pour montrer combien profondément il
-                        pénétroit dans le coeur humain, &amp; avec<pb facs="00000190" n="166"
-                        />quelle vivacité, quelle variété &amp; quelle justesse il en savoit
+                        pénétroit dans le coeur humain, &amp; avec<pb facs="00000190" n="166"/>quelle vivacité, quelle variété &amp; quelle justesse il en savoit
                         réprésenter tous les mouvemens. Mais plutôt que d'en parler sur mon
                         jugement, il est plus à propos de rapporter icy celuy de Rubens sur le
                         mérite d'un si grand Homme. </p>
@@ -3617,8 +3559,7 @@
                         prodigue, ni avare. Il avoit un si grand soin d'éviter la confusion des
                         objets, qu' il aimoit mieux laisser quelque chose à souhaiter dans son
                         Ouvrage, que de rassasier les yeux par une scrupuleuse éxactitude: mais en
-                        quoy il éxcelloit le plus, c'étoit, comme nous<pb facs="00000191" n="167"
-                        />avons dit, à donner aux choses un caractére qui leur fut propre, &amp;
+                        quoy il éxcelloit le plus, c'étoit, comme nous<pb facs="00000191" n="167"/>avons dit, à donner aux choses un caractére qui leur fut propre, &amp;
                         qui les distinguât l'une de l'autre. </p>
                     <p>Il commença par consulter plusieurs sortes de Livres. Il en avoit tiré une
                         infinité de lieux communs, dont il avoit fait un Recueil, il ne laissoit
@@ -3763,8 +3704,7 @@
                         d'une fiévre ardente, &amp; les Médecins, à qui il avoit celé la cause
                         de son mal, l'ayant traité comme d'une plarésie, achevérent d'éteindre les
                         restes de chaleur qui étoient dans un corps déja épuisé. Sa mort arriva le
-                        même jour que sa naissance, le Vendredi Saint de l'année 1520.<pb
-                            facs="00000199" n="175"/>en la trente-septiéme de son âge. Le Cardinal
+                        même jour que sa naissance, le Vendredi Saint de l'année 1520.<pb facs="00000199" n="175"/>en la trente-septiéme de son âge. Le Cardinal
                         Bembo fit son Epitaphe, qu'on lit dans l'Eglise de la Rotonde où il fut
                         enterré. Je n'en rapporteray que ces deux Vers, qui sont admirables. </p>
                     <p>Ille hic est Raphaël timuit quo sospite vinci Rerum magna parens &amp;
@@ -3798,8 +3738,7 @@
                         ses Figures n'étoient pas groupées de lumiéres &amp; d'ombres, elles
                         l'étoient par leurs actions d'une maniére si ingénieuse, que les groupes en
                         ont été toûjours regardées avec plaisir. Ses Attitudes sont nobles selon
-                        leurs convenances, contrastées sans affectation, éx<pb facs="00000201"
-                            n="177"/>pressives, naturelles, &amp; font voir de belles parties. </p>
+                        leurs convenances, contrastées sans affectation, éx<pb facs="00000201" n="177"/>pressives, naturelles, &amp; font voir de belles parties. </p>
                     <p>Son Dessein est tres-correct, &amp; il y a joint la justesse, la noblesse
                         &amp; l'élégance de l'Antique à la naïveté de la Nature, sans affecter
                         aucune maniére. Il a fait voir beaucoup de variété dans ses Figures,
@@ -3834,8 +3773,7 @@
                         entendus de couleurs &amp; de lumiére, que même de ce côté-là ils
                         pourroient entrer en comparaison avec ceux du Titien, aussi-bien que le
                         Saint Jean qui est dans le Cabinet de Monsieur le Prémier Président,
-                        &amp; qui dans toutes les parties de la Peinture<pb facs="00000203"
-                            n="179"/>mérite d'être reconnu pour le Chefd'oeuvre de son Auteur. </p>
+                        &amp; qui dans toutes les parties de la Peinture<pb facs="00000203" n="179"/>mérite d'être reconnu pour le Chefd'oeuvre de son Auteur. </p>
                     <p>Le Poussin a dit de Raphaël qu'il étoit un Ange comparé aux Peintres
                         Modérnes, &amp; qu'il étoit un Asne comparé aux Antiques. Ce jugement ne
                         peut regarder que les pensées, le goût &amp; la justesse du Dessein,
@@ -3944,8 +3882,7 @@
                         Ouvrages dans les Sales du Vatican sur les Desseins de Raphaël, tant devant,
                         qu'aprés la mort de cet illustre Maître, changea aussi-tôt de maniére,
                         &amp; se laissa emporter par le cours rapide de son Génie dans les
-                        Ouvrages qu'il peignit à Mantouë. Ce n'étoit plus cette veine<pb
-                            facs="00000209" n="185"/>gratieuse, ni ce doux feu d'Imagination, qui,
+                        Ouvrages qu'il peignit à Mantouë. Ce n'étoit plus cette veine<pb facs="00000209" n="185"/>gratieuse, ni ce doux feu d'Imagination, qui,
                         tout empruntez qu'ils étoient, ne laissoient pas de mettre en doute si
                         quelques Tableaux qui sortoient de sa main étoient de luy ou de son Maître.
                         Etant donc tout-à-fait à luy, il anima ses Ouvrages par des Idées plus
@@ -3996,8 +3933,7 @@
                         del Vague, &amp; tous trois ensemble achevérent ce que Raphaël avoit
                         laissé d'imparfait, tant de l'Histoire de Constantin, que de quelques autres
                         Ouvrages du Palais de Belvédére. Mais ils se séparérent à l'occasion d'une
-                        Copie que le Pape vouloit faire faire du Tableau de la Transfigura<pb
-                            facs="00000212" n="188"/>tion, parce que ce Tableau avoit été destiné
+                        Copie que le Pape vouloit faire faire du Tableau de la Transfigura<pb facs="00000212" n="188"/>tion, parce que ce Tableau avoit été destiné
                         pour la France. Il Fattoré alla à Naples, dans le dessein de travailler pour
                         le Marquis del Vaste, mais sa compléxion délicate ne luy permit pas d'y
                         vivre longtems, il y mourut en 1528. âgé seulement de quarante ans. </p>
@@ -4069,8 +4005,7 @@
                         qu'on luy donnoit soûtenoient son courage. Il fit beaucoup d'Ouvrages à
                         Florence, qui luy donnérent de la réputation. Ayant entrepris de peindre la
                         Chapelle de Saint Laurent pour le Duc de Florence, &amp; voulant dans
-                        cet Ouvrage, qui dura douze ans, se montrer supérieur à tous<pb
-                            facs="00000216" n="192"/>les autres, il fit voir au contraire qu'il
+                        cet Ouvrage, qui dura douze ans, se montrer supérieur à tous<pb facs="00000216" n="192"/>les autres, il fit voir au contraire qu'il
                         étoit devenu inférieur à luy-même. Il étoit fort honnête homme &amp;
                         fort humble: mais ce qu'on ne peut assez louër, c'est que parmi ces bonnes
                         qualitez, il ne pouvoit souffrir qu'on dit du mal des absens, dont il
@@ -4087,8 +4022,7 @@
                         de connoissance dans les Mathématiques. Quoy que Baccio Bandinelli ait fait
                         avec d'éxtrêmes soins toutes les Etudes nécessaires pour devenir un savant
                         Peintre, ses Tableaux n'ont jamais été bien reçûs, à cause du Coloris qui
-                        n'en valoit rien, ce mauvais succés luy fit abandonner la Peinture,<pb
-                            facs="00000217" n="193"/>&amp; l'obligea de ne songer plus qu'à la
+                        n'en valoit rien, ce mauvais succés luy fit abandonner la Peinture,<pb facs="00000217" n="193"/>&amp; l'obligea de ne songer plus qu'à la
                         Sculpture, dans laquelle il a été un fort habile homme. Il avoit une grande
                         estime de ses propres Ouvrages jusqu'à les mettre en paralelle avec ceux de
                         Michelange; dont il supportoit la réputation avec peine. Ses Ouvrages sont à
@@ -4106,8 +4040,7 @@
                         Peintres, qui éxécutoient ses Desseins. Polidore, qui portoit souvent le
                         mortier dont on faisoit l'enduit de leur fraisque, fut touché par la vuë des
                         Peintures, &amp; sollicité par son Génie de se faire Peintre. il
-                        s'attacha d'abord aux Ouvrages de Jean d'Udiné,<pb facs="00000218" n="194"
-                        />&amp; le plaisir qu'il avoit de voir travailler ce Peintre, commença à
+                        s'attacha d'abord aux Ouvrages de Jean d'Udiné,<pb facs="00000218" n="194"/>&amp; le plaisir qu'il avoit de voir travailler ce Peintre, commença à
                         déveloper le talent qu'il avoit pour la Peinture. Il se rendit assidu
                         &amp; complaisant auprés de ces jeunes hommes qu'il voyoit travailler;
                         il fit amitié avec eux, &amp; leur ayant communiqué son Dessein, il en
@@ -4124,8 +4057,7 @@
                     <p>Il a fait peu de Tableaux de chevalet, &amp; presque tous ses Ouvrages
                         sont à fraisque &amp; d'une même couleur, à l'imitation des Bas-reliefs.
                         Il s'est quelquefois servi dans ces sortes d'Ouvrages de la maniére qu'on
-                        appelle Egratignée, laquelle consiste dans la préparation d'un<pb
-                            facs="00000219" n="195"/>fond noir sur lequel on applique un enduit
+                        appelle Egratignée, laquelle consiste dans la préparation d'un<pb facs="00000219" n="195"/>fond noir sur lequel on applique un enduit
                         blanc; &amp; en ôtant cet enduit avec une pointe de fer, on découvre par
                         hachûre ce noir qui fait les ombres. Cette maniére résiste davantage aux
                         injures du tems, mais elle fait moins de plaisir à la vuë, car elle est fort
@@ -4142,8 +4074,7 @@
                         s'enfuir, Polidore prit le parti d'aller à Naples, où il fut contraint de
                         travailler avec des Peintres médiocres sans pouvoir se faire distinguer; car
                         la Noblesse du Païs étoit alors plus curieuse de beaux Chevaux que de
-                        Peinture. Se voyant donc sans Employ, &amp; contraint<pb facs="00000220"
-                            n="196"/>de dépenser ce qu'il avoit gagné à Rome, il passa en Sicile;
+                        Peinture. Se voyant donc sans Employ, &amp; contraint<pb facs="00000220" n="196"/>de dépenser ce qu'il avoit gagné à Rome, il passa en Sicile;
                         &amp; comme il étoit aussi bon Architécte que bon Peintre, ceux de
                         Messine luy donnérent la conduite des Arcs de Triomphe qu'on dressa à
                         l'Empereur Charles-Quint lorsqu'il retourna de l'éxpédition de Tunis. Cet
@@ -4177,8 +4108,7 @@
                         encore de beaux restes sur les Façades de plusieurs Maisons à Rome, sur
                         lesquelles il a peint des Bas-reliefs de son Invention. </p>
                     <p>Son Génie qui étoit éxtrémement vif &amp; fertile, &amp; l Etude
-                        qu'il avoit faite sur les Bas-reliefs le portérent à réprésenter<pb
-                            facs="00000222" n="198"/>des Combats, &amp; des Sacrifices, des
+                        qu'il avoit faite sur les Bas-reliefs le portérent à réprésenter<pb facs="00000222" n="198"/>des Combats, &amp; des Sacrifices, des
                         vases Antiques, des Trophées d'Armes, &amp; des ornemens composez de
                         tout ce que l'Antiquité nous a laissé de plus remarquable en cette Matiere. </p>
                     <p>Mais ce qui est tout à fait surprenant, c'est que nonobstant l'éxtréme
@@ -4262,8 +4192,7 @@
                         les Soldats trouvérent le Parmésan, qui travailloit avec tranquillité, comme
                         autrefois Protogéne dans Rodes; cette sécurité surprit les prémiers
                         Espagnols, qui entrérent chez luy: la beauté de sa Peinture les surprit
-                        &amp; les toûcha de telle sorte qu'ils se retirérent sans luy faire<pb
-                            facs="00000227" n="203"/>aucun mal; mais il en vint d'autres qui luy
+                        &amp; les toûcha de telle sorte qu'ils se retirérent sans luy faire<pb facs="00000227" n="203"/>aucun mal; mais il en vint d'autres qui luy
                         prirent tout ce qu'il avoit. Il s'en retourna en sa Patrie, &amp;
                         passant par Bologne, il trouva l'occasion de faire beaucoup d'Ouvrages, qui
                         l'y arrêtérent assez long-tems, aprés quoy il se rendit à Parme, où il
@@ -4405,8 +4334,7 @@
                         s'en faut beaucoup qu'il ait pensé aussi finement que luy. Il avoit un Génie
                         singulier pour décorer les lieux selon leur usage. Ses Inventions en ce
                         genre de Peinture sont tres-ingénieuses, il y a par tout de l'Ordre
-                        &amp; de la Grace, &amp; les Dispositions qui sont<pb
-                            facs="00000235" n="211"/>médiocres dans ses Tableaux sont merveilleuses
+                        &amp; de la Grace, &amp; les Dispositions qui sont<pb facs="00000235" n="211"/>médiocres dans ses Tableaux sont merveilleuses
                         dans ses Ornemens. Il les a composez de grandes, de petites &amp; de
                         moyennes parties, qui sont placées avec tant d'intelligence, qu'elles se
                         font valoir l'une l'autre par la comparaison &amp; par le contraste: les
@@ -4424,8 +4352,7 @@
                     <head rend="text-align:center">JEAN D'VDINE,</head>
                     <p> AInsi appellé, à cause de la Ville d'Udiné dans le Frioul, dans laquelle il
                         nâquit en 1494. Il alla fort jeune à Venise, &amp; son inclination le
-                        portant à la Peinture, il se mit sous la Discipline<pb facs="00000236"
-                            n="212"/>du Giorgion, où il passa quelques années; De là il alla à Rome,
+                        portant à la Peinture, il se mit sous la Discipline<pb facs="00000236" n="212"/>du Giorgion, où il passa quelques années; De là il alla à Rome,
                         où Balthazar Castilioni, Secrétaire du Duc de Mantouë, le donna à Raphaël.
                         Jean d'Udiné faisoit bien les Figures, mais comme il s'étoit appliqué
                         particuliérement à l'Etude des Animaux, &amp; sur tout des Oyseaux, dont
@@ -4441,8 +4368,7 @@
                         Sainte Cécile de Bologne par éxemple, sont de la main de Jean d'Udiné,
                         aussi-bien que tous les Ornemens des Loges, &amp; ceux de la Vigne
                         Madame. C'est à luy que nous devons le renouvellement du Stuc &amp; la
-                        façon de l'employer. C'est luy qui a trouvé la véritable matiére dont les<pb
-                            facs="00000237" n="213"/>Anciens se servoient pour cette sorte de
+                        façon de l'employer. C'est luy qui a trouvé la véritable matiére dont les<pb facs="00000237" n="213"/>Anciens se servoient pour cette sorte de
                         travail, qui étoit de la chaux &amp; de la poudre de marbre tres-fine:
                         ce qui a toûjours été pratiqué depuis par les Ouvriers modernes. Jean
                         d'Udiné avoit toûjours éspéré quelque récompense du Pape Leon X. qui étoit
@@ -4512,8 +4438,7 @@
                     <p>Quand le Cardinal Bernard de Bibiénne fit néprésenter devant ce Pape la
                         Comédie intitulée, La Calandra, qui est une des prémiéres Comédies
                         Italiennes qui ayent parû sur les Théatres, Balthazar en composa les Scénes,
-                        &amp; les orna de tant de places, de ruës, &amp; de diverses<pb
-                            facs="00000241" n="217"/>sortes de Bâtimens, que la chose fut admirée de
+                        &amp; les orna de tant de places, de ruës, &amp; de diverses<pb facs="00000241" n="217"/>sortes de Bâtimens, que la chose fut admirée de
                         tout le monde. Aussi doit-il être considéré comme celuy qui a ouvert le
                         chemin aux Ingénieurs &amp; aux Machinistes en ce genre. Il fut employé
                         en divers Ouvrages, tant à Saint Pierre qu'ailleurs; &amp; c'est luy qui
@@ -4619,8 +4544,7 @@
                         grandeur des pensées de Michelange, les trouvent peu naturelles, &amp;
                         quelques-fois éxtravagantes. Ils disent aussi que son Dessein est chargé,
                         quoyque Savant, qu'il a pris trop de licences contre les régles de la
-                        Perspective, &amp; qu'il n'a point entendu<pb facs="00000247" n="223"
-                        />la partie de Coloris: On en parlera dans les Réflexions sur ces Ouvrages;
+                        Perspective, &amp; qu'il n'a point entendu<pb facs="00000247" n="223"/>la partie de Coloris: On en parlera dans les Réflexions sur ces Ouvrages;
                         il suffit de dire que ce Grand Homme a non seulement été aimé &amp;
                         estimé de tous les Souverains de son tems, mais qu'il sera encore
                         l'admiration de toute la Posterité. Il mourut à Rome en 1564. âgé de 90.
@@ -4725,8 +4649,7 @@
                 </div>
                 <div xml:lang="fra">
                     <head rend="text-align:center">DANIEL RICCIARELLI<lb/> De Volterre.</head>
-                    <p> CE dernier nom qui est le plus commun luy a été donné à cause de Vol<pb
-                            facs="00000253" n="229"/>terre Ville de la Toscanne, où il a pris
+                    <p> CE dernier nom qui est le plus commun luy a été donné à cause de Vol<pb facs="00000253" n="229"/>terre Ville de la Toscanne, où il a pris
                         naissance en 1509. Il fut Disciple, prémiérement d'Antoine de Verceil,
                         &amp; puis de Baltazar de Siéne: Mais dans la suite il s'attacha
                         entiérement à la maniére de Michelange qui le protégea dans les occasions;
@@ -4779,8 +4702,7 @@
                     <p> NE à Bologne, Fils d'un Architécte Milanois, eût tant de Génie pour les
                         beaux Arts, que s'étant mis de luymême à dessiner les belles choses, à
                         Bologne &amp; à Rome, il devint l'un des plus habiles de son tems en
-                        Peinture &amp; en Architécture Civile &amp; Militaire. Ce<pb
-                            facs="00000256" n="232"/>fut dans la Ville de Rome qu'il donna les
+                        Peinture &amp; en Architécture Civile &amp; Militaire. Ce<pb facs="00000256" n="232"/>fut dans la Ville de Rome qu'il donna les
                         prémiéres preuves de sa capacité, &amp; que l'on rendit justice à son
                         mérite. Mais quelque bon succés qu'eussent ses Ouvrages, l'Ouvrier n'en
                         éroit pas plus heureux; soit qu'il n'eût pas le talent de se faire valoir,
@@ -4887,8 +4809,7 @@
                         avoit dans le Dessein luy a donné une merveilleuse facilité, &amp; luy a
                         fait produire quantité d'Ouvrages. Il étoit bon Architécte, &amp;
                         entendoit fort bien les Ornemens. Les Ouvrages qu'il a faits à Florence,
-                        tant d'Architécture que de Peinture le mirent en crédit dans la Maison<pb
-                            facs="00000262" n="238"/>des Médicis, où il gagna quelque argent, dont
+                        tant d'Architécture que de Peinture le mirent en crédit dans la Maison<pb facs="00000262" n="238"/>des Médicis, où il gagna quelque argent, dont
                         il maria deux de ses Soeurs. Il avoit beaucoup de Vertus Morales, qui,
                         jointes à sa politesse, luy attirérent l'estime des Cardinaux de son tems.
                         Celuy de Médicis, qui le protégeoit particuliérement, l'engagea à travailler
@@ -4976,8 +4897,7 @@
                         auroit fait ceux d'un homme. Il faisoit ses Etudes au Pastel, &amp; les
                         réduisoit ordinairement à sa maniére. </p>
                     <p>Il se servoit pour faire ses Viérges, d'une Soeur qu'il avoit, &amp; pour
-                        le petit Christ, d'un enfant de cette même Soeur.<pb facs="00000267" n="243"
-                        />Il a gravé luy même à l'eau-forte quelques-uns de ses Tableaux. Il est
+                        le petit Christ, d'un enfant de cette même Soeur.<pb facs="00000267" n="243"/>Il a gravé luy même à l'eau-forte quelques-uns de ses Tableaux. Il est
                         mort à Urbin en 1612. âgé de quatre-vingt-quatre ans. Vanius a été son
                         Disciple. </p>
                 </div>
@@ -5049,8 +4969,7 @@
                     <p> DE Cortone dans la Toscane, élevé &amp; protégé dans la Maison de
                         Sachetti à Rome, a été l'un des plus agréables Peintres qui ayent jamais
                         parû. Son Génie étoit fécond, ses pensées fleuries, &amp; son éxécution
-                        facile. Comme son talent étoit pour les grans Ouvrages, &amp;<pb
-                            facs="00000271" n="247"/>que son Imagination étoit vive, il ne pouvoit
+                        facile. Comme son talent étoit pour les grans Ouvrages, &amp;<pb facs="00000271" n="247"/>que son Imagination étoit vive, il ne pouvoit
                         se contraindre à finir un Tableau de tout point: ce qui fait que ses petits
                         Tableaux, quand on les voit de prés, paroissoient fort éloignez du mérite de
                         ceux qu'il a fait en grand. </p>
@@ -5067,8 +4986,7 @@
                         cherchoit qu'un Beau tout-ensemble, &amp; les Platfons des Eglises, des
                         Galeries, des Palais des Grans; bien loin de l'étonner, étoient la pâture la
                         plus convenable à son Génie. Il en a donné des preuves autentiques à Rome,
-                        dans l'Eglise neuve des Péres de l'Oratoire, dans le Palais<pb
-                            facs="00000272" n="248"/>des Barberins, dans le Palais Pamphile,
+                        dans l'Eglise neuve des Péres de l'Oratoire, dans le Palais<pb facs="00000272" n="248"/>des Barberins, dans le Palais Pamphile,
                         &amp; dans plusieurs autres lieux de Rome &amp; de Florence. </p>
                     <p>Son Coloris n'avoit rien de mauvais, sur tout dans ses carnations, qui
                         auroient encore été meilleures, si elles avoient été plus variées &amp;
@@ -5152,8 +5070,7 @@
                         qu'il avoit tirée par adresse d'Antoine de Messine: Mais encore parce qu'il
                         a travaillé le prémier à joindre l'union à la vivacité des Couleurs,
                         laquelle faisoit avant luy le plus grand mérite des Peintres Vénitiens;
-                        ainsi l'on voit tout ensemble dans les Tableaux de Jean Bellin une grande<pb
-                            facs="00000277" n="253"/>propreté dans ses Couleurs, &amp; un
+                        ainsi l'on voit tout ensemble dans les Tableaux de Jean Bellin une grande<pb facs="00000277" n="253"/>propreté dans ses Couleurs, &amp; un
                         commencement d'Harmonie qui a pû réveiller le tallent du Giorgion. </p>
                     <p>Les progrés étonnans de ce Disciple, &amp; ceux du Titien ont même ouvert
                         les yeux de leur Maître, car les tableaux de la premiere maniére de Jean
@@ -5241,8 +5158,7 @@
                     <p>Il entendoit tres-bien le Clair-obscur, &amp; l'harmonie du
                         tout-ensemble; il ne se servoit pour ses Carnations que de quatre Couleurs
                         capitales, dont le judicieux mélange faisoit toute la difference des âges
-                        &amp; des sexes. Mais dans ces quatres<pb facs="00000282" n="258"
-                        />Couleurs, on ne doit vraisemblablement y comprendre ni le blanc qui tient
+                        &amp; des sexes. Mais dans ces quatres<pb facs="00000282" n="258"/>Couleurs, on ne doit vraisemblablement y comprendre ni le blanc qui tient
                         lieu de la lumiére, ni le noir qui en est la privation. </p>
                     <p>Il paroît que les Principes qu'il avoit trouvez étoient simples, qu'il les
                         possedoit parfaitement, &amp; que son plus grand artifice étoit de faire
@@ -5276,8 +5192,7 @@
                     <p>Giorgion s'étant aperçû du progrés que le Titien avoit fait pour avoir
                         considéré sa maniére, rompit tout commerce avec luy. Ils vêcurent depuis en
                         jalousie jusqu'à ce que la mort qui enléva Giorgion à trente-deux ans,
-                        laissât le champ libre au Titien. A l'âge de vingt-huit ans<pb
-                            facs="00000284" n="260"/>il mit au jour l'Estampe en bois du Triomphe de
+                        laissât le champ libre au Titien. A l'âge de vingt-huit ans<pb facs="00000284" n="260"/>il mit au jour l'Estampe en bois du Triomphe de
                         la Foy, où sont les Patriarches, les Prophétes, les Apôtres, les
                         Evangelistes &amp; les Martyrs; &amp; cet Ouvrage donna une grande
                         opinion de ce qu'il devoit être un jour, &amp; fit dire, que s'il avoit
@@ -5312,8 +5227,7 @@
                         biens. Il mourut de la Peste en 1576 âgé de quatre-vingt-dix-neuf ans. </p>
                     <p>Il a eû beaucoup de Disciples, dont les principaux sont François Vécelli son
                         Frére, Horace Vécelli son fils, le Tintoret &amp; d'autres Vénitiens. </p>
-                    <p>Mais outre ces Italiens, il y avoit trois<pb facs="00000286" n="262"
-                        />Flamans, dont le Titien faisoit grand cas, Jean Calcar, Diteric Barent,
+                    <p>Mais outre ces Italiens, il y avoit trois<pb facs="00000286" n="262"/>Flamans, dont le Titien faisoit grand cas, Jean Calcar, Diteric Barent,
                         &amp; Lambert Zustrus; qui tous trois sont morts jeunes. </p>
                 </div>
                 <div xml:lang="fra">
@@ -5329,8 +5243,7 @@
                         l'ont fait pénétrer dans l'essence de la Peinture plus avant qu'aucun autre
                         Peintre; &amp; si le Giorgion luy a montré le but où il devoit tendre,
                         il en a fraïé le chemin sur un fond solide où tous ceux qui l'y ont suivi,
-                        se sont maintenus dans une estime particuliére; De<pb facs="00000287"
-                            n="263"/>sorte que s'il n'y avoit jamais eû de Titien il n'y auroit peut
+                        se sont maintenus dans une estime particuliére; De<pb facs="00000287" n="263"/>sorte que s'il n'y avoit jamais eû de Titien il n'y auroit peut
                         - être jamais eû de Bassan, de Tintoret, de Paul Véronése, ni quantité
                         d'autres Maîtres, qui ont donné dans l'Europe de glorieuses marques de leur
                         capacité. </p>
@@ -5367,8 +5280,7 @@
                         Muscles puissans, &amp; il a donné par-là un grand caractére à ses
                         Figures: la différence qui se trouve entre luy &amp; Michelange, c'est
                         que celui-cy étoit plus profond dans le Dessein, &amp; qu'il a mêlé au
-                        Goût de l'Antique une prononciation sensible des Muscles, au lieu que<pb
-                            facs="00000289" n="265"/>le Titien a négligé l'Antique, &amp; s'est
+                        Goût de l'Antique une prononciation sensible des Muscles, au lieu que<pb facs="00000289" n="265"/>le Titien a négligé l'Antique, &amp; s'est
                         contenté de charger ses Figures d'hommes en augmentant plûtôt qu'en
                         diminuant la tendresse du Naturel auquel il s'est uniquement attaché. </p>
                     <p>On ne voit point d'exageration dans ses attitudes, elles sont simples
@@ -5424,8 +5336,7 @@
                         picquent le Goût des véritables Connoisseurs beauconp plus que les coups
                         fort sensibles d'une main hardie. </p>
                     <p>Le Titien a eû quatre maniéres, celle de Jean Bellin son Maître, celle de
-                        Giorgion son Competiteur, une troisiéme qui étoit<pb facs="00000292" n="268"
-                        />fort étudiée, mais qui lui étoit propre, &amp; la quatriéme qui avoit
+                        Giorgion son Competiteur, une troisiéme qui étoit<pb facs="00000292" n="268"/>fort étudiée, mais qui lui étoit propre, &amp; la quatriéme qui avoit
                         dégénéré en habitude, mais toûjours solide; la premiere étoit un peu séche:
                         la se conde étoit d'une extrême fiérté, comme on le peut voir par le Tableau
                         de saint Marc, qui est à Venise dans la Sacristie de la Saluté, par celui
@@ -5442,8 +5353,7 @@
                         les Tableaux de l'Annonciation &amp; de la Transfiguration qui sont à
                         San Salvator, le saint Jacques de san Lio, le saint Laurent des Jésuites, le
                         saint Jérômede sancta Maria Nova, la Pentecôte de la Saluté, &amp;
-                        plusieurs autres de cette nature. Ainsi l'on peut<pb facs="00000293" n="269"
-                        />voir à Venise cinquante Tableaux éxposez en public, dans lesquels le
+                        plusieurs autres de cette nature. Ainsi l'on peut<pb facs="00000293" n="269"/>voir à Venise cinquante Tableaux éxposez en public, dans lesquels le
                         Titien a donné à connoître toutes les maniéres dont je viens de parler. </p>
                     <p>Au reste, si les Peintres de l'Ecole Romaine ont surpassé le Titien en
                         vivacité de Génie dans les grandes Compositions &amp; dans le goût du
@@ -5476,8 +5386,7 @@
                     <p> AInsi appellé, parce qu'il étoit Fils d'un Teinturier. La vivacité de son
                         Esprit le sit occuper à plusieurs choses dans sa jeunesse, principalement à
                         la Musique &amp; à la Peinture. Mais s'étant entiérement déterminé à
-                        celle-cy, il se proposa Michelange pour Guide dans le<pb facs="00000295"
-                            n="271"/>Dessein, &amp; se mit sous la Discipline du Tititen pour le
+                        celle-cy, il se proposa Michelange pour Guide dans le<pb facs="00000295" n="271"/>Dessein, &amp; se mit sous la Discipline du Tititen pour le
                         Coloris. Il n'y perdit pas son tems; car il sût pénétrer si avant dans les
                         Principes de son Maître, qu'il luy en donna de la jalousie: l'Ecolier s'en
                         apperçût, s'étant retiré chez luy, il se fit par un Exercice assidu une
@@ -5494,8 +5403,7 @@
                         fait un nombre infini de Portraits, qu'il a finis ou croquez selon l'argent
                         dont il étoit convenu. Comme il y avoit encore une place à remplir dans la
                         même Chambre de l'Ecole de Saint Roch, où il a fait ce beau Crucifix,
-                        plusieurs Peintres se présentérent, &amp; offrirent de faire<pb
-                            facs="00000296" n="272"/>chacun un Dessein, afin qu'on préférât celuy
+                        plusieurs Peintres se présentérent, &amp; offrirent de faire<pb facs="00000296" n="272"/>chacun un Dessein, afin qu'on préférât celuy
                         qui seroit trouvé le meilleur. Les Concurrens étoient Joseph Salviati,
                         Frédéric Zuccre, Paul Véronése, &amp; le Tintoret. Les Confréres de
                         Saint Roch acceptérent la proposition, &amp; fixérent un jour pour
@@ -5564,8 +5472,7 @@
                 </div>
                 <div xml:lang="fra">
                     <head rend="text-align:center">PAUL CALIARI VERONESE</head>
-                    <p> NAquit à Vérone en 1537. Son Pére, nommé Gabriel Caliari étoit Scul<pb
-                            facs="00000300" n="276"/>pteur; son Maître a été un de ses Oncles nommé
+                    <p> NAquit à Vérone en 1537. Son Pére, nommé Gabriel Caliari étoit Scul<pb facs="00000300" n="276"/>pteur; son Maître a été un de ses Oncles nommé
                         Badile, dont la maniére n'étoit pas mauvaise. Les prémiers Ouvrages publics
                         de Paul ont été faits à Mantouë, &amp; dans quelqu'autres Villes
                         d'Italie, mais ayant trouvé beaucoup d'Employ à Venise, il s'y établit. </p>
@@ -5582,8 +5489,7 @@
                         qu'il en a fait une quantité prodigieuse. </p>
                     <p>Il n'y a presque pas d'Eglise à Venise qui ne conserve quelque Ouvrage de sa
                         main: mais les principales marques de sa grande capacité sont dans le Palais
-                        de Saint Marc, à S. Georges, &amp; à Saint Sébastien.<pb facs="00000301"
-                            n="277"/>Il sit un voyage à Rome à l'occasion de Jérôme Gimani
+                        de Saint Marc, à S. Georges, &amp; à Saint Sébastien.<pb facs="00000301" n="277"/>Il sit un voyage à Rome à l'occasion de Jérôme Gimani
                         Procurateur de Saint Marc, que la République envoyoit auprés du Pape: mais
                         il n'y demeura pas long-tems, ayant laissé à Venise beaucoup d'Ouvrages
                         commencez. </p>
@@ -5617,8 +5523,7 @@
                         merveilleux, il travailloit facilement, &amp; son Génie luy auroit fait
                         produire toûjours de belles choses si ses soins avoient toûjours fecondé son
                         Génie. Il a fait une infinité de Tableaux; &amp; selon les lieux,
-                        &amp; les personnes pour qui il travalloit, il méditoit plus ou<pb
-                            facs="00000303" n="279"/>moins ses Compositions. Le Palais de Saint Marc
+                        &amp; les personnes pour qui il travalloit, il méditoit plus ou<pb facs="00000303" n="279"/>moins ses Compositions. Le Palais de Saint Marc
                         à Venise, les Autels principaux des principales Eglises, &amp; quelques
                         Maisons de Nobles consérvent encore aujourd'huy ce qu'il a fait de plus
                         beau. Mais pour les différens Autels des Eglises communes, &amp; pour
@@ -5652,8 +5557,7 @@
                         nombre à Venise, &amp; dont il se servoit pour les airs de tête, aussi -
                         bien que pour les habillemens. Comme ses Draperies sont la plûpart.
                         d'étoffes de différentes éspéces, &amp; que les plis en sont grans
-                        &amp; bien entendus, font une grande partie des beautez<pb
-                            facs="00000305" n="281"/>qui se trouvent dans les Tableaux de Paul
+                        &amp; bien entendus, font une grande partie des beautez<pb facs="00000305" n="281"/>qui se trouvent dans les Tableaux de Paul
                         Véronése. </p>
                     <p>Le soin qu'il prénoit souvent d'imiter les étoffes d'aprés le Naturel luy a
                         aquis une telle habitude en cela, qu'il a fait plusieurs riches Draperies de
@@ -5723,8 +5627,7 @@
                 <div xml:lang="fra">
                     <head rend="text-align:center">JEAN-ANTOINE REGILLO<lb/> dit<lb/> PORDENON</head>
                     <p> EToit de Pordenon, qui est un Bourg du Frioul à vingt mille d'Udiné. Il
-                        étoit issu de l'ancienne Maison des Sacchi,<pb facs="00000309" n="285"
-                        />&amp; le véritable nom de sa branche étoit Licinio; mais l'Empereur
+                        étoit issu de l'ancienne Maison des Sacchi,<pb facs="00000309" n="285"/>&amp; le véritable nom de sa branche étoit Licinio; mais l'Empereur
                         l'ayant fait Chevalier, il prit de-là occasion de changer son nom en haine
                         qu'il portoit à l'un de ses fréres qui l'avoit voulu assasiner &amp;
                         prit celuy de Regillo, il n'a point eû d'autres Maîtres dans la Peinture,
@@ -5889,8 +5792,7 @@
                         touches spirituelles, &amp; les Couleurs toujours vrayes dans les
                         Lointins: mais souvent trop noires dans les proches, quoy qu'il semble qu'il
                         eût voulu par là conserver le caractére des objets lumineux. Il a fait
-                        beaucoup de sujets de nuit, &amp; l'habitude qu'il avoit prise<pb
-                            facs="00000318" n="294"/>à faire des Ombres fortes, peut aussi avoir
+                        beaucoup de sujets de nuit, &amp; l'habitude qu'il avoit prise<pb facs="00000318" n="294"/>à faire des Ombres fortes, peut aussi avoir
                         contribué à celles qu'il a employées quelques-fois hors de propos dans des
                         sujets de jour. </p>
                     <p>Son Pinceau qui est ferme &amp; pâteux est conduit avec une telle
@@ -5906,8 +5808,7 @@
                         &amp; avoit une grande intelligence de la fraisque. La conformité des
                         noms à fait que l'on a confondu les Ouvrages du Neveu avec ceux de l'Oncle.
                         Cependant il a travaillé en beaucoup d'endroits. Il a peint à fraisque la
-                        façade d'une Maison à Ausbourg, dans laquelle demeure<pb facs="00000319"
-                            n="295"/>présentement M. Chanterel. Cét Ouvrage s'est tres-bien
+                        façade d'une Maison à Ausbourg, dans laquelle demeure<pb facs="00000319" n="295"/>présentement M. Chanterel. Cét Ouvrage s'est tres-bien
                         conservé, &amp; pour honnorer la mémoire de son Autheur, les Magistrats
                         de la Ville y ont fait mettre cette inscription. Julius Licinius Civis
                         Venetus &amp; Augustanus hoc AEdficium his picturis insignivit, hicceque
@@ -5960,8 +5861,7 @@
                         tout en monnoye de Cuivre qu'on appelle des quadrins. La joye qu'il avoit de
                         porter cet Argent à sa Femme l'empêcha de faire attention au grand poids
                         dont il se chargeoit dans un tems de chaleurs, &amp; pendant douze
-                        milles de chemin qu'il faisoit à pied, de sorte que s'étant trop échauffé<pb
-                            facs="00000323" n="299"/>de cette charge, il gagna une Pleuresie, dont
+                        milles de chemin qu'il faisoit à pied, de sorte que s'étant trop échauffé<pb facs="00000323" n="299"/>de cette charge, il gagna une Pleuresie, dont
                         il mourut en 1513. âgé de quarante ans. </p>
                 </div>
                 <div xml:lang="fra">
@@ -6119,8 +6019,7 @@
                         Capucins pour se préparer à une mort qu'il sentoit prochaine. Elle arriva en
                         1605. étant âgé seulement de quarante-cinq ans. </p>
                     <p>Il laissa un fils naturel nommé Antoine, dont Annibal prit soin, le fit
-                        étudier, &amp; l'instruisit dans la Peinture. Cet<pb facs="00000332"
-                            n="308"/>Antoine a donné tant de preuves de sa capacité, même dans le
+                        étudier, &amp; l'instruisit dans la Peinture. Cet<pb facs="00000332" n="308"/>Antoine a donné tant de preuves de sa capacité, même dans le
                         peu d'Ouvrages qu'il a laissez dans Rome, qu'on croit qu'il auroit surpassé
                         son Oncle Annibal s'il avoit vêcû plus longt-tems. Il mourut à l'âge de
                         trente-cinq ans, en 1618. </p>
@@ -6156,8 +6055,7 @@
                         inconcevables, ayant mis cette Galerie dans le degré de perfection où nous
                         la voyons, il espéroit que le Cardinal Farnése lui donneroit une récompense
                         proportionnée à la qualité de l'Ouvrage, &amp; à l'espace de huit années
-                        qu'il avoit travaillé pour lui, mais un Espagnol nommé<pb facs="00000334"
-                            n="310"/>Dom Jean de Castro qui gouvernoit l'Esprit dece Cardinal, lui
+                        qu'il avoit travaillé pour lui, mais un Espagnol nommé<pb facs="00000334" n="310"/>Dom Jean de Castro qui gouvernoit l'Esprit dece Cardinal, lui
                         persuada que selon la supputation qu'il avoit faite, Annibal seroit bien
                         payé de la somme de cinq cens écus d'or, on les luy porta, &amp; il fut
                         tellement frappé de cette injustice qu'il ne put dire un seul mot à celuy
@@ -6193,8 +6091,7 @@
                 </div>
                 <div xml:lang="fra">
                     <head rend="text-align:center">REFLEXIONS Sur les Ouvrages des Caraches.</head>
-                    <p> LOrsque Michelange de Casavage &amp; le Chevalier Josepin tenoient<pb
-                            facs="00000336" n="312"/>à Rome le timon de la Peinture, que le premier
+                    <p> LOrsque Michelange de Casavage &amp; le Chevalier Josepin tenoient<pb facs="00000336" n="312"/>à Rome le timon de la Peinture, que le premier
                         qui dessinoit d'un trés-mêchant Goût s'attiroit beaucoup d'Elèves, parce
                         qu'il êtoit grand Coloriste, &amp; que Josepin s'étoit jetté dans une
                         maniére éxpéditive, sans goût, &amp; sans éxactitude, le bon Genie de la
@@ -6248,8 +6145,7 @@
                         tendre, moins fondu, &amp; moins agréable. </p>
                     <p>Ce défaut est commun presqu'à tous ceux qui ont correctement dessiné. Ils ont
                         crû qu'ils perdroient le fruit de leurs travaux, s'ils laissoient ignorer au
-                        monde à quel point ils possédoient cette par<pb facs="00000339" n="315"
-                        />tie, &amp; qu'on leur pardonneroit assez tout ce qui leur manque
+                        monde à quel point ils possédoient cette par<pb facs="00000339" n="315"/>tie, &amp; qu'on leur pardonneroit assez tout ce qui leur manque
                         d'ailleurs, quand on seroit content de la régularité de leur Dessein. Ils
                         ont eû si peur qu'elle n'échapât aux yeux, qu'ils n'ont point eû de scrupule
                         de les offencer par la crudité de leurs Contours. </p>
@@ -6284,8 +6180,7 @@
                         prédilection pour Loüis, parce, qu'il trouvoit beaucoup de Grace &amp;
                         de Grandeur dans ce qu'il faisoit. Il chercha ensuite une maniére à laquelle
                         il pût s'arrêter. Il alla à Rome, où il en copia de toutes sortes, il étoit
-                        charmé des Tableaux de Raphaël d'un côté, &amp; la<pb facs="00000341"
-                            n="317"/>force de ceux de Caravage luy plaisoit d'un autre. Il essaya de
+                        charmé des Tableaux de Raphaël d'un côté, &amp; la<pb facs="00000341" n="317"/>force de ceux de Caravage luy plaisoit d'un autre. Il essaya de
                         tout, &amp; s'arrêta enfin à une maniére qui pût plaire à tout le monde.
                         En effet, celle qu'il, s'èst forméc est si grande, si facile, &amp; si
                         gracieuse, qu'elle luy a aquis beaucoup de bien &amp; de réputations. </p>
@@ -6301,8 +6196,7 @@
                         chacune desquelles il se faisoit payer cent Ecus Romains. </p>
                     <p>Le Guide se voyoit ainsi fort à son aise, &amp; vivoit honorablement,
                         quand la passion du jeu s'empara de son Esprit. Il y fut malheureux,
-                        &amp; les pertes qu'il fit, le réduisirent enfin dans la nécessité.<pb
-                            facs="00000342" n="318"/>Ses Amis prirent soin de luy faire envisager
+                        &amp; les pertes qu'il fit, le réduisirent enfin dans la nécessité.<pb facs="00000342" n="318"/>Ses Amis prirent soin de luy faire envisager
                         son Etat: mais il ne luy fut pas possible de se corriger. Il envoyoit vendre
                         sous main à vil prix des Tableaux dont il avoit refusé beaucoup d'argent
                         &amp; il n'avoit pas plutôt reçû ce petit secours, qu'il alloit chercher
@@ -6333,8 +6227,7 @@
                         disposez en général, &amp; les Figures en particulier. </p>
                     <p>Comme le Guide a été le prémier &amp; le plus affectionné de tous les
                         Eléves des Caraches, il se conforma d'abord à leur Goût de Dessein &amp;
-                        à leur maniére. Il s'en fit une dans la suite qui n'étoit<pb facs="00000344"
-                            n="320"/>pas si ferme, si prononcée ni si savante que celle d'Annibal;
+                        à leur maniére. Il s'en fit une dans la suite qui n'étoit<pb facs="00000344" n="320"/>pas si ferme, si prononcée ni si savante que celle d'Annibal;
                         mais qui approche plus du caractére de la Nature, sur tout dans les
                         éxtrémitez, les têtes, les pieds &amp; les mains. Il y observoit
                         certaines tendresses, &amp; y dessinoit certaines parties d'une façon
@@ -6351,8 +6244,7 @@
                         qui regardent en haut. Il faut dire aussi qu'il a traité peu de sujets qui
                         fussent capables de luy, fournir une assez grande diversité d'Expressions
                         pour être entiérement comparé en ce genre à Raphaël: cette beauté touchante,
-                        qui fait le mérite des Têtes du Guide, consiste à mon<pb facs="00000345"
-                            n="321"/>avis, non seulement dans la régularité des traits, mars encore
+                        qui fait le mérite des Têtes du Guide, consiste à mon<pb facs="00000345" n="321"/>avis, non seulement dans la régularité des traits, mars encore
                         dans un air précieux qu'il a donné aux bouches, lequel tient un milieu
                         délicat entre le rire &amp; le mélancolique; &amp; dans un accord de
                         ces mêmes bouches, avec une certaine modestie qu'il a mise dans les yeux. </p>
@@ -6369,8 +6261,7 @@
                         prémiére maniére. Il en fit même quelques-uns dans la maniére du Caravage,
                         mais le trop grand travail qu'il y trouva, &amp; le moyen qu'il
                         cherchoit de plaire à tout le monde, le détermina à une maniére claire, que
-                        les Italiens appellent Vague. Il fit dans cette pratique plusieurs<pb
-                            facs="00000346" n="322"/>Tableaux tres-agréables, &amp; dans une
+                        les Italiens appellent Vague. Il fit dans cette pratique plusieurs<pb facs="00000346" n="322"/>Tableaux tres-agréables, &amp; dans une
                         grande union de Couleurs, quoy que plus foibles: mais s'étant accoûtumé
                         peu-à-peu à cette foiblesse, il négligea ses Carnations, ou peut-être, les
                         voulant faire plus délicates, il donna dans un gris, qui alla souvent
@@ -6423,8 +6314,7 @@
                         &amp; qu'il en dessinoit souvent quelque chose sur ses tablettes. Il
                         étoit d'un tempérament doux &amp; avoit un procédé fort honnête,
                         cependant il expérimenta une cruelle persécution de la part de ses envieux,
-                        &amp; principalement à Naples; ce qui lui causa<pb facs="00000349"
-                            n="325"/>un éxtrême chagrin dont il mourut en 1641. âgé de soixante ans.
+                        &amp; principalement à Naples; ce qui lui causa<pb facs="00000349" n="325"/>un éxtrême chagrin dont il mourut en 1641. âgé de soixante ans.
                     </p>
                 </div>
                 <div xml:lang="fra">
@@ -6570,8 +6460,7 @@
                         son Art, que ç'a été un des plus savans &amp; des plus agréables
                         Peintres d'Italie. </p>
                     <p>Etant de retour à Bologne il épousa en secondes Nôces une femme qui luy
-                        apporta en dot une grande beauté, &amp;<pb facs="00000357" n="333"
-                        />beaucoup de complaisance. Ainsi il trouva en elle le repos de sa maison,
+                        apporta en dot une grande beauté, &amp;<pb facs="00000357" n="333"/>beaucoup de complaisance. Ainsi il trouva en elle le repos de sa maison,
                         &amp; un modéle parfait pour les femmes qu'il auroit à peindre. Elle eût
                         de beaux Enfans dans la suite, &amp; l'Albane prît autant de plaisir à
                         les peindre, que sa femme en avoit à les tenir, ou dans ses mains, ou
@@ -6606,8 +6495,7 @@
                         fort gracieux; ce qui fait que de toutes les maniéres il n'y en a point de
                         plus facile à connoître que celle de l'Albane. </p>
                     <p>Les sujets qu'il a traitez ne sont, pas d'une nature à faire juger s'il
-                        savoit entrer dans les différentes passions, &amp;<pb facs="00000359"
-                            n="335"/>celles qu'il a éxprimées tendent presque toutes à la joye,
+                        savoit entrer dans les différentes passions, &amp;<pb facs="00000359" n="335"/>celles qu'il a éxprimées tendent presque toutes à la joye,
                         &amp; ne sont pas fort fines. Ainsi l'on peut dire que la Grace qui
                         paroît dans ses Ouvrages ne vient pas si précisément de son Génie, que de
                         l'habitude de sa main. </p>
@@ -6639,8 +6527,7 @@
                         donnoient. Il étoit néanmoins fort amy du Guide, pendant la vie duquel il
                         demeura toûjours à Cento, qui est auprés de Bologne, &amp; ne rentra
                         dans la Ville qu'aprés la mort de ce Peintre. Il a toûjours suivi cette
-                        façon de peindre forte, si ce n'est sur la fin, contre son<pb
-                            facs="00000361" n="337"/>sentiment, &amp; seulement, disoit-il, pour
+                        façon de peindre forte, si ce n'est sur la fin, contre son<pb facs="00000361" n="337"/>sentiment, &amp; seulement, disoit-il, pour
                         gagner de l'argent &amp; plaire aux ignorans, que la réputation du Guide
                         &amp; de l'Albane avoit entraînez; c'est ainsi qu'il parloit. La vérité
                         est que de tous les Eléves des Caraches, il n'y en a point eû de moins
@@ -6658,8 +6545,7 @@
                         étoit presque toûjours accompagné de plusieurs Peintres, qui le suivoient
                         comme leur Maître, &amp; le respectoient comme leur Pére. Car il les
                         assistoient de son conseil, de son crédit, &amp; de sa bourse même,
-                        quand ils en avoient bésoin. Quoy qu'il fût fort humble, il n'a<pb
-                            facs="00000362" n="338"/>voit rien de bas dans ses maniéres, &amp;
+                        quand ils en avoient bésoin. Quoy qu'il fût fort humble, il n'a<pb facs="00000362" n="338"/>voit rien de bas dans ses maniéres, &amp;
                         il joignît à la droiture de ses moeurs une hardiesse honnête, qui le fit
                         aimer des Grans. Comme il étoit laborieux, il amassa beaucoup de bien, qu'il
                         employoit à faire plaisir à tout le monde. Il donna de grandes sommes pour
@@ -6725,8 +6611,7 @@
                         Saint Thomas &amp; un Cupidon, qui sont deux morceaux admirables. </p>
                     <p>Justiniani luy obtint sa grace, &amp; luy fit des réprimandes de son
                         emportement: mais Michelange se voyant en liberté ne pût pas modérer sa
-                        bile, il alla trouver Josepin, &amp; luy fit un Appel.<pb
-                            facs="00000366" n="342"/>Celuy-ci luy répondit qu'il étoit Cavalier,
+                        bile, il alla trouver Josepin, &amp; luy fit un Appel.<pb facs="00000366" n="342"/>Celuy-ci luy répondit qu'il étoit Cavalier,
                         &amp; qu'il ne tiroit l'épée qu'avecses pareils. Le Caravage piqué de
                         cette réponse s'en alla à Malthe, fit ses Caravanes, &amp; reçût l'Ordre
                         de Chevalerie en qualité de Frére servant. C'est-là qu'il fit le Tableau de
@@ -6742,8 +6627,7 @@
                     <p> LEs Idées du Caravage ressemblent à son tempérament, elles étoient fort
                         inégales, &amp; jamais fort élevées. Ses Dispositions étoient bonnes,
                         son Dessein d'un méchant Goût, &amp; il n'en savoit pas assez pour bien
-                        choisir, ou pour bien corrigea la Nature. Toute son application<pb
-                            facs="00000367" n="343"/>étoit dans le Coloris, &amp; il y a
+                        choisir, ou pour bien corrigea la Nature. Toute son application<pb facs="00000367" n="343"/>étoit dans le Coloris, &amp; il y a
                         merveilleusement réüssi. Ses Couleurs locales sont éxtrémement recherchées,
                         &amp; par une belle intelligence de lumiére, jointe à une éxacte variété
                         de teintes fonduës les unes dans les autres, sans être corrompuës ni
@@ -6818,8 +6702,7 @@
                         redevable de la perfection où elle est parvenuë depuis par le moyen de cette
                         nouvelle Invention. Ainsi les Ouvrages de Jean de Bruges ayant augmenté de
                         beauté, se répandirent dans les Cabinets des Grans. </p>
-                    <p>Le Tableau qu'il envoya à Alphonse Roy de Naples, fut cause que le secret<pb
-                            facs="00000371" n="347"/>de peindre à huile entra en Italie, comme on
+                    <p>Le Tableau qu'il envoya à Alphonse Roy de Naples, fut cause que le secret<pb facs="00000371" n="347"/>de peindre à huile entra en Italie, comme on
                         l'a fait voir dans la vie d'Antoine de Messine. Jean de Bruges se fit
                         estimer, non seulement par sa Peinture, mais aussi par la solidité de son
                         Esprit. Ensorte que le Duc de Bourgogne lui donna une place dans son
@@ -6966,8 +6849,7 @@
                     <p> DE Leyde vivoit aussi dans le même tems, on voit de luy de fort bonnes
                         choses à Leyde &amp; à Utrec, il a eu deux fils qui ont fort imité sa
                         maniére, Cornélius Cornélii, &amp; Lucas Cornélii, celuy cy, dans l'état
-                        misérable où étoit la Peinture se fît Cuisinier. Mais forcé par<pb
-                            facs="00000379" n="355"/>son Génie, il reprit sa premiére Profession,
+                        misérable où étoit la Peinture se fît Cuisinier. Mais forcé par<pb facs="00000379" n="355"/>son Génie, il reprit sa premiére Profession,
                         &amp; devint habile Peintre. </p>
                     <p>Il passa en Angleterre où le Roy Henry, VIII. luy donna de l'employ &amp;
                         le prit en affection. </p>
@@ -7021,8 +6903,7 @@
                         générosité, il luy en coûta la vie; car on prétend que dans un repas qu'on
                         luy donna à Flessingue il fut empoisonné par la jalousie de quelqu'un de sa
                         Profession. Etant de retour chez luy, il passa six années dans une vie
-                        languissante, &amp; presque toûjours couché. Ce qui luy faisoit<pb
-                            facs="00000382" n="358"/>plus de peine en cet état d'infirmité, étoit de
+                        languissante, &amp; presque toûjours couché. Ce qui luy faisoit<pb facs="00000382" n="358"/>plus de peine en cet état d'infirmité, étoit de
                         ne pouvoir travailler à son aise: mais il avoit tant d'amour pour son Art,
                         que malgré son indisposition, il ne pouvoit s'empêcher de travailler sur son
                         lit; &amp; sur ce qu'on luy réprésentoit que cette application
@@ -7039,8 +6920,7 @@
                     <p> APrés avoir éxercé prés de vingt ans le mêtier de Maréchal, tomba malade
                         d'une langueur qui ne luy permettoit pas de travailler assez pour gagner sa
                         vie, il se retira chez sa Mére pour y trouver sa subsistance: mais elle
-                        étoit si vieille &amp; si pauvre qu'elle avoit<pb facs="00000383"
-                            n="359"/>beaucoup de peine elle-même à s'entreténir. Dans ces tems-là un
+                        étoit si vieille &amp; si pauvre qu'elle avoit<pb facs="00000383" n="359"/>beaucoup de peine elle-même à s'entreténir. Dans ces tems-là un
                         de ses amis l'étant allé voir, luy montra par hazard une Image qu'un
                         Religieux luy venoit de donner, il se sentit à la vuë de cette Estampe
                         violamment poussé à la copier, ce qu'ayant fait avec quelque succés, l'envie
@@ -7057,8 +6937,7 @@
                         l'on voit quelques Epigrammes sur ce pied-là. On trouve beaucoup de ses
                         Tableaux à Anvers, &amp; entr'autres une descente de Croix dans l'Eglise
                         de Nôtre-Dame. Il ne faisoit ordinairement que des demi-Figures &amp;
-                        des Portraits. Ainsi ses Ouvrages ayant été faciles à transporter,<pb
-                            facs="00000384" n="360"/>se sont dispersez de tous côtez dans les
+                        des Portraits. Ainsi ses Ouvrages ayant été faciles à transporter,<pb facs="00000384" n="360"/>se sont dispersez de tous côtez dans les
                         Cabinets de l'Europe. Sa maniére, qui n'avoit rien de celle des autres
                         Peintres, étoit fort finie, &amp; forte de Couleurs. Il vêquit fort
                         long-tems, &amp; il mourut l'an 1529. </p>
@@ -7131,8 +7010,7 @@
                         sa mesure pour luy faire une éspéce de robe, avec laquelle il devoit figurer
                         selon le projet qu'on en avoit fait, voulût qu'on luy donnât l'étoffe, sous
                         prétexte d'imaginer quelque bizare ajustement: mais c'étoit en effet pour la
-                        vendre, &amp; pour en porter l'argent au<pb facs="00000388" n="364"
-                        />cabaret, comme il fit; car sachant que l'Empereur ne devoit arriver que le
+                        vendre, &amp; pour en porter l'argent au<pb facs="00000388" n="364"/>cabaret, comme il fit; car sachant que l'Empereur ne devoit arriver que le
                         soir, il crût qu'il luy seroit facile de se tirer d'affaire. Comme le jour
                         de l'arrivée de Sa Majesté Impériale approchoit, Mabuse, au lieu d'étoffe,
                         colla du papier blanc ensemble, y peignit un Damas à grandes fleurs, fit luy
@@ -7186,8 +7064,7 @@
                         Barbare, qui y régnoit. Il forma chez luy une espéce d'Academie où il eut
                         pour Disciples entr'autres Hubert Goltius, Franc-Flore &amp; Guillaume
                         Caye. On voit quelques Estampes d'aprés ses Ouvrages qui font juger de son
-                        Goût, Sandrart prétend avec quelques autres que Suavius &amp; Lombard<pb
-                            facs="00000391" n="367"/>ne sont qu'une même personne, il dit que
+                        Goût, Sandrart prétend avec quelques autres que Suavius &amp; Lombard<pb facs="00000391" n="367"/>ne sont qu'une même personne, il dit que
                         Lombard, dans sa jeunesse s'appelloit Lambert Suterman &amp; qu'il a
                         voulu éxprimer dans la suite ce surnom par le mot Latin Suavius, &amp;
                         que sur ce principe il a marqué ses Estampes de cette sorte, L. Suavius
@@ -7224,8 +7101,7 @@
                         entr'autre celuy du Roy Henry VIII. &amp; de ses enfans, Marie, Edoüard
                         &amp; Elizabeth, il y a peint des Tableaux d'Histoires en divers lieux,
                         il y en a deux sur tout qui sont d'une grande composition, l'un est le
-                        triomphe des Richesses &amp; l'autre l'Estat de la Pauvreté,<pb
-                            facs="00000393" n="369"/>Frederic Zuccre, que le Roy d'Angleterre avoit
+                        triomphe des Richesses &amp; l'autre l'Estat de la Pauvreté,<pb facs="00000393" n="369"/>Frederic Zuccre, que le Roy d'Angleterre avoit
                         fait venir d'Italie, fut éxtrémement surpris en voyant les Ouvrages de
                         Holbein, &amp; dit qu'ils n'estoient inferieurs ni à Raphaël ni au
                         Titien. Holbein peignoit également bien en toute sorte de maniére, à
@@ -7279,8 +7155,7 @@
                 </div>
                 <div xml:lang="fra">
                     <head rend="text-align:center">JE ANCOLMEILLE VERMEYEN</head>
-                    <p> NÉ dans un Village prés d'Harlem, étoit attaché auprés de l'Empereur<pb
-                            facs="00000396" n="372"/>Charles-Quint &amp; le suivit dans
+                    <p> NÉ dans un Village prés d'Harlem, étoit attaché auprés de l'Empereur<pb facs="00000396" n="372"/>Charles-Quint &amp; le suivit dans
                         plusieurs voyages &amp; entr'autres dans celuy de Tunis, dont il a peint
                         l'éxpédition en plusieurs sujets qui ont été éxécutez en tapisseries
                         magnifiques que Philippe II. laissa en Portugal &amp; qui s'y voyent
@@ -7299,8 +7174,7 @@
                         &amp; d'une maniére forte, vraye &amp; résoluë. Ila fait dans les
                         Cours d'Espagne, de Portugal &amp; de l'Empereur Charles V. quantité de
                         Portraits qu'on lui payoit éxtrémement cher. Outre les présens qu'on luy
-                        faisoit; de sorte qu'il devint fortriche. Ila aussi voyagé en Italie.<pb
-                            facs="00000397" n="373"/>Quoy que son principal employ fût de faire des
+                        faisoit; de sorte qu'il devint fortriche. Ila aussi voyagé en Italie.<pb facs="00000397" n="373"/>Quoy que son principal employ fût de faire des
                         Portraits: il ne laissoit pas de faire quelques-fois des Tableaux d'Histoire
                         par intervalle. Il y en a un dans le Cabinet de M. le Prince de Condé, où
                         est réprésenté Nôtre-Seigneur Ressuscité, entre Saint Pierre &amp; Saint
@@ -7317,8 +7191,7 @@
                         fait beaucoup de choses, il passa en France &amp; de là en Italie, qu'il
                         a toute parcouruë. </p>
                     <p>Quoy qu'il ait traité toutes sortes de sujets, ceux neanmoins qui luy
-                        plaisoient davantage étoient des Jeux, des Danses,<pb facs="00000398"
-                            n="374"/>des Nôces, où d'autres Assemblées de Païsans parmi lesquels il
+                        plaisoient davantage étoient des Jeux, des Danses,<pb facs="00000398" n="374"/>des Nôces, où d'autres Assemblées de Païsans parmi lesquels il
                         se mêloit souvent pour remarquer plus précisement leurs actions, &amp;
                         ce qui se passoit parmi eux dans ces rencontres, aussi, personne n'a rien
                         fait de mieux en ce genre-là. Il a étudié le Païsage dans les Montagnes du
@@ -7441,8 +7314,7 @@
                         retirer dans Courtray, où il a peint des Tableaux d'Eglise, &amp; sur
                         tout à Sainte Catherine. </p>
                     <p>Comme il s'en rentournoit à sa Terre de Meulebrac, il fut volé &amp;
-                        dépoüillé tout nud. Se voyant réduit à cette éxtrémité,<pb facs="00000405"
-                            n="381"/>il s'embarqua sur un Vaisseau qui le mena à Harlem, où il se
+                        dépoüillé tout nud. Se voyant réduit à cette éxtrémité,<pb facs="00000405" n="381"/>il s'embarqua sur un Vaisseau qui le mena à Harlem, où il se
                         rétablit dans l'abondance, &amp; s'occupa à la Peinture &amp; à la
                         Poësie. Il y fit entr'autres choses l'Histoire de la Passion, qu'un nommé de
                         Geyen a gravé. Il établit dans la même ville d'Harlem, avec Goltius
@@ -7460,8 +7332,7 @@
                     <head rend="text-align:center">MARTIN DE VOS</head>
                     <p> D'Anvers, a voyagé par toute l'Italie. Il étoit correct dans son Dessein,
                         &amp; facile dans ses Inventions: mais l'on ne trouve rien de bien
-                        piquant dans ses Ouvrages; ils sont néanmoins en<pb facs="00000406" n="382"
-                        />grand nombre &amp; la plûpart ont été gravez, &amp; se voyent en
+                        piquant dans ses Ouvrages; ils sont néanmoins en<pb facs="00000406" n="382"/>grand nombre &amp; la plûpart ont été gravez, &amp; se voyent en
                         Estampes. C'est d'aprés ses Desseins que les Sadelers ont gravé les Ermites.
                         Il a fait aussi les Desseins de la Vie de J. C. que Vierx a gravez pour les
                         Evangiles de Natalis. Il étoit fort gros, &amp; aprés avoir vêcu fort
@@ -7496,8 +7367,7 @@
                         si peu réglée: ce que je dis, sans vouloir diminuer l'Esprit de ses Ouvrages
                         &amp; le mérite qui s'y trouve d'ailleurs; car ils plûrent à bien des
                         gens, &amp; sur tout au Pape, qui luy donna ordre de les continuer, avec
-                        cette condition néanmoins, que Spranger, avant que de commencer les<pb
-                            facs="00000408" n="384"/>Tableaux qu'il auroit entrepris pour Sa
+                        cette condition néanmoins, que Spranger, avant que de commencer les<pb facs="00000408" n="384"/>Tableaux qu'il auroit entrepris pour Sa
                         Sainteté, en feroit voir les Desseins, pour y corriger ce qu'on trouveroit à
                         propos, ce qui donna lieu à Spranger de finir ses pensées, qu'il n'avoit
                         jusques-là qu'esquissées tres-légérement, selon la vivacité de son
@@ -7534,8 +7404,7 @@
                         d'Allemagne, il y visitoit les Peintres &amp; les Curieux; &amp; n'y
                         voulant pas être connu, de son Vallet il fit son Maître, au service duquel
                         il feignoit d'être attaché en qualité de Peintre. Il eût par ce moyenle
-                        plaisir d'entendre. ce que les uns &amp; les autres disoient de ses<pb
-                            facs="00000410" n="386"/>Ouvrages sans le connoître. Ce déguisement,
+                        plaisir d'entendre. ce que les uns &amp; les autres disoient de ses<pb facs="00000410" n="386"/>Ouvrages sans le connoître. Ce déguisement,
                         l'éxercice du voyage, &amp; l'air différent des païs par où il passoit,
                         changérent tellement la situation de son esprit, &amp; disposition de
                         son corps, qu'il se trouva délivré de tous ses maux, &amp; qu'il reprit
@@ -7587,8 +7456,7 @@
                     <head rend="text-align:center">MATHIEU &amp; PAUL BRIL fréres</head>
                     <p> D'Anvers ont été bons Païsagistes &amp; bons Topographes. Mathieu étoit
                         déja établi dans les Ouvrages du Vatican, lorsque Paul son frére le vint
-                        trouver: ils y ont beaucoup travaillé à fraisque,<pb facs="00000413" n="389"
-                        />Mathieu mourut en 1584. &amp; Paul son puîné qui à vêcu soixante -
+                        trouver: ils y ont beaucoup travaillé à fraisque,<pb facs="00000413" n="389"/>Mathieu mourut en 1584. &amp; Paul son puîné qui à vêcu soixante -
                         douze ans, &amp; qui n'est mort qu'en 1622. a fait quantité de Tableaux.
                         Ils sont aujourd'huy dispersez dans les Cabinets des Curieux, &amp; sont
                         en grande estime. </p>
@@ -7863,8 +7731,7 @@
                         pénétration. L'on voit dans la Ville de Gand un Tableau de sa main,
                         réprésentant la chûte des Damnez, où il y a prés de deux cens Figures,
                         dessinées d'un bon Goût, &amp; d'une grande correction. Cela fait voir
-                        que les fautes où Rubens est tombé contre le Des<pb facs="00000428" n="404"
-                        />sein, ne viennent que de la rapidité de ses Productions. </p>
+                        que les fautes où Rubens est tombé contre le Des<pb facs="00000428" n="404"/>sein, ne viennent que de la rapidité de ses Productions. </p>
                     <p>Nous avons à Paris quantité de Tableaux de Rubens, &amp; sur tout dans la
                         Galerie du Palais de Luxembourg. I'y renvoys les Juges d'ésinteressez,
                         &amp; l'on y trouvera du moins dans les Divinitez &amp; dans les
@@ -7940,8 +7807,7 @@
                         beaucoup de choses avoit une grande théorie, mais peu de pratique dans son
                         art. Adam s'étant fortifié dans sa Profession par l'éxercice &amp; par
                         les leçons de son Maître, s'en alla à Rome, où il a passé le reste de sa
-                        vie. Il étoit fort studieux, &amp; quoy qu'il ait peint<pb
-                            facs="00000432" n="408"/>en tres petit à huile, il a extrémement, fini
+                        vie. Il étoit fort studieux, &amp; quoy qu'il ait peint<pb facs="00000432" n="408"/>en tres petit à huile, il a extrémement, fini
                         toutes choses, avec une bonne intelligence du Coloris &amp; une
                         composition ingénieuse, le Comte Gaude, d'Utrec, agravé d'aprés luy sept
                         Piéces d'une grande politesse &amp; d'une grande force, on voit encore
@@ -7994,8 +7860,7 @@
                     <p> D'Anvers, étoit né avec un Génie merveilleux pour la Peinture, &amp;
                         dans sa jeunesse, il a fait des choses qui le mettoient bien au dessus de
                         tous les jeunes Peintres de son tems: mais l'amour s'empara tellement de son
-                        coeur, qu'il sacrifia sa Profession à l'assiduité qu'il ren<pb
-                            facs="00000435" n="411"/>doit à une jeune fille d'Anvers, &amp;
+                        coeur, qu'il sacrifia sa Profession à l'assiduité qu'il ren<pb facs="00000435" n="411"/>doit à une jeune fille d'Anvers, &amp;
                         l’ayant épousée, il ne songea plus qu'à dépenser le bien qu'il avoit, aux
                         divertissemens &amp; à la bonne chere. Cette vie épuisa bien-tôt ce
                         qu'il avoit de bien, &amp; au lieu de s'en prendre à sa paresse, il
@@ -8090,8 +7955,7 @@
                         Portraits, qu'il travailla avec beaucoup de soin dans les commencemens: mais
                         qu'il peignit sur la fin avec beaucoup de promtitude les faisant fort legers
                         d'Ouvrages. Quelqu'un de ses amis lui en demandant la raison, il répondit
-                        qu'aprés avoir travaillé long-tems pour sa réputation, il étoit<pb
-                            facs="00000440" n="416"/>raisonnable de travailler aussi pour sa
+                        qu'aprés avoir travaillé long-tems pour sa réputation, il étoit<pb facs="00000440" n="416"/>raisonnable de travailler aussi pour sa
                         cuisine. Ce fut ainsi qu'il amassa beaucoup de bien &amp; qu'ayant
                         épousé une Femme de grande, qualité il soûtint dans sa maison une dépense
                         magnifique. Il est mort à Londre en 1641. âgé de quarante-deuxans. Il est
@@ -8128,8 +7992,7 @@
                         avantageux des visages. Il en observoit tous les agrémens; il les conservoit
                         dans sa mémoire, &amp; il imitoit ainsi non seulement ce qu'il voyoit
                         dans son Modéle; mais ce qu'il croyoit possible &amp; capable d'en
-                        soûtenir un bon caractére, sans altérer la ressemblance. De sorte que<pb
-                            facs="00000442" n="418"/>parmi la vérité des Portraits de Vandeik, on y
+                        soûtenir un bon caractére, sans altérer la ressemblance. De sorte que<pb facs="00000442" n="418"/>parmi la vérité des Portraits de Vandeik, on y
                         voit un Art que les Peintres qui l'ont précédé ont rarement mis en usage. Il
                         est si difficile de garder en cela une mesure bien juste, qu'il faut avoir
                         les yeux de Vandeik pour voir tout ce qu'il y a à voir sur cette matiére,
@@ -8185,8 +8048,7 @@
                         suivant en cela son Génie, qui le porta toûjours à travailler en petit.
                         Ilretourna en son païs, où il se mit fortement à travailler pour se faire
                         connoître par ses Ouvrages. Le Roy d'Angleterre qui en vit quelques-uns,
-                        l'attira par une pension annuelle. Il retourna à Utreck,<pb facs="00000445"
-                            n="421"/>d'où ses Tableaux, faciles à transporter, à cause de leur
+                        l'attira par une pension annuelle. Il retourna à Utreck,<pb facs="00000445" n="421"/>d'où ses Tableaux, faciles à transporter, à cause de leur
                         petitesse, répandirent bientôt sa rénommée dans les Païs-Bas. Rubens fut si
                         touché de sa maniére en passant par Utreck, qu'il luy commanda quelques
                         Tableaux, que Sandrart eût soin de luy faire tenir. Mais aujourd'huy ses
@@ -8364,8 +8226,7 @@
                     <head rend="text-align:center">GELDORP</head>
                     <p> EToit un Peintre dont il n'est icy parlé, qu'à cause de l'industrie qu'il
                         avoit pour gagner sa vie. Comme il manioit passablement bien les Couleurs,
-                        &amp; qu'il avoit de la peine à dessiner, il avoit<pb facs="00000455"
-                            n="431"/>fait faire par d'autres Peintres, plusieurs têtes, plusieurs
+                        &amp; qu'il avoit de la peine à dessiner, il avoit<pb facs="00000455" n="431"/>fait faire par d'autres Peintres, plusieurs têtes, plusieurs
                         pieds, &amp; plusieurs mains sur du papier dont il avoit fait des Poncis
                         pour luy servir dans ses Tableaux, &amp; vivoit ainsi aux dépens des
                         ignorans. </p>
@@ -8475,8 +8336,7 @@
                         Peintres. Le grand nombre de ses Desseins que j'ay entre mes mains en est
                         une preuve convaincante à qui voudra leur rendre justice: Et bien que ses
                         Estampes ne soient pas inventées avec le même Esprit que les Desseins dont
-                        je parle, on y voit néanmoins un Clair-obscur &amp; des<pb
-                            facs="00000461" n="437"/>expressions d'une beauté peu commune. </p>
+                        je parle, on y voit néanmoins un Clair-obscur &amp; des<pb facs="00000461" n="437"/>expressions d'une beauté peu commune. </p>
                     <p>Il est vray que le talent de Rembrant, ne s'est pas tourné à faire un beau
                         chois du Naturel: mais il avoit un artifice mérveilleux pour l'mitation des
                         objets présens, l'on en peut juger par les différens Portraits qu'il a
@@ -8588,8 +8448,7 @@
                         qui n'empêchoit pas qu'il n'allât chez les autres Peintres qui étoient à
                         Anvers, desquels il éxaminoit les Ouvrages; &amp; faisant d'un autre
                         côté des Etudes particuliéres sur la Nature même, il est devenu par ce moyen
-                        Auteur de sa maniére, &amp; l'un des plus habiles Peintres<pb
-                            facs="00000467" n="443"/>des Païs-Bas. Il ne luy manquoit que d'avoir vû
+                        Auteur de sa maniére, &amp; l'un des plus habiles Peintres<pb facs="00000467" n="443"/>des Païs-Bas. Il ne luy manquoit que d'avoir vû
                         l'Italie, ainsi qu'il le témoignoit luy-même par l'estime qu'il faisoit des
                         Maîtres de ce païs-là, aussi-bien que par l'avidité avec laquelle il copioit
                         les Titiens, les Paul Véronéses, les Bassans, &amp; les Caravages quand
@@ -8663,8 +8522,7 @@
                         &amp; entr'autres à celuy des douze mois de l'année en grand, lesquels
                         ont été gravez en Hollande avec des Vers Latins, qui en font la déscription. </p>
                     <p>Sa Femme étant morte, il quitta Ausbourg, &amp; alla demeurer à
-                        Nuremberg, où il érigea une Academie de Peinture,<pb facs="00000471" n="447"
-                        />&amp; où il a mis au jour phusieurs Volumes qui regardent sa
+                        Nuremberg, où il érigea une Academie de Peinture,<pb facs="00000471" n="447"/>&amp; où il a mis au jour phusieurs Volumes qui regardent sa
                         Profession, ausquels il a travaillé jusqu'à l'âge de soixante-dix-sept ans,
                         ainsi qu'il le dit luy-même. </p>
                     <p>De tous ses Livres, le plus considérable est celuy de la Vie des Peintres,
@@ -8682,8 +8540,7 @@
                         tres-habile Peintre. Comme je n'ay point vû de sa Peinture, je ne puis
                         porter aucun jugement de sa capacité: il semble néanmoins qu'on n'en devroit
                         faire qu'un cas tres-médiocre, si l'on en juge par les Estampes de ce Livre
-                        dans lesquelles il a fait mettre son nom. Ce qu'on peut sûrement louër<pb
-                            facs="00000472" n="448"/>de ses Livres, est l'amour qu'il avoit pour
+                        dans lesquelles il a fait mettre son nom. Ce qu'on peut sûrement louër<pb facs="00000472" n="448"/>de ses Livres, est l'amour qu'il avoit pour
                         l'avantage de son Art, &amp; l'intention qu'il a, eûë de rendre service
                         aux jeunes Peintres de sa Nation, en leur mettant devant les yeux les belles
                         Statuës, &amp; les beaux Edifices de Rome. </p>
@@ -8700,8 +8557,7 @@
                         dans le tems que ce jeune homme commençoit à se servir de sa raison, il le
                         mit dés l'âge de huit ans chez un Peintre de Gorcum, qui ne faisoit que des
                         Portraits, Henri s'y occupa à dessiner jusqu'à l'âge de treize ans, auquel
-                        il quitta ce Maître pour aller à Utreck sous la Dis<pb facs="00000473"
-                            n="449"/>cipline de Jean Bot, qui étoit pour lors en réputation. Il y
+                        il quitta ce Maître pour aller à Utreck sous la Dis<pb facs="00000473" n="449"/>cipline de Jean Bot, qui étoit pour lors en réputation. Il y
                         demeura six ans, aprés lesquels fe sentant assez fort dans la pratique de
                         son Art pour profiter des belles choses qui sont en Italie, il en fit le
                         voyage à vingt ans. Il alla d'abord à Rome, &amp; s'y occupa dans les
@@ -8792,8 +8648,7 @@
                         &amp; s'il ne l'a pas suivie dans tous ses sujets, comme a fait son
                         Maître, il s'en est servi dans plusieurs de ses Tableaux, mais toûjours avec
                         prudence. </p>
-                    <p>Aprés avoir aquis chez Terburg une grande pratique du Pinceau, il retourna<pb
-                            facs="00000478" n="454"/>en Hollande, où il travailla long-tems pour des
+                    <p>Aprés avoir aquis chez Terburg une grande pratique du Pinceau, il retourna<pb facs="00000478" n="454"/>en Hollande, où il travailla long-tems pour des
                         Marchands de Tableaux, qui, abusant de sa facilité, luy payoient trespeu ses
                         Ouvrages, &amp; les vendoient fort chers. Cette rigueur le dégoûta,
                         &amp; luy fit prendre la résolution d'aller à Rome. Il s'embarqua sur un
@@ -8874,8 +8729,7 @@
                         Livre au Public, qui s'est imprimé une infinité de fois, &amp; qui seul,
                         quoy que tres-petit &amp; de peu d'apparence, conservera long-tems la
                         Mémoire de Jean Cousin. Il a aussi écrit de la Géométrie &amp; de la
-                        Perspéctive. Comme de son tems la mode étoit de<pb facs="00000483" n="459"
-                        />peindre sur le Verre, il s'y est plus attaché qu'à faire des Tableaux. On
+                        Perspéctive. Comme de son tems la mode étoit de<pb facs="00000483" n="459"/>peindre sur le Verre, il s'y est plus attaché qu'à faire des Tableaux. On
                         en voit de beaux Ouvrages dans les Eglises aux environs de Sens, &amp;
                         dans quelques-unes de Paris, &amp; entr'autres dans celle de Saint
                         Gervais, où il a peint sur les Vitres du Choeur le martyre de Saint Laurent,
@@ -8893,8 +8747,7 @@
                         considération pendant les Régnes d'Henri II. de François II. de Charles IX.
                         &amp; d'Henri III. </p>
                     <p>Comme il travailloit aussi de Sculpture, il fit le Tombeau de l'Amiral
-                        Chabot, qui est aux Célestins de Paris, dans la<pb facs="00000484" n="460"
-                        />Chapelle d'Orleans. On ne sait pas précisément combien Jean Cousin a vêcu,
+                        Chabot, qui est aux Célestins de Paris, dans la<pb facs="00000484" n="460"/>Chapelle d'Orleans. On ne sait pas précisément combien Jean Cousin a vêcu,
                         mais on sait seulement qu'il vivoit en 1589. &amp; qu'il est mort fort
                         âgé. </p>
                 </div>
@@ -9019,8 +8872,7 @@
                         réüssit, d'autant plus qu'il avoit une grande légéreté de Pinceau. Il y
                         auroit lieu de s'étonner de la prodigieuse quantité d'Ouvrages qu'il a
                         faits, si on ne savoit qu'un grand nombre de Disciples assez habiles, qu'il
-                        avoit élevez dans sa maniére, éxécutoient avec facilité ses<pb
-                            facs="00000491" n="467"/>Desseins, quoy que tres - peu terminez. </p>
+                        avoit élevez dans sa maniére, éxécutoient avec facilité ses<pb facs="00000491" n="467"/>Desseins, quoy que tres - peu terminez. </p>
                     <p>La France luy a l'obligation d'avoir détruit une maniére fade &amp;
                         barbare qui y régnoit, &amp; d'avoir commencé d'y introduire le bon
                         Goût, conjointement avec Blanchart, dont on vient de parler. La nouvelle
@@ -9037,8 +8889,7 @@
                         &amp;c. sans compter un grand nombre de jeunes gens qui alloient
                         dessiner chez luy. Dorigny, qui étoit son Gendre, aussi-bien que son Eléve,
                         a gravé à l'eau-forte la plus grande partie des Ouvrages de son Beau-pére.
-                        Vouët épuisé d'esprits par la prodigieuse quantité de ses Productions,<pb
-                            facs="00000492" n="468"/>plutôt que chargé d'années, mourut en 1641. âgé
+                        Vouët épuisé d'esprits par la prodigieuse quantité de ses Productions,<pb facs="00000492" n="468"/>plutôt que chargé d'années, mourut en 1641. âgé
                         de cinquante-neuf ans. Il a eû un Frére nommé Aubin Vouët, qui peignoit dans
                         sa maniére, &amp; qui étoit passablement habile. </p>
                     <p>Les Ouvrages de Vouët étoient agréables par comparaison à ceux, qui jusqu'à
@@ -9055,8 +8906,7 @@
                         de ses Eléves. Mais l'on peur dire, que si d'un côté cette maniére a rélevé
                         le Goût fade qui régnoit en France lorsqu'il y arriva, d'un autre côté elle
                         étoit si peu naturelle, si sauvage, &amp; d'ailleurs si facile,
-                        &amp; reçûë avec tant d'avidité, qu'elle a infecté l'Idée de tous ses<pb
-                            facs="00000493" n="469"/>Disciples, jusqu'à leur faire prendre une
+                        &amp; reçûë avec tant d'avidité, qu'elle a infecté l'Idée de tous ses<pb facs="00000493" n="469"/>Disciples, jusqu'à leur faire prendre une
                         habitude, dont ils ont eû toutes les peines du monde à se défaire;
                         &amp;, comme j'ay déja dit, cette maniere éxpéditive n'étoit pas tant
                         celle de Vouët, que celle de son intérêt. </p>
@@ -9091,8 +8941,7 @@
                         Comme le Cavalier, de qui le Poussin attendoit beaucoup de secours &amp;
                         de protection mourut peu de tems aprés l'arrivée de ce Peintre, &amp;
                         que le Cardinal Barberin, qui avoit envie de le connoître, n'en avoit point
-                        eû le tems, le Poussin se trouva à Rome sans<pb facs="00000495" n="471"
-                        />secours &amp; sans connoissances: il eût toutes les peines du monde
+                        eû le tems, le Poussin se trouva à Rome sans<pb facs="00000495" n="471"/>secours &amp; sans connoissances: il eût toutes les peines du monde
                         d'y subsister; il étoit contraint de donner ses Ouvrages, son unique
                         ressource, pour un prix qui payoit à peine ses couleurs. Néanmoins il ne
                         perdit pas courage, &amp; le parti qu'il prit, fut de travailler
@@ -9109,8 +8958,7 @@
                         persuadé que la source de toutes les beautez &amp; de toutes les graces
                         venoit de ces éxcellens Ouvrages, &amp; que les anciens Sculpteurs
                         avoient épuisé celles de la Nature, pour rendre leurs Figures l'admiration
-                        de la Postérité. La grande liaison qu'il avoit avec deux habiles<pb
-                            facs="00000496" n="472"/>Sculpteurs, l'Algarde, &amp; François
+                        de la Postérité. La grande liaison qu'il avoit avec deux habiles<pb facs="00000496" n="472"/>Sculpteurs, l'Algarde, &amp; François
                         Flamant, chez lequel il demeuroit, a pû fortifier, &amp; peut-être
                         susciter cette inclination. Quoy qu'il en soit, il ne s'en est jamais
                         éloigné, &amp; elle a toûjours augmenté avec ses années, comme il est
@@ -9129,8 +8977,7 @@
                         proportions, les expressions, l'ordre des Draperies, les ajustemens, la
                         noblesse, le bon air, &amp; la fiérté des têtes; les maniéres d'agir, la
                         coûtume des tems &amp; des lieux: &amp; enfin tout ce que l'on peut
-                        voir de beau dans ces restes de Sculpture Antique,<pb facs="00000497"
-                            n="473"/>que Ion ne peut assez admirer l'éxactitude avec laquelle il en
+                        voir de beau dans ces restes de Sculpture Antique,<pb facs="00000497" n="473"/>que Ion ne peut assez admirer l'éxactitude avec laquelle il en
                         a enrichi ses Tableaux. Il auroit pû, comme Michelange, surprendre le
                         jugement du Public. Celuy-cy fit la Statuë d'un Cupidon, &amp; aprés en
                         avoir cassé le bras, qu'il retint, il enterra le reste de la Figure dans un
@@ -9166,8 +9013,7 @@
                         dans les Cabinets, &amp; tels que les Curieux les luy demandoient. </p>
                     <p>Le Roy Loüis XIII. &amp; M. de Noyers, Ministre d'Etat, &amp;
                         Sur-Intendant des Bâtimens luy écrivirent à Rome pour l'obliger de venir en
-                        France: il s'y résolut avec beaucoup de peine. On luy assigna<pb
-                            facs="00000499" n="475"/>une pension, &amp; on luy donna aux
+                        France: il s'y résolut avec beaucoup de peine. On luy assigna<pb facs="00000499" n="475"/>une pension, &amp; on luy donna aux
                         Thuilleries un logement tout meublé. Le Poussin fit pour la Chapelle du
                         Château de Saint Germain le Tableau de la Céne, &amp; celuy qui est à
                         Paris dans le Novitiat des Jésuites. Il commença dans la Galerie du Louvre
@@ -9184,8 +9030,7 @@
                         été faits à Rome pour envoyer à Paris, où les François ont même fait passer
                         ceux qui étoient demeurez en Italie, &amp; qu'ils ont pû avoir pour de
                         l'argent, n'ayant pas moins d'estime pour ces éxcellens Ouvrages que pour
-                        ceux de Raphaël. Félibien, qui a écrit la Vie de ce Peintre fort soi<pb
-                            facs="00000500" n="476"/>gneusement &amp; fort amplement, rapporte
+                        ceux de Raphaël. Félibien, qui a écrit la Vie de ce Peintre fort soi<pb facs="00000500" n="476"/>gneusement &amp; fort amplement, rapporte
                         tous ces Tableaux, &amp; fait la déscription de ceux qui sont les plus
                         estimez. </p>
                     <p>Le Poussin, aprés avoir fourni une heureuse carriére, mourut à moitié
@@ -9260,8 +9105,7 @@
                         d'aprés le Titien, que de l'intelligence des principes de ce Peintre
                         Vénitien. Enfin il paroît que le Poussin comptoit le Coloris, pour tres peu
                         de chose, &amp; l'on voit dans sa vie écrite par Bellori &amp; par
-                        Félibien, un aveu fincére qu'il ne le possedoit pas, &amp; qu'il<pb
-                            facs="00000504" n="480"/>l'avoit comme abandonné: ce qui marque
+                        Félibien, un aveu fincére qu'il ne le possedoit pas, &amp; qu'il<pb facs="00000504" n="480"/>l'avoit comme abandonné: ce qui marque
                         évidemment qu'il n'en avoit jamais eu la theorie. En effet ses Couleurs
                         telles qu'on les voit employées ne sont que des teintes générales &amp;
                         non pas l'imitation de celles du naturel qu'il ne voyoit que rarement: je
@@ -9299,8 +9143,7 @@
                     <p> FIls d'un Orfévre de la Franche-Comté se débaucha &amp; quitta ses
                         Parens pour aller à Rome, étant encore fort jeune: mais comme l'argent luy
                         manqua bien-tôt, il se laissa aller aux persuasions d'un Aveugle qui ayant
-                        envie de faire le même voyage luy proposa de le conduire<pb facs="00000506"
-                            n="482"/>pendant le chemin. Perrier étant arrivé à Rome en cet équipage
+                        envie de faire le même voyage luy proposa de le conduire<pb facs="00000506" n="482"/>pendant le chemin. Perrier étant arrivé à Rome en cet équipage
                         fut assez embarassé pour trouver quelque autre ressource qui luy donnât
                         moyen de subsister. Il souffrit beaucoup dans les commencemens: mais la
                         nécessité où il se trouvoit &amp; la facilité de son Génie le mirent
@@ -9464,8 +9307,7 @@
                         il en faisoit des remarques, qu'il écrivoit en Vers Latins. Une lumiére luy
                         en donnoit une autre, &amp; son Esprit s'étant peu - à - peu rempli de
                         toutes les connoissances nécessaires à sa Profession, il forma le dessein
-                        d'en composer un Poëme, qui luy coûta beaucoup de veilles &amp;<pb
-                            facs="00000515" n="491"/>de réflexions. Il le communiqua à tous les
+                        d'en composer un Poëme, qui luy coûta beaucoup de veilles &amp;<pb facs="00000515" n="491"/>de réflexions. Il le communiqua à tous les
                         habiles, dont il pouvoit tirer des lumiéres, ou de l'approbation. </p>
                     <p>Il avoit un amour éxtraordinaire pour les Ouvrages du Titien, auquel il
                         donnoit la préférence sur tous les autres, à cause, disoit-il, que de tous
@@ -9608,8 +9450,7 @@
                         l'avoit attiré. Mais Sa Majesté ne luy ayant donné pour tout employ que son
                         Portrait à peindre, il n'y fit pas grand séjour; &amp; son Génie de feu
                         ne pouvant s'accommoder de l'inaction, le fit revenir bien-tôt en France
-                        chercher des occasions de s'éxercer. S'il n'a pas rempli tout ce que l'on<pb
-                            facs="00000523" n="499"/>attendoit de luy, il a du moins soûtenu sa
+                        chercher des occasions de s'éxercer. S'il n'a pas rempli tout ce que l'on<pb facs="00000523" n="499"/>attendoit de luy, il a du moins soûtenu sa
                         réputation par des Compositions éxtraordinaires, &amp; par des
                         Expressions vives. Mais comme son Génie n'étoit pas conduit par un jugement
                         bien solide, il s'évaporoit souvent en des Imaginations outrées; &amp;
@@ -9627,8 +9468,7 @@
                         têtes d'aprés le Naturel, &amp; grandes comme le Naturel, &amp;
                         gagna. Ces têtes ne sont pas des moindres qui soient sorties de son Pinceau.
                         Il se servoit souvent de l'impression de la toile quand il avoit du poil à
-                        faire, non pas en laissant l'impression<pb facs="00000524" n="500"
-                        />découverte, mais en la découvrant avec l'ante de son pinceau. </p>
+                        faire, non pas en laissant l'impression<pb facs="00000524" n="500"/>découverte, mais en la découvrant avec l'ante de son pinceau. </p>
                     <p>Il a fait quantité d'Ouvrages, dont les plus considérables sont, la Galerie
                         de M. de Brétonvilliers dans l'Isle Nôtre-Dame, &amp; les sept Oeuvres
                         de Miséricorde, qu'il a gravées luy-même à l'eau-forte. Celuy de tous ses
@@ -9829,8 +9669,7 @@
                     <p> DE Paris, apporta en naissant toutes les dispositions pour former un grand
                         Peintre. Il se servit de son talent dés qu'il pût se servir de sa raison: il
                         le cultiva par des Etudes continuelles, &amp; il le fit valoir par la
-                        fortune, qui seconda son mérite, &amp; qui ne l'abandonna jamais.<pb
-                            facs="00000535" n="511"/>Il étoit Fils d'un Sculpteur médiocre qui
+                        fortune, qui seconda son mérite, &amp; qui ne l'abandonna jamais.<pb facs="00000535" n="511"/>Il étoit Fils d'un Sculpteur médiocre qui
                         demeuroit dans la Place Maubert. Ce Sculpteur fut employé à quelque Ouvrage
                         dans le Jardin de l'Hôtel Séguier. Il avoit accoûtumé d'y mener son Fils,
                         &amp; de luy faire copier quelques Desseins auprés de luy. M. le
@@ -9865,8 +9704,7 @@
                         Ce fut dans cette vûë qu'il fit à Nôtre Dame deux années de suite le Tableau
                         du May. Il peignit la prémiére année le martyre de Saint Pierre, &amp;
                         la seconde le martyre de Saint Etienne. Le Sueur, dont nous avons parlé,
-                        étoit le seul Concurrent qui luy pût disputer: mais, soit<pb facs="00000537"
-                            n="513"/>qu'on trouvât le Brun plus habile ou plus à la mode, soit que
+                        étoit le seul Concurrent qui luy pût disputer: mais, soit<pb facs="00000537" n="513"/>qu'on trouvât le Brun plus habile ou plus à la mode, soit que
                         le nombre de ses amis fut plus grand, il emportoit toûjours sur son
                         Compétiteur les grandes occasions de se signaler. </p>
                     <p>La Galerie de M. Lambert dans l'Isle Nôtre-Dame, &amp; le Séminaire de
@@ -9935,8 +9773,7 @@
                         de son Siécle. </p>
                     <p>Il avoit un beau Génie, l'Eprit pénétrant &amp; le jugement solide, il
                         inventoit facilement. Mais avec réflexion: il ne faisoit rien entrer dans la
-                        Composition de ses Tableaux qu'il n'y eut bien pensé; il<pb facs="00000541"
-                            n="517"/>consultoit les Livres &amp; les Savans, pour ne rien
+                        Composition de ses Tableaux qu'il n'y eut bien pensé; il<pb facs="00000541" n="517"/>consultoit les Livres &amp; les Savans, pour ne rien
                         obmettre de ce qui pouvoit bien remplir son sujet, il l'éxprimoit
                         ingenieusement &amp; avec une vivacité qui n'avoit rien de
                         l'emportement. On crut d'abord à la veuë de ses prémiers Ouvrages dont les
@@ -10010,8 +9847,7 @@
                         de son Génie, &amp; les Etampes qui en ont été gravées avec soin
                         porteront sa gloire par toute la terre. </p>
                     <p>Le Brun étoit universel pour tous les genres de Peintures, à la reserve du
-                        Païsage. Son Pinceau étoit léger &amp; coulant.<pb facs="00000545"
-                            n="521"/>Il joignit une extrême facilité à une extrême éxactitude.
+                        Païsage. Son Pinceau étoit léger &amp; coulant.<pb facs="00000545" n="521"/>Il joignit une extrême facilité à une extrême éxactitude.
                         Enfin, quelque chose qu'on puisse luy reprocher du côté de sa maniére trop
                         ideale, trop peu variée, &amp; trop peu naturelle, il avoit d'ailleurs
                         assez de parties pour tenir un rang considérable parmi les habiles Peintres:
@@ -10166,8 +10002,7 @@
                     tout ce qui peut rendre leurs Ouvrages plus palpables, plus vray, &amp; plus
                     surprenant. </p>
                 <p>Le Goust Lombard, consiste dans un Dessein coulant, nourri, moëleux, &amp;
-                    mêlé d'un peu d'Antique &amp; d'un naturel bien choisi, avec des Couleurs<pb
-                        facs="00000554" n="530"/>fonduës, fort aprochantes du naturel &amp;
+                    mêlé d'un peu d'Antique &amp; d'un naturel bien choisi, avec des Couleurs<pb facs="00000554" n="530"/>fonduës, fort aprochantes du naturel &amp;
                     employées d'un Pinceau leger. Le Corrége est le meilleur exemple de ce Goût
                     &amp; les Caraches, qui ont tâché de l'imiter ont été plus corrects que luy
                     dans le Dessein, mais inferieurs à luy, dans le Goût de ce même Dessein, dans la
@@ -10201,8 +10036,7 @@
                     Couleurs bien choisies, par un excellent Clair-obscur, &amp; par un Pinceau
                     plus moëleux. J'excepte des Flamans ordinaires trois ou quatre Flamans,
                     Disciples de Raphaël, qui raportérent d'Italie, la maniére de leur Maître dans
-                    le Dessein &amp; dans le Coloris. J'en excepte<pb facs="00000556" n="532"
-                    />encore Rubens &amp; Vandeik, qui ont regardé la Nature par des yeux
+                    le Dessein &amp; dans le Coloris. J'en excepte<pb facs="00000556" n="532"/>encore Rubens &amp; Vandeik, qui ont regardé la Nature par des yeux
                     pénétrans &amp; qui ont porté ses effets dans une élévation peu commune;
                     quoiqu'ils ayent retenu quelque chose du Naturel de leur païs dans le Goût du
                     Dessein. </p>

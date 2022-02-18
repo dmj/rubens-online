@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_214a">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_214a"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-2979-526v">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -66,9 +66,7 @@
                 <p><pb n="526v"/>500 livres à Pierre-Paul Rubens, peintre de l’hôtel de
                         l’Archiduchesse<index indexName="psw">
                         <term type="PND">Isabella (Spanien, Infantin)</term>
-                    </index>, pour une année de son entretènement commencée le <date
-                        when="1631-09-23">23e septembre 1631</date> et finie le <date
-                        when="1632-09-22">22e de septembre ensuivant 1632</date>. </p>
+                    </index>, pour une année de son entretènement commencée le <date when="1631-09-23">23e septembre 1631</date> et finie le <date when="1632-09-22">22e de septembre ensuivant 1632</date>. </p>
             </div>
         </body>
         

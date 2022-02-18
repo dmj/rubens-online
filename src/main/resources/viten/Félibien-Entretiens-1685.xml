@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_276">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_276"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,8 +12,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="felibien_entretiens_1685">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="felibien_entretiens_1685">
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Wolfenbüttel</settlement>
@@ -53,24 +50,18 @@
         <body>
             <div type="title_page" xml:lang="fra">
                 <p>ENTRETIENS<lb/> SUR LES VIES<lb/> ET SUR LES OUVRAGES<lb/> DES PLUS<lb/>
-                    EXCELLENS PEINTRES<lb/> ANCIENS ET MODERNES.<lb rend="line-height:120%"/><index
-                        indexName="psw">
+                    EXCELLENS PEINTRES<lb/> ANCIENS ET MODERNES.<lb rend="line-height:120%"/><index indexName="psw">
                         <term type="PND" xml:lang="deu">Félibien, André</term>
                         <index indexName="stw">
                             <term type="SWD" xml:lang="fra">Entretiens sur les vies et ouvrages des
                                 plus excellents peintres anciens e modernes</term>
                         </index>
-                    </index> QUATRIÉME PARTIE.<lb rend="line-height:120%"/> A <rs type="place"
-                        ref="#paris">PARIS</rs>,<lb/> Chez <rs type="person"
-                        ref="#mabre_cramoisy_sebastien">Sebastien <hi rend="smallCaps"
-                            >Mabre-Cramoisy</hi><index indexName="psw">
+                    </index> QUATRIÉME PARTIE.<lb rend="line-height:120%"/> A <rs type="place" ref="../register/register-place.xml#paris">PARIS</rs>,<lb/> Chez <rs type="person" ref="../register/register-person.xml#mabre_cramoisy_sebastien">Sebastien <hi rend="smallCaps">Mabre-Cramoisy</hi><index indexName="psw">
                             <term type="PND" xml:lang="deu">Mabre-Craimoisy, Sebastian</term>
                             <index indexName="fsw">
-                                <term type="structure" target="#printer" xml:lang="deu"
-                                >Drucker</term>
+                                <term type="structure" target="#printer" xml:lang="deu">Drucker</term>
                             </index>
-                        </index></rs>, Imprimeur<lb/> du Roy, ruë Saint Jacques, aux Cicognes.<lb
-                        rend="line-height:120%"/>
+                        </index></rs>, Imprimeur<lb/> du Roy, ruë Saint Jacques, aux Cicognes.<lb rend="line-height:120%"/>
                     <date when="1685">M. DC. LXXXV</date>.<lb rend="line-height:120%"/>
                     <hi rend="smallCaps">Avec Privilege de sa Majesté</hi>
                 </p>
@@ -79,90 +70,69 @@
                 <index indexName="fsw">
                     <term type="structure" target="#chapter" xml:lang="deu">Kapitel</term>
                 </index>
-                <p><pb n="92"/>Mais celuy de tous les Peintres de <rs type="place" ref="#flandern"
-                        >Flandres</rs> qui a eu le plus de reputation, a esté <hi rend="smallCaps">
-                        <rs type="person" ref="#rubens_peter_paul">Pierre Paul Rubens</rs>
-                    </hi>. Il estoit d'<rs type="place" ref="#antwerpen">Anvers</rs>, &amp; né
+                <p><pb n="92"/>Mais celuy de tous les Peintres de <rs type="place" ref="../register/register-place.xml#flandern">Flandres</rs> qui a eu le plus de reputation, a esté <hi rend="smallCaps">
+                        <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre Paul Rubens</rs>
+                    </hi>. Il estoit d'<rs type="place" ref="../register/register-place.xml#antwerpen">Anvers</rs>, &amp; né
                         <note place="margin-left">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
-                    </index> d'une honneste famille. Son pere nommé <rs type="person"
-                        ref="#rubens_jan">Jean Rubens</rs><index indexName="psw">
+                    </index> d'une honneste famille. Son pere nommé <rs type="person" ref="../register/register-person.xml#rubens_jan">Jean Rubens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Jan</term>
                     </index>, estoit Docteur en Droit, &amp; exerça souvent dans sa ville la
                     Charge d'Echevin, où l'on ne met que des personnes d'une capacité &amp;
-                    d'une probité connuë. Les guerres civiles qui troubloient les <rs type="place"
-                        ref="#niederlande">Pays-Bas</rs>, luy firent quitter sa Charge, &amp;
-                    abandonner la ville d'Anvers pour se retirer à <rs type="place" ref="#koeln"
-                        >Cologne</rs>, où sa femme accoucha d'un fils le <date when="1577-06-29"
-                        >jour de S. Pierre &amp; S. Paul</date>; ce qui fut cause qu'on <note
-                        place="margin-left"> L'an 1577.</note> luy donna au baptesme les noms de ces
+                    d'une probité connuë. Les guerres civiles qui troubloient les <rs type="place" ref="../register/register-place.xml#niederlande">Pays-Bas</rs>, luy firent quitter sa Charge, &amp;
+                    abandonner la ville d'Anvers pour se retirer à <rs type="place" ref="../register/register-place.xml#koeln">Cologne</rs>, où sa femme accoucha d'un fils le <date when="1577-06-29">jour de S. Pierre &amp; S. Paul</date>; ce qui fut cause qu'on <note place="margin-left"> L'an 1577.</note> luy donna au baptesme les noms de ces
                     deux Apostres.</p><p>
-                    <pb n="93"/>Si-tost qu'il fut en âge d'aller aux Ecoles, <note
-                        place="margin-right">
+                    <pb n="93"/>Si-tost qu'il fut en âge d'aller aux Ecoles, <note place="margin-right">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> son pere ne manqua pas à le faire instruire avec beaucoup de soin. Il
                     apprit si bien la Langue Latine, qu'en peu de temps il la parloit en perfection.
-                    Quelques années aprés, la ville d'Anvers ayant esté assiégée par le <rs
-                        type="person" ref="#farnese_alessandro">Duc de Parme,</rs><index
-                        indexName="psw">
+                    Quelques années aprés, la ville d'Anvers ayant esté assiégée par le <rs type="person" ref="../register/register-person.xml#farnese_alessandro">Duc de Parme,</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Farnese, Alessandro</term>
-                    </index> &amp; reduite à l'obéïssance du <rs type="person"
-                        ref="#philipp_ii_spanien">Roy d'Espagne</rs><index indexName="psw">
+                    </index> &amp; reduite à l'obéïssance du <rs type="person" ref="../register/register-person.xml#philipp_ii_spanien">Roy d'Espagne</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Philipp (Spanien, König, II.)</term>
                     </index>; Rubens le pere resolut aussi-tost d'y retourner avec toute sa famille.
-                    Comme son fils estoit déja assez grand &amp; bien-fait, la <rs type="person"
-                        ref="#ligne_marguerite">Comtesse de Lalain</rs><index indexName="psw">
+                    Comme son fils estoit déja assez grand &amp; bien-fait, la <rs type="person" ref="../register/register-person.xml#ligne_marguerite">Comtesse de Lalain</rs><index indexName="psw">
                         <term xml:lang="deu">Ligne, Marguerite de</term>
                     </index> le demanda pour estre son page; mais il ne demeura pas long-temps
                     auprés d'elle. L'occupation des pages, &amp; leur maniére de vivre souvent
                     licencieuse, n'estoient pas conformes aux nobles inclinations qui commençoient à
                     paroistre en luy. De sorte qu'il sortit de chez la Comtesse; &amp; son pere
-                    estant aussi mort<note resp="A.H." type="footnote">Jan Rubens starb am <date
-                            when="1587-03-01">1. März 1587</date>. vgl. sein <ref type="rubens"
-                            cRef="ed_rubens_064">Epitpah in der Kölner Kirche St.
+                    estant aussi mort<note resp="A.H." type="footnote">Jan Rubens starb am <date when="1587-03-01">1. März 1587</date>. vgl. sein <ref type="rubens" cRef="ed_rubens_064">Epitpah in der Kölner Kirche St.
                     Petri</ref>.</note>, Rubens témoigna à sa mere l'amour qu'il avoit pour la
                     Peinture, &amp; la pria de vouloir bien qu'il embrassast cette profession.
                     Elle le mit auprés d'<hi rend="italic">
-                        <rs type="person" ref="#noort_adam">Adam Van-Noort</rs>
+                        <rs type="person" ref="../register/register-person.xml#noort_adam">Adam Van-Noort</rs>
                     </hi><index indexName="psw">
                         <term type="PND" xml:lang="deu">Noort, Adam van</term>
                     </index>, Peintre assez passable, mais dont l'humeur brutale &amp; libertine
-                    ne plut pas à ce jeune homme. Il en sortit pour entrer chez <rs type="person"
-                        >Otto Venius</rs><index indexName="psw">
+                    ne plut pas à ce jeune homme. Il en sortit pour entrer chez <rs type="person" ref="../register/register-person.xml">Otto Venius</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Veen, Otto van</term>
                     </index>, dont je viens de vous parler, lequel estoit en grande reputation, non
-                    seulement pour <pb n="94"/>l'excellence de son pinceau, mais pour la <note
-                        place="margin-left">
+                    seulement pour <pb n="94"/>l'excellence de son pinceau, mais pour la <note place="margin-left">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> conduite de sa vie &amp; pour ses bonnes mœurs. Rubens profita des
                     qualitez d'un si digne maistre, &amp; aprés s'estre rendu tres-capable dans
-                    son art, resolut d'aller en <rs type="place" ref="#italien">Italie</rs><note
-                        resp="A.H." type="footnote">Am <date when="1600-05-08">8. Mai 1600</date>
-                        ließ Rubens sich für diese Reise einen Reispass ausstellen. <ref
-                            type="rubens" cRef="ed_rubens_077">vgl. das entsprechende
+                    son art, resolut d'aller en <rs type="place" ref="../register/register-place.xml#italien">Italie</rs><note resp="A.H." type="footnote">Am <date when="1600-05-08">8. Mai 1600</date>
+                        ließ Rubens sich für diese Reise einen Reispass ausstellen. <ref type="rubens" cRef="ed_rubens_077">vgl. das entsprechende
                         Dokument</ref>.</note>. Il <note place="margin-left"> En 1600.</note> estoit
                     âgé de 23. ans, lorsqu'il partit d'Anvers. Comme il avoit esté bien élevé,
                     &amp; qu'il sçavoit de quelle maniére il faut vivre avec les gens de
                     qualité, il trouvoit une entrée libre chez tous les Princes &amp; les grands
-                    Seigneurs par où il passoit. Ayant esté favorablement reçû de <rs type="person"
-                        ref="#gonzaga_vincenzo_i">Vincent de Gonzague</rs><index indexName="psw">
+                    Seigneurs par où il passoit. Ayant esté favorablement reçû de <rs type="person" ref="../register/register-person.xml#gonzaga_vincenzo_i">Vincent de Gonzague</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Vincenzo (Mantua, Herzog, I.)</term>
-                    </index> Duc de <rs type="place" ref="#mantua">Mantouë</rs> &amp; de <rs
-                        type="place" ref="#montserrat">Montserrat</rs>, il s'attacha à son service.
+                    </index> Duc de <rs type="place" ref="../register/register-place.xml#mantua">Mantouë</rs> &amp; de <rs type="place" ref="../register/register-place.xml#montserrat">Montserrat</rs>, il s'attacha à son service.
                     Ce Prince eut tant d'estime &amp; d'affection pour luy, qu'il l'employa
                     souvent à des commissions honorables. Il le choisit pour aller en Espagne vers
-                        <rs type="person" ref="#philipp_iii_spanien">Philippes III</rs><index
-                        indexName="psw">
+                        <rs type="person" ref="../register/register-person.xml#philipp_iii_spanien">Philippes III</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Philipp (Spanien, König, III.)</term>
                     </index>. luy presenter un superbe carosse avec un attelage de sept chevaux
                     richement enharnachez, &amp; plusieurs autres presens de grand prix. Rubens
                     s'acquitta si dignement de sa commission, que dés ce temps-là le Roy d'Espagne
                     le considera, &amp; eut beaucoup d'estime pour luy. Le Duc n'en fut pas
                     moins satisfait, &amp; aprés son retour luy en donna des marques en
-                    plusieurs recontres. Ce fut par son ordre qu'il alla à <rs type="place"
-                        ref="#rom">Rome</rs>, <pb n="95"/>où il copia plusieurs tableaux. Il
+                    plusieurs recontres. Ce fut par son ordre qu'il alla à <rs type="place" ref="../register/register-place.xml#rom">Rome</rs>, <pb n="95"/>où il copia plusieurs tableaux. Il
                     travailla <note place="margin-right">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> aussi dans l'Eglise de Saint Croix de Jérusalem<index indexName="stw">
@@ -175,12 +145,11 @@
                         </index>
                     </index><index indexName="psw">
                         <term type="PND" xml:lang="deu">Helena (Augusta)</term>
-                    </index>, où il fit <rs type="work" ref="#santa_croce_helenakapelle">divers
-                        ouvrages</rs> de son invention. Ensuite estant passé à <rs type="place"
-                        ref="#venedig">Venise</rs>, il étudia particuliérement aprés les ouvrages du
-                        <rs type="person" ref="#tizian">Titien</rs><index indexName="psw">
+                    </index>, où il fit <rs type="work" ref="../register/register-work.xml#santa_croce_helenakapelle">divers
+                        ouvrages</rs> de son invention. Ensuite estant passé à <rs type="place" ref="../register/register-place.xml#venedig">Venise</rs>, il étudia particuliérement aprés les ouvrages du
+                        <rs type="person" ref="../register/register-person.xml#tizian">Titien</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Tizian</term>
-                    </index> &amp; de <rs type="person" ref="#veronese_paolo">Paul
+                    </index> &amp; de <rs type="person" ref="../register/register-person.xml#veronese_paolo">Paul
                         Veronése</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Veronese, Paolo</term>
                     </index>. Estant de retour à Rome, il fit dans l'Eglise neuve des Peres de
@@ -189,19 +158,17 @@
                         <index indexName="stw">
                             <term xml:lang="deu">Santa Maria in Vallicella</term>
                         </index>
-                    </index>, le <rs type="work" ref="#rom_oratorianer_vallicella">tableau du grand
+                    </index>, le <rs type="work" ref="../register/register-work.xml#rom_oratorianer_vallicella">tableau du grand
                         Autel, &amp; deux autres tableaux qui sont aux deux costez du
-                    Chœur</rs>. <rs type="work" ref="#jaffe_64">La premiére pensée de l'un de ces
-                        tableaux</rs> se voit dans l'<rs type="corporate"
-                        ref="#antwerpen_abtei_st_michiels">Abbaye de S. Michel</rs> d'Anvers, où il
+                    Chœur</rs>. <rs type="work" ref="../register/register-work.xml#jaffe_64">La premiére pensée de l'un de ces
+                        tableaux</rs> se voit dans l'<rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Abbaye de S. Michel</rs> d'Anvers, où il
                     en fit present á son retour d'Italie.<note resp="A.H." type="footnote">So wurde
-                            <rs type="work" ref="#jaffe_64">die "Madonna della Vallicella</rs>" am
+                            <rs type="work" ref="../register/register-work.xml#jaffe_64">die "Madonna della Vallicella</rs>" am
                             <date when="1610-09-29">29. September 1610</date> am Grabmal von Maria
                         Pypelincx, die dort begraben liegt, angebracht.</note></p><p> Au sortir de
-                    Rome il alla à <rs type="place" ref="#genua">Gennes</rs>, &amp; il y demeura
+                    Rome il alla à <rs type="place" ref="../register/register-place.xml#genua">Gennes</rs>, &amp; il y demeura
                     plus qu'en aucun lieu d'Italie. Ce fut là qu'il fit quantité de portraits,
-                    &amp; plusieurs tableaux, tant pour l'Eglise des PP. Jesuites,<index
-                        indexName="stw">
+                    &amp; plusieurs tableaux, tant pour l'Eglise des PP. Jesuites,<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Genua</term>
                         <index indexName="stw">
                             <term xml:lang="ita">Santi Ambrogio e Andrea</term>
@@ -215,23 +182,18 @@
                     l'Architecture, levant les plans &amp; les élevations des plus belles
                     Eglises, &amp; des Palais les plus considerables, qu'il fit graver depuis,
                     &amp; dont il mit au jour un Livre.<note resp="A.H." type="footnote">vgl.
-                            <bibl>Peter Paul Rubens: Palazzi di Genova. Antwerpen 1622.<ptr
-                                type="opac" cRef="150778597"/></bibl></note></p><p> Pendant qu'il
+                            <bibl>Peter Paul Rubens: Palazzi di Genova. Antwerpen 1622.<ptr type="opac" cRef="150778597"/></bibl></note></p><p> Pendant qu'il
                     travailloit à Gennes, il eut avis que sa mere estoit fort malade. Il partit en
                     diligence pour se rendre auprés d'elle; <note place="margin-right">
                         <date when="1609">1609</date>.</note> mais il n'eut pas la consolation de la
-                    voir, <pb n="96"/>car elle estoit déja morte avant qu'il arrivast.<note
-                        resp="A.H." type="footnote">Maria Pypelincx starb am <date when="1608-10-19"
-                            >19. Oktober 1608</date>. vgl. <ref type="rubens" cRef="ed_rubens_101"
-                            >ihr Epitaph</ref> in St. Michiels, Antwerpen.</note>
+                    voir, <pb n="96"/>car elle estoit déja morte avant qu'il arrivast.<note resp="A.H." type="footnote">Maria Pypelincx starb am <date when="1608-10-19">19. Oktober 1608</date>. vgl. <ref type="rubens" cRef="ed_rubens_101">ihr Epitaph</ref> in St. Michiels, Antwerpen.</note>
                     <note place="margin-left">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> La douleur qu'il en eut, fut tres-grande; &amp; pour y trouver
                     quelque soulagement, il se retira dans l'Abbaye de S. Michel, où éloigné du
                     commerce du monde, il demeura quelque temps à étudier &amp; à peindre.</p><p>
-                    Il avoit dessein de retourner à Mantouë: mais il fut arresté, tant par <rs
-                        type="person" ref="#albrecht_von_oesterreich">l'Archiduc Albert</rs>,
-                    &amp; par <rs type="person" ref="#isabella_von_spanien">l'Infante
+                    Il avoit dessein de retourner à Mantouë: mais il fut arresté, tant par <rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">l'Archiduc Albert</rs>,
+                    &amp; par <rs type="person" ref="../register/register-person.xml#isabella_von_spanien">l'Infante
                         Isabelle</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog,
                         VII.)</term>
@@ -239,17 +201,14 @@
                         <term type="PND" xml:lang="deu"/>
                     </index>, qui vouloient se servir de luy<note resp="A.H." type="footnote">Am
                             <date when="1609-09-23">23. September 1609</date> wurde Rubens zum
-                        Hofmaler des Erzherzogpaares ernannt. vgl. <ref type="rubens"
-                            cRef="ed_rubens_100">das entsprechende Dokument</ref>.</note>, que par
+                        Hofmaler des Erzherzogpaares ernannt. vgl. <ref type="rubens" cRef="ed_rubens_100">das entsprechende Dokument</ref>.</note>, que par
                     d'autres personnes de confideration qui luy proposoient pluseurs ouvrages. Ce
                     fut ce qui le fit resouder à s'établir en son pays, &amp; à épouser une
-                    Damoiselle nommée <rs type="person" ref="#brant_isabella">Elisabeth
+                    Damoiselle nommée <rs type="person" ref="../register/register-person.xml#brant_isabella">Elisabeth
                         Brant</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Brant, Isabella</term>
-                    </index>,<note resp="A.H." type="footnote">vgl. den Eintrag vom <ref
-                            type="rubens" cRef="ed_rubens_102">13. Oktober 1609 im Heiratsregister
-                            von Sint-Andries</ref>, Antwerpen.</note> fille du <rs type="person"
-                        ref="#brant_jan">Sieur Brant</rs> Docteur en Droit, &amp; Greffier de la
+                    </index>,<note resp="A.H." type="footnote">vgl. den Eintrag vom <ref type="rubens" cRef="ed_rubens_102">13. Oktober 1609 im Heiratsregister
+                            von Sint-Andries</ref>, Antwerpen.</note> fille du <rs type="person" ref="../register/register-person.xml#brant_jan">Sieur Brant</rs> Docteur en Droit, &amp; Greffier de la
                     ville d'Anvers. Il acheta une maison<note resp="A.H." type="footnote">Das
                         Grundstück am Wapper kaufte Rubens am <date when="1610-11-01">1. November
                             1610</date>. vgl. die <ref type="rubens" cRef="ed_rubens_012">Akte mit
@@ -270,43 +229,35 @@
                     &amp; mesme luy donnoit occasion de servir son Prince en plusieurs affaires
                     importantes. Il peignit dans la ville d'Anvers en différens endroits. Il fit un
                     tableau dans l'Eglise des Dominicains, où il représenta les quatre Docteurs de
-                    l'Eglise. Dans une des Paroisses, il peignit <rs type="work" ref="#jaffe_135ABC"
-                        >nostre Seigneur qu'on éleve sur la Croix</rs><index indexName="psw">
+                    l'Eglise. Dans une des Paroisses, il peignit <rs type="work" ref="../register/register-work.xml#jaffe_135ABC">nostre Seigneur qu'on éleve sur la Croix</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Kreuzaufrichtung</term>
                         </index>
                     </index>, &amp; en plusieurs autres lieux il traita divers autres sujets. Ce
-                    fut en ce mesme temps, que par l'ordre de l'Archiduc, il alla à <rs type="place"
-                        ref="#bruessel">Bruxelles</rs>, où il fit quelques tableaux dans son
-                    Oratoire, &amp; qu'à son retour il entreprit <rs type="work"
-                        ref="#decke_jesuitenkirche_antwerpen">ces grands ouvrages qu'on voit dans
+                    fut en ce mesme temps, que par l'ordre de l'Archiduc, il alla à <rs type="place" ref="../register/register-place.xml#bruessel">Bruxelles</rs>, où il fit quelques tableaux dans son
+                    Oratoire, &amp; qu'à son retour il entreprit <rs type="work" ref="../register/register-work.xml#decke_jesuitenkirche_antwerpen">ces grands ouvrages qu'on voit dans
                         l'Eglise des Jesuites d'Anvers</rs><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Jesuiten</term>
                     </index><index indexName="psw">
                         <term type="PND" xml:lang="deu">Borromeus, Carolus</term>
-                    </index>. Il représenta dans le tableau du grand Autel, <rs type="work"
-                        ref="#jaffe_480">Saint Ignace qui chasse le demon du corps d'un
+                    </index>. Il représenta dans le tableau du grand Autel, <rs type="work" ref="../register/register-work.xml#jaffe_480">Saint Ignace qui chasse le demon du corps d'un
                         possédé</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Wunder des Ignatius von Loyola</term>
                         </index>
-                    </index>. Il peignit aussi dans un autre <pb n="98"/><note place="margin-left"
-                        >Rubens.</note><rs type="work" ref="#jaffe_481">Saint François Xavier dans
+                    </index>. Il peignit aussi dans un autre <pb n="98"/><note place="margin-left">Rubens.</note><rs type="work" ref="../register/register-work.xml#jaffe_481">Saint François Xavier dans
                         les Indes</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Wunder des Franz Xaver</term>
                         </index>
                     </index>, qui converrit ces peuples à la Foy Catholique. Il fit encore divers
-                    autres tableaux dans la mesme Eglise.</p><p> Sur la fin de l'année <date
-                        when="1620">1620</date>. la Reine <rs type="person" ref="#medici_maria"
-                        >Marie de Médicis</rs><index indexName="psw">
+                    autres tableaux dans la mesme Eglise.</p><p> Sur la fin de l'année <date when="1620">1620</date>. la Reine <rs type="person" ref="../register/register-person.xml#medici_maria">Marie de Médicis</rs><index indexName="psw">
                         <term type="GND" xml:lang="deu">Medici, Maria /de'</term>
-                    </index> estant de retour à <rs type="place" ref="#paris">Paris</rs> aprés son
-                    accommodement fait avec le Roy <rs type="person" ref="#ludwig_xiii_frankreich"
-                        >Louïs XIII</rs><index indexName="psw">
+                    </index> estant de retour à <rs type="place" ref="../register/register-place.xml#paris">Paris</rs> aprés son
+                    accommodement fait avec le Roy <rs type="person" ref="../register/register-person.xml#ludwig_xiii_frankreich">Louïs XIII</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Ludwig (Frankreich, König, XIII.)</term>
                     </index>. &amp; voulant faire embellir son nouveau Palais de
                         Luxembourg<index indexName="stw">
@@ -314,7 +265,7 @@
                         <index indexName="stw">
                             <term xml:lang="fra">Palais du Luxembourg</term>
                         </index>
-                    </index> , résolut d'en <rs type="work" ref="#jaffe_707_754">faire peinder une
+                    </index> , résolut d'en <rs type="work" ref="../register/register-work.xml#jaffe_707_754">faire peinder une
                         des Galleries</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
@@ -323,38 +274,35 @@
                     </index>, Comme la reputation de Rubens estoit alors fort grande, il fut choisi
                     pour un ouvrage si considerable.<note resp="A.H." type="footnote">vgl. den am
                             <date when="1622-02-26">26. Februar 1622</date> zwischen Maria de'
-                        Medici und Peter Paul Rubens geschlossenen <ref type="rubens"
-                            cRef="ed_rubens_001">Vertrag über die Ausstattung</ref> der Galerien im
-                        Palais du Luxembourg.</note></p><p> La Reine envoya en <rs type="place"
-                        ref="#flandern">Flandres</rs>, pour l'obliger de venir à Paris, où lorsqu'il
+                        Medici und Peter Paul Rubens geschlossenen <ref type="rubens" cRef="ed_rubens_001">Vertrag über die Ausstattung</ref> der Galerien im
+                        Palais du Luxembourg.</note></p><p> La Reine envoya en <rs type="place" ref="../register/register-place.xml#flandern">Flandres</rs>, pour l'obliger de venir à Paris, où lorsqu'il
                     fut arrivé, &amp; qu'il eut arresté les sujets qu'il devoit traiter, il
                     commença par les desseins ou esquisses que j'ay autrefois vûs chez l'Abbé de S.
                     Ambroise; &amp; ensuit il se mit á travailler aux grands tableaux.</p><p> Il y
                     a si long-temps, interrompit Pymandre, que je n'ay esté à Luxembourg, que j'ay
                     presque perdu le souvenir des tableaux dont vous voulez parler. Vous me ferez
                     plaisir de m'en dire quelque chose, en attendant que je puisse un jour les voir
-                    encore avec vous.</p><p> Vous sçavez bien, repris-je, que c'est l'hi-<pb n="99"
-                    />stoire de la Reine Marie de Médicis, qu'il a <note place="margin-right">
+                    encore avec vous.</p><p> Vous sçavez bien, repris-je, que c'est l'hi-<pb n="99"/>stoire de la Reine Marie de Médicis, qu'il a <note place="margin-right">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> représentée, depuis sa naissance, jusques à l'accommodement qui fut fait
-                    à <rs type="place" ref="#angouleme">Angoulesme</rs> entre elle &amp; le Roy
+                    à <rs type="place" ref="../register/register-place.xml#angouleme">Angoulesme</rs> entre elle &amp; le Roy
                     Louïs XIII. son fils, en <date when="1620">1620</date>. Et parce que cette
                     gallerie est percée de costé &amp; d'autre, par des fenestres qui donnent
                     sur le jardin &amp; sur la court, les tableaux sont placez contre les
                     trumeaux &amp; entre les fenestres. Ils ont neuf pieds de large sur dix
                     pieds de haut. Il y en a dix de chaque costé, &amp; un au bout de la gallerie.</p><p>
-                    <rs type="work" ref="#jaffe_710">Dans le premier</rs> qui est en entrant
+                    <rs type="work" ref="../register/register-work.xml#jaffe_710">Dans le premier</rs> qui est en entrant
                     &amp; du costé du jardin, on voit les trois Parques qui filent la vie de la
                     Reine en présence de Jupiter &amp; de Junon, qui paroissent dans le ciel.
                     Deux des Parques sont assises sur des nuages; &amp; la troisiéme qui est à
                     terre, tire le fil de la vie de la Princesse, que les deux autres filent.</p><p>
-                    <rs type="work" ref="#jaffe_713">Le second tableau représente la naissance de la
+                    <rs type="work" ref="../register/register-work.xml#jaffe_713">Le second tableau représente la naissance de la
                         Reine</rs>. On voit la Déesse Lucine tenant un flambeau, laquelle aprés
                     avoir rendu l'accouchement heureux, met l'enfant entre les mains d'une femme qui
                     est assise, &amp; qui la regarde avec admiration. Cette femme représente la
-                    ville de <rs type="place" ref="#florenz">Florence</rs>. Il y a plusieurs figures
+                    ville de <rs type="place" ref="../register/register-place.xml#florenz">Florence</rs>. Il y a plusieurs figures
                     symboliques, par lesquelles le Pein-<pb n="100"/>tre a crû enrichir son
-                    sujet.</p><p> Ensuite, <rs type="work" ref="#jaffe_716">voulant figurer
+                    sujet.</p><p> Ensuite, <rs type="work" ref="../register/register-work.xml#jaffe_716">voulant figurer
                         l'éducation de la Princesse</rs>, il la représente fort jeune auprés de
                     Minerve, qui luy apprend à lire. D'un costé est un jeune homme, qui touche une
                     basse de viole, pour signifier comme on doit de bonne heure enseigner à mettre
@@ -369,37 +317,29 @@
                     trois figures ne sont plus aujourd'huy comme elles estoient autrefois; parce que
                     depuis quelques années on les a couvertes de legers vestements; &amp; par
                     des sentimens d'une modestie Chrestienne, on a crû devoir retrancher, non pas
-                    aux yeux des sçavans, mais au plaisir des sensuels, ce que l'Art avoit <pb
-                        n="101"/>rendu de tres-accompli dans les corps de ces <note
-                        place="margin-right">
+                    aux yeux des sçavans, mais au plaisir des sensuels, ce que l'Art avoit <pb n="101"/>rendu de tres-accompli dans les corps de ces <note place="margin-right">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> trois Graces, qui assûrément estoient les plus beaux que ce Peintre ait
                     jamais faits. On peut mesme regarder ce tableau, comme un des principaux de la
                     gallerie, &amp; où le Peintre a pris plus de soin.</p><p>
-                    <rs type="work" ref="#jaffe_718">Dans la peinture qui suit,</rs> on voit
+                    <rs type="work" ref="../register/register-work.xml#jaffe_718">Dans la peinture qui suit,</rs> on voit
                     l'Amour, &amp; le Dieu Hymen, représenté par un jeune homme couronné de
                     fleurs, &amp; tenant un flambeau. Ils paroissent tous deux en l'air, tenant
-                    le portrait de la Reine, qu'ils présentent au Roy <rs type="person"
-                        ref="#heinrich_iv">Henry IV</rs><index indexName="psw">
+                    le portrait de la Reine, qu'ils présentent au Roy <rs type="person" ref="../register/register-person.xml#heinrich_iv">Henry IV</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Heinrich (Frankreich, König, IV.)</term>
                     </index>. Ce Prince est debout couvert d'armes tres-riches &amp;
                     tres-éclatantes. Il regarde avec plaisir ce portrait, dont l'Amour luy fait
-                    remarquer toutes les graces &amp; les beautez. Une femme représentant la <rs
-                        type="place" ref="#frankreich">France</rs>, est debout auprés du Roy. Elle a
+                    remarquer toutes les graces &amp; les beautez. Une femme représentant la <rs type="place" ref="../register/register-place.xml#frankreich">France</rs>, est debout auprés du Roy. Elle a
                     un casque en teste, son vestement est un manteau de coleur bleuë, semé de
                     fleurs-de-lis d'or. En regardant ce portrait avec attention, elle semble
                     solliciter le Roy à le bien considérer. Jupiter &amp; Junon sont assis dans
                     le ciel sur un nuage; &amp; aux pieds du Roy, il y a deux petits Amours,
                     dont l'un tient son casque, &amp; l'autre son bouclier.</p><p>
-                    <rs type="work" ref="#jaffe_721">Le cinquiéme tableau représente le mariage de
-                        leurs Majestez</rs>, celébré à Florence au <pb n="102"/>mois d'<date
-                        when="1600-10-05">Octobre 1600</date>. Comme la cerémonie <note
-                        place="margin-left">RUBENS.</note>se fit dans une Eglise, on voit à l'Autel
-                    le <rs type="person" ref="#aldobrandini_pietro">Cardinal Aldobrandin</rs><index
-                        indexName="psw">
+                    <rs type="work" ref="../register/register-work.xml#jaffe_721">Le cinquiéme tableau représente le mariage de
+                        leurs Majestez</rs>, celébré à Florence au <pb n="102"/>mois d'<date when="1600-10-05">Octobre 1600</date>. Comme la cerémonie <note place="margin-left">RUBENS.</note>se fit dans une Eglise, on voit à l'Autel
+                    le <rs type="person" ref="../register/register-person.xml#aldobrandini_pietro">Cardinal Aldobrandin</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Aldobrandini, Pietro (Kardinal)</term>
-                    </index>, Legat &amp; neveu du Pape <rs type="person"
-                        ref="#clemens_viii_papst">Clement VIII.</rs><index indexName="psw">
+                    </index>, Legat &amp; neveu du Pape <rs type="person" ref="../register/register-person.xml#clemens_viii_papst">Clement VIII.</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Klemens (Papst, VIII:)</term>
                     </index> Il est revestu de ses habits Pontificaux. La Reine est devant luy
                     couverte d'une robe blanche, enrichie de fleurs d'or, avec un voile sur la
@@ -409,9 +349,8 @@
                     L'Hymen couronné de fleurs, &amp; tenant un flambeau à la main, porte la
                     queuë de la Reine. La Grande Duchesse, la Duchesse de Mantouë, &amp;
                     plusieurs autres Dames sont à sa suite. Entre les Seigneurs François, on
-                    reconnoist M. de Bellegarde &amp; M. De Sillery.</p><p> On voit <rs
-                        type="work" ref="#jaffe_723">dans sixiéme tableau</rs> la Reine qui arrive à
-                        <rs type="place" ref="#marseille">Marseille</rs>. La France, sous la figure
+                    reconnoist M. de Bellegarde &amp; M. De Sillery.</p><p> On voit <rs type="work" ref="../register/register-work.xml#jaffe_723">dans sixiéme tableau</rs> la Reine qui arrive à
+                        <rs type="place" ref="../register/register-place.xml#marseille">Marseille</rs>. La France, sous la figure
                     d'une belle femme, couverte d'un manteau bleu, semé de fleurs-de-lis, la reçoit
                     avec joye. L'Evesque de la Ville vient au devant d'elle, avec le dais qu'on luy
                     présente. La Renommée paroist en l'air, qui sonne de la trompette, pour annoncer
@@ -426,12 +365,9 @@
                     Connétable de Montmorency, le Chancelier, les Ducs de Nemours &amp; de
                     Vantadour s'y trouvérent avec la Duchesse de Nemours, la Duchesse de Guise
                     &amp; sa fille Louïse, qui fut depuis la Princesse de Conti, &amp;
-                    quantité d'autres Seigneurs &amp; Dames, qui accompagnérent la Reine à <rs
-                        type="place" ref="#lyon">Lyon</rs>, où elle arriva le <date
-                        when="1600-12-02">2. Decembre</date>. Le Roy n'y estoit pas, &amp; ne
+                    quantité d'autres Seigneurs &amp; Dames, qui accompagnérent la Reine à <rs type="place" ref="../register/register-place.xml#lyon">Lyon</rs>, où elle arriva le <date when="1600-12-02">2. Decembre</date>. Le Roy n'y estoit pas, &amp; ne
                     s'y rendit que <date when="1600-12-09">le 9. du mesme mois</date> sur le soir,
-                    auquel jour le mariage fut accompli.</p><p> Dans <rs type="work" ref="#jaffe_725"
-                        >le septiéme tableau le Peintre a représenté ce mariage</rs>, d'une maniére
+                    auquel jour le mariage fut accompli.</p><p> Dans <rs type="work" ref="../register/register-work.xml#jaffe_725">le septiéme tableau le Peintre a représenté ce mariage</rs>, d'une maniére
                     poëtique. Le Roy &amp; la Reine sous les figures de Jupiter &amp; de
                     Junon, sont peints dans le ciel, assis sur des nuages. Derriére eux, on voit le
                     Dieu Hymen, &amp; plusieurs petits Amours, qui portent des flambeaux
@@ -441,9 +377,8 @@
                     Lyon qu'on a voulu <note place="margin-left">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> représenter par cette figure, qui est dans un char.</p><p> La naissance du
-                    Roy Louïs XIII. arrivée à <rs type="place" ref="#fontainebleau"
-                    >Fontainebleau</rs>, le <date when="1601-09-27">27. Septembre 1601</date>. fait
-                    le sujet du <rs type="work" ref="#jaffe_727">huitiéme tableau</rs>. C'et un des
+                    Roy Louïs XIII. arrivée à <rs type="place" ref="../register/register-place.xml#fontainebleau">Fontainebleau</rs>, le <date when="1601-09-27">27. Septembre 1601</date>. fait
+                    le sujet du <rs type="work" ref="../register/register-work.xml#jaffe_727">huitiéme tableau</rs>. C'et un des
                     plus considérables qui soit dans la gallerie, pour la belle expression de joye
                     &amp; de douleur qu'on voit sur le visage de la Reine qui regarde le Dauphin
                     nouveau-né. Une femme représentant la Justice, le tient entre ses bras,
@@ -459,7 +394,7 @@
                     &amp; luy donner pour principaux <note place="margin-right">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> Conseillers, les deux premiers Officiers de la Couronne; sçavoir, le
-                    Connestable &amp; le Chancelier. C'est <rs type="work" ref="#jaffe_729">dans
+                    Connestable &amp; le Chancelier. C'est <rs type="work" ref="../register/register-work.xml#jaffe_729">dans
                         le neuviéme tableau</rs> qu'on a figuré comme le Roy témoignant ses
                     intentions à la Reine, luy donna l'Etat à gouverner. Ce que le Peintre a
                     représenté en peignant le Roy qui met entre les mains de la Reine, un Globe
@@ -473,26 +408,22 @@
                     Sang en demandoient trois, mais ne les pûrent obtenir. La Reine fut conduite à
                     l'Autel par les Cardinaux de Gondy &amp; de Sourdis, pour estre sacrée
                     &amp; couronnée. Messieurs de Souvré &amp; de Bethune portoient les pans
-                    de son manteau pour Monsieur le Dauphin &amp; pour M. le Duc d'Anjou, <pb
-                        n="106"/>qui tenoit la place de M. le Duc d'Orleans, alors malade. Le Prince
+                    de son manteau pour Monsieur le Dauphin &amp; pour M. le Duc d'Anjou, <pb n="106"/>qui tenoit la place de M. le Duc d'Orleans, alors malade. Le Prince
                     de Conti portoit la Couronne, le Duc de Ventadour le Sceptre, &amp; le
                     Chevalier de Vendosme, la Main de Justice.</p><p> La Princesse de Conti
                     &amp;la Duchesse de Montpensier portoient la queuë du manteau de la Reine.
                     Le Cardinal de Joyeuse officioit; &amp; ce fut luy, qui aprés avoir sacré la
                     Reine, luy mit la Couronne sur la reste, C'est ce moment-là que Rubens a
-                    représenté <rs type="work" ref="#jaffe_732">dans le dixiéme tableau</rs>, où
+                    représenté <rs type="work" ref="../register/register-work.xml#jaffe_732">dans le dixiéme tableau</rs>, où
                     l'on voit la Reine à genoux, qui reçoit la Couronne. Le Dauphin vestu de blanc
                     &amp; la Princesse sa sœur, sont à ses costez. La Reine Marguerite est
                     derriére eux avec toutre la Cour. Le Roy paroist à la fenestre d'une tribune,
                     &amp; quantité de Princes &amp; grands Seigneurs assistent à cette
                     cerémonie.</p><p> Ces dix tableaux remplissent le costé de la gallerie qui donne
                     sur le jardin. Au bout de la mesme gallerie, &amp; dans l'étenduë de sa
-                    largeur, <rs type="work" ref="#jaffe_735">est un tableau qui contient deux
+                    largeur, <rs type="work" ref="../register/register-work.xml#jaffe_735">est un tableau qui contient deux
                         actions</rs>, qui pourtant s'unissent si bien ensemble, qu'elles ne font
-                    qu'un mesme sujet. C'est la mort du Roy, arrivée le Vendredy <date
-                        when="1610-05-14">14. May</date>, &amp; la regence de la Reine. Vous <pb
-                        n="107"/>sçavez que par Arrest du Parlement, elle fut <note
-                        place="margin-right">
+                    qu'un mesme sujet. C'est la mort du Roy, arrivée le Vendredy <date when="1610-05-14">14. May</date>, &amp; la regence de la Reine. Vous <pb n="107"/>sçavez que par Arrest du Parlement, elle fut <note place="margin-right">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> déclarée Regente le mesme jour que le Roy fut malheureusement tué;
                     &amp; que le lendemain <date when="1610-05-15">15. de May</date>, elle alla
@@ -509,10 +440,9 @@
                     représente la Regence. La France, sous la figure d'une femme affligée, &amp;
                     toute la Noblesse un genou à terre, rendent leurs profonds respects à la Reine,
                     &amp; luy donnent des marques de leur obéïssance. Au milieu de tout tableau
-                    sont deux femmes, <pb n="108"/>dont l'une tient la lance du Roy, où est at-<note
-                        place="margin-left">RUBENS</note>taché son casque; &amp; une autre sous
+                    sont deux femmes, <pb n="108"/>dont l'une tient la lance du Roy, où est at-<note place="margin-left">RUBENS</note>taché son casque; &amp; une autre sous
                     la figure de Bellone, qui se desespere &amp; s'arrache les cheveux.</p><p>
-                    Dans <rs type="work" ref="#jaffe_737">le douziéme tableau qui est ensuite</rs>,
+                    Dans <rs type="work" ref="../register/register-work.xml#jaffe_737">le douziéme tableau qui est ensuite</rs>,
                     &amp;du costé de la court, le Peintre a voulure-présenter la conduite de la
                     Reine, &amp; le soin qu'elle prend du Royaume pendant sa regence: Comment
                     elle surmonte tous les mouvemens de la rebellion, &amp; les desordres de
@@ -532,18 +462,18 @@
                     </note> de, tiré par les colombes de Venus. Et comme cette action est
                     représentée dans l'obscurité de la nuit, on voit Diane dans son char, qui
                     éclaire le ciel, &amp; qui répand autour d'elle une foible lumiére.</p><p>
-                    <rs type="work" ref="#jaffe_739">Le treiziéme tableau</rs> représente la Reine
+                    <rs type="work" ref="../register/register-work.xml#jaffe_739">Le treiziéme tableau</rs> représente la Reine
                     sur un coursier blanc. Elle a un casque sur sa teste, son habit est blanc,
                     couvert d'un manteau de drap d'or. Elle a l'air du visage noble &amp; fier
                     tout ensemble, une contenance majestueuse &amp; assûrée, &amp; paroist
                     comme victorieuse &amp; triomphante, aprés avoir appaisé tous les desordres
                     du Royaume. On voit dans le Ciel qui est pur &amp; serain, la Victoire
                     accompagnée de la Force &amp; de la Renommée, qui suivent la Reine.</p><p>
-                    Dans <rs type="work" ref="#jaffe_741">le quatorziéme sujet</rs>, on peint
+                    Dans <rs type="work" ref="../register/register-work.xml#jaffe_741">le quatorziéme sujet</rs>, on peint
                     l'echange qui fut fait le <date when="1615-11-09">9. Novembre 1615</date>. des
-                    deux Reines, de France &amp; d'<rs type="place" ref="#spanien">Espagne</rs>;
+                    deux Reines, de France &amp; d'<rs type="place" ref="../register/register-place.xml#spanien">Espagne</rs>;
                     Anne d'Autriche femme du Roy Louïs XIII. &amp; d'Isabelle de France, femme
-                    du Roy d'Espagne <rs type="person" ref="#philipp_iv_spanien">Philippe
+                    du Roy d'Espagne <rs type="person" ref="../register/register-person.xml#philipp_iv_spanien">Philippe
                         IV.</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
                     </index></p><p> Ces deux Princesse paroissent sur un pont richement paré, qui fut
@@ -570,8 +500,7 @@
                     mort du Mareschal.</p><p>
                     <pb n="111"/>Il semble que ce soit à ce sujet, que les deux<note place="margin">
                         <hi rend="smallCaps">Rubens.</hi>
-                    </note> tableaux qui suivent, ayent esté faits. Car <rs type="work"
-                        ref="#jaffe_745">dans le quinziéme</rs>, on voit la Reine mere assise sur un
+                    </note> tableaux qui suivent, ayent esté faits. Car <rs type="work" ref="../register/register-work.xml#jaffe_745">dans le quinziéme</rs>, on voit la Reine mere assise sur un
                     thrône, vestuë d'un manteau Royal, &amp; tenant des balances. Minerve est à
                     costé d'elle, accompagnée de l'Amour qui s'appuye sur les genoux de la Reine.
                     Tout proche il y a deux femmes, dont l'une porte les seaux, &amp; l'autre
@@ -583,17 +512,15 @@
                     jeunes enfans, dont l'un tire les oreilles de l'Ignorance, &amp; foule aux
                     pieds l'Envie. D'un autre costé paroist le Temps, qui semble conduire la France
                     dans des temps plus heureux.</p><p>
-                    <rs type="work" ref="#jaffe_747">Dans le seiziéme tableau</rs>, on voit le Roy
+                    <rs type="work" ref="../register/register-work.xml#jaffe_747">Dans le seiziéme tableau</rs>, on voit le Roy
                     sur un vaisseau, dont il tient le timon, que la Reine sa mere luy met entre les
                     mains. Les Vertus sont représentées tenans les rames, &amp; faisans aller le
                     vaisseau; &amp; au haut <pb n="112"/>des voiles est Pallas au milieu de deux
                         étoiles<note place="margin-left">RUBENS</note>, qui représentent Castor
                     &amp; Pollux.</p><p> Parmy ses succés les plus heureux, la Reine voulut aussi
                     que le Peintre trassât une image de ses disgraces &amp; de ses divers
-                    changement de fortune. De sorte que <rs type="work" ref="#jaffe_749">dans le
-                        dix-septiéme tableau</rs>, on voit comme elle se sauva de <rs type="place"
-                        ref="#blois">Blois</rs> pour se retirer à <rs type="place" ref="#loches"
-                        >Loches</rs>, &amp; de là à Angoulesme, où elle fut conduite par le Duc
+                    changement de fortune. De sorte que <rs type="work" ref="../register/register-work.xml#jaffe_749">dans le
+                        dix-septiéme tableau</rs>, on voit comme elle se sauva de <rs type="place" ref="../register/register-place.xml#blois">Blois</rs> pour se retirer à <rs type="place" ref="../register/register-place.xml#loches">Loches</rs>, &amp; de là à Angoulesme, où elle fut conduite par le Duc
                     d'Epernon. Pour marquer de quelle maniére elle sortit du chasteau de Blois, on
                     voit une des Dames de sa suite qui descend par une fenestre dans le fossé, comme
                     avoit fait la Reine. La nuit est représentée sous la figure d'une femme, qui
@@ -603,7 +530,7 @@
                     bord du fossé, quoy-qu'il ne fût pas présent lorsqu'elle sortit du chasteau de
                     Blois. Car il l'attendoit prés de Montrichard, avec soixante Cavaliers pour la
                     conduire à Loches.</p><p>
-                    <rs type="work" ref="#jaffe_750">Dans le tableau qui suit</rs>, l'on a peint
+                    <rs type="work" ref="../register/register-work.xml#jaffe_750">Dans le tableau qui suit</rs>, l'on a peint
                     l'accommodement de la Reine mere du Roy. Cette Princesse est assise sur un
                     trône. A l'un de <pb n="113"/>ses costez est le Cardinal de Guise, &amp; de
                         <note place="margin-right">
@@ -611,28 +538,25 @@
                     </note> l'autre une femme vestuë d'une robe rouge, &amp; d'un manteau bleu,
                     ayant un œil sur la teste, &amp; tenant un serpent qui luy entoure le bras.
                     Cette figure appaemment représente la Vigilance. Car l'œil ouvert aussi-bien que
-                    le serpent, est le symbole de la vigilance des Rois. Dans <rs type="person"
-                        ref="#homer">Homére</rs><index indexName="psw">
+                    le serpent, est le symbole de la vigilance des Rois. Dans <rs type="person" ref="../register/register-person.xml#homer">Homére</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Homer</term>
                     </index>, Nestor avertit Agamemnon de veiller toûjours, &amp; de ne
                     s'endormir pas.</p><p> Le Cardinal de la Rochefoucauld, qui est peint dans le
                     mesme tableau, montre par l'action qu'il fait, comme Mercure descend du ciel,
                     &amp; apporte un rameau d'olive, pour marque de la paix qui se traite.</p><p>
-                    <rs type="work" ref="#jaffe_752">Ensuite</rs> l'on voit Mercure qui conduit la
+                    <rs type="work" ref="../register/register-work.xml#jaffe_752">Ensuite</rs> l'on voit Mercure qui conduit la
                     Reine dans le temple de la Paix, pour se reconcilier avec le Roy son fils. La
                     Paix paroist elle-mesme, qui éteint le flambeau de la Guerre, sur un amas de
                     toute sorte d'armes, pendant que Mercure présente son caducée à la Reine. D'un
                     costé l'on voit une des Furies qui se desespére, &amp; la Fraude avec
                     plusieurs autres vices qui sont abattus &amp; tourmentez de rage &amp;
-                    de douleur.</p><p> Ce fut au chasteau de Cousiéres, prés de <rs type="place"
-                        ref="#tours">Tours</rs>, appartenant au Duc de Montbason, que se fit
+                    de douleur.</p><p> Ce fut au chasteau de Cousiéres, prés de <rs type="place" ref="../register/register-place.xml#tours">Tours</rs>, appartenant au Duc de Montbason, que se fit
                     l'entrevenuë &amp; la reconciliation du <pb n="114"/>Roy &amp; de la
                     Reine sa mere, le Mercredy<note place="margin-left">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note>
                     <date when="1619-09-05">5. de Septembre 1619</date>. &amp; cela avec toutes
-                    sortes de démonstrations d'amour &amp; de tendresse. <rs type="work"
-                        ref="#jaffe_754">C'est cette entrevuë que le Peintre a figurée</rs>. Le Roy
+                    sortes de démonstrations d'amour &amp; de tendresse. <rs type="work" ref="../register/register-work.xml#jaffe_754">C'est cette entrevuë que le Peintre a figurée</rs>. Le Roy
                     paroist descendre du ciel vers la Reine mere, qui est assise sur des nuages, où
                     plusieurs petits Zephyrs semblent répandre par leurs haleines un air doux
                     &amp; plein d'amour. Proche de la Reine est représentée la Nature mesme avec
@@ -641,20 +565,19 @@
                     de la France. Plus loin est la Valeur, représentée par un jeune homme vestu
                     d'une couleur rougeâtre, lequel abat l'hydre de la rebellion, &amp; quantité
                     de serpens qui paroissent morts, &amp; enlacez les uns dans les autres.</p><p>
-                    Enfin <rs type="work" ref="#jaffe_711">dans le dernier tableau</rs> paroist le
+                    Enfin <rs type="work" ref="../register/register-work.xml#jaffe_711">dans le dernier tableau</rs> paroist le
                     Temps qui découvre la Verité. Le Roy &amp; la Reine mere sont assis dans le
                     ciel, &amp; le Roy présente à la Reine une couronne de laurier, qui
                     environne deux mains jointes, &amp; un cœur au dessus. Le Peintre,
                     vraisemblablement, a voulu marquer par là, l'union parfaite &amp; sincére de
                     leurs Majestez.</p><p>
-                    <pb n="115"/>Au bout de la gallerie, au dessus de la cheminée,<note
-                        place="margin-right">
+                    <pb n="115"/>Au bout de la gallerie, au dessus de la cheminée,<note place="margin-right">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note>
-                    <rs type="work" ref="#jaffe_704">la Reine est représentée tout debout sous les
+                    <rs type="work" ref="../register/register-work.xml#jaffe_704">la Reine est représentée tout debout sous les
                         habits de Pallas</rs>; &amp; audessus des portes qui sont aux deux
-                    costez, on a mis les portraits du <rs type="work" ref="#jaffe_707">Prince</rs>
-                    &amp; de la <rs type="work" ref="#jaffe_708">Princesse</rs>, ses pere
+                    costez, on a mis les portraits du <rs type="work" ref="../register/register-work.xml#jaffe_707">Prince</rs>
+                    &amp; de la <rs type="work" ref="../register/register-work.xml#jaffe_708">Princesse</rs>, ses pere
                     &amp; mere.<index indexName="psw">
                         <term type="PND" xml:lang="deu">Medici, Francesco de’</term>
                     </index><index indexName="psw">
@@ -688,9 +611,7 @@
                     temps qu'il travailloit, on n'estoit pas si difficile sur la bienséance, qu'on
                     l'est aujourd'huy. Car vous sçavez, qu'encore qu'on ait beaucoup de respect pour
                     la memoire de ce grand homme, on ne laisse pas de regarder ses tableaux avec
-                    moins de prévention, qu'on ne faisoit autrefois, &amp; qu'en loüant ce <pb
-                        n="117"/>qui est digne de loüange dans tout ce qu'il a <note
-                        place="margin-right">RUBENS</note>peint, on ne dissimule plus les defauts
+                    moins de prévention, qu'on ne faisoit autrefois, &amp; qu'en loüant ce <pb n="117"/>qui est digne de loüange dans tout ce qu'il a <note place="margin-right">RUBENS</note>peint, on ne dissimule plus les defauts
                     qui s'y trouvent, &amp; l'on remarque assez hardiment ce qui seroit
                     necessaire dans ses ouvrages, pour estre plus parfaits. Comme vous avez vû ce
                     que l'on a écrit tres-avantageusement sur son sujet, dans un livre de
@@ -700,25 +621,19 @@
                     d'éloquence. Que si l'amour qu'il a fait paroistre pour ce Peintre, au
                     desavantage mesme de plusieurs autres des plus exellens Peintres, le rend
                     suspect sur les choses qui regardent la Peinture: je vous diray ce qu'un autre
-                    Auteur étranger &amp; desinteressé, en a <note place="margin-right">M. <rs
-                            type="person" ref="#bellori_giovanni_pietro">BELLORI</rs><index
-                            indexName="psw">
+                    Auteur étranger &amp; desinteressé, en a <note place="margin-right">M. <rs type="person" ref="../register/register-person.xml#bellori_giovanni_pietro">BELLORI</rs><index indexName="psw">
                             <term type="PND" xml:lang="deu">Bellori, Giovanni Pietro</term>
-                        </index></note> écrit avec beaucoup de jugement<note resp="A.H."
-                        type="footnote">vgl. <bibl>Giovanni Pietro Bellori: Le Vite de' pittori,
-                            Scultori et architetti moderni. Rom: Mascardi 1672.<ptr type="gbv"
-                                cRef="193939479"/></bibl></note>, selon le sentiment de tout le
+                        </index></note> écrit avec beaucoup de jugement<note resp="A.H." type="footnote">vgl. <bibl>Giovanni Pietro Bellori: Le Vite de' pittori,
+                            Scultori et architetti moderni. Rom: Mascardi 1672.<ptr type="gbv" cRef="193939479"/></bibl></note>, selon le sentiment de tout le
                     monde.</p><p> Il reconnoist que Rubens n'estroit pas un Peintre qui eût simplement
                     une pratique de son art; mais qu'il avoit étudié avec une grande application,
                     tout ce qui peut estre necessaire à un homme de sa profession. Ce que l'on a
-                    bien connu par un livre qu'il a laissé écrit &amp; desseigné de sa main<note
-                        resp="A.H." type="footnote">Zu dem hier erwähnten Studienbuch Rubens' vgl.
+                    bien connu par un livre qu'il a laissé écrit &amp; desseigné de sa main<note resp="A.H." type="footnote">Zu dem hier erwähnten Studienbuch Rubens' vgl.
                             <bibl>Arnout Balis: Rubens und Inventio. Der Beitrag seines
                             theoretischen Studienbuches. In: Ulrich Heinen, Andreas Thielemann
                             (Hrsg.): Rubens Passioni. Kultur der Leidenschaften im Barock. Göttingen
                             2001. S. 11-40<ptr type="opac" cRef="322305152"/></bibl></note>, où l'on
-                        <pb n="118"/>voit qu'outre ses observations sur ce qui regarde<note
-                        place="margin">
+                        <pb n="118"/>voit qu'outre ses observations sur ce qui regarde<note place="margin">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> l'Optique, les Proportions, l'Anatomie &amp; l'Architecture; il
                     contient une recherche exacte des actions de l'homme, lesquelles il a
@@ -726,30 +641,25 @@
                     meilleurs Poëtes. Il y a recueilli tout ce qui a rapport aux batailles, aux
                     naufrages, aux jeux, aux passe-temps, &amp; à tous les effets que produisent
                     les divers emplois de l'homme, &amp; ses différentes passions. Il a extrait
-                    des ouvrages de <rs type="person" ref="#vergil">Virgile</rs><index
-                        indexName="psw">
+                    des ouvrages de <rs type="person" ref="../register/register-person.xml#vergil">Virgile</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Vergil</term>
                     </index> &amp; d'autres Auteurs, plusieurs évenemens qu'il a comparez aux
-                    Peintures que <rs type="person" ref="#raffael">Raphaël</rs><index
-                        indexName="psw">
+                    Peintures que <rs type="person" ref="../register/register-person.xml#raffael">Raphaël</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Raffael</term>
                     </index> &amp; d'autres sçavans Peintres ont faites de ces mesmes
                     évenemens.</p><p> A l'égard du Coloris, qui est son principal talent, il travailla
                     avec une liberté de pinceau tout-à-fait surprenante; il se servit toûjours
-                    heureusement de l'étude qu'il avoit faite à Venise aprés le Titien<index
-                        indexName="psw">
+                    heureusement de l'étude qu'il avoit faite à Venise aprés le Titien<index indexName="psw">
                         <term type="PND" xml:lang="deu">Tizian</term>
                     </index>, Paul Veronése<index indexName="psw">
                         <term type="PND" xml:lang="deu">Veronese, Paolo</term>
-                    </index>, &amp; le <rs type="person" ref="#tintoretto">Tintoret</rs><index
-                        indexName="psw">
+                    </index>, &amp; le <rs type="person" ref="../register/register-person.xml#tintoretto">Tintoret</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Tintoretto</term>
                     </index>; s'attachant à leurs maximes dans la conduite &amp; la distribution
                     des jours, des ombres &amp; des reflais de lumiéres.</p><p> Cependant, on ne
                     peut pas disconvenir que Rubens n'ait beaucoup manqué dans ce qui regarde la
                     beauté des corps, &amp; souvent mesme dans la partie du dessein. Son genie
-                        <pb n="119"/>ne luy permettant point de reformer ce qu'il <note
-                        place="margin-right">RUBENS.</note>avoit une fois produit, ainsi emporté par
+                        <pb n="119"/>ne luy permettant point de reformer ce qu'il <note place="margin-right">RUBENS.</note>avoit une fois produit, ainsi emporté par
                     la rapidité de son naturel vif &amp; impertueux, il ne pensoit pas à donner
                     à ses figures, ny de beaux airs de teste, ny de la grace dans les contours qui
                     se trouvent souvent alterez par sa maniére peu étudiée. On voit que la pluspart
@@ -764,9 +674,7 @@
                     seulement dans son dessein, mais aussi dans son coloris, où les teintes des
                     carnations paroissent souvent si fortes &amp; si séparées les unes des
                     autres, qu'elles semblent des taches; &amp; dans les reflais des lumiéres
-                    qui rendent les corps comme diaphanes &amp; transparens. Et quoy- <pb
-                        n="120"/>qu'il estimât beaucoup les antiques &amp; les <note
-                        place="margin-left">
+                    qui rendent les corps comme diaphanes &amp; transparens. Et quoy- <pb n="120"/>qu'il estimât beaucoup les antiques &amp; les <note place="margin-left">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> ouvrages de Raphaël, on ne s'apperçoit pas qu'il ait tâché d'imiter ny
                     les uns ny les autres. Au contraire, on peut dire qu'il s'en écloignoit si fort,
@@ -780,18 +688,14 @@
                     laquelle plusieurs autres se trouvent de marcher devant luy, ne le fist éloigner
                     d'eux au delà du rang qu'il doit legitimement tenir. Outres les tableaux qu'on
                     voit de luy dans le Cabinet du Roy, il y en a encore à Paris chez plusieurs
-                    curieux; mais il s'en voit peu qui soient pareils à ceux de Monsieur <rs
-                        type="person" ref="#plessis_armand_jean">le Duc de Richelieu</rs><index
-                        indexName="psw">
+                    curieux; mais il s'en voit peu qui soient pareils à ceux de Monsieur <rs type="person" ref="../register/register-person.xml#plessis_armand_jean">le Duc de Richelieu</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Richelieu, Armand Jean de Vignerot du
                             Plessis de</term>
                     </index>, qui touché d'un goust &amp; d'une affection particuliére pour les
                     tableux de Rubens, a fait une recherche &amp; une dépense digne d'une
-                        person<pb n="121"/>ne de sa qualité, pour avoir de ce Peintre, <note
-                        place="margin-right">
+                        person<pb n="121"/>ne de sa qualité, pour avoir de ce Peintre, <note place="margin-right">
                         <hi rend="smallCaps">Rubens.</hi>
-                    </note> ceux qu'on estimoit le plus dans les <rs type="place" ref="#niederlande"
-                        >Pays-Bas</rs>. De sorte que quand vous voudrez avoir le plaisir de voir ce
+                    </note> ceux qu'on estimoit le plus dans les <rs type="place" ref="../register/register-place.xml#niederlande">Pays-Bas</rs>. De sorte que quand vous voudrez avoir le plaisir de voir ce
                     que Rubens a fait de plus considérable, vous pourrez, sans sortir de Paris, vous
                     donner cette satisfaction, en visitant la Gallerie de Luxembourg, le Cabinet de
                     Sa Majesté, &amp; celuy de l'Hostel de Richelieu. Dans ce dernier, vous y
@@ -801,93 +705,73 @@
                             <term type="SWD" xml:lang="deu">Jüngstes Gericht</term>
                         </index>
                     </index><note resp="A.H." type="footnote">Laut <bibl>Michael Jaffé: Rubens -
-                            Catalogo completo. Milano 1989. S. 247f.<ptr type="gbv" cRef="022373535"
-                            /></bibl>handelt es sich bei dem in der Sammlung Richelieus befindlichen
-                        Gemälde um eine weitere Version des <rs type="work" ref="#jaffe_528"
-                            >Höllensturzes der Verdammten</rs> in der Alten Pinakothek
+                            Catalogo completo. Milano 1989. S. 247f.<ptr type="gbv" cRef="022373535"/></bibl>handelt es sich bei dem in der Sammlung Richelieus befindlichen
+                        Gemälde um eine weitere Version des <rs type="work" ref="../register/register-work.xml#jaffe_528">Höllensturzes der Verdammten</rs> in der Alten Pinakothek
                     München.</note>, qui est un tableau d'onze pieds de haut sur six pieds de large,
-                    celuy de <rs type="work" ref="#jaffe_694">la chasse des lions</rs><index
-                        indexName="psw">
+                    celuy de <rs type="work" ref="../register/register-work.xml#jaffe_694">la chasse des lions</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Löwenjagd</term>
                         </index>
-                    </index>, <rs type="work" ref="#jaffe_1348">Susanne avec les deux
+                    </index>, <rs type="work" ref="../register/register-work.xml#jaffe_1348">Susanne avec les deux
                         vieillards</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Susanna im Bade</term>
                         </index>
                     </index>; une Baccanale<note resp="A.H." type="footnote">Félibien kann sich hier
-                        auf mehrere Gemälde in der Sammlung Richelieu beziehen: Den <rs type="work"
-                            ref="#jaffe_546">trunkenen Silen</rs> (London, National Gallery), den
-                            <rs type="work" ref="#jaffe_1342">Bacchus</rs> (St. Petersburg,
-                        Eremitage) oder den <rs type="work" ref="#jaffe_428">trunkenen Silen
-                            (München, Alte Pinakothek)</rs>, die wiederum <ref type="rubens"
-                            cRef="ed_rubens_263">Roger de Piles in seiner "Conversations sur la
+                        auf mehrere Gemälde in der Sammlung Richelieu beziehen: Den <rs type="work" ref="../register/register-work.xml#jaffe_546">trunkenen Silen</rs> (London, National Gallery), den
+                            <rs type="work" ref="../register/register-work.xml#jaffe_1342">Bacchus</rs> (St. Petersburg,
+                        Eremitage) oder den <rs type="work" ref="../register/register-work.xml#jaffe_428">trunkenen Silen
+                            (München, Alte Pinakothek)</rs>, die wiederum <ref type="rubens" cRef="ed_rubens_263">Roger de Piles in seiner "Conversations sur la
                             connaissance de la peinture"</ref> beschreibt. vgl. <bibl>Roger de
                             Piles: Conversations sur la connaissance de la peinture et sur le
                             jugement qu'on doit faire des tableaux. Paris: Langlois 1677 [Reprint
                             Genf 1970]. S. 139-146.<ptr type="gbv" cRef="134747585"/></bibl></note>;
-                        <rs type="work" ref="#jaffe_1063">la vûë de Cadix</rs><note resp="A.H."
-                        type="footnote">Laut Michael Jaffé beschreibt de Piles unter dem Titel "Vue
+                        <rs type="work" ref="../register/register-work.xml#jaffe_1063">la vûë de Cadix</rs><note resp="A.H." type="footnote">Laut Michael Jaffé beschreibt de Piles unter dem Titel "Vue
                         de Cadis" die "Landschaft mit der Ankunst des Odysseus auf der Insel der
                         Phäaken", die sich 1677 bereits in der Sammlung Richelieu befand. vgl.
                             <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S. 330.
-                            Nr. 1063<ptr type="gbv" cRef="022373535"/></bibl></note>; <rs
-                        type="work" ref="#jaffe_508">la Madeléne aux pieds de nostre Seigneur chez
-                        Simon le Pharisien</rs>; <rs type="work" ref="#jaffe_1078">un bain de
-                    Diane</rs>; <rs type="work" ref="#jaffe_973">le S. Georges</rs>, &amp;
+                            Nr. 1063<ptr type="gbv" cRef="022373535"/></bibl></note>; <rs type="work" ref="../register/register-work.xml#jaffe_508">la Madeléne aux pieds de nostre Seigneur chez
+                        Simon le Pharisien</rs>; <rs type="work" ref="../register/register-work.xml#jaffe_1078">un bain de
+                    Diane</rs>; <rs type="work" ref="../register/register-work.xml#jaffe_973">le S. Georges</rs>, &amp;
                     quelques autres, égaux en merite, qui tous ont esté choisis comme les
                     chef-d'́œuvres de cét excellent Peintre, &amp; ausquels il n'y a eu que luy
                     qui ait mis la main. Je ne vous en fais pas la description, parce qu'elle a esté
-                    faite avec beaucoup de soin &amp; d'éloquence;<note resp="A.H."
-                        type="footnote">vgl. <bibl>Roger de Piles: Conversations sur la connaissance
+                    faite avec beaucoup de soin &amp; d'éloquence;<note resp="A.H." type="footnote">vgl. <bibl>Roger de Piles: Conversations sur la connaissance
                             de la peinture et sur le jugement qu'on doit faire des tableaux. Paris:
-                            Langlois 1677 [Reprint Genf 1970].<ptr type="gbv" cRef="134747585"
-                        /></bibl>; vgl. auch den <ref type="rubens" cRef="ed_rubens_263">Volltext
-                            der "Conversations"</ref>. und <ref type="rubens" cRef="ed_rubens_256"
-                            >Roger de Piles' "Dissertation sur les Ouvrages"</ref>, ebenfalls als
+                            Langlois 1677 [Reprint Genf 1970].<ptr type="gbv" cRef="134747585"/></bibl>; vgl. auch den <ref type="rubens" cRef="ed_rubens_263">Volltext
+                            der "Conversations"</ref>. und <ref type="rubens" cRef="ed_rubens_256">Roger de Piles' "Dissertation sur les Ouvrages"</ref>, ebenfalls als
                         Volltext. <bibl>Roger de Piles: Dissertation sur les ouvrages des plus
-                            fameux peintres. Paris: Langlois, 1681.<ptr type="opac" cRef="150746121"
-                            /></bibl></note> &amp; Monsieur le Duc de Richelieu a bien voulu
+                            fameux peintres. Paris: Langlois, 1681.<ptr type="opac" cRef="150746121"/></bibl></note> &amp; Monsieur le Duc de Richelieu a bien voulu
                     travailler luy-mesme à celle de la chûte des Réprouvez.</p><p> Alors estant
-                    demeuré quelque temps sans parler, On peut, dit Pymandre, ajoûter à <pb n="122"
-                    />tout ce que vous avez dit d'avantageux pour <note place="margin-left"
-                    >RUBENS.</note>Rubens, le merite particulier de sa personne, qui le distingua
+                    demeuré quelque temps sans parler, On peut, dit Pymandre, ajoûter à <pb n="122"/>tout ce que vous avez dit d'avantageux pour <note place="margin-left">RUBENS.</note>Rubens, le merite particulier de sa personne, qui le distingua
                     infiniment de tous les Peintres de son temps. Car ayant beaucoup d'esprit,
                     &amp; un esprit bien tourné pour la Cour &amp; pour les affaires, il se
                     rendit agréable à tout le monde, &amp; capable d'entrer dans les
-                    negociations. Sur cela je vous puis dire ce que j'ay appris en <rs type="place"
-                        ref="#england">Angleterre</rs> &amp; en <rs type="place" ref="#holland"
-                        >Hollande</rs>, touchant sa conduite dans les emplois dont il fut
+                    negociations. Sur cela je vous puis dire ce que j'ay appris en <rs type="place" ref="../register/register-place.xml#england">Angleterre</rs> &amp; en <rs type="place" ref="../register/register-place.xml#holland">Hollande</rs>, touchant sa conduite dans les emplois dont il fut
                     honoré.</p><p> L'inclination naturelle qu'il avoit toûjours euë à prendre
-                    connoissance des affaires les plus importantes qui se passoient alors en <rs
-                        type="place" ref="#europa">Europe</rs>, particuliérement de celles qui
+                    connoissance des affaires les plus importantes qui se passoient alors en <rs type="place" ref="../register/register-place.xml#europa">Europe</rs>, particuliérement de celles qui
                     regardoient l'Etat &amp; le Gouvernement des Provinces-Unies, fit qu'estant
-                    d'ailleurs fort considéré de l'Infante des Pays-Bas, elle le choisit en <date
-                        when="1628">1628</date>. pour aller en Espagne informer le Roy de ce qui
+                    d'ailleurs fort considéré de l'Infante des Pays-Bas, elle le choisit en <date when="1628">1628</date>. pour aller en Espagne informer le Roy de ce qui
                     passoit en Flandres, &amp; luy faire connoître en particulier ce qui estoit
                     alors de plus expédient, pour le service de Sa Majesté. Ce fut dans les
-                    conférences qu'il eut avec le <rs type="person" ref="#guzman_gaspard">Comte Duc
+                    conférences qu'il eut avec le <rs type="person" ref="../register/register-person.xml#guzman_gaspard">Comte Duc
                         d'Olivarez</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Olivares, Gaspar de G.</term>
-                    </index> &amp; le <rs type="person" ref="#spinola_ambrogio">Marquis de
+                    </index> &amp; le <rs type="person" ref="../register/register-person.xml#spinola_ambrogio">Marquis de
                         Spinola,</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Spinola, Ambrogio</term>
                     </index> qu'il fit paroistre sa capacité, &amp; combien il estoit propre á
-                    traiter des interests de l'Etat: en sorte que le Roy l'ayant chargé <pb n="123"
-                    />de commissions secrettes pour son service, le <note place="margin-right">
+                    traiter des interests de l'Etat: en sorte que le Roy l'ayant chargé <pb n="123"/>de commissions secrettes pour son service, le <note place="margin-right">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> Duc d'Olivarez luy fit present, de la part de Sa Majesté Catholique,
                     d'un diamant de grand prix, &amp; de la Charge de Secretaire du Conseil
-                        Privé<note resp="A.H." type="footnote">Rubens wird am <date
-                            when="1629-04-27">27. April 1629</date> zum Sekretär des Geheimen
+                        Privé<note resp="A.H." type="footnote">Rubens wird am <date when="1629-04-27">27. April 1629</date> zum Sekretär des Geheimen
                         Staatsrates ernannt. vgl. <ref type="rubens" cRef="ed_rubens_191">die
                             entsprechenden Dokumente</ref>.</note>, dont il luy fit expédier des
                     lettres pour luy &amp; pour son fils.</p><p> Lorsqu'il fut de retour en
-                    Flandres, le premier employ qu'on luy donna, fut pour negocier une tréve<index
-                        indexName="stw">
+                    Flandres, le premier employ qu'on luy donna, fut pour negocier une tréve<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Friedensverhandlungen</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Waffenstillstand</term>
@@ -895,13 +779,11 @@
                     Provinces-Unies, au sujet de laquelle il fit quelques voyages en Hollande, sous
                     pretexte neanmoins d'autres affaires qui le regardoient en son particulier. Il
                     s'estoit conduit avec tant de prudence, qu'il avoit fort avancé cette
-                    negociation, lorsque la mort du <rs type="person" ref="#oranien_nassau_moritz"
-                        >Prince Maurice de Nassau</rs><index indexName="psw">
+                    negociation, lorsque la mort du <rs type="person" ref="../register/register-person.xml#oranien_nassau_moritz">Prince Maurice de Nassau</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Oranien-Nassau, Moritz von
                         (1567-1625)</term>
                     </index> arriva, qui fit que le traité ne pur estre achevé.</p><p> L'amitié que
-                    Rubens avoit liée avec le <rs type="person" ref="#buckingham_herzog_villiers"
-                        >Duc de Bouquinquan</rs><index indexName="psw">
+                    Rubens avoit liée avec le <rs type="person" ref="../register/register-person.xml#buckingham_herzog_villiers">Duc de Bouquinquan</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Buckingham, George Villiers of
                         (1592-1628)</term>
                     </index>, pendant qu'ils estoient tous deux à Paris, fut cause que le Roy
@@ -930,33 +812,27 @@
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> recontre beaucoup de conduite &amp; de jugement. Car en peu de temps
                     il mit les choses en si bon état &amp; si secrettement, que le traité de
-                    paix fut conclu entre les deux Couronnes pendant les mois de <date
-                        when="1630-11">Novembre</date> &amp; de <date when="1630-12">Decembre
-                        1630</date>.</p><p> Le Roy d'Angleterre envoya Milord <rs type="person"
-                        ref="#cottington_francis">François Cottington</rs><index indexName="psw">
+                    paix fut conclu entre les deux Couronnes pendant les mois de <date when="1630-11">Novembre</date> &amp; de <date when="1630-12">Decembre
+                        1630</date>.</p><p> Le Roy d'Angleterre envoya Milord <rs type="person" ref="../register/register-person.xml#cottington_francis">François Cottington</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Cottington, Francis</term>
                     </index>, pour la jurer en Espagne entre les mains du Roy, qui de sa part envoya
                     Dom Carlos Colonna en Angleterre, pour le mesme sujet.</p><p> Et pour faire voir
                     combien Rubens se rendit agréable aux deux Rois par cette negociation, c'est que
                         celuy<index indexName="psw">
                         <term type="PND" xml:lang="deu">Karl (England, König, I.)</term>
-                    </index> de la <rs type="place" ref="#grossbritannien">Grand'-Bretagne</rs> le
-                    fit Chevalier<note resp="A.H." type="footnote">vgl. das <ref type="rubens"
-                            cRef="ed_rubens_205">Ritterdiplom Charles' I. für Peter Paul
+                    </index> de la <rs type="place" ref="../register/register-place.xml#grossbritannien">Grand'-Bretagne</rs> le
+                    fit Chevalier<note resp="A.H." type="footnote">vgl. das <ref type="rubens" cRef="ed_rubens_205">Ritterdiplom Charles' I. für Peter Paul
                         Rubens</ref> vom <date when="1630-12-15">15. Dezember 1630</date>.</note>,
                     luy donna l'épée avec laquelle il avoit fait la cerémonie, &amp; luy fit
                     present d'un service de vaisselle d'argent d'un prix considérable. Le Roy
                     d'Espagne de son costé, luy confirma le titre de Chevalier, par des Lettres
-                        patentes<note resp="A.H." type="footnote">vgl. die Akte zur Rubens' <ref
-                            type="rubens" cRef="ed_rubens_211">Erhebung in den Ritterstand</ref> am
-                            <date when="1631-07-16">16. Juli 1631</date> und das <ref type="rubens"
-                            cRef="ed_rubens_212">Adelspatent</ref> vom <date when="1631-08-20">20.
+                        patentes<note resp="A.H." type="footnote">vgl. die Akte zur Rubens' <ref type="rubens" cRef="ed_rubens_211">Erhebung in den Ritterstand</ref> am
+                            <date when="1631-07-16">16. Juli 1631</date> und das <ref type="rubens" cRef="ed_rubens_212">Adelspatent</ref> vom <date when="1631-08-20">20.
                             August 1631</date>.</note><index indexName="stw">
                         <term xml:lang="deu">Ritterstand</term>
                     </index>, &amp; joignit beaucoup d'autres graces à celles qu'il avoit déja
                     reçûës de luy &amp; de l'Infante.</p><p> Quelque temps aprés il arriva que la
-                    Reine Marie de Médicis &amp; <rs type="person" ref="#orleans_gaston"
-                        >Monsieur frere unique</rs><index indexName="psw">
+                    Reine Marie de Médicis &amp; <rs type="person" ref="../register/register-person.xml#orleans_gaston">Monsieur frere unique</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Orléans, Gaston d’</term>
                     </index> du Roy Louis XIII. sortirent de France, &amp; se retirérent à
                     Bruxelles. Rubens ayant l'honneur <pb n="126"/>d'en estre particuliérement
@@ -965,8 +841,7 @@
                     </note> se servoit ordinairement de luy, pour leur faire sçavoir ses intentions
                     &amp; celles de Roy d'Espagne, dans toutes les rencontres qui se
                     présentoient. Et comme la Cour de Bruxelles estoit alors en trouble par la
-                    guerre des Hollandois, qui avoient pris <rs type="place" ref="#maastricht"
-                        >Maestrich</rs>, le Maquis d'Aytona ne trouva pas de meilleur moyen pour les
+                    guerre des Hollandois, qui avoient pris <rs type="place" ref="../register/register-place.xml#maastricht">Maestrich</rs>, le Maquis d'Aytona ne trouva pas de meilleur moyen pour les
                     amuser, que de faire derechef quelque ouverture de paix ou de tréve avec les
                     Etats. Cette negociation fut secrettement commise à Rubens, qui agit si bien,
                     que les Hollandois consentirent d'entrer en conference avec les Députez des
@@ -993,27 +868,21 @@
                     choses, comme un véritable homme d'honneur.</p><p> Il vendit au Duc Bouquinquan la
                     pluspart des médailles, des tableaux, &amp; des autres curiositez antiques
                     qu'il avoit amassées.</p><p> Vous sçavez qu'il fut marié deux fois. Ayant perdu sa
-                    premiére femme en <date when="1626">1626</date><note resp="A.H." type="footnote"
-                        >Isabella Brant starb am <date when="1626-06-20">20. Juni 1626</date>.
+                    premiére femme en <date when="1626">1626</date><note resp="A.H." type="footnote">Isabella Brant starb am <date when="1626-06-20">20. Juni 1626</date>.
                         Rubens zahlte aus diesem Anlass ein außerordentliches Totengeld an die zur
                         Antwerpener Lukas-Gilde gehörende Rhetorikerkammer De Violieren. vgl. hierzu
                         den <ref type="rubens" cRef="ed_rubens_170">Eintrag in den Liggeren der
-                            Gilde</ref>.</note>. il en épousa depuis une seconde, nommée <rs
-                        type="person" ref="#fourment_helene">Helene Fourmont</rs><index
-                        indexName="psw">
+                            Gilde</ref>.</note>. il en épousa depuis une seconde, nommée <rs type="person" ref="../register/register-person.xml#fourment_helene">Helene Fourmont</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Fourment, Hélène</term>
-                    </index><note resp="A.H." type="footnote">Die Trauung fand am <date
-                            when="1630-06-06">6. Dezember 1630</date> in der St. Jakobskerch statt.
+                    </index><note resp="A.H." type="footnote">Die Trauung fand am <date when="1630-06-06">6. Dezember 1630</date> in der St. Jakobskerch statt.
                         vgl. den <ref type="rubens" cRef="ed_rubens_203">Eintrag in das
-                            Heiratsregister</ref>.</note>. Il eut des fils de l'une &amp; de <pb
-                        n="128"/>l'autre. L'aîné fut Secretaire du Conseil<note place="margin-left">
+                            Heiratsregister</ref>.</note>. Il eut des fils de l'une &amp; de <pb n="128"/>l'autre. L'aîné fut Secretaire du Conseil<note place="margin-left">
                         <hi rend="smallCaps">Rubens.</hi>
                     </note> Privé, &amp; les autres estoient encore jeunes quand il mourut.
                     Comme la goute le prit, &amp; que son corps se trouva accablé de diverses
                     autres infirmitez, il ne pût plus travailler à de grands ouvrages. Cependant, il
                     ne laissoit pas de délasser toûjours son esprit à quelque chose. Il fit, à
-                    l'instance du Magistrat d'Anvers; les desseins des <rs type="work"
-                        ref="#pompa_introitus">arcs de triomphes, &amp; des autres décorations
+                    l'instance du Magistrat d'Anvers; les desseins des <rs type="work" ref="../register/register-work.xml#pompa_introitus">arcs de triomphes, &amp; des autres décorations
                         que l'on prépara pour l'entrée de Cardinal Infant</rs><index indexName="psw">
                         <term type="GND" xml:lang="deu">Ferdinand &lt;Österreich, Erzherzog,
                             1609-1641&gt;</term>
@@ -1025,23 +894,18 @@
                     </index>, frere du Roy Philippes IV. lesquels on a gravez, &amp; dont il y a
                     un livre.<note resp="A.H." type="footnote">vgl. <bibl>Jean Gaspard Gevaerts:
                             Pompa introitus honori Ferdinandi [...]. Antwerpen: Joannes Meursius,
-                            1641. [Nachdruck Unterschneidheim 1971]<ptr type="opac" cRef="02585836X"
-                            /></bibl>; Online auf den Seiten der <ref
-                            target="http://special-1.bl.uk/treasures/festivalbooks/BookDetails.aspx?strFest=0152"
-                            >British Library [02.08.2010]</ref></note> Ce sont les derniéres piéces
+                            1641. [Nachdruck Unterschneidheim 1971]<ptr type="opac" cRef="02585836X"/></bibl>; Online auf den Seiten der <ref target="http://special-1.bl.uk/treasures/festivalbooks/BookDetails.aspx?strFest=0152">British Library [02.08.2010]</ref></note> Ce sont les derniéres piéces
                     considérables qui soient sorties de sa main.</p><p> Enfin, comme il avoit toûjours
-                    vécu fort chrestiennement, il finit sa vie de mesme, &amp; mourut le <date
-                        when="1640-05-30">30. May 1640</date>. âgé de soixante-quatre ans. Son corps
+                    vécu fort chrestiennement, il finit sa vie de mesme, &amp; mourut le <date when="1640-05-30">30. May 1640</date>. âgé de soixante-quatre ans. Son corps
                     fut enterré dans l'Eglise Paroissiale de S. Jacques d'Anvers, oú l'on voit son
                         <ref type="rubens" cRef="ed_rubens_247">Epitaphe</ref>. Il avoit auprés de
                     luy un Peintre, nommé <hi rend="smallCaps">
-                        <rs type="person" ref="#wildens_jan">Wildens</rs>
+                        <rs type="person" ref="../register/register-person.xml#wildens_jan">Wildens</rs>
                     </hi><index indexName="psw">
                         <term type="PND" xml:lang="deu">Wildens, Jan</term>
                     </index>, qui <note place="margin">Wildens</note>faisoit ordinairement les
                     paysages de ses tableaux, &amp; qui mourut quatre ou cinq ans aprés
-                    luy.</p><p> Mais il eut pour Eléve <rs type="person" ref="#dyck_anthonis_van"
-                        >Antoine <hi rend="smallCaps">Vandeik</hi></rs><index indexName="psw">
+                    luy.</p><p> Mais il eut pour Eléve <rs type="person" ref="../register/register-person.xml#dyck_anthonis_van">Antoine <hi rend="smallCaps">Vandeik</hi></rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Dyck, Anthonis van</term>
                     </index>, qui s'est rendu celebre par l'excellence <pb n="129"/>&amp; la
                     quantité des portraits qu'il a faits. </p>

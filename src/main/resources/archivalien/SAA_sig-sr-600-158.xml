@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_206">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_206"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-600-158">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -56,31 +55,27 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Meester <rs type="person" ref="#nispen_cornelis">Cornelis van Nispen</rs>,
-                    licensiaet ende bekende ende verclaerde also hij onder andere opden <date
-                        when="1629-04-18">achthienste april 16<hi rend="super">c</hi>
+                <p>Meester <rs type="person" ref="../register/register-person.xml#nispen_cornelis">Cornelis van Nispen</rs>,
+                    licensiaet ende bekende ende verclaerde also hij onder andere opden <date when="1629-04-18">achthienste april 16<hi rend="super">c</hi>
                     negenentwintich</date> compareerenden voor schepene deser stadt tot versekerheyt
                     van het vuytrycken van eenen stoote daeghes aen yeder vande twaelff oude
                     mannekens volgens den testamenten ende codicillen<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Testament</term>
-                    </index> van wijlen <rs type="person" ref="#nispen_balthasar">Balthasar van
+                    </index> van wijlen <rs type="person" ref="../register/register-person.xml#nispen_balthasar">Balthasar van
                         Nispen</rs> sijns comparants oome, mede oock tot versekerheyt ende
-                    indemniteyt van Jonker <rs type="person" ref="#rubens_peter_paul">Pietro Paulo
-                        Ruebens</rs> ende <rs type="person" ref="#lunden_arnoult">Arnould
+                    indemniteyt van Jonker <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo
+                        Ruebens</rs> ende <rs type="person" ref="../register/register-person.xml#lunden_arnoult">Arnould
                     Lunden</rs>, procurateurs van testamente<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Testamentsvollstrecker</term>
                     </index> aen de vuyterste wille des voors. Balthasars van Nispen, verbonden
                     verobligeert heeft de twee hondert vijftich guldens negen thien stuyvers 1 blank
-                    erffelijk, die <rs type="person" ref="#joustman_anthonius">Anthonius
-                    Joustman</rs> opden <date when="1626-04-01">eersten April 16<hi rend="super"
-                        >c</hi> sessentwintich</date> vercocht heeft den voors. executeurs tot
+                    erffelijk, die <rs type="person" ref="../register/register-person.xml#joustman_anthonius">Anthonius
+                    Joustman</rs> opden <date when="1626-04-01">eersten April 16<hi rend="super">c</hi> sessentwintich</date> vercocht heeft den voors. executeurs tot
                     behoeve vanden sterfhuyse dat voors. Balthasars van Nispen, vande welcke hij
                     comparant universeel erfgenaem is op eene hoeve mette lande, gronde ende
-                    toebehoirten groot 20 bunderen gelegen tot <rs type="place" ref="#contich"
-                        >Contich</rs> ende daer tot noch op een huys mette gronde ende toebehoirten
-                    gestaen ende gelegen inde St. Andriesstrate tusschen thuys van <rs type="person"
-                        ref="#succa_anthonis">Antonis de Succa</rs> aen d’eene sijde ende thuys van
-                        <rs type="person" ref="#fragra_jan_jacomo">Jan Jacomo Fragra</rs> aen
+                    toebehoirten groot 20 bunderen gelegen tot <rs type="place" ref="../register/register-place.xml#contich">Contich</rs> ende daer tot noch op een huys mette gronde ende toebehoirten
+                    gestaen ende gelegen inde St. Andriesstrate tusschen thuys van <rs type="person" ref="../register/register-person.xml#succa_anthonis">Antonis de Succa</rs> aen d’eene sijde ende thuys van
+                        <rs type="person" ref="../register/register-person.xml#fragra_jan_jacomo">Jan Jacomo Fragra</rs> aen
                     d’ander sijde, ende alsoo de voirs. comparanten de voors. rente van de voors.
                     verbintenisse wilt ontalasten, dewelck hij aan ende vermach te doene midts in
                     plaetse vande selver doende anders verbintenisse oft hypotequen soo is dat de
@@ -88,22 +83,18 @@
                     heeft de een hondert ende thien gulden erffelyck vuyt meerdere renten van drye
                     hondert ende vijvendertich gulden vijfthien stuyvers erffelyck, quytbaer ten
                     penninck twintich hem comparante competeerende ten laste van verhoor ende goeden
-                    van heer <rs type="person" ref="#fourneau_theodor">Theodoor de Fourneau</rs> dat
-                    diet <rs type="place" ref="#cruyckenborch">Cruyckenborch</rs> Riddere heer van
-                    Sinte Ulricx Capelle raedt ordinaris van sijns majesteit raede in <rs
-                        type="place" ref="#brabant">Brabande</rs> etc., ende waer voere diversche
-                    andere rente verbonden sijn volgende de brieven bij <rs type="person"
-                        ref="#dieltkens_sebastiaen">Sebastiaen Dieltkens</rs> qualitate qua opden
+                    van heer <rs type="person" ref="../register/register-person.xml#fourneau_theodor">Theodoor de Fourneau</rs> dat
+                    diet <rs type="place" ref="../register/register-place.xml#cruyckenborch">Cruyckenborch</rs> Riddere heer van
+                    Sinte Ulricx Capelle raedt ordinaris van sijns majesteit raede in <rs type="place" ref="../register/register-place.xml#brabant">Brabande</rs> etc., ende waer voere diversche
+                    andere rente verbonden sijn volgende de brieven bij <rs type="person" ref="../register/register-person.xml#dieltkens_sebastiaen">Sebastiaen Dieltkens</rs> qualitate qua opden
                         <date when="--07-24">24<hi rend="super">a</hi> Juli</date> lestleden voor
                     schepenen deser stadt gepasseert, ende daer toe noch de een hondert acht en
                     dertich Carolus guldens, een blanck erffelyc quytbaer den penninck sesthiene,
                     vam vuyt de eenhondert vyventseventich carolus guldens thien stuyvers waervan de
-                    eersten gequeten is daeromme <rs type="person" ref="#dyck_geeraert">Geeraert Van
+                    eersten gequeten is daeromme <rs type="person" ref="../register/register-person.xml#dyck_geeraert">Geeraert Van
                         Dyck</rs> heere van Steen etc. compareeren opden <date when="1628-06-16">16
                         Juny 16<hi rend="super">c</hi> ende achtentwintich</date> voor schepenen van
-                        <rs type="place" ref="#oideren">Oideren</rs> ’t erve gegeven heeft <rs
-                        type="person" ref="#aerts_peeter">Peeter Aerts</rs> ende <rs type="person"
-                        ref="#verschueren_hans">Hans Verschueren</rs> diversche goeden ende landen
+                        <rs type="place" ref="../register/register-place.xml#oideren">Oideren</rs> ’t erve gegeven heeft <rs type="person" ref="../register/register-person.xml#aerts_peeter">Peeter Aerts</rs> ende <rs type="person" ref="../register/register-person.xml#verschueren_hans">Hans Verschueren</rs> diversche goeden ende landen
                     gelegen tot Oirderen voors. ende die de voors. Sebastiaen Dieltkens qualitate
                     qua opden <date when="---24">vierentwitichsten</date> deser getransporteert
                     heeft hem comparante prout littera etc.</p> <closer><salute>sonder argelist.</salute><lb/>

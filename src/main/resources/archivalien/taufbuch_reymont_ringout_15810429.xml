@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_053">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_053"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="taufbuch_reymont_ringout_15810429">
                     <msIdentifier>
                         <country>Deutschland</country>
@@ -40,8 +39,7 @@
                     <msContents>
                         <msItem>
                             <filiation>
-                                <note resp="A.H." type="footnote">Vgl. hierzu den Eintrag vom <ref type="rubens"
-                                    cRef="ed_rubens_046">8. November 1579</ref> im selben Taufbuch.</note>
+                                <note resp="A.H." type="footnote">Vgl. hierzu den Eintrag vom <ref type="rubens" cRef="ed_rubens_046">8. November 1579</ref> im selben Taufbuch.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -75,10 +73,7 @@
     <text>
         <body>
             <div part="Y" xml:lang="nld">
-                <p> Den <date when="1581-04-29">29 april anno 1581</date>, <rs type="person"
-                        ref="#koninck_hans">Hans de Koninck</rs> syn kint ghetuygen <rs
-                        type="person" ref="#ringout_reymont">Reymont Ringout</rs>, Mr. <rs
-                        type="person" ref="#rubens_jan">Jan Ruebens</rs> inde syn huysvrau. </p>
+                <p> Den <date when="1581-04-29">29 april anno 1581</date>, <rs type="person" ref="../register/register-person.xml#koninck_hans">Hans de Koninck</rs> syn kint ghetuygen <rs type="person" ref="../register/register-person.xml#ringout_reymont">Reymont Ringout</rs>, Mr. <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebens</rs> inde syn huysvrau. </p>
             </div>
         </body>
         

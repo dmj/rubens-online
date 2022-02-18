@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_248">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_248"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-3020">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -73,15 +73,12 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p><pb n="581r"/>5000 livres à <rs type="person" ref="#contreras_francisco">François
+                <p><pb n="581r"/>5000 livres à <rs type="person" ref="../register/register-person.xml#contreras_francisco">François
                         Rojas</rs>, garde-jouaux, de Son Altesse Royale, sur et à bon compte de
                     10000 pareilles livrs à payer en quatre termes, asçavoir 1000 philippus à 50
                     sols pièce comptant, et les aultres 3000 philippus de trois en trois mois
                     ensuivant, pour estre lesdits deniers par luy employez au payement de dix huict
-                    peinctures que, par ordre de Sa Majesté, se font en la ville d’<rs type="place"
-                        ref="#antwerpen">Anvers</rs> par les peinctres <rs type="person"
-                        ref="#rubens_peter_paul">Rubbens</rs> en <rs type="person"
-                        ref="#snyders_frans">Sneyders</rs><index indexName="psw">
+                    peinctures que, par ordre de Sa Majesté, se font en la ville d’<rs type="place" ref="../register/register-place.xml#antwerpen">Anvers</rs> par les peinctres <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubbens</rs> en <rs type="person" ref="../register/register-person.xml#snyders_frans">Sneyders</rs><index indexName="psw">
                         <term type="PND">Snyders, Frans</term>
                     </index>. </p>
             </div>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_265">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_265"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="bullart_academie_1682">
                     <msIdentifier>
                         <country>Deutschland</country>
@@ -65,37 +64,30 @@
                         ARTS,<lb rend="line-height:150%"/> Contenant les Vies, &amp; les Eloges
                     Historiques des<lb/> Hommes Illustres,<lb rend="line-height:150%"/> Qui ont
                     excellé en ces Professions depuis environ quatre Siécles<lb/> parmy diverses
-                    Nations de l'<rs type="place" ref="#europa">Europe</rs>:<lb
-                        rend="line-height:150%"/> Avec leurs Portraits tirez sur des Originaux au
+                    Nations de l'<rs type="place" ref="../register/register-place.xml#europa">Europe</rs>:<lb rend="line-height:150%"/> Avec leurs Portraits tirez sur des Originaux au
                     Naturel, &amp; plusieurs Inscriptions<lb/> funebres, exactement recueïllies
-                    de leurs Tombeaux<lb rend="line-height:150%"/> Par <rs type="person"
-                        ref="#bullart_isaac">
+                    de leurs Tombeaux<lb rend="line-height:150%"/> Par <rs type="person" ref="../register/register-person.xml#bullart_isaac">
                         <hi rend="smallCaps">Isaac Bullart</hi>
                         <index indexName="psw">
                             <term type="PND" xml:lang="deu">Bullart, Isaac</term>
                             <index indexName="fsw">
-                                <term type="structure" target="#author" xml:lang="deu"
-                                >Verfasser</term>
+                                <term type="structure" target="#author" xml:lang="deu">Verfasser</term>
                             </index>
                         </index>
-                    </rs>, Chevalier de l'<rs type="corporate" ref="#michaelsorden_frankreich">Ordre
-                        de Saint Michel</rs>.<lb rend="line-height:150%"/> TOME SECOND.<lb
-                        rend="line-height:150%"/> Imprimé par les soins de l'Autheur.<lb/> A <rs
-                        type="place" ref="#paris">PARIS</rs>,<lb/> Se vendent chez <rs type="person"
-                        ref="#bilaine_louis">
+                    </rs>, Chevalier de l'<rs type="corporate" ref="../register/register-corporate.xml#michaelsorden_frankreich">Ordre
+                        de Saint Michel</rs>.<lb rend="line-height:150%"/> TOME SECOND.<lb rend="line-height:150%"/> Imprimé par les soins de l'Autheur.<lb/> A <rs type="place" ref="../register/register-place.xml#paris">PARIS</rs>,<lb/> Se vendent chez <rs type="person" ref="../register/register-person.xml#bilaine_louis">
                         <hi rend="smallCaps">Loüis Bilaine</hi>
                         <index indexName="fsw">
                             <term type="structure" target="#publisher"/>
                         </index>
-                    </rs>, Marchand Libraire à la ruë S. Jaques,<lb/> &amp; au Palais, <date
-                        when="1682">
+                    </rs>, Marchand Libraire à la ruë S. Jaques,<lb/> &amp; au Palais, <date when="1682">
                         <hi rend="smallCaps">m. dc. lxxxii</hi>
                     </date>. </p>
             </div>
 
             <div>
                 <pb n="470"/>
-                <head><rs type="person" ref="#rubens_peter_paul">PIERRE PAUL RUBENS</rs>.</head>
+                <head><rs type="person" ref="../register/register-person.xml#rubens_peter_paul">PIERRE PAUL RUBENS</rs>.</head>
                 <p>Rien n'excite plus vivement un cœur genereux que le desir de la gloire solide:
                     elle a pour luy des charmes invincibles: elle l'engage par des moyens aussi
                     agreables qu'ils sont puissans: elle le captive sous des chaisnes si pretieuses,
@@ -105,70 +97,55 @@
                     Rubens</hi>; il entra dés son jeune age en cette noble carriere, &amp; ne la
                     quitta point qu'il ne fust parvenu au plus haut degré de reputation où un homme
                     peut attein<pb n="471"/>der par la conduitte de sa vie, &amp; l'excellence
-                    du pinceau. Ce grand homme; l'ornement, &amp; la fleur des Peintres du <rs
-                        type="place" ref="#niederlande">Pays-bas</rs>, voire mesme de toute
-                    l'Europe, sortoit d'une famille considerable d'<rs type="place" ref="#antwerpen"
-                        >Anvers</rs>. Son pere <rs type="person" ref="#rubens_jan">Jean
+                    du pinceau. Ce grand homme; l'ornement, &amp; la fleur des Peintres du <rs type="place" ref="../register/register-place.xml#niederlande">Pays-bas</rs>, voire mesme de toute
+                    l'Europe, sortoit d'une famille considerable d'<rs type="place" ref="../register/register-place.xml#antwerpen">Anvers</rs>. Son pere <rs type="person" ref="../register/register-person.xml#rubens_jan">Jean
                         Rubens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Jan</term>
                     </index> Docteur en Droit, fut souvent Eschevin de la Ville; mais il quitta
                     cette Charge pour se mettre à couvert des orages dont son Pays estoit agité,
-                    &amp; se retira á <rs type="place" ref="#koeln">Cologne</rs>; où sa femme
-                        <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs><index
-                        indexName="psw">
+                    &amp; se retira á <rs type="place" ref="../register/register-place.xml#koeln">Cologne</rs>; où sa femme
+                        <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs><index indexName="psw">
                         <term xml:lang="deu">Maria Pypelincx</term>
-                    </index> mit nostre <hi rend="smallCaps">Rubens</hi> au monde l'an <date
-                        when="1577-06-29">mille cinq cens soixante &amp; dix-sept; le jour des
+                    </index> mit nostre <hi rend="smallCaps">Rubens</hi> au monde l'an <date when="1577-06-29">mille cinq cens soixante &amp; dix-sept; le jour des
                         Apostres Saint Pierre, &amp; Saint Paul</date>, desquels on luy donna
                     les noms. Lors qu'il fut capable de frequenter les Ecoles, on n'oublia aucuns
                     soins pour le faire instruire aux Lettres humaines. Cependant la Ville d'Anvers
-                    ayant esté reduite par le <rs type="person" ref="#farnese_alessandro">Prince de
+                    ayant esté reduite par le <rs type="person" ref="../register/register-person.xml#farnese_alessandro">Prince de
                         Parme</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Farnese, Alessandro</term>
                     </index> sous l'obeissance de son Souverain, son pere y retourna avec sa
                     famille; &amp; comme <hi rend="smallCaps">Rubens</hi> croissoit en age,
-                    &amp; en perfection; on le donna á la <rs type="person"
-                        ref="#ligne_marguerite">Comtesse de Lalain</rs>, à laquelle il servit
+                    &amp; en perfection; on le donna á la <rs type="person" ref="../register/register-person.xml#ligne_marguerite">Comtesse de Lalain</rs>, à laquelle il servit
                     quelque temps de Page: mais ne pouvant s'accommoder à cette vie licentieuse de
-                    la Cour, &amp; se voyant par la mort de son pere<note resp="A.H."
-                        type="footnote">Jan Rubens starb am <date when="1587-03-01">1. März
-                        1587</date>. vgl. auch sein <ref type="rubens" cRef="ed_rubens_064"
-                        >Epitaph</ref> in St. Petri, Köln.</note> dans la liberté de ses actions; il
+                    la Cour, &amp; se voyant par la mort de son pere<note resp="A.H." type="footnote">Jan Rubens starb am <date when="1587-03-01">1. März
+                        1587</date>. vgl. auch sein <ref type="rubens" cRef="ed_rubens_064">Epitaph</ref> in St. Petri, Köln.</note> dans la liberté de ses actions; il
                     s'attacha entierement à la Peinture, pour laquelle il avoit une forte
-                    inclination. Son premier Maistre fut <rs type="person" ref="#noort_adam">Adam
+                    inclination. Son premier Maistre fut <rs type="person" ref="../register/register-person.xml#noort_adam">Adam
                         van Noort</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Noort, Adam van</term>
                     </index> Peintre assez renommé ; mais d'une humeur si grossiere &amp; si
                     dissoluë, que <hi rend="smallCaps">Rubens</hi> fut obligé à le quitter pour se
-                    mettre sous la conduite d'<rs type="person" ref="#veen_otto">Octave
+                    mettre sous la conduite d'<rs type="person" ref="../register/register-person.xml#veen_otto">Octave
                         Venius</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Veen, Otto van</term>
                     </index> Ayant acquis par ses bonnes instructions la derniere intelligence de
-                    l'Art, il alla agé de vingt-trois ans en <rs type="place" ref="#italien"
-                        >Italie</rs><note resp="A.H." type="footnote">Rubens ließ sich einen Pass
-                        für diese Reise ausstellen. vgl. das <ref type="rubens" cRef="ed_rubens_077"
-                            >Dokument vom 8. Mai 1600</ref>.</note> où à peine eut-il fait paroistre
+                    l'Art, il alla agé de vingt-trois ans en <rs type="place" ref="../register/register-place.xml#italien">Italie</rs><note resp="A.H." type="footnote">Rubens ließ sich einen Pass
+                        für diese Reise ausstellen. vgl. das <ref type="rubens" cRef="ed_rubens_077">Dokument vom 8. Mai 1600</ref>.</note> où à peine eut-il fait paroistre
                     la beauté de son esprit, &amp; les traits agreables de son princeau, qu'il
                     donna dans veuë des plus grands personnages de cette Nation, &amp; leur fit
-                    naitre l'envie de le posseder. Celuy qui eut ce bonheur fut <rs type="person"
-                        ref="#gonzaga_vincenzo_i">Vincent de Gonzague</rs><index indexName="psw">
+                    naitre l'envie de le posseder. Celuy qui eut ce bonheur fut <rs type="person" ref="../register/register-person.xml#gonzaga_vincenzo_i">Vincent de Gonzague</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Vincenzo (Mantua, Herzog, I.)</term>
-                    </index>, Duc de <rs type="place" ref="#mantua">Mantoüe</rs>: <hi
-                        rend="smallCaps">Rubens</hi> demeura sept ans á son service, &amp;
+                    </index>, Duc de <rs type="place" ref="../register/register-place.xml#mantua">Mantoüe</rs>: <hi rend="smallCaps">Rubens</hi> demeura sept ans á son service, &amp;
                     gaigna tellement son cœur par ses qualitez excellentes, que ce Prince luy confia
-                    divers employs honorables: mesme l'envoya en <rs type="place" ref="#spanien"
-                        >Espagne</rs> pesenter de sa part á <rs type="person"
-                        ref="#philipp_iii_spanien">Philippe III.</rs><index indexName="psw">
+                    divers employs honorables: mesme l'envoya en <rs type="place" ref="../register/register-place.xml#spanien">Espagne</rs> pesenter de sa part á <rs type="person" ref="../register/register-person.xml#philipp_iii_spanien">Philippe III.</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Philipp (Spanien, König, III.)</term>
                     </index> un superbe carosse, avec sept chevaux richement harnachez, &amp;
-                    plusieurs autres raretez de grande valeur au <rs type="person"
-                        ref="#rojas_francisco">Duc de Lerme</rs><index indexName="psw">
+                    plusieurs autres raretez de grande valeur au <rs type="person" ref="../register/register-person.xml#rojas_francisco">Duc de Lerme</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Lerma, Francisco Sandoval y Rojas</term>
                     </index> son Favory: dequoy cét habile homme s'acquitta fort adroitement;
                     rendant par un discours disert ces presens, aussi bien que sa personne,
                     agreables au Roy, &amp; au Duc de Lerme; qui conceurent dés lors une belle
-                    opinion de ses merites.<lb/> Aprés son retour le Duc de Mantoüe l'envoya á <rs
-                        type="place" ref="#rom">Rome</rs>, pour y copier quelques pieces des plus
+                    opinion de ses merites.<lb/> Aprés son retour le Duc de Mantoüe l'envoya á <rs type="place" ref="../register/register-place.xml#rom">Rome</rs>, pour y copier quelques pieces des plus
                     fameux Peintres du Siecle precedent. <hi rend="smallCaps">Rubens</hi> imita les
                     originaux avec une perfection qui fit admirer ses copies. Voulant que les
                     Romains connussent aussi qu'il n'estoit pas moins capable de travailler de son
@@ -176,44 +153,32 @@
                         <term xml:lang="ita">Chiesa Nuova</term>
                     </index><index indexName="stw">
                         <term xml:lang="ita">Santa Maria in Vallicella</term>
-                    </index> une grande <rs type="work" ref="#jaffe_64">Peinture representant le
-                        Pape Saint Gregoire, &amp; quelques autres Saints</rs><index
-                        indexName="stw">
+                    </index> une grande <rs type="work" ref="../register/register-work.xml#jaffe_64">Peinture representant le
+                        Pape Saint Gregoire, &amp; quelques autres Saints</rs><index indexName="stw">
                         <term xml:lang="ita">Madonna della Vallicella</term>
                     </index>: mais comme elle se trouva trop petite pour remplir la place qu'on luy
-                    avoit destinée, il en fit une seconde plus grande<note resp="A.H."
-                        type="footnote">Die insgesamt drei <rs type="work"
-                            ref="#rom_oratorianer_vallicella">Gemälde für die Oratorianer der Chiesa
+                    avoit destinée, il en fit une seconde plus grande<note resp="A.H." type="footnote">Die insgesamt drei <rs type="work" ref="../register/register-work.xml#rom_oratorianer_vallicella">Gemälde für die Oratorianer der Chiesa
                             Nuova</rs> (Santa Maria in Vallicella) befinden sich noch heute
-                    dort.</note>, &amp; envoya la premiere á l'<rs type="corporate"
-                        ref="#antwerpen_abtei_st_michiels">Abbaye de Saint Michel</rs> à
-                        Anvers.<note resp="A.H." type="footnote">So wurde <rs type="work"
-                            ref="#jaffe_64">die "Madonna della Vallicella</rs>" am <date
-                            when="1610-09-29">29. September 1610</date> am Grabmal von Maria
-                            Pypelincx, die dort begraben liegt, angebracht. vgl. <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S. 159. Nr. 64<ptr type="gbv"
-                                cRef="022373535"/></bibl></note> Il revint bien-tost
-                    aprés luy-mesme à cause de la mort de sa mere<note resp="A.H." type="footnote"
-                        >Maria Pypelincx starb am <date when="1608-10-19">19. Oktober 1608</date>.
+                    dort.</note>, &amp; envoya la premiere á l'<rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Abbaye de Saint Michel</rs> à
+                        Anvers.<note resp="A.H." type="footnote">So wurde <rs type="work" ref="../register/register-work.xml#jaffe_64">die "Madonna della Vallicella</rs>" am <date when="1610-09-29">29. September 1610</date> am Grabmal von Maria
+                            Pypelincx, die dort begraben liegt, angebracht. vgl. <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S. 159. Nr. 64<ptr type="gbv" cRef="022373535"/></bibl></note> Il revint bien-tost
+                    aprés luy-mesme à cause de la mort de sa mere<note resp="A.H." type="footnote">Maria Pypelincx starb am <date when="1608-10-19">19. Oktober 1608</date>.
                         vgl. <ref type="rubens" cRef="ed_rubens_101">ihr Epitaph</ref> in in St.
                         Michiels, Antwerpen.</note>, &amp; se retira en cette Abbaye, pour y
                     travailler avec plus de repos, &amp; de commodité : consevant toutes-fois
                     une secrete inclination pour le beau sejour de l'Italie; qui léust
-                    infailliblement ravy au Pays-bas, si l'<rs type="person"
-                        ref="#albrecht_von_oesterreich">Archiduc Albert</rs><index indexName="psw">
+                    infailliblement ravy au Pays-bas, si l'<rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">Archiduc Albert</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog,
                         VII.)</term>
                     </index> n'eust employé son authorité pour le retenir, &amp; s'il ne se fust
-                    engagé luy-mesme d'affection avec <rs type="person" ref="#brant_isabella"
-                        >Elisabeth Brant</rs><index indexName="psw">
+                    engagé luy-mesme d'affection avec <rs type="person" ref="../register/register-person.xml#brant_isabella">Elisabeth Brant</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Brant, Isabella</term>
-                    </index>, fille du Greffier de la Ville d'Anvers, qu'il épousa l'an <date
-                        when="1609">mille six cens neuf</date><note resp="A.H." type="footnote">Die
+                    </index>, fille du Greffier de la Ville d'Anvers, qu'il épousa l'an <date when="1609">mille six cens neuf</date><note resp="A.H." type="footnote">Die
                         Hochzeit fand am <date when="1609-10-13">13. Oktober 1609</date> statt. vgl.
                         den <ref type="rubens" cRef="ed_rubens_102">Eintrag im Heiratsregister</ref>
                         von Sint-Andries.</note>. Se voyant arresté par ces aymables liens,
                     &amp; par la volonté de son Prince, il bâtit dans Anvers une maison
-                    magnifique à la Romaine<note resp="A.H." type="footnote">Der <ref type="rubens"
-                            cRef="ed_rubens_013">Ankauf des Hauses am Wapper fand am 4. Januar
+                    magnifique à la Romaine<note resp="A.H." type="footnote">Der <ref type="rubens" cRef="ed_rubens_013">Ankauf des Hauses am Wapper fand am 4. Januar
                         1611</ref> statt.</note><index indexName="gsw">
                         <term type="GKD" xml:lang="deu">Antwerpen</term>
                         <index indexName="stw">
@@ -238,13 +203,12 @@
                         <index indexName="stw">
                             <term xml:lang="nld">Sint-Pauluskerk</term>
                         </index>
-                    </index> d'Anvers <rs type="work" ref="#jaffe_88">les Docteurs de l'Eglise
+                    </index> d'Anvers <rs type="work" ref="../register/register-work.xml#jaffe_88">les Docteurs de l'Eglise
                         traittans les Mysteres de la Foy</rs><index indexName="stw">
                         <term xml:lang="deu">Disputa</term>
                     </index>, &amp; donna tant du goust Italien à cette piece, qu'elle passa
                     d'abord pour un ouvrage de l'Italie. Il peignit pour une Paroisse de la mesme
-                    Ville une <rs type="work" ref="#jaffe_135ABC">Elevation de la Croix;</rs><index
-                        indexName="stw">
+                    Ville une <rs type="work" ref="../register/register-work.xml#jaffe_135ABC">Elevation de la Croix;</rs><index indexName="stw">
                         <term xml:lang="deu">Kreuzaufrichtung</term>
                     </index> où les efforts de ceux qui travaillent à l'elever, &amp; les
                     mouvemens des chevaux sont admirablement exprimez. On voit de sa main dans la
@@ -254,8 +218,7 @@
                             <term xml:lang="deu">Liebfrauenkathedrale</term>
                         </index>
                     </index>
-                    <rs type="work" ref="#jaffe_189ABC">une Descente de la Croix</rs><index
-                        indexName="stw">
+                    <rs type="work" ref="../register/register-work.xml#jaffe_189ABC">une Descente de la Croix</rs><index indexName="stw">
                         <term xml:lang="deu">Kreuzabnahme</term>
                     </index>d'une ordonnance qui n'est pas moins excellente. Il commença puis aprés
                     ces rares peintures, qui servent d'embellissement à ce magnifique Temple des
@@ -263,23 +226,20 @@
                         <term type="SWD" xml:lang="deu">Jesuiten</term>
                     </index><index indexName="psw">
                         <term type="PND" xml:lang="deu">Borromeus, Carolus</term>
-                    </index>. Les deux premiers sont au grand Autel: l'une represente <rs
-                        type="work" ref="#jaffe_480">Saint Ignace exorcisant un
+                    </index>. Les deux premiers sont au grand Autel: l'une represente <rs type="work" ref="../register/register-work.xml#jaffe_480">Saint Ignace exorcisant un
                         Demoniaque</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Ignatius (von Loyola)</term>
                     </index><index indexName="stw">
                         <term xml:lang="deu">Wunder des Ignatius von Loyola</term>
-                    </index>; l'autre <rs type="work" ref="#jaffe_481">Saint Xavier préchant les
+                    </index>; l'autre <rs type="work" ref="../register/register-work.xml#jaffe_481">Saint Xavier préchant les
                         Indiens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Franz Xaver (Heiliger)</term>
                     </index><index indexName="stw">
                         <term xml:lang="deu">Wunder des Franz Xaver</term>
                     </index>. Tout le reste de ce Temple est remply de pieces de sa main, ou de son
-                    invention, jusqu'aux <rs type="work" ref="#decke_jesuitenkirche_antwerpen"
-                        >voutes des galleries</rs>; où les raccourcissemens sont si naturels,
+                    invention, jusqu'aux <rs type="work" ref="../register/register-work.xml#decke_jesuitenkirche_antwerpen">voutes des galleries</rs>; où les raccourcissemens sont si naturels,
                     &amp; si regulierement observez, qu'ils donnent de l'étonnement aux plus
-                    grands Peintres de l'Europe. Il fit de suitte pour les Cordeliers<index
-                        indexName="stw">
+                    grands Peintres de l'Europe. Il fit de suitte pour les Cordeliers<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Franziskaner</term>
                     </index> de la mesme Ville cét admirable Christ crucifié entre les deux Larrons,
                     qui est au grand Autel de leur Eglise, &amp; la mort de Saint François; pour
@@ -290,7 +250,7 @@
                     </index> la solemnité de tours les Saints, &amp; pour les Carmes
                         Deschaussez<index indexName="stw">
                         <term type="GKD" xml:lang="deu">Unbeschuhter Karmeliter</term>
-                    </index> un <rs type="work" ref="#jaffe_277">Christ mort dans le giron du Pere
+                    </index> un <rs type="work" ref="../register/register-work.xml#jaffe_277">Christ mort dans le giron du Pere
                         Eternel</rs><index indexName="stw">
                         <term xml:lang="deu">Pietà</term>
                     </index><index indexName="stw">
@@ -300,24 +260,18 @@
                     a peu qui ne possedent quelque piece de ce grand Peintre, ou qui n'en ayent des
                     copies faites sur les originaux, ou sur les Estampes que l'on en a distribuées
                     par toute l'Europe pour l'instruction &amp; le contentement des Curieux:
-                    entre lesquelles on estime particulierement cette <rs type="work"
-                        ref="#jaffe_295">bataille des Amazones</rs><index indexName="stw">
+                    entre lesquelles on estime particulierement cette <rs type="work" ref="../register/register-work.xml#jaffe_295">bataille des Amazones</rs><index indexName="stw">
                         <term xml:lang="deu">Amazonenschlacht</term>
-                    </index> qu'il a peinte pour ce grand Amateur le <rs type="person"
-                        ref="#geest_cornelis">Sieur vander Geest</rs><index indexName="psw">
+                    </index> qu'il a peinte pour ce grand Amateur le <rs type="person" ref="../register/register-person.xml#geest_cornelis">Sieur vander Geest</rs><index indexName="psw">
                         <term xml:lang="deu">van der Gheest, Cornelis</term>
                     </index> où l'agilité, &amp; la forme de combattre des Anciens sont
-                    representées avec un artifice que l'on ne peut voir sans ravissement. <hi
-                        rend="smallCaps">Rubens</hi> ayant remply le Pays-bas de sa reputation,
+                    representées avec un artifice que l'on ne peut voir sans ravissement. <hi rend="smallCaps">Rubens</hi> ayant remply le Pays-bas de sa reputation,
                     aussi bien que des secondes productions de son pinceau; elle s'épandit de là
-                    dans les Provinces estrangeres. Ceux de <rs type="place" ref="#genua"
-                    >Gennes</rs>, de <rs type="place" ref="#bologna">Bologne</rs>, &amp; de <rs
-                        type="place" ref="#mailand">Milan</rs>, ne se croyans pas assez riches de
+                    dans les Provinces estrangeres. Ceux de <rs type="place" ref="../register/register-place.xml#genua">Gennes</rs>, de <rs type="place" ref="../register/register-place.xml#bologna">Bologne</rs>, &amp; de <rs type="place" ref="../register/register-place.xml#mailand">Milan</rs>, ne se croyans pas assez riches de
                     leurs propres biens, voulurent participer aux pretieux thresors qu'il dispensoit
                     de sa main, &amp; eurent de luy six grandes pieces, qu'ils placerent avec
                     veneration parmy leurs plus rares ornemens. Mais ce qui porta sa gloire au plus
-                    eminent degré, fut le choix que la Reyne de <rs type="place" ref="#frankreich"
-                        >France</rs>, <rs type="person" ref="#medici_maria">Marie de
+                    eminent degré, fut le choix que la Reyne de <rs type="place" ref="../register/register-place.xml#frankreich">France</rs>, <rs type="person" ref="../register/register-person.xml#medici_maria">Marie de
                         Medicis</rs><index indexName="psw">
                             <term type="GND" xml:lang="deu">Medici, Maria /de'</term>
                     </index> fit de sa personne pour ordonner les decorations du Palais nommé le
@@ -326,22 +280,18 @@
                         <index indexName="stw">
                             <term xml:lang="fra">Palais du Luxembourg</term>
                         </index>
-                    </index> qu'elle a fait bâtir dans le Fauxbourg de Saint Germain à <rs
-                        type="place" ref="#paris">Paris</rs>. Certes si ce superbe Palais est une
+                    </index> qu'elle a fait bâtir dans le Fauxbourg de Saint Germain à <rs type="place" ref="../register/register-place.xml#paris">Paris</rs>. Certes si ce superbe Palais est une
                     des merveilles de la France par la beauté de son edifice; il ne l'est pas moins
                     par l'excellence des Peintures que <hi rend="smallCaps">Rubens</hi> y a faites
-                    dans la galerie à main droite en entrant, qui <rs type="work"
-                        ref="#jaffe_707_754">contiennent toute la vie de cette Illustre
+                    dans la galerie à main droite en entrant, qui <rs type="work" ref="../register/register-work.xml#jaffe_707_754">contiennent toute la vie de cette Illustre
                         Reyne</rs><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Medici-Zyklus (1622-1625)</term>
                         </index>
                     </index>, representée sous des histoires figuratives, en vingt une grandes
-                        pieces<note resp="A.H." type="footnote">vgl. zum Auftrag den am <date
-                            when="1622-02-26">26. Februar 1622</date> zwischen Maria de'Medici und
-                        Peter Paul Rubens geschlossenen <ref type="rubens" cRef="ed_rubens_001"
-                            >Vertrag über den Medici-Zyklus</ref>.</note>; où l'Art semble avoir
+                        pieces<note resp="A.H." type="footnote">vgl. zum Auftrag den am <date when="1622-02-26">26. Februar 1622</date> zwischen Maria de'Medici und
+                        Peter Paul Rubens geschlossenen <ref type="rubens" cRef="ed_rubens_001">Vertrag über den Medici-Zyklus</ref>.</note>; où l'Art semble avoir
                     épuisé ses efforts, &amp; voulu vaincre la Nature. En effet, la grandeur du
                     Dessein étonne les esprits les plus affermis en la connoissance de la Peinture:
                     la delicatesse des traits charme agreablement les yeux, &amp; fait
@@ -354,21 +304,17 @@
                     offrit encore à la Reine quelques liberalitez de son Art; entre lesquelles on
                     choisit quelques Desseins pour les faire reduire en Tapisseries par les
                     meilleurs Ouvriers du temps.<lb/> Des esprits critiques ont marqué en luy pour
-                    un defaut, qu'il se servoit de la main de <rs type="person" ref="#wildens_jan"
-                        >Jean Wildens</rs><index indexName="psw">
+                    un defaut, qu'il se servoit de la main de <rs type="person" ref="../register/register-person.xml#wildens_jan">Jean Wildens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Wildens, Jan</term>
                     </index> à peindre les paysages, &amp; les fonds de ses Tableaux; comme
                     n'estant point capable de les faire luy-mesme. <hi rend="smallCaps">Rubens</hi>
                     voulant leur oster cette injuste opinion, ne fut pas plutost de retour au Pays,
                     qu'il peignit une maison champestre<index indexName="stw">
                         <term xml:lang="nld">Het Steen</term>
-                    </index> qu'il avoit prés de <rs type="place" ref="#mechelen">Malines</rs><note
-                        resp="A.H." type="footnote">Das Gemälde lässt sich nicht eindeutig
+                    </index> qu'il avoit prés de <rs type="place" ref="../register/register-place.xml#mechelen">Malines</rs><note resp="A.H." type="footnote">Das Gemälde lässt sich nicht eindeutig
                         identifizieren. Rubens malte sein Anwesen Het Steen und die umgebende
-                        Landschaft in den Gemälden <rs type="work" ref="#jaffe_1197">"Landschaft mit
-                            dem Turm von Schloss Steen"</rs>, <rs type="work" ref="#jaffe_1198"
-                            >"Tunier vor Schloss Steen"</rs> und die <rs type="work"
-                            ref="#jaffe_1227">"Herbstlandschaft mit Schloss Steen am frühen
+                        Landschaft in den Gemälden <rs type="work" ref="../register/register-work.xml#jaffe_1197">"Landschaft mit
+                            dem Turm von Schloss Steen"</rs>, <rs type="work" ref="../register/register-work.xml#jaffe_1198">"Tunier vor Schloss Steen"</rs> und die <rs type="work" ref="../register/register-work.xml#jaffe_1227">"Herbstlandschaft mit Schloss Steen am frühen
                         Morgen"</rs>.</note>, &amp; quelques autres paysages, à la venuë
                     desquels on avoiia qu'il possedoit eminemment toutes les parties de la Peinture.
                     Les portraits qu'il a peints de divers Princes, &amp; de quelques-uns de ses
@@ -386,38 +332,32 @@
                     Chrestienté. L'Infante Isabelle sçachant qu'il estoit bien informé de l'estat
                     des Provinces, l'envoya l'an <date when="1628">mille six cens vingt-huit</date>
                     en Espangne, pour faire entendre au Roy quelques points important à son service:
-                    y estant arrivé il eut souvent des conferences sur ce sujet avec le <rs
-                        type="person" ref="#guzman_gaspard">Comte Duc d'Olivares</rs><index
-                        indexName="psw">
+                    y estant arrivé il eut souvent des conferences sur ce sujet avec le <rs type="person" ref="../register/register-person.xml#guzman_gaspard">Comte Duc d'Olivares</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Olivares, Gaspar de G.</term>
-                    </index> &amp; le <rs type="person" ref="#spinola_ambrogio">Maquis
+                    </index> &amp; le <rs type="person" ref="../register/register-person.xml#spinola_ambrogio">Maquis
                         Spinola</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Spinola, Ambrogio</term>
                     </index>; dans lesquelles il fit paroiste tant de zele pour les interests de son
                     Prince, que le Roy luy témoigna qu'il estroit satisfait de ses bons advis; mesme
                     luy fit voir le Palais de l'Escurial<index indexName="gsw">
                         <term type="GKD" xml:lang="spa">El Escorial</term>
-                    </index> où <hi rend="smallCaps">Rubens</hi> desseigna les pieces de <rs
-                        type="person" ref="#tizian">Titian</rs><index indexName="psw">
+                    </index> où <hi rend="smallCaps">Rubens</hi> desseigna les pieces de <rs type="person" ref="../register/register-person.xml#tizian">Titian</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Tizian</term>
                     </index>; &amp; luy ayant donné un diamant de grande valeur, le renvoya en
-                        <rs type="place" ref="#flandern">Flandre</rs> chargé de quelques commissions
+                        <rs type="place" ref="../register/register-place.xml#flandern">Flandre</rs> chargé de quelques commissions
                     secrettes &amp; importantes. A son retour il fut employé au Traitté de la
                         Trefve<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Waffenstillstand</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Verhandlung</term>
                         </index>
-                    </index> qu'on avoit projettée avec les Hollandois durant le siege de <rs
-                        type="place" ref="#breda">Breda</rs>: il le mit en fort bon estat par sa
-                    prudence, &amp; il l'eust heureusement terminé si la mort du <rs
-                        type="person" ref="#oranien_nassau_moritz">Prince d'Orange Maurice de
+                    </index> qu'on avoit projettée avec les Hollandois durant le siege de <rs type="place" ref="../register/register-place.xml#breda">Breda</rs>: il le mit en fort bon estat par sa
+                    prudence, &amp; il l'eust heureusement terminé si la mort du <rs type="person" ref="../register/register-person.xml#oranien_nassau_moritz">Prince d'Orange Maurice de
                         Nassau</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Oranien-Nassau, Moritz von
                         (1567-1625)</term>
                     </index> ne luy eust ravy cette gloire, en arrestant le progrez de cette
-                    negotiation.<lb/> Peu de temps aprés il fut envoyé vers le Roy d'<rs
-                        type="place" ref="#england">Angleterre</rs><index indexName="psw">
+                    negotiation.<lb/> Peu de temps aprés il fut envoyé vers le Roy d'<rs type="place" ref="../register/register-place.xml#england">Angleterre</rs><index indexName="psw">
                         <term type="PND" xml:lang="eng">Charles (England, King, I.)</term>
                     </index> pour reconnoistre ses pensées touchant la Paix, &amp; luy en faire
                     les propositions. Il menagea cette affaire delicate avec tant d'adresse,
@@ -432,23 +372,18 @@
                         <term xml:lang="deu">Ritterschlag</term>
                     </index><index indexName="stw">
                         <term xml:lang="deu">Ritterstand</term>
-                    </index><note resp="A.H." type="footnote">vgl. das <ref type="rubens"
-                            cRef="ed_rubens_205">Ritterdiplom</ref> Charles' I. für Peter Paul
+                    </index><note resp="A.H." type="footnote">vgl. das <ref type="rubens" cRef="ed_rubens_205">Ritterdiplom</ref> Charles' I. für Peter Paul
                         Rubens vom <date when="1630-12-15">15. Dezember 1630</date>.</note>, luy fit
                     present d'une riche épée avec laquelle il avoit fait ceremonie, &amp; d'un
-                    service d'argent estimé valoir dix mille livres. Certes le grand jugement de <hi
-                        rend="smallCaps">Rubens</hi>
+                    service d'argent estimé valoir dix mille livres. Certes le grand jugement de <hi rend="smallCaps">Rubens</hi>
                     <pb n="474"/>a bien paru en cette Negociation; puis qu'il la mit en peu de
                     temps, sans faste, &amp; sans depense, au point où on la desiroit; &amp;
                     que la Paix fut concluë entre les deux Couronnes sur les moyens qu'il en avoit proposez.<lb/>
                     <note place="margin-left">En <date when="1630-12">Decembre 1630</date></note>
                     Aussi le Roy d'Espagne voulant reconnoistre ce service signalé, confirma l'ordre
                     de Chevalerie qu'il avoit receu en Angleterre par des Lettres patentes qui
-                    rendent témoignagne de sa vertu, &amp; le combla de ses liberalitez.<note
-                        resp="A.H." type="footnote">Rubens wurde am <ref type="rubens"
-                            cRef="ed_rubens_211">16. Juli 1631</ref> von Philipp IV. in den
-                        Ritterstand erhoben, das Adelsprivileg am <ref type="rubens"
-                            cRef="ed_rubens_212">20. August 1631</ref> zuerkannt.</note> Cét homme
+                    rendent témoignagne de sa vertu, &amp; le combla de ses liberalitez.<note resp="A.H." type="footnote">Rubens wurde am <ref type="rubens" cRef="ed_rubens_211">16. Juli 1631</ref> von Philipp IV. in den
+                        Ritterstand erhoben, das Adelsprivileg am <ref type="rubens" cRef="ed_rubens_212">20. August 1631</ref> zuerkannt.</note> Cét homme
                     illustre pouvoit encore montrer parmy ses thresors six grosses chaisnes d'or,
                     avec les medailles de six Princes Souverains, qui luy avoient donné ces marques
                     glorieuses de leur estime, &amp; cette juste recompense de ses rares
@@ -457,81 +392,62 @@
                     de l'ebranler: il demeura ferme aux secousses de cette haute prosperité; ne
                     refusant pas mesme en la splendeur de sa condition de donner ses avis aux
                     moindres Peintres, qui le venoient consulter comme l'Oracle de leur Academie. Il
-                    vendit son Cabinet d'Antiquitez, &amp; plusieurs rares Peintures au <rs
-                        type="person" ref="#buckingham_herzog_villiers">Duc de Bucquingam</rs><index
-                        indexName="psw">
+                    vendit son Cabinet d'Antiquitez, &amp; plusieurs rares Peintures au <rs type="person" ref="../register/register-person.xml#buckingham_herzog_villiers">Duc de Bucquingam</rs><index indexName="psw">
                         <term type="PND" xml:lang="eng">Buckingham, George Villiers of
                         (1592-1628)</term>
                     </index> pour une grosse somme d'argent. Ayant perdu sa premiere femme l'an
-                        <date when="1626">mille six cens vingt-six</date><note resp="A.H."
-                        type="footnote">Isabella Brant starb am <date when="1626-06-20">20. Juni
+                        <date when="1626">mille six cens vingt-six</date><note resp="A.H." type="footnote">Isabella Brant starb am <date when="1626-06-20">20. Juni
                             1626</date>. Aus diesem Anlass zahlte Rubens ein außerordentliches
                         Totengeld für an ein Festmahl an die zur Antwerpener Lukas-Gilde gehörende
-                        Rhetorikerkammer De Violieren. vgl. hierzu den <ref type="rubens"
-                            cRef="ed_rubens_170">Eintrag in den Liggeren der
+                        Rhetorikerkammer De Violieren. vgl. hierzu den <ref type="rubens" cRef="ed_rubens_170">Eintrag in den Liggeren der
                     Lukas-Gilde</ref>.</note> il épousa en seconde nopces une jeune Demoiselle,
-                    nommée <rs type="person" ref="#fourment_helene">Helene Fourment</rs><index
-                        indexName="psw">
+                    nommée <rs type="person" ref="../register/register-person.xml#fourment_helene">Helene Fourment</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Fourment, Hélène</term>
                     </index><note resp="A.H." type="footnote">Die Trauung wurde in der St.
-                        Jacobskerk vollzogen. vgl. den Kirchenbucheintrag am <ref type="rubens"
-                            cRef="ed_rubens_203">6. Dezember 1630</ref> und den Ehevertrag zwischen
-                        Peter Paul Rubens und Helena Fourment vom <ref type="rubens"
-                            cRef="ed_rubens_202">4. Dezember 1630</ref>.</note> de laquelle son
-                    disciple <rs type="person" ref="#dyck_anthonis_van">van Dyck</rs><index
-                        indexName="psw">
+                        Jacobskerk vollzogen. vgl. den Kirchenbucheintrag am <ref type="rubens" cRef="ed_rubens_203">6. Dezember 1630</ref> und den Ehevertrag zwischen
+                        Peter Paul Rubens und Helena Fourment vom <ref type="rubens" cRef="ed_rubens_202">4. Dezember 1630</ref>.</note> de laquelle son
+                    disciple <rs type="person" ref="../register/register-person.xml#dyck_anthonis_van">van Dyck</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Dyck, Anthonis van</term>
                     </index> a fait le portrait. Il eut des fils de l'une, &amp; de l'autre:
-                    l'aisné desquels nommé <rs type="person" ref="#rubens_albert">Albert</rs><index
-                        indexName="psw">
+                    l'aisné desquels nommé <rs type="person" ref="../register/register-person.xml#rubens_albert">Albert</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Albert</term>
                     </index> (filleul de l'Archiduc<note resp="A.H." type="footnote">Albert Rubens
                         wurde am 5. Juni 1614 getauft. Zur Patenschaft des Erzherzogs vgl. den
                         Eintrag im <ref type="rubens" cRef="ed_rubens_120">Taufregister von
-                            Sint-Andris</ref> am selben Tag sowie ein <ref type="rubens"
-                            cRef="ed_rubens_121">Dokument zur Bezahlung eines Kelches</ref>, der als
+                            Sint-Andris</ref> am selben Tag sowie ein <ref type="rubens" cRef="ed_rubens_121">Dokument zur Bezahlung eines Kelches</ref>, der als
                         Taufgeschenk des Erzherzogs an die Eltern übergeben wurde.</note>) fut
                     Secretaire du Conseil Privé. <hi rend="smallCaps">Rubens</hi> fit encore divers
-                    voyages en <rs type="place" ref="#holland">Hollande</rs> pour traitter une
+                    voyages en <rs type="place" ref="../register/register-place.xml#holland">Hollande</rs> pour traitter une
                         Trefve<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Waffenstillstand</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Verhandlung</term>
                         </index>
-                    </index> avec les Estats des Provinces Unies aprés la prise de <rs type="place"
-                        ref="#maastricht">Mastricht</rs> par les Hollandois; mesme fut employé par
-                    l'Infante Isabelle pour convenir avec la Reyne Mere de France, &amp; le <rs
-                        type="person" ref="#orleans_gaston">Duc d'Orleans</rs><index indexName="psw">
+                    </index> avec les Estats des Provinces Unies aprés la prise de <rs type="place" ref="../register/register-place.xml#maastricht">Mastricht</rs> par les Hollandois; mesme fut employé par
+                    l'Infante Isabelle pour convenir avec la Reyne Mere de France, &amp; le <rs type="person" ref="../register/register-person.xml#orleans_gaston">Duc d'Orleans</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Orléans, Gaston d’</term>
                     </index> des honneurs, &amp; du traitement qu'on leur feroit à leur
-                    retraitte á <rs type="place" ref="#bruessel">Bruxelles</rs>. Mais enfin lassé de
+                    retraitte á <rs type="place" ref="../register/register-place.xml#bruessel">Bruxelles</rs>. Mais enfin lassé de
                     la Cour, &amp; accablé des Gouttes, il se retira en sa belle maison
                     d'Anvers; où il ordonna encore quelques ouvrages dignes d'une memoire
-                    immortelle: entre autres ces <rs type="work" ref="#pompa_introitus">magnifiques
-                        Arcs triomphaux</rs> que le Magistrat d'Anvers fit eriger au <rs
-                        type="person" ref="#ferdinand_von_spanien">Prince Cardinal Ferdinand Infant
+                    immortelle: entre autres ces <rs type="work" ref="../register/register-work.xml#pompa_introitus">magnifiques
+                        Arcs triomphaux</rs> que le Magistrat d'Anvers fit eriger au <rs type="person" ref="../register/register-person.xml#ferdinand_von_spanien">Prince Cardinal Ferdinand Infant
                         d'Espagne</rs><index indexName="psw">
                         <term type="GND" xml:lang="deu">Ferdinand &lt;Österreich, Erzherzog, 1609-1641&gt;</term>
-                    </index> á son entrée en cette <note place="margin-left">L'an <date when="1630"
-                            >1630</date></note> Ville<index indexName="stw">
+                    </index> á son entrée en cette <note place="margin-left">L'an <date when="1630">1630</date></note> Ville<index indexName="stw">
                         <term xml:lang="lat">Pompa Introitus Ferdinandi</term>
                     </index> qui passerent pour un prodige, &amp; qui eussent obscury tout ce
                     que l'ancienne Rome a veu de plus éclatant dans la pompe de ses triomphes; comme
-                    rend témoignage le livre qu'on en a donné au Public<note resp="A.H."
-                        type="footnote"><bibl>Jean Gaspard Gevaerts: Pompa introitus honori
+                    rend témoignage le livre qu'on en a donné au Public<note resp="A.H." type="footnote"><bibl>Jean Gaspard Gevaerts: Pompa introitus honori
                             Ferdinandi [...]. Antwerpen: Joannes Meursius, 1641</bibl> ist unter
-                        anderem <ref
-                            target="http://special-1.bl.uk/treasures/festivalbooks/BookDetails.aspx?strFest=0152"
-                            >online auf der Homepage der British Library</ref> zu betrachten.
+                        anderem <ref target="http://special-1.bl.uk/treasures/festivalbooks/BookDetails.aspx?strFest=0152">online auf der Homepage der British Library</ref> zu betrachten.
                         [07.06.2010]</note><index indexName="psw">
                         <term type="PND">Gevaerts, Jean Gaspard</term>
                     </index>. Cét ouvrage signalé fut la derniere production de ce grand esprit: car
                     depuis lors <hi rend="smallCaps">Rubens</hi> ne fut plus capable de travailler à
-                    cause de ses infirmitez. Il rendit son ame au Ciel l'an <date when="1640-05-30"
-                        >mille six cens quarante, le trentiéme de May</date>. On l'enterra en
+                    cause de ses infirmitez. Il rendit son ame au Ciel l'an <date when="1640-05-30">mille six cens quarante, le trentiéme de May</date>. On l'enterra en
                     l'Eglise Paroissiale de Saint Jaques, dans une Chapelle où il avoit choisy sa
-                        sepulture<note resp="A.H." type="footnote">vgl. das <ref type="rubens"
-                            cRef="ed_rubens_247">Epitaph Peter Paul Rubens'</ref> in der St.
+                        sepulture<note resp="A.H." type="footnote">vgl. das <ref type="rubens" cRef="ed_rubens_247">Epitaph Peter Paul Rubens'</ref> in der St.
                         Jacobskerk, Antwerpen.</note>, &amp; où l'on voit un Crucifix peint de
                     sa main avec beaucoup d'estude, &amp; de devotion.<lb/>
                 </p>

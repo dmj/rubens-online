@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_095">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_095"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-473">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -53,8 +52,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                                bloedverwanten. Antwerpen 1877, S. 385f.<ptr type="gbv" cRef="146162595"
-                                /></bibl></listBibl>
+                                bloedverwanten. Antwerpen 1877, S. 385f.<ptr type="gbv" cRef="146162595"/></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -73,10 +71,9 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#hoboken_guillaume">Guillaume van Hoboken</rs>,
-                    timmerman, oppidanus, vercocht omme eene somme gelts jouffrouwe <rs
-                        type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, weduwe wijlen
-                    Meesters <rs type="person" ref="#rubens_jan">Jans Ruebens</rs>, tsjaers
+                    <rs type="person" ref="../register/register-person.xml#hoboken_guillaume">Guillaume van Hoboken</rs>,
+                    timmerman, oppidanus, vercocht omme eene somme gelts jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs>, weduwe wijlen
+                    Meesters <rs type="person" ref="../register/register-person.xml#rubens_jan">Jans Ruebens</rs>, tsjaers
                     erffelijck, sevenendertich guldenen ende thien stuyvers, elcken gulden tot
                     twintich stuyvers ende elcken stuyver tot drij grooten Brabants gerekent, goets
                     ganckbaers ende gepermitteerts gelts, jaerlijcker ende erffelicker renten op een
@@ -84,40 +81,31 @@
                     gange vanden borneputte, gemeynen doorgange, gemeynder bleyckplaetse, eenen
                     eynde hofs daer teynden ane, met vijve cameren inde Oudaenstrate achter aen
                     tvoors, huys geheeten ’t Papegayken, gronde ende toebehoorten, gestaen inde
-                    Cammerstrate opden hoeck vanden Oudane, tusschen <rs type="person"
-                        ref="#ouwericx_jan">Jan Ouwericx</rs> erve was aen deen sijde ende <rs
-                        type="person" ref="#eerdewyn_elias">Elias Eerdewyns</rs> erve aen dander
+                    Cammerstrate opden hoeck vanden Oudane, tusschen <rs type="person" ref="../register/register-person.xml#ouwericx_jan">Jan Ouwericx</rs> erve was aen deen sijde ende <rs type="person" ref="../register/register-person.xml#eerdewyn_elias">Elias Eerdewyns</rs> erve aen dander
                     zijde, gelijck hij, comparant, opden <date when="1603-07-01">eersten Julij
                         anno XVI<hi rend="super">c</hi> drije</date> bijden stadthouder mijns heeren
                     des amptmans, vuyten name van sijnder offitie, daerinne gegoeyt ende geerft is,
                     <span from="" xml:lang="lat">et ulterius super se et sua</span>, dandum alle jare den <date when="--04-11">elfsten
                         Aprilis</date>, waeraff deerste jaerrenten vallen ende verschijnen sal den
                         <date when="1609-04-11">elfsten Aprilis anno XVI<hi rend="super">c</hi>
-                        negen</date> naestcommende, te waerne op twee oude schilden erffelijck <rs
-                        type="person" ref="#yssche_margriete">Margriete van Yssche</rs>, item
+                        negen</date> naestcommende, te waerne op twee oude schilden erffelijck <rs type="person" ref="../register/register-person.xml#yssche_margriete">Margriete van Yssche</rs>, item
                     dertich schellingen payements den godtshuyse van Sinte Margrieten, item vijff
                     oude Engelsche onderhalf hoen ende drije hellingen chijnsgelts derfgenamen heer
-                        <rs type="person" ref="#coninck_henrick">Henricx de Coninck</rs>, item eenen
-                    penninck lovens den hertoge van <rs type="place" ref="#brabant">Brabant</rs>,
+                        <rs type="person" ref="../register/register-person.xml#coninck_henrick">Henricx de Coninck</rs>, item eenen
+                    penninck lovens den hertoge van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs>,
                     item twee guldenen twelf stuyvers erffelijck de kercke van Sint-Jacobs, item
                     twintich guldenen erffelijck den huysarmen alhier, item vier guldenen erffelijck
-                    derfgenamen <rs type="person" ref="#wrage_jan">Jans Wrage</rs>, modo <rs
-                        type="person" ref="#schooten_barbara">Barbara van Schooten</rs>, item
-                    sesthien guldenen erffelijck derfgenamen <rs type="person"
-                        ref="#timmermans_neeltke">Neeltken Timmermans</rs>, item vier guldenen
-                    erffelijck <rs type="person" ref="#govaerts_michiel">Michiel Govaerts</rs>, item
-                    twintich stuyvers erffelijck <rs type="person" ref="#wiele_geertruyt">Geertruyt
-                        vande Wiele</rs>, bagijne tot <rs type="place" ref="#mechelen"
-                    >Mechelen</rs>, item sesse guldenen erffelijck <rs type="person"
-                        ref="#mol_cornelis">Cornelis van Mol</rs>, item twintich stuyvers erffelijck
-                    derffgenarnen <rs type="person" ref="#schooten_barbara">Barbara van
-                    Schoten</rs>, item twelf guldenen erffelijck <rs type="person"
-                        ref="#visscher_jan">Jan de Visschere</rs>, item thien guldenen erffelijck
-                        <rs type="person" ref="#borsbeke_jan">Jan van Borsbeke</rs>, item vier
-                    guldenen erffelijck <rs type="person" ref="#melyn_mattheus">Mattheus de
-                    Melyn</rs>, item vier guldenen erffelijck <rs type="person"
-                        ref="#candries_geertruyt">Geertruyt Candries</rs>, ende vier guldenen
-                    erffelijck <rs type="person" ref="#schoolmeesters_mattheus">Mattheus
+                    derfgenamen <rs type="person" ref="../register/register-person.xml#wrage_jan">Jans Wrage</rs>, modo <rs type="person" ref="../register/register-person.xml#schooten_barbara">Barbara van Schooten</rs>, item
+                    sesthien guldenen erffelijck derfgenamen <rs type="person" ref="../register/register-person.xml#timmermans_neeltke">Neeltken Timmermans</rs>, item vier guldenen
+                    erffelijck <rs type="person" ref="../register/register-person.xml#govaerts_michiel">Michiel Govaerts</rs>, item
+                    twintich stuyvers erffelijck <rs type="person" ref="../register/register-person.xml#wiele_geertruyt">Geertruyt
+                        vande Wiele</rs>, bagijne tot <rs type="place" ref="../register/register-place.xml#mechelen">Mechelen</rs>, item sesse guldenen erffelijck <rs type="person" ref="../register/register-person.xml#mol_cornelis">Cornelis van Mol</rs>, item twintich stuyvers erffelijck
+                    derffgenarnen <rs type="person" ref="../register/register-person.xml#schooten_barbara">Barbara van
+                    Schoten</rs>, item twelf guldenen erffelijck <rs type="person" ref="../register/register-person.xml#visscher_jan">Jan de Visschere</rs>, item thien guldenen erffelijck
+                        <rs type="person" ref="../register/register-person.xml#borsbeke_jan">Jan van Borsbeke</rs>, item vier
+                    guldenen erffelijck <rs type="person" ref="../register/register-person.xml#melyn_mattheus">Mattheus de
+                    Melyn</rs>, item vier guldenen erffelijck <rs type="person" ref="../register/register-person.xml#candries_geertruyt">Geertruyt Candries</rs>, ende vier guldenen
+                    erffelijck <rs type="person" ref="../register/register-person.xml#schoolmeesters_mattheus">Mattheus
                         Schoolmeesters</rs>, daer Jaerlijcx voren vuytgaende, prout litteræ ende
                     anders nyet, van welcke voors. renten de voors. comparant geloeft heeft ende
                     geloefde mits desen binnen eenen jare oft twee naestcommende, ombegrepen, aff te

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_208">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_208"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-2919-847">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -77,23 +77,21 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p>7500 livres à <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>,
+                <p>7500 livres à <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubens</rs>,
                     secrétaire du Conseil privé du Roi<index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
                     </index>, en une lettre de décharge de pareille somme
-                    datée du <date when="1630-03-18">18e de mars 1630</date>, levée sur <rs
-                        type="person" ref="#gobin_jean">Jean Gobin</rs>, conseiller et recepveur
-                    général de <rs type="place" ref="#luxemburg">Luxembourg</rs>, dont est faict
+                    datée du <date when="1630-03-18">18e de mars 1630</date>, levée sur <rs type="person" ref="../register/register-person.xml#gobin_jean">Jean Gobin</rs>, conseiller et recepveur
+                    général de <rs type="place" ref="../register/register-place.xml#luxemburg">Luxembourg</rs>, dont est faict
                     recepte cy-devant folio 64, pour semblable somme à quoy monte le pris des
                     pinctures qu’il at faict et faict faire par ordre de Son Altèze
                         Sérénissime<index indexName="psw">
                         <term type="PND">Isabella (Spanien, Infantin)</term>
                     </index> pour service de Sa Majesté<index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
-                    </index> et envoyées en <rs type="place" ref="#spanien">Espaigne</rs>, comme est
+                    </index> et envoyées en <rs type="place" ref="../register/register-place.xml#spanien">Espaigne</rs>, comme est
                     plus amplement spécifié et déclairé en certaine d´claration portant au pied
-                    ordonannce et quictance y servante, veue en l’estat dudit <date
-                        when="1630-03-18">mois de mars</date>, folio 61, verso.</p>
+                    ordonannce et quictance y servante, veue en l’estat dudit <date when="1630-03-18">mois de mars</date>, folio 61, verso.</p>
             </div>
         </body>
         

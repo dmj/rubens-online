@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_300">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_300"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <!-- ID vergeben -->
     <teiHeader>
         <fileDesc>
@@ -23,10 +15,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="nachlassverteilung_bestellung_vertreter_16430124">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Urkunde zurVerteilung des Nachlasses von Peter Paul Rubens vom 24. Januar 1643</idno></msIdentifier>
                     
@@ -66,13 +65,13 @@
             <div part="Y" xml:lang="nld">
                 <dateline>Die <date when="1643-01-24">24 Januarii
                     1643</date>.</dateline>
-                <p> Vrouwe <rs type="person" ref="#fourment_helene">HELENA FOURMENT</rs>, weduwe van wylen Heer <rs type="person" ref="#rubens_peter_paul">Pietro– PAULO RUBENS</rs>, Riddere,
+                <p> Vrouwe <rs type="person" ref="../register/register-person.xml#fourment_helene">HELENA FOURMENT</rs>, weduwe van wylen Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro– PAULO RUBENS</rs>, Riddere,
                     Heere van Steene, etc. soo voor heur selven als inden naeme ende testamentelycke
                     momboiresse van heure en desselfs wylen heurs mans minderjaerige kinderen, ende
-                    S<hi rend="super">r</hi> <rs type="person" ref="#hanikart_peeter">PEETER HANEKAERT</rs>, als met haer ende Meester <rs type="person" ref="#rubens_philippus">PHILIPS RUBENS</rs>, Schepen deser
+                    S<hi rend="super">r</hi> <rs type="person" ref="../register/register-person.xml#hanikart_peeter">PEETER HANEKAERT</rs>, als met haer ende Meester <rs type="person" ref="../register/register-person.xml#rubens_philippus">PHILIPS RUBENS</rs>, Schepen deser
                     stadt, tsaemen medetestamentelycke momboirs over deselve kinderen, hen daervore
-                    sterckmaeckende, alle my Notario, bekent synde, et constituerunt, etc. M<hi rend="super">r</hi> <rs type="person" ref="#gerardi_gillis">GIELIS
-                    GERARDI</rs>, Procureur postulerende voor den Raidt van <rs type="place" ref="brabant">Brabant</rs>, hem gevende
+                    sterckmaeckende, alle my Notario, bekent synde, et constituerunt, etc. M<hi rend="super">r</hi> <rs type="person" ref="../register/register-person.xml#gerardi_gillis">GIELIS
+                    GERARDI</rs>, Procureur postulerende voor den Raidt van <rs type="place" ref="../register/register-place.xmlbrabant">Brabant</rs>, hem gevende
                     volcommen ende absolute macht, om te vervolgen, te beschudden ende te
                     verantwoorden alle ende yegelycke henne saecken, questien ende differenten die
                     sylieden vuytstaende ende te doene hebben oft noch te doene sullen mogen hebben
@@ -82,10 +81,10 @@
                     te kiesen, alle dingen ende termynen van rechte te observeren, inde siele van
                     hen constituanten te sweiren ende alle eeden te doene die trecht orloft ende
                     admitteert, sentencias executioni mandandum, etc.</p>
-                <closer><salute> Ende voorts, etc. Gelovende, etc. Actum <rs type="place" ref="#antwerpen">Antverpiae</rs>. </salute>
+                <closer><salute> Ende voorts, etc. Gelovende, etc. Actum <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiae</rs>. </salute>
                     <signed>HELENA FOURMENT.</signed>
-                    <signed><rs type="person" ref="#hanikart_peeter">PIETER HANNECAERT.</rs></signed>
-                    <signed><rs type="person" ref="#guyot_toussaint">T. GUYOT.</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#hanikart_peeter">PIETER HANNECAERT.</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#guyot_toussaint">T. GUYOT.</rs></signed>
                 </closer>
 
             </div>

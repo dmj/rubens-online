@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_274">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_274"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,8 +12,15 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate; &register-person; &register-place;
-                &register-work;
+                
+ 
+
+ 
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="vondel_bespiegelingen_1700">
                     <msIdentifier>
                         <country>Deutschland</country>
@@ -51,7 +50,7 @@
     <text>
         <body>
             <div type="title_page" xml:lang="nld"><index indexName="fsw"><term type="structure" target="#title_page" xml:lang="deu">Titelblatt</term></index>
-                <p><rs type="person" ref="#vondel_joost">J. v. Vondels<index indexName="psw"><term type="PND" xml:lang="deu">Vondel, Joost van den</term><index indexName="fsw"><term type="structure" target="#author" xml:lang="deu">Verfasser</term></index></index></rs><index indexName="psw"><term type="PND" xml:lang="deu">Vondel, Joost van den</term><index indexName="stw"><term type="SWD" xml:lang="nld">Bespiegelingen van Godt en godtsdienst</term></index></index><lb rend="line-height:120%"/>
+                <p><rs type="person" ref="../register/register-person.xml#vondel_joost">J. v. Vondels<index indexName="psw"><term type="PND" xml:lang="deu">Vondel, Joost van den</term><index indexName="fsw"><term type="structure" target="#author" xml:lang="deu">Verfasser</term></index></index></rs><index indexName="psw"><term type="PND" xml:lang="deu">Vondel, Joost van den</term><index indexName="stw"><term type="SWD" xml:lang="nld">Bespiegelingen van Godt en godtsdienst</term></index></index><lb rend="line-height:120%"/>
                     
                     BESPIEGELINGEN<lb rend="line-height:120%"/>
                     
@@ -70,15 +69,15 @@
                     DEN TWEEDEN DRUK.<lb rend="line-height:120%"/>
                     
                     
-                    Te <rs type="place" ref="#rotterdam">ROTTERDAM</rs>,<lb/>
-                    By <rs type="person" ref="#bos_barent">BARENT BOS<index indexName="psw"><term type="PND" xml:lang="deu">Bos, Barent</term><index indexName="fsw"><term type="structure" target="#printer" xml:lang="deu">Drucker</term></index></index></rs> Boekverkooper, op't Westnieuwlant.<lb rend="line-height:120%"/>
+                    Te <rs type="place" ref="../register/register-place.xml#rotterdam">ROTTERDAM</rs>,<lb/>
+                    By <rs type="person" ref="../register/register-person.xml#bos_barent">BARENT BOS<index indexName="psw"><term type="PND" xml:lang="deu">Bos, Barent</term><index indexName="fsw"><term type="structure" target="#printer" xml:lang="deu">Drucker</term></index></index></rs> Boekverkooper, op't Westnieuwlant.<lb rend="line-height:120%"/>
                     
                     <date when="1700">MDCC</date>.
                 </p>
             </div>
             <div xml:lang="nld">
-                <p><pb n="22"/>Het schijnt of <rs type="person" ref="#raffael">Rafels</rs><index indexName="psw"><term type="PND" xml:lang="deu">Raffael</term></index> geest, of <rs type="person" ref="#tizian">Titiaen</rs><index indexName="psw"><term type="PND" xml:lang="deu">Tizian</term></index> verrees,<lb/>
-                    Of <rs type="person" ref="#michelangelo">Angeloos</rs><index indexName="psw"><term type="PND" xml:lang="deu">Michelangelo</term></index> vernuft, Baffaen, of <rs type="person" ref="#veronese_paolo">Veronees</rs><index indexName="psw"><term type="PND" xml:lang="deu">Veronese, Paolo</term></index>;<lb/>
+                <p><pb n="22"/>Het schijnt of <rs type="person" ref="../register/register-person.xml#raffael">Rafels</rs><index indexName="psw"><term type="PND" xml:lang="deu">Raffael</term></index> geest, of <rs type="person" ref="../register/register-person.xml#tizian">Titiaen</rs><index indexName="psw"><term type="PND" xml:lang="deu">Tizian</term></index> verrees,<lb/>
+                    Of <rs type="person" ref="../register/register-person.xml#michelangelo">Angeloos</rs><index indexName="psw"><term type="PND" xml:lang="deu">Michelangelo</term></index> vernuft, Baffaen, of <rs type="person" ref="../register/register-person.xml#veronese_paolo">Veronees</rs><index indexName="psw"><term type="PND" xml:lang="deu">Veronese, Paolo</term></index>;<lb/>
                     Maer neen, zy staen beschaemt, en roepen dat de stoffen<lb/>
                     Van 't wilt geval natuur en 't leven overtroffen;<lb/>
                     Gelijk het op zijn tijt verwondring heeft gebaert,<lb/>
@@ -146,7 +145,7 @@
                             In 't werk te rade gaen, het welk men dus begunstig?<lb/>
                             Geen kenners schatten ooit den dollen schilder kunstig,<lb/>
                             Die 't dolhuis zinneloos misverst met schildery.<lb/>
-                    Gelijkt nu <rs type="person" ref="#rubens_peter_paul">Rubens</rs><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term></index> kunst en tafereel hierby,<lb/>
+                    Gelijkt nu <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term></index> kunst en tafereel hierby,<lb/>
                             Daer tekeninge en verwe, in 't hoogen en verdiepen,<lb/>
                             Als tegens vrou Natuur, om strijt in 't kunstwerk liepen,<lb/>
                             Waer zal dees nachtuil zich verbergen voor den dag,<lb/>
@@ -178,7 +177,7 @@
                         Ik sla verscheidenheên in zoo veel dingen over.<lb/>
                         Hoe rijk schakeert hy plant, en kruit, en bloem, en lover,<lb/>
                         En geur, en kleur, en smaek, en zappen, en gestalt!<lb/>
-                    Schoon <rs type="person" ref="#seghers_daniel">Zegers</rs><index indexName="psw"><term type="PND" xml:lang="deu">Seghers, Daniel</term></index> bloempenseel het vorstenoog gevalt,<lb/>
+                    Schoon <rs type="person" ref="../register/register-person.xml#seghers_daniel">Zegers</rs><index indexName="psw"><term type="PND" xml:lang="deu">Seghers, Daniel</term></index> bloempenseel het vorstenoog gevalt,<lb/>
                         Zijn verf is zonder ziel, en geur, en kracht, en leven;<lb/>
                         En Chinaes bloempenseel moet lof den schilder geven,<lb/>
                         Die zulk een'  regenboog en krans van bloemen maelt,<lb/>
@@ -192,7 +191,7 @@
                         Indienwe gadeslaen het wilt en tam gediert,<lb/>
                         Dat in de golven zwemt, of in de wolken zwiert,<lb/>
                         Of in de beemden weit, woestijnen, en waranden;<lb/>
-                    Moet <rs type="person" ref="#snyders_frans">Snijders</rs><index indexName="psw"><term type="PND" xml:lang="deu">Snyders, Frans</term></index> het penseel niet worpen uit zijn handen,<lb/>
+                    Moet <rs type="person" ref="../register/register-person.xml#snyders_frans">Snijders</rs><index indexName="psw"><term type="PND" xml:lang="deu">Snyders, Frans</term></index> het penseel niet worpen uit zijn handen,<lb/>
                         En roepen: al ons kunst is niet bespieglens waert.<lb/>
                         Hier is verscheidenheit van onnavolgbren aert.<lb/>
                         Heeft Rubens niet geklaegt, in 't schilderen en strijken<lb/>

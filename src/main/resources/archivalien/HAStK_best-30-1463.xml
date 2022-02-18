@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_028">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_028"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,10 +15,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="HAStK_best-30-1463">
                     <msIdentifier>
                         <country>Deutschland</country>
@@ -71,9 +70,8 @@
     <text>
         <body>
             <div xml:lang="lat">
-                <p><pb facs="best-30-1463-32r" n="32r"/> <hi rend="underline">Breidstraiß</hi> <gap resp="N.B." reason="cancelled"/> <rs type="person" ref="#rubens_jan"> Johan Robins</rs>
-                    <rs type="place" ref="#windeck"> Windeck</rs>| <rs type="person"
-                        ref="#rubens_baptist">Johann Robins</rs>, filius, Malergaff:<note resp="N.B." type="footnote">i.e. Malergaffel</note> 
+                <p><pb facs="best-30-1463-32r" n="32r"/> <hi rend="underline">Breidstraiß</hi> <gap resp="N.B." reason="cancelled"/> <rs type="person" ref="../register/register-person.xml#rubens_jan"> Johan Robins</rs>
+                    <rs type="place" ref="../register/register-place.xml#windeck"> Windeck</rs>| <rs type="person" ref="../register/register-person.xml#rubens_baptist">Johann Robins</rs>, filius, Malergaff:<note resp="N.B." type="footnote">i.e. Malergaffel</note> 
               </p>
             </div>
         </body>

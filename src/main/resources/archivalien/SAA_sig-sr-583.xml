@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_182">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_182"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-583">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -68,23 +67,20 @@
         <body>
             <div xml:lang="nld">
                 <p> S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Ruebens</rs> <span from="" xml:lang="lat">constituit</span>
-                        <rs type="person" ref="#brabandere_thomas">Thomas de Brabandere</rs>
-                    greffier van <rs type="place" ref="#borcht">Borcht</rs> ende <rs type="place"
-                        ref="#zwijndrecht">Swijndrecht</rs>, omme over ende inden naeme van hem
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Paulo Ruebens</rs> <span from="" xml:lang="lat">constituit</span>
+                        <rs type="person" ref="../register/register-person.xml#brabandere_thomas">Thomas de Brabandere</rs>
+                    greffier van <rs type="place" ref="../register/register-place.xml#borcht">Borcht</rs> ende <rs type="place" ref="../register/register-place.xml#zwijndrecht">Swijndrecht</rs>, omme over ende inden naeme van hem
                     constituant te administreren ende gouverneren allen de goederen, die de voorn.
-                    constituant geerft ende competeerende zijn gelegen in de <rs type="place"
-                        ref="#waasland">lande van Waes</rs> delande te verhueren ende de verschenen
+                    constituant geerft ende competeerende zijn gelegen in de <rs type="place" ref="../register/register-place.xml#waasland">lande van Waes</rs> delande te verhueren ende de verschenen
                     hueren ende de vervallen renten te innen ende ontfangen t’ sij met den minne oft
                     met de rechte quytantie van sijnen ontfanck te geven ende voorts generalyck
                     alles te doene dat den voornoemde constituant, allomme presente ende voor oogen
                     wesende doene zouden mogen, al waert dat de saecken breeder ende speciaelder
                     macht behoefde den voors. is, met machte van een ofte meer procurateures te
                     substitueren tot voirderinge van saecken ende erfferente alreeds begonst ende
-                    geintenteert gegens <rs type="person" ref="#stocx_cornelis">Cornelis Stocx</rs>
+                    geintenteert gegens <rs type="person" ref="../register/register-person.xml#stocx_cornelis">Cornelis Stocx</rs>
                     sijne verobligeerde pande oft vruchten van sijne misgaders tot defentie van de
-                    saecken geintenteert in de raede van <rs type="place" ref="#flandern"
-                    >Vlaenderen</rs> bij Jonker <rs type="person" ref="#deynaerts_david">David
+                    saecken geintenteert in de raede van <rs type="place" ref="../register/register-place.xml#flandern">Vlaenderen</rs> bij Jonker <rs type="person" ref="../register/register-person.xml#deynaerts_david">David
                         Deynaerts</rs> soo hij aggeert heure ten laste van twee gemeten lants van
                     hem constituant aggreerende ende overdanckelyck houdende alle ’t geen was byde
                     voorn. Brabanders oft sijne gesubstitueerde ad lit<hi rend="super">is</hi> alreeds

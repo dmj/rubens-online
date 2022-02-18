@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_202">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_202"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ehevertrag_rubens_fourment_16301204">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -74,20 +73,14 @@
         <body>
             <div part="Y" xml:lang="nld">
                 <p> Inden jaere ons heeren <date when="1630-12-04">duysent sessehondert en dertich
-                        den vierden dach der maendt decembris</date>, voor mij <rs type="person"
-                            ref="#guyot_toussaint">Toussein Guyot</rs> openbaer notaris bij den secreten
-                    Raede van Sijne Ma<hi rend="super">t</hi> ende van <rs type="place" ref="#brabant"
-                        >Brabant</rs> geadmitteert ende geapprobeert t’ <rs type="place"
-                        ref="#antwerpen">Antwerpen</rs> residerende ende de getuijgen naerge<hi
-                        rend="super">nd</hi>. compareerden Heer <rs type="person"
-                        ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> Riddere Secretaris van
+                        den vierden dach der maendt decembris</date>, voor mij <rs type="person" ref="../register/register-person.xml#guyot_toussaint">Toussein Guyot</rs> openbaer notaris bij den secreten
+                    Raede van Sijne Ma<hi rend="super">t</hi> ende van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs> geadmitteert ende geapprobeert t’ <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> residerende ende de getuijgen naerge<hi rend="super">nd</hi>. compareerden Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs> Riddere Secretaris van
                     Sijne Ma<hi rend="super">t</hi> secreten Raedt ende Edelman vanden huijse van
                     haere Doorluchtichste Hoocheijt als toecommende bruijdegom ter eenre, ende
                         Jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#fourment_helene">Helena Fourment</rs> geassisteert met
-                    H. <rs type="person" ref="#fourment_daniel">Daniel Fourment</rs> ende Jo<hi
-                        rend="super">e</hi>
-                    <rs type="person" ref="#stappaert_clara">Clara Stappaert</rs> haeren vaeder ende
+                    <rs type="person" ref="../register/register-person.xml#fourment_helene">Helena Fourment</rs> geassisteert met
+                    H. <rs type="person" ref="../register/register-person.xml#fourment_daniel">Daniel Fourment</rs> ende Jo<hi rend="super">e</hi>
+                    <rs type="person" ref="../register/register-person.xml#stappaert_clara">Clara Stappaert</rs> haeren vaeder ende
                     moedere als toecomende bruijt ter andere zijden, alle mij notaris bekent sijnde.
                     Ende bekenden ende verlijden dat sijlieden ’t saemen geconcipieert geraemt ende
                     gesloten hebben een toecommenden houwelijck tusschen den voorgenoemden Heer
@@ -100,7 +93,7 @@
                     ende onruerende alomme waer ende tot wat plaetsen die gelegen sijn ende bevonden
                     souden mogen worden, als voldaen hebbende sijne twee kinderen daer moeder aff
                     was Jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#brant_isabella">Isebeel Brandt</rs> van henne
+                    <rs type="person" ref="../register/register-person.xml#brant_isabella">Isebeel Brandt</rs> van henne
                     moederlijcke goeden, naer luijt der quictancie bij henne testamentelijcke
                     momboirs opden <date when="1630-11-29">negenentwintichsten dach der voorledener
                         maendt Novembris</date> voor mij Notaris gepasseert waermede de voorgenoemde
@@ -112,9 +105,9 @@
                     de somme van drij duijsent ponden grooten Vlems eens, ende dat sij bovendijen
                     sal inbrengen de hondert negenentwintich ponden tweelff schellingen ende seven
                     grooten vlems eens die sij geerft heeft van wijlen Jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#fourment_catharina">Catharina Fourment</rs> haer sustere
+                    <rs type="person" ref="../register/register-person.xml#fourment_catharina">Catharina Fourment</rs> haer sustere
                     huijsvrouwe was van H<hi rend="super">r</hi>
-                    <rs type="person" ref="#hanckaert_gielis">Gielis Hanckaert</rs>, voorts dat sij
+                    <rs type="person" ref="../register/register-person.xml#hanckaert_gielis">Gielis Hanckaert</rs>, voorts dat sij
                     lieden de selve henne dochtere sollen vuijtsetten cleeden ende reeden,
                     mitsgaders de bruijlofts feeste becostigen soo ende gelijck sij lieden daeraff
                     eere ende danck begeeren sollen, waermede de voorsch. heer toecommende
@@ -139,16 +132,14 @@
                     getrouwelijk te onderhouden te volbrengen ende te voldoen. Aldus gedaen ende
                     gepasseert t’Antwerpen ten huijse des voorsch. H<hi rend="super">r</hi> Daniels
                     Fourment ter presentien van heer ende M<hi rend="super">r</hi>
-                    <rs type="person" ref="#brant_jan">Jan Brant</rs> schepen, M<hi rend="super">r</hi>
-                    <rs type="person" ref="#brant_hendrick">Hendrick Brant</rs> greffier respective
+                    <rs type="person" ref="../register/register-person.xml#brant_jan">Jan Brant</rs> schepen, M<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#brant_hendrick">Hendrick Brant</rs> greffier respective
                     deser stadt, H<hi rend="super">r</hi>
-                    <rs type="person" ref="#fourment_peeter">Peeter Fourment</rs>, H<hi rend="super">r</hi>
-                    <rs type="person" ref="#hecke_peeter">Peeter van Hecke</rs>, H<hi rend="super">r</hi>
-                    <rs type="person" ref="#groot_balthasar">Balthasar de Groot</rs>, H<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#moens_hendrick">Hendrick Moens</rs> ende H<hi rend="super"
-                        >r</hi>
-                    <rs type="person" ref="#picquerij_nicolas">Nicolas Picquerij</rs> als getuijgen
+                    <rs type="person" ref="../register/register-person.xml#fourment_peeter">Peeter Fourment</rs>, H<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#hecke_peeter">Peeter van Hecke</rs>, H<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#groot_balthasar">Balthasar de Groot</rs>, H<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#moens_hendrick">Hendrick Moens</rs> ende H<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#picquerij_nicolas">Nicolas Picquerij</rs> als getuijgen
                     hiertoe versocht, ende heb ben de voors. comparanten, assistenten ende getuijgen
                     de minute deser int register mijns Notaris met henne naemen onderteeckent.</p>
                 <closer><salute><span from="" xml:lang="lat">Quod attestor signa meo manuali solito</span></salute><lb/>

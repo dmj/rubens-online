@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_209d">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_209d"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-2968-883v">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -42,10 +42,10 @@
                         <msItem>
                          <filiation>
                              <note resp="A.H." type="footnote">Bzgl. Rubens` Honorar als Sekretär des Geheimen Rates Vgl. auch die folgenden Dokumente, die alle um das Jahr 1630 datiert sind:
-                                 <ref type="rubens" cRef="ed_rubens_209"></ref>
-                                 <ref type="rubens" cRef="ed_rubens_209a"></ref>;
-                                 <ref type="rubens" cRef="ed_rubens_209b"></ref>;
-                                 <ref type="rubens" cRef="ed_rubens_209c"></ref>;
+                                 <ref type="rubens" cRef="ed_rubens_209"/>
+                                 <ref type="rubens" cRef="ed_rubens_209a"/>;
+                                 <ref type="rubens" cRef="ed_rubens_209b"/>;
+                                 <ref type="rubens" cRef="ed_rubens_209c"/>;
                               </note>
                          </filiation>
                           
@@ -79,14 +79,12 @@
         <body>
             
             <div xml:lang="fra">
-                <p><pb n="883v"/>6374 livres à <rs type="person"
-                    ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>, secrétaire du Conseil privé de Sa
+                <p><pb n="883v"/>6374 livres à <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubens</rs>, secrétaire du Conseil privé de Sa
                     Majesté<index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
                     </index>. pour le parfunissement de 12, 374 livres, à quoy montent tant seulement
                     les fraiz et despens par luy exposés ès années <date when="1629">1629</date> et
-                        <date when="1630">1630</date> aux voyaiges doiz <rs type="place"
-                            ref="#bruessel">Bruxelles</rs> vers Espaigne et <rs type="place" ref="#england">Angleterre</rs> allant et venant.
+                        <date when="1630">1630</date> aux voyaiges doiz <rs type="place" ref="../register/register-place.xml#bruessel">Bruxelles</rs> vers Espaigne et <rs type="place" ref="../register/register-place.xml#england">Angleterre</rs> allant et venant.
                 </p>
             </div>
         </body>

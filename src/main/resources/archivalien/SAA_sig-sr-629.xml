@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_223">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_223"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-629">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -76,36 +75,31 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Heer <rs type="person" ref="#rubens_peter_paul">Peter Pauwels Rubbens</rs>
-                    riddere, pro se jouffrouwe <rs type="person" ref="#rubens_clara">Clara
+                <p>Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peter Pauwels Rubbens</rs>
+                    riddere, pro se jouffrouwe <rs type="person" ref="../register/register-person.xml#rubens_clara">Clara
                     Rubbens</rs>, dochter van wijlen H<hi rend="super">r</hi> ende M<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_philipp">Philips Rubbens</rs>, secretaris was
+                    <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips Rubbens</rs>, secretaris was
                     deser stadt, daer moeder af was Jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#moy_maria">Maria de Moy</rs>, met heer ende M<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#weerdt_gregorius">Gregorius de Weerdt</rs>, secretaris
-                    deser stadt, soo voor huns selve als hun sterckmaeckende voor M<hi rend="super"
-                    >r</hi> Philips Ruebens, licensiaet inde rechten der voors. J<hi rend="super"
-                    >f</hi> Claren broedere ende J<hi rend="super">fe</hi>
-                    <rs type="person" ref="#parcq_christina">Christina du Parck</rs>, dochter van
-                    wijlen Jonker <rs type="person" ref="#parcq_simeon">Simeon du Parcq</rs>, daer
-                    moeder af was jouffrouwe <rs type="person" ref="#rubens_blandina">Blandina
+                    <rs type="person" ref="../register/register-person.xml#moy_maria">Maria de Moy</rs>, met heer ende M<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#weerdt_gregorius">Gregorius de Weerdt</rs>, secretaris
+                    deser stadt, soo voor huns selve als hun sterckmaeckende voor M<hi rend="super">r</hi> Philips Ruebens, licensiaet inde rechten der voors. J<hi rend="super">f</hi> Claren broedere ende J<hi rend="super">fe</hi>
+                    <rs type="person" ref="../register/register-person.xml#parcq_christina">Christina du Parck</rs>, dochter van
+                    wijlen Jonker <rs type="person" ref="../register/register-person.xml#parcq_simeon">Simeon du Parcq</rs>, daer
+                    moeder af was jouffrouwe <rs type="person" ref="../register/register-person.xml#rubens_blandina">Blandina
                         Rubbens</rs>, ongehouwt maer bejaere ende haers zelfs zijnde, zoo voor haer
                     selven als in den naeme van haere broedere ende sustere, voor deselve haer
                     sterckmaeckende, dicta qualitate bekenden ongebeurt ende ontfangen te hebben van
-                        <rs type="person" ref="#barssemaeckers_clara">Clara Barssemaeckers</rs> de
+                        <rs type="person" ref="../register/register-person.xml#barssemaeckers_clara">Clara Barssemaeckers</rs> de
                     capitale penningen van de twintich Carolus guldenen erfelyck daeromme de voors.
-                    wijlen heer ende M<hi rend="super">r</hi> Philips Rubbens cum suis op den <date
-                        when="1610-06-15">vijfthienden juni 1600 ende thiene</date> ’terve gegeven
+                    wijlen heer ende M<hi rend="super">r</hi> Philips Rubbens cum suis op den <date when="1610-06-15">vijfthienden juni 1600 ende thiene</date> ’terve gegeven
                     hebbende M<hi rend="super">r</hi>
-                    <rs type="person" ref="#regebaert_hans">Hans Regenaert</rs> ende de voors. Clara
+                    <rs type="person" ref="../register/register-person.xml#regebaert_hans">Hans Regenaert</rs> ende de voors. Clara
                     Barssemaeckers sijne huysvrouwe, een stuck erve daer eertijts een huys genaempt
                     het Moeriaenshooft<index indexName="stw">
                         <term xml:lang="nld">Moeriaenshooft</term>
                     </index><index indexName="stw">
                         <term xml:lang="nld">Vliegende Hert</term>
-                    </index> op gestaen heeft, gelegen in <rs type="place" ref="#borgerhout"
-                        >Borgerhoudt</rs> alhier prout <span from="" xml:lang="lat">littera quitaverunt etc.</span></p> 
+                    </index> op gestaen heeft, gelegen in <rs type="place" ref="../register/register-place.xml#borgerhout">Borgerhoudt</rs> alhier prout <span from="" xml:lang="lat">littera quitaverunt etc.</span></p> 
                 <closer><salute>gelovende etc.</salute><lb/>
                     <dateline><date when="1635-10-12">Duodecima octobris 1635</date><lb/> Solutum 24 st.</dateline></closer>
             </div>

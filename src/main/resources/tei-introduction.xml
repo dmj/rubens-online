@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI version="5.0" xml:base="edoc/ed000083" xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -51,7 +51,7 @@
 				<date>2007-04-09</date>
 				<distributor>Herzog August Bibliothek Wolfenbüttel</distributor>
 				<availability status="free">
-					<p xml:id="copyright"></p>
+					<p xml:id="copyright"/>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -60,18 +60,18 @@
 					 <title>Rubens-online: Quellen zu literarischen Bezügen, Werk, Leben des flämischen Malers Peter Paul Rubens (1577–1640)</title>
 					</titleStmt>
 					<publicationStmt>
-						<idno></idno>
-						<idno></idno>
-						<idno></idno>
-						<publisher></publisher>
-						<pubPlace></pubPlace>
-						<date></date>
+						<idno/>
+						<idno/>
+						<idno/>
+						<publisher/>
+						<pubPlace/>
+						<date/>
 					</publicationStmt>
 				</biblFull>
 			</sourceDesc>
 		</fileDesc>
 	 <revisionDesc>
-	  <change></change>
+	  <change/>
 	 </revisionDesc>
 	</teiHeader>
 	<text>
@@ -403,10 +403,9 @@
 <div type="bibliography">
 <head>Bibliographie</head>
 <p>
-	Im Rahmen der Edition genutze Literatur finden sie in der <ref rendition="inline"  target="http://diglib.hab.de/content.php?dir=edoc/ed000083&amp;distype=optional&amp;xml=register/register-bibl.xml&amp;xsl=tei-bibliography.xsl">Bibliographie</ref>.  Weiterführende, 	jeweils aktuelle Literatur wird über den <ref target="http://opac.lbs-braunschweig.gbv.de/DB=2/SET=2/TTL=1/CMD?ACT=SRCHA&amp;IKT=1016&amp;SRT=YOP&amp;TRM=sww+Rubens%2C+Peter+Paul">OPAC der Bibliothek</ref> nachgewiesen. 
+	Im Rahmen der Edition genutze Literatur finden sie in der <ref rendition="inline" target="http://diglib.hab.de/content.php?dir=edoc/ed000083&amp;distype=optional&amp;xml=register/register-bibl.xml&amp;xsl=tei-bibliography.xsl">Bibliographie</ref>.  Weiterführende, 	jeweils aktuelle Literatur wird über den <ref target="http://opac.lbs-braunschweig.gbv.de/DB=2/SET=2/TTL=1/CMD?ACT=SRCHA&amp;IKT=1016&amp;SRT=YOP&amp;TRM=sww+Rubens%2C+Peter+Paul">OPAC der Bibliothek</ref> nachgewiesen. 
 </p>
 </div>
   </body>
 </text>
 </TEI>
-	

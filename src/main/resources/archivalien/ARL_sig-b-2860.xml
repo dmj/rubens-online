@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_116">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_116"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-2860">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -63,22 +63,19 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p> 500 livres à <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>,
+                <p> 500 livres à <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubens</rs>,
                     peintre de l’hôtel de Leurs Altèzes<index indexName="psw">
                         <term xml:lang="deu">Isabella (Spanien, Infantin)</term>
                     </index><index indexName="psw">
                         <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog, VII.)</term>
                     </index>, que ledit recepveur général des finances luy avoit baillées et
-                    délivrées en une lettre de descharge dela somme de 800 livres, datée du <date
-                        when="1613-02-24">24<hi rend="super">e</hi> jour de febvrier 1613</date>
-                    levée sur <rs type="person" ref="#martigny_marcq">Marcq Anthoine de
-                    Martigny</rs>, recepveur du domaine de Leurs Altèzes qu quartier de <rs
-                        type="place" ref="#landrecies">Landreschies</rs>, dont est faicte recepte
+                    délivrées en une lettre de descharge dela somme de 800 livres, datée du <date when="1613-02-24">24<hi rend="super">e</hi> jour de febvrier 1613</date>
+                    levée sur <rs type="person" ref="../register/register-person.xml#martigny_marcq">Marcq Anthoine de
+                    Martigny</rs>, recepveur du domaine de Leurs Altèzes qu quartier de <rs type="place" ref="../register/register-place.xml#landrecies">Landreschies</rs>, dont est faicte recepte
                     cy-devant folio 122, pour samblable somme que deue estoit audit Pierre-Paul
                     Rubbens, à cause de 500 livres que Leurs Altèzes luy avoient ordonné de gaiges
                     et traictement par chacun an à raison de son dit estat de painctre de l’hostel
-                    de Leurs Altèzes; et ce pour une année desdits gaiges, commencée le <date
-                        when="1611-09-23">23<hi rend="super">e</hi> jour de septembre 1611</date>
+                    de Leurs Altèzes; et ce pour une année desdits gaiges, commencée le <date when="1611-09-23">23<hi rend="super">e</hi> jour de septembre 1611</date>
                     et finie le <date when="1612-09-22">vingt-deuxiesme de septembre enssuivant
                         1612</date>. </p>
             </div>

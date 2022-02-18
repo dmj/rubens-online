@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_071">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_071"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="quittung_mitgift_blandina_15940831">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -68,23 +67,17 @@
     <text>
         <body>
             <div part="Y" xml:lang="fra">
-                <p> Je soubsigné confesse avoir receu de Mademoiselle <rs type="person"
-                        ref="#pypelincx_maria"><hi rend="smallCaps">Marie</hi> PIPELINCX</rs>, vefve
-                    de feu Maistre <rs type="person" ref="#rubens_jan"><hi rend="smallCaps">Jean
+                <p> Je soubsigné confesse avoir receu de Mademoiselle <rs type="person" ref="../register/register-person.xml#pypelincx_maria"><hi rend="smallCaps">Marie</hi> PIPELINCX</rs>, vefve
+                    de feu Maistre <rs type="person" ref="../register/register-person.xml#rubens_jan"><hi rend="smallCaps">Jean
                         </hi>RUEBENS</rs>, ma belle merre, la somme de deulx cens trente quattre
                     florins, huict pattars, <measure type="currency" quantity="6">VI</measure>
                     deniers sur et à bon compte de plus grande somme qu’elle me doibz de deux cens
-                    florins de rente; de laquelle somme de <measure type="currency" quantity="234"
-                            >II<hi rend="super">c</hi>XXXIIII</measure> florins, <measure
-                        type="currency" quantity="8">VIII</measure> pattars, <measure
-                        type="currency" quantity="6">VI</measure> deniers, je me lien content.
+                    florins de rente; de laquelle somme de <measure type="currency" quantity="234">II<hi rend="super">c</hi>XXXIIII</measure> florins, <measure type="currency" quantity="8">VIII</measure> pattars, <measure type="currency" quantity="6">VI</measure> deniers, je me lien content.
                     Tesmoing ce <date when="1594-08-31">dernier jour d’Aoust 1594</date>.<lb/>
-                    Somma: <measure type="currency" quantity="234">II<hi rend="super"
-                    >c</hi>XXXIIII</measure> florins, <measure type="currency" quantity="8"
-                        >VIII</measure> patars, <measure type="currency" quantity="6">VI</measure> deniers.</p>
+                    Somma: <measure type="currency" quantity="234">II<hi rend="super">c</hi>XXXIIII</measure> florins, <measure type="currency" quantity="8">VIII</measure> patars, <measure type="currency" quantity="6">VI</measure> deniers.</p>
                 
                 <closer>
-                    <signed><rs type="person" ref="#parcq_simeon">S. du PARCQ</rs>.</signed><lb/>
+                    <signed><rs type="person" ref="../register/register-person.xml#parcq_simeon">S. du PARCQ</rs>.</signed><lb/>
                     <dateline><date when="1594">1594</date>.</dateline>
                 </closer>
             </div>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_161">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_161"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-555">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -75,24 +74,20 @@
         <body>
             <div xml:lang="nld">
                 <p> S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs> schilder van
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubens</rs> schilder van
                     heure doorlichtichste hoocheyt bekende ende verlijde, midts dese opgebeurt ende
-                    ontfangen te hebben van <rs type="person" ref="#haze_jan">Jan de Haze</rs> de
+                    ontfangen te hebben van <rs type="person" ref="../register/register-person.xml#haze_jan">Jan de Haze</rs> de
                     hooft penningen metten achterstelle daer aft verschenen tot desen dage toe, van
-                    de drijhondert guldenen erffelijck die de voors. Jan de Haze opten <date
-                        when="1618-10-27">27<hi rend="super">sten</hi> Octobris anno XVI<hi rend="super"
-                            >c</hi> ende achtien</date> vercocht heeft hem comparant op enen
+                    de drijhondert guldenen erffelijck die de voors. Jan de Haze opten <date when="1618-10-27">27<hi rend="super">sten</hi> Octobris anno XVI<hi rend="super">c</hi> ende achtien</date> vercocht heeft hem comparant op enen
                     hoveniers hoff groot vier bunderen 31 roeden 174 voeten cum fundo et
-                    pertinentiis, gelgen buyten dese stadt tusschen de <rs type="place"
-                        ref="#kipdorp">Kipdorpp</rs> ende <rs type="place" ref="#roypoort">Roy
+                    pertinentiis, gelgen buyten dese stadt tusschen de <rs type="place" ref="../register/register-place.xml#kipdorp">Kipdorpp</rs> ende <rs type="place" ref="../register/register-place.xml#roypoort">Roy
                     poort</rs> aldaer. Tusschen sekere twee boveniers hoven eertijts raemhoven
                     geweest eijnde aende Dambrigschen steenwech gelegen, <span from="" xml:lang="lat">ex una</span>, noorwaert ende des
-                    Godtshuys van <rs type="place" ref="#siechen">Siechen</rs> erve, <span from="" xml:lang="lat">ex altera</span>,
+                    Godtshuys van <rs type="place" ref="../register/register-place.xml#siechen">Siechen</rs> erve, <span from="" xml:lang="lat">ex altera</span>,
                     zuytwaert commende westwaert aen deser stadt vesten ende achter oostwaert aen
                     des Heeren straete,</p>
                 <closer>
-                    <salute>prout <span from="" xml:lang="lat">litteras quas tradidit, quitaverunt</span>, gelove<hi
-                        rend="super">nde</hi> etc.</salute><lb/>
+                    <salute>prout <span from="" xml:lang="lat">litteras quas tradidit, quitaverunt</span>, gelove<hi rend="super">nde</hi> etc.</salute><lb/>
                     <dateline><date when="1622-04-29">Vigesima nona Aprilis 1622</date><lb/> Solvit 24 st.</dateline>
                 </closer>
             </div>

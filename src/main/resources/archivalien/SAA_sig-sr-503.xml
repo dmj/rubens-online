@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_114">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_114"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,8 +13,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="SAA_sig-sr-503">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="SAA_sig-sr-503">
                     <msIdentifier>
                         <country>Belgien</country>
                         <settlement>Antwerpen</settlement>
@@ -73,35 +72,24 @@
         <body>
             <div xml:lang="nld">
                 <p> M<hi rend="super">r</hi>
-                    <rs type="person" ref="#verreycken_godefried">Gidefridus Verreycken</rs>, doctor
+                    <rs type="person" ref="../register/register-person.xml#verreycken_godefried">Gidefridus Verreycken</rs>, doctor
                     in medecijnen, in houwelijk gehadt hebbende wijlen Jouff<hi rend="super">vr</hi>
-                    <rs type="person" ref="#boots_margareta">Margareta Boots</rs>, de ouders van de
+                    <rs type="person" ref="../register/register-person.xml#boots_margareta">Margareta Boots</rs>, de ouders van de
                     welcke hij comparant van heure nagelaten goede utgecocht heeft soo hij seyde,
-                    bekenden dat <rs type="person" ref="#rubens_peter_paul">Pietro Paulo
+                    bekenden dat <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo
                     Rubens</rs>, in handen van hem comparant, jegens den penninck sesthiene,
                     afgequeten, opgebeurt ende voldaen heeft, alsulcke twintich carolus gulden
-                    erflijck met allen den onbetaelden achterstelle derselven als <rs type="person"
-                        ref="#gelre_melchior">Melchior van Gelre</rs> opten <date when="1604-02-28"
-                        >28 Februarii 1600 ende vier</date> vercocht ende opgedragen heeft hem
+                    erflijck met allen den onbetaelden achterstelle derselven als <rs type="person" ref="../register/register-person.xml#gelre_melchior">Melchior van Gelre</rs> opten <date when="1604-02-28">28 Februarii 1600 ende vier</date> vercocht ende opgedragen heeft hem
                     comparant ende de voors. Margareta Boots alsoo ende sijnder huysvrouwe ende die
-                        <rs type="person" ref="#gielis_franchois">Franchois Gielis</rs> opten <date
-                        when="1569-07-14">14<hi rend="super">den</hi> July anno 1500 ende
-                        negenentsestich</date> vercocht ende bepandt heeft <rs type="person"
-                        ref="#sgreven_melchior">Melchiore Sgreven</rs> tot behoeve van <rs
-                        type="person" ref="#bernthuysers_jan">Janne</rs>, <rs type="person"
-                        ref="#bernthuysers_lucas">Lucas</rs>, <rs type="person"
-                        ref="#bernthuysers_coenrart">Coenrart</rs>, <rs type="person"
-                        ref="#bernthuysers_mechtelt">Mechtelt</rs>, ende <rs type="person"
-                        ref="#bernthuysers_agneeta">Agneeta Bernthuysers</rs>, daer moeder af was
-                        Jouff<hi rend="super">vr</hi>. <rs type="person" ref="#imhoff_agnete">Agnete
+                        <rs type="person" ref="../register/register-person.xml#gielis_franchois">Franchois Gielis</rs> opten <date when="1569-07-14">14<hi rend="super">den</hi> July anno 1500 ende
+                        negenentsestich</date> vercocht ende bepandt heeft <rs type="person" ref="../register/register-person.xml#sgreven_melchior">Melchiore Sgreven</rs> tot behoeve van <rs type="person" ref="../register/register-person.xml#bernthuysers_jan">Janne</rs>, <rs type="person" ref="../register/register-person.xml#bernthuysers_lucas">Lucas</rs>, <rs type="person" ref="../register/register-person.xml#bernthuysers_coenrart">Coenrart</rs>, <rs type="person" ref="../register/register-person.xml#bernthuysers_mechtelt">Mechtelt</rs>, ende <rs type="person" ref="../register/register-person.xml#bernthuysers_agneeta">Agneeta Bernthuysers</rs>, daer moeder af was
+                        Jouff<hi rend="super">vr</hi>. <rs type="person" ref="../register/register-person.xml#imhoff_agnete">Agnete
                         Imhoff</rs>, ierst op eene groote huysinghe met plaetse, hove, borneputte,
-                    gronden ende toebhoorten, gestaen ende gelegen op den Wapper alhier<index
-                        indexName="gsw">
+                    gronden ende toebhoorten, gestaen ende gelegen op den Wapper alhier<index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
-                    </index> tusschen vrouwe <rs type="person" ref="#halmale_agnes">Agnese van
+                    </index> tusschen vrouwe <rs type="person" ref="../register/register-person.xml#halmale_agnes">Agnese van
                         Halmale</rs> erve, <span from="" xml:lang="lat">ex una</span>, ende sekere ledige erve, wesende, een
-                    bleyckerije, <span from="" xml:lang="lat">ex altera</span>, ende op noch drije huysen neffens een int <rs
-                        type="place" ref="#hoplant">Hopland</rs>, alhier gestaen tusschen derve van
+                    bleyckerije, <span from="" xml:lang="lat">ex altera</span>, ende op noch drije huysen neffens een int <rs type="place" ref="../register/register-place.xml#hoplant">Hopland</rs>, alhier gestaen tusschen derve van
                     den Colveniers hove, <span from="" xml:lang="lat">ex una</span>, en thuys geheeten Breda,</p>
                     <closer>
                         <salute><span from="" xml:lang="lat">ex altera, prout litteras

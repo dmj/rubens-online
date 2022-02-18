@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_091">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_091"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brabantisierung_philipp_rubens_16061115">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -43,8 +42,7 @@
                             <filiation>
                                 <note resp="A.H." type="footnote">Zu Philipp Rubens' Brabantisierung vergleiche auch das
                                     Dokument vom <ref type="rubens" cRef="ed_rubens_094">28. April 1607</ref>; zur
-                                    Naturalisierung von Philipp Rubens vergleiche die Urkunde vom <ref type="rubens"
-                                        cRef="ed_rubens_097">19. Januar 1609</ref>.</note>
+                                    Naturalisierung von Philipp Rubens vergleiche die Urkunde vom <ref type="rubens" cRef="ed_rubens_097">19. Januar 1609</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -81,31 +79,24 @@
             <div part="Y" xml:lang="nld">
                 <head>Akte van Brabantisatie.</head> 
                 <p>Alzoe M<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_philipp"><hi rend="smallCaps">Philips</hi>
+                    <rs type="person" ref="../register/register-person.xml#rubens_philipp"><hi rend="smallCaps">Philips</hi>
                         RUBENIUS</rs> mijne Heeren Prelaeten, Edelen ende Gedeputeerde vande vier
                     hooftsteden, representerende de drije Staeten des Landts ende Hertochdoms van
-                        <rs type="place" ref="#brabant">Brabant</rs>, bij zekere zijne supplicatie
-                    verthoont ende te kennen gegeven hadde, hoe dat zijnen vader Meester <rs
-                        type="person" ref="#rubens_jan"><hi rend="smallCaps">Jan</hi> RUBENS</rs>
-                    waere geweest een geboren Brabanter ende Poorter der stadt van <rs type="place"
-                        ref="#antwerpen">Antwerpen</rs>, hebbende aldaer gepasseert den besten tijdt
+                        <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs>, bij zekere zijne supplicatie
+                    verthoont ende te kennen gegeven hadde, hoe dat zijnen vader Meester <rs type="person" ref="../register/register-person.xml#rubens_jan"><hi rend="smallCaps">Jan</hi> RUBENS</rs>
+                    waere geweest een geboren Brabanter ende Poorter der stadt van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs>, hebbende aldaer gepasseert den besten tijdt
                     van zijn leven ende oyck mede geweest vande Weth aldaer, dan alsoe ondertusschen
                     waeren opgestaen de leste troublen, dairdoire vele persoonen hunne wooningen
                     ende vaderlant hadden moeten verlaeten, zoo waere mede gebeurt dat zijnen voirs.
-                    vader hem oyck eenigen tijdt hadde gehouden tot <rs type="place" ref="#koeln"
-                        >Ceulen</rs>, alwaer hij alnoch eenige kinderen bij zijne huysvrouwe hadde
+                    vader hem oyck eenigen tijdt hadde gehouden tot <rs type="place" ref="../register/register-place.xml#koeln">Ceulen</rs>, alwaer hij alnoch eenige kinderen bij zijne huysvrouwe hadde
                     vercregen ende naementlijck den verthoondere met intentie nochtans, om daeromme
                     het landt van Brabant nyet te verlaeten, hebbende oversulcx soo lange hij hadde
                     geleeft ende naer zijn doet zijne huysvrouw, deselve kinderen, als zij
                     eenichssints beguaem waeren geweest, herwarts over geschickt ende naer de
-                    reconsiliatie vanden steden van Antwerpen ende <rs type="place" ref="#bruessel"
-                        >Brussele</rs>, waere des suppliants moeder metter geheele woenstede binnen
+                    reconsiliatie vanden steden van Antwerpen ende <rs type="place" ref="../register/register-place.xml#bruessel">Brussele</rs>, waere des suppliants moeder metter geheele woenstede binnen
                     Antwerpen voirs. wedergekeert, alwaer deselve supliant geheel jonck wesende zijn
-                    ierste studien hadde begonst ende daernae tot <rs type="place" ref="#loewen"
-                        >Loven</rs> onder wylen Heere ende Meester <rs type="person"
-                        ref="#lipsius_justus"><hi rend="smallCaps">Justo</hi> LIPSIO</rs>, in wiens
-                    familie hij oock vier jaeren hadde gewoont; van daer waere getrocken naer <rs
-                        type="place" ref="#rom">Roomen</rs> ende zijne studien aldaer soe vervolght,
+                    ierste studien hadde begonst ende daernae tot <rs type="place" ref="../register/register-place.xml#loewen">Loven</rs> onder wylen Heere ende Meester <rs type="person" ref="../register/register-person.xml#lipsius_justus"><hi rend="smallCaps">Justo</hi> LIPSIO</rs>, in wiens
+                    familie hij oock vier jaeren hadde gewoont; van daer waere getrocken naer <rs type="place" ref="../register/register-place.xml#rom">Roomen</rs> ende zijne studien aldaer soe vervolght,
                     dat hij <span from="" xml:lang="lat">gradum doctoratus utriusque juris</span> hadde vercregen, soe dat hij hopte,
                     sonder jactantie gesprocken, dat hij nyet teenemael onbequaem en soude worden
                     bevonden om Hunne Hoocheden<note resp="A.H." type="footnote">Infantin Isabella
@@ -146,7 +137,7 @@
                             <date when="1607-07-19">XXIIII Julij anno 1607</date>.
                         </dateline><lb/> 
                     <salute>Mij darbij zijnde</salute><lb/>
-                    <signed><rs type="person" ref="#masius_p">P. MASIUS</rs>.</signed> 
+                    <signed><rs type="person" ref="../register/register-person.xml#masius_p">P. MASIUS</rs>.</signed> 
                 </closer>
             </div>
         </body>

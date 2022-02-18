@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_029">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_029"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="HAStK_best-20-102">
                     <msIdentifier>
                         <country>Deutschland</country>
@@ -71,34 +70,28 @@
             <div xml:lang="lat">
                 <head>
                     <pb facs="best-20-102-312v" n="312v"/>Approbatio.</head><p>Universis etc. Nos consules et senatus imperialis
-                    civitatis <rs type="place" ref="#koeln">Coloniae Agrippinae</rs>, tenore
-                    praesentium <pb facs="best-20-102-313r" n="313r"/>notum facimus et attestamur, quod spectabilis vir <rs
-                        type="person" ref="#frycke_johannes">Johannes Frycke</rs> Generosorum et
-                    illustrissimum dominorum <rs type="person" ref="#fugger_marcus">Marci
-                    Fuggeri</rs> et fratrum mandatarius et negotiorum gestor, certas paten<hi
-                        rend="super">tes</hi> literas originales, hispanico idiomate exaratas, ac
+                    civitatis <rs type="place" ref="../register/register-place.xml#koeln">Coloniae Agrippinae</rs>, tenore
+                    praesentium <pb facs="best-20-102-313r" n="313r"/>notum facimus et attestamur, quod spectabilis vir <rs type="person" ref="../register/register-person.xml#frycke_johannes">Johannes Frycke</rs> Generosorum et
+                    illustrissimum dominorum <rs type="person" ref="../register/register-person.xml#fugger_marcus">Marci
+                    Fuggeri</rs> et fratrum mandatarius et negotiorum gestor, certas paten<hi rend="super">tes</hi> literas originales, hispanico idiomate exaratas, ac
                     propria manu regiae catho<hi rend="super">cae</hi> ma<hi rend="super">tis</hi> (:ut
                     videbatur:) eiusdemque secretarii subscriptas, una cum copia earundem literarum
                     in eadem lingua, nobis exhibuerit, petens quia originales earundem in Hispanias
                         transmitten<hi rend="super">dae</hi> essent, nos dignaremur, post factam
                     diligentem collationem, originale restituere, ipsamque copiam in formam vidimus
                     redactam sibi communicare, ad quam collationem faciendam, simul et manus
-                    praecominatorum regiae majest<hi rend="super">is</hi> et secretarij agnoscen<hi
-                        rend="super">dam</hi> et verifican<hi rend="super">dam</hi> produxit coram nobis
-                    dictus mandatarius honorados ac nobiles viros Boucho ab Agta praepositum s<hi
-                        rend="super">ti</hi>
-                    <rs type="person" ref="#bavo_von_gent">Bavonis</rs> apud <rs type="place"
-                        ref="#gent">Gandaven<hi rend="super">tis</hi></rs><index indexName="psw">
+                    praecominatorum regiae majest<hi rend="super">is</hi> et secretarij agnoscen<hi rend="super">dam</hi> et verifican<hi rend="super">dam</hi> produxit coram nobis
+                    dictus mandatarius honorados ac nobiles viros Boucho ab Agta praepositum s<hi rend="super">ti</hi>
+                    <rs type="person" ref="../register/register-person.xml#bavo_von_gent">Bavonis</rs> apud <rs type="place" ref="../register/register-place.xml#gent">Gandaven<hi rend="super">tis</hi></rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Bavo</term>
-                    </index> et <rs type="person" ref="#pignoranda_ludovicus">Ludovicum
+                    </index> et <rs type="person" ref="../register/register-person.xml#pignoranda_ludovicus">Ludovicum
                     Pignoranda</rs> praenominatae regiae ma<hi rend="super">tis</hi> in rebus bellicis
-                    commissarium et <rs type="person" ref="#rubens_jan">Johannem Rubens</rs>
+                    commissarium et <rs type="person" ref="../register/register-person.xml#rubens_jan">Johannem Rubens</rs>
                     doctorem, omnes concives et incolas nostros, hsipanicae linguae peritissimos,
                     testes citatos habiles et fide digniss<hi rend="super">imos</hi>, qui sic
                     comparentes, manibus nos<hi rend="super">tris</hi> stipulan. ad sancta die
                     evangelia, se ad interrogata <pb facs="best-20-102-313v" n="313v"/>veritatem dicturos solemniter
-                    jurarunt, quibus sic peractis praedicti <rs type="person"
-                        ref="#pignoranda_ludovicus">Ludowicus Pignoranda</rs> et doctor Johannes
+                    jurarunt, quibus sic peractis praedicti <rs type="person" ref="../register/register-person.xml#pignoranda_ludovicus">Ludowicus Pignoranda</rs> et doctor Johannes
                     Rubens medio suo juramento praestito attestati sunt, se ad praemissam instantiam
                     praesentem copiam cum originali suo subscriptio diligenter collationasse ac
                     revidisse eandemque de verbo ad verbum, concordantem reperisse absque dolo.
@@ -116,8 +109,7 @@
                     transumptum hoc exinde fieri ac testimonio veritatis sigillo nostro secretiore
                     corroborari mandavimus.</p> 
                 <closer>
-                    <dateline>Datae anno post partum Virginis <date when="1583-02-26"
-                        >millesimo quingentesimo octuagesimo tertio, die quidem Martis XXVI. Mensis
+                    <dateline>Datae anno post partum Virginis <date when="1583-02-26">millesimo quingentesimo octuagesimo tertio, die quidem Martis XXVI. Mensis
                         Februarii</date>.</dateline>
                 </closer> 
             </div>

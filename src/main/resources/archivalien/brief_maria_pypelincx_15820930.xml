@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_317">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_317"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <!-- ID vergeben -->
     <teiHeader>
         <fileDesc>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brief_maria_pypelincx_15820930">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Maria Pypelincx an Dr. Schwartz vom 30. September 1582</idno></msIdentifier>
                     
@@ -60,11 +59,7 @@
         <body>
             <div xml:lang="fra">
                 <salute>Monsieur, </salute>
-                <p>Estant naguerres aduenu que Monseigneur le Compte <rs type="person"
-                        ref="#nassau_johan">JEHAN</rs> ait rappellé mon mari contre <date
-                        when="--11-01">le premier de Novembre</date> à <rs type="place"
-                        ref="#siegen">Sighen</rs>, n’ayant toutes fois son agent, le Docteur <rs
-                        type="person" ref="#christianus_andreas">ANDRIEN CHRISTIANI</rs>, qui nous
+                <p>Estant naguerres aduenu que Monseigneur le Compte <rs type="person" ref="../register/register-person.xml#nassau_johan">JEHAN</rs> ait rappellé mon mari contre <date when="--11-01">le premier de Novembre</date> à <rs type="place" ref="../register/register-place.xml#siegen">Sighen</rs>, n’ayant toutes fois son agent, le Docteur <rs type="person" ref="../register/register-person.xml#christianus_andreas">ANDRIEN CHRISTIANI</rs>, qui nous
                     en a fait le rapport, sceu ou volu asseurer sa personne, ains assés monstrant,
                     par sa contenance, que mon mari estoit en danger, ce que je crains d’autant plus
                     qu’il dist que Monseigneur le Lantgrave nous rendroit nostre argent, car cela ne
@@ -87,12 +82,10 @@
                     grande asseurance nostre, fust conuenu, qu’aduenant qu’on le rappelast, que l’on
                     nous renderoit quant et quant nostre argent, et que nostre transaction seroit
                     nulle, de sorte que par là ne debuons estre inquiétez. Vous sçaués aussi,
-                    Monsieur, que lors quand ie vins de <rs type="place" ref="#bilstein"
-                        >Bilstein</rs> veoir mon mari en sa prison après qu’il y auoit esté 19 mois,
+                    Monsieur, que lors quand ie vins de <rs type="place" ref="../register/register-place.xml#bilstein">Bilstein</rs> veoir mon mari en sa prison après qu’il y auoit esté 19 mois,
                     vous, de la part de sa Ill. S., asseurastes sa vie et promettiés qu’il seroit
                     rélaxé, sans rien réseruer, et, à telle condition, ay-ie donné tout mon bien,
-                    combien que depuis il fust encores 7 mois à <rs type="place" ref="#dillenburg"
-                        >Dillenbergh</rs>, et un an entier serré en sa maison sans en pouuoir sortir
+                    combien que depuis il fust encores 7 mois à <rs type="place" ref="../register/register-place.xml#dillenburg">Dillenbergh</rs>, et un an entier serré en sa maison sans en pouuoir sortir
                     et tout le reste du temps qu’il fust à Sighen exclus de l’église. Vous disiés
                     bien dauantaige au mesme temps, que mon mari n’auroit iamais nul mal des aultres
                     Seigneurs, et que Sa Ill. S. ne suffriroit point qu’ilz meissent la main sur
@@ -101,21 +94,20 @@
                     veu la protestation que les commissaires des Sieurs Électeur et Lantgraues
                     feirent à Bilstein, lorsque mon mary leur fust monstré, et fust registrée par
                     escrit qu’ilz ne vouloient rien cognoistre de son faict; d’autre part, le curé
-                    Mr. <rs type="person" ref="#crellig">CRELLIG</rs>, le receueur <rs type="person"
-                        ref="#martinus">MARTINUS</rs> se peuuent souuenir, que quand ilz vindrent
+                    Mr. <rs type="person" ref="../register/register-person.xml#crellig">CRELLIG</rs>, le receueur <rs type="person" ref="../register/register-person.xml#martinus">MARTINUS</rs> se peuuent souuenir, que quand ilz vindrent
                     premièrement traicter auec nous sur nostre partement de Sighen, pour nous faire
                     haster, ilz dirent que s’en estant allé Sa Ill. S. en Gueldres, que le Sr.
                     Lantgraue demeureroit surveillant sur son pais et notamment sur la ville de
                     Sighen. Là où il viendroit aussi à la fois à grand danger de mon mari, et que
                     pourtant nous ferions bien de ne viser à un peu d’argent plus au moins, et nous
-                    retirer à <rs type="place" ref="#koeln">Couloigne</rs> pour nostre plus grande
+                    retirer à <rs type="place" ref="../register/register-place.xml#koeln">Couloigne</rs> pour nostre plus grande
                     seureté ou au pays. De sorte qu’il est bien estrange et inique (à correction,)
                     que maintenant quand, plus que par doublé prescription, le délict de mon mari
                     est rendu impunissable, que commencions à gaigner quelque chose, l’on le retire
                     en prison ou à la mort, et qu’on veuille ouurir la vieille playe que s’en alloit
                     bellement cicatrisant, sans auoir esgard aux enfans, quy sont grands, et à nous,
                     qui auons tant souffert, et aurions besoing de consolation, pour le moins qu’on
-                    m’eust laissé aller à <rs type="place" ref="#cassel">Cassel</rs> supplier le
+                    m’eust laissé aller à <rs type="place" ref="../register/register-place.xml#cassel">Cassel</rs> supplier le
                     Sieur Lantgraue comme pour cela i’estois venu de Couloigne à Dillenberg et les
                     susditz commissaires n’auoient (m’auoient?) promiz de me faire auoir accès vers
                     le dit Sr. Lantgraue, et faueur; mais vous me l’empeschastes, disant qu’il
@@ -149,12 +141,10 @@
                     l’enfant pourra estre si bien expédié que là, et auec moindre bruict; nous
                     prierons Dieu pour vous et vous en sçaurons tel gré que l’importance du fait
                     requiert, </p>
-                <closer>Escrit à <placeName>Couloigne</placeName><dateline> le <date
-                            when="1582-09-30">dernier de Septembre 1582</date>.</dateline></closer>
-                <closer>Clarissimo Viro ac Domino Dr. <rs type="person"
-                        ref="#schwartz_jacob">JACOBO SCHWARTZ</rs><lb/> I. V. Doctori.</closer>
+                <closer>Escrit à <placeName>Couloigne</placeName><dateline> le <date when="1582-09-30">dernier de Septembre 1582</date>.</dateline></closer>
+                <closer>Clarissimo Viro ac Domino Dr. <rs type="person" ref="../register/register-person.xml#schwartz_jacob">JACOBO SCHWARTZ</rs><lb/> I. V. Doctori.</closer>
                 <closer rend="text-align:right"><salute rend="text-align:right">Vostre seruante,</salute>
-                    <signed rend="text-align:right"><rs type="person" ref="#pypelincx_maria">MARIA
+                    <signed rend="text-align:right"><rs type="person" ref="../register/register-person.xml#pypelincx_maria">MARIA
                     RUEBENS.</rs></signed></closer>
             </div>
         </body>

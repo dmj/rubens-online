@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_286">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_286"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="person" ref="#ingen_simon">Simon Ingen</rs>: De Getrouwe Herderin,
+                <title><rs type="person" ref="../register/register-person.xml#ingen_simon">Simon Ingen</rs>: De Getrouwe Herderin,
                     1658</title>
             </titleStmt>
             <publicationStmt>
@@ -22,8 +12,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="ingels_herderin_1658">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="ingels_herderin_1658">
                     <msIdentifier>
                         <repository>unbekannt</repository>
                     </msIdentifier>
@@ -61,8 +58,8 @@
     <text>
         <body>
             <div part="Y" xml:lang="nld">
-                <head>Op de ontschaking van <rs type="work" ref="#jaffe_1316">PLUTO en
-                    PROZERPINA</rs>, Van <rs type="person" ref="#rubens_peter_paul">P. P.
+                <head>Op de ontschaking van <rs type="work" ref="../register/register-work.xml#jaffe_1316">PLUTO en
+                    PROZERPINA</rs>, Van <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">P. P.
                         RUBBENS</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="psw">
@@ -76,8 +73,7 @@
                 </p>
             </div>
             <div part="Y" xml:lang="nld">
-                <head><rs type="work" ref="#jaffe_1317">POLYFEMUS in DUYN</rs> Van de zelfde<index
-                        indexName="psw">
+                <head><rs type="work" ref="../register/register-work.xml#jaffe_1317">POLYFEMUS in DUYN</rs> Van de zelfde<index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Polyphem</term>
@@ -93,7 +89,7 @@
             </div>
             <div part="Y" xml:lang="nld">
                 <head>Op een<lb/>
-                    <rs type="work" ref="#jaffe_1266">JUPITER en EUROPA</rs> van<lb/> P.P.
+                    <rs type="work" ref="../register/register-work.xml#jaffe_1266">JUPITER en EUROPA</rs> van<lb/> P.P.
                         RUBBENS<lb/><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
@@ -118,7 +114,7 @@
             </div>
             <div part="Y" xml:lang="nld">
                 <head>Op de<lb/>
-                    <rs type="work" ref="#jaffe_974">MARS en VENUS</rs><index indexName="psw">
+                    <rs type="work" ref="../register/register-work.xml#jaffe_974">MARS en VENUS</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term xml:lang="deu">Mars und Venus</term>

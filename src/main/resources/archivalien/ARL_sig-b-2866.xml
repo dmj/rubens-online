@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_129">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_129"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-2866">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -63,7 +63,7 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p> 500 livres à <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubes</rs>,
+                <p> 500 livres à <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubes</rs>,
                     painctre de l’hostel de Leurs Altèzes<index indexName="psw">
                         <term type="PND">Albrecht (Österreich, Erzherzog, VII.)</term>
                     </index><index indexName="psw">
@@ -71,15 +71,14 @@
                     </index>, que à l’ordonnance de Leurs dictes Altèzes, ce compteur lui avoit
                     baillées et délivrées en une lettre de décharge de pareille somme, dattée du
                         <date when="1614-04-07">septiesme jour d’apvril 1614</date>, levée sur
-                        <rs type="person" ref="#martigny_marcq">Marcq Antoine de Martigny</rs>,
-                    recepveur du domaine de <rs type="place" ref="#landrecies">Landreschies</rs>,
+                        <rs type="person" ref="../register/register-person.xml#martigny_marcq">Marcq Antoine de Martigny</rs>,
+                    recepveur du domaine de <rs type="place" ref="../register/register-place.xml#landrecies">Landreschies</rs>,
                     dont ce dict compteur a respondu ci-devant, folio 89, verso, pour semblable
                     somme à luy deue, à cuase de 500 pareilles livres que Leurs dictes Altèzes luy
                     avoient ordonné et accordé de gaiges et traictement par chacun an, à raison de
                     son dit estat de painctre de leur hostel, et ce pour une année desdicts gaiges,
                     commencée le <date when="1612-09-23">23<hi rend="super">e</hi> jour de
-                        septembre 1612</date> et finie le <date when="1613-09-22">22<hi
-                            rend="super">e</hi> de septembre ensuivant 1613</date>. </p>
+                        septembre 1612</date> et finie le <date when="1613-09-22">22<hi rend="super">e</hi> de septembre ensuivant 1613</date>. </p>
             </div>
         </body>
         

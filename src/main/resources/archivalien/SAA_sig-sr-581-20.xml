@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_175">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_175"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-581-20">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -51,13 +50,9 @@
                            
                             <filiation>
                                 <note resp="A.H." type="footnote">Rubens, van Halmale und Schut traten am selben Tag noch mehrere
-                                    Male als Vormund der Kinder von Jan Brueghel auf: Vgl. den <ref type="rubens"
-                                        cRef="ed_rubens_176">Verkauf einer Rente auf das Haus Den Bok</ref>, den
+                                    Male als Vormund der Kinder von Jan Brueghel auf: Vgl. den <ref type="rubens" cRef="ed_rubens_176">Verkauf einer Rente auf das Haus Den Bok</ref>, den
                                     <ref type="rubens" cRef="ed_rubens_177">Verkauf einer Rente des Jan
-                                        Brueghel</ref> und einen weiteren <ref type="rubens" cRef="ed_rubens_178"
-                                            >Verkauf einer Rente</ref>, die <ref type="rubens" cRef="ed_rubens_179"
-                                                >Veräußerung einer Rente auf das Haus De Wijngaert</ref> und den <ref
-                                                    type="rubens" cRef="ed_rubens_180">Verkauf des Hauses Sint Marten</ref>.
+                                        Brueghel</ref> und einen weiteren <ref type="rubens" cRef="ed_rubens_178">Verkauf einer Rente</ref>, die <ref type="rubens" cRef="ed_rubens_179">Veräußerung einer Rente auf das Haus De Wijngaert</ref> und den <ref type="rubens" cRef="ed_rubens_180">Verkauf des Hauses Sint Marten</ref>.
                                 </note>
                             </filiation>
                         </msItem>
@@ -89,30 +84,25 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Jouffrouwe <rs type="person" ref="#brueghel_paeschina">Paasschina Breugel</rs>,
-                    dochtere van wijlen <rs type="person" ref="#brueghel_jan_aeltere">Jan
+                <p> Jouffrouwe <rs type="person" ref="../register/register-person.xml#brueghel_paeschina">Paasschina Breugel</rs>,
+                    dochtere van wijlen <rs type="person" ref="../register/register-person.xml#brueghel_jan_aeltere">Jan
                         Breugel</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Breughel, Jan (der Ältere) </term>
-                    </index> constschildere van haer hoochheden met <rs type="person"
-                        ref="#kessel_hieronymus">Jeronimus van Kessel</rs><index indexName="psw">
+                    </index> constschildere van haer hoochheden met <rs type="person" ref="../register/register-person.xml#kessel_hieronymus">Jeronimus van Kessel</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Kessel, Hieronymus van </term>
                     </index> oick schildere hare manne ende momboiren Jan Breugel oick des voors.
-                    wijlen Janssone beyde vande voors. bedde daer moeder van was Jouffrouwe <rs
-                        type="person" ref="#jode_elisabeth">Elisabeth de Jode</rs>, Jonker <rs
-                        type="person" ref="#halmale_pauwel">Pauwels van Halmale</rs>, schepene inder
-                    weth alhier, <rs type="person" ref="#rubens_peter_paul">Peeter Paulo
-                    Rubens</rs>, <rs type="person" ref="#male_hendrick">Henrick van Male</rs> ende
-                        <rs type="person" ref="#schut_cornelis">Cornelis Schut</rs> inde name ende
+                    wijlen Janssone beyde vande voors. bedde daer moeder van was Jouffrouwe <rs type="person" ref="../register/register-person.xml#jode_elisabeth">Elisabeth de Jode</rs>, Jonker <rs type="person" ref="../register/register-person.xml#halmale_pauwel">Pauwels van Halmale</rs>, schepene inder
+                    weth alhier, <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter Paulo
+                    Rubens</rs>, <rs type="person" ref="../register/register-person.xml#male_hendrick">Henrick van Male</rs> ende
+                        <rs type="person" ref="../register/register-person.xml#schut_cornelis">Cornelis Schut</rs> inde name ende
                     als testamentelycke momboiren<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormundschaft</term>
                     </index> vande vier onbejaerde naerde kindere vande voors. wijlen Jan Breugel
-                    daer moeder van is Jouffrouwe <rs type="person" ref="#marienberghe_catharina"
-                        >Catharina van Marienberge</rs>, haren geinstitueerd erfgename vande voors.
-                    hunne vader bij sijne testamente bekent ende gepasseert opde <date
-                        when="1625-01-04">vierde dach Januari vande Jare 16<hi rend="super">c</hi>
-                        vijffentwintich</date> voor <rs type="person" ref="#waerbeke_jan">Jan
+                    daer moeder van is Jouffrouwe <rs type="person" ref="../register/register-person.xml#marienberghe_catharina">Catharina van Marienberge</rs>, haren geinstitueerd erfgename vande voors.
+                    hunne vader bij sijne testamente bekent ende gepasseert opde <date when="1625-01-04">vierde dach Januari vande Jare 16<hi rend="super">c</hi>
+                        vijffentwintich</date> voor <rs type="person" ref="../register/register-person.xml#waerbeke_jan">Jan
                         Waerbeke</rs>, notaris alhier in presentie van sekere getuygen.</p>
                     <p>Indyer
                     qualiteyt vercochten omme eene somme gelts ende de voors Jouffrouwe Catharina
@@ -126,18 +116,16 @@
                     gestaen ende gelen inde Langenieustrate alhier tusschen thuys geheeten Den Hase
                     daeraff de mueren tusschen beyde: gestaen gemeyn sijn halff ende halff aen deser
                     sijde Oostwaerts ende het huys geheeten Het Conynken aen d’ander sijde
-                    westwaerts emde achter noortwaerts aenden hoff ende erve van Jouffrouwe <rs
-                        type="person" ref="#crave_maria">Maria Crave</rs>, alwaer de mueren tusschen
+                    westwaerts emde achter noortwaerts aenden hoff ende erve van Jouffrouwe <rs type="person" ref="../register/register-person.xml#crave_maria">Maria Crave</rs>, alwaer de mueren tusschen
                     beyde gestaen oick gemeyn sijn halff ende halff gleijck ende in alle der maniere
-                        <rs type="person" ref="#geerardi_peeter">Peeter Geerardi</rs>, wachtmeester
+                        <rs type="person" ref="../register/register-person.xml#geerardi_peeter">Peeter Geerardi</rs>, wachtmeester
                     van deser stadt de voors. huysinge opde <date when="1604-12-20">twintichste dach
                         Decembris inde Jare 16<hi rend="super">c</hi> viere</date> t’erven gegeven
                     heeft de voorgenoemde wijlen Janne Breugel waer bijden comparanten ende de
                     voors. coopersse het zelve toecommende bleven ende verstorven is, prout littera
                     quas tradiderunt ende droeghe oppe ende te waerne ende vuytgenomen vijftich
                     guldene erffelyck den voors. Peeter Geerardi die niet en affgelost noch gequeten
-                    en mach worden dan naer sijne ende Jouffrouwe <rs type="person"
-                        ref="#wasbort_adriana">Adriana Wasbort</rs> sijne huysvrouwe doot te waren,
+                    en mach worden dan naer sijne ende Jouffrouwe <rs type="person" ref="../register/register-person.xml#wasbort_adriana">Adriana Wasbort</rs> sijne huysvrouwe doot te waren,
                         bij heuren consente. </p>
                 <closer>
                     <dateline><date when="1627-06-23">Vigesima tertia Juny 1627</date>.<lb/> Solvit 2 gl.</dateline>

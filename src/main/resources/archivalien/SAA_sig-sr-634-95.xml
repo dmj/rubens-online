@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_228">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_228"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-634-95">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -67,20 +66,18 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Juffrouw <rs type="person" ref="#geubels_clara">Clara Geubels Colyns</rs>,
-                    dochter wijlen daer moeder aff was Juffrouwe <rs type="person"
-                        ref="#touion_mechtelt">Mechtelt Tonion alias Colyn</rs>, alnoch ongheoudt
+                <p>Juffrouw <rs type="person" ref="../register/register-person.xml#geubels_clara">Clara Geubels Colyns</rs>,
+                    dochter wijlen daer moeder aff was Juffrouwe <rs type="person" ref="../register/register-person.xml#touion_mechtelt">Mechtelt Tonion alias Colyn</rs>, alnoch ongheoudt
                     maer meerder van jaere <span from="" xml:lang="lat">cum tutore</span>, vercoopt etc. S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Petro Paulo Rubens</rs> etc., de
-                    vijff guldenen erfelyck met alle de onbetaelde achterstelle, die <rs
-                        type="person" ref="#buyens_jan">Jan Buyens</rs>, geseten tot Eckeren, de
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo Rubens</rs> etc., de
+                    vijff guldenen erfelyck met alle de onbetaelde achterstelle, die <rs type="person" ref="../register/register-person.xml#buyens_jan">Jan Buyens</rs>, geseten tot Eckeren, de
                         <date when="1632-05-14">vierthienste Meye 16<hi rend="super">c</hi>
                         tweendertig</date> vercocht heeft heur comparante op de stucke lants metten
                     gronde ende toebehoorten groot vier gemeten onbegrepen der juster maten, gelegen
-                    tot <rs type="place" ref="#eeckeren">Eckeren</rs> bij de plaetse zuytwaerts
+                    tot <rs type="place" ref="../register/register-place.xml#eeckeren">Eckeren</rs> bij de plaetse zuytwaerts
                     d’erve genaempt Den Swane<index indexName="stw">
                         <term xml:lang="nld">Den Swane</term>
-                    </index>, oost <rs type="person" ref="#matheus_janus">Janus Matheus</rs> erve,
+                    </index>, oost <rs type="person" ref="../register/register-person.xml#matheus_janus">Janus Matheus</rs> erve,
                     noort Jan de Backer, ende west des voors. Jans Buyens andere erve verschijnen
                     jaerlycke de <date when="--05-14">14 Meye</date>, prout <span from="" xml:lang="lat">littera quam tradidit</span>
                     droech oppe etc. te waerne etc.</p>

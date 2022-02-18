@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
 <TEI xml:id="ed_rubens_003">
     <teiHeader>
         <fileDesc>
@@ -69,15 +61,13 @@
                 <salute><pb facs="sig-best-50-3r" n="3r"/>Eerweyrdighe Edele wyse voersinnighe Heren etc.</salute>
                 
                 <p>Gheeft ootmoedelick te
-                    kennen <rs type="person" ref="#rubens_jan">Jehan Ruebens</rs> gheborne van <rs
-                        type="place" ref="#antwerpen">Antwerpen</rs>, hoe dat hy ouer twee jaren
+                    kennen <rs type="person" ref="#rubens_jan">Jehan Ruebens</rs> gheborne van <rs type="place" ref="#antwerpen">Antwerpen</rs>, hoe dat hy ouer twee jaren
                     alhier binnen deser stadt met synen ghesinne is comen woonen om seckere syne
                     affairen ende processen te vorderen, sonder dat hy om enich pretens delict off
                     vervolghinne uyt synen vaderlande is geweken, ghelyck hij oock niet en is
                     ghebannen, geproclameert oft gheciteert, hoe wel synen persoon wel is bekent,
                     als gewest hebbende acht continuerlicke jaren een vanden wethouderen ende
-                    magistrat binnen Antwerpen, binnen middeler tyt is gebeurt, dat <rs
-                        type="person" ref="#sachsen_anna_von">durluchtighe hochgeborene furstinne
+                    magistrat binnen Antwerpen, binnen middeler tyt is gebeurt, dat <rs type="person" ref="#sachsen_anna_von">durluchtighe hochgeborene furstinne
                         ende vrouwe de princesse van orangien</rs> den suppliant heft gheimployeert
                     in hare saken ende processen, hebbende den selven ghenommen in hare familie voor
                     haren dienaer ende rhaett, ghelijck oock hare f. g<hi rend="super">en</hi> hem

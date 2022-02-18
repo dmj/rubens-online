@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_284">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_284"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="person" ref="#gelenius_aegidius">Aegidius Gelenius</rs>: De
+                <title><rs type="person" ref="../register/register-person.xml#gelenius_aegidius">Aegidius Gelenius</rs>: De
                     admiranda sacra et civili magnitudine Coloniae Claudiae Agrippiniensis augustae
                     ubiorum urbis, 1645</title>
             </titleStmt>
@@ -21,8 +13,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="gelenius_admiranda_1645">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="gelenius_admiranda_1645">
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Wolfenbüttel</settlement>
@@ -68,34 +67,32 @@
                         </index>
                     </index></head>
                 <p> Inter huius ecclesiae imo urbis spectabiliora monumenta est majoris marmoreae
-                    are <rs type="work" ref="#jaffe_1365">tabula, S. Petri vivam effigiem</rs><index
-                        indexName="psw">
+                    are <rs type="work" ref="../register/register-work.xml#jaffe_1365">tabula, S. Petri vivam effigiem</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term type="SWD" xml:lang="deu">Kreuzigung Petri</term>
                         </index>
-                    </index> exprimens donum <rs type="person" ref="#jabach_everhard">Everhardi
+                    </index> exprimens donum <rs type="person" ref="../register/register-person.xml#jabach_everhard">Everhardi
                         Jabachi</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Jabach, Everhard (Bankier)</term>
-                    </index> senatoris <rs type="place" ref="#koeln">Coloniensis</rs> divitis, et
+                    </index> senatoris <rs type="place" ref="../register/register-place.xml#koeln">Coloniensis</rs> divitis, et
                     artificiorum atque antiquitatum admiratoris et amatoris, ipsa vero pictura
-                    tabulae, opus est clarissimi viri pictoris <rs type="person"
-                        ref="#rubens_peter_paul">Petri Paulo Rubeni</rs><index indexName="psw">
+                    tabulae, opus est clarissimi viri pictoris <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petri Paulo Rubeni</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                     </index> Ubii, qui nostro aevo laudes et nomen Apellis<index indexName="psw">
                         <term type="PND" xml:lang="deu">Apelles</term>
                     </index> non immerito sibi artis praestantia acquisivit, et hunc uti Colonia
                     ferax est bonorum ingeniorum, in hac parochia, orbi dedit domus hereditaria
-                    excellentissimi Domini <rs type="person" ref="#maximilianus_jodocus">Jodoci
+                    excellentissimi Domini <rs type="person" ref="../register/register-person.xml#maximilianus_jodocus">Jodoci
                         Maximiliani</rs><index indexName="psw">
                         <term xml:lang="deu">Gronsfeld, Jodocus Maximilianus von</term>
-                    </index> comitis in <rs type="place" ref="#gronsfeldt">Gronsfeldt</rs>, sita è
+                    </index> comitis in <rs type="place" ref="../register/register-place.xml#gronsfeldt">Gronsfeldt</rs>, sita è
                     regione hospitii S. Ursulae, quam nuper Archiepiscopus Maguntinus inhabitavit
-                    exul, et in qua serenissima <rs type="person" ref="#medici_maria">Maria
+                    exul, et in qua serenissima <rs type="person" ref="../register/register-person.xml#medici_maria">Maria
                         Medicaea</rs><index indexName="psw">
                         <term type="GND" xml:lang="deu">Medici, Maria /de'</term>
                     </index>
-                    <rs type="place" ref="#frankreich">Galliarum</rs> Regina extremam vitae periodum
+                    <rs type="place" ref="../register/register-place.xml#frankreich">Galliarum</rs> Regina extremam vitae periodum
                     sanctissimè peregit et clausit. </p>
             </div>
         </body>

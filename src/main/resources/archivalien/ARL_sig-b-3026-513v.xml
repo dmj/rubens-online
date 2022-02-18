@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_250a">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_250a"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-3026-513v">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -74,27 +74,22 @@
             
             <div xml:lang="fra">
                 <p><pb n="513v"/>1979 livres, 3 sols, 4 deniers aux vefve et héritiers de feu le
-                    secrétaire <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>,
+                    secrétaire <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubens</rs>,
                     en une lettre de descharge de pareille somme datée du <date when="1641-07-31">
-                        dernier de juillet 1641</date>, levée sur <rs type="person"
-                        ref="#blyleven_baulduyen">Baulduyen Blyleven</rs>, conseiller et recepveur
-                    général de <rs type="place" ref="#brabant">Brabant</rs> au quartier de <rs
-                        type="place" ref="#loewen">Louvain</rs> dont est faict recepte cy-devant
+                        dernier de juillet 1641</date>, levée sur <rs type="person" ref="../register/register-person.xml#blyleven_baulduyen">Baulduyen Blyleven</rs>, conseiller et recepveur
+                    général de <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs> au quartier de <rs type="place" ref="../register/register-place.xml#loewen">Louvain</rs> dont est faict recepte cy-devant
                     folio IX, à quoy montent quatre années moins quinze jours de gaiges dudict
                     défunt comme peintre de Son Altèze, que Sa Majesté par ses lettres patentes du
-                        <date when="1636-04-15">15<hi rend="super">e</hi> d’apvril 1636</date><note
-                        resp="A.H." type="footnote">An diesem Tag wurde Peter Paul Rubens zum
+                        <date when="1636-04-15">15<hi rend="super">e</hi> d’apvril 1636</date><note resp="A.H." type="footnote">An diesem Tag wurde Peter Paul Rubens zum
                         Hofmaler des Kardinal-Infanten Ferdinand ernannt; das entsprechende Dokument
                         ist aber nicht mehr nachweisbar. Aus einem Auszahlungsbeleg an Helene
                         Fourment gehen jedoch die Daten der Ernennung und seiner Vereidigung (13.
                         Juni 1636) hervor. Vgl. <bibl xml:id="rooses_ruelens_1887">Max Rooses,
                             Charles Ruelens: Correspondance de Rubens et documents épistolaires
                             concernant sa vie et ses auvres. (Codex diplomaticus Rubenianus ; T.
-                            1-6). Bd. 6. Antwerpen 1909. S. 126f. Nr. 819<ptr type="gbv"
-                                cRef="446864137"/></bibl></note>, luy at accordé de gaiges à
+                            1-6). Bd. 6. Antwerpen 1909. S. 126f. Nr. 819<ptr type="gbv" cRef="446864137"/></bibl></note>, luy at accordé de gaiges à
                     l’advenant de 500 pareilles livres par an, à raison de son dit estat, lesdites
-                    quatre années moins quinze jours commencées le <date when="1636-06-15">15<hi
-                            rend="super">e</hi> de juing 1636</date>, jour qu’il at presté son serment
+                    quatre années moins quinze jours commencées le <date when="1636-06-15">15<hi rend="super">e</hi> de juing 1636</date>, jour qu’il at presté son serment
                     et finies le <date when="1640-05-28">28<hi rend="super">e</hi> de mai ensuivant
                         1640</date>, par ordonnance de reliefvement lesdittes lettres patentes
                     originelles, certification du jour de son trespas et quictance vérifiée, veues

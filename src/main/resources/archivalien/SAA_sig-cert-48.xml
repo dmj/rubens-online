@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_065">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_065"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-cert-48">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -64,8 +63,7 @@
                             <bibl>Frédéric Verachter (Hrsg.): Généalogie de Pierre Paul Rubens et de sa
                                 famille. Antwerpen 1840, S. 39<ptr type="gbv" cRef="146162420"/></bibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 322<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 322<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
                                 Gerechtsgebouw, 15.-30. Oktober 1977, S. 242, Nr. 154</bibl>
                         </listBibl>
@@ -87,17 +85,16 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p><rs type="person" ref="#symons_andries">Andries Symons</rs> jngeseten poorter jn
+                <p><rs type="person" ref="../register/register-person.xml#symons_andries">Andries Symons</rs> jngeseten poorter jn
                     den name ende als volcomelic gemechticht van jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#pypelincx_maria">Marie Pypclincx</rs>
-                    <rs type="person" ref="#pypelincx_hendrick">Henricx</rs> dogtere wylen, daer
+                    <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypclincx</rs>
+                    <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henricx</rs> dogtere wylen, daer
                     moeder aff was jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#touion_clara">Clara de Tonion</rs> die men hiet Colyns
+                    <rs type="person" ref="../register/register-person.xml#touion_clara">Clara de Tonion</rs> die men hiet Colyns
                     wettighe huysvrouwe M<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_jan">Jan Ruebens</rs> mitsgaders van jouff<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#pypelincx_susanne">Suzanna Pypelincx</rs> huere zustere,
-                    nagelatene weduwe wylen <rs type="person" ref="#moleneer_peeter">Peeter de
+                    <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebens</rs> mitsgaders van jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#pypelincx_susanne">Suzanna Pypelincx</rs> huere zustere,
+                    nagelatene weduwe wylen <rs type="person" ref="../register/register-person.xml#moleneer_peeter">Peeter de
                         Moeleneer</rs> elek met eenen momboir heur gegeven metten rechte omme tgene
                     nabeschreven staet te mogen doene, breeder blyckende by eene opene procuratie op
                     den <date when="1583-10-27">27 Octobris 1583</date> onder den segel ter zake
@@ -105,8 +102,8 @@
                         <term xml:lang="deu">Antwerpen</term>
                     </index> gepasseert ondert<hi rend="super">t</hi> Gillis. <span from="" xml:lang="lat">
                         quam vidimus, substituit</span>
-                    etc., <rs type="person" ref="#rubens_konstantijn">Constantin Ruebens</rs>
-                    woonachtig tot <rs type="place" ref="#herentals">Herenthals</rs>, <span from="" xml:lang="lat">ad petendam
+                    etc., <rs type="person" ref="../register/register-person.xml#rubens_konstantijn">Constantin Ruebens</rs>
+                    woonachtig tot <rs type="place" ref="../register/register-place.xml#herentals">Herenthals</rs>, <span from="" xml:lang="lat">ad petendam
                         recipiendam</span> alsulcken verloopen alsser alreide verschenen is ende alnoch
                     verschynen zal mogen van de <measure type="currency" quantity="50">50</measure>
                     Carol. guld. tjaers als de voirs. constituanten by versterve van wylen hennen

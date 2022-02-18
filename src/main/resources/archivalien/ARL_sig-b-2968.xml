@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_209">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_209"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-2968">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -79,20 +79,15 @@
         <body>
             <div xml:lang="fra">
                 <p>
-                    <pb n="532v"/>1984 livres, 13 sols, 1 denier à Messire <rs type="person"
-                        ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>, chevalier, secrétaire du
+                    <pb n="532v"/>1984 livres, 13 sols, 1 denier à Messire <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubens</rs>, chevalier, secrétaire du
                     Conseil Privé du Roi<index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
-                    </index>, assçavoir 500 livres, 5 sols en une lettre de descharge du <date
-                        when="1631-01-31">dernier de janvier 1631</date>, levée sur <rs
-                        type="person" ref="#batens_jean">Jaen Batens</rs>, receveur des
-                    contributions de <rs type="place" ref="#zevenbergen">Zevenberge</rs>, <rs
-                        type="place" ref="#steenbergen">Steenberge</rs>, etc., et les restans 1484
+                    </index>, assçavoir 500 livres, 5 sols en une lettre de descharge du <date when="1631-01-31">dernier de janvier 1631</date>, levée sur <rs type="person" ref="../register/register-person.xml#batens_jean">Jaen Batens</rs>, receveur des
+                    contributions de <rs type="place" ref="../register/register-place.xml#zevenbergen">Zevenberge</rs>, <rs type="place" ref="../register/register-place.xml#steenbergen">Steenberge</rs>, etc., et les restans 1484
                     livres, 8 sols, I denier en une autre lettre de descharge de pareille somme
                     datée du <date when="1631-07-31">dernier de juillet audit an</date>, levée sur
                     ledit Batens dont est respondu cy devant foliis 348, verso et 352; pour
-                    semblable somme à luy deue à cause de trois quarts d’escus pistolets d’<rs
-                        type="place" ref="#spanien">Espagne</rs> par jour de septante-deux solz, 6
+                    semblable somme à luy deue à cause de trois quarts d’escus pistolets d’<rs type="place" ref="../register/register-place.xml#spanien">Espagne</rs> par jour de septante-deux solz, 6
                     deniers l’escu, que Sa Majesté par ses lettres patentes du 27e apvril 1629
                     susdit, à en estre payé par les mains de ce compteur présent ou autre à vernir,
                     de demy an en demy an, par esgalle portion, ayant Sadicte Altèze par son
@@ -103,8 +98,7 @@
                     commencées ledit <date when="1629-04-27">27e apvril 1629</date> et finies le
                         <date when="1631-04-26">26e apvril enssuivant 1631</date>, par ladite
                     ordonnance de reliefvement, copie authentique desdites lettres patentes
-                    originelles et quictance y servantes, veues en l’estat de <date when="--07"
-                        >juillet</date>, folio 32 verso. </p>
+                    originelles et quictance y servantes, veues en l’estat de <date when="--07">juillet</date>, folio 32 verso. </p>
             </div>
 
          </body>

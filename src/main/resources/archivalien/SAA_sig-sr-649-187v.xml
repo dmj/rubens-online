@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_236a">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_236a"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,10 +15,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-649-187v">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -68,10 +67,9 @@
          
 
             <div xml:lang="nld">
-                <p><pb n="187v"/><rs type="person" ref="#princen_gillis">Gielis Princen</rs> als gemachticht van Senior Pedro Paulo Rubbens
-                    riddere, ten eenre ende <rs type="person" ref="#man_nicolaes">Nicolaes de Man</rs>, brouwer ter andere sijden passeren
-                    seker contract van gemeynschap van muren op den <date when="1638-08-07"
-                        >sevensten Augusti 1638</date> ende staet bewesen handt van <rs type="person" ref="#huffel_j">van Huffel</rs> in’t
+                <p><pb n="187v"/><rs type="person" ref="../register/register-person.xml#princen_gillis">Gielis Princen</rs> als gemachticht van Senior Pedro Paulo Rubbens
+                    riddere, ten eenre ende <rs type="person" ref="../register/register-person.xml#man_nicolaes">Nicolaes de Man</rs>, brouwer ter andere sijden passeren
+                    seker contract van gemeynschap van muren op den <date when="1638-08-07">sevensten Augusti 1638</date> ende staet bewesen handt van <rs type="person" ref="../register/register-person.xml#huffel_j">van Huffel</rs> in’t
                     jaer <date when="1638">1638</date>. </p>
             </div>
         </body>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_166">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_166"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="adelspatent_bewilligung_16240914">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -82,39 +81,29 @@
         <body>
             <div part="Y" xml:lang="fra">               
                     
-                        <salute><rs type="person" ref="#philipp_iv_spanien"><hi rend="smallCaps">Philippe</hi>
+                        <salute><rs type="person" ref="../register/register-person.xml#philipp_iv_spanien"><hi rend="smallCaps">Philippe</hi>
                     </rs><index indexName="psw"><term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
-                    </index>, par la grâce de Dieu, roy de <rs type="place" ref="#kastilien"
-                        >Castille</rs>, etc. <gap resp="N.B." reason="cancelled"/> à tous présens et à venir qui ces présentes
+                    </index>, par la grâce de Dieu, roy de <rs type="place" ref="../register/register-place.xml#kastilien">Castille</rs>, etc. <gap resp="N.B." reason="cancelled"/> à tous présens et à venir qui ces présentes
                         verront, salut.</salute>
                     <lb/>
-                <p>De la part de nostre très cher et bien-amé <rs
-                        type="person" ref="#rubens_peter_paul">P<hi rend="smallCaps">ierre-Paul
+                <p>De la part de nostre très cher et bien-amé <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">P<hi rend="smallCaps">ierre-Paul
                             Rubens</hi></rs>, nous a esté très humblement remontré qu’il seroit issu
                     de parens fort honorables qui auroient tousjours esté fidèles vassaux et servi à
                     nos prédécesseurs, leurs princes naturels, de glorieuse mémoire, en offices et
-                    charges principales, avec beaucoup d’intégrité, particulièrement son père <rs
-                        type="person" ref="#rubens_jan">
+                    charges principales, avec beaucoup d’intégrité, particulièrement son père <rs type="person" ref="../register/register-person.xml#rubens_jan">
                         <hi rend="smallCaps">Jan Rubens</hi>
-                    </rs>, docteur ès droicts, en celle d’eschevin de nostre ville d’<rs
-                        type="place" ref="#antwerpen">Anvers</rs>, et <rs type="person"
-                        ref="#rubens_philipp">P<hi rend="smallCaps">hilippe Rubens</hi></rs>, son
+                    </rs>, docteur ès droicts, en celle d’eschevin de nostre ville d’<rs type="place" ref="../register/register-place.xml#antwerpen">Anvers</rs>, et <rs type="person" ref="../register/register-person.xml#rubens_philipp">P<hi rend="smallCaps">hilippe Rubens</hi></rs>, son
                     frère, de sècretaire de laditte ville, et que le remonstrant, suivant leurs
                     gestes et vestiges, s’auroit dès sa jeunesse appliqué à la vertu, bonnes lettres
                     et peinture, fréquentant plusiers royaumes et provinces pour ce rendreplus
                     capable et habile,et que, pour sa grande et rare expérience, feu nostre très
-                    cher et très amé bon oncle l’archiduc <rs type="person"
-                        ref="#albrecht_von_oesterreich">Albert</rs><index indexName="psw">
+                    cher et très amé bon oncle l’archiduc <rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">Albert</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog, VII.)</term>
                     </index>, de très haute mémoire, et nostre très-chère et très-amée bonne tante
-                    madame <rs type="person" ref="#isabella_von_spanien"
-                        >Isabel-Clara-Eugénia</rs><index indexName="psw">
+                    madame <rs type="person" ref="../register/register-person.xml#isabella_von_spanien">Isabel-Clara-Eugénia</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin) </term>
-                    </index>, par la grâce de Dieu infante d’<rs type="place" ref="#spanien"
-                    >Espagne</rs>, etc., l’auroient, par leurs lettres patentes du <date
-                        when="1609-09-23">23<hi rend="super">me</hi> jour de septembre l’an
-                    1609</date>, receu et retenu à l’office de peintre de leur hostel<index
-                        indexName="stw">
+                    </index>, par la grâce de Dieu infante d’<rs type="place" ref="../register/register-place.xml#spanien">Espagne</rs>, etc., l’auroient, par leurs lettres patentes du <date when="1609-09-23">23<hi rend="super">me</hi> jour de septembre l’an
+                    1609</date>, receu et retenu à l’office de peintre de leur hostel<index indexName="stw">
                         <term xml:lang="deu">Hofmaler</term>
                     </index>, aux gages et tractement de cinc cens florins par an, et autres
                     privilèges, franchises et libertez plus au loing déduites ès dittes lettres
@@ -131,8 +120,7 @@
                     comme aussy par la science qu’il a des histoires et langues et autres belles
                     qualitez et parties qu’il posséde et le rendent digne de nostre royal faveur,
                     avons pour nous, nos hoirs et successeurs, de nostre certaine science, authorité
-                    souveraine et grâce spéciale, par ces présentes, audit <hi rend="smallCaps"
-                        >Pierre-Paul Rubens</hi> suppliant et à ses enfans et postérité mâle et
+                    souveraine et grâce spéciale, par ces présentes, audit <hi rend="smallCaps">Pierre-Paul Rubens</hi> suppliant et à ses enfans et postérité mâle et
                     femelle, nés et à naistre en léal mariage, accordé et octroyé, accordons et
                     octroyons à tousjours ledit titre et degré de noblesse, voulons et ordonnons que
                     ledit suppliant, ses enfans et postérité, et les descendans d’eux, nés et à
@@ -140,7 +128,7 @@
                     usent d’icy en avant et à tousjours comme vrais nobles, en tous lieux, actes et
                     besoignes, des honneurs, prérogatives, prééminences, libertez, franchises et
                     exemptions de noblesse dont les autres nobles de tous nos pays et seigneuries
-                    signament en nos <rs type="place" ref="#niederlande">Pays-Bas</rs>, ont
+                    signament en nos <rs type="place" ref="../register/register-place.xml#niederlande">Pays-Bas</rs>, ont
                     accoustumé de jauyr, jouyssent et jouyront; et qu’il et sa postérité soyent en
                     tous leurs faicts et actes tenus et réputés pour nobles, en toutes places, soit
                     en jugement ou dehors, comme les déclarons et créons tels par ces mesmes
@@ -174,8 +162,7 @@
                     d’or, comme elles sont peintes et figurées au milieu de ses dittes présentes. Si
                     donnons en mandement à nos très chers et féaux les chef-président et gens de nos
                     privé et grand-conseil, chef-trésorier-général et commis de nos domaines et
-                    finances, chancelier et consaux de nostre conseil en <rs type="place"
-                        ref="#brabant">Brabant</rs>, président et consaux de nostre chambre des
+                    finances, chancelier et consaux de nostre conseil en <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs>, président et consaux de nostre chambre des
                     comtes illecq, et à tous autres nos justiciers et officiers, présens et à venir,
                     lieutnans et chascun d’eux endroit soy, et si comme à luy appertiendra, et
                     autres nos subjects, que sans le payement de ladite finance et somme d’argent,
@@ -195,19 +182,17 @@
                     nostre nom et à icelles fait mettre nostre gran scel, sauf en autre chose nostre
                     droit de celuy d’autruy en toutes.</p>
                 <closer>
-                    <dateline>Donné en nostre ville de <rs type="place" ref="#madrid">Madrid</rs>, 
+                    <dateline>Donné en nostre ville de <rs type="place" ref="../register/register-place.xml#madrid">Madrid</rs>, 
                         royaume de Castille, le <date when="1624-06-05">cinquième jour du mois de juin, l’an de grâce 1624</date>,
                     et de nos règnes le quatriesme<note resp="A.H." type="footnote">Philipp IV. regierte von 1621-1665</note>, etc.
                     </dateline><lb/>
                     <signed>Philippe.</signed><lb/>
                     <salute>Par le roy:</salute>
-                    <signed><rs type="person" ref="#bruneau">Bruneau.</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#bruneau">Bruneau.</rs></signed>
                 </closer>
             </div>
             <div xml:lang="fra">
-                <p/><closer><dateline>Enregistré le <date when="1680-02-02">2 fév. 1680</date>, à <rs type="place"
-                    ref="#bruessel">Bruxelles</rs>, par le premier roi d’armes provinciale,</dateline><signed> <rs
-                        type="person" ref="#lannoy_p">P. de Lannoy.</rs></signed></closer>
+                <p/><closer><dateline>Enregistré le <date when="1680-02-02">2 fév. 1680</date>, à <rs type="place" ref="../register/register-place.xml#bruessel">Bruxelles</rs>, par le premier roi d’armes provinciale,</dateline><signed> <rs type="person" ref="../register/register-person.xml#lannoy_p">P. de Lannoy.</rs></signed></closer>
                
                 
             </div>

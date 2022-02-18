@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
-    xml:id="ed_rubens_299">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_299"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,10 +15,17 @@
                 
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="nachlass_rubens_erbteilung_16430124">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Urkunde zurVerteilung des Nachlasses von Peter Paul Rubens vom 24. Januar 1643</idno></msIdentifier>
                     
@@ -66,14 +64,14 @@
             <div xml:lang="nld">
                 <dateline>Die <date when="1643-01-24">24 Januarii
                     1643</date>.</dateline>
-                <p> Vrouwe <rs type="person" ref="#fourment_helene">Helena FOURMENT</rs>, weduwe van wylen Heer <rs type="person" ref="#rubens_peter_paul">PETRO-PAULO RUBENS</rs>, Riddere, Heere
+                <p> Vrouwe <rs type="person" ref="../register/register-person.xml#fourment_helene">Helena FOURMENT</rs>, weduwe van wylen Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">PETRO-PAULO RUBENS</rs>, Riddere, Heere
                     van Steene, etc, soo voor heur selve als inden naeme ende oppertestamentelycke
                     momboiresse van heure ende desselffs wylen heurs mans minderjaerighe kinderen,
-                    Heer ende Meester <rs type="person" ref="#rubens_philippus">Philips RUBBENS</rs>, Licentiaet in beyden rechten ende Schepen
-                    deser stadt, ende S<hi rend="super">r</hi> <rs type="person" ref="#hanikart_peeter">PEETER HANEKAERT</rs>, tsamen als medetestamentelycke momboirs
+                    Heer ende Meester <rs type="person" ref="../register/register-person.xml#rubens_philippus">Philips RUBBENS</rs>, Licentiaet in beyden rechten ende Schepen
+                    deser stadt, ende S<hi rend="super">r</hi> <rs type="person" ref="../register/register-person.xml#hanikart_peeter">PEETER HANEKAERT</rs>, tsamen als medetestamentelycke momboirs
                     over deselve kinderen, hen daervoren sterckmaeckende, alle my Notario bekent
-                    synde, diewelcke gesien hebbende de brieven van daechsele by Jonckers <rs type="person" ref="#rubens_albert">Albert</rs>
-                    ende <rs type="person" ref="#rubens_nikolaas">NICOLAES RUBBENS</rs> inden Raede van <rs type="place" ref="#brabant">Brabant</rs> opden <date when="1643-01-13">derthiensten deser maent
+                    synde, diewelcke gesien hebbende de brieven van daechsele by Jonckers <rs type="person" ref="../register/register-person.xml#rubens_albert">Albert</rs>
+                    ende <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">NICOLAES RUBBENS</rs> inden Raede van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs> opden <date when="1643-01-13">derthiensten deser maent
                     January</date> geobtineert, metten dagement vuyt crachte van dyen thunnen laste byde
                     selve doen doen voor Commissarisen vanden selven Raede, ten opsiene van eenige
                     vrempde pretensien die sy meynen te hebben opden sterffhuysc van wylen Heer
@@ -95,12 +93,12 @@
                     andere des versocht synde hiervan aende voors. Jonckers ALBERT ende NICOLAES
                     RUBENS insinuatie ende lecture gedaen te worden ende daervan, mitsgaeders van
                     dantwoorde byde selve te geven, henlieden comparanten gelevert te worden een
-                    ofte meer acten in behoirlycker forme.</p> <closer>Actum <rs type="place" ref="#antwerpen">Antverpiae</rs>, praesentibus <rs type="person" ref="#langhenberge_andreas">ANDREA de
-                        LANGHENBERGE</rs> et <rs type="person" ref="#guyot_daniel">DANIELE GUYOT</rs>, testibus. 
+                    ofte meer acten in behoirlycker forme.</p> <closer>Actum <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiae</rs>, praesentibus <rs type="person" ref="../register/register-person.xml#langhenberge_andreas">ANDREA de
+                        LANGHENBERGE</rs> et <rs type="person" ref="../register/register-person.xml#guyot_daniel">DANIELE GUYOT</rs>, testibus. 
                 <signed>HELENA FOURMENT.</signed>
-                        <signed><rs type="person" ref="#hanikart_peeter">PIETER HANNECAERT.</rs></signed>
-                        <signed><rs type="person" ref="#rubens_philippus">PHls RUBENS</rs>. </signed>
-                        <signed><rs type="person" ref="#guyot_toussaint">T. GUYOT.</rs></signed></closer>
+                        <signed><rs type="person" ref="../register/register-person.xml#hanikart_peeter">PIETER HANNECAERT.</rs></signed>
+                        <signed><rs type="person" ref="../register/register-person.xml#rubens_philippus">PHls RUBENS</rs>. </signed>
+                        <signed><rs type="person" ref="../register/register-person.xml#guyot_toussaint">T. GUYOT.</rs></signed></closer>
 
             </div>
         </body>

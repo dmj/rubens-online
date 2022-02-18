@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_162">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_162"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-555-59">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -77,40 +76,36 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#speelberch_jacques">Jacques Speelberch</rs>,
-                    diamantsnijder ende <rs type="person" ref="#coyvaert_lucia">Lucia Goyvaerts</rs>
+                    <rs type="person" ref="../register/register-person.xml#speelberch_jacques">Jacques Speelberch</rs>,
+                    diamantsnijder ende <rs type="person" ref="../register/register-person.xml#coyvaert_lucia">Lucia Goyvaerts</rs>
                     <span from="" xml:lang="lat">eus uxor</span>, vercocht omme eene som gelts aen S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Peeter Paulo Rubens</rs>, schilder
-                    van heure doorluchtichste hoocheyt, een huys genaempt De Sterre<index
-                        indexName="stw">
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter Paulo Rubens</rs>, schilder
+                    van heure doorluchtichste hoocheyt, een huys genaempt De Sterre<index indexName="stw">
                         <term xml:lang="nld">De Sterre</term>
                     </index> van twee huysen oostwaert gestaen metter plaetzen, halven borneputte,
                     geheelen regenbacke, hove fundo et omnibus pertinen tiis, gestaen ende gelegen
-                    in den Jodenstrate alhier, tusschen Meester <rs type="person"
-                        ref="#lange_philip">Philips Lange</rs> huys ende erve, <span from="" xml:lang="lat">ex una</span> westwaerts
-                    ende <rs type="person" ref="#hupeels_jeronimus">Jeronimus Hupeels</rs> huys <span from="" xml:lang="lat">ex
+                    in den Jodenstrate alhier, tusschen Meester <rs type="person" ref="../register/register-person.xml#lange_philip">Philips Lange</rs> huys ende erve, <span from="" xml:lang="lat">ex una</span> westwaerts
+                    ende <rs type="person" ref="../register/register-person.xml#hupeels_jeronimus">Jeronimus Hupeels</rs> huys <span from="" xml:lang="lat">ex
                     altera</span> oostwaerts, commende achter zuytwaerts aen des voors. Meester Philips
                     andere erve van zijnen huyse in de Schuttershoffstrate gestaen daeraff den muur
                     tussen beyden gestaen gemeyn is ende blijven sal halft ende halft gelijck ende
                     in alle der manieren de voors. Jacques Speelberch ’t voors. huys <span from="" xml:lang="lat">cum fundo et
                     pertinetiis predicti</span>, opten <date when="1607-10-30">naestlesten dach Octobris
                         anno XVI<hi rend="super">c</hi> seven</date>
-                    <rs type="person" ref="#loemans_jaques">Jacques Loemans</rs>, oudecleercooper
+                    <rs type="person" ref="../register/register-person.xml#loemans_jaques">Jacques Loemans</rs>, oudecleercooper
                     Jacquessone, gecocht ende gecregen heeft prout <span from="" xml:lang="lat">litteras quas tradiderunt</span>,
                     droegen op etc. te waerne etc. eenhondert ende vijftich gulden erffelijck ten
-                    penninge 18, den voorseiden <rs type="person" ref="#rubens_peter_paul">Peeter
+                    penninge 18, den voorseiden <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter
                         Paulo Ruebens</rs> daer jaerlijcx utgetelt ende anders nyet, welcken commer
                     de selve Peeter Paulo Ruebens, te desen mede comparende aen hem selven vindende
                     is ende midts desen coop is <gap reason="illegible"/> behoudelijck dat ’t voors huys medepant is
-                    ende blijft ierst over seven ponden drij penningen Brabants erffelijck den <rs
-                        type="corporate" ref="#kloster_liebfrauenbrueder_antwerpen">Clooster van de
+                    ende blijft ierst over seven ponden drij penningen Brabants erffelijck den <rs type="corporate" ref="../register/register-corporate.xml#kloster_liebfrauenbrueder_antwerpen">Clooster van de
                         Vrouwenbroederen</rs> alhier, met twee brieven. Item over thien ponden
                     Brabants erffelijck den kinderen M<hi rend="super">r</hi>
-                    <rs type="person" ref="#moy_nicolaes">Nicolaes de Moy</rs>. Item over vier
-                    ponden Brabants erffelijck <rs type="person" ref="#keescoopere_jan">Janne de
-                        Keescooper</rs> en over zesse ponden Brabants erffelijck, de weduwe <rs
-                        type="person" ref="#berch_jacob">Jacobs of den Berch</rs> welcken commer van
-                    medepantschape de selve Meester <rs type="person" ref="#lange_philip">Philips de
+                    <rs type="person" ref="../register/register-person.xml#moy_nicolaes">Nicolaes de Moy</rs>. Item over vier
+                    ponden Brabants erffelijck <rs type="person" ref="../register/register-person.xml#keescoopere_jan">Janne de
+                        Keescooper</rs> en over zesse ponden Brabants erffelijck, de weduwe <rs type="person" ref="../register/register-person.xml#berch_jacob">Jacobs of den Berch</rs> welcken commer van
+                    medepantschape de selve Meester <rs type="person" ref="../register/register-person.xml#lange_philip">Philips de
                         Lange</rs> geloeft heeft te betalen uten voors. west ende zuytwaertschen
                     huysen sonder dees huys <span from="" xml:lang="lat">cum pertinentiis</span> cost oft last oock naer inhoudt der
                     brieven ende anders nyet.</p>

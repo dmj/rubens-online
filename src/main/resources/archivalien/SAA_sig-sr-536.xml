@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_147">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_147"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-536">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -70,27 +69,24 @@
         <body>
             <div xml:lang="nld">
                 <p> M<hi rend="super">r</hi>
-                    <rs type="person" ref="#brant_jan">Jan Brants</rs>, greffier deser stadt, soo
+                    <rs type="person" ref="../register/register-person.xml#brant_jan">Jan Brants</rs>, greffier deser stadt, soo
                     voor hem selven als in den naeme ende als tot ‘tnaerbeschreven gemechticht ende
-                    gevonstitueert sijnde van <rs type="person" ref="#rubens_peter_paul">Pedro Paulo
+                    gevonstitueert sijnde van <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Paulo
                         Ruebens</rs> tzelf in den naeme ende als momboir metten rechte gelevert over
-                    de wettige kinderen wijlen Mr. <rs type="person" ref="#rubens_philipp">Philips
-                        Ruebens</rs>, secretaris deser stadt was, daer moeder aff is Joe<hi
-                        rend="super">ffr</hi>
-                    <rs type="person" ref="#moy_maria">Maria de Moy</rs>, blijckende ‘tselve
+                    de wettige kinderen wijlen Mr. <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips
+                        Ruebens</rs>, secretaris deser stadt was, daer moeder aff is Joe<hi rend="super">ffr</hi>
+                    <rs type="person" ref="../register/register-person.xml#moy_maria">Maria de Moy</rs>, blijckende ‘tselve
                     naerderbij eender procuratie op den <date when="1619-08-14">vierthiensten
-                        deser maendt</date> voor <rs type="person" ref="#hoppen_davidt">Davidt van
+                        deser maendt</date> voor <rs type="person" ref="../register/register-person.xml#hoppen_davidt">Davidt van
                         der Hoppen</rs> als notaris alhier in procuratier, voor getuigen gepasseert,
                     hier toe oock gebruickende ‘tconsent bij hem tot ‘tnabeschreven verwerven van de
                     weesmeesters deser stadt opden voors. vierthiensten deser voorscreven maendt ons
                     mette voors screven procuratier te desen originelijck gethoont, dicta
-                    qualitate-bekende opgebuert ende ontfangen te hebben van <rs type="person"
-                        ref="#geerdts_aerdt">Aerdt Geerdts</rs>, backer alhier, de capitale
+                    qualitate-bekende opgebuert ende ontfangen te hebben van <rs type="person" ref="../register/register-person.xml#geerdts_aerdt">Aerdt Geerdts</rs>, backer alhier, de capitale
                     penningen metten verloopen daeraff verschenen tot desen dage toe, van den
                     eenhondert carolus gulden ‘tsiaers, erfflijcke renten quytbaer den penninck
-                    seventhien, die <rs type="person" ref="#loemans_jaques">Jaques Loemans</rs>,
-                    oudecleercooper alhier op den <date when="1613-04-01">iersten Aprilis XVI<hi
-                            rend="super">c</hi> ende derthien</date>, vercocht ende gehipothiceert
+                    seventhien, die <rs type="person" ref="../register/register-person.xml#loemans_jaques">Jaques Loemans</rs>,
+                    oudecleercooper alhier op den <date when="1613-04-01">iersten Aprilis XVI<hi rend="super">c</hi> ende derthien</date>, vercocht ende gehipothiceert
                     heeft hem comparant ende den voors. Pedro Paulo Ruebens, als mombore ende tot
                     behoef als voore op een stuck erve metten gronde ende toebehoirten, groot thien
                     hondert eenentwintich voeten ende drije quaert maeckende twee ende een halft

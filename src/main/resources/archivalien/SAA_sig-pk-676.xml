@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_072">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_072"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-pk-676">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -50,8 +49,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 331<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 331<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
                                 Schilderschool. Antwerpen 1883, S. 381<ptr type="gbv" cRef="194552292"/></bibl>
                             <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
@@ -75,15 +73,10 @@
         <body>
             <div xml:lang="nld">
                <salute>Aen mijne Heeren.</salute><lb/> 
-                <p>Gheeft te kennen jouffrouwe <rs type="person"
-                        ref="#pypelincx_maria">Marie Pypelincx</rs>, weduwe van wijlen Meester <rs
-                        type="person" ref="#rubens_jan">Jan Rubbens</rs>, hoe dat <rs type="person"
-                        ref="#symons_andries">Andries Symons</rs>, terwijlen sij suppliante, inde
-                    voorgande turbulente regeringe, gewillichlijck vuyt dese stadt<index
-                        indexName="stw">
+                <p>Gheeft te kennen jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs>, weduwe van wijlen Meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Rubbens</rs>, hoe dat <rs type="person" ref="../register/register-person.xml#symons_andries">Andries Symons</rs>, terwijlen sij suppliante, inde
+                    voorgande turbulente regeringe, gewillichlijck vuyt dese stadt<index indexName="stw">
                         <term xml:lang="deu">Antwerpen</term>
-                    </index> heeft geexuleert. ende haer gehouden tot <rs type="place" ref="#koeln"
-                        >Ceulen</rs>, heeft d’administratie gehadt over haere goeden, waervan hij
+                    </index> heeft geexuleert. ende haer gehouden tot <rs type="place" ref="../register/register-place.xml#koeln">Ceulen</rs>, heeft d’administratie gehadt over haere goeden, waervan hij
                     haer een pretense rekeninge heeft gedaen, maer heeft daerinne frauduleuselijck
                     verswegen ende naegelaeten in ontfanck te brengen twee jaeren verloops van
                         <measure type="currency" quantity="40">XL</measure> guldens erfflijck, bij
@@ -95,13 +88,11 @@
                     sijnde, haer suppliante soude soecken te traineren, dwelck, in sulcke saecke,
                     nijet en behoort. Soo bidt de suppliante haer te consenteren de voors. actie
                     tegens den voors. Andries Symons te moeghen institueren ende vervolgen voor
-                    mijnen Heere den Amptman ende Comissarissen opde extraordinarise rolle, van <num
-                        type="cardinal" value="3">III</num> dage tot <num type="cardinal" value="3"
-                        >III</num> dage.</p> 
+                    mijnen Heere den Amptman ende Comissarissen opde extraordinarise rolle, van <num type="cardinal" value="3">III</num> dage tot <num type="cardinal" value="3">III</num> dage.</p> 
                     
                                         
                 <closer><salute>Dwelck doende</salute>.<lb/>
-                    <signed><rs type="person" ref="#martiny">Martiny</rs></signed>.
+                    <signed><rs type="person" ref="../register/register-person.xml#martiny">Martiny</rs></signed>.
                 </closer>
             </div> 
                     
@@ -113,7 +104,7 @@
                 
                 <closer>
                     <dateline>Actum <date when="1596-05-28">XXVIII<hi rend="super">a</hi> Maij 1596</date>.</dateline><lb/>
-                    <signed><rs type="person" ref="#dyck">Dyck</rs></signed>.
+                    <signed><rs type="person" ref="../register/register-person.xml#dyck">Dyck</rs></signed>.
                 </closer> 
             </div>
         </body>

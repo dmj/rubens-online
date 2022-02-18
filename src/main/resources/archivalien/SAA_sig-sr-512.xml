@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_118">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_118"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-512">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -73,37 +72,31 @@
         <body>
             <div xml:lang="nld">
                 <p> Comparerende S<hi rend="super">r</hi>
-                    <rs type="person" ref="#hesius_jean">Jean Hesius</rs>, commissaris van de vivres
+                    <rs type="person" ref="../register/register-person.xml#hesius_jean">Jean Hesius</rs>, commissaris van de vivres
                     van den legher van sijne majesteyt ende hunne hoocheden, soo voor hem selven als
-                    inden name van jouffrouwe <rs type="person" ref="#cosch_helena">Helena van
+                    inden name van jouffrouwe <rs type="person" ref="../register/register-person.xml#cosch_helena">Helena van
                     Cosch</rs>, sijne wettige huysvrouwe, die hem comparant omme tgene de
                     nabeschreven stadt te mogen doene volcommelijck gemechticht heeft bij haere
-                    procuratie opten <date when="1607-11-22">tweentwintichsten Novembris anno XVI<hi
-                            rend="super">e</hi> ende seven</date> voor schepenen deser stadt<index
-                        indexName="gsw">
+                    procuratie opten <date when="1607-11-22">tweentwintichsten Novembris anno XVI<hi rend="super">e</hi> ende seven</date> voor schepenen deser stadt<index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
                     </index> gepasseert; welcke procuratie besegelt met derselver stadts segel ende
-                    onderteeckent <rs type="person" ref="#kieffelt_g">G. Kieffel</rs>, wij original
+                    onderteeckent <rs type="person" ref="../register/register-person.xml#kieffelt_g">G. Kieffel</rs>, wij original
                     sagen ende hoorden lesen, bekende dat hij omme eene somme gelts die hem al ende
                     wel is vergouden vercocht heeft wel ende wettelijck S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs>, residerende
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubens</rs>, residerende
                     binnen dese stadt tsiaers erffelijck vijfventseventich carolus guldenen tot
                     twintich stuyvers Brabants tstuck goets ganckbaers gelts jaerlijcker ende
                     erffelijcker rente, op eene huysinghe metten hove, gronden ende allen den
                     toebehoorten, geheeten Den Gulden Arent, breet wesende derve voor ende achter,
                     aen elcke zijde vierendertich voeten ende tsamen groot wesende seventhien
-                    roeden, gestaen ende gelegen in den Meyerstrate alhier tusschen <rs
-                        type="person" ref="#decker_pauwel">Pauwels de Decker</rs> erve was aen deen
-                    zijde noortwaert ende <rs type="person" ref="#turnhout_claus">Claus van
+                    roeden, gestaen ende gelegen in den Meyerstrate alhier tusschen <rs type="person" ref="../register/register-person.xml#decker_pauwel">Pauwels de Decker</rs> erve was aen deen
+                    zijde noortwaert ende <rs type="person" ref="../register/register-person.xml#turnhout_claus">Claus van
                     Turnhout</rs> huysinge ende erve was aen dander zijde suytwaert, met noch op
                     twee cleyne huysen of wooningen metten hove ende erve, gronden ende
-                    toebehoorten, gestaen ende gelegen in ’t <rs type="place" ref="#hoplant"
-                    >Hoplant</rs> oostwaert van den huyse ende erve, geheeten St. Christoffel ende
+                    toebehoorten, gestaen ende gelegen in ’t <rs type="place" ref="../register/register-place.xml#hoplant">Hoplant</rs> oostwaert van den huyse ende erve, geheeten St. Christoffel ende
                     comende achter aen derve van de voors. huysinge Den Arent in allen dewelcke hij
-                    comparant ende de voors. sijne huysvrouwe voor schepenen deser stat opten <date
-                        when="1606-01-12">twaelfsten January anno XVI<hi rend="super">c</hi> ende
-                        sesse</date> gegoeyt ende geerft zijn geweest bij heer <rs type="person"
-                        ref="#perez_marcus">Marcus Anthonius Perez</rs>, ridder, oudt Schepen deser
+                    comparant ende de voors. sijne huysvrouwe voor schepenen deser stat opten <date when="1606-01-12">twaelfsten January anno XVI<hi rend="super">c</hi> ende
+                        sesse</date> gegoeyt ende geerft zijn geweest bij heer <rs type="person" ref="../register/register-person.xml#perez_marcus">Marcus Anthonius Perez</rs>, ridder, oudt Schepen deser
                     stadt ende voordane op sijnen ende sijne huysvrouwe, persoonen ende andere
                     hennen goeden, ruerende ende onruerende, hoedanige die wesen mochten, die hij nu
                     hebben ende noch verijgen selen, als wij verstonden alsoo dat de voors.
@@ -123,16 +116,13 @@
                     schellingen Brabants grontchijs St. Lysbetten gasthuyse alhier, die vuyten
                     voors. huyse St. Christoffel gegouden ende betaelt moeten worden ende noch over
                     eene rente van sevenendertich guldenen thien stuyvers tsiaers den voorkinderen
-                        <rs type="person" ref="#rasieres_rombout">Rombouts de Rasieres</rs>, die <rs
-                        type="person" ref="#sterre_dirick">Dirick vander Sterre</rs> vuyt sekere
-                    sijne groote huysinge binnen <rs type="place" ref="#eindhoven">Eyndhoven</rs>
-                    gestaen, geldende ende betaelende is, ende die hij nu St. Jansmisse<note
-                        resp="A.H." type="footnote">St. Jansmisse bezeichnet den Festtag Johannes
+                        <rs type="person" ref="../register/register-person.xml#rasieres_rombout">Rombouts de Rasieres</rs>, die <rs type="person" ref="../register/register-person.xml#sterre_dirick">Dirick vander Sterre</rs> vuyt sekere
+                    sijne groote huysinge binnen <rs type="place" ref="../register/register-place.xml#eindhoven">Eyndhoven</rs>
+                    gestaen, geldende ende betaelende is, ende die hij nu St. Jansmisse<note resp="A.H." type="footnote">St. Jansmisse bezeichnet den Festtag Johannes
                         des Täufers und fällt auf den 24. Juni.</note> naestcomende lossen ende
                     guyten moet al sonder deser panden cost, last oft schaede, naer inhoud der
                     brieven ende anders nyet, behoudelijck dat de voors. comparant oft sijne
-                        nacom<hi rend="super">el</hi> de voors. vijventaeventich guldenen erff<hi
-                        rend="super">el</hi> t’ sal oft sullen mogen lossen ende quyten thendere
+                        nacom<hi rend="super">el</hi> de voors. vijventaeventich guldenen erff<hi rend="super">el</hi> t’ sal oft sullen mogen lossen ende quyten thendere
                     goeder moeyten teenemaele elcken penninck altijt met sesthiene penningen der
                     munts voors. ende met verschenender rent.</p>
                 <closer>

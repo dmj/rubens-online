@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_324">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_324"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brief_erzherzog_albrecht_16070804">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Erzherzog Albrecht an den Herzog von Manuta, Vincenzo Gonzaga vom 4. August 1607</idno></msIdentifier>
                     
@@ -60,7 +59,7 @@
             <div xml:lang="spa">
                 <salute>Serenissimo Principe, </salute>
                 <p>
-                    <rs type="person" ref="#rubens_peter_paul">PEDRO-PAULO RUBENS</rs>, pintor,
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">PEDRO-PAULO RUBENS</rs>, pintor,
                     natural de Estos Estados, segun me han informado le tiene Vosra Serenidad en su
                     servicio en algunas obras de su officio y porque tiene necessidad de acudir aqui
                     a poner en orden algunas cosas suyas que estando absente no podra con le
@@ -72,11 +71,11 @@
                     se le puede offrecer y porque deseo darle satisfaction por ser mi vassallo
                     estimare y agradecere mucho lo qae Vosra Serenidad hiciere por al Suya
                     Serenissima persona nosro Señor guarde y prospere como dessea. </p>
-                <closer><placeName><rs type="place" ref="#bruessel">Brussellas</rs>,
+                <closer><placeName><rs type="place" ref="../register/register-place.xml#bruessel">Brussellas</rs>,
                             </placeName><dateline><date when="1607-08-04">Agosto 4,
                         1607</date>.</dateline><salute>A Servicio de Vosra Serenidad, </salute><signed>
-                        <rs type="person" ref="#albrecht_von_oesterreich">ALBERTO.</rs></signed>
-                    <salute>al Serenissimo Senor <rs type="person" ref="#gonzaga_vincenzo_i">Duque
+                        <rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">ALBERTO.</rs></signed>
+                    <salute>al Serenissimo Senor <rs type="person" ref="../register/register-person.xml#gonzaga_vincenzo_i">Duque
                             de Mantua </rs></salute></closer>
             </div>
         </body>

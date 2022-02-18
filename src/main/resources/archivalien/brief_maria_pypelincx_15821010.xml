@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_318">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_318"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brief_maria_pypelincx_15821010">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Maria Pypelincx an Graf Johann von Nassau vom 10. Oktober 1582</idno></msIdentifier>
                     
@@ -59,8 +58,7 @@
         <body>
             <div xml:lang="fra">
                 <salute>Monseigneur,</salute>
-                <p>Aiant veu par la lettre que les gens de vostre chancellerie escriuent le <date
-                        when="1582-09-29">29. de Septembre</date> à mon mari que noz légitimes
+                <p>Aiant veu par la lettre que les gens de vostre chancellerie escriuent le <date when="1582-09-29">29. de Septembre</date> à mon mari que noz légitimes
                     excuses n’ont point de lieu, et que, sans asseurer sa personne, vostre Ill. S.
                     le rapelle en prison, et ainsi qu’estes résolu de nous ruiner de fons en comble,
                     je ne puis auoir la pacience, ne me contenir, que je ne tombe moy mesme auecq
@@ -81,17 +79,13 @@
                     ne pourray, par ma contenance, céler nostre malheur; noz enfans s’en iront
                     perdus, noz serons tous confuz et mourerons de faim, et mon misérable mary,
                     maintenant après onze ans et demy que son péché est faict impunissable,
-                    souffrira, là où lorsque je le vins veoir en sa prison le 20<hi rend="super"
-                        >e</hi> mois après qu’il y entrast, le Docteur <rs type="person"
-                        ref="#schwartz_jacob">SCHWARTZ</rs>, de vostre part, me donna sa vie et
+                    souffrira, là où lorsque je le vins veoir en sa prison le 20<hi rend="super">e</hi> mois après qu’il y entrast, le Docteur <rs type="person" ref="../register/register-person.xml#schwartz_jacob">SCHWARTZ</rs>, de vostre part, me donna sa vie et
                     m’asseuroit qu’il seroit relaxé; et que plus est, que les autres Seigneurs,
                     parens de la Dame, n’entreprendroient jamais rien sur mon mary; ce que
                     conformoit aussi auecq la protestation que les commissaires de Messeigneurs
-                    l’Électeur et Lantgraues vous firent à <rs type="place" ref="#bilstein"
-                        >Bilsteyn</rs>, assçauoir que, par la veue de mon mari, ilz n’entendoient
+                    l’Électeur et Lantgraues vous firent à <rs type="place" ref="../register/register-place.xml#bilstein">Bilsteyn</rs>, assçauoir que, par la veue de mon mari, ilz n’entendoient
                     point que leurs maistres se meslassent aulcunement de sa personne, comme aussi
-                    j’ay copie de la lettre par laquelle le Sieur Lantgraue <rs type="person"
-                        ref="#guillaume_landgraf">GUILLAUME</rs> escriuit qu’il ne se voulloit
+                    j’ay copie de la lettre par laquelle le Sieur Lantgraue <rs type="person" ref="../register/register-person.xml#guillaume_landgraf">GUILLAUME</rs> escriuit qu’il ne se voulloit
                     mesler de mon mary: sur quoy et m’en fiant, i’ay fait vng acte que n’a iamais
                     esté veu, et me suis dépouillé de tous mes biens, et ay rachepté celuy qui
                     l’auoit si mal enuers moy mérité, induite de pur pitié christienne et chaste
@@ -110,12 +104,10 @@
                     que viuions; brief il n’y a que confusion et désespoir pour nous, et ayans le
                     tout par le même représenté à vostre Ill. S., pour toute consolation on nous
                     mande par gens incognus, n’y estant vostre signature, qu’il se doibue venir
-                    rendre en prison, là où je m’oblige en la lettre de ma caution faicte à <rs
-                        type="place" ref="#siegen">Sighen</rs> le <date when="1573-05-10">10 de May
+                    rendre en prison, là où je m’oblige en la lettre de ma caution faicte à <rs type="place" ref="../register/register-place.xml#siegen">Sighen</rs> le <date when="1573-05-10">10 de May
                         l’an 1573</date>, tant seulement qu’il retournera quand luy feriés
                     l’insinuation de la part des Seigneurs princes d’ORANGES et parens de la dame ;
-                    et voz mandataires, par leurs instrumens, passés le <date when="1578-05-15"
-                        >15</date> et <date when="1578-05-16">16 de May 1578</date>, disent que cela
+                    et voz mandataires, par leurs instrumens, passés le <date when="1578-05-15">15</date> et <date when="1578-05-16">16 de May 1578</date>, disent que cela
                     se doiue faire en cas de nécessité, de laquelle il ne nous appare point, et par
                     escrit vostre Ill. S. se deuroit contenter (à correction,) de ce qu’auons si
                     longuement souffert et souffrons, combien de fois mon mari a goustè la mort,
@@ -138,9 +130,8 @@
                     Et quand tout cela non obstant, Vostre Ill. S. nous veult destruire, elle doibt
                     de sa part complir ce à quoy elle est tenue, et nous rendre noz 6000 daeldres et
                     décharger noz biens en cas où sommes, maintenant comme vostre Ill. S. auec son
-                    feu frère le conte <rs type="person" ref="#nassau_ludwig">LODUIC</rs> nous a
-                    promise par la lettre sur ce faite à Sieghen <date when="1573-08-01">I<hi
-                            rend="super">e</hi> 9 d’Aoust 1573</date>, qu’on feroit incontinent et
+                    feu frère le conte <rs type="person" ref="../register/register-person.xml#nassau_ludwig">LODUIC</rs> nous a
+                    promise par la lettre sur ce faite à Sieghen <date when="1573-08-01">I<hi rend="super">e</hi> 9 d’Aoust 1573</date>, qu’on feroit incontinent et
                     moy ay pourparlé en ma susdite lettre de caution, lesquelles deux actes
                     l’instrument de vendition ou hipothèque nostre fait expresse mention, et comme
                     le <date when="1578-05-16">16 de May 78</date>, par aultre lettre, voz gens, en
@@ -170,8 +161,7 @@
                     ouir,) ie prie que ie le puisse de bon heure sçauoir; je m’achemineray vers Son
                     Excellence et luy prieray, pour grâce, et que vostre Ill. S. vueille prolonger
                     le terme et attendre mon retour. Si l’on m’eust laissé passer oultre quand
-                    j’estois, pour cest effect, venue à <rs type="place" ref="#dillenburg"
-                        >Dillenbergh</rs> et que ses comissaires me promirent de m’assister et
+                    j’estois, pour cest effect, venue à <rs type="place" ref="../register/register-place.xml#dillenburg">Dillenbergh</rs> et que ses comissaires me promirent de m’assister et
                     donner accès, nons serions maintenant hors de peine, comme aussi si Dieu eust
                     osté du monde mon mari l’heure qu’il vinst en voz mains, il seroit en gloire et
                     nous n’aurions tant esté troublés, que serions bien maintenant, si passés oultre
@@ -192,17 +182,14 @@
                     plustost auoir vne bonne responce, afin que sortions plustost de ceste peur
                     qu’est pire que la mort et sachions comme nous gouuerner en ce faict. </p>
                 <closer>Escript le <dateline><date when="1582-10-10">10<hi rend="super">e</hi> de
-                            Octobre 1582</date><note resp="A.H." type="footnote">Vgl. auch den <ref
-                                type="rubens" cRef="ed_rubens_319">Brief des Jan Rubens an den
+                            Octobre 1582</date><note resp="A.H." type="footnote">Vgl. auch den <ref type="rubens" cRef="ed_rubens_319">Brief des Jan Rubens an den
                                 Grafen von Nassau</ref>, ebenfalls am 10. Oktober 1582
-                            geschrieben.</note></dateline>en <placeName><rs type="place"
-                            ref="#koeln">Couloingne</rs>.</placeName></closer>
+                            geschrieben.</note></dateline>en <placeName><rs type="place" ref="../register/register-place.xml#koeln">Couloingne</rs>.</placeName></closer>
                 <closer><salute>De vostre Illustre Seigneurie,<lb/> très-humble et désolée
                         seruante</salute>
-                    <signed><rs type="person" ref="#pypelincx_maria">MARIA
+                    <signed><rs type="person" ref="../register/register-person.xml#pypelincx_maria">MARIA
                     RUEBENS</rs></signed></closer>
-                <closer><salute>A Monseigneur Monseigneur <rs type="person" ref="#nassau_johan"
-                            >JEAN, Comte de NASSAW</rs> Catzenelnboghn <lb/> Dietzt Vianden,
+                <closer><salute>A Monseigneur Monseigneur <rs type="person" ref="../register/register-person.xml#nassau_johan">JEAN, Comte de NASSAW</rs> Catzenelnboghn <lb/> Dietzt Vianden,
                         Dillenberg. </salute></closer>
             </div>
         </body>

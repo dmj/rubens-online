@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_323">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_323"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:id="nachlass_mechtelt_alteren_15640605" xml:lang="deu">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -63,38 +62,29 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <head>Akte voor Schepenen <rs type="person" ref="#schuermans_pauwel"
-                            >Pauwel Schuermans</rs> en <rs type="person" ref="#rubens_jan">Jan
+                <head>Akte voor Schepenen <rs type="person" ref="../register/register-person.xml#schuermans_pauwel">Pauwel Schuermans</rs> en <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan
                             Rubens</rs></head>
-                <p><rs type="person" ref="#touion_niclaes">NICLAES De TOUION alias COLYN</rs>, <rs
-                        type="person" ref="#touion_jan">JANSSONE</rs> wijlen, coopman, pro se, ex
-                    prima; <rs type="person" ref="#touion_jan">JAN de TOUION alias COLYN</rs>, sijn
-                    broedere, oyck coopman, et pro se, ex secunda; Jouffrouwe <rs type="person"
-                        ref="#touion_clara">CLARA de TOUION alias COLYN</rs>, hen sustere, met <rs
-                        type="person" ref="#pypelincx_hendrick">HENRICKE PYPELINCK,</rs> ejus marito
-                    et tutore, etiam pro se, ex tertia; <rs type="person" ref="#jeheu_andries"
-                        >ANDRIES JEHEU</rs>, coopman, soe voer hemselven als inden name ende als
-                    volcomelicken ende onwederroepelicken gemechticht van <rs type="person"
-                        ref="#touion_dorothea">DOROTHEA de TOUION alias COLYNS</rs>, ejus uxore,
+                <p><rs type="person" ref="../register/register-person.xml#touion_niclaes">NICLAES De TOUION alias COLYN</rs>, <rs type="person" ref="../register/register-person.xml#touion_jan">JANSSONE</rs> wijlen, coopman, pro se, ex
+                    prima; <rs type="person" ref="../register/register-person.xml#touion_jan">JAN de TOUION alias COLYN</rs>, sijn
+                    broedere, oyck coopman, et pro se, ex secunda; Jouffrouwe <rs type="person" ref="../register/register-person.xml#touion_clara">CLARA de TOUION alias COLYN</rs>, hen sustere, met <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">HENRICKE PYPELINCK,</rs> ejus marito
+                    et tutore, etiam pro se, ex tertia; <rs type="person" ref="../register/register-person.xml#jeheu_andries">ANDRIES JEHEU</rs>, coopman, soe voer hemselven als inden name ende als
+                    volcomelicken ende onwederroepelicken gemechticht van <rs type="person" ref="../register/register-person.xml#touion_dorothea">DOROTHEA de TOUION alias COLYNS</rs>, ejus uxore,
                     oock hen sustere, omme tgene des nabescreven is te mogen doene, breedere
                     blijckende bij zekerder procuratien in franchijne gescreven geexpedieert onder
-                    den zegel ten zaeken der stadt van <rs type="place" ref="#bruessel">Brussel</rs>
+                    den zegel ten zaeken der stadt van <rs type="place" ref="../register/register-place.xml#bruessel">Brussel</rs>
                     vander daten des <date when="--05-30">dertichsten May</date> lestleden, quam
                     vidimus, ende in dier qualiteyt, ex quarta; ende de voirs. HENRICK PYPELINCK,
-                    JAN de TOUION, <rs type="person" ref="#valenchyn_willem">WILLEM van
-                        VALENCHYN</rs> ende <rs type="person" ref="#gossens_willem">WILLEM
-                        GOOSSENS</rs> inden naeme ende als momboren metten rechte gelevert van <rs
-                        type="person" ref="#touion_andries_dj">ANDRIESEN de TOUION alias
-                    COLYNS</rs>, <rs type="person" ref="#touion_andries">ANDRIESSONE</rs> wijlen,
+                    JAN de TOUION, <rs type="person" ref="../register/register-person.xml#valenchyn_willem">WILLEM van
+                        VALENCHYN</rs> ende <rs type="person" ref="../register/register-person.xml#gossens_willem">WILLEM
+                        GOOSSENS</rs> inden naeme ende als momboren metten rechte gelevert van <rs type="person" ref="../register/register-person.xml#touion_andries_dj">ANDRIESEN de TOUION alias
+                    COLYNS</rs>, <rs type="person" ref="../register/register-person.xml#touion_andries">ANDRIESSONE</rs> wijlen,
                     quem susceperunt de consensu vande Weesmeesteren deser stadt ende in dier
                     qualiteyt, ex quinta ; bekenden ende verclaerden dat zij wel ende minnelicken
                     met maleanderen, bij lotinge ende cavelinge, gescheyden ende gedeylt hebben alle
                     ende yegelicke de goeden, zoe ruerende als onruerende, haeffelicke ende
                     erfelicke, egeene vuytgenomen noch gereserveert, als hen comparanten, inder
                     voirs. qualiteyt, ennichssins toecomen bleven ende verstorven mogen wesen, mits
-                    der doot ende aflivicheyt van Jouffrouwe <rs type="person"
-                        ref="#alteren_mechtelt">MECHTELT van ALTEREN</rs>, weduwe was wijlen <rs
-                        type="person" ref="#touion_jan">JANS de TOUION</rs>, heure moeder ende
+                    der doot ende aflivicheyt van Jouffrouwe <rs type="person" ref="../register/register-person.xml#alteren_mechtelt">MECHTELT van ALTEREN</rs>, weduwe was wijlen <rs type="person" ref="../register/register-person.xml#touion_jan">JANS de TOUION</rs>, heure moeder ende
                     grootmoeder respeciive, ende dat inder navolgender manieren. Ende ierst
                     aengaende de ruerende haeffelicke goeden, zijn zij partijen met malcanderen wel
                     eens vuyt dien elck heurer tzijne daeraff wiste ende themwaerdere hadde; ende
@@ -132,13 +122,11 @@
                     jaerlicx heffende is op een huys cum fundo et pertinentiis gestaen ende gelegen
                     inde Hoochstrate alhier, geheeten den gulden Cop; Item alsulcke zesthien Carolus
                     guldenen ende vier stuvers erflick als men insgelijcx heeft ende heffende is op
-                    zekere huysen, gestaen bijde Kipdorppoorte, toebehoorende, nu ter tijt, <rs
-                        type="person" ref="#suys_jan">JANNE SUYS</rs> cum suis; Item alsulcke thien
+                    zekere huysen, gestaen bijde Kipdorppoorte, toebehoorende, nu ter tijt, <rs type="person" ref="../register/register-person.xml#suys_jan">JANNE SUYS</rs> cum suis; Item alsulcke thien
                     Carolus guldenen erflick als men oyck jaerlicx heeft ende heffende is op een
                     huys, cum fundo et pertinentiis, geheeten dwit Peert, gestaen opt Vleemincx velt
                     alhier, ende daertoe noch alsulcke vijff Carolus guldenen erflick als men oyck
-                    noch heeft ende heffende is op dese stadt van <rs type="place" ref="#suys_jan"
-                        >Antwerpen</rs> heure ende der gemeynre ingesetene goeden derselver; Item
+                    noch heeft ende heffende is op dese stadt van <rs type="place" ref="../register/register-place.xml#suys_jan">Antwerpen</rs> heure ende der gemeynre ingesetene goeden derselver; Item
                     den voirs. ANDRIESEN JEHEU ende DOROTHEA de TOUION, ejus uxori, zijn daertegens
                     te deele bevallen ende zelen hebben ende behouden, pro se et suis, ierst de
                     vijfthien Carolus guldenen erflick die men oyck alnoch heeft ende heffende is op
@@ -158,11 +146,9 @@
                     TOUION zijn insgelycx, achtervolgende dezelve lotinge ende cavelinge, te deele
                     bevallen ende zal hebben ende behouden, pro se et suis, inden ierslen, de
                     eenendertich Carolus guldenen ende negen stuvers erflicken die men jaerlicx
-                    heeft ende heffende is opde stadt van <rs type="place" ref="#mechelen"
-                        >Mechelen</rs>, heure ende der gemeyner ingesetene goeden derzelver; Item de
+                    heeft ende heffende is opde stadt van <rs type="place" ref="../register/register-place.xml#mechelen">Mechelen</rs>, heure ende der gemeyner ingesetene goeden derzelver; Item de
                     tweendertich Carolus guldenen erflick, die men heeft ende jaerlicx heffende is
-                    op zeker lant gelegen onder <rs type="place" ref="#autzerweele"
-                    >Autzerweele</rs>, toebehoirende <rs type="person" ref="#bordincx_jan">JANNE
+                    op zeker lant gelegen onder <rs type="place" ref="../register/register-place.xml#autzerweele">Autzerweele</rs>, toebehoirende <rs type="person" ref="../register/register-person.xml#bordincx_jan">JANNE
                         BORDINCX</rs>; Item de veertich Carolus guldenen erflick die men oyck heeft
                     ende jaerlicx heffende is op een huys cum fundo et pertinentiis, geheeten de
                     vijff Ringen, gestaen ende gelegen opde Suyckerruye alhier; Item de dertich
@@ -174,15 +160,12 @@
                     elck der voirs. partijen noch hebben ende behouden, pro se et suis, sesthien
                     Carolus guldenen erflick vanden tachtentich Carolus guldenen tsjaers erflickere
                     renten die men jaerlicx heffende is op zekere huysen ende gronden van erven
-                    gelegen buyten de Pisternepoorte, was toebehoirende <rs type="person"
-                        ref="#rodriguez_jacques">JACQUES RODRIGUEZ</rs>, cum suis; elck derzelve
+                    gelegen buyten de Pisternepoorte, was toebehoirende <rs type="person" ref="../register/register-person.xml#rodriguez_jacques">JACQUES RODRIGUEZ</rs>, cum suis; elck derzelve
                     partijen alle de voirs. percheelen van renten metten achterstelle daeraff
                     verloopen ende verschenen, wel verstaende dat zij partijen ende comparanten
                     inder voirs. qualiteyt gesamenderhant ende hootsgelijcke, achtervolgende den
                     testamente der voirs. Jouffrouwe MECHTELT van ALTEREN, gehouden ende geobligeert
-                    zijn jaerlicx vuytereyckene tot behoeve van broederen <rs type="person"
-                        ref="#haeftingen_jacob">JACOB van HAEFTINGEN</rs> ende Jouffrouwe <rs
-                        type="person" ref="#touion_anne">ANNEN de TOUION</rs>, geprofesside inden
+                    zijn jaerlicx vuytereyckene tot behoeve van broederen <rs type="person" ref="../register/register-person.xml#haeftingen_jacob">JACOB van HAEFTINGEN</rs> ende Jouffrouwe <rs type="person" ref="../register/register-person.xml#touion_anne">ANNEN de TOUION</rs>, geprofesside inden
                     convente van Syon tot Mechelen, ende elcken van hen, vijftich Carolus guldenen
                     lijftochten, elck heurer leefdage lanck geduerende ende nyet langere;
                     verclarende ende bekennende oyck voirts de voirs. comparanten, inder voirs.
@@ -190,13 +173,12 @@
                     vernuecht, gepayt, gecontenteert, wel vereffent, gescheyden ende gedeylt te
                     zijne van alle ende yegelicke de goeden ende versterfenissen, zoe ruerende ende
                     onruerende, haefelicke ende erflicke, hen ennichssins verstorven ende
-                    achtergelaten bij wijlen <rs type="person" ref="#touion_margriete">MARGRIETE de
+                    achtergelaten bij wijlen <rs type="person" ref="../register/register-person.xml#touion_margriete">MARGRIETE de
                         TOUION alias COLYNS</rs>, heurer suster ende moye respective, overmits dien
                     elcke tzijne daeraff wiste ende themwaerdere hadde, gelovende de voirs. HENRICK
                     PYPELINCK ende CLARA de TOUION dat zij, achtervolgende dereelver MARGRIETEN
-                    testamente, jaerlicx vuytreycken ende betaelen selen den <sic>voirs. broeder <rs
-                            type="person" ref="#haeftingen_jacob">JACOB van SAFTINGEN</rs></sic>,
-                    Jouffrouwe ANNEN de TOUION ende oyck <rs type="person" ref="#duren_marie">MARIEN
+                    testamente, jaerlicx vuytreycken ende betaelen selen den <sic>voirs. broeder <rs type="person" ref="../register/register-person.xml#haeftingen_jacob">JACOB van SAFTINGEN</rs></sic>,
+                    Jouffrouwe ANNEN de TOUION ende oyck <rs type="person" ref="../register/register-person.xml#duren_marie">MARIEN
                         van DUREN</rs>, elck van hen, heur leefdage lanck geduerende ende nyet
                     langere, de vier Carolus guldenen tsjaers hen ende elckcn van hen bij derzelver
                     MARGRIETEN saliger gelegateert, sonder der voirs. andere comparanten oft heure

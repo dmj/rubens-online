@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
-    xml:id="ed_rubens_304">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_304"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +16,17 @@
                 
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="nachlass_rubens_vermoegensteilung_16450711">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Urkunde zurVerteilung des Nachlasses von Peter Paul Rubens vom 11. Juli 1645</idno></msIdentifier>
                     
@@ -67,10 +65,10 @@
             <div part="Y" xml:lang="nld">
                 <dateline>Die <date when="1645-06-11">11 Juin
                     1645</date>.</dateline>
-                <p>Compareerde Joncker <rs type="person" ref="#rubens_nikolaas">Nicolaes
-                    RUBENS</rs>, Heere van <rs type="place" ref="#rameye">Ramay</rs>,
+                <p>Compareerde Joncker <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">Nicolaes
+                    RUBENS</rs>, Heere van <rs type="place" ref="../register/register-place.xml#rameye">Ramay</rs>,
                     tegenwoordelyck wesende binnen deser stadt, my Notaris bekent synde et
-                    constituit Heer ende Meester <rs type="person" ref="#rubens_philippus">PHILIPS
+                    constituit Heer ende Meester <rs type="person" ref="../register/register-person.xml#rubens_philippus">PHILIPS
                         RUBENS</rs>, Schepen deser stadt, synen neve, hem gevende volcomen ende
                     absolute macht om van wegen ende inden naem van hem constituant te heysschen,
                     maenen, recouvreren ende tontfangen alle ende iegelycke syne schulden, verloopen
@@ -81,23 +79,20 @@
                     de rentgelders sullen quyten schepene ende manuel quittancie daeraff in
                     behoirlycker forme te passeren, te geven ende te verlyden. Item om te passeren
                     ende te teeckenen oft wettelyck te verlyden ende te vernieuwen alsulcken
-                    minnelyck accordt, compositie ende transactie als synen broeder Joncker <rs
-                        type="person" ref="#rubens_albert">ALBERT RUBENS</rs> ende hy constituant
-                    souden mogen aengaen met Vrouwe <rs type="person" ref="#fourment_helene">HELENA
+                    minnelyck accordt, compositie ende transactie als synen broeder Joncker <rs type="person" ref="../register/register-person.xml#rubens_albert">ALBERT RUBENS</rs> ende hy constituant
+                    souden mogen aengaen met Vrouwe <rs type="person" ref="../register/register-person.xml#fourment_helene">HELENA
                         FOURMENT</rs>, hunne schoonmoeder, ende de momboirs van haere minderjarighe
                     kinderen, over het proces te Hove hangende noch ter tyt ongedecideert. </p>
                 <p>Item om lotinge, scheydinghe ende deylinge te passeren met syne medeerffgenaemen,
-                    nae voorgaenden staet ende rekeninghe, van wylen Heer <rs type="person"
-                        ref="#rubens_peter_paul">PIETRO-PAULO RUBENS</rs>, syns vaeders sterffhuys,
+                    nae voorgaenden staet ende rekeninghe, van wylen Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">PIETRO-PAULO RUBENS</rs>, syns vaeders sterffhuys,
                     van alle ende iegelycke de goeden by hem achtergelaeten, brieven ende bescheeden
                     daeraff in behoorlycker forme te passeren, cum potestate substituendi, etc. ende
                     voorts.</p>
-                <closer><dateline> Gelovende, etc. Actum <rs type="place" ref="#antwerpen"
-                            >Antverpiae</rs>, ter presentien vanden voors. Joncker ALBERT RUBENS
-                        ende <rs type="place" ref="#langhenberge_andreas">ANDRIES VAN
+                <closer><dateline> Gelovende, etc. Actum <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiae</rs>, ter presentien vanden voors. Joncker ALBERT RUBENS
+                        ende <rs type="place" ref="../register/register-place.xml#langhenberge_andreas">ANDRIES VAN
                             LANGENBERGE</rs>, incolis testibus.</dateline>
                     <signed>NICOLAES RUBENS.</signed>
-                    <signed><rs type="person" ref="#guyot_toussaint">T. GUYOT.</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#guyot_toussaint">T. GUYOT.</rs></signed>
                 </closer>
             </div>
         </body>

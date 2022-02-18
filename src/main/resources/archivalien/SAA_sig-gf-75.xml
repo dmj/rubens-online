@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_040">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_040"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-gf-75">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -51,8 +50,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 144 f.<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 144 f.<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
                                 Gerechtsgebouw, 15.-30. Oktober 1977, S. 240, Nr. 142, Abb. 69</bibl>
                         </listBibl>
@@ -74,16 +72,15 @@
         <body>
             <div xml:lang="nld">
                 <pb n="1"/>
-                <p>Ick <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs> huysvrouwe van
-                        <rs type="person" ref="#rubens_jan">Janne Ruebens</rs> vercleere midts desen
+                <p>Ick <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs> huysvrouwe van
+                        <rs type="person" ref="../register/register-person.xml#rubens_jan">Janne Ruebens</rs> vercleere midts desen
                     ende belove dat ick alsulcken obligatie ende transport van goeden als mynen man
                     onder seyn hant ende seghel voer getuyghen desen oock onderscreven hebbende den
-                    lesten mey 1676 te <rs type="place" ref="#siegen">Sieghen</rs> heeft gepasseert
+                    lesten mey 1676 te <rs type="place" ref="../register/register-place.xml#siegen">Sieghen</rs> heeft gepasseert
                     houde ende achte voer doot ende van niet sulckx dat onse kinderen oft mijne
                     erfgenamen noch niemat anders hem daer mede sal moghen behelpen teghens mijnen
                     voersyden man oft daer vuyt ennighe actie pretenderen soe volcken als ick quaeme
-                    voer hem te sterven want in dien gehvalle schelle ick hem quyte de voerseyde <hi
-                        rend="underline">8000</hi>. Thaelers die hij inde voerseyde obligatie bekent
+                    voer hem te sterven want in dien gehvalle schelle ick hem quyte de voerseyde <hi rend="underline">8000</hi>. Thaelers die hij inde voerseyde obligatie bekent
                     mij schuldich te sijne ende restitueerende hem ende ontslane allen de
                     opgedraghene syne goeden ende transpoorten ende daer en boven geve ick hem allen
                     onsen gemeynen huysraet ende al wat mij nu date van desen toebehoort ende daer
@@ -95,23 +92,22 @@
                     geve daer af acht hondert pont alles sonder argelist In teeken der waerheyt
                     hebbe ick dit met mijn eyghen hant gescreven ende onderteeckent met mijnen
                     vrijen wille gesont van sinnen ende lichaem wesende, al voer getuyghen gescreven
-                    hebbende daer toe van mij geroepen Datum te Sieghen den <date
-                        when="1576-06-01">eersten Junius 1576</date>.</p>
+                    hebbende daer toe van mij geroepen Datum te Sieghen den <date when="1576-06-01">eersten Junius 1576</date>.</p>
                 <closer>
                     <signed>
-                        <rs type="person" ref="#pypelincx_maria">Marie Pypelinckx</rs>
+                        <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelinckx</rs>
                     </signed>
                 
                     
                 
                 <pb n="1bis"/>
-                <salute>Hanc esse <rs type="person" ref="#pypelincx_maria">Mariæ Pepelinc</rs> voluntatem
+                <salute>Hanc esse <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Mariæ Pepelinc</rs> voluntatem
                     me ex ipsa cognovisse testor.</salute><lb/>
-                    <signed><rs type="person" ref="#ximenius_petrus">Petrus Ximenius.</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#ximenius_petrus">Petrus Ximenius.</rs></signed>
                     
                 <salute>Hanc esse Mariæ Pepelinc voluntatem me ex ipsa cognovisse testor.</salute><lb/>
-                    <signed><rs type="person" ref="#schwart_mefridius">Mefridius Schwart</rs>
-                        <rs type="place" ref="#siegen">Siegensis</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#schwart_mefridius">Mefridius Schwart</rs>
+                        <rs type="place" ref="../register/register-place.xml#siegen">Siegensis</rs></signed>
                 </closer>
             </div>
         </body>

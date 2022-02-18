@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_167">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_167"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-570">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -70,27 +69,21 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Meester <rs type="person" ref="#brant_jan">Jan Brandt</rs>, conscabinus, als
-                    momboir metten rechte gestelt over <rs type="person" ref="#rubens_philipp"
-                        >Philips Ruebens</rs> Meester Philipssone, daer moeder af is Jouffrouwe <rs
-                        type="person" ref="#moy_maria">Marie de Moy</rs> soo in der voors. qualiteyt
-                    voor hem selven als in den naeme van <rs type="person" ref="#rubens_peter_paul"
-                        >Petro Paulo Ruebens</rs> sijnen mede momboir<index indexName="stw">
+                <p> Meester <rs type="person" ref="../register/register-person.xml#brant_jan">Jan Brandt</rs>, conscabinus, als
+                    momboir metten rechte gestelt over <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips Ruebens</rs> Meester Philipssone, daer moeder af is Jouffrouwe <rs type="person" ref="../register/register-person.xml#moy_maria">Marie de Moy</rs> soo in der voors. qualiteyt
+                    voor hem selven als in den naeme van <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo Ruebens</rs> sijnen mede momboir<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index> ende alsoo hem sterckmaeckende ende in desen vervangende de voors.
-                    weese bij consente van des weesmeesters deser stadt in date <date
-                        when="1626-01-08">acht January XVI<hi rend="super">c</hi>
-                    sessentwintich</date>, onderteeckent <rs type="person" ref="#witte_j">J. De
+                    weese bij consente van des weesmeesters deser stadt in date <date when="1626-01-08">acht January XVI<hi rend="super">c</hi>
+                    sessentwintich</date>, onderteeckent <rs type="person" ref="../register/register-person.xml#witte_j">J. De
                         Witte</rs>, dicta qualitate, bekende opgebeurt ende ontfangen te hebben van
-                        <rs type="person" ref="#broers_jan">Jan Broers</rs> lijwatier ende
-                    Jouffrouwe <rs type="person" ref="#ceuelemans_sara">Sara Ceuelemans</rs> sijne
+                        <rs type="person" ref="../register/register-person.xml#broers_jan">Jan Broers</rs> lijwatier ende
+                    Jouffrouwe <rs type="person" ref="../register/register-person.xml#ceuelemans_sara">Sara Ceuelemans</rs> sijne
                     huysvrouwe des capitael penningen verloope dare van verschenen tot desen daghe
                     toe van den vijftich carolus guldenen erffelijck quytbaer met negen hondert
-                    guldenen eens die de voors. Jan Broers ende sijne huysvrouwe op den <date
-                        when="1616-03-30">dertichsten Marty XVI<hi rend="super">c</hi> ende
+                    guldenen eens die de voors. Jan Broers ende sijne huysvrouwe op den <date when="1616-03-30">dertichsten Marty XVI<hi rend="super">c</hi> ende
                     sesthiene</date> vercocht heeft de moboiren ende tot behoef des voors. Philips
-                    Ruebens op een huys <span from="" xml:lang="lat">cum fundo et pertinentiis</span> genaempt De maendt van April<index
-                        indexName="stw"><term xml:lang="nld">De maand April</term>
+                    Ruebens op een huys <span from="" xml:lang="lat">cum fundo et pertinentiis</span> genaempt De maendt van April<index indexName="stw"><term xml:lang="nld">De maand April</term>
                     </index> gestaen in den Borsestrate, prout <span from="" xml:lang="lat">litterae quitavit</span> etc.</p>
                 <closer> <salute>gelovende etc. Sonder argelist.</salute><lb/>
                         <dateline> <date when="1626-01-09">Nona January 1626</date>.<lb/> Solutum 24 st. R. 3 st.</dateline>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_011">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_011"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-483-II">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -51,8 +50,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877. S. 436-441<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877. S. 436-441<ptr type="gbv" cRef="146162595"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -70,26 +68,23 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Wij <rs type="person" ref="#werve_henrick">Henrick vanden Werve</rs> ende <rs
-                        type="person" ref="#vlierden_philips">Philips van Vlierden</rs>, schepenen
-                    van <rs type="place" ref="#antwerpen">Antwerpen</rs>, maken condt dat voor ons
-                    quamen M<hi rend="super">r</hi> <rs type="person" ref="#rubens_philipp">Philips Rubens</rs>,
+                <p> Wij <rs type="person" ref="../register/register-person.xml#werve_henrick">Henrick vanden Werve</rs> ende <rs type="person" ref="../register/register-person.xml#vlierden_philips">Philips van Vlierden</rs>, schepenen
+                    van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs>, maken condt dat voor ons
+                    quamen M<hi rend="super">r</hi> <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips Rubens</rs>,
                     Secretaris deser stadt, M<hi rend="super">r</hi> Janssone wijlen, daer moeder aff was jouffrouwe
-                        <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, in deerste
-                    partye, Sieur <rs type="person" ref="#rubens_peter_paul">Pietro-Paulo
+                        <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs>, in deerste
+                    partye, Sieur <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro-Paulo
                         Rubens</rs>, sijn broeder, inde tweede partye, ende de voors. M<hi rend="super">r</hi>
-                    Philips ende Sieur <rs type="person" ref="#rubens_peter_paul">Petro-Paulo
+                    Philips ende Sieur <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro-Paulo
                     Rubens</rs>; tsamen inden name ende als testamentelijcke momboiren vande
-                    kinderen van wijlen jouffrouwe <rs type="person" ref="#rubens_blandina">Blandina
-                        Rubens</rs>, henne suster, daer vader af is Sieur <rs type="person"
-                        ref="#parcq_siméon">Simeon du Parck</rs>, die sij hierinne vervingen ende
+                    kinderen van wijlen jouffrouwe <rs type="person" ref="../register/register-person.xml#rubens_blandina">Blandina
+                        Rubens</rs>, henne suster, daer vader af is Sieur <rs type="person" ref="../register/register-person.xml#parcq_siméon">Simeon du Parck</rs>, die sij hierinne vervingen ende
                     geloefden te vervane, hen daervore sterck maeckende ende in dyer qualiteyt, inde
                     derde ende leste partye, ende bekenden ende verlijden in alle de partyen dat
                     zij, vuyt erachte ende naervolgende den testamente vande voorschreven wijlen
                     jouffrouwe Marie Pypelincx, onder heur hantteecken gepasseert den sesthiensten
-                    Decembris anno sesthien hondert sesse ende toegecachetteert ende den <date
-                        when="1607-01-09">negensten Januarij anno XVI<hi rend="super">c</hi>
-                    seven</date> daernaer, voor <rs type="person" ref="#rubens_peeter">Peeter
+                    Decembris anno sesthien hondert sesse ende toegecachetteert ende den <date when="1607-01-09">negensten Januarij anno XVI<hi rend="super">c</hi>
+                    seven</date> daernaer, voor <rs type="person" ref="../register/register-person.xml#rubens_peeter">Peeter
                     Rubens</rs>, notaris, ende sekere getuygen gerecognosceert, ende voorts naer
                     voorgaende lotinge ende cavelinge den sevenentwintichsten Julij lestleden
                     voorden voors. Notaris Rubens, present sekere getuygen, gepasseert, wel
@@ -113,7 +108,7 @@
                     voldoeninge vande twee hondert guldenen erfrelijck voorgeruert, een goet oft
                     hoeve, met sloetken omwatert ende andere huysingen daertoe behoorende ende
                     metten hovingen, lande, bempden, alzoo wel leenen als erve, genaempt Moerendael,
-                    gestaen ende gelegen bij <rs type="place" ref="#nispen">Nispen</rs>, ende
+                    gestaen ende gelegen bij <rs type="place" ref="../register/register-place.xml#nispen">Nispen</rs>, ende
                     bovendyen dat hij in conformiteyt vande voors. lotinge ende cavelinge
                     vande onrurende ende erffelijcke goederen hebben ende behouden sal, ende hem
                     bijde cavel B te deele bevallen is: inden eersten, eene rente van veertich
@@ -129,8 +124,7 @@
                     vijfdendeel vande sestich guldenen erffelijck die men van ghelijcken jaerlijcx
                     heffende is op dese stadt, heure ende der gemeynre innegesetenen goeden
                     derselver, ende noch eene rente van sesse guldenen ende vijff stuyvers
-                    erffelijck geheven wordende op sekere goeden gelegen ter Hoeven onder <rs
-                        type="place" ref="#eeckeren">Eeckeren</rs>, als wij verstonden, ende midts
+                    erffelijck geheven wordende op sekere goeden gelegen ter Hoeven onder <rs type="place" ref="../register/register-place.xml#eeckeren">Eeckeren</rs>, als wij verstonden, ende midts
                     desen soo verteghen de voorschreven partyen, inden name ende qualiteyt als vore,
                     van malcanderen ende deen vanden anderen vanden goeden ende versterffenissen
                     voorgeruert ende schouden malcanderen ende deen den anderen daeraff claerlijck
@@ -140,25 +134,22 @@
                     oft yemanden anders van hennen oft der voorschreven kindcren boven vervangen
                     zijnde wegen in eeniger manieren, wel verstaende dat sij tusschen henlieden al
                     noch onverscheyden ende onverdeylt behoudende blijven de parcheelen van schuldt,
-                    lande ende renten hiernaer volgende, te weten: ierst tgene <rs type="person"
-                        ref="#maniaert_thomas">Thomas Manaert</rs>, inwoonder deser stadt, den
+                    lande ende renten hiernaer volgende, te weten: ierst tgene <rs type="person" ref="../register/register-person.xml#maniaert_thomas">Thomas Manaert</rs>, inwoonder deser stadt, den
                     sterffhuyse schuldich is, beloopende in capitael ende verloop, gerekent totten
                     eenentwintichsten Julij lestleden, de somme van, twee duysent tweelff guldenen
                     vijfthien stuyvers een oort, item, noch tderdendeel van eenen bempdt gelegen tot
-                        <rs type="place" ref="#muyse">Muysen</rs> bij <rs type="place"
-                        ref="#mechelen">Mechelen</rs>, geldende jaerlijcx in hueren tselve
+                        <rs type="place" ref="../register/register-place.xml#muyse">Muysen</rs> bij <rs type="place" ref="../register/register-place.xml#mechelen">Mechelen</rs>, geldende jaerlijcx in hueren tselve
                     derdendeel sessentsestich guldenen derthien stuyvers een oort, item noch eene
                     rente van vijftich guldenen erffelijck geheven wordende in eene meerdere rente
                     van hondert guldenen erffelijck op een hoeve, landen, bosschen ende bempden
                     gelegen inde prochie van Itegem, daeromme proces is hangende, item, noch eene
                     rente van twintich guldenen erffelijck die men heffende is op een afgebrant huys
-                    in <rs type="place" ref="#borgerhout">Borgerhoudt</rs> gelegen, genaempt Het
+                    in <rs type="place" ref="../register/register-place.xml#borgerhout">Borgerhoudt</rs> gelegen, genaempt Het
                     Moriaenshooft, item noch eene ledige erve oock daerbij gelegen, daerop een huys
                     ghestaen heeft ghehadt, dwelck ghenaempt was Den Beerendans, item noch eene
                     rente van sesse veertelen rogx tsjaers geheven wordende op eene stede gelegen
-                    tot <rs type="place" ref="#beke">Beke</rs> onder <rs type="place"
-                        ref="#loenhout">Loenhoudt</rs>; item noch een rentken van drye guldenen op
-                    seker huysinge tot <rs type="place" ref="#berchem">Berchem</rs>, daer luttel aff
+                    tot <rs type="place" ref="../register/register-place.xml#beke">Beke</rs> onder <rs type="place" ref="../register/register-place.xml#loenhout">Loenhoudt</rs>; item noch een rentken van drye guldenen op
+                    seker huysinge tot <rs type="place" ref="../register/register-place.xml#berchem">Berchem</rs>, daer luttel aff
                     te verwachten is, gelijck oock vande voorgaende corenrente, als in langen nyet
                     betaelt geweest hebbende ende anderssints. Ende is te wetene dat alle de
                     parcheelen van goederen, landen ende renten den voors. partyen toegevuecht
@@ -176,7 +167,7 @@
                     <dateline>In kennisse van dese letteren besegelt met onse segelen, gegeven int jaer Ons Heeren als men schreeff 
                         <date when="1610-09-17">M.CCCCCC ende thien, seventhien dagen in Septembri</date>
                     </dateline>.<lb/>
-                    <signed><rs type="person" ref="#kieffelt_g">G. Kieffelt</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#kieffelt_g">G. Kieffelt</rs></signed>
                 </closer>
             </div>
         </body>

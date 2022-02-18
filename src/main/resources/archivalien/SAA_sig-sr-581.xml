@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_174">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_174"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-581">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -43,8 +42,7 @@
                            
                             <filiation>
                                 <note resp="A.H." type="footnote">Zwei Tage zuvor ließ Rubens eine Vollmacht für den
-                                    Kauf ausstellen. Vgl. das Dokument vom <ref type="rubens" cRef="ed_rubens_173"
-                                        >27. Mai 1627</ref>.</note>
+                                    Kauf ausstellen. Vgl. das Dokument vom <ref type="rubens" cRef="ed_rubens_173">27. Mai 1627</ref>.</note>
                             </filiation>
                         </msItem>
                         
@@ -56,8 +54,7 @@
                     </history>
                     <additional>
                         <listBibl><bibl>Franz Jozef Peter van den Branden: Geschiedenis
-                            der Antwerpsche Schilderschool. Antwerpen 1883, S. 530<ptr type="gbv"
-                                cRef="194552292"/></bibl></listBibl>
+                            der Antwerpsche Schilderschool. Antwerpen 1883, S. 530<ptr type="gbv" cRef="194552292"/></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -75,19 +72,18 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#loemans_jaques">Jacques Loemans</rs>, Jacquessone wylen
+                    <rs type="person" ref="../register/register-person.xml#loemans_jaques">Jacques Loemans</rs>, Jacquessone wylen
                     ingeseten poorter deser stadt, bekende dat hy om eene somme gelts, die hem al
                     ende wel is vergouden ende by hem geemployert tot retrocessie ende retratnsport
                     van den coop van de goeden ende landen naebescreven; ende mits het affdraegen
                     van de commeren ende lasten, hier onder vermelt, vercocht heeft, wel ende
                     wettelyck, S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs>,
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubens</rs>,
                     constschilder van haare hoocheijt, jerst een schoon, wel gelegen huijs ende hoff
                     van plaisantie rontsomme in syn waeter gelegen metten waeterloop, commende vuijt
                     de beke in de hofgracht met eenen boomgaert, rontsomme met syne grachten ende
                     twee stucken saijlants in de dreve <sic>les</sic> wesende metten voorseiden huyse
-                    ende hove, gestaen ende gelgen tot <rs type="person" ref="#eeckeren"
-                        >Eeckeren</rs><index indexName="stw">
+                    ende hove, gestaen ende gelgen tot <rs type="person" ref="../register/register-person.xml#eeckeren">Eeckeren</rs><index indexName="stw">
                         <term xml:lang="deu">Eeckeren</term>
                     </index> in ’t Schoonbroeck, genaemt het hoff van Urssele, groot in ’t geheele
                     elff gemeten, vyff roeden ende negen voeten, ombegrepen van der juster maeten.
@@ -96,121 +92,89 @@
                         Urssele<index indexName="stw">
                         <term xml:lang="nld">Hof van Ursele</term>
                     </index> gelijck ende in aller der maneiren hy comparant daerinne by den heer
-                    amptman deser stadt van wege synre offitie op den <date when="1613-07-11"
-                        >elfsten Julij anno XVI<hi rend="super">c</hi> ende derthien</date> gegoeyt
+                    amptman deser stadt van wege synre offitie op den <date when="1613-07-11">elfsten Julij anno XVI<hi rend="super">c</hi> ende derthien</date> gegoeyt
                     ende geerft is geweest. Item, twee stucken weijlants metten gronde ende
                     toebehoorten, groot t’saemen ontrent vijff gemeten, gelegen neffens malcanderen
-                    onder Eeckeren Leijerwijck, genaemt de Geeren, de beke suijt, oost, west <rs
-                        type="person" ref="#gras_wouters">Wouters Gras</rs> erve, ende noortwaerts
-                    commende aen den Reuseldijck aldaer, die hij comparant op den <date
-                        when="1618-03-31">lesten Marty anno XVI<hi rend="super">c</hi> ende
-                    achthien</date> ’t heus Jouffrouw <rs type="person" ref="#rysegem_magdalena"
-                        >Magdalena van Rysegem</rs> voor schepenen alhier, t’erve genomen heeft.
+                    onder Eeckeren Leijerwijck, genaemt de Geeren, de beke suijt, oost, west <rs type="person" ref="../register/register-person.xml#gras_wouters">Wouters Gras</rs> erve, ende noortwaerts
+                    commende aen den Reuseldijck aldaer, die hij comparant op den <date when="1618-03-31">lesten Marty anno XVI<hi rend="super">c</hi> ende
+                    achthien</date> ’t heus Jouffrouw <rs type="person" ref="../register/register-person.xml#rysegem_magdalena">Magdalena van Rysegem</rs> voor schepenen alhier, t’erve genomen heeft.
                     Item, een stede, groot ontrent dry gemeten, gelegen oick aldaer, in ’t
                     Schoonbroeck ’t heus over de voorgeruerde huyssinge. Ende noch vier gemeten van
                     de seven gemeten lants, paelende aen voorseiden drij gemeten, in welcke twee
-                    parseelen lants hy comparant op den <date when="1616-12-19">19<hi rend="super"
-                        >den</hi> Decembris anno XVI<hi rend="super">c</hi> ende sesthien</date> voor
-                    schepenen alhier, by <rs type="person" ref="#caster_geertruyt">Geertruyt</rs>
-                    ende <rs type="person" ref="#caster_catharina">Catharina van Caster</rs>
+                    parseelen lants hy comparant op den <date when="1616-12-19">19<hi rend="super">den</hi> Decembris anno XVI<hi rend="super">c</hi> ende sesthien</date> voor
+                    schepenen alhier, by <rs type="person" ref="../register/register-person.xml#caster_geertruyt">Geertruyt</rs>
+                    ende <rs type="person" ref="../register/register-person.xml#caster_catharina">Catharina van Caster</rs>
                     gegoeijt ende geerft is geweest. Item, een stuck saijlants groot ontrent een
                     bunder imbegrepen der maeten gelegen onder Schoonbroeck aen de Lije van ’t
-                    hofken, oost, suijt syns Loemans ander landt, west <rs type="person"
-                        ref="#fijen_lijnke">Lijnke Fijens</rs> ende noorde M<hi rend="super">r</hi>
-                    <rs type="person" ref="#knodders_hendrick">Hendrick de Knodders</rs> lant, by
-                    hem comparant op de <date when="1613-08-06">sesten Augusti anno XVI<hi
-                            rend="super">c</hi> ende derthien</date> voor schepenen in Eeckeren
-                    gecocht ende vercregen ’t heus <rs type="person" ref="#beuckelaer_thomas">Thomas
-                        de Beuckelaer</rs> ende <rs type="person" ref="#fijen_wybrecht">Wybrecht
-                        Fijen</rs> als momboirs van den voorseiden <rs type="person"
-                        ref="#fijen_lijnke">Lynken Fijen</rs>. Item twee stucken snijlants, groot
+                    hofken, oost, suijt syns Loemans ander landt, west <rs type="person" ref="../register/register-person.xml#fijen_lijnke">Lijnke Fijens</rs> ende noorde M<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#knodders_hendrick">Hendrick de Knodders</rs> lant, by
+                    hem comparant op de <date when="1613-08-06">sesten Augusti anno XVI<hi rend="super">c</hi> ende derthien</date> voor schepenen in Eeckeren
+                    gecocht ende vercregen ’t heus <rs type="person" ref="../register/register-person.xml#beuckelaer_thomas">Thomas
+                        de Beuckelaer</rs> ende <rs type="person" ref="../register/register-person.xml#fijen_wybrecht">Wybrecht
+                        Fijen</rs> als momboirs van den voorseiden <rs type="person" ref="../register/register-person.xml#fijen_lijnke">Lynken Fijen</rs>. Item twee stucken snijlants, groot
                     t’samen ontrent sesse gemeten, genaemt de Hooge ende Leege Rotten, metten
                     Teenbosschen achteraen, het een stuck gelegen, d’een stuck lants daeraff noort
-                    aen de Schoonbroecxstraete, west ende suyt de weduwe <rs type="person"
-                        ref="#joy_jan">Jans du Joy</rs> erve, oost <rs type="person"
-                        ref="#bertels_cornelis">Cornelis Bertels</rs> erve ende het ander stuck
+                    aen de Schoonbroecxstraete, west ende suyt de weduwe <rs type="person" ref="../register/register-person.xml#joy_jan">Jans du Joy</rs> erve, oost <rs type="person" ref="../register/register-person.xml#bertels_cornelis">Cornelis Bertels</rs> erve ende het ander stuck
                     gelegen suijt aen de selve straete, noort aen de beke, west ende oost d’ervee
                     der voorseiden weduwe du Joy, waerinne hij comparant voor schepenen ende mannen
                     van leene tot Eeckeren op den <date when="1611-08-16">16<hi rend="super">den</hi>
-                        Augusti anno XVI<hi rend="super">c</hi> ende elff</date> by <rs type="person"
-                        ref="#alsens_catharina">Catharina Alsens</rs> met <rs type="person"
-                        ref="#hont_jan">Jan de Hont</rs>, haeren man ende henne consoirte gegoeijt
+                        Augusti anno XVI<hi rend="super">c</hi> ende elff</date> by <rs type="person" ref="../register/register-person.xml#alsens_catharina">Catharina Alsens</rs> met <rs type="person" ref="../register/register-person.xml#hont_jan">Jan de Hont</rs>, haeren man ende henne consoirte gegoeijt
                     ende geerft is geweest. Item, noch seven gemeten bempts, gelegen onder Eeckeren
                     in de gehuchte van Muysbroeck in twee partijen, d’ierst groot twee gemeten, in
-                    de Hoochsegghe, aldaer gelegen tusschen d’erve ende lant van <rs type="person"
-                        ref="#thonis_adrian">Adriane Thonis</rs> ter eenre ende d’lant van <rs
-                        type="person" ref="#moor_cornelis">Cornelis de Moor</rs> ter andere zijde
+                    de Hoochsegghe, aldaer gelegen tusschen d’erve ende lant van <rs type="person" ref="../register/register-person.xml#thonis_adrian">Adriane Thonis</rs> ter eenre ende d’lant van <rs type="person" ref="../register/register-person.xml#moor_cornelis">Cornelis de Moor</rs> ter andere zijde
                     ende d’ander groot vijff gemeten, gelegen als vore in de Hoochsegghe, tusschen
-                        <rs type="person" ref="#ghysels_jan">Jans Ghysels</rs> ende <rs
-                        type="person" ref="#coppens_jan">Jans Coppens</rs> erve, die <rs
-                        type="person" ref="#lucas_jacques">Jacques Lucas</rs> als gemechticht van
-                    Vrouwe <rs type="person" ref="#sterck_johanna">Johanna Sterck</rs>, Gravinne
-                    Douagiere de Biglia op de <date when="1625-04-05">vyfden Aprilis anno XVI<hi
-                            rend="super">c</hi> vyftentwintich</date> voor schepenen deser stadt,
-                    getransporteert heeft <rs type="person" ref="#haeze_jaspar">Jaspar de
+                        <rs type="person" ref="../register/register-person.xml#ghysels_jan">Jans Ghysels</rs> ende <rs type="person" ref="../register/register-person.xml#coppens_jan">Jans Coppens</rs> erve, die <rs type="person" ref="../register/register-person.xml#lucas_jacques">Jacques Lucas</rs> als gemechticht van
+                    Vrouwe <rs type="person" ref="../register/register-person.xml#sterck_johanna">Johanna Sterck</rs>, Gravinne
+                    Douagiere de Biglia op de <date when="1625-04-05">vyfden Aprilis anno XVI<hi rend="super">c</hi> vyftentwintich</date> voor schepenen deser stadt,
+                    getransporteert heeft <rs type="person" ref="../register/register-person.xml#haeze_jaspar">Jaspar de
                     Haeze</rs>, die welcke tot behoeve van hem comparant daeraff gerenuncieert
                     heeft. Item, vier gemeten bampts, gelgen in den jersten hoeck van Eeckeren
                     Lijerwyck, by hem comparant vercregen, te wetene vyff vierendeelen weijlants,
                     ombegrepen der maeten, gelgen in een stuck van twee gemeten oost de beke aldaer,
-                    suijt Jouffrouw <rs type="person" ref="#boudaens_helena">Boudaens</rs> erve,
-                    comende noort aen het ryckgasthuys erve, op den <date when="1621-08-12">12<hi
-                            rend="super">den</hi> Augusti anno XVI<hi rend="super">c</hi> ende
+                    suijt Jouffrouw <rs type="person" ref="../register/register-person.xml#boudaens_helena">Boudaens</rs> erve,
+                    comende noort aen het ryckgasthuys erve, op den <date when="1621-08-12">12<hi rend="super">den</hi> Augusti anno XVI<hi rend="super">c</hi> ende
                         eenentwintich</date> voor schepenen in Eeckeren tegens Adriaen Fyens. Item,
-                    twee gemeten lants daeraff in den jersten hoeck, gelgen tusschen Mevrouwe <rs
-                        type="person" ref="#transilvani_johanna">Johanna Transilvani</rs> erve aen
-                    d’een zijde ende d’lant <rs type="person" ref="#couwelaer_adriaen">Adriaens
+                    twee gemeten lants daeraff in den jersten hoeck, gelgen tusschen Mevrouwe <rs type="person" ref="../register/register-person.xml#transilvani_johanna">Johanna Transilvani</rs> erve aen
+                    d’een zijde ende d’lant <rs type="person" ref="../register/register-person.xml#couwelaer_adriaen">Adriaens
                         Couwelaer</rs> aen d’ander zyde, by hem vercregen voor schepenen deser stadt
-                    tegens Jouffrouw <rs type="person" ref="#boudaens_helena">Helena Boudaens</rs>,
-                    weduwe <rs type="person" ref="#pape_anthonis">Anthonis de Pape</rs> op den <date
-                        when="1625-07-29">29<hi rend="super">sten</hi> Julij anno XVI<hi rend="super"
-                        >c</hi> ende vijffentwintich</date>, ende de resterende drij vrierer deelen
-                    van een gemet lants in ’t voorseiden stuck van twee gemeten op den <date
-                        when="1625-07-31">31<hi rend="super">sten</hi> dach der selver maent
-                    Julij</date> voor schepenen tot Eeckeren tegens den voor genoemden <rs
-                        type="person" ref="#fyens_adriaen">Adriaen Fyens</rs> als gemechticht van
-                        <rs type="person" ref="#greijns_sibaerdt">Sibaerdt Greijns</rs>. Item, noch
+                    tegens Jouffrouw <rs type="person" ref="../register/register-person.xml#boudaens_helena">Helena Boudaens</rs>,
+                    weduwe <rs type="person" ref="../register/register-person.xml#pape_anthonis">Anthonis de Pape</rs> op den <date when="1625-07-29">29<hi rend="super">sten</hi> Julij anno XVI<hi rend="super">c</hi> ende vijffentwintich</date>, ende de resterende drij vrierer deelen
+                    van een gemet lants in ’t voorseiden stuck van twee gemeten op den <date when="1625-07-31">31<hi rend="super">sten</hi> dach der selver maent
+                    Julij</date> voor schepenen tot Eeckeren tegens den voor genoemden <rs type="person" ref="../register/register-person.xml#fyens_adriaen">Adriaen Fyens</rs> als gemechticht van
+                        <rs type="person" ref="../register/register-person.xml#greijns_sibaerdt">Sibaerdt Greijns</rs>. Item, noch
                     twee gemeten weijlants, gelegen in een stuck van dry gemeten, liggende in
-                    Eeckeren, Leijerwijck, in de heuvelen aldaer, noort den raidstsheer <rs
-                        type="person" ref="#uwen_ratsherr">Uwens</rs> erve, oost het Meulendijck
-                    weghsken ende suijt de Suijtgracht aldaer, die <rs type="person"
-                        ref="#santvliet_marten">Marten van Santvliet</rs> voor schepenen van
+                    Eeckeren, Leijerwijck, in de heuvelen aldaer, noort den raidstsheer <rs type="person" ref="../register/register-person.xml#uwen_ratsherr">Uwens</rs> erve, oost het Meulendijck
+                    weghsken ende suijt de Suijtgracht aldaer, die <rs type="person" ref="../register/register-person.xml#santvliet_marten">Marten van Santvliet</rs> voor schepenen van
                     Eeckeren op den mangelinge getransporteert heeft. Item,het ander gemete der
                     voorscreven drij gemeten lants mitsgaders noch een gemete weylants oick aldaer
-                    gelgen in de Spreenhoeck tusschen <rs type="person" ref="#volder_jan">Jan de
-                        Volder</rs>’s erve aen d’een zyde ende <rs type="person" ref="#gamel_jan"
-                        >Jan’s Gamel</rs>’s erve aen d’ander zyde ende een halff gemete weijlants
+                    gelgen in de Spreenhoeck tusschen <rs type="person" ref="../register/register-person.xml#volder_jan">Jan de
+                        Volder</rs>’s erve aen d’een zyde ende <rs type="person" ref="../register/register-person.xml#gamel_jan">Jan’s Gamel</rs>’s erve aen d’ander zyde ende een halff gemete weijlants
                     gelegen oick aldaer in een stuck van negen gemeten, genaemt de Santvoorden
-                    tusschen <rs type="person" ref="#laureis_peeter">Peeters Laureis</rs> lant aen
+                    tusschen <rs type="person" ref="../register/register-person.xml#laureis_peeter">Peeters Laureis</rs> lant aen
                     d’een zyde ende het block van Lee aen d’ander zyde, daerinne hy comparant op den
-                        <date when="1610-12-22">22<hi rend="super">sten</hi> December anno XVI<hi
-                            rend="super">c</hi> ende thien</date> by den stadthouder des heeren
+                        <date when="1610-12-22">22<hi rend="super">sten</hi> December anno XVI<hi rend="super">c</hi> ende thien</date> by den stadthouder des heeren
                     amptsman deser stadt van wegen synre offitie gegoeijt ende geerft is geweest.
                     Item, een stuck lants metten gronde ende toebehoorten, groot, vier gemeten
-                    ombegrepen een maete gelegen oick aldaer in ’t Schoonbroeck, tusschen <rs
-                        type="person" ref="#greijns_lambrecht">Lambrecht Greijns</rs> erffgenaemen
+                    ombegrepen een maete gelegen oick aldaer in ’t Schoonbroeck, tusschen <rs type="person" ref="../register/register-person.xml#greijns_lambrecht">Lambrecht Greijns</rs> erffgenaemen
                     erve ende hoeve suytwaert de beke westwaert ende ’s heeren strate oostwaert
                     waerinne hy comparant op den <date when="1614-03-18">18<hi rend="super">den</hi>
-                        Martij anno XVI<hi rend="super">c</hi> ende vierthien</date> by <rs
-                        type="person" ref="#rousseau_guillaume">Guilleaume le Rousseau</rs> als
-                    gemechticht van <rs type="person" ref="#verheijden_tanneke">Tanneke
-                    Verheijden</rs> ende <rs type="person" ref="#snijers_hans">Hans Snijers</rs>,
+                        Martij anno XVI<hi rend="super">c</hi> ende vierthien</date> by <rs type="person" ref="../register/register-person.xml#rousseau_guillaume">Guilleaume le Rousseau</rs> als
+                    gemechticht van <rs type="person" ref="../register/register-person.xml#verheijden_tanneke">Tanneke
+                    Verheijden</rs> ende <rs type="person" ref="../register/register-person.xml#snijers_hans">Hans Snijers</rs>,
                     schipper, haeren man gegoeyt ende geerft is geweest ende daertoe den pacht der
                     voors. parceelen lants tot nu toe verschenen ende ombetaelt staende, bedraegende
                     vierhondert ende sevenentviertich gulden eens, waervore de voorscreven comparant
                     borge als principael blijft mits dese dat die binnen ts’iaers aen voorscreven
                     cooper betaelt sullen worden ende welcke voorscreven huijssinge van plaisanten
-                    metten voorgeruerde parceelen van landen ve voorscreven comparant op den <date
-                        when="1625-08-05">vyfden dach Augusti anno XVI<hi rend="super">c</hi> ende
+                    metten voorgeruerde parceelen van landen ve voorscreven comparant op den <date when="1625-08-05">vyfden dach Augusti anno XVI<hi rend="super">c</hi> ende
                         vyffentwintich</date> voor schepenen ende leenmannen van Eeckeren
-                    getransporteert hebbende de voorgenoemde <rs type="person" ref="#haeze_jaspar"
-                        >Jaspar de Haese</rs> voor ende tot behoeve van de fundatie van ’t derde
-                    novitiaet der <rs type="corporate" ref="#jesuitenkolleg_antwerpen">patres van
+                    getransporteert hebbende de voorgenoemde <rs type="person" ref="../register/register-person.xml#haeze_jaspar">Jaspar de Haese</rs> voor ende tot behoeve van de fundatie van ’t derde
+                    novitiaet der <rs type="corporate" ref="../register/register-corporate.xml#jesuitenkolleg_antwerpen">patres van
                         den societeyt Jesu</rs><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Jesuiten</term>
-                    </index> heeft pater <rs type="person" ref="#velsteen_egbertus">Egbertus van
+                    </index> heeft pater <rs type="person" ref="../register/register-person.xml#velsteen_egbertus">Egbertus van
                         Velsteen</rs>, priester ende procurator der selver societeyt in der
-                    qualiteyt soo hy is gecompareert op den <date when="---27">27<hi rend="super"
-                        >sten</hi></date> deser voor schepenen ende leenmannen voorscreven
+                    qualiteyt soo hy is gecompareert op den <date when="---27">27<hi rend="super">sten</hi></date> deser voor schepenen ende leenmannen voorscreven
                     retransport ende retrocessie daervan tot sijns comparants behoeve gepasseert,
                     alles por ut litteras quas tradidit, droech oppe met allen den rechten etc. te
                     waerne van allen commeren ende calaengien etc. vuijtgenomen eenen gulden oft een
@@ -222,16 +186,15 @@
                     Casteren. Item, seven meukens gerst ende drij meukens rogge voer den keure, den
                     voorscreven grave van Hoochstraten, vuytte voorscreven vier gemeten gecomen van
                     den voorscreven Tanneken Verheijden ende ’s heeren chijns vuijt ’t voorscreven
-                    lant gecomen van <rs type="person" ref="#fijen_lijnke">Lynke Sijens</rs>. Item
+                    lant gecomen van <rs type="person" ref="../register/register-person.xml#fijen_lijnke">Lynke Sijens</rs>. Item
                     eenendertich guldenen erffelick der voorscreven Magdalena van Rysegem oft haers
                     actie hebbende vuyt ’t voorscreven lant van haer eertijts gecocht, ende drij
                     hondert negenentsestich guldenen erffelick den penninck sesthien vuijt alle de
                     voorscreven huysen ende landen jaerlycx gaende al naer inhout der brieven ende
-                    anders niet, welcke commeren ende lasten <rs type="person"
-                        ref="#guyot_toussaint">Toussein Guijot</rs>, notaris alhier in den naeme
+                    anders niet, welcke commeren ende lasten <rs type="person" ref="../register/register-person.xml#guyot_toussaint">Toussein Guijot</rs>, notaris alhier in den naeme
                     ende als daertoe specialyck gemechticht van den voorscreven Pietro Paulo Rubens
                     by procuratie op den <date when="---27">27<hi rend="super">sten</hi></date> deser
-                    voor den notaris <rs type="person" ref="#doppegitter_notar">Doppegitter</rs>
+                    voor den notaris <rs type="person" ref="../register/register-person.xml#doppegitter_notar">Doppegitter</rs>
                     ende sekere getuygen alhier gepasseert ende ten desen origineel gethoont meede
                     voor ons comparerende, geloeft heeft gelyck hy geloefde mits desen dat synen
                     voorscreven constituant van nu voortaene eeuwelyck duerende jaerlycx sal draegen
@@ -239,8 +202,7 @@
                     cost, last of schaede gebraeck yet etc. dat geloefde de voorscreven comparant
                     altyt satisfacere van de se et sua constituerende voorts onwederroepelijck ende
                     alle ‘tgene voorscreven is voor schepenen ende leenmannen van Eeckeren ende
-                    alomme elders daertoe van node wesen sal, tot behoev des voorscreven <rs
-                        type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> in der
+                    alomme elders daertoe van node wesen sal, tot behoev des voorscreven <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs> in der
                     voorscreven oft betere forme te vernieuwen ende ane te werven, te passeren des
                     noot syde etc. <span from="" xml:lang="lat">generaliter etc. promitteris etc.</span><lb/>
                     <date when="1627-05-29">Vigesima nona Maijs solutum 1627</date></p>

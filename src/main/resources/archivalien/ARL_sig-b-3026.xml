@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_250">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_250"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-3026">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -72,20 +72,16 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p><pb n="437v"/>992 livres, 6 sols, 6 deniers à <rs type="person"
-                        ref="#rubens_albert">Albert Rubens</rs><index indexName="psw">
+                <p><pb n="437v"/>992 livres, 6 sols, 6 deniers à <rs type="person" ref="../register/register-person.xml#rubens_albert">Albert Rubens</rs><index indexName="psw">
                         <term type="PND">Rubens, Albert</term>
                     </index>, secrétaire ordinaire du Conseil privé du Roi, pour la permière année
                     de ses gaiges de secrétaire ordinaire dudit Conseil privé que Sa Majesté, par
                     ses lettres patentes du <date when="1630-06-15">15<hi rend="super">e</hi> de juing
                         1630</date>, luy at accordé à cause de son dit estat, luy ayant icelluy esté
                     accordé pour le déservir après le trespas de feu son père ou après la
-                    résignation dudit office, la dicte première année commencée le <date
-                        when="1640-04-19">19<hi rend="super">e</hi> d’apvril 1640</date>, jour qu’il a
-                    presté le serment dudit estat et finie le <date when="1641-04-19">19<hi
-                            rend="super">e</hi> d’apvril 1641</date>, par copie authentique desdites
-                    lettres patentes et deux quictances veues en estatz de <date when="--01"
-                    >janvier</date>, folio 39 et <date when="--07">juillet</date> folio 35; par
+                    résignation dudit office, la dicte première année commencée le <date when="1640-04-19">19<hi rend="super">e</hi> d’apvril 1640</date>, jour qu’il a
+                    presté le serment dudit estat et finie le <date when="1641-04-19">19<hi rend="super">e</hi> d’apvril 1641</date>, par copie authentique desdites
+                    lettres patentes et deux quictances veues en estatz de <date when="--01">janvier</date>, folio 39 et <date when="--07">juillet</date> folio 35; par
                     copie aucthentique desdites lettres patentes deuement vériffiées en portant note
                     de son serment presté le <date when="1640-04-19">19<hi rend="super">e</hi>
                         d’apvril 1640</date> et deux ses quictances conformes au texte cy-rendu.</p>

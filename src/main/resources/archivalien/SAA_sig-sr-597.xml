@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_195">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_195"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-597">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -66,26 +65,20 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p><rs type="person" ref="#loemans_jaques">Jacques Loemans</rs> woonende int <rs
-                        type="place" ref="#schoonbroek">Schoonbroeck</rs> onder <rs type="place"
-                        ref="#eeckeren">Eeckeren</rs> bekende dat hij om eene somme gelts die hem al
+                <p><rs type="person" ref="../register/register-person.xml#loemans_jaques">Jacques Loemans</rs> woonende int <rs type="place" ref="../register/register-place.xml#schoonbroek">Schoonbroeck</rs> onder <rs type="place" ref="../register/register-place.xml#eeckeren">Eeckeren</rs> bekende dat hij om eene somme gelts die hem al
                     ende wel is vergouden overgegeven, gecedeert ende getransporteert mits desen
-                    heer <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>,
+                    heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs>,
                     secretaris vande secreten raedt van sijne majesteyt ende edelman vande huyse van
-                    haere hoocheyt, voor d’een helft ende sijne twee kinderen naementlyck <rs
-                        type="person" ref="#rubens_albert">Albertus</rs> ende <rs type="person"
-                        ref="#rubens_nikolaas">Nicolaes Ruebens</rs> daer moeder aff was jouffrouwe
-                        <rs type="person" ref="#brant_isabella">Isabella Brant</rs> voor d’ander
+                    haere hoocheyt, voor d’een helft ende sijne twee kinderen naementlyck <rs type="person" ref="../register/register-person.xml#rubens_albert">Albertus</rs> ende <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">Nicolaes Ruebens</rs> daer moeder aff was jouffrouwe
+                        <rs type="person" ref="../register/register-person.xml#brant_isabella">Isabella Brant</rs> voor d’ander
                     helft. Een stuck weylants metten gronde ende allen toebehoorten groot een half
                     bunder onbegrepen der maeten, gelegen tot Eeckeren Leyrwyck ’t eynde den
                     Meulendyck noort desselfs heere Pietro Paulo Ruebens erve, oost den
-                    Meulendyckwech, suyt de weduwe ende erffgenaemen van <rs type="person"
-                        ref="#duson_jan">Jan Duson</rs> erve, west den Sprangdijck, gelijck ende in
+                    Meulendyckwech, suyt de weduwe ende erffgenaemen van <rs type="person" ref="../register/register-person.xml#duson_jan">Jan Duson</rs> erve, west den Sprangdijck, gelijck ende in
                     alder manieren hij comparant ’t voors. halff bunder lants gecocht ende vercregen
-                    heeft van <rs type="person" ref="#hesemans_cornelis">Cornelis Hesemans</rs> ende
+                    heeft van <rs type="person" ref="../register/register-person.xml#hesemans_cornelis">Cornelis Hesemans</rs> ende
                     daer innevercregen heeft van Cornelis Hesemans ende daer inne byde selven opden
-                        <date when="1628-01-16">sesthiensten dach vande jaere 16<hi rend="super"
-                        >c</hi> ende achtentwintich</date> lestleden voor schepenen der voorschreve
+                        <date when="1628-01-16">sesthiensten dach vande jaere 16<hi rend="super">c</hi> ende achtentwintich</date> lestleden voor schepenen der voorschreve
                         heerlyckheyt van Eeckeren gegoeyt ende geerft is geweest.</p>
                 <closer><salute>Prout <span from="" xml:lang="lat">litteræ quas tradidit</span>, 
                     droech oppe etc. te waerne van allen commeren ende calaenghien

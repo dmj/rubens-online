@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_191">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_191"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ernennung_sekretär_staatsrat_16290427">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -42,10 +41,8 @@
                         <msItem>
                            
                             <filiation>
-                                <note resp="A.H." type="footnote">Vgl. hierzu ein weiteres <ref type="rubens"
-                                    cRef="ed_rubens_192">Dokument selben Datums</ref>, das im Staatsarchiv in Simancas
-                                aufbewahrt wurde und die Antwort der Infantin Isabella vom <ref
-                                    type="rubens" cRef="ed_rubens_193">17. Mai 1629</ref>.</note>
+                                <note resp="A.H." type="footnote">Vgl. hierzu ein weiteres <ref type="rubens" cRef="ed_rubens_192">Dokument selben Datums</ref>, das im Staatsarchiv in Simancas
+                                aufbewahrt wurde und die Antwort der Infantin Isabella vom <ref type="rubens" cRef="ed_rubens_193">17. Mai 1629</ref>.</note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -62,8 +59,7 @@
                     <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Louis Prosper Gachard: Histoire politique et diplomatique de Pierre-Paul Rubens</bibl></source></recordHist></adminInfo>
                         <listBibl>
                         <bibl>Louis Prosper Gachard: Histoire politique et
-                            diplomatique de Pierre-Paul Rubens. Brüssel: Office de Publicite, 1877, S. 292f.<ptr
-                            type="opac" cRef="306740680"/></bibl>
+                            diplomatique de Pierre-Paul Rubens. Brüssel: Office de Publicite, 1877, S. 292f.<ptr type="opac" cRef="306740680"/></bibl>
                         </listBibl>
                     </additional></msDesc>
             </sourceDesc>
@@ -90,26 +86,22 @@
                 
                     <salute>Serenissima Señora<index indexName="psw"><term type="PND">Isabella (Spanien, Infantin)</term></index>,</salute>
                 <lb/>
-                <p> La plática de pazes con <rs type="place" ref="#england"
-                        >Inglaterra</rs><index indexName="stw">
+                <p> La plática de pazes con <rs type="place" ref="../register/register-place.xml#england">Inglaterra</rs><index indexName="stw">
                         <term xml:lang="deu">Friedensverhandlungen</term>
                     </index> que se ha yntroduzido como V. A. save, he juzgado por conviniente se
-                    continue, y assí he resuelto vaya á Inglaterra <rs type="person"
-                        ref="#rubens_peter_paul">Pedro Pablo Rubens</rs>, con la instruction que,
+                    continue, y assí he resuelto vaya á Inglaterra <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Pablo Rubens</rs>, con la instruction que,
                     con órden mia, le ha dado el conde duque y mostrará á V. A. Y porqueen ella se
                     dize que siga la que no haya aparencia de acomodarse las cosas con Olandeses por
                     el camino que agora se trata (y no de otra suerte), ordenará V. A. á Rubens que
-                    en buena ocasion diga al gran thesorero don <rs type="person"
-                        ref="#weston_richard_portland">Ricardo Weston</rs> que alguna vez havía oydo
+                    en buena ocasion diga al gran thesorero don <rs type="person" ref="../register/register-person.xml#weston_richard_portland">Ricardo Weston</rs> que alguna vez havía oydo
                     referir acá que para ajustar la paz, que puede tener mas largo discurso que
-                    parescia en Inglaterra, que erá biem huviesse suspension de armas<index
-                        indexName="stw">
+                    parescia en Inglaterra, que erá biem huviesse suspension de armas<index indexName="stw">
                         <term xml:lang="deu">Waffenstillstand</term>
                     </index>; que siendo assi, por mi parte no habria dificultad en assentarìa con
                     aquel rey y con Olandeses, ni en procurar que el emperador haga la misma
-                    suspension con el de <rs type="place" ref="#daenemark">Dinamarca</rs>. Y
+                    suspension con el de <rs type="place" ref="../register/register-place.xml#daenemark">Dinamarca</rs>. Y
                     viniendo en ella podrá V. A. effectuar la suspension, acordando que para la paz
-                    embie después el <rs type="person" ref="#charles_i_england">rey de
+                    embie después el <rs type="person" ref="../register/register-person.xml#charles_i_england">rey de
                         Inglaterra</rs><index indexName="psw">
                         <term type="PND">Charles (England, King, I.)</term>
                     </index><index indexName="psw">
@@ -119,22 +111,20 @@
                     concluirla; y por tenerle ya V. A. para hazerla con Olandeses, no va con
                     estension en quanto á ellos. Y ajustándose esta suspesion de armas, el concierto
                     con Olandeses ha de ser en todo en la conformidad que tengo escrito á V. A., con
-                    la entrada en el principio della que tiene ajustada <rs type="person"
-                        ref="#kesseler">Queseler</rs>: pero pudiéndose consegui la suspension con
+                    la entrada en el principio della que tiene ajustada <rs type="person" ref="../register/register-person.xml#kesseler">Queseler</rs>: pero pudiéndose consegui la suspension con
                     Olandeses por el dicho Queseler, solo ha de tratar Rubens de la suspension con
                     Inglaterra y oficios que se harán con el emperador para que la haga con el rey
                     de Dinamarca, sin mezclar en la materia á Olandeses.</p><p>Tambien se ordena, en
-                    la instrucion de Rubens, trate con <rs type="person" ref="#subisa_herr">Mos. de
-                        Subisa</rs> sobre lo que ha propuesto de tomar puesto en <rs type="place"
-                        ref="#frankreich">Francia</rs>; y segun lo que negociare, siendo en
+                    la instrucion de Rubens, trate con <rs type="person" ref="../register/register-person.xml#subisa_herr">Mos. de
+                        Subisa</rs> sobre lo que ha propuesto de tomar puesto en <rs type="place" ref="../register/register-place.xml#frankreich">Francia</rs>; y segun lo que negociare, siendo en
                     conformidad de lo que se le ordena por la instrucion, hará V. A. que se provea
                     luego el dinero que se ha de dar, que con puntalidad y toda brevedad se remitirá
                     á V. A. la cantidad que fuere.</p> <closer><salute>Nuestro Señor guarde á V. A. como deseo.<lb/>
                 Bon sobrino de Vuestra Alteza,</salute><lb/>
-                    <signed><rs type="person" ref="#philipp_iv_spanien"><hi rend="smallCaps">Yo el Rey</hi>
+                    <signed><rs type="person" ref="../register/register-person.xml#philipp_iv_spanien"><hi rend="smallCaps">Yo el Rey</hi>
                     </rs><index indexName="psw"><term type="PND">Philipp (Spanien, König, IV.)</term></index></signed><lb/>
-                    <signed><rs type="person" ref="#billea_de"><hi rend="smallCaps">D. Ju° De Billea.</hi></rs></signed><lb/> 
-                    <dateline>De <rs type="place" ref="#madrid">Madrid</rs>, á <date when="1629-04-27">27 de abril 1629</date></dateline>
+                    <signed><rs type="person" ref="../register/register-person.xml#billea_de"><hi rend="smallCaps">D. Ju° De Billea.</hi></rs></signed><lb/> 
+                    <dateline>De <rs type="place" ref="../register/register-place.xml#madrid">Madrid</rs>, á <date when="1629-04-27">27 de abril 1629</date></dateline>
                     </closer>
             </div>
         </body>
@@ -144,43 +134,38 @@
             <div xml:lang="ger ">
                 <head>Übersetzung:</head>
                 <salute>Serenissima Señora,</salute><lb/>
-                <p>Bezüglich der Friedensverhandlungen mit <rs type="place"
-                        ref="#england">England</rs>, die bereits begonnen haben, wie Ihre Hoheit
+                <p>Bezüglich der Friedensverhandlungen mit <rs type="place" ref="../register/register-place.xml#england">England</rs>, die bereits begonnen haben, wie Ihre Hoheit
                     weiß, halte ich es für ratsam, daß sie fortgesetzt werden, und so habe ich
-                    beschlossen, daß <rs type="person" ref="#rubens_peter_paul">Peter Paul
+                    beschlossen, daß <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peter Paul
                     Rubens</rs> mit Instruktionen nach England geht, die er, nach meinem Befehl, vom
                     Graf Herzog bekommen hat, und die er Euer Hoheit zeigen wird. Darin steht, für
                     den Fall, daß die Probleme mit den Holländern nicht auf die Art gelöst werden,
                     wie sie jetzt verhandelt werden (und nicht auf eine andere Art), Eure Hoheit
                     Rubens befehlen sollten, daß er bei passender Gelegenheit dem Schatzmeister
-                    Herrn <rs type="person" ref="#weston_richard_portland">Richard Weston</rs>
+                    Herrn <rs type="person" ref="../register/register-person.xml#weston_richard_portland">Richard Weston</rs>
                     erzählt, daß er hier Berichte darüber gehört habe, daß, um den Frieden zu
                     erreichen, was ein längerer Prozeß als in England sein kann, ein
                     Waffenstillstand sinnvoll wäre. Von mir aus hätte ich keine Schwierigkeiten
                     damit, ihn <note resp="N.B" type="footnote">den Waffenstillstand</note> mit dem
                     dortigen König und den Holländern festzusetzen, sowie zu versuchen, daß der
-                    Kaiser dasselbe mit dem König von <rs type="place" ref="#daenemark"
-                    >Dänemark</rs> tue. Euer Hoheit wird den Waffenstillstand durchsetzen können,
+                    Kaiser dasselbe mit dem König von <rs type="place" ref="../register/register-place.xml#daenemark">Dänemark</rs> tue. Euer Hoheit wird den Waffenstillstand durchsetzen können,
                     und für den Frieden, sollte der König von England in Person seine Zustimmung
                     zuschicken, gemäß der Instruktionen von Rubens handeln. Und wenn der
                     Waffenstillstand eingeleitet wird, wird Ihre Hoheit dahin geschickt, um ihn zu
                     akzeptieren und abzuschließen. Diese Erweiterung betrifft nicht die Holländer.
                     Die Abmachung mit den Holländern muß in jeden Fall in Übereinstimmung mit dem
-                    geschehen, was ich Euer Hoheit geschrieben habe, so wie es <rs type="person"
-                        ref="#kesseler">Kesseler</rs> eingeleitet hat. Wenn der Waffenstillstand mit
+                    geschehen, was ich Euer Hoheit geschrieben habe, so wie es <rs type="person" ref="../register/register-person.xml#kesseler">Kesseler</rs> eingeleitet hat. Wenn der Waffenstillstand mit
                     den Holländern durch Kesseler erreicht wird, muß Rubens nur in der Sache mit
                     England handeln und mit dem Kaiser sprechen, damit er mit dem König von Dänemark
                     verhandle, ohne daß die Holländer mit eingeschlossen würden.</p> 
-                    <p>In den Instruktionen von Rubens wird auch befohlen, daß er mit <rs type="person"
-                        ref="#subisa_herr">Herrn de Subisa</rs> seinen Posten in <rs type="place"
-                        ref="#frankreich">Frankreich</rs> bespricht. Und je nachdem was verhandelt
+                    <p>In den Instruktionen von Rubens wird auch befohlen, daß er mit <rs type="person" ref="../register/register-person.xml#subisa_herr">Herrn de Subisa</rs> seinen Posten in <rs type="place" ref="../register/register-place.xml#frankreich">Frankreich</rs> bespricht. Und je nachdem was verhandelt
                     wird, wenn in Übereinstimmung mit den Instruktionen, wird Eure Hoheit dafür
                     sorgen, daß das Geld zur Verfügung gestellt wird, welches Euer Hoheit pünktlich
                     und schnell zugeschickt bekommen.</p>
                 <closer><salute>Unser Herr bewahre Eure Hoheit, wie ich wünsche.<lb/> Der tüchtige Neffe Eurer Hoheit</salute><lb/>
-                    <signed><rs type="person" ref="#philipp_iv_spanien">Ich der König</rs></signed><lb/>
-                    <signed><rs type="person" ref="#billea_de">D. Iu. de Billea</rs></signed><lb/>
-                    <dateline><rs type="place" ref="#madrid">Madrid</rs>, den <date when="1629-04-27">27. April 1629</date></dateline>
+                    <signed><rs type="person" ref="../register/register-person.xml#philipp_iv_spanien">Ich der König</rs></signed><lb/>
+                    <signed><rs type="person" ref="../register/register-person.xml#billea_de">D. Iu. de Billea</rs></signed><lb/>
+                    <dateline><rs type="place" ref="../register/register-place.xml#madrid">Madrid</rs>, den <date when="1629-04-27">27. April 1629</date></dateline>
                 </closer>
                 
             </div>

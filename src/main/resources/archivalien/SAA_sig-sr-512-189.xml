@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_125">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_125"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,10 +15,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-512-189">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -64,14 +63,8 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Comparerende voor schepenen heer <rs type="person" ref="#gracht_anthonis"
-                        >Antheunis van der Gracht</rs>, Heere van <rs type="place" ref="#schardauwe"
-                        >Schardauwe</rs>, <rs type="place" ref="#bautencoven">Bautencoven</rs>, <rs
-                        type="place" ref="#doel">Doole</rs>, <rs type="place" ref="#beaulieu"
-                        >Beaulieu</rs> etc. voor hem selven ende inden name van heere <rs
-                        type="person" ref="#gracht_franchois">Franchois van der Gracht</rs>, sijn
-                    sone Baron van <rs type="place" ref="#wanghen">Wangen</rs> ende Vrouwe <rs
-                        type="person" ref="#limming_philippa">Philippa vuyter Limming</rs>, sijne
+                <p> Comparerende voor schepenen heer <rs type="person" ref="../register/register-person.xml#gracht_anthonis">Antheunis van der Gracht</rs>, Heere van <rs type="place" ref="../register/register-place.xml#schardauwe">Schardauwe</rs>, <rs type="place" ref="../register/register-place.xml#bautencoven">Bautencoven</rs>, <rs type="place" ref="../register/register-place.xml#doel">Doole</rs>, <rs type="place" ref="../register/register-place.xml#beaulieu">Beaulieu</rs> etc. voor hem selven ende inden name van heere <rs type="person" ref="../register/register-person.xml#gracht_franchois">Franchois van der Gracht</rs>, sijn
+                    sone Baron van <rs type="place" ref="../register/register-place.xml#wanghen">Wangen</rs> ende Vrouwe <rs type="person" ref="../register/register-person.xml#limming_philippa">Philippa vuyter Limming</rs>, sijne
                     geselnede, die hem comparant omme ’tgene des nabescreven stadtte mogen doene
                     volcommelijck ende onwederroepelijck gemechticht hebben bij hunne procuratie
                     opden thiensten deser voor meyer ende schepenen des Heerlijcheyt van Wangen
@@ -81,14 +74,13 @@
                     zijne constituanten gesamenderhandt ende elcken heurer een voor al, als
                     principael ende sonder divisie, schuldich zijn van goeder rechtveerdiger schult
                         S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs>, de somme
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubens</rs>, de somme
                     van negen duysent negen hondert vijventseventich Carolus guldenen eens tot
                     twintich stuyvers Brabants ’tstuck toecommen ter causen van gelijcke somme, die
                     de voors. S<hi rend="super">r</hi> Pietro Paulo Rubens, eensdeels in gereeden
                     gelde hun opgeleet ende voldaen heeft, eensdeels aengenomen heeft voor hun te
-                    betalen tot bedijcking der nabescreven landen in handen van <rs type="person"
-                        ref="#crossens_jan">Jan Crossens</rs> penninck<hi rend="super">mr</hi> der
-                    dijckagie van <rs type="place" ref="#kallo">Calloo</rs>, welcke voors. somme van
+                    betalen tot bedijcking der nabescreven landen in handen van <rs type="person" ref="../register/register-person.xml#crossens_jan">Jan Crossens</rs> penninck<hi rend="super">mr</hi> der
+                    dijckagie van <rs type="place" ref="../register/register-place.xml#kallo">Calloo</rs>, welcke voors. somme van
                     negenduysent negenhondert vijfventseventich guldens eens, de voors.
                     constituanten gesamenderhandt ende elck hender, een voor al ende als principael,
                     wel ende volcom<hi rend="super">el</hi> aen den voors. S<hi rend="super">r</hi>
@@ -103,28 +95,22 @@
                     heer Antheunis van der Gracht bij consente ende advoy ende met overstane vanden
                     voors. heer Franchois van der Gracht als sijnder oudtaten sone ende apparentsten
                     hoir oft erfgenaem: hondert vijvenseventich gemeten landts die hij comparant
-                    liggende heeft in den Polder van <rs type="place" ref="#keentenisse"
-                    >Keetenisse</rs> item de seventhien gemeten lands die hij comparant, liggende
+                    liggende heeft in den Polder van <rs type="place" ref="../register/register-place.xml#keentenisse">Keetenisse</rs> item de seventhien gemeten lands die hij comparant, liggende
                     heeft in oft omtrent den deurganck van Calloo al vrij ende ombelast sijnde, item
                     sijns heeren Antheunis van der Gracht heerlicheden ende leenen van Schardauwe,
-                        <rs type="place" ref="#walle">Walle</rs>, <rs type="place" ref="#buckinge"
-                        >Buckinge</rs>, <rs type="place" ref="#bardaensche">Bardaensche</rs> ende
-                        <rs type="place" ref="#bavinckhove">Bavinckhove</rs> met allen den landen,
+                        <rs type="place" ref="../register/register-place.xml#walle">Walle</rs>, <rs type="place" ref="../register/register-place.xml#buckinge">Buckinge</rs>, <rs type="place" ref="../register/register-place.xml#bardaensche">Bardaensche</rs> ende
+                        <rs type="place" ref="../register/register-place.xml#bavinckhove">Bavinckhove</rs> met allen den landen,
                     chijsen hee<hi rend="super">rl</hi> rechten ende renten daertoe behoorende soo die
-                    gestaen ende gelegen sijn onder de Castelrije van <rs type="place"
-                        ref="#kortrijk">Cortrijck</rs> oick al vrij ende onbelast sijne vuytgenomen
+                    gestaen ende gelegen sijn onder de Castelrije van <rs type="place" ref="../register/register-place.xml#kortrijk">Cortrijck</rs> oick al vrij ende onbelast sijne vuytgenomen
                     de voors. heerlijchheijt van Walle die belast is met vijffhondert guldens
                     tsjaers aen den proprietaris de la Faille. Item noch de thienhondert
                     sessendertich gulden negenthien ende eenen halven stuyver tsjaers, die selve
                     heer Antheunis van der Gracht in drij partijen van renten heffende is op de
-                    goeden ende incommingen van den heere ende vrouwe <rs type="person"
-                        ref="#noorcarmes_van">van Noorcarmes</rs>, volgende de brieven daervan
+                    goeden ende incommingen van den heere ende vrouwe <rs type="person" ref="../register/register-person.xml#noorcarmes_van">van Noorcarmes</rs>, volgende de brieven daervan
                     sijnde die hij den voors. S<hi rend="super">r</hi> Pietro Paulo Rubens tsijnder
                     meerder sekerheyt in han<hi rend="super">de</hi> gestelt heeft ende daertoe noch
                     van wegen de voors. heere en vrouwe van Wanghe vuyt cracht van de voors. hunne
-                    procuratie hen hoff ende heerlicheyt genaempt <rs type="place"
-                        ref="#willembringe">Willlembringe</rs> gelegen tusschen <rs type="place"
-                        ref="#loewen">Leuven</rs> ende <rs type="place" ref="#thienen">Thienen</rs>
+                    procuratie hen hoff ende heerlicheyt genaempt <rs type="place" ref="../register/register-place.xml#willembringe">Willlembringe</rs> gelegen tusschen <rs type="place" ref="../register/register-place.xml#loewen">Leuven</rs> ende <rs type="place" ref="../register/register-place.xml#thienen">Thienen</rs>
                     mit de huysingen, hoeven, landen, bosschen, bempden, renten, heerlijcke rechten
                     ende andere preeminentien ende toebehoorten groot in alles badt als
                     vierentnegentich bunderen oijck, al vrij ende onbelast zijnde, ende dit al op
@@ -137,8 +123,7 @@
                     atterminatien, relievementen ende ander, die hen hier tegens de stade ende bate
                     souden mogen comen ende denrechte seggende dat generale renuniatie nyet
                     gevalideert ten zij dat speciale voorgaet renuntierende oock van wegen de voors.
-                    vrouwe van Wangen naer vermogen der voors., per speciale procuratie, con<hi
-                        rend="super">st</hi> sen<hi rend="super">at</hi> v<hi rend="super">ell</hi>
+                    vrouwe van Wangen naer vermogen der voors., per speciale procuratie, con<hi rend="super">st</hi> sen<hi rend="super">at</hi> v<hi rend="super">ell</hi>
                         auct<hi rend="super">o</hi> seque mulier eerst etc. Ende ter noch naerder ende
                     meerder sekerheyt, is de voors. heer Antheunis van der Gracht tevreden ende
                     consenteert bij desen dat de voors. S<hi rend="super">r</hi> Pieter Paulo Rubens
@@ -148,8 +133,7 @@
                     is, sulcx dat hij bij faulte van voldoening ende restitutie der voors. pennigen,
                     de selve landen daervore sal mogen aenveerden ende bij reele ende parate
                     executie doen vercoopen, constituerende voorts beyde voors. comparanten ende
-                    substituerende onwederroepelijck bij desen <rs type="person"
-                        ref="#rousseau_guillaume">Guillaume Rousseau</rs>, notaris t’samen ende
+                    substituerende onwederroepelijck bij desen <rs type="person" ref="../register/register-person.xml#rousseau_guillaume">Guillaume Rousseau</rs>, notaris t’samen ende
                     elcken besundere summe allen tgene des voors. is, inder voors. oft beter forme,
                     voor alle hoven, heeren, wetten ende gerechten daert behoort ende van noode is
                     te vernieuwen ende ander werven te passeren ende voorts. etc.</p>

@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_257">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_257"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Jan Rubens bittet in einem Schreiben an seinen Neffen, den Pensionaris <rs type="person" ref="#gillis_jan">Jan
-                    Gillis</rs> in Brüssel, diesen um Intervention bei <rs type="person" ref="#rio_ludovico">Ludovico del Rio</rs>, Mitglied des
+                <title>Jan Rubens bittet in einem Schreiben an seinen Neffen, den Pensionaris <rs type="person" ref="../register/register-person.xml#gillis_jan">Jan
+                    Gillis</rs> in Brüssel, diesen um Intervention bei <rs type="person" ref="../register/register-person.xml#rio_ludovico">Ludovico del Rio</rs>, Mitglied des
                     Raad van Beroerte, um die rechtliche Stellung des Antwerpener Magistrates zu
                     prüfen. Angfügt: Eine Schilderung der Sachlage</title>
             </titleStmt>
@@ -23,10 +15,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brief_jan_rubens_15651109">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -34,8 +33,8 @@
                         <idno type="signatur">Brief von Jan Rubens vom 9. November 1565</idno>
                     </msIdentifier>
                     <head>
-                        <title>Jan Rubens bittet in einem Schreiben an seinen Neffen, den Pensionaris <rs type="person" ref="#gillis_jan">Jan
-                            Gillis</rs> in Brüssel, diesen um Intervention bei <rs type="person" ref="#rio_ludovico">Ludovico del Rio</rs>, Mitglied des
+                        <title>Jan Rubens bittet in einem Schreiben an seinen Neffen, den Pensionaris <rs type="person" ref="../register/register-person.xml#gillis_jan">Jan
+                            Gillis</rs> in Brüssel, diesen um Intervention bei <rs type="person" ref="../register/register-person.xml#rio_ludovico">Ludovico del Rio</rs>, Mitglied des
                             Raad van Beroerte, um die rechtliche Stellung des Antwerpener Magistrates zu
                             prüfen. Angfügt: Eine Schilderung der Sachlage</title>
                     </head>

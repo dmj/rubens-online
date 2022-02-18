@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_234">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_234"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,10 +20,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-642">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -70,24 +69,20 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Jonker <rs type="person" ref="#halmale_pauwel">Pauwels van Halmale</rs> onsen
-                    medescepene inde weth alhier inde name ende als testamentelycke momboir<index
-                        indexName="stw">
+                <p>Jonker <rs type="person" ref="../register/register-person.xml#halmale_pauwel">Pauwels van Halmale</rs> onsen
+                    medescepene inde weth alhier inde name ende als testamentelycke momboir<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormundschaft</term>
-                    </index> (beneffens Heer <rs type="person" ref="#rubens_peter_paul">Petro Paulo
+                    </index> (beneffens Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo
                         Rubbens</rs>, riddere daar voire hij hem midts desen sterckmaekt) over de
-                    kinderen van wijlen <rs type="person" ref="#brueghel_jan_aeltere">Jan
+                    kinderen van wijlen <rs type="person" ref="../register/register-person.xml#brueghel_jan_aeltere">Jan
                         Bruegel</rs><index indexName="psw">
                         <term type="PND">Breughel, Jan (der Ältere)</term>
-                    </index>, daer moeder aff was Juffrouwe <rs type="person"
-                        ref="#marienberghe_catharina">Catharina van Marienberge</rs>, bekende midts
-                    desen opgebeurt ende ontfangen te hebben van <rs type="person"
-                        ref="#smeesters_elisabeth">Elisabeth Smeesters</rs>, jonge dochter, de
+                    </index>, daer moeder aff was Juffrouwe <rs type="person" ref="../register/register-person.xml#marienberghe_catharina">Catharina van Marienberge</rs>, bekende midts
+                    desen opgebeurt ende ontfangen te hebben van <rs type="person" ref="../register/register-person.xml#smeesters_elisabeth">Elisabeth Smeesters</rs>, jonge dochter, de
                     capitale penninge vande sessenvijftig gulden ende vijff stuyvers erfelijk,
-                    quytbare den penninge sesthiene die huns van voor de cooper werckelick de <date
-                        when="1630-02-16">16 Februari anno 16<hi rend="super">c</hi> ende
+                    quytbare den penninge sesthiene die huns van voor de cooper werckelick de <date when="1630-02-16">16 Februari anno 16<hi rend="super">c</hi> ende
                     dertig</date> vercocht ende bepant heeft der voors. kinderen Jans Bruegel op een
                     huys metten gronde ende toebehoirte gestaen ende gelegen in ’t Beddestraatken
                     alhie naast den hoeckhuyse genaemt De Swaene<index indexName="stw">
@@ -98,7 +93,7 @@
                     aende affquytinge voors. hoc promisit de voors. heer comparant satisfacere ende
                     obligavit specialyck een rente van twee hondert ende vijvenseventich guldens
                     erfelijk gereduceerde rente, die de voorscreven heffende sijn op dese stadt van
-                        <rs type="place" ref="#antwerpen">Antwerpen</rs> staende te boeken sub Nr
+                        <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> staende te boeken sub Nr
                         2150,</p> <closer>
                             <salute>sonder argelist.</salute><lb/>
                     <dateline><date when="1637-11-12">Duodecim Novembris 1637</date>.<lb/> Solutum 24 st., P. 3 st. </dateline>

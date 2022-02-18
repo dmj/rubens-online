@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_018">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_018"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,10 +10,17 @@
                 <p>HAB</p>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-r-50">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -69,8 +68,7 @@
                             <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
                                 Schilderschool. Antwerpen 1883. S. 486 <ptr type="gbv" cRef="194552292"/></bibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 395<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 395<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Michael Jaffé: Rubens – Catalogo completo. Milano 1989. S. 167 und
                                 309. <ptr type="gbv" cRef="022373535"/></bibl>
                         </listBibl>
@@ -93,16 +91,15 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p><rs type="person" ref="#haecht_jacob">Jacob van Haecht</rs>, de somme van hondert
+                <p><rs type="person" ref="../register/register-person.xml#haecht_jacob">Jacob van Haecht</rs>, de somme van hondert
                     tweendertich ponden artois, ter saecken van een groote lijste tot de schilderije
-                    de <rs type="work" ref="#jaffe_948">Drije Coninghen</rs><index indexName="stw">
+                    de <rs type="work" ref="../register/register-work.xml#jaffe_948">Drije Coninghen</rs><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term xml:lang="deu">Anbetung der Könige</term></index>
                     </index><note resp="A.H." type="footnote">Das 1609 entstandene Gemälde wurde 1629
                         von Rubens selbst erweitert und ausführlich retuschiert. Vgl. hierzu
                             <bibl>Michael Jaffé: Rubens – Catalogo completo. Milano 1989. S. 167 und
                             309. <ptr type="gbv" cRef="022373535"/></bibl></note> ende een panneeel
-                    ende binnenlijste tot de voorschreve schilderije <rs type="work"
-                        ref="#janssens_scaldis">Schaldis</rs><index indexName="psw">
+                    ende binnenlijste tot de voorschreve schilderije <rs type="work" ref="../register/register-work.xml#janssens_scaldis">Schaldis</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Janssens van Nuyssen, Abraham</term><index indexName="stw">
                         <term xml:lang="deu">Scaldis und Antwerpia</term>
                     </index>

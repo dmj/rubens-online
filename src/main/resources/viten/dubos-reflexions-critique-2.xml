@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_337">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_337"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,14 +12,20 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:id="dubos-reflexions-critique-2" xml:lang="deu">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:id="dubos-reflexions-critique-2" xml:lang="deu">
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Wolfenbüttel</settlement>
                         <repository>Herzog August Bibliothek</repository>
-                        <idno facs="http://diglib.hab.de/drucke/lm-1160-2b/start.htm?image=00005"
-                            type="signatur">M: Lm 1160:2</idno>
+                        <idno facs="http://diglib.hab.de/drucke/lm-1160-2b/start.htm?image=00005" type="signatur">M: Lm 1160:2</idno>
                     </msIdentifier>
                     <head rend="text-align:center">
                         <title>Jean Baptiste Dubos: Reflexions Critiques Sur La Poesie Et Sur La
@@ -47,8 +42,7 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>Jean Baptiste Dubos: Reflexions Critiques Sur La Poesie Et Sur La
-                                Peinture. Bd. 2. Utrecht: Etienne Neaulme, 1732. <ptr type="opac"
-                                    cRef="133469956"/></bibl>
+                                Peinture. Bd. 2. Utrecht: Etienne Neaulme, 1732. <ptr type="opac" cRef="133469956"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -79,8 +73,7 @@
 
             <div type="contents" xml:lang="fra">
                 <index indexName="fsw">
-                    <term type="structure" target="#contents" xml:lang="deu"
-                    >Inhaltsverzeichnis</term>
+                    <term type="structure" target="#contents" xml:lang="deu">Inhaltsverzeichnis</term>
                 </index>
                 <head rend="text-align:center"><pb facs="00007"/> TABLE<term/> DES MATIERES<term/>
                     TOME SECOND.</head>
@@ -379,8 +372,7 @@
                         du Peintre ou du Poëte: c'est à l'invention des idées &amp; des images
                         propres à nous émouvoir qu'on distingue le grand Artisan du simple
                         manoeuvre, qui souvent est plus habile ouvrier que lui dans l'exécution. Les
-                        plus grands Versificateurs ne sont pas les plus grands Poë<pb facs="00013"
-                            n="3"/>tes, comme les Dessinateurs les plus Reguliers ne sont pas les
+                        plus grands Versificateurs ne sont pas les plus grands Poë<pb facs="00013" n="3"/>tes, comme les Dessinateurs les plus Reguliers ne sont pas les
                         plus grands Peintres. </p>
                     <p>On n'examine pas long-tems les Ouvrages des grands Maîtres, sans
                         s'appercevoir qu'ils n'ont pas regardé la regularité &amp; les beautés
@@ -409,8 +401,7 @@
                         pratique les maximes succintes &amp; les preceptes trop généraux de ces
                         regles. Soyez toujours pathétiques, disent-elles, &amp; ne laissez
                         jamais languir vos spectateurs ni vos auditeurs. Voilà de grandes maximes,
-                        mais l'homme né sans genie n'entend rien au précepte qu'elles renferment,<pb
-                            facs="00014" n="4"/>&amp; le genie le plus heureux ne devient pas
+                        mais l'homme né sans genie n'entend rien au précepte qu'elles renferment,<pb facs="00014" n="4"/>&amp; le genie le plus heureux ne devient pas
                         même capable en un jour de les bien appliquer. Il convient donc de traiter
                         ici du genie &amp; des études qui forment les Peintres &amp; les
                         Poëtes. </p>
@@ -500,8 +491,7 @@
                         avec les autres, un échange de talens &amp; d'industrie, comme elles
                         font échange des fruits differens de leurs pays, afin qu'elles se
                         recherchassent reciproquement, par le même motif qui fait que les
-                        particuliers se joignent ensemble pour composer un mê<pb facs="00017" n="7"
-                        />me peuple: le desir d'être bien ou l'envie d'être mieux. </p>
+                        particuliers se joignent ensemble pour composer un mê<pb facs="00017" n="7"/>me peuple: le desir d'être bien ou l'envie d'être mieux. </p>
                     <p>De la difference des genies naît la diversité des inclinations des hommes,
                         que la nature a pris soin de porter aux emplois, pour lesquels elle les
                         destine, avec plus ou moins d'impétuosité, suivant qu'ils doivent avoir plus
@@ -527,8 +517,7 @@
                         voudroient s'en instruire &amp; perfectionner par des lumieres acquises,
                         cet instinct naturel qui nous fait faire le discernement des hommes, peuvent
                         lire l'Examen des esprits par Huarté, &amp; le Portrait du caractere des
-                        Hommes, des Siecles &amp; des Nations, par Barclai. On<pb facs="00018"
-                            n="8"/>peut profiter beaucoup dans la lecture de ces Ouvrages,
+                        Hommes, des Siecles &amp; des Nations, par Barclai. On<pb facs="00018" n="8"/>peut profiter beaucoup dans la lecture de ces Ouvrages,
                         quoiqu'ils ne méritent pas toute la confiance du Lecteur: je ne dois parler
                         ici que du genie qui fait le Peintre &amp; le Poëte. </p>
                 </div>
@@ -593,8 +582,7 @@
                         l'imperfection de cette science; où il faut toujours déviner. Mais les faits
                         que j'explique sont certains; &amp; ces faits suffisent, quoique nous
                         n'en concevions pas bien la raison, pour appuyer mon systême. J'imagine donc
-                        que cet assemblage heureux est, physiquement parlant; cette divi<pb
-                            facs="00020" n="10"/>nité que les Poëtes disent être dans leur sein pour
+                        que cet assemblage heureux est, physiquement parlant; cette divi<pb facs="00020" n="10"/>nité que les Poëtes disent être dans leur sein pour
                         les animer. </p>
                     <p><note place="margin-left">Ovid. Fast. lib. 1.</note> Est Deus in nobis agitante calescimus
                         illo,<lb/> Impetus hic, sacrae semina mentis habet. </p>
@@ -625,8 +613,7 @@
                         qui n'apportent point dans la société l'yvresse du Parnasse. </p>
                     <p>L'experience prouve suffisament que tous les hommes ne naissent pas avec un
                         genie propre à les rendre Peintres ou Poëtes. Nous en voyons qu'un travail
-                        continué durant plusieurs années, plutôt avec<pb facs="00021" n="11"
-                        />obstination qu'avec perseverance, ne sçauroit éléver au-dessus du rang de
+                        continué durant plusieurs années, plutôt avec<pb facs="00021" n="11"/>obstination qu'avec perseverance, ne sçauroit éléver au-dessus du rang de
                         simples versificateurs. Nous avons vû de même des hommes d'esprit, qui
                         avoient copié plusieurs fois ce que la peinture a produit de plus sublime,
                         vieillir le pinceau &amp; la palette à la main, sans s'élever au-dessus
@@ -685,16 +672,14 @@
                         qualité que la graine qui lui fut <note place="margin-left">Epist. 31.</note> confiée. Eadem
                         praeceptorum ratio quae seminum: multum efficiunt, &amp; si angusta
                         sint, tantum, ut dixi, idonea mens accipiat illa, &amp; in se trahat:
-                        Multa invicem generabit, &amp; plus prestes quàm acceperit.<pb
-                            facs="00023" n="13"/>Combien d'hommes illustres en toutes sortes de
+                        Multa invicem generabit, &amp; plus prestes quàm acceperit.<pb facs="00023" n="13"/>Combien d'hommes illustres en toutes sortes de
                         professions, ont appris les premiers élémens des professions qui les ont
                         rendus si celebres, de Maîtres qui n'acquirent jamais d'autre réputation que
                         celle de les avoir eu pour Eleves. </p>
                     <p>Ainsi Raphaël instruit par un Peintre mediocre, mais soutenu par son genie,
                         s'éléva fort au-dessus de son Maître, après quelques années de travail. Il
                         n'avoit eu besoin des enseignemens de Pierre Perugin que pour apprendre
-                        comment il falloit étudier. Il en a été de même d'Annibal Carache, de <rs
-                            type="person" ref="#rubens_peter_paul">Rubens</rs>, du Poussin, de le
+                        comment il falloit étudier. Il en a été de même d'Annibal Carache, de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>, du Poussin, de le
                         Brun, &amp; des autres Peintres dont nous admirons le genie. </p>
                     <p>Quant aux Poëtes, les principes de la pratique de leur Art sont si faciles à
                         comprendre, &amp; à mettre en oeuvre, qu'ils n'ont pas même besoin d'un
@@ -755,8 +740,7 @@
                         Guide étoit fils d'un Musicien. Le Dominiquin d'un Cordonnier, &amp;
                         l'Albane d'un Marchand de soye. Lanfranc étoit un enfant trouvé, à qui son
                         genie enseigna la Peinture, à peu prés comme le genie de M. Pascal lui
-                        enseigna les Mathématiques. Le Pere de <rs type="person"
-                            ref="#rubens_peter_paul">Rubens</rs>, qui étoit dans la Magistrature
+                        enseigna les Mathématiques. Le Pere de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>, qui étoit dans la Magistrature
                         d'Anvers, n'avoit ni attelier ni boutique dans sa maison. Le Pere de Vandick
                         n'étoit ni Peintre ni Sculpteur. Du Fresnoy, dont nous avons un poëme sur la
                         Peinture, qui a merité d'être traduit &amp; commenté par M. de Piles,
@@ -905,8 +889,7 @@
                         suppose que tous les génies remplissent leur vocation. Vous ignorez,
                         ajoutera-t-on, que les besoins de la vie asservissent la plûpart des hommes
                         à la condition dans laquelle ils ont été élevés dès l'enfance. La misére de
-                        ces conditions doit étouffer un grand nombre de génies,<pb facs="00030"
-                            n="20"/>qui se seroient distingués s'ils fussent nés dans des conditions
+                        ces conditions doit étouffer un grand nombre de génies,<pb facs="00030" n="20"/>qui se seroient distingués s'ils fussent nés dans des conditions
                         plus relevées. </p>
                     <p><note place="margin-left">Plaut. Captiv. Act. prim.</note> Ut saepè somma ingenia in oculto
                         latent,<lb/> Hîc qualis Imperator; nunc privatus est. </p>
@@ -1176,8 +1159,7 @@
                         se trompe dans l'idée qu'il donne de la fortune du Correge, &amp; sur
                         tout dans le récit qu'il fait des circonstances de sa mort. Le Correge qui
                         n'étoit pas encore sorti de son état, quoi qu'il fut déja un grand Peintre,
-                        étoit si rempli de ce qu'il entendoit dire de Raphaël, que<pb facs="00039"
-                            n="29"/>les Princes combloient à l'envi de présens &amp; d'honneurs,
+                        étoit si rempli de ce qu'il entendoit dire de Raphaël, que<pb facs="00039" n="29"/>les Princes combloient à l'envi de présens &amp; d'honneurs,
                         qu'il s'étoit imaginé qu'il falloit que l'Artisan, qui faisoit une si grande
                         figure dans le monde, fût d'un mérite bien supérieur au sien qui ne l'avoit
                         pas encore tiré de l'indigence. En homme sans expérience du monde, il
@@ -1326,8 +1308,7 @@
                         &amp; que les indifferens ne les entendent qu'après avoir été informés
                         que tels &amp; tels les ont approuvés. La prévention que ces
                         applaudissemens inspirent, en impose du moins durant quelque tems. </p>
-                    <p>Si notre Artisan imitateur manque; de sens, il<pb facs="00044" n="34"
-                        />employe hors de propos les traits &amp; les expressions de son modéle,
+                    <p>Si notre Artisan imitateur manque; de sens, il<pb facs="00044" n="34"/>employe hors de propos les traits &amp; les expressions de son modéle,
                         &amp; ses vers ne nous offrent que des reminiscences mal placées: il se
                         conduit dans la production de ses ouvrages comme dans leur composition: il
                         affronte le public rassemblé avec plus d'intrepidité que Racine &amp;
@@ -1354,8 +1335,7 @@
                         maître, il ne sauroit faire dans son école les mêmes progrès qu'un homme de
                         génie fait dans l'école d'un maître médiocre. Celui qui enseigne, comme le
                         dit Quintilien, ne sauroit communiquer à son disciple le talent de produire
-                        &amp; l'art d'inventer, qui font le plus grand mérite des Pein<pb
-                            facs="00045" n="35"/>tres &amp; des Orateurs. Ea quae in oratore
+                        &amp; l'art d'inventer, qui font le plus grand mérite des Pein<pb facs="00045" n="35"/>tres &amp; des Orateurs. Ea quae in oratore
                         maxima sunt, imitabilia non sunt. Ingenium, inventio, vis, facilitas
                         &amp; quidquid arte non traditur. Le Peintre peut donc faire part des
                         secrets de sa pratique, mais il ne sauroit faire part de ses talens pour la
@@ -1481,7 +1461,7 @@
                     <p><pb facs="00049" n="39"/> On peut mettre en quelque façon Teniers au nombres
                         des Peintres dont je parle, quoiqu'il fut né en Brabant, parce que son génie
                         la déterminé à travailler plutôt dans le goût des Peintres Hollandois que
-                        dans le goût de <rs type="person" ref="#rubens_peter_paul">Rubens</rs>
+                        dans le goût de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>
                         &amp; de Vandick ses compatriotes, &amp; même ses contemporains.
                         Aucun Peintre n'a mieux réussi que Teniers dans les sujets bas: son pinceau
                         étoit excellent. Il entendoit très bien le clair-obscur, &amp; il a
@@ -1507,8 +1487,7 @@
                         la nature ne sauroit gueres donner un talent éminent à un homme, que ce ne
                         soit à l'exclusion des autres talens. Ainsi loin d'être surpris que M. de la
                         Fontaine ait fait de mauvaises Comédies, il faudroit s'étonner s'il en avoit
-                        fait d'excellentes. Si le Poussin eut colorié aussi<pb facs="00050" n="40"
-                        />aussi bien que le Bassan, il ne seroit pas moins admirable parmi les
+                        fait d'excellentes. Si le Poussin eut colorié aussi<pb facs="00050" n="40"/>aussi bien que le Bassan, il ne seroit pas moins admirable parmi les
                         Peintres, que Jules César l'est parmi les Héros. C'est celui de tous les
                         hommes qui feroit le plus d'honneur à l'humanité, s'il avoit été juste. </p>
                     <p>Il est donc également important aux nobles Artisans, dont je parle, de
@@ -1566,8 +1545,7 @@
                         n'acquiert gueres en étudiant les ouvrages des autres, le talent
                             <note place="margin-right">Essiis liv. 1. Ch. 5.</note> qu'ils avoient pour l'invention.
                         L'imitation du par ler suit incontinent. L'imitation de juger &amp; de
-                        l'inventer ne va pas si viste. La force &amp; les nerfs ne<pb
-                            facs="00052" n="42"/>s'empruntent point. Les atours &amp; le manteau
+                        l'inventer ne va pas si viste. La force &amp; les nerfs ne<pb facs="00052" n="42"/>s'empruntent point. Les atours &amp; le manteau
                         s'empruntent. </p>
                     <p>Les leçons d'un maître de musique habile développent nos organes, &amp;
                         nous apprennent à chanter méthodiquement; mais ces leçons ne peuvent changer
@@ -1710,7 +1688,7 @@
                         statues, avant que de les faire agir comme l'a fait Raphaël qui semble,
                         nouveau Promethée, avoir dérobé le feu celeste pour les animer. Je renvoie
                         ceux qui voudront avoir des éclaircissemens sur cette matiere à l'écrit
-                        latin de <rs type="person" ref="#rubens_peter_paul">Rubens</rs>, touchant
+                        latin de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>, touchant
                         l'imitation des statues antiques. Qu'il seroit à souhaiter que ce puissant
                         genie eût toujours pratiqué dans ses ouvrages les leçons qu'il donne dans
                         cet écrit. </p>
@@ -1777,8 +1755,7 @@
                         l'avoit traitée. Racine n'auroit pû se soutenir, si pour me servir de cette
                         expression, il avoir continué de marcher avec les brodequins de son
                         devancier. Il est donc naturel que les jeunes Poëtes, qui, au lieu d'imiter
-                        la nature du côté que le génie la leur montre, l'imitent<pb facs="00059"
-                            n="49"/>du côté par lequel les autres l'ont imitée, qui forcent leur
+                        la nature du côté que le génie la leur montre, l'imitent<pb facs="00059" n="49"/>du côté par lequel les autres l'ont imitée, qui forcent leur
                         talent, &amp; le veulent assujettir à tenir la même route qu'un autre
                         tient avec succés, ne fassent d'abord que des ouvrages médiocres. Ce sont
                         des aînés indignes ordinairement de leurs cadets. </p>
@@ -1901,8 +1878,7 @@
                         peine durant ces années, toutes les habitudes dont leur prémiere
                         conformation les rend susceptibles. Mais si l'on perd ces années pretieuses,
                         si l'on les laisse écouler sans les mettre à profit, la docilité des organes
-                        se passe sans que tous nos efforts puissent jamais la rappel<pb facs="00063"
-                            n="53"/>ler. Quoique notre langue soit une organe bien plus souple que
+                        se passe sans que tous nos efforts puissent jamais la rappel<pb facs="00063" n="53"/>ler. Quoique notre langue soit une organe bien plus souple que
                         notre main; cependant nous prononçons toujours mal une langue étrangere, que
                         nous apprenons après trente ans. </p>
                     <p>Malheureusement pour nous ces années si pretieuses sont celles où nous sommes
@@ -2070,8 +2046,7 @@
                         est,<lb/> Promittunt Medici, tractant fabrilia fabri.<lb/> Scribimus indocti
                         doctique Poëmata. </p>
                     <p>Les versificateurs les plus ineptes, sont même ceux qui composent le plus
-                        courament. Delà naissent tant d'ouvrages ennuyeux qui font prendre en mau<pb
-                            facs="00069" n="59"/>vaise part le nom de Poëte, &amp; qui empêchent
+                        courament. Delà naissent tant d'ouvrages ennuyeux qui font prendre en mau<pb facs="00069" n="59"/>vaise part le nom de Poëte, &amp; qui empêchent
                         que personne veuille s'honorer d'un si beau titre. </p>
                     <p>Il me souvient de ce que dit Monsieur Despreaux à Monsieur Racine touchant la
                         facilité de faire des vers. Ce dernier venoit de donner sa Tragédie
@@ -2192,8 +2167,7 @@
                     <p>Il est naturel que les grands génies atteignent le point de leur perfection
                         un peu plus tard que les génies moins élevés &amp; moins étendus. Les
                         grands génies sont comme ces arbres qui portent des fruits excellens,
-                        &amp; qui dans le printems poussent à peine<pb facs="00073" n="63"
-                        />quelques feuilles, lorsque les autres arbres sont déja tous couverts de
+                        &amp; qui dans le printems poussent à peine<pb facs="00073" n="63"/>quelques feuilles, lorsque les autres arbres sont déja tous couverts de
                         leur feuillage. Quintilien, que sa profession obligeoit d'étudier le
                         caractere des enfans, parle avec un sens merveilleux sur ce qu'on appelle
                         communement des esprits tardifs &amp; des esprits précoces. Si le corps,
@@ -2283,8 +2257,7 @@
                         bien que ces Maîtres fassent moins de fautes <note place="margin-right">Plin. Epist.</note>
                         qu'eux. Sed &amp; his non labentibus nulla laus, illis non nulla laus
                         etiam si labantur. Quand le Guide &amp; le Dominiquin eurent fait chacun
-                        leur tableau dans une petite Eglise dédiée à Saint André, &amp; bâtie<pb
-                            facs="00076" n="66"/>dans le jardin du Monastere de Saint Grégoire Au
+                        leur tableau dans une petite Eglise dédiée à Saint André, &amp; bâtie<pb facs="00076" n="66"/>dans le jardin du Monastere de Saint Grégoire Au
                         Mont Coelius. Annibal Carache leur Maître fut pressé de prononcer qui de ses
                         deux Eléves méritoit le <note place="margin-left">Le Dominiquin a repeté ce sujet à S. Audré de
                             la Val.</note> prix. Le tableau du Guide réprésente Saint André à genoux
@@ -2313,8 +2286,7 @@
                         édition posthume de ses ouvrages disent le contraire; mais dattes souvent
                         dementies même par la piéce de poësie, à la tête de laquelle on les a
                         placées, ne me paroissent d'aucun poids. Raphaël avoit près de trente ans
-                        lors qu'il fit connoître la noblesse &amp; la sublimité de son génie<pb
-                            facs="00077" n="67"/>dans le Vatican. C'est-là qu'on voit ses prémiers
+                        lors qu'il fit connoître la noblesse &amp; la sublimité de son génie<pb facs="00077" n="67"/>dans le Vatican. C'est-là qu'on voit ses prémiers
                         ouvrages, dignes du grand nom qu'il a présentement. </p>
                 </div>
 
@@ -2344,8 +2316,7 @@
                         grandes compositions de ces deux Peintres, &amp; qui s'avisât jamais de
                         les mettre en paralelle! Quoique la présomption soit familiere aux Peintres
                         presqu'autant qu'aux Poëtes, Carle Maratte lui-même ne s'est pas cru digne
-                        de mêler son Pinceau avec celui de Raphaël. Peu de tems avant<pb
-                            facs="00078" n="68"/>la derniere année Sainte on voulut faire racommoder
+                        de mêler son Pinceau avec celui de Raphaël. Peu de tems avant<pb facs="00078" n="68"/>la derniere année Sainte on voulut faire racommoder
                         le Plafond du Salon de ce Palais, qu'on appelle à Rome le petit Farnese.
                         C'est la maison bâtie par le Chigi qui vivoit sous le Pontificat de Leon X.
                         Les Peintures que ce Chigi fit faire dans cette maison par Raphaël ont rendu
@@ -2373,12 +2344,11 @@
                         Pastiches, ce sont ces tableaux peints dans la maniere d'un grand Artisan
                         &amp; qu'on expose sous son nom, bien qu'il ne les ait jamais vûs; les
                         faiseurs de Pastiches, dis-je, ne sauroient contrefaire l'ordonnance, le
-                        coloris ni l'expression des grands Maîtres. On imite<pb facs="00079" n="69"
-                        />la main d'un autre, mais on n'imite pas de même son esprit, &amp; l'on
+                        coloris ni l'expression des grands Maîtres. On imite<pb facs="00079" n="69"/>la main d'un autre, mais on n'imite pas de même son esprit, &amp; l'on
                         n'aprend point à penser comme un autre, ainsi qu'on peut apprendre à
                         prononcer comme lui. </p>
                     <p>Le Peintre médiocre qui voudroit contrefaire une grande composition du
-                        Dominiquin ou de <rs type="person" ref="#rubens_peter_paul">Rubens</rs>, ne
+                        Dominiquin ou de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>, ne
                         sauroit imposer non plus que celui qui voudroit faire un Pastiche sous le
                         nom du Georgeon ou du Titien. Il faudroit avoir un génie presque égal à
                         celui du Peintre qu'on veut contrefaire, pour réussir à faire prendre notre
@@ -2391,8 +2361,7 @@
                         ses têtes trop plates. Ses têtes manquent souvent de rondeur, parce que
                         leurs parties ne se détachent point &amp; ne s'élevent pas assés l'une
                         sur l'autre. Le Peintre qui voudroit faire une tête dans le dernier goût du
-                        Guide s'y prendroit mal, s'il lui donnoit la rondeur d'une tête de <rs
-                            type="person" ref="#rubens_peter_paul">Rubens</rs>. </p>
+                        Guide s'y prendroit mal, s'il lui donnoit la rondeur d'une tête de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>. </p>
                     <p>Jordan le Neapolitain, que ses compatriotes appelloient Il fa presto, ou le
                         depêche besogne, étoit auprès Teniers un des grands faiseurs de Pastiche,
                         qui jamais ait tendu des pieges aux curieux. Fier d'avoir contrefait avec
@@ -2403,8 +2372,7 @@
                         Grillo, qui paya le faussaire mieux que les grands maîtres, dont il se
                         faisoit le singe, n'avoient été payés dans leur tems. On est surpris en
                         voyant ces Tableaux, mais c'est qu'un Peintre qui ne manquoit pas de talens
-                        ait si mal placé ses veilles, &amp; qu'un Sei<pb facs="00080" n="70"
-                        />gneur Gennois ait fait un si mauvais usage de son argent. </p>
+                        ait si mal placé ses veilles, &amp; qu'un Sei<pb facs="00080" n="70"/>gneur Gennois ait fait un si mauvais usage de son argent. </p>
                     <p>La même chose est véritable en Poësie. Un homme sans génie, mais qui a lû
                         beaucoup de vers, peut bien, en arrangeant ses reminiscences avec
                         discernement, composer une Epigramme qui ressemblera si bien à celles de
@@ -2518,8 +2486,7 @@
                         peu près à la valeur qu'ils ont dans le monde. Les hommes qui ne sont ni
                         Souverains ni Ministres, ni trop proches parents des uns &amp; des
                         autres, ont des occasions si fréquentes de connoître ce qu'ils valent
-                        véritablement, qu'il faut bien qu'ils s'en doutent à la fin, à moins que<pb
-                            facs="00084" n="74"/>d'être pleinement stupides. On ne s'applaudit pas
+                        véritablement, qu'il faut bien qu'ils s'en doutent à la fin, à moins que<pb facs="00084" n="74"/>d'être pleinement stupides. On ne s'applaudit pas
                         seul durant long-tems, &amp; Cotin ne pouvoit pas ignorer que ses vers
                         ne fussent hués du public. Cette hauteur de bonne opinion que montrent les
                         Poëtes médiocres, est souvent affectée. Il ne pensent pas tout le bien
@@ -2576,8 +2543,7 @@
                         Grecs, par la surprise ou Tite-Live nous dit qu'ils tomberent quand ils
                         virent les armes meurtrieres des Romains, &amp; leur acharnement dans la
                         mêlée. Cette surprise fût égale à l'étonnement que les Italiens eurent quand
-                        ils virent la maniere dont les François faisoient la guerre lors<pb
-                            facs="00086" n="76"/>de l'expedition de notre Roi Charles VIII. au
+                        ils virent la maniere dont les François faisoient la guerre lors<pb facs="00086" n="76"/>de l'expedition de notre Roi Charles VIII. au
                         Royaume de Naples. </p>
                     <p>L'aisance devoit être naturellement très-grande pour les Citoyens de toute
                         condition durant les jours heureux de la Grece. La société étoit alors
@@ -2637,8 +2603,7 @@
                         louanges. </p>
                     <p><note place="margin-right">Horat. de Arte.</note> Grajis ingenium, Grajis dedit ore rotondo<lb/>
                         Musa loqui, praeter laudem nullius avaris. </p>
-                    <p>Si l'on considére qu'elle étoit la situation de Rome<pb facs="00088" n="78"
-                        />quand Virgile, Pollion, Varius, Horace, Tibulle &amp; leurs
+                    <p>Si l'on considére qu'elle étoit la situation de Rome<pb facs="00088" n="78"/>quand Virgile, Pollion, Varius, Horace, Tibulle &amp; leurs
                         contemporains firent tant d'honneur à la Poësie, on verra que de leur tems
                         cette Ville étoit la capitale florissante du plus grand &amp; du plus
                         heureux Empire qui fut jamais. Rome tranquille goûtoit, après plusieurs
@@ -2667,8 +2632,7 @@
                         crainte perpetuelle d'être enlevé par les bandits du scelerat qui s'étoit
                         établi, &amp; comme on le disoit alors, qui s'étoit fait fort dans un
                         Château si l'on alloit à la campagne, ou l'appréhension de voir le feu mis à
-                        sa maison dans une émeute populaire. Les guerres qui se saisoient alors<pb
-                            facs="00089" n="79"/>semblables à le grêle, ne venoient que par
+                        sa maison dans une émeute populaire. Les guerres qui se saisoient alors<pb facs="00089" n="79"/>semblables à le grêle, ne venoient que par
                         bouffées, &amp; comme ce fleau elles ne ravageoient qu'une langue de
                         pays. L'art d'épuiser les Provinces pour faire subsister les Armées sur une
                         frontiere; cet art pernicieux qui éternise les querelles des Souverains
@@ -2854,8 +2818,7 @@
                         professions. Il a même donné de bons Musiciens &amp; d'excellens Poëtes,
                         mais il n'a point produit de Peintres qui tiennent parmi les Peintres
                         célébres le même rang que les Philosophes, les Savans, les Poëtes &amp;
-                        les autres Anglois illustres tiennent parmi<pb facs="00095" n="85"
-                            /><note place="margin-right">Cooper. Obson. <unclear reason="faded">Rie</unclear>.</note>
+                        les autres Anglois illustres tiennent parmi<pb facs="00095" n="85"/><note place="margin-right">Cooper. Obson. <unclear reason="faded">Rie</unclear>.</note>
                         ceux des autres nations qui se sont distingués dans la même profession
                         qu'eux. Les Peintres Anglois se reduisent à trois faiseurs de portrait. </p>
                     <p>Les Peintres qui fleurirent en Angleterre sous Henri VIII. &amp; sous
@@ -2884,8 +2847,7 @@
                         &amp; aussi épris des charmes de la Peinture qu'aucun Pape l'ait jamais
                         été; cependant cette nation si fertile en grands Personnages &amp; même
                         en grands Poëtes, tant en vers qu'en prose, n'a point eu de Peintre de la
-                        prémiere classe, à peine compte-on deux Espagnols de la se<pb facs="00096"
-                            n="86"/>conde. Charles-Quint, Philippe II. Philippe IV. &amp;
+                        prémiere classe, à peine compte-on deux Espagnols de la se<pb facs="00096" n="86"/>conde. Charles-Quint, Philippe II. Philippe IV. &amp;
                         Charles II. ont été obligés d'employer, pour travailler à l'Escurial
                         &amp; ailleurs, des Peintres étrangers. </p>
                     <p>Les arts liberaux ne sont jamais sortis d'Europe que pour se promener, s'il
@@ -3003,8 +2965,7 @@
                         Mexique plusieurs Coupoles peintes par des Artisans Indiens. </p>
                     <p>Les Chinois si curieux des Peintures de leur pays, ont peu de goût pour les
                         tableaux d'Europe, où, disent-ils, on voit trop de taches noires. C'est
-                        ainsi qu'ils appellent les ombres. Après avoir fait reflexion<pb
-                            facs="00100" n="90"/>sur toutes les choses que je viens d'alleguer,
+                        ainsi qu'ils appellent les ombres. Après avoir fait reflexion<pb facs="00100" n="90"/>sur toutes les choses que je viens d'alleguer,
                         &amp; sur plusieurs autres connues généralement &amp; qui prouvent
                         notre proposition, on ne sauroit s'empêcher d'être de l'opinion de Monsieur
                         de Fontenelle, qui dit, en parlant des lumieres &amp; du tour d'esprit
@@ -3064,8 +3025,7 @@
                         profusion il payoit les tableaux qu'il faisoit faire à Raphaël. Ses
                         liberalités &amp; son accueil attirerent les Peintres en France; mais
                         bien que continuées durant un regne de 33. ans elles ne purent y fixer l'art
-                        de la Peinture dans son lustre. Les Peintres qui s'établirent<pb
-                            facs="00102" n="92"/>lors en France moururent sans Eleves, du moins qui
+                        de la Peinture dans son lustre. Les Peintres qui s'établirent<pb facs="00102" n="92"/>lors en France moururent sans Eleves, du moins qui
                         fussent dignes d'eux, ainsi que ces oyseaux qu'on transporte sous un climat
                         trop different du leur, meurent sans laisser race. </p>
                     <p>Ce Roi genereux n'aima pas moins la Poësie que la Peinture, &amp; lui
@@ -3121,8 +3081,7 @@
                         d'avoir voulu parler Grec &amp; Latin avec des mots François, </p>
                     <p>Le feu Roi a fait des établissements aussi judicieux &amp; aussi
                         magnifiques que les Romains les auroient pu faire en faveur des arts qui
-                        relevent du dessein. Afin de donner aux jeunes gens nés avec<pb facs="00104"
-                            n="94"/>le génie de la Peinture toutes les facilités imaginables pour
+                        relevent du dessein. Afin de donner aux jeunes gens nés avec<pb facs="00104" n="94"/>le génie de la Peinture toutes les facilités imaginables pour
                         perfectionner leurs talens, ils a fondé pour eux une Academie dans Rome. Il
                         leur a établi un domicile dans la patrie des beaux arts. Les Eleves, qui
                         jettent quelque lueur de génie, y sont entretenus assez long-tems pour avoir
@@ -3149,8 +3108,7 @@
                     <p>Les soins somptueux de Louis XIV. ne réussirent donc qu'à former une grande
                         quantité de Sculpteurs excellents. Comme on est bon Sculpteur quand on sait
                         faire de belles Statues, &amp; comme il n'est pas necessaire pour
-                        mériter ce titre d'avoir mis au jour de ces grands ouvrages dont nous<pb
-                            facs="00105" n="95"/>avons parlé dans la premiére partie de nos
+                        mériter ce titre d'avoir mis au jour de ces grands ouvrages dont nous<pb facs="00105" n="95"/>avons parlé dans la premiére partie de nos
                         Réflexions, l'on peut dire que la Sculpture ne démande point autant de génie
                         que la Peinture. Le Souverain, qui ne sauroit trouver une certaine quantité
                         de jeunes gens qui puissent, à l'aide des moyens qu'il leur donne, devenir
@@ -3179,8 +3137,7 @@
                         fussent en Italie présenterent un modelle, &amp; ces modelles ayant été
                         exposés, il fut decidé sur la voix publique que celui de Théodon, alors
                         Sculpteur de la Fabrique de saint Pierre, &amp; celui de le Gros, tous
-                        deux François, étoient les meilleurs. Ils firent les deux<pb facs="00106"
-                            n="96"/>Groupes qui sont cités aujourd'hui parmi les chef-d'oeuvres de
+                        deux François, étoient les meilleurs. Ils firent les deux<pb facs="00106" n="96"/>Groupes qui sont cités aujourd'hui parmi les chef-d'oeuvres de
                         la Rome moderne. La balustrade de bronze qui renferme cet Autel, laquelle
                         est composée d'Anges qui se jouént dans des seps de vigne mêlés d'épics de
                         bleds, est encore l'ouvrage d'un Sculpteur François. Les cinq meilleurs
@@ -3301,8 +3258,7 @@
                         faits avant Raphaël. Le second tableau, que son inscription apprend avoir
                         été fait en mil cinq cens vingt &amp; un, &amp; qui réprésente une
                         Descente de Croix, est dans le bon goût. Holbeins avoit vû de nouveaux
-                        tableaux &amp; il en avoit profité, ainsi que Raphaël prosita en<pb
-                            facs="00110" n="100"/>voyant l'ouvrage de Michël Ange. Le retable
+                        tableaux &amp; il en avoit profité, ainsi que Raphaël prosita en<pb facs="00110" n="100"/>voyant l'ouvrage de Michël Ange. Le retable
                         d'Autel, qui réprésente en huit tableaux separés les principaux évenemens de
                         la Passion, &amp; que l'on conserve à l'Hôtel de Ville de Bâle, doit
                         avoir été peint par Holbeins avant l'abolition du Culte de la Religion
@@ -3330,8 +3286,7 @@
                         recommandable que par la mécanique &amp; par l'arrangement harmonieux
                         des mots pour lequel il avoit un talent merveilleux. On n'exigeoit pas même
                         alors que les Poësies ne fussent composées, pour ainsi dire, que de beautés
-                        continues. Quelques endroits brillants suffisoient pour<pb facs="00111"
-                            n="101"/>faire admirer toute une piéce. On excusoit la foiblesse des
+                        continues. Quelques endroits brillants suffisoient pour<pb facs="00111" n="101"/>faire admirer toute une piéce. On excusoit la foiblesse des
                         autres vers, qu'on regardoit seulement comme étant faits pour servir de
                         liaison aux premiers, &amp; l'on les appelloit, ainsi que nous
                         l'apprenons des mémoires de l'Abbé de Marolles, des vers de passage. </p>
@@ -3359,8 +3314,7 @@
                     <p>Les grands hommes, qui composent ce qu'on appelle le siécle d'Auguste, ne se
                         formerent point durant les jours heureux du regne de cet Empereur. Ils
                         avoient acquis leur mérite, ils étoient formés avant que ces jours heureux
-                        commençassent. Personne n'ignore que les prémieres années du siécle<pb
-                            facs="00112" n="102"/>d'Auguste furent un siécle de fer &amp; de
+                        commençassent. Personne n'ignore que les prémieres années du siécle<pb facs="00112" n="102"/>d'Auguste furent un siécle de fer &amp; de
                         sang. Ces jours bénis de tout l'univers, ne commencerent leur cours qu'après
                         la bataille d'Actium, où le Demon tutelaire de Rome, terrassa d'un seul coup
                         Antoine, la Discorde &amp; Cleopatre. Virgile avoit quarante ans lors
@@ -3415,8 +3369,7 @@
                         vint point de taillis à côté de ces grands chênes. Le Poussin en trente
                         années de travail assidu dans un attellier placé au milieu de Rome, ne forma
                         point d'Eléve qui se soit acquis un grand nom dans la Peinture, quoique ce
-                        grand homme fût aussi capable d'enseigner son art qu'au<pb facs="00114"
-                            n="104"/>cun maître qui jamais l'ait professé. Dans la même Ville mais
+                        grand homme fût aussi capable d'enseigner son art qu'au<pb facs="00114" n="104"/>cun maître qui jamais l'ait professé. Dans la même Ville mais
                         en d'autres tems, Raphaël mort aussi jeune que l'étoient ses Eléves, forma
                         dans le cours de dix ou de douze années, une Ecole de cinq ou six Peintres
                         dont les ouvrages font encore une partie de la gloire du maître. Enfin,
@@ -3531,8 +3484,7 @@
                         ni entente dans leur fabrique. Comme ces Medailles étoient une monnoye
                         destinée autant pour instruire la posterité, des vertus &amp; des belles
                         actions du Prince sous le regne de qui l'on les frappoit, qu'à servir dans
-                        le commerce; on peut bien croire que les Romains,<pb facs="00118" n="108"
-                        />aussi jaloux de leur memoire qu'aucun autre peuple, employoient à les
+                        le commerce; on peut bien croire que les Romains,<pb facs="00118" n="108"/>aussi jaloux de leur memoire qu'aucun autre peuple, employoient à les
                         faire, les ouvriers les plus habiles qu'ils pussent trouver. Il est donc
                         raisonnable de juger par la beauté des Medailles, de l'état où étoit la
                         graveure sous chaque Empereur, &amp; la graveure est un art qui suit la
@@ -3617,8 +3569,7 @@
                             Sect. 9.</note> parce que les Macedoniens prirent plusieurs Chefs à la
                         place d'un seul, que Rome avoit pensé périr depuis peu par le projet de
                         retablir la Republique. Or, on reconnoît dans le recit magnifique qu'il fait
-                        de cet évenement, toutes les principales cir<pb facs="00121" n="111"
-                        />constances du tumulte qui arriva dans Rome quand le Sénat voulut après la
+                        de cet évenement, toutes les principales cir<pb facs="00121" n="111"/>constances du tumulte qui arriva dans Rome quand le Sénat voulut après la
                         mort de Caligula, rétablir le Gouvernement Republiquain, &amp; quand il
                         se cantonna contre les Cohortes Prétoriennens qui vouloient avoir un
                         Empereur. Quinte-Curce caractérise si bien toutes les circonstances de
@@ -3766,8 +3717,7 @@
                         formeroient d'excellents si le génie ne leur manquoit pas. </p>
                     <p>Rome est encore aujourd'hui remplie de tombeaux &amp; de statues qu'on
                         reconnoît certainement par les inscriptions ou par les coëffures des femmes,
-                        pour avoir été faits depuis l'Empire de Trajan jusqu'à<pb facs="00126"
-                            n="116"/>l'Empire de Constantin. Comme les Romaines changeoient leur
+                        pour avoir été faits depuis l'Empire de Trajan jusqu'à<pb facs="00126" n="116"/>l'Empire de Constantin. Comme les Romaines changeoient leur
                         coeffure aussi souvent que les Françoises changent la leur, on peut
                         connoître à peu près sous quel Empereur les monumens Romains ont été faits,
                         parce que nous savons par les médailles des femmes &amp; des parentes
@@ -3885,8 +3835,7 @@
                         capables de former le goût &amp; d'exciter l'émulation des jeunes
                         ouvriers. La seconde guerre Punique <note place="margin-right">Livius hist. lib. 25.</note>
                         duroit encore quand Marcellus fit porter à Rome les dépouilles des Portiques
-                        de Syracuse, lesqu'elles donnerent à quelques citoyens Romains un<pb
-                            facs="00130" n="120"/>goût pour les Arts qui devint bientôt après à Rome
+                        de Syracuse, lesqu'elles donnerent à quelques citoyens Romains un<pb facs="00130" n="120"/>goût pour les Arts qui devint bientôt après à Rome
                         un goût universel &amp; qui fut cause dans la suite de tant de
                         déprédations. Ceux-là mêmes qui ne connoissent pas le mérite des statues,
                         des vases, &amp; des autres curiosités, ne laissoient pas dans
@@ -3951,21 +3900,19 @@
                         substance aux aliments &amp; plus de malignité aux poisons. Les Grecs
                         ont poussé le vice &amp; la vertu plus loin que les autres hommes. </p>
                     <p>La Ville d'Anvers a été durant un tems, l'Athénes des pays en déça les Monts.
-                        Mais quand <rs type="person" ref="#rubens_peter_paul">Rubens</rs> commença
+                        Mais quand <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> commença
                         de rendre son école fameuse, les causes morales n'y faisoient rien
                         d'extraordinaire en faveur des Arts. Si c'étoit l'état florissant des Villes
                         &amp; des Royaumes qui seul amenat la perfection des beaux Arts, la
                         Peinture devoit être en sa splendeur dans Anvers soixante ans plutôt. Quand
-                            <rs type="person" ref="#rubens_peter_paul">Rubens</rs> parût, Anvers
+                            <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> parût, Anvers
                         avoit perdu la moitié de sa splendeur, parce que la Republique de Hollande
                         nouvellement établie, avoit attiré chez-elle la moitié de son commerce. La
                         guerre étoit aux environs de cette Ville sur laquelle ses ennemis faisoient
                         tous les jours des entreprises qui mettoient en danger l'état des Marchands,
-                        des Ecclésiastiques &amp; de tous les principaux citoyens. <rs
-                            type="person" ref="#rubens_peter_paul">Rubens</rs> laissa des Eléves
+                        des Ecclésiastiques &amp; de tous les principaux citoyens. <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> laissa des Eléves
                         comme Jordaens &amp; Vandyck, qui font honneur à sa reputation, mais ses
-                        Eléves sont morts sans disciples qui les ayent remplacés. L'Ecole de <rs
-                            type="person" ref="#rubens_peter_paul">Rubens</rs> a eu le sort des
+                        Eléves sont morts sans disciples qui les ayent remplacés. L'Ecole de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> a eu le sort des
                         autres écoles, je veux dire qu'elle est tombée quand tout paroissoit
                         concourir à la soûtenir. Il semble du moins que Quellins, qu'on peut
                         regarder comme son dernier Peintre, doive mourir sans Eleves dignes de lui.
@@ -3977,8 +3924,7 @@
                         encore que les Arts &amp; les Lettres retombent, quand ces causes font
                         les derniers efforts pour les soûtenir. </p>
                     <p><note place="margin-left">Troisiéme reflexion,</note> Enfin, les grands Artisans d'un païs ont
-                        presque tous étés contemporains. Non-seulement les plus<pb facs="00133"
-                            n="123"/><note place="margin-right">que les grands Peintres furent toûjours les contemporains
+                        presque tous étés contemporains. Non-seulement les plus<pb facs="00133" n="123"/><note place="margin-right">que les grands Peintres furent toûjours les contemporains
                             des grands Poëtes leurs compatriotes.</note> grands Peintres de toutes
                         les écoles ont vécu dans le même tems, mais ils ont été les contemporains
                         des grands Poëtes leur compatriotes. Les tems où les Arts ont fleuri, se
@@ -4066,8 +4012,7 @@
                         libellos,<lb/> Unus vivorum Fundani, Pollio Regum<lb/> Facta canit pede ter
                         percusso, forte epos acer<lb/> Ut nemo Varius ducit, molle atque
                         facetum<lb/> Virgilio annuerunt gaudentes rure Camaenae. </p>
-                    <p>C'est un grand prejugé en faveur de ces Poëtes qu'un<pb facs="00136" n="126"
-                        />écrivain aussi judicieux qu'Horace, les mette dans la même classe que
+                    <p>C'est un grand prejugé en faveur de ces Poëtes qu'un<pb facs="00136" n="126"/>écrivain aussi judicieux qu'Horace, les mette dans la même classe que
                         Virgile. </p>
                     <p>La plûpart des Poëtes que j'ai cités, ont pû voir Ciceron, Hortensius
                         &amp; les autres Orateurs Romains les plus célébres. Ils ont vû Jules
@@ -4126,8 +4071,7 @@
                         tems des hommes rares par leur talent, à toucher toutes sortes d'instrumens. </p>
                     <p>Tous les genres d'éloquence &amp; de litterature ont été cultivés sous le
                         regne du Roi, par des personnes qui seront citées pour modelles aux Savants,
-                        qui dans l'avenir s'appliqueront aux mêmes études<pb facs="00138" n="128"
-                        />qu'eux. Le Pere Petau, le Pere Sirmond, Monsieur du Cange, Monsieur de
+                        qui dans l'avenir s'appliqueront aux mêmes études<pb facs="00138" n="128"/>qu'eux. Le Pere Petau, le Pere Sirmond, Monsieur du Cange, Monsieur de
                         Launoi, Messieurs de Valois, du Chesne, Monsieur d'Herbelot, Monsieur
                         Vaillant, le Pere Rapin, le Pere Commire, le Pere Mabillon, le Pere
                         d'Acheri, le Pere Thomassin, Monsieur Arnaud, Monsieur Pascal, Monsieur
@@ -4154,8 +4098,7 @@
                         Ingenieurs. Quelle réputation n'ont pas encore aujourd'hui dans toute
                         l'Europe, plusieurs Ministres dont le feu Roi s'est servi? Souhaittons des
                         successeurs à tous les Illustres qui sont morts sans avoir encore été
-                        remplacés, &amp; que les Raphaëls en tout genre<pb facs="00139" n="129"
-                        />de professions qui vivent encore, laissent du moins des Jules Romains qui
+                        remplacés, &amp; que les Raphaëls en tout genre<pb facs="00139" n="129"/>de professions qui vivent encore, laissent du moins des Jules Romains qui
                         nous consolent un jour de leur perte. </p>
                     <p>Velleius Paterculus qui composa son histoire vers la quinziéme année de
                         l'Empire de Tibere, a fait sur la destinée des siécles illustres qui
@@ -4250,8 +4193,7 @@
                         qualités sont differentes, quand ces graines sont semées en des terroirs
                         differens, ou bien quand elles sont semées dans le même terroir en des
                         années differentes. Ainsi deux enfans qui seront nés avec leurs cerveaux
-                        composés précisement de la même maniere, deviendront deux<pb facs="00142"
-                            n="132"/>hommes differens pour l'esprit &amp; pour les inclinations,
+                        composés précisement de la même maniere, deviendront deux<pb facs="00142" n="132"/>hommes differens pour l'esprit &amp; pour les inclinations,
                         si l'un de ces enfans est élevé en Suede &amp; l'autre en Andalouzie.
                         Ils deviendront même differens, bien qu'élevés dans le même pays, s'il y
                         sont élevés en des années dont la temperature soit differente. </p>
@@ -4367,8 +4309,7 @@
                         &amp; ovantes gutture corvi. </p>
                     <p>Il est même des temperaments que l'excès de la chaleur irrite &amp;
                         qu'elle rend presque furieux. Si dans le cours d'une année il se commet à
-                        Rome vingt mauvaises actions, il s'en commet quinze<pb facs="00146" n="136"
-                        />dans les deux mois de la grande chaleur. Il est en Europe un pays où les
+                        Rome vingt mauvaises actions, il s'en commet quinze<pb facs="00146" n="136"/>dans les deux mois de la grande chaleur. Il est en Europe un pays où les
                         hommes qui se défont eux-mêmes, sont moins rares qu'ils ne le sont ailleurs.
                         On a observé dans la Capitale de ce Royaume, où l'on tient un Registre
                         mortuaire, qui fait mention du genre de mort d'un chacun, que de soixante
@@ -4427,8 +4368,7 @@
                         ordinaire, &amp; l'air d'une autre contrée l'augmente. Un François
                         refugié en Hollande se plaint du moins trois fois par jour, que sa gayeté
                         &amp; son feu d'esprit l'ont abandonné. L'air natal est un reméde pour
-                        nous. Cette maladie qu'on appelle le Hemvé en quelques<pb facs="00148"
-                            n="138"/>pays &amp; qui donne au malade un violent désir de
+                        nous. Cette maladie qu'on appelle le Hemvé en quelques<pb facs="00148" n="138"/>pays &amp; qui donne au malade un violent désir de
                         retourner <note place="margin-left">Juven. sat. 13.</note> chez-lui, Cum notos tristis desiderat
                         Hoedos, est un instinct qui nous avertît que l'air où nous nous trouvons,
                         n'est pas aussi convenable à notre constitution, que celui pour lequel un
@@ -4520,8 +4460,7 @@
                         dans les pays voisins de la Ligne. </p>
                     <p>Or, si la diversité des climats peut mettre tant de variété &amp; tant de
                         différence dans le teint, dans la stature, dans le corsage des hommes
-                        &amp; même dans le son de leur voix, elle doit mettre une dif<pb
-                            facs="00151" n="141"/>férence encore plus grande dans le génie, les
+                        &amp; même dans le son de leur voix, elle doit mettre une dif<pb facs="00151" n="141"/>férence encore plus grande dans le génie, les
                         inclinations &amp; les moeurs des Nations. Les organes du cerveau ou les
                         parties du corps humain, qui décident en parlant physiquement, de l'esprit
                         &amp; des inclinations des hommes, sont sans comparaison plus composées
@@ -4581,8 +4520,7 @@
                         &amp; elegans. Ce que dit Monsieur Racine dans la Préface des Plaideurs,
                         que les Athéniens étoient bien sûrs quand ils avoient ri d'une chose, qu'ils
                         n'avoient pas ri d'une sotise, n'est que la traduction du Latin que nous
-                        venons de citer, &amp; ceux qui ont repris l'Au<pb facs="00153" n="143"
-                        />teur François de l'avoir avancé, pour me servir de l'expression de
+                        venons de citer, &amp; ceux qui ont repris l'Au<pb facs="00153" n="143"/>teur François de l'avoir avancé, pour me servir de l'expression de
                         Montagne, lui ont donné un soufflet sur la joue de Ciceron, témoin qu'on ne
                         peut reprocher dans le fait dont il s'agit. </p>
                     <p>La même raison qui mettoit tant de différence entre les Athéniens &amp;
@@ -4611,8 +4549,7 @@
                         l'Euphormion de Bardai, qui traite cette matiere dans celui des livres de
                         cette Satire, qu'on distingue ordinairement par le titre d'Icon animorum.
                         Mais j'ajouterai encore à ce que j'ai dit, une réfléxion, pour montrer
-                        combien il est probable que l'esprit &amp; les<pb facs="00154" n="144"
-                        />inclinations dès hommes dépendent de l'air qu'ils respirent &amp; de
+                        combien il est probable que l'esprit &amp; les<pb facs="00154" n="144"/>inclinations dès hommes dépendent de l'air qu'ils respirent &amp; de
                         la terre sur laquelle ils sont élevés. C'est que les étrangers qui se sont
                         habitués dans quelque pays que ce soit, y sont toûjours devenus semblables
                         aux anciens habitans du pays où ils se sont établis. Les nations principales
@@ -4641,8 +4578,7 @@
                         François &amp; dont toute l'Europe les loue comme d'un talent qui leur
                         est propre, spécialement, c'est une industrie merveilleuse pour imirer
                         facilement &amp; bien les inventions des étrangers. César donne ce
-                        talent aux Gaulois, qu'il appelle, Genus summae sollertiae, atque<pb
-                            facs="00155" n="145"/><note place="margin-right">De Belle Gall. lib. 7.</note> ad omnia
+                        talent aux Gaulois, qu'il appelle, Genus summae sollertiae, atque<pb facs="00155" n="145"/><note place="margin-right">De Belle Gall. lib. 7.</note> ad omnia
                         imitanda atque efficienda quae ab quoque traduntur aptissimum. César avoit
                         été surpris de voir que les Gaulois qu'il assiégeoit, eussent très bien
                         imité les machines de guerre des Romains les plus composées, quoi qu'elles
@@ -4671,8 +4607,7 @@
                         réponse sérieuse aux Ambassadeurs. Tanto cum fremitu risus dicitur ortus, ut
                         vix à Magistratibus Majoribusque natu juventus sedaratur. </p>
                     <p><note place="margin-right">Lib. XI.</note> Davila raconte dans l'histoire de nos guerres civiles,
-                        qu'il arriva une avanture semblable dans les con<pb facs="00156" n="146"
-                        />férences qui se tenoient pour la paix durant le siege <note place="margin-left">En
+                        qu'il arriva une avanture semblable dans les con<pb facs="00156" n="146"/>férences qui se tenoient pour la paix durant le siege <note place="margin-left">En
                         1590.</note> de Paris par Henri IV. Le Cardinal de Gondi y ayant dit que
                         c'étoit moins la faim que l'amour des Parisiens pour le Roi, qui les
                         obligeoit à traiter, la présence du Roi ne put empêcher les jeunes Seigneurs
@@ -4820,8 +4755,7 @@
                         que les autres. Cette Cour circonspecte a toujours eu pour maxime de ne
                         point confier en Amérique aucun emploi d'importance aux Espagnols Crioles ou
                         nés en Amérique. Cependant ces Crioes sont les habitants qui sont nés d'une
-                        mére &amp; d'un pere Espagnols, sans aucun mélange de sang<pb
-                            facs="00161" n="151"/>Americain ou Afriquain. Ceux qui sont nez d'un
+                        mére &amp; d'un pere Espagnols, sans aucun mélange de sang<pb facs="00161" n="151"/>Americain ou Afriquain. Ceux qui sont nez d'un
                         Espagnol &amp; d'une Americaine s'appellant Mestisses &amp; ils se
                         nomment Mulatres quand la mere est Négresse. </p>
                     <p>L'incapacité des sujets à eu autant de part à cette politique que la crainte
@@ -4850,8 +4784,7 @@
                         laine aussi pretieuses que celles, Quas Baeticus adjuvat der. Quand les
                         chevres d'Ancyre <note place="margin-right">Eusbe, quius Eptaprim.</note> ont perdu le pâturage
                         de leurs montagnes, elles ne se couvrent plus de ce poil si prisé dans
-                        l'Orient &amp; connu même en Europe. Ils est des pays<pb facs="00162"
-                            n="152"/>où le cheval est communement un animal doux qui se laisse
+                        l'Orient &amp; connu même en Europe. Ils est des pays<pb facs="00162" n="152"/>où le cheval est communement un animal doux qui se laisse
                         conduire à des enfans. En d'autres pays comme dans le Royaume de Naples, il
                         est presque un animal féroce duquel il faut se garder avec attention. Les
                         chevaux changent même de naturel en changeant d'air &amp; de nourriture.
@@ -4884,8 +4817,7 @@
                         vouloient exiger d'eux d'autres tributs que des services militaires,
                         Aujourd'hui les habitants de la province de Hollande, laquelle comprend
                         l'Isle des Bataves &amp; une partie du pays des anciens Frisons, sont
-                        portés au commerce &amp; aux arts. Ils surpassent tous les<pb
-                            facs="00163" n="153"/>autres peuples dans le talent de policer les
+                        portés au commerce &amp; aux arts. Ils surpassent tous les<pb facs="00163" n="153"/>autres peuples dans le talent de policer les
                         villes &amp; dans le gouvernement Municipal. Le peuple y paye plus
                         volontiers les plus grands imposts qui se levent présentement en Europe,
                         qu'il ne fait le métier de <note place="margin-right">Introduct. ad hist. Europ.</note> soldat.
@@ -4944,8 +4876,7 @@
                         tombent dans les cloaques, sont demeurés ouverts. L'eau a donc continué
                         d'entrer dans ces canaux sans issue. Elle y croupit &amp; elle y devient
                         tellement infectée que lorsqu'il arrive aux Fouilleurs d'ouvrir en creusant
-                        un de ces canaux, la puanteur &amp; l'infection<pb facs="00165" n="155"
-                        />qui s'en exhalent, leur donnent souvent des maladies mortelles. Ceux qui
+                        un de ces canaux, la puanteur &amp; l'infection<pb facs="00165" n="155"/>qui s'en exhalent, leur donnent souvent des maladies mortelles. Ceux qui
                         ont osé manger des poissons qu'on y trouve quelquefois, ont presque tous
                         payé de leur vie une curiosité téméraire. Or ces canaux ne sont pas si avant
                         sous terre que la chaleur qui est très grande à Rome durant la Canicule,
@@ -5032,8 +4963,7 @@
                         Agri Batavi. Ils ne le liront pas sans profit, &amp; sans regreter que
                         cet Auteur soit mort depuis peu, avant que de nous avoir donné le troisiéme.
                         La Hollande ayant été desséchée &amp; repeuplée dans les tems suivants,
-                        elle est aujourd'hui une prérie de niveau, coupée par u<pb facs="00168"
-                            n="158"/>ne infinité de canaux &amp; semée de quelques lacs
+                        elle est aujourd'hui une prérie de niveau, coupée par u<pb facs="00168" n="158"/>ne infinité de canaux &amp; semée de quelques lacs
                         &amp; <note place="margin-left">Tàcit. Ann. lib. 4.</note> marres. Le terrain y a si bien
                         changé de nature que les boeufs &amp; les vaches de ce pays, sont plus
                         grands qu'ailleurs au lieu qu'autrefois ils étoient très petits. Enfin le
@@ -5099,8 +5029,7 @@
                         Hyperborées, le moyen qu'elles n'avoient point autrefois de faire une partie
                         de leur nourriture ordinaire, des vins comme des autres aliments qui
                         croissent dans les pays chauds. Le commerce qui s'est infiniment acru dans
-                        les deux derniers siécles, à fait connoître ces choses où l'on<pb
-                            facs="00170" n="160"/>ne les connoissoit pas. Il les a rendues très
+                        les deux derniers siécles, à fait connoître ces choses où l'on<pb facs="00170" n="160"/>ne les connoissoit pas. Il les a rendues très
                         communes en des lieux où elles étoient fort rares. L'augmentation du
                         commerce a rendu le vin une boisson d'un usage aussi commun dans plusieurs
                         pays où il n'en vient point, que dans les contrées où l'on fait des
@@ -5204,8 +5133,7 @@
                         enfoncés. Dans les Pays-Bas, le vague de l'air est d'un bleu pâle, &amp;
                         les nuages de l'horizon n'y sont teints que de couleurs blanchâtres. On peut
                         même remarquer cette différence dans les Ciels des tableaux du Titien
-                        &amp; des tableaux de <rs type="person" ref="#rubens_peter_paul"
-                        >Rubens</rs>, ces deux Peintres ayant représenté la nature telle qu'elle se
+                        &amp; des tableaux de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>, ces deux Peintres ayant représenté la nature telle qu'elle se
                         voit en Italie &amp; dans les Pays-Bas où ils la copioient. Je conclus
                         de ce que j'ai exposé, qu'ainsi que les qualités de la terre décident de la
                         saveur particuliere aux fruit dans plusieurs contrées, de même ces qualités
@@ -5222,8 +5150,7 @@
                         mêmes, les fermentations ne sauroient aboutir toujours à une même
                         production. Ainsi les émanations de la même terre, ne sauroient être
                         toujours les mêmes. Elles doivent être sujettes à divers changements. </p>
-                    <p>L'Expérience donne un grand poids à ce raisonne<pb facs="00174" n="164"
-                        />ment. La même terre envoye-t-elle toutes les années dans l'air, la même
+                    <p>L'Expérience donne un grand poids à ce raisonne<pb facs="00174" n="164"/>ment. La même terre envoye-t-elle toutes les années dans l'air, la même
                         quantité de ces exhalaisons qui sont la matiere des foudres &amp; des
                         éclairs? Comme il est des pays plus sujets au tonnerre que d'autres, il est
                         aussi des années, où il tonne dix fois plus souvent dans le même pays qu'en
@@ -5282,8 +5209,7 @@
                         chaleur, quel que fut cette chaleur en une certaine année. Le même Eté plus
                         chaud à Paris qu'à l'ordinaire, supposeroit un Eté plus chaud à Madrid que
                         les Etés ordinaires. Un hivers très doux à Paris supposeroit qu'il seroit
-                        encore plus doux à Madrid que les hivers ordinaires. C'est ce qui n'est<pb
-                            facs="00176" n="166"/>point. L'hiver de 1699. à 1700. fut très doux à
+                        encore plus doux à Madrid que les hivers ordinaires. C'est ce qui n'est<pb facs="00176" n="166"/>point. L'hiver de 1699. à 1700. fut très doux à
                         Paris &amp; très rude à Madrid. Il gela quinze jours de suite à Madrid,
                         &amp; il ne gela pas deux jours de suite à Paris. L'Eté de 1714. fut
                         assés sec &amp; très chaud à Paris. Il fut très pluvieux &amp; assés
@@ -5344,8 +5270,7 @@
                         propre dans chaque terroir, laquelle ils conservent toujours, mais leur goût
                         n'est pas tout tout à fait le même en certaines années que dans d'autres.
                         Voilà pourquoi, par exemple, les Italiens seront toujours plus propres à
-                        réussir en Peinture &amp; en Poësie que les peuples des environs<pb
-                            facs="00178" n="168"/>de la mer Baltique. Mais comme la cause qui fait
+                        réussir en Peinture &amp; en Poësie que les peuples des environs<pb facs="00178" n="168"/>de la mer Baltique. Mais comme la cause qui fait
                         cette différence entre les nations, est sujette à plusieurs altérations, il
                         semble qu'il doit arriver qu'en Italie, certaines générations auront plus de
                         talent pour exceller dans ces arts, que d'autres générations n'en pourront
@@ -5552,8 +5477,7 @@
                         Villes de France ont-elles senti une legere atteinte de ce fleau. Il y a
                         soixante &amp; dix ans que les Maladreries des trois quarts des Villes
                         du Royaume n'ont pas été ouvertes. Des maladies inconnnes naissent en
-                        certains siécles, &amp; elles cessent pour toujours après s'être<pb
-                            facs="00185" n="175"/>renouvellés deux ou trois fois durant un certain
+                        certains siécles, &amp; elles cessent pour toujours après s'être<pb facs="00185" n="175"/>renouvellés deux ou trois fois durant un certain
                         nombre d'années. Telles ont été en France le Mal des ardents &amp; la
                         Colique de Poitou. Quand on voit tant d'effets si bien marqués de
                         l'altération des qualités de l'air, quand on connoît si distinctement que
@@ -5616,8 +5540,7 @@
                         indifférentes, se figure qu'une grande Ville, qu'un Royaume entier n'est
                         peuplé que d'envieux ou d'adorateurs de son mérite. Il s'imagine le partager
                         en deux factions comme les Empereurs partageoient l'Italie au tems des
-                        Guelphes &amp; de Gibellins, lorsque réellement il n'y a pas<pb
-                            facs="00187" n="177"/>cinquante personnes qui ayent pris parti pour ou
+                        Guelphes &amp; de Gibellins, lorsque réellement il n'y a pas<pb facs="00187" n="177"/>cinquante personnes qui ayent pris parti pour ou
                         contre lui, &amp; qui s'intéressent avec affection à la fortune de ses
                         vers. La plûpart de ceux en qui il suppose des sentiments de haine ou
                         d'amitié très décidés, sont dans l'indifférence, &amp; disposés à juger
@@ -5649,8 +5572,7 @@
                     <p>Or le sentiment enseigne bien mieux si l'ouvrage touche &amp; s'il fait
                         sur nous l'impression que doit faire un ouvrage, que toute les dissertations
                         composées par les Critiques pour en expliquer le mérite &amp; pour en
-                        calculer les perfections &amp; les défauts. La<pb facs="00188" n="178"
-                        />voye de discussion &amp; d'analise, dont se servent ces Messieurs, est
+                        calculer les perfections &amp; les défauts. La<pb facs="00188" n="178"/>voye de discussion &amp; d'analise, dont se servent ces Messieurs, est
                         bonne à la vérité lors qu'il s'agit de trouver les causes qui font qu'un
                         ouvrage plaît ou qu'il ne plaît pas, mais cette voye ne vaut pas celle du
                         sentiment lors qu'il s'agit de décider cette question. L'ouvrage plaît-il ou
@@ -5678,8 +5600,7 @@
                         le sens même qui auroit jugé de l'objet que le Peintre, le Poëte ou le
                         Musicien ont imité. C'est l'oeil lors qu'il s'agit d'un tableau. C'est
                         l'oreille lors qu'il est question de juger si les accens d'un recit sont
-                        touchants où s'ils conviennent aux paroles, &amp; si le chant<pb
-                            facs="00189" n="179"/>en est mélodieux. Lors qu'il s'agit de connoître
+                        touchants où s'ils conviennent aux paroles, &amp; si le chant<pb facs="00189" n="179"/>en est mélodieux. Lors qu'il s'agit de connoître
                         si l'imitation qu'on nous présente dans un poëme, est capable d'exciter la
                         compassion &amp; d'attendrir, le sens destiné pour en juger, est le sens
                         même qui auroit été attendri, c'est le sens qui auroit jugé de l'objet
@@ -5709,8 +5630,7 @@
                         nous fait voir l'imitation fidelle d'un événement du même genre. </p>
                     <p>On reconnoît si le Poëte a choisi un objet touchant &amp; s'il l'a bien
                         imité, comme on reconnoît sans raisonner, si le Peintre a peint une belle
-                        personne, ou si celui qui a fait le portrait de notre ami,<pb facs="00190"
-                            n="180"/>l'a fait ressemblant. Faut-il pour juger si ce portrait
+                        personne, ou si celui qui a fait le portrait de notre ami,<pb facs="00190" n="180"/>l'a fait ressemblant. Faut-il pour juger si ce portrait
                         ressemble ou non, prendre les proportions du visage de notre ami &amp;
                         les comparer aux proportions du portrait? Les Péintres mêmes diront qu'il
                         est en eux un sentiment subit lequel dévance tout examen, &amp; que
@@ -5770,8 +5690,7 @@
                         dire qu'un ouvrage où les régles essentielles seroient violées ne sauroit
                         plaire. Mais c'est ce qu'on reconnoît mieux en jugeant par l'impression que
                         fait l'ouvrage, qu'en jugeant par les dissertations des Critiques, qui
-                        conviennent rarement sur l'importance de chaque ré<pb facs="00192" n="182"
-                        />gle. Ainsi le public est capable de bien juger des vers &amp; des
+                        conviennent rarement sur l'importance de chaque ré<pb facs="00192" n="182"/>gle. Ainsi le public est capable de bien juger des vers &amp; des
                         tableaux, sans savoir les régles de la Poësie &amp; de la Peinture, car,
                         comme le dit Cicéron, <note place="margin-left">De Oratore lib. 3.</note> Omnes tacito quodam
                         sensu sine ulla arte aut ratione, quae sint in artibus ac rationibus prava
@@ -5861,8 +5780,7 @@
                         refléchir trop long-tems. </p>
                     <p>Ma seconde réponse à l'objection tirée des vers de Mithridate, c'est que le
                         public ne fait pas le procès en un jour aux ouvrages qui réellement ont du
-                        mérite. Avant que d'être jugés, ils demeurent un<pb facs="00195" n="185"
-                        />tems, pour ainsi dire, sut le bureau. Or dès que le mérite d'un ouvrage
+                        mérite. Avant que d'être jugés, ils demeurent un<pb facs="00195" n="185"/>tems, pour ainsi dire, sut le bureau. Or dès que le mérite d'un ouvrage
                         attire l'attention du public, ces beautés que le public ne sauroit
                         comprendre sans quelcun qui les lui explique, ne lui échapent pas.
                         L'explication des vers qui les renferment, passe de bouche en bouche
@@ -6044,8 +5962,7 @@
                         plus dignes sujets de l'Academie des Sciences, dit, en parlant d'un pas
                         dissicile qu'il franchit. Pour moi je m'abandonnai entierement à la
                         conduitte de mon cheval, &amp; je m'en trouvai beaucoup mieux que si
-                        j'avois voulu le conduire. Un Automate qui suit naturellement<pb
-                            facs="00201" n="191"/>les loix de la mécanique, se tire bien mieux
+                        j'avois voulu le conduire. Un Automate qui suit naturellement<pb facs="00201" n="191"/>les loix de la mécanique, se tire bien mieux
                         d'affaire dans ces occasions, que le plus habile Mécanicien qui voudroit
                         mettre en usage les régles qu'il a aprises dans son Cabinet, fut-il de
                         l'Academie des Sciences. C'est l'expérience d'un cheval, d'une machine au
@@ -6073,8 +5990,7 @@
                         Poësie est de plaire, on voit bien que ses principes deviennent plus souvent
                         arbitraires que les principes des autres arts, à cause de la diversité du
                         goût de ceux pour qui les Poëtes composent. Quoique les beautés doivent être
-                        moins arbitraires dans l'art oratoire que dans l'art poëti<pb facs="00202"
-                            n="192"/>que, néanmoins Quintilien dit qu'il ne s'est jamais assujetti
+                        moins arbitraires dans l'art oratoire que dans l'art poëti<pb facs="00202" n="192"/>que, néanmoins Quintilien dit qu'il ne s'est jamais assujetti
                         qu'a un très petit nombre de ces principes &amp; de ces régles, qu'on
                         appelle principes généraux &amp; régles universelles. Il n'y en a
                         presque point, ajoute-t-il, dont on ne puisse contester la validité par de
@@ -6107,15 +6023,11 @@
                         uns l'ont meilleur que les autres, ou bien parce que leurs organes sont
                         naturellement mieux composés, ou bien parce qu'ils l'ont perfectionné par
                         l'usage fréquent qu'ils en ont fait &amp; par l'expérience. Ceux-ci
-                        doivent s'appercevoir plutôt que les autres, du mérite <unclear
-                            reason="illegible">ou</unclear> du peu de valeur d'un ouvrage. C'est
+                        doivent s'appercevoir plutôt que les autres, du mérite <unclear reason="illegible">ou</unclear> du peu de valeur d'un ouvrage. C'est
                         ainsi qu'un homme, dont la vuë porte loin, reconnoît distinctement un autre
                         homme à la distance de cent <unclear reason="illegible">toises</unclear>,
-                        quand ceux qui sont à ses côtés, discernent à <unclear reason="illegible"
-                            >peine</unclear> la couleur des habits de cet homme qui s'<unclear
-                            reason="illegible">advance</unclear>. Quand on en croit son premier
-                        mouvement, non juge de la portée des sens des autres, par la <unclear
-                            reason="illegible">portée</unclear> de ses propres sens. Il arrive donc
+                        quand ceux qui sont à ses côtés, discernent à <unclear reason="illegible">peine</unclear> la couleur des habits de cet homme qui s'<unclear reason="illegible">advance</unclear>. Quand on en croit son premier
+                        mouvement, non juge de la portée des sens des autres, par la <unclear reason="illegible">portée</unclear> de ses propres sens. Il arrive donc
                         que ceux qui <unclear reason="illegible">sont</unclear> la vuë courte,
                         hesitent quelque tems à se rendre au sentiment de celui qui a les yeux
                         meilleurs qu'eux, mais dès que la personne qui s'avance s'est approchée à
@@ -6250,8 +6162,7 @@
                         précision, ou si la Machine fait l'effet promis par le Mathématicien, quoi
                         qu'il ne puisse pas prouver méthodiquement que l'Astronome &amp; le
                         Mathématicien ont tort, ni dire en quoi ils se sont trompés. </p>
-                    <p>S'il est des arts dont les productions tombent sous<pb facs="00208" n="198"
-                        />le sentiment, c'est la peinture, c'est la Poësie. Ils n'opérent que pour
+                    <p>S'il est des arts dont les productions tombent sous<pb facs="00208" n="198"/>le sentiment, c'est la peinture, c'est la Poësie. Ils n'opérent que pour
                         nous toucher. Toute l'excéption qu'on puisse alléguer, c'est de dire qu'il
                         est des tableaux &amp; des poëmes dont tout le mérite ne tombe pas sous
                         le sentiment. On ne sauroit connoître à l'aide du sentiment, si la vérité
@@ -6523,8 +6434,7 @@
                     <p>Les dédisions des gens du métier, bien que sujettes à toutes les illusions
                         dont nous venons de parler, ne laissent point d'avoir beaucoup de part à la
                         prémiére réputation d'un ouvrage nouveau. En premier lieu, s'ils ne peuvent
-                        pas faire blâmer un ouvrage par ceux qui le connoissent, ils peuvent em<pb
-                            facs="00217" n="207"/>pêcher beaucoup de gens de le connoître, en les
+                        pas faire blâmer un ouvrage par ceux qui le connoissent, ils peuvent em<pb facs="00217" n="207"/>pêcher beaucoup de gens de le connoître, en les
                         détournant de l'aller voir ou de le lire. Ces préventions qu'ils répandent
                         dans le monde, ont leur effet durant un tems. En second lieu le public
                         prévenu en faveur du discernement des gens du métier, pense durant un tems
@@ -6610,8 +6520,7 @@
                         par lui-même. Nous voyons aussi par l'histoire des Peintres, que les
                         coloristes sont parvenus plus tard à une grande réputation que les Peintres
                         célébres par leur Poësie. </p>
-                    <p>On voit bien qu'en suivant ce principe, je dois<pb facs="00220" n="210"
-                        />reconnoître les gens du métier pour être les juges ausquels il faut s'en
+                    <p>On voit bien qu'en suivant ce principe, je dois<pb facs="00220" n="210"/>reconnoître les gens du métier pour être les juges ausquels il faut s'en
                         rappporter, quand on veut savoir autant qu'il est possible, quel Peintre a
                         fait le tableau, mais non-pas pour être les juges uniques du mêrite de ce
                         tableau. Comme les plus grands ouvriers en ont fait quelquefois de
@@ -6668,8 +6577,7 @@
                         persuadés qu'on pouvoit contrefaire l'écriture sur ces tablettes, parce
                         qu'on pouvoit en retoucher les caractéres sans qu'il y parût, que les actes
                         ne faisoient foi chez eux, que moyennant l'apposition du cachet de celui
-                        qu'ils engageoient. C'est au soin des anciens pour avoir des seaux qu'on<pb
-                            facs="00222" n="112"/>ne pût pas contrefaire sans bien de la peine, que
+                        qu'ils engageoient. C'est au soin des anciens pour avoir des seaux qu'on<pb facs="00222" n="112"/>ne pût pas contrefaire sans bien de la peine, que
                         nous devons apparenment la perfection où fut porté de leur tems, l'art de
                         graver les pierres qui servoient de cachets. Mais nonobstant tant de moyens
                         que nos Experts peuvent avoir pour discerner nos écritures, leur art est
@@ -6760,8 +6668,7 @@
                         lui est du. Mais, comme je l'ai déja dit, la chose n'arrive point &amp;
                         je ne pense pas qu'on puisse me citer une seule piéce Françoise rejettée par
                         le public lorsqu'il la vit dans sa nouveauté, laquelle le public ait trouvée
-                        bonne dans la suite, &amp; quand les conjonctures qui<pb facs="00225"
-                            n="215"/>l'auroient fait tomber auroient été changées. Au contraire je
+                        bonne dans la suite, &amp; quand les conjonctures qui<pb facs="00225" n="215"/>l'auroient fait tomber auroient été changées. Au contraire je
                         pourrois citer plusieurs Comédies &amp; plusieurs Opera tombés dans le
                         tems de leur nouveauté, &amp; qui ont eu le même malheur quand on les a
                         remis au Théatre 20. ans après. Cependant les cabales à qui l'Auteur
@@ -6881,8 +6788,7 @@
                         ainsi, de piéces de comparaison, lesquelles donnent le moyen de juger
                         sainement à quel point l'ouvrage nouveau, qu'on expose sous nos yeux,
                         approche de la perfection où les autres Peintres ont atteint, &amp; dans
-                        quelle classe il est digne d'être placé. L'idée de ces<pb facs="00229"
-                            n="215"/>douze tableaux qui nous est toûjours présente, produit une
+                        quelle classe il est digne d'être placé. L'idée de ces<pb facs="00229" n="215"/>douze tableaux qui nous est toûjours présente, produit une
                         partie de l'effet que les tableaux mêmes feroient, s'ils étoient à côté de
                         celui dont nous voulons discerner le mérite &amp; connoître le rang. La
                         différence qui peut se trouver entre deux tableaux exposés à côté l'un de
@@ -6937,14 +6843,12 @@
                         travaillé en Angleterre, les autres Peintres lui donnoîent des rivaux que le
                         public abusé croyoit voir marcher à ses côtés. Mais cette distance paroît
                         infinie aujourd'hui, parce que chaque jour l'erreur a perdu un Partisan,
-                        &amp; la vérité en a gagné un. Lorsque l'Ecole de <rs type="person"
-                            ref="#rubens_peter_paul">Rubens</rs> étoit dans sa force, les
+                        &amp; la vérité en a gagné un. Lorsque l'Ecole de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> étoit dans sa force, les
                         Dominiquains d'Anvers voulurent avoir quinze grands tableaux de dévotion
                         pour orner la nef de leur Eglise.<pb facs="00231" n="217"/>Vandyck content
                         du prix qu'on proposoit se présenta pour les faire tous. Mais les autres
                         Peintres firent suggerer à ces bons Peres de partager l'ouvrage &amp;
-                        d'employer douze des Eléves de <rs type="person" ref="#rubens_peter_paul"
-                            >Rubens</rs>, qui paroissoient être à peu près de la même classe. On
+                        d'employer douze des Eléves de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs>, qui paroissoient être à peu près de la même classe. On
                         leur fit entendre que la diversité des mains rendroit la suite de ces
                         tableaux plus curieuse, &amp; que l'émulation obligeroit encore chaque
                         Peintre à se surpasser lui-même, dans un ouvrage destiné pour être comparé
@@ -7031,8 +6935,7 @@
                         plaisants barbouillés &amp; grotesques, fut surpris d'y voir une Muse
                         qui sans mettre de masque à grimace sur le visage de ses acteurs, ne
                         laissoit pas d'en faire des personnages de Comédie excellents. Les rivaux de
-                        Moliére juroient en même tems par la connoissance<pb facs="00234" n="220"
-                        />qu'ils avoient du Théatre, que ce nouveau genre de Comédie ne valoit rien.
+                        Moliére juroient en même tems par la connoissance<pb facs="00234" n="220"/>qu'ils avoient du Théatre, que ce nouveau genre de Comédie ne valoit rien.
                         Le public hezita donc durant quelques jours. Il ne savoit s'il avoit eu tort
                         de croire que Jodelet Maître &amp; Valet, &amp; Don Japhet
                         d'Armenie, fussent dans le bon goût. Mais après un certain nombre de
@@ -7060,8 +6963,7 @@
                         République de Venise, ne fut pas conduite avec plus d'artifice, ni suivie
                         avec plus d'activité. Qu'opera cependant cette conjuration? Elle fit aller
                         un peu plus de monde à la Tragédie de Pradon qu'il n'y en auroit été, par le
-                        motif seul de voir comment le concurrent de Racine avoit traité le même<pb
-                            facs="00235" n="223"/>sujet que ce Poëte ingénieux. Mais cette fameuse
+                        motif seul de voir comment le concurrent de Racine avoit traité le même<pb facs="00235" n="223"/>sujet que ce Poëte ingénieux. Mais cette fameuse
                         conspiration ne sçut pas empêcher le public d'admirer la Phédre de Racine
                         après la quatriéme représentation. Quand le succès de ces deux Tragédies
                         sembloit égal, à compter le nombre dés personnes qui prenoient des billets à
@@ -7267,8 +7169,7 @@
                         beautés ramassées dans ses lectures, elles semblent nées de son invention.
                         Ses libertés dans l'expression paroissent les saillies d'une verve
                         naturelle, &amp; ses vers composés d'après ceux de Virgile &amp;
-                        d'Homere ont ainsi l'air original. Les beautés dont ses ouvrages sont<pb
-                            facs="00242" n="228"/>parsemés, étoient donc très capables de plaire à
+                        d'Homere ont ainsi l'air original. Les beautés dont ses ouvrages sont<pb facs="00242" n="228"/>parsemés, étoient donc très capables de plaire à
                         des lecteurs qui ne connoissoient pas les originaux ou qui étoient assés
                         idolatres pour chérir encore leurs traits dans les copies les plus
                         défigurées. Il est vrai que le langage de Ronsard n'est pas du François;
@@ -7359,8 +7260,7 @@
                         Virgile ont imité les Grecs, c'est-à-dire, en suivant comme les autres
                         l'avoient fait, le génie de la langue dans laquelle ils avoient composé,
                         &amp; en prénant comme eux la nature pour leur prémier modelle. Les bons
-                        Ecrivains n'empruntent des autres que des manieres de<pb facs="00245"
-                            n="231"/>la copier. Le stile de Racine, de Despreaux, de la Fontaine
+                        Ecrivains n'empruntent des autres que des manieres de<pb facs="00245" n="231"/>la copier. Le stile de Racine, de Despreaux, de la Fontaine
                         &amp; de nos autres compatriotes illustres, ne sauroit vieillir assez
                         pour dégoûter un jour de la lecture de leurs ouvrages, &amp; jamais on
                         ne pourra les lire sans être touché de leurs beautés. Elles sont naturelles. </p>
@@ -7751,8 +7651,7 @@
                         contente de soûtenir qu'ils auroient fait un aussi bon usage que nous des
                         vérités capitales que le hazard nous a révélées, pour ainsi dire, s'il lui
                         avoit plû de leur découvrir ces vérités. Je fonde ma supposition sur ce
-                        qu'ils ont raisonné aussi-bien que nous sur toutes les cho<pb facs="00258"
-                            n="246"/>ses dont ils avoient autant de connoissance que nous, &amp;
+                        qu'ils ont raisonné aussi-bien que nous sur toutes les cho<pb facs="00258" n="246"/>ses dont ils avoient autant de connoissance que nous, &amp;
                         sur ce que nous ne raisonnons mieux, que dans les choses où nous sommes plus
                         instruits qu'eux, ou par l'expérience ou par la révélation. Telles sont les
                         sciences naturelles &amp; les différentes parties de la Théologie. </p>
@@ -7811,8 +7710,7 @@
                         nécessaire que l'art de la Navigation se perfectionnât &amp; que les
                         Europeans fissent un peu plutôt ou un peu plus tard, les découvertes qu'il
                         étoit absolument impossible de faire sans un pareil secours, &amp;
-                        qu'ils ont faites depuis la sin du quinziéme siécle. Ces découvertes<pb
-                            facs="00260" n="248"/>qui nous ont fait connoître l'Amérique &amp;
+                        qu'ils ont faites depuis la sin du quinziéme siécle. Ces découvertes<pb facs="00260" n="248"/>qui nous ont fait connoître l'Amérique &amp;
                         tant d'autres pays inconnus, enrichissent la Botanique, l'Astronomie, la
                         Médecine, l'histoire des animaux, en un mot toutes les sciences naturelles.
                         Les Grecs &amp; les Romains nous ont-il donné lieu de croire qu'ils ne
@@ -7964,8 +7862,7 @@
                         certaine progression, commencerent de se combiner il y a cinquante ou
                         soixante ans. Nous pouvons dire de nôtre siécle ce <note place="margin-left">Instit. lib. 12.
                             cap. 11.</note> que Quintilien disoit du sien. Tot nos praeceptoribus
-                        tot exemplis instruxit antiquitas, ut possit videri nulla<pb facs="00265"
-                            n="253"/>sorte ascendi aetas felicior quam nostra cul docenda priores
+                        tot exemplis instruxit antiquitas, ut possit videri nulla<pb facs="00265" n="253"/>sorte ascendi aetas felicior quam nostra cul docenda priores
                         elaboraverunt. </p>
                     <p>Par exemple, le corps humain étoit assez connu du tems d'Hipocrate, pour lui
                         donner une notion <note place="margin-right">Almeloveon. Inven. Nov. ant.</note> de la
@@ -8025,8 +7922,7 @@
                         aujourd'hui, il étoit demeuré indécis si Philolaus, Aristarque &amp;
                         d'autres Astronomes avoient raison de faire tourner la terre autour du
                         Soleil, ou si Ptolomée &amp; ceux qu'il a suivis, avoient raison de
-                        faire tourner le Soleil autour de la terre. Il<pb facs="00267" n="255"
-                        />sembloit même que le systéme qu'on appelle communément le systéme de
+                        faire tourner le Soleil autour de la terre. Il<pb facs="00267" n="255"/>sembloit même que le systéme qu'on appelle communément le systéme de
                         Ptolomée, eut prévalu, lorsque dans le seiziéme siécle, Copernic entreprit
                         de soutenir le sentiment de Philolaus avec des preuves nouvelles où qui
                         paroissoient l'être, tirées des observations. Le monde se partagea de
@@ -8114,8 +8010,7 @@
                         s'ils n'eussent pas trouvé cette science en un état de perfection qui lui
                         venoit d'avoir été cultivée successivement par un grand nombre d'hommes
                         d'esprit, dont les derniers venus avoient profité des lumieres &amp; des
-                        vuës de leurs prédécesseurs. Archiméde venu dans le tems de<pb facs="00270"
-                            n="258"/>Monsieur Newton auroit fait ce que Monsieur Newton a fait,
+                        vuës de leurs prédécesseurs. Archiméde venu dans le tems de<pb facs="00270" n="258"/>Monsieur Newton auroit fait ce que Monsieur Newton a fait,
                         comme Monsieur Newton eut fait ce qu'à fait Archmede, s'il fut venu dans le
                         tems de la seconde guerre Punique. On pourroit encore prétendre que les
                         anciens eussent fait usage de l'Algébre dans les Problémes de Géomêtrie,
@@ -8173,8 +8068,7 @@
                         les modernes raisonnent mieux que les anciens, sont précisément celles où
                         les modernes savent beaucoup de choses que les anciens nés avant les
                         découvertes fortuites dont j'ai parlé, ne pouvoient pas savoir. </p>
-                    <p>En effet, &amp; c'est ma seconde réponse à l'obje<pb facs="00272" n="260"
-                        />ction tirée de la perfection de l'art de penser, nous ne raisonnons pas
+                    <p>En effet, &amp; c'est ma seconde réponse à l'obje<pb facs="00272" n="260"/>ction tirée de la perfection de l'art de penser, nous ne raisonnons pas
                         mieux que les anciens en histoire, en politique &amp; dans la morale
                         civile. Pour parler des Ecrivains moins éloignés, Commines, Machiavel,
                         Mariana, Fra Paolo, Monsieur de Thou, d'Avila &amp; Guichardin, qui sont
@@ -8202,8 +8096,7 @@
                         point connoître encore la vérité. Tous les Savants doivent de même être
                         d'accord dans les choses dont on peut connoître la vérité. Cependant on ne
                         disputa jamais plus qu'on dispute aujourd'hui. Nos Savants ainsi que les
-                        Philosophes anciens ne sont d'accord que sur les<pb facs="00273" n="261"
-                        />faits, &amp; ils se réfutent réciproquement sur tout ce qui ne
+                        Philosophes anciens ne sont d'accord que sur les<pb facs="00273" n="261"/>faits, &amp; ils se réfutent réciproquement sur tout ce qui ne
                         peut-être connu que par voye de raisonnement, en se traitant les uns les
                         autres d'aveugles volontaires, qui refusent de voir la lumiere. S'ils ne
                         disputent plus sur quelques Théses, c'est que les faits &amp;
@@ -8265,8 +8158,7 @@
                         appuyent leurs dogmes. Les disciples sont persuadés que ces personnes
                         connoissent la vérité mieux que les autres, &amp; qu'elles ne veulent
                         pas les tromper. Les prémiers Sectateurs en font d'autres qui font ensuite
-                        des disciples, lesquels croyent souvent être fermement convaincus<pb
-                            facs="00275" n="263"/>d'une vérité dont ils n'ont pas compris une
+                        des disciples, lesquels croyent souvent être fermement convaincus<pb facs="00275" n="263"/>d'une vérité dont ils n'ont pas compris une
                         preuve. C'est ainsi qu'une infinité de fausses opinions sur les influences
                         des Astres, sur le flux &amp; reflux de la mer, sur le présage des
                         Cométes, sur les causes des maladies, sur l'organisation du corps humain
@@ -8382,8 +8274,7 @@
                         nous ne connoissions pas encore les autres Poëmes, on nous eut inspiré pour
                         l'Enéïde une vénération qu'elle ne méritat point, nous sortirions de ce
                         préjugé dès que nous viendrions à lire les autres Poëmes, &amp; à les
-                        comparer avec l'Enéïde. En vain nous auroit-on<pb facs="00279" n="267"
-                        />répété cent &amp; cent fois durant l'enfance, que l'Enéide charme tous
+                        comparer avec l'Enéïde. En vain nous auroit-on<pb facs="00279" n="267"/>répété cent &amp; cent fois durant l'enfance, que l'Enéide charme tous
                         ses lecteurs, nous né le croirions plus si elle ne nous plaisoit que
                         médiocrement, quand nous sommes capables de l'entendre fans secours. C'est
                         ainsi que tous les disciples d'un Professeur de l'Université qui auroit
@@ -8501,8 +8392,7 @@
                         Poëme, l'émotion de tous les hommes qui l'ont lû &amp; qui le lisent,
                         leur vénération pour l'ouvrage, sont ce qu'est une démonstration en
                         Géométrie. Or c'est sur la foi de cette démonstration que les peuples se
-                        sont entêtés de Virgile &amp; de quelques autres Poëtes. Ainsi<pb
-                            facs="00283" n="271"/>les hommes ne changeront point d'opinion sur ce
+                        sont entêtés de Virgile &amp; de quelques autres Poëtes. Ainsi<pb facs="00283" n="271"/>les hommes ne changeront point d'opinion sur ce
                         point là, que la machine humaine ne soit changée. Les Poëmes de ces Auteurs
                         leur paroîtront des ouvrages d'un mérite médiocre, quand leurs organes
                         seront assez altérés pour leur faire trouver le sucre amér, &amp; le jus
@@ -8652,8 +8542,7 @@
                         Critiques, car on doit compter pour rien les analises &amp; les
                         discussions en une matiére qui ne doit pas être décidée par voye de
                         raisonnement. Or ces Critiques qui disent que les Poëmes des Anciens ne font
-                        pas sur eux l'impression qu'ils font sur le reste des<pb facs="00288"
-                            n="276"/>hommes, sont un contre cent mille. Ecouteroit-on un Sophiste
+                        pas sur eux l'impression qu'ils font sur le reste des<pb facs="00288" n="276"/>hommes, sont un contre cent mille. Ecouteroit-on un Sophiste
                         qui voudroit prouver que ceux qui sentent du plaisir à boire du vin, ont le
                         goût corrompu, &amp; qui fortifieroit ses raisonnements par l'exemple de
                         cinq ou six personnes qui l'ont en horreur? Ceux qui sont capables
@@ -8681,8 +8570,7 @@
                         tant de siécles passés, &amp; même au nôtre, il faut croire que le monde
                         ne fait que sortir de l'enfance &amp; que nous sommes la prémiére race
                         d'hommes raisonnables que la terre ait encore portée. </p>
-                    <p>Mais, dira-t'on, des traductions faites par des<pb facs="00289" n="277"
-                        />Ecrivains savants &amp; habiles, ne mettent-elles point, par exemple,
+                    <p>Mais, dira-t'on, des traductions faites par des<pb facs="00289" n="277"/>Ecrivains savants &amp; habiles, ne mettent-elles point, par exemple,
                         ceux qui n'entendent pas le Latin en état de juger par eux mêmes &amp;
                         par voye de sentiment, de l'Enéïde de Virgile? </p>
                     <p>Je tombe d'accord que l'Enéïde de Virgile en François tombe, pour ainsi dire,
@@ -8828,8 +8716,7 @@
                         broderies. Voici, par exemple, ce qu'écrit un Missionnaire sur l'opinion
                         qu'on a des Asnes en <note place="margin-right">Let. Edis. tem. 12. pag. 96.</note> certaines
                         contrées des Indes Orientales. On trouve ici des Asnes comme en Europe. Vous
-                        ne vous imagineriés pas Madame, que nous avons ici une Caste en<pb
-                            facs="00294" n="282"/>tiere qui prétend décendre en droite ligne d'un
+                        ne vous imagineriés pas Madame, que nous avons ici une Caste en<pb facs="00294" n="282"/>tiere qui prétend décendre en droite ligne d'un
                         Asne, &amp; qui s'en fait honneur. Vous me direz que la Caste doit être
                         des plus basses. Point du tout, c'est celle du Roi même. Devroit-on juger
                         sur nos idées un Poëte de ce pays-là qu'on auroit traduit en François. Si
@@ -8888,8 +8775,7 @@
                         l'historien en le lisant dans une bonne traduction. Le mérite principal de
                         l'historien ne consiste pas comme celui du Poëte, à nous intéresser,
                         &amp; le stile de l'historien n'est pas même la seule chose qui nous
-                        intéresse dans son ouvrage. Les événements importants nous atta<pb
-                            facs="00296" n="284"/>chent pour eux-mêmes, &amp; la vérité seule
+                        intéresse dans son ouvrage. Les événements importants nous atta<pb facs="00296" n="284"/>chent pour eux-mêmes, &amp; la vérité seule
                         leur donne du pathétique. Le mérite principal de l'histoire est d'enrichir
                         notre mémoire, &amp; de former notre jugement, Mais le mérite principal
                         de la Poësie consiste à nous toucher. C'est l'attrait de l'émotion qui fait
@@ -8945,8 +8831,7 @@
                         dans le tableau de Paul Véronése. On diroit au Critique d'aller voir le
                         tableau, &amp; l'on s'en tiendroit au raport uniforme de tous ceux qui
                         l'ont vû &amp; qui assurent qu'il les a charmez malgré ses défauts. En
-                        effet le raport uniforme des sens des autres hommes, est après le ra<pb
-                            facs="00298" n="286"/>port de nos propres sens, la vove la plus certaine
+                        effet le raport uniforme des sens des autres hommes, est après le ra<pb facs="00298" n="286"/>port de nos propres sens, la vove la plus certaine
                         que nous ayons pour juger du mérite des choses qui tombent sous le
                         sentiment. Les hommes le savent bien &amp; l'on n'ébranlera jamais la
                         foi humaine, ou l'opinion prise sur le raport uniforme des sens des autres.
@@ -9012,8 +8897,7 @@
                         souvent nous nous trompions en imputant au Poëte des fautes qu'il n'a pas
                         faites. Par exemple, quand Homére composa son Iliade, il n'écrivoit pas une
                         fable inventée à plaisir, &amp; qui lui laissat la liberté de forger à
-                        son gré les caractéres de ses Héros, de donner aux évenements le succès<pb
-                            facs="00300" n="288"/>qu'il lui plairoit, &amp; d'embellir certains
+                        son gré les caractéres de ses Héros, de donner aux évenements le succès<pb facs="00300" n="288"/>qu'il lui plairoit, &amp; d'embellir certains
                         faits par toutes les circonstances nobles qu'il auroit pû imaginer. Homére
                         décrivoit en Poëte environ cent cinquante ans après l'événement, c'est
                         l'opinion la plus reçue, quelques incidents d'une guerre que les Grecs
@@ -9071,8 +8955,7 @@
                         qui les séparoit? </p>
                     <p>Prenons un exemple qui nous frappe encore davantage. Nous avons des
                         historiens &amp; des annalistes que nous lisons quand nous voulons nous
-                        instruire de la vérité des faits, &amp; nous ne cherchons<pb
-                            facs="00302" n="290"/>que de l'agrément dans la lecture de nos Poëtes.
+                        instruire de la vérité des faits, &amp; nous ne cherchons<pb facs="00302" n="290"/>que de l'agrément dans la lecture de nos Poëtes.
                         Croyons nous cependant que Chapelain qui écrivit son Poëme de la Pucelle
                         autant d'années environ après l'événement qu'il chantoit, que les Grecs en
                         comptoient depuis la prise de Troye jusqu'aux tems où Homére composa son
@@ -9253,8 +9136,7 @@
                         &amp; baisa sa cavalle, &amp; la ramena chez lui. Les Relations des
                         pays Orientaux sont remplies de semblables histoires. Mais quoi, l'on ne
                         croit point par tout, &amp; l'on n'a pas cru toujours que les bêtes ne
-                        fussent que des machines. C'est une des décou<pb facs="00308" n="296"
-                        />vertes que la nouvelle Philosophie a faites, il faut l'avouër, sans le
+                        fussent que des machines. C'est une des décou<pb facs="00308" n="296"/>vertes que la nouvelle Philosophie a faites, il faut l'avouër, sans le
                         secours de l'expérience, &amp; par la voye seule du raisonnement. On
                         sait son progrès. Je n'en dirai pas davantage. </p>
                     <p>Il ne suffit pas de savoir bien écrire pour faire des critiques judicieuses
@@ -9284,8 +9166,7 @@
                         &amp; que les Critiques à venir decouvriront dans les écrits des
                         Anciens, elles n'en feront point abandonner la lecture. On continuera de les
                         lire &amp; de les admirer, à moins que les Poëtes posterieurs ne
-                        produisent quelque chose de meilleur. Ce ne furent point des<pb facs="00309"
-                            n="297"/>Critiques Géométriques qui dégoûterent nos ayeux des Poësies de
+                        produisent quelque chose de meilleur. Ce ne furent point des<pb facs="00309" n="297"/>Critiques Géométriques qui dégoûterent nos ayeux des Poësies de
                         Ronsard, &amp; qui leur en firent abandonner la lecture, mais bien des
                         Poësies plus intéressantes que celles de Ronsard. Ce sont les Comédies de
                         Moliere qui nous ont dégoûté de celles de Scarron &amp; des autres
@@ -9377,8 +9258,7 @@
                         d'erreurs. </p>
                     <p>Ainsi l'Astronome d'aujourd'hui sait mieux que Ptolomée tout ce que savoit
                         Ptolomée, &amp; il sait encore toutes les découvertes qui le sont faites
-                        depuis les Antonins, soit à l'aide des voyages, soit à<pb facs="00312"
-                            n="300"/>l'aide des Lunettes de longue vuë. Ptolomée, s'il revenoit au
+                        depuis les Antonins, soit à l'aide des voyages, soit à<pb facs="00312" n="300"/>l'aide des Lunettes de longue vuë. Ptolomée, s'il revenoit au
                         monde, se feroit élever à l'observatoire. Il en est de même des Anatomistes,
                         des Navigateurs, des Botanistes &amp; de tous ceux qui professent des
                         Sciences dont le mérite consiste plus à savoir qu'à inventer, à connoître
@@ -9407,8 +9287,7 @@
                         Général &amp; grand Orateur dès qu'on exerce ces professions avec le
                         génie qui leur est propre, en quelque état qu'on puisse trouver l'art qui
                         enseigne à les bien faire. Le mérite des ouvriers illustres &amp; des
-                        grands hommes dans toutes les professions dont je viens de<pb facs="00313"
-                            n="301"/>parler, dépend principalement de la portion de génie qu'ils ont
+                        grands hommes dans toutes les professions dont je viens de<pb facs="00313" n="301"/>parler, dépend principalement de la portion de génie qu'ils ont
                         apportée en naissant, au lieu que le mérite du Botaniste, du Physicien, de
                         l'Astronome &amp; du Chymiste dépend principalement de l'état de
                         perfection où les découvertes fortuites &amp; le travail des autres ont
@@ -9477,22 +9356,18 @@
                         habiles. C'est parmi les Anciens, dit un des grands Poëtes d'Angleterre,
                         &amp; principalement parmi les Ecrivains des Pays qui sont à nôtre
                         Orient, qu'on trouve ces génies <unclear reason="illegible">rares</unclear>
-                        qui s'élévent au dessus des autres par les <unclear reason="illegible"
-                            >forces</unclear> d'un heureux naturel. Homére prend un essort que
+                        qui s'élévent au dessus des autres par les <unclear reason="illegible">forces</unclear> d'un heureux naturel. Homére prend un essort que
                         Virgile ne sauroit suivre. On trouve dans l'Ancien Testament des idées
                         encore plus magnifiques &amp; les expressions encore plus ravissantes
                         que dans Homére. En effet, Monsieur Racine ne paroît plus grand Poëte dans
                         Athalie que dans ses autres Tragédies, que parce que le sujet tiré de
                         l'Ancien Testament, <unclear reason="illegible">l'autorisoit</unclear>
-                        d'orner ses vers des figures les plus <unclear reason="illegible"
-                        >hardies</unclear>, &amp; des images les plus pompeuses de l'Ecriture
-                        Sainte, au lieu qu'il n'en avoit pû faire usage que <unclear
-                            reason="illegible">rès</unclear> sobrement dans ses piéces prophanes. On
+                        d'orner ses vers des figures les plus <unclear reason="illegible">hardies</unclear>, &amp; des images les plus pompeuses de l'Ecriture
+                        Sainte, au lieu qu'il n'en avoit pû faire usage que <unclear reason="illegible">rès</unclear> sobrement dans ses piéces prophanes. On
                         a ecouté avec respect le stile Oriental dans la bouche des personnages
                         d'Athalie, &amp; ce stile a charmé. Enfin, dit ailleurs l'Auteur Anglois
                         que nous avons cité, non pouvons être plus exacts que les Anciens, mais nous
-                        ne saurions être aussi sublimes. Je ne <unclear reason="illegible"
-                        >sai</unclear> par quelle fatalité tous les grands Poëtes des nations
+                        ne saurions être aussi sublimes. Je ne <unclear reason="illegible">sai</unclear> par quelle fatalité tous les grands Poëtes des nations
                         modernes s'accordent à mettre ce que les Anciens ont composé si fort au
                         dessus de ce qu'ils composent eux-mêmes. C'est même avouër qu'on est
                         incapable d'écrire dans le goût des Anciens, que de tâcher de les rabaisser.
@@ -9500,9 +9375,7 @@
                         qui l'avoient précédé, parce qu'il voyoit bien que leurs ouvrages &amp;
                         les siens étoient d'un goût si différent qu'il falloit que les uns ou les
                         autres déplussent à ses contemporains. Ces contemporains ne pourvoient point
-                        admirer les faux brillants &amp; le stile <unclear reason="illegible"
-                            >heurissé</unclear> de pointes des écrits de Sénéque, qui annon<pb
-                            facs="00316" n="304"/>cerent la décadence des esprits, tandis qu'ils
+                        admirer les faux brillants &amp; le stile <unclear reason="illegible">heurissé</unclear> de pointes des écrits de Sénéque, qui annon<pb facs="00316" n="304"/>cerent la décadence des esprits, tandis qu'ils
                         continueroient d'admirer le stile noble &amp; naturel des anciens
                         <note place="margin-left">Quint. Inst. lib. X.</note> Ecrivains. Quos ille non destiterat
                         incessere, cum diversi sibi conscius generis placere se in dicende posse iis

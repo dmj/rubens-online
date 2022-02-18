@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_207">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_207"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-2962">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -77,12 +77,11 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p> 500 livres à messire <rs type="person" ref="#rubens_peter_paul">Pierre-Paul
+                <p> 500 livres à messire <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul
                         Rubens</rs>, chevalier, gentilhomme de la maison de Son Altesse
                         Sérénissime<index indexName="psw">
                         <term type="PND">Isabella (Spanien, Infantin)</term>
-                    </index>, pour une année de son traitement commencée le <date when="1628-09-23"
-                        >23e de septembre 1628</date> et finie le <date when="1629-09-22">22e
+                    </index>, pour une année de son traitement commencée le <date when="1628-09-23">23e de septembre 1628</date> et finie le <date when="1629-09-22">22e
                         septembre ensuivant 1629</date>. </p>
             </div>
         </body>

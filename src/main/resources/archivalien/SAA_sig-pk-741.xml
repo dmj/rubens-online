@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_243">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_243"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-pk-741">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -66,28 +65,24 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Verthonen reverentelyck heer <rs type="person" ref="#rubens_peter_paul">Peeter
+                <p> Verthonen reverentelyck heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter
                         Paulo Rubbens</rs> riddere als testamentelyck momboir<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormundschaft</term>
-                    </index> van Jonker <rs type="person" ref="#rubens_nikolaas">Nicolaes
-                    Rubbens</rs> syn joncxten sone daer moeder aff was vrouwe <rs type="person"
-                        ref="#brant_isabella">Isabella Brant</rs> met hun gevueght Joncker <rs
-                        type="person" ref="#rubens_albert">Albertus Rubbens</rs> synen soon ende
-                    heer ende meester <rs type="person" ref="#rubens_pieter">Pieters Rubbens</rs>
+                    </index> van Jonker <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">Nicolaes
+                    Rubbens</rs> syn joncxten sone daer moeder aff was vrouwe <rs type="person" ref="../register/register-person.xml#brant_isabella">Isabella Brant</rs> met hun gevueght Joncker <rs type="person" ref="../register/register-person.xml#rubens_albert">Albertus Rubbens</rs> synen soon ende
+                    heer ende meester <rs type="person" ref="../register/register-person.xml#rubens_pieter">Pieters Rubbens</rs>
                     synen neve, byde als gheassummeerde medemomboiren over den selffven Jonker
                     Nicolaes Rubbens ende S<hi rend="super">r</hi>
-                    <rs type="person" ref="#fourment_daniel">Daniel Fourment</rs> de Jonghe coopman
-                    als testamentelyck momboir van sijne kinderen bij hem behouden van Jouff<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#brant_clara">Clara Brant</rs> syne huysvrouwe ende der
+                    <rs type="person" ref="../register/register-person.xml#fourment_daniel">Daniel Fourment</rs> de Jonghe coopman
+                    als testamentelyck momboir van sijne kinderen bij hem behouden van Jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#brant_clara">Clara Brant</rs> syne huysvrouwe ende der
                     voorseyder vrouwe Isabella sustere was, met hun gevuecht S<hi rend="super">r</hi>
                     Daniel Foeurment synen vader ende geassumeerden medemomboir over de selve
-                    kinderen hoe dat overleden syn S<hi rend="super">r</hi> ende meester <rs
-                        type="person" ref="#brant_jan">Jan Brant</rs> oudt schepen deser stadt en
+                    kinderen hoe dat overleden syn S<hi rend="super">r</hi> ende meester <rs type="person" ref="../register/register-person.xml#brant_jan">Jan Brant</rs> oudt schepen deser stadt en
                         Jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#moy_clara">Clara de Moy</rs> syne huysvrouwe was,
+                    <rs type="person" ref="../register/register-person.xml#moy_clara">Clara de Moy</rs> syne huysvrouwe was,
                     derselver weesen grootvader ende grootmoeder waeren, naergelaten hebben binnen
                     dese stadt verscheyden huysen ende gronden van erffven, daeraff sy rentmeester
                     in voorseyde qualiteyt teghens den anderen geerne scheyden ende deylen souden,
@@ -104,13 +99,12 @@
                     voorseyden grootvader ende grootmoeder naergelaten. Te meer mits nu sommige
                     momboiren panden coopen voor genoemde wesen by ghebreke van renten de selffve
                     suppleanten tot tghene voorseyd by desen authoriseren in forma dwelck doende
-                    etc. Myne heeren rentmeester en secretaris hebben gecommitteert heer <rs
-                        type="person" ref="#tucher_robrecht">Robrecht Tucher</rs> ridder ende heer
-                        <rs type="person" ref="#otter_hendrick">Hendrick van Otter</rs> riddere
-                    Schepenen ende meester <rs type="person" ref="#valckenisse_philipp">Philips van
+                    etc. Myne heeren rentmeester en secretaris hebben gecommitteert heer <rs type="person" ref="../register/register-person.xml#tucher_robrecht">Robrecht Tucher</rs> ridder ende heer
+                        <rs type="person" ref="../register/register-person.xml#otter_hendrick">Hendrick van Otter</rs> riddere
+                    Schepenen ende meester <rs type="person" ref="../register/register-person.xml#valckenisse_philipp">Philips van
                         Valckenisse</rs> secretaris deser stadt die hen op den innehoud van dese
                     selen informeren.</p> <closer><dateline>Actum <date when="1639-12-14">14. Decembris 1639</date>.</dateline><lb/>
-                        <signed><rs type="person" ref="#ceulen_a">A. Van Ceulen.</rs></signed></closer> 
+                        <signed><rs type="person" ref="../register/register-person.xml#ceulen_a">A. Van Ceulen.</rs></signed></closer> 
             </div>
             <div>
                 <p> Daernar gehoort het rapport der voorseyde commissarissen mijne heeren

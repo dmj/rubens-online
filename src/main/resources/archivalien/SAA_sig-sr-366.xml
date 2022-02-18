@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_054">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_054"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-366">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -51,8 +50,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 297f.<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 297f.<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
                                 Gerechtsgebouw, 15.-30. Oktober 1977, S. 241, Nr. 147</bibl>
                         </listBibl>
@@ -74,41 +72,32 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Jouffrouwe <rs type="person" ref="#touion_clara">Clara de Touion alias
-                    Colyns</rs>, weduwe <rs type="person" ref="#pypelincx_hendrick">Hendricx
+                <p> Jouffrouwe <rs type="person" ref="../register/register-person.xml#touion_clara">Clara de Touion alias
+                    Colyns</rs>, weduwe <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Hendricx
                         Pypelinck</rs>, cum tutore, bekende ende verlijde dat zij overgegeven,
                     gecedeert ende getransporteert heeft, gaf overe, etc. sine revocatione,
-                    jouffrouwen <rs type="person" ref="#pypelincx_maria">Marien Pypelinck</rs>,
+                    jouffrouwen <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marien Pypelinck</rs>,
                     haerder dochteren, in mindernissen ende betalingen van heuren vaderlicken goeden
                     ende verstertfenissen: inden yersten, die vijrtich Carolus goldenen tjsaers
-                    erflicker renten metten achterstelle daeraff gevallen ende verschenen, die <rs
-                        type="person" ref="#crol_jan">Jan Crol</rs>, als gemechticht van Jonckheere
-                    Vander Meere, Heeren Philipssone wijlen des Ridders, ende van Vrouwe <rs
-                        type="person" ref="#noot_maximiliana">Maximiliana van der Noot</rs>, zijne
+                    erflicker renten metten achterstelle daeraff gevallen ende verschenen, die <rs type="person" ref="../register/register-person.xml#crol_jan">Jan Crol</rs>, als gemechticht van Jonckheere
+                    Vander Meere, Heeren Philipssone wijlen des Ridders, ende van Vrouwe <rs type="person" ref="../register/register-person.xml#noot_maximiliana">Maximiliana van der Noot</rs>, zijne
                     moedere, opten <date when="1552-01-10">X<hi rend="super">en</hi> Januarij anno
-                            XV<hi rend="super">c</hi>LII</date>, den voirs. wijlen <rs type="person"
-                        ref="#pypelincx_hendrick">Henricke Pypelinck</rs>, bekent ende vercocht
+                            XV<hi rend="super">c</hi>LII</date>, den voirs. wijlen <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henricke Pypelinck</rs>, bekent ende vercocht
                     heeft op eene hoeve met huysinghe, hove, lande, bossche, beempde, heyde, weyde,
                     gronde ende toebehoirten, geheeten Morckhoven, gelegen in diversche percheelen,
-                    onder de heerlickheyt van Morckhoven, bij <rs type="place" ref="#herentals"
-                        >Herentals</rs>, verschijnende jaerlicx den <date when="--01-10">X<hi
-                            rend="super">de</hi>n Januarij</date>, ende daertoe noch die
+                    onder de heerlickheyt van Morckhoven, bij <rs type="place" ref="../register/register-place.xml#herentals">Herentals</rs>, verschijnende jaerlicx den <date when="--01-10">X<hi rend="super">de</hi>n Januarij</date>, ende daertoe noch die
                     vijfentzeventich Carolus guldenen tsjaers ertlickere renten, metten achterstelle
-                    als boven, die <rs type="person" ref="#stapele_cornelis">Cornelis van
-                    Stapele</rs>, woonende tot <rs type="place" ref="#bergen_op_zoom"
-                        >Bergen-opt-Zoom</rs>, voer hem selven ende inden name ende gemechticht van
-                    jouffrouwen <rs type="person" ref="#houte_heylwich">Heylwich Houte</rs>, zijne
+                    als boven, die <rs type="person" ref="../register/register-person.xml#stapele_cornelis">Cornelis van
+                    Stapele</rs>, woonende tot <rs type="place" ref="../register/register-place.xml#bergen_op_zoom">Bergen-opt-Zoom</rs>, voer hem selven ende inden name ende gemechticht van
+                    jouffrouwen <rs type="person" ref="../register/register-person.xml#houte_heylwich">Heylwich Houte</rs>, zijne
                     huysvrouwe, den <date when="1571-05-19">XIX<hi rend="super">en</hi> Mey anno
                             XV<hi rend="super">c</hi> eenentseventich</date>, vercocht heeft den
                     voirgenoempden Henrick Pypelinck ende haer comparante, yerst op eene hoeve met
                     huysinghe, schuere, stallinge, gronde ende toebehoirten, groot vijfentzeventich
-                    gemeten, gelegen al aen een inden polder genaempt den Ruygen Hil, onder <rs
-                        type="place" ref="#bergen_op_zoom">Berghen</rs> voirs., tusschen <rs
-                        type="person" ref="#michielsens_jacob">Jacob Michielsens</rs> erve
-                    suytwaert, <rs type="person" ref=" #wyngaerden_bruyninck">Bruyninck van Wyngaerden</rs> lant ende erve
+                    gemeten, gelegen al aen een inden polder genaempt den Ruygen Hil, onder <rs type="place" ref="../register/register-place.xml#bergen_op_zoom">Berghen</rs> voirs., tusschen <rs type="person" ref="../register/register-person.xml#michielsens_jacob">Jacob Michielsens</rs> erve
+                    suytwaert, <rs type="person" ref="../register/register-person.xml #wyngaerden_bruyninck">Bruyninck van Wyngaerden</rs> lant ende erve
                     noortwaert, comende west- ende oostwaert aen sHeeren straten, ende op meer
-                    andere diversche percheelen van landen ende hoeven, gelegen onder <rs
-                        type="person" ref="#steenbergen">Steenbergen</rs> ende daeromtrent,
+                    andere diversche percheelen van landen ende hoeven, gelegen onder <rs type="person" ref="../register/register-person.xml#steenbergen">Steenbergen</rs> ende daeromtrent,
                     verschijnende jaerlix den <date when="--05-27">XVII<hi rend="super">en</hi>
                     Mey</date>, al prout litteræ quas tradidit. Droech oppe met allen den rechte,
                     etc. te waerne van allen commere ende calaengien, etc. </p>

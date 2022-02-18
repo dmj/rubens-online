@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_103">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_103"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-cert-70">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -46,8 +45,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                                bloedverwanten. Antwerpen 1877, S. 420f.<ptr type="gbv" cRef="146162595"
-                                /></bibl></listBibl>
+                                bloedverwanten. Antwerpen 1877, S. 420f.<ptr type="gbv" cRef="146162595"/></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -66,17 +64,11 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Meester <rs type="person" ref="#rubens_philipp">Philips Rubens</rs>, Secretaris
-                    deser stadt, <span from="" xml:lang="lat">constituit</span> Sieur <rs type="person" ref="#pennants_guillaume"
-                        >Guillaume de Pennants</rs>, contrerolleur ende ontfanger van <rs
-                        type="place" ref="#mariembourg">Marienbourg</rs>, woonende tot <rs
-                        type="place" ref="#bruessel">Brussel</rs>, omme, inden name van hem
-                    constituant, te verheffen alsulcken leengoet tot <rs type="place" ref="#nispen"
-                        >Nispen</rs>, onder <rs type="place" ref="#roosendaal">Roosendael</rs>,
+                <p> Meester <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips Rubens</rs>, Secretaris
+                    deser stadt, <span from="" xml:lang="lat">constituit</span> Sieur <rs type="person" ref="../register/register-person.xml#pennants_guillaume">Guillaume de Pennants</rs>, contrerolleur ende ontfanger van <rs type="place" ref="../register/register-place.xml#mariembourg">Marienbourg</rs>, woonende tot <rs type="place" ref="../register/register-place.xml#bruessel">Brussel</rs>, omme, inden name van hem
+                    constituant, te verheffen alsulcken leengoet tot <rs type="place" ref="../register/register-place.xml#nispen">Nispen</rs>, onder <rs type="place" ref="../register/register-place.xml#roosendaal">Roosendael</rs>,
                     gelegen, als op hem constituant bleven, verstorven ende gedevolueert is midts
-                    der doot ende aflyvicheyt van wijlen jouffrouwe <rs type="person"
-                        ref="#pypelincx_maria">Marie Pypelincx</rs>, <rs type="person"
-                        ref="#pypelincx_hendrick">Henrix</rs> dochtere wijlen, sijns constituants
+                    der doot ende aflyvicheyt van wijlen jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs>, <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henrix</rs> dochtere wijlen, sijns constituants
                     moeder saliger, te dyen eynde te gane ende compareren voor hoedanige heeren,
                     hoven ende gerechten, hulde, manschap ende eedt van getrouwicheydt te doen,
                     sijns constituants name te boecke te doen stellen, ende voorts ten effecte van

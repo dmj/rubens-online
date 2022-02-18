@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_047">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_047"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-r-299">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -84,29 +83,23 @@
         <body>
             <div xml:lang="nld">
                 
-                    <head><hi rend="underline">2213</hi><lb/> 3606 <rs type="person" ref="#rubens_jan">Jan
-                        Rubbens</rs>, jaerlijcx <measure type="currency" quantity="75"
-                    >LXXV</measure> ₤ nue gereduceert op <measure type="currency" quantity="45"
-                        >XLV</measure> ₤<lb/></head>
+                    <head><hi rend="underline">2213</hi><lb/> 3606 <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan
+                        Rubbens</rs>, jaerlijcx <measure type="currency" quantity="75">LXXV</measure> ₤ nue gereduceert op <measure type="currency" quantity="45">XLV</measure> ₤<lb/></head>
                 <p>    
                 <table>
                         <row>
                             <cell><date when="1577-12-27">XXVII Decembris LXXVII</date> –</cell>
-                            <cell><measure
-                        type="currency" quantity="22">XXII</measure> ₤ <measure type="currency"
-                        quantity="10">X</measure> st.<lb/></cell>
+                            <cell><measure type="currency" quantity="22">XXII</measure> ₤ <measure type="currency" quantity="10">X</measure> st.<lb/></cell>
                         </row>
                         <row>
                             <cell><date when="1577-06-27">XXVII Junij LXXVII</date> – </cell>
-                            <cell><measure type="currency"
-                        quantity="22">XXII</measure> ₤ <measure type="currency" quantity="10"
-                    >X</measure> st.</cell>
+                            <cell><measure type="currency" quantity="22">XXII</measure> ₤ <measure type="currency" quantity="10">X</measure> st.</cell>
                         </row>
                 </table>
                     </p>
                      <closer>
                          <signed>telde 
-                             <rs type="person" ref="#venne_willem">Willem vande Venne</rs>
+                             <rs type="person" ref="../register/register-person.xml#venne_willem">Willem vande Venne</rs>
                          </signed><lb/>
                          <dateline>
                              <date when="1579-09-02">2 Septembris 1579</date>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_171">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_171"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,10 +20,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-580">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -48,7 +47,7 @@
                     </head>
                     <msContents>
                         <msItem>
-                            <locus></locus>
+                            <locus/>
                             <title>J</title>
                         </msItem>
                     </msContents>
@@ -73,78 +72,62 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#ast_jan">Jan</rs> ende <rs type="person"
-                        ref="#ast_hendrick">Hernich vander Ast</rs>, gebroeders, Josephsone wijlen
-                    daer moeder aff was Jouffrouwe <rs type="person" ref="#minne_helena">Helena
+                    <rs type="person" ref="../register/register-person.xml#ast_jan">Jan</rs> ende <rs type="person" ref="../register/register-person.xml#ast_hendrick">Hernich vander Ast</rs>, gebroeders, Josephsone wijlen
+                    daer moeder aff was Jouffrouwe <rs type="person" ref="../register/register-person.xml#minne_helena">Helena
                         Minne</rs> voorgenoemde selven ende noch beyde inde name ende als
-                    genomineerde testamentlycke momboiren van <rs type="person"
-                        ref="#coomans_jan_baptista">Jan Baptista</rs>, <rs type="person"
-                        ref="#coomans_jacques">Jaques</rs>, <rs type="person" ref="#coomans_abraham"
-                        >Abraham</rs>, <rs type="person" ref="#coomans_marie">Marie</rs> ende <rs
-                        type="person" ref="#coomans_sara">Sara Coomans</rs> Jans kinderen wijlen
-                    daer moeder aff was Jouffrouwe <rs type="person" ref="#ast_marie">Marie Vander
+                    genomineerde testamentlycke momboiren van <rs type="person" ref="../register/register-person.xml#coomans_jan_baptista">Jan Baptista</rs>, <rs type="person" ref="../register/register-person.xml#coomans_jacques">Jaques</rs>, <rs type="person" ref="../register/register-person.xml#coomans_abraham">Abraham</rs>, <rs type="person" ref="../register/register-person.xml#coomans_marie">Marie</rs> ende <rs type="person" ref="../register/register-person.xml#coomans_sara">Sara Coomans</rs> Jans kinderen wijlen
+                    daer moeder aff was Jouffrouwe <rs type="person" ref="../register/register-person.xml#ast_marie">Marie Vander
                         Ast</rs>, <span from="" xml:lang="lat">quos susceperunt</span> ende als omme ‘t gene nabeschreven wordt te
                     moghen doene vollcommentlycke geauthoriseert sijnde van mijnen eer: Heeren
                     borgemeester ende Schepenen deser Stadt naluyt van apostille collegiale gestelt
                     op henne requeste in date den <date when="1626-08-01">eersten dach deser
-                        loopende maendt Augusti</date>, onder teekent bijden griffier <rs
-                        type="person" ref="#griffier_fabri">Fabri</rs>, ons te deser originelyck
+                        loopende maendt Augusti</date>, onder teekent bijden griffier <rs type="person" ref="../register/register-person.xml#griffier_fabri">Fabri</rs>, ons te deser originelyck
                     gethoont ende indyer qualiteyt bekende de voors. comparanten dat sij omme eene
                     somme gelts die hem al ende wel is vergouden, vercocht hebben wel ende wettelyck
-                        <rs type="person" ref="#rubens_peter_paul">Petro Paulo Ruebens</rs> ende <rs
-                        type="person" ref="#lunden_arnoult">Arnoult Lunden</rs> als executers ende
-                    tot behoeff vande sterffhuyse van wijlen <rs type="person"
-                        ref="#nispen_balthasar">Balthasar van Nispen</rs> een huys geheeten De
+                        <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo Ruebens</rs> ende <rs type="person" ref="../register/register-person.xml#lunden_arnoult">Arnoult Lunden</rs> als executers ende
+                    tot behoeff vande sterffhuyse van wijlen <rs type="person" ref="../register/register-person.xml#nispen_balthasar">Balthasar van Nispen</rs> een huys geheeten De
                         Swaene<index indexName="stw">
                         <term xml:lang="nld">De Swaene</term>
                     </index>, wesende nu ter tyt twee wooninghen, met sesthien huyser oft wooningen
                     daer achter, met eene hove, plaetse, bornputte, gemeynen gange, gronde ende alle
                     de toebehoorten, gestane ende gelegen inde Corte Ridderstrate alhier, tusschen
-                    thuys geheeten "De Pellicaen" aen d’eene sijde, ende <rs type="person"
-                        ref="#hont_jacop">Jacope de Hont, die men hiet Thonis</rs> aen d’ander
+                    thuys geheeten "De Pellicaen" aen d’eene sijde, ende <rs type="person" ref="../register/register-person.xml#hont_jacop">Jacope de Hont, die men hiet Thonis</rs> aen d’ander
                     sijde, gelijcke ende in alle der manieren de voors. huysen metten toebehoorten
                     hen comparanten ende de voors. weesen toecommende, bleven ende verstorven sijn
-                    als geinstutueerde erffgenamen soo bij testamente van voors. wijlen <rs
-                        type="person" ref="#ast_joseph">Joseph vander Ast</rs> ende Jouffrouwe
+                    als geinstutueerde erffgenamen soo bij testamente van voors. wijlen <rs type="person" ref="../register/register-person.xml#ast_joseph">Joseph vander Ast</rs> ende Jouffrouwe
                     Helena Minne, henne vader ende moeder, grootvader ende grootmoeder, respectieve
-                    waren gesamenderhandt gemaect ende gepasseert opden <date when="1621-06-12"
-                        >tweelfsten Juny inde Jare 16<hi rend="super">c</hi> ende
+                    waren gesamenderhandt gemaect ende gepasseert opden <date when="1621-06-12">tweelfsten Juny inde Jare 16<hi rend="super">c</hi> ende
                     d’enentwintich</date>, als oock bij testamente van selven Joseph Vander Ast
                     alleen gemaect ende gepasseert naer de doodt van sijne voors. huysvrouwe opden
                         <date when="1623-02-28">lesten February van Jare 16<hi rend="super">c</hi>
-                        ende drijentwintich</date> alle voorde notaris <rs type="person"
-                        ref="#witte_gaspar">Gaspar de Witte</rs>, in presentie van getuyghen ende
+                        ende drijentwintich</date> alle voorde notaris <rs type="person" ref="../register/register-person.xml#witte_gaspar">Gaspar de Witte</rs>, in presentie van getuyghen ende
                     gelyck de voors. wijlen Joseph Vander Ast ende Jouffrouwe Helena Minne sijne
                     huysvrouwe daerinne opden <date when="1603-12-30">naestlesten dach decembris
-                        inde Jare 16<hi rend="super">c</hi> ende drye</date> bij Heere <rs
-                        type="person" ref="#werve_louys">Louys van Werve</rs>, riddere als
-                    stadthouder van Heer <rs type="person" ref="#damant_jan">Jan Damant</rs>,
+                        inde Jare 16<hi rend="super">c</hi> ende drye</date> bij Heere <rs type="person" ref="../register/register-person.xml#werve_louys">Louys van Werve</rs>, riddere als
+                    stadthouder van Heer <rs type="person" ref="../register/register-person.xml#damant_jan">Jan Damant</rs>,
                     riddere amptman inder stadt alhier was crachte van sijnde offitie gehoeyt ende
                     geerft sijn geweest, prout littera quam tradiderunt, ende omme welcke voors.
                     huysen mette toebehoorten ten hoogste ende meeste prijse te brengene hebben sijn
                     vervoopere de selve tot vele ende diversche vervolgende vrijdagen ter vrijen
-                    Vrijdaechsmerct deser stadt doen wtroepen ende veylen te coope door <rs
-                        type="person" ref="#borm_hans">Hans van Borm</rs>, gesworen outcleercooper
+                    Vrijdaechsmerct deser stadt doen wtroepen ende veylen te coope door <rs type="person" ref="../register/register-person.xml#borm_hans">Hans van Borm</rs>, gesworen outcleercooper
                     alhier openbaerlyck ende yegelyck even naer, waer aff nae vele langhe roepers
                     namentlyck des vrijdaechs den <date when="1626-06-30">lesten dach der voorleden
                         maendt July</date> als lesten ende hoochsten verdierdere ende meest daer
-                    voore biedende de palmalach van coop ontfangen ende behouden heeft <rs
-                        type="person" ref="#thienen_cornelis">Cornelis van Thienen</rs> inde name
+                    voore biedende de palmalach van coop ontfangen ende behouden heeft <rs type="person" ref="../register/register-person.xml#thienen_cornelis">Cornelis van Thienen</rs> inde name
                     van Arnoult Lunden als executeurs vande testamente ende tot behoeff vande
                     sterffhuyse van wijlen Balthasar van Nispen voorgeruert die aldaer mede present
                     was ende te coop accepteerde voorde somme van dryehondert vijfthien gulden
-                    erffelyck naer luyt de coopchedulle onderteekent <rs type="person"
-                        ref="#fabri_d">D. Fabri</rs> daer aff sijnde droeg hen op etc. te waerne
+                    erffelyck naer luyt de coopchedulle onderteekent <rs type="person" ref="../register/register-person.xml#fabri_d">D. Fabri</rs> daer aff sijnde droeg hen op etc. te waerne
                     etc. vutgenomen dry schellingen brabants erffelyck den godshuyse van
                     Blauwenbroeders alhier, item vier schellingen een hinne ende een eye erffelyck
-                    den <rs type="corporate" ref="#antwerpen_abtei_st_michiels">Godtshuyse van St.
+                    den <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Godtshuyse van St.
                         Michiels</rs>, item veerthien grooten vlems erffelyck den heyligengeest ‘t
                     onser L. vrouwe<index indexName="stw">
                         <term type="SWD" xml:lang="deu">	
                             Antwerpen</term><index indexName="stw"><term xml:lang="deu">Liebfrauenkathedrale</term></index>
                     </index> alhier, item vier schellingen brabants erffelyck der Borcht kercken
                     alhier ende twee chyns guldene erffelyck M<hi rend="super">r</hi>
-                    <rs type="person" ref="#wesenbeke_peeter">Peeter van Wesenbeke</rs> daer
+                    <rs type="person" ref="../register/register-person.xml#wesenbeke_peeter">Peeter van Wesenbeke</rs> daer
                     Jaerlyck vutgaende prout litterae ende anders niet, alle welcke percheele van
                     chysen metten verloope van dye mitsgaders bij soo vere namaels behouden werden
                     de voors. huysen belast te sijne met deser stadts honderdsten chyspenninck vande

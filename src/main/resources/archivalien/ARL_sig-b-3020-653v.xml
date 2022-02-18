@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_248b">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_248b"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-3020-653v">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -75,13 +75,9 @@
             
             
             <div xml:lang="fra">
-                <p><pb n="653v"/>4200 livres à don <rs type="person" ref="#contreras_francisco"
-                        >Franscisco de Contreras y Rojas</rs>, garde-jouaux de son Altesse, en une
-                    lettre de descharge de pareille somme datée du <date when="1640-11-08"
-                        >huictiesme de novembre 1640</date>, levée sur l’avant dit <rs type="person"
-                        ref="#philipp_iv_spanien">Philippe</rs> Le Roy, dont est faict recepte
-                    cy-devant, folio 271, verso, pour de ce payer les héritiers de feu messire <rs
-                        type="person" ref="#rubens_peter_paul">Pierre-Paul Rubbens</rs>, chevalier,
+                <p><pb n="653v"/>4200 livres à don <rs type="person" ref="../register/register-person.xml#contreras_francisco">Franscisco de Contreras y Rojas</rs>, garde-jouaux de son Altesse, en une
+                    lettre de descharge de pareille somme datée du <date when="1640-11-08">huictiesme de novembre 1640</date>, levée sur l’avant dit <rs type="person" ref="../register/register-person.xml#philipp_iv_spanien">Philippe</rs> Le Roy, dont est faict recepte
+                    cy-devant, folio 271, verso, pour de ce payer les héritiers de feu messire <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubbens</rs>, chevalier,
                     pour quatre peinctures entreprins de faire par leur dit feu père pour le service
                     de Sa Majesté, par ordonnance de Son Altèze et quictance y servante veue en
                     l’estat de <date when="--11">novembre</date>, folio 48, verso, cy-rendu ladite

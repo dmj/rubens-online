@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_215">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_215"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-627">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -62,38 +61,28 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Heer <rs type="person" ref="#halmale_pauwel">Pauwels van Halmale</rs>, oudt
-                    schepene deser stadt inde naem ende als testamentelyck momboir<index
-                        indexName="stw">
+                <p> Heer <rs type="person" ref="../register/register-person.xml#halmale_pauwel">Pauwels van Halmale</rs>, oudt
+                    schepene deser stadt inde naem ende als testamentelyck momboir<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormundschaft</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Pate</term>
                     </index> beneffens S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Rubbens</rs> ende <rs
-                        type="person" ref="#schut_cornelis">Cornelis Schut</rs>, die hem hier inne
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pedro Paulo Rubbens</rs> ende <rs type="person" ref="../register/register-person.xml#schut_cornelis">Cornelis Schut</rs>, die hem hier inne
                     vervinck ende geloeffde te vervane hen daer voore sterckmaekende over de
-                    kinderen van wijlen <rs type="person" ref="#brueghel_pieter">Peeter Bruegel</rs>, schilder was <span from="" xml:lang="lat">
+                    kinderen van wijlen <rs type="person" ref="../register/register-person.xml#brueghel_pieter">Peeter Bruegel</rs>, schilder was <span from="" xml:lang="lat">
                         etiam quos suscepit</span>. Bekende
-                    inder voors. qualiteit mits desen opgerbeurt ende ontfanghen te hebben van <rs
-                        type="person" ref="#verryt_marie">Marie Verryt</rs>, weduwe van wijlen <rs
-                        type="person" ref="#gillis_anthonis">Anthoni Gillis</rs> de hooft Penninghe
+                    inder voors. qualiteit mits desen opgerbeurt ende ontfanghen te hebben van <rs type="person" ref="../register/register-person.xml#verryt_marie">Marie Verryt</rs>, weduwe van wijlen <rs type="person" ref="../register/register-person.xml#gillis_anthonis">Anthoni Gillis</rs> de hooft Penninghe
                     jegens de penninck sesthien gerekent mette achterstelle daeraff verschenen tot
-                    dese daege toe vande Brabants erffelyck daeromme <rs type="person"
-                        ref="#wouters_dominicus">Dominicus Wouters</rs>, muntmeester alhier, inde
-                    qualiteyt so hij compareerder voir schepen deser voors. stadt opde <date
-                        when="1617-09-02">tweede septembris anno 16<hi rend="super">c</hi> ende
+                    dese daege toe vande Brabants erffelyck daeromme <rs type="person" ref="../register/register-person.xml#wouters_dominicus">Dominicus Wouters</rs>, muntmeester alhier, inde
+                    qualiteyt so hij compareerder voir schepen deser voors. stadt opde <date when="1617-09-02">tweede septembris anno 16<hi rend="super">c</hi> ende
                         seventhien</date> ’t erve gegeven heeft de voors. Anthoni Gillis ende sijne
-                    huysvrouwe den huysen met stalle, plaetse prout in presedente ende die <rs
-                        type="person" ref="#waerbeke_jan">Jan Waerbeke</rs>, notaris alhier inde
-                    naem ende als bij procuratie gemechticht geweest zijnde van Heer <rs
-                        type="person" ref="#montfort_jan">Jan van Montfort</rs> daer bij hunne
+                    huysvrouwe den huysen met stalle, plaetse prout in presedente ende die <rs type="person" ref="../register/register-person.xml#waerbeke_jan">Jan Waerbeke</rs>, notaris alhier inde
+                    naem ende als bij procuratie gemechticht geweest zijnde van Heer <rs type="person" ref="../register/register-person.xml#montfort_jan">Jan van Montfort</rs> daer bij hunne
                     hocheden ende M<hi rend="super">r</hi> Generael van hunne munten van herrewaerts
-                    overe opde <date when="1618-11-27">27<hi rend="super">e</hi> Novembris anno 16<hi
-                            rend="super">c</hi> ende achthiene</date> voir schepene deser stadt
-                    vercocht ende getransporteert heeft den voirs. <rs type="person"
-                        ref="#brueghel_jan_aeltere">Janne Bruegel</rs><index indexName="psw">
+                    overe opde <date when="1618-11-27">27<hi rend="super">e</hi> Novembris anno 16<hi rend="super">c</hi> ende achthiene</date> voir schepene deser stadt
+                    vercocht ende getransporteert heeft den voirs. <rs type="person" ref="../register/register-person.xml#brueghel_jan_aeltere">Janne Bruegel</rs><index indexName="psw">
                         <term type="PND">Breughel, Jan (der Ältere)</term>
                         </index> al prout <span from="" xml:lang="lat">litteras quas tradiderunt, quitaverunt</span> gelovende etc. </p>
                 <closer><salute>sonder argelist.</salute><lb/> <dateline><span from="" xml:lang="lat">Eodem die</span>.<lb/></dateline>

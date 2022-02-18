@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_261">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_261"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-n-3393-3">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -71,25 +70,19 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Uittreksel uit de inventaris van de nagelaten goederen van meester <rs
-                        type="person" ref="#brant_jan">JAN BRANT</rs>, doctor in de rechten,
-                    oud-schepen en weduwnaar van <rs type="person" ref="#moy_clara">CLARA DE MOY
+                <p>Uittreksel uit de inventaris van de nagelaten goederen van meester <rs type="person" ref="../register/register-person.xml#brant_jan">JAN BRANT</rs>, doctor in de rechten,
+                    oud-schepen en weduwnaar van <rs type="person" ref="../register/register-person.xml#moy_clara">CLARA DE MOY
                         (MOOY)</rs>. Hij is op <date when="1639-08-23">23 augustus 1639</date> in
                     zijn woning in de Sint-Michielstraat overleden. De kleinkinderen zijn aangeduid
-                    als erfgenamen, nl. : de kinderen van ridder <rs type="person"
-                        ref="#rubens_peter_paul">Pieter Paul Rubens (Rubbens)</rs> en van wijlen <rs
-                        type="person" ref="#brant_isabella">Isabella Brant</rs>, evenals de kinderen
-                    van <rs type="person" ref="#fourment_daniel">Daniël II Fourment</rs>, koopman,
-                    en van wijlen <rs type="person" ref="#brant_clara">Clara Brant</rs>. De
-                    inventaris is door notaris <rs type="person" ref="#cantelbeke_hendrick">H. van
+                    als erfgenamen, nl. : de kinderen van ridder <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pieter Paul Rubens (Rubbens)</rs> en van wijlen <rs type="person" ref="../register/register-person.xml#brant_isabella">Isabella Brant</rs>, evenals de kinderen
+                    van <rs type="person" ref="../register/register-person.xml#fourment_daniel">Daniël II Fourment</rs>, koopman,
+                    en van wijlen <rs type="person" ref="../register/register-person.xml#brant_clara">Clara Brant</rs>. De
+                    inventaris is door notaris <rs type="person" ref="../register/register-person.xml#cantelbeke_hendrick">H. van
                         Cantelbeck</rs> opgemaakt op verzoek van P. P. Rubens, in naam van zijn
-                    jongste zoon <rs type="person" ref="#rubens_nikolaas">Nicolaas Rubens</rs>,
-                    thans in het buiten-land ; op verzoek van Jonker <rs type="person"
-                        ref="#rubens_albert">Albertus Rubens</rs>, secretaris van de geheime raad
+                    jongste zoon <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">Nicolaas Rubens</rs>,
+                    thans in het buiten-land ; op verzoek van Jonker <rs type="person" ref="../register/register-person.xml#rubens_albert">Albertus Rubens</rs>, secretaris van de geheime raad
                     van de koning en ook een zoon van P. P. Rubens ; alsook op verzoek van Daniël II
-                    Fourment, testamentaire voogd van zijn kinderen. De getuigen zijn <rs
-                        type="person" ref="#stuers_peter">Peter Stuers</rs> en <rs type="person"
-                        ref="#smits_huibrecht">Huibrecht Smidts (Smits)</rs>. </p>
+                    Fourment, testamentaire voogd van zijn kinderen. De getuigen zijn <rs type="person" ref="../register/register-person.xml#stuers_peter">Peter Stuers</rs> en <rs type="person" ref="../register/register-person.xml#smits_huibrecht">Huibrecht Smidts (Smits)</rs>. </p>
             </div>
             <div xml:lang="nld">
                 <head>In ’t Camerken aen den Hoff ende Deurganck :</head>
@@ -109,22 +102,18 @@
             <div xml:lang="nld">
                 <head>In de groote Camer aen de Hoff :</head>
                 <p>Een groot stuck schilderije van de Drij Coningen op panneel olieverve in
-                    lijste<lb/> Een stuck <rs type="work" ref="#jaffe_108">schilderij van Heer Petro Paulo Rubbens met sijn ierste
+                    lijste<lb/> Een stuck <rs type="work" ref="../register/register-work.xml#jaffe_108">schilderij van Heer Petro Paulo Rubbens met sijn ierste
                         Huijsvrouwe</rs> op panneel olieverve in lijste<note resp="A.H." type="footnote">Zur Identifikation des Gemäldes Vgl. <bibl>Nils Büttner: Herr P. P. Rubens: von der Kunst, berühmt zu werden.
-                            (Rekonstruktion der Künste ; 7) Göttingen: Vandenhoeck &amp; Ruprecht, 2006. S. 104<ptr
-                                type="opac" cRef="515922463"/></bibl> sowie <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S. 169. Nr. 108<ptr type="gbv"
-                                    cRef="022373535"/></bibl></note><lb/> Den Afflivigen in desen ende
+                            (Rekonstruktion der Künste ; 7) Göttingen: Vandenhoeck &amp; Ruprecht, 2006. S. 104<ptr type="opac" cRef="515922463"/></bibl> sowie <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S. 169. Nr. 108<ptr type="gbv" cRef="022373535"/></bibl></note><lb/> Den Afflivigen in desen ende
                     sijne Huijsvrouwe respective op panneel olieverve in lijste<lb/> Een stuck
                     schilderij van Maria Magdalena op doeck sonder lijst<lb/> Wat Blommen op paneel
                     in lijste<lb/> Een Ouden Man op paneel olieverve in lijste<lb/> Een doeck
                     olieverve in lijste van Rethorica<lb/> Een Mariebeldeken op panneel olieverve in
                     lijste<lb/> Twee stucxkens schilderij respective op paneel olieverve in lijste :
-                    d’een van Jan Brant des afflivigens soontken was ende d’ander van <rs
-                        type="person" ref="#rubens_clara_serena">Clara Serena Rubbens</rs>,
+                    d’een van Jan Brant des afflivigens soontken was ende d’ander van <rs type="person" ref="../register/register-person.xml#rubens_clara_serena">Clara Serena Rubbens</rs>,
                     dochterken was des voors. Heer Rubbens<lb/> Een Heremijt op panneel in
                     lijste<lb/> Een groot stuck schilderij van het Leven ende de Doodt op panneel
-                    olieverve in lijste<lb/> Een groot stuck schilderije van wijlen heer <rs
-                        type="person" ref="#moy_hendrick">Henrik de Moij</rs> op panneel olieverve
+                    olieverve in lijste<lb/> Een groot stuck schilderije van wijlen heer <rs type="person" ref="../register/register-person.xml#moy_hendrick">Henrik de Moij</rs> op panneel olieverve
                     in lijste<lb/> Een Begraeffenisse Christi op 1 plaetken in ebbenhoute
                     lijste<lb/> Het Conterfeijtsel van den Afflivigen in desen in lijste<lb/> Het
                     Conterfeijtsel van desselffs Afflivigens Vader ende Moeder restective op panneel
@@ -136,10 +125,8 @@
             <div xml:lang="nld">
                 <head>In ’t Camerken aen de Straete :</head>
                 <p>Vijf stucxkens oudt tappijt looffwerck tegens de mueren genaegelt zijnde<lb/> Het
-                    Conterdfeijtsel van den voors. meester <rs type="person" ref="#moy_hendrick"
-                        >Henrick de Mooij</rs> op panneel olieverve in lijste<lb/> Een Bancquet van
-                    den Coninck Balthazar op panneel olieverve in lijste<lb/> Den Hertoch <rs
-                        type="person" ref="#albrecht_von_oesterreich">Albartus</rs> hooch loffelycke
+                    Conterdfeijtsel van den voors. meester <rs type="person" ref="../register/register-person.xml#moy_hendrick">Henrick de Mooij</rs> op panneel olieverve in lijste<lb/> Een Bancquet van
+                    den Coninck Balthazar op panneel olieverve in lijste<lb/> Den Hertoch <rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">Albartus</rs> hooch loffelycke
                     memorie in sijn cardinaelscleederen op panneel olieverve in lijste<lb/> Enn
                     Spaensche Joffrouwe op panneel olieverve in lijste<lb/> Een gebourduert stucxken
                     schilderije van Marie ende Joseph in lijste<lb/> Den Thoren van Babiloniën op
@@ -147,18 +134,16 @@
                     Predicatie daerinne<lb/> Een Fruijtagiken op doeck in lijste<lb/> Een
                     Boschagieken in een rindeken op panneel in lijste<lb/> Onsen Salichmaecker aen
                     ‘t cruijs met Onse-Lieve-Vrouwe ende Sint-Jan op een panneeltken olieverve in
-                    lijste<lb/> Den Coninck ende de Coninginne van <rs type="place" ref="#england"
-                        >Engelant</rs> pampiere kunst in lijste respective</p>
+                    lijste<lb/> Den Coninck ende de Coninginne van <rs type="place" ref="../register/register-place.xml#england">Engelant</rs> pampiere kunst in lijste respective</p>
             </div>
 
             <div xml:lang="nld">
                 <head>In de Neercamer neffens ’t voorgaende Camerken :</head>
                 <p>Zes stucken oudt tappijt looffwerck tegens den muer genaegelt sijnde<lb/> Twaalf
                     Maendekens rondeeltkens pampiere kunst<lb/> Twee cleijn bollekens spera
-                    monde<lb/> Een Affbrekinge van ‘t Casteel van <rs type="place" ref="#antwerpen"
-                        >Antwerpen</rs> op panneel olieverve in lijste<lb/> Den Vader van den
+                    monde<lb/> Een Affbrekinge van ‘t Casteel van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> op panneel olieverve in lijste<lb/> Den Vader van den
                     afflivigen in desen op panneel olieverve in lijste<lb/> Een cleijn stucxken van
-                        <rs type="person" ref="#rotterdam_erasmus">Erasmus Roterdamij</rs> op
+                        <rs type="person" ref="../register/register-person.xml#rotterdam_erasmus">Erasmus Roterdamij</rs> op
                     panneel olieverve in lijste<lb/> Een Onthooffdinge van Sint-Jan Baptista op
                     doeck olieverve in lijste<lb/> Noch een Conterfeijtsel van des Afflivigens Vader
                     in lijste<lb/> Een Deurp op panneel olieverve in lijste<lb/> Een Mariebeldeken
@@ -220,7 +205,7 @@
 
             <div xml:lang="nld">
                 <head>Op ’t cleijn Solderken daerneffens :</head>
-                <p>Een Conterfeijtsel van meester <rs type="person" ref="#brant_hendrick">Henrick
+                <p>Een Conterfeijtsel van meester <rs type="person" ref="../register/register-person.xml#brant_hendrick">Henrick
                         Brant</rs> den zoon in desen was</p>
 
             </div>
@@ -252,11 +237,8 @@
             <div xml:lang="nld">
                 <head>Op des Afflivigens Comptoir staende op eenen Solder aen de Straete :</head>
                 <p>Een stuck gouts daerop staende op elcke syde 5 figuren van Keijsers<lb/> Een
-                    dobbelen roosen nobel van <rs type="person" ref="#elisabeth_i_england"
-                    >Elisabeth</rs> coninginne van Engelant<lb/> Een silvere vergulden penninge van
-                    de Cruijsinge Ons Heeren<lb/> Een vergulden penning van <rs type="person"
-                        ref="#nero">Nero</rs><lb/> Een silveren penning daerop staende <rs
-                        type="person" ref="#johanna_österreich">Joanna Austria</rs><lb/> Een
+                    dobbelen roosen nobel van <rs type="person" ref="../register/register-person.xml#elisabeth_i_england">Elisabeth</rs> coninginne van Engelant<lb/> Een silvere vergulden penninge van
+                    de Cruijsinge Ons Heeren<lb/> Een vergulden penning van <rs type="person" ref="../register/register-person.xml#nero">Nero</rs><lb/> Een silveren penning daerop staende <rs type="person" ref="../register/register-person.xml#johanna_österreich">Joanna Austria</rs><lb/> Een
                     silveren penning van 1 Seevaert<lb/> Een silveren penning daerop staende Adam
                     ende Eva<lb/> Een silveren penning daerop staende Neptunus<lb/> Een silveren
                     penning daer Onsen Salichmaecker aen de colomme staet<lb/> Een penning daer

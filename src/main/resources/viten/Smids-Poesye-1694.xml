@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_293">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_293"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="person" ref="#smids_ludolph">Ludolph Smids</rs>: Poesye, <date
-                        when="1694">1694</date></title>
+                <title><rs type="person" ref="../register/register-person.xml#smids_ludolph">Ludolph Smids</rs>: Poesye, <date when="1694">1694</date></title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -22,8 +11,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="smids_poesye_1694">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="smids_poesye_1694">
                     <msIdentifier>
                         <repository>unbekannt</repository>
                     </msIdentifier>
@@ -57,18 +53,15 @@
         <body>
             <div part="Y" xml:lang="nld">
                 <head>De weenende<lb/> MARIA MAGDALENA: seer sIecht afgebeeld. </head>
-                <p>Wil toch uw' sinnen niet op Segers bloemen setten: Laat <rs type="person"
-                        ref="#rubens_peter_paul">Rubens</rs><index indexName="psw">
+                <p>Wil toch uw' sinnen niet op Segers bloemen setten: Laat <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
-                    </index> u, met sijn' <rs type="work" ref="#jaffe_51">Leander</rs><index
-                        indexName="psw">
+                    </index> u, met sijn' <rs type="work" ref="../register/register-work.xml#jaffe_51">Leander</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term type="SWD" xml:lang="deu">Hero und Leander</term>
                         </index>
                     </index>, niet verletten: Schuw Bramer, en de Bruyn, de welgestelte Rijk,
-                    Vermeulen, en <rs type="person" ref="#dyck_anthonis_van">Van Dijk</rs><index
-                        indexName="psw">
+                    Vermeulen, en <rs type="person" ref="../register/register-person.xml#dyck_anthonis_van">Van Dijk</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Dyck, Anthonis van</term>
                     </index>.</p>
                 <p> Dit deerlijk tafereel sal bei uw' oog versaaden. Marie, siet, op nieuw, met

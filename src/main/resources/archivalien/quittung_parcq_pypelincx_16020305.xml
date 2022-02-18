@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_082">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_082"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="quittung_parcq_pypelincx_16020305">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -52,8 +51,7 @@
                         bloedverwanten</bibl></source></recordHist></adminInfo>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                                bloedverwanten. Antwerpen 1877, S. 350f.<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                bloedverwanten. Antwerpen 1877, S. 350f.<ptr type="gbv" cRef="146162595"/></bibl>
                         </listBibl>
                     </additional></msDesc>
             </sourceDesc>
@@ -72,27 +70,20 @@
     <text>
         <body>
             <div part="Y" xml:lang="fra">
-                <p>Je soussignez confesse, par ceste, avoir receu de Damoiselle <rs type="person"
-                        ref="#pypelincx_maria"><hi rend="smallCaps">Maria</hi> PYPELINCQ</rs>, vefve
-                    de feu Maistre <rs type="person" ref="#rubens_jan"><hi rend="smallCaps"
-                        >Jean</hi> RUEBENS</rs>, Docteur en droict, ma belle-mère, la sommc de seize
+                <p>Je soussignez confesse, par ceste, avoir receu de Damoiselle <rs type="person" ref="../register/register-person.xml#pypelincx_maria"><hi rend="smallCaps">Maria</hi> PYPELINCQ</rs>, vefve
+                    de feu Maistre <rs type="person" ref="../register/register-person.xml#rubens_jan"><hi rend="smallCaps">Jean</hi> RUEBENS</rs>, Docteur en droict, ma belle-mère, la sommc de seize
                     cents florins que la dicte Damoiselle ma belle-mère m’at compté en la ville de
-                        <rs type="place" ref="#bruessel">Bruxelles</rs> à mon contentement le <date
-                        when="1601-11-13">13 Novembre 1601</date>. Item receue encourre, par ung
+                        <rs type="place" ref="../register/register-place.xml#bruessel">Bruxelles</rs> à mon contentement le <date when="1601-11-13">13 Novembre 1601</date>. Item receue encourre, par ung
                     estat qu’elle nous at délivré de plusieurs parties par elle desboursez, portant
                     la somme de trois cents soixante cincq florins onze patars et demy, faisant
                     ensemble, ses deux parties, la somme de dyx nœuf cents et soixante cincq
-                    florins, onze pattars et demy) de laquelle somme de <measure type="currency"
-                        quantity="1965">XIX<hi rend="super">c</hi> LXV</measure> florins <measure
-                        type="currency" quantity="11">XI</measure> pattars demy, je m’en tien
+                    florins, onze pattars et demy) de laquelle somme de <measure type="currency" quantity="1965">XIX<hi rend="super">c</hi> LXV</measure> florins <measure type="currency" quantity="11">XI</measure> pattars demy, je m’en tien
                         content et bien payez.</p> 
                 
-                <closer><dateline>Tesmoing ce <date when="1602-03-05">V<hi
-                    rend="super">e</hi> en Mars 1602</date></dateline>.<lb/>
-                    <signed><rs type="person" ref="#parcq_simeon">S. DU PARCQ</rs>.</signed><lb/> 
+                <closer><dateline>Tesmoing ce <date when="1602-03-05">V<hi rend="super">e</hi> en Mars 1602</date></dateline>.<lb/>
+                    <signed><rs type="person" ref="../register/register-person.xml#parcq_simeon">S. DU PARCQ</rs>.</signed><lb/> 
                     Somma <measure type="currency" quantity="1965">XIX<hi rend="super">c</hi> LXV</measure>
-                    florins <measure type="currency" quantity="11">XI</measure> patars <measure
-                        type="currency" quantity="0.5">½</measure>. </closer>
+                    florins <measure type="currency" quantity="11">XI</measure> patars <measure type="currency" quantity="0.5">½</measure>. </closer>
             </div>
         </body>
       

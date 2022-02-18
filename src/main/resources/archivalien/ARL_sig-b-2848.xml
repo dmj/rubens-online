@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_106">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_106"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-b-2848">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -64,33 +64,26 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p> 1000 livres à <rs type="person" ref="#rubens_peter_paul">Pierre-Paul
+                <p> 1000 livres à <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul
                     Rubens</rs>, peintre de l’hôtel de Leurs Altesses, que aussy, à telle ordonnance
-                    que dessus, ce dit compteur lui avait baillé e délivré, assçavoir <measure
-                        type="currency" quantity="500">V<hi rend="super">c</hi></measure> livres
+                    que dessus, ce dit compteur lui avait baillé e délivré, assçavoir <measure type="currency" quantity="500">V<hi rend="super">c</hi></measure> livres
                     prinses en l’avant dicte lettre de descharge et les aultres cincq cens livres en
-                    une lettre de descharge de pareille somme, datée du <date when="1611-11-17"
-                        >dixseptiesme jour de novembre 1611</date>, levéesur <rs type="person"
-                        ref="#marche_philippe">Philippe de Marche</rs>, recepveur du domayne de
-                    Leurs Altèzes au quartier d’<rs type="place" ref="#ayre">Ayre</rs>, dint est
+                    une lettre de descharge de pareille somme, datée du <date when="1611-11-17">dixseptiesme jour de novembre 1611</date>, levéesur <rs type="person" ref="../register/register-person.xml#marche_philippe">Philippe de Marche</rs>, recepveur du domayne de
+                    Leurs Altèzes au quartier d’<rs type="place" ref="../register/register-place.xml#ayre">Ayre</rs>, dint est
                     respondu cy-devant folios <num type="cardinal" value="19">XIX</num> verso et
                         <num type="cardinal" value="60">LX</num> verso; pour semblable somme que
-                    due estoit audit <rs type="person" ref="#rubens_peter_paul">Pierre-Paul
+                    due estoit audit <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul
                     Rubbens</rs>, à cause de cincq cens livres que Leurs Altèzes par leurs
-                    lettres-patentes données à <rs type="place" ref="#bruessel">Bruxelles</rs> le
+                    lettres-patentes données à <rs type="place" ref="../register/register-place.xml#bruessel">Bruxelles</rs> le
                         <date when="1609-09-23">vingt-troiziesme jour de septembre
                         1609</date><note resp="A.H." type="footnote">Vgl. zur Ernennung Rubens zum
-                        Hofmaler von Albrecht und Isabella das Dokument vom <ref type="rubens"
-                            cRef="ed_rubens_100">23. September 1609</ref>.</note> luy avoient
+                        Hofmaler von Albrecht und Isabella das Dokument vom <ref type="rubens" cRef="ed_rubens_100">23. September 1609</ref>.</note> luy avoient
                     ordonné et accordé de gaiges par chacun an, à raison de son dict estat de
                     painctre susdit, à en estre payé par des mains dudict recepveur général des
                     finances de demy an en demy an par esgalle portion, et ce pour les deux
-                    premières années desdits gaiges, commencées ledit <date when="1609-09-23"
-                        >vingt-troiziesme de septembre 1609</date> et finiers le <date
-                        when="1611-09-22">vingt-deuxiesme de Septermbre 1611</date>, par copie
+                    premières années desdits gaiges, commencées ledit <date when="1609-09-23">vingt-troiziesme de septembre 1609</date> et finiers le <date when="1611-09-22">vingt-deuxiesme de Septermbre 1611</date>, par copie
                     auctentique desdictes lettres patentes et deux quictances y servantes vérifiées
-                    respectivement des Sieurs des finances, veuers es estatz d’<date when="1611-04"
-                        >april 1611</date>, folio <num type="cardinal" value="25">XXV</num> et
+                    respectivement des Sieurs des finances, veuers es estatz d’<date when="1611-04">april 1611</date>, folio <num type="cardinal" value="25">XXV</num> et
                     novembre dudit an folio <num type="cardinal" value="19">XIX</num>, verso, cy
                     rendues, ladicte somme de M. livres 
                 </p>

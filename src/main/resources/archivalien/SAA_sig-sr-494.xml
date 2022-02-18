@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_013">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_013"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,8 +16,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="SAA_sig-sr-494">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="SAA_sig-sr-494">
                     <msIdentifier>
                         <country>Belgien</country>
                         <settlement>Antwerpem</settlement>
@@ -67,8 +66,7 @@
                                 17de-eeuwse kunstenaarswoningen te Antwerpen. Antwerpen 1984. S. 93 u.
                                 370-372<ptr type="gbv" cRef="025297570"/></bibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 442-447<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 442-447<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
                                 Gerechtsgebouw, 15.-30. Oktober 1977, S. 256, Nr. 249</bibl>
                         </listBibl>
@@ -80,17 +78,14 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Compareerde <rs type="person" ref="#caers_christoffel">Christoffel Caers</rs>,
+                <p> Compareerde <rs type="person" ref="../register/register-person.xml#caers_christoffel">Christoffel Caers</rs>,
                     coopman juwelier, inden name ende als omme, onder andere, tgene nabescreven is
-                    te doene volcommelijck gemechticht van Doctor <rs type="person"
-                        ref="#backer_andries">Andreas Backaert</rs> ende jouffrouwe <rs
-                        type="person" ref="#thys_magdalena">Magdalena Thys</rs>, sijne huysvrouwe,
+                    te doene volcommelijck gemechticht van Doctor <rs type="person" ref="../register/register-person.xml#backer_andries">Andreas Backaert</rs> ende jouffrouwe <rs type="person" ref="../register/register-person.xml#thys_magdalena">Magdalena Thys</rs>, sijne huysvrouwe,
                     bij procuratie gepasseert voor Borgermeesteren, Schepenen ende Raedt deser stadt
-                    opten <date when="1609-06-13">XIII<hi rend="super">den</hi> dach Junij anno XVI<hi
-                            rend="super">c</hi> negen</date>, die wij sagen ende hoorden lesen, ende
+                    opten <date when="1609-06-13">XIII<hi rend="super">den</hi> dach Junij anno XVI<hi rend="super">c</hi> negen</date>, die wij sagen ende hoorden lesen, ende
                     bekenden ende verlijden inder voors. qualiteyt dat sij soo midts der sommen van
                     seven duysent sesse hondert guldens eens die S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro-Paulo Ruebens</rs> op heden
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro-Paulo Ruebens</rs> op heden
                     met eenen anderen brieve, voor ons oock gepasseert, bekent heeft schuldich te
                     sijn den voors. Doctor Andreas Backaert ende jouffrouwe Magdalena Thys, sijne
                     huysvrouwe, als midts het affdragen vande renten nabescreven, vercocht heeft wel
@@ -109,118 +104,73 @@
                         <index indexName="stw">
                             <term xml:lang="nld">Rubenshuis</term>
                         </index>
-                    </index>, tusschen derve vande huysinge van <rs type="person"
-                        ref="#hoons_henrich">Henrich Hoons</rs>, aen deen sijde noortwaert, ende
+                    </index>, tusschen derve vande huysinge van <rs type="person" ref="../register/register-person.xml#hoons_henrich">Henrich Hoons</rs>, aen deen sijde noortwaert, ende
                     sekere huyskens toebehoorende <gap reason="illegible"/>aen dander sijde
                     suytwaert, commende de voors. bleyckhoff achter, oostwaerts, aenden muer vander
                     gulden vande Coloveriershove, gelijck ende in alle der manieren ende mit alle
                     alsulcke servituyten ende gerechticheden van waterleydingen, lichtscheppingen
-                    ende gemeynschappen van mueren als wijlen <rs type="person"
-                        ref="#gielis_franchois">Franchois Gielis</rs> deselve huysen metten
+                    ende gemeynschappen van mueren als wijlen <rs type="person" ref="../register/register-person.xml#gielis_franchois">Franchois Gielis</rs> deselve huysen metten
                     raemhove, gronde ende toebehoorten, mit diversche andere huysingen hieraff
-                    eertijts gespleten sijnde, opten <date when="1537-03-13">XIII<hi rend="super"
-                        >den</hi> Meerte anno XV<hi rend="super">c</hi> sevenendertich</date>, tegens
-                        <rs type="person" ref="#deckers_marie">Maria Deckers</rs>, weduwe wijlen <rs
-                        type="person" ref="#hoon_Peeter">Peeteres Hoon</rs>, des lakenbereyders met
+                    eertijts gespleten sijnde, opten <date when="1537-03-13">XIII<hi rend="super">den</hi> Meerte anno XV<hi rend="super">c</hi> sevenendertich</date>, tegens
+                        <rs type="person" ref="../register/register-person.xml#deckers_marie">Maria Deckers</rs>, weduwe wijlen <rs type="person" ref="../register/register-person.xml#hoon_Peeter">Peeteres Hoon</rs>, des lakenbereyders met
                     heure consorten, gecocht ende gecregen heeft ende gelijck de kinderen ende
-                    erffgenamen des voors. wijlen Franchois Gielis bij heer <rs type="person"
-                        ref="#linden_lodewijck">Lodewijck van Linden</rs>, Amptmann dieser stadt,
+                    erffgenamen des voors. wijlen Franchois Gielis bij heer <rs type="person" ref="../register/register-person.xml#linden_lodewijck">Lodewijck van Linden</rs>, Amptmann dieser stadt,
                     wtten name van sijnder, opten <date when="1579-01-10">thienden Januarij anno
                             XV<hi rend="super">c</hi> negenentseventich</date> inden voors. raemhoff
                     met gronde ende toebehoorten gegoeyt ende geerft sijn, ende welcke voors.
-                    huysinge metten raemhoff den voors. Doctor Andreas Backaert ende jouffrouwe <rs
-                        type="person" ref="#thys_magdalena">Magdalena Gielis</rs>, sijne huysvrouwe,
-                    competerende is eensdeels midts der doot ende afflijvicheyt van wijlen <rs
-                        type="person" ref="#thys_christoffel">Christoffel Thys</rs> ende jouffrouwe
-                        <rs type="person" ref="#gielis_martha">Martha Gielis</rs>, derselver
+                    huysinge metten raemhoff den voors. Doctor Andreas Backaert ende jouffrouwe <rs type="person" ref="../register/register-person.xml#thys_magdalena">Magdalena Gielis</rs>, sijne huysvrouwe,
+                    competerende is eensdeels midts der doot ende afflijvicheyt van wijlen <rs type="person" ref="../register/register-person.xml#thys_christoffel">Christoffel Thys</rs> ende jouffrouwe
+                        <rs type="person" ref="../register/register-person.xml#gielis_martha">Martha Gielis</rs>, derselver
                     Magdalena vader ende moeder wijlen, ende eensdeels als wtgecocht hebbende henne
                     medeconsorten ende erffgenamen, volgende de transporten daeraff voor schepenen
-                    deser stadt gepasseert, te wetene van <rs type="person" ref="#thys_jan">Jan
+                    deser stadt gepasseert, te wetene van <rs type="person" ref="../register/register-person.xml#thys_jan">Jan
                     Thys</rs>, Christoffelssonne wijlen, opten <date when="1595-10-04">vierden
-                        Octobris anno XV<hi rend="super">c</hi> vijfentnegentich</date>, van <rs
-                        type="person" ref="#thys_franchois">Franchois Thys</rs>, voor hem ende als
-                    wtgecocht hebbende <rs type="person" ref="#thys_anthonis">Anthonis Thys</rs>,
-                    sijnen broeder, opten <date when="1602-03-11">elffsten Meerte anno XVI<hi
-                            rend="super">c</hi> ende twee</date>, door <rs type="person"
-                        ref="#wellens_hans">Hans Wellens</rs> ende hem comparant, sijne
+                        Octobris anno XV<hi rend="super">c</hi> vijfentnegentich</date>, van <rs type="person" ref="../register/register-person.xml#thys_franchois">Franchois Thys</rs>, voor hem ende als
+                    wtgecocht hebbende <rs type="person" ref="../register/register-person.xml#thys_anthonis">Anthonis Thys</rs>,
+                    sijnen broeder, opten <date when="1602-03-11">elffsten Meerte anno XVI<hi rend="super">c</hi> ende twee</date>, door <rs type="person" ref="../register/register-person.xml#wellens_hans">Hans Wellens</rs> ende hem comparant, sijne
                     gemechtichden, ende M<hi rend="super">r</hi>
-                    <rs type="person" ref="#thys_jacob">Jacob Thys</rs> ende ende jouffrouwe <rs
-                        type="person" ref="#thys_anna">Anna Thys</rs>, weduwe wijlen <rs
-                        type="person" ref="#peltier_berthelmeus">Berthelmeus Peltier</rs>, door den
-                    voors. comparant ende <rs type="person" ref="#corthagen_laureys">Laureys
-                        Corthagen</rs>, henne gemechtichde, opten <date when="1602-05-23">XXIII<hi
-                            rend="super">en</hi> May vanden voorschreven jaere XVI<hi rend="super"
-                        >c</hi> twee</date>; item, van <rs type="person" ref="#liesvelt_maria">Maria
-                        van Liesvelt</rs>, huysvrouwe van <rs type="person" ref="#ackerman_hans"
-                        >Hans Ackerman</rs> ende <rs type="person" ref="#liesvelt_fanchois"
-                        >Franchois van Liesvelt</rs>, kintskinderen van wijlen <rs type="person"
-                        ref="#gielis_catharina">Catharina Gielis</rs>, dochter was des voors wijlen
-                    Franchois Gielis, ende huysvrouwe van <rs type="person" ref="#alaerts_dierick"
-                        >Dierick Alaerts</rs>, door hem comparant ende den voors. Laureys Corthagen,
-                    hennen gemechtichden, op heden daten deser ende van heer <rs type="person"
-                        ref="#bol_jan">Jan Bol</rs>, doctor inde godtheyt, residerende tot <rs
-                        type="place" ref="#staden">Staden</rs>, als vader ende wettelijck momboir
-                    van sijnen drij kinderen die hij gehadt heeft bij wijlen <rs type="person"
-                        ref="#alaerts_susanna">Susanna Alaerts</rs>, sijne huysvrouwe, ende dochter
-                    was des voors. <rs type="person" ref="#alaerts_dierick">Diericx Alaerts</rs>
+                    <rs type="person" ref="../register/register-person.xml#thys_jacob">Jacob Thys</rs> ende ende jouffrouwe <rs type="person" ref="../register/register-person.xml#thys_anna">Anna Thys</rs>, weduwe wijlen <rs type="person" ref="../register/register-person.xml#peltier_berthelmeus">Berthelmeus Peltier</rs>, door den
+                    voors. comparant ende <rs type="person" ref="../register/register-person.xml#corthagen_laureys">Laureys
+                        Corthagen</rs>, henne gemechtichde, opten <date when="1602-05-23">XXIII<hi rend="super">en</hi> May vanden voorschreven jaere XVI<hi rend="super">c</hi> twee</date>; item, van <rs type="person" ref="../register/register-person.xml#liesvelt_maria">Maria
+                        van Liesvelt</rs>, huysvrouwe van <rs type="person" ref="../register/register-person.xml#ackerman_hans">Hans Ackerman</rs> ende <rs type="person" ref="../register/register-person.xml#liesvelt_fanchois">Franchois van Liesvelt</rs>, kintskinderen van wijlen <rs type="person" ref="../register/register-person.xml#gielis_catharina">Catharina Gielis</rs>, dochter was des voors wijlen
+                    Franchois Gielis, ende huysvrouwe van <rs type="person" ref="../register/register-person.xml#alaerts_dierick">Dierick Alaerts</rs>, door hem comparant ende den voors. Laureys Corthagen,
+                    hennen gemechtichden, op heden daten deser ende van heer <rs type="person" ref="../register/register-person.xml#bol_jan">Jan Bol</rs>, doctor inde godtheyt, residerende tot <rs type="place" ref="../register/register-place.xml#staden">Staden</rs>, als vader ende wettelijck momboir
+                    van sijnen drij kinderen die hij gehadt heeft bij wijlen <rs type="person" ref="../register/register-person.xml#alaerts_susanna">Susanna Alaerts</rs>, sijne huysvrouwe, ende dochter
+                    was des voors. <rs type="person" ref="../register/register-person.xml#alaerts_dierick">Diericx Alaerts</rs>
                     ende Catharina Gielis, door hem comparant, sijnen gemechtichden, oock op heden
-                    date deser ende van <rs type="person" ref="#nys_elisabeth">Elisabeth Nys</rs>,
-                        <rs type="person" ref="#nys_jaspar">Jaspars</rs> dochtere, weduwe wijlen
+                    date deser ende van <rs type="person" ref="../register/register-person.xml#nys_elisabeth">Elisabeth Nys</rs>,
+                        <rs type="person" ref="../register/register-person.xml#nys_jaspar">Jaspars</rs> dochtere, weduwe wijlen
                         <gap reason="illegible"/> Roeters, met eenen momboir heur gegeven metten
                     rechte, hebbende oock des voors. wijlen Christoffel Thys, sijne broeders ende
                     susters ende susterkinderen, van henne actien totten voors. huysinge metten
-                    raemhove competerenden uytgecocht, te weten Laureys Gielis, opten <date
-                        when="1580-08-09">IX<hi rend="super">en</hi> Augusti anno XV<hi rend="super"
-                            >c</hi>LXXX<hi rend="super">tich</hi></date>, <rs type="person"
-                        ref="#gielis_anna">Anna Gielis</rs>, weduwe wijlen <rs type="person"
-                        ref="#boonaert_cornelis">Cornelis Boonaert</rs>, met eenen momboir heur
+                    raemhove competerenden uytgecocht, te weten Laureys Gielis, opten <date when="1580-08-09">IX<hi rend="super">en</hi> Augusti anno XV<hi rend="super">c</hi>LXXX<hi rend="super">tich</hi></date>, <rs type="person" ref="../register/register-person.xml#gielis_anna">Anna Gielis</rs>, weduwe wijlen <rs type="person" ref="../register/register-person.xml#boonaert_cornelis">Cornelis Boonaert</rs>, met eenen momboir heur
                     gegeven metten rechte, opten <date when="1582-06-23">XXIII<hi rend="super">en</hi>
                         Junij anno XV<hi rend="super">c</hi>LXXXII<hi rend="super">tich</hi></date>, de
-                    kinderen van wijlen <rs type="person" ref="#gielis_margriete">Margriete
-                    Gielis</rs>, daer vader aff was <rs type="person" ref="#imhoff_coenraert"
-                        >Coenraert Imhoff</rs>, opten <date when="1582-07-24">XXIIII<hi rend="super"
-                            >en</hi> Julij anno XV<hi rend="super">c</hi>LXXXII<hi rend="super"
-                        >tich</hi></date>
-                    <rs type="person" ref="#heynsberch_jan">Jan Janssen van Heynsberch</rs>, als
-                    actie ende transport hebbende van  <rs type="person" ref="#nys_catharina">Catharina</rs>
-                    <rs type="person" ref="#nys_anthonis">Anthonis</rs> ende <rs type="person"
-                        ref="#nys_sara">Sara Nys</rs>, Jaspars kinderen wijlen daer moeder aff was
-                        <rs type="person" ref="#gielis_elisabeth">Elizabeth Gielis</rs>, opten <date
-                        when="1582-06-23">XXIII<hi rend="super">en</hi> Junij anno XV<hi rend="super"
-                            >c</hi>LXXXII<hi rend="super">tich</hi></date>, item, de momboiren van <rs
-                        type="person" ref="#nys_peeter">Peeter</rs>
-                    <rs type="person" ref="#nys_david">David</rs>, <rs type="person"
-                        ref="#nys_maria">Maria</rs>, Elizabeth ende <rs type="person"
-                        ref="#nys_helene">Helene Nys</rs>, Jaspars kinderen voorschreven, opten
-                        <date when="1582-01-05">vijffden Januarij anno XV<hi rend="super"
-                            >c</hi>LXXXII<hi rend="super">tich</hi></date>, jouffrouwe <rs
-                        type="person" ref="#gielis_anna">Ana Gielis</rs>, als actie hebbende van <rs
-                        type="person" ref="#nys_anna">Anna Nys</rs>, oock des voorschreven Jaspars
+                    kinderen van wijlen <rs type="person" ref="../register/register-person.xml#gielis_margriete">Margriete
+                    Gielis</rs>, daer vader aff was <rs type="person" ref="../register/register-person.xml#imhoff_coenraert">Coenraert Imhoff</rs>, opten <date when="1582-07-24">XXIIII<hi rend="super">en</hi> Julij anno XV<hi rend="super">c</hi>LXXXII<hi rend="super">tich</hi></date>
+                    <rs type="person" ref="../register/register-person.xml#heynsberch_jan">Jan Janssen van Heynsberch</rs>, als
+                    actie ende transport hebbende van  <rs type="person" ref="../register/register-person.xml#nys_catharina">Catharina</rs>
+                    <rs type="person" ref="../register/register-person.xml#nys_anthonis">Anthonis</rs> ende <rs type="person" ref="../register/register-person.xml#nys_sara">Sara Nys</rs>, Jaspars kinderen wijlen daer moeder aff was
+                        <rs type="person" ref="../register/register-person.xml#gielis_elisabeth">Elizabeth Gielis</rs>, opten <date when="1582-06-23">XXIII<hi rend="super">en</hi> Junij anno XV<hi rend="super">c</hi>LXXXII<hi rend="super">tich</hi></date>, item, de momboiren van <rs type="person" ref="../register/register-person.xml#nys_peeter">Peeter</rs>
+                    <rs type="person" ref="../register/register-person.xml#nys_david">David</rs>, <rs type="person" ref="../register/register-person.xml#nys_maria">Maria</rs>, Elizabeth ende <rs type="person" ref="../register/register-person.xml#nys_helene">Helene Nys</rs>, Jaspars kinderen voorschreven, opten
+                        <date when="1582-01-05">vijffden Januarij anno XV<hi rend="super">c</hi>LXXXII<hi rend="super">tich</hi></date>, jouffrouwe <rs type="person" ref="../register/register-person.xml#gielis_anna">Ana Gielis</rs>, als actie hebbende van <rs type="person" ref="../register/register-person.xml#nys_anna">Anna Nys</rs>, oock des voorschreven Jaspars
                     ende Elizabeth Gielis dochter, opte <date when="1584-08-25">XXV Augusti anno
-                            XV<hi rend="super">c</hi>LXXXIIII<hi rend="super">tich</hi></date>, item <rs
-                        type="person" ref="#nys_susanna">Susanna Nys</rs>, oock henne dochtere, met
-                        <rs type="person" ref="#tiras_jan">Jan Tiras</rs>, haeren wettighen manne
+                            XV<hi rend="super">c</hi>LXXXIIII<hi rend="super">tich</hi></date>, item <rs type="person" ref="../register/register-person.xml#nys_susanna">Susanna Nys</rs>, oock henne dochtere, met
+                        <rs type="person" ref="../register/register-person.xml#tiras_jan">Jan Tiras</rs>, haeren wettighen manne
                     ende momboir, opten <date when="1582-06-23">XXIII<hi rend="super">en</hi> Junij
                         anno XV<hi rend="super">c</hi>LXXXII<hi rend="super">tich</hi></date>, al
                     volgende de brieven daeraff voor schepenen deser stadt gepasseert, gelijck oock
-                    jouffrouwe <rs type="person" ref="#gielis_magdalena">Magdalena Gielis</rs>,
-                    weduwe lest van <rs type="person" ref="#witte_adriaen">Adriaen de Witte</rs>,
-                    comparerende voor schouteth, borgermeesters ende raedt der stadt <rs
-                        type="place" ref="#franckendael">Franckendael</rs>, opten <date
-                        when="1599-04-09">IX<hi rend="super">en</hi> April anno XV<hi rend="super"
-                        >c</hi> negenentnegentich</date>, alle heur rechte ende actie totten voors.
-                    huyse metten toebehoorten getransporteert ende overgegeven heeft aen <rs
-                        type="person" ref="#thijs_hans">Hans</rs>, Franchois, <rs type="person"
-                        ref="#thys_jacob">Jacques</rs>, <rs type="person" ref="#thys_anthonis"
-                        >Anthonio</rs>, Anna ende Magdalena Thys voorgenoempt, volgende den
+                    jouffrouwe <rs type="person" ref="../register/register-person.xml#gielis_magdalena">Magdalena Gielis</rs>,
+                    weduwe lest van <rs type="person" ref="../register/register-person.xml#witte_adriaen">Adriaen de Witte</rs>,
+                    comparerende voor schouteth, borgermeesters ende raedt der stadt <rs type="place" ref="../register/register-place.xml#franckendael">Franckendael</rs>, opten <date when="1599-04-09">IX<hi rend="super">en</hi> April anno XV<hi rend="super">c</hi> negenentnegentich</date>, alle heur rechte ende actie totten voors.
+                    huyse metten toebehoorten getransporteert ende overgegeven heeft aen <rs type="person" ref="../register/register-person.xml#thijs_hans">Hans</rs>, Franchois, <rs type="person" ref="../register/register-person.xml#thys_jacob">Jacques</rs>, <rs type="person" ref="../register/register-person.xml#thys_anthonis">Anthonio</rs>, Anna ende Magdalena Thys voorgenoempt, volgende den
                     bescheede daeraff sijnde, dwelck hij hem met alle de voorgeruerde brieven midts
                     desen overgaff, droech oppe etc., te waerne van allen commere ende calaengien,
-                    wtgenomen dryentwintich guldenen erffelick der weduwe <rs type="person" ref="#smits_weduwe">Smidt</rs>, item, gelijcke
+                    wtgenomen dryentwintich guldenen erffelick der weduwe <rs type="person" ref="../register/register-person.xml#smits_weduwe">Smidt</rs>, item, gelijcke
                         <measure type="currency" quantity="23">XXIII</measure> guldenen erffelick
-                    der weduwe <rs type="person" ref="#pluym_cornelis">Cornelis Pluym</rs>, item
+                    der weduwe <rs type="person" ref="../register/register-person.xml#pluym_cornelis">Cornelis Pluym</rs>, item
                     negenthien guldenen derthien stuyvers een ort erffelick den Capittele tOnser
-                    Liever Vrouwen alhierende twintich guldenen erffelijck doctor <rs type="person"
-                        ref="#verreycken_godefried">Godefridus Verreycken</rs>, daer jaerlijcx
+                    Liever Vrouwen alhierende twintich guldenen erffelijck doctor <rs type="person" ref="../register/register-person.xml#verreycken_godefried">Godefridus Verreycken</rs>, daer jaerlijcx
                     wtgaende ende anders nyet, welcken commer, tsamen bedragende vijventachtentich
                     guldenen erffelijck, heeft de voors. S<hi rend="super">r</hi> Pietro-Paulo Ruebens
                     (die oock mede voor ons compareerde:) geloeft ende geloeffde, midts desen, voor
@@ -232,14 +182,13 @@
                     hoedanich die wesen moghen, die hij nu heeft ende noch vercrijgen sal, daervore
                     verbindende ende te pande settende, behoudelijck dat den voors. raemhoff
                     eensdeels medepant is over vijventwintich grooten Brabants erftelijck ten
-                    godtshuyse van <rs type="corporate" ref="#antwerpen_abtei_st_michiels">Sinte
+                    godtshuyse van <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">Sinte
                         Michiels</rs>, die men wt sekere andere huysen ende erven daerontrent
                     gelegen betalen moet, sonder desselffs raemhoffs cost, last oft schade, oock
                     naer inhoudt der brieven ende anders nyet. Gebraeck yet aenden voors. coop,
                     opdracht, waernisse ende claernisse, dat geloeffde de voors. comparant dat de
                     voors. Doctor Andreas Backaert ende jouffrouwe Magdalena Thys, sijne huysvrouwe,
-                    midtsgaders Jan Thys, coopman, woonende tot <rs type="place" ref="#amsterdam"
-                        >Amstelredamme</rs> (die hem comparant daertoe specialijcken gemechticht
+                    midtsgaders Jan Thys, coopman, woonende tot <rs type="place" ref="../register/register-place.xml#amsterdam">Amstelredamme</rs> (die hem comparant daertoe specialijcken gemechticht
                     heeft bij procuratie gepasseert voor Wethouderen van Amstelredamme voors. opten
                         <date when="---22">XXII<hi rend="super">sten</hi></date> dach der voorleder
                     maent Decembris, ons te desen gethoont,) altijt wel ende volcommelijck elck als

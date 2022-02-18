@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_321">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_321"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brief_rubens_pypelincx_15830105">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Jan Rubens und Maria Pypelincx an Graf Johann von Nassau vom 5. Januar 1583</idno></msIdentifier>
                     
@@ -58,17 +57,15 @@
         <body>
             <div xml:lang="nld">
 
-                <p>Wij <rs type="person" ref="#rubens_jan">JEHAN RUEBENS</rs> ende <rs type="person"
-                        ref="#pypelincx_maria">MARIE PIPELINCK</rs>, eeluyde, bekennen van mijnen
-                    ghenadighen Heere Graff <rs type="person" ref="#nassau_johan">JEHAN, Graff van
+                <p>Wij <rs type="person" ref="../register/register-person.xml#rubens_jan">JEHAN RUEBENS</rs> ende <rs type="person" ref="../register/register-person.xml#pypelincx_maria">MARIE PIPELINCK</rs>, eeluyde, bekennen van mijnen
+                    ghenadighen Heere Graff <rs type="person" ref="../register/register-person.xml#nassau_johan">JEHAN, Graff van
                         NASSOW</rs> Catzenelleboghe, Vianden, Dietz, etc. vol ende tot onse
                     contentemente vande voerzuede sesx duysent thaleers inden voorstaende brief
                     begrepen, betaelt te zijn mette verloopen der zelven ende quyteren hiermede den
                     voers. Heere ende sijne erven ende ontslaen de voorstaende goeden daervoren
                     gehypotheceert; </p>
                 <closer>op heden den <dateline><date when="1583-01-05">vijfden Januarij
-                            1583</date>.<note resp="A.H." type="footnote">Vgl. auch einen <ref
-                                type="rubens" cRef="ed_rubens_320">weiteren Brief</ref> gleichen
+                            1583</date>.<note resp="A.H." type="footnote">Vgl. auch einen <ref type="rubens" cRef="ed_rubens_320">weiteren Brief</ref> gleichen
                                 Datums der Eheleute Rubens an den Grafen Johann von
                             Nassau.</note></dateline>
                     <signed>JEHAN RUEBENS</signed>

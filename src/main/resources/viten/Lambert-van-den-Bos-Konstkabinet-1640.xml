@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_282">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_282"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="person" ref="#bos_lambert">Lambert van den Bos</rs>: Konstkabinet
-                    van <rs type="person" ref="#kretzer_maerten">Marten Kretzer</rs>, 1640</title>
+                <title><rs type="person" ref="../register/register-person.xml#bos_lambert">Lambert van den Bos</rs>: Konstkabinet
+                    van <rs type="person" ref="../register/register-person.xml#kretzer_maerten">Marten Kretzer</rs>, 1640</title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -22,8 +12,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="bos_konstkabinet_1640">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="bos_konstkabinet_1640">
                     <msIdentifier>
                         <repository>unbekannt</repository>
                     </msIdentifier>
@@ -57,11 +54,9 @@
     <text>
         <body>
             <div part="Y" xml:lang="nld">
-                <p><pb n="B2"/>Maer sacht wal schoon, wal aengenaem Komt <rs type="person"
-                        ref="#tizian">Titiaen</rs><index indexName="psw">
+                <p><pb n="B2"/>Maer sacht wal schoon, wal aengenaem Komt <rs type="person" ref="../register/register-person.xml#tizian">Titiaen</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Tizian</term>
-                    </index> ans weer vertoogen,<lb/> ach! ach 't is <rs type="person"
-                        ref="#rubens_peter_paul">Rubbens</rs><index indexName="psw">
+                    </index> ans weer vertoogen,<lb/> ach! ach 't is <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubbens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                     </index>, 'k ben bedrogen Hoe wel alleenigh door de naem.</p>
 
@@ -71,7 +66,7 @@
                 <p>Wal overvloedt van konst en geest Komt hier met schal de Minnaers laven! Waer is
                     'er meer van sulcke gaven<lb/> Of in u handt of breyn geweest?</p>
 
-                <p><rs type="person" ref="#jordaens_jacob">Iordaens</rs><index indexName="psw">
+                <p><rs type="person" ref="../register/register-person.xml#jordaens_jacob">Iordaens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Jordaens, Jacob</term>
                     </index> wal 's dit, benijdt ghy noch, Benijdt ghy desen Man sijn deughden? Door
                     overvloedt van dartle vreughden, Gespeelt door Satyrs en gedrogh?</p>

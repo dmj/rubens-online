@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_338">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_338"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,14 +12,20 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:id="dubos-reflexions-critique-3" xml:lang="deu">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:id="dubos-reflexions-critique-3" xml:lang="deu">
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Wolfenbüttel</settlement>
                         <repository>Herzog August Bibliothek</repository>
-                        <idno facs="http://diglib.hab.de/drucke/lm-1160-3b/start.htm?image=00003"
-                            type="signatur">M: Lm 1160:3</idno>
+                        <idno facs="http://diglib.hab.de/drucke/lm-1160-3b/start.htm?image=00003" type="signatur">M: Lm 1160:3</idno>
                     </msIdentifier>
                     <head rend="text-align:center">
                         <title>Jean Baptiste Dubos: Reflexions Critiques Sur La Poesie Et Sur La
@@ -47,8 +42,7 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>Jean Baptiste Dubos: Reflexions Critiques Sur La Poesie Et Sur La
-                                Peinture. Bd. 3. Utrecht: Etienne Neaulme, 1736. <ptr type="opac"
-                                    cRef="245562850"/></bibl>
+                                Peinture. Bd. 3. Utrecht: Etienne Neaulme, 1736. <ptr type="opac" cRef="245562850"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -145,8 +139,7 @@
                 <p>Pour ne rien laisser à desirer à cet égard à ceux qui ont l'édition d'Utrecht de
                     1732. ni à ceux qui par une louable curiosité souhaitteront voir un ouvrage
                     aussi accompli, avec le secours de ce flambeau percer les ténebres qui nous
-                    cachoient ce qui se passoit dans l'antiquité, &amp; approfondir par<pb
-                        facs="00009" n="VII"/>là des matieres très curieuses mais très confuses
+                    cachoient ce qui se passoit dans l'antiquité, &amp; approfondir par<pb facs="00009" n="VII"/>là des matieres très curieuses mais très confuses
                     jusqu'à present: on s'est persuadé de pouvoir satisfaire les uns &amp; les
                     autres, ceuxlà en leur épargnant une dépense inutile, si ils étoient obligez
                     d'en faire une nouvelle pour se procurer cette derniére édition; &amp;
@@ -182,8 +175,7 @@
                     puisque l'Auteur les passe lui-même sous silence: cependant pour ne s'exposer à
                     aucun reproche, on en a pareillement fait un supplément à chaque tome, avec des
                     renvois qui indiquent les pages &amp; les lignes où est placée chacune de
-                    ces augmentations. Le Lecteur jugera par lui-même du peu de né<pb facs="00011"
-                        n="IX"/>cessité qu'il y avoit d'avoir cette attention; mais d'une autre
+                    ces augmentations. Le Lecteur jugera par lui-même du peu de né<pb facs="00011" n="IX"/>cessité qu'il y avoit d'avoir cette attention; mais d'une autre
                     côté, elle dissipera tous les soubçons d'inexactitude dans cet ouvrage. La Table
                     générale des matieres contenues dans les deux volumes de l'édition d'Utrecht de
                     1732; &amp; dans le present supplement, par consequent dans tout l'ouvrage
@@ -200,8 +192,7 @@
 
             <div type="contents" xml:lang="fra">
                 <index indexName="fsw">
-                    <term type="structure" target="#contens" xml:lang="deu"
-                    >Inhaltsverzeichnis</term>
+                    <term type="structure" target="#contens" xml:lang="deu">Inhaltsverzeichnis</term>
                 </index>
                 <head><pb facs="00012" n="X"/> TABLE<lb/> DES MATIERES.<lb/> TROISIÉME PARTIE.</head>
                 <p>
@@ -241,8 +232,7 @@
                             48</cell>
                         </row>
                         <row>
-                            <cell>Sect. 7. Nouvelles preuves que la déclama<pb facs="00013" n="XI"
-                                />tion théatrale des Anciens étoit composée, &amp; qu'elle
+                            <cell>Sect. 7. Nouvelles preuves que la déclama<pb facs="00013" n="XI"/>tion théatrale des Anciens étoit composée, &amp; qu'elle
                                 s'écrivoit en notes. Preuve tirée de ce que l'Acteur qui la
                                 recitoit, étoit accompagné par des instrumens. 50</cell>
                         </row>
@@ -532,8 +522,7 @@
                         melopée, ou de l'art de composer la melopée, comme d'un art musical
                         particulier, parce que ce dernier art étoit renfermé dans l'art poetique,
                         pris dans toute son étendue. En effet, suivant l'usage des Grecs, l'art de
-                        composer la melopée faisoit une partie de l'art<pb facs="00022" n="8"
-                        />poetique. On verra cy-dessous que les poetes Grecs composoient eux mêmes
+                        composer la melopée faisoit une partie de l'art<pb facs="00022" n="8"/>poetique. On verra cy-dessous que les poetes Grecs composoient eux mêmes
                         la melopée de leurs pieces. Si au contraire, Aristides fait de l'art
                         poetique &amp; de l'art de composer la melopée deux arts distincts,
                         c'est qu'il a eu égard à l'usage des Romains, qui étoit que les poetes
@@ -562,8 +551,7 @@
                         sentiment des anciens, ce qu'il y avoit de plus important dans l'exécution
                         de la musique, &amp; l'invention de l'art du Pantomime, les aura encore
                         engagez à faire une étude plus profonde de tout ce qui pouvoit perfectionner
-                        l'art du mouvement. Il est certain que depuis le regne d'Auguste<pb
-                            facs="00023" n="9"/>jusques au renversement total de l'Empire
+                        l'art du mouvement. Il est certain que depuis le regne d'Auguste<pb facs="00023" n="9"/>jusques au renversement total de l'Empire
                         d'Occident, les representations des Pantomimes firent le plaisir le plus
                         cher au peuple Romain. </p>
                     <p>Je conclus donc que la difference qui se trouve entre l'énumeration des arts
@@ -628,8 +616,7 @@
                         traite. </p>
                     <p>Cependant j'espere qu'en m'aidant des faits racontez par les écrivains
                         anciens qui par occasion ont parlé de leurs arts musicaux, je pourrai venir
-                        à bout de donner une notion; si non pleine &amp; entiere, du<pb
-                            facs="00025" n="11"/>moins claire &amp; distincte de ces arts,
+                        à bout de donner une notion; si non pleine &amp; entiere, du<pb facs="00025" n="11"/>moins claire &amp; distincte de ces arts,
                         &amp; d'expliquer comment les pieces dramatiques étoient representées
                         sur le théatre des anciens. </p>
                     <p>Nous venons de voir qu'Aristides Quintilianus comptoit six arts musicaux,
@@ -694,8 +681,7 @@
                         les nombres, mais j'en ai oublié les paroles. </p>
                     <p>Quid, quae te purâ solum sub nocte canentem<lb/>
                         <note place="margin-left">Eglog. noua.</note> Audieram, numeros memini, si verba tenerem. </p>
-                    <p>Il ne veut faire dire autre chose à Lycidas, si ce<pb facs="00027" n="13"
-                        />n'est que bien qu'il eut oublié les paroles des vers dont il étoit
+                    <p>Il ne veut faire dire autre chose à Lycidas, si ce<pb facs="00027" n="13"/>n'est que bien qu'il eut oublié les paroles des vers dont il étoit
                         question, il se souvenoit bien neanmoins de quels pieds ou de quelles
                         mesures ils étoient composez, &amp; par consequent de leur cadence.
                         Ainsi Modi, terme que les Latins emploïent souvent en parlant de leur
@@ -724,8 +710,7 @@
                         quo nunc maximè laboratur, in causis omnibus Scholisque cantandi, quod
                         inutilius sit an <note place="margin-right">Inst. lib. XI. cap. 3.</note> foedius ignoro! Quid
                         enim Oratori minus convenit quàm modulatio Scenica? On voit bien que
-                        Quintilien comprend la chant ou la déclamation<pb facs="00028" n="14"
-                        />composée dans la modulation dont il parle. C'est la composition entiere
+                        Quintilien comprend la chant ou la déclamation<pb facs="00028" n="14"/>composée dans la modulation dont il parle. C'est la composition entiere
                         que Quintilien appelle ici modulation. </p>
                     <p>Dans les Inscriptions qui sont à la tête des Comedies de Terence, il est dit,
                         que c'est Flaccus qui en a fait les modes, ou qui les a modulées; pour dire
@@ -785,8 +770,7 @@
                         avoit des mesures composées de huit temps sillabiques, c'est-à dire, de huit
                         breves ou de leur valeur. C'étoit un moïen de remedier à l'inconvenient qui
                         naissoit de l'inégalité de durée qui se rencontroit dans les pieds du même
-                        vers. Mais comme cela regarde la Musique proprement dite, je renvoïe<pb
-                            facs="00030" n="16"/><note place="margin-left">M. Burette de l'Acad. des Belles Lettres,
+                        vers. Mais comme cela regarde la Musique proprement dite, je renvoïe<pb facs="00030" n="16"/><note place="margin-left">M. Burette de l'Acad. des Belles Lettres,
                             tome cinq de son Histoire.</note> rai mon Lecteur à ce qu'en a écrit un
                         sçavant homme qui joint à une connoissance profonde de cette science, une
                         grande érudition. </p>
@@ -816,8 +800,7 @@
                         art déjà trouvé &amp; pratiqué. C'étoit la musique Hypocritique ou la
                         Saltation, qui enseignoit cette espece d'écriture. Ainsi nous remettons à en
                         parler, que nous traitions de celui des arts musicaux que les Grecs
-                        nommoient Orchesis &amp; les Romains Saltatio. Comment,<pb facs="00031"
-                            n="15"/>repliquera-t-on, la musique rithmique s'y prenoitelle pour
+                        nommoient Orchesis &amp; les Romains Saltatio. Comment,<pb facs="00031" n="15"/>repliquera-t-on, la musique rithmique s'y prenoitelle pour
                         asservir à une même mesure &amp; pour faire tomber en cadence &amp;
                         le Comedien qui recitoit &amp; le Comedien qui faisoit les gestes? Je
                         répondrai que c'est une de ces choses dont Saint Augustin dit qu'elles
@@ -847,8 +830,7 @@
                         manus, aut, quod multi faciunt, actionem continuo motu conciderent. „Ceux
                         qui les premiers ont fait profession de composer la déclamation des pieces
                         de Théatre &amp; de les faire representer sur la Scene, en ont usé
-                        trèssagement quand ils ont reglé que chaque geste<pb facs="00032" n="18"
-                        />commençât avec un sens, &amp; qu'il finît en même temps que ce sens
+                        trèssagement quand ils ont reglé que chaque geste<pb facs="00032" n="18"/>commençât avec un sens, &amp; qu'il finît en même temps que ce sens
                         là. Ils ont eu raison d'introduire cette regle: car il est également
                         messeant de commencer à gesticuler avant que d'avoir ouvert la bouche,
                         &amp; de continuer à gesticuler, après avoir cessé de parler. Il est
@@ -878,8 +860,7 @@
                         sur les reglés que l'Art rithmique donnoit pour mesurer les temps des
                         gestes. „Chaque temps de la mesure pris en particulier, n'asservit que le
                         recitateur obligé à prononcer quand on lui bat un temps, la sillabe qu'il
-                        doit prononcer sous ce temps là; mais le rithme assu<pb facs="00033" n="19"
-                        />jettit tous les mouvmens du corps. Il faut que celui qui fait les gestes
+                        doit prononcer sous ce temps là; mais le rithme assu<pb facs="00033" n="19"/>jettit tous les mouvmens du corps. Il faut que celui qui fait les gestes
                         tombe en cadence à la fin de chaque mesure, quoiqu'il lui soit permis de
                         laisser passer quelque temps de cette mesure sans faire aucun geste,
                         &amp; qu'il puisse mettre dans son jeu muet aussi souvent qu'il le veut
@@ -973,8 +954,7 @@
                         chose des compositions musicales des anciens, qui n'étoient point faites sur
                         des paroles, &amp; qui ne devoient être executées que par des
                         instrumens. </p>
-                    <p>Les anciens avoient la même idée que nous sur la<pb facs="00036" n="22"
-                        />perfection de la musique; &amp; sur l'usage qu'il étoit possible d'en
+                    <p>Les anciens avoient la même idée que nous sur la<pb facs="00036" n="22"/>perfection de la musique; &amp; sur l'usage qu'il étoit possible d'en
                         faire. Aristides Quintilianus, en parlant de plusieurs divisions que les
                         anciens faisoient de la musique considerée sous différens égards, dit que le
                         chant, que la musique par rapport à l'esprit dans lequel elle a été
@@ -1242,8 +1222,7 @@
                         composassent seulement une simple déclamation. Il n'y a point d'apparence
                         que le chant des Panegiriques qui étoient une des especes de Melodies que la
                         Melopée basse ou la Melopée tragique composoit, fut véritablement un chant
-                        musical. Quant au chant des Comedies, qui étoit une autre espece de<pb
-                            facs="00045" n="31"/>la Mélodie Tragique, nous prouverons invinciblement
+                        musical. Quant au chant des Comedies, qui étoit une autre espece de<pb facs="00045" n="31"/>la Mélodie Tragique, nous prouverons invinciblement
                         ci dessous que le chant des pieces Comiques des anciens, bien qu'il
                         s'écrivit en notes, &amp; que l'Acteur qui le recitoit fut soûtenu d'un
                         accompagnement, n'étoit au fond qu'une déclamation, &amp; même une
@@ -1271,8 +1250,7 @@
                         la déclamation de ces loix, &amp; même elles vouloient que celui qui les
                         recitoit fut encore soûtenu par un accompagnement capable de le redresser
                         s'il manquoit. On vouloit qu'il publiât les loix avec la même aide, avec le
-                        même secours qu'avoient, comme nous le verrons, les Acteurs qui<pb
-                            facs="00046" n="32"/>parloient sur le Théatre. Martianus Capella dit, en
+                        même secours qu'avoient, comme nous le verrons, les Acteurs qui<pb facs="00046" n="32"/>parloient sur le Théatre. Martianus Capella dit, en
                         faisant l'éloge de la Musique, que dans plusieurs villes de la Grece,
                         l'Officier qui publioit les loix, étoit accompagné par un joueur de Lyre.
                         Quid pacis munia? Nonne nostris cantibus celebrata? Graecarum quippe
@@ -1334,8 +1312,7 @@
                         statim loco exhibent ipsas vocis differentias. Duplex enim est hujusce
                         motus, continuus qui dicitur, &amp; Diastematicus: Continuus quidem quo
                         inter nos colloquimur, qui &amp; eodem sensu sermocinalis dicitur.
-                        Diastematicus verò quo canimus &amp; modulamur, tibiâ<pb facs="00048"
-                            n="34"/><note place="margin-left">Porph. in <unclear reason="faded">Hypomn</unclear> matis ad Har. Ptol. cap. pr. p.
+                        Diastematicus verò quo canimus &amp; modulamur, tibiâ<pb facs="00048" n="34"/><note place="margin-left">Porph. in <unclear reason="faded">Hypomn</unclear> matis ad Har. Ptol. cap. pr. p.
                         194.</note> que &amp; citharâ ludimus, unde Melodicus dicitur. L'Auteur
                         traite ensuite de la difference qui se trouve entre les sons de la voix.
                         ,.Un de ces sons est continu, &amp; c'est celui-là que la voix forme
@@ -1364,8 +1341,7 @@
                         deux genres de sons il y a un son moïen, qui tient &amp; du son continu,
                         &amp; du son separé. Ce son moïen n'est pas autant interrompu que le
                         chant, mais aussi son écoulement n'est pas aussi continu que l'est
-                        l'écoulement du son dans la pronontiation ordinaire. La voix rend ce<pb
-                            facs="00049" n="35"/>son moïen quand on prononce ce que nous appellons
+                        l'écoulement du son dans la pronontiation ordinaire. La voix rend ce<pb facs="00049" n="35"/>son moïen quand on prononce ce que nous appellons
                             <note place="margin-right">Vide Notas Meib. pag. 351.</note> Carmen" Or, comme nous le dirons
                         plus bas, Carmen signifioit proprement la déclamation mesurée des vers qui
                         ne se chantoient pas, à prendre le mot de chanter dans la signification
@@ -1395,8 +1371,7 @@
                         se composoit la Mélopée qui n'étoit qu'une simple déclamation, mais il nous
                         apprend encore comment elle pouvoit s'écrire en notes Avant que d'entrer
                         dans cette discution, il ne sera point mal à propos de rapporter un passage
-                        de Boéce, parce qu'il y est dit positivement qu'on<pb facs="00050" n="36"
-                        />écrivoit en notes la déclamation aussi-bien que le chant Musical. Voyez
+                        de Boéce, parce qu'il y est dit positivement qu'on<pb facs="00050" n="36"/>écrivoit en notes la déclamation aussi-bien que le chant Musical. Voyez
                         Tom. pr. pag. 271. l. 14. l'autre jusqu'a l. 26 duraret. </p>
                     <p>Boéce y louë donc les Musiciens des temps antérieurs, d'avoir trouvé deux
                         inventions; la premiere d'écrire les paroles &amp; ce chant qui
@@ -1457,8 +1432,7 @@
                             Philol.</note> divisée, suivant Martianus Capella, en dix huit sons,
                         dont chacun avoit son nom particulier. Il n'est pas question d'expliquer ici
                         que quelques-uns de ces sons étoient au fond les mêmes On appelloit l'un
-                        Proslambemenos, &amp;c. Afin, comme le dit Boéce, de<pb facs="00052"
-                            n="38"/>n'écrire point tout au long le nom de chaque son audessus des
+                        Proslambemenos, &amp;c. Afin, comme le dit Boéce, de<pb facs="00052" n="38"/>n'écrire point tout au long le nom de chaque son audessus des
                         paroles, ce qui auroit été même impossible; on avoit inventé des caracteres
                         ou des especes de figures qui marquoient chaque ton. Ces figures
                         s'appelloient semeia ou signes. Le mot de semeia signifie bien toute sorte
@@ -1609,8 +1583,7 @@
                         l'ordonnance de l'appareil de la scene.". </p>
                     <p>Ainsi l'auteur étoit chargé comme Orateur, d'inventer la fable ou l'action de
                         sa piece, de donner comme Philosophe à ses personnages les moeurs &amp;
-                        les caracteres convenables &amp; de leur faire débiter de<pb
-                            facs="00057" n="43"/>bonnes maximes. En qualité de Poëte, l'auteur étoit
+                        les caracteres convenables &amp; de leur faire débiter de<pb facs="00057" n="43"/>bonnes maximes. En qualité de Poëte, l'auteur étoit
                         chargé de faire des vers bien mesurés, d'en prescrire le mouvement plus ou
                         moins vîte, &amp; d'en composer la Melodie dont dépendoit en grande
                         partie le succès de la Tragedie. Pour être surpris de ce que dit Aristote
@@ -1640,8 +1613,7 @@
                         n'en déplaise aux inventeurs des Tragedies en musique, Poëmes aussi
                         ridicules que nouveaux, &amp; qu'on ne pourroit souffrir, si l'on avoit
                         le moindre goût pour les pieces de théatre, ou que l'on n'eut pas été
-                        enchanté &amp; séduit par un des plus grands Musiciens<pb facs="00058"
-                            n="44"/>qui aïent jamais été. Car les Opera sont, si je l'ose dire, les
+                        enchanté &amp; séduit par un des plus grands Musiciens<pb facs="00058" n="44"/>qui aïent jamais été. Car les Opera sont, si je l'ose dire, les
                         Grotesques de la Poësie; d'autant plus insupportables, qu'on prétend les
                         faire passer pour des ouvrages reguliers. Aristote nous auroit donc bien
                         obligez de nous marquer comment la musique a pu être jugée necessa re à la
@@ -1670,8 +1642,7 @@
                         pas les Atheniens qui ont besoin ici d'être excusez. </p>
                     <p>Il est vrai que Monsieur Dacier n'est pas le seul qui se soit mépris sur
                         cette matiere là, ses dévanciers s'étoient trompez comme lui. Je dirai la
-                        même chose de Monsieur l'Abbé Gravina, qui, pour avoir sup<pb facs="00059"
-                            n="45"/>posé que la Melopée des pieces de théatre étoit un chant
+                        même chose de Monsieur l'Abbé Gravina, qui, pour avoir sup<pb facs="00059" n="45"/>posé que la Melopée des pieces de théatre étoit un chant
                         musical, &amp; la Saltation une danse à notre maniere, a fait dans son
                         Livre de la Tragedie Antique, <note place="margin-right">Imprime on 1715.</note> une description
                         du théatre des anciens, à laquelle on ne comprend rien. </p>
@@ -1763,8 +1734,7 @@
                         parlent de l'execution de ces pieces. Ainsi avant que d'appuïer mon
                         sentiment par de nouvelles preuves tirées de la maniere dont la déclamation
                         composée s'executoit sur le théatre des anciens, je crois qu'il est à propos
-                        de faire voir que le mot de chant signifioit en Grec comme en Latin,<pb
-                            facs="00062" n="48"/>non seulement le chant musical, mais aussi toute
+                        de faire voir que le mot de chant signifioit en Grec comme en Latin,<pb facs="00062" n="48"/>non seulement le chant musical, mais aussi toute
                         sorte de déclamation, même la simple recitation; &amp; que par
                         conséquent on ne doit pas inferer de ce qu'il est dit dans les anciens
                         auteurs, que les Acteurschantoient; que ces Acteurs chantassent, à prendre
@@ -1795,8 +1765,7 @@
                         pour reciter, après qu'on se fut mis à composer en prose. Ainsi l'on en vint
                         jusques à dire chanter de la prose, pour dire reciter de la prose. </p>
                     <p>Comme nous n'avons point dans notre langue un mot generique qui rende celui
-                        de canere, le lecteur voudra bien me pardonner les frequentes peri<pb
-                            facs="00063" n="49"/>phrases dont je me suis déja servi pour la
+                        de canere, le lecteur voudra bien me pardonner les frequentes peri<pb facs="00063" n="49"/>phrases dont je me suis déja servi pour la
                         traduire, &amp; celles dont je serai encore obligé de me servir, afin
                         d'éviter les équivoques où je tomberois, si j'allois emploïer le mot de
                         chanter absolument, tantôt pour dire executer un chant musical, &amp;
@@ -1827,8 +1796,7 @@
                         accompagnement, que l'acteur qui joüoit la Tragedie. On le verra par la
                         suite. Voyez Tom. pr. pag. 252. l. 28. ces vers. jusqu'à l'alinea. Voici
                         pag. 253. </p>
-                    <p>Enfin Quintilien, après avoir, dans un passage que<pb facs="00064" n="50"
-                        />nous avons rapporté, défendu à l'orateur de chanter comme les Comediens,
+                    <p>Enfin Quintilien, après avoir, dans un passage que<pb facs="00064" n="50"/>nous avons rapporté, défendu à l'orateur de chanter comme les Comediens,
                         ajoute, qu'il est fort éloigné de lui interdire une déclamation soûtenuë
                         &amp; le chant convenable à l'éloquence de barreau. Ciceron, continuë-t
                         il, a reconnu lui-même la convenance de ce chant voilé pour ainsi dire. Quid
@@ -1860,8 +1828,7 @@
                         de ce que l'Acteur qui la recitoit, étoit accompagné par des instrumens.</head>
                     <p> Voyez Tom. pr. pag. 255. l. 33. je croi s donc. &amp; continuez. jusqu'à
                         pag. 259. l. 12. tibias. </p>
-                    <p>C'est, disoit Atticus, ainsi que votre ami Roscius en<pb facs="00065" n="51"
-                        />usoit dans savieillesse. Il faisoit durer plus long-temps les mesures, il
+                    <p>C'est, disoit Atticus, ainsi que votre ami Roscius en<pb facs="00065" n="51"/>usoit dans savieillesse. Il faisoit durer plus long-temps les mesures, il
                         obligeoit l'acteur qui recitoit à parler plus lentement, &amp; il
                         falloit que les instrumens qui l'accompagnoient suivissent ce nouveau
                         mouvement. Voyez Tom. pr pag. 259, l. 13. Quintilien jusqu'au bas dela page
@@ -1954,8 +1921,7 @@
                         façon très-singuliere, &amp; que nous expliquerons, n'étoit jamais mise
                         en Musique par le Poëte, mais par des hommes consommez dans la science des
                         Arts Musicaux, &amp; qui faisoient leur profession de faire representer
-                        les pieces Dramatiques composées par d'autres. Ce sont ces<pb facs="00068"
-                            n="54"/>Artisans que Quintilien appelle artifices pronuntiandi dans un
+                        les pieces Dramatiques composées par d'autres. Ce sont ces<pb facs="00068" n="54"/>Artisans que Quintilien appelle artifices pronuntiandi dans un
                         passage que nous allons rapporter. Mais Donat que nous venons de citer, dit:
                         Modis Cantica temperabantur, non à Poëta, sed à perito Artis Musices factis.
                         Voyez même pag. 267. l. 30. Vossius. jusqu'à p. 70. l. 23. esse carmen.
@@ -2020,8 +1986,7 @@
                         voci relicta. </p>
                     <p>Je crois qu'il seroit inutile d'exposer dequel poids est ici l'autorité de
                         Tite-Live, &amp; de faire voir que tous les raisonnemens possibles ne
-                        doivent pas balancer un moment sa deposition. Il n'y aura person<pb
-                            facs="00070" n="56"/>ne qui ne sente bien cette vérité. Voyez Tom. pr.
+                        doivent pas balancer un moment sa deposition. Il n'y aura person<pb facs="00070" n="56"/>ne qui ne sente bien cette vérité. Voyez Tom. pr.
                         pag. 288. l. 25. entre, nam.... &amp; fluunt, Lis. Vos Albani tumuli
                         atque luci. </p>
                     <p>A pag. 289. l. 25. après pour eux, Lis. Aulugele contemporain de Lucien dit
@@ -2115,8 +2080,7 @@
                         subdivisé en plusieurs talens dont quelques-uns convenoient aux personnes
                         les plus graves. Voyez même pag. l. 6. ceux qui ont lû. jusqu'à pag. 296. l.
                         39. differament. </p>
-                    <p>Le François fait signe à ceux qu'il veut appeller, de<pb facs="00073" n="59"
-                        />s'approcher de lui, en levant la main droite dont les doigts sont tournez
+                    <p>Le François fait signe à ceux qu'il veut appeller, de<pb facs="00073" n="59"/>s'approcher de lui, en levant la main droite dont les doigts sont tournez
                         en haut, &amp; en la remanant plusieurs fois vers son corps, au lieu que
                         l'Italien, pour faire le même mouvement, baisse la main droite dont les
                         doigts sont tournez vers la terre. Voyez même pag. même lig. les
@@ -2148,8 +2112,7 @@
                         son expression sur le visage, son ton &amp; son geste particulier
                         &amp; propre. <note place="margin-right">Cic. de Orat. lib.</note> Omnis enim motus animi
                         suum quemdam à natura habet vultum, &amp; sonum &amp; gestum. Les
-                        passions que la Tragedie traite le plus ordinairement, ne sont point cel<pb
-                            facs="00074" n="60"/>les que la Comédie traite le plus communement.
+                        passions que la Tragedie traite le plus ordinairement, ne sont point cel<pb facs="00074" n="60"/>les que la Comédie traite le plus communement.
                         Voyez pag. 302. l. 36. dans le chapitre jusqu'à pag. 304. l. 14. même mesure
                         batuë par le même homme, qui avoit sous les yeux les vers qui se récitoient,
                         &amp; dont les syllabes marquoient les temps, comme on l'a vû. Au dessus
@@ -2205,8 +2168,7 @@
                         industria invasit animos. Cantandi saltandique nunc obscaena studia
                         effaeminatos tenent. </p>
                     <p>Le mal ne fit qu'aller en augmentant. Ammien Marcellin qui vivoit sous le
-                        regne de Constantin le Grand, écrit: „Dans combien peu de nos maisons<pb
-                            facs="00076" n="62"/>cultive-t-on encore les arts liberaux? On n'y
+                        regne de Constantin le Grand, écrit: „Dans combien peu de nos maisons<pb facs="00076" n="62"/>cultive-t-on encore les arts liberaux? On n'y
                         entend plus que chanter &amp; jouer des instrumens. On y fait venir, au
                         lieu d'un Philosophe, un Chantre, &amp; au lieu d'un Orateur, un
                         Professeur dans les arts qui servent au Théatre. On ferme les Bibliotheques
@@ -2269,8 +2231,7 @@
                         fait de ce que Caramalus &amp; Phabaton représentoient sans prononcer
                         une parole, en se faisant entendre par un geste parlant, pour ainsi dire,
                         &amp; en s'exprimant tantôt d'un signe de tête, tantôt de la main,
-                        &amp; tantôt par un autre mouvemens du corps.<pb facs="00078" n="64"
-                        />vous sçaviez, d'abord si c'étoit Jason, Thyeste ou quelque autre
+                        &amp; tantôt par un autre mouvemens du corps.<pb facs="00078" n="64"/>vous sçaviez, d'abord si c'étoit Jason, Thyeste ou quelque autre
                         personnage qu'ils vouloient representer." </p>
                     <p>Coram te Caramalus aut Phabaton<lb/> Clausis faucibus &amp; loquente gestu,<lb/>
                         <note place="margin-left">Sidon. Car. 23. vers. 268.</note> Nutu, crure, genu, manu, rotatu.,
@@ -2330,8 +2291,7 @@
                         sans peine tout ce qu'il vouloit dire. Quel apprentissage Roger avoit-il
                         fait en comparaison de celui que faisoient les Pantomimes des anciens? Roger
                         sçavoit-il seulement qu'il y eut jamais eu un Pylade &amp; un Bathylle. </p>
-                    <p>Il y a environ vingt ans qu'une Princesse, qui joint<pb facs="00080" n="66"
-                        />à beaucoup d'esprit naturel, beaucoup de lumieres acquises, &amp; qui
+                    <p>Il y a environ vingt ans qu'une Princesse, qui joint<pb facs="00080" n="66"/>à beaucoup d'esprit naturel, beaucoup de lumieres acquises, &amp; qui
                         a un grand goût pour les spectacles, voulut voir un essai de l'art des
                         Pantomimes anciens qui pût lui donner une idée de leurs représentations plus
                         certaine que celle qu'elle en avoit conçue en lisant des Auteurs. Faute
@@ -2449,8 +2409,7 @@
                         vilaine au grand scandale de la jeunesse qui y assiste." C'est trop nous
                         écarter de notre sujet, &amp; retournons aux théatres qui subsistoient à
                         Rome avant qu'elle eut été dévastée par les Barbares. Voyez Tom. pr. pag.
-                        329. l. 15. on voit par jusqu'à l. 32. Constantin<pb facs="00084" n="70"
-                        /><note place="margin-left">Amm. Marcell. Hist. lib. 14.</note> Postremo ad id indignitatis
+                        329. l. 15. on voit par jusqu'à l. 32. Constantin<pb facs="00084" n="70"/><note place="margin-left">Amm. Marcell. Hist. lib. 14.</note> Postremo ad id indignitatis
                         est ventum, ut cum peregrini ob formidatam non ita dudum alimentorum inopiam
                         pellerentur ab urbe praecipites; sectatoribus disciplinarum liberalium
                         impendio paucis, sine respiratione ulla extrusis, tenerentur Mimarum
@@ -2482,8 +2441,7 @@
                     </index>
                     <head>SECTION XVIII.<lb/> Reflexions sur les avantages &amp; sur les
                         inconveniens qui resultoient de la Déclamation composée des Anciens.</head>
-                    <p> Voyez Tom. pr. pag. 331. l. 18. Deux raisons. jus<pb facs="00085" n="71"
-                        />qu'à pag. 333. l. antepenul. avant la passage. Quotus. </p>
+                    <p> Voyez Tom. pr. pag. 331. l. 18. Deux raisons. jus<pb facs="00085" n="71"/>qu'à pag. 333. l. antepenul. avant la passage. Quotus. </p>
                     <p>Dans une assemblée de spectateurs, combien peu de personnes y a t-il, qui
                         sçachent à fonds la Musique? Cependant dès qu'un Acteur manque à la mesure,
                         soit en allongeant, soit en abregeant trop une sillabe, toute l'assistance
@@ -2663,8 +2621,7 @@
                         les noms qu'ils ont sans cesse dans la bouche, qui sont des plus celebres de
                         l'antiquité, m'ont encore confirmé dans le dessein de mettre à sa tête le
                         nom de la fille d'un homme qui par une longue suite de glorieuses actions
-                        faites en servant sa patrie, ou, pour parler plus exactement,<pb
-                            facs="00091" n="77"/>au service de l'Europe, s'est acquis une reputation
+                        faites en servant sa patrie, ou, pour parler plus exactement,<pb facs="00091" n="77"/>au service de l'Europe, s'est acquis une reputation
                         superieure à celle de tous les Generaux de son siecle, &amp; égale à
                         celle des plus grands Capitaines des siecles passez: le nom du Duc de
                         Malborough votre pere, est aux François ce qu'étoit aux Grecs le nom
@@ -2867,8 +2824,7 @@
                     les armes de ce Prince. L'énigme n'étoit pas bien difficile à comprendre,
                     &amp; il seroit à souhaiter que les Peintres modernes n'eussent jamais
                     inventé d'Allegorie plus obscure. Quelques-uns de ces amours portoient la lance
-                    d'Alexandre, &amp; ils paroissoient courbez sous un<pb facs="00098" n="84"
-                    />fardeau trop pesant pour eux. D'autres se jouoient avec son bouclier. Ils y
+                    d'Alexandre, &amp; ils paroissoient courbez sous un<pb facs="00098" n="84"/>fardeau trop pesant pour eux. D'autres se jouoient avec son bouclier. Ils y
                     avoient fait asseoir celui d'entre eux qui avoit fait le coup, &amp; ils le
                     portoient en triomphe, tandis qu'un autre amour qui s'étoit mis en embuscade
                     dans la cuirasse d'Alexandre, les attendit au passage pour leur faire peur. Cet
@@ -3002,8 +2958,7 @@
                     hommes assez ennemis de la reputation de nos Peintres François pour dechirer les
                     estampes gravées d'après le Sueur, le Brun, Mignard, Coypel &amp; quelques
                     autres Peintres de notre Nation, que les Chartreux de cette ville ont placées
-                    avec des estampes gravées d'après des Peintres Italiens dans la gal<pb
-                        facs="00103" n="89"/>lerie qui regne sur le cloître du Monastere. Les
+                    avec des estampes gravées d'après des Peintres Italiens dans la gal<pb facs="00103" n="89"/>lerie qui regne sur le cloître du Monastere. Les
                     comparaisons qui s'y faisoient tous les jours entre les Maîtres François
                     &amp; les Maîtres Italiens avoient autant irrité nos Romains jaloux, que les
                     comparaisons qui se faisoient à Paris il y a quatre vingt ans, entre les
@@ -3031,8 +2986,7 @@
                     second siecle &amp; ceux des siecles suivans, ont, généralement parlant
                     employé les mêmes mots que Tite-Live. Ils ont construit leurs phrases suivant
                     les mêmes regles de syntaxe que lui, du moins il s'en faut très-peu que cela ne
-                    soit absolument vrai. Mais de leur tems les transpositions vicieuses étoient<pb
-                        facs="00104" n="90"/>la mode, l'abus des mots étoit autorisé, &amp; l'on
+                    soit absolument vrai. Mais de leur tems les transpositions vicieuses étoient<pb facs="00104" n="90"/>la mode, l'abus des mots étoit autorisé, &amp; l'on
                     les employoit sans égard à leur signification propre soit dans des épithetes
                     insensées, soit dans ces figures dont le faux brillant ne presente point une
                     image distincte. Il est si vrai de dire que ce sont les jeux de mots &amp;
@@ -3183,8 +3137,7 @@
                             composition allegorique, I. 106. Il y en a de deux especes, I. 107.
                             Modele d'une composition purement allegorique, I. 107. &amp;
                             suivantes, &amp; d'une composition mixte où il entre des sujets
-                            allegoriques dans des sujets historiques, I. 109-110.<pb facs="00109"
-                                n="95"/>Les allegories doivent être bannies entierement des tableaux
+                            allegoriques dans des sujets historiques, I. 109-110.<pb facs="00109" n="95"/>Les allegories doivent être bannies entierement des tableaux
                             qui representent des dogmes de notre Religion, I. 113-114. Leur sens
                             misterieux n'est le plus souvent entendu que du Peintre qui les a
                             imaginées, I. 111. Quels sont les personnages allegoriques que la Poësie
@@ -3220,8 +3173,7 @@
                             donnée dans sa premiére édition III. 73. Fragmens de quelques endroits
                             de la traduction Angloise de l'Andromaque, III. 79.</item>
                         <item>Andromede. Statuë antique chez le Duc de Modene, II. 121.</item>
-                        <item>Anglois. Quel est leur goût pour les spectacles où l'on<pb
-                                facs="00110" n="95"/>verse du sang, I. 11. En quel temps ils ont
+                        <item>Anglois. Quel est leur goût pour les spectacles où l'on<pb facs="00110" n="95"/>verse du sang, I. 11. En quel temps ils ont
                             commencé à aimer les tableaux, II. 84. Leur climat n'est pas propre à
                             former de grands Peintres, II. 84-85. Leurs Peintres qui ont fleuri en
                             Angleterre étoient étrangers, II. 85. Beaucoup d'ouvrages de nos Poëtes
@@ -3255,8 +3207,7 @@
                             lui, devoit servir de mesure dans la déclamation, III. 40. Il explique
                             pourquoi les choeurs ne chantoient point dans les Tragedies sur le Mode
                             Hypodorien &amp; Hypophrygien, I. 245. L'imitation d'une action dans
-                            la Tragedie se doit faire dans un langage<pb facs="00111" n="97"
-                            />préparé pour plaire, III. 40. Ce qu'il dit de la Melopée, là même.</item>
+                            la Tragedie se doit faire dans un langage<pb facs="00111" n="97"/>préparé pour plaire, III. 40. Ce qu'il dit de la Melopée, là même.</item>
                         <item>Armide. Bel endroit de cet Opera, I. 80.</item>
                         <item>Artisans sans genie, ne découvrent point dans la nature ce qu'il y
                             faut imiter, II. 33. Défaut des Artisans qui ne sont qu'imitateurs, II.
@@ -3324,8 +3275,7 @@
                         <item rend="text-align:center">B. </item>
                         <item>BAMBOCHES. (Opera des) établi à Paris en 1674. I. 309. </item>
                         <item>Bartholin. Son traité des instrumens à vent des anciens, III. 21. Il a
-                            recüeilli tous les faits concernant les gueri<pb facs="00113" n="99"
-                            />sons extraordinaires que la musique a operées, III, 24. </item>
+                            recüeilli tous les faits concernant les gueri<pb facs="00113" n="99"/>sons extraordinaires que la musique a operées, III, 24. </item>
                         <item>Basse continue Soutenoit la déclamation des pieces dramatiques des
                             anciens, I 255. 256. Elle étoit differente pour les dialogues &amp;
                             pour les monologues, I. 260. Quels étoient les instrumens dont on se
@@ -3433,8 +3383,7 @@
                             sont harmonieux &amp; nombreux, I. 186. &amp; suiv. </item>
                         <item>Chevaux. Il n'y en avoit point en Amerique quand les Espagnols la
                             découvrirent. II. 151. Ils y ont dégeneré eu. certains endroits,
-                            &amp; sont devenus plus parfaits dans d'au<pb facs="00116" n="102"
-                            />tres contrées, II. 152. Diversité de leur naturel suivant les
+                            &amp; sont devenus plus parfaits dans d'au<pb facs="00116" n="102"/>tres contrées, II. 152. Diversité de leur naturel suivant les
                             differens pays, II. la-même. Les discours que les Poëtes leur font
                             adresser par des hommes revoltent les modernes, II. 292. 293. Ces
                             discours convenoient au temps auquel ces Poëtes écrivoient, II. là même.
@@ -3508,8 +3457,7 @@
                             Comedie pour discerner de nouveaux caractéres, I. 130. Qualitez qu'on
                             doit avoir pour faire de bonnes Comedies, II. 62. III. 85. 86. Les
                             Romains en avoient en quatre genres differens, III. 52. </item>
-                        <item>Comediens. Le jeu des Comediens Italiens paroîtroit une<pb
-                                facs="00118" n="104"/>déclamation de possedez à des spectateurs qui
+                        <item>Comediens. Le jeu des Comediens Italiens paroîtroit une<pb facs="00118" n="104"/>déclamation de possedez à des spectateurs qui
                             n'auroient jamais vû joüer que des Comediens Anglois, I. 280. Les
                             Comediens anciens a voient des écoles pour apprendre le geste propre au
                             theâtre, &amp; ils excelloient dans cette partie, I. 301. &amp;
@@ -3545,8 +3493,7 @@
                             Jephté, II. 201-202. </item>
                         <item>Créech. Le dernier &amp; le meilleur commentateur de Lucréce. En
                             quoi il s'est trompé, II. 125. </item>
-                        <item>Critiques de profession ne sont pas ceux qui jugent le<pb facs="00119"
-                                n="105"/>plus sainement des ouvrages, II. 180. On juge beaucoup
+                        <item>Critiques de profession ne sont pas ceux qui jugent le<pb facs="00119" n="105"/>plus sainement des ouvrages, II. 180. On juge beaucoup
                             mieux par sentiment, II. 181-182. Ciceron &amp; Quintilien citez,
                             II. là-même. Le défaut des Critiques est de raisonner avant que d'avoir
                             refléchi, II. 256. Il faut étre bien circonspect à produire ses idées de
@@ -3581,8 +3528,7 @@
                             theatrales, III. 3. Elle étoit partagée entre deux acteurs, là-même. La
                             déclamation composée devoit se faire necessairement sur differens modes,
                             I. 246. La notretient le milieu entre le chant musical &amp; le ton
-                            des conversations, III. 35. C'est un défaut de chanter dans la dé<pb
-                                facs="00120" n="106"/>clamation, I. 266. On ne peut l'imputer aux
+                            des conversations, III. 35. C'est un défaut de chanter dans la dé<pb facs="00120" n="106"/>clamation, I. 266. On ne peut l'imputer aux
                             Acteurs de L'antiquité, III. 53. Difference entre la déclamation des
                             Tragedies, &amp; celle des Comedies, III. là-même, à suivant.
                             Celle-là étoit plus grave &amp; plus harmonieuse, lé-même. Selon
@@ -3617,8 +3563,7 @@
                             lunettes d'approche par Metius, II. 248. De la pesanteur de l'air par
                             Torricelli, II. 250. Du mouvement de la terre autour du Soleil, II. 254. </item>
                         <item>Demosthene avoit apris à déclamer du Comedien Andronicus, I. 234. </item>
-                        <item>Descartes, On rend justice à son merite personnel, II. 265.<pb
-                                facs="00121" n="107"/>On est partagé sur la bonté de son systême,
+                        <item>Descartes, On rend justice à son merite personnel, II. 265.<pb facs="00121" n="107"/>On est partagé sur la bonté de son systême,
                             II. là même. </item>
                         <item>Despreaux n'est point plagiaire pour avoir pris des Poëtes anciens,
                             II. 44. Ce qu'il dit à Racine concernant la facilité de faire des Vers,
@@ -3654,8 +3599,7 @@
                             les Bergers &amp; les Paysans de leur pays un peu annoblis, I. 96.
                             &amp; suiv. </item>
                         <item>Egypticus. Leurs sculptures n'approchent pas de celles des Grecs
-                            &amp; des Italiens, II. 87. L'Egypte n'a formé que de<pb
-                                facs="00122" n="108"/>mauvais Peintres, II. là même. Ils ont inventé
+                            &amp; des Italiens, II. 87. L'Egypte n'a formé que de<pb facs="00122" n="108"/>mauvais Peintres, II. là même. Ils ont inventé
                             des regles propres à rendre l'apprentissage de la Peinture moins long
                             &amp; la pratique moins penible III. 86. Quoiqu'ils soient des
                             premiers inventeurs de la Peinture &amp; de la Sculpture ils n'ont
@@ -3729,8 +3673,7 @@
                         <item>Flamands, instaurateurs de la Musique, I. 381. Passage de Guichardin
                             qui le prouve, I. 382. </item>
                         <item>Flutes. On emploïoit pour faire les Flutes droites le haut d'un
-                            roseau. &amp; le bat du même roseau servoit à faire les<pb
-                                facs="00124" n="110"/>Flutes gauches, I. 265. Quelles étoient celles
+                            roseau. &amp; le bat du même roseau servoit à faire les<pb facs="00124" n="110"/>Flutes gauches, I. 265. Quelles étoient celles
                             dont se servoient les Pantomimes, I. 320. Voyez Instrumens. </item>
                         <item>Fontaine (La) étoit d'une profession bien éloignée de la Poësie, II.
                             16. Né avec beaucoup de genie pour elle; mais seulement pour un certain
@@ -3839,8 +3782,7 @@
                             d'escrime leurs montroient I. 9. De quelle maniere on les nourissoit.
                             là-même. On les exerçoit avec des armes plus pesantes que celles avec
                             lesquelles ils devoient combattre, I. 313. III. 62. On rafinoit même sur
-                            les instrumens dont ils devoient se servir pour s'entretuer,<pb
-                                facs="00127" n="113"/>I. 8. On vouloit diversifier les genres de
+                            les instrumens dont ils devoient se servir pour s'entretuer,<pb facs="00127" n="113"/>I. 8. On vouloit diversifier les genres de
                             mort de ces hommes souvent innocens, I. 9. </item>
                         <item>Gourville. (de) Comment il fit choix d'un Medecin, II, 190. </item>
                         <item>Goût de comparaison ce peut s'acquerir que par l'usage, II. 215. </item>
@@ -3906,8 +3848,7 @@
                         <item>Hollandois. Quel est le défaut des Peintres de cette Ecole, II. 38. On
                             est enchanté par la magie de leur clairobscur, là-même. Mais ils ont mal
                             reussi dans les autres arties de l'art, là-même. </item>
-                        <item>Homere. Ce qu'il a entreprit d'écrire dans son Iliade,<pb facs="00129"
-                                n="115"/>II. 287-288. Il a été obligé de conformer ses recits à la
+                        <item>Homere. Ce qu'il a entreprit d'écrire dans son Iliade,<pb facs="00129" n="115"/>II. 287-288. Il a été obligé de conformer ses recits à la
                             notorieté publique, II. 288. Pourquoi ses Heros ne se battent pas en
                             duël après leurs querelles, II. 290. Si on doit le blamer dans ce qu'il
                             dit des Jardins d'Alcinoüs, II. 292. Par cet endroit, il plairoit encore
@@ -4017,8 +3958,7 @@
                             juger des beautez d'un poëme, II. 183. Ce qu'on doit penser des jugemens
                             portez par les gens du métier, II. 200. 206. Celui du public l'emporte
                             toujours sur le leur, II. 204. </item>
-                        <item>Julius Pollun. Auteur d'un détail curieux des differens<pb
-                                facs="00132" n="118"/>caracteres des Masques dans les Comedies
+                        <item>Julius Pollun. Auteur d'un détail curieux des differens<pb facs="00132" n="118"/>caracteres des Masques dans les Comedies
                             &amp; les Tragedies, I. 348. </item>
                         <item>Justin (Saint) Martyr, a décidé qu'on pouvoit emploïer dans le chant
                             des loüanges de Dieu les airs profanes des Payens, I. 330. </item>
@@ -4164,8 +4104,7 @@
                         <item>Messe du Pape Jules. Merveilleux Tableau de Raphaël qui est au
                             Vatican, II. 27. Si description, là-même. </item>
                         <item>Mesure, étoit une des principales parties de l'Art Rithmique chés les
-                            anciens, III. 11. Les Romains l'appelloient<pb facs="00136" n="122"
-                            />numeri, III. la. La figure des Vers &amp; la quantité régloient la
+                            anciens, III. 11. Les Romains l'appelloient<pb facs="00136" n="122"/>numeri, III. la. La figure des Vers &amp; la quantité régloient la
                             mesure dans les Vers, I 248. III. 14 15. &amp; suiv. La Prose avoit
                             aussi sa mesure, III. 15. Quelle étoit la mesure qu'on avoit imaginée
                             pour regler l'action de celui qui falloit des gestes, &amp; le
@@ -4200,8 +4139,7 @@
                             imaginé des notes pour marquer les tons de sa déclamation, III. 71. </item>
                         <item>Monnoye. Ce qu'il faut observer en évaluant la Monnoye Romaine par la
                             nôtre, II 311. </item>
-                        <item>Monogrames; quelle en étoit la composition. III. 38. Nos<pb
-                                facs="00137" n="123"/>dixhuit lettres initiales étoient dessinées de
+                        <item>Monogrames; quelle en étoit la composition. III. 38. Nos<pb facs="00137" n="123"/>dixhuit lettres initiales étoient dessinées de
                             maniere qu'elles formoient des Monogames. Boéce nous en a donné la
                             figure, là-même. </item>
                         <item>Montagne. Son sentiment sur l'entousiasme, II. 10 Ce qu'il pense au
@@ -4338,8 +4276,7 @@
                             liqueurs, II. 251. </item>
                         <item>Passions. La nature a marqué à chacune son expression, son ton
                             &amp; son geste particulier, III. 59. </item>
-                        <item>Pastiches. Tableaux où l'on a voulu contrefaire la ma<pb facs="00141"
-                                n="127"/>niere d'un maître, II. 68. &amp; 69. </item>
+                        <item>Pastiches. Tableaux où l'on a voulu contrefaire la ma<pb facs="00141" n="127"/>niere d'un maître, II. 68. &amp; 69. </item>
                         <item>Pays. Les ouvrages sont plutôt appretiez selon leur juste valeur dans
                             certains pays que dans d'autres, II. 215. &amp; suiv. </item>
                         <item>Peintre, doit choisir des sujets interessans, I. 28. 43. &amp; 44.
@@ -4442,8 +4379,7 @@
                             à quoi il est propre, II. 270. </item>
                         <item>Phrases. Ce qu'on entend par phrases imitatives, I. 177. Les Poëtes
                             François n'y ont pas réüssi, I. 178. </item>
-                        <item>Piéces comiques. Le grand concours du peuple dans les<pb facs="00144"
-                                n="130"/>mieres representations, n'est pas une preuve qu'elles
+                        <item>Piéces comiques. Le grand concours du peuple dans les<pb facs="00144" n="130"/>mieres representations, n'est pas une preuve qu'elles
                             soient bonnes, II. 218. Les bonnes se soûtiennent malgré la cabale, II.
                             214. Une piéce de theatre est plus prisée sa juste valeur, qu'un Poëme
                             épique, II. 215. Estime que les étrangers font de nos piéces de theatre,
@@ -4480,8 +4416,7 @@
                             publiant leurs loix, III. 32. </item>
                         <item>Poëmes. Il en est qui sont interessans pour le general, &amp;
                             d'autres qui le sont pour le particulier, I. 40. Les beautez de
-                            l'execution ne font pas seules le bon poëme, I. 39.<pb facs="00145"
-                                n="131"/>La scene des poëmes pastorals doit toujours être à la
+                            l'execution ne font pas seules le bon poëme, I. 39.<pb facs="00145" n="131"/>La scene des poëmes pastorals doit toujours être à la
                             Compagne, I. 94. Les personnages doivent être pris d'après la nature, I.
                             96. Le sujet du poëme épique doit réunir l'interêt general avec
                             l'interêt particulier, I. 98. &amp; suiv. Il ne doit pas être trop
@@ -4516,8 +4451,7 @@
                             memoire des évenemens passez, II. 288. Le goût naturel pour la poësie
                             s'est plus cultivé en France que relui de la peinture, II. 217. Quelle
                             est la meilleure preuve de l'excellence d'une piece de poësie, II. 224.
-                            Temps pour en juger sainement, II. 225. Le jugement qu'on por<pb
-                                facs="00146" n="132"/>d'une piece de poësie est formé sur le
+                            Temps pour en juger sainement, II. 225. Le jugement qu'on por<pb facs="00146" n="132"/>d'une piece de poësie est formé sur le
                             sentiment, II. 265. Une pareille piece qui a plû dans tous les siecles
                             passez, doit toûjours plaire, II. 266. Ses beautez se sentent mieux
                             qu'elles ne se connoissent par les regles, II. 270. On n'est pas capable
@@ -4589,8 +4523,7 @@
                             par leur fortune à un travail assidu. II, 56. Parce que la perseverance
                             n'est pas la vertu des jeunes gens. là-même. </item>
                         <item>Pologne. A quoi les Philosophes attribuent sa fertilité, II. 162. </item>
-                        <item>Porphyre a partagé les arts musicaux en cinq arts diffe<pb
-                                facs="00148" n="134"/>rens, III. 7. En quoi il est d'accord avec
+                        <item>Porphyre a partagé les arts musicaux en cinq arts diffe<pb facs="00148" n="134"/>rens, III. 7. En quoi il est d'accord avec
                             Aristide, là-même. A divisé en deux genres les operations de la voix,
                             III. 33. </item>
                         <item>Portugais, établis en Afrique &amp; dans les Indes Orientales, ont
@@ -4626,8 +4559,7 @@
                             premier jugement &amp; appretie l'ouvrage à sa juste valeur, II.
                             là-même. En quel sens son jugement est désinteressé, II. là même. Il
                             juge par là voye du sentiment qui est la meilleure, II. 177. Ce qu'on
-                            entend par le mot de public, II. 183. On examine une ob<pb facs="00149"
-                                n="135"/>jection qu'on fait contre la solidité des jugemens du
+                            entend par le mot de public, II. 183. On examine une ob<pb facs="00149" n="135"/>jection qu'on fait contre la solidité des jugemens du
                             public, II. 192. En quel cas il peut se tromper dans son jugement, II.
                             195. 227. Il ne retracte point son jugement, II. 225. </item>
                         <item>Pucelle (La) Poëme de Chapelain. Quel est son défaut, I. 158. 179.
@@ -4659,8 +4591,7 @@
                             cherche la difference d'éloguence des Atheniens &amp; des Grecs
                             Asiatiques dans leur caractere naturel, II. 141. On ne lui peut opposer
                             aucun Auteur moderne pour l'ordre &amp; la solidité des
-                            raisonnemens, II. 260. Quelle est la définition qu'il donne de la<pb
-                                facs="00150" n="136"/>musique, III. 4. I. 236. Passage de cet Auteur
+                            raisonnemens, II. 260. Quelle est la définition qu'il donne de la<pb facs="00150" n="136"/>musique, III. 4. I. 236. Passage de cet Auteur
                             au sujet des Masques des anciens expliqué par Mr. Boindin, I. 345. </item>
                         <item rend="text-align:center">R. </item>
                         <item>RACINE, loin d'avoir été élevé pour le theatre, on lui cachoit tous
@@ -4692,8 +4623,7 @@
                             son, égal, II. 302. </item>
                         <item>Recompenses. Si elles sont distribuées avec équité, elles sont un
                             grand encouragement pour les artisans, II. 73. </item>
-                        <item>Regles. L'usage en rend la pratique facile, I. 338. Ce<pb facs="00151"
-                                n="137"/>n'est pas souvent l'ignorance des regles qui fait pecher
+                        <item>Regles. L'usage en rend la pratique facile, I. 338. Ce<pb facs="00151" n="137"/>n'est pas souvent l'ignorance des regles qui fait pecher
                             contre elles, II. 55. 56. </item>
                         <item>Reflexions. Ce n'est que par leur moyen qu'on peut tirer du fruit de
                             ce qu'on lit, I. 5. </item>
@@ -4731,8 +4661,7 @@
                             Sont des poëmes à la mesure &amp; à la rime près, I. 389. </item>
                         <item>Rome. On doit à sa grandeur tous les hommes illustres qui ont paru
                             sous l'Empire d'Auguste, II. 77. &amp; 78. Sa dévastation par Alaric
-                            peut-être alleguée pour la cause de<pb facs="00152" n="138"
-                            />l'anéantissement des Arts &amp; des Lettres, II. 115. Changemens
+                            peut-être alleguée pour la cause de<pb facs="00152" n="138"/>l'anéantissement des Arts &amp; des Lettres, II. 115. Changemens
                             arrivez dans l'air qu'on y respire, II. 153. A quoi l'on peut attribuer
                             la cause de cette alteration, II. 154. &amp; suiv. Son climat est
                             aussi moins froid que du temps des premiers Césars, II. 156. Rome est
@@ -4751,7 +4680,7 @@
                             alloit la prevention en sa faveur. I. 258. </item>
                         <item>Rotrou, son Vencessas préferable à plusieurs pieces de Corneille, II.
                             322. </item>
-                        <item><rs type="person" ref="#rubens_peter_paul">Rubens</rs> a introduit un
+                        <item><rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubens</rs> a introduit un
                             trop grand nombre de figures allegoriques dans ses Tableaux de la
                             galerie du Luxembourg: Examen qu'on en fait, I. 103. 107. 111. &amp;
                             112. Il est encore plus reprehensible de l'avoir fait dans un Tableau où
@@ -4911,8 +4840,7 @@
                             91. </item>
                         <item>Thermes de Caracalla &amp; de Diocletien à Rome, leur somptuosité
                             &amp; leur vaste étenduë, II. 116. </item>
-                        <item>Thrasea Poetus, Senateur Romain, n'avoit pas dédai<pb facs="00157"
-                                n="143"/>gné de joüer dans une Tragedie, I. 234. 235. </item>
+                        <item>Thrasea Poetus, Senateur Romain, n'avoit pas dédai<pb facs="00157" n="143"/>gné de joüer dans une Tragedie, I. 234. 235. </item>
                         <item>Tite-Live. Ce qu'il a écrit sur l'origine &amp; l'histoire des
                             representations theatrales à Rome, I. 270. III, 54. Et sur ce qui
                             engagea les Romains à partager la déclamation entre deux Acteurs, I.

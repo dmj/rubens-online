@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_062">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_062"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-377">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -51,11 +50,9 @@
                             <bibl>Frédéric Verachter (Hrsg.): Généalogie de Pierre Paul Rubens et de sa
                                 famille. Antwerpen 1840, S. 37f.<ptr type="gbv" cRef="146162420"/></bibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 257<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 257<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
-                                Schilderschool. Antwerpen 1883, S. 377<ptr type="gbv" cRef="194552292"
-                                /></bibl>
+                                Schilderschool. Antwerpen 1883, S. 377<ptr type="gbv" cRef="194552292"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -74,29 +71,24 @@
         <body>
             <div xml:lang="nld">
                 <p> Jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs> wettige huysvr.
+                    <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs> wettige huysvr.
                         M<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_jan">Jan Ruebens</rs> oude schepen dezer
+                    <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebens</rs> oude schepen dezer
                     stadt<term type="TGN" xml:lang="deu">Antwerpen</term> die heur omme tghene des nabescreven staet te mogen doene enz.
-                    gemachtight heeft hy procuratie onder den segel der stadt van <rs type="place"
-                        ref="#koeln">Coelen</rs> in data <date when="1583-08-22">22 Augusty
+                    gemachtight heeft hy procuratie onder den segel der stadt van <rs type="place" ref="../register/register-place.xml#koeln">Coelen</rs> in data <date when="1583-08-22">22 Augusty
                     1583</date>, ende bekende dat zy in dyer qualiteyt in voldoeninge van alsulcke
                         <measure type="currency" quantity="309">iij<hi rend="super">c</hi>
                     lx</measure>. Carolus guld. als jouff<hi rend="super">r</hi>
-                    <rs type="person" ref="#lantmeter_catlijne">Cathelyne de Lantmetere</rs> wed<hi
-                        rend="super">e</hi> was wylen <rs type="person" ref="#mockenborch_jan">Jans
-                        van Mockenborg</rs>, bewesen waren door <rs type="person"
-                        ref="#lantmeter_philipp">Philips de Lantmetere</rs> oud schepen enz. deser
+                    <rs type="person" ref="../register/register-person.xml#lantmeter_catlijne">Cathelyne de Lantmetere</rs> wed<hi rend="super">e</hi> was wylen <rs type="person" ref="../register/register-person.xml#mockenborch_jan">Jans
+                        van Mockenborg</rs>, bewesen waren door <rs type="person" ref="../register/register-person.xml#lantmeter_philipp">Philips de Lantmetere</rs> oud schepen enz. deser
                     stad, haaren broeder, op den voors. M<hi rend="super">r</hi> Jan Ruebens van
-                    tghene hy schuldig was in den voors. sterfhuyse wylen <rs type="person"
-                        ref="#lantmeter_jan">Jans de Lantmetere</rs> intebrengene in verlyckinghe
+                    tghene hy schuldig was in den voors. sterfhuyse wylen <rs type="person" ref="../register/register-person.xml#lantmeter_jan">Jans de Lantmetere</rs> intebrengene in verlyckinghe
                     van tghene hy aldaer meer wech hadde, overgegeven gecedeert en getransporteert
                     heeft de voors. Jouff<hi rend="super">r</hi> Cathelyne de Lantmetere alsulcken
                         <measure type="currency" quantity="20">xx</measure>. Carolus guld. erfl.
                     enz., op een huys cum fundo &amp; pertinentiis gestaen in de Nieuwstrate die
-                    men heet de Vaertstrate, tusschen <rs type="person" ref="#haze_peeter">Peeter de
-                        Haze</rs> huys, enz., gelyck de selve rente den voors. M<hi rend="super"
-                    >r</hi> Jan Ruebens verstorven is van den voors. wylen Jan de Lantmetere en in
+                    men heet de Vaertstrate, tusschen <rs type="person" ref="../register/register-person.xml#haze_peeter">Peeter de
+                        Haze</rs> huys, enz., gelyck de selve rente den voors. M<hi rend="super">r</hi> Jan Ruebens verstorven is van den voors. wylen Jan de Lantmetere en in
                     scheyding en deyling voor schepenen dezer stadt ten deele bevallen is.</p>
                 <closer>
                     <dateline>

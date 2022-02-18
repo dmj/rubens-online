@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_307">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_307"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="jan_rubens_stadtwache_15660708">
                     <msIdentifier><repository>unbekannt</repository><collection>P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Dokumentarischer Beleg vom 8. Juli 1566</idno></msIdentifier>
                     
@@ -65,11 +64,11 @@
                     nabescreven hen sullen vinden aen deser stadt poorte, om die gade te slaen ende
                     te assisteren die vander waken, voir desen avont: </p>
                 <p>Namelick:<lb/>
-                    <rs type="person" ref="#etten_henrick">HENRICK VAN ETTEN</rs>, aende Keyserspoort;<lb/>
-                    <rs type="person" ref="#rubens_jan">JAN RUBENS</rs>, aende Kidorppoorte;<lb/>
-                    <rs type="person" ref="#happart_g">G. HAPPART</rs>, aende Croonenborch;<lb/>
-                    <rs type="person" ref="#longin_g">G. DE LONGIN</rs>, aende Roodepoorte;<lb/>
-                    <rs type="person" ref="#ranst_m">M. RANST</rs>, aende Pisternepoorte. </p>
+                    <rs type="person" ref="../register/register-person.xml#etten_henrick">HENRICK VAN ETTEN</rs>, aende Keyserspoort;<lb/>
+                    <rs type="person" ref="../register/register-person.xml#rubens_jan">JAN RUBENS</rs>, aende Kidorppoorte;<lb/>
+                    <rs type="person" ref="../register/register-person.xml#happart_g">G. HAPPART</rs>, aende Croonenborch;<lb/>
+                    <rs type="person" ref="../register/register-person.xml#longin_g">G. DE LONGIN</rs>, aende Roodepoorte;<lb/>
+                    <rs type="person" ref="../register/register-person.xml#ranst_m">M. RANST</rs>, aende Pisternepoorte. </p>
             </div>
         </body>
     </text>

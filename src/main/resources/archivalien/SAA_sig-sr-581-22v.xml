@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_180">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_180"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-581-22v">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -50,13 +49,10 @@
                         <msItem>
                             <filiation>
                                 <note resp="A.H." type="footnote">Rubens, van Halmale und Schut traten am selben Tag
-                                    noch mehrere Male als Vormund der Kinder von Jan Brueghel auf: Vgl. den <ref
-                                        type="rubens" cRef="ed_rubens_175">Verkauf des Hauses De Meerminne</ref>,
+                                    noch mehrere Male als Vormund der Kinder von Jan Brueghel auf: Vgl. den <ref type="rubens" cRef="ed_rubens_175">Verkauf des Hauses De Meerminne</ref>,
                                     den <ref type="rubens" cRef="ed_rubens_176">Verkauf einer Rente auf das Haus Den
                                         Bok</ref> , den <ref type="rubens" cRef="ed_rubens_177">Verkauf einer Rente
-                                            des Jan Brueghel</ref> sowie einen weiteren <ref type="rubens"
-                                                cRef="ed_rubens_178">Verkauf einer Rente</ref>und die <ref type="rubens"
-                                                    cRef="ed_rubens_179">Veräußerung einer Rente auf das Haus De
+                                            des Jan Brueghel</ref> sowie einen weiteren <ref type="rubens" cRef="ed_rubens_178">Verkauf einer Rente</ref>und die <ref type="rubens" cRef="ed_rubens_179">Veräußerung einer Rente auf das Haus De
                                                     Wijngaert</ref>. </note>
                             </filiation>
                         </msItem>
@@ -82,29 +78,25 @@
         <body>
             <div xml:lang="nld">
                 <p> De voorscreven comparanten<note resp="A.H." type="footnote">Peter Paul Rubens,
-                    Jan van Halmale und Cornelis Schut.</note> <span from="" xml:lang="lat">dicta qualitate</span><index
-                        indexName="stw">
+                    Jan van Halmale und Cornelis Schut.</note> <span from="" xml:lang="lat">dicta qualitate</span><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormundschaft</term>
                     </index> vercochten omme eene somme gelts aende de voors. Jouffrouwe, Jouffrouwe
-                        <rs type="person" ref="#marienberghe_catharina">Catharina van
-                    Marienberghe</rs>, weduwe van wijlen de voors. <rs type="person"
-                        ref="#brueghel_jan_aeltere">Jans Breugels</rs><index indexName="psw">
+                        <rs type="person" ref="../register/register-person.xml#marienberghe_catharina">Catharina van
+                    Marienberghe</rs>, weduwe van wijlen de voors. <rs type="person" ref="../register/register-person.xml#brueghel_jan_aeltere">Jans Breugels</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Breughel, Jan (der Ältere) </term>
                     </index> de sessensevenste deele ende alle hun comparanten recht paert, actie
                     ende gedeelten van d’eene helft van eene rente van tweensestich guldene ende
                     thien stuivers siaars daervan d’ander helft ende het resterende sevenste
                     gedeelte, inde helft der voors. weduwe toebehoorende is mette achterstelle
-                    daervan verschenen daeromme de voors. afflyvighen opde <date when="1618-08-25"
-                        >vijffentwintichste dach Augusti vande Jare 16<hi rend="super">c</hi>
-                    achtiene</date> ’t erve gegeven heeft <rs type="person"
-                        ref="#eertbrugge_michiel">Michiele vander Eertbrugge</rs>, cleermaecker ende
-                        <rs type="person" ref="#balen_geertruyt">Geertruyt van Balen</rs> sijne
+                    daervan verschenen daeromme de voors. afflyvighen opde <date when="1618-08-25">vijffentwintichste dach Augusti vande Jare 16<hi rend="super">c</hi>
+                    achtiene</date> ’t erve gegeven heeft <rs type="person" ref="../register/register-person.xml#eertbrugge_michiel">Michiele vander Eertbrugge</rs>, cleermaecker ende
+                        <rs type="person" ref="../register/register-person.xml#balen_geertruyt">Geertruyt van Balen</rs> sijne
                     huysvrouwe eene huys genampt St. Marten<index indexName="stw">
                         <term xml:lang="nld">St. Marten</term>
                     </index>, gestaen ende gelegen inde lange Nieustrate alhier commende achter aen
-                    d’outkerhoff van <rs type="corporate" ref="#st_jacob_antwerpen">St. Jacobs
+                    d’outkerhoff van <rs type="corporate" ref="../register/register-corporate.xml#st_jacob_antwerpen">St. Jacobs
                         Kercke</rs>, verschijnende jaerlicx de <date when="--06-24">St.
                         Jansmisse</date><note resp="A.H." type="footnote">St. Jansmisse bezeichnet
                         den Festtag des Johannes Baptista, den 24. Juni</note> prout littera quas

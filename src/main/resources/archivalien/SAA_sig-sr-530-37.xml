@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_141">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_141"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-530-37">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -67,42 +66,29 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#lambrechts_Hans">Hans Lambrechts</rs>, peltier burger
+                    <rs type="person" ref="../register/register-person.xml#lambrechts_Hans">Hans Lambrechts</rs>, peltier burger
                     deser stadt, inden name ende alsomme specialijck ’tgene nabeschreven is te mogen
-                    doen, volcomelijck gemechticht van <rs type="person" ref="#royen_willem">Willem
-                        van Royen</rs>, borger der stadt <rs type="place" ref="#amsterdam"
-                        >Amstelredamme</rs><index indexName="gsw">
+                    doen, volcomelijck gemechticht van <rs type="person" ref="../register/register-person.xml#royen_willem">Willem
+                        van Royen</rs>, borger der stadt <rs type="place" ref="../register/register-place.xml#amsterdam">Amstelredamme</rs><index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Amsterdam</term>
                     </index> by procuratie gepasseert voor borgemeester ende regeerders der voors.
                     stadt opten <date when="1618-02-12">12<hi rend="super">den</hi> dach
-                    February</date> lestleden, onderteeckent <rs type="person" ref="#rosenboom"
-                        >Rosenboom</rs>, ons te desen gethoont ende int eynde van desen
+                    February</date> lestleden, onderteeckent <rs type="person" ref="../register/register-person.xml#rosenboom">Rosenboom</rs>, ons te desen gethoont ende int eynde van desen
                     geinthoneert, vercocht omme eene somme gelts die hem al ende wel is vergouden,
-                    gelijck hij ut crachte der voors procuratien doen mochten, <rs type="person"
-                        ref="#rubens_peter_paul">Pietro Paulo Rubens</rs>, schilder van henne
-                    doorluchtichsten hoocheden, de vijventwintich guldenen ende vier stuvers erff<hi
-                        rend="super">el</hi> metten achterstelle daeraff verloopen zedert den <date
-                        when="1585-08-17">17 Augusti :anno vijventachtentich</date>: lestleden
+                    gelijck hij ut crachte der voors procuratien doen mochten, <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubens</rs>, schilder van henne
+                    doorluchtichsten hoocheden, de vijventwintich guldenen ende vier stuvers erff<hi rend="super">el</hi> metten achterstelle daeraff verloopen zedert den <date when="1585-08-17">17 Augusti :anno vijventachtentich</date>: lestleden
                     herwaerder daerop tegens den pen<hi rend="super">n</hi> twintich gereduceert zijn
-                    de eenendertich guldenen ende thien stuvers erffelijck die <rs type="person"
-                        ref="#roeloffs_joost">Joost Roeloffs</rs> in den naem ende als gemechticht
-                    van <rs type="person" ref="#knor_gielis">Gielis Knor</rs> opten <date
-                        when="1612-09-24">24<hi rend="super">sten</hi> Septembris anno XVI<hi
-                            rend="super">c</hi> twelff</date> overgegeven ende getransporteert heeft.
+                    de eenendertich guldenen ende thien stuvers erffelijck die <rs type="person" ref="../register/register-person.xml#roeloffs_joost">Joost Roeloffs</rs> in den naem ende als gemechticht
+                    van <rs type="person" ref="../register/register-person.xml#knor_gielis">Gielis Knor</rs> opten <date when="1612-09-24">24<hi rend="super">sten</hi> Septembris anno XVI<hi rend="super">c</hi> twelff</date> overgegeven ende getransporteert heeft.
                     den voors. Willem van Royen van de eenhondert sessentwintich guldenen als
                     erffelijcker renten die borgemeester, schepenen, rentmeesters, rade, poorteren
                     ende gemeyne ingesetenen deser voors. stadt opten <date when="1549-02-17">17
                         February anno XV<hi rend="super">c</hi> negenenveertich</date> vercocht
-                    hebben, <rs type="person" ref="#sleebos_jan">Janne van Sleebos</rs> ende <rs
-                        type="person" ref="#haen_margriet">Margriet van Haen</rs>, zijne wijve voor
-                    de tochte ende <rs type="person" ref="#sleebos_geerit">Geerit</rs>, <rs
-                        type="person" ref="#sleebos_peeter">Peeteren</rs>, <rs type="person"
-                        ref="#sleebos_janne">Janne</rs> ende <rs type="person" ref="#sleebos_agniet"
-                        >Agniet van Slebos</rs>, des voors. Jans ende Margriete kinderen, elcken van
+                    hebben, <rs type="person" ref="../register/register-person.xml#sleebos_jan">Janne van Sleebos</rs> ende <rs type="person" ref="../register/register-person.xml#haen_margriet">Margriet van Haen</rs>, zijne wijve voor
+                    de tochte ende <rs type="person" ref="../register/register-person.xml#sleebos_geerit">Geerit</rs>, <rs type="person" ref="../register/register-person.xml#sleebos_peeter">Peeteren</rs>, <rs type="person" ref="../register/register-person.xml#sleebos_janne">Janne</rs> ende <rs type="person" ref="../register/register-person.xml#sleebos_agniet">Agniet van Slebos</rs>, des voors. Jans ende Margriete kinderen, elcken van
                     hen voor den vierdepant, voor de proprietijt ende erffelijckheyt op desen voors.
                     stadt heure ende der gemeynre innegesetenen goede der selver, verschijnende
-                    jaerlijcks, medio den <date when="--08-17">17 Augusti</date>, medio den <date
-                        when="--02-17">17 February</date>, prout den chartre ende brieven daeraff
+                    jaerlijcks, medio den <date when="--08-17">17 Augusti</date>, medio den <date when="--02-17">17 February</date>, prout den chartre ende brieven daeraff
                     zijnde, <span from="" xml:lang="lat">quas tradidit</span>, droegh op etc. te waerne etc.</p>
                 <closer>
                     <dateline><date when="1618-05-05">Quinta Maij</date>.<lb/> Soluit.</dateline>
@@ -114,9 +100,8 @@
                     condt ende keenelijck eenen jegelijcken dient behoort certifierende voor de
                     waerheyt dat voor ons gecompareert is Willem van Royen burger deser stadt ende
                     heeft wettelijcken geconstitueert ende machtich gemaect, constitueert ende maect
-                    machtich midts desen <rs type="person" ref="#lambrechts_Hans">Hans
-                    Lambertsone</rs> peltier burger tot <rs type="place" ref="#antwerpen"
-                        >Antwerpen</rs><index indexName="gsw">
+                    machtich midts desen <rs type="person" ref="../register/register-person.xml#lambrechts_Hans">Hans
+                    Lambertsone</rs> peltier burger tot <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs><index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
                     </index>, omme aldaer inden name ende van wegen hem constituant te vercoopen
                     ende alieneren een losrentebrief van eenendertich guldens thien stuyvers

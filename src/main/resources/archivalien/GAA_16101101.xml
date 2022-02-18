@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_012">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_012"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +19,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="GAA_16101101">
                     <msIdentifier>
                         <country>Niederlande</country>
@@ -69,8 +68,7 @@
                         <listBibl>
                             <bibl>Abraham Bredius: Een onbekend Rubens-Document. in: Oud Holland 30. 1912. S. 215-218.</bibl>
                             <bibl>Adrien Jean Joseph Delen: Het huis van Pieter Pauwel Rubens : wat het was,
-                                wat het werd, wat het werden kan. Brüssel 1933. S. 21-33 <ptr type="gbv"
-                                    cRef="306747251"/></bibl>
+                                wat het werd, wat het werden kan. Brüssel 1933. S. 21-33 <ptr type="gbv" cRef="306747251"/></bibl>
                             
                         </listBibl>
                     </additional>
@@ -92,13 +90,11 @@
         <body>
             <div xml:lang="nld">
                 <p>Op huyden den eersten Novembris Anno Sestienhondert ende tien, compareerden voor
-                    my <rs type="person" ref="#bruyningh_jan">Jan Fransen Bruyningh</rs> etc. ter
-                    presentie van de onderschreven getuygen d’eersame <rs type="person"
-                        ref="#thijs_hans">Hans Thysz</rs>, coopman binnen der voorsz. stede, ter
-                    eenre, en <rs type="person" ref="#coop_nicolaes">Nicolaes Coop</rs>, burger der selver stede,
-                    uyten name, en van wegen Sr <rs type="person" ref="#rubens_peter_paul">Pietro
-                        Pauli Rubbens</rs>, wonende tot <rs type="place" ref="#antwerpen"
-                    >Antwerpen</rs>, ter andere syden, ende verclaerden, dat sy comparanten in der
+                    my <rs type="person" ref="../register/register-person.xml#bruyningh_jan">Jan Fransen Bruyningh</rs> etc. ter
+                    presentie van de onderschreven getuygen d’eersame <rs type="person" ref="../register/register-person.xml#thijs_hans">Hans Thysz</rs>, coopman binnen der voorsz. stede, ter
+                    eenre, en <rs type="person" ref="../register/register-person.xml#coop_nicolaes">Nicolaes Coop</rs>, burger der selver stede,
+                    uyten name, en van wegen Sr <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro
+                        Pauli Rubbens</rs>, wonende tot <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs>, ter andere syden, ende verclaerden, dat sy comparanten in der
                     voorsz. qualité geaccordeert en verdragen syn, over de conditien ende
                     voorwaarden van coope hiernae beschreven, te weten, dat de voorn. Hans Thysz
                     vercocht heeft en vercoopt mits desen aen den voorsz. Nicolaes Coop, dewelcke
@@ -108,12 +104,9 @@
                     allen schijne ’t voorsz. huys, genaemt de Wapper binnen de stadt van Antwerpen
                     voorsz. op de Wapper gestaen ende gelegen is<index indexName="stw">
                         <term xml:lang="deu">Rubenshaus</term>
-                    </index> <ref
-                            target="http://www.rubenshuis.be/smartsite.dws?id=MCD_LANDING&amp;ch=MCD"
-                        />, beheymt en betimmert staet, met alle vrydommen ende
+                    </index> <ref target="http://www.rubenshuis.be/smartsite.dws?id=MCD_LANDING&amp;ch=MCD"/>, beheymt en betimmert staet, met alle vrydommen ende
                     gerechticheden, daertoe behoorende ende belendt wesende, alles vermogens die
-                    Schepenbrieven ende bescheyden daervan synde, te leveren tegens Kersmisse<note
-                        resp="A.H." type="footnote">Der Begriff Kersmisse bezeichnete als Datierung
+                    Schepenbrieven ende bescheyden daervan synde, te leveren tegens Kersmisse<note resp="A.H." type="footnote">Der Begriff Kersmisse bezeichnete als Datierung
                         den 25. Dezember.</note> eerstcomende; ende dat voor de somme van
                     vijffhonderd en tsestich carolus guldens erffelyck tot 40 gr. den gulden,
                     bedragende in hoofdsomme (tegens den penninck sestien te reeckenen) achtduysent
@@ -134,7 +127,7 @@
                     dertienhondert tsestich guldens aen de eerste paye van de voorsz. cooppenningen
                     gereet te betalen, den vercooper sal defalcqueren en afftrecken; voorts vrij
                     huys en erve, sonder vordere belastinge. Dies is noch geconditioneert, soo verre
-                    den voorn. <rs type="person" ref="#rubens_peter_paul">Petro Pauli Rubbens</rs>
+                    den voorn. <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Pauli Rubbens</rs>
                     eenige difficulteyt soude mogen moveren, oft hem beswaert vinden wegen de
                     belastinghe van tsestich guldens erffelyck, oft wat meerder off minder, die op
                     andere panden uijtgaen en betaelt werden, daervooren dese pant eertijts mede
@@ -147,15 +140,14 @@
                     costeloos en schadeloos als voyren. Is mede geaccordeert, dat de voorsz. Pietro
                     Pauli Rubbens boven de voorgeroerde cooppenningen tot een recognitie ende
                     gedachtenisse van dese coope den voorsz. Hans Thysz sal toegeven en leveren en
-                    stuck schilderije by syn eigen handt gemaeckt, soo groot en cleyn als hem <rs
-                        type="person" ref="#rubens_peter_paul">Rubbens</rs> goetduncken sal, daer hy
+                    stuck schilderije by syn eigen handt gemaeckt, soo groot en cleyn als hem <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Rubbens</rs> goetduncken sal, daer hy
                     eere van sal begeren, en noch bovendien een soon van den voorsz. Hans Thysz
                     leeren en onderwysen sonder daer vooren yets te genieten de conste van
                     schilderen en voor hem niets secreet houden, volgende syne belofte, mits dat de
                     Jonghman syn eigen coste sal doen, alleen de vrye leeringe sal hy by de Meester
                     genieten, en daertoe by hem vry acces hebben.</p>
                     <p>Eyntelyck is noch bevoirwaert, dat den voorsz. vercooper oft sijn commis tot 
-                    Antwerpen ende den voorn. <rs type="person" ref="#rubens_peter_paul">Petro Paulo Rubbens</rs> beyde haer
+                    Antwerpen ende den voorn. <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo Rubbens</rs> beyde haer
                     beste ende uyterste vlijt sullen doen, voor en aleer dese coope voortganck sal
                     hebben, t’ voorgeroerde huys metten appendentien ende de gronden van dien te
                     ontlasten ende te bevrijden van den Exu, en dat voor soodanigen redelijcken
@@ -166,22 +158,18 @@
                     van geen der waerden sal en sullen wesen min noch meer, oft desen niet en ware
                     beschreven, ende de coope effect hebbende, sal de leveringe en opdrachte
                     geschieden binnen Antwerpen voorsz. naer costume aldaer geobserveert soo by den
-                    Erentfesten Doctor <rs type="person" ref="#backer_andries">Andries Backer</rs>,
-                    raedt en Medicus van syne Fe Dt van <rs type="place" ref="#braunschweig"
-                        >Bruynswyck</rs> als by den voorn. Hans Thysz vercooper selffs oft hare
+                    Erentfesten Doctor <rs type="person" ref="../register/register-person.xml#backer_andries">Andries Backer</rs>,
+                    raedt en Medicus van syne Fe Dt van <rs type="place" ref="../register/register-place.xml#braunschweig">Bruynswyck</rs> als by den voorn. Hans Thysz vercooper selffs oft hare
                     respective volmachtigers. Sonder fraude, ende versochten sy comparanten
                     etc.</p>
                 
                 <closer>
-                    <salute>Gedaen binnen der voorsz. stede van <rs type="place" ref="#amsterdam"
-                        >Amsterdam</rs> ten huijse van den voorn. Nicolaes Coop ter presentie van
-                        <rs type="person" ref="#boudaen_hans">Hans Boudaen</rs>, <rs type="person"
-                        ref="#goris_harmen">Harmen Goris</rs> en <rs type="person"
-                            ref="#velt_cornelis">Cornelis Velt</rs>, getuygen hier toe versocht.
+                    <salute>Gedaen binnen der voorsz. stede van <rs type="place" ref="../register/register-place.xml#amsterdam">Amsterdam</rs> ten huijse van den voorn. Nicolaes Coop ter presentie van
+                        <rs type="person" ref="../register/register-person.xml#boudaen_hans">Hans Boudaen</rs>, <rs type="person" ref="../register/register-person.xml#goris_harmen">Harmen Goris</rs> en <rs type="person" ref="../register/register-person.xml#velt_cornelis">Cornelis Velt</rs>, getuygen hier toe versocht.
                     </salute><lb/>
 
                         <signed rend="text-align:right">
-                            <rs type="person" ref="#thys_johan">Johan Thys</rs><lb/>
+                            <rs type="person" ref="../register/register-person.xml#thys_johan">Johan Thys</rs><lb/>
                             Nicolaes Coop<lb/> 
                             Hans Boudaen<lb/> 
                             Cornelis Feldt<lb/>

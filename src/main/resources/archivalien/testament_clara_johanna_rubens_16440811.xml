@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
-    xml:id="ed_rubens_303">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_303"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <!-- ID vergeben -->
     <teiHeader>
         <fileDesc>
@@ -23,10 +14,17 @@
                 
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="testament_clara_johanna_rubens_16440811">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Testament der Clara-Joanna Rubens vom 11. August 1644</idno></msIdentifier>
                     
@@ -64,7 +62,7 @@
             <div xml:lang="nld">
                 <dateline>Die <date when="1644-08-11">11 Augusti 1644</date>.
                     </dateline>
-                <p>Compareerde Jouffrouwe <rs type="person" ref="#rubens_clara_johanna">CLARA-JOHANNA RUBENS</rs>, dochtere van wylen Heer <rs type="person" ref="#rubens_peter_paul">PIETRO-PAULO
+                <p>Compareerde Jouffrouwe <rs type="person" ref="../register/register-person.xml#rubens_clara_johanna">CLARA-JOHANNA RUBENS</rs>, dochtere van wylen Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">PIETRO-PAULO
                     RUBENS</rs>, Riddere, Heere van Steen, etc. out ontrent derthien jaeren, soo sy
                     verclaerde, my Notario bekent synde, ende bekende ende verclaerde dat sy,
                     aenmerckende der menschelycker natueren broosheyt, datter nyet sekerder en is
@@ -78,7 +76,7 @@
                     den gebeden synre Heyligher ende gebenedyder Moeder ende Maget Maria ende van
                     allen den hemelschen geselschappe, ende haer doot lichaem der gewyden aerden,
                     kiesende haer begraefenisse inde capelle voor haeren vader gemaect in Sint
-                    Jacobskercke alhier, laetende ende maeckende aen JONCKERS <rs type="person" ref="#rubens_albert">Albert</rs> ende <rs type="person" ref="#rubens_nikolaas">NICOLAES
+                    Jacobskercke alhier, laetende ende maeckende aen JONCKERS <rs type="person" ref="../register/register-person.xml#rubens_albert">Albert</rs> ende <rs type="person" ref="../register/register-person.xml#rubens_nikolaas">NICOLAES
                     RUBENS</rs>, haere halve broeders, elcken van hun de somme van vyftich guldenen eens,
                     deselve daerinne instituerende ende willende dat sylieden daermede sullen blyven
                     vuytten sterffhuys ende goeden by haer achter te laetene. </p>
@@ -88,7 +86,7 @@
                     competerene, egeene daeraff vutgenomen noch gereserveert, alle deselve heeft de
                     voors. testatrice gegeven, gemaeckt ende gelaeten, gelyck sy geeft, laet ende
                     maeckt mits desen, aen haere broeders ende susters van geheelen bedde, daer
-                    moeder aff is Vrouw <rs type="person" ref="#fourment_helene">HELENA FOURMENT</rs>, om alle ende yegelycke deselve goeden
+                    moeder aff is Vrouw <rs type="person" ref="../register/register-person.xml#fourment_helene">HELENA FOURMENT</rs>, om alle ende yegelycke deselve goeden
                     terstont naer de doot ende afflyvicheyt van haer testatrice byde voorgenoempde
                     haere broeders ende susters oft, ingevalle van eenighe minderjaericheyt, by
                     hunne momboirs tot heurlieder behoeff aenveert ende geapprehendeert te worden,
@@ -108,13 +106,13 @@
                     HELENA FOURMENT, haere moeder, alle deselve daerinne oyck instituerende ende
                     substituerende mits desen, ende dit al mits diversche redenen haer testatrice
                     daertoe porrende ende moverende, soo sy verclaerde; van allen dwelck, etc.</p>
-                <closer><salute> Actum <rs type="place" ref="#antwerpen">Antverpiae</rs>, ten huyse myns Notaris aende Borsse der
-                    cooplieden gestaen, ter presentien van <rs type="person" ref="#langhenberge_andreas">ANDRIES VAN LANGENBERGE</rs> ende <rs type="person" ref="#guyot_daniel">DANIEL
+                <closer><salute> Actum <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiae</rs>, ten huyse myns Notaris aende Borsse der
+                    cooplieden gestaen, ter presentien van <rs type="person" ref="../register/register-person.xml#langhenberge_andreas">ANDRIES VAN LANGENBERGE</rs> ende <rs type="person" ref="../register/register-person.xml#guyot_daniel">DANIEL
                         GUYOT</rs>, incolis testibus.</salute>
-                    <signed><rs type="person" ref="#rubens_clara_johanna">CLARA-JOANNA RUBENS</rs>,</signed>
-                    <signed><rs type="person" ref="#langhenberge_andreas">A. VAN LANGHENBERGHE</rs> ut testis.</signed>
-                    <signed><rs type="person" ref="#guyot_daniel">D. GUYOT</rs> ut testis. </signed>
-                    <signed><rs type="person" ref="#guyot_toussaint">T. GUYOT.</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#rubens_clara_johanna">CLARA-JOANNA RUBENS</rs>,</signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#langhenberge_andreas">A. VAN LANGHENBERGHE</rs> ut testis.</signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#guyot_daniel">D. GUYOT</rs> ut testis. </signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#guyot_toussaint">T. GUYOT.</rs></signed>
                 </closer>
 
 

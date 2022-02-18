@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_319">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_319"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <!-- ID vergeben -->
     <teiHeader>
         <fileDesc>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brief_jan_rubens_15821010">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Jan Rubens an Graf Johann von Nassau vom 10. Oktober 1582</idno></msIdentifier>
                     
@@ -75,20 +74,18 @@
                     le terme iusques à Pasques prochain, affin que ce temps pendant, ie puisse
                     donner ordre à mes affaires trop confuses, marier ma fille et disposer de ma
                     maison pour viure depuis ou mourir comme il vous plaira et Dieu vouldra. Car, à
-                    ce que ie comprens, tant de la bouche du Docteur <rs type="person"
-                        ref="#christianus_andreas">CHRISTIANI</rs>, que de voz dernières lettres,
+                    ce que ie comprens, tant de la bouche du Docteur <rs type="person" ref="../register/register-person.xml#christianus_andreas">CHRISTIANI</rs>, que de voz dernières lettres,
                     mesmement de ce que n’admettés nulles de ces violentes excuses, je ne puis
                     espérer nul bien quand seray retourné en voz mains et fay mon conte que i’y
                     moureray. Quoy faisant Monseigneur, ie ne me tiendray moins obligé à vostre
-                    piété, que ie n’ay esté le jour que ie sorty de <rs type="place" ref="#siegen"
-                        >Siegen</rs>, et sur ce baisant très-humblement voz mains, ie prieray Dieu
+                    piété, que ie n’ay esté le jour que ie sorty de <rs type="place" ref="../register/register-place.xml#siegen">Siegen</rs>, et sur ce baisant très-humblement voz mains, ie prieray Dieu
                     pour vostre prospérité et vostre Ill. S. pour ceste grâce, ne pouuant obtenir la
                     première et qu’elle sur ce me vueille faire respondre de bonheur. </p>
-                <closer>Escrit à <placeName><rs type="place" ref="#koeln">Couloigne</rs></placeName>
+                <closer>Escrit à <placeName><rs type="place" ref="../register/register-place.xml#koeln">Couloigne</rs></placeName>
                     le <dateline><date when="1582-10-10">10. d'Octobre 1582</date>.</dateline>
                     <salute> De vostre Illustre Seigneurie, <lb/> très-humble seniiteur et
                         prisonnier,</salute>
-                    <signed><rs type="person" ref="#rubens_jan">JEAN RUEBENS.</rs></signed></closer>
+                    <signed><rs type="person" ref="../register/register-person.xml#rubens_jan">JEAN RUEBENS.</rs></signed></closer>
             </div>
             <div xml:lang="fra">
                 <salute>Monseigneur, </salute>
@@ -97,11 +94,9 @@
                     mauuois temps soit passé (ce que je prie, pour l’honneur de Dieu, que vostre
                     Ill. S. me vueille, de grâce singulier, octroyer,) pour le moins que je puisse
                     de bonheur sçauoir oú je doiue démonster et si vostre Ill. S. trouueroit mauuois
-                    que je me tinsse à <rs type="place" ref="#freudenburg">Freudenburg</rs> chez
-                    vostre Escoutette <rs type="person" ref="#schwart_mefridius">MEFFRID
-                        SCHWARTZ</rs>, ou à Sieghen, en sa maison, chez <rs type="person"
-                        ref="#janulien">JANUELIEN</rs> femme à <rs type="person" ref="#andrien"
-                        >ANDRIEN</rs>, le botteillier de vostre Ill. S., pour moins dépendre et
+                    que je me tinsse à <rs type="place" ref="../register/register-place.xml#freudenburg">Freudenburg</rs> chez
+                    vostre Escoutette <rs type="person" ref="../register/register-person.xml#schwart_mefridius">MEFFRID
+                        SCHWARTZ</rs>, ou à Sieghen, en sa maison, chez <rs type="person" ref="../register/register-person.xml#janulien">JANUELIEN</rs> femme à <rs type="person" ref="../register/register-person.xml#andrien">ANDRIEN</rs>, le botteillier de vostre Ill. S., pour moins dépendre et
                     estre moins veu; mais s’il est aucunement possible que, pour le présent, je soy
                     excusé, nous le prions et reprions sur tout que pouuons, y allant nostre entière
                     ruine s’il me fault venir maintenant. Sur quoy nous attendrons auec grande
@@ -111,14 +106,12 @@
                     nécessité qui me presse, je ne vouldrois tant importuner vostre Ill. S., mais Ia
                     considération que i’ay qu’il fauldra que soyons tous ruinés si vostre Ill. S. ne
                     me vueille espargner, me fait réitérer mes prières. <date when="1582-10-10">10
-                        d’Octobre</date>.<note resp="A.H." type="footnote">Vgl. auch den <ref
-                            type="rubens" cRef="ed_rubens_318">Brief der Maria Pypelincx an den
+                        d’Octobre</date>.<note resp="A.H." type="footnote">Vgl. auch den <ref type="rubens" cRef="ed_rubens_318">Brief der Maria Pypelincx an den
                             Grafen von Nassau</ref>, ebenfalls am 10. Oktober 1582 verfasst.</note>
                 </p>
-                <closer><salute>A Monseigneur <lb/> Monseigneur <rs type="person"
-                            ref="#nassau_johan">JEAN, Comte de NASSAW</rs>
+                <closer><salute>A Monseigneur <lb/> Monseigneur <rs type="person" ref="../register/register-person.xml#nassau_johan">JEAN, Comte de NASSAW</rs>
                         <lb/> Catzenelnboghen Dietzt Vianden,</salute>
-                    <placeName>à <rs type="place" ref="#dillenburg">Dillenberg</rs>,
+                    <placeName>à <rs type="place" ref="../register/register-place.xml#dillenburg">Dillenberg</rs>,
                     </placeName></closer>
             </div>
         </body>

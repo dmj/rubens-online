@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_211">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_211"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="erhebung_ritterstand_spanien_16310716">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -81,10 +80,10 @@
         <body>
             <div part="Y" xml:lang="spa">
                 <p> Señor,<lb/>
-                    <rs type="person" ref="#rubens_peter_paul">Pablo Rubens</rs>, secretario de V.
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pablo Rubens</rs>, secretario de V.
                         M<hi rend="super">d</hi><index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
-                    </index> en su consejo privado en <rs type="place" ref="#flandern">Flándes</rs>,
+                    </index> en su consejo privado en <rs type="place" ref="../register/register-place.xml#flandern">Flándes</rs>,
                     representa que ha servido á V. M<hi rend="super">d</hi> en los negocios que á V.
                         M<hi rend="super">d</hi> y á sus ministros son notorios, y con toda fidelidad
                     y satisfacion. Y desseando continuarlo con mas lustre y autoridad en las
@@ -101,22 +100,17 @@
                     V. M<hi rend="super">d</hi> le conoce y sus buenas partes, y save quan raro es en
                     su profession: por lo qual y sus servicios hechos en cosas de importancia, y ser
                     ya secretario de V. M<hi rend="super">d</hi>, no podrá causar consequencia para
-                    otros de su arte el hazerle la dha merced. El emperador <rs type="person"
-                        ref="#kaiser_karl_v">Carlos Quinto</rs><index indexName="psw">
+                    otros de su arte el hazerle la dha merced. El emperador <rs type="person" ref="../register/register-person.xml#kaiser_karl_v">Carlos Quinto</rs><index indexName="psw">
                         <term type="PND">Karl (Römisch-Deutsches Reich, Kaiser, V.)</term>
-                    </index> la hizo á <rs type="person" ref="#tizian">Ticiano</rs><index
-                        indexName="psw">
+                    </index> la hizo á <rs type="person" ref="../register/register-person.xml#tizian">Ticiano</rs><index indexName="psw">
                         <term type="PND">Tizian</term>
-                    </index> de un hábito de <rs type="corporate" ref="#orden_von_santiago"
-                    >Santiago</rs>, Y assí parece al consejo que V. M<hi rend="super">d</hi>. podrá
+                    </index> de un hábito de <rs type="corporate" ref="../register/register-corporate.xml#orden_von_santiago">Santiago</rs>, Y assí parece al consejo que V. M<hi rend="super">d</hi>. podrá
                     servirse de hazersela al suplicante del título de cavallero que pretende.
                     Ordenará V. M<hi rend="super">d</hi>. lo que más fuere servido.</p> 
-                <closer><dateline>En <rs
-                        type="place" ref="#madrid">Madrid</rs>, á <date when="1631-07-16">16 de
+                <closer><dateline>En <rs type="place" ref="../register/register-place.xml#madrid">Madrid</rs>, á <date when="1631-07-16">16 de
                         julio 1631</date>.</dateline></closer>
                 
-                <note type="contemporary" place="margin" resp="#philipp_iv_spanien"
-                    >Hagasse.</note><note resp="N.B" type="footnote">Randglosse des
+                <note type="contemporary" place="margin" resp="#philipp_iv_spanien">Hagasse.</note><note resp="N.B" type="footnote">Randglosse des
                     Königs</note>
                 
             </div>
@@ -126,9 +120,8 @@
         <body>
             <div xml:lang="deu">
                 <head>Übersetzung:</head>
-                <p> Herr <rs type="person" ref="#rubens_peter_paul">Pablo Rubens</rs>, Sekretär
-                    Eurer Majestät in Eurem privaten Rat in <rs type="place" ref="#flandern"
-                        >Flandern</rs>, stellt dar, daß er Euer Majestät in den Geschäften gedient
+                <p> Herr <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pablo Rubens</rs>, Sekretär
+                    Eurer Majestät in Eurem privaten Rat in <rs type="place" ref="../register/register-place.xml#flandern">Flandern</rs>, stellt dar, daß er Euer Majestät in den Geschäften gedient
                     hat, die Euer Majestät und den Ministern notwendig waren, und dies mit Treue und
                     Freude. Und mit dem Wunsch mit mehr Glanz und Autorität in vorkommenden
                     Gelegenheiten weiter dienen zu dürfen, bittet er Euer Majestät, ihm mit dem
@@ -139,17 +132,13 @@
                     seine guten Seiten und weiß, wie selten dies in seinem Beruf vorkommt. Darum und
                     aufgrund seiner in wichtigen Angelegenheiten durchgeführten Dienste und auch
                     deshalb, weil er schon Sekretär Ihrer Majestät ist, dürfte die Erfüllung seines
-                    Wunschs zu keinen Konsequenzen für andere führen. Kaiser <rs type="person"
-                        ref="#kaiser_karl_v">Karl der Fünfte</rs> billigte dereinst <rs
-                        type="person" ref="#tizian">Tizian</rs> ein Ordenskleid <note resp="N.B."
-                        type="footnote">die Ordenszugehörigkeit</note> von Santiago zu. Und so
+                    Wunschs zu keinen Konsequenzen für andere führen. Kaiser <rs type="person" ref="../register/register-person.xml#kaiser_karl_v">Karl der Fünfte</rs> billigte dereinst <rs type="person" ref="../register/register-person.xml#tizian">Tizian</rs> ein Ordenskleid <note resp="N.B." type="footnote">die Ordenszugehörigkeit</note> von Santiago zu. Und so
                     scheint es dem Rat, daß Ihre Majestät auch dem Bittsteller den beanspruchten
                     Titel des Kavaliers erteilen könnte. Befehle Euer Majestät, was getan werden soll.</p>
-                    <closer><dateline><rs type="place" ref="#madrid">Madrid</rs>, den <date when="1631-07-16">16. Juli
+                    <closer><dateline><rs type="place" ref="../register/register-place.xml#madrid">Madrid</rs>, den <date when="1631-07-16">16. Juli
                     1631</date></dateline></closer>
                 
-                <note type="contemporary" place="margin" resp="#philipp_iv_spanien">Soll geschehen.</note> <note resp="N.B"
-                        type="footnote">Randglosse des Königs</note>
+                <note type="contemporary" place="margin" resp="#philipp_iv_spanien">Soll geschehen.</note> <note resp="N.B" type="footnote">Randglosse des Königs</note>
                 
             </div>
         </body>

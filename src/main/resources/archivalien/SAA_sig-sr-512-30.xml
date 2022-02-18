@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_126">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_126"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-512-30">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -71,21 +70,14 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Heer <rs type="person" ref="#stembor_jan">Jan van Stembor</rs> ridder in den
-                    name ende als speciale gemechticht van <rs type="person" ref="#dorgnies_claude"
-                        >Claude d’Ongnyes</rs> riddere, Heere van <rs type="place" ref="#conpigny"
-                        >Conpigny</rs>
-                    <rs type="place" ref="#morckhoven">Morckhoven</rs> etc. comme ’t gene
+                <p> Heer <rs type="person" ref="../register/register-person.xml#stembor_jan">Jan van Stembor</rs> ridder in den
+                    name ende als speciale gemechticht van <rs type="person" ref="../register/register-person.xml#dorgnies_claude">Claude d’Ongnyes</rs> riddere, Heere van <rs type="place" ref="../register/register-place.xml#conpigny">Conpigny</rs>
+                    <rs type="place" ref="../register/register-place.xml#morckhoven">Morckhoven</rs> etc. comme ’t gene
                     naebescreven wordt te mogen doene ’t selve breeder blijckende bij zekere opere
                         pro<hi rend="super">e</hi> in papiere gestaan onder den voorseyden heer Claude
                     signet ende hantteecken geexpedieert in date <date when="--04-12">12
-                    Aprilis</date> lestleden quam vidimus, ter eenre ende <rs type="person"
-                        ref="#rubens_peter_paul">Peeter Paulo Rubbens</rs>, <rs type="person"
-                        ref="#schot_peeter">Peeter de Schot</rs> ende <rs type="person"
-                        ref="
-                        #vinck_jan">Jan Vinck</rs>, coopman in den
-                    name ende als gemechticht van de kinderen wijlen jouffrouwe <rs type="person"
-                        ref="#pypelincx_susanne">Susanna Pijpelinck</rs> ter andere zijde bekenden
+                    Aprilis</date> lestleden quam vidimus, ter eenre ende <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peeter Paulo Rubbens</rs>, <rs type="person" ref="../register/register-person.xml#schot_peeter">Peeter de Schot</rs> ende <rs type="person" ref="../register/register-person.xml                         #vinck_jan">Jan Vinck</rs>, coopman in den
+                    name ende als gemechticht van de kinderen wijlen jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_susanne">Susanna Pijpelinck</rs> ter andere zijde bekenden
                     ende verlijden onderlinge ter beydenzijden dat zij t’samen gemaect ende
                     aengegaen hebben ’t contract van mengelinge naervolgende, te wetene dat den
                     voorseyde heer Jan van Stembor in der voorseyder qualiteyt in gerechter
@@ -95,16 +87,15 @@
                     ontfangen) de veertich carolus guldenen erffelijck metten achterstelle totten
                     dage van heden toe daer aff verloopen ende verschenen diemen jaerlijcx heeft
                     ende heffende is op ’t corpus deser stadt, wesende gereduceert gelt, staende te
-                    boecke op <rs type="person" ref="#pypelincx_susanne">Loyse Herbaye</rs> ende die
-                    jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, weduwe
-                    wijlen Meester <rs type="person" ref="#rubens_jan">Jan Rubbens</rs> schepen was
+                    boecke op <rs type="person" ref="../register/register-person.xml#pypelincx_susanne">Loyse Herbaye</rs> ende die
+                    jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs>, weduwe
+                    wijlen Meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Rubbens</rs> schepen was
                     deser stadt<index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
                     </index>, met eenen momboir<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index> haer gegeven metten rechte ende jouffrouwe Susanna Pypelincx, heur
-                    sustere met Peeter De Schot, heuren manne ende momboire opten <date
-                        when="1601-09-06">6 Septembris XVI<hi rend="super">c</hi> een</date>, den
+                    sustere met Peeter De Schot, heuren manne ende momboire opten <date when="1601-09-06">6 Septembris XVI<hi rend="super">c</hi> een</date>, den
                     voorseyden constituant vercocht ende getransporteert heben gehadt, droegh op
                     etc. te waerne etc. Waer tegen den voorseyden Peeter Paulo Rubbens, Peeter de
                     Schot als tochtemer van allen d’achtergelaten goeden van wejlen jouffrouwe
@@ -115,20 +106,18 @@
                     samen over cedeerden ende transporteereden mits desen sine revocatione den
                     voorseyden Claude d’Ongnyes ridder, heere van Compigny ende Morckhoven etc. de
                     vijftich Carolus gulden erfellijck met en achterstelle daeraff verloopen ende
-                    verschenen, die <rs type="person" ref="#crol_jan">Jan Crol</rs> in den name ende
-                    als gemechticht van Jonckheer <rs type="person" ref="#meere_jan">Jan van der
-                        Meere</rs> heeren <rs type="person" ref="#meere_philips">Philips</rs> sone
-                    wijlen des ridders bynnen zijnen leven heere van <rs type="place"
-                        ref="#zaventem">Saventhem</rs> daer moeder aff is vrouwe <rs type="person"
-                        ref="#noot_maximiliana">Maximiliane van der Noot</rs> als propreitaris ende
+                    verschenen, die <rs type="person" ref="../register/register-person.xml#crol_jan">Jan Crol</rs> in den name ende
+                    als gemechticht van Jonckheer <rs type="person" ref="../register/register-person.xml#meere_jan">Jan van der
+                        Meere</rs> heeren <rs type="person" ref="../register/register-person.xml#meere_philips">Philips</rs> sone
+                    wijlen des ridders bynnen zijnen leven heere van <rs type="place" ref="../register/register-place.xml#zaventem">Saventhem</rs> daer moeder aff is vrouwe <rs type="person" ref="../register/register-person.xml#noot_maximiliana">Maximiliane van der Noot</rs> als propreitaris ende
                     erffdragere ende van de voornoemde vrouwe Maximiliane van der Noot als
                     tochtemesse opten <date when="1552-01-10">10<hi rend="super">den</hi> January
                         anno XV<hi rend="super">c</hi> 52<hi rend="super">tich</hi></date>
-                    <rs type="person" ref="#pypelincx_hendrick">Hendricke Pypelinck</rs> tapitsier
+                    <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Hendricke Pypelinck</rs> tapitsier
                     vercocht ende geassigneert heeft gehadt op eene hoeve met huysinge, hove, lande,
                     bossche, beempde, heyde, weyde, gronde ende allen den toebehoorten geheeten
                     Morckhoven, gelegen in diversche parcheelen onder de herlijckeyt van Morckhoven
-                    bij <rs type="place" ref="#herentals">Herentals</rs>, verschijnende jaerlijksch
+                    bij <rs type="place" ref="../register/register-place.xml#herentals">Herentals</rs>, verschijnende jaerlijksch
                     den <date when="--01-10">10<hi rend="super">den</hi> January</date>, prout
                     <span from="" xml:lang="lat">litteras quas tradiderunt</span> droeghen op etc. te waerne etc.<lb/>
                 </p>

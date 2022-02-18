@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_050">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_050"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-r-1915-310">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -88,22 +87,14 @@
         <body>
             <div xml:lang="nld">
                               
-                <p><pb n="310"/><rs type="person" ref="#rubens_jan">Jan Rubbens</rs> een jaer <date
-                        when="1578-06-27">27 Junij 78</date>.</p>
-                <p>Ick <rs type="person"
-                        ref="#pypelincx_maria">Maria Pypelinckx</rs>, huysvrouwe van M<hi rend="super"
-                        >r</hi>
-                    <rs type="person" ref="#rubens_jan">Jan Ruebens</rs>, bekenne ende belijde,
+                <p><pb n="310"/><rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Rubbens</rs> een jaer <date when="1578-06-27">27 Junij 78</date>.</p>
+                <p>Ick <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Maria Pypelinckx</rs>, huysvrouwe van M<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebens</rs>, bekenne ende belijde,
                     midts dese mijne hantschrift, dat ick ontfanghen hebbe ende te vollen betaelt
                     ben van een jaer renten van vijfenveertich guldens ’tsjaers, den penninck
-                    twintich, verschenen ende vervallen den <date when="1578-06-27"
-                        >sevenentwintichsten Junij XV<hi rend="super">c</hi>LXXVIII<hi rend="super"
-                        >ch</hi></date> wt handen vanden Rentmeester generael deser stadt van <rs
-                        type="place" ref="#antwerpen">Antwerpen</rs>. In oirconde der waerheyt hebbe
-                    ick dit selver gescreven ende onderteeckent desen <date when="1580-01-15"
-                            >XV<hi rend="super">den</hi> Januario XV<hi rend="super">c</hi>LXXX</date>.</p>
-                    <p><measure type="currency" quantity="45">XLV</measure> ₤ art<hi rend="super"
-                    >oise</hi> </p>
+                    twintich, verschenen ende vervallen den <date when="1578-06-27">sevenentwintichsten Junij XV<hi rend="super">c</hi>LXXVIII<hi rend="super">ch</hi></date> wt handen vanden Rentmeester generael deser stadt van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs>. In oirconde der waerheyt hebbe
+                    ick dit selver gescreven ende onderteeckent desen <date when="1580-01-15">XV<hi rend="super">den</hi> Januario XV<hi rend="super">c</hi>LXXX</date>.</p>
+                    <p><measure type="currency" quantity="45">XLV</measure> ₤ art<hi rend="super">oise</hi> </p>
                 <closer rend="text-aling:right"><signed rend="text-aling:right">Maria Pypelinckx.</signed><lb/>
                     N<hi rend="super">o</hi> 2213
                 </closer>
@@ -113,10 +104,8 @@
                 <p>                   
                     <table>
                         <row>
-                            <cell>Fiat betaelinge <rs type="person" ref="#gramay_r">R Gramay</rs> den <date
-                        when="1580-01-27">27 Jan<hi rend="super">rii</hi> 80</date>.</cell>
-                            <cell><measure
-                        type="currency" quantity="83">83</measure> ₤ art<hi rend="super">oise</hi></cell>
+                            <cell>Fiat betaelinge <rs type="person" ref="../register/register-person.xml#gramay_r">R Gramay</rs> den <date when="1580-01-27">27 Jan<hi rend="super">rii</hi> 80</date>.</cell>
+                            <cell><measure type="currency" quantity="83">83</measure> ₤ art<hi rend="super">oise</hi></cell>
                         </row>
                     </table>
                 </p>

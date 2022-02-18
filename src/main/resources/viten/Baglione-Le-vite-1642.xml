@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_283">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_283"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,8 +13,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="baglione_vite_1642">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="baglione_vite_1642">
                     <msIdentifier>
                         <repository>unbekannt</repository>
                     </msIdentifier>
@@ -59,20 +58,18 @@
     <text>
         <body>
             <div part="Y" xml:lang="ita">
-                <head>Vita di <rs type="person" ref="#rubens_peter_paul">Pietro Paolo
+                <head>Vita di <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paolo
                         Rubens</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                     </index>, Pittore.</head>
                 <p><pb n="362"/>È Non meno pregio della Pittura il conversar tra Signori, che si sia
                     vanto di lei l’esser tal’volta giunta ad haver Signorie; e chi era solito a dar
                     tempere, e maneggiare pennelli, avanzarsi a dar legge, e governare popoli.<lb/>
-                    Nel Pontificato di <rs type="person" ref="#clemens_viii_papst">Clemente
+                    Nel Pontificato di <rs type="person" ref="../register/register-person.xml#clemens_viii_papst">Clemente
                         VIII</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Clemens (Papst, VIII.)</term>
-                    </index>. venne in <rs type="place" ref="#rom">Roma</rs> un giovane Fiamingo,
-                    che Pietro Paolo Rubens nominavasi, il quale era stato per alcun tempo in <rs
-                        type="place" ref="#mantua">Mantoua</rs> al servigio di quell’Altezza<index
-                        indexName="psw">
+                    </index>. venne in <rs type="place" ref="../register/register-place.xml#rom">Roma</rs> un giovane Fiamingo,
+                    che Pietro Paolo Rubens nominavasi, il quale era stato per alcun tempo in <rs type="place" ref="../register/register-place.xml#mantua">Mantoua</rs> al servigio di quell’Altezza<index indexName="psw">
                         <term type="PND" xml:lang="deu">Vincenzo (Mantua, Herzog, I.)</term>
                     </index>, &amp; ivi fece diverse opere, &amp; in particolare dipinsevi
                     alcuni ritratti assai belli. Venne egli in questa Reggia del Mondo, per dar
@@ -87,63 +84,56 @@
                                 <term type="SWD" xml:lang="deu">Helena-Kapelle</term>
                             </index>
                         </index>
-                    </index>, giù, dentro la Cappella di s. <rs type="person" ref="#helena_augusta"
-                        >Elena</rs><index indexName="psw">
+                    </index>, giù, dentro la Cappella di s. <rs type="person" ref="../register/register-person.xml#helena_augusta">Elena</rs><index indexName="psw">
                         <term type="PND" xml:lang="lat">Helena (Augusta)</term>
-                    </index>, Madre del <rs type="person" ref="#konstantin_grosse">Gran
+                    </index>, Madre del <rs type="person" ref="../register/register-person.xml#konstantin_grosse">Gran
                         Costantino</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Konstantin ( der Große)</term>
-                    </index> Imperadore, che dal Cardinal’Arciduca <rs type="person"
-                        ref="#albrecht_von_oesterreich">Alberto</rs> d’<rs type="place"
-                        ref="#oesterreich">Austria</rs> era<index indexName="psw">
+                    </index> Imperadore, che dal Cardinal’Arciduca <rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">Alberto</rs> d’<rs type="place" ref="../register/register-place.xml#oesterreich">Austria</rs> era<index indexName="psw">
                         <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog,
                         VII.)</term>
-                    </index> stata risarcita, e nel principale altare vi rappresentò <rs type="work"
-                        ref="#jaffe_16">s. Elena, che abbraccia la Croce del Redentore</rs> in atto
+                    </index> stata risarcita, e nel principale altare vi rappresentò <rs type="work" ref="../register/register-work.xml#jaffe_16">s. Elena, che abbraccia la Croce del Redentore</rs> in atto
                     assai devota con diversi puttini, che d’intorno scherzano, &amp; ha
                     prospettiva, opera a olio con amore fatta.<lb/> Sopra un’altare a man diritta
-                    v’ha figurato, quando <rs type="work" ref="#jaffe_18">Giesù fu incoronato di
+                    v’ha figurato, quando <rs type="work" ref="../register/register-work.xml#jaffe_18">Giesù fu incoronato di
                         spine</rs> con diverse figure intorno di colorito molto oscuro; e di notte
-                    finto.<lb/> E nell’altro a man manca v’ha <rs type="work" ref="#jaffe_19">la
+                    finto.<lb/> E nell’altro a man manca v’ha <rs type="work" ref="../register/register-work.xml#jaffe_19">la
                         Crucifissione del N. Salvadore</rs> con diversi manigoldi, che fanne atto di
                     voler’alzare la Croce, molto buone figure, come anche il Christo, e sonui le
                     Marie con N. Donna isvenuta, assai gratiose, tutte a olio formate con forza, e
                     con buon gusto.<lb/> Dipinse nella Chiesa de’ Padri dell’Oratorio della
                     Vallicella un quadro grande, per collocarlo sopra l’altar maggiore, e di sopra
-                    vi rappresentò <rs type="work" ref="#jaffe_64">la Madonna con il Figliuolo, e
+                    vi rappresentò <rs type="work" ref="../register/register-work.xml#jaffe_64">la Madonna con il Figliuolo, e
                         con diversi puttini molto belli, e da basso s. Gregorio Papa, &amp;
                         altri Santi</rs>, assai buon quadro, ma non fu messo in opera, perche il
                     gran lume, che gli daua in faccia, il toglieua al godimento dell’altrui vista,
                     &amp; in altro luogo è stato posto.<note resp="A.H." type="footnote">Diese
                         Version der "Madonna della Vallicella" wurde am Grabmal der Maria Pypelincx
                         in St. Michiels, Antwerpen angebracht. vgl. <bibl>Michael Jaffé: Rubens -
-                            Catalogo completo. Milano 1989. S. 159. Nr. 64<ptr type="gbv"
-                                cRef="022373535"/></bibl></note><lb/> Onde poi sopra l’altar
-                    maggiore vi figurò <rs type="work" ref="#jaffe_82a">una Madonna, con il
+                            Catalogo completo. Milano 1989. S. 159. Nr. 64<ptr type="gbv" cRef="022373535"/></bibl></note><lb/> Onde poi sopra l’altar
+                    maggiore vi figurò <rs type="work" ref="../register/register-work.xml#jaffe_82a">una Madonna, con il
                         Figliuolo in braccio</rs>, la quale si leva, quando corrono le feste
                     principali, accioche si veda l’altra imagine antica miracolosa della B. Vergine,
                     che quivi si conserva; e sonui intorno diversi puttini, e da basso alcuni Angeli
                     in ginocchione, che adorano il Santissimo Sagramento, e riveriscono la Beata
                     Vergine.<lb/> Alla mano diritta dell’altare nella facciata del Choro havui un
-                    quadro grande, entrovi rappresentati <rs type="work" ref="#jaffe_82b">s.
+                    quadro grande, entrovi rappresentati <rs type="work" ref="../register/register-work.xml#jaffe_82b">s.
                         Gregorio Papa, s. Mauro con habito all’antica militare, e s. Papia
                     Martiri</rs>, e di sopra alcuni puttini, assai buon quadro con buona maniera
                     condotto.<lb/> E dirimpetto a questo, dalla mano stanca, l’altro quadro grande
-                    ha <pb n="363"/> per entro figurata <rs type="work" ref="#jaffe_82c">s.
+                    ha <pb n="363"/> per entro figurata <rs type="work" ref="../register/register-work.xml#jaffe_82c">s.
                         Domitilla, &amp; i ss. Nereo, &amp; Achileo Martiri</rs>; e per di
                     sopra puttini con palme in mano, dipinti a olio su le lavagne con buon
                     gusto.<lb/> Fece il Rubens diverse opere per varii Personaggi; &amp; in
                     particolare per alcuni Gentil’huomini Genovesi formò egli in quadri grandi
                     diversi ritratti dal naturale a cavallo, alti quanto il vivo, con amore
                     condotti, e similissimi; &amp; in quel genio hebbe egli pochi pari.<lb/>
-                    Ultimamente volle ritornarsene in <rs type="place" ref="#antwerpen">Anversa</rs>
-                    sua Patria, e dindi nella Corte dell’Arciduchessa d’Austria<index
-                        indexName="psw">
+                    Ultimamente volle ritornarsene in <rs type="place" ref="../register/register-place.xml#antwerpen">Anversa</rs>
+                    sua Patria, e dindi nella Corte dell’Arciduchessa d’Austria<index indexName="psw">
                         <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
                     </index> trasferissi, e da quella Altezza vi fu ben visto. Operovui diverse cose
                     di pittura conforme al gusto di quella Principessa, che in tutte l’occorrenze
-                    sempre gli fu favorevole.<lb/> Fù chiamato in <rs type="place" ref="#frankreich"
-                        >Francia</rs> dalla Regina Madre<index indexName="psw">
+                    sempre gli fu favorevole.<lb/> Fù chiamato in <rs type="place" ref="../register/register-place.xml#frankreich">Francia</rs> dalla Regina Madre<index indexName="psw">
                         <term type="GND" xml:lang="deu">Medici, Maria /de'</term>
                     </index>, e vi dipinse una Galleria<note resp="A.H." type="footnote">vgl. den
                             <ref type="rubens" cRef="ed_rubens_001">zwischen Maria de' Medici und
@@ -159,21 +149,20 @@
                         <index indexName="stw">
                             <term type="SWD" xml:lang="fra">Medici-Zyklus (1622-1625)</term>
                         </index>
-                    </index><lb/> Indiritornossene in <rs type="place" ref="#flandern">Fiandra</rs>
+                    </index><lb/> Indiritornossene in <rs type="place" ref="../register/register-place.xml#flandern">Fiandra</rs>
                     con buon credito, e fecevi diverse opere grandi, le quali vanno in stampa,
                     alcune delle quali sono in legno intagliare, &amp; altre co ’l bolino
                     esquisitamente incise, &amp; espresse, delle quali le più famose
-                    accenneremo, cioè la <rs type="work" ref="#jaffe_295">battaglia delle
-                    Amazzoni</rs> di sei fogli grande, il <rs type="work" ref="#altar_st_rochus">s
+                    accenneremo, cioè la <rs type="work" ref="../register/register-work.xml#jaffe_295">battaglia delle
+                    Amazzoni</rs> di sei fogli grande, il <rs type="work" ref="../register/register-work.xml#altar_st_rochus">s
                         Rocco</rs>, il quale vogliono, che sia la migliore di tutte, Tre Crocifissi,
                     uno dall’altro differente. Un Christo, che fi ripone nel Sepolcro, la battaglia
                     de’ Leoni, la Conversione di s. Paolo, la Navicella di s. Pietro, la Natività di
                     Giesù con li Pastori, l’Adoratione de’ Magi, che offeriscono al Bambino, la
-                    Testa del Rè Ciro, <rs type="work" ref="#jaffe_371">la Sentenza di Salomone
-                    Rè</rs>, <rs type="work" ref="#jaffe_902">lo Sponsalitio di s. Catherina</rs>,
+                    Testa del Rè Ciro, <rs type="work" ref="../register/register-work.xml#jaffe_371">la Sentenza di Salomone
+                    Rè</rs>, <rs type="work" ref="../register/register-work.xml#jaffe_902">lo Sponsalitio di s. Catherina</rs>,
                     le due Susanne, &amp; altre, che vanno in volta, le quali hanno nobilitato,
-                    non solo questa Città di Roma, ma tutte le parti dell’<rs type="place"
-                        ref="#europa">Europa</rs>.<lb/> Fece anche il Rubens diversi cartoni
+                    non solo questa Città di Roma, ma tutte le parti dell’<rs type="place" ref="../register/register-place.xml#europa">Europa</rs>.<lb/> Fece anche il Rubens diversi cartoni
                     coloriti, per riportarli in panni d’arazzi, sì come qui in Roma se ne sono viste
                     alcune mute molto buone con diversi capricci, e con varie inventioni, formati
                     con forza, e con vaghezza, e per ornamento hanno bizzarri fregi: arazzi tutti
@@ -185,15 +174,11 @@
                     v’è stato Pittore miglior di lui, e che si sia così felicemente accostato alla
                     buona maniera Italiana.<lb/> Pietro Paolo Rubens fu dotato, non solo della virtù
                     della Pittura, ma hebbe anche accompagnate maniere bellissime di trattar
-                    negotii, massimamente di gran portata; onde fu proposto dal <rs type="person"
-                        ref="#spinola_ambrogio">Marchese Ambruogio Spinola</rs><index
-                        indexName="psw">
+                    negotii, massimamente di gran portata; onde fu proposto dal <rs type="person" ref="../register/register-person.xml#spinola_ambrogio">Marchese Ambruogio Spinola</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Spinola, Ambrogio</term>
-                    </index> per mandarlo alla Corte d’<rs type="place" ref="#england"
-                    >Inghilterra</rs>, e stringer la pace tra quelle due Corone.<index
-                        indexName="stw">
+                    </index> per mandarlo alla Corte d’<rs type="place" ref="../register/register-place.xml#england">Inghilterra</rs>, e stringer la pace tra quelle due Corone.<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Waffenstillstand</term>
-                    </index> Il Rubens chiamato in <rs type="place" ref="#spanien">Spagna</rs>
+                    </index> Il Rubens chiamato in <rs type="place" ref="../register/register-place.xml#spanien">Spagna</rs>
                     andouvi, e da quel Rè fu ben veduto, &amp; impostogli il carico
                     dell’ambasciata. Trasferissi egli colà in Inghilterra; e da quella Corona con
                     gran suo honore raccolto, trattò quell’importante negotio con tanta gratia,
@@ -201,30 +186,21 @@
                         <pb n="364"/>suo Parlamento cavatasi la spada dal fianco la porse al Rubens,
                     con dargli un diamante, che in dito haveva, di valore di migliara di scudi,
                     &amp; anche gli presentò un cintiglio di cappello di finissimi diamanti, che
-                    al prezzo di 10. mila scudi ascendevano, e creollo suo Cavaliere.<note
-                        resp="A.H." type="footnote">vgl. das <ref type="rubens" cRef="ed_rubens_205"
-                            >Ritterdiplom Charles' I. für Peter Paul Rubens</ref> vom <date
-                            when="1630-12-15">15. Dezember 1630</date>.</note><lb/> Ritornò Pietro
+                    al prezzo di 10. mila scudi ascendevano, e creollo suo Cavaliere.<note resp="A.H." type="footnote">vgl. das <ref type="rubens" cRef="ed_rubens_205">Ritterdiplom Charles' I. für Peter Paul Rubens</ref> vom <date when="1630-12-15">15. Dezember 1630</date>.</note><lb/> Ritornò Pietro
                     Paolo in Ispagna, e con grand’applauso da quella Maestà fu ricevuto, la quale
                     mostrò d’essersi grandemente conpiacciuta del negotiato di lui, e dichiaratolo
                     della sua Camera con l’honore della Chiave d’oro regalollo; e con questa
                     occasione il Rubens fece li ritratti del Rè, della Regina, e di tutti quei
                     Principi; donde poi ritornando in Fiandra dicono, che ne riportasse il valore di
                     30. mila scudi.<lb/> Arrivato nella sua Patria pieno di ricchezze, e carico
-                    d’honori, vi fu creato Segretario, e Consigliero di Stato<note resp="A.H."
-                        type="footnote">Rubens wurde am <date when="1629-04-27">27. April
-                        1629</date> zum Sekretär des Geheimen Staatsrates ernannt. vgl. die <ref
-                            type="rubens" cRef="ed_rubens_191">entprechende Urkunde mit Link zu
-                            weiteren Dokumenten</ref>.</note>, e comperò una Signoria<index
-                        indexName="stw">
+                    d’honori, vi fu creato Segretario, e Consigliero di Stato<note resp="A.H." type="footnote">Rubens wurde am <date when="1629-04-27">27. April
+                        1629</date> zum Sekretär des Geheimen Staatsrates ernannt. vgl. die <ref type="rubens" cRef="ed_rubens_191">entprechende Urkunde mit Link zu
+                            weiteren Dokumenten</ref>.</note>, e comperò una Signoria<index indexName="stw">
                         <term xml:lang="nld">Het Steen</term>
-                    </index> d’alcuni luoghi<note resp="A.H." type="footnote">Am <date
-                            when="1635-05-12">12. Mai 1635</date> erwarb Rubens das Landgut Steen.
+                    </index> d’alcuni luoghi<note resp="A.H." type="footnote">Am <date when="1635-05-12">12. Mai 1635</date> erwarb Rubens das Landgut Steen.
                         vgl. die <ref type="rubens" cRef="ed_rubens_224">Urkunde</ref> zu diesem
                         Erwerb.</note>, e viveva alla grande; tanto può la virtù, e tanto si pregia
-                    il valore.<lb/> Poi colmo di felicità mondane andossene egli nell’anno <date
-                        when="1640">1640</date>. a godere quelle del Cielo<note resp="A.H."
-                        type="footnote">vgl. das <ref type="rubens" cRef="ed_rubens_247">Epitaph
+                    il valore.<lb/> Poi colmo di felicità mondane andossene egli nell’anno <date when="1640">1640</date>. a godere quelle del Cielo<note resp="A.H." type="footnote">vgl. das <ref type="rubens" cRef="ed_rubens_247">Epitaph
                             Peter Paul Rubens'</ref> in der St. Jacobskerk, Antwerpen.</note>, in
                     Anversa sua Patria con gran fama, e con applauso d’honore di tutti li Virtuosi,
                     e de’ Cittadini.<lb/> Ha lasciato figli, i quali hora stanno con molta

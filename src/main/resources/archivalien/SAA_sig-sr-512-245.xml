@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_124">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_124"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-512-245">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -61,37 +60,30 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> jouffrouwe <rs type="person" ref="#cornelissen_maria">Maria Cornelissen
-                    Cheens</rs>, weduwe wijlen <rs type="person" ref="#dadenburg_herman">Hermans van
-                        Dadenburg</rs>, met eenen momboir haer gegeven metten rechte <rs
-                        type="person" ref="#dadenburg_cornelis">Cornelis</rs> ende <rs type="person"
-                        ref="#dadenburg_catlijne">Catljne van Dadenburg</rs> haere kindere,
+                <p> jouffrouwe <rs type="person" ref="../register/register-person.xml#cornelissen_maria">Maria Cornelissen
+                    Cheens</rs>, weduwe wijlen <rs type="person" ref="../register/register-person.xml#dadenburg_herman">Hermans van
+                        Dadenburg</rs>, met eenen momboir haer gegeven metten rechte <rs type="person" ref="../register/register-person.xml#dadenburg_cornelis">Cornelis</rs> ende <rs type="person" ref="../register/register-person.xml#dadenburg_catlijne">Catljne van Dadenburg</rs> haere kindere,
                     ongehouwt maer meerdere van jaeren, de voors. Cateljne oock geassisteerd met
-                    eenen momboir haer gegeven metten rechte ende <rs type="person"
-                        ref="#dadenburg_jacques">Jaques van Dadenburg</rs>, coopman oock heure sone
-                    voor hem selven ende als d’actie ende transporte vercregen hebbende van <rs
-                        type="person" ref="#dadenburg_anna">Anna van Dadenburg</rs>, zijn suster met
-                        <rs type="person" ref="#geens_peeter">Peeter Geens</rs> heuren man ende
+                    eenen momboir haer gegeven metten rechte ende <rs type="person" ref="../register/register-person.xml#dadenburg_jacques">Jaques van Dadenburg</rs>, coopman oock heure sone
+                    voor hem selven ende als d’actie ende transporte vercregen hebbende van <rs type="person" ref="../register/register-person.xml#dadenburg_anna">Anna van Dadenburg</rs>, zijn suster met
+                        <rs type="person" ref="../register/register-person.xml#geens_peeter">Peeter Geens</rs> heuren man ende
                     momboir, bekenden dat zij omme eene somme gelte die hen al ende wel is
                     vergouden, vercocht hebben wel ende wettelijcken S<hi rend="super">r</hi>
-                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs> de
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubens</rs> de
                     tachtentich Carolus gulden tsiaers, alsoo gereduceert tegene den peninck
                     twintich van de hondert Carolus gulden erffelijck, die dese stadt by heuren
                     chartere, van der date den <date when="1546-05-24">vierentwintichsten Meye
                         van den jaere 1500 sessenvertich</date> beseth heeft op het innekomen der
-                    selver stadt, ten behoeve van <rs type="person" ref="#handschoenmaker_herman"
-                        >Herman den Handschoenmaker</rs> ende dat metten achterstel daeraff
-                    verschenen ende onbetaelt staende tsedert den <date when="1605-11-24"
-                        >vierentwintichsten Novembris anno 1600 en vijff</date> herwaeder welcke
+                    selver stadt, ten behoeve van <rs type="person" ref="../register/register-person.xml#handschoenmaker_herman">Herman den Handschoenmaker</rs> ende dat metten achterstel daeraff
+                    verschenen ende onbetaelt staende tsedert den <date when="1605-11-24">vierentwintichsten Novembris anno 1600 en vijff</date> herwaeder welcke
                     rente hen comparanten met villen rechte bleven ende verstorven is van wijlen den
                     voors. Herman van Dadenburg, dyen deselve oock bleven ende verstorven was van
                     wijlen de voors. Herman de hantschoenmaker, sijn moederlijcke grootvader was.
                     Hebbende de voors. Anne van Dadenburg met Peeter Geens heuren man, heur gedeelte
-                    aen de voors. Jaques haer broeder getransporteert op den <date when="---07"
-                        >sevensten</date> dezer tot <rs type="place" ref="#breda">Breda</rs>, voor
-                    den notaris <rs type="person" ref="#melissen_melis">Melis Jan Melissen</rs>,
+                    aen de voors. Jaques haer broeder getransporteert op den <date when="---07">sevensten</date> dezer tot <rs type="place" ref="../register/register-place.xml#breda">Breda</rs>, voor
+                    den notaris <rs type="person" ref="../register/register-person.xml#melissen_melis">Melis Jan Melissen</rs>,
                     welck transport op heden met eenen anderen brieve oock voor ons gepasseert door
-                        <rs type="person" ref="#rubens_peeter">Peeter Ruebens</rs> notaris als
+                        <rs type="person" ref="../register/register-person.xml#rubens_peeter">Peeter Ruebens</rs> notaris als
                     heuren gemechtichden alhier herkent ende vernieuwt is. volgende de brieven ende
                     bescheeden daeraff zijnde die zij hem mede overgaven, droeghen oppe etc. te
                     waerne van allen commercien ende calaengien.</p><closer><salute> Sonder argelist.</salute><lb/>

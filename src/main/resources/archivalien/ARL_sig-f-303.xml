@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_152">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_152"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ARL_sig-f-303">
                     <msIdentifier>
                         <country>Frankreich</country>
@@ -46,8 +46,7 @@
                         <msItem>
                           
                             <filiation>
-                                <note resp="A.H." type="footnote">Vgl. hierzu auch das <ref type="rubens"
-                                    cRef="ed_rubens_151">in Brüssel befindliche Dokument.</ref></note>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch das <ref type="rubens" cRef="ed_rubens_151">in Brüssel befindliche Dokument.</ref></note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -59,8 +58,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Alexandre Pinchart: Archives des arts, sciences et lettres: ocuments inédits
-                            publiés et annotés. Bd. 3, Gent 1860 (Neudruck: Brüssel 1994), S. 172<ptr
-                                type="gbv" cRef="231294484"/></bibl>
+                            publiés et annotés. Bd. 3, Gent 1860 (Neudruck: Brüssel 1994), S. 172<ptr type="gbv" cRef="231294484"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -78,34 +76,27 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p> A <rs type="person" ref="#turckelsteyn_gaspar">Gaspar Turckelsteyn</rs>, fondeur
-                    en métal, <rs type="person" ref="#schorre_estienne">Estienne van Schorre</rs>,
-                    schulpteur, et <rs type="person" ref="#rubens_peter_paul">Pierre-Paul
+                <p> A <rs type="person" ref="../register/register-person.xml#turckelsteyn_gaspar">Gaspar Turckelsteyn</rs>, fondeur
+                    en métal, <rs type="person" ref="../register/register-person.xml#schorre_estienne">Estienne van Schorre</rs>,
+                    schulpteur, et <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul
                     Rubbens</rs>, painctre, la somme de 1.066 livres 6 solz, qui, par ordonnance de
                     leurs Altèzes, du <date when="1621-03-29">29 de mars 1621</date>, leur avoit
                     esté délivré comme s’ensuit, assçavoir: 273 livres audict Gaspar Turckelsteyn,
                     pour avoir livré et gecté une platine de cuyvre pour engraver en icelle les
-                    obligacions que les <rs type="corporate" ref="#karmeliterkloster_marlagne_namur"
-                        >pères carmélites</rs><index indexName="stw">
+                    obligacions que les <rs type="corporate" ref="../register/register-corporate.xml#karmeliterkloster_marlagne_namur">pères carmélites</rs><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Unbeschuhte Karmeliten</term>
                     </index><index indexName="stw">
                         <term xml:lang="deu">Karmeliterkirche</term>
-                    </index> au désert ou bois de <rs type="place" ref="#namur"
-                        >Morlane-lez-Namur</rs><index indexName="gsw">
+                    </index> au désert ou bois de <rs type="place" ref="../register/register-place.xml#namur">Morlane-lez-Namur</rs><index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Namur</term>
                     </index><index indexName="stw">
                         <term xml:lang="deu">Marlagne</term>
                     </index> ont pour la fondation de leurs Altézes, pesante 343 livres, à 15 solz
-                    la livre, et avoir jecté audict <rs type="person" ref="#schorre_estienne"
-                        >Estevan van Schorren</rs>, pour avoir couppé et engravé les susdictes
+                    la livre, et avoir jecté audict <rs type="person" ref="../register/register-person.xml#schorre_estienne">Estevan van Schorren</rs>, pour avoir couppé et engravé les susdictes
                     obligations contenants 2.324 lettres, une partie à 3 solz et les autres à 2, la
                     lettre, et avoir taillé aussy les armes de leurs Altézes et de l’ordre desdicts
                     carmélites, et les restans 530 audict painctre Pierre-Paul Rubbens, pour avoir
-                    painct le tableau du grand aultel de ladicte église représentant <rs type="work"
-                        ref="#rubens_hl_joseph">monseigneur saint Joseph</rs>.<note resp="A.H."
-                        type="footnote">Vgl. den entsprechenden Eintrag bei <ref
-                            target="http://www.rubensonline.be/showDetail.asp?artworkID=101565"
-                            >www.rubensonline.be</ref></note><index indexName="stw">
+                    painct le tableau du grand aultel de ladicte église représentant <rs type="work" ref="../register/register-work.xml#rubens_hl_joseph">monseigneur saint Joseph</rs>.<note resp="A.H." type="footnote">Vgl. den entsprechenden Eintrag bei <ref target="http://www.rubensonline.be/showDetail.asp?artworkID=101565">www.rubensonline.be</ref></note><index indexName="stw">
                         <term xml:lang="deu">Joseph</term>
                     </index><index indexName="psw">
                         <term xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term xml:lang="deu">St. Joseph</term></index>

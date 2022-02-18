@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_188">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_188"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,10 +16,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="Zeugnis_Delmonte_16280819">
                     <msIdentifier>
                     <repository>unbekannt</repository>
@@ -46,8 +45,7 @@
                              <note resp="A.H." type="footnote">Cornelis de Bie verfasste eine Biographie Deodat
                                 Delmontes. Vgl. <bibl>Cornelis de Bie: Het Gulden Cabinet
                                     van de edel vry Schilderconst. Antwerpen: Montfort, 1662, S. 134-138
-                                    (Neudruck: Soest, Niederlande 1971)<ptr type="opac" cRef="35281876X"
-                                    /></bibl></note>
+                                    (Neudruck: Soest, Niederlande 1971)<ptr type="opac" cRef="35281876X"/></bibl></note>
                         </msItem>
                     </msContents>
                     <history>
@@ -60,16 +58,13 @@
                         van de edel vry Schilderconst</bibl></source></recordHist></adminInfo>
                     <listBibl>
                         <bibl>Franz Jozef Peter van den Branden:
-                            Geschiedenis der Antwerpsche Schilderschool. Antwerpen 1883, 503<ptr
-                                type="gbv" cRef="194552292"/></bibl>
+                            Geschiedenis der Antwerpsche Schilderschool. Antwerpen 1883, 503<ptr type="gbv" cRef="194552292"/></bibl>
                         <bibl>Max Rooses, Charles Ruelens: Correspondance
                             de Rubens et documents épistolaires concernant sa vie et ses auvres. (Codex
-                            diplomaticus Rubenianus), Bd. I, Antwerpen 1887. S. 439<ptr type="gbv"
-                            cRef="446864137"/></bibl>
+                            diplomaticus Rubenianus), Bd. I, Antwerpen 1887. S. 439<ptr type="gbv" cRef="446864137"/></bibl>
                         <bibl>Cornelis de Bie: Het Gulden Cabinet
                             van de edel vry Schilderconst. Antwerpen: Montfort, 1662, S. 134-138
-                            (Neudruck: Soest, Niederlande 1971)<ptr type="opac" cRef="35281876X"
-                            /></bibl>
+                            (Neudruck: Soest, Niederlande 1971)<ptr type="opac" cRef="35281876X"/></bibl>
                     </listBibl></additional></msDesc>
             </sourceDesc>
         </fileDesc>
@@ -81,18 +76,14 @@
                 <p> Noverint universi praesens publicum
                     instrumentum visuri, inspecturi, vel legi audituri quod Anno a Christo nato
                         <date when="1628-08-19">Millesimo Sexcentesimo Vigesimo Octavo, indictione
-                        undecima Die vero Decima Nona Mensis Augusti</date>, in mein <rs
-                        type="person" ref="#breuseghem_pieter">Petri de Breuseghem</rs> Notary ac
-                    Tabellionis Publici Regio Consilio, in Ducatu <rs type="place" ref="#brabant"
-                        >Brabantiae</rs> ordinato admißi &amp; approbati, testiumque infra
-                    scriptorum praesentia personaliter comparauit, Illustris Dominus <rs
-                        type="person" ref="#rubens_peter_paul">Petrus Paulus Rubbens</rs>, Nobilis
+                        undecima Die vero Decima Nona Mensis Augusti</date>, in mein <rs type="person" ref="../register/register-person.xml#breuseghem_pieter">Petri de Breuseghem</rs> Notary ac
+                    Tabellionis Publici Regio Consilio, in Ducatu <rs type="place" ref="../register/register-place.xml#brabant">Brabantiae</rs> ordinato admißi &amp; approbati, testiumque infra
+                    scriptorum praesentia personaliter comparauit, Illustris Dominus <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petrus Paulus Rubbens</rs>, Nobilis
                     Domesticus Serenißimae Infantis<index indexName="psw">
                         <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
                     </index> harum Regionum faelicis Gubernatricis, uniuerso fere terrarum orbe
                     celeberrimus, Pictorumque huius saeculi omnium facile Princeps, qui condescendens
-                    honesta petitioni, nobilis Domini <rs type="person" ref="#delmonte_deodat"
-                        >Deodati vander Mont</rs><index indexName="stw">
+                    honesta petitioni, nobilis Domini <rs type="person" ref="../register/register-person.xml#delmonte_deodat">Deodati vander Mont</rs><index indexName="stw">
                         <term xml:lang="deu">Delmonte, Deodat </term>
                     </index>, nempe ut tetsimonium veritatis daret juramento solemni in manibus mei
                     Notary tamquam personae authenticae ac publicae praestito dixit, affirmavit ac
@@ -102,7 +93,7 @@
                     ipsum Dominum comparentem artem pictoriam disceret, quam quidem dictus Dominus
                     Deodatus ab ipsis fundamentis ita amplexus est, ut bervi tempore mirum in eadem
                     arte progressum fecerit ipso Domino comparente varias interim Regiones praesertim
-                        <rs type="place" ref="#italien">Italiam</rs><index indexName="stw">
+                        <rs type="place" ref="../register/register-place.xml#italien">Italiam</rs><index indexName="stw">
                         <term xml:lang="deu">Grand Tour</term>
                     </index><note resp="A.H." type="footnote">Deodat Delmonte bereiste Italien
                         während seiner Grand Tour von 1600-1608.</note> aliasque mundi partes, ac
@@ -120,10 +111,8 @@
                     comparentis cum que indies fere versatur de quibus omnibus consentijt dictus
                     Dominus Comparens, &amp; petijt praefatus Dominu Deodatus publicum sive
                     publica unum vel plura, optima forma sibi confici instrumentum vel instrumenta,
-                    quae acta vel gesta sunt <rs type="place" ref="#antwerpen">Antverpiae</rs> in domo
-                    dicti Domini Comparentis praesentibus ibidem <rs type="person"
-                        ref="#egmont_joost">Justo Egmont</rs> &amp; <rs type="person"
-                            ref="#panneels_willem">Guilielmo Paneels</rs> testibus ad praemissa vocatis
+                    quae acta vel gesta sunt <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiae</rs> in domo
+                    dicti Domini Comparentis praesentibus ibidem <rs type="person" ref="../register/register-person.xml#egmont_joost">Justo Egmont</rs> &amp; <rs type="person" ref="../register/register-person.xml#panneels_willem">Guilielmo Paneels</rs> testibus ad praemissa vocatis
                     habitis atque rogatis. Et signavit Dictus Dominus Comparens suo nomine notam
                     huius in Registro mei Notary in quorum fidem praesens jnstrumentum signavi,
                     rogatus &amp; requisitus. Et erat subsignatum P. de Breuseghem Not.
@@ -139,9 +128,9 @@
                
                     <dateline>Datum Antverpiae Die <date when="1628-08-26">Vigesima Sexta Augusti Anno 
                         Milesimo Sexcentesimo Vigesimo Octavo</date></dateline> subsignaverunt 
-                    <signed><rs type="person" ref="#waerbeke_jan"> J. Waerbeque</rs>: Notarius.</signed>
-                    <signed><rs type="person" ref="#halle_l">L. de Halle</rs> Notarius;</signed> 
-                    <signed>Mr. <rs type="person" ref="#couwenberge_van">van Couwenberghe</rs> Notarius.</signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#waerbeke_jan"> J. Waerbeque</rs>: Notarius.</signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#halle_l">L. de Halle</rs> Notarius;</signed> 
+                    <signed>Mr. <rs type="person" ref="../register/register-person.xml#couwenberge_van">van Couwenberghe</rs> Notarius.</signed>
                 </closer>
             </div>
         </body>

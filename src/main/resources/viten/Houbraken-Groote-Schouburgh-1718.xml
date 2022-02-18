@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_295">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_295"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="person" ref="#houbraken_arnold">Arnold Houbraken</rs>: De Groote
-                    Schouburgh Der Nederlantsche Konstschilders en Schilderessen, <date when="1718"
-                        >1718</date></title>
+                <title><rs type="person" ref="../register/register-person.xml#houbraken_arnold">Arnold Houbraken</rs>: De Groote
+                    Schouburgh Der Nederlantsche Konstschilders en Schilderessen, <date when="1718">1718</date></title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -23,8 +12,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="houbraken_schouburgh_1718">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="houbraken_schouburgh_1718">
                     <msIdentifier>
                         <repository>unbekannt</repository>
                     </msIdentifier>
@@ -45,8 +41,7 @@
                                 Konstschilders en Schilderessen : Waar van 'er vele met hunne
                                 Beeltenissen ten Tooneel verschynen, en hun levensgedrag en
                                 Konstwerken beschreven worden: zynde een vervolg op het Schilderboek
-                                van K. v. Mander. Amsterdam 1718. S. 61-76.<ptr type="gbv"
-                                    cRef="134612833"/></bibl>
+                                van K. v. Mander. Amsterdam 1718. S. 61-76.<ptr type="gbv" cRef="134612833"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -67,42 +62,33 @@
         <body>
             <div part="Y" xml:lang="nld">
                 <p><pb n="61"/>In dit zelve jaar <date when="1577-06-28">1577. den 28 van
-                    Wiedemaand</date> is dat groote zonnelicht, aan den Nederlandsen konst<pb n="62"
-                    />hemel, namentlyk, <rs type="person" ref="#rubens_peter_paul">PETRUS PAULUS
+                    Wiedemaand</date> is dat groote zonnelicht, aan den Nederlandsen konst<pb n="62"/>hemel, namentlyk, <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">PETRUS PAULUS
                         RUBBENS</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
-                    </index>, tot <rs type="place" ref="#koeln">Keulen</rs>, aan den Ryn, tot
-                    grooten luister dier stadt, opgegaan. Want heeft de Duitsche Maro, <rs
-                        type="person" ref="#vondel_joost">Joost vanden Vondel</rs><index
-                        indexName="psw">
+                    </index>, tot <rs type="place" ref="../register/register-place.xml#koeln">Keulen</rs>, aan den Ryn, tot
+                    grooten luister dier stadt, opgegaan. Want heeft de Duitsche Maro, <rs type="person" ref="../register/register-person.xml#vondel_joost">Joost vanden Vondel</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Vondel, Joost van den</term>
                     </index>, door zyn geboorte de Agrippyner stedekroon een paerel bygezet: zoo
                     heeft zy geen minder luister ontfangen, door het te voorschyn brengen van dezen
                     nieuwen Apelles<index indexName="psw">
                         <term type="PND" xml:lang="deu">Apelles</term>
                     </index>, aan wiens helder konstvuur veelen hun lamp hebben aangestoken.</p>
-                <p> Zyn Vader <rs type="person" ref="#rubens_jan">Jan Rubbens</rs>, van edle
-                    afkomst, en Raadsheer in den Raad van <rs type="place" ref="#brabant"
-                    >Braband</rs>, vond zich gedrongen door een inlandse beroerte, <rs type="place"
-                        ref="#antwerpen">Antwerpen</rs> te ruimen, en zyn wyk te nemen, met zyn
+                <p> Zyn Vader <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Rubbens</rs>, van edle
+                    afkomst, en Raadsheer in den Raad van <rs type="place" ref="../register/register-place.xml#brabant">Braband</rs>, vond zich gedrongen door een inlandse beroerte, <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> te ruimen, en zyn wyk te nemen, met zyn
                     Vrouw tot Keulen, om dat haar zwanger zynde door schrikken, geen ongeval mocht
                     overkomen, by welke gelegentheit dan onze PETRUS PAULUS RUBBENS aldaar geboren
-                    is. Dus verhaalt <rs type="person" ref="#piles_roger">du Pilé</rs><index
-                        indexName="psw">
+                    is. Dus verhaalt <rs type="person" ref="../register/register-person.xml#piles_roger">du Pilé</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Piles, Roger de</term>
-                    </index>, het welk bevestigt wort door <rs type="person" ref="#comte_florent"
-                        >Florent. le Comte</rs><index indexName="psw">
+                    </index>, het welk bevestigt wort door <rs type="person" ref="../register/register-person.xml#comte_florent">Florent. le Comte</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Le Comte, Florent</term>
-                    </index>, dien ik doorgaans veel netter en opmerkender bevind als <rs
-                        type="person" ref="#bie_cornelis">Kornelis de Bie</rs><index indexName="psw">
+                    </index>, dien ik doorgaans veel netter en opmerkender bevind als <rs type="person" ref="../register/register-person.xml#bie_cornelis">Kornelis de Bie</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Bie, Cornelis de</term>
                     </index>, die Antwerpen tracht door RUBBENS geboorte te vereeren. Doch het zy
                     daar mee zoo ’t wil: de konst vind reden van zig te verheugen over de geboorte
                     van dat konstlicht, dat over de geheele waerelt schynt.</p>
                 <p> De onlusten gestilt, trokken zyne ouders van Keulen weder naar Antwerpen. Zyn
                     Vader na verloop van weinig jaren gestorven<note resp="A.H." type="footnote">Jan
-                        Rubens starb am <date when="1587-03-01">1. März 1587</date>. vgl. sein <ref
-                            type="rubens" cRef="ed_rubens_064">Epitaph in St. Peter,
+                        Rubens starb am <date when="1587-03-01">1. März 1587</date>. vgl. sein <ref type="rubens" cRef="ed_rubens_064">Epitaph in St. Peter,
                     Köl</ref>n.</note>, werd hy door zyn Moeder en Voogden ter school bestelt om
                     talen te leeren; met voornemen om hem in de Rechtsgeleertheit op te kweken, ten
                     einde hy daar na het aanzienlyk ampt van zyn Vader mocht bekleden. Daar benevens
@@ -113,34 +99,31 @@
                     oeffeninge te besteden. Maar ’t was niet lang daarna of zyn drift en geneigtheit
                     groeide tot die Konst zoo sterk aan, dat zyn Moeder en Opzigters geraden vonden,
                     zyn geneigtheit op te volgen, en geheel tot het leeren van die Konst over te
-                    geven, en bestelden hem dus by <rs type="person" ref="#veen_otto">OCTAVIO VAN
+                    geven, en bestelden hem dus by <rs type="person" ref="../register/register-person.xml#veen_otto">OCTAVIO VAN
                         VEEN</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Veen, Otto van</term>
-                    </index>, Schilder van den <rs type="person" ref="#farnese_alessandro">Hertog
+                    </index>, Schilder van den <rs type="person" ref="../register/register-person.xml#farnese_alessandro">Hertog
                         van Parma</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Farnese, Alessandro</term>
-                    </index>, en den Aartshertog <rs type="person" ref="#albrecht_von_oesterreich"
-                        >Albertus</rs><index indexName="psw">
+                    </index>, en den Aartshertog <rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">Albertus</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog,
                         VII.)</term>
-                    </index>: of wel eerst by <rs type="person" ref="#verhaecht_tobias">TOBIAS
+                    </index>: of wel eerst by <rs type="person" ref="../register/register-person.xml#verhaecht_tobias">TOBIAS
                         VERHAACHT</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Verhaecht, Tobias</term>
                     </index>, wiens Beeltenis met die eer, il este premier maistre du fameux P. P.
-                    Rubbens, pronkt. Anderen willen dat <rs type="person" ref="#noort_adam">ADAM VAN
+                    Rubbens, pronkt. Anderen willen dat <rs type="person" ref="../register/register-person.xml#noort_adam">ADAM VAN
                         OORT</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Noort, Adam van</term>
                     </index> zyn eerste onderwyzer in de Konst geweest zy.</p>
                 <p> Het lust ons niet eene pennetwist, om zyn geboorteplaats, of wie in hem de
-                    eerste gronden der konst gelegt heest, aan te rechten: maar ik zeg als <rs
-                        type="person" ref="#kennet_basil">Basilius Kennet</rs><index indexName="psw">
+                    eerste gronden der konst gelegt heest, aan te rechten: maar ik zeg als <rs type="person" ref="../register/register-person.xml#kennet_basil">Basilius Kennet</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Kennet, Basil</term>
                         <index indexName="stw">
                             <term xml:lang="eng">The lives and characters of the ancient Grecian
                                 Poets</term>
                         </index>
-                    </index>, in de levensbeschryving van den Grieksen Dichter Homerus<note
-                        resp="A.H." type="footnote">
+                    </index>, in de levensbeschryving van den Grieksen Dichter Homerus<note resp="A.H." type="footnote">
                         <bibl>Basil Kennet: The Lives and Characters of the Ancient Grecian Poets.
                             London: Swall, 1697. S. 1-43<ptr type="gbv" cRef="137907222"/></bibl>
                     </note>, by gelegentheit van den twist der <note place="bottom">Lang hebben de
@@ -154,41 +137,32 @@
                     Ondertusschen hebben de beminnaars van de Dichtkonst zig van die onzekerheit
                     bediend, en gewilt, dat zoo wel hun groote meester, als hun konst, van een
                     Goddelyken oorspronk behoort te worden geoordeelt. Dit is uit opzicht dat het
-                    menschelyke vernuft, waar uit de konsten geteelt worden, en voortspruiten, <pb
-                        n="64"/>van een Hemelsche afkomst is, volgens de Bybelspraak in het Boek des
+                    menschelyke vernuft, waar uit de konsten geteelt worden, en voortspruiten, <pb n="64"/>van een Hemelsche afkomst is, volgens de Bybelspraak in het Boek des
                     Uittogts, daar Mozes wel uitdrukkelyk in den naam van JEHOVA, van Bezaleél den
                     Zoone Ury, en Ahaliab zeit: Dat hy haar heeft vervult met den geest van wysheid,
                     verstand en kennisse, om allerley konstige werken te maken enz. </p>
                 <p> Doch dit alles overgeslagen, RUBBENS, na dat hy zich van ’t onderwys van gemelde
-                    Leermeesters bediend had, verkoor eindelyk weer <rs type="person"
-                        ref="#veen_otto">OTTO VENIUS</rs>, niet om dat hy een grooter Konstschilder
+                    Leermeesters bediend had, verkoor eindelyk weer <rs type="person" ref="../register/register-person.xml#veen_otto">OTTO VENIUS</rs>, niet om dat hy een grooter Konstschilder
                     was als de vorige; maar om zyn groot verstant en vernuftige bespiegelingen, tot
                     dat hy eindelyk door zyn uitstekenden vlyt, goed onderricht, en hulp van zyn
                     vernuft zoo ver in de konst gevordert was, dat zyn werk met dat van zyne
                     onderwyzers om den prys dong. </p>
-                <p> Kort hier op bekroop hem de reislust, waar op hy zich begaf door <rs
-                        type="place" ref="#frankreich">Vrankryk</rs> naar <rs type="place"
-                        ref="#italien">Italien</rs><note resp="A.H." type="footnote">Rubens ließ
-                        sich für diese Reise einen Reisepass ausstellen. vgl. die <ref type="rubens"
-                            cRef="ed_rubens_077">Akte</ref> vom <date when="1600-05-08">8. Mai
+                <p> Kort hier op bekroop hem de reislust, waar op hy zich begaf door <rs type="place" ref="../register/register-place.xml#frankreich">Vrankryk</rs> naar <rs type="place" ref="../register/register-place.xml#italien">Italien</rs><note resp="A.H." type="footnote">Rubens ließ
+                        sich für diese Reise einen Reisepass ausstellen. vgl. die <ref type="rubens" cRef="ed_rubens_077">Akte</ref> vom <date when="1600-05-08">8. Mai
                         1600</date>.</note>; alwaar hy eenige jaren zyn verblyf hield; zomtyds
-                    schilderde, en voorts zyn tyd doorbragt; om alles dat te <rs type="place"
-                        ref="#rom">Roomen</rs>, zoo van Beeldhouwery, als Schilderwerk, uitsteekt in
+                    schilderde, en voorts zyn tyd doorbragt; om alles dat te <rs type="place" ref="../register/register-place.xml#rom">Roomen</rs>, zoo van Beeldhouwery, als Schilderwerk, uitsteekt in
                     schoonheid van omtrek, en behandeling naauwkeurig, en met opmerkinge te bezien.</p>
-                <p> Hy begaf zich in den zelven tyd na <rs type="place" ref="#venedig"
-                    >Venetien</rs>, tot de School van <rs type="person" ref="#tizian"
-                        >Titiaan</rs><index indexName="psw">
+                <p> Hy begaf zich in den zelven tyd na <rs type="place" ref="../register/register-place.xml#venedig">Venetien</rs>, tot de School van <rs type="person" ref="../register/register-person.xml#tizian">Titiaan</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Tizian</term>
                     </index>, (toenmaals den voornaamsten hoogvlieger in de Konst) en maakte kennis
-                    met een Edelman van den <rs type="person" ref="#gonzaga_vincenzo_i">Hertog van
+                    met een Edelman van den <rs type="person" ref="../register/register-person.xml#gonzaga_vincenzo_i">Hertog van
                         Mantua</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Vincenzo (Mantua, Herzog, I.)</term>
                     </index>, die hem uit des Hertogs naam verzocht, als Edelman, en Schilder in des
                     zelfs dienst over te gaan: welk verzoek hy inwilligde en aannam, om dat ‘er te
                     Mantua uitstekende Schilderyen van de geachtste Konstschilders waren. Hier
                     onthield hy zich een tyd lang, maakte zich by den Hertog by <pb n="65"/>zonder
-                    bemint, en arbeidde met grooten vlyt aan de Konststukken van <rs type="person"
-                        ref="#romano_giulio">Julio Romano.</rs><index indexName="psw">
+                    bemint, en arbeidde met grooten vlyt aan de Konststukken van <rs type="person" ref="../register/register-person.xml#romano_giulio">Julio Romano.</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Romano, Giulio</term>
                     </index></p>
                 <p> Van daar vertrok hy weer naar Romen daar hy zig voorts oeffende in alles wat
@@ -201,14 +175,11 @@
                                 <term type="SWD" xml:lang="deu">Helena-Kapelle</term>
                             </index>
                         </index>
-                    </index>, als ook in de nieuwe Kerk van St. Pieter, <rs type="work"
-                        ref="#santa_croce_helenakapelle">eenige Altaarstukken</rs> te schilderen.
-                    Gelyk ook voor Albertus, Aardtshartog van <rs type="place" ref="#oesterreich"
-                        >Oostenryk</rs>. </p>
+                    </index>, als ook in de nieuwe Kerk van St. Pieter, <rs type="work" ref="../register/register-work.xml#santa_croce_helenakapelle">eenige Altaarstukken</rs> te schilderen.
+                    Gelyk ook voor Albertus, Aardtshartog van <rs type="place" ref="../register/register-place.xml#oesterreich">Oostenryk</rs>. </p>
                 <p> Thans was het in ’t zevende jaar, als hy de tyding kreeg, dat zyn moeder
                     gevaarlyk ziek was, dat hem zonder eenig uitstel van Rome deed vertrekken. Maar
-                    zy was al overleden, eer hy te Antwerpen kwam.<note resp="A.H." type="footnote"
-                        >Maria Pypelincx starb am <date when="1608-10-19">19. Oktober 1608</date>.
+                    zy was al overleden, eer hy te Antwerpen kwam.<note resp="A.H." type="footnote">Maria Pypelincx starb am <date when="1608-10-19">19. Oktober 1608</date>.
                         vgl. ihr <ref type="rubens" cRef="ed_rubens_101">Epitaph in St. Michiels,
                             Antwerpen</ref></note></p>
                 <p> Opmerkelyk is, ’t geen verhaalt wort, namentlyk, dat hy weinig afteekeningen of
@@ -216,8 +187,7 @@
                     gevraagt wierdt, om ze te zien, tot antwoort gaf: dat die in ’t Kabinet van zyn
                     geheugen waren opgesloten. Het bleek ook wel aan de kragtige wyze van
                     schilderen, die hy zig had gewent, dat hy de beruchte Konstwerken van Titiaan,
-                        <rs type="person" ref="#veronese_paolo">Paulo Veronees</rs>, en <rs
-                        type="person" ref="#tintoretto">Tintoret</rs><index indexName="psw">
+                        <rs type="person" ref="../register/register-person.xml#veronese_paolo">Paulo Veronees</rs>, en <rs type="person" ref="../register/register-person.xml#tintoretto">Tintoret</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Tintoretto</term>
                     </index><index indexName="psw">
                         <term type="PND" xml:lang="deu">Veronese, Paolo</term>
@@ -228,9 +198,7 @@
                     zyne overkomst al had over gekraaid, waar door de een voor den ander na,
                     begeerte hadden, om van zyn penceelkonst wat te hebben: en hy overzulks
                     gelegentheit vond om veel gelts daar voor te konnen bedingen: ’t geen oorzaak is
-                    geweest, dat veelen hem ook met een scheef gezicht aanzagen. Onder deze was <rs
-                        type="person" ref="#janssens_abraham">ABRAHAM JANSZEN</rs><index
-                        indexName="psw">
+                    geweest, dat veelen hem ook met een scheef gezicht aanzagen. Onder deze was <rs type="person" ref="../register/register-person.xml#janssens_abraham">ABRAHAM JANSZEN</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Janssens van Nuyssen, Abraham</term>
                     </index>, die hem tot een schilderstryd om den prys uitdaagde, willende ’t zelve
                     aan ’t oordeel van alle Konstken<pb n="66"/>ners stellen, ’t geen hy geestig
@@ -245,53 +213,45 @@
                     hem by grooten en kleenen bemind maakte, inzonderheit ook tegen Konstenaren,
                     waar van wy een opmerkenswaardig staal zullen aanwyzen. </p>
                 <p> Zyn Moeder, als gezegt is, was gestorven, ’t geen hem beweegde te trouwen, dat
-                    eerlang geschiedde met <rs type="person" ref="#brintes_catarina">Catarina
+                    eerlang geschiedde met <rs type="person" ref="../register/register-person.xml#brintes_catarina">Catarina
                         Brintes</rs>, met welke hy vier jaren in der minne leefde, tot dat zy
                     stierf, ’t geen hem zoo aan ’t harte ging, dat hy om de droefheit wat te
-                    verzetten, goed vond een reis naar <rs type="place" ref="#holland">Hollant</rs>
+                    verzetten, goed vond een reis naar <rs type="place" ref="../register/register-place.xml#holland">Hollant</rs>
                     te doen, om in alle de steden de Konstscholen, Konstgenootschappen, en
-                    Konstoeffenaars te bezoeken, waar aan de Beschryving van <rs type="place"
-                        ref="#gouda">Gouda</rs> ook gedenkt, gelyk ze ook in ’t byzonder verhaalt,
-                    dat hy <rs type="person" ref="#bloek_jakob_reugers">JAKOB REUGERS BLOK</rs> aan
+                    Konstoeffenaars te bezoeken, waar aan de Beschryving van <rs type="place" ref="../register/register-place.xml#gouda">Gouda</rs> ook gedenkt, gelyk ze ook in ’t byzonder verhaalt,
+                    dat hy <rs type="person" ref="../register/register-person.xml#bloek_jakob_reugers">JAKOB REUGERS BLOK</rs> aan
                     zyn huis ging bezoeken, om zyn Konst te zien; waar van wy breeder in des zelfs
-                    levensbeschryving gemelt hebben. <rs type="person" ref="#sandrart_joachim"
-                        >SANDRART</rs><index indexName="psw">
+                    levensbeschryving gemelt hebben. <rs type="person" ref="../register/register-person.xml#sandrart_joachim">SANDRART</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Sandrart, Joachim von</term>
                     </index>, die hem in die tyd heeft leeren kennen, en zederd de vrindschap met
-                    hem onderhouden heeft, getuigt: Dat hy t’<rs type="place" ref="#utrecht"
-                        >Uitrecht</rs> gekomen, ’t eerst by <rs type="person"
-                        ref="#honthorst_gerrit">G. HONTHORST</rs><index indexName="psw">
+                    hem onderhouden heeft, getuigt: Dat hy t’<rs type="place" ref="../register/register-place.xml#utrecht">Uitrecht</rs> gekomen, ’t eerst by <rs type="person" ref="../register/register-person.xml#honthorst_gerrit">G. HONTHORST</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Honthorst, Gerrit van</term>
                     </index> kwam, des zelfs Konstwerk zag, en ook met een een stuk van hem, dat
                     noch maar begonnen was, verbeeldende Diogenes, daar hy met een Lantaren op
                     helderen dag, te Athenen <pb n="67"/>op de markt naar menschen zoekt, kocht, en
                     den aanleg van het stuk byzonder prees. Dat gemelde Sandrart zyn dienst aan
                     Rubbens aanbood, om terwyl zyn meester Honthorst onpasselyk was, hem vorders te
-                    geleiden, eerst by <rs type="person" ref="#bloemaert_abraham">A.
+                    geleiden, eerst by <rs type="person" ref="../register/register-person.xml#bloemaert_abraham">A.
                         BLOEMAART</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Bloemaert, Abraham</term>
-                    </index>, daar na by <rs type="person" ref="#poelenburg_cornelis">KORNELIS
+                    </index>, daar na by <rs type="person" ref="../register/register-person.xml#poelenburg_cornelis">KORNELIS
                         POELENBURG</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Poelenburg, Cornelis van</term>
                     </index>, voor wiens konst hy veel agting betoonde, en verscheide stukjes
                     aanbesteedde, gelyk hy zoo by ieder Konstschilder in ’t byzonder deed. Van daar
-                    vertrok hy naar <rs type="place" ref="#amsterdam">Amsterdam</rs>, daar Sandrart
+                    vertrok hy naar <rs type="place" ref="../register/register-place.xml#amsterdam">Amsterdam</rs>, daar Sandrart
                     hem verzelde, alwaar hy veertien dagen doorbragt, om alles te bezien.</p>
                 <p> Hier benevens had hy ook een zonderlinge zucht tot alle soorten van
                     wetenschappen en konsten, zelfs tot de taalgeleertheit. Hy zelf was geoeffent in
                     verscheyden talen: daar by uyt eigen aart welsprekent, en zyne uiterlyke
                     wezenstrekken vertoonden de inwendige gaven van zyne eedle ziel, overzulks hy
-                    van wegen zyne bekwaamheden, van <rs type="person" ref="#philipp_iv_spanien"
-                        >Philips den IV</rs>, Koning van <rs type="place" ref="#spanien"
-                        >Spanjen</rs><index indexName="psw">
+                    van wegen zyne bekwaamheden, van <rs type="person" ref="../register/register-person.xml#philipp_iv_spanien">Philips den IV</rs>, Koning van <rs type="place" ref="../register/register-place.xml#spanien">Spanjen</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
                     </index>, voor wien hy veele roemwaardige werken gemaakt heeft, om eenige
                     byzondere verrigtingen wierdt gezonden aan het Btittannische Hof: en du Pilé
                     voegt ’er by, dat dit door de Infante, die hem gunst bewyzen wilde, zoo by
                     Philips bekuipt was; dat hy, in de waardigheit als Ambassadeur naar ’t Engelsche
-                    Hof gezonden wierd. Hy verhaald vorder hoe <rs type="person"
-                        ref="#charles_i_england">Karel de eerste</rs> Koning van <rs type="place"
-                        ref="#england">Engeland</rs><index indexName="psw">
+                    Hof gezonden wierd. Hy verhaald vorder hoe <rs type="person" ref="../register/register-person.xml#charles_i_england">Karel de eerste</rs> Koning van <rs type="place" ref="../register/register-place.xml#england">Engeland</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Charles (England, King, I.)</term>
                     </index>, hem beleeft ontfing, en hem in tegenwoordigheit van ’t Parlement een
                     present dee van een Degen en Cordon, bezet met diamanten, waardig twaalf duizent
@@ -299,17 +259,17 @@
                     zyne verrigtinge aan zyn meester, van wien hy groote geschenken kreeg. Dog
                     anderen gelooven dat dit wel ten meerendeele geschiedde, om RUBBENS daar door
                     gelegenheit te geven van den <pb n="68"/>Koning te spreeken, met wien hy
-                    belangen had, van wegen het <rs type="work" ref="#banqueting_house">beschilderen
+                    belangen had, van wegen het <rs type="work" ref="../register/register-work.xml#banqueting_house">beschilderen
                         van de zaal te Withal</rs><index indexName="gsw">
                         <term type="TGN" xml:lang="deu">London</term>
                         <index indexName="stw">
                             <term type="SWD" xml:lang="eng">Banqueting Hall</term>
                         </index>
                     </index>, ’t geen wel bedongen was, maar niet betaalt welke stukken hem, wyl hy
-                    tot <rs type="place" ref="#london">Londen</rs> was, van Antwerpen, daar hy
+                    tot <rs type="place" ref="../register/register-place.xml#london">Londen</rs> was, van Antwerpen, daar hy
                     dezelve geschilderd had, werden toegezonden. </p>
                 <p>
-                    <rs type="person" ref="#charles_i_england">Karel Stuart</rs>, die men gelooft
+                    <rs type="person" ref="../register/register-person.xml#charles_i_england">Karel Stuart</rs>, die men gelooft
                     dat dien toeleg begreep, bewees hem ongemeene beleeftheit, en vrintschap. </p>
                 <p> My, in den jaare <date when="1714">1714</date> daar zynde, dreef een zucht, zoo
                     om het Konstwerk, als de Zaal, waar uit Koning Karel de slachtbyl te gemoet
@@ -319,8 +279,7 @@
                     de schaarsheit van Kerken, die men te Londen heeft, alle naarmiddagen de Common
                     preers, de gemeene gebeden, in voorgeleezen, en des Zondags in gepredikt.</p>
                 <p> By dit, mochten wy ook wel gedachtig wezen, als een zyner voornaamste werken,
-                        <rs type="work" ref="#jaffe_707_754">de galery van Luxemburg</rs><index
-                        indexName="psw">
+                        <rs type="work" ref="../register/register-work.xml#jaffe_707_754">de galery van Luxemburg</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
                         <index indexName="stw">
                             <term type="SWD" xml:lang="deu">Medici-Zyklus (1622-1625)</term>
@@ -331,26 +290,20 @@
                             <term xml:lang="fra">Palais du Luxembourg</term>
                         </index>
                     </index> , een werk dat hem zoo veel roem heeft bygebracht, en nu noch, vermits
-                    het in zyn geheel door de beste Graveerders, als <rs type="person"
-                        ref="#edelinck_gerard">G. Edelink</rs><index indexName="psw">
+                    het in zyn geheel door de beste Graveerders, als <rs type="person" ref="../register/register-person.xml#edelinck_gerard">G. Edelink</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Edelinck, Gerard</term>
-                    </index>, <rs type="person" ref="#duchange_gaspard">G. Duchange</rs><index
-                        indexName="psw">
+                    </index>, <rs type="person" ref="../register/register-person.xml#duchange_gaspard">G. Duchange</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Duchange, Gaspard</term>
-                    </index>, <rs type="person" ref="#vermeulen_cornelis">Kornelis
+                    </index>, <rs type="person" ref="../register/register-person.xml#vermeulen_cornelis">Kornelis
                         Vermeulen</rs><index indexName="psw">
                         <term xml:lang="deu">Vermeulen, Cornelis</term>
-                    </index>, <rs type="person" ref="picard_bernard">B. Picard</rs><index
-                        indexName="psw">
+                    </index>, <rs type="person" ref="../register/register-person.xmlpicard_bernard">B. Picard</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Picard, Bernard</term>
-                    </index>, <rs type="person" ref="#loir_alexis">A. Loir</rs><index
-                        indexName="psw">
+                    </index>, <rs type="person" ref="../register/register-person.xml#loir_alexis">A. Loir</rs><index indexName="psw">
                         <term xml:lang="deu">Loir, Alexis</term>
-                    </index>, en <rs type="person" ref="#audran_benoit">B.</rs><index
-                        indexName="psw">
+                    </index>, en <rs type="person" ref="../register/register-person.xml#audran_benoit">B.</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Audran, Benoît</term>
-                    </index> en <rs type="person" ref="#audran_jean">J. Audran</rs><index
-                        indexName="psw">
+                    </index> en <rs type="person" ref="../register/register-person.xml#audran_jean">J. Audran</rs><index indexName="psw">
                         <term xml:lang="deu">Audran, Jean</term>
                     </index>, in koper gesneden is, de drukken daar van door alle Landen en
                     Koninkryken verspreit, de waerelt doen zien, wat hy door de Konst vermocht.
@@ -361,12 +314,9 @@
                 <p>
                     <pb n="69"/>Myn pen had byna zeker voorval, dat RUBBENS in Spanjen is ontmoet,
                     voorby gestapt, en dus den lezer dit volgende verhaal ontrooft, ’t geen voeglyk
-                    diend gemeld, eer wy hem weder in zyn Vaderland aanschouwen. <rs type="person"
-                        ref="#juan_iv_portugal">Jan Duc de Bragance</rs><index indexName="psw">
+                    diend gemeld, eer wy hem weder in zyn Vaderland aanschouwen. <rs type="person" ref="../register/register-person.xml#juan_iv_portugal">Jan Duc de Bragance</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Johann (Portugal, König, IV.)</term>
-                    </index>, die naderhand Koning van <rs type="place" ref="#portugal"
-                    >Portugal</rs> werdt, een beminnaar van de schilderkonst, schreef naar <rs
-                        type="place" ref="#madrid">Madrid</rs> aan een zyner vrinden, ten einde hy
+                    </index>, die naderhand Koning van <rs type="place" ref="../register/register-place.xml#portugal">Portugal</rs> werdt, een beminnaar van de schilderkonst, schreef naar <rs type="place" ref="../register/register-place.xml#madrid">Madrid</rs> aan een zyner vrinden, ten einde hy
                     aan RUBBENS wilde verzoeken, den Hertog te komen bezoeken, in zyn woonplaats
                     Villa-Vizoza. RUBBENS bewilligde dit verzoek, en begaf zig, verzelt met een
                     groote sleep, op weg. De Hartog verwittigt, dat RUBBENS, die hy misschien maar
@@ -383,16 +333,14 @@
                     zy men dezelve daar by met een bericht geeft, dat hy veele Leerlingen in zyn tyd
                     heeft aangekweekt, die hy tot schilderen van kleederen, gronden, verschieten,
                     gebouwen en andere sieraden, ook wel tot het aanleggen der naakten, gebruikte,
-                    waar door hy zig, en inzonderheit zynen leerlingen grooten dienst <pb n="70"
-                    />dede, gelyk ’er door het middel van hem veele brave meesters in de konst zyn
+                    waar door hy zig, en inzonderheit zynen leerlingen grooten dienst <pb n="70"/>dede, gelyk ’er door het middel van hem veele brave meesters in de konst zyn
                     voortgesproten, die zyne grootsheit van ordineren en de kracht van zyn
                     schilderen van hem afgezien, en zig daarvan in hunne eigen werken bedient
                     hebben; daar zy by het leven van hunnen meester niet te veel gelegentheit toe
                     hadden, immers tot groote en voordeelige werken niet, dewyl hy de vermogenste
                     luiden aan zyn snoer had, en het dus meest al in zyne handen viel, of ongezocht
                     toevloeide. Dit is aan verscheiden stalen van brave meesters, die zyne
-                    Leerlingen geweest waren, inzonderheit <rs type="person"
-                        ref="#dyck_anthonis_van">ANTONY VAN DYK</rs><index indexName="psw">
+                    Leerlingen geweest waren, inzonderheit <rs type="person" ref="../register/register-person.xml#dyck_anthonis_van">ANTONY VAN DYK</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Dyck, Anthonis van</term>
                     </index>, gebleeken; die als hy al wat voor de Kloosterbroeders gemaakt hadde,
                     van hun dusdanig beknevelt wierd, dat het schildervuur daar door meer gedooft,
@@ -424,12 +372,8 @@
                     geheime reden daar van niet ontdekte, ’t geen ik op zyn regte plaats doen zal. </p>
                 <p> RUBBENS dan, gelyk ik meermalen gezegt heb, was, zoo ten aanzien van zyn
                     geboorte, gedrag, eerentytelen en konst, by alle de grooten geacht en gezien.
-                    Hier kwam noch by, dat hy tot zyn tweede vrouw getroud had <rs type="person"
-                        ref="#fourment_helene">Helena Forman</rs><note resp="A.H." type="footnote"
-                        >Die Hochzeit fand am <date when="1630-12-06">6. Dezember 1630</date> in der
-                        Antwerpener St. Jacobkerk statt. vgl. die <ref type="rubens"
-                            cRef="ed_rubens_203">Akte zur Eheschließung</ref>.</note><index
-                        indexName="psw">
+                    Hier kwam noch by, dat hy tot zyn tweede vrouw getroud had <rs type="person" ref="../register/register-person.xml#fourment_helene">Helena Forman</rs><note resp="A.H." type="footnote">Die Hochzeit fand am <date when="1630-12-06">6. Dezember 1630</date> in der
+                        Antwerpener St. Jacobkerk statt. vgl. die <ref type="rubens" cRef="ed_rubens_203">Akte zur Eheschließung</ref>.</note><index indexName="psw">
                         <term type="PND" xml:lang="deu">Fourment, Hélène</term>
                     </index>, die een Helena in schoonheit was. Een schoon voordeel voor een
                     schilder om de koste van ’t model te sparen. Zy bezat daar by veel verstand en
@@ -438,8 +382,7 @@
                     konden doen. Overzulks vloeiden alle de voordeelen van ’t penceel voor ’t
                     grootste deel hem gemakkelyk en van zelf toe. Daar en boven had hy een
                     zonderlinge bekwaamheit om alle grooten te vleyen, en dus tot zyn voordeel in
-                    hun gunst te dringen. Zulks dat men de spreuk van <rs type="person"
-                        ref="#brune_johan">J. DE BRUIN,</rs><index indexName="psw">
+                    hun gunst te dringen. Zulks dat men de spreuk van <rs type="person" ref="../register/register-person.xml#brune_johan">J. DE BRUIN,</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Brune, Johan de (der Ältere)</term>
                         <index indexName="stw">
                             <term xml:lang="nld">Bankket-Werk van Goede gedagten</term>
@@ -454,13 +397,12 @@
                     door eene opening in ’t dak, van boven in neerstraalde. Deze zaal behong hy met
                     zyne opgegaarde Italiaanse, Fransche en Nederlandsche Konststukken, en daar
                     onder ook sommige van zyn eigen hand, welke Konstzaal alom berucht was, zoo dat
-                    de <rs type="person" ref="#buckingham_herzog_villiers">Hartog van
+                    de <rs type="person" ref="../register/register-person.xml#buckingham_herzog_villiers">Hartog van
                         Bukkingham</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Buckingham, George Villiers of
                         (1592-1628)</term>
                     </index> die zyn paleis teffens met konst wilde opsieren, order gaf, aan den
-                    Heer <rs type="person" ref="#blon_michiel">Michiel le Blon</rs><index
-                        indexName="psw">
+                    Heer <rs type="person" ref="../register/register-person.xml#blon_michiel">Michiel le Blon</rs><index indexName="psw">
                         <term xml:lang="deu">Blon, Michiel le</term>
                     </index>, liefhebber en goed kenner van Konst, om voor 60000 gulden aan konst
                     daar uit voor hem te koopen, ’t welk ook geschiedde. Daar RUBBENS zekerlyk goed
@@ -470,7 +412,7 @@
                     worden.</p>
                 <p> Het was niet lang na dien uitkoop, of een doorslepen knaap maakte aanslag op
                     dien vetten buit, doch vond zig in zyn voornemen schandig bedrogen. Het was de
-                    berugte Alchemist Mr. <rs type="person" ref="#brendel">Brendel</rs> van Londen.
+                    berugte Alchemist Mr. <rs type="person" ref="../register/register-person.xml#brendel">Brendel</rs> van Londen.
                     Deze klampte RUBBENS met veel hoopgevende redenvoeringen, en verzekeringen van
                         <pb n="73"/>de wisse gevolgen van zyn Goudmakerykonst aan boord; biedende
                     hem zyn dienst tot de bewerkinge van ’t zelve, voor de halve winst, zoo Rubbens
@@ -504,19 +446,16 @@
                     schilderde egter kleine stukjes, meest Landschappen, op den Ezel, daar hy de
                     maalstok meer tot zyn gebruik konde nemen.</p>
                 <p> Hy is overleden te Antwerpen, <date when="1640-05-30">op den 30 van Bloeimaand,
-                        in het jaar 1640</date><note resp="A.H." type="footnote">vgl. <ref
-                            type="rubens" cRef="ed_rubens_247">Rubens' Epitaph</ref> in der St.
+                        in het jaar 1640</date><note resp="A.H." type="footnote">vgl. <ref type="rubens" cRef="ed_rubens_247">Rubens' Epitaph</ref> in der St.
                         Jacobskerk zu Antwerpen.</note>. en begraven met een aanzienlyke en pragtige
                     Lykstatie; want voor het Lyk ging ’er een, dragende een swart Fluwele kussen, en
                     daar op een vergulde kroon, en agter het Lyk volgde een grooten sleep van de
                     aanzienelykste, zoo Geestelyke, als Waereldlyke Heeren, en Konstenaren. Het lyk
                     werd geleid in St. Jans Kerk, daar zyn Grafftee noch te zien is.</p>
                 <p> Hy liet een Dochter na, en een zoon, sommige zeggen twee zoonen uit zyn laatste
-                    huwelyk, de oudste <rs type="person" ref="#rubens_albert">ALBERTUS</rs><index
-                        indexName="psw">
+                    huwelyk, de oudste <rs type="person" ref="../register/register-person.xml#rubens_albert">ALBERTUS</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Rubens, Albert</term>
-                    </index> genaamt, is Secretaris, of Geheimschryver der Staten van <rs
-                        type="place" ref="#flandern">Vlaanderen</rs> geweest. </p>
+                    </index> genaamt, is Secretaris, of Geheimschryver der Staten van <rs type="place" ref="../register/register-place.xml#flandern">Vlaanderen</rs> geweest. </p>
                 <p> Wy hebben zyn waare beeltenis gevolgt naar de beste afschetzing boven
                     aangeplaatst, in de PLAAT D, op dat de Konstschilders zyn prysselyk gedrag,
                     omtrent de jonge konstoeffenaars, en yver tot den opbouw van de Konst, daar by
@@ -526,8 +465,8 @@
                 <p>
                     <pb n="75"/>’t Kan niet wel wezen dat alle Konstoeffenaars elkander te gelyk
                     minnen: doch nooit moet verschil tusschen persoonen oorzaak wezen, tot veragting
-                    van wederzydfe konstwerken. <rs type="person" ref="#raffael">Rafael
-                    d’Urbyn</rs>, en <rs type="person" ref="#michelangelo">Michael Angelo de
+                    van wederzydfe konstwerken. <rs type="person" ref="../register/register-person.xml#raffael">Rafael
+                    d’Urbyn</rs>, en <rs type="person" ref="../register/register-person.xml#michelangelo">Michael Angelo de
                         Bonarote</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Raffael</term>
                     </index><index indexName="psw">
@@ -550,8 +489,7 @@
                     Zilver hebben wy niet. Dat ’s waar, antwoordde Michael Angelo; Dog daarom kan uw
                     Heiligheit ook niet zeggen: staat op en wandeld. </p>
                 <p> Vryborstig spreken heeft zyn tyd. Waarheit word geprezen, zegt Juvenaal, maar
-                    moet kouw lyden. Altyd de waarheit te spreken, is altyd vyanden maken <pb n="76"
-                    />ken: en daar is geen gevaarlyker woestyn, als zonder vrinden te leven. Te
+                    moet kouw lyden. Altyd de waarheit te spreken, is altyd vyanden maken <pb n="76"/>ken: en daar is geen gevaarlyker woestyn, als zonder vrinden te leven. Te
                     leven zonder vrinden, zeit het Spaansche fpreekwoord, is sterven zonder
                     getuigen. </p>
             </div>

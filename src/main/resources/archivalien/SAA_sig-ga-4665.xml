@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_108">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_108"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-ga-4665">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -72,8 +71,7 @@
                                 1620. The Art Museum, Princeton University, hg. John Rupert Martin.
                                 Princeton/New Jersey 1972, S. 61f.<ptr type="gbv" cRef="306896001"/></bibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 456f.<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 456f.<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Max Rooses, In: Bulletin Rubens: annales de la Commission Officielle
                                 instituée par le Conseil Communal de la Ville d'Anvers pour la publication
                                 des documents relatifs à la vie et aux oeuvres de Rubens = Rubens-bulletijn.
@@ -103,25 +101,20 @@
                                 om metten anderen te spreken opt maecken van den Nieuwen
                                     Aultaer<index indexName="stw">
                                     <term xml:lang="deu">Kreuabnahme</term>
-                                </index><note resp="A.H." type="footnote">Das Tryptichon mit der <rs
-                                        type="work" ref="#jaffe_189ABC">Kreuzabnahme</rs> befindet
+                                </index><note resp="A.H." type="footnote">Das Tryptichon mit der <rs type="work" ref="../register/register-work.xml#jaffe_189ABC">Kreuzabnahme</rs> befindet
                                     sich in der Liebfrauenkathedrale Antwerpen.</note>, als doen
                                 verteert</cell>
-                            <cell><measure type="currency" quantity="3">iij</measure> gl. <measure
-                                    type="currency" quantity="10">10</measure> st.</cell>
+                            <cell><measure type="currency" quantity="3">iij</measure> gl. <measure type="currency" quantity="10">10</measure> st.</cell>
                         </row>
                         <row>
                             <cell>Den <date when="1611-09-07">7<hi rend="super">n</hi>
-                                September</date> is de Camer vergadert met den schilder M<hi
-                                    rend="super">r</hi>
-                                <rs type="person" ref="#rubens_peter_paul">P<hi rend="super">r</hi>
+                                September</date> is de Camer vergadert met den schilder M<hi rend="super">r</hi>
+                                <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">P<hi rend="super">r</hi>
                                     Rubbens</rs> diemen in tegenwordicheyt van den heer Hooftman
-                                    <note resp="N.B." type="footnote">i. e. <rs type="person"
-                                        ref="#rockox_nicolaas">Nicolaas Rockox</rs></note> doen
+                                    <note resp="N.B." type="footnote">i. e. <rs type="person" ref="../register/register-person.xml#rockox_nicolaas">Nicolaas Rockox</rs></note> doen
                                 anbesteden het schilderen vande taeffele, en doen metten selven
                                 verteert</cell>
-                            <cell><measure type="currency" quantity="16">xvi</measure> gl. <measure
-                                    type="currency" quantity="18">xviii</measure> st.</cell>
+                            <cell><measure type="currency" quantity="16">xvi</measure> gl. <measure type="currency" quantity="18">xviii</measure> st.</cell>
                         </row>
                         <row>
                             <cell>Item syn de Dekens tot drye distincte reysen gegaen ten huyse
@@ -130,13 +123,11 @@
                                 reysen soo aen drinckgelt den knechts van den schilder als aldaer in
                                 wyn verteert, in alles<note resp="N.B." type="footnote">Dieser Eintrag und der folgende
                                     stammen vermutlich von 1611.</note></cell>
-                            <cell><measure type="currency" quantity="9">ix</measure> gl. <measure
-                                    type="currency" quantity="10">x</measure> st.</cell>
+                            <cell><measure type="currency" quantity="9">ix</measure> gl. <measure type="currency" quantity="10">x</measure> st.</cell>
                         </row>
                         <row>
                             <cell><gap resp="N.B." reason="cancelled"/> ontfanck vande Wepelaers
-                                innegenomen om te vervallen de oncosten van den aultaer <gap
-                                    resp="N.B." reason="cancelled"/></cell>
+                                innegenomen om te vervallen de oncosten van den aultaer <gap resp="N.B." reason="cancelled"/></cell>
                             <cell><measure type="currency" quantity="3900">iii<hi rend="super">m</hi>
                                         ix<hi rend="super">c</hi></measure> gl.</cell>
                         </row>
@@ -148,47 +139,37 @@
                                 leveringe van berdt daertoe verbesicht, ende ander materialen,
                                 midtsgaeders oyck aen verscheyde gelagen soe int besteden mette
                                 aenemers als wercklieden verteert tsamen, naer luyt de particuliere
-                                specificatie daer van synde gesp. N° 3 de somme van<note resp="N.B."
-                                    type="footnote">Eintrag vom 12. September 1612.</note></cell>
+                                specificatie daer van synde gesp. N° 3 de somme van<note resp="N.B." type="footnote">Eintrag vom 12. September 1612.</note></cell>
                             <cell><measure type="currency" quantity="177">i<hi rend="super">c</hi>
-                                    lxxvij</measure> gl. <measure type="currency" quantity="14.25"
-                                    >xiiii st. ¼</measure></cell>
+                                    lxxvij</measure> gl. <measure type="currency" quantity="14.25">xiiii st. ¼</measure></cell>
                         </row>
                         <row>
                             <cell>De Betaelinge bijden Rendant aenden schilder, beeltsnyders, ende
                                 taeffereelmaecker daemede gedaen, bedragen luijt de specificatie
-                                ende quittancien daer aen gehecht tot N° 5<note resp="N.B."
-                                    type="footnote">Der Eintrag stammt vermutlich von 1612.</note></cell>
+                                ende quittancien daer aen gehecht tot N° 5<note resp="N.B." type="footnote">Der Eintrag stammt vermutlich von 1612.</note></cell>
                             <cell><measure type="currency" quantity="3838">iii<hi rend="super">m</hi>
-                                        viii<hi rend="super">c</hi> xxxviii</measure> gl. <measure
-                                    type="currency" quantity="6">vi</measure> st. <note type="contemporary"
-                                    place="margin">bij de particuliere specificatien ende
+                                        viii<hi rend="super">c</hi> xxxviii</measure> gl. <measure type="currency" quantity="6">vi</measure> st. <note type="contemporary" place="margin">bij de particuliere specificatien ende
                                 quitancien</note></cell>
                         </row>
                         <row>
                             <cell>Betaelt den <date when="1613-01-13">xiii Januari</date> van de
                                 deuren vande schilderye van den aultaer in den hoff te vueren</cell>
-                            <cell><measure type="currency" quantity="1">1</measure> gl. <measure
-                                    type="currency" quantity="10">x</measure> st.</cell>
+                            <cell><measure type="currency" quantity="1">1</measure> gl. <measure type="currency" quantity="10">x</measure> st.</cell>
                         </row>
                         <row>
                             <cell>Den <date when="1614-01-21">21 January</date> vergadert de Camer
-                                om te ordonneren het ftsoen van de copere pilaren, ende <date
-                                    when="1614-02-04">4 february</date> die besteedt, op beyde die
+                                om te ordonneren het ftsoen van de copere pilaren, ende <date when="1614-02-04">4 february</date> die besteedt, op beyde die
                                 reysen verteert mette aenemers</cell>
-                            <cell><measure type="currency" quantity="3">iij</measure> gl. <measure
-                                    type="currency" quantity="12">xii</measure> st.</cell>
+                            <cell><measure type="currency" quantity="3">iij</measure> gl. <measure type="currency" quantity="12">xii</measure> st.</cell>
                         </row>
                         <row>
-                            <cell>Den <date when="1614-02-18">18 februari</date> ende <date
-                                    when="1614-03-06">6 meert</date>, van de deuren van den aultaer
+                            <cell>Den <date when="1614-02-18">18 februari</date> ende <date when="1614-03-06">6 meert</date>, van de deuren van den aultaer
                                 ten huyse vanden schilder aff te doene, ende inde kercke te draegen
                                 betaelt met twee gulden met de arbeyders verteert</cell>
-                            <cell><measure type="currency" quantity="7">vii</measure> gl. <measure
-                                    type="currency" quantity="1">i</measure> st.</cell>
+                            <cell><measure type="currency" quantity="7">vii</measure> gl. <measure type="currency" quantity="1">i</measure> st.</cell>
                         </row>
                         <row>
-                            <cell>Item aen <rs type="person" ref="#haecht_hans">Hans van Haecht</rs>
+                            <cell>Item aen <rs type="person" ref="../register/register-person.xml#haecht_hans">Hans van Haecht</rs>
                                 voor reste van d’maeken vande paneelen ende lysten luydt zyne
                                 quittantie spec. N° 18<note resp="N.B." type="footnote">Der Eintrag
                                     stammt vermutlich von 1614.</note></cell>
@@ -200,75 +181,62 @@
                                 wesende by de Dekens Oude Dekens, Oudermans ende de Sergeanten ende
                                 doen vermangelt het stuck schilderye in de kerck op het stuck
                                 schilderye wesende een Avontmael dat nu voor de schouwe staet, doen
-                                oyck huere gemaect met <rs type="person" ref="#hulst_jasper">Jasper
+                                oyck huere gemaect met <rs type="person" ref="../register/register-person.xml#hulst_jasper">Jasper
                                     Hulst</rs> huerlinck vande halve maene ende alsdan verteert te
                                 samen</cell>
                             <cell><measure type="currency" quantity="24">xxiiii</measure> gl.
                                     <measure type="currency" quantity="15">xv</measure> st.</cell>
                         </row>
                         <row>
-                            <cell>Noch van <rs type="person" ref="#tschot_jaques">Jacques
+                            <cell>Noch van <rs type="person" ref="../register/register-person.xml#tschot_jaques">Jacques
                                 Tschot</rs> ontfangen voor vaete oft advantage van het stuck
                                 schilderye d’welck opden ouden aultaer plach te stane, tegens het
-                                Avontmael nu staende voor de schouwe op deser Gulde<index
-                                    indexName="stw">
+                                Avontmael nu staende voor de schouwe op deser Gulde<index indexName="stw">
                                     <term xml:lang="deu">Kolveniersgilde</term>
-                                </index> camer vermangelt, de somme van<note resp="N.B."
-                                    type="footnote">Dieser und die folgenden beiden Einträge stammen vermutlich von 1614.</note></cell>
+                                </index> camer vermangelt, de somme van<note resp="N.B." type="footnote">Dieser und die folgenden beiden Einträge stammen vermutlich von 1614.</note></cell>
                             <cell><measure type="currency" quantity="30">xxx</measure> gl. –
                             st.</cell>
                         </row>
                         <row>
-                            <cell>Item aen den selven <note resp="N.B." type="footnote"
-                                    >obengenannten Jacques Tschot</note> vercocht het stuck
+                            <cell>Item aen den selven <note resp="N.B." type="footnote">obengenannten Jacques Tschot</note> vercocht het stuck
                                 schildereye dwelck voor de voors. schouwe plach te staene ende daer
                                 voere ontfangen</cell>
-                            <cell><measure type="currency" quantity="22">xxii</measure> gl. <measure
-                                    type="currency" quantity="10">x</measure> st.</cell>
+                            <cell><measure type="currency" quantity="22">xxii</measure> gl. <measure type="currency" quantity="10">x</measure> st.</cell>
                         </row>
                         <row>
                             <cell>Noch ontfangen van de vyff stuckskens schilderije die onder den
-                                voet van den aultaer stonden van deken <rs type="person"
-                                    ref="#flessers">Flessers</rs></cell>
+                                voet van den aultaer stonden van deken <rs type="person" ref="../register/register-person.xml#flessers">Flessers</rs></cell>
                             <cell><measure type="currency" quantity="6">vj</measure> gl. –
                             st.</cell>
                         </row>
                         <row>
                             <cell>De <date when="1614-04-30">30 April</date> den kerdryver betaelt
                                 voer ’t wech vueren van de oude schilderyen</cell>
-                            <cell><measure type="currency" quantity="5">v</measure> gl. <measure
-                                    type="currency" quantity="2">ij</measure> st.</cell>
+                            <cell><measure type="currency" quantity="5">v</measure> gl. <measure type="currency" quantity="2">ij</measure> st.</cell>
                         </row>
                         <row>
-                            <cell>Item betaelt aen <rs type="person" ref="#gillis_hans">Hans
-                                Gillis</rs> borduerwerker van eenen <term type="psw"
-                                        >Christoffel<index indexName="psw">
+                            <cell>Item betaelt aen <rs type="person" ref="../register/register-person.xml#gillis_hans">Hans
+                                Gillis</rs> borduerwerker van eenen <term type="psw">Christoffel<index indexName="psw">
                                         <term type="PND" xml:lang="deu">Christophorus</term>
-                                    </index></term> ende <term type="stw">Bussen<index
-                                        indexName="stw">
+                                    </index></term> ende <term type="stw">Bussen<index indexName="stw">
                                         <term type="SWD" xml:lang="deu">Eremit</term>
                                     </index></term><note resp="A.H." type="footnote">Auf den
-                                    Außenseiten der Flügel der <rs type="work" ref="#jaffe_189ABC"
-                                        >Kreuzaufrichtung</rs> sind der heilige Christophorus und
+                                    Außenseiten der Flügel der <rs type="work" ref="../register/register-work.xml#jaffe_189ABC">Kreuzaufrichtung</rs> sind der heilige Christophorus und
                                     ein Eremit dargestellt.</note> te bordueren in ’t besten
-                                aultaercleedt luydt syne quittantie N° 26<note resp="N.B."
-                                    type="footnote">Eintrag vom 30. Juni 1614</note></cell>
+                                aultaercleedt luydt syne quittantie N° 26<note resp="N.B." type="footnote">Eintrag vom 30. Juni 1614</note></cell>
                             <cell><measure type="currency" quantity="45">xlv</measure> gl. –
                             st.</cell>
                         </row>
                         <row>
                             <cell>Item voor den Dienst van de Misse ten daeghe vande wydinge vanden
                                 Aultaer met de solempnele misse van den St. Christoffel, betaelt
-                                voor alle de oncosten met het chiraet tsamen luydt de sp<hi
-                                    rend="super">tie</hi> N° 29<note resp="N.B" type="footnote"
-                                    >Eintrag vom 2. August 1614</note></cell>
+                                voor alle de oncosten met het chiraet tsamen luydt de sp<hi rend="super">tie</hi> N° 29<note resp="N.B" type="footnote">Eintrag vom 2. August 1614</note></cell>
                             <cell><measure type="currency" quantity="111">I<hi rend="super">c</hi>
                                 xi</measure> gl. <measure type="currency" quantity="7">vij</measure>
                                 st.</cell>
                         </row>
                         <row>
-                            <cell>Item op Maria Magdaleenen dach<note resp="A.H." type="footnote"
-                                    >Der Eintrag stammt vom 22. Juli 1614, dem Gedenktag der Maria
+                            <cell>Item op Maria Magdaleenen dach<note resp="A.H." type="footnote">Der Eintrag stammt vom 22. Juli 1614, dem Gedenktag der Maria
                                     Magdalena</note> op de Camer genoeyt Myne heeren Reverendissime
                                 den Bisschop deser stadt Choordeken ende andere heeren in Dienste
                                 van Mynheer de Reverendissime, oyck van de Magistraet alswanneer
@@ -276,51 +244,39 @@
                                 heeft gegeven, doen betaelt aen cost, Bancket, Dranck ende alle
                                 andere onkosten ’t samen</cell>
                             <cell><measure type="currency" quantity="472">iiij<hi rend="super">c</hi>
-                                    lxxii</measure> gl. <measure type="currency" quantity="4"
-                                >iiij</measure> st.</cell>
+                                    lxxii</measure> gl. <measure type="currency" quantity="4">iiij</measure> st.</cell>
                         </row>
                         <row>
                             <cell>De <date when="1614-12-04">4 december</date> De arbeyders die het
                                 avondmael op de Camer brochten ende voor de schouw te setten</cell>
-                            <cell><measure type="currency" quantity="1">I</measure> gl. <measure
-                                    type="currency" quantity="12">xij</measure> st.</cell>
+                            <cell><measure type="currency" quantity="1">I</measure> gl. <measure type="currency" quantity="12">xij</measure> st.</cell>
                         </row>
                         <row>
-                            <cell>Item aen <rs type="person" ref="#deltour_peeter">Peeter
+                            <cell>Item aen <rs type="person" ref="../register/register-person.xml#deltour_peeter">Peeter
                                 Deltour</rs> geelgieter voor de pillaeren en de Candelaeren met de
-                                viercante pedestalen wegende tzaemen <measure type="currency"
-                                    quantity="652">652</measure> £ tot <measure type="currency"
-                                    quantity="12">12</measure> st. het pond, Betaeld luydt syne
-                                rekeninge ende quictantie gespecifieert N° 40<note resp="N.B."
-                                    type="footnote">Eintrag vom 11. Dezember 1614</note></cell>
+                                viercante pedestalen wegende tzaemen <measure type="currency" quantity="652">652</measure> £ tot <measure type="currency" quantity="12">12</measure> st. het pond, Betaeld luydt syne
+                                rekeninge ende quictantie gespecifieert N° 40<note resp="N.B." type="footnote">Eintrag vom 11. Dezember 1614</note></cell>
                             <cell><measure type="currency" quantity="391">iij<hi rend="super">c</hi>
-                                    xcj</measure> gl. <measure type="currency" quantity="4"
-                                >iiij</measure> st.</cell>
+                                    xcj</measure> gl. <measure type="currency" quantity="4">iiij</measure> st.</cell>
                         </row>
                         <row>
-                            <cell>Item voor een paer handtschoen geschoncken aen de huysvrouwe<index
-                                    indexName="stw">
+                            <cell>Item voor een paer handtschoen geschoncken aen de huysvrouwe<index indexName="stw">
                                     <term xml:lang="deu">Isabella Brant</term>
                                 </index> van S<hi rend="super">r</hi> Rubbens als besproken
                                     betaelt<note resp="N.B." type="footnote">Der Eintrag stammt
                                     vermutlich von 1615.</note></cell>
-                            <cell><measure type="currency" quantity="8">viij</measure> gl. <measure
-                                    type="currency" quantity="10">x</measure> st.</cell>
+                            <cell><measure type="currency" quantity="8">viij</measure> gl. <measure type="currency" quantity="10">x</measure> st.</cell>
                         </row>
                         <row>
                             <cell>Item den <date when="1615-01-08">8 Januari</date> als men
-                                accordeerden met S<hi rend="super">r</hi> Rubbens en <rs type="person"
-                                    ref="#remeeus_david">Davidt Remeeus</rs> verguldere nopens het
+                                accordeerden met S<hi rend="super">r</hi> Rubbens en <rs type="person" ref="../register/register-person.xml#remeeus_david">Davidt Remeeus</rs> verguldere nopens het
                                 naewerck, ende doen met hen lieden present doude Dekens, verteert </cell>
-                            <cell><measure type="currency" quantity="46">xlvj</measure> gl. <measure
-                                    type="currency" quantity="18">xviij</measure> st.</cell>
+                            <cell><measure type="currency" quantity="46">xlvj</measure> gl. <measure type="currency" quantity="18">xviij</measure> st.</cell>
                         </row>
                         <row>
                             <cell>Item den voers. Rubbens doen op rekening van sijne tachterheyt
-                                betaelt, luyt syne quictantie gespec. N° 45<note resp="N.B."
-                                    type="footnote">Eintrag vom 8. Januar 1615.</note></cell>
-                            <cell><measure type="currency" quantity="1000">I<hi rend="super"
-                                >m</hi></measure> gl. – st.</cell>
+                                betaelt, luyt syne quictantie gespec. N° 45<note resp="N.B." type="footnote">Eintrag vom 8. Januar 1615.</note></cell>
+                            <cell><measure type="currency" quantity="1000">I<hi rend="super">m</hi></measure> gl. – st.</cell>
                         </row>
                         <row>
                             <cell>Item oyck betaelt aen Davidt Remeeus vergulder, voort vergulden
@@ -337,8 +293,7 @@
                                     bedraecht<note resp="N.B." type="footnote">Der Eintrag stammt
                                     vermutlich von 1615.</note></cell>
                             <cell><measure type="currency" quantity="3782">iii<hi rend="super">m</hi>
-                                        vii<hi rend="super">c</hi> lxxxii</measure> gl. <measure
-                                    type="currency" quantity="17.5">xvii ½</measure></cell>
+                                        vii<hi rend="super">c</hi> lxxxii</measure> gl. <measure type="currency" quantity="17.5">xvii ½</measure></cell>
                         </row>
                     </table>
                 </p>

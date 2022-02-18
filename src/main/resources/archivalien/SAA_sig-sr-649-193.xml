@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_238">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_238"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-649-193">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -64,38 +63,31 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p><rs type="person" ref="#diest_gillis">Gillis van Diest</rs> inden name ende als
+                <p><rs type="person" ref="../register/register-person.xml#diest_gillis">Gillis van Diest</rs> inden name ende als
                     gemechticht bij procuratie opden <date when="---16">sesthienden</date> deser
                     voor M<hi rend="super">r</hi>
-                    <rs type="person" ref="#marcelis_franchois">Franchois Marcelis</rs> als notaris
-                    in presentie van getuygen gepasseert te deesen gethoont van heer ende M<hi
-                        rend="super">r</hi>
-                    <rs type="person" ref="#nispen_cornelis">Cornelis van Nispen</rs>, licensiaet in
-                    den rechte als universeel erffgenaem van wijlen <rs type="person"
-                        ref="#nispen_balthasar">Balthasar van Nispen</rs> sijnen oom was vut crachte
+                    <rs type="person" ref="../register/register-person.xml#marcelis_franchois">Franchois Marcelis</rs> als notaris
+                    in presentie van getuygen gepasseert te deesen gethoont van heer ende M<hi rend="super">r</hi>
+                    <rs type="person" ref="../register/register-person.xml#nispen_cornelis">Cornelis van Nispen</rs>, licensiaet in
+                    den rechte als universeel erffgenaem van wijlen <rs type="person" ref="../register/register-person.xml#nispen_balthasar">Balthasar van Nispen</rs> sijnen oom was vut crachte
                     vanden besloten testamente desselffs gemaect onder sijn hanteecken ende
                     gerecognosceert voorde notaris M<hi rend="super">r</hi> Franchois Marcelis in
                     presentie van getuygen den <date when="1627-12-23">23<hi rend="super">e</hi>
                         decembris inde jare 16<hi rend="super">c</hi> ende zevenentwintich</date>
                     midts d’andere genomineerde erffgename vande selve erffenisse ’tsijne behoeve
-                    hebben gededuceerd te wetene <rs type="person" ref="#nispen_maximilian"
-                        >Maximilian van Nispen</rs> sijnen broeder bij bescheede vernieuwt door <rs
-                        type="person" ref="#hove_christoffel">Christoffel vande Hove</rs> sijnen
+                    hebben gededuceerd te wetene <rs type="person" ref="../register/register-person.xml#nispen_maximilian">Maximilian van Nispen</rs> sijnen broeder bij bescheede vernieuwt door <rs type="person" ref="../register/register-person.xml#hove_christoffel">Christoffel vande Hove</rs> sijnen
                     gemachtichde voor schepenen deser stadt de <date when="1628-06-05">vijffden Juny
-                        inde Jahre 16<hi rend="super">c</hi> achtentwintich</date> ende Heere <rs
-                        type="person" ref="#hooftman_cornelis">Cornelis Hooftman</rs>, Riddere ende
+                        inde Jahre 16<hi rend="super">c</hi> achtentwintich</date> ende Heere <rs type="person" ref="../register/register-person.xml#hooftman_cornelis">Cornelis Hooftman</rs>, Riddere ende
                     consorten bij bescheede gepasseert voor M<hi rend="super">r</hi>
-                    <rs type="person" ref="#vosmer_cornelis">Cornelis Vosmer</rs>, openbaer Notaris
-                    residerende ind <rs type="place" ref="#haag">s’Gravenhage</rs> present sekere
+                    <rs type="person" ref="../register/register-person.xml#vosmer_cornelis">Cornelis Vosmer</rs>, openbaer Notaris
+                    residerende ind <rs type="place" ref="../register/register-place.xml#haag">s’Gravenhage</rs> present sekere
                     getuygen den <date when="1626-12-19">19<hi rend="super">e</hi> decembris inde jare
                             16<hi rend="super">c</hi> ende sessentwintich</date> die hij oock van
                     henne bezaten inde andersints voldane heeft bij affrekening geschiet in
-                    s’gravenhage den <date when="1634-09-05">vijfden Septembris inde jare 16<hi
-                            rend="super">c</hi> vierendertich</date> present de voors. notaris vosmer
+                    s’gravenhage den <date when="1634-09-05">vijfden Septembris inde jare 16<hi rend="super">c</hi> vierendertich</date> present de voors. notaris vosmer
                     soo hij verclaerde, ende bekende dat hij omme eene somme gelts die hem al ende
-                    wel is vergouden, vercocht heeft wel ende wettelijck, <rs type="person"
-                        ref="#bouwens_simon">Simon Bouwens</rs>, coopman tapitsier ende jouffrouwe
-                        <rs type="person" ref="#letter_charlotte">Charlotte de Letter</rs> sijne
+                    wel is vergouden, vercocht heeft wel ende wettelijck, <rs type="person" ref="../register/register-person.xml#bouwens_simon">Simon Bouwens</rs>, coopman tapitsier ende jouffrouwe
+                        <rs type="person" ref="../register/register-person.xml#letter_charlotte">Charlotte de Letter</rs> sijne
                     huysvrouwe een huys geheeten De Swane<index indexName="stw">
                         <term xml:lang="nld">De Swane</term>
                     </index><index indexName="stw">
@@ -106,42 +98,38 @@
                     huysen sijn streckende ende verder niet makende samen seven wooninghen mette
                     borneput ende weerdribben, gronde ende alle de toebehoorten, gestaene ende
                     gelegen inde Corte Ridderstrate alhier, tusschen ’t huys geheeten Den Pellicaen
-                    aen d’een sijde ende <rs type="person" ref="#hont_jacop">Jacops de Hondt diemen
+                    aen d’een sijde ende <rs type="person" ref="../register/register-person.xml#hont_jacop">Jacops de Hondt diemen
                         hiet Thonis</rs> huys aen d’ander zijde, gelijck ende in alle der manieren
                     de voors. seven huysen oft wooningen mette gange, gronde ende toebehoorten
                     voorgeruert zijns comparante constituant als universeel erffgenaem des voors.
                     wijlen Balthasars van Nispen, zijns ooms alsvore toecomende ende competerende
-                    sijn ende gelijck <rs type="person" ref="#rubens_peter_paul">Petro Paulo
-                    Rubens</rs> ende <rs type="person" ref="#lunden_arnoult">Arnoult Lunden</rs> als
+                    sijn ende gelijck <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo
+                    Rubens</rs> ende <rs type="person" ref="../register/register-person.xml#lunden_arnoult">Arnoult Lunden</rs> als
                         executeurs<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Testamentsvollstrecker</term>
                     </index> ende tot behoeff vande sterffhuyse des voors. wijlen Balthasar van
                     Nispen, die selve huysen, onder meer andere, (waer aff sij de resterende tweelff
                     huysen metter plaetse hove ende borenputte, gestaen achter de voorgaende ’t
                     eynde inde voors. ganck gedestineert ende geappliceert hebben tot tweelff
-                    godtshuyskens voor tweelff oude mannekens in conformiteyt vande codicille<index
-                        indexName="stw">
+                    godtshuyskens voor tweelff oude mannekens in conformiteyt vande codicille<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Testament</term>
                     </index> desselfs Balthasar van Nispen gemaect onder sijn hanteecken ende
                     gerecognosceert den <date when="1625-11-29">29<hi rend="super">e</hi> Novembris
                         inde jare 16<hi rend="super">c</hi> ende vijffentwintich</date> voor de
                     notaris M<hi rend="super">r</hi>
-                    <rs type="person" ref="#breuseghem_pieter">Peeter van Brensegem</rs> in presentie
-                    van getuygen), gercocht ende vercregen hebben bij transporte van <rs
-                        type="person" ref="#ast_jan">Jan</rs> ende <rs type="person"
-                        ref="#ast_hendrick">Henrick vander Ast</rs>, voor hem selven ende inder
+                    <rs type="person" ref="../register/register-person.xml#breuseghem_pieter">Peeter van Brensegem</rs> in presentie
+                    van getuygen), gercocht ende vercregen hebben bij transporte van <rs type="person" ref="../register/register-person.xml#ast_jan">Jan</rs> ende <rs type="person" ref="../register/register-person.xml#ast_hendrick">Henrick vander Ast</rs>, voor hem selven ende inder
                     qualiteyt soo hij compareerde den <date when="1626-09-07">sevensten September
                         inde jare 16<hi rend="super">c</hi> ende sessentwintich</date>, prout littera
                     daeraff hij hem een vidimus mede overgaff, droeghe oppe, te waerne uytgenomen
                     drye schellingen brabants erffelyck de Godtshuyse vande Blauwenbroeders alhier,
-                    item vier schellinge een hinne ende een eye erffelyk den godtshuyse van <rs
-                        type="corporate" ref="#antwerpen_abtei_st_michiels">St. Michiel</rs>, item
+                    item vier schellinge een hinne ende een eye erffelyk den godtshuyse van <rs type="corporate" ref="../register/register-corporate.xml#antwerpen_abtei_st_michiels">St. Michiel</rs>, item
                     vierthien groote vlems erffelyck de heylige geest ’t onser L. Vrouwe
                         alhier<index indexName="stw">
                             <term type="SWD" xml:lang="deu">Antwerpen</term><index indexName="stw"><term xml:lang="deu">Liebfrauenkathedrale</term></index>
                     </index>, item vier schellinge brabants erfelik der borchtkercke alhier, ende
                     twee chijns guldene erffelyck M<hi rend="super">r</hi>
-                    <rs type="person" ref="#wesenbeke_peeter">Peeter van Wesenbeke</rs> uyt de
+                    <rs type="person" ref="../register/register-person.xml#wesenbeke_peeter">Peeter van Wesenbeke</rs> uyt de
                     voors. seven vercochte huysen aende welcke die nu ter tyt te laste geleyt worden
                     jaerlycx gaende prout littera en anders niet welcke commer ende last de voors.
                     Simon Bouwens, qui etiam comparunt voor hem ende inde name van sijne huysvrouwe
@@ -161,7 +149,7 @@
                        <div xml:lang="nld"> 
                            <p>Pontgeld bedraegende 15 gl., 19 st. recepit </p>
                            <closer>
-                               <signed><rs type="person" ref="#marcelis_franchois">Marcelis</rs></signed>, 
+                               <signed><rs type="person" ref="../register/register-person.xml#marcelis_franchois">Marcelis</rs></signed>, 
                                <dateline><date when="1638-12-02">2 Dec. 1638</date>.</dateline>
                            </closer>
             </div>

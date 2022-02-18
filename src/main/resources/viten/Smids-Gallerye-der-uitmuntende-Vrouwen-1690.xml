@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_292">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_292"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title><rs type="person" ref="#smids_ludolph">Ludolph Smids</rs>: Gallerye der uitmuntende vrouwen:of der zelver deugden en ondeugden, in byschriften en sneldichten, vetoond, met verklaaringen konstplaaten verrijkt, <date when="1690">1690</date></title>
+                <title><rs type="person" ref="../register/register-person.xml#smids_ludolph">Ludolph Smids</rs>: Gallerye der uitmuntende vrouwen:of der zelver deugden en ondeugden, in byschriften en sneldichten, vetoond, met verklaaringen konstplaaten verrijkt, <date when="1690">1690</date></title>
             </titleStmt>
             <publicationStmt>
                 <publisher>
@@ -20,8 +12,15 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate; &register-person; &register-place;
-                &register-work;
+                
+ 
+
+ 
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="smids_gallerye_vrouwen_1690">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -58,7 +57,7 @@
                 <p>Zo eel is 's <hi rend="italic">Schilders</hi> konst, dat ze, in verscheiden star, Haar konstenaars beloond met veelerhande lof.<lb/>
                     In landschap <hi rend="italic">Keerens</hi> praald, en <hi rend="italic">Mompert</hi> in zijn rotzen;<lb/>
                     Naar 't leven <rs rend="italic">Holbeen</rs> kau de gallische waereld trotzen;<lb/>
-                    <rs type="person" ref="#dyck_anthonis_van">Van <hi rend="italic">DÜk</hi></rs><index indexName="psw"><term type="PND" xml:lang="deu">Dyck, Anthonis van</term></index> IDee; <rs type="person" ref="#rubens_peter_paul"><hi rend="italic">Rubens</hi></rs><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term></index> in histori; <hi rend="italic">Olivier</hi><lb/>
+                    <rs type="person" ref="../register/register-person.xml#dyck_anthonis_van">Van <hi rend="italic">DÜk</hi></rs><index indexName="psw"><term type="PND" xml:lang="deu">Dyck, Anthonis van</term></index> IDee; <rs type="person" ref="../register/register-person.xml#rubens_peter_paul"><hi rend="italic">Rubens</hi></rs><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term></index> in histori; <hi rend="italic">Olivier</hi><lb/>
                     In zijn verlichtery; in keukens <hi rend="italic">Lange Pier</hi>;<lb/>
                     In scheepen <hi rend="italic">Vroom; Steenwük</hi> in perspektive kerken; Maar, <hi rend="italic">Kousnaar</hi>, uw vermaak is in het Naakt te werken!<lb/>
                 </p>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_315">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_315"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="brief_jan_rubens_15820924">
                     <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
                         en zijne bloedverwanten</collection><idno>Brief von Jan Rubens an Graf Johann von Nassau vom 24. September 1582</idno></msIdentifier>
@@ -61,10 +60,7 @@
             <div xml:lang="fra">
                 <salute>Monseigneur!</salute>
                 <p> J’ay receu la lettre qu’il a pleu a v. Ill. S. m’escrire, et entendu ce qu’en
-                    vertu d’icelle le Docteur <rs type="person" ref="#christianus_andreas"
-                        >CHRISTIANI</rs> m’a dict, à sçauoir que ie m’eusse contre le <date
-                        when="--11-01">premier du Nouembre</date> à transporter à <rs type="place"
-                        ref="siegen">Sighen</rs>, sans auoir volu autrement asseurer ma personne.
+                    vertu d’icelle le Docteur <rs type="person" ref="../register/register-person.xml#christianus_andreas">CHRISTIANI</rs> m’a dict, à sçauoir que ie m’eusse contre le <date when="--11-01">premier du Nouembre</date> à transporter à <rs type="place" ref="../register/register-place.xmlsiegen">Sighen</rs>, sans auoir volu autrement asseurer ma personne.
                     Sur quoy ie luy ay allégué mes excuses, telles, qu’il a trouué bon que ie les
                     eusse préallablement à représenter par escrit à v. Ill. S. ce que par cestes en
                     toute réuérence ie feray, priant très-humblement que les vueillés prendre de
@@ -72,12 +68,10 @@
                     ceste venue suist, requiert, et vostre accoustumée piété vous enseigne. </p>
                 <p>Premièrement, Monseigneur, le Duc de Brabant mon souuerain maitre et Seigneur,
                     par son edict daté le <date when="1582-09-10">10<hi rend="super">e</hi> de ce
-                        mois</date>, et depuis publié en <rs type="place" ref="#antwerpen"
-                        >Anvers</rs>, m’appelle, sur peine de confiscation de biens et note d’estre
+                        mois</date>, et depuis publié en <rs type="place" ref="../register/register-place.xml#antwerpen">Anvers</rs>, m’appelle, sur peine de confiscation de biens et note d’estre
                     tenu pour ennemy auec tous aultres qui se treuuent absens en lieu neutrel, pour
                     venir proposer noz excuses endedans six septmaines prochaines, terme propre que
-                    v. Ill. S. me prescript que ie vienne a Sighen, et comme Monseigneur <rs
-                        type="person" ref="#oranien_nassau_moritz">le Prince d’ORANGES</rs> est auec
+                    v. Ill. S. me prescript que ie vienne a Sighen, et comme Monseigneur <rs type="person" ref="../register/register-person.xml#oranien_nassau_moritz">le Prince d’ORANGES</rs> est auec
                     les autres Estats aussi de cest aduis, je puis dire qu’il ne veult point que ie
                     vous aille trouuer. Je supplie doncques, que v. Ill. S. ne vueille estre cause
                     que je perde mes biens ou bien se daigne de faire mes excuses, car je ne sçay
@@ -113,7 +107,7 @@
                     pour viure, ayans dernièrement, à la surprinse de Lire, perdu aussi tout ce que
                     nous restoit, mesmes en espérance, s ‘en estant l’ennemi saisy tant des muebles
                     que des fons de terre que nous et nos parens là et à l’enuiron y auons eu, comme
-                    aussi sous <rs type="place" ref="#breda">Breda</rs> il a naguerres bruslé une
+                    aussi sous <rs type="place" ref="../register/register-place.xml#breda">Breda</rs> il a naguerres bruslé une
                     bonne maison et celle petite pension que, pour alimenter un si grand mesnage,
                     nous doibt v. Ill. S., vient si lentement, et par dessus cela, il nous fauldra
                     rompre nostre maison, et que quelques gens de bien qui logent auec nous, et nous
@@ -208,16 +202,13 @@
                     ceste fois, nous prierons le bon Dieu, qu’il vous maintienne en sa sauuegarde,
                     vous gouuerne par l’esprit de prudence, équité et force, et vous enrichisse de
                     toutes sortes de bénédictions. </p>
-                <closer rend="text-align:center">De<placeName><rs type="place" ref="#koeln"
-                    >Couloigne</rs>,</placeName><dateline rend="text-align:center">le <date when="1582-09-24">24 iour
+                <closer rend="text-align:center">De<placeName><rs type="place" ref="../register/register-place.xml#koeln">Couloigne</rs>,</placeName><dateline rend="text-align:center">le <date when="1582-09-24">24 iour
                             de Septembre 1582</date>. </dateline>
                 </closer>
-                <closer><salute>A Monseigneur Seigneur <rs type="person"
-                            ref="#nassau_johan">JEAN COMTE de NASSAU</rs> Catzenellenbogen à
+                <closer><salute>A Monseigneur Seigneur <rs type="person" ref="../register/register-person.xml#nassau_johan">JEAN COMTE de NASSAU</rs> Catzenellenbogen à
                         Dillenbourg</salute></closer>
                 <closer rend="text-align:right"><salute rend="text-align:right">De vostre Illustre Seigneurie, très-humble
-                    serviteur et prisonier,</salute><signed rend="text-align:right"><rs type="person" ref="#rubens_jan"
-                            >Jean RUEBENS.</rs></signed></closer>
+                    serviteur et prisonier,</salute><signed rend="text-align:right"><rs type="person" ref="../register/register-person.xml#rubens_jan">Jean RUEBENS.</rs></signed></closer>
             </div>
         </body>
     </text>

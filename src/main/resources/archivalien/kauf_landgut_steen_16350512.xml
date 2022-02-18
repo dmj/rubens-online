@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_224">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_224"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc> 
-                &register-corporate; 
-                &register-person; 
-                &register-place;
-                &register-work; 
+                
+ 
+                
+
+ 
+                
+
+
+                
+
+ 
                 <msDesc xml:lang="deu" xml:id="kauf_landgut_steen_16350512">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -85,12 +84,11 @@
                     </index> mette landen, bosschen ende bempden daartoe behoorende, soo ende gelyck
                     hy allentselve inden jaer <date when="1635-05-12">XVI<hi rend="super">c</hi> ende
                         vyffendertich op den tweelfsten dach van meye</date> by decret van voors.
-                    Raede van <rs type="place" ref="#brabant">Brabant</rs> heeft gecocht, mette
+                    Raede van <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs> heeft gecocht, mette
                     nieuw edificien tsedert daerop gemaeckt ende ten coste syns sterffhuyse te
                     volmaeckene, ende de dry bunderen ende een dachwant bempts daerby gecocht van
-                        <rs type="person" ref="#vrancx_franchois">Franchois Vrancx</rs> mitsgaeders
-                    den bosch genaemt den platten Steen ende den leenbosch van <rs type="place"
-                        ref="#attenorde">Attenorde</rs> mits voor deselve helft inde massa
+                        <rs type="person" ref="../register/register-person.xml#vrancx_franchois">Franchois Vrancx</rs> mitsgaeders
+                    den bosch genaemt den platten Steen ende den leenbosch van <rs type="place" ref="../register/register-place.xml#attenorde">Attenorde</rs> mits voor deselve helft inde massa
                     scheydinge ende deylingen goet doende de somme van vyftich duysent guldenen
                     eens. </p>
             </div>

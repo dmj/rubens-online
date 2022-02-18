@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_105">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_105"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="AGRB_sig-1225">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -41,8 +40,7 @@
                         <msItem>
                             <filiation>
                                 <note resp="A.H." type="footnote">Vgl. zur Ernennung Rubens zum Hofmaler von
-                                    Albrecht und Isabella das Dokument vom <ref type="rubens" cRef="ed_rubens_100"
-                                        >23. September 1609</ref></note>
+                                    Albrecht und Isabella das Dokument vom <ref type="rubens" cRef="ed_rubens_100">23. September 1609</ref></note>
                             </filiation>
                         </msItem>
                     </msContents>
@@ -75,36 +73,30 @@
     <text>
         <body>
             <div xml:lang="fra">
-                <p>Je <rs type="person" ref="#rubens_peter_paul">Pierre Paul Rubens</rs> painctre de
-                    l’hostel des archiducqz confesse avoir receu de <rs type="person"
-                        ref="#godin_christophe">Christophre Godin</rs>, conseillier et recepveur
+                <p>Je <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre Paul Rubens</rs> painctre de
+                    l’hostel des archiducqz confesse avoir receu de <rs type="person" ref="../register/register-person.xml#godin_christophe">Christophre Godin</rs>, conseillier et recepveur
                     général des finances de leur atezes, la somme de cincq cens livres du pris de
-                    quarante gros monnoye de <rs type="place" ref="#flandern">Flandres</rs> la
+                    quarante gros monnoye de <rs type="place" ref="../register/register-place.xml#flandern">Flandres</rs> la
                     livre. Comme a l’oronnance de leurdits altezes il m’a baillé et delivré en une
-                    lettre de descharge en <measure type="currency" quantity="2925">II<hi rend="super"
-                        >m</hi> IX<hi rend="super">c</hi> XXV</measure> livres <measure
-                            type="currency" quantity="10">X</measure> st. datée du jourdhuy levée sur
-                    <rs type="person" ref="#orscher_pierre">Pierre de Orscher</rs> conseiller et
-                    recepveur general de <rs type="place" ref="#luxemburg">Luxembourg</rs> pour
-                    semblage somme a moy deue à cause de <measure type="currency" quantity="500"
-                        >V<hi rend="super">c</hi></measure> pareilles livres que leur altezes par
-                    leur lettres patentes données à <rs type="place" ref="#bruessel">Bruxelles</rs>
-                    le <date when="1609-09-23">vingtroiziesme jour de septembre XVI<hi
-                        rend="super">c</hi> nœuf</date> m’ont ordonné et accordé de gaiges et
+                    lettre de descharge en <measure type="currency" quantity="2925">II<hi rend="super">m</hi> IX<hi rend="super">c</hi> XXV</measure> livres <measure type="currency" quantity="10">X</measure> st. datée du jourdhuy levée sur
+                    <rs type="person" ref="../register/register-person.xml#orscher_pierre">Pierre de Orscher</rs> conseiller et
+                    recepveur general de <rs type="place" ref="../register/register-place.xml#luxemburg">Luxembourg</rs> pour
+                    semblage somme a moy deue à cause de <measure type="currency" quantity="500">V<hi rend="super">c</hi></measure> pareilles livres que leur altezes par
+                    leur lettres patentes données à <rs type="place" ref="../register/register-place.xml#bruessel">Bruxelles</rs>
+                    le <date when="1609-09-23">vingtroiziesme jour de septembre XVI<hi rend="super">c</hi> nœuf</date> m’ont ordonné et accordé de gaiges et
                     traictement par chacun un a raison de mon estat de painctre susdit. A en estre
                     payé desdits gaiges par les mains dudit recepveur general des finances présent
                     ou aultre advenir de demy an en par esgalle portion. Et ce pour la premiere
                     annee desdits gaiges commencée ledit <date when="1609-09-23">vingtroiziesme
                         de septembre XVI<hi rend="super">c</hi> nœuf</date> date desdits lettres
                     patentes et finie le <date when="1610-09-22">vingt deuxiesme de septembre
-                        ensuivant seize cens dix</date> de laquelle somme de <measure
-                            type="currency" quantity="500">V<hi rend="super">c</hi></measure> livres dudit
+                        ensuivant seize cens dix</date> de laquelle somme de <measure type="currency" quantity="500">V<hi rend="super">c</hi></measure> livres dudit
                     pris je suis content et bien payé et en quicte leur Altezes ledit recepveur
                     general des finances et tous aultres.</p> 
                 <closer>
                     <dateline>Tesmoing mon seing manuel cy miz le
                         <date when="1611-04-11">onziesme jour d’apvril seize cens onze</date>.</dateline><lb/>
-                    <signed><rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Rubens</rs></signed>
                 </closer>
             </div>
         </body>

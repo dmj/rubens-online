@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_271">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_271"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,8 +11,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="moreri_dictionaire_1681">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="moreri_dictionaire_1681">
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Wolfenbüttel</settlement>
@@ -51,15 +50,12 @@
                     Testament ; des Souverains Pontifes de l’Eglise ; des saints Peres
                     &amp;<lb/> Docteurs Orthodoxes, des Evêques des quatre Eglises
                     Patriarchales,<lb/> des Cardinaux, des Prelats celebres ; &amp; des
-                        Heresiarques:<lb rend="line-height:150%"/> CELLES DES EMPEREURS DE <rs
-                        type="place" ref="#rom">ROME</rs>, DE <rs type="place" ref="#griechenland"
-                        >GRECE</rs>, D’<rs type="place" ref="#deutschland">ALEMAGNE</rs> ,<lb/>
+                        Heresiarques:<lb rend="line-height:150%"/> CELLES DES EMPEREURS DE <rs type="place" ref="../register/register-place.xml#rom">ROME</rs>, DE <rs type="place" ref="../register/register-place.xml#griechenland">GRECE</rs>, D’<rs type="place" ref="../register/register-place.xml#deutschland">ALEMAGNE</rs> ,<lb/>
                     Chrétiens, Payens, &amp; Ottomans : des Rois, des Princes Illustres,
                     &amp; des grands Capitaines; des Auteurs Grece<lb/> &amp; Latins ancien
                     &amp; modernes ; des Philosophes, des Inventeurs des Arts, &amp; des
                     autres Personnes de toute sorte<lb/> de Profession, renommées par leur
-                    Erudition, par leurs Ouvrages, ou par quelque action éclatante.<lb
-                        rend="line-height:150%"/> IL FAIT AUSSI REMARQUER<lb/> Les plus important
+                    Erudition, par leurs Ouvrages, ou par quelque action éclatante.<lb rend="line-height:150%"/> IL FAIT AUSSI REMARQUER<lb/> Les plus important
                     Traitez des Auteurs ; les Opinions particulieres des Philosophes;<lb/> &amp;
                     les principaux Dogmes des Heresiarques;<lb rend="line-height:150%"/> ET
                     COMPREND<lb/> La Description des Etats, Empires, Royaume, Provinces, Villes,
@@ -78,27 +74,21 @@
                     l’éclaircissement des difficultez de la Chronologie,<lb/> que pour la decision
                     des controverses Historiques.<lb rend="line-height:150%"/> Seconde Edition,
                     Diversée en Deux Tomes,<lb/> Revuë, corrigée, &amp; augmentée de la
-                    moitié.<lb/> Par M. <rs type="person" ref="#moreri_louis">Louys Moreri<index
-                            indexName="psw">
+                    moitié.<lb/> Par M. <rs type="person" ref="../register/register-person.xml#moreri_louis">Louys Moreri<index indexName="psw">
                             <term type="PND" xml:lang="deu">Moréri, Louis</term>
                             <index indexName="fsw">
-                                <term type="structure" target="#author" xml:lang="deu"
-                                >Verfasser</term>
+                                <term type="structure" target="#author" xml:lang="deu">Verfasser</term>
                             </index>
-                        </index></rs>, Prêtre, Docteur en Theologie.<lb/> Tome Second.<lb
-                        rend="line-height:150%"/> A <rs type="place" ref="#lyon">LYON</rs>,<lb/>
-                    Chez <rs type="person" ref="#girin_jean">Jean Girin<index indexName="psw">
+                        </index></rs>, Prêtre, Docteur en Theologie.<lb/> Tome Second.<lb rend="line-height:150%"/> A <rs type="place" ref="../register/register-place.xml#lyon">LYON</rs>,<lb/>
+                    Chez <rs type="person" ref="../register/register-person.xml#girin_jean">Jean Girin<index indexName="psw">
                             <term xml:lang="deu">Girin, Jean</term>
                             <index indexName="fsw">
-                                <term type="structure" target="#printer" xml:lang="deu"
-                                >Drucker</term>
+                                <term type="structure" target="#printer" xml:lang="deu">Drucker</term>
                             </index>
-                        </index></rs>, &amp; <rs type="person" ref="#riviere_barthelemy"
-                        >Barthelemy Riviere<index indexName="psw">
+                        </index></rs>, &amp; <rs type="person" ref="../register/register-person.xml#riviere_barthelemy">Barthelemy Riviere<index indexName="psw">
                             <term xml:lang="deu">Rivière, Barthélemy</term>
                             <index indexName="fsw">
-                                <term type="structure" target="#printer" xml:lang="deu"
-                                >Drucker</term>
+                                <term type="structure" target="#printer" xml:lang="deu">Drucker</term>
                             </index>
                         </index></rs>, ruë Merciere, à la Prudence.<lb/>
                     <date when="1681">M. DC. LXXXI</date>.<lb/> Avec Privilege du Roy. </p>
@@ -108,10 +98,7 @@
                     <term type="structure" target="#chapter" xml:lang="deu">Kapitel</term>
                 </index>
                 <p><pb n="1072"/>
-                    <rs type="person" ref="#rubens_peter_paul">RUBENS</rs> (Pierre Paul<note
-                        type="contemporary" place="bottom" resp="Louïs Moreri"><rs type="person"
-                            ref="#bellori_giovanni_pietro">Jean Pierre Bellori</rs><index
-                            indexName="psw">
+                    <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">RUBENS</rs> (Pierre Paul<note type="contemporary" place="bottom" resp="Louïs Moreri"><rs type="person" ref="../register/register-person.xml#bellori_giovanni_pietro">Jean Pierre Bellori</rs><index indexName="psw">
                             <term type="PND" xml:lang="deu">Bellori, Giovanni Pietro</term>
                             <index indexName="stw">
                                 <term type="SWD" xml:lang="ita">Le vite de' pittori, scultori et
@@ -119,62 +106,48 @@
                             </index>
                         </index>, Vite de Pittori Moderni.<note resp="A.H." type="footnote">cgl.
                                 <bibl>Giovanni Pietro Bellori: Le Vite de' pittori, Scultori et
-                                architetti moderni. Rom: Mascardi 1672.<ptr type="gbv"
-                                    cRef="193939479"/></bibl></note></note>) Peintre fameux,<lb/>
-                    étoit d’<rs type="place" ref="#antwerpen">Anvers</rs>, où il vient au monde le
+                                architetti moderni. Rom: Mascardi 1672.<ptr type="gbv" cRef="193939479"/></bibl></note></note>) Peintre fameux,<lb/>
+                    étoit d’<rs type="place" ref="../register/register-place.xml#antwerpen">Anvers</rs>, où il vient au monde le
                         <date when="1577-06-28">28. Juin 1577</date>. On l’éleva avec assez de soin,
-                    &amp; il apprit à dessiner d’<rs type="person" ref="#veen_otto">Octavio Van
+                    &amp; il apprit à dessiner d’<rs type="person" ref="../register/register-person.xml#veen_otto">Octavio Van
                         Veen</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Veen, Otto van</term>
-                    </index> de <rs type="place" ref="#leyden">Leiden</rs>, Peintre du Duc de <rs
-                        type="place" ref="#parma">Parme</rs>, &amp; puis de l’<rs type="person"
-                        ref="#albrecht_von_oesterreich">Archiduc Albert</rs><index indexName="psw">
+                    </index> de <rs type="place" ref="../register/register-place.xml#leyden">Leiden</rs>, Peintre du Duc de <rs type="place" ref="../register/register-place.xml#parma">Parme</rs>, &amp; puis de l’<rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">Archiduc Albert</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog,
                         VII.)</term>
                     </index>. Comme il avoit de l’inclination pour la Peinture, il reüssit
                     parfaitement. Il fit des Pieces qu’on commença d’estimer, &amp; étant passé
-                    en <rs type="place" ref="#italien">Italie</rs>, il s’acquit beaucoup de
-                    reputation à <rs type="place" ref="#mantua">Mantouë</rs>, à <rs type="place"
-                        ref="#rom">Rome</rs>, À <rs type="place" ref="#genua">Genes</rs>, &amp;
-                    à <rs type="place" ref="#venedig">Venise</rs>, où il s’arrêta assez long-tems ;
+                    en <rs type="place" ref="../register/register-place.xml#italien">Italie</rs>, il s’acquit beaucoup de
+                    reputation à <rs type="place" ref="../register/register-place.xml#mantua">Mantouë</rs>, à <rs type="place" ref="../register/register-place.xml#rom">Rome</rs>, À <rs type="place" ref="../register/register-place.xml#genua">Genes</rs>, &amp;
+                    à <rs type="place" ref="../register/register-place.xml#venedig">Venise</rs>, où il s’arrêta assez long-tems ;
                     &amp; dans la derniere de ces Villes, il resolut d’imiter la maniere de
-                    peindre di <rs type="person" ref="#tizian">Titien</rs><index indexName="psw">
+                    peindre di <rs type="person" ref="../register/register-person.xml#tizian">Titien</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Tizian</term>
-                    </index>, de <rs type="person" ref="#veronese_paolo">Paul Veronese</rs><index
-                        indexName="psw">
+                    </index>, de <rs type="person" ref="../register/register-person.xml#veronese_paolo">Paul Veronese</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Veronese, Paolo</term>
-                    </index>, &amp; du <rs type="person" ref="#tintoretto">Tintoreto</rs><index
-                        indexName="psw">
+                    </index>, &amp; du <rs type="person" ref="../register/register-person.xml#tintoretto">Tintoreto</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Tintoretto</term>
                     </index>. Cependant étant retourné en son païs, il y fit des Pieces
-                    excellementes qui releverent merveilleusement sa reputation. Aussi la Reine <rs
-                        type="person" ref="#medici_maria">Marie de Medicis</rs><index
-                        indexName="psw">
+                    excellementes qui releverent merveilleusement sa reputation. Aussi la Reine <rs type="person" ref="../register/register-person.xml#medici_maria">Marie de Medicis</rs><index indexName="psw">
                         <term type="GND" xml:lang="deu">Medici, Maria /de'</term>
-                    </index> l’employa pour peindre la galerie du Luxembourg<note resp="A.H."
-                        type="footnote">vgl. den <ref type="rubens" cRef="ed_rubens_001">Vertrag
-                            über die Ausschmückung</ref> der beiden Galerien, der am <date
-                            when="1622-02-26">26. Februar 1622</date> geschlossen
+                    </index> l’employa pour peindre la galerie du Luxembourg<note resp="A.H." type="footnote">vgl. den <ref type="rubens" cRef="ed_rubens_001">Vertrag
+                            über die Ausschmückung</ref> der beiden Galerien, der am <date when="1622-02-26">26. Februar 1622</date> geschlossen
                         wurde.</note><index indexName="stw">
                         <term type="SWD" xml:lang="fra">Paris</term>
                         <index indexName="stw">
                             <term type="SWD" xml:lang="fra">Palais du Luxembourg</term>
                         </index>
-                    </index>, en quoy il reüssit tres-bien, &amp; le Roy d’<rs type="place"
-                        ref="#spanien">Espagne</rs> se servit encore de luy pour autres ouvrages.
+                    </index>, en quoy il reüssit tres-bien, &amp; le Roy d’<rs type="place" ref="../register/register-place.xml#spanien">Espagne</rs> se servit encore de luy pour autres ouvrages.
                     Rubens en composa un qui fut imprimé à Anvers en <date when="1622">1622</date>.
-                    &amp; il mourut le <date when="1640-05-30">30. May 1640</date>. laissant <rs
-                        type="person" ref="#rubens_albert">Albert</rs> son fils, qui a été
-                    Secretaire d’Etat en <rs type="place" ref="#flandern">Flandres</rs>. Il fut
+                    &amp; il mourut le <date when="1640-05-30">30. May 1640</date>. laissant <rs type="person" ref="../register/register-person.xml#rubens_albert">Albert</rs> son fils, qui a été
+                    Secretaire d’Etat en <rs type="place" ref="../register/register-place.xml#flandern">Flandres</rs>. Il fut
                     enterré dans l’Eglise de S. Jean, où l’on voit son tombeau avec cette Epitaphe.
                     Ipsa suos Iris, dedit ipsa Aurora colores<lb/>, Nox umbras, Titan lumina clara
                     tibi. <lb/> Das tu Rubenius vitam, mentémque figuris, <lb/> Et per te vivit
                     lumen, &amp; umbra, color. <lb/> Quid te Rubeni nigro mors funere volvit :
                     <lb/> Vivis, vita tuo picta colore rubet. <note resp="A.H." type="footnote">vgl.
-                        auch die direkte Abschrift des <ref type="rubens" cRef="ed_rubens_247"
-                            >Epitaphs Peter Paul Rubens'</ref> in der St. Jacobskerk, Antwerpen.</note><lb/>
-                    <rs type="person" ref="#dyck_anthonis_van">Antoine Vandick</rs><index
-                        indexName="psw">
+                        auch die direkte Abschrift des <ref type="rubens" cRef="ed_rubens_247">Epitaphs Peter Paul Rubens'</ref> in der St. Jacobskerk, Antwerpen.</note><lb/>
+                    <rs type="person" ref="../register/register-person.xml#dyck_anthonis_van">Antoine Vandick</rs><index indexName="psw">
                         <term type="PND" xml:lang="deu">Dyck, Anthonis van</term>
                     </index>, autre Peintre celebre d’Anvers est un des Eleves de Rubens. </p>
             </div>

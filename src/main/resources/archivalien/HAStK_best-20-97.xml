@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_027">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_027"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="HAStK_best-20-97">
                     <msIdentifier>
                         <country>Deutschland</country>
@@ -72,22 +71,19 @@
                 <head><pb facs="best-20-97_67r" n="67r"/>
                     Constitutio.</head> 
                 <p>Universis et singulis nos consules et senatus imperialis
-                    civitatis <rs type="place" ref="#koeln">Coloniae Agrippinae</rs> salutem et <pb facs="best-20-97_67v" n="67v"/>omne
+                    civitatis <rs type="place" ref="../register/register-place.xml#koeln">Coloniae Agrippinae</rs> salutem et <pb facs="best-20-97_67v" n="67v"/>omne
                     bonum. Ad cuiuslibet vestrum notitiam deduci volumus et attestamur, honestum ac
-                    doctum virum <rs type="person" ref="#rubens_jan">Johannem Rubens</rs>, filium
-                        <rs type="person" ref="#rubens_bartholomeus">Bartholomei</rs>, j.u. doctorem
-                    et <sic>civem incolae</sic> civitatis <rs type="place" ref="#antwerpen"
-                        >Andoverpiensis</rs> coram nobis personaliter comparuisse, qui sic
+                    doctum virum <rs type="person" ref="../register/register-person.xml#rubens_jan">Johannem Rubens</rs>, filium
+                        <rs type="person" ref="../register/register-person.xml#rubens_bartholomeus">Bartholomei</rs>, j.u. doctorem
+                    et <sic>civem incolae</sic> civitatis <rs type="place" ref="../register/register-place.xml#antwerpen">Andoverpiensis</rs> coram nobis personaliter comparuisse, qui sic
                     constitutus omnibus melioribus via, jure, causa et forma quibus melius et
                     efficatius de jure potuit, fecit, constituit, creavit atque solemniter deputavit
                     suos veros certos et indubitatos procuratores, actores, factores et negotiorum
                     infra scriptorum gestores et nuntios generales et speciales, ita tamen quod
                     specialitas generalitati non deroget vel e contra, videlicet conspicuos virus
-                    necnon honestas matronas <rs type="person" ref="#pypelincx_maria">Mariam
-                        Pipelingk</rs>, <rs type="person" ref="#pypelincx_hendrick">Henricum
-                        Pipelinck d’Othouien</rs> soceros suos, <rs type="person"
-                        ref="#pypelincx_dionisius">Dionisium Pipelinck</rs>, patruum suum, et <rs
-                        type="person" ref="#lantmeter_philipp">Philippum Landmetez</rs> fratrem
+                    necnon honestas matronas <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Mariam
+                        Pipelingk</rs>, <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henricum
+                        Pipelinck d’Othouien</rs> soceros suos, <rs type="person" ref="../register/register-person.xml#pypelincx_dionisius">Dionisium Pipelinck</rs>, patruum suum, et <rs type="person" ref="../register/register-person.xml#lantmeter_philipp">Philippum Landmetez</rs> fratrem
                     suum, cives Andoverpienses, abscentes tanquam presentes et quemlibet illorum
                     insolidum, ita tamen, quod non sit melior conditio primitus occupantis neque
                     deterior subsequentis, sed quod unus illorum inceperat, alter ipsorum prosequi,
@@ -95,13 +91,12 @@
                     suis plenam et omnimodam potestatem ipsius constituentis ejusque liberorum
                     nomine omnia et singula negotia ex quacumque causa incidentia se ipsum
                     constituentem suosque liberos quocunque modo, :presertim vero solutionem
-                    reddituum suorum, qui sibi in oppido <rs type="place" ref="#baasrode"
-                    >Baestrode</rs> prope <rs type="place" ref="#dendermonde">Darmondam</rs>
+                    reddituum suorum, qui sibi in oppido <rs type="place" ref="../register/register-place.xml#baasrode">Baestrode</rs> prope <rs type="place" ref="../register/register-place.xml#dendermonde">Darmondam</rs>
                     debentur sollicitandi, exigendi, acceptandi et quietandi:, concernendi,
                     tractandi, gerendi, exercendi et defendendi, in specie vero suo liberorumque
                     suorum nomine haereditatem et bona, quae ex testamento matris <sic>suae quae</sic>
-                    honestae mulieris <rs type="person" ref="#spirinx_barbara">Barbarae Spirinx</rs>
-                    <pb facs="best-20-97_68r" n="68r"/>et vitrici sui <rs type="person" ref="#lantmeter_jan">Johannes de Landmetez</rs>
+                    honestae mulieris <rs type="person" ref="../register/register-person.xml#spirinx_barbara">Barbarae Spirinx</rs>
+                    <pb facs="best-20-97_68r" n="68r"/>et vitrici sui <rs type="person" ref="../register/register-person.xml#lantmeter_jan">Johannes de Landmetez</rs>
                     ab predictorum vitrici et matris suae morte sibi et liberis suis devoluta sunt
                     juxta morem patrie et stilum judicialem legitime adeundi eaque sic adita cum
                     coheredibus suis rite dividendi, rationem eum cum executoribus prememorati
@@ -111,8 +106,7 @@
                     debitores etiam ad solutionem compellendi eosque liberandi, insuper et ipsius
                     constituentis nomina, omnia alia et singula sua bona, negotia et causas sibi
                     quocunque modo competentes, nominatim etiam solutionem redditium suorum, qui
-                    sibi in oppido <rs type="place" ref="#baasrode">Baessroede</rs> prope <rs
-                        type="place" ref="#dendermonde">Dermondam</rs> debentur sollicitandi,
+                    sibi in oppido <rs type="place" ref="../register/register-place.xml#baasrode">Baessroede</rs> prope <rs type="place" ref="../register/register-place.xml#dendermonde">Dermondam</rs> debentur sollicitandi,
                     exigendi, acceptandi et quietandi, aliaque et singula faciendi, quae circa
                     predictam additionem, divisionem, computationem caeteraque premissa necessaria
                     videbuntur. Et si necesse foret ex premissis coram quibuscunque judicibus, tam

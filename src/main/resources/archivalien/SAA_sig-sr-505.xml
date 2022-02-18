@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_237">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_237"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-505">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -75,56 +74,49 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Jouffrouwe <rs type="person" ref="#brueghel_catharina">Catharina Breugel</rs>,
+                <p>Jouffrouwe <rs type="person" ref="../register/register-person.xml#brueghel_catharina">Catharina Breugel</rs>,
                     Jansdochtere, wijlen constschilder<index indexName="psw">
                         <term type="PND">Breughel, Jan (der Ältere)</term>
                     </index> was van haere doorluchtigste hoocheden salige majesteyte, daer moeder
-                    aff was jouffrouwe <rs type="person" ref="#marienberghe_catharina">Catharina van
-                        Marienborge</rs>, met <rs type="person" ref="#borrekens_jan_baptista">Jan
+                    aff was jouffrouwe <rs type="person" ref="../register/register-person.xml#marienberghe_catharina">Catharina van
+                        Marienborge</rs>, met <rs type="person" ref="../register/register-person.xml#borrekens_jan_baptista">Jan
                         Baptista Borrekens</rs><index indexName="psw">
                         <term>Borrekens, Jan Baptista</term>
                     </index> constschilder, heuren wettigen man ende momboir in d’eerste partije,
-                    jouffrouwe <rs type="person" ref="#brueghel_anna">Anna Bruegel</rs> heure
-                    sustere met <rs type="person" ref="#teniers_david_dj">David Tenier de
+                    jouffrouwe <rs type="person" ref="../register/register-person.xml#brueghel_anna">Anna Bruegel</rs> heure
+                    sustere met <rs type="person" ref="../register/register-person.xml#teniers_david_dj">David Tenier de
                         Jonge</rs><index indexName="psw">
                         <term type="PND">Teniers, David (der Jüngere)</term>
                     </index> oock constschilderm heuren wettigen man ende momboir. In de tweede
-                    partije Jonker <rs type="person" ref="#halmale_pauwel">Pauwels van Halmale</rs>
-                    oudt tresorier ende jegenwordich schepene deser stadt ende <rs type="person"
-                        ref="#princen_gillis">Gillis Princen</rs>, inden naeme ende als omme ’t
+                    partije Jonker <rs type="person" ref="../register/register-person.xml#halmale_pauwel">Pauwels van Halmale</rs>
+                    oudt tresorier ende jegenwordich schepene deser stadt ende <rs type="person" ref="../register/register-person.xml#princen_gillis">Gillis Princen</rs>, inden naeme ende als omme ’t
                     naerbeschreven te mogen doene volcomelijck gemachtict ende geconstitueert van
-                    Heer <rs type="person" ref="#rubens_peter_paul">Petro Paulo Rubbens</rs> riddere
+                    Heer <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petro Paulo Rubbens</rs> riddere
                     etc. breeden blijckende bij procuratie op den <date when="1638-08-05">vijffden
-                        dach der voorleden maent Augusti</date> voor Meester <rs type="person"
-                        ref="#cantelbeke_hendrick">Henrick van Cantelbeecq</rs> als notaris alhier
+                        dach der voorleden maent Augusti</date> voor Meester <rs type="person" ref="../register/register-person.xml#cantelbeke_hendrick">Henrick van Cantelbeecq</rs> als notaris alhier
                     in presentie van getuygen gepasseert ons te desen originelijcken gethoont ende
                     alsoo beyde in den naeme als testamentelijcke momboiren<index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormund</term>
                     </index><index indexName="stw">
                         <term type="SWD" xml:lang="deu">Vormundschaft</term>
-                    </index> over <rs type="person" ref="#brueghel_ambrosius">Ambrosius</rs> ende
-                        <rs type="person" ref="#brueghel_clara_eugenia">Clara Eugenia Bruegel</rs>
+                    </index> over <rs type="person" ref="../register/register-person.xml#brueghel_ambrosius">Ambrosius</rs> ende
+                        <rs type="person" ref="../register/register-person.xml#brueghel_clara_eugenia">Clara Eugenia Bruegel</rs>
                     der voorseyde jouffrouwe Catharina ende Anna broeder ende sustere de welcke sij
                     hier inne vervingen ende geloffden te vervane hen daer voore sterckmaeckende in
                     dyer qualiteyt in de derde en vierde oft leste partijen ende bekenden jegelijcke
                     de goeden soo rurende als onrurende haeffelijcke ende erffelijcke, hen
                     comparanten in der voorseyder qualiteyt toecomen bleven ende verstorven midts
                     der doot ende afflijvicheyt van de voorseyde henne ouders, dat sij comparanten
-                    soo achtervolgende de rekeninge bij jouffrouwe <rs type="person"
-                        ref="#briers_margriete">Margriete Briers</rs> weduwe, wijlen senior <rs
-                        type="person" ref="#balen_hendrik">Henrick van Baelen</rs><index
-                        indexName="psw">
+                    soo achtervolgende de rekeninge bij jouffrouwe <rs type="person" ref="../register/register-person.xml#briers_margriete">Margriete Briers</rs> weduwe, wijlen senior <rs type="person" ref="../register/register-person.xml#balen_hendrik">Henrick van Baelen</rs><index indexName="psw">
                         <term type="PND">Balen, Hendrik van (Künstler, 1575-1632)</term>
-                    </index>, die oock hennen testamentelijcken momboir is geweest den <date
-                        when="1638-08-10">thienden dach der voorledere maent Augusti</date> voor
-                    Jonker <rs type="person" ref="#werve_willem">Willem vande Werve</rs>, schepene
-                    ende meester <rs type="person" ref="#valckenisse_philipp">Philips van
+                    </index>, die oock hennen testamentelijcken momboir is geweest den <date when="1638-08-10">thienden dach der voorledere maent Augusti</date> voor
+                    Jonker <rs type="person" ref="../register/register-person.xml#werve_willem">Willem vande Werve</rs>, schepene
+                    ende meester <rs type="person" ref="../register/register-person.xml#valckenisse_philipp">Philips van
                         Valckenisse</rs> secretaris deser stadt als comissarissen, daertoe
                     gecommitteert gedaen ende der cavelinge van de naerbeschreven renten metten
                     verloope den <date when="1638-08-21">eenentwintichsten Augusti</date> daernaer
                     tusschen de selve kinderen voor de selve heeren commissarisen geschiet als mede
-                    in gevolge van der masse scheydinge ende deylinge opden <date when="1638-09-10"
-                        >thienden dach deser loopender maent September</date> voor de selve heeren
+                    in gevolge van der masse scheydinge ende deylinge opden <date when="1638-09-10">thienden dach deser loopender maent September</date> voor de selve heeren
                     commissarisen gepasseert ende gesloten, alle de selve soo rurende als onruerende
                     haeffelijcke ende erffelijcke goeden t’samen met malcanderen wel ende
                     minnelijcken gepaert gescheyden ende edeylt hebben inder manieren als volght te
@@ -134,47 +126,33 @@
                     heure naercomelingen de renten metten verloope naerbeschreven, heur bij
                     voorseyde cavelinge onder den cavel C te deele bevallen sijnde, namentlijcken
                     eerst de tsestich guldenen erffelick metten verloope daeraff verschenen ’t
-                    sedert den <date when="1635-11-16">sesthienden Novembris anno XVI<hi rend="super"
-                            >c</hi> ende vijvendertich</date> herwaerdere alsoo gereduceert tegens
-                    den penninck twintich gegeven wordende op dese stadt van <rs type="place"
-                        ref="#antwerpen">Antwerpen</rs> heure ende der gemeynre innegesetene goeden
-                    der selver staende te boecke op den naeme van heer <rs type="person"
-                        ref="#mens_peeter">Peeter Mens</rs> sub nr. 2076.</p>
+                    sedert den <date when="1635-11-16">sesthienden Novembris anno XVI<hi rend="super">c</hi> ende vijvendertich</date> herwaerdere alsoo gereduceert tegens
+                    den penninck twintich gegeven wordende op dese stadt van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> heure ende der gemeynre innegesetene goeden
+                    der selver staende te boecke op den naeme van heer <rs type="person" ref="../register/register-person.xml#mens_peeter">Peeter Mens</rs> sub nr. 2076.</p>
                 <p>Item de tweentwintich guldenen sesthien stuyvers erffelijck oock gereduceert
                     tegens den penninck twintich metten achterstelle daeraff verschenen ’t sedert
-                    den <date when="1634-10-27">sevenentwintichsten Octobris anno XVI<hi rend="super"
-                            >c</hi> ende vierendertich</date> herwaerdere oock gegeben wordende ten
-                    laste deser stadt Antwerpen op den naeme van <rs type="person"
-                        ref="#petronella_jan">Jan Petronella</rs> ende <rs type="person"
-                        ref="#heriotten_eleisabeth">Eleisabeth Heriotten</rs> sub nr. 1509.</p>
+                    den <date when="1634-10-27">sevenentwintichsten Octobris anno XVI<hi rend="super">c</hi> ende vierendertich</date> herwaerdere oock gegeben wordende ten
+                    laste deser stadt Antwerpen op den naeme van <rs type="person" ref="../register/register-person.xml#petronella_jan">Jan Petronella</rs> ende <rs type="person" ref="../register/register-person.xml#heriotten_eleisabeth">Eleisabeth Heriotten</rs> sub nr. 1509.</p>
                 <p>Item de vijfthien guldenen erffelijck oock gereduceert tegens den penninck
-                    twintich mette achterstelle daeraff verschenen ’t sedert den <date
-                        when="1635-10-07">sevensten Octobris anno XVI<hi rend="super">c</hi> ende
+                    twintich mette achterstelle daeraff verschenen ’t sedert den <date when="1635-10-07">sevensten Octobris anno XVI<hi rend="super">c</hi> ende
                         vijvendertich</date> herwaerdere oock ten laste deser stadt gegeven wordende
-                    op den naeme van <rs type="person" ref="#goyers_henrick">Henrick Goyers</rs> sub
+                    op den naeme van <rs type="person" ref="../register/register-person.xml#goyers_henrick">Henrick Goyers</rs> sub
                     nr. 2027</p>
                 <p>Item de drijentwintich guldenen vier stuyvers erffelijck oock gereduceert den
-                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date
-                        when="1632-12-29">negenentwintichsten Decembris anno XVI<hi rend="super"
-                        >c</hi> ende tweendertich</date> herwaerdere oock ten laste deser stadt van
-                    Antwerpen gegeven wordende op den naeme van <rs type="person"
-                        ref="#gansepoel_jan">Jan van Gansepoel</rs> sub nr. 1883.</p>
+                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date when="1632-12-29">negenentwintichsten Decembris anno XVI<hi rend="super">c</hi> ende tweendertich</date> herwaerdere oock ten laste deser stadt van
+                    Antwerpen gegeven wordende op den naeme van <rs type="person" ref="../register/register-person.xml#gansepoel_jan">Jan van Gansepoel</rs> sub nr. 1883.</p>
                 <p>Item de sesthien guldenen erffelijck oock gereduceert als voore metten
                     achterstelle daeraff verschenen tsedert den <date when="1629-12-01">eersten
                         December anno XVI<hi rend="super">c</hi> ende negenentwintich</date>
-                    herwaerdere gegeven wordende ten laste voorschreven op den naeme van <rs
-                        type="person" ref="#werven_geeraert">Geeraert</rs> ende <rs type="person"
-                        ref="#werven_marten">Marten vanden Werven</rs> sub nr. 397.</p>
+                    herwaerdere gegeven wordende ten laste voorschreven op den naeme van <rs type="person" ref="../register/register-person.xml#werven_geeraert">Geeraert</rs> ende <rs type="person" ref="../register/register-person.xml#werven_marten">Marten vanden Werven</rs> sub nr. 397.</p>
                 <p>Item de veerthien guldenen acht stuyvers erffelick oock gereduceert tegens den
-                    penninck twintich metten achterstelle daeraff verschenen tsedert <date
-                        when="1622-04">April anno XVI<hi rend="super">c</hi> ende tweentwintich</date>
+                    penninck twintich metten achterstelle daeraff verschenen tsedert <date when="1622-04">April anno XVI<hi rend="super">c</hi> ende tweentwintich</date>
                     herwaerdere, geegven wordende ten laste deser voorseyder stadt van Antwerpen op
-                    den naeme van <rs type="person" ref="#naegels_jan">Jan Naegels</rs> sub nr. 236.</p>
+                    den naeme van <rs type="person" ref="../register/register-person.xml#naegels_jan">Jan Naegels</rs> sub nr. 236.</p>
                 <p>Item de vier guldenen sesthien stuyvers erffelijck oock gereduceert tegens den
-                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date
-                        when="1635-11-20">twintichsten November anno XVI<hi rend="super">c</hi> ende
+                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date when="1635-11-20">twintichsten November anno XVI<hi rend="super">c</hi> ende
                         vijvendertich</date> herwaerdere, oock gegeven wordende ten laste deser
-                    voorseyder stadt op den aneme van <rs type="person" ref="#joris_anna">Anna
+                    voorseyder stadt op den aneme van <rs type="person" ref="../register/register-person.xml#joris_anna">Anna
                     Joris</rs> sub nr. 1819.</p>
                 <p>Item de vijftich guldenen erffelijck quytbaer den penninck sesthiene ende voor
                     eenige jaeren betaelt wordende tegens den penninck twintich metten achterstelle
@@ -185,133 +163,105 @@
                     sevenendertich guldenen ende thien stuyvers erffelijck metten onbetaelde
                     achterstelle derselver gegeven wordende op een huys metten gronde ende
                     toebehoorten genaempt De Goublomme gestaen ende gelegen in Sinte Michiels
-                    straete alhier toebehoorende <rs type="person" ref="#janssens_hans">Hans
+                    straete alhier toebehoorende <rs type="person" ref="../register/register-person.xml#janssens_hans">Hans
                         Janssens</rs>, <gap reason="illegible"/></p>
                 <p>Item de vorschreve juffrouwe Anna Bruegel met heuren voorseyden man ende momboir
                     sal naer luydt ende in conformiteyt vande voorseyde masse, lotige ende cavelinge
                     onder den cavel D oock hebben ende behouden voor heur ende voor heure
                     naercomelingen eerst de sestich guldenen erffelijck alsoo gereduceert tegens den
-                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date
-                        when="1632-09-19">negenthienden September anno sesthienhondert ende
+                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date when="1632-09-19">negenthienden September anno sesthienhondert ende
                         tweendertich</date> herwaerdere, gegeven wordende ten laste deser stadt van
                     Antwerpen, heure ende der gemeynre innegesetene goeden der selver op den naeme
-                    van <rs type="person" ref="#rellingen_jeronimus">Jeronimus Rellingen</rs> nr.
+                    van <rs type="person" ref="../register/register-person.xml#rellingen_jeronimus">Jeronimus Rellingen</rs> nr.
                     2874</p>
                 <p>Item de vijfthien guldenen erflijck oock gereduceert tegens den penninck twintich
                     metten achterstelle daeraff verschenen tsedert <date when="1635-08">Augusti anno
                             XVI<hi rend="super">c</hi> ende vijvendertich</date> herwaerdere gegeven
-                    wordende ten laste deser voorseyder stadt van Antwerpen op den naeme van <rs
-                        type="person" ref="#druart_jan">Jan Druart</rs> sub nr. 1386</p>
+                    wordende ten laste deser voorseyder stadt van Antwerpen op den naeme van <rs type="person" ref="../register/register-person.xml#druart_jan">Jan Druart</rs> sub nr. 1386</p>
                 <p>Item de sesthien guldenen acht stuyvers erffelijck oock gereduceert tegens den
-                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date
-                        when="1632-12-15">vijfthienden December anno XVI<hi rend="super">c</hi> ende
+                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date when="1632-12-15">vijfthienden December anno XVI<hi rend="super">c</hi> ende
                         tweendertich</date> herwaerdere gegeven wordende ten laste deser voorseyder
-                    stadt op den naeme van <rs type="person" ref="#doyardo_fernando">Fernando
+                    stadt op den naeme van <rs type="person" ref="../register/register-person.xml#doyardo_fernando">Fernando
                         Doyardo</rs> nr. 1054.</p>
                 <p>Item de twintich guldenen erffelijck oock gereduceert als voore metten
-                    achterstelle daeraff verschenen tsedert den <date when="1632-12-29"
-                        >negenentwintichsten Decembris anno XVI<hi rend="super">c</hi> ende
+                    achterstelle daeraff verschenen tsedert den <date when="1632-12-29">negenentwintichsten Decembris anno XVI<hi rend="super">c</hi> ende
                         tweendertich</date> herwaerdere gegeven worden de oock ten laste deser stadt
-                    Antwerpen op den naeme van <rs type="person" ref="#boels_jan">Jan Boels</rs> sub
+                    Antwerpen op den naeme van <rs type="person" ref="../register/register-person.xml#boels_jan">Jan Boels</rs> sub
                     nr. 436.</p>
                 <p>Item de sesthien guldenen erffelijck oock gereduceert tegens den penninck
-                    twintich metten achterstelle daeraff verschenen tsedert den <date
-                        when="1634-12-08">achtsten Decembris anno XVI<hi rend="super">c</hi> ende
+                    twintich metten achterstelle daeraff verschenen tsedert den <date when="1634-12-08">achtsten Decembris anno XVI<hi rend="super">c</hi> ende
                         vierendertich</date> herwaerdere oock ten laste deser voorscreven stadt
-                    gegeven wordende op den naeme van <rs type="person" ref="#standaert_jan">Jan
+                    gegeven wordende op den naeme van <rs type="person" ref="../register/register-person.xml#standaert_jan">Jan
                         Standaert</rs> nr. 483.</p>
                 <p>Item de achtendertich guldenen acht stuyvers erffelijck oock gereduceert tegens
-                    den penninck twintich metten achterstelle daeraff verschenen tsedert den <date
-                        when="1634-08-01">eersten Augusti anno XVI<hi rend="super">c</hi> ende
+                    den penninck twintich metten achterstelle daeraff verschenen tsedert den <date when="1634-08-01">eersten Augusti anno XVI<hi rend="super">c</hi> ende
                         vierendertich</date> herwaerdere oock gegeven wordende op ende ten laste
-                    deser voorseyder stadt van Antwerpen op den naeme van <rs type="person"
-                        ref="#hamborch_jacob">Jacob Cornelis van Hamborch</rs> nr. 484.</p>
+                    deser voorseyder stadt van Antwerpen op den naeme van <rs type="person" ref="../register/register-person.xml#hamborch_jacob">Jacob Cornelis van Hamborch</rs> nr. 484.</p>
                 <p>Item de vijfthien guldenen erffelijck oock gereduceert als voore metten
-                    achterstelle daeraff verschenen tsedert <date when="1632-10">Octobri anno XVI<hi
-                            rend="super">c</hi> ende tweendertich</date> herwaerdere gegeven wordende
-                    ten laste deser voorseyder stadt op den naeme van <rs type="person"
-                        ref="#logier_symon">Symon Logier</rs> ende <rs type="person"
-                        ref="#grimmeler_margriete">Margriete Grimmeler</rs> sub nr. 1459.</p>
+                    achterstelle daeraff verschenen tsedert <date when="1632-10">Octobri anno XVI<hi rend="super">c</hi> ende tweendertich</date> herwaerdere gegeven wordende
+                    ten laste deser voorseyder stadt op den naeme van <rs type="person" ref="../register/register-person.xml#logier_symon">Symon Logier</rs> ende <rs type="person" ref="../register/register-person.xml#grimmeler_margriete">Margriete Grimmeler</rs> sub nr. 1459.</p>
                 <p>Item de tweentsestich guldenen ende thien stuyvers erffelijck quytbaer den
-                    penninck sesthiene metten achterstelle daeraff verschenen tsedert <date
-                        when="1637-06-24">Sint Jansmisse anno XVI<hi rend="super">c</hi> ende
+                    penninck sesthiene metten achterstelle daeraff verschenen tsedert <date when="1637-06-24">Sint Jansmisse anno XVI<hi rend="super">c</hi> ende
                         sevenendertich</date> herwaerdere gegeven wordende op een huys metten gronde
                     ende toebehoorten genaempt Sint Merten, gestaen ende gelegen inde Lange
-                    Nieuwstraete alhier toebehoorende <rs type="person" ref="#ortbrugge_michiel"
-                        >Michiel van Ortbrugge</rs>.</p>
+                    Nieuwstraete alhier toebehoorende <rs type="person" ref="../register/register-person.xml#ortbrugge_michiel">Michiel van Ortbrugge</rs>.</p>
                 <p>Item den voorscreven Ambrosius Breugel, sal naer luydt ende in conformiteyt vande
                     voorseyde masse, lotinge ende cavelinge onder den cavel A ende oock hebben
                     behouden voor hem ende voor sijnen naercomelingen, eerst de eenhonder ende
                     tseventich guldenen erffelijck oock gereduceert tegens den penninck twintich
-                    metten achterstelle daeraff verschenen tsedert den <date when="1634-10-28"
-                        >achtentwintichsten Octobris anno XVI<hi rend="super">c</hi> ende
+                    metten achterstelle daeraff verschenen tsedert den <date when="1634-10-28">achtentwintichsten Octobris anno XVI<hi rend="super">c</hi> ende
                         vierendertich</date> herwaerdere gegeven wordende in merdere rente van
                     tweehondert ende tseventich guldenen erffelijck op dese stadt van Antwerpen,
-                    heure ende der gemeynre innegesetene goeden derselver op den naeme van <rs
-                        type="person" ref="#echter_erhout">Erhout Echter</rs> sub nr. 2151.</p>
+                    heure ende der gemeynre innegesetene goeden derselver op den naeme van <rs type="person" ref="../register/register-person.xml#echter_erhout">Erhout Echter</rs> sub nr. 2151.</p>
                 <p>Item de seven guldenen ende vier stuyvers erffelijck oock gereduceert tegens den
-                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date
-                        when="1635-10-27">sevenentwintichsten Octobris anno XVI<hi rend="super">c</hi>
+                    penninck twintich metten achterstelle daeraff verschenen tsedert den <date when="1635-10-27">sevenentwintichsten Octobris anno XVI<hi rend="super">c</hi>
                         ende vijvendertich</date> herwaerdere, oock gegeven wordende ten laste deser
-                    stadt van Antwerpen op den naeme van <rs type="person" ref="#sgraven_catharina"
-                        >Catharina Sgraven</rs> sub nr. 62.</p>
+                    stadt van Antwerpen op den naeme van <rs type="person" ref="../register/register-person.xml#sgraven_catharina">Catharina Sgraven</rs> sub nr. 62.</p>
                 <p>Item de dertich guldenen erffelijck quytbaer den penninck twintich metten
                     achterstelle daeraff verschenen tsedert den <date when="1635-02-01">eersten
                         February anno XVI<hi rend="super">c</hi> ende vijvendertich</date> herwaerdere
                     gegeven wordende op twee huysen metten gronde ende toebehoirten gestaen ende
-                    gelegen neffens malcanderen op de vaert van <rs type="place" ref="#herentals"
-                        >Herentals</rs> ontrent het Gesontstaretken aldaer toebehoorende Meester <rs
-                        type="person" ref="#poorten_andries">Andries vander Poorten</rs> ende
+                    gelegen neffens malcanderen op de vaert van <rs type="place" ref="../register/register-place.xml#herentals">Herentals</rs> ontrent het Gesontstaretken aldaer toebehoorende Meester <rs type="person" ref="../register/register-person.xml#poorten_andries">Andries vander Poorten</rs> ende
                     daertoe noch alsulcke comptanten als hem bij de voorseyde masse, lotinge ende
                     cavelinge toegevuecht ende beloeft sijn.</p>
                 <p>Item der voorseyder jouffrouwe Clara Eugenia van Breugel sal naer luydt ende in
                     conformiteyt als voore onder den cavel B oock hebben ende behouden voor heur
                     ende voor heure naercommelingen, eerst den eenhondert guldenen erffelijck
                     gereduceert tegens den penninck twintich metten achterstelle daeraff verschenen
-                    tsedert den <date when="1634-10-28">achtentwintichsten October anno XVI<hi
-                            rend="super">c</hi> ende vierendertich</date> herwaerdere gegeven wordende
+                    tsedert den <date when="1634-10-28">achtentwintichsten October anno XVI<hi rend="super">c</hi> ende vierendertich</date> herwaerdere gegeven wordende
                     in meerdere rente van tweehondert ende tseventich guldenen erffelijck op dese
                     stadt van Antwerpen, heure ende der gemeynre innegesetene goeden derselver op
                     den naeme van Erhout Echter sub nr. 2151.</p>
                 <p>Item de negen guldenen achthien stuyvers erffelijck oock gereduceert tegens den
-                    penninck twintich metten achterstelle daeraff verschenen tsedert <date
-                        when="1635-08-20">20 Augusti anno XVI<hi rend="super">c</hi> ende
+                    penninck twintich metten achterstelle daeraff verschenen tsedert <date when="1635-08-20">20 Augusti anno XVI<hi rend="super">c</hi> ende
                         vijvendertich</date> herwaerdere gegeven wordende oock ten laste deser
-                    voorseyder stadt gegeven wordende op naeme van <rs type="person"
-                        ref="#clercq_aert">Aert de Clercq</rs> sub nr. 178.</p>
+                    voorseyder stadt gegeven wordende op naeme van <rs type="person" ref="../register/register-person.xml#clercq_aert">Aert de Clercq</rs> sub nr. 178.</p>
                 <p>Item de vijventwintich guldenen erffelijck oock gereduceert als voore metten
-                    achterstelle daeraff verschenen tsedert den <date when="1634-07-25">25<hi
-                            rend="super">sten</hi> July anno XVI<hi rend="super">c</hi> ende
+                    achterstelle daeraff verschenen tsedert den <date when="1634-07-25">25<hi rend="super">sten</hi> July anno XVI<hi rend="super">c</hi> ende
                         vierendertich</date> herwaerdere gegeven wordende op ende ten laste deser
-                    voorseyder stadt van Antwerpen op den naeme van <rs type="person"
-                        ref="#druart_michiel">Michiel Druart</rs> sub nr. 1928-1933.</p>
+                    voorseyder stadt van Antwerpen op den naeme van <rs type="person" ref="../register/register-person.xml#druart_michiel">Michiel Druart</rs> sub nr. 1928-1933.</p>
                 <p>Item de twintich guldenen erffelijck oock den penninck twintich gereduceert
-                    metten achterstelle daeraff verschenen tsedert den <date when="1628-09-11"
-                        >elffsten September anno sesthienhondert ende achtentwintich</date>
+                    metten achterstelle daeraff verschenen tsedert den <date when="1628-09-11">elffsten September anno sesthienhondert ende achtentwintich</date>
                     herwaerdere, oock ten laste deser voorseyder stadt gegeven wordende op den naeme
-                    van <rs type="person" ref="#reymbouts_johanna">Johanna Reymbouts</rs> sub nr.
+                    van <rs type="person" ref="../register/register-person.xml#reymbouts_johanna">Johanna Reymbouts</rs> sub nr.
                     327.</p>
                 <p>Item de vier guldens twee stuyvers erffelijck gegeven wordende insgelijcx op dese
                     stadt van Anwerpen, gereduceert oock ten penninck twintich metten achterstelle
                     daeraff verschenen tsedert <date when="1634-09-15">vijfthienden Septembris anno
                             XVI<hi rend="super">c</hi> ende vierendertich</date> herwaerdere op den
-                    naeme van <rs type="person" ref="#ysebout_cornelis">Cornelis Ysebout</rs> sub
+                    naeme van <rs type="person" ref="../register/register-person.xml#ysebout_cornelis">Cornelis Ysebout</rs> sub
                     nr. 1040.</p>
                 <p>Item de vierendertich guldenen seven ende eenen halven stuyver erffelijck
                     quytbaer den penninck sesthiene ende betaelt wordende met vijventwintich
-                    guldenen sjaers metten achterstelle daeraff verschenen tsedert den <date
-                        when="1635-06-24">24<hi rend="super">sten</hi> Mey anno XVI<hi rend="super"
-                        >c</hi> ende vijvendertich</date> herwaerdere gegeven wordende op een huys
+                    guldenen sjaers metten achterstelle daeraff verschenen tsedert den <date when="1635-06-24">24<hi rend="super">sten</hi> Mey anno XVI<hi rend="super">c</hi> ende vijvendertich</date> herwaerdere gegeven wordende op een huys
                     metten gronde ende toebehoorten gestaen ende gelegen inde Hoochstraete alhier op
-                    den hoeck van Heylige Geeststraete, toebehoorende <rs type="person"
-                        ref="#scharenborch_pr">Pr. van Scharenborch</rs>.</p>
+                    den hoeck van Heylige Geeststraete, toebehoorende <rs type="person" ref="../register/register-person.xml#scharenborch_pr">Pr. van Scharenborch</rs>.</p>
                 <p>Item de vijventwintich guldenen erffelijck quytbaer den penninck sesthiene ende
                     betaelt wordende met achthien guldenen sjaers metten achterstelle daeraff
                     verschenen tsedert den <date when="1636-05-24">vierentwintichsten Mey anno
                         sesthienhondert ende sessendertich</date> herwaerdere gegeven wordende op
                     een huys metten gronde ende toebehoorten genaempt De Trompette gestaen ende
-                    gelegen inde Heylmetterhuyckstraete alhier, toebehoorende <rs type="person"
-                        ref="#ouegodt_matthijs">Matthijs van Ouegodt</rs> ende daertoe noch alsulcke
+                    gelegen inde Heylmetterhuyckstraete alhier, toebehoorende <rs type="person" ref="../register/register-person.xml#ouegodt_matthijs">Matthijs van Ouegodt</rs> ende daertoe noch alsulcke
                     comptanten als desen voorseyden cavel B tot voldoeninge sijnder competentie
                     bijde voorseyde masse is bewesen ende toegevuecht, als wij verstonden ende midts
                     desen soo vertegen de vorseyde partijen condividenten aen alle sijden van
@@ -332,8 +282,7 @@
                     stuyvers erffelick metten onbetaelden achterstelle der selver gegeven wordende
                     op seker weylandt gelegen onder Oustruweel toebehoorende jouffrouwe Margriete
                     Briers ende noch de faulten ende restanten gestelt achter in de selve rekeninge
-                    met noch wat copere plaeten van Ordeelen ende anderssints gecomen van <rs
-                        type="person" ref="#wittebroodt_guilliam">Guilliam Wittebroot</rs>.</p>
+                    met noch wat copere plaeten van Ordeelen ende anderssints gecomen van <rs type="person" ref="../register/register-person.xml#wittebroodt_guilliam">Guilliam Wittebroot</rs>.</p>
                 <closer><dateline><date when="1638-09-13">Decima tertia Septembris 1638</date></dateline></closer>
             </div>
         </body>

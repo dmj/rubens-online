@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_089">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_089"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-459-123">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -51,8 +50,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                                bloedverwanten. Antwerpen 1877, S. 362-365<ptr type="gbv" cRef="146162595"
-                                /></bibl></listBibl>
+                                bloedverwanten. Antwerpen 1877, S. 362-365<ptr type="gbv" cRef="146162595"/></bibl></listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
@@ -71,43 +69,32 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Comparerende voor Schepenen jouffrouwe <rs type="person" ref="#pypelincx_maria"
-                        >Maria Pypelincx</rs>, weduwe wijlen Meesters <rs type="person"
-                        ref="#rubens_jan">Jans Ruebens</rs>, met eenen momboir haer gegeven metten
+                <p> Comparerende voor Schepenen jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Maria Pypelincx</rs>, weduwe wijlen Meesters <rs type="person" ref="../register/register-person.xml#rubens_jan">Jans Ruebens</rs>, met eenen momboir haer gegeven metten
                     rechte, bekende dat sij (mits der somme van drij hondert ponden grooten Vlems
-                    eens die <rs type="person" ref="#schot_peeter">Peeter de Schot</rs> ende
-                    jouffrouwe <rs type="person" ref="#pypelincx_susanne">Susanna Pypelincx</rs>,
+                    eens die <rs type="person" ref="../register/register-person.xml#schot_peeter">Peeter de Schot</rs> ende
+                    jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_susanne">Susanna Pypelincx</rs>,
                     sijne huysvrouwe, heur comparante in gereede penningen opgeleet ende voldaen
                     hebben, ende mits het afdragen vande renten ende commer nabeschreven,) vercocht
                     heeft wel ende wettelijcken den voors. Peeteren de Schot ende jouffrouwe Susanna
                     Pypelincx, sijnder huysvrouwe, haere hoeve metten hove, lande, aerde, gronde
                     ende toebehoorten, groot geweest hebbende vijfthien bunderen min een vierendeel
                     ende nu ter tijt maer groot twelff ende drij quaert bunderen, mits den twee
-                    bunderen die daeraf bij <rs type="person" ref="#pypelincx_hendrick">Heynrick
-                        Pypelinck</rs>, haer vader, vermangelt sijn aen tCapittel van <rs
-                        type="plave" ref="#lier">Liere</rs>, tegens gelijcke twee bunderen lants,
+                    bunderen die daeraf bij <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Heynrick
+                        Pypelinck</rs>, haer vader, vermangelt sijn aen tCapittel van <rs type="plave" ref="#lier">Liere</rs>, tegens gelijcke twee bunderen lants,
                     gelegen op Poeyegemvelt, den voors. cooperen ooek toebehoorende, gestaen ende
-                    gelegen de voors. hoeve in diversche parceelen binnen <rs type="place"
-                        ref="#bouchout">Bouchout</rs>, geheeten de oude hoeve ten Micke, comende
-                    aender Coralen van <rs type="place" ref="#antwerpen">Antwerpen</rs> erve,
+                    gelegen de voors. hoeve in diversche parceelen binnen <rs type="place" ref="../register/register-place.xml#bouchout">Bouchout</rs>, geheeten de oude hoeve ten Micke, comende
+                    aender Coralen van <rs type="place" ref="../register/register-place.xml#antwerpen">Antwerpen</rs> erve,
                     westwaert, ende sHeerenstrate, oostwaert, gelijck ende in alle der maniere haer
                     comparante vercoopersse deselve hoeve aengecavelt ende te deele bevallen is in
-                    scheydinge ende deylinge opten <date when="1583-10-27">XXVII<hi rend="super"
-                            >en</hi> Octobris anno XV<hi rend="super">c</hi> ende
+                    scheydinge ende deylinge opten <date when="1583-10-27">XXVII<hi rend="super">en</hi> Octobris anno XV<hi rend="super">c</hi> ende
                     drijentachentich</date> voor Sehepenen alhier gepasseert vande achtergelatene
-                    goeden des voors. <rs type="person" ref="#pypelincx_hendrick">Henricx
-                    Pypelincx</rs> ende jouffrouwe <rs type="person" ref="#touion_clara">Clara de
-                        Touion</rs> haer ouders, die deselve, voor Sehepenen des Heeren van <rs
-                        type="corporate" ref="#st_bavo_gent">St<hi rend="super">e</hi>.
+                    goeden des voors. <rs type="person" ref="../register/register-person.xml#pypelincx_hendrick">Henricx
+                    Pypelincx</rs> ende jouffrouwe <rs type="person" ref="../register/register-person.xml#touion_clara">Clara de
+                        Touion</rs> haer ouders, die deselve, voor Sehepenen des Heeren van <rs type="corporate" ref="../register/register-corporate.xml#st_bavo_gent">St<hi rend="super">e</hi>.
                         Baefs</rs><index indexName="stw">
                         <term xml:lang="deu">St. Bavo Gent</term>
-                    </index>, in zijnen hove van Sombeken binnen Bouchout, opten <date
-                        when="1550-08-05">vijfden Augusti anno XV<hi rend="super">e</hi> ende
-                        vijftich</date>,in coope vercregen hadden tegens <rs type="person"
-                        ref="#sneeuwaters_jan">Janne Sneeuwaters</rs>, als gemeehticht van <rs
-                        type="person" ref="#deym_jan">Jan</rs> ende <rs type="person"
-                        ref="#deym_adriaen">Adriaen Deym</rs> ende <rs type="person"
-                        ref="#sneeuwaters_digna">Digna Sneeuwaters</rs>, naer inhoudt der brieven
+                    </index>, in zijnen hove van Sombeken binnen Bouchout, opten <date when="1550-08-05">vijfden Augusti anno XV<hi rend="super">e</hi> ende
+                        vijftich</date>,in coope vercregen hadden tegens <rs type="person" ref="../register/register-person.xml#sneeuwaters_jan">Janne Sneeuwaters</rs>, als gemeehticht van <rs type="person" ref="../register/register-person.xml#deym_jan">Jan</rs> ende <rs type="person" ref="../register/register-person.xml#deym_adriaen">Adriaen Deym</rs> ende <rs type="person" ref="../register/register-person.xml#sneeuwaters_digna">Digna Sneeuwaters</rs>, naer inhoudt der brieven
                     ende bescheeden daervan sijnde, die sij den voors. cooperen mede overgaf, als
                     wij verstonden, alsoo dat de voors. comparante de voors. hoeve metten lande,
                     gronde ende toebehoorten ende den Schepenenbrieven, gelijck voors. is, opdroech

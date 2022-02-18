@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_201">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_201"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-592">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -63,78 +62,58 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p><rs type="person" ref="#geverts_nicolaes">Nicolaes Geverts</rs> Reynierssone
-                    wijlen daer moeder aff was jouffrouwe <rs type="person" ref="#berge_anna">Anna
-                        Van Berge</rs>, <rs type="person" ref="#geverts_susanna">Susanna
-                    Geverts</rs> sijne sustere met <rs type="person" ref="#londerich_peeter">Peeter
-                        van Londerich</rs> haere man ende momboir, ende <rs type="person"
-                        ref="#geverts_maria">Maria Geverts</rs> oyck heure sustere met <rs
-                        type="person" ref="#bemel_jan">Jan van Bemel</rs>, apothecaris alhier, haere
+                <p><rs type="person" ref="../register/register-person.xml#geverts_nicolaes">Nicolaes Geverts</rs> Reynierssone
+                    wijlen daer moeder aff was jouffrouwe <rs type="person" ref="../register/register-person.xml#berge_anna">Anna
+                        Van Berge</rs>, <rs type="person" ref="../register/register-person.xml#geverts_susanna">Susanna
+                    Geverts</rs> sijne sustere met <rs type="person" ref="../register/register-person.xml#londerich_peeter">Peeter
+                        van Londerich</rs> haere man ende momboir, ende <rs type="person" ref="../register/register-person.xml#geverts_maria">Maria Geverts</rs> oyck heure sustere met <rs type="person" ref="../register/register-person.xml#bemel_jan">Jan van Bemel</rs>, apothecaris alhier, haere
                     man ende momboir, de voirgenoempte Nicolaes Geverts ende Peeter Londerich noch
-                    ’t samen in naeme ende als testamentelycke momboirs over <rs type="person"
-                        ref="#geverts_lenaert">Lenaert Geverts</rs> ende <rs type="person"
-                        ref="#verschilde_peeter">Peeter Verschilde</rs> Janssone daer moeder aff was
-                        <rs type="person" ref="#geverts_anna">Anna Geverts</rs> oyck de voors.
-                    wijlen <rs type="person" ref="#geverts_reyniers">Reyniers</rs> kinderen hem
+                    ’t samen in naeme ende als testamentelycke momboirs over <rs type="person" ref="../register/register-person.xml#geverts_lenaert">Lenaert Geverts</rs> ende <rs type="person" ref="../register/register-person.xml#verschilde_peeter">Peeter Verschilde</rs> Janssone daer moeder aff was
+                        <rs type="person" ref="../register/register-person.xml#geverts_anna">Anna Geverts</rs> oyck de voors.
+                    wijlen <rs type="person" ref="../register/register-person.xml#geverts_reyniers">Reyniers</rs> kinderen hem
                     daervore sterckmaeckende ende als omme van henne wegen ’tgene de naebeschreven
                     wordt te mogen doene gebruyckende ’tconsent ende authorisatie van mijne
                     eerwaarde Heeren Borgemeester ende Schepenen deser Stadt, gestelt in de margie
-                    van henne requeste in daete <date when="1628-07-28">28 Juli vand jaer XVI<hi
-                            rend="super">c</hi> ende achtentwintich</date> ende by de griffier <rs
-                        type="person" ref="#pape_j">J. de Pape</rs> onderteekent, ten desen
+                    van henne requeste in daete <date when="1628-07-28">28 Juli vand jaer XVI<hi rend="super">c</hi> ende achtentwintich</date> ende by de griffier <rs type="person" ref="../register/register-person.xml#pape_j">J. de Pape</rs> onderteekent, ten desen
                     origineele gethoont ende indyer respectieve qualiteyt, bekende de voors.
                     Comparante dat hij mits der somme van achthien hondert carolus guldens eens die
                     hij al ende wel is vergouden, omme ’t paert ende deel der voors. wezen daerinne
                     competerende, in gevolch vande voors collegiale appoinctemente aengeleght te
-                    worden, vercocht hebben wel ende wettelyck Heere <rs type="person"
-                        ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> Secretaris van sijne
+                    worden, vercocht hebben wel ende wettelyck Heere <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Paulo Ruebens</rs> Secretaris van sijne
                     Majesteit secreten Raedt ende edelman vande Huyse van haere doorluchtichste
                     hoocheyt voor deen helft, ende de momboiren ende tot behoeve van sijne twee
-                    kinderen, daer moeder aff was Jouffroue <rs type="person" ref="#brant_isabella"
-                        >Isebeel Brandt</rs> voor d’ander helft, eerst een stuck weylants mette
+                    kinderen, daer moeder aff was Jouffroue <rs type="person" ref="../register/register-person.xml#brant_isabella">Isebeel Brandt</rs> voor d’ander helft, eerst een stuck weylants mette
                     gronde ende toebehoirten genaemt Den Aert<index indexName="stw">
                         <term xml:lang="nld">De Aert</term>
-                    </index> groot omtrent dry gemeten oft soo groot alst gelegen is tot <rs
-                        type="place" ref="#eeckeren">Eeckeren</rs><index indexName="stw">
+                    </index> groot omtrent dry gemeten oft soo groot alst gelegen is tot <rs type="place" ref="../register/register-place.xml#eeckeren">Eeckeren</rs><index indexName="stw">
                         <term xml:lang="deu">Eeckeren</term>
                     </index>, Oostwaert aen d’naebescreven lant genaempt de claevervelden, zuytwaert
-                    aen vaert wech, westwaert aen <rs type="person" ref="#moor_johanna">Johanna
+                    aen vaert wech, westwaert aen <rs type="person" ref="../register/register-person.xml#moor_johanna">Johanna
                         Adriaens de Moor</rs> dochters erve ende noortwaert aende beke ende noch
                     twee stucken weyde geheeten de Claevervelden gelegen neffens malcanderen, groot
                     omtrent dry gemeten sevenviertich roeden gelegen tot Eeckeren voors. achter
-                    thuys van Urssel de voorgeschreven cooper oick toebehoorende, Oostwaert aen <rs
-                        type="person" ref="#baelen_jaspar">Jaspars van Baelen</rs> erve, Zuytwaert
+                    thuys van Urssel de voorgeschreven cooper oick toebehoorende, Oostwaert aen <rs type="person" ref="../register/register-person.xml#baelen_jaspar">Jaspars van Baelen</rs> erve, Zuytwaert
                     eensdeels aende Bogaert ende eensdeels aende hofgracht vande voors. huyse,
                     westwaert aen ’t voors. lant De Aert ende noordwaerts aende beke, gelyck ende in
                     sulcker maniere ende met ende op alsulcker gerechticheden ende servituten als
-                    voorgenoemde parceelen lants achtergelaeten sijn bij wijlen <rs type="person"
-                        ref="#berge_michiel">Michiel van Berge</rs> der voors. comparante
+                    voorgenoemde parceelen lants achtergelaeten sijn bij wijlen <rs type="person" ref="../register/register-person.xml#berge_michiel">Michiel van Berge</rs> der voors. comparante
                     moederlycke grootvaeder was, ende bij de selve vercregen heeft bij transporte
-                    respective opde <date when="1608-01-31">lesten dach January anno XVI<hi
-                            rend="super">c</hi>. acht</date> ende <date when="1611-07-19">XIX<hi
-                            rend="super">e</hi>. July anno XVI<hi rend="super">c</hi>. elff</date> voor
-                    Schepene deser Stadt gepasseert by Jouffouwe <rs type="person" ref="#moons_alyt"
-                        >Alyt Moons</rs>, weduwe <rs type="person" ref="#janssens_gabriel">Gabriels
-                        Janssens</rs> ende <rs type="person" ref="#hoochstrate_guillaume">Guillaume
-                        van Hoochstrate</rs> ende hem comparante voors., (onder andere) opden <date
-                        when="1608-02-03">derden Februari vanden voorsijde jaer XVI<hi rend="super"
-                        >c</hi>. achtentwintich</date> aengedeylt ende te deele bevallen sijn tegens
-                        <rs type="person" ref="#couwenberge_van">Michiel van Couwenberghe</rs>,
-                    notaris als weduwenaer ende geinstitueert erffgenaem van wijlen <rs
-                        type="person" ref="#berge_lucia">Lucia van Berghe</rs> der voors. wijlen
+                    respective opde <date when="1608-01-31">lesten dach January anno XVI<hi rend="super">c</hi>. acht</date> ende <date when="1611-07-19">XIX<hi rend="super">e</hi>. July anno XVI<hi rend="super">c</hi>. elff</date> voor
+                    Schepene deser Stadt gepasseert by Jouffouwe <rs type="person" ref="../register/register-person.xml#moons_alyt">Alyt Moons</rs>, weduwe <rs type="person" ref="../register/register-person.xml#janssens_gabriel">Gabriels
+                        Janssens</rs> ende <rs type="person" ref="../register/register-person.xml#hoochstrate_guillaume">Guillaume
+                        van Hoochstrate</rs> ende hem comparante voors., (onder andere) opden <date when="1608-02-03">derden Februari vanden voorsijde jaer XVI<hi rend="super">c</hi>. achtentwintich</date> aengedeylt ende te deele bevallen sijn tegens
+                        <rs type="person" ref="../register/register-person.xml#couwenberge_van">Michiel van Couwenberghe</rs>,
+                    notaris als weduwenaer ende geinstitueert erffgenaem van wijlen <rs type="person" ref="../register/register-person.xml#berge_lucia">Lucia van Berghe</rs> der voors. wijlen
                     Anna suster was, <del rend="overstrike"><span from="" xml:lang="lat">prout littera quas tradiderunt</span>, droech
                         oppe met alle de rechten etc. te waerne van alle</del> endemeeste profyte te
-                    brengen, so hebben de voorgenoemde comparanten die door <rs type="person"
-                        ref="#frayenborch_peter">Peter van Frayenborch</rs> gesworen,
+                    brengen, so hebben de voorgenoemde comparanten die door <rs type="person" ref="../register/register-person.xml#frayenborch_peter">Peter van Frayenborch</rs> gesworen,
                     oudecleercooper ter vrijer vrijdachs merckt deser stadt diversche renten
                     openbaerlyck doch vuytroepen ende veylen te coopen eene yegelycke eve nae,
                     waeraff des vrydachs de <date when="--05-31">lesten dach der maent van
                     meye</date> lestleden als leste ende hoogste verdierdere ende d’meest daeromme
-                    biedende de palmslach vande coope ontfangen ende behooren heeft <rs
-                        type="person" ref="#loemans_jaques">Jacques Loemant</rs> voor ende tot
+                    biedende de palmslach vande coope ontfangen ende behooren heeft <rs type="person" ref="../register/register-person.xml#loemans_jaques">Jacques Loemant</rs> voor ende tot
                     behoeve vande voors. Heer Pietro Paulo Ruebens voor de somme van achthien
-                    hondert carolus guldens eens, al naer luyt vande coopcedulle byde notaris <rs
-                        type="person" ref="#fabri_d">D. Fabri</rs> onderteekent,, brieven ende
+                    hondert carolus guldens eens, al naer luyt vande coopcedulle byde notaris <rs type="person" ref="../register/register-person.xml#fabri_d">D. Fabri</rs> onderteekent,, brieven ende
                     beschreven daeraff sijnde de voorgenoemde coopers hier mede overgegeven, droech
                     oppe met allen de rechte etc. te wearen van allen commeren ende calaengien, ende
                     op daer jaerlycx vuytgaende, gebraeck yet aende coop opdracht waernisse ende

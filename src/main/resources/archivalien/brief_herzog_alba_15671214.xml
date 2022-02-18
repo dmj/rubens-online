@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_308">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_308"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <!-- ID vergeben -->
     <teiHeader>
         <fileDesc>
@@ -21,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:id="brief_herzog_alba_15671214" xml:lang="deu">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -70,8 +70,7 @@
         <body>
             <div xml:lang="fra">
                <salute>Très-chiers et bons amys, </salute>
-                <p>Comme nous estant dernièrement en la ville d'<rs type="place" ref="#antwerpen"
-                        >Anvers</rs>, vous ayons ordonné de rédiger bien particulièrement par
+                <p>Comme nous estant dernièrement en la ville d'<rs type="place" ref="../register/register-place.xml#antwerpen">Anvers</rs>, vous ayons ordonné de rédiger bien particulièrement par
                     escript tout ce que trouverez servir à vostre justiffication et descharge des
                     troubles, émotions et désordres advenuz en la dicte ville, et depuis vous faict
                     encharger le mesme par les Commissaires de Sa Majesté y députez, et que, ce
@@ -82,10 +81,8 @@
                     justiffication et descharge, ou, à faulte de ce, vous trouverez devers nous, en
                     personne, pour en faire vos excuses; et en ce ne faictes faulte. A tant,
                     très-chiers et bons amis, Nostre Seigneur vous ait en sa saincte garde. </p>
-                <closer><dateline>De <rs type="place" ref="#bruessel">Bruxelles</rs>, le <date
-                            when="1567-12-14">XIIII<hi rend="super">e</hi> de Décembre
-                        1567</date>.</dateline><salute> Desoubz escript: Bien vostre, <rs
-                            type="person" ref="#alba_herzog_iii">A. duc d'ALVA</rs>, et signé:
+                <closer><dateline>De <rs type="place" ref="../register/register-place.xml#bruessel">Bruxelles</rs>, le <date when="1567-12-14">XIIII<hi rend="super">e</hi> de Décembre
+                        1567</date>.</dateline><salute> Desoubz escript: Bien vostre, <rs type="person" ref="../register/register-person.xml#alba_herzog_iii">A. duc d'ALVA</rs>, et signé:
                         MESDACH. Sur I<hi rend="super">e</hi> doz estoit escript: A nous très-chiers
                         et bon amis, les Marcgrave, Borgmaistres, Eschevins et Conseil de la ville
                         d'Anvers.</salute></closer>

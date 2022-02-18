@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_277">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_277"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,8 +15,15 @@
                     <ptr type="crossRef" target="http://www.hab.de"/>
                 </publisher>
             </publicationStmt>
-            <sourceDesc> &register-corporate; &register-person; &register-place;
-                &register-work; <msDesc xml:lang="deu" xml:id="sweerts_monumenta_1613">
+            <sourceDesc> 
+ 
+
+ 
+
+
+                
+
+ <msDesc xml:lang="deu" xml:id="sweerts_monumenta_1613">
                     <msIdentifier>
                         <country>Deutschland</country>
                         <settlement>Wolfenbüttel</settlement>
@@ -36,8 +35,7 @@
                     </head>
                     <msContents>
                         <msItem>
-                            <filiation><note resp="A.H." type="footnote">vgl. auch die von Pierre Génard veröffentlichte <ref type="rubens" cRef="ed_rubens_101"
-                                >Abschrift des Epitaphs</ref>.</note></filiation>
+                            <filiation><note resp="A.H." type="footnote">vgl. auch die von Pierre Génard veröffentlichte <ref type="rubens" cRef="ed_rubens_101">Abschrift des Epitaphs</ref>.</note></filiation>
                         </msItem>
                     </msContents>
                     <additional>
@@ -73,54 +71,42 @@
                 <body>
                     <div part="Y" xml:lang="lat">
                         <p><pb n="143"/>D. O. M. S.<lb/>
-                            <rs type="person" ref="#pypelincx_maria">MARIAE PEPELINGIAE</rs>
-                            prudentiss.<lb/> lectiss. faeminae, quae matrimonio iuncta<lb/> fuit <rs
-                                type="person" ref="#rubens_jan">IOANNI RUBENIO</rs><index
-                                indexName="psw">
+                            <rs type="person" ref="../register/register-person.xml#pypelincx_maria">MARIAE PEPELINGIAE</rs>
+                            prudentiss.<lb/> lectiss. faeminae, quae matrimonio iuncta<lb/> fuit <rs type="person" ref="../register/register-person.xml#rubens_jan">IOANNI RUBENIO</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Rubens, Jan</term>
                             </index> I. C. &amp; Senatori<lb/>
                             <pb n="144"/><lb/>
-                            <rs type="place" ref="#antwerpen">Antverpiensi</rs>, eoque orbata
-                            viduitatem<lb/> ad diem fari per annos XXII. religiose co<lb/>luit, <rs
-                                type="person" ref="#rubens_philipp">Philippus</rs><index
-                                indexName="psw">
+                            <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiensi</rs>, eoque orbata
+                            viduitatem<lb/> ad diem fari per annos XXII. religiose co<lb/>luit, <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philippus</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Rubens, Philipp</term>
-                            </index> &amp; <rs type="person" ref="#rubens_peter_paul">Petrus
+                            </index> &amp; <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petrus
                                 Paullus Rubenij</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
-                            </index><lb/> cum nepotibus e filia <rs type="person"
-                                ref="#rubens_blandina">Blandina</rs><index indexName="psw">
+                            </index><lb/> cum nepotibus e filia <rs type="person" ref="../register/register-person.xml#rubens_blandina">Blandina</rs><index indexName="psw">
                                 <term xml:lang="deu">Rubens, Blandina</term>
-                            </index>, piae matri<lb/> &amp; B. M. F. Vixit annos LXX. <date
-                                when="1533">M. VI. D. XXIX.</date><lb/> Obijt <date
-                                when="1608-10-19">XIV. kal. Novemb. A. M. DCVIII</date>.<lb/>
+                            </index>, piae matri<lb/> &amp; B. M. F. Vixit annos LXX. <date when="1533">M. VI. D. XXIX.</date><lb/> Obijt <date when="1608-10-19">XIV. kal. Novemb. A. M. DCVIII</date>.<lb/>
                         </p>
                         <p rend="text-align:center">Ibidem.<lb/> MATRI-VIRGINI,<lb/> hanc tabulam à
                             se pictam,<lb/> de suo ornatam,<lb/> pio affectu ad opt. matris
-                            sepulcrum<lb/> commune cum uxore <rs type="person" ref="#brant_isabella"
-                                >ISABELLA BRANT</rs><index indexName="psw">
+                            sepulcrum<lb/> commune cum uxore <rs type="person" ref="../register/register-person.xml#brant_isabella">ISABELLA BRANT</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Brant, Isabella</term>
                             </index><lb/> sua sibi die PETRUS PAULUS RUBENS<lb/> L. M. D.<lb/> Ipso
                             D. MICHAELIS Archangeli,<lb/> Anno <date when="1610">M. D.
                             CX.</date><lb/> PHILIPPO RUBENIO I.C.<lb/> Ioannis ciuis &amp;
-                            Senatoris Antverp. F.<lb/> magni <rs type="person" ref="#lipsius_justus"
-                                >LIPSI</rs><index indexName="psw">
+                            Senatoris Antverp. F.<lb/> magni <rs type="person" ref="../register/register-person.xml#lipsius_justus">LIPSI</rs><index indexName="psw">
                                 <term type="PND" xml:lang="deu">Lipsius, Justus</term>
                             </index> discipulo &amp; alumno,<lb/> cuius doctrinam poenè
                             assecutus,<lb/> modestiam feliciter adaequavit:<lb/>
-                            <rs type="place" ref="#bruessel">Bruxellae</rs> Praesidi <rs
-                                type="person" ref="#richardot">RICHARDOTO</rs>;<lb/>
-                            <rs type="place" ref="#rom">Romae</rs>
-                            <rs type="person" ref="#colonna_ascanio">ASCANIO Cardinali
+                            <rs type="place" ref="../register/register-place.xml#bruessel">Bruxellae</rs> Praesidi <rs type="person" ref="../register/register-person.xml#richardot">RICHARDOTO</rs>;<lb/>
+                            <rs type="place" ref="../register/register-place.xml#rom">Romae</rs>
+                            <rs type="person" ref="../register/register-person.xml#colonna_ascanio">ASCANIO Cardinali
                             COLUMNAE</rs>.<lb/> ab epistolis &amp; studiis,<lb/> S. P. Q.
                             Antverpiensis à secretis.<lb/> Abiit non obiit, virtute &amp;
                             scriptis sibi su<lb/>perstes,<lb/>
                             <date when="1611-08-28">v. kal. Sep. an. Ch.
-                                CI&#x0186;.I&#x0186;CXI </date>aet. XXXIIXX.<lb/> Marito
-                            benemerenti <rs type="person" ref="#moy_maria">MARIA DE MOII</rs>,<lb/>
-                            duum ex illo liberorum <rs type="person" ref="#rubens_clara"
-                            >Clarae</rs>, &amp; <rs type="person" ref="#rubens_philippus"
-                                >Philip<lb/>pi</rs> mater,<lb/>
+                                CIƆ.IƆCXI </date>aet. XXXIIXX.<lb/> Marito
+                            benemerenti <rs type="person" ref="../register/register-person.xml#moy_maria">MARIA DE MOII</rs>,<lb/>
+                            duum ex illo liberorum <rs type="person" ref="../register/register-person.xml#rubens_clara">Clarae</rs>, &amp; <rs type="person" ref="../register/register-person.xml#rubens_philippus">Philip<lb/>pi</rs> mater,<lb/>
                             <lb/>
                             <pb n="145"/>propter illius eiusque matris MARIAE PII<lb/>PELINCK
                             sepulcrum<lb/> hoc moeroris &amp; amoris sui monumentum P. C.<lb/>
@@ -133,25 +119,19 @@
                 <body>
                     <div xml:lang="deu">
                         <head>Übersetzung:</head>
-                        <p>Dem besten und größten Gott sowie <rs type="person"
-                                ref="#pypelincx_maria">Maria Pypelinck</rs>, der überaus klugen und
-                            vortrefflichen Frau, welche mit dem <gap resp="N.B." reason="cancelled"
-                            /> und Senator <rs type="person" ref="#rubens_jan">Jan Rubens</rs> aus
-                                <rs type="place" ref="#entwerpen">Antwerpen</rs> ehelich verbunden
+                        <p>Dem besten und größten Gott sowie <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Maria Pypelinck</rs>, der überaus klugen und
+                            vortrefflichen Frau, welche mit dem <gap resp="N.B." reason="cancelled"/> und Senator <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Rubens</rs> aus
+                                <rs type="place" ref="../register/register-place.xml#entwerpen">Antwerpen</rs> ehelich verbunden
                             war und dort den Witwen und Waisen auf Jahr und Tag zweiundzwanzig Jahre
                             lang fromm gedient hat, der gottesfürchtigen und wohl verdienten Mutter,
-                            von <rs type="person" ref="#rubens_philipp">Philipp</rs> und <rs
-                                type="person" ref="#rubens_peter_paul">Peter Paul Rubens</rs>
-                            zusammen mit den Enkelkindern der Tochter <rs type="person"
-                                ref="#rubens_blandina">Blandina</rs> dargebracht. Gelebt hat sie
+                            von <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philipp</rs> und <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peter Paul Rubens</rs>
+                            zusammen mit den Enkelkindern der Tochter <rs type="person" ref="../register/register-person.xml#rubens_blandina">Blandina</rs> dargebracht. Gelebt hat sie
                             siebzig Jahre lang. <gap resp="N.B." reason="cancelled"/> Sie starb am
                                 <date when="1609-10-19">19. Oktober 1608</date> ebendort. Der
                             Jungfrau und Mutter hat Peter Paul Rubens dieses von ihm geschaffene
                             Gemälde, dessen Zierde ihr frommes Wesen ist, zur Vortrefflichkeit des
-                            mütterlichen Grabmals zusammen mit seiner Ehefrau <rs type="person"
-                                ref="#brant_isabella">Isabella Brant</rs>
-                            <gap resp="N.B." reason="cancelled"/> gestiftet. <gap resp="N.B."
-                                reason="cancelled"/>“</p>
+                            mütterlichen Grabmals zusammen mit seiner Ehefrau <rs type="person" ref="../register/register-person.xml#brant_isabella">Isabella Brant</rs>
+                            <gap resp="N.B." reason="cancelled"/> gestiftet. <gap resp="N.B." reason="cancelled"/>“</p>
                     </div>
                 </body>
             </text>

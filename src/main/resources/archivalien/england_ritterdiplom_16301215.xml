@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_205">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_205"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="england_ritterdiplom_16301215">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -65,10 +64,7 @@
     <text>
         <body>
             <div part="Y" xml:lang="lat">
-                <p><rs type="person" ref="#charles_i_england">Carolus</rs> Dei gratia <rs
-                        type="place" ref="#england">Magnae Britanniae</rs>, <rs type="place"
-                        ref="#frankreich">Franciae</rs> et <rs type="place" ref="#irland"
-                    >Hiberniae</rs> Rex<index indexName="psw">
+                <p><rs type="person" ref="../register/register-person.xml#charles_i_england">Carolus</rs> Dei gratia <rs type="place" ref="../register/register-place.xml#england">Magnae Britanniae</rs>, <rs type="place" ref="../register/register-place.xml#frankreich">Franciae</rs> et <rs type="place" ref="../register/register-place.xml#irland">Hiberniae</rs> Rex<index indexName="psw">
                         <term type="PND">Charles (England, King, I.)</term>
                     </index><index indexName="psw">
                         <term type="PND">Karl (England, König, I.)</term>
@@ -78,16 +74,12 @@
                     nec natura nostra melius, quam ut velimus, nec fortuna nostra majus, quam ut
                     possimus virtutem condignis praemiis afficere, et eo dignitatis nos sciamus à
                     divina bonitate evectos, ut habeant boni quem suspiciant meritorum humanorum
-                    remuneratorem publicum, a Summo proximum, nos ex bonorum numero selegimus <rs
-                        type="person" ref="#rubens_peter_paul">Petrum Paulum Rubenium</rs> ex urbe
-                        <rs type="place" ref="#antwerpen">Antverpiae</rs> oriundum, Serenissimi Regis
-                        <rs type="place" ref="#spanien">Hispaniarum</rs>
-                    <rs type="person" ref="#philipp_iv_spanien">Philippi</rs><index indexName="psw">
+                    remuneratorem publicum, a Summo proximum, nos ex bonorum numero selegimus <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Petrum Paulum Rubenium</rs> ex urbe
+                        <rs type="place" ref="../register/register-place.xml#antwerpen">Antverpiae</rs> oriundum, Serenissimi Regis
+                        <rs type="place" ref="../register/register-place.xml#spanien">Hispaniarum</rs>
+                    <rs type="person" ref="../register/register-person.xml#philipp_iv_spanien">Philippi</rs><index indexName="psw">
                         <term type="PND">Philipp (Spanien, König, IV.)</term>
-                    </index> Secretarium et ejusdem Senatus privati in <rs type="place"
-                        ref="#flandern">Flandria</rs> Consiliarum, serenissimae Infantae <rs
-                        type="person" ref="#isabella_von_spanien">Isabellae Clarae Eugeniae</rs><index
-                        indexName="psw">
+                    </index> Secretarium et ejusdem Senatus privati in <rs type="place" ref="../register/register-place.xml#flandern">Flandria</rs> Consiliarum, serenissimae Infantae <rs type="person" ref="../register/register-person.xml#isabella_von_spanien">Isabellae Clarae Eugeniae</rs><index indexName="psw">
                         <term type="PND">Isabella (Spanien, Infantin)</term>
                     </index> ex Famulitio Aulico Nobilem et virum, cum, magno erga nos et subditos
                     nostros affectu et meritis, nobis apprime charum, tum vero maxime, insigni erga
@@ -107,11 +99,10 @@
                     Petrus Paulus Rubenius et haeredes ejus masculi de corpore suo legitime procreati
                     additamentum praedictum in clypeis et insignibus suis gestare atque uti possint
                     in perpetuum, eademque haec omnia et singula Serenissimos Regem Hispaniarum et
-                    Archiducissam <rs type="place" ref="#oesterreich">Austriae</rs> praefatos grata
+                    Archiducissam <rs type="place" ref="../register/register-place.xml#oesterreich">Austriae</rs> praefatos grata
                     habituros minime dubitamus.</p> <closer><salute>In quorum testimonium has litteras nostras fieri
                     fecimus patentes.</salute>
-                        <dateline> Dat. apud Palatium nostrum <rs type="place" ref="#westminster"
-                        >Westmonasteriense</rs>
+                        <dateline> Dat. apud Palatium nostrum <rs type="place" ref="../register/register-place.xml#westminster">Westmonasteriense</rs>
                     <date when="1630-12-15">decima quinta die Decembris, anno regni nostri sexto,
                         verum a Virginis partu salutifero supra millesimum sexcentesimum
                         tricesimo</date>.</dateline>

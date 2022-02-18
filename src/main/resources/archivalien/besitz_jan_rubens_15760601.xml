@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_310">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_310"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <!-- ID vergeben -->
     <teiHeader>
         <fileDesc>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:id="besitz_jan_rubens_15760601" xml:lang="deu">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -65,12 +64,11 @@
         <body>
             <div xml:lang="nld">
 
-                <p>Ick, <rs type="person" ref="#pypelincx_maria">MARIE PYPELINCKX</rs>, huysvrouwe
-                    van <rs type="person" ref="#rubens_jan">JANNE RUEBENS</rs>, vercleere midts
+                <p>Ick, <rs type="person" ref="../register/register-person.xml#pypelincx_maria">MARIE PYPELINCKX</rs>, huysvrouwe
+                    van <rs type="person" ref="../register/register-person.xml#rubens_jan">JANNE RUEBENS</rs>, vercleere midts
                     desen, ende belove dat ick alsulcken obligatie ende transport van goeden, als
                     mijnen man, onder sijn hant ende seghel, voer getuyghen, desen ooek onderscreven
-                    hebbende, den <date when="1576-05-31">lesten Mey 1576</date>, te <rs
-                        type="place" ref="#siegen">Sieghen</rs> heeft gepasseert, houde ende achte
+                    hebbende, den <date when="1576-05-31">lesten Mey 1576</date>, te <rs type="place" ref="../register/register-place.xml#siegen">Sieghen</rs> heeft gepasseert, houde ende achte
                     voer doot ende van niet, sulckx dat onse kinderen oft myne erfgenamen, noch
                     niemant anders hem daer mede sal moghen behelpen teghens mijnen voerseyden man,
                     oft daer vuyt ennighe actie pretenderen, soe volcken als ick quaeme voer hem te
@@ -90,10 +88,8 @@
                     hebbende, daer toe van mij geroepen. </p>
                 <closer><dateline>Datum te Sieghen, den <date when="1576-06-01">eersten Junius
                             1576</date>. </dateline>
-                    <signed rend="text-align:center">MARIE PIPELINCKX.</signed><signed
-                        rend="text-align:center"> Hanc esse Mariae Pepelinc voluntatem me ex ipsa
-                        cognovisse testor <lb/> PETRUS XIMENIUS.</signed><signed
-                        rend="text-align:center">Hanc esse Mariae Pepelinc voluntatem me ex ipsa
+                    <signed rend="text-align:center">MARIE PIPELINCKX.</signed><signed rend="text-align:center"> Hanc esse Mariae Pepelinc voluntatem me ex ipsa
+                        cognovisse testor <lb/> PETRUS XIMENIUS.</signed><signed rend="text-align:center">Hanc esse Mariae Pepelinc voluntatem me ex ipsa
                         cognovisse testor <lb/> MEFRIEDUS SCHWART, Siegensis.</signed></closer>
             </div>
         </body>

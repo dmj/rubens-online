@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_067">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_067"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,10 +17,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-397-585">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -68,46 +67,37 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p>Ten versuecke van jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie
-                        Pijpelincx</rs>, weduwe wijlen Meester <rs type="person" ref="#rubens_jan"
-                        >Jans Rubbens</rs>, in sijnen levene Schepene deser stadt.<lb/> 
-                    Meester <rs type="person" ref="#brueseghem_andries">Andries van
-                        Brueseghem</rs>, Schepene deser stadt, Joncker <rs type="person"
-                        ref="#haller_lazarus">Lazarus Haller</rs>, oudt omtrent 41 jaren, woonende
-                    in de Meere alhier, ende Joncker <rs type="person" ref="#meere_gillis">Gillis de
+                <p>Ten versuecke van jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie
+                        Pijpelincx</rs>, weduwe wijlen Meester <rs type="person" ref="../register/register-person.xml#rubens_jan">Jans Rubbens</rs>, in sijnen levene Schepene deser stadt.<lb/> 
+                    Meester <rs type="person" ref="../register/register-person.xml#brueseghem_andries">Andries van
+                        Brueseghem</rs>, Schepene deser stadt, Joncker <rs type="person" ref="../register/register-person.xml#haller_lazarus">Lazarus Haller</rs>, oudt omtrent 41 jaren, woonende
+                    in de Meere alhier, ende Joncker <rs type="person" ref="../register/register-person.xml#meere_gillis">Gillis de
                         Meere</rs>, Schepen op de Halle alhier, Juraverunt, dat sij wel kennen ende
                     van joncx aff gekent hebben de vier kinderen van de voors. producente ende van
-                    den voors. wijlen heuren manne, namentlijck <rs type="person"
-                        ref="#rubens_baptist">Jan Baptista</rs>, <rs type="person"
-                        ref="#rubens_philipp">Philips</rs>, <rs type="person"
-                        ref="#rubens_peter_paul">Pieter Pauwels</rs> ende <rs type="person"
-                        ref="#rubens_blandina">Blandina Ruebens</rs>, ende dat sij wel weten ende
+                    den voors. wijlen heuren manne, namentlijck <rs type="person" ref="../register/register-person.xml#rubens_baptist">Jan Baptista</rs>, <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips</rs>, <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pieter Pauwels</rs> ende <rs type="person" ref="../register/register-person.xml#rubens_blandina">Blandina Ruebens</rs>, ende dat sij wel weten ende
                     waerachtig is, te wetene de voors. M.<hi rend="super">r</hi>
-                    <rs type="person" ref="#brueseghem_andries">Andries van Bruesegen</rs>, dat de
+                    <rs type="person" ref="../register/register-person.xml#brueseghem_andries">Andries van Bruesegen</rs>, dat de
                     voors. producente met hare voors. kinderen in de jaren 83, 84 ende 85
-                    continuelijck tot <rs type="place" ref="#koeln">Colen</rs> heeft gewoont ende
+                    continuelijck tot <rs type="place" ref="../register/register-place.xml#koeln">Colen</rs> heeft gewoont ende
                     fixe domicilie gehouden, Joncker Lazarus Haller, dat de vors. producente met
                     huere voorseyde vier kinderen, sesse jaren voor de reconciliatie deser stadt met
-                    Sijne Majesteyt, continuelijcken tot <rs type="place" ref="#koeln"
-                        >Cuelen</rs><index indexName="stw">
+                    Sijne Majesteyt, continuelijcken tot <rs type="place" ref="../register/register-place.xml#koeln">Cuelen</rs><index indexName="stw">
                         <term xml:lang="deu">Köln</term>
                     </index> heure residentie heeft gehouden, ende de
                     voors. Joncker Gillis de Meere: dat hij de voors. producente met huere voors.
-                    kinderen oyck bynnen der voorschreve stadt van Colen tzedert jaer <date
-                        when="1577">XV<hi rend="super">c</hi> LXXVII</date> continuelijcken heeft
+                    kinderen oyck bynnen der voorschreve stadt van Colen tzedert jaer <date when="1577">XV<hi rend="super">c</hi> LXXVII</date> continuelijcken heeft
                     weten te woonen, tot het jaer tachtentich, als wanneer hij affirmant van daer is
                     vertrocken, blijvende de voors. producente met hare kinderen hare residentie
                     aldaer continuerende. Affirmerende voorts de voors. affirmanten, dat de voors.
                     produzente alhier bynnen deser stadt, met hare 3 kinderen, van Colen, over
                     omtrent drye vierendeelen jaers, is commen woonen, ende dat den outsten sone,
                     namentlijck Jan Baptista, meer als drij jaren ende een halff, van Colen vorseyt,
-                    naer <rs type="place" ref="#italien">Italien</rs> is getrocken. Redene van
+                    naer <rs type="place" ref="../register/register-place.xml#italien">Italien</rs> is getrocken. Redene van
                     wetenheyt allegeerende de voors. affirmanten, want zij den voors. tijt
                     geduerende respective met voors. producente ende heure kinderen altijt goede
                     ende familiere kennisse hebben gehouden.</p>
                     <closer>
-                        <dateline>Die <date when="1589-11-24"
-                        >vigesimo quarto Novembris 1589</date>.
+                        <dateline>Die <date when="1589-11-24">vigesimo quarto Novembris 1589</date>.
                         </dateline>
                     </closer>
             </div>

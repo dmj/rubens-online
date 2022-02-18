@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_142">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_142"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +14,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc> 
-                &register-corporate; 
-                &register-person; 
-                &register-place;
-                &register-work; 
+                
+ 
+                
+
+ 
+                
+
+
+                
+
+ 
                 <msDesc xml:lang="deu" xml:id="SAA_sig-n-2707">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -49,11 +48,9 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 196<ptr type="gbv" cRef="146162595"
-                                /></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 196<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
-                                Schilderschool. Antwerpen 1883, S. 374<ptr type="gbv" cRef="194552292"
-                                /></bibl>
+                                Schilderschool. Antwerpen 1883, S. 374<ptr type="gbv" cRef="194552292"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -63,54 +60,43 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> [<date when="1618-08-28">28 Augusti 1618</date>.]<lb/> Signors <rs type="person"
-                        ref="#brueghel_jan_aeltere">Jan Breugels</rs><index indexName="psw">
+                <p> [<date when="1618-08-28">28 Augusti 1618</date>.]<lb/> Signors <rs type="person" ref="../register/register-person.xml#brueghel_jan_aeltere">Jan Breugels</rs><index indexName="psw">
                         <term type="PND">Breughel, Jan (der Ältere) </term>
-                    </index>, oudt omtrent achtenveertich jaren, <rs type="person"
-                        ref="#balen_hendrik">Henrick van Balen</rs><index indexName="psw">
+                    </index>, oudt omtrent achtenveertich jaren, <rs type="person" ref="../register/register-person.xml#balen_hendrik">Henrick van Balen</rs><index indexName="psw">
                         <term type="PND">Balen, Hendrik van (Künstler, 1575-1632)</term>
-                    </index>, out dryenveertich jaren ende <rs type="person"
-                        ref="#rubens_peter_paul">Peetro Paulo Rubbens</rs>, oudt eenenveertich
+                    </index>, out dryenveertich jaren ende <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Peetro Paulo Rubbens</rs>, oudt eenenveertich
                     jaren, alle schilders, poorters ende ingesetenen deser stadt, mij notario wel
-                    bekent, Ende hebben, ten versuecke van Signor <rs type="person"
-                        ref="#smit_laureys">Laureys des Smit</rs>, bij manne waerheyt, eedt
+                    bekent, Ende hebben, ten versuecke van Signor <rs type="person" ref="../register/register-person.xml#smit_laureys">Laureys des Smit</rs>, bij manne waerheyt, eedt
                     presenterende des versocht sijnde, geattesteert hoe dat sij onlancx geleden
                     alhier binnen deser stadt gesien hebben in den winckel van den voorschreven
                     Laureys de Smit, eenige stucken tapisserijen gevrocht met gout, silver, sijde
-                    ende saeyet, van de <rs type="work" ref="#romano_scipio_zyklus">Historie van
+                    ende saeyet, van de <rs type="work" ref="../register/register-work.xml#romano_scipio_zyklus">Historie van
                         Chipion ende Hanibal</rs><note resp="A.H." type="footnote">Zu Giulio Romanos
                         Scipio-Zyklus vgl. <bibl>Reynold Arnould: Jules Romain: l' histoire de
-                            Scipion; tapisseries et dessins. Paris 1978.</bibl></note><index
-                        indexName="stw">
+                            Scipion; tapisseries et dessins. Paris 1978.</bibl></note><index indexName="stw">
                         <term xml:lang="deu">Scipio-Zyklus</term>
                     </index>, ende dat het patroon, daernaer die gemaect zijn, is de teeckeninge van
-                        <rs type="person" ref="#romano_giulio">Julio Romano</rs><note resp="A.H."
-                        type="footnote">Dass Peter Paul Rubens sich mit Giulio Romanos Scipio-Zyklus
-                        auch auseinandersetzte, zeigt eine heute im Louvre befindliche <rs
-                            type="work" ref="#triumph_scipio_zeichnung">Zeichnung Rubens'</rs>, die
-                        sich deutlich an der <rs type="work" ref="#triumph_4">Szene der Liktoren und
-                            Musiker</rs> aus dem Triumph des Scipio orientiert.</note><index
-                        indexName="psw">
+                        <rs type="person" ref="../register/register-person.xml#romano_giulio">Julio Romano</rs><note resp="A.H." type="footnote">Dass Peter Paul Rubens sich mit Giulio Romanos Scipio-Zyklus
+                        auch auseinandersetzte, zeigt eine heute im Louvre befindliche <rs type="work" ref="../register/register-work.xml#triumph_scipio_zeichnung">Zeichnung Rubens'</rs>, die
+                        sich deutlich an der <rs type="work" ref="../register/register-work.xml#triumph_4">Szene der Liktoren und
+                            Musiker</rs> aus dem Triumph des Scipio orientiert.</note><index indexName="psw">
                         <term type="PND">Romano, Giulio</term>
-                    </index>, fameus <rs type="place" ref="#italien">Italiaens</rs> schilder,
-                    discipel was van <rs type="person" ref="#raffael">Raphaël Durbino</rs><index
-                        indexName="psw">
+                    </index>, fameus <rs type="place" ref="../register/register-place.xml#italien">Italiaens</rs> schilder,
+                    discipel was van <rs type="person" ref="../register/register-person.xml#raffael">Raphaël Durbino</rs><index indexName="psw">
                         <term type="PND">Raffaello (Sanzio)</term>
                     </index><index indexName="psw">
                         <term type="PND">Raffael </term>
-                    </index>, metten welcken hij in compaignie werckende was ende oyck desselffs <rs
-                        type="place" ref="#urbino">Durbino</rs> erffgenaeme geinstitueert ende
+                    </index>, metten welcken hij in compaignie werckende was ende oyck desselffs <rs type="place" ref="../register/register-place.xml#urbino">Durbino</rs> erffgenaeme geinstitueert ende
                     oversulcx een van de fraeyste patroonen die sij attestanten alhier binnen deser
                     stadt gesien hebben. Affirmerende tgene voorschreven geseegt te hebbene voor de
-                    gerechte waerheyt. Consenterende etc. <rs type="person" ref="#aldus">Aldus</rs>
-                    gedaen tH<rs type="place" ref="#antwerpen">antwerpen</rs>, ter presentiën van
-                        <rs type="person" ref="#cock_michiel">Michiel de Cock</rs> ende <rs
-                        type="person" ref="#peetermans_christiaen">Christiaen Peetermans</rs>, als
+                    gerechte waerheyt. Consenterende etc. <rs type="person" ref="../register/register-person.xml#aldus">Aldus</rs>
+                    gedaen tH<rs type="place" ref="../register/register-place.xml#antwerpen">antwerpen</rs>, ter presentiën van
+                        <rs type="person" ref="../register/register-person.xml#cock_michiel">Michiel de Cock</rs> ende <rs type="person" ref="../register/register-person.xml#peetermans_christiaen">Christiaen Peetermans</rs>, als
                     getuygen, etc. </p>
                 <closer>
-                    <signed><rs type="person" ref="#brueghel_jan_aeltere">Jean Brueghel</rs></signed><lb/>
-                    <signed><rs type="person" ref="#balen_hendrik">Hendrick van Balen</rs></signed><lb/>
-                    <signed><rs type="person" ref="#rubens_peter_paul">Pietro Pauolo Rubens</rs></signed>
+                    <signed><rs type="person" ref="../register/register-person.xml#brueghel_jan_aeltere">Jean Brueghel</rs></signed><lb/>
+                    <signed><rs type="person" ref="../register/register-person.xml#balen_hendrik">Hendrick van Balen</rs></signed><lb/>
+                    <signed><rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pietro Pauolo Rubens</rs></signed>
                 </closer>
             </div>
         </body>

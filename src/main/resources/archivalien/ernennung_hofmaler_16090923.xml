@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_100">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_100"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,10 +12,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="ernennung_hofmaler_16090923">
                     <msIdentifier>
                         <repository>unbekannt</repository>
@@ -51,18 +50,15 @@
                             <bibl>Louis Prosper Gachard: Particularités et documents inédits sur Rubens. In:
                                 Trésor national. Bd. 1, 1842, S. 161-163</bibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
-                                zijne bloedverwanten. Antwerpen 1877, S. 415-418<ptr type="gbv"
-                                    cRef="146162595"/></bibl>
+                                zijne bloedverwanten. Antwerpen 1877, S. 415-418<ptr type="gbv" cRef="146162595"/></bibl>
                             <bibl>Max Rooses, Charles Ruelens: Correspondance de Rubens et documents
                                 épistolaires concernant sa vie et ses auvres. (Codex diplomaticus Rubenianus
-                                ; T. 1-6) Antwerpen 1887-1909, Bd. 2, S. 6-7, Nr. CXVIII<ptr type="gbv"
-                                    cRef="446864137"/></bibl>
+                                ; T. 1-6) Antwerpen 1887-1909, Bd. 2, S. 6-7, Nr. CXVIII<ptr type="gbv" cRef="446864137"/></bibl>
                             <bibl>Marcel De Maeyer: Albrecht en Isabella en de schilderkunst : bijdrage tot
                                 de geschiedenis van de XVII.-eeuwsw schilderkunst in de zuidelijke
                                 Nederlanden. (Verhandelingen van de Koninklijke Vlaamse Academie voor
                                 wetenschappen, letteren en schone kunsten van België. Klasse der Schone
-                                Kunsten. Bd. 9) Brüssel 1955, S. 293f., Nr. 62<ptr type="opac"
-                                    cRef="303752092"/></bibl>
+                                Kunsten. Bd. 9) Brüssel 1955, S. 293f., Nr. 62<ptr type="opac" cRef="303752092"/></bibl>
                             <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
                                 Gerechtsgebouw, 15.-30. Oktober 1977, S. 255, Nr. 240</bibl>
                         </listBibl></additional></msDesc>
@@ -82,30 +78,13 @@
         <body>
             <div part="Y" xml:lang="fra">
                 <p>
-                    <rs type="person" ref="#albrecht_von_oesterreich">Albert</rs> et <rs
-                        type="person" ref="#isabella_von_spanien">Isabel-Clara-Eugenia</rs> Infante
-                        d’<rs type="place" ref="#spanien">Espaigne</rs>, par la grâce de Dieu,
-                    Archiducqz d’<rs type="place" ref="#oesterreich">Austrice</rs>, Ducqz dc <rs
-                        type="place" ref="#burgund">Bourgoingne</rs>, de <rs type="place"
-                        ref="#lothringen">Lothier</rs>, de <rs type="place" ref="#brabant"
-                    >Brabant</rs>, de <rs type="place" ref="#limburg">Lembourg</rs>, de <rs
-                        type="place" ref="#luxemburg">Luxembourg</rs> et de <rs type="place"
-                        ref="#geldern">Geldres</rs>, Contes de <rs type="place" ref="#habsburg"
-                        >Habsbourg</rs>, de <rs type="place" ref="#flandern">Flandres</rs>, d’<rs
-                        type="place" ref="#artois">Arthois</rs>, de Bourgoingne, de <rs type="place"
-                        ref="#tirol">Thirol</rs>, <rs type="place" ref="#palatin">Palatin</rs>, et
-                    de <rs type="place" ref="#haynnau">Haynau</rs>, de <rs type="place"
-                        ref="#holland">Hollande</rs>, de <rs type="place" ref="#zeeland"
-                    >Zelande</rs>, de <rs type="place" ref="#namur">Namur</rs> et de <rs
-                        type="place" ref="#zutphen">Zutphen</rs>, Marquis du <rs type="place"
-                        ref="#roemisches_reich">St. Empire de Rome</rs>, Seigneur et Dame de <rs
-                        type="place" ref="#friesland">Frize</rs>, de <rs type="place" ref="#salins"
-                        >Salins</rs>, de <rs type="place" ref="#mechelen">Malines</rs>, des cité,
-                    villes et pays d’<rs type="place" ref="#utrecht">Utrecht</rs>, d’<rs
-                        type="place" ref="#overijssel">Overyssel</rs> et de <rs type="place"
-                        ref="#groningen">Groeninge</rs>, à tous ceulx qui ces présentes verront,
+                    <rs type="person" ref="../register/register-person.xml#albrecht_von_oesterreich">Albert</rs> et <rs type="person" ref="../register/register-person.xml#isabella_von_spanien">Isabel-Clara-Eugenia</rs> Infante
+                        d’<rs type="place" ref="../register/register-place.xml#spanien">Espaigne</rs>, par la grâce de Dieu,
+                    Archiducqz d’<rs type="place" ref="../register/register-place.xml#oesterreich">Austrice</rs>, Ducqz dc <rs type="place" ref="../register/register-place.xml#burgund">Bourgoingne</rs>, de <rs type="place" ref="../register/register-place.xml#lothringen">Lothier</rs>, de <rs type="place" ref="../register/register-place.xml#brabant">Brabant</rs>, de <rs type="place" ref="../register/register-place.xml#limburg">Lembourg</rs>, de <rs type="place" ref="../register/register-place.xml#luxemburg">Luxembourg</rs> et de <rs type="place" ref="../register/register-place.xml#geldern">Geldres</rs>, Contes de <rs type="place" ref="../register/register-place.xml#habsburg">Habsbourg</rs>, de <rs type="place" ref="../register/register-place.xml#flandern">Flandres</rs>, d’<rs type="place" ref="../register/register-place.xml#artois">Arthois</rs>, de Bourgoingne, de <rs type="place" ref="../register/register-place.xml#tirol">Thirol</rs>, <rs type="place" ref="../register/register-place.xml#palatin">Palatin</rs>, et
+                    de <rs type="place" ref="../register/register-place.xml#haynnau">Haynau</rs>, de <rs type="place" ref="../register/register-place.xml#holland">Hollande</rs>, de <rs type="place" ref="../register/register-place.xml#zeeland">Zelande</rs>, de <rs type="place" ref="../register/register-place.xml#namur">Namur</rs> et de <rs type="place" ref="../register/register-place.xml#zutphen">Zutphen</rs>, Marquis du <rs type="place" ref="../register/register-place.xml#roemisches_reich">St. Empire de Rome</rs>, Seigneur et Dame de <rs type="place" ref="../register/register-place.xml#friesland">Frize</rs>, de <rs type="place" ref="../register/register-place.xml#salins">Salins</rs>, de <rs type="place" ref="../register/register-place.xml#mechelen">Malines</rs>, des cité,
+                    villes et pays d’<rs type="place" ref="../register/register-place.xml#utrecht">Utrecht</rs>, d’<rs type="place" ref="../register/register-place.xml#overijssel">Overyssel</rs> et de <rs type="place" ref="../register/register-place.xml#groningen">Groeninge</rs>, à tous ceulx qui ces présentes verront,
                     Salut. Sçavoir faisons que, pour le bon rapport que faict nous a esté de la
-                    personne de <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>,
+                    personne de <rs type="person" ref="../register/register-person.xml#rubens_peter_paul">Pierre-Paul Rubens</rs>,
                     et de ses sens et grande expérience, tant en faict da paincture, que de
                     plusieurs aultres artz, nous confians à plain de ses léaulté et bonne diligence,
                     eu sur ce l’advis de nos très-chers ct féaulx les chiefs, trésorier-général et
@@ -119,7 +98,7 @@
                     traictement de cincq cens livres, du pris de quarante gros de nostre monaye de
                     Flandres la livre, par an, dont voulons et ordonnons qu’il soit payé et contenté
                     par les mains de nostre amé et féal conseiller et receveur-général de nosdictes
-                    finances, <rs type="person" ref="#godin_christophe">Christophe Godin</rs>,
+                    finances, <rs type="person" ref="../register/register-person.xml#godin_christophe">Christophe Godin</rs>,
                     présent et advenir, depuis cejourd’huy en avant, de demy-an en demy-an, par
                     esgale portion, et au surplus aux droitz, honneurs, libertez, exemptions et
                     franchises accoustumez et y appertenans, et dont joyssent aultres noz
@@ -132,8 +111,7 @@
                     promettre ny donner à qui ce soit, aulcun argent, ny aultre chose quelconcque,
                     ny le donner directement ou indirectement, ny aultrement, en anlcune maniére,
                     saulf et excepté ce que s’est accoustumé donner pour les dépesches, et ce ès
-                    mains de nostre chier et féal Messire <rs type="person" ref="#salinas_ferdinand"
-                        >Ferdinand de Salinas</rs>, Conseiller et Maistre aux requestes ordinaires
+                    mains de nostre chier et féal Messire <rs type="person" ref="../register/register-person.xml#salinas_ferdinand">Ferdinand de Salinas</rs>, Conseiller et Maistre aux requestes ordinaires
                     de nostre Conseil privé que commectons à ce, et luy mandons que, ledict serment
                     faict par ledict Pierre-Paul Rubens, comme dict est, ille mecte et institue de
                     par nous en possession et joyssance dudict office de paintre de nostre hostel,
@@ -151,8 +129,7 @@
                     esté à la cause dicte, estre passé et alloué en la despense des comptes, et
                     rabattu des deniers de la recepte de nostre dict Receveur-général des financcs,
                     présent ou aultre advenir, qu’il appertiendra et payé l’aura, par noz amez et
-                    féaulx les Président et gens de nostre Chambre des comptes a <rs type="place"
-                        ref="#lille">Lille</rs>, ausquelz mandons semblablement ainsy le faire, sans
+                    féaulx les Président et gens de nostre Chambre des comptes a <rs type="place" ref="../register/register-place.xml#lille">Lille</rs>, ausquelz mandons semblablement ainsy le faire, sans
                     aulcune difficulté: car ainsi nous plaist-il, nonobstant que ces presentes ne
                     sont signées de nostre andiencier et premier secrétaire seul signant en noz
                     finances, estant présentement absent pour nostre service, et les ordonnances y
@@ -161,20 +138,17 @@
                     
                     <closer>
                         <salute>En tesmoing de ce, nous avons faict mettre nostre seel à icelles.</salute> 
-                        <dateline>Donné en nostre ville de <rs type="place" ref="#bruessel"
-                        >Bruxelles</rs>, le <date when="1609-09-23">vingt-troisiesme jour de
+                        <dateline>Donné en nostre ville de <rs type="place" ref="../register/register-place.xml#bruessel">Bruxelles</rs>, le <date when="1609-09-23">vingt-troisiesme jour de
                         Septembre l’an de grâce mil six cens et noeuf</date>.
                         </dateline>
                         
                         <note resp="N.B." type="footnote">Das Schreiben ist in Rot mit dem Sigel des Erzherzogs
                         versehen. Darunter steht geschrieben:</note>
                         
-                        <signed>le <rs type="person" ref="#montmorency_nicolas">Baron de Haveskercke, S<hi rend="super"
-                        >r</hi> de Vendegies</rs>, chief<lb/>
-                    <rs type="person" ref="#sterck_philippe">Philippe Sterck</rs>, <rs type="person"
-                        ref="#enntieres_jehan">Jehan d’Enntières</rs>, commis des finances, et
+                        <signed>le <rs type="person" ref="../register/register-person.xml#montmorency_nicolas">Baron de Haveskercke, S<hi rend="super">r</hi> de Vendegies</rs>, chief<lb/>
+                    <rs type="person" ref="../register/register-person.xml#sterck_philippe">Philippe Sterck</rs>, <rs type="person" ref="../register/register-person.xml#enntieres_jehan">Jehan d’Enntières</rs>, commis des finances, et
                     aultres présens<lb/> 
-                    d’<rs type="place" ref="#enghien">Enghien</rs></signed></closer>
+                    d’<rs type="place" ref="../register/register-place.xml#enghien">Enghien</rs></signed></closer>
             </div>
         </body>
        

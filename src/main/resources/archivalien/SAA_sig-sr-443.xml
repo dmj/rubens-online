@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
-    xml:lang="deu" xml:id="ed_rubens_080">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_080"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,10 +13,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc> 
-                &register-corporate; 
-                &register-person; 
-                &register-place;
-                &register-work; 
+                
+ 
+                
+
+ 
+                
+
+
+                
+
+ 
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-443">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -43,8 +40,7 @@
                             
                             <filiation>
                                 <note resp="A.H." type="footnote">Vgl. auch den Erwerb einer Rente
-                                    durch Peter Paul Rubens von Claudius d’Ongnyes am <ref
-                                        type="rubens" cRef="ed_rubens_126">22. September 1614</ref> und ein Dokument <ref type="rubens" cRef="ed_rubens_080a">aus den Stadsrekeningen</ref>  von 1579/80.
+                                    durch Peter Paul Rubens von Claudius d’Ongnyes am <ref type="rubens" cRef="ed_rubens_126">22. September 1614</ref> und ein Dokument <ref type="rubens" cRef="ed_rubens_080a">aus den Stadsrekeningen</ref>  von 1579/80.
                                    
                                 </note>
                             </filiation>
@@ -58,8 +54,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten
-                                meester en zijne bloedverwanten. Antwerpen 1877, S. 342f.<ptr
-                                    type="gbv" cRef="146162595"/></bibl>
+                                meester en zijne bloedverwanten. Antwerpen 1877, S. 342f.<ptr type="gbv" cRef="146162595"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -78,37 +73,24 @@
     <text>
         <body>
             <div xml:lang="nld">
-                <p> Jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs> weduwe
-                    wijlen Meesters <rs type="person" ref="#rubens_jan">Jan Ruebens</rs>, Schepen
-                    was deser stadt, cum tutore, ende jouffrouwen <rs type="person"
-                        ref="#pypelincx_susanne">Susanna Pypelincx</rs>, heur Sustere, met <rs
-                        type="person" ref="#schot_peeter">Peeter de Schot</rs>, ejus marito et
+                <p> Jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Marie Pypelincx</rs> weduwe
+                    wijlen Meesters <rs type="person" ref="../register/register-person.xml#rubens_jan">Jan Ruebens</rs>, Schepen
+                    was deser stadt, cum tutore, ende jouffrouwen <rs type="person" ref="../register/register-person.xml#pypelincx_susanne">Susanna Pypelincx</rs>, heur Sustere, met <rs type="person" ref="../register/register-person.xml#schot_peeter">Peeter de Schot</rs>, ejus marito et
                     tutore, bekenden dat zij, volgende den accorde ende contract tusschen den voors.
-                    Peeter de Schot ende Joncker <rs type="person" ref="#doyenbrugge_philip_rene"
-                        >Philips-René Doyenbrugge</rs> als momboir van Joncker <rs type="person"
-                        ref="#dorgnies_claude">Claude Dorgnies</rs>, Heer van <rs type="place"
-                        ref="#morckhoven">Morchoven</rs>, den <date when="1596-02-12">XII<hi
-                            rend="super">en</hi> Februarij anno sessentnegentich</date> lestleden
-                    voor <rs type="person" ref="#prestere_nicasius">Nicasius de Pretre</rs>, als
-                    Notaris tot <rs type="place" ref="#bruessel">Brussel</rs>, in presentie van
+                    Peeter de Schot ende Joncker <rs type="person" ref="../register/register-person.xml#doyenbrugge_philip_rene">Philips-René Doyenbrugge</rs> als momboir van Joncker <rs type="person" ref="../register/register-person.xml#dorgnies_claude">Claude Dorgnies</rs>, Heer van <rs type="place" ref="../register/register-place.xml#morckhoven">Morchoven</rs>, den <date when="1596-02-12">XII<hi rend="super">en</hi> Februarij anno sessentnegentich</date> lestleden
+                    voor <rs type="person" ref="../register/register-person.xml#prestere_nicasius">Nicasius de Pretre</rs>, als
+                    Notaris tot <rs type="place" ref="../register/register-place.xml#bruessel">Brussel</rs>, in presentie van
                     sekere getuygen gepasseert, ende mits de voldoeninge hem gedaen vande negen
-                    hondert vierendertich Carolus guldenen 4 stupers <measure type="currency"
-                        quantity="0.45">¾</measure> eens, inden voors. accorde vermelt, overgegeven,
-                    gecedeert ende geretransporteert hebben, gaven over, etc. <rs type="person"
-                        ref="#wauzijn_anthonis">Anthoni de Wauzijn</rs>, als rentmeester ende tot
+                    hondert vierendertich Carolus guldenen 4 stupers <measure type="currency" quantity="0.45">¾</measure> eens, inden voors. accorde vermelt, overgegeven,
+                    gecedeert ende geretransporteert hebben, gaven over, etc. <rs type="person" ref="../register/register-person.xml#wauzijn_anthonis">Anthoni de Wauzijn</rs>, als rentmeester ende tot
                     behoeff vanden voors. Joncker Claude Dorgnies, Heer van Morchoven, hier mede
                     comparerende ende tselve tot behoeff als vore accepterende, de viertich Carolus
-                    guldenen erffelijck metten achterstelle daeraff verloopen tsedert <term
-                        type="stw">Kersmisse<index indexName="stw">
+                    guldenen erffelijck metten achterstelle daeraff verloopen tsedert <term type="stw">Kersmisse<index indexName="stw">
                             <term type="SWD" xml:lang="deu">Weihnachten</term>
                         </index></term> negenentachtentich lestleden herwaerdere, die men jaerlicx
                     heeft ende heffende is opt corpus deser stadt, wesende gereduceert gelt, staende
-                    te boecke op <rs type="person" ref="#herbaeys_loyse">Loyse Herbaeys</rs>,
-                    daerinne sij comparanten opden <date when="1584-04-17">XVII<hi rend="super"
-                        >en</hi> Aprilis, anno vierentachtentich</date> lestleden bij Joncker <rs
-                        type="person" ref="#stralen_jan">Jan van Stralen</rs>, Heer van <rs
-                        type="place" ref="#merksem">Marcxem</rs> ende <rs type="place"
-                        ref="#dambrugge">Dambrugge</rs>, Amptman inder stadt alhier nomine officii,
+                    te boecke op <rs type="person" ref="../register/register-person.xml#herbaeys_loyse">Loyse Herbaeys</rs>,
+                    daerinne sij comparanten opden <date when="1584-04-17">XVII<hi rend="super">en</hi> Aprilis, anno vierentachtentich</date> lestleden bij Joncker <rs type="person" ref="../register/register-person.xml#stralen_jan">Jan van Stralen</rs>, Heer van <rs type="place" ref="../register/register-place.xml#merksem">Marcxem</rs> ende <rs type="place" ref="../register/register-place.xml#dambrugge">Dambrugge</rs>, Amptman inder stadt alhier nomine officii,
                     gegoeyt sijn geweest, prout litteræ quas tradidernt, droegen oppe, te waerne van
                     allen commeren ende calaengien, die zij oft ijemant anders san hennentwegen
                     daerop gemaect mouchten hebben ende anders nijet; voorts is te wetene dat de

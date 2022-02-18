@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI [
-<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
-<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
-<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
-<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
-]
->
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
-    xml:id="ed_rubens_079">
+<TEI xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_079"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -27,10 +18,17 @@
                 </publisher>
             </publicationStmt>
             <sourceDesc>
-                &register-corporate;
-                &register-person;
-                &register-place;
-                &register-work;
+                
+
+                
+
+
+                
+
+
+                
+
+
                 <msDesc xml:lang="deu" xml:id="SAA_sig-sr-440-295">
                     <msIdentifier>
                         <country>Belgien</country>
@@ -52,8 +50,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
-                            bloedverwanten. Antwerpen 1877, S. 344f.<ptr type="gbv" cRef="146162595"
-                            /></bibl>
+                            bloedverwanten. Antwerpen 1877, S. 344f.<ptr type="gbv" cRef="146162595"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
@@ -73,36 +70,27 @@
         <body>
             <div xml:lang="nld">
                 <p>
-                    <rs type="person" ref="#rubens_philipp">Philips Rubens</rs>, voor hem selven;
-                    deselve Philips Ruebens ende jouffrouwe <rs type="person" ref="#pypelincx_maria"
-                        >Maria Pypelincx</rs>, zijn moeder, met eenen momboor heur gegeven metten
-                    rechte, inden name van <rs type="person" ref="#rubens_baptist">Janne</rs> ende
-                    jouffrouwe <rs type="person" ref="#rubens_blandina">Blandina Ruebens</rs>, oic
-                    derselver jouffrouwe Marie ende wijlen Meesters <rs type="person"
-                        ref="#rubens_jan">Jans Ruebens</rs> wettich soon ende dochter, ende <rs
-                        type="person" ref="#parcq_simeon">Symeon du Parcq</rs>, derselver jouffrouwe
+                    <rs type="person" ref="../register/register-person.xml#rubens_philipp">Philips Rubens</rs>, voor hem selven;
+                    deselve Philips Ruebens ende jouffrouwe <rs type="person" ref="../register/register-person.xml#pypelincx_maria">Maria Pypelincx</rs>, zijn moeder, met eenen momboor heur gegeven metten
+                    rechte, inden name van <rs type="person" ref="../register/register-person.xml#rubens_baptist">Janne</rs> ende
+                    jouffrouwe <rs type="person" ref="../register/register-person.xml#rubens_blandina">Blandina Ruebens</rs>, oic
+                    derselver jouffrouwe Marie ende wijlen Meesters <rs type="person" ref="../register/register-person.xml#rubens_jan">Jans Ruebens</rs> wettich soon ende dochter, ende <rs type="person" ref="../register/register-person.xml#parcq_simeon">Symeon du Parcq</rs>, derselver jouffrouwe
                     Blandina man ende momboor, daervore zij hen sterc maecten ende geloofden hen
                     tnabescreven behoorlijc te doen lauderen ende ratificeren, bekenden dat zij ten
-                    behoeve van jouffrouwe <rs type="person" ref="#balbani_alexandrina">Alexandrine
-                        Balbani</rs>, weduwe wijlen <rs type="person" ref="#goes_peter">Peters
+                    behoeve van jouffrouwe <rs type="person" ref="../register/register-person.xml#balbani_alexandrina">Alexandrine
+                        Balbani</rs>, weduwe wijlen <rs type="person" ref="../register/register-person.xml#goes_peter">Peters
                         vander Ghoes</rs>, derwelcker opte nabescreven huysinghe is competerende
                     eene erfrente van twee hondert guldenen sjaers metten verloope, gerenuntieert
                     ende vertheghen hebben, renuntieren ende vertheghen onwederroepelijc mits desen,
                     eene huysinghe met plaetse, halven ende heelen borneputte, achterhuyse ende
-                    galerije, gronde ende allen den toebehoorten, geheeten Sint-Jan<index
-                        indexName="stw">
+                    galerije, gronde ende allen den toebehoorten, geheeten Sint-Jan<index indexName="stw">
                         <term xml:lang="nld">Sint Jan</term>
                     </index>, gestaen op Sinte-Catlijnenveste alhier, dwelc der voornoemde
-                    jouffrouwe Marien kinderen competeerde bij versterf van wijlen Joufrrouwe <rs
-                        type="person" ref="#spirinx_barbara">Barbara Ahrens</rs>, henne grootmoeder,
-                    ende bij scheydinghe ende deylinge den <date when="1576-08-06">VI<hi
-                            rend="super">en</hi> Augusti anno XV<hi rend="super">c</hi>LXXVI</date>
+                    jouffrouwe Marien kinderen competeerde bij versterf van wijlen Joufrrouwe <rs type="person" ref="../register/register-person.xml#spirinx_barbara">Barbara Ahrens</rs>, henne grootmoeder,
+                    ende bij scheydinghe ende deylinge den <date when="1576-08-06">VI<hi rend="super">en</hi> Augusti anno XV<hi rend="super">c</hi>LXXVI</date>
                     gepasseert voor Schepenen deser stadt, tusschen derfgenamen derselver wijlen
-                    Barbare ende van wijlen <rs type="person" ref="#lantmeter_jan">Janne de
-                        Lantmeter</rs>, heuren tweeden man was, die daerinne opden <date
-                        when="1551-04-29">XXIX<hi rend="super">en</hi> Aprilis anno XV<hi
-                            rend="super">c</hi>LI</date>, bijden Amptman deser stadt<index
-                        indexName="gsw">
+                    Barbare ende van wijlen <rs type="person" ref="../register/register-person.xml#lantmeter_jan">Janne de
+                        Lantmeter</rs>, heuren tweeden man was, die daerinne opden <date when="1551-04-29">XXIX<hi rend="super">en</hi> Aprilis anno XV<hi rend="super">c</hi>LI</date>, bijden Amptman deser stadt<index indexName="gsw">
                         <term type="TGN" xml:lang="deu">Antwerpen</term>
                     </index>, van weghen zijnder offitien, gcgoeyt ende geerft is geweest, prout
                     litteræ, omme deselve huysinghe metten toebehoorten bijde voornoemde jouffrouwe
