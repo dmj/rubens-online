@@ -5518,7 +5518,7 @@
                             <cell>fiorini 500</cell>
                             <cell>San Pietro<index indexName="psw">
                                     <term type="GND" xml:lang="deu">Rubens, Peter Paul (männlich)</term>
-                                    <index indexName="stw">Petrus</index>
+                                    <index indexName="stw"><term xml:lang="deu">Petrus</term></index>
                                 </index> toleva del pesce il statere da pagar il censo, con altri
                                 pescatori attorno cavati del naturale. Originale de mia mano.</cell>
                             <cell>7</cell>
