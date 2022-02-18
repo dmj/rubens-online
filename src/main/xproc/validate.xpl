@@ -40,6 +40,18 @@
     </p:validate-with-schematron>
   </p:group>
 
+  <p:group>
+    <p:documentation>Validate TEI documents</p:documentation>
+    <p:for-each>
+      <p:with-input select="$registry//mets:file[@MIMETYPE = 'application/tei+xml']"/>
+      <p:variable name="filepath" as="xs:string" select="resolve-uri(mets:file/mets:FLocat/@xlink:href, $basedir)"/>
+      <p:validate-with-schematron message="{$filepath}">
+        <p:with-input port="source" href="{$filepath}"/>
+        <p:with-input port="schema" href="{resolve-uri('../schema/tei.sch', static-base-uri())}"/>
+      </p:validate-with-schematron>
+    </p:for-each>
+  </p:group>
+
   <p:sink/>
 
 </p:declare-step>
