@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_166">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Das <term>Adelspatent</term> für Peter Paul Rubens wird durch Philipp IV.
+                    bewilligt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="adelspatent_bewilligung_16240914">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: Les armes de la famille de Rubens</collection>
+                        <idno>Bewilligung des von Peter Paul Rubens beantragten Adelspatentes durch Philipp IV. 
+                            vom 14. September 1624 und Eintrag vom 2. Februar 1680</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Das Adelspatent für Peter Paul Rubens wird durch Philipp IV.
+                            bewilligt</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           <filiation>
+                                <note resp="A.H." type="footnote">Vgl. die Beantragung des Adelsprädikates vom <ref type="rubens" cRef="ed_rubens_164">29. Januar 1624</ref>,
+                                    das englische Ritterdiplom von König Karl I. vom <ref type="rubens" cRef="ed_rubens_205">15. Dezember 1630</ref>, 
+                                    sowie die Urkunde vom <ref type="rubens" cRef="ed_rubens_212">20. August 1631</ref>, in der Philipp IV. Rubens das Adels-Privileg zuerkannte.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                   <history>
+                       <origin>
+                           <origDate when="1624-09-14">14. September 1624</origDate>
+                           <origPlace>Madrid</origPlace>
+                           
+                       </origin>
+                   </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Pierre Génard: Les armes de la famille de Rubens</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                    <listBibl>
+                        <bibl>Pierre Génard: Les Armes de la famille Rubens, in:
+                            Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, 1888, S. 71-74</bibl>
+                    </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Adelsprädikat</term>
+                    <term xml:lang="deu">Adelspatent</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="fra">               
+                    
+                        <salute><rs type="person" ref="#philipp_iv_spanien"><hi rend="smallCaps">Philippe</hi>
+                    </rs><index indexName="psw"><term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
+                    </index>, par la grâce de Dieu, roy de <rs type="place" ref="#kastilien"
+                        >Castille</rs>, etc. <gap resp="N.B." reason="cancelled"/> à tous présens et à venir qui ces présentes
+                        verront, salut.</salute>
+                    <lb/>
+                <p>De la part de nostre très cher et bien-amé <rs
+                        type="person" ref="#rubens_peter_paul">P<hi rend="smallCaps">ierre-Paul
+                            Rubens</hi></rs>, nous a esté très humblement remontré qu’il seroit issu
+                    de parens fort honorables qui auroient tousjours esté fidèles vassaux et servi à
+                    nos prédécesseurs, leurs princes naturels, de glorieuse mémoire, en offices et
+                    charges principales, avec beaucoup d’intégrité, particulièrement son père <rs
+                        type="person" ref="#rubens_jan">
+                        <hi rend="smallCaps">Jan Rubens</hi>
+                    </rs>, docteur ès droicts, en celle d’eschevin de nostre ville d’<rs
+                        type="place" ref="#antwerpen">Anvers</rs>, et <rs type="person"
+                        ref="#rubens_philipp">P<hi rend="smallCaps">hilippe Rubens</hi></rs>, son
+                    frère, de sècretaire de laditte ville, et que le remonstrant, suivant leurs
+                    gestes et vestiges, s’auroit dès sa jeunesse appliqué à la vertu, bonnes lettres
+                    et peinture, fréquentant plusiers royaumes et provinces pour ce rendreplus
+                    capable et habile,et que, pour sa grande et rare expérience, feu nostre très
+                    cher et très amé bon oncle l’archiduc <rs type="person"
+                        ref="#albrecht_von_oesterreich">Albert</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog, VII.)</term>
+                    </index>, de très haute mémoire, et nostre très-chère et très-amée bonne tante
+                    madame <rs type="person" ref="#isabella_von_spanien"
+                        >Isabel-Clara-Eugénia</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin) </term>
+                    </index>, par la grâce de Dieu infante d’<rs type="place" ref="#spanien"
+                    >Espagne</rs>, etc., l’auroient, par leurs lettres patentes du <date
+                        when="1609-09-23">23<hi rend="super">me</hi> jour de septembre l’an
+                    1609</date>, receu et retenu à l’office de peintre de leur hostel<index
+                        indexName="stw">
+                        <term xml:lang="deu">Hofmaler</term>
+                    </index>, aux gages et tractement de cinc cens florins par an, et autres
+                    privilèges, franchises et libertez plus au loing déduites ès dittes lettres
+                    patentes; duquel il s’étoit tousjours aquitté avec particulière satisfaction de
+                    Leurs Altesses; et désirant le continuer à l’avenir, afin aussy d’estre
+                    encouragé à nous servir avecq plus de lustre, il s’est retiré devers nous et
+                    nous a supllié très humblement que nostre bon plaisir soit de l’honeur du titre
+                    et privilège de noblesse pour lui et sa postérité née et à naistre, sans payer
+                    finances, veu qu’il est serviteur domestique de l’hostel de nostre ditte très
+                    chère et très amée bonne tante, et sur ce luy faire despêcher nos lettres
+                    patentes en tel cas pertinentes: savoir faisons que nous, les choses susdittes
+                    considérées et eu égard à la grande renommée que let suppliant at mérité et
+                    acquis par l’excellence de l’art de peinture et rare expérience en icelles,
+                    comme aussy par la science qu’il a des histoires et langues et autres belles
+                    qualitez et parties qu’il posséde et le rendent digne de nostre royal faveur,
+                    avons pour nous, nos hoirs et successeurs, de nostre certaine science, authorité
+                    souveraine et grâce spéciale, par ces présentes, audit <hi rend="smallCaps"
+                        >Pierre-Paul Rubens</hi> suppliant et à ses enfans et postérité mâle et
+                    femelle, nés et à naistre en léal mariage, accordé et octroyé, accordons et
+                    octroyons à tousjours ledit titre et degré de noblesse, voulons et ordonnons que
+                    ledit suppliant, ses enfans et postérité, et les descendans d’eux, nés et à
+                    naistre en léal mariage, comme dict est, ayent à jouyr et user, jouyssent et
+                    usent d’icy en avant et à tousjours comme vrais nobles, en tous lieux, actes et
+                    besoignes, des honneurs, prérogatives, prééminences, libertez, franchises et
+                    exemptions de noblesse dont les autres nobles de tous nos pays et seigneuries
+                    signament en nos <rs type="place" ref="#niederlande">Pays-Bas</rs>, ont
+                    accoustumé de jauyr, jouyssent et jouyront; et qu’il et sa postérité soyent en
+                    tous leurs faicts et actes tenus et réputés pour nobles, en toutes places, soit
+                    en jugement ou dehors, comme les déclarons et créons tels par ces mesmes
+                    présentes; et que semblablement ledit suppliant soit et sera capable et qualifié
+                    pour estre eslevé et establi ès dignitez soit de chevalier ou autres; et qu’il
+                    et sa postérité puissent en tout temps acquérir, tenir et posséder en tous nos
+                    pays et seigneuries, signament en nos dictz Pays-Bas, rentes, renvenus,
+                    possessions et autres choses mouvantes de nos fiefs, arrière-fiefs et tous
+                    autres nobles tenemens, et iceux prendre et tenir de nous et d’autres signeurs
+                    féodaux, de qui ils seront dépendans. Et si aucunes des choses susdittes ils ont
+                    jà acquis, les tenir et posséder sans estre constarints de par nous ou d’autres
+                    les mettre hors de leurs mains, à quoy nous les habilitonset rendons suffisans
+                    et idoines; et de nostre plus ample libéralité et munificence, avons pour les
+                    dittes raisons audit <hi rend="smallCaps">Pierre-Paul Rubens</hi> suppliant,
+                    quitté, dispensé et remis, quittons, dispensons et remettons de grâce spéciale
+                    par ces présentes, la finance et somme de deniers qui se paye ordinairement une
+                    fois pour et à cause de semblables octroys et anoblissemens; faisant en outre
+                    vers nous et nosdits hoirs et successeurs les devoirs y appartenans, selons la
+                    nature et condition d’iceux fiefs et biens acquis ou à acquérir, et la coustume
+                    du pays où ils sont situez.</p>
+                    <p>Et afin que l’estat de noblesse dudit
+                    suppliant, desdits enfans et postérité soit plus notoire, cognu et authorisé,
+                    leur avons donné, octroyé et permis, donnons, octroyons et permettons qu’il, ses
+                    dits enfants et postérité, nés et à naistre en léal mariage, comme dict est,
+                    puissant et pourront doresnavent et perpétuellement en tous et quelsconques leur
+                    faictz, gestes et autres actes licites et honnestes, avoir et porter les armes
+                    et blasons qui s’ensuyvent, sçavoir est un escu parti en face, le dessus d’or à
+                    un cornet de sable, et deux quintefeuilles aux cantons, percées d’or, les
+                    dessous d’azur à une fleur de lis d’or, l’heaume ouvert et treillé, les
+                    hachements et borlet d’or et d’argent, et pour le cimier la mesme fleurs de lis
+                    d’or, comme elles sont peintes et figurées au milieu de ses dittes présentes. Si
+                    donnons en mandement à nos très chers et féaux les chef-président et gens de nos
+                    privé et grand-conseil, chef-trésorier-général et commis de nos domaines et
+                    finances, chancelier et consaux de nostre conseil en <rs type="place"
+                        ref="#brabant">Brabant</rs>, président et consaux de nostre chambre des
+                    comtes illecq, et à tous autres nos justiciers et officiers, présens et à venir,
+                    lieutnans et chascun d’eux endroit soy, et si comme à luy appertiendra, et
+                    autres nos subjects, que sans le payement de ladite finance et somme d’argent,
+                    lesdits de nos comptes procèdent bien et deuement à la vérification et
+                    entérinement de ces dittes présentes, selon leur forme et teneur, et, ce fait,
+                    ils facent, souffrent et laissent ledit <hi rend="smallCaps">Pierre-Paul
+                    Rubens</hi>, lesdits enfans et postérité en léal mariage, de nostre présente
+                    grâce, octroy et anoblissement et de tout le contenu en ces dittes présentes,
+                    pleinement, paisiblement et perpétuellement jouyr et user, sans leur faire,
+                    mettre ou donner ny souffrir estre fait, mis ou donné à aucun d’eux, contre la
+                    teneur de ces présentes, contredict, destourbier ou empeschement quelconque; car
+                    ainsy nous plaist-il et voulons estre fait, nonobstant quelsconques ordonnances,
+                    statuts, coustumes et autres choses au contraire, desquelles nous avons relevé
+                    et dispensé, relevons et dispensons les dits de nos finances et de nos dits
+                    comptes de Brabant, et tous autres à qui ce peut toucher ou regarder. et afin
+                    que ce soit chose ferme et stable à tousjours, nous avons signé ces présentes de
+                    nostre nom et à icelles fait mettre nostre gran scel, sauf en autre chose nostre
+                    droit de celuy d’autruy en toutes.</p>
+                <closer>
+                    <dateline>Donné en nostre ville de <rs type="place" ref="#madrid">Madrid</rs>, 
+                        royaume de Castille, le <date when="1624-06-05">cinquième jour du mois de juin, l’an de grâce 1624</date>,
+                    et de nos règnes le quatriesme<note resp="A.H." type="footnote">Philipp IV. regierte von 1621-1665</note>, etc.
+                    </dateline><lb/>
+                    <signed>Philippe.</signed><lb/>
+                    <salute>Par le roy:</salute>
+                    <signed><rs type="person" ref="#bruneau">Bruneau.</rs></signed>
+                </closer>
+            </div>
+            <div xml:lang="fra">
+                <p/><closer><dateline>Enregistré le <date when="1680-02-02">2 fév. 1680</date>, à <rs type="place"
+                    ref="#bruessel">Bruxelles</rs>, par le premier roi d’armes provinciale,</dateline><signed> <rs
+                        type="person" ref="#lannoy_p">P. de Lannoy.</rs></signed></closer>
+               
+                
+            </div>
+        </body>
+        
+    </text>
+</TEI>

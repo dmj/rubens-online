@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_069">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akte des Antwerpener Magistrats bezüglich Forderungen gegenüber der Familie
+                    de Gavarelles</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-402">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1591/ I: Moy &amp; Neesen</collection>
+                        <idno type="signatur">SR 402, fol 136r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Akte des Antwerpener Magistrats bezüglich Forderungen gegenüber
+                            der Familie de Gavarelles</title>
+                    </head>
+                  
+                    <history>
+                        <origin>
+                            <origDate when="1591-02-11">11. Februar 1591</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 329f.<ptr type="gbv" cRef="146162595"
+                            /></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu">Gavarelles</term>
+                    <term type="TGN" xml:lang="deu">Antwerpen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Jouffrouwe <rs type="person" ref="#pypelincx_maria">Maria Pypelincx</rs>, <rs
+                        type="person" ref="#pypelincx_hendrick">Henricx</rs> dochtere wijlen, daer
+                    moeder aff was jouffrouwe <rs type="person" ref="#touion_clara">Clara
+                    Colyns</rs>, weduwe wijlen Meester <rs type="person" ref="#rubens_jan">Jans
+                    Rubbens</rs>, Scepene deser stadt geweest zijnde, <span from="" xml:lang="lat">cum tutore</span>, 
+                    vercocht ende
+                    liet affquyten den momboiren ende tot behoeff vande wettigen kinderen wijlen
+                    Meester <rs type="person" ref="#gavarelles_jan">Jans de Gaverelles</rs>, daer
+                    moeder aff was jouffrouwe <rs type="person" ref="#struyve_johanna">Johanna
+                        Struyve</rs>, die sevenendertich Carolus guldenen ende thien stuvers
+                    erfflijck, metten achterstelle daeraff gevallen ende verschenen, die de voors.
+                    Meester <rs type="person" ref="#gavarelles_jan">Jan van Gaverelles</rs>,
+                    Greffier vande Lakenhalle alhier, <span from="" xml:lang="lat">cum suis</span>, opden <date when="1521-05-31"
+                        >lesten May anno XV<hi rend="super">c</hi> ende eenentzeventich</date>
+                    vercocht hebben gehadt <rs type="person" ref="#pypelincx_hendrick">Henricken
+                        Pypelinck</rs> ende jouffrouwe Clara Colyns, zijn huysvrouwe, ierst op een
+                    stede met huyse, hove, lande, <span from="" xml:lang="lat">fundo et pertinentiis</span>, groot drije vierendeel
+                    bunders, gestaen ende gelegen tot <rs type="place" ref="#edegem">Edeghem</rs>,
+                    inden Elst, tusschen sHeerenstraete, oost- ende zuytwaert, ende <rs
+                        type="person" ref="#verbert_jan">Jans Verbert</rs> erve, westwaert, item op
+                    noch een stuck lants <span from="" xml:lang="lat">cum fundo et pertinentiis</span>, geheeten nu ter tijt tGroot
+                    halff Bunder, gelegen tEdegem voors. opt Hoochvelt, groot een halff bunder, item
+                    op noch een vierendeel lants metter schueren daerop staende, <span from="" xml:lang="lat">fundo et
+                    pertinentiis</span>, gelegen inde prochie van <rs type="place" ref="#edegem"
+                    >Edinghen</rs>, tusschen der Heeren van <rs type="corporate"
+                        ref="#pitzenborch_mechelen">Pitzenborch</rs> erve, ende op noch een halff
+                    bunder lants <span from="" xml:lang="lat">cum fundo et pertinentiis</span>, gelegen tEdegem voors., tusschen <rs
+                        type="person" ref="#maes_anthonis">Anthonis Maes</rs> erve, oostwaert, ende
+                        <rs type="person" ref="#persant_jan">Jans Persants</rs> erve, westwaert,
+                    comende, noortwaert, aen des Goidshuys van <rs type="corporate"
+                        ref="#antwerpen_abtei_st_michiels">Sinte Michiels</rs> erve, verschijnende
+                    jaerlijcx <date when="--06-01">1<hi rend="super">a</hi> Junij</date>, al prout
+                    <span from="" xml:lang="lat">litteræ quas tradidit</span> ende welcke rente haer comparante toecomen bleven ende
+                    verstorven is vanden voors. hueren vadere ende moedere ende die haer, onder
+                    andere, in sekere scheydinge ende deylinghe tusschen huer comparante et suos,
+                    opden <date when="1583-10-27">XXVII<hi rend="super">en</hi> Octobris anno
+                            XV<hi rend="super">c</hi>LXXXIII</date>, voor Scepenen dezer stadt
+                    gepasseert te deele bevallen is. Droech oppe, te waerne van allen commer ende calaengien.</p>
+                <closer>
+                    <dateline>
+                        <date when="1591-02-11">XI<hi rend="super">a</hi> Februarij 1591</date>.
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

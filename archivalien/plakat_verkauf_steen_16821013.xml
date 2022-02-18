@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_255">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Plakat zur Ankündigung des Verkaufes des Landgutes Het Steen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="plakat_verkauf_steen_16821013">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Max Rooses: Huwelijks-Voorwaarden van P. P. Rubens en Helena Fourment</collection>
+                        <idno>Plakat zur Ankündigung des Verkaufes des Landgutes Het Steen vor dem 13. Oktober 1682</idno></msIdentifier>
+                    <head>
+                        <title>Plakat zur Ankündigung des Verkaufes des Landgutes Het Steen</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Zum Erwerb von Het Steen vgl. auch die Akten vom
+                                    <ref type="rubens" cRef="ed_rubens_224">12. Mai 1635</ref>, <ref
+                                        type="rubens" cRef="ed_rubens_225">1. Dezember 1635</ref> und <ref type="rubens"
+                                            cRef="ed_rubens_227">23. Februar 1636</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notAfter="1682-10-13">vor dem 13. Oktober 1682</origDate>
+                        </origin>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Max Rooses: Huwelijks-Voorwaarden van P. P. Rubens en Helena Fourment</bibl></source></recordHist></adminInfo></additional></msDesc>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">De Heerlyckheyt ende Goederen van Steen</hi>
+                </head>
+                <p>Ghelegen tot <rs type="corporate" ref="#st_hubertus_elewijt">S. Huybrechts
+                    Elewyt</rs> by Perck tusschen <rs type="place" ref="#eppegem">Eppegem</rs> ende
+                        <rs type="place" ref="#weerde">Weerde</rs> toe-behoorende de kinderen van
+                    wijlen den Heere Pedro <rs type="person" ref="#rubens_peter_paul">Paulo Rubbens
+                        Riddere</rs>, ende Vrouwe <rs type="person" ref="#fourment_helene">Helena
+                        Fourment</rs>.<lb/> Te koop tot <rs type="place" ref="#bruessel"
+                    >Brussel</rs> inde kamer van <rs type="place" ref="#ukkel">Uckel</rs>, Ghestaen
+                    binnen den Stadts-huyse teghen over de Thresorije Deynsdagh den <date
+                        when="1682-10-13">13. October 1682</date>, naer den noen ten dry uren, ende
+                    soo voorts van 14 tot 14 daghen, met winste van Palmslagh ende Hooghen.<lb/> In
+                    den eersten een Hof-stadt met de groote steene Huysinghen ende andere schoone
+                    Edificien in forme van een Casteel<index indexName="stw">
+                        <term xml:lang="nld">Het Steen</term>
+                    </index> daerop staende, met den Hof, Boomgaert, Fruyt-boomen, op treckende
+                    Brugghe, met een groote Motte, ende den grooten hooghen vierkantighen Thoren in
+                    ’t midden van deselve Motte rontsomme syne Vyvers gheleghen, met oock het
+                    Neer-hof met syne appaerte Pachters-wooninghen, Schueren, diversche Stallinghen,
+                    ende alle hunne andere toe-behoorten, t’ saemen groot vier Bunderen 50 Roeden
+                    rontsomme in syne Water-grechten. Item de Plantagien, diversche Dreven ende
+                    Warande wel beset soo met schoone groote op-gaende Eycken als andere, rontsomme
+                    de voorsz. ende naer-volghende Goederen staende.</p>
+            </div>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">Weyden ende Bemden onder <rs type="place" ref="#elewijt"
+                            >Elewyt</rs>.</hi>
+                </head>
+                <p>Item een Eussel, ofte Weyde met het Bempdeken daer aen, groot sesse Bunderen ende
+                    een Daghwant, gheleghen onder Elewyt voorsz. komende tegens de Goederen van de
+                    Godtshuysen van <rs type="corporate" ref="#abtei_ter_kameren">Ter Cameren</rs>
+                    ende <rs type="corporate" ref="#st_servaas_grimbergen">Grimberghen</rs>. Item
+                    eenen Bempt gheheeten de dry Bunderen, groot dry Bunderen ende een half,
+                    ghelegen onder Elewyt, kommende tegens de Leybeke, teghens de Dreve van dese
+                    Goederen ende teghens de Wey-bempden.<lb/>Item eenen Bempt geheeten het Kleyn
+                    Roesbroeck, groot twee Bunderen ghelegen tot Elewyt, waer af een half Bunder in
+                    Landt bekeert is. <lb/>Item eenen Bempt gheheeten het Groot Roesbroeck met dem
+                    Savoir-bempt, groot vier Bunderen, ghelegen tot Elewyt kommende teghens de
+                    Leybeke, ende met dry zyden teghens dese Goederen.<lb/>Item een half Daghwant
+                    Bempts gheleghen odner Elewyt in de Wey-bempden, kommende teghens de Leybeke,
+                    ende teghens de Goederen van den Heere Baron <rs type="person"
+                        ref="#perck_baron">van Perck.</rs><lb/>Item een half Daghwant Wissel-bempt,
+                    gheleghen onder Elewyt, kommende tegens de Goederen van N<gap reason="illegible"
+                    /></p>
+            </div>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">Weyden ende bempden onder Eppegem</hi>
+                </head>
+                <p>Item een Block gheheeten de Thien Bunderen daer men van Steen naer Eppegem gaet,
+                    wesende eene Weyde groot sesse Bunderen ende 60 Roeden, ghelegen onder Eppegem,
+                    kommende teghens de Visch-poel ter eenre de goederen van Grimberghen ter
+                    tweeder, ende teghens dese goederen ter derder zijde.<lb/>Item eenen Bempt met
+                    de Grachten daer aen, gheleghen onder Eppegem, groot vyf Bunderen ende 85
+                    Roeden, kommende teghens de goederen van <rs type="person" ref="#merstraeten_n"
+                            >N<gap reason="illegible"/> van Merstraeten</rs> ter eenre, de
+                    Wey-bempden, ter tweeder, de goederen van Mynheer <rs type="person"
+                        ref="#schoefs">Schoefs</rs> ter derder, ende teghens deze goederen ter
+                    vierder zyde.</p>
+            </div>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">Weyden ende Bempden onder Weerde</hi>
+                </head>
+                <p>Item eene Weyde groot vyf Daghwanden, ghelegen onder Weerde in ’t <rs
+                        type="place" ref="#broeck">Broeck</rs> op ’t <rs type="place"
+                        ref="#aertland">Aertlandt</rs>, kommende metter eender ende tweeder zyde
+                    tegens de goederen van <rs type="person" ref="#claes_franchois">Franchois
+                    Claes</rs>, ende van de Commanderye van <rs type="place" ref="#pitsenborgh"
+                        >Pitsenborgh</rs>.<lb/>Item noch eenen Bempt ofte Weyde groot een Bunder,
+                    ghelegen onder Weerde, kommende ter eenre tegens dese goederen, ter tweeder ende
+                    derder teghens die van Ter Cameren ende Pitsenborgh.<lb/>Item eenen Bempt ofte
+                    Weyde groot een bunder gheleghen onder Weerde, kommende teghens de voorsz.
+                    goederen van Ter Cameren ende Pitsenborgh. <lb/>De voorsz. Weyden, ende Bempden
+                    met het Voorsz. Casteel, Motte, Vyvers, ende Boomgaert groot vier bunderen ende
+                    een half als voren, beloopen ’t saemen 35 bunderen ende 45 roeden.</p>
+            </div>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">Landen onder Elewyt</hi>
+                </head>
+                <p>Item sesse bunderen winnende Landt, gheleghen onder Elewyt, kommende aen de
+                    Warande van dese Goederen ende teghens de goederen van Myn Heer <rs
+                        type="person" ref="#cordes">Cordes</rs>, ende van Mynheer <rs type="person"
+                        ref="#buren_van">van Buren</rs>.<lb/>Item een partye Landts met de voorsz.
+                    Warande, ofte Prieel met den Wyngaert met de Blocken, t’ samen groot elf
+                    bunderen ende een half gheleghen onder Elewyt op beyde zyden van de weghen daer
+                    men van t’ Casteel ter kercke van Elewyt gaet.<lb/>Item twee Daghwanden Landts
+                    gheleghen onder Elewyt lancxt den voorsz. Wyngaert ende teghens de goederen van
+                    Myn Heer van Buren.<lb/>Item een half bunder Landts gheleghen onder Elewyt op ’t
+                        <rs type="place" ref="#steen_veldt">Steen-veldt</rs> in twee stukken,
+                    kommende teghens de goederen van Myn Heer van Buren, Myn Heer <rs type="person"
+                        ref="#ghys">Ghys</rs> ende van <rs type="person" ref="#rins_franchois"
+                        >Franchois Rins</rs>.<lb/>Item een Daghwant Landts gehleghen op ’t selve
+                    steen-veldt kommende teghens dese Goederen ghenoemt de Hage, ende van Sr. <rs
+                        type="person" ref="#bruyn_n">N. de Bruyn</rs>, ende van Myn Heer van
+                    Buren.<lb/>Item twee Daghwanden Landts ghelegen op t’ selve Steen-veldt aen den
+                    Cortenvelst, kommende teghens de goederen van N. de Bruyn ende teghens dese
+                    Goederen.<lb/>Item een bunder Landts gehnoemt het Groot Budner, gheleghen op t’
+                    selve Velt, kommende teghens de goederen van den voorsz. de Bruyn, ende van Myn
+                    Heer Ghys.<lb/>Item een bunder Landts genoemt het Kleyn-Bunder gelegen op ’t
+                    selve Velt, kommende tegen het voorsz. Groot Bunder.<lb/>Item sesse Daghwanden
+                    Landts gheleghen op ’t selve velt kommende tegens de Dreve, leydende naer
+                    Eppegem.<lb/>Item een half bunder lants gheleghen onder Elewy, de Dreve naer
+                    Eppegem ten eenre, de goederen van den voorsz. Heere van Buren ende de Bruyn ter
+                    andere zyde. Alle welcke Partyen van Landen ’t saemen beloopen 22 bunderen dry
+                    daghwanden, ende daer Huerlinghen af zyn <rs type="person"
+                        ref="#govaerts_guilliam">Guilliam</rs> ende <rs type="person"
+                        ref="#govaerts_jan">Jan Govaerts</rs> met <rs type="person"
+                        ref="#verbrugghen_gielis">Gielis Verbrugghen</rs> tot Half Meert toe-komende
+                    voor 1400 gulden s’ jaers.</p>
+            </div>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">Den Heerlycken Cheyns-boeck van Steen</hi>
+                </head>
+                <p>Item den Cheyns-boeck der Heerlyckheydt van Steen voorsz. geheleghen onder
+                    voorsz. Prochie van Elewyt, hem bestreckende over de Prochien ende Dorpen van
+                    Elewyt, <rs type="place" ref="#beylant">Beylant</rs>, <rs type="place"
+                        ref="#houtem">Houtem</rs>, <rs type="place" ref="#berchby">Berchby</rs>, <rs
+                        type="place" ref="#campenhout">Campenhout</rs>, <rs type="place"
+                        ref="#steenockerzeel">Steynockerzele</rs>, Eppegem ende Weerde, bestaende in
+                    80. Items, ofte Posten, als te weten in 45 ende een half Cappuynen, in 21
+                    Gansen, in 18 Hinnen, in twee paer ende half Duyven, in sesse Molen-vaten en een
+                    Meucken Rocx, in 24 Molen-vaten Evene, in 4 Schellinghen ende 30 en een half
+                    Penninghen Tournois, in 55 ende een half Schellinghen, ende 212 Penningen eenen
+                    Hellinck Lovens, in 37 ponden ende 81 Schellinghen Payements, ende in 30
+                    stuyvers Brabants, alles Salvo justo, ende wer af de Groedenissen moeten
+                    geschieden voor Meyer ende Schepenen, ofte Lathen van de voorsz. Heerlyckheydt
+                    van Steen, alles volghens den parquementen Cheyns-boeck daer af zynde.</p>
+            </div>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">Den Leen-boeck van de Heerlyckheyt van Steen</hi>
+                </head>
+                <p>Ghelegen onder elewyt, waervan men het Bedryf ende Hofrecht heeft met het stellen
+                    van Stadt-houdere, Leenmannen ende Officier voor de naer-volghende
+                    Leen-goederen. <lb/> Bestaende in 18 a 20 Items ofte Posten, beloopenden ’tsamen
+                    elf Bunderen onbegrepen, soo Landen, Weyden ende Eussels, alles volghens den
+                    Leen-boeck daer af zynde.</p>
+            </div>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">Den Heerlycken Cheyns ende Leen-boeck van Attenvoorde</hi>
+                </head>
+                <p>Item den selvne Cheyns-boeck bestaet in vyf Items ofte Posten, te weten in een
+                    Cappuyn ende 31. ende een half Penninghen Lovens, hem bestreckende over eenighe
+                    der voorz. Dorpen, ofte daer ontrent.<lb/>Item eene Heerlyckheydt van
+                    Manschappen van <rs type="place" ref="#achterleen">Achterleenen</rs> met de
+                    voorsz. heerelycke Cheynsen, ghelegen onder de Prochie van Elewyt ende daer
+                    ontrent, ende wordt ghemeynelyck ghenoemt het Leen-hof van <rs type="place"
+                        ref="#attenvoorde">Attenvoorde</rs>, ende bestaen in 22à 23 Items ofte
+                    Posten, beloopende ’tsaemen vyfthien Bunderen onbegrepen, soo landen als Weyden,
+                    alles volghens den Leen-boeck daer afzynde. Den lesten sit-dagh. Men laet den
+                    Palmslagh daer af voor de soome van 40 000 – guldens.<lb/>Wesende alle de
+                    voorsz. Goederen vry, suyver, ende onbelast, soo van Comeren als Renten.<lb/>Den
+                    Palmslagh sal zyn hondert patacons, ende eenen gulden van elcke Hooghe doende
+                    dry guldens.</p>
+            </div>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">Men sal den palmslagh gheven.<lb/> Landt onder Elewyt.</hi>
+                </head>
+                <p>Item twee Daghwanden Landts gehlegen onder elewyt op ’t Steen-veldt tegens de
+                    goederen N<gap reason="illegible"/> de Bruyn, daer Huerlinck af is Jan Govaert.
+                    Den lesten Sitdagh. Men laet den palmslagh daer voor 170 – guldens</p>
+            </div>
+            <div xml:lang="nld">
+                <head>
+                    <hi rend="smallCaps">Eenen bosch tot Houtem onder Vilvoorden.</hi>
+                </head>
+                <p>Item eenen bosch met de boomen ende Schaerhout daerop staende, groot een half
+                    bunder ende <gap reason="illegible"/> Roeden, ter plaetse gheheeten den
+                    Dorrenbergh, daer Boschwachter af is Jan Govaerts, woonende op ’t Pacht-hof tot
+                    Steen onder elewyt. Den lesten Sitdagh.<lb/> Men laet den palmslagh daer af voor
+                    de somme van 188 – guldens. </p>
+            </div>
+        </body>
+      
+    </text>
+</TEI>

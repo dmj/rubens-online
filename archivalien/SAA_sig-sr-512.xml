@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_118">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jean Hesius gibt im Namen seiner Frau zu Protokoll, daß er Peter Paul Rubens
+                    eine jährliche Rente im Wert von 75 Gulden verkauft hat auf das Haus Den gulden
+                    Arent in der Meyerstraat und zwei Häuser im Hopland</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-512">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1614/ V: Uwens, Neesen, Waerbeeck &amp;
+                            Colijns</collection>
+                        <idno type="signatur">SR 512, fol 229r-230v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jean Hesius gibt im Namen seiner Frau zu Protokoll, daß er Peter
+                            Paul Rubens eine jährliche Rente im Wert von 75 Gulden verkauft hat
+                            auf das Haus Den gulden Arent in der Meyerstraat und zwei Häuser im
+                            Hopland</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Am <ref type="rubens" cRef="ed_rubens_197">27.
+                                    Juni 1630</ref> erhielt Rubens von Peeter und Jan van Weerde Geld für Den
+                                    gulden Arent.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1614-05-09">9. Mai 1614</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Peter Paul</term>
+                    <term xml:lang="deu">Rente</term>
+                    <term xml:lang="nld">den gulden Arent</term>
+                    <term xml:lang="deu">Hopland</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Comparerende S<hi rend="super">r</hi>
+                    <rs type="person" ref="#hesius_jean">Jean Hesius</rs>, commissaris van de vivres
+                    van den legher van sijne majesteyt ende hunne hoocheden, soo voor hem selven als
+                    inden name van jouffrouwe <rs type="person" ref="#cosch_helena">Helena van
+                    Cosch</rs>, sijne wettige huysvrouwe, die hem comparant omme tgene de
+                    nabeschreven stadt te mogen doene volcommelijck gemechticht heeft bij haere
+                    procuratie opten <date when="1607-11-22">tweentwintichsten Novembris anno XVI<hi
+                            rend="super">e</hi> ende seven</date> voor schepenen deser stadt<index
+                        indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    </index> gepasseert; welcke procuratie besegelt met derselver stadts segel ende
+                    onderteeckent <rs type="person" ref="#kieffelt_g">G. Kieffel</rs>, wij original
+                    sagen ende hoorden lesen, bekende dat hij omme eene somme gelts die hem al ende
+                    wel is vergouden vercocht heeft wel ende wettelijck S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs>, residerende
+                    binnen dese stadt tsiaers erffelijck vijfventseventich carolus guldenen tot
+                    twintich stuyvers Brabants tstuck goets ganckbaers gelts jaerlijcker ende
+                    erffelijcker rente, op eene huysinghe metten hove, gronden ende allen den
+                    toebehoorten, geheeten Den Gulden Arent, breet wesende derve voor ende achter,
+                    aen elcke zijde vierendertich voeten ende tsamen groot wesende seventhien
+                    roeden, gestaen ende gelegen in den Meyerstrate alhier tusschen <rs
+                        type="person" ref="#decker_pauwel">Pauwels de Decker</rs> erve was aen deen
+                    zijde noortwaert ende <rs type="person" ref="#turnhout_claus">Claus van
+                    Turnhout</rs> huysinge ende erve was aen dander zijde suytwaert, met noch op
+                    twee cleyne huysen of wooningen metten hove ende erve, gronden ende
+                    toebehoorten, gestaen ende gelegen in ’t <rs type="place" ref="#hoplant"
+                    >Hoplant</rs> oostwaert van den huyse ende erve, geheeten St. Christoffel ende
+                    comende achter aen derve van de voors. huysinge Den Arent in allen dewelcke hij
+                    comparant ende de voors. sijne huysvrouwe voor schepenen deser stat opten <date
+                        when="1606-01-12">twaelfsten January anno XVI<hi rend="super">c</hi> ende
+                        sesse</date> gegoeyt ende geerft zijn geweest bij heer <rs type="person"
+                        ref="#perez_marcus">Marcus Anthonius Perez</rs>, ridder, oudt Schepen deser
+                    stadt ende voordane op sijnen ende sijne huysvrouwe, persoonen ende andere
+                    hennen goeden, ruerende ende onruerende, hoedanige die wesen mochten, die hij nu
+                    hebben ende noch verijgen selen, als wij verstonden alsoo dat de voors.
+                    comparant inden name ende qualiteyt, als boven, de voors. huysinge, metten
+                    voors. hove, achterhuyse, erve, gronden ende toebehoorten, mitsgaders hunne
+                    persoonen ende alle henne andere goeden alsnu verbonden ende te pande gestelt
+                    heeft, over de voors. vijventseventich Carolus guldenen tsisers erffelijcker
+                    rente, te geldene ende te betaelene vanden voors. comparant ende sijne huysvrouw
+                    ende van hunne nacomelingen den voors. S<hi rend="super">r</hi> Pietro Paulo
+                    Rubens ende sijne nacomelinghen erffelijck ende eeuwelijck durend alle jaere
+                    opden <date when="--05-06">sevensten Meye</date>, daeraff deerste jaerrenten
+                    vallen ende verschijnen sal opden <date when="1615-05-07">sevensten Meye van den
+                        jaere XVI<hi rend="super">c</hi> ende vijfthien</date> naestvomende; ende den
+                    voors. pant geloefde hij te waerne ende te claerne tallen dagen, los vrij ende
+                    quyt van allen voor commer ende calaengien ende op nyet daer vuyt gaende
+                        behoud<hi rend="super">el</hi> dat de selve huysinge medepant is over acht
+                    schellingen Brabants grontchijs St. Lysbetten gasthuyse alhier, die vuyten
+                    voors. huyse St. Christoffel gegouden ende betaelt moeten worden ende noch over
+                    eene rente van sevenendertich guldenen thien stuyvers tsiaers den voorkinderen
+                        <rs type="person" ref="#rasieres_rombout">Rombouts de Rasieres</rs>, die <rs
+                        type="person" ref="#sterre_dirick">Dirick vander Sterre</rs> vuyt sekere
+                    sijne groote huysinge binnen <rs type="place" ref="#eindhoven">Eyndhoven</rs>
+                    gestaen, geldende ende betaelende is, ende die hij nu St. Jansmisse<note
+                        resp="A.H." type="footnote">St. Jansmisse bezeichnet den Festtag Johannes
+                        des Täufers und fällt auf den 24. Juni.</note> naestcomende lossen ende
+                    guyten moet al sonder deser panden cost, last oft schaede, naer inhoud der
+                    brieven ende anders nyet, behoudelijck dat de voors. comparant oft sijne
+                        nacom<hi rend="super">el</hi> de voors. vijventaeventich guldenen erff<hi
+                        rend="super">el</hi> t’ sal oft sullen mogen lossen ende quyten thendere
+                    goeder moeyten teenemaele elcken penninck altijt met sesthiene penningen der
+                    munts voors. ende met verschenender rent.</p>
+                <closer>
+                    <salute>Sonder argelist</salute>.
+                        <dateline><date when="1614-05-09">Nona May 1614</date> soluit</dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

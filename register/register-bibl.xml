@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listBibl type="bibliography"  xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" >
+    
+
+    <listBibl>
+        <head>Bibliographie</head>
+        <head>Quellenliteratur</head>
+
+        <bibl xml:id="aitzema_1669">Lieuwe van Aitzema: Saken van Staet En Oorlogh. s'Gravenhage:
+            Veely; Tongerloo; Doll, 1669-1699.<ptr type="opac" cRef="136472788"/></bibl>
+
+        <bibl xml:id="asterius_1615">Asterius Amasenus: S. Asterii Episcopi Amaseae Homiliae Graecè
+            &amp; Latinè nunc primùm editae Philippo Rvbenio interprete. Eivsdem Rvbeni[i]
+            Carmina, Orationes, &amp; Epistolae selectiores: itemq́ue Amicorvm in vitâ functum
+            Pietas. Antwerpen: Moretus, 1615.<ptr type="opac" cRef="617289549"/></bibl>
+
+        <bibl xml:id="ausonius_1496">Decimus Magnus Ausonius: Epigrammata. Venedig: Tacuinus,
+                14.X.1496.<ptr type="opac" cRef="388833785"/></bibl>
+
+        <bibl xml:id="baglione_1642">Giovanni Baglione: Le Vite dei Pittori, Scultori et Architetti.
+            Dal Pontificato di Gregorio XIII. del 1572. In fino a’tempi di Papa Urbano Ottavo nel
+            1642. Rom: Andrea Fei, 1642. <ptr type="gbv" cRef="134557867"/></bibl>
+
+        <bibl xml:id="baudius_1616">Dominicus Baudius: Poematum Nova Editio. Lugduni Batavorum:
+            Basson, 1616. <ptr type="opac" cRef="154844543"/></bibl>
+
+        <bibl xml:id="bellori_1672">Giovanni Pietro Bellori: Le Vite de' pittori, Scultori et
+            architetti moderni. Rom: Mascardi 1672.<ptr type="gbv" cRef="193939479"/></bibl>
+
+        <bibl xml:id="bos_1640">Lambert van den Bos: Konstkabinet van Marten Kretzer. Amsterdam:
+            Nicolaes van Ravestynn, 1640.</bibl>
+
+        <bibl xml:id="brun_1698">Charles Le Brun: Conference de Monsieur LeBrun; Sur Expression
+            generale et particuliere. Amsterdam; Paris: de Lorme; Picart, 1698. <ptr type="opac"
+                cRef="150891091"/></bibl>
+
+        <bibl xml:id="brune_1660">Johan de Brune (der Ältere): Bankket-Werk van Goede gedagten.
+            Middelburgh: Fierens, 1660.<ptr type="opac" cRef="153416564"/></bibl>
+
+        <bibl xml:id="bullart_1682">Isaac Bullart: Academie des siences et des arts. Paris: Bilaine,
+            1682. <ptr type="opac" cRef="147518768"/></bibl>
+
+        <bibl xml:id="de_bie_1662">Cornelis de Bie: Het Gulden Cabinet van de edel vry
+            Schilderconst. Antwerpen: Montfort, 1662. <ptr type="opac" cRef="35281876X"/></bibl>
+        <!-- in Opac und GBV 1661 -->
+        <bibl xml:id="florus_livio_1638">Lucius Annaeus Florus: Epitoma de Tito Livio. Leiden:
+            Elzevir, 1638<ptr type="opac" cRef="151715564"/></bibl>
+
+        <bibl xml:id="diercxsens_1773">Johannes Carolus Diercxsens: Antverpia Christo nascens et
+            crescens seu Acta ecclesiam Antverpiensiem ejusque apostolos ac viros pietate conspocuos
+            concernentia usque ad seculum XVIII. 7 Bde. Antwerpen 1773.<ptr type="gbv"
+                cRef="36254025X"/></bibl>
+
+        <bibl xml:id="domselaar_1660">T. v. Domselaar: Hollantsche Parnas, Of Verscheide Gedichten.
+            Amsterdam:Jacob Lescaille, 1660</bibl>
+
+        <bibl xml:id="felibien_1685">André Félibien: Entretiens sur les vies et sur les ouvrages des
+            plus excellens peintres anciens et modernes. Paris: Mabre-Cramoisy, 1685. <ptr
+                type="opac" cRef="150738358"/></bibl>
+
+        <bibl xml:id="gelenius_1645">Aegidius Gelenius: De admiranda sacra et civili magnitudine
+            Coloniae Claudiae Agrippiniensis augustae ubiorum urbis. Köln: J. Kalcovius, 1645.<ptr
+                type="opac" cRef="13631290X"/></bibl>
+
+        <bibl xml:id="gerbier_1620">Balthasar Gerbier: eer ende Claght-Dicht er Eeren van den
+            lofweerdighen Constrijcken ende Gheleerden Henricus Golnus Constrijcken Schilder,
+            Plaetsnijder, ende Meester van de Penne. Overleden tot Haerlem, den 29. December ANNO
+            1617. 's-Gravenhage: Aert Meurs, 1620.</bibl>
+
+        <bibl xml:id="gevaerts_19">Jean Gaspard Gevaerts: Pompa introitus honori Ferdinandi [...].
+            Antwerpen: Joannes Meursius, 1641. [Nachdruck Unterschneidheim 1971]<ptr type="opac"
+                cRef="02585836X"/></bibl>
+
+        <bibl xml:id="goelnitzius_1631">Abraham Gölnitz: Ulysses Belgico-Gallicus. Leiden: Elzevier,
+            1631. <ptr type="opac" cRef="137238576"/></bibl>
+
+        <bibl xml:id="historiae_augustae_1671">Historiae Augustae Scriptores VI. Leiden: Hackius,
+                1671<ptr type="opac" cRef="150666047"/></bibl>
+
+        <bibl xml:id="houbraken_1718">Arnold Houbraken: De Groote Schouburgh Der Nederlantsche
+            Konstschilders en Schilderessen : Waar van 'er vele met hunne Beeltenissen ten Tooneel
+            verschynen, en hun levensgedrag en Konstwerken beschreven worden: zynde een vervolg op
+            het Schilderboek van K. v. Mander. Amsterdam 1718. <ptr type="gbv" cRef="134612833"/></bibl>
+
+        <bibl xml:id="ingels_1658">Simon Ingels: De Getrouwe Herderin. Lantspel. Met eenige
+            Gedichten vati de zelve. Amsterdam: Abraham van Blanken, 1658.<ptr type="gbv"
+                cRef="378525700"/></bibl>
+
+        <bibl xml:id="kennet_1697">Basil Kennet: The Lives and Characters of the Ancient Grecian
+            Poets. London: Swall, 1697.<ptr type="gbv" cRef="137907222"/></bibl>
+
+        <bibl xml:id="khevenhiller_1721">Franz Christoph Khevenhüller: Annales Ferdinandei. Leipzig:
+            Weidmann, 1721-1726.<ptr type="opac" cRef="140234446"/></bibl>
+
+        <bibl xml:id="marino_1620">Giambattista Marino: La Galeria: Distinta in pitture e sculture.
+            Venedig: Ciotti, 1619-1620. <ptr type="gbv" cRef="242911919"/></bibl>
+
+        <bibl xml:id="miraeus_1622">Aubertus Miraeus: De Vita Alberti Pii, Sapientis, Prudentis,
+            Belgarum Principis Commentarius. Antwerpen: Moretus, 1622.<ptr type="opac"
+                cRef="633778818"/></bibl>
+
+        <bibl xml:id="moeri_1681">Louis Moréri: Le Grand Dictionaire Historique. Lyon: Girin;
+            Riviere, 1681.<ptr type="opac" cRef="222793864"/></bibl>
+
+        <bibl xml:id="muret_opera_1789">Marc-Antoine Muret: Opera Omnia. 4 Bde. Leiden 1789.<ptr
+                type="gbv" cRef="431930384"/></bibl>
+
+        <bibl xml:id="peacham_1627">Henry Peacham: The compleat gentleman. London: Legat, 1634.<ptr
+                type="gbv" cRef="55287888X"/></bibl>
+
+        <bibl xml:id="piles_1677">Roger de Piles: Conversations Sur La Connoissance De La Peinture,
+            Et Sur Le Jugement Qu'on doit faire des Tableaux : Où par occasion il est parlé de la
+            vie de Rubens, et de quelques uns de ses plus beaux Ouvrages. Paris: Langlois, 1677.
+                <ptr type="gbv" cRef="134747585"/></bibl>
+
+        <bibl xml:id="piles_1681">Roger de Piles: Dissertation sur les ouvrages des plus fameux
+            peintres. Paris: Langlois, 1681.<ptr type="opac" cRef="150746121"/></bibl>
+
+        <bibl xml:id="piles_1699a">Roger de Piles: Abregé de la vie des peintres avec des reflexions
+            sur leurs ouvrages. Paris: Muguet, 1699.<ptr type="gbv" cRef="627105327"/></bibl>
+
+        <bibl xml:id="piles_1699b">Roger de Piles: Dialogue sue le Coloris. Paris: Langlois,
+                1699.<ptr type="gbv" cRef="45574310X"/></bibl>
+
+        <bibl xml:id="piles_1708">Roger de Piles: Cours De Peinture Par Principes. Paris: Estienne;
+            Mergé, 1708.<ptr type="opac" cRef="621187062"/></bibl>
+
+        <bibl xml:id="piles_1766">Roger de Piles: Élémens de peinture pratique. Nouv. éd. par
+            Charles Antoine Jombert. Amsterdam [u.a.]: Arkstée &amp; Merkus; Paris: Jombert,
+                1766.<ptr type="gbv" cRef="627108172"/></bibl>
+
+        <bibl xml:id="ramssla_1734">Johann Wilhelm Neumayr von Ramssla: Wahrhaftige Beschreibung der
+            Reise, Welche [...] Johann Ernst der Jüngere genandt In Franckreich, Engelland und
+            Niederland innerhalb Jahres Frist von den 27. Mertz 1613. bis den 19. Mertz 1614.
+            glücklich hinterleget. Jena: Cröker, 1734.<ptr type="opac" cRef="13723869X"/></bibl>
+
+        <bibl xml:id="ripa_1618">Cesare Ripa: Nova Iconologia. Mantua: Tozzi, 1618.<ptr type="opac"
+                cRef="150124252"/></bibl>
+
+        <bibl xml:id="rubens_1622">Peter Paul Rubens: Palazzi di Genova. Antwerpen 1622.<ptr
+                type="opac" cRef="150778597"/></bibl>
+
+        <bibl xml:id="rubens_1608">Philipp Rubens: Electorum Libri II. Antwerpen: Moretus;
+            Antwerpen: Plantin, 1608.<ptr type="opac" cRef="230213723"/></bibl>
+
+        <bibl xml:id="scaliger_1594">Joseph Justus Scaliger: Epistola de vetustate et splendore
+            gentis Scaligerae, et Iul. Caes. Scaligeri vita. Leiden: Officina Plantiniana, 1594.<ptr
+                type="opac" cRef="150781024"/></bibl>
+
+        <bibl xml:id="sagittarius_1621">Thomas Sagittarius: Ulysses saxonicus. Breslau: Baumann,
+                1621.<ptr type="opac" cRef="23043648X"/></bibl>
+
+        <bibl xml:id="schottus_1612">Andreas Schottus: Adagia sive Proverbia Graecorum. Antwerpen:
+            Moretus, 1612.<ptr type="opac" cRef="635285649"/></bibl>
+        <!-- PPN Onlineausgabe -->
+
+        <bibl xml:id="scioppius_1607">Caspar Schoppe: Scaliger Hypobolimaeus. Mainz: Albinus,
+                1607<ptr type="opac" cRef="150189192"/></bibl>
+
+        <bibl xml:id="saxonius_1547">Johannes Saxonius: Commentarioli duo, ad T. Livii Patavini
+            historiarum ab urbe condita. Basel: Oporinus, 1547<ptr type="gbv" cRef="250043548"/></bibl>
+
+        <bibl xml:id="seneca_1615">Lucius Annaeus Seneca: L. Annaei Senecae Philosophi Opera, Quae
+            Exstant Omnia. Antwerpen: Moretus, 1615.<ptr type="gbv" cRef="142346969"/></bibl>
+
+        <bibl xml:id="serre_1632">Jean-Puget de La Serre: Histoire curieuse de tout ce qui s’est
+            passé à l’entrée de la Reine-mère du Roi très-chrestien dans les villes du Pays-Bas,
+            Antwerpen 1632.<ptr type="gbv" cRef="13647215X"/></bibl>
+
+        <bibl xml:id="sidonius_epistularum_1498">Gaius Sollius Modestus Sidonius Apollinaris: Poema
+            Aureum eiusdemq[ue] epistole. Mediolanni : Scinzenzeler, 4.V.1498<ptr type="opac"
+                cRef="391617141"/></bibl>
+
+        <bibl xml:id="smids_1685">Ludolph Smids: Gallerye, orte Proef van syne Dichtoefeningen; met
+            noodige verklaaringen verrykt. Groningen: Pieman, 1685.</bibl>
+
+        <bibl xml:id="smids_1690">Ludolph Smids: Gallerye der uitmuntende vrouwen:of der zelver
+            deugden en ondeugden, in byschriften en sneldichten, vetoond, met verklaaringen
+            konstplaaten verrijkt. Amsterdam: van Royen, 1690.</bibl>
+
+        <bibl xml:id="smids_1694">Ludolph Smids: Poesye. Amsterdam: Boeteman, 1694.</bibl>
+
+        <bibl xml:id="sweerts_1613">Frans Sweerts: Monumenta sepulctalia. Antwerpen: Bellerus,
+                1613.<ptr type="opac" cRef="240275292"/></bibl>
+
+        <bibl xml:id="tortebat_1664">François Tortebat: Abregè d'anatomie accomodè aux arts de
+            peinture et sculpture. Paris, 1664. <ptr type="gbv" cRef="134305841"/></bibl>
+
+        <bibl xml:id="tortebat_1706">François Tortebat (Hrsg.), Roger de Piles: Kurtze Verfassung
+            der Anatomie, wie selbige zu der Mahlerey und Bildhauerey erfordert wird. Berlin:
+            Rüdiger, 1706.<ptr type="opac" cRef="150746083"/></bibl>
+
+        <bibl xml:id="vollenhove_1686">Joannes Vollenhove: Poezy. Amsterdam: Henrik Boom; Weduwe van
+            Dirk Boom. 1686.</bibl>
+
+        <bibl xml:id="vondel_1700">Joost van den Vondel: Bespiegelingen van Godt en godtsdienst.
+            Rotterdam: Barent Bos, 1700.<ptr type="opac" cRef="150433832"/></bibl>
+
+        <bibl xml:id="vondel_1650">Joost van den Vondel: Gebroeders. Amsterdam: Abraham de Wees,
+                1650.<ptr type="opac" cRef="150433999"/></bibl>
+
+        <bibl xml:id="vondel_1651">Joost van den Vondel: Poëzy, of verscheide gedichten. Leeuwarden:
+            Sybes, 1651.<ptr type="opac" cRef="237817632"/></bibl>
+
+        <bibl xml:id="varro_1605">Marcus Terentius Varro: De lingua latina. Ingolstadt: Sartorius,
+                1605<ptr type="opac" cRef="55990505X"/></bibl>
+
+        <bibl xml:id="zarate_1651">Francisco López de Zarate: Obras varias. Alcalá: M. Fernández,
+                1651.<ptr type="gbv" cRef="135908132"/></bibl>
+
+    </listBibl>
+
+
+
+    <listBibl>
+        <head>Werkausgaben</head>
+        <bibl xml:id="ammian_2001">Ammianus Marcellinus: Rerum gestarum libri qui supersunt. Berlin
+            2001. <ptr type="opac" cRef="270812326"/></bibl>
+
+        <bibl xml:id="appian_bella_civila_1979">Appian: Appian’s Roman History. 4 Bde. übers. von
+            Horace White. London 1979.<ptr type="opac" cRef="167951513"/></bibl>
+
+        <bibl xml:id="apuleius_1961">Apuleius von Madaura: Metamorphosen oder Der goldene Esel.
+            Reinbek bei Hamburg 1961<ptr type="opac" cRef="173268463"/></bibl>
+
+        <bibl xml:id="aristoteles_eudemische_">Aristoteles: Eudemische Ethik. übers. von Franz
+            Dirlmeier. Darmstadt 1979. (Aristoteles. Werke in deutscher Übersetzung. Begr. und in
+            deutscher Übers. hrsg. von Ernst Grumach ; Bd. 7)<ptr type="opac" cRef="193276216"/></bibl>
+
+        <bibl xml:id="arrian_anabasis_1985">Arrian: Der Alexanderfeldzug. hrsg. und übers. von
+            Erhard Wirth und Oskar von Hinüber. München [u.a.] 1985.<ptr type="opac"
+                cRef="033084459"/></bibl>
+
+        <bibl xml:id="artemidor_somniorum_1546">Artemodorus Daldianus: De somniorum interpretatione
+            libri 5. Lyon: Gryphius, 1546.<ptr type="opac" cRef="150651503"/></bibl>
+
+        <bibl xml:id="asconius_orationum_1966">Quintus Asconius Pedianus: Orationum Ciceronis
+            quinque enarratio. Oxford 1966<ptr type="opac" cRef="224669400"/></bibl>
+        <bibl xml:id="behrends_1990">Okko Behrends (Hrsg): Corpus iuris civilis. Heidelberg
+                1990-<ptr type="opac" cRef="032433484"/></bibl>
+
+        <bibl xml:id="bellori_2005">Giovanni Pietro Bellori: The lives of the modern painters,
+            sculptors and architects. übers. von Alice Sedgwick Wohl, Cambridge [u.a.] 2005<ptr
+                type="opac" cRef="091582040"/></bibl>
+
+        <bibl xml:id="caesar_bello_gallico_1990">Gaius Iulius Caesar: Der gallische Krieg.
+            lateinisch-deutsch. hrsg. von Otto Schönberger. München [u.a.] 1990<ptr type="opac"
+                cRef="019747209"/></bibl>
+
+        <bibl xml:id="caesar_bello_civili_1971">Gaius Iulius Caesar: C. Iuli Caesaris
+            commentariorum. Oxford 1971<ptr type="opac" cRef="197944388"/></bibl>
+
+        <bibl xml:id="cicero_sulla">Cicero: in twenty-eight volumes. Bd. 10. In Catilinam 1-4. Pro
+            Murena. Pro Sulla. Pro Flacco. London [u.a.] 1976<ptr type="opac" cRef="268021627"/></bibl>
+
+        <bibl xml:id="cicero_brutus">Cicero: Brutus. lateinisch-deutsch. München 1977<ptr
+                type="opac" cRef="023144335"/></bibl>
+
+        <bibl xml:id="cicero_haruspicum_1966">Cicero: Orationes. Bd. 5. Cum senatui gratias egit.
+            Cum populo gratias egit. De domo sua. De haruspicum responso. Pro Sestio. In Vatinium.
+            De provinciis consularibus. Pro Balbo. Oxford 1966<ptr type="opac" cRef="31242860X"/></bibl>
+
+        <bibl xml:id="cicero_atticus_1987">Cicero: Epistulae ad Atticum. Stuttgart 1987<ptr
+                type="opac" cRef="125197993"/></bibl>
+
+        <bibl xml:id="cicero_caelius_1995">Cicero: Orationes in P. Vatinium testem. Pro M. Caelio.
+            Leipzig 1995 (M. Tulli Ciceronis scripta quae manserunt omnia ; Fasc. 23)<ptr
+                type="opac" cRef="212266659"/></bibl>
+
+        <bibl xml:id="cicero_rabirius_posthumo">Cicero: Orationes pro Cn. Plancio, pro C. Rabirio
+            postumo. Leipzig 1981 (M. Tulli Ciceronis scripta quae manserunt omnia ; Fasc. 25)<ptr
+                type="opac" cRef="030812194"/></bibl>
+
+        <bibl xml:id="cicero_philippicae_1982">Cicero: In M. Antonium orations Philippicae XIV.
+            Leipzig 1982 (M. Tulli Ciceronis scripta quae manserunt omnia ; Fasc. 28)<ptr
+                type="opac" cRef="215554876"/></bibl>
+
+        <bibl xml:id="cicero_verrem">Cicero: Divinatio in Q. Caecilium, In C. Verrem actio I, In C.
+            Verrem actio II. Mailand 1984 (Corpus iuris Romani publici. I. Testi letterari. B. Non
+            giuridici ; 2,1-3.)<ptr type="opac" cRef="021084696"/></bibl>
+
+        <bibl xml:id="columella_rustica_1914">Lucius Iunius Moderatus Columella: De re rustrica.
+            Hrsg. Von Karl Löffler. Übers. Von Heinrich Oesterreicher. Tübingen 1914<ptr type="opac"
+                cRef="145843076"/></bibl>
+
+        <bibl xml:id="curtius_alexandri_magni_1908">Quintus Curtius Rufus: Historiarum Alexandri
+            Magni Macedonis libri qui supersunt. Leipzig 1908<ptr type="opac" cRef="142643343"/></bibl>
+
+        <bibl xml:id="dio_historia_romana_1985">Cassius Dio: Römische Geschichte. 5 Bde. übers. von
+            Otto Veh. Zürich [u.a.] 1985-1987.<ptr type="opac" cRef="032859864"/></bibl>
+
+        <bibl xml:id="diogenes_laertius_thales">Diogenes Laertius: Vitae philosophorum. Stuttgart
+            [u.a.] 1999- (Bibliotheca scriptorum Graecorum et Romanorum Teubneriana, Bd. 3)<ptr
+                type="opac" cRef="304354406"/></bibl>
+
+        <bibl xml:id="festus_verborum_1913">Sextus Pompeius Festus: De verborum significatu quae
+            supersunt. Leipzig 1913<ptr type="opac" cRef="142917834"/></bibl>
+
+        <bibl xml:id="festus_verborum_1826">M. Verrii Flacci quae extant et Sexti Pompeii Festi de
+            verborum significatione libri XX. 2 Bände. London: A.J. Valpy 1826.<ptr type="gbv"
+                cRef="355592193"/></bibl>
+
+        <bibl xml:id="hirtius_bellum_Alexandrinum_1962">Rudolf Schneider: Bellum Alexandrinum.
+            Berlin 1962<ptr type="gbv" cRef="219577765"/></bibl>
+
+        <bibl xml:id="homer_odyssee">Homer: Odyssee. übers. Von Johann Heinrich Voss. Frankfurt am
+            Main 1963.<ptr type="opac" cRef="176975993"/></bibl>
+
+        <bibl xml:id="horaz_1981">Horaz: Oden und Epoden. lateinisch-deutsch. übers. von Christian
+            Friedrich Karl Herzlieb. Zürich [u.a.] 1981<ptr type="opac" cRef="024006351"/></bibl>
+
+        <bibl xml:id="horaz_satiren_1962">Horaz: Satiren und Briefe : lat. u. dt. übers. Von Rudeolf
+            Helm. Zürich [u.a.] 1962<ptr type="opac" cRef="131792466"/></bibl>
+
+        <bibl xml:id="isidor_1911">Isidor von Sevilla: Episcopi etymologiarum sive originum. Oxford
+                1911-<ptr type="opac" cRef="142944955"/></bibl>
+
+        <bibl xml:id="juvenal_satiren_1997">Juvenal: D. Iunii Iuvenalis Saturae sedecim. Stuttgart;
+            Leipzig 1997<ptr type="opac" cRef="222743573"/></bibl>
+
+        <bibl xml:id="livius_ab_urbe_1982">Titus Livius: Ab urbe condita. Leipzig 1982-1989<ptr
+                type="opac" cRef="032927010"/></bibl>
+
+        <bibl xml:id="longin_1675">Longinus: Traité du sublime ou du merveilleux dans le discours.
+            In: Nicolaus Boileau-Despréaux: Oeuvres diverses. Paris 1675<ptr type="opac"
+                cRef="151421315"/></bibl>
+
+        <bibl xml:id="lukan_1821">Lukan: Pharsalia. Leipzig 1821-1831<ptr type="opac"
+                cRef="185728057"/></bibl>
+
+        <bibl xml:id="lukan_bello_civili_2009">Lukan: De bello civili. Berlin [u.a.] 2009<ptr
+                type="opac" cRef="624672778"/></bibl>
+
+        <bibl xml:id="macrobius_1970">Ambrosius Theodosius Macrobius. Stuttgart [u.a.] 1970-
+            (Bibliotheca scriptorum Graecorum et Romanorum Teubneriana)<ptr type="opac"
+                cRef="217727786"/></bibl>
+
+        <bibl xml:id="marino_1979">Giambattista Marino: La Galleria. ed. von Marzio Pieri. Padua
+                1979.<ptr type="opac" cRef="032420269"/></bibl>
+
+        <bibl xml:id="marino_2005">Giambattista Marino: La Galeria. Hrsg. von Marzio Pieri und
+            Alessandra Ruffino (Opere di Giambattista Marino, Bd. 3), Trient 2005. <ptr type="gbv"
+                cRef="492158282"/></bibl>
+
+        <bibl xml:id="gregor_dialoge_1978">Gregor der Große: Dialogues. Paris 1978-<ptr type="opac"
+                cRef="03708447X"/></bibl>
+
+        <bibl xml:id="manilius_1972">Marcus Manilius: Astronomicon. Hildesheim [u.a.] 1972<ptr
+                type="opac" cRef="032891318"/></bibl>
+
+        <bibl xml:id="martial_epigrammata_2006">Marcus Valerius Martialis: Epigrammaton liber
+            tertius. Übers. Von Alessandro Fusi. Hildesheim [u.a.] 2006<ptr type="opac"
+                cRef="507918010"/></bibl>
+        <bibl xml:id="orosius_1882">Paulus Orosius: Historiae adversus paganos. Wien 1882<ptr
+                type="opac" cRef="146569016"/></bibl>
+
+        <bibl xml:id="peacham_1906">Henry Peacham: The The compleat Gentleman 1634. hrsg. von George
+            Stuart Gordon. Oxford 1906.</bibl>
+
+        <bibl xml:id="persius_1950">Aulus Perius Flaccus: Die Satiren des Perius.
+            lateinisch-deutsch. hrsg. von Otto Seel. München 1950. <ptr type="opac" cRef="224894757"
+            /></bibl>
+
+        <bibl xml:id="petronius_satyrica_1978">Petronius Arbiter: Satyrica = Schelmengeschichten.
+            Übers. von Konrad Müller. München 1978<ptr type="opac" cRef="011250550"/></bibl>
+
+        <bibl xml:id="piles_1970">Roger de Piles: Conversations sur la connaissance de la peinture
+            et sur le jugement qu'on doit faire des tableaux. Paris: Langlois 1677 [Reprint Genf
+                1970].<ptr type="gbv" cRef="134747585"/></bibl>
+
+        <bibl xml:id="plautus_truculentus_2001">Plautus: Truculentus. hrsg. von Walter Hofmann.
+            Darmstadt 2001<ptr type="opac" cRef="323997147"/></bibl>
+
+        <bibl xml:id="plautus_poenulus">Plautus: Komödien. lateinisch und deutsch. Bd. 5. Poenulus.
+            Pseudolus. Rudens. hrsg. von Peter Rau. Darmstadt 2008<ptr type="opac" cRef="585593760"
+            /></bibl>
+
+        <bibl xml:id="plautus_stichus_1984">Plautus: Stichus. Cambridge, Mass.; London 1984<ptr
+                type="opac" cRef="027673111"/></bibl>
+
+        <bibl xml:id="plautus_casina_2007">Plautus: Bacchides. Captivi. Casina. Cistellaria. Hrsg.
+            Von Martin Hose. Darmstadt 2007(Plautus. Komödien lateinisch-deutsch. Bd. 2. hrsg. und
+            übers. von Peter Rau)<ptr type="opac" cRef="539542350"/></bibl>
+
+        <bibl xml:id="plautus_2008">Plautus: Curculio. Epidicus. Menaechmi. Mercator. Hrsg. Von
+            Martin Hose. Darmstadt 2008. (Plautus: Komödien. Lateinisch-deutsch. Bd. 3. übers. und
+            hrsg. von Peter Rau)<ptr type="opac" cRef="561152306"/></bibl>
+
+        <bibl xml:id="plinius_naturkunde_1973">Gaius Plinius Secundus: Naturkunde.
+            lateinisch-deutsch. hrsg. und übers. von Roderich König. München [u.a.] 1973-<ptr
+                type="opac" cRef="125190433"/></bibl>
+
+        <bibl xml:id="plutarch_solon_1982">Plutarch: Theseus and Romulus. Lycurgus and Numa. Solon
+            and Publicola. London 1982 (Plutarch's Lives / with an English transl. by Bernadotte
+            Perrin ; 1)<ptr type="opac" cRef="165708026"/></bibl>
+
+        <bibl xml:id="plutarch_aetia_1892">Frank Byron Jevons (Hrsg.): Plutarch's Romane Questions.
+            übers. von Philemon Holland. London 1892.<ptr type="gbv" cRef="436943050"/></bibl>
+
+        <bibl xml:id="polybios_geschichte_1961">Polybios: Geschichte. Zürich [u.a.] 1961-<ptr
+                type="opac" cRef="178378267"/></bibl>
+
+        <bibl xml:id="ovid_1969">Ovid: Metamorphosen. Heidelberg 1969-</bibl>
+
+        <bibl xml:id="quadrigarius_annali_2009">Maria Ambrosetti: Q. Claudio Quadrigario, Annali:
+            introduzione, edizione critica e commento. Rom 2009.<ptr type="gbv" cRef="626358868"/></bibl>
+
+        <bibl xml:id="quintilian_declamationes_minores">Quintilian: Declamationes minores. Stuttgart
+                1989<ptr type="opac" cRef="023020628"/></bibl>
+
+        <bibl xml:id="quintlilian_institutio_oratoria_1953">Quintilian: Institutio oratoria. The
+            instituatio oratoria of Quintilian. Cambridge, Mass.; London 1953-<ptr type="opac"
+                cRef="027856747"/></bibl>
+
+        <bibl xml:id="roemer_visscher_1881">Anna Roemers Visscher: Alle de Gedichten van Anna
+            Roemers Visscher, hrsg. von Nic. Beets, Utrecht 1881.</bibl>
+
+        <bibl xml:id="sallust_catilina">Sallust: Sallust’s Bellum Catilinae. Chico, Calif. 1984<ptr
+                type="opac" cRef="026700360"/></bibl>
+
+        <bibl xml:id="sallust_jugurtha_1795">Sallust: Sallust's Jugurtha : nebst dessen Episteln an
+            C. J. Cäsar über die Staatseinrichtung, übers. von Johann Christoph Schlüter. Münster:
+            Perrenon; Plattvoet, 1795<ptr type="opac" cRef="151318425"/></bibl>
+
+        <bibl xml:id="schneider_bello_africo_1962">Rudolf Schneider (Hrsg.): Bellum Africanum.
+            Berlin 1962. <ptr type="opac" cRef="219577668"/></bibl>
+        <!-- Hirtius zugeschr. -->
+
+        <bibl xml:id="seneca_apokolokyntosis_1999">Lucius Annaeus Seneca: Apokolokyntosis:
+            lateinisch-deutsch. Übers. Und hrsg. Von Gerhard Binder. Darmstadt 1999<ptr type="opac"
+                cRef="308327853"/></bibl>
+
+        <bibl xml:id="seneca_clementia_1999">Lucius Annaeus Seneca: De clementia. übers. von Manfred
+            Rosenbach. Darmstadt 1999 (L. Annaeus Seneca: Philosphische Schriften. hrsg. von Manfred
+            Rosenbach. Bd. 5)<ptr type="opac" cRef="26616563X"/></bibl>
+
+        <bibl xml:id="seneca_providentia_1999">Lucius Annaeus Seneca: De providentia [u.a.]: Dialoge
+            I-IV. übers. von Manfred Rosenbach. Darmstadt 1999 (L. Annaeus Seneca: Philosphische
+            Schriften. hrsg. von Manfred Rosenbach. Bd. 1)<ptr type="opac" cRef="266163270"/></bibl>
+
+        <bibl xml:id="seneca_vita_beata_1999">Lucius Annaeus Seneca: De vita beata [u.a.]. Dialoge
+            VII-XII, übers. Von Manfred Rosenbach. Darmstadt 199 (L. Annaeus Seneca. Philosophische
+            Schriften. hrsg. von Manfred Rosenbach ; Bd. 2)<ptr type="opac" cRef="266163947"/><ptr
+                type="opac" cRef="266163947"/></bibl>
+
+        <bibl xml:id="sidonius_carmina_1887">Gaius Sollius Modestus Sidonius Apollinaris: Epistulae
+            et carmina. Berlin 1887. (Monumenta Germaniae Historica : [Scriptores] ; 8)<ptr
+                type="opac" cRef="235117560"/></bibl>
+
+        <bibl xml:id="silius_punica_1991">Tiberius Catius Silius Italicus: Punica. Das Epos vom
+            Zweiten Punischen Krieg. Übers. Von Hermann Rupprecht. Mitterfels 1991<ptr type="opac"
+                cRef="032972385"/></bibl>
+
+        <bibl xml:id="sueton_nero">Sueton: Nero. übers. von André Lambert. Frankfurt am Main; Wien
+                1996<ptr type="gbv" cRef="211257648"/></bibl>
+
+        <bibl xml:id="sueton_rhetoribus_1960">Sueton: C. Suetoni Tranquilli praeter Caesarum libros
+            reliquiae. Leipzig 1960-<ptr type="opac" cRef="032524315"/></bibl>
+
+        <bibl xml:id="sueton_galba_1931">Sueton: Vies des douze Césars. übers. durch Henri Ailloud.
+            Paris 1931-<ptr type="opac" cRef="220459762"/></bibl>
+
+        <bibl xml:id="tacitus_historae_1959">Tacitus: Historien. übers. von Walther Sontheimer.
+            Stuttgart 1959<ptr type="opac" cRef="043915574"/></bibl>
+
+        <bibl xml:id="tacitus_1963">Tacitus: Annalen. Erläutert und mit einer Einleitung versehen
+            von Erich Köstermann. Heidelberg 1963-<ptr type="opac" cRef="030374081"/></bibl>
+
+        <bibl xml:id="tertullian_1953">Tertullian: Opera catholica. Adversus Marcionem. Tounhout
+                1953<ptr type="opac" cRef="328543810"/></bibl>
+
+        <bibl xml:id="tertullian_1956">Tertullian: Adversus hermogenem liber. Utrecht 1956<ptr
+                type="opac" cRef="221266518"/></bibl>
+
+        <bibl xml:id="tertullian_1961">Tertullian: Apologeticum. lateinisch-deutsch, hrsg. von Carl
+            Becker. München 1961<ptr type="opac" cRef="236464558"/></bibl>
+
+        <bibl xml:id="tertullian_1987">Tertullian: De idololatria. Leiden [u.a.] 1987<ptr
+                type="opac" cRef="013334204"/></bibl>
+
+        <bibl xml:id="tertullian_1957">Tertullian: Ad martyras. Ad Scapulam. De fuga in secutione.
+            De monogamia. De virginibus velandis. De pallio. De paenitentia. Wien 1957 (Quinti
+            Septimi Florentis Tertulliani Opera. Bd. 4)<ptr type="opac" cRef="146584104"/></bibl>
+
+        <bibl xml:id="valerius_maximus_memorabilia_1998">Valerius Maximus: Facta et dicta
+            memorabilia. Stuttgart [u.a.] 1998-<ptr type="opac" cRef="24752395X"/></bibl>
+
+        <bibl xml:id="varro_1912">Marcus Terentius Varro: Rerum rusticarum libri tres. Leipzig
+                1912<ptr type="opac" cRef="339061898"/></bibl>
+
+        <bibl xml:id="vasari_schorn_foerster">Giorgio Vasari: Leben der augezeichnetsten Maler,
+            Bildhauer und Baumeister. hrsg. und übers. von Ludwig Schorn und Ernst Förster. 6 Bde.
+            Stuttgart; Tübingen 1832-1849.<ptr type="opac" cRef="198506813"/></bibl>
+
+        <bibl xml:id="vergil_aeneis_1997">Vergil: Aeneius. lateinisch-deutsch. hrsg. und übers. von
+            Johannes Götte. Düsseldorf [u.a.] 1997<ptr type="opac" cRef="181121352"/></bibl>
+
+        <bibl xml:id="vergil_appendix_1967">Vergil: Appendix Vergiliana. Oxford 1967.<ptr
+                type="opac" cRef="216832934"/></bibl>
+
+    </listBibl>
+
+
+
+    <listBibl>
+        <head>Forschungsliteratur</head>
+
+        <bibl xml:id="alpers_1971">Svetlana Alpers: The Decorations of the Torre de la Parada
+            (Corpus Rubenianum Ludwig Burchard. Bd. 9). Brüssel 1971. <ptr type="opac"
+                cRef="125032544"/></bibl>
+
+        <bibl xml:id="arents_1940">Prosper Arents: Geschriften van en over Rubens. Antwerpen 1940.
+                <ptr type="gbv" cRef="135542677 "/></bibl>
+
+        <bibl xml:id="arents_1943">Prosper Arents: Rubens-Bibliografie: geschriften van en aan
+            Rubens. Brüssel 1943. <ptr type="gbv" cRef="198564945"/></bibl>
+
+        <bibl xml:id="arents_2001">Prosper Arents: De bibliotheek van Pieter Pauwel Rubens: een
+            reconstructie. (De gulden passer ; [78/79.] 2000/01). Antwerpen 2001.<ptr type="opac"
+                cRef="342017012"/></bibl>
+
+        <bibl xml:id="freedberg_1984">David Freedberg: Rubens. The Live of Christ after the Passion
+            (Corpus Rubenianum Ludwig Burchard. Bd. 7). London 1984.<ptr type="opac"
+                cRef="125032390"/></bibl>
+
+        <bibl xml:id="antwerpsch_archievenblad"> Antwerpsch Archievenblad = Bulletin des Archives
+            d'Anvers. uitg. op last van het Gemeente-Bestuer door den Dienst der Stadsarchieven.
+            Antwerpen : Veritas, 1864-1934.<ptr type="gbv" cRef="129949329"/></bibl>
+
+        <bibl xml:id="arnould_1978">Reynold Arnould: Jules Romain: l' histoire de Scipion;
+            tapisseries et dessins. Paris 1978.<ptr type="gbv" cRef="311136850"/></bibl>
+
+        <bibl xml:id="balis_2001">Arnout Balis: Rubens und Inventio. Der Beitrag seines
+            theoretischen Studienbuches. In: Ulrich Heinen, Andreas Thielemann (Hrsg.): Rubens
+            Passioni. Kultur der Leidenschaften im Barock. Göttingen 2001. S. 11-40<ptr type="opac"
+                cRef="322305152"/></bibl>
+
+        <bibl xml:id="baudouin_1972">Frans Baudouin: Altars and altarpieces before 1620. In: Rubens
+            before 1620. The Art Museum, Princeton University. hg. John Rupert Martin. Princeton/New
+            Jersey 1972. S. 45-92<ptr type="gbv" cRef="306896001"/></bibl>
+
+        <bibl xml:id="bredius_1912">Abraham Bredius: Een onbekend Rubens-Document. in: Oud Holland
+            30. 1912. S. 215-218.</bibl>
+
+        <bibl xml:id="bredius_1915">Abraham Bredius: Künstler-Inventare: Urkunden zur Geschichte der
+            holländischen Kunst des XVIten, XVIIten und XVIIIten Jahrhunderts. (Quellenstudien zur
+            holländischen Kunstgeschichte). Haag 1915-1922.<ptr type="opac" cRef="146063317"/></bibl>
+
+        <bibl xml:id="buettner_heinen_2004">Peter Paul Rubens: barocke Leidenschaften.
+            Ausstellungskatalog. Braunschweig, Herzog-Anton-Ulrich-Museum. 8. August bis 31. Oktober
+            2004. bearb. von Nils Büttner und Ulrich Heinen. München 2004.<ptr type="opac"
+                cRef="376347546"/></bibl>
+
+        <bibl xml:id="buettner_2006">Nils Büttner: Herr P. P. Rubens: von der Kunst, berühmt zu
+            werden. (Rekonstruktion der Künste ; 7) Göttingen: Vandenhoeck &amp; Ruprecht,
+                2006.<ptr type="opac" cRef="515922463"/></bibl>
+
+        <bibl xml:id="buettner_2007">Nils Büttner: Rubens. München 2007. <ptr type="opac"
+                cRef="522155014"/></bibl>
+
+        <bibl xml:id="corpus_rubenianum_1968">Corpus Rubenianum Ludwig Burchard : an illustrated
+            catalogue raisonné of the work of Peter Paul Rubens based on the material assembled by
+            the late Ludwig Burchard. Brüssel, 1968-<ptr type="opac" cRef="12503217X"/></bibl>
+
+        <bibl xml:id="de_maeyer_1955">Marcel De Maeyer: Albrecht en Isabella en de schilderkunst:
+            bijdrage tot de geschiedenis van de XVII.-eeuwsw schilderkunst in de zuidelijke
+            Nederlanden. (Verhandelingen van de Koninklijke Vlaamse Academie voor wetenschappen,
+            letteren en schone kunsten van België. Klasse der Schone Kunsten. Bd. 9). Brüssel
+                1955.<ptr type="opac" cRef="303752092"/></bibl>
+
+        <bibl xml:id="delen_1933">Adrien Jean Joseph Delen: Het huis van Pieter Pauwel Rubens: wat
+            het was, wat het werd, wat het werden kan. Brüssel 1933.<ptr type="gbv" cRef="306747251"
+            /></bibl>
+
+        <bibl xml:id="denuce_1932">Jan Denucé: De Antwerpsche Konstkamers. Inventarissen van
+            Kunstverzamelingen te Antwerpen in de 16e en 17e eeuw [Bronnen voor de geschiedenis van
+            de Vlaamsche Kunst. 2]. Antwerpen 1932<ptr type="gbv" cRef="303134267"/></bibl>
+
+        <bibl xml:id="denuce_1934">Jean Denucé: Brieven en documenten betreffend Jan Breugel I en
+            II. (Bronnen voor de geschiedenis van de Vlaamsche kunst. Bd. 3). Antwerpen 1934.<ptr
+                type="gbv" cRef="450500136"/></bibl>
+
+        <bibl xml:id="denuce_1949">Jean Denucé: Na Peter Pauwel Rubens: Documenten uit den
+            kunsthandel te Antwerpen in de XVII<hi rend="sup">e</hi>eeuw van Matthijs Musson
+            (Bronnen voor de geschiedenis van de Vlaamsche Kunst, 5). Antwerpen: De Sikkel [u.a.],
+                1949.<ptr type="gbv" cRef="306747782"/></bibl>
+
+        <bibl xml:id="de_dijn_2002">Rosine de Dijn: Liebe, Last und Leidenschaft: Frauen im Leben
+            von Rubens. Stuttgart [u.a.] 2002.<ptr type="gbv" cRef="460138448"/></bibl>
+
+        <bibl xml:id="duverger_1984">Eric Duverger: Antwerpse kunstinventarissen uit de zeventiende
+            eeuw [Fontes historiae artis Neerlandicae = Bronnen voor de kunstgeschiedenis van de
+            Nederlanden]. Brüssel 1984-<ptr type="gbv" cRef="03719691X"/></bibl>
+
+        <bibl xml:id="duverger_1989">Eric Duverger: Antwerpse kunstinventarissen uit de zeventiende
+            eeuw [Fontes historiae artis Neerlandicae = Bronnen voor de kunstgeschiedenis van de
+            Nederlanden]. Bd. 4: 1636-1642. Brüssel 1989</bibl>
+
+        <bibl xml:id="ennen_1861">Leonard Ennen: Über den Geburtsort des Peter Paul Rubens: mit
+            Beilagen. Köln 1861.<ptr type="gbv" cRef="146162528"/></bibl>
+
+        <bibl xml:id="evers_1943">Hans Gerhard Evers: Rubens und sein Werk. Neue Forschungen.
+            Brüssel 1943. <ptr type="opac" cRef="022292659"/></bibl>
+
+        <bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux archives
+            du Nord. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3. Antwerpen 1888. S. 97-144.</bibl>
+
+        <bibl xml:id="gachard_1842">Louis Prosper Gachard: Particularités et documents inédits sur
+            Rubens. In: Trésor national: recueil historique, littéraire, scientifique, artistique,
+            commercial et industriel. Bd. 1. Brüssel 1842. S. 157-183.<ptr type="gbv"
+                cRef="130766356"/></bibl>
+
+        <bibl xml:id="gachard_1877">Louis Prosper Gachard: Histoire politique et diplomatique de
+            Pierre-Paul Rubens. Brüssel: Office de Publicite, 1877.<ptr type="opac" cRef="306740680"
+            /></bibl>
+
+        <bibl xml:id="genard_1877">Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten
+            meester en zijne bloedverwanten. Antwerpen 1877.<ptr type="gbv" cRef="146162595"/></bibl>
+        <!-- opac ppn 146162595 -->
+
+        <bibl xml:id="genard_1882a">Pierre Génard: Petrus Paulus Rubens en Willem Panneels. In:
+            Rubens-Bulletijn - Bulletin-Rubens. Bd. 1. Antwerpen: de Backer, 1882. S. 220-223.</bibl>
+
+        <bibl xml:id="genard_1896">Pierre Génard: Het laatste Testament van P. P. Rubens. In:
+            Rubens-Bulletijn - Bulletin-Rubens. Bd. 4. Antwerpen: de Backer, 1896. S. 125-141.</bibl>
+
+        <bibl xml:id="genard_1888">Pierre Génard: Les Armes de la famille Rubens. In:
+            Rubens-Bulletijn - Bulletin-Rubens. Bd. 3. Antwerpen: de Backer, 1888. S. 65-81.</bibl>
+
+        <bibl xml:id="golahny_1990">Amy Golahny: Rubens’ „Hero and Leander“ and its poetic progeny,
+            in: Yale University Art Gallery Bulletin [1990], S. 21-38.<ptr type="gbv"
+                cRef="130638846"/></bibl>
+
+        <bibl xml:id="grimberghen_1840">Victor van Grimberghen (Grimbergen): Historische
+            levensbeschryving van P. P. Rubens benevens eene naeuwkeurige opgave zyner schilderyen.
+            Rotterdam 1840.</bibl>
+
+        <bibl xml:id="grimberghen_1858">Victor van Grimberghen (Grimbergen): Verzameling van
+            oorkonden, aengaende het concept van vergrooting der stad Antwerpen van het jaer 1580.
+            Antwerpen 1858</bibl>
+
+        <bibl xml:id="hasselt_1840">André Henri Constant van Hasselt: Histoire de P.-P. Rubens.
+            Brüssel 1840.<ptr type="gbv" cRef="146162447"/></bibl>
+
+        <bibl xml:id="heinen_1996">Ulrich Heinen: Rubens zwischen Predigt und Kunst: der Hochaltar
+            für die Walburgenkirche in Antwerpen. Köln 1996. <ptr type="opac" cRef="197981372"/></bibl>
+
+        <bibl xml:id="heinen_2001">Ulrich Heinen, Andreas Thielemann (Hrsg.): Rubens Passioni.
+            Kultur der Leidenschaften im Barock. Göttingen 2001<ptr type="opac" cRef="322305152"/></bibl>
+
+        <bibl xml:id="heinen_2010">Ulrich Heinen: Concettismo und Bilderleben bei Marino und Rubens, in: Barocke
+            Bildkulturen: Dialog der Künste in Giovan Battista Marinos Galeria, hrsg. von Christiane
+            Kruse und Rainer Stillers (in Druckvorbereitung)</bibl>
+
+        <bibl xml:id="jaffe_2005">David Jaffé: Rubens: a master in the making. Ausstellungskatalog.
+            London, National Gallery. 26. Oktober 2005-15. Januar 2006. bearb. von David Jaffé u.a.
+            London 2005. <ptr type="gbv" cRef="497348756"/></bibl>
+
+        <bibl xml:id="jaffe_1989">Michael Jaffé: Rubens - Catalogo completo. Milano 1989.<ptr
+                type="gbv" cRef="022373535"/></bibl>
+
+        <bibl xml:id="jaffe_1977">Michael Jaffé: Rubens and Italy. Oxford 1977. <ptr type="gbv"
+                cRef="023288639"/></bibl>
+
+        <bibl xml:id="jaffe_1964">Michael Jaffé: Rubens as a collector of drawings. [S.l.] 1964.<ptr
+                type="gbv" cRef="607339209"/></bibl>
+
+        <bibl xml:id="lightbown_1964">R. W. Lightbown: Gaetano Giulio Zumbo - II: Genoa and France.
+            In: The Burlington Magazine. Vol. 106. Nr. 741 (Dezember 1964). S. 563-567+569</bibl>
+
+        <bibl xml:id="kat_antwerpen_1977c">Juristen en rechtsleven ten tijde van Rubens.
+            Ausstellungskatalog. Antwerpen. Gerechtsgebouw. 15.-30. Oktober 1977.</bibl>
+
+        <bibl xml:id="kat_braunschweig_2004">Peter Paul Rubens: Barocke Leidenschaften. Ausstellung
+            im Herzog Anton Ulrich-Museum Braunschweig. 8. August bis 31. Oktober 2004. Herzog Anton
+            Ulrich-Museum Braunschweig. Kunstmuseum des Landes Niedersachsen. Ausstellungskatalog
+            von Nils Büttner und Ulrich Heinen. München: Hirmer, 2004.<ptr type="opac"
+                cRef="376347546"/></bibl>
+
+        <bibl xml:id="kat_bruessel_1999">Omtrent J. Breughel de Oude, P. P. Rubens, A. van Dijck:
+            Kunst en kunstenaars in de Rijksarchieven. Ausstellungskatalog. Brüssel, Algemeen
+            Rijksarchief, 9. November - 24. Dezember 1999. bearbeitet von Marleen Forrier u.a.
+            (Algemeen Rijksarchief en Rijksarchief in de provinciën: educatieve dienst,
+            catalogussen, Bd. 162). Brüssel 1999.</bibl>
+
+        <bibl xml:id="martin_1972">John Rupert Martin (Hg.): Rubens before 1620. The Art Museum.
+            Princeton University. Princeton/New Jersey 1972.<ptr type="gbv" cRef="306896001"/></bibl>
+
+        <bibl xml:id="martin_1972b">John Rupert Martin: The Decorations for the Pompa Introitus
+            Ferdiandi. (Corpus Rubenianum Ludwig Burchard. Bd. 16). Brüssel: Arcade Press [u.a.],
+                1972.<ptr type="opac" cRef="125032625"/></bibl>
+
+        <bibl xml:id="mcgrath_1997">Elizabeth McGrath: Rubens: subjects from history. (Corpus
+            Rubenianum Ludwig Burchard. Bd. 13). London 1997.<ptr type="opac" cRef="225546027"/></bibl>
+
+        <bibl xml:id="millen_wolf_1982">Ronald Forsyth Millen, Robert Erich Wolf: Heroic Deeds and
+            Mystic Figures: A new reading of Rubens' "Life of Maria de'Medici". Princeton, NJ:
+            Princeton Univ. Press, 1989.<ptr type="gbv" cRef="026857650"/></bibl>
+
+        <bibl xml:id="merlo_1850">Johann Jacob Merlo: Nachrichten von dem Leben und den Werken
+            Kölnischer Künstler. (Kunst und Künstler in Köln: Abtheilung der Künstlernachrichten).
+            Köln 1850.<ptr type="opac" cRef="150479808"/></bibl>
+
+        <bibl xml:id="monballieu_1965">A. E. E. Monballieu: P. P. Rubens en het "Nachtmael" voor
+            St.-Winoksbergen (1611), een niet uitgevoerd schilderij van de meester. In: Jaarboek
+            Koninklijk Museum voor Schone Kunsten Antwerpen. 1965. S. 183-205.<ptr type="opac"
+                cRef="129945838"/></bibl>
+
+        <bibl xml:id="monballieu_1977">P. P. Rubens: Gemälde. Ölskizzen, Zeichnungen. 29. Juni - 30.
+            September 1977. Ausstellungskatalog von A. E. E. Monballieu und J. Vervaet. Antwerpen:
+            Königl. Museum der Schönen Künste, 1977.<ptr type="opac" cRef="015351289"/></bibl>
+
+        <bibl xml:id="moses_1985">Gavriel Moses: Care Gemelle d’un Parto Nate: Marino’s Picta
+            Poesis, in: Modern Language Notes 100 (1985). Baltimore: Johns Hopkins Press. S. 82-110</bibl>
+
+        <bibl xml:id="pinchart_1860">Alexandre Pinchart: Archives des arts, sciences et lettres:
+            documents inédits publiés et annotés. 3 Bde. Gent 1860 (Neudruck: Brüssel 1994).<ptr
+                type="gbv" cRef="231294484"/></bibl>
+
+        <bibl xml:id="reiffenberg_1835">Frederic Baron de Reiffenberg: Nouvelles Recherches sur
+            Pierre-Paul Rubens, contenant une vie inédite de ce grand peintre par Philippe Rubens,
+            son neveu. Présenté à la séance du 17 janvier 1835, in: Nouveaux mémoires de l’Académie
+            royale des sciences et belles lettres de Bruxelles 10, 1837, S. 4-13, Sonderdruck <ptr
+                type="opac" cRef="38519238X"/></bibl>
+
+        <bibl xml:id="rombouts_lerius_1864">Philipp Félix Rombouts, Théodore François Xavier van
+            Lerius: De Liggeren en andere historische Archieven der Antwerpsche sint Lucasgilde. Bd.
+            1. Antwerpen: Koninck; Buschmann, 1864.<ptr type="opac" cRef="32365987X"/></bibl>
+
+        <bibl xml:id="rosenberg_1905">Adolf Rosenberg (Hrsg.): P. P. Rubens. Des Meisters Gemälde in
+            551 Abb. Stuttgart 1905. (Klassiker der Kunst in Gesamtausgaben ; Bd. 5)<ptr type="gbv"
+                cRef="22955864X"/></bibl>
+
+        <bibl xml:id="rooses_1896">Max Rooses: Staat van goederen in het Sterffhuys van Isabella
+            Brant. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 4. Antwerpen: de Backer, 1896. S.
+            154-188.</bibl>
+
+        <bibl xml:id="rooses_1977">Max Rooses: L'oeuvre de P. P. Rubens: histoire et description de
+            ses tableaux et dessins. Soest, 1977.<ptr type="opac" cRef="032918801"/></bibl>
+
+        <bibl xml:id="rooses_1896b">Max Rooses: Huwelijks-Voorwaarden van P. P. Rubens en Helena
+            Fourment. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 4. Antwerpen: de Backer, 1886. S.
+            191-194.</bibl>
+
+        <bibl xml:id="rooses_1896c">Max Rooses: De Verdeeling van Rubens' Nalatenschap tusschen
+            Helena Fourment en de voor- en nakinderen van Rubens. in: Rubens-Bulletijn -
+            Bulletin-Rubens. Bd. 4. Antwerpen: de Backer, 1896. S. 236-252</bibl>
+
+        <bibl xml:id="rooses_1903">Max Rooses: Rubens' Leven en Werken. Amsterdam 1903.<ptr
+                type="gbv" cRef="630206384"/></bibl>
+
+        <bibl xml:id="rooses_1910">Max Rooses: Les contrats passés entre Rubens et Marie de Médicis
+            concernant les deux galeries du Luxembourg. In: Rubens-Bulletijn - Bulletin Rubens. Bd.
+            5. Antwerpen: de Backer, 1910. S. 216-220.<ptr type="gbv" cRef="167057901"/></bibl>
+
+        <bibl xml:id="rooses_1910a">Max Rosses: Rubens en Ophovius. In: Rubens-Bulletijn - Bulletin
+            Rubens. Bd. 5. Antwerpen: de Backer, 1910. S. 161-163</bibl>
+
+        <bibl xml:id="rooses_1910b">Max Rooses: De Afdoening van het Kruis: Uit het Rekenboek der
+            Antwerpsche Kolveniersgilde. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 5. Antwerpen:
+            de Backer, 1910. S. 230-233.</bibl>
+
+        <bibl xml:id="rubens_bulletin">Bulletin Rubens: annales de la Commission Officielle
+            instituée par le Conseil Communal de la Ville d'Anvers pour la publication des documents
+            relatifs à la vie et aux oeuvres de Rubens = Rubens-bulletijn. Antwerpen 1882-1910.<ptr
+                type="gbv" cRef="167057901"/>
+            <!-- Verlag nach GVK ist de Backer --></bibl>
+
+        <bibl xml:id="rooses_ruelens_1887">Max Rooses, Charles Ruelens: Correspondance de Rubens et
+            documents épistolaires concernant sa vie et ses auvres. (Codex diplomaticus Rubenianus ;
+            T. 1-6). Antwerpen 1887-1909.<ptr type="gbv" cRef="446864137"/>
+            <!-- Bd.6 Antwerpen: Buschmann 1909
+                Bd. 5 Antwerpen: Buschmann 1907
+                Bd. 4 Antwerpen: Buschmann 1904
+                Bd. 3 Antwerpen Buschmann 1900
+                Bd. 2 Antwerpen: Buschmann 1898
+                Bd. 1 Antwerpen: de Backe
+                
+                GVk gibt an: Antwerpen de Backer (2. 3 Maes; 4ff. Buschmann) ???-->
+        </bibl>
+
+        <bibl xml:id="ruelens_1877">Charles Ruelens: Pierre Paul Rubens. Documents et lettres.
+            Brüssel 1877.<ptr type="gbv" cRef="455974233"/></bibl>
+
+        <bibl xml:id="sainsbury_1859">William Noel Sainsbury: Original unpublished papers
+            illustrative of the life of Sir Peter Paul Rubens: as an artist and a diplomatist.
+            London 1859.<ptr type="gbv" cRef="146162536"/></bibl>
+
+        <bibl xml:id="schepper_2004">Een hart voor boeken:Rubens en zijn bibliotkeek.
+            Ausstellungskatalog. Antwerpen, Museum Plantin-Moretus. 6. März - 13. Juni 2004. bearb.
+            von Marcus de Schepper. Antwerpen 2004.</bibl>
+
+        <bibl xml:id="tijs_1984">Rutger T. Tijs: P. P. Rubens en J. Jordaens barok in eigen huis:
+            een architectuurhistorische studie over groei, verval en restauratie van twee
+            17de-eeuwse kunstenaarswoningen te Antwerpen. Antwerpen 1984.</bibl>
+
+        <bibl xml:id="van_den_branden_1883">Franz Jozef Peter van den Branden: Geschiedenis der
+            Antwerpsche Schilderschool. Antwerpen 1883.<ptr type="gbv" cRef="194552292"/></bibl>
+
+        <bibl xml:id="verachter_1840">Frédéric Verachter (Hrsg.): Généalogie de Pierre Paul Rubens
+            et de sa famille. Antwerpen 1840.<ptr type="gbv" cRef="146162420"/></bibl>
+
+        <bibl xml:id="villaamil_1874">Gegorio Cruzada Villaamil: Rubens : Diplomatico Espanol; sus
+            viajes a Espana y notica de sus cuadros, segun los inventarios de las casas reales de
+            Austria y de Borbon. Madrid 1874. <ptr type="gbv" cRef="306902907"/></bibl>
+
+        <bibl xml:id="villaamil_2004">Gegorio Cruzada Villaamil: Los viajes de Rubens a España :
+            oficios diplomáticos de un pintor. Madrid 2004. <ptr type="gbv" cRef="491878680"/></bibl>
+
+        <bibl xml:id="zoff_1918">Otto Zoff: Die Briefe des P. P. Rubens. Wien 1918. <ptr type="opac"
+                cRef="021145946"/></bibl>
+    </listBibl>
+</listBibl>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_154">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacob Jordaens wird durch den Magistrat der Stadt Antwerpen zum
+                    <term>Prodekan</term> der Lukas-Gilde ernannt (<date
+                        when="1621-09-28">28.</date></title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-573">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Collegiale Actenboeken 1621-1623</collection>
+                        <idno type="signatur">Pk. 573, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jacob Jordaens wird durch den Magistrat der Stadt Antwerpen zum
+                            Prodekan der Lukas-Gilde ernannt </title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zu seiner Ernennung das Dokument vom <ref type="rubens" cRef="ed_rubens_154a">30. September 1621</ref>. Zur Amtstätigkeit Jordaens als Prodekan der Gilde
+                                    siehe auch das Dokument vom <ref type="rubens" cRef="ed_rubens_155">1. Oktober
+                                        1621</ref>, in dem er es ablehnt, für nicht von ihm verursachte Schulden
+                                        verantwortlich gemacht zu werden.</note>
+                                
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1621-09-28">28. September 1621</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Jordaens, Jacob</term>
+                    <term xml:lang="deu">Lukas-Gilde Antwerpen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Gecommitteert ende geordonneert <rs type="person" ref="#jordaens_jacob">Jacques
+                        Jordaens</rs> te wesen Deken<index indexName="stw">
+                        <term xml:lang="deu">Dekan</term>
+                    </index> van <rs type="corporate" ref="#lukasgilde_antwerpen">Sinte
+                        Lucasgulde</rs><index indexName="stw">
+                        <term xml:lang="deu">Lukas-Gilde</term>
+                    </index> binnen deser stadt<index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    </index>, mits doende den behoorlijken eedt, ende dat voor den jegenwoordighen
+                    jaere.</p>
+                <closer>
+                    <dateline> Actum in Collegio <date when="1621-09-28">28 Septembris anno 1621</date></dateline>
+                </closer>
+            </div>
+
+            </body>
+       
+    </text>
+</TEI>

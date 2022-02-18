@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_319">
+    <!-- ID vergeben -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Jan Rubens an Graf Johann von Nassau</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_jan_rubens_15821010">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Jan Rubens an Graf Johann von Nassau vom 10. Oktober 1582</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Brief von Jan Rubens an Graf Johann von Nassau vom 10. Oktober 1582</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1582-10-10">10. Oktober 1582</origDate>
+                            <origPlace>Köln</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 243-245<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <salute>Monseigneur,</salute>
+                <p>Je supplie très-humblement, pour la passion de nostre Seigneur JÉSUS-CHRIST, que
+                    vostre lllustre Seigneurie vueille auoir pitié de nous et permettre que je
+                    puisse demeurer auec ma femme et enfans à la maison sans nous vouloir ainsi
+                    destruire et précipiter tous de fons en comble; mes excuses sont si légitimes
+                    que de droit, raison, équité, piété et pitié, non obstant conuenance quelconque
+                    (aussi bien clausulée qu’elle pourroit iamais estre,) au contraire, elles
+                    deuroient au plus endurci cueur d’homme trouuer bien, tant plus au vostre
+                    qu’estes de naturel béning et pitoiable. Si toute fois vostre Ill. S. veult tout
+                    oultrer, que ie laisse et abandonne tout et vienne, ie le feray sans nulle
+                    faulte, s’il plaist à Dieu, tant pour vous obéir, que pour tenir ma parole,
+                    encores que ie ne d’eusse iamais plus retourner et y mourir male mort. Mais,
+                    vostre Ill. S. nous vueille, pour le moins, faire ce bien, que de me prolonguer
+                    le terme iusques à Pasques prochain, affin que ce temps pendant, ie puisse
+                    donner ordre à mes affaires trop confuses, marier ma fille et disposer de ma
+                    maison pour viure depuis ou mourir comme il vous plaira et Dieu vouldra. Car, à
+                    ce que ie comprens, tant de la bouche du Docteur <rs type="person"
+                        ref="#christianus_andreas">CHRISTIANI</rs>, que de voz dernières lettres,
+                    mesmement de ce que n’admettés nulles de ces violentes excuses, je ne puis
+                    espérer nul bien quand seray retourné en voz mains et fay mon conte que i’y
+                    moureray. Quoy faisant Monseigneur, ie ne me tiendray moins obligé à vostre
+                    piété, que ie n’ay esté le jour que ie sorty de <rs type="place" ref="#siegen"
+                        >Siegen</rs>, et sur ce baisant très-humblement voz mains, ie prieray Dieu
+                    pour vostre prospérité et vostre Ill. S. pour ceste grâce, ne pouuant obtenir la
+                    première et qu’elle sur ce me vueille faire respondre de bonheur. </p>
+                <closer>Escrit à <placeName><rs type="place" ref="#koeln">Couloigne</rs></placeName>
+                    le <dateline><date when="1582-10-10">10. d'Octobre 1582</date>.</dateline>
+                    <salute> De vostre Illustre Seigneurie, <lb/> très-humble seniiteur et
+                        prisonnier,</salute>
+                    <signed><rs type="person" ref="#rubens_jan">JEAN RUEBENS.</rs></signed></closer>
+            </div>
+            <div xml:lang="fra">
+                <salute>Monseigneur, </salute>
+                <p>S’il est du tout nécessaire que je vienne et ne puis auoir dilation de trois ou
+                    quatre mois, iusques à tant que i’ay donné ordre à mes affaires et que le
+                    mauuois temps soit passé (ce que je prie, pour l’honneur de Dieu, que vostre
+                    Ill. S. me vueille, de grâce singulier, octroyer,) pour le moins que je puisse
+                    de bonheur sçauoir oú je doiue démonster et si vostre Ill. S. trouueroit mauuois
+                    que je me tinsse à <rs type="place" ref="#freudenburg">Freudenburg</rs> chez
+                    vostre Escoutette <rs type="person" ref="#schwart_mefridius">MEFFRID
+                        SCHWARTZ</rs>, ou à Sieghen, en sa maison, chez <rs type="person"
+                        ref="#janulien">JANUELIEN</rs> femme à <rs type="person" ref="#andrien"
+                        >ANDRIEN</rs>, le botteillier de vostre Ill. S., pour moins dépendre et
+                    estre moins veu; mais s’il est aucunement possible que, pour le présent, je soy
+                    excusé, nous le prions et reprions sur tout que pouuons, y allant nostre entière
+                    ruine s’il me fault venir maintenant. Sur quoy nous attendrons auec grande
+                    déuotion, Monseigneur, vostre bénigne responce, laquelle elle se vueille daigner
+                    me faire deuant que le terme expire; je ne vouldrois faire faulte à mon
+                    eschient; nostre Seigneur Dieu me soit tesmoing, s’il n’estoit la grande
+                    nécessité qui me presse, je ne vouldrois tant importuner vostre Ill. S., mais Ia
+                    considération que i’ay qu’il fauldra que soyons tous ruinés si vostre Ill. S. ne
+                    me vueille espargner, me fait réitérer mes prières. <date when="1582-10-10">10
+                        d’Octobre</date>.<note resp="A.H." type="footnote">Vgl. auch den <ref
+                            type="rubens" cRef="ed_rubens_318">Brief der Maria Pypelincx an den
+                            Grafen von Nassau</ref>, ebenfalls am 10. Oktober 1582 verfasst.</note>
+                </p>
+                <closer><salute>A Monseigneur <lb/> Monseigneur <rs type="person"
+                            ref="#nassau_johan">JEAN, Comte de NASSAW</rs>
+                        <lb/> Catzenelnboghen Dietzt Vianden,</salute>
+                    <placeName>à <rs type="place" ref="#dillenburg">Dillenberg</rs>,
+                    </placeName></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

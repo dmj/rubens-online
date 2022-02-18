@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_150">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Catlijne van Wijck gibt an, Henrick Pypelincx, Clara Touion und deren Erben,
+                    darunter auch Peter Paul Rubens, die Summe von 1700 Gulden schuldig zu sein, die
+                    als Hypothek auf einem Hof bei Iteghem und Herenthout liegt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-546">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1620/ VI: Ardenbodegem, Herck &amp; van
+                            Huffel</collection>
+                        <idno type="signatur">SR 546, fol. 37r-38v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Catlijne van Wijck gibt an, Henrick Pypelincx, Clara Touion und
+                            deren Erben, darunter auch Peter Paul Rubens, die Summe von 1700
+                            Gulden schuldig zu sein, die als Hypothek auf einem Hof bei Iteghem
+                            und Herenthout liegt</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate from="1620-09-24" to="1620-10-10">zwischen 24. September und
+                                10. Oktober 1620</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> De voors. stadthoudere bekende ende verclaerde alsoo vrouwe <rs type="person"
+                        ref="#wyck_catlijne">Catelijne van Wijck</rs>, dochter van wijlen Jonker <rs
+                        type="person" ref="#wyck_huybrecht">Huybrechts van Wijck</rs>, Heere van <rs
+                        type="place" ref="#ossevoort">Ossevoort</rs> ende van <rs type="place"
+                        ref="#nieuwen">Nieuwen</rs>, <rs type="place" ref="#cuijk">Cuyck</rs> etc.
+                    weduwe lestwerven Heeren <rs type="person" ref="#cop_godefroy">Godefroys van
+                        Cop, genaempt Warenborch</rs> des ridders Heere van Warenborch in sijnder
+                    tijt, met eenen momboir heur gegeven metten rechte comparerende voor
+                    Borgemeester ende Schepenen deser stadt opden <date when="1572-06-25">25<hi
+                            rend="super">sten</hi> Juny 1572</date> op reelle ende parate executie
+                    bekent heeft gehadt schuldich te sojne <rs type="person"
+                        ref="#pypelincx_hendrick">Henricke Pijpelinck</rs> ende Jouffrouwe <rs
+                        type="person" ref="#touion_clara">Clara de Tonion</rs>, diemen hiet Colijns
+                    sijnder wettigen huysvrouwe, de somme van seventhienhondert gulden eens tot
+                    twintich stuyvers den gulden ende dit geloeft gehadt te betaelene ende te
+                    voldoene den voors. <rs type="person" ref="#pypelincx_hendrick">Hendricke
+                        Pijpelinck</rs> ende sijne huysvrouwe ooft brenger ‘s brieffs binnen eenen
+                    jaere alsdoen naestcommende sonder eenich langer vuytstel oft delay met
+                    verbintenisse speciaele van de natebeschreiven hoeve al volgende den brieve
+                    daeraff sijnde onderteeckent <rs type="person" ref="#moy_hendrick">H. de
+                    Moy</rs> voor ‘t gebreck van welcke betaelinge diverse sommatien sijn gedaen aen
+                    mijnen Heere den Schouteth deser stadt, mits dat partijen niet en wisten waer
+                    d’erffgenaemen der voors. wijlen vrouwe Catalijne van Wijck waren woonende ende
+                    diverse exempelen geteeckent op dorsse desselffs brieffs ons ten desen
+                    originaelijck gethoont, dat de voors. heer Amptman vuyt crachte van sijnere
+                    voors. officie executerende de voors. volontaire condempnatie heeft ten
+                    versuecke en vervolge laste ende pericule van <rs type="person"
+                        ref="#schot_peeter">Peeter de Schodt</rs> als man dende momboir van
+                    Jouffrouwe <rs type="person" ref="#pypelincx_susanne">Susana Pijpelinck</rs>.
+                    Item van <rs type="person" ref="#rubens_peter_paul">Peeter Paulo Rubbens</rs>
+                    soo als erfgenamen van wijlen Jouffrwouwe <rs type="person"
+                        ref="#pypelincx_maria">Maria Pijpelinck</rs> als oock momboir<index
+                        indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index> van de onbejaerde kinderen van wijlen Meester <rs type="person"
+                        ref="#rubens_philipp">Philips Rubbens</rs> in sijnen leven secretaris was
+                    deser stadt, oock mede van de kinderen van Jouffrouwe <rs type="person"
+                        ref="#rubens_blandina">Blandina Rubbens</rs> altsamen voor d’een helft met
+                    noch vier hondert gulden in d’ander helft van de hoeve metten lande ende
+                    toebehoorten hier naer verhaelt, mitsgaders ock ten versuecke van Heeren <rs
+                        type="person" ref="#tendeloo_jan">Janne Tendeloo</rs> met sijne consoorten,
+                    crediteueren van de voors. vrouwe <rs type="person" ref="#wyck_catharina"
+                        >Catharina van
+                    Wijck</rs><!-- voors. deutet an, es handle sich hier um Catelijne; eine Catharina taucht ebenfalls in versch. Files schon auf -->
+                    in conformiteyt van de volontaire condempnatie ende acte van consente ende
+                    authorisatie respective in date <date when="1612-06-17">17</date> ende <date
+                        when="1612-06-19">19 Juny 1612</date> in den rade geordonneert in <rs
+                        type="place" ref="#brabant">Brabant</rs> verleden gepasseert ende getot vele
+                    ende verscheyden Vrijdagen ter vrijer Vrijdaeches merct deser stadt bij <rs
+                        type="person" ref="#venne_huybrecht">Huybrechts van den Venne</rs> als
+                    substituyt van <rs type="person" ref="#baes_henrick">Henrick Baes</rs> gesworen
+                    oudecleercooper was mijns Heeren des Amptmans doen vuytroepen ende wijlen te
+                    coope eenen yegelicken even na eene hoeve met huysinge, landt, bosschen ende
+                    bempden, heyde, weyde, gronde ende allen den toebehoorten groot imtrent dertich
+                    bunderen ende een vierendeel sonder den cooper nochtans eenige maete oft groote
+                    toe te seggen, genaempt de Proesthoeve<index indexName="stw">
+                        <term xml:lang="nld">Proesthoeve</term>
+                    </index> gestaan ende gelegen in diverse parcheelen onder <rs type="place"
+                        ref="#itegem">Itegem</rs> ende <rs type="place" ref="#herenthout"
+                    >Herenthout</rs> waer onder begrepen sijn omtrent vier bunderen schaereijcken
+                    bosch, de welcke soo twelve als derthien jaeren out sijn, gelijck ende in alle
+                    der manieren de voors. hoeve metten lande gronde ende allen den toebehoorten,
+                    lestmael toebehoort heeft de voors. vrouwe Catharina van Wijck ende waer van
+                    pachter was <rs type="person" ref="#verschueren_engelbert">Engelbert
+                    Verschueren</rs>, waeraff naer vele ende lange roepens namentlijck des
+                    Vrijdaechs, den <date when="1613-09-06">sesten September XVI<hi rend="super"
+                        >c</hi> derthie</date> ne als leste ende hoochste verdierdere ende meest
+                    daeromme biedende den coop ende palmslach ontfangen ende behouden heeft <rs
+                        type="person" ref="#keyser_guille">Guilliam de
+                    Keyder</rs><!-- wahrsch. Guille de Keyser aus vorherigen Akten in denen es um Iteghem/Herenthout geht -->,
+                    in den naeme ende tot behoeff van alle d’executatnten voor de welcke de voors.
+                    Peeter de Schodt ende Peeter Paulo Rubbenes voor d’executanten van <rs
+                        type="place" ref="#antwerpen">Antwperen</rs><index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    </index> ende <rs type="person" ref="#cantelbeke_anthonis">Anthoni van
+                        Cantelbeke</rs> in den naeme van de tweede executanten oft creditueren van
+                        <rs type="place" ref="#bruessel">Brussel</rs> te desen mede present hen
+                    sterckmaecken ende den voors. coop accepteerden voor de somme van twee hondert
+                    drijentsestich gulden erffelijck in ’t geheele naer luyt der coopcedulle daeraff
+                    sijnde onderteeckent bij den notaris <rs type="person" ref="#huffel_j">Jacques
+                        van Huffele</rs> ende omme den voors. Heer Jan Tendeloo met sijne consoorten
+                    inder qualiteyt als voren in d’een helft van de voors. hoeve ende landen (ende
+                    in welcke andere helft bij den voors. heere Amptman nomine officii den <date
+                        when="--03-21">21<hi rend="super">sten</hi> Meerte</date> lestleden oock
+                    gegoeyt sijn de voors. executanten van Antwerpen ende met hennen consente Jonker
+                        <rs type="person" ref="#sandelijn_franchois">Franchois Sandelijn</rs> Heere
+                    van Herenthout etc.) naer deser stadt ende vierscharen rechte behoorlijck daer
+                    inne te goedene t’ervene ende te vestigene, soo eest dat hij comparant in der
+                    voors. qualiteyt de helft van de voors. hoeve ende landen gelijck voors. staet
+                    opgedragen, gecedeert ende getransporteert heeft droegh oppe etc. opden comme
+                    ende last van 36 st. ende noch 19 st 4 den Brabants grontchijs den voors. Heere
+                    van Herenthout. Item 13 st. ende <num type="cardinal" value="6.5">6½</num> oft
+                        <num type="cardinal" value="7.5">7½</num> binnen grontchijs den Heere van
+                    Itegem. Item 5 st. 4 den <gap reason="illegible"/> nilliggens. Item 2 st. een oort grontchijs den
+                        <rs type="corporate" ref="#abtei_tongerlo">godtshuyse van Tongerloo</rs>.
+                    Item 3 gulden 3 st. chijns de capelrije van <rs type="place" ref="#herler"
+                        >Herler</rs>. Item eenen stuyver Brabants erffelijck den chijshove van <rs
+                        type="place" ref="#kwerps">Quarebbe</rs>. Item een veertel rogge chijns de
+                    capelrije van <rs type="place" ref="#noderwyck">Noorderwijck</rs> soo verre die
+                    bevonden wert daeroppe vuyt te gaene ende aenden Heyligen Geest van Itegem twee
+                    veertelen rogge die de cooper moet dragen metten verloope van dyen, sonder
+                    affcorten van sijnen coop ende alsoo onder de voors. partijen van landen twee
+                    partijen leen sijn onder <rs type="person" ref="#fierens_catharina">Catharina
+                        Fierens</rs>; soo sal den cooper den selve moeten verheffen voor heer ende
+                    hoff ende de rechten soo van relieve als andere betaelingen oock sonder
+                    affcortinge ende mindernissen van sijnen coop soo hij oock sal bij aldyen
+                    bevonden werden meer leengoeden onder te sijne met oock alle andere heerlijcke
+                    rechten soo verre de voors. goeden oft eenige van dyen daermede belast sijn daer
+                    mede noch staet te begrijpen de pontpenningen ende 32 gulden erffelijc <rs
+                        type="person" ref="#cutlen_pr">P<hi rend="super">r</hi> Van Cutlen</rs>
+                    daeroppe in ’t geheele vuytgaende, de helft van welcke voorn. rente Jonker <rs
+                        type="person" ref="#cantelbeke_anthonis">Anthony van Cantelbeke</rs> die
+                    mede voor ons quam soo voor hem selven als mede in den naeme van den voors. Heer
+                    Jan Van Tendeloo ende consoorten, crediteuren van Brussel daer vore hij hem in
+                    desen sterckmaecte geloeft heeft ende geloeffde mits desen van den voors. <date
+                        when="1613-09-06">sesten Septembris 1613</date> van doen voordanne aff
+                    eeuwelijck duerende jaerlijcx te geldene ende te betaelen, sonder etc. de helft
+                    van de voors. hoeve ende landen gelijck voors. staet enden daerenboven sijnen
+                    ende der voors. sijnre medeconsoorten persoonen ende andere goeden daervoren
+                    verbindende ent te pande settende wel verstaende dat de voors. cooperen daer
+                    vuytte noch moeten voldoen de vierhondert gulden aenden voors. Peeter de Schodt
+                    ende sijne consoorten gelijck hier boven gesecht is, voordaene verclaerde de
+                    voors. <rs type="person" ref="#cantelbeke_anthonis">Anthonis van Cantelbeke</rs>
+                    dat ter dyer tijt aenden voors. heere amptman deser stadt ter causen van desen
+                    coof in ’t gelijck niet meer gegeven noch betaelt en is dan de somme van 83
+                    gulden 1 blanc eens omme daermede te betaelen de rechtelijcke oncosten hieromme
+                    gedaen ende de resterende bate heben d’executanten ingehouden al volgende den
+                    staet daeraff gemaect sijnde</p>
+                <closer> gelovende; daeromme etc.               
+                    <salute>Sub o<hi rend="super">b</hi> Sonder argelist.</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

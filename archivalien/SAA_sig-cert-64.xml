@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_085">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Schuldbekenntnis von Joos Pertersz. van Ranst zum Vorteil von Susanna und
+                    Maria Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-cert-64">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Certificatieboeck 1603</collection>
+                        <idno type="signatur">Cert. 64, fol. 240v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Schuldbekenntnis von Joos Pertersz. van Ranst zum Vorteil von
+                            Susanna und Maria Pypelincx</title>
+                    </head>
+                  
+                    <history>
+                        <origin>
+                            <origDate when="1603-10-24">24. Oktober 1603</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                                bloedverwanten. Antwerpen 1877, S. 357f.<ptr type="gbv" cRef="146162595"
+                                /></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu" type="psw">Susanna Pypelincx</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#ranst_joos">Joos Peterssone Ranst</rs>, woonende ot <rs
+                        type="place" ref="#nispen">Nispen</rs> bekende ende verclaerde, alsoo
+                    Joufrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelinx</rs>, weduwe
+                    wijlen Meesters <rs type="person" ref="#rubens_jan">Jans Ruebens</rs>, ende <rs
+                        type="person" ref="#schot_peeter">Peter de Schot</rs>, als man ende momboir
+                    van Joufrouwe <rs type="person" ref="#pypelincx_susanne">Susanna Pypelinx</rs>,
+                    der voors. Jouffrouwen Marien sustere, bij maniere van oichluyckinge, wtgestelt
+                    ende verlengt hebben tot <date when="1604-10-01">Bamisse anno XVI<hi
+                            rend="super">c</hi> viere</date><note resp="A.H." type="footnote">Der
+                        Begriff Bamisse (Feiertag des hl. Bavo) wurde in den Niederlande zur
+                        Datierung gebraucht: 1. Oktober</note>, de betalinge vande vijftich guldenen
+                    eens die <rs type="person" ref="#adriaens_cornelie">Cornelie Adriaens</rs>,
+                    weduwe wijlen <rs type="person" ref="#wiltz_nicolaes">Nicolaes Lenaertssone
+                        Wiltz</rs>, navolgende den bescheede daeraf bij heur (geassisteert met <rs
+                        type="person" ref="#verheyden_hubrecht">Hubrecht Janssone Verheyden</rs>,
+                    heuren broedere, ende gecosen voechde), den <date when="1602-07-23">XXIII<hi
+                            rend="super">en</hi> Julij anno XVI<hi rend="super">c</hi> twee</date>, voir
+                    Scepenen tot <rs type="place" ref="#roosendaal">Roosendale</rs> gepasseert,
+                    schuldich is, sondereenich achterdeel oft innovatie vanden selven bescheede, soe
+                    eest dat hij, comparant, geloeft heeft ende geloefde, mits desen, dat hij, als
+                    principael borge, de voirs. vijftich guldenen eens wel ende volcomelijck sal
+                    betalen ende voldoen der voirs. Joufrouwen Marien ende Susannen Pypelinx <span from="" xml:lang="lat">aut
+                        latori</span>, ten voirs. <date when="1604-10-01">Bamisse anno viere</date> <span from="" xml:lang="lat">absque
+                    ulteriori. Comparuit</span> <rs type="person" ref="#adriaenssen_jan">Jan
+                    Adriaenssen</rs>, oick tot Nispen voirs. geseten, ende geloefde de voirs. schult
+                    als principael te betalene ende te voldoene der voirs. Joufrouwen Marien ende
+                    Susannen Pypelinx <span from="" xml:lang="lat">aut latori</span>, ten voirs. Bamisse naestcommende, <span from="" xml:lang="lat">absque
+                    ulteriori. Unde obtulerunt respective se et sua, cum relevatione facta per
+                    prædicitis</span>, al opt vonnisse, ende als oft sij comparanten respective daerinne
+                    alsoo vonnislicken gedoempt waren, so wij hen, theurlieder versuke, daerinne
+                    gedoempt hebben ende doemen, mits desen, ende op heerlijcke, reële ende paraete
+                    executie, renuntierende sij, comparanten, tot meerdere sekerheyt van desen, alle
+                    benefitien ende behulpen van rechten, beyde geestelick ende weirlick, die hen
+                    hierjegens eenichsins te baten zouden mogen comen, ende sunderlinge den rechte
+                    seggende dat generale renunchiatie oft verthijden nyet en dooch, ten ware de
+                    speciale voirginge, blijvende des nyettegenstaende onverandert ende in geheel
+                    tvoirgeruerde bescheet tot Roosendale als voere gepasseert.</p> 
+                    <closer>
+                        <dateline>Die <date when="1603-10-24">XXIIII<hi rend="super">a</hi> octobris 1603</date>.
+                        </dateline>
+                    </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

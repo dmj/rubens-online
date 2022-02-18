@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_146">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Jan Brand überträgt als Bevollmächtigter von Peter Paul Rubens und Vormund
+                    der Kinder von Philipp Rubens das Haus de Berendans in Borgerhout an Henrick
+                    Lenaerts. Auf dem Haus liegt eine Hypothek, die zu jährlich 12 Gulden an die
+                    Kinder von Peter Paul Rubens ausgezahlt wird</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-535">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1619/ I: Waerbeeck, Ketgen &amp; Guyot</collection>
+                        <idno type="signatur">SR 535, fol. 90r-91v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jan Brand überträgt als Bevollmächtigter von Peter Paul Rubens
+                            und Vormund der Kinder von Philipp Rubens das Haus de Berendans in
+                            Borgerhout an Henrick Lenaerts. Auf dem Haus liegt eine Hypothek,
+                            die zu jährlich 12 Gulden an die Kinder von Peter Paul Rubens
+                            ausgezahlt wird</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <locus></locus>
+                            <title> </title>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zum Verkauf des Anwesens De Beerendans in
+                                    Borgerhout das Dokument vom 
+                                    <ref type="rubens" cRef="ed_rubens_127">26. November 1614</ref> 
+                                    und das ebenfalls im Text genannte Testament der Maria Pypelincx vom 
+                                    <ref type="rubens" cRef="ed_rubens_092">18. Dezember 1606</ref>.
+                                </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1619-06">zwischen 1. und 26. Juni 1619</origDate>
+                            
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Immobilien</term>
+                    <term type="psw" xml:lang="deu">Rubens, Philipp</term>
+                    <term xml:lang="deu">Familie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Meester <rs type="person" ref="#brant_jan">Jan Brant</rs>, griffier deser stadt,
+                    inden name ende als gemechticht van <rs type="person" ref="#rubens_peter_paul"
+                        >Peeter Paulo Rubbens</rs>, M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_jan">Janssone</rs> wijlen, daer moeder aff was
+                    wijlen Jouffrouwe <rs type="person" ref="#pypelincx_maria">Maria Pypelincx</rs>,
+                    in sijnen eygenen name, de voors. M<hi rend="super">r</hi> Jan Brant voorts in den
+                    name ende als rechtelijk momboir van de onbejaerde kinderen, van wijlen M<hi
+                        rend="super">r</hi>
+                    <rs type="person" ref="#rubens_philipp">Phlips Rubben</rs> secretaris was deser
+                    stadt, des voors, Peeters Paulos broedere ende noch oick als gemechticht van de
+                    voors. Peeter Paulo Rubbens oick als rechterijk momboir<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index> over de voors. wesen ende al omme van der selver weesen ‘tgene
+                    naerbeschreven wort te mogen doene volcommen consent hebbende, van de heeren
+                    Weesmeesters deser stadt, gedateert den <date when="1614-11-26">26<hi
+                            rend="super">sten</hi> dach Novembris van den jare XVI<hi rend="super"
+                        >c</hi> vierthiene</date> onderteekent <rs type="person" ref="#witte_j">J.
+                        De Witte</rs>, ons getoont sijnde ende noch als gemechticht van de voors.
+                        <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Rubbens</rs>, als
+                    bijden testamente der voorscreven wijlen Jouffrouwe <rs type="person"
+                        ref="#pypelincx_maria">Maria Pijpelincx</rs> onder heur hanteecken, den
+                        <date when="1606-12-18">achtiensten December sestienhondert sesse</date>
+                    gexpedieert, ende toegesloten sijnde, bij heur bekent ende gepasseert voor <rs
+                        type="person" ref="#rubens_peeter">Peeter Rubbens</rs> als notaris alhier
+                    ende sekere getuygen op den <date when="1607-01-09">negensten Januari XVI<hi
+                            rend="super">c</hi> seven</date>, geordonneert testamentelijck momboir.
+                    over de kinderen van wijlen Jouffrouwe <rs type="person" ref="#rubens_blandina"
+                        >Blandina Rubbens</rs>, sijne suster, huysvrouwe was von Jonker <rs
+                        type="person" ref="#parcq_simeon">Simon van Perck</rs>, blijckende bij eene
+                    procaratie, hij den voors. Peeter Paulo Rubbens, inder voors qualiteyt bleven
+                    ende gepasseert op den <date when="--06-15">15<hi rend="super">den</hi> dach
+                    Juny</date> lestleden, voor <rs type="person" ref="#waerbeke_jan">Jan
+                    Waerbeke</rs>, als notaris alhier on presentie van seker getuygen ons oick
+                    getoont sijnde, in dyer qualiteyt in den partije ende <rs type="person"
+                        ref="#lenaerts_henrick">Henrick Lenarts</rs> van <rs type="place"
+                        ref="#duysel">Duysel</rs> in d’ander partije, bekenden ende verlijden
+                    onderlinge in beyden partijen dat de voors. Mr. Jan Brant inder voors. Qualiteyt
+                    gegeven heet ende gaff t’erve ende in erffelijck rechte, den voors. <rs
+                        type="person" ref="#lenaerts_henrick">Hendick Lenarts</rs> ende sijnen
+                    naercomelingen, te houdene eeuwelijck ende erffelijck te besittene ende te
+                    gebruyckene, den gront oft erve metten mareialen, van den afgebranden huyse,
+                    eertijte geheeten Den Berendans<index indexName="stw">
+                        <term xml:lang="nld">Berendans</term>
+                    </index> gelegen in <rs type="place" ref="#borgerhout">Borgerhout</rs><index
+                        indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Borgerhout</term>
+                    </index>, buyten deser stadt, tusschen d’erve van den affgebranden huyse van <rs
+                        type="person" ref="#raet_jacob">Jacob Raet</rs> opt sijns actie hebbende
+                    daer een steenen muerken plach te stane ende voor der niet oostwaerts, d’erve
+                    van den erffgenamen <rs type="person" ref="#lantmeter_jan">Jans de
+                    Lantmeter</rs> eensdeels ende d’erve van den erffgenamen <rs type="person"
+                        ref="#wouters_cornelis">Cornelis Wouters</rs> daer het gelint tusschen
+                    beyden staende van voors tot achters tot gelijcken coste halff ende halff plach
+                    onderhouden te worden, commende achter suytwaert aende gracht ende hoff vanden
+                    voorgen. erffgenaemen Jans de Lantmetere ende meernoortwaerts aen ‘sheeren
+                    strate, gelijck de voorgenoemde wijlen Mr. <rs type="person" ref="#rubens_jan"
+                        >Jan Rubbens</rs>, die deselve erve achtergelaten heet aen sijne kinderen,
+                    naer voorgaende vuytwinningen bij hem daervan gedaen voor ‘tgebreck van sijne
+                    rente van tweendertich gl. erffelijck als hoochste vorderer metten vuytgange
+                    vander Bernender Keerse, daervan cooper gebleven ende bekent is, in presentie
+                    van de wethouderen der Banke van <rs type="place" ref="#deurne">Deuren</rs>, op
+                    den <date when="1583-07-11">elfsten dach Julie in den jare XV<hi rend="super"
+                            >c</hi> drijentachtentich</date>, met conditie soo naermals eenige
+                    huysen opt edificie gerseke gemaectte worden achter op den erve, dat men
+                    daerlancx geen licht en sal mogen scheppen, ter gracht oft hoftwaert <gap reason="illegible"/>
+                    suytwaerts van boven reycx ende met stijve ijsere geerden ende met vaste gelasen
+                    ende dat men in geenderley manieren, niet en sal mogen eenich vuyl oft onreyn
+                    water als zeepsop, bloet oft anderssins leyden doen oft laeten leyden in de
+                    gracht van den hove van de voors. erffgenamen Jans de Lantmetere, maer wel hemel
+                    ende schoonwater van den borneputte ende anders geen. Al volgende de coopcedule,
+                    onderteeckent bij <rs type="person" ref="#wijnants_huybrecht">Huybrecht
+                    Wijnants</rs>, griffier der voorscreven hooftbancke van Deurne ende andere
+                    brieven ende bescheden daer van sijnde, die de naergenoemde erffgeveren mede
+                    overgaven ‘tsiaers erffelijck, omme tweelff guldenen, goet van goude ende swaer
+                    van gewichte, oft de weerde daervoore in andere goeden ganckbaren gelde gelijck
+                    telcken dage van betalinge t’<rs type="place" ref="#antwerpen">Antwerpen</rs>
+                    gemeyhelijck in borssen gaen sal, naer advenent, jaerlijckere ende erffelijckere
+                    rente, te geldene ende te betalene van den voors. erffnemere ende van sijnen
+                    naercommelingen, de voors. erffgeveren in der voors. qualiteyt ende hunnen
+                    naercommelingen, erffelijck ende eeuwelijck daer ende alle jaren te halft <date
+                        when="--03">Meerte</date> daeraff d’ierste jaerrente gevallen ende
+                    verschenen is te halft <date when="1616-03">Meerte in den jare sestienhondert
+                        ende sesthiene</date> voordane geloeffden den voorgenoempden erffgeveren in
+                    der voors. qualiteyt desen naergenoempden, gront ende materialen, te waerne ende
+                    te claerne t’allen dage los vrij ende quyten allen anderen voorcommeren ende
+                    calaengien ende opniet daer jaerlicx vooren vuytgaende behoudelijck dat de
+                    voors. erffnemere oft sijne naercommelingen de voors. rente van tweelff guldenen
+                    ‘tsiaers aff sal oft selen mogen lossen ende quyten theurer goeder moeyten,
+                    metter helft daervan te male niet min maer wel meer, opdat si j willen, elcken
+                    penninck altijts met sesthiene penningen, in alsdan goets gancbaers gelts ende
+                    met verschenender renten ende omme dat de voors. erffgeveren ende henne
+                    naervommelingen van heurer voors. erffelijcker rente, te bate vergouden ende
+                    versekert souden sijn ende blijven tallen dage, soo heeft de voorgenoemde
+                    erffnemere omme der meerdere sekerheyt totten gront ende materialen bij hem als
+                    boten t’erve genomen, mede verbonden ende t’onder pande geseth hem selve ende
+                    alle sijne goeden, ruerende ende onruerende tegenwoordige ende toecommende.</p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

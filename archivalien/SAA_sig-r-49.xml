@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_019">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bezahlung von David Remeeus für die Fassung des Rahmens der
+                    Scaldis von Abraham Janssens und der Anbetung der Könige von
+                    Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>HAB</p>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="SAA_sig-r-49">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Stadsrekening (domeinen),1609-1612, rentmeester Alex van den Broecke:
+                            1. Februar 1609 – Januar 1610</collection>
+                        <idno type="signatur">R 49,  fol. 362v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Bezahlung von David Remeeus für die Fassung des Rahmens der
+                            Scaldis von Abraham Janssens und der Anbetung der Könige von
+                            Rubens</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Am 28. August 1612 kommt Don Rodrigo Calderon
+                                d’Oliva nach Antwerpen. Am 31. August und am 1. September beschließt der
+                                Breede-Raad die Übergabe von Rubens Anbetung der Könige an den Grafen. Die
+                                diesbezüglichen Dokumente abgedruckt bei <bibl>Pierre Génard: P. P. Rubens :
+                                    Aanteekeningen over den grooten meester en zijne bloedverwanten. Antwerpen
+                                    1877. S. 396-398. <ptr type="gbv" cRef="146162595"/></bibl>und <bibl>Franz
+                                        Jozef Peter van den Branden: Geschiedenis der Antwerpsche Schilderschool.
+                                        Antwerpen 1883. S. 487f. <ptr type="gbv" cRef="194552292"/></bibl>
+                            </note>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zur Bezahlung der Gemälde auch die Eintragung
+                                    in: Stadsrekening (domeinen), 1609-1612, rentmeester Alex van den Broecke: 1.
+                                    Februar 1610 – Januar 1611 <ref type="rubens" cRef="ed_rubens_018">(SAA, R 50,
+                                        fol. 289v)</ref>.</note>, sowie die Dokumente vom 
+                                <ref type="rubens" cRef="ed_rubens_017">29. April 1610</ref> 
+                                und <ref type="rubens" cRef="ed_rubens_017a">4. August 1610</ref>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>                           
+                                <origDate  notBefore="1609" notAfter="1610">? 1609/1610</origDate>
+                          </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
+                                Schilderschool. Antwerpen 1883. S. 486 <ptr type="gbv" cRef="194552292"/></bibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877, S. 395<ptr type="gbv" cRef="146162595"
+                                /></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Anbetung</term>
+                    <term xml:lang="deu">Drei Könige</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                    <term xml:lang="deu">Antwerpen</term>
+                    <term xml:lang="deu">Rathaus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#remeeus_david">David Remeeus</rs>, de somme van
+                         achtentseventich ponden artois, ter saken van het
+                    schilderen ende vergulden van twee groote lysten van twee schilderyen inde
+                        Statencamer<index indexName="stw">
+                        <term xml:lang="deu">Rathaussaal</term>
+                    </index> gemaect, deenen van de <rs type="work" ref="#jaffe_948">dry
+                        Coninghen</rs><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Anbetung der Könige</term>
+                        </index>
+                    </index><note resp="A.H." type="footnote">Das 1609 entstandene Gemälde wurde 1629
+                        von Rubens selbst erweitert und ausführlich retuschiert. Vgl. hierzu
+                            <bibl>Michael Jaffé: Rubens – Catalogo completo. Milano 1989. S. 167 und
+                                309.<ptr type="gbv" cRef="022373535"/></bibl></note>, ende dander
+                    van <rs type="work" ref="#janssens_scaldis">Schaldis</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Janssens van Nuyssen, Abraham</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Scaldis und Antwerpia</term>
+                        </index>
+                    </index>, volgende de specificatie ende der attestatien, met ordonnantie ende
+                    quitantie .</p> 
+                <p rend="text-align:right"><measure type="currency" quantity="78">LXXVIII £</measure>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

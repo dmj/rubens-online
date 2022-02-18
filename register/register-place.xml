@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listPlace>
+    <place xml:id="aachen">
+        <!-- frz. Aix-la-Chapelle -->
+        <placeName>Aachen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004799"/>
+        </note>
+    </place>
+    <place xml:id="aalst">
+        <placeName>Aalst</placeName>
+        <!-- Aelst -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006843"/>
+        </note>
+    </place>
+    <place xml:id="achterleen">
+        <placeName>Achterleen</placeName>
+        <!-- evtl. Achterlaan? -->
+    </place>
+    <place xml:id="aertland">
+        <placeName>Aertland</placeName>
+    </place>
+    <place xml:id="affligem">
+        <placeName>Affligem</placeName>
+        <note type="annotation">Affligem ist eine belgische Gemeinde etwa 20 km westnordwestlich von
+            Brüssel in der Provinz Flämisch-Brabant.</note>
+    </place>
+    <place xml:id="afrika">
+        <placeName>Afrika</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7001242"/>
+        </note>
+    </place>
+    <place xml:id="alicante">
+        <placeName>Alicante</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007259"/>
+        </note>
+    </place>
+    <place xml:id="angers">
+        <placeName>Angers</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008480"/>
+        </note>
+    </place>
+    <place xml:id="angouleme">
+        <placeName>Angoulême</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008565"/>
+        </note>
+    </place>
+    <place xml:id="aix_en_provence">
+        <placeName>Aix-en-Provence</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7010786"/>
+        </note>
+    </place>
+    <place xml:id="amerika">
+        <placeName>Amerika</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7029440"/>
+        </note>
+    </place>
+    <place xml:id="samsun">
+        <!-- Amisus, Amisos -->
+        <placeName>Samsun</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7002339"/>
+        </note>
+    </place>
+    <place xml:id="amsterdam">
+        <placeName>Amsterdam</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TNG_7006952"/>
+        </note>
+    </place>
+    <place xml:id="antwerpen">
+        <placeName>Antwerpen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007856"/>
+        </note>
+    </place>
+    <place xml:id="aartselaar">
+        <placeName>Aartselaar</placeName>
+        <note type="annotation">Gemeinde in der Provinz Antwerpen. Sie liegt im Großraum Antwerpen
+            etwa 10 Kilometer südlich des Stadtzentrums.</note>
+    </place>
+    <place xml:id="apulien">
+        <placeName>Apulien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7010380"/>
+        </note>
+    </place>
+    <place xml:id="aragon">
+        <placeName>Aragon</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7024276"/>
+        </note>
+    </place>
+    <place xml:id="aranjuez">
+        <placeName>Aranjuez</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007284"/>
+        </note>
+    </place>
+    <place xml:id="arbil">
+        <!-- Urbilum, Urbel, Arbeil. arbela -->
+        <placeName>Arbil</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7002589"/>
+        </note>
+    </place>
+    <place xml:id="artois">
+        <placeName>Artois</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7012194"/>
+        </note>
+    </place>
+    <place xml:id="asien">
+        <placeName>Asien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000004"/>
+        </note>
+    </place>
+    <place xml:id="assenede">
+        <placeName>Assenede</placeName>
+        <!-- Assenede ist eine Gemeinde in der Region Flandern in Belgien. Sie liegt im Arrondissement Eeklo in der Provinz Ostflandern  -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026295"/>
+        </note>
+    </place>
+    <place xml:id="attenorde">
+        <placeName>Attenorde</placeName>
+    </place>
+    <place xml:id="attenvoorde">
+        <placeName>Attenvoorde</placeName>
+    </place>
+    <place xml:id="augsburg">
+        <placeName>Augsburg</placeName>
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_7004324"></ptr></note>
+    </place>
+    <place xml:id="autzerweele">
+        <placeName>Autzerweele</placeName>
+    </place>
+    <place xml:id="ayre">
+        <placeName>Ayre</placeName>
+    </place>
+    <place xml:id="baasrode">
+        <placeName>Baasrode</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026308"/>
+        </note>
+    </place>
+    <place xml:id="baetica">
+        <placeName>Baetica</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_6000567"/>
+        </note>
+    </place>
+    <place xml:id="bamberg">
+        <placeName>Bamberg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004325"/>
+        </note>
+    </place>
+    <place xml:id="barcelona">
+        <placeName>Barcelona</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007426"/>
+        </note>
+    </place>
+    <place xml:id="bardaensche">
+        <placeName>Bardaensche</placeName>
+    </place>
+    <place xml:id="bautencoven">
+        <placeName>Bautencoven</placeName>
+    </place>
+
+    <place xml:id="bavenschoir">
+        <placeName>Bavenschoir</placeName>
+    </place>
+    <place xml:id="bavinckhove">
+        <placeName>Bavinckhove</placeName>
+    </place>
+    <place xml:id="bayern">
+        <placeName>Bayern</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003669"/>
+        </note>
+    </place>
+    <place xml:id="beaulieu">
+        <placeName>Beaulieu</placeName>
+    </place>
+    <place xml:id="beke">
+        <placeName>Beke</placeName>
+        <note type="annotation">In der Nähe von Loenhout und im Umland von Antwerpen gelegen</note>
+    </place>
+    <place xml:id="belgien">
+        <placeName>Belgien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000063"/>
+        </note>
+    </place>
+    <place xml:id="berchby">
+        <placeName>Berchby</placeName>
+    </place>
+    <place xml:id="berchem">
+        <placeName>Berchem</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1136644"/>
+        </note>
+    </place>
+    <place xml:id="bercheycke">
+        <placeName>Bercheycke</placeName>
+    </place>
+    <place xml:id="berg">
+        <!-- zu Jülich-Berg -->
+        <placeName>Berg</placeName>
+    </place>
+    <place xml:id="bergen">
+        <placeName>Bergen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007058"/>
+        </note>
+    </place>
+    <place xml:id="bergen_op_zoom">
+        <placeName>Bergen-op-Zoom</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006822"/>
+        </note>
+    </place>
+    <place xml:id="beveren">
+        <placeName>Beveren</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026330"/>
+        </note>
+    </place>
+    <place xml:id="beylant">
+        <placeName>Beylant</placeName>
+    </place>
+    <place xml:id="bilstein">
+        <placeName>Billstein</placeName>
+    </place>
+    <place xml:id="blois">
+        <placeName>Blois</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008320"/>
+        </note>
+    </place>
+    <place xml:id="bologna">
+        <placeName>Bologna</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004847"/>
+        </note>
+        <!-- nicht die Provinz Bologna -->
+    </place>
+    <place xml:id="borcht">
+        <placeName>Borcht</placeName>
+    </place>
+    <place xml:id="borchvliet">
+        <placeName>Borchvliet</placeName>
+    </place>
+    <place xml:id="borgerhout">
+        <placeName>Borgerhout</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026345"/>
+        </note>
+    </place>
+    <place xml:id="bouchout">
+        <placeName>Boechout</placeName>
+        <note type="annotation">belgische Gemeinde in der Provinz Antwerpen</note>
+    </place>
+    <place xml:id="bourges">
+        <placeName>Bourges</placeName>
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_7017415"></ptr></note>
+    </place>
+    <place xml:id="brabant">
+        <placeName>Brabant</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003463"/>
+        </note>
+    </place>
+    <place xml:id="bracciano">
+        <placeName>Bracciano</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007170"/>
+        </note>
+    </place>
+    <place xml:id="braine_le_comte">
+        <placeName>Braine-le-Comte</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007866"/>
+        </note>
+        <!-- Gemeinde in der Provinz Hennegau im wallonischen Teil Belgiens -->
+    </place>
+    <place xml:id="braunschweig">
+        <placeName>Braunschweig</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004434"/>
+        </note>
+    </place>
+    <place xml:id="breda">
+        <placeName>Breda</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006827"/>
+        </note>
+    </place>
+    <place xml:id="breslau">
+        <!-- vratislaviensis -->
+        <placeName>Wrocław (ehem. Breslau)</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="TGN_7007601"/>
+        </note>
+    </place>
+    <place xml:id="brie">
+        <placeName>Brie</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008993"/>
+        </note>
+        <!-- Region generell -->
+    </place>
+    <place xml:id="brindisi">
+        <placeName>Brindisi</placeName>
+        <!-- Brundisium -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004094"/>
+        </note>
+    </place>
+    <place xml:id="broeck">
+        <placeName>Broeck</placeName>
+    </place>
+    <place xml:id="bruegge">
+        <placeName>Brügge</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007867"/>
+        </note>
+    </place>
+    <place xml:id="bruessel">
+        <placeName>Brüssel</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007868"/>
+        </note>
+    </place>
+    <place xml:id="buckinge">
+        <placeName>Buckinge</placeName>
+    </place>
+    <place xml:id="burgos">
+        <placeName>Burgos</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007510"/>
+        </note>
+    </place>
+    <place xml:id="burgund">
+        <placeName>Burgund</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7029372"/>
+        </note>
+    </place>
+    <place xml:id="cadiz">
+        <placeName>Cádiz</placeName>
+        <!-- frz. Cadis, Andalusien -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007512"/>
+        </note>
+    </place>
+    <place xml:id="cambrai">
+        <placeName>Cambrai</placeName>
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_7008456"></ptr></note>
+    </place>
+    <place xml:id="campenhout">
+        <placeName>Campenhout</placeName>
+    </place>
+    <place xml:id="cannae">
+        <!-- Schlacht unter Hannibal, 2. Pun. Krieg -->
+        <placeName>Cannae</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7009090"/>
+        </note>
+    </place>
+    <place xml:id="canterbury">
+        <!-- kantelbergh -->
+        <placeName>Canterbury</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7012044"/>
+        </note>
+    </place>
+    <place xml:id="capelle_op_den_bosch">
+        <placeName>Capelle op den Bosch</placeName>
+        <!-- village of the Netherlands, on the canal between Brussels and Antwerp -->
+    </place>
+    <place xml:id="capua">
+        <placeName>Capua</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004529"/>
+        </note>
+    </place>
+    <place xml:id="carpentras">
+        <placeName>Carpentras</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008801"/>
+        </note>
+    </place>
+    <place xml:id="cassel">
+        <placeName>Cassel</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1032436"/>
+        </note>
+        <!-- Gemeinde im Département Nord in Nordfrankreich nahe der Grenze zu Belgien, ndl. Kassel -->
+    </place>
+    <place xml:id="ceescamp">
+        <placeName>Ceescamp</placeName>
+    </place>
+    <place xml:id="champagne">
+        <placeName>Champagne</placeName>
+        <!-- historische Regien, heutiges Champagne-Ardenne -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7001090"/>
+        </note>
+    </place>
+    <place xml:id="cheltenham">
+        <placeName>Cheltenham</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7011192"/>
+        </note>
+    </place>
+    <place xml:id="cleyn_polderken">
+        <placeName>Cleyn Polderken</placeName>
+    </place>
+    <place xml:id="colen">
+        <placeName>Köln</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004446"/>
+        </note>
+    </place>
+    <place xml:id="comacchio">
+        <placeName>Comacchio</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004895"/>
+        </note>
+    </place>
+    <place xml:id="conpigny">
+        <placeName>Conpigny</placeName>
+    </place>
+    <place xml:id="contich">
+        <placeName>Kontich</placeName>
+        <!--  (Contigh), Flecken in der belg.  Provinz und Arrondissement Antwerpen -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026538"/>
+        </note>
+    </place>
+    <place xml:id="cordoba">
+        <placeName>Cordoba</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007513"/>
+        </note>
+    </place>
+    <place xml:id="cruyckenborch">
+        <placeName>Cruyckenborch</placeName>
+    </place>
+    <place xml:id="cuijk">
+        <placeName>Cuijk</placeName>
+        <!-- Cuyck -->
+    </place>
+    <place xml:id="daenemark">
+        <placeName>Dänemark</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000066"/>
+        </note>
+    </place>
+    <place xml:id="dambrugge">
+        <placeName>Dambrugge</placeName>
+        <note type="annotation">Heute Stadteil Antwerpens, nordöstlich des Stadkerns gelegen</note>
+    </place>
+    <place xml:id="danzig">
+        <placeName>Danzig</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007660"/>
+        </note>
+    </place>
+    <place xml:id="delft">
+        <placeName>Delft</placeName>
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_7006804"></ptr></note>
+    </place>
+    <place xml:id="delphi">
+        <placeName>Delphi</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7010770"/>
+        </note>
+    </place>
+    <place xml:id="dendermonde">
+        <placeName>Dendermonde</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007872"/>
+        </note>
+    </place>
+    <place xml:id="deurne">
+        <placeName>Deurne</placeName>
+    </place>
+    <place xml:id="deutschland">
+        <placeName>Deutschland</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7000084"/>
+        </note>
+    </place>
+    <place xml:id="dijon">
+        <placeName>Dijon</placeName>
+        <!-- Divione -->
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_7008224"></ptr></note>
+    </place>
+    <place xml:id="dillenburg">
+        <!-- auch dillenbergh -->
+        <placeName>Dillenburg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1038817"/>
+        </note>
+    </place>
+    <place xml:id="doel">
+        <placeName>Doel</placeName>
+        <!-- Gemarkung von Doel (Gemeinde Beveren) an der Schelde, ca. 25 km nördlich von Antwerpen. -->
+    </place>
+    <place xml:id="duisburg">
+        <placeName>Duisburg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004923"/>
+        </note>
+    </place>
+    <place xml:id="duysel">
+        <placeName>Duysel</placeName>
+    </place>
+    <!-- hier wahrscheinlich Person gemeint?! -->
+    <!--<place xml:id="dyck">
+        <placeName>Dyck</placeName>
+    </place>-->
+    <place xml:id="dyssel">
+        <placeName>Dyssel</placeName>
+    </place>
+    <place xml:id="edegem">
+        <placeName>Edegem</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026405"/>
+        </note>
+    </place>
+    <place xml:id="eecke">
+        <placeName>Eecke</placeName>
+    </place>
+    <place xml:id="eeckeren">
+        <placeName>Eeckeren</placeName>
+        <note type="annotation">Dorf in der belgischen Provinz im Bezirk Antwerpen, Rubens erwarb
+            hier 1627 hier einen Gutshof.</note>
+    </place>
+    <place xml:id="eindhoven">
+        <placeName>Eindhoven</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006842"/>
+        </note>
+    </place>
+    <place xml:id="elewijt">
+        <placeName>Elewijt</placeName>
+        <!-- Elewyt; dorp in de Belgische provincie Vlaams-Brabant  -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7031657"/>
+        </note>
+    </place>
+    <place xml:id="elst">
+        <placeName>Elst</placeName>
+    </place>
+    <place xml:id="enghien">
+        <placeName>Enghien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008834"/>
+        </note>
+    </place>
+    <place xml:id="england">
+        <placeName>England</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7002445"/>
+        </note>
+    </place>
+    <place xml:id="epirus">
+        <!-- röm. Provinz in NW-Griechenland und südl. Albanien -->
+        <placeName>Epirus</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7030329"/>
+        </note>
+    </place>
+    <place xml:id="eppegem">
+        <placeName>Eppegem</placeName>
+        <!-- dorp in de Belgische provincie Vlaams-Brabant -->
+    </place>
+    <place xml:id="europa">
+        <placeName>Europa</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000003"/>
+        </note>
+    </place>
+    <place xml:id="flandern">
+        <placeName>Flandern</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7024097"/>
+        </note>
+    </place>
+    <place xml:id="florenz">
+        <placeName>Florenz</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7000457"/>
+        </note>
+    </place>
+    <place xml:id="fontainebleau">
+        <placeName>Fontainebleau</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008005"/>
+        </note>
+    </place>
+    <place xml:id="frankfurt">
+        <placeName>Frankfurt</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7005293"/>
+        </note>
+    </place>
+    <place xml:id="frankreich">
+        <placeName>Frankreich</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000070"/>
+        </note>
+    </place>
+    <place xml:id="franckendael">
+        <placeName>Franckendael</placeName>
+    </place>
+    <place xml:id="freudenburg">
+        <placeName>Freudenburg</placeName>
+    </place>
+    <place xml:id="friesland">
+        <placeName>Friesland</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003617"/>
+        </note>
+    </place>
+    <place xml:id="galatien">
+        <!-- in hellenistischer, römischer und byzantinischer Zeit das von den Kelten bewohnte Gebiet Zentralanatoliens  -->
+        <placeName>Galatien</placeName>
+    </place>
+    <place xml:id="gallien">
+        <!-- histor. Region. Frankr., Belien, Norditalien, Teile Westdt. -->
+        <placeName>Gallien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_4004256"/>
+        </note>
+    </place>
+    <place xml:id="gambassi">
+        <placeName>Gambassi Terme</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1044749"/>
+        </note>
+    </place>
+    <place xml:id="geldern">
+        <placeName>Gelderland</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003619"/>
+        </note>
+    </place>
+    <place xml:id="genua">
+        <placeName>Genua</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008546"/>
+        </note>
+    </place>
+    <place xml:id="gerlaer">
+        <placeName>Gerlaer</placeName>
+    </place>
+    <place xml:id="geronium">
+        <placeName>Geronium</placeName>
+    </place>
+    <place xml:id="gent">
+        <placeName>Gent</placeName>
+        <!-- Hauptstadt der belgischen Provinz Ostflandern und des Arrondissements Gent; Belgien -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007887"/>
+        </note>
+    </place>
+    <place xml:id="gisternepoorte">
+        <placeName>Gisternepoorte</placeName>
+    </place>
+    <place xml:id="goere">
+        <placeName>Goere</placeName>
+    </place>
+    <place xml:id="gouda">
+        <placeName>Gouda</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006805"/>
+        </note>
+    </place>
+    <place xml:id="griechenland">
+        <placeName>Griechenland</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000074"/>
+        </note>
+    </place>
+    <place xml:id="groningen">
+        <placeName>Groningen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003613"/>
+        </note>
+    </place>
+    <place xml:id="gronsfeldt">
+        <placeName>Gronsfeldt</placeName>
+    </place>
+    <place xml:id="grossbritannien">
+        <placeName>Großbritannien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008653"/>
+        </note>
+    </place>
+    <place xml:id="gulich">
+        <placeName>Gulich</placeName>
+    </place>
+    <place xml:id="haag">
+        <!-- 's-Gravenhage, 's Hage, franz. la Haye, lat. Haga comitis, »Grafenhain« -->
+        <placeName>Den Haag</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006810"/>
+        </note>
+    </place>
+    <place xml:id="hamburg">
+        <placeName>Hanburg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7005289"/>
+        </note>
+    </place>
+    <place xml:id="habsburg">
+        <placeName>Habsburg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7024438"/>
+        </note>
+    </place>
+    <place xml:id="haveskercke">
+        <placeName>Haverskerque</placeName>
+    </place>
+    <place xml:id="haynnau">
+        <placeName>Hennegau</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007877"/>
+        </note>
+        <!-- Haynnau. Haynault, Hainaut,  Henegouwen (nld) Hinnot (wallon.) Enegouwn (westfläm.)-->
+    </place>
+    <place xml:id="henricxpolder">
+        <placeName>Henricxpolder</placeName>
+        <note type="annotation">In der Nähe von Steenbergen gelegen</note>
+    </place>
+    <place xml:id="herentals">
+        <placeName>Herentals</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007892"/>
+        </note>
+    </place>
+    <place xml:id="herenthout">
+        <placeName>Herenthout</placeName>
+        <note type="annotation">Liegt südwestlich in der Nähe von Herentals</note>
+    </place>
+    <place xml:id="herler">
+        <placeName>Herler</placeName>
+    </place>
+    <place xml:id="hoboken">
+        <placeName>Hoboken</placeName>
+        <!--<note type="annotation">heute Stadtteil im Süden von Antwerpen</note>
+-->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007894"/>
+        </note>
+    </place>
+    <place xml:id="hoeven">
+        <placeName>Hoeven</placeName>
+    </place>
+    <place xml:id="hove">
+        <placeName>Hove</placeName>
+        <!-- Hove (Belgien) ist eine belgische Gemeinde in der Region Flandern mit gut 8.300 Einwohnern, die sich im Großraum Antwerpen befindet -->
+    </place>
+    <place xml:id="hofvierendeel">
+        <placeName>Hofvierendeel</placeName>
+    </place>
+    <place xml:id="holland">
+        <placeName>Holland</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1003759"/>
+        </note>
+    </place>
+    <place xml:id="hombeek">
+        <placeName>Hombeek</placeName>
+        <note type="annotation">in der Nähe von Mechelen und Antwerpen gelegen</note>
+    </place>
+    <place xml:id="hoplant">
+        <placeName>Hoplant</placeName>
+    </place>
+    <place xml:id="houtem">
+        <placeName>Houtem</placeName>
+    </place>
+    <place xml:id="hubais">
+        <placeName>Hubais</placeName>
+        <!-- bei Namur gelegen -->
+    </place>
+    <place xml:id="hulsterambacht">
+        <placeName>Hulsterambacht</placeName>
+    </place>
+    <place xml:id="indien">
+        <placeName>Indien</placeName>
+        <!-- Subkontinent genommen im TGN -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7000208"/>
+        </note>
+    </place>
+    <place xml:id="irland">
+        <placeName>Irland</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7001181"/>
+        </note>
+    </place>
+    <place xml:id="italien">
+        <placeName>Italien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000080"/>
+        </note>
+    </place>
+    <place xml:id="itegem">
+        <placeName>Itegem</placeName>
+    </place>
+    <place xml:id="juelich">
+        <placeName>Jülich</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7012517"/>
+        </note>
+    </place>
+    <place xml:id="kalela">
+        <placeName>Kalela</placeName>
+    </place>
+    <place xml:id="kallo">
+        <placeName>Kallo</placeName>
+    </place>
+    <place xml:id="kampanien">
+        <placeName>Kampanien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003005"/>
+        </note>
+    </place>
+    <place xml:id="kappadokien">
+        <placeName>Kappadokien</placeName>
+        <!-- Kappadozien, Cappadoce; Landschaft in Zentralantloien -->
+    </place>
+    <place xml:id="karthago">
+        <placeName>Karthago</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7016143"/>
+        </note>
+    </place>
+    <place xml:id="kastilien">
+        <placeName>Kastilien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7002784"/>
+        </note>
+    </place>
+    <place xml:id="keentenisse">
+        <placeName>Keetenisse</placeName>
+    </place>
+    <place xml:id="kieldrecht">
+        <!-- kildrecht -->
+        <placeName>Kieldrecht</placeName>
+        <note type="annotation">Berg in der belgischen Provinz Ostflandern</note>
+    </place>
+    <place xml:id="kilikien">
+        <placeName>Kilikien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7002470"/>
+        </note>
+    </place>
+    <place xml:id="kipdorp">
+        <placeName>Kipdorp</placeName>
+        <!-- südöstlich von Antwerpen -->
+    </place>
+    <place xml:id="kleve">
+        <placeName>Kleve</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7012313"/>
+        </note>
+    </place>
+    <place xml:id="klyn_zeelant">
+        <placeName>Klyn-Zeelant</placeName>
+    </place>
+    <place xml:id="knidos">
+        <placeName>Knidos</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_5003757"/>
+        </note>
+    </place>
+    <place xml:id="koeln">
+        <placeName>Köln</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004446"/>
+        </note>
+    </place>
+    <place xml:id="kortrijk">
+        <placeName>Kortrijk</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007934"/>
+        </note>
+    </place>
+    <place xml:id="kreta">
+        <placeName>Kreta</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7012056"/>
+        </note>
+    </place>
+    <place xml:id="krk">
+        <!-- lat. Curicta, ital. Veglia, dt. veraltet Vegl; Kyriktike, Kurikta, Kurikon -->
+        <placeName>Krk</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1007739"/>
+        </note>
+    </place>
+    <place xml:id="kruibeke">
+        <placeName>Kruibeke</placeName>
+        <note type="annotation">Gemeinde im Nordosten der belgischen Provinz Ostflandern,
+            südwestlich von Antwerpen gelegen</note>
+    </place>
+    <place xml:id="kuringen">
+        <placeName>Kuringen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_4005886"/>
+        </note>
+    </place>
+    <place xml:id="kwerps">
+        <placeName>Erps-Kwerps</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_4003691"/>
+        </note>
+        <!-- Quarebbe -->
+    </place>
+    <place xml:id="laken">
+        <placeName>Laken</placeName>
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_7016995"></ptr></note>
+    </place>
+    <place xml:id="landrecies">
+        <placeName>Landrecies</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1033776"/>
+        </note>
+    </place>
+    <place xml:id="larino">
+        <!-- Larinum  217 BC, the Romans defeated Hannibal here-->
+        <placeName>Larino</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004059"/>
+        </note>
+    </place>
+    <place xml:id="leeuwarden">
+        <placeName>Leeuwarden</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007006"/>
+        </note>
+    </place>
+    <place xml:id="leon">
+        <placeName>León</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7002826"/>
+        </note>
+    </place>
+    <place xml:id="leyden">
+        <placeName>Leiden</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006809"/>
+        </note>
+    </place>
+    <place xml:id="liancourt">
+        <placeName>Liancourt</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1034035"/>
+        </note>
+    </place>
+    <place xml:id="lier">
+        <placeName>Lier</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7016996"/>
+        </note>
+    </place>
+    <place xml:id="lille">
+        <placeName>Lille</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008461"/>
+        </note>
+    </place>
+    <place xml:id="ligurien">
+        <placeName>Ligurien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003236"/>
+        </note>
+    </place>
+    <place xml:id="limburg">
+        <placeName>Limburg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003461"/>
+        </note>
+    </place>
+    <place xml:id="livorno">
+        <placeName>Livorno</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006074"/>
+        </note>
+    </place>
+    <place xml:id="loches">
+        <placeName>Loches</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008317"/>
+        </note>
+    </place>
+    <place xml:id="loenhout">
+        <placeName>Loenhout</placeName>
+        <note type="annotation">Im Umland von Antwerpen gelegen</note>
+    </place>
+    <place xml:id="loewen">
+        <placeName>Löwen</placeName>
+        <!-- Looven, Leuven, Louvain; Stadt in der Region Flandern. Sie ist Hauptstadt der Provinz Flämisch-Brabant und Hauptort des Arrondissements Löwen. -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007949"/>
+        </note>
+    </place>
+    <place xml:id="lombardei">
+        <placeName>Lombardei</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003237"/>
+        </note>
+    </place>
+    <place xml:id="london">
+        <placeName>London</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7011781"/>
+        </note>
+    </place>
+    <place xml:id="lothringen">
+        <placeName>Lothringen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7024272"/>
+        </note>
+    </place>
+    <place xml:id="lucon">
+        <placeName>Luçon</placeName>
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_7008495"></ptr></note>
+    </place>
+    <place xml:id="luxemburg">
+        <placeName>Luxemburg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003514"/>
+        </note>
+    </place>
+    <place xml:id="luydick">
+        <placeName>Luydick</placeName>
+    </place>
+    <place xml:id="lyon">
+        <placeName>Lyon</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008772"/>
+        </note>
+    </place>
+    <place xml:id="madrid">
+        <placeName>Madrid</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7010413"/>
+        </note>
+    </place>
+    <place xml:id="maastricht">
+        <placeName>Maastricht</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006862"/>
+        </note>
+    </place>
+    <place xml:id="mailand">
+        <placeName>Mailand</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7005903"/>
+        </note>
+    </place>
+    <place xml:id="malta">
+        <placeName>Malta</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7005729"/>
+        </note>
+    </place>
+    <place xml:id="mantua">
+        <placeName>Mantua</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7005879"/>
+        </note>
+        <!-- inhabited place, nicht die Provinz hier -->
+    </place>
+    <place xml:id="mariembourg">
+        <placeName>Mariembourg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026592"/>
+        </note>
+    </place>
+    <place xml:id="marlagne">
+        <placeName>Marlagne</placeName>
+    </place>
+    <place xml:id="marseille">
+        <placeName>Marseille</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008781"/>
+        </note>
+    </place>
+    <place xml:id="mechelen">
+        <!-- frz. malines dt. Mecheln-->
+        <placeName>Mechelen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008736"/>
+        </note>
+    </place>
+    <place xml:id="meissen">
+        <placeName>Meißen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7012844"/>
+        </note>
+    </place>
+    <place xml:id="melsele">
+        <placeName>Melsele</placeName>
+        <!-- small town in the municipality of Beveren located in the Belgian province of East Flanders.
+            
+            Melsele is sandwiched between the city proper of Beveren and the nearby town of Zwijndrecht.  -->
+    </place>
+    <place xml:id="merksem">
+        <placeName>Merksem</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7007957"/>
+        </note>
+        <note type="annotation">Heute Stadttteil Antwerpens</note>
+    </place>
+    <place xml:id="micke">
+        <placeName>Micke</placeName>
+    </place>
+    <place xml:id="middelburg">
+        <placeName>Middelburg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006752"/>
+        </note>
+    </place>
+    <place xml:id="morckhoven">
+        <placeName>Morckhoven</placeName>
+        <note type="annotation">In der Nähe von Herentals gelegen, Umland von Antwerpen</note>
+    </place>
+    <place xml:id="moerbeeck">
+        <placeName>Moerbeeck</placeName>
+    </place>
+    <place xml:id="moerendael">
+        <placeName>Moerendael</placeName>
+    </place>
+    <place xml:id="montserrat">
+        <placeName>Montserrat</placeName>
+    </place>
+    <place xml:id="mortsel">
+        <placeName>Mortsel</placeName>
+    </place>
+    <place xml:id="murra">
+        <placeName>Murra</placeName>
+    </place>
+    <place xml:id="muyse">
+        <placeName>Muyse</placeName>
+        <note type="annotation">In der Nähe von Mechelen gelegen</note>
+    </place>
+    <place xml:id="namur">
+        <placeName>Namur</placeName>
+        <!-- nl.- Namen; im TGN hier die Provinz Namur genommen -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003466"/>
+        </note>
+    </place>
+    <place xml:id="navarra">
+        <placeName>Navarra</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7001155"/>
+        </note>
+    </place>
+    <place xml:id="nazareth_antwerpen">
+        <placeName>Nazareth</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026628"/>
+        </note>
+    </place>
+    <place xml:id="neapel">
+        <!-- Neapolis -->
+        <placeName>Neapel</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004474"/>
+        </note>
+    </place>
+    <place xml:id="niederlande">
+        <placeName>Niederlande</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7016845"/>
+        </note>
+    </place>
+    <place xml:id="nieuwen">
+        <placeName>Nieuwen</placeName>
+    </place>
+    <place xml:id="ninhove">
+        <placeName>Ninhove</placeName>
+        <!-- Ninove ist eine Stadt in der belgischen Provinz Ostflandern. Sie liegt am Fluss Dender. -->
+    </place>
+    <place xml:id="nispen">
+        <placeName>Nispen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1047987"/>
+        </note>
+    </place>
+    <place xml:id="noderwyck">
+        <placeName>Noderwyck</placeName>
+        <!-- Namen nochmals prüfen -->
+    </place>
+    <place xml:id="noerdlingen">
+        <placeName>Nördlingen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7012334"/>
+        </note>
+    </place>
+    <place xml:id="noort_geest">
+        <placeName>Noort-Geest</placeName>
+    </place>
+    <place xml:id="oberitalien">
+        <placeName>Oberitalien</placeName>
+    </place>
+    <place xml:id="oideren">
+        <placeName>Oideren</placeName>
+    </place>
+    <place xml:id="osimo">
+        <placeName>Osimo</placeName>
+        <!-- Auximum ausimi ausimum -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7010375"/>
+        </note>
+    </place>
+    <place xml:id="palatin">
+        <placeName>Palatin</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_3000935"/>
+        </note>
+    </place>
+    <place xml:id="palencia">
+        <placeName>Palencia</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008231"/>
+        </note>
+    </place>
+    <place xml:id="paris">
+        <placeName>Paris</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008038"/>
+        </note>
+    </place>
+    <place xml:id="parma">
+        <placeName>Parma</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7004942"/>
+        </note>
+    </place>
+    <place xml:id="pavia">
+        <!-- ticinum -->
+        <placeName>Pavia</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006026"/>
+        </note>
+    </place>
+    <place xml:id="peking">
+        <placeName>Peking</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7001758"/>
+        </note>
+    </place>
+    <place xml:id="polen">
+        <placeName>Polen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006366"/>
+        </note>
+    </place>
+    <place xml:id="portugal">
+        <placeName>Portugal</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000090"/>
+        </note>
+    </place>
+    <place xml:id="prag">
+        <placeName>Prag</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006464"/>
+        </note>
+    </place>
+    <place xml:id="oesterreich">
+        <placeName>Österreich</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000062"/>
+        </note>
+    </place>
+    <place xml:id="ossenisse">
+        <placeName>Ossenisse</placeName>
+        <!-- small village in the Dutch province of Zeeland. It is a part of the municipality of Hulst, and lies about 24 km west of Bergen op Zoom. -->
+    </place>
+    <place xml:id="ossevoort">
+        <placeName>Ossevoort</placeName>
+    </place>
+    <place xml:id="overijssel">
+        <placeName>Overijssel</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003626"/>
+        </note>
+    </place>
+    <place xml:id="padua">
+        <placeName>Padua</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003085"/>
+        </note>
+    </place>
+    <place xml:id="peronne">
+        <placeName>Péronne</placeName>
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_1034787"></ptr></note>
+    </place>
+    <place xml:id="picenum">
+        <placeName>Picenum</placeName>
+        <!-- Landschaft im antiken Mittelaitalien, südl. von Umbrien -->
+    </place>
+    <place xml:id="pisa">
+        <placeName>Pisa</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006082"/>
+        </note>
+    </place>
+    <place xml:id="pitsenborgh">
+        <placeName>Pitsenborgh</placeName>
+    </place>
+    <place xml:id="polderken">
+        <placeName>Polderken</placeName>
+    </place>
+    <place xml:id="pougues">
+        <placeName>Pougues</placeName>
+    </place>
+    <place xml:id="puderhout">
+        <placeName>Puderhout</placeName>
+    </place>
+    <place xml:id="quingentole">
+        <placeName>Quingentole</placeName>
+        <!-- Quignentola -->
+    </place>
+    <place xml:id="ravensberg">
+        <placeName>Ravensberg</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_6004946"/>
+        </note>
+    </place>
+    <place xml:id="ravenstein">
+        <!-- an der Maas; verein. Herzogtümer Jülich-Kleve-Berg 16 u 17 JH. -->
+        <placeName>Ravenstein</placeName>
+    </place>
+    <place xml:id="rom">
+        <placeName>Rom</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7000874"/>
+        </note>
+    </place>
+    <place xml:id="roemisches_reich">
+        <placeName>Heiliges Römisches Reich</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7024415"/>
+        </note>
+    </place>
+    <place xml:id="roosendaal">
+        <placeName>Roosendaal</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006825"/>
+        </note>
+    </place>
+    <place xml:id="rotterdam">
+        <placeName>Rotterdam</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006792"/>
+        </note>
+    </place>
+    <place xml:id="roypoort">
+        <placeName>Roypoort</placeName>
+        <!-- in der Nähe von Antwerpen und Kipdorp -->
+    </place>
+    <place xml:id="sachsen">
+        <placeName>Sachsen</placeName>
+        <!-- histor. Region Sachsen -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003686"/>
+        </note>
+    </place>
+    <place xml:id="sagunt">
+        <placeName>Sagunt</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008559"/>
+        </note>
+    </place>
+    <place xml:id="salins">
+        <placeName>Salins</placeName>
+    </place>
+    <place xml:id="salona">
+        <placeName>Salona</placeName>
+    </place>
+    <place xml:id="santvliet">
+        <placeName>Santvliet</placeName>
+    </place>
+    <place xml:id="sardinien">
+        <placeName>Sardinien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003121"/>
+        </note>
+    </place>
+    <place xml:id="schardauwe">
+        <placeName>Schardauwe</placeName>
+    </place>
+    <place xml:id="schilde">
+        <placeName>Schilde</placeName>
+        <note type="annotation">Gemeinde in der Provinz Antwerpen, ca. zwölf Kilometer vom
+            Stadtzentrum Antwerpens entfernt.</note>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026720"/>
+        </note>
+    </place>
+    <place xml:id="schoonbroek">
+        <!-- Schoenbroeck -->
+        <placeName>Schoonbroek</placeName>
+        <!-- in het noorden van het district Antwerpen -->
+    </place>
+    <place xml:id="schottland">
+        <placeName>Schottland</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7002444"/>
+        </note>
+    </place>
+    <place xml:id="segovia">
+        <placeName>Segovia</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008661"/>
+        </note>
+        <!-- etwa 90 Kilometer nordnordwestlich von Madrid -->
+    </place>
+    <place xml:id="siechen">
+        <placeName>Siechen</placeName>
+    </place>
+    <place xml:id="siegen">
+        <placeName>Siegen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7012712"/>
+        </note>
+    </place>
+    <place xml:id="sinte_catlijneveste">
+        <placeName>Sinte Catlijneveste</placeName>
+    </place>
+    <place xml:id="sinte_oncommerspolder">
+        <placeName>Sinte-Oncommerspolder</placeName>
+    </place>
+    <place xml:id="sinte_outcommerspolder">
+        <placeName>Sinte Outcommerspolder</placeName>
+    </place>
+    <place xml:id="sint_wilboorts">
+        <placeName>Sint Wilboorts</placeName>
+    </place>
+    <place xml:id="sizilien">
+        <placeName>Sizilien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7030363"/>
+        </note>
+    </place>
+    <place xml:id="smal_brabant">
+        <placeName>Smal-Brabant</placeName>
+        <note type="annotation">Region nördlich von Brüssel, grenzt an die Provinz von
+        Antwerpen</note>
+    </place>
+    <place xml:id="spanien">
+        <placeName>Spanien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000095"/>
+        </note>
+    </place>
+    <place xml:id="staden">
+        <placeName>Staden</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026748"/>
+        </note>
+    </place>
+    <place xml:id="steenbergen">
+        <placeName>Steenbergen</placeName>
+        <!-- im Nordwesten der Provinz Nordbrabant -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1048134"/>
+        </note>
+    </place>
+    <place xml:id="steenockerzeel">
+        <placeName>Steenockerzeel</placeName>
+        <!-- Steynockerzele -->
+    </place>
+    <place xml:id="steen_veldt">
+        <placeName>Steen-Veldt</placeName>
+    </place>
+    <place xml:id="syrien">
+        <placeName>Syrien</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1000140"/>
+        </note>
+    </place>
+    <place xml:id="thienen">
+        <placeName>Tienen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008014"/>
+        </note>
+    </place>
+    <place xml:id="thilmont">
+        <placeName>Thilmont</placeName>
+    </place>
+    <place xml:id="thueringen">
+        <!-- histor. Region -->
+        <placeName>Thüringen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7024274"/>
+        </note>
+    </place>
+    <place xml:id="tirol">
+        <placeName>Tirol</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003029"/>
+        </note>
+    </place>
+    <place xml:id="tivoli">
+        <placeName>Tivoli</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006968"/>
+        </note>
+    </place>
+    <place xml:id="toledo">
+        <placeName>Toledo</placeName>
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_7008719"></ptr></note>
+    </place>
+    <place xml:id="toskana">
+        <placeName>Toskana</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7009760"/>
+        </note>
+    </place>
+    <place xml:id="tours">
+        <placeName>Tours</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008323"/>
+        </note>
+    </place>
+    <place xml:id="treviso">
+        <placeName>Treviso</placeName>
+        <!--Tarvisium   -->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003297"/>
+        </note>
+    </place>
+    <place xml:id="troja">
+        <placeName>Troja</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7002329"/>
+        </note>
+    </place>
+    <place xml:id="turin">
+        <!-- Augusta Taurinorum -->
+        <placeName>Turin</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7005688"/>
+        </note>
+    </place>
+    <place xml:id="ukkel">
+        <placeName>Ukkel</placeName>
+        <!-- Uckel; Uccle;  Gemeinden der Region Brüssel-Hauptstadt. Uccle/Ukkel liegt im Süden der Stadt-->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008815"/>
+        </note>
+    </place>
+    <place xml:id="ungarn">
+        <placeName>Ungarn</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006278"/>
+        </note>
+    </place>
+    <place xml:id="urbino">
+        <placeName>Urbino</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003994"/>
+        </note>
+    </place>
+    <place xml:id="utica">
+        <placeName>Utica</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7018163"/>
+        </note>
+    </place>
+    <place xml:id="utrecht">
+        <placeName>Utrecht</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003627"/>
+        </note>
+    </place>
+    <place xml:id="valencia">
+        <placeName>Valencia</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008769"/>
+        </note>
+    </place>
+    <place xml:id="valladolid">
+        <placeName>Valladolid</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008771"/>
+        </note>
+    </place>
+    <place xml:id="vendegies">
+        <placeName>Vendegies-au-Bois</placeName>
+    </place>
+    <place xml:id="venedig">
+        <placeName>Venedig</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7018159"/>
+        </note>
+        <!-- hier: Stadt selber, nicht das Veneto -->
+    </place>
+    <place xml:id="verona">
+        <placeName>Verona</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003262"/>
+        </note>
+    </place>
+    <place xml:id="vianen">
+        <placeName>Vianen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006907"/>
+        </note>
+    </place>
+    <place xml:id="villeroy">
+        <placeName>Villeroy</placeName>
+        <note type="references"><ptr type="GettyThesaurus" target="#TGN_1036174"></ptr></note>
+    </place>
+    <place xml:id="vilvoorde">
+        <placeName>Vilvoorde</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7008817"/>
+        </note>
+        <!-- unmittelbar nördlich von Brüssel. -->
+    </place>
+    <place xml:id="wales">
+        <placeName>Wales</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7002443"/>
+        </note>
+    </place>
+    <place xml:id="walle">
+        <placeName>Walle</placeName>
+    </place>
+    <place xml:id="wanghen">
+        <placeName>Wanghen</placeName>
+    </place>
+    <place xml:id="waasland">
+        <placeName>Waasland</placeName>
+        <!-- Het Waasland (ook wel Land van Waas genoemd) is een historische en geografische streek in het noordoosten van de huidige Belgische provincie Oost-Vlaanderen en het gedeelte van de provincie Antwerpen op de linker Scheldeoever -->
+    </place>
+
+    <place xml:id="weerde">
+        <placeName>Weerde</placeName>
+        <!-- village in Flemish Brabant, Belgium -->
+    </place>
+    <place xml:id="westminster">
+        <placeName>Westminster</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7018934"/>
+        </note>
+    </place>
+    <place xml:id="westvoers">
+        <placeName>Westvoers</placeName>
+    </place>
+    <place xml:id="wezel">
+        <placeName>Wezel</placeName>
+    </place>
+    <place xml:id="wichelen">
+        <placeName>Wichelen</placeName>
+        <!-- Provinz Ostflandern in Belgien. Sie liegt an der Schelde -->
+    </place>
+    <place xml:id="wijnegem">
+        <placeName>Wijnegem</placeName>
+        <note type="annotation">Gemeinde in der Provinz Antwerpen, ca. sieben Kilometer östlich des
+            Stadtzenrums gelegen.</note>
+    </place>
+    <place xml:id="windeck">
+        <placeName>Windeck</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1041835"/>
+        </note>
+    </place>
+    <place xml:id="windsor">
+        <placeName>Windsor</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7011919"/>
+        </note>
+    </place>
+    <place xml:id="wildert">
+        <placeName>Wildert</placeName>
+    </place>
+    <place xml:id="willembringe">
+        <placeName>Willembringe</placeName>
+    </place>
+    <place xml:id="wilrijk">
+        <placeName>Wilrijk</placeName>
+        <note type="annotation">Ind er Provinz Antwerpen gelegen</note>
+    </place>
+    <place xml:id="wolvertem">
+        <placeName>Wolvertem</placeName>
+        <!-- Wolfferteem Flämisch-Brabant, Flämisch Region-->
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026816/"/>
+        </note>
+    </place>
+    <place xml:id="wolinien">
+        <placeName>Wolinien</placeName>
+    </place>
+    <place xml:id="ypern">
+        <placeName>Ypern</placeName>
+        <!-- Yperen -->
+        <!-- (niederländisch Ieper, französisch Ypres) ist eine Stadt in der Provinz Westflandern der Flämischen Gemeinschaft in Belgien. Zu Ypern gehören die Orte Boezinge, Brielen, Dikkebus, Elverdinge, Hollebeke, Sint-Jan, Vlamertinge, Voormezele, Zillebeke und Zuidschote. -->
+    </place>
+    <place xml:id="zandhoven">
+        <placeName>Zandhoven</placeName>
+        <note type="annotation">In der Nähe Antwerpens gelegen</note>
+    </place>
+    <place xml:id="zaventem">
+        <placeName>Zaventem</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1026820"/>
+        </note>
+    </place>
+    <place xml:id="zeeland">
+        <placeName>Zeeland</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7003635"/>
+        </note>
+    </place>
+    <place xml:id="zevenbergen">
+        <placeName>Zevenbergen</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1048269"/>
+        </note>
+        <!-- im Nordwesten der niederländischen Provinz Nordbrabant in der Nähe von Breda -->
+    </place>
+    <place xml:id="zillebeke">
+        <placeName>Zillebeke</placeName>
+        <note type="annotation">Dorf in der flämischen Provinz West-Flandern</note>
+    </place>
+    <place xml:id="zutphen">
+        <placeName>Zutphen</placeName>
+        <note type="annotation">Grafschaft im Geldernland</note>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_7006897"/>
+        </note>
+    </place>
+    <place xml:id="zwijndrecht">
+        <!-- Swyndrecht -->
+        <placeName>Zwijndrecht </placeName>
+        <!-- Zwijndrecht ist eine Gemeinde in Belgien, Provinz Antwerpen. Sie umfasst die Dörfer Zwijndrecht und Burcht. -->
+    </place>
+    <place xml:id="zypern">
+        <placeName>Zypern</placeName>
+        <note type="references">
+            <ptr type="GettyThesaurus" target="#TGN_1006894"/>
+        </note>
+    </place>
+</listPlace>

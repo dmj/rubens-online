@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xml:id="ed_rubens_003">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jan Rubens wendet sich wegen Verlängerung seiner
+                    Aufenthaltsgenehmigung an den Rat der Stadt Köln</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="deu" xml:id="HAStK_sig-best-50">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt Köln (HAStK)</repository>
+                        <collection>Köln und das Reich, Nr. 144/ 4</collection>
+                        <idno type="signatur">Best. 50, fol. 3r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jan Rubens wendet sich wegen Verlängerung seiner
+                            Aufenthaltsgenehmigung an den Rat der Stadt Köln</title>
+                    </head>
+                 
+                    <history>
+                        <origin>
+                                <origDate notBefore="1569" notAfter="1570">? 1569/1570</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Leonard Ennen: Über den Geburtsort des Peter Paul Rubens: mit Beilagen.
+                                Köln 1861. S. 54f., Nr. 18<ptr type="gbv" cRef="146162528"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu">Köln</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="sig-best-50-3r" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11700" n="3r"/>
+        <graphic xml:id="sig-best-50-3v" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11701" n="3v"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="nld">
+               
+                <salute><pb facs="sig-best-50-3r" n="3r"/>Eerweyrdighe Edele wyse voersinnighe Heren etc.</salute>
+                
+                <p>Gheeft ootmoedelick te
+                    kennen <rs type="person" ref="#rubens_jan">Jehan Ruebens</rs> gheborne van <rs
+                        type="place" ref="#antwerpen">Antwerpen</rs>, hoe dat hy ouer twee jaren
+                    alhier binnen deser stadt met synen ghesinne is comen woonen om seckere syne
+                    affairen ende processen te vorderen, sonder dat hy om enich pretens delict off
+                    vervolghinne uyt synen vaderlande is geweken, ghelyck hij oock niet en is
+                    ghebannen, geproclameert oft gheciteert, hoe wel synen persoon wel is bekent,
+                    als gewest hebbende acht continuerlicke jaren een vanden wethouderen ende
+                    magistrat binnen Antwerpen, binnen middeler tyt is gebeurt, dat <rs
+                        type="person" ref="#sachsen_anna_von">durluchtighe hochgeborene furstinne
+                        ende vrouwe de princesse van orangien</rs> den suppliant heft gheimployeert
+                    in hare saken ende processen, hebbende den selven ghenommen in hare familie voor
+                    haren dienaer ende rhaett, ghelijck oock hare f. g<hi rend="super">en</hi> hem
+                    heeft beuolen hare kinderkens ende ghesinne alhier noch wesende. Nu ist alsoo
+                    dat den suppliant heeft verstaen, dat uwe eerw. den vremden willen doen
+                    vertrecken, welck considererende, (al is alsoo dat den voors. suppliant hem
+                    bevint, niet ghecomprehendeert te syne in den edicte als hebbende brieuen byde
+                    welcke uwe eerw. den selven toelaten alhier te moghen resideren ende dat hy hem
+                    in gottlicken ende politique saken (soo de voors. brieven hem belasten) soo
+                    heeft gequeten, dat nymant daer op te zegghen heeft:) heeft wel willen <pb facs="sig-best-50-3v" n="3v"/>obedieren
+                    ende suppliceren ten eynde uwe eerw. hem willen laten contineren alhier syne
+                    residencie ende ghenieten het beneficie hem eertyts verleent, besunder want syne
+                    conditie tsedert niet en is verargert, ende dat hy niet en soude vermoghen
+                    abandoneren de voors. kinderkens van I. F. G. hem beuolen ende verlaten andere
+                    saken van groote importantie, dye hy daghelicx heeft alhier uytterichten. Bidt
+                    daromme, dat uwe Eerw. den voors. <rs type="person" ref="#rubens_jan">Johan
+                        Ruebens</rs> willen ghuennen peyselick binnen deser stat te moghen woonen
+                        dwelck doende sullen wel doen.</p>
+                <closer>
+                    <salute>Uwe Eerw. dienar</salute><lb/>
+                        <signed>Johan Ruebens.</signed>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

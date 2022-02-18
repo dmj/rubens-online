@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_241">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Erklärung von Philipp Rubens (1611–1678), dem Neffen des Malers, über
+                    Eigentum, daß seinen Vettern aus dem Erbe ihres Großvaters Jan Brant
+                zustehe</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-n-3393">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Notariaatsarchief: Hendrick van Cantelbeck Jr.: Protocollen, en
+                            staten van rekeningen 1639</collection>
+                        <idno type="signatur">N 3393, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Erklärung von Philipp Rubens (1611–1678), dem Neffen des Malers,
+                            über Eigentum, daß seinen Vettern aus dem Erbe ihres Großvaters Jan
+                            Brant zustehe</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1639-09-14">14. September 1639</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den
+                            grooten meester en zijne bloedverwanten. Antwerpen 1877. S. 20f.<ptr type="gbv"
+                                cRef="146162595"/></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <head><date when="1639-09-14">Decima quarta Septembris A<hi rend="super">o</hi>
+                    1639</date>.</head> <p>Compareerende in propren persoonen Heer ende Meester <rs
+                        type="person" ref="#rubens_philippus">Philips Rubbens</rs>, licentiaet inde
+                    rechten ende ouderman vande laeckenhalle alhier, affirmavit ten veruecke van
+                    Heer <rs type="person" ref="#rubens_peter_paul">Petro-Paulo Rubens</rs>,
+                    Riddere, als vader ende oppertestamentlycken momboire van J<hi rend="super">or</hi>
+                    <rs type="person" ref="#rubens_nikolaas">Nicolaes Rubbens</rs>, daer moeder aff
+                    was Vrouwe <rs type="person" ref="#brant_isabella">Isabella Brant</rs>, ende
+                        J<hi rend="super">or</hi>
+                    <rs type="person" ref="#rubens_albert">Albartus Rubbens</rs>, des voors. J<hi
+                        rend="super">or</hi> Nicolaes bejaerden broeder, waerachtich te zyn hy Heer
+                    deponent present geweest heeft twee oft dry daegen naer thouden duytvaert van
+                    Heer ende Meester <rs type="person" ref="#brant_jan">Jan Brant</rs>, des voors.
+                        J<hi rend="super">ors</hi> Albartus ende Nicolaes grootvader was ten huyse van
+                    Heer ende Meester <rs type="person" ref="#weerdt_gregorius">Gregorius de
+                    Weert</rs>, Secretaris deser stadt, alwaer S<hi rend="super">r</hi>
+                    <rs type="person" ref="#fourment_daniel">Daniel Fourment</rs>, de jonge,
+                    coopman, in houwelyck gehadt hebbende J<hi rend="super">oe</hi>
+                    <rs type="person" ref="#brant_clara">Clara Brant</rs>, gesproecken heeft deze
+                    worden in substantie, opt stuck van dlant byden voors. Meester Jan Brant aenden
+                    voirs. Fourment getransporteert, gelegen inden <rs type="place" ref="#doel"
+                    >Doel</rs>: om te thoonen dat ick ten goeder trouwen gaen, zoo bidde ick U. L.
+                    te willen zeggen, ten huyse van mynheer Rubens, myn zwager, dat hy nyet en
+                    behoeft in pyne te zyn van het transport vande vyventwintich gemeten lats inden
+                    Doel, my door mynen schoonvader getransporteert, overmits tzelve transport maer
+                    en is geschiet om mynen vrydom te genieten inden Doel, want ick daer anders nyet
+                    en zoude derven comen, ende en hebbe voer tzelve lant nyet een oort betaelt,
+                    daerop hy deponent hem S<hi rend="super">r</hi> Fourment vraegde; Zoo en is
+                    transport maer simulaet, daerop hy Fourment antworde; jaet, ende verclaere dat
+                    ick daervan nyet en pretendere, ende dienvolgende hy deponent ten zelven daege
+                    gegaen is ten huyse vande voors. producenten ende aldaer tgene voors is an hem
+                    gedeclareert. Sonder argelist. Aldus gedaen binnen deser stadt van <rs
+                        type="place" ref="#antwerpen">Antwerpen</rs>, ter presentien van <rs
+                        type="person" ref="#floris_jan">Jan Floris</rs><index indexName="psw">
+                        <term>Floris, Jan </term>
+                    </index> ende <rs type="person" ref="#mildert_petrus_paulus">Petrus-Paulus van
+                        Mildert</rs><index indexName="psw">
+                        <term>Mildert, Peter Paul van </term>
+                    </index>, beyde schilders, als getuigen hiertoe geroepen ende versocht. </p>
+                <closer>
+                    <signed><rs type="person" ref="#rubens_philippus">Phls. Rubens</rs></signed><lb/> 
+                    <signed>Jan Floris</signed><lb/>
+                    <signed>Petrus-Paulus van Mildert</signed><lb/>
+                    <signed><rs type="person" ref="#cantelbeke_anthonis">H. van Cantelbeeck</rs>, Notarius</signed>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

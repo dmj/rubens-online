@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_075">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens wird als Freimeister der Lukas-Gilde eingeschrieben</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="rubens_freimeister_lukasgilde_15981018">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Rombouts/van Lerius: De Liggeren en andere historische Archieven der Antwerpsche sint
+                            Lucasgilde</collection>
+                        <idno>Eintrag in den Liggeren zu Rubens Mitgliedschaft vom 18. Oktober 1598</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>
+                            Peter Paul Rubens wird am 18. Oktober 1598 als Freimeister der Lukas-Gilde eingeschrieben
+                        </title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="A.H." type="footnote">Dieser Eintrag ist der erste dokumentarische Beleg seiner Tätigkeit als Maler</note>
+                            <note resp="N.B." type="footnote">In den Liggeren ist für diesen Eintrag kein
+                                genaues Datum verzeichnet. Die Aufnahme neuer Meister erfolgte allerdings
+                                traditionell mit dem Beginn des Geschäftsjahres der Gilde am St. Lukastag, dem
+                                18. Oktober.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1598-10-18">18. Oktober 1598</origDate>
+                         
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source><bibl>Nils Büttner nach: Rombouts/van Lerius: De Liggeren en andere historische Archieven der Antwerpsche sint
+                                    Lucasgilde</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                <listBibl>
+                    <bibl>Philipp Félix Rombouts, Théodore François Xavier van Lerius: De Liggeren
+                        en andere historische Archieven der Antwerpsche sint Lucasgilde, Bd. 1,
+                        Antwerpen 1864, S. 401<ptr type="opac" cRef="32365987X"/></bibl>
+                    <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                        zijne bloedverwanten. Antwerpen 1877, S. 327<ptr type="gbv" cRef="146162595"
+                        /></bibl>
+                </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Rubens, Peter Paul</term>
+                    <term xml:lang="deu">Freimeister</term>
+                    <term xml:lang="deu">Lukasgilde</term>
+                    <term xml:lang="deu">Lukas-Gilde</term>
+                    <term xml:lang="deu">Antwerpen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#rubens_peter_paul">Peeter (Pauwels) Rubbens,
+                        (Rubens)</rs><note resp="A.H." type="footnote">Klammern durch Rombouts und
+                        van Lerius.</note>, vrymeester, scilder </p>
+            </div>
+        </body>
+      </text>
+</TEI>

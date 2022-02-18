@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_297">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akte des Notars Hendrik van Cantelbeck über die Steuerfreiheit des Ritters
+                    Peter Paul Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+                
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="rubens_steuerfreiheit_16400109">
+                    <msIdentifier><country>Belgien</country><settlement>Antwerpen</settlement><repository>Stadsarchief (SAA)</repository><collection>Notariaatsarchief: Hendrick van Cantelbeck Jr.: Protocollen, en staten van rekeningen 1640</collection><idno>N 3394, sub dato</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Akte des Notars Hendrik van Cantelbeck über die Steuerfreiheit des Ritters
+                            Peter Paul Rubens vom 9. Januar 1640</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1640-01-01">9. Januar 1640</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 72<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="stw" xml:lang="deu">Steuerfreiheit</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Compareerde, in propren persoone, heer <rs type="person" ref="#rubens_peter_paul">PETRO-PAULO RUBBENS</rs>, Riddere,
+                    tegenwoordich in dienst van Zyne Coninclyke Majesieyt van <rs type="place" ref="#spanien">Spaignien</rs>, domesticque
+                    dienaer van zyne doorte luchtige Hoocheyt den Prince-Cardinael, met pensioen
+                    ende salaris, inwoonder deser stadt, my Notario bekent, bekende ende verclaerde
+                    al ist zoo hy heer comparant, opden <date when="--01-05">vyfden January</date> lestleden, opde Accyse
+                    alhier, int veraccysen, door zynen dienaer eenige tonnen biers betaelt heeft die
+                    nyeuw impositie van achthien stuyvers op elcke tonne, ende naemaels dezelve
+                    achthien stuyvers op elcke tonne biers alnoch zoude mogen betaelen, dat hy heer
+                    comparant dezelve betalinge heeft gedaen ende noch doen sal wt noot, door dien
+                    syn huysgesin van bieren gerieft moet wesen, ende die vanden accyse hem Heer
+                    comparant, zonder dezelve achthien stuyvers te betaelen, egeen billietten en
+                    begeeren aff te scryven, soo ist dat hy heer comparant geprotesteert heeft ende
+                    protesteert by desen, dat hy de betalinge van deselve impositie van achthien
+                    stuyvers op elcke tonne biers gedaen heeft ende noch doen zal, zonder prejudicie
+                    van zynen vrydom die hy over de dertigh jaeren van accysen, impost, tollen ende
+                    andersints genoten heeft ende oversulx houdende van igene voors. nyet gehouden
+                    te zyn, verzueckende hiervan aen die van den Accyse alhier wete gedaen ende hem
+                    acte gemaect te worden, een ofte meer, in behoirlycke formen. </p><closer>Aldus gedaen
+                        binnen deser stadt van <rs type="place" ref="#antwerpen">Antwerpen</rs>, ter presentien van <rs type="person" ref="#donckers_guillielmo">GUILLIELMO DONCKERS</rs> ende
+                        <rs type="person" ref="#drion_jan">Jan DRION</rs>, des heer comparants dienaers, als getuygen hiertoe versocht.
+                    <signed>PIETRO-PAUOLO RUBENS.</signed></closer>
+            </div>
+            <div xml:lang="nld">
+                <p>Welcken volgende ick, Notaris voornoemt, my gelransporteert hebbe aende
+                    Collecteurs vanden bieraccyse inde Nyeuw stadt alhier ende hen tgene voors.
+                    voorgelesen; ende geinsinueert. die voor antwoorde gaven, dat hen zulcx nyet aen
+                    en ginck ende volgen moeslen dordonnantie hen by mynen Eerw. Heeren
+                    Borgomeesteren ende Schepenen gegeven, maer dat ick tzelve insinueren moeste
+                    aenden heer Tresorier deser stadt. Actum den <date when="1640-01-10">thienden January XVI<hi rend="super">c</hi> viertich</date>
+                    voors. </p>
+                <p>Daernaer opden <date when="1640-01-12">XII<hi rend="super">en</hi> January anno voers.</date> tgene voers. oick voorgelesen ende
+                    geinsinueert aen Joncher <rs type="person" ref="#brecht_eduaert">EDUAERT van BRECHT</rs>, Tresorier Generael deser stadt,
+                    tsynen woonhuyse in St. Anthonisstraete alhier, die dat aenhoort hebbende, my
+                    voor antwoorde gaff dat hy daervan aen mynen Eerw. Heeren Borgemeesteren ende
+                    Schepenen voors. met den eersten rappoort doen zoude, versoeckende hiervan
+                    copie, die ick dcnzelven Heer Tresorier auctenticquelyck gelevert hebbe.</p><closer>
+                    <salute>Toirconden.</salute><signed> <rs type="person" ref="#cantelbeke_hendrick">H. VAN CANTELBECK</rs>, Notaris.</signed></closer> 
+            </div>
+        </body>
+    </text>
+</TEI>

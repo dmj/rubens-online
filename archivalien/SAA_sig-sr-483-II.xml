@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_011">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aufteilung des Nachlasses von Maria Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-483-II">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1610/ I: Neesen &amp; Kieffelt</collection>
+                        <idno type="signatur">SR 483, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Aufteilung des Nachlasses von Maria Pypelincx</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <p>
+                                <origDate when="1610-09-17">17. September 1610</origDate>
+                            </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877. S. 436-441<ptr type="gbv"
+                                    cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Maria Pypelincx</term>
+                    <term xml:lang="deu">Nachlass</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Wij <rs type="person" ref="#werve_henrick">Henrick vanden Werve</rs> ende <rs
+                        type="person" ref="#vlierden_philips">Philips van Vlierden</rs>, schepenen
+                    van <rs type="place" ref="#antwerpen">Antwerpen</rs>, maken condt dat voor ons
+                    quamen M<hi rend="super">r</hi> <rs type="person" ref="#rubens_philipp">Philips Rubens</rs>,
+                    Secretaris deser stadt, M<hi rend="super">r</hi> Janssone wijlen, daer moeder aff was jouffrouwe
+                        <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, in deerste
+                    partye, Sieur <rs type="person" ref="#rubens_peter_paul">Pietro-Paulo
+                        Rubens</rs>, sijn broeder, inde tweede partye, ende de voors. M<hi rend="super">r</hi>
+                    Philips ende Sieur <rs type="person" ref="#rubens_peter_paul">Petro-Paulo
+                    Rubens</rs>; tsamen inden name ende als testamentelijcke momboiren vande
+                    kinderen van wijlen jouffrouwe <rs type="person" ref="#rubens_blandina">Blandina
+                        Rubens</rs>, henne suster, daer vader af is Sieur <rs type="person"
+                        ref="#parcq_siméon">Simeon du Parck</rs>, die sij hierinne vervingen ende
+                    geloefden te vervane, hen daervore sterck maeckende ende in dyer qualiteyt, inde
+                    derde ende leste partye, ende bekenden ende verlijden in alle de partyen dat
+                    zij, vuyt erachte ende naervolgende den testamente vande voorschreven wijlen
+                    jouffrouwe Marie Pypelincx, onder heur hantteecken gepasseert den sesthiensten
+                    Decembris anno sesthien hondert sesse ende toegecachetteert ende den <date
+                        when="1607-01-09">negensten Januarij anno XVI<hi rend="super">c</hi>
+                    seven</date> daernaer, voor <rs type="person" ref="#rubens_peeter">Peeter
+                    Rubens</rs>, notaris, ende sekere getuygen gerecognosceert, ende voorts naer
+                    voorgaende lotinge ende cavelinge den sevenentwintichsten Julij lestleden
+                    voorden voors. Notaris Rubens, present sekere getuygen, gepasseert, wel
+                    ende minnelijck gepaert, gescheyden ende gedeylt bebben alle ende iegelijcke de
+                    goederen, soo rurende als onrurende, haeffelijcke als erffelijcke, bijde
+                    voors. henne moeder achtergelaten ende dat inder navolgender manieren:
+                    Inden eersten, soo bekenden de voors. comparanten dat sij aengaende henne
+                    houwelijcxe goeden ende voorts de haeffelijcke ende gereede goeden inden
+                    sterfhuyse vande voors. henne moeder bevonden, volgende den voors.
+                    heuren testamente, met malcanderen geliquideert ende deen den anderen daeraf
+                    volcommelijck bewesen ende voldaen hebben, achtervolgende de rekeninge daerop
+                    gemaeckt, ende dat voorts de voors. M<hi rend="super">r</hi> Philips Rubens, naer vermogen
+                    ende vuyt crachte vanden voors. testamente, bijden welcken hem keuse
+                    gegeven was om in voldoeninge van zijne twee hondert guldenen erffelijck die de
+                    voors. wijlen jouffrouwe Marie Pypelincx, hunne moedere, elcken der
+                    voors. heuren kinderen toegevuecht heeft voor hun houwelijcx goet te mogen
+                    aenveerden, de hoeve metten lande ende goederen naerbescreven, oft gelijcke twee
+                    hondert guldenen erffelijck in renten bij heur achter te laten, ende in
+                    conformiteyt vande verkiesinge bij hem gedaen vande selve hoeve ende landen
+                    naerbeschreven, hebben ende behouden sal voor hem ende zijne naeommelingen, in
+                    voldoeninge vande twee hondert guldenen erfrelijck voorgeruert, een goet oft
+                    hoeve, met sloetken omwatert ende andere huysingen daertoe behoorende ende
+                    metten hovingen, lande, bempden, alzoo wel leenen als erve, genaempt Moerendael,
+                    gestaen ende gelegen bij <rs type="place" ref="#nispen">Nispen</rs>, ende
+                    bovendyen dat hij in conformiteyt vande voors. lotinge ende cavelinge
+                    vande onrurende ende erffelijcke goederen hebben ende behouden sal, ende hem
+                    bijde cavel B te deele bevallen is: inden eersten, eene rente van veertich
+                    guldenen erffelijck, geheven wordende opde huysinge ende brouwerye genaempt De
+                    Goubloeme, inde Nyeuwstadt alhier gestaen, item, eene rente van sesse guldenen
+                    vijff stuyvers erffelijck geheven werdende opde domeynen van hunne hoocheden int
+                    quartier van deser stadt, item, noch de drye guldenen vijfthien stuyvers tsjaers
+                    die tvoors. sterfhuys voor een vijfdendeel in eene sullen de voorschreven
+                    kinderen al noch hebben ende behouden ende zijn hun bijden cavel A te deele
+                    bevallen: ierst eene gereduceerde rente van vijfenveertich guldenen erffelijck
+                    gheheven wordende op dese stadt, heure ende der gemeynre ingesetenen goeden
+                    derselver, item, noch eene rente van tweelff guldenen erffelijck, wesende een
+                    vijfdendeel vande sestich guldenen erffelijck die men van ghelijcken jaerlijcx
+                    heffende is op dese stadt, heure ende der gemeynre innegesetenen goeden
+                    derselver, ende noch eene rente van sesse guldenen ende vijff stuyvers
+                    erffelijck geheven wordende op sekere goeden gelegen ter Hoeven onder <rs
+                        type="place" ref="#eeckeren">Eeckeren</rs>, als wij verstonden, ende midts
+                    desen soo verteghen de voorschreven partyen, inden name ende qualiteyt als vore,
+                    van malcanderen ende deen vanden anderen vanden goeden ende versterffenissen
+                    voorgeruert ende schouden malcanderen ende deen den anderen daeraff claerlijck
+                    quyte tallen daghen, gelovende, in goeder trouwen, dat zij malcanderen, noch
+                    deen den anderen, hierenboven daeraff nemmermeer meer aanspreken, heysschen,
+                    noch moyen en selen in geenen rechte, geestelijck oft weerlijck, bij hen selven
+                    oft yemanden anders van hennen oft der voorschreven kindcren boven vervangen
+                    zijnde wegen in eeniger manieren, wel verstaende dat sij tusschen henlieden al
+                    noch onverscheyden ende onverdeylt behoudende blijven de parcheelen van schuldt,
+                    lande ende renten hiernaer volgende, te weten: ierst tgene <rs type="person"
+                        ref="#maniaert_thomas">Thomas Manaert</rs>, inwoonder deser stadt, den
+                    sterffhuyse schuldich is, beloopende in capitael ende verloop, gerekent totten
+                    eenentwintichsten Julij lestleden, de somme van, twee duysent tweelff guldenen
+                    vijfthien stuyvers een oort, item, noch tderdendeel van eenen bempdt gelegen tot
+                        <rs type="place" ref="#muyse">Muysen</rs> bij <rs type="place"
+                        ref="#mechelen">Mechelen</rs>, geldende jaerlijcx in hueren tselve
+                    derdendeel sessentsestich guldenen derthien stuyvers een oort, item noch eene
+                    rente van vijftich guldenen erffelijck geheven wordende in eene meerdere rente
+                    van hondert guldenen erffelijck op een hoeve, landen, bosschen ende bempden
+                    gelegen inde prochie van Itegem, daeromme proces is hangende, item, noch eene
+                    rente van twintich guldenen erffelijck die men heffende is op een afgebrant huys
+                    in <rs type="place" ref="#borgerhout">Borgerhoudt</rs> gelegen, genaempt Het
+                    Moriaenshooft, item noch eene ledige erve oock daerbij gelegen, daerop een huys
+                    ghestaen heeft ghehadt, dwelck ghenaempt was Den Beerendans, item noch eene
+                    rente van sesse veertelen rogx tsjaers geheven wordende op eene stede gelegen
+                    tot <rs type="place" ref="#beke">Beke</rs> onder <rs type="place"
+                        ref="#loenhout">Loenhoudt</rs>; item noch een rentken van drye guldenen op
+                    seker huysinge tot <rs type="place" ref="#berchem">Berchem</rs>, daer luttel aff
+                    te verwachten is, gelijck oock vande voorgaende corenrente, als in langen nyet
+                    betaelt geweest hebbende ende anderssints. Ende is te wetene dat alle de
+                    parcheelen van goederen, landen ende renten den voors. partyen toegevuecht
+                    ende aengecavelt ende die alnoch onverscheyden ende ooverdeylt blijven,
+                    denselven partyen elck int besondere respective ende voorts hunlieden tsamen
+                    competerende sijn ende verstaen worden aengecavelt ende toegevuecht te sijn met
+                    alle de openstaende achterstellen, baten ende prouffijten derselver goederen
+                    alreede verschenen ende noch te verschijnen, ende is noch te wetene dat, al eest
+                    dat deen oft dander der voorschreven partyen meer oft min is toegevuecht geweest
+                    als hem toecompt oft dat des eens cavele meer bedraecht als des anders, dat zij
+                    malcanderen daervan bebben verleken ende vande gereede goeden sulcx deen den
+                    anderen goet gedacn,</p>
+                <closer>
+                    <salute>al sonder argelist</salute>. 
+                    <dateline>In kennisse van dese letteren besegelt met onse segelen, gegeven int jaer Ons Heeren als men schreeff 
+                        <date when="1610-09-17">M.CCCCCC ende thien, seventhien dagen in Septembri</date>
+                    </dateline>.<lb/>
+                    <signed><rs type="person" ref="#kieffelt_g">G. Kieffelt</rs></signed>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

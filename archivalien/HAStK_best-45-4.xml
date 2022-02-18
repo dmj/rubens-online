@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xml:id="ed_rubens-002" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jan Rubens wendet sich wegen Verlängerung seiner
+                    Aufenthaltsgenehmigung an den Rat der Stadt Köln</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="deu" xml:id="HAStK_best-45-4">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt Köln (HAStK)</repository>
+                        <collection>Reformations-Akten, Nr. 4</collection>
+                        <idno type="signatur">Best. 45, fol. 83r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jan Rubens wendet sich wegen Verlängerung seiner
+                            Aufenthaltsgenehmigung an den Rat der Stadt Köln</title>
+                    </head>
+                
+                    <history>
+                        <origin>
+                            <origDate notBefore="1569" notAfter="1570">? 1569/1570</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Leonard Ennen: Über den Geburtsort des Peter Paul Rubens: mit Beilagen.
+                                Köln 1861. S. 53f., Nr. 17<ptr type="gbv" cRef="146162528"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu">Köln</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="best-45-4-83r" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11699" n="83r"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p><pb facs="best-45-4-83r" n="83r"/>Gheeft te kennen uwe eerweerdicheden <rs type="person" ref="#rubens_jan">Jan
+                        Ruebens</rs> geboren van <rs type="place" ref="#antwerpen">Antwerpen</rs>,
+                    hoe dat hy alhier binnen deser stadt is gecomen resideren met syne familie om
+                    sekere syne affairen te vorderen ende dirigeren, mitsgaders om andere wettighe
+                    redenen hem daer toe mouerende, hebbende hem in syn vaderlant, ende alomme altyt
+                    vromelick ende loffelick gedraghen, gelyck hy oock niet gebannen, geproclameert
+                    off voervluchtich en is, ja van geenen quaden off ombehoorlicke saken
+                    gesuspecteert, blykende by behoirlicke certificatie hier beneffens gevuecht,
+                    ende van opten goeden vrydach lestleden (obedierende uwe eerweerdicheden gebot)
+                    deur den heere <rs type="person" ref="#liskerken">van Lieskerken</rs>
+                    geexhibeert in den raedt, gelick oock de selue gevisiteert synde, ende gezoent
+                    hebbende het rapport van den voors. heere van Liskerken, hebben uwe eerw. int
+                    scheyden van den raedt opentlick (soo somighe van den heeren mach kennelick syn)
+                    deur monde van van den voors. heere den suppliant geconsenteert binnen deser
+                    stat vrylick ende peyselick te moghen woonen ende neerslaen, seggende dat synen
+                    persoon aengenaem was, waer op de suppliant hem verlatende ende gedaen hebbende
+                    den eedt van getrouwicheyt aen dese stat int incommen van sekere gaffele <rs
+                        type="place" ref="#windeck">Windeck</rs> heeft een huys gehuert, ende van als
+                    prouisie gemaeckt om eerlicken ende tamelicken binnen deser stat te woonen ende
+                    hem te houden, maer is gebeurt dat opden 28 May lestleden sekere heeren
+                    commissarissen den suppliant voer hen omboden hebbende, beuolen hebben bennen
+                    acht daghen te vertrecken, ten waere hy voer uwe eerw. hem konte purgeren ende
+                    van syne qualiteyt bennen middelen tyt onderichten, onder pretext dat van tgene
+                    voerseet is geen registre gehouden en was, dwelck doende suppliceert in alle
+                    reuerencie uwe eerw. dat hen gelieue regart nemande opte voergen. allegatien
+                    enden besunder opte voors. certificatie by personagien van qualiteyte tot
+                    getuygenisse van des supliants leuen ende conuersatie, gepasseert oock nae date
+                    vande vorleden troubelen by apostille opte margie van desen aff anderssins, een
+                    vs. supliant toelaten bennen deser stat peyselick te moghen resideren sonder
+                    voerder stoernisse, gelick alreede van op te goeden vrydach hem by uwe eerw.
+                    geconsenteert is geweest, dwelck doende sult wel doen </p>
+                <closer>
+                    <salute>uwe eerw. dienare</salute><lb/>
+                        <signed>Jan Ruebens</signed>
+                    
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

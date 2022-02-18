@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_202">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ehevertrag von Peter Paul Rubens und Helene Fourment vor dem Notar Toussaint Guyot</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ehevertrag_rubens_fourment_16301204">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Max Rooses: Huwelijks-Voorwaarden van P. P. Rubens en Helena Fourment</collection>
+                        <idno>Ehevertrag vom 4. Dezember 1630</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Ehevertrag von Peter Paul Rubens und Helene Fourment vor dem Notar Toussaint Guyot</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch die Akte zur Hochzeit von Peter Paul Rubens und 
+                                    Helena Fourment vom <ref type="rubens" cRef="ed_rubens_203">6. Dezember 1630</ref>.</note>
+                            </filiation>
+                        </msItem>
+                     </msContents>
+                    <history>
+                        <origin>
+                           <origDate when="1630-12-04">4. Dezember 1630</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich im 19.
+                                Jahrhundert im Archief des Kasteel van Gaasbeek.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Max Rooses: Huwelijks-Voorwaarden van P. P. Rubens en Helena Fourment</bibl>
+                    </source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Max Rooses: Huwelijks-Voorwaarden van P. P. Rubens en Helena Fourment, in: Rubens-Bulletijn - Bulletin-Rubens. Bd. 4, 1886, S. 191-194</bibl>
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Ehevertrag</term>
+                    <term xml:lang="deu">Heirat</term>
+                    <term type="psw" xml:lang="deu">Fourment, Hélène</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p> Inden jaere ons heeren <date when="1630-12-04">duysent sessehondert en dertich
+                        den vierden dach der maendt decembris</date>, voor mij <rs type="person"
+                            ref="#guyot_toussaint">Toussein Guyot</rs> openbaer notaris bij den secreten
+                    Raede van Sijne Ma<hi rend="super">t</hi> ende van <rs type="place" ref="#brabant"
+                        >Brabant</rs> geadmitteert ende geapprobeert t’ <rs type="place"
+                        ref="#antwerpen">Antwerpen</rs> residerende ende de getuijgen naerge<hi
+                        rend="super">nd</hi>. compareerden Heer <rs type="person"
+                        ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> Riddere Secretaris van
+                    Sijne Ma<hi rend="super">t</hi> secreten Raedt ende Edelman vanden huijse van
+                    haere Doorluchtichste Hoocheijt als toecommende bruijdegom ter eenre, ende
+                        Jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="#fourment_helene">Helena Fourment</rs> geassisteert met
+                    H. <rs type="person" ref="#fourment_daniel">Daniel Fourment</rs> ende Jo<hi
+                        rend="super">e</hi>
+                    <rs type="person" ref="#stappaert_clara">Clara Stappaert</rs> haeren vaeder ende
+                    moedere als toecomende bruijt ter andere zijden, alle mij notaris bekent sijnde.
+                    Ende bekenden ende verlijden dat sijlieden ’t saemen geconcipieert geraemt ende
+                    gesloten hebben een toecommenden houwelijck tusschen den voorgenoemden Heer
+                    Pietro Paulo Ruebens ende Jouff<hi rend="super">r</hi> Helena Fourment, ter eeren
+                    Godts, indijen ’t selven houwelijck bij orlove van onse moedere de heijlige
+                    Kercke geschieden ende voortsganck hebben mach, ende dat onder de conditien,
+                    inder vuegen ende manieren naevolgende. Inden iersten soo geloefde de
+                    voorschreven Heer toecomende bruijdegom tot subsidie ende onderstant sijns
+                    toecomende houwelijcs intebrengen alle ende ijegelijcke sijne goeden ruerende
+                    ende onruerende alomme waer ende tot wat plaetsen die gelegen sijn ende bevonden
+                    souden mogen worden, als voldaen hebbende sijne twee kinderen daer moeder aff
+                    was Jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="#brant_isabella">Isebeel Brandt</rs> van henne
+                    moederlijcke goeden, naer luijt der quictancie bij henne testamentelijcke
+                    momboirs opden <date when="1630-11-29">negenentwintichsten dach der voorledener
+                        maendt Novembris</date> voor mij Notaris gepasseert waermede de voorgenoemde
+                        Jouff<hi rend="super">r</hi> toecommende bruijt ende haere ouders verclaerden
+                    te vreden te wesen.</p><p> Waertegens de voorschreven H<hi rend="super">r</hi>
+                    Daniel Fourment ende Jouff<hi rend="super">r</hi> Clara Stappaert sijne
+                    huijsvrouwe geloefde tot subsidie ende onderstant van hens voorschreven dochters
+                    toecommenden houwelijck ende stracx naede consommatie van den selven, te geven
+                    de somme van drij duijsent ponden grooten Vlems eens, ende dat sij bovendijen
+                    sal inbrengen de hondert negenentwintich ponden tweelff schellingen ende seven
+                    grooten vlems eens die sij geerft heeft van wijlen Jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="#fourment_catharina">Catharina Fourment</rs> haer sustere
+                    huijsvrouwe was van H<hi rend="super">r</hi>
+                    <rs type="person" ref="#hanckaert_gielis">Gielis Hanckaert</rs>, voorts dat sij
+                    lieden de selve henne dochtere sollen vuijtsetten cleeden ende reeden,
+                    mitsgaders de bruijlofts feeste becostigen soo ende gelijck sij lieden daeraff
+                    eere ende danck begeeren sollen, waermede de voorsch. heer toecommende
+                    bruijdegom verclaerde insgelijkcx te vreden te wesen. Sijnde voorts tusschen de
+                    voorsch. partijen contrahenten ondersproken ende geconditionneert soo wanneer
+                    dit toecommende houwelijcs bedde bijden wille Godts, campt te scheijden sonder
+                    wettich hoir van hender beijder lijve geprocreert achtertelaetene, dat alle ende
+                    ijegelijcke de goeden bijden eenen oft den anderen van hen intebrengene, oft die
+                    hen staende desen houwelijck souden mogen toecommen oft versterven, oft de
+                    weerde van dijen, sullen gaen ende keeren ter zijde waerts van daer de selve
+                    ingebrocht oft verstorven sullen wesen, Ende dat de voorsch. toecommende bruyt
+                    (wesende de lancstlevende) sal boven dijen hebben ende behouden, alle ende
+                    ijegelijcke de cleederen, juweelen, fraeijecheden, cleijnodien, lijnen ende
+                    wollen thaeren lijve ende hoofde eenichsints dienende ende behoorende, ende
+                    voorts voor duwarie vuijt des toecommende bruijdegoms gereetste achtertelaetene
+                    goeden de somme van tweentviertich duysent carolus guldens eens, sonder inde
+                    conquesten ijet te mogen pretenderen. Ende ingevalle de voorsch. toecomende
+                    bruijdegom de lancstlevende is, dat hij sal insgelijcs hebben ende trecken voor
+                    duwarie vuijt der toecomende bruijts achtertelaetene goeden de gemme van
+                    achtduijsent carolus guldenen eens.</p><p> Alle welke poincten ende conditien
+                    geloefden beijden voorsch. partijen malcanderen wel volcommelijck ende
+                    getrouwelijk te onderhouden te volbrengen ende te voldoen. Aldus gedaen ende
+                    gepasseert t’Antwerpen ten huijse des voorsch. H<hi rend="super">r</hi> Daniels
+                    Fourment ter presentien van heer ende M<hi rend="super">r</hi>
+                    <rs type="person" ref="#brant_jan">Jan Brant</rs> schepen, M<hi rend="super">r</hi>
+                    <rs type="person" ref="#brant_hendrick">Hendrick Brant</rs> greffier respective
+                    deser stadt, H<hi rend="super">r</hi>
+                    <rs type="person" ref="#fourment_peeter">Peeter Fourment</rs>, H<hi rend="super">r</hi>
+                    <rs type="person" ref="#hecke_peeter">Peeter van Hecke</rs>, H<hi rend="super">r</hi>
+                    <rs type="person" ref="#groot_balthasar">Balthasar de Groot</rs>, H<hi
+                        rend="super">r</hi>
+                    <rs type="person" ref="#moens_hendrick">Hendrick Moens</rs> ende H<hi rend="super"
+                        >r</hi>
+                    <rs type="person" ref="#picquerij_nicolas">Nicolas Picquerij</rs> als getuijgen
+                    hiertoe versocht, ende heb ben de voors. comparanten, assistenten ende getuijgen
+                    de minute deser int register mijns Notaris met henne naemen onderteeckent.</p>
+                <closer><salute><span from="" xml:lang="lat">Quod attestor signa meo manuali solito</span></salute><lb/>
+                    <signed>T. GUYOT, Nots. Pubus.</signed></closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

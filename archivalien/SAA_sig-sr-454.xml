@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_087">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Schuldbekenntnis von Thomas Mannaert zum Vorteil von Maria und Susanna
+                    Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-454">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1604/ III: Moy &amp; Neesen</collection>
+                        <idno type="signatur">SR 454, fol. 448r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Schuldbekenntnis von Thomas Mannaert zum Vorteil von Maria und
+                            Susanna Pypelincx</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1604-07-21">21. Juli 1604</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 359f.<ptr type="gbv" cRef="146162595"
+                            /></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>            
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu" type="psw">Susanna Pypelincx</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#maniaert_thomas">Thomas Mannart</rs>, coopman, poorter
+                    ende ingeseten deser stadt, bekende schuldich te sijn, van goeder rechtveerdiger
+                    schult, jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie
+                    Pypelincx</rs>, weduwe willen Meester <rs type="person" ref="#rubens_jan">Jans
+                        Ruebens</rs>, de somme van seventhien hondert Carolus guldenen eens,
+                    toecomende ter saecken van gelijcke somme die de voors. Jouffrouwe Maria
+                    Pypelincx hem, comparant, in gereede penningen, tsijnen contentemente,
+                    gefurnieert ende getelt heeft, welcke voors. somme van <measure type="currency"
+                        quantity="1700">XVII<hi rend="super">c</hi></measure> guldenen eens hij,
+                    comparant, geloeft heeft ende geloefde, mits desen, aende selve jouffrouwe Maria
+                    Pypelincx oft aenden brenger van desen te restitueren ende te betaelen, binnen
+                    eenen jaere naestcomende, sonder langer vertreck, vuytstel oft dilay, ende heeft
+                    daervore verbonden ende te pande gestelt sijnen persoon ende alle sijne goeden,
+                    ruerende ende onruerende, hoedanich die wesen mogen, die hij nu heeft ende noch
+                    vercrijgen sal, alomme, waer ende tot wat plaetse die gelegen sijn ende bevonden
+                    sullen worden, ende specialicken een leen groot sijnde veertich gemeten lants
+                    metten gronde, heerlijckhede, manschappen, achterleenen, rechten, diensten ende
+                    allen anderen sijnen toebehoorten, gelegen op <rs type="place" ref="#zillebeke"
+                        >Hooch-Zilbeke onder Deecke</rs>, te leene gehouden wordende vanden Huyse
+                    ende Hove van <rs type="place" ref="#beveren">Beveren</rs>, soo hij dat opten
+                        <date when="1602-03-29">XXIX<hi rend="super">en</hi> Meerte anno XVI<hi
+                            rend="super">c</hi> ende twee</date> voor Meyer, Mannen van leene ende
+                    Schepenen van Beveren voors., bij coope vercregen heeft van Joncker <rs
+                        type="person" ref="#stralen_jan">Jan van Straelen</rs>, volgende den
+                    goedenisbrieff daervan geexpedieert, dijen hij der voors. Jouffrouwe Maria
+                    Pypelincx, theurder meerder sekerheyt, in handen gelaten heeft, ende dit al op
+                    heerlijcke, reele ende parate executie ende opt vonnisse ende al oft hij
+                    vonnislijck alsoo daerinne gedoempt ende gecondempneert ware, gelijck wij hem,
+                    tot sijnen versuecke, daerinne doemen ende condemneren mits desen,
+                    renuntierende, etc. Voorts heeft geconstitueert <rs type="person"
+                        ref="#rubens_peeter">Peeteren Rubens</rs>, Notaris, ende <gap reason="illegible"/> hunlieden
+                    tsamen ende elcken besundere gevende volcomen ende onwederroepelijcke macht ende
+                    commissie omme tgene des voors. is ende besundere de verbintenisse vanden voors.
+                    leengoede voor Meyer, Mannen van leenen ende Schepenen voors. ende voor alle
+                    andere Heeren, Hoven ende Wetten daer des behoort inder voors. oft betere forme
+                    te vernieuwen oft anderwerven te passeren ende bekennen, ende voorts, etc.
+                    alwaert, etc. </p>
+                <closer>
+                    <salute>Gelovende</salute>. <lb/>
+                    <salute>Sonder argelist</salute>.<lb/>
+                    <dateline rend="text-align:center">
+                        <date when="1604-07-21">XXI<hi rend="super">a</hi> Julii 1604</date>.
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

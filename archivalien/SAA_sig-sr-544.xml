@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_149">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens bestätigt die Eigenhändigkeit der Unterschrift von Juan
+                    Francisco de Sevilla auf einem Vertrag mit Carlos de Santacruz und erklärt zu
+                    wissen, dass de Sevilla der Vertreter von Ysavel Garcia und Juan Francisco de
+                    Sevilla ist</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-544">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1620/ IV: Kimpe</collection>
+                        <idno type="signatur">SR 544, fol. 290r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens bestätigt die Eigenhändigkeit der Unterschrift
+                            von Juan Francisco de Sevilla auf einem Vertrag mit Carlos de
+                            Santacruz und erklärt zu wissen, dass de Sevilla der Vertreter von
+                            Ysavel Garcia und Juan Francisco de Sevilla ist</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1620-04-02">2. April 1620</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="spa">
+                <p><rs type="person" ref="#Aprilis 1620">Pedro Ruebens</rs> Es<hi rend="super">co</hi>
+                        pu<hi rend="super">co</hi> de edad el 50 aflos revenosce las dias dos firmas
+                    per propias de <rs type="person" ref="#sevilla_juan">Juan Francisco de
+                    Sivella</rs> per averle muchas veses visto firmar comp per la mesma razon
+                    reconosce la escritura del dit. Francisco en questo al la police<index
+                        indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vertrag</term>
+                    </index> que creze en primero del Senor <rs type="person"
+                        ref="#santacruz_carlos">Carlos de Santacruz</rs> y sabe que dit. Juan
+                    Francisco en este ciudad fue adminstrador y cumplimentario dela comp<hi
+                        rend="super">a</hi> latando <rs type="person" ref="#garcia_ysavel">Ysavel
+                        Garcia</rs> y Juan Francisco de Sivella y comp<hi rend="super">a</hi>
+                    ciestelantes a dit. comp<hi rend="super">a</hi> y que semesantes escritura y
+                    firmas del treni en sus registros notariales. </p>
+                <closer>
+                    <signed>P. Ruebens</signed>.<lb/>
+                        <dateline>
+                            <date when="1620-04-02">Secunda Aprilis 1620</date>
+                        </dateline>
+                </closer>
+               
+            </div>
+        </body>
+    </text>
+</TEI>

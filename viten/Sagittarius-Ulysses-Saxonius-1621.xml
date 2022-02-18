@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
+    xml:lang="deu" xml:id="ed_rubens_275">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Sagittarius: Ulysses saxonicus, 1621</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="sagittarius_ulysses_1621">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>Herzog August Bibliothek Wolfenbüttel</repository>
+                        <idno type="signatur">A: 201.9 Quod. (17)</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Thomas Sagittarius nennt Peter Paul Rubens im Ulysses saxonicus einen Apelles</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Thomas Sagittarius: Ulysses saxonicus</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Thomas Sagittarius: Ulysses saxonicus. Breslau: Baumann, 1621. S. 230-233.<ptr type="opac" cRef="23043648X"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="title_page" xml:lang="lat">
+                <index indexName="fsw">
+                    <term type="structure" target="#title_page" xml:lang="deu">Titelblatt</term>
+                </index>
+                <p rend="text-aligh:center"><hi rend="smallCaps">Ulysses Saxonicus</hi><lb
+                        rend="line-height:120%"/> seu<lb rend="line-height:120%"/>
+                    <hi rend="smallCaps">iter</hi>,<lb rend="line-height:120%"/> Quod<lb/>
+                    <hi rend="italic">Illustrißimus &amp;amp; Celsißimus Princeps<lb/> ac
+                        Dominus</hi>,<lb rend="line-height:120%"/> Dn. <rs type="person" ref="#johann_ernst_i_sachsen"><hi rend="smallCaps">Johannes
+                            – Ernestus</hi></rs><lb/> <hi rend="smallCaps">Dux <rs type="place" ref="#sachsen">Saxoniae</rs>; <rs
+                            type="place" ref="#juelich">Juliae</rs>; <rs type="place" ref="#kleve"
+                            >Cliviae</rs>; et</hi><lb/>
+                    <rs type="place" ref="#berg">Montium</rs>. Landgravius, <rs type="place"
+                        ref="#thueringen">Thuringiae</rs>, <rs type="place" ref="#meissen">Marchio
+                        Misniae</rs>,<lb/> Comes de Marca &amp;amp; <rs type="place"
+                        ref="#ravensberg">Ravensberck</rs>, Dominus<lb/> in <rs type="place"
+                        ref="#ravenstein">Ravenstein</rs>, &amp;amp;c.<lb/>
+                    <hi rend="italic"> Per <rs type="place" ref="#deutschland">Germaniam</rs>, <rs
+                            type="place" ref="#gallien">Galliam</rs>, <rs type="place"
+                            ref="#england">Angliam</rs>, &amp;amp; <rs type="place"
+                            ref="#belgien">Bel-<lb/> gium</rs>, Anno <date when="1613">1613</date>,
+                        magno cum fructu instituit,<lb/> &amp;amp; felicißimè
+                    absolvit,</hi><lb/> descriptum<lb/> A<lb/>
+                    <hi rend="smallCaps">
+                        <rs type="person" ref="#sagittarius_thomas">Thoma Sagittario<index
+                                indexName="psw">
+                                <term type="PND" xml:lang="deu">Sagittarius, Thomas</term>
+                                <index indexName="fsw">
+                                    <term type="structure" target="#author" xml:lang="deu"
+                                    >Verfasser</term>
+                                </index>
+                            </index></rs>
+                    </hi><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Sagittarius, Thomas</term>
+                        <index indexName="stw">
+                            <term xml:lang="lat">Ulysses Saxonicus</term>
+                        </index>
+                    </index>, Phi-<lb/> los. &amp;amp; J.U. Doctore, Poëta Laur. Caesareo,
+                    &amp;amp; p.t. Gymnasi<lb/> Elisabethani, quod est <rs type="place"
+                        ref="#breslau">Vratislaviae</rs>, Rectore &amp;amp; Profess. publ.<lb/>
+                    Scholarumque caeterarum, quae ibid. Inspectore.<lb/>
+                    <hi rend="italic">Cum sacratisßimae <hi rend="smallCaps">Pietatis</hi>
+                        &amp;amp; devotißimae <hi rend="smallCaps">Gratitudinis</hi><lb/>
+                        privilegio planè &amp;amp; plenè divino.</hi><lb/>
+                    <hi rend="smallCaps">
+                        <rs type="place" ref="#breslau">Breslae</rs>
+                    </hi><lb/> Typis <rs type="person" ref="#baumann_georg">Georgii Baumanni<index
+                            indexName="psw">
+                            <term xml:lang="deu">Baumann, Georg</term>
+                            <index indexName="fsw">
+                                <term type="structure" target="#printer" xml:lang="deu"
+                                >Drucker</term>
+                            </index>
+                        </index></rs>.<lb/> Sumptip. <hi rend="smallCaps">
+                        <rs type="person" ref="#mueller_david">Davidis Mülleri</rs>
+                    </hi> Bibliopolae Vratislaviensis.<lb/>
+                    <hi rend="smallCaps">anno christi</hi><lb rend="line-height:120%"/>
+                    <date when="1621">M. DC. XXI.</date>
+                </p>
+            </div>
+            <div part="Y" xml:lang="lat">
+                <p><pb n="230"/>
+                    <note place="margin-left"><date when="--01-31">31. Jan.</date>
+                        <rs type="place" ref="#antwerpen">Antorff</rs>.</note>
+                    <hi rend="italic">Hinc &amp; Caesareis offert se <rs type="place"
+                            ref="#antwerpen">Antwerpia</rs> pompis Mercurii quondam sedes ditißima
+                        sed nunc gloria prisca atris luget collapsa ruinis, discessere viri, qui
+                        tranant aequora, &amp; Indos currunt ad reliquos, mercesquè &amp;
+                        foenora magnis asportant cumulis, restant modò tecta superbis exstructa
+                        ingeniis, abierunt commoda terris vix numeranda suis, quae Mercatura
+                        ministrat.</hi> Sic &amp; magna cadunt, fragilique tenore fatiscunt,
+                    quae multos hominum curis sunt parta per annos, quaeque Lares vigili
+                    comportavere labore. Scilicet à <hi rend="smallCaps">Jova</hi> manat felicior
+                    aether, proventuque beat cives benedictio coeli, Scilicet à <hi rend="smallCaps"
+                        >Jova</hi> fluit &amp; fataliter angor, difficilique premit fatis anxia
+                    pectora censu, &amp; mensis panes, &amp; carnes subtrahit ollis,
+                    imprimis cives si non meliora secuti luxurient animis, &amp; dogmata coelica
+                    spernant, vicinosque gravent, &amp; iniquis crimina culpis agglomerent, <hi
+                        rend="smallCaps">Jovae</hi> nec dona benigna celebrent, ipse Magistratus
+                    manibus si poscat avaris plura, priota suis dominis quàm secla dederunt. <pb
+                        n="231"/>In medio virtus, magis &amp; mediocria durant, distenduntque
+                    novas regali munere cellas. Sed pede non fixo fortuna volubilis errat.</p>
+                <p>
+                    <hi rend="italic">cum visum Superis, quae nunc aversa, redibit invisetque suas
+                        vultu blandißima sedes.</hi> Surgerie quae cecidere queunt,&amp; conscia
+                    mutant tempora, quae nondum mortalia pectora credunt. </p>
+                <p>
+                    <hi rend="italic">Est spes in fundo, nec dum sublat a priora omnia. Majestas
+                        Urbis permagna relucet</hi>, <hi rend="italic">Romanum Imperium quà saepè
+                        superbiit olim, &amp; nune indiginae, domibus splendentibus omnes bîc
+                        plateae rident, bîc formosißimus ordo prae reliquis,quo magna placent
+                        Antvverpica tectis, arboribusque novo positis ex ordine sese laudant,
+                        &amp; facilem praebent spectantibus umbram. Quin &amp; castello
+                        gaudet, quod nomine multo praeferet armipotens cunctis, quibus almatriumphat</hi>
+                    <rs type="place" ref="#europa">Europa</rs>, &amp; <hi rend="italic">Reges
+                        nimiùm confisa laceßit, muros perlustrat Princeps, vallumque superbum,
+                        &amp; Martis miratur opus, donumque Minervae augustumquè locum, quo
+                        semper tempore justo conveniunt Mercatores, &amp; seria tractant. Intrat
+                        &amp; hospitium facili ductamine &amp; igne, quofirmant &amp;
+                        vitra coquunt (mirabile visu) Stat Brontes, Steropesque, &amp; nudus
+                        membra Pyragmon pulvereosquè globus mediâ fornace resolvit, <pb n="232"
+                        />ferrumque immittens massam producit &amp; ignes, inspiratque animas,
+                        &amp; caetera forcipe format, imponitque iterum calidis fornacibus,
+                        inde, excoctum solido stat fornice, &amp; aethera vincit, lativagum
+                        splendore suo. Si Regia magno (quod vates credunt) fierent convivia coelo,
+                        Juppiter abjiceret, licet aurea pocula laetis poneret &amp; multùm
+                        splendentia vitra trapezis, ingeniosa hominum virtus invenit, arenas ut
+                        nectat bibulas, &amp; ducat arundine massas, quas vivas Erebi flammas
+                        magis esse putares.</hi></p>
+                <p> Scilicet humani non cessant quaerere sensus, perrumpunt Acheronta animi,
+                    tacitamque fatigant naturam, &amp; subitâ caecas indagine fibras excutiunt,
+                    finguntque suis miracula coeptis. <hi rend="italic">Nec desunt alii, queîs se
+                        componat Apelles</hi>, <rs type="person" ref="#rubens_peter_paul">Paulus
+                        Rybentus</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                    </index>
+                    <hi rend="italic">variâ &amp;</hi>
+                    <rs type="person" ref="#brueghel_jan_aeltere">Brugelius</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Breughel, Jan (der Ältere)</term>
+                    </index>
+                    <hi rend="italic">arte pingendi clari, liquidumque per aethera noti. Ille gravi
+                        magnas efformat corpore formas, Naturaeque imitatur opus, dignosque favores,
+                        jurares animas hominem inspirare cerebro, omnia sic diae promittunt munera
+                        vitae, &amp; tacitè motum insinuant, laudantque Magistrum. Hic parvas
+                        tabulis inscribit ubique figuras, plura quibus torno facilé superaddita
+                        regna, &amp; regionis opes faciesque patentior orbis, <pb n="233"/>dices
+                        hos nunquam fecisset aranea ductus, tam benè subtili currunt subtilia tractu
+                        fila, tuis &amp; vix obilis bipatentibus exstant. Haec</hi> Princeps <hi
+                        rend="italic">documenta videns praenobilis artis expleri mentem
+                        nequit,&amp; per singula volvit infixos oculos, miratus provida dextrae
+                        numina, &amp; ingenii decus immortale ruentis Naturae ductu ad compendia
+                        docta Minervae. </hi></p>
+            </div>
+        </body>
+    </text>
+</TEI>

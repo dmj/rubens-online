@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_209">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen Rates und
+                    eventuelle weitere Zahlungen </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-2968">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte dix-septième d’Ambroise Van Oncle du 1er janvier au 31 décembre
+                            1617)</collection>
+                        <idno type="signatur">B. 2968, fol. 532v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen
+                            Rates und eventuelle weitere Zahlungen </title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                         <filiation>
+                             <note resp="A.H." type="footnote">Bzgl. Rubens` Honorar als Sekretär des Geheimen Rates vergleiche auch die folgenden Dokumente, die alle um das Jahr 1630 datiert sind:
+                                 <ref type="rubens" cRef="ed_rubens_209a">Dokument Nr. 209a</ref>;
+                                 <ref type="rubens" cRef="ed_rubens_209b">Dokument Nr. 209b</ref>;
+                                 <ref type="rubens" cRef="ed_rubens_209c">Dokument Nr. 209c</ref>;
+                                 <ref type="rubens" cRef="ed_rubens_209d">Dokument Nr. 209d</ref>
+                              </note>
+                         </filiation>
+                          
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1630" notAfter="1630">? 1630</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord, in: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, Antwerpen 1888,
+                            S. 127</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Sekretär</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                    <term xml:lang="deu">Reisen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p>
+                    <pb n="532v"/>1984 livres, 13 sols, 1 denier à Messire <rs type="person"
+                        ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>, chevalier, secrétaire du
+                    Conseil Privé du Roi<index indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index>, assçavoir 500 livres, 5 sols en une lettre de descharge du <date
+                        when="1631-01-31">dernier de janvier 1631</date>, levée sur <rs
+                        type="person" ref="#batens_jean">Jaen Batens</rs>, receveur des
+                    contributions de <rs type="place" ref="#zevenbergen">Zevenberge</rs>, <rs
+                        type="place" ref="#steenbergen">Steenberge</rs>, etc., et les restans 1484
+                    livres, 8 sols, I denier en une autre lettre de descharge de pareille somme
+                    datée du <date when="1631-07-31">dernier de juillet audit an</date>, levée sur
+                    ledit Batens dont est respondu cy devant foliis 348, verso et 352; pour
+                    semblable somme à luy deue à cause de trois quarts d’escus pistolets d’<rs
+                        type="place" ref="#spanien">Espagne</rs> par jour de septante-deux solz, 6
+                    deniers l’escu, que Sa Majesté par ses lettres patentes du 27e apvril 1629
+                    susdit, à en estre payé par les mains de ce compteur présent ou autre à vernir,
+                    de demy an en demy an, par esgalle portion, ayant Sadicte Altèze par son
+                    ordonnance de reliefvement du <date when="1631-03-24">24e mars 1631</date>,
+                    ordonné qu’il seroit payé de sesdit gaiges doiz la datte des dites lettres
+                    patentes, nonobstant et sans prendre regard qu’il at presté le serment
+                    loingtemps après, et ce pour les deux premières années de sesdit gaiges,
+                    commencées ledit <date when="1629-04-27">27e apvril 1629</date> et finies le
+                        <date when="1631-04-26">26e apvril enssuivant 1631</date>, par ladite
+                    ordonnance de reliefvement, copie authentique desdites lettres patentes
+                    originelles et quictance y servantes, veues en l’estat de <date when="--07"
+                        >juillet</date>, folio 32 verso. </p>
+            </div>
+
+         </body>
+       
+    </text>
+</TEI>

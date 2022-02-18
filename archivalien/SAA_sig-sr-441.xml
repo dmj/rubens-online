@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_081">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maria und Susanna Pypelincx verkaufen das Haus St. Arnoldus auf dem
+                Meir</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-441">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1601/ II: Kieffelt &amp; Bogge</collection>
+                        <idno type="signatur">SR 441, fol. 130v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Maria und Susanna Pypelincx verkaufen das Haus St. Arnoldus auf
+                            dem Meir</title>
+                    </head>
+                 
+                    <history>
+                        <origin>
+                            <origDate when="1601-10-31">31. Oktober 1601</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 345-347<ptr type="gbv" cRef="146162595"
+                            /></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelinxc</term>
+                    <term xml:lang="deu" type="psw">Susanna Pypelinxc</term>
+                    <term xml:lang="deu">Sint Arnold</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelinck</rs>, weduwe
+                    wijlen Meesters <rs type="person" ref="#rubens_jan">Jan Rubbens</rs>, <span from="" xml:lang="lat">cum
+                        tutore</span>, jouffrouwe <rs type="person" ref="#pypelincx_susanne">Suzanna
+                    Pypelinck</rs>, heur sustere, met <rs type="person" ref="#schot_peeter">Peeteren
+                    de Schot</rs>, <span from="" xml:lang="lat">ejus marito et tutore</span>, 
+                    gaven terve ende in erflicken rechte,
+                        <rs type="person" ref="#hoons_henrich">Henricke Hoons</rs>, coopmanne, een
+                    huys metter neercameren, dwelck een wooninge op heur selven plach te sijne,
+                    metter wooninge ende poorte daerneffens, metter stoven achter tvoirs. huys,
+                    metten kelder onder deselve stove, metter plaetsen, gange dienenede totter
+                    selver poorten, metten hove, <span from="" xml:lang="lat">fundo et omnibus pertinentiis</span>, 
+                    gestaen ende gelegen
+                    inde Meire alhier, tusschen <rs type="person" ref="#zuero_diego">Diego Lopez
+                        Zuero</rs> huysinge ende erve genaempt den Gulden Cop, ex una, oostwaerts,
+                    ende des voirs. erfnemers andere huysinge ende erve genaempt Sint Arnoult<index
+                        indexName="stw">
+                        <term xml:lang="nld">Sint Arnold</term>
+                    </index>, ex altera, westwaerts, comende achter aen <rs type="person"
+                        ref="#gielis_franchois">Franchois Gillis</rs>’ raemhoff was, gelijck ende in
+                    alle der manieren tvoirs. huys metten toebehoirten voirs., den voirs.
+                    erfgeverssen bleven ende verstorven is van wijlen <rs type="person"
+                        ref="#pypelincx_hendrick">Ihenricke Pypelinck</rs> ende <rs type="person"
+                            ref="#touion_clara">Claren Colyns</rs>, <span from="" xml:lang="lat">ejus uxoris</span>, hennen vadere ende
+                    moedere waren, die tselve <date when="1545-11-24">XXIIII<hi rend="super"
+                        >o</hi> Novembris anno XV<hi rend="super">c</hi>XLV</date>; bij transporte,
+                    gecregen hebben jegens den voirs. Franchois Gillis, naer inhoudt vanden brieve
+                    daeraff sijnde, die derfgeverssen den erfnemere overgaven, tsjaers erflick,
+                    boven sekere somme van penningen die derfnemere den voirs. erfgeverssen gereet
+                    opgeleegt ende betaelt heeft, soo deselve erfgeverssen bekenden mits desen, omme
+                    noch twee hondert Karolus guldens van twintich stuvers te drij grooten Brabants,
+                    den stuvere elcken gulden gerekent goets gangbaers ende gepermitteerts gelts,
+                    jaerlickere ende erflickere renten, dandum alle jare <date when="--10-31">ultimo
+                        Octobris</date>, waeraff deerste jaerrenten verschijnen sal <date
+                        when="1602-10-31">ultimo Octobris anno twee</date> naestcomende, te
+                    waerne op <measure type="currency" quantity="4">IIII</measure> scellingen
+                    Brabants erflijck den Capellanen tOnser Liever Vrouwen<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Antwerpen</term><index indexName="stw"><term xml:lang="deu">Liebfrauenkathedrale</term></index>
+                    </index> alhier; item <measure type="currency" quantity="5">V</measure>
+                    scellingen Brabants erflijck Meesteren <rs type="person"
+                        ref="#beuckeleir_phillipp">Philippe de Beuckeleir</rs> oft dactie daertoe
+                    hebbende; item <measure type="currency" quantity="15">XV</measure> scellingen
+                    Brabants erflijck <rs type="person" ref="#lichtert_gommar">Gommare van
+                    Lichtert</rs> ende <measure type="currency" quantity="6">VI</measure> scellingen
+                    Brabants erfljjck <rs type="person" ref="#adriaenssen_andries">Andriese
+                        Adriaenssen</rs>, daer jaerlix voeren wtgaende, prout litteræ ende anders
+                    nyet, welcken voircommere de voirs. erfnemere geloefde, mits desen, voir hem
+                    ende zijne nacomelingen voirdane eeuwelijck durende jaerlix te geldene ende te
+                    betalene sonder mindernissen, etc. ende oick sonder, etc.; wel verstaende dat de
+                    voirs. neercamere, wooninge ende poorte medepant sijn overe <measure
+                        type="currency" quantity="4">IIII</measure> oude grooten Brabants erflijck
+                    den Heyligen Geest tOnser Liever Vrouwen voirs.; item over <measure
+                        type="currency" quantity="6">VI</measure> grooten Brabants ende <measure
+                        type="currency" quantity="1">I</measure> Engelssche erflijck den Goidshuyse
+                    van <rs type="corporate" ref="#antwerpen_abtei_st_michiels">Sint Michiels</rs>,
+                    welcken commer van medepantsehape men jaerlix gelden ende betalen moet wt des
+                    voirs. Franchois Gillis raemhof, sonder dees huys cost oft last, etiam prout
+                    literæ ende anders nyet, met conditien ende voirwaerden hierinne ondersproken
+                    dat de voirs. erfnemere gehouden sal wesen ende geloefde mits desen, der voirs.
+                    Joufrouwen Susanna Pypelincx een hondert guldens erflijck af te lossene ende af
+                    te quytene, zoo saen ende schiere als tvoirs. huys metten toebehoirten ter
+                    hooger Vierscharen van Hare Doirluchtige Hoocheden alhier verjaert ende
+                    verdaecht sal wesen, elcken penninck daeraf met sesthiene penningen goets
+                    gangbaers ende gepermitteerts gelts ende met verschenender renten; ende der
+                    voirs. Joufrouwen Marien Pypelincx een hondert guldens erflijck sal de voirs.
+                    erfnemere oft sijne nacomelingen mogen lossen ende quyten thunder goeder
+                    moeyten, teenemale, elcken penninck oick met sesthiene penningen goets gangbaers
+                    ende gepermitteerts gelts, ende met verschenender renten; <span from="" xml:lang="lat">pro certitudine et
+                    dequitatione prædicta facienda, et sua</span>. Gebraeck yet aenden coop, erfgevinge,
+                    waernisse oft claernisse voirs., <span from="" xml:lang="lat">hoc promisere</span>, derfgeverssen voirs., ende mede
+                    de voirs. Peter de Schot, <span from="" xml:lang="lat">satisfacere, unde obtulerunt</span> de voirs, henne twee
+                    hondert guldens erflijck, donec, etc. dies, etc. <span from="" xml:lang="lat">et ulterius se et sua</span>.</p>
+                <lb/> 
+                <closer>
+                    <dateline>Die <date when="1601-10-31">ultimo Octobris anno 1601</date>.
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

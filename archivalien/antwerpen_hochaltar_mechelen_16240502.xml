@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_165">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens quittiert den Empfang von 1800 Gulden für den Hochaltar von
+                    St. Jans in Mecheln</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="antwerpen_hochaltar_mechelen_16240502">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Alexandre Pinchart: Archives des arts, sciences et lettres</collection>
+                        <idno>Quittung über den Empfang von 1800 Gulden für den Hochaltar in St. Jans in Mecheln vom 2. Mai 1624</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens quittiert den Empfang von 1800 Gulden für den Hochaltar von
+                            St. Jans in Mecheln</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Alexandre Pinchart kopierte das originale Dokument dieser Quittung, um es 
+                                in seinem <bibl>Alexandre Pinchart: Archives des arts, sciences et lettres:
+                                documents inédits publiés et annotés. 3 Bde. Gent 1860 (Neudruck: Brüssel 1994).<ptr
+                                    type="gbv" cRef="231294484"/></bibl> zu publizieren.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1624-05-02">2. Mai 1624</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Das originale Dokument dieser Quittung befand sich im 19.
+                                Jahrhundert in Privatbesitz.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Alexandre Pinchart: Archives des arts, sciences et lettres: documents inédits publiés et
+                            annotés</bibl></source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Alexandre Pinchart: Archives des arts, sciences et
+                            lettres: documents inédits publiés et annotés. Bd. 2, Gent 1860, S. 172
+                            (Neudruck: Brüssel 1994) <ptr type="gbv" cRef="231294484"/></bibl>
+                        <bibl>Michael Jaffé: Rubens
+                            - Catalogo completo. Milano 1989, S. 238 <ptr type="gbv"
+                                cRef="022373535"/></bibl>
+                    </listBibl>
+                </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Hochaltar</term>
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Johannes</term>
+                    <term xml:lang="deu">Tryptichon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p> Ick onderschreven bekenne in diversche payementen ontfanghen te hebben uit
+                    handen van mynheer den pastor van <rs type="corporate" ref="#st_jans_mechelen"
+                            >S<hi rend="super">t</hi>-Jans-kercke</rs><index indexName="stw">
+                        <term xml:lang="deu">St. Janskerk</term>
+                    </index>, tot <rs type="place" ref="#mechelen">Mechelen</rs><index
+                        indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Mechelen</term>
+                    </index>, de somme van <measure type="currency" quantity="1800">XVIII
+                    hondert</measure> guldens eens, tot volcomen betaelinghe van den <rs type="work"
+                        ref="#jaffe_482">autaer-tafel</rs><note resp="A.H." type="footnote">Das
+                        Tryptichon des hl. Johannes befindet sich noch immer in der Sint Jan Baptist
+                        en Evangelist kerk in Mechelen, zwei Teile der Predella sind heute im Musée
+                        des Beaux-Arts, Marseille, zu sehen. Ein drittes Gemälde aus dem Bereich der
+                        Predella ist verloren. Vgl. <bibl>Michael Jaffé: Rubens
+                            - Catalogo completo. Milano 1989, S. 238 <ptr type="gbv"
+                                cRef="022373535"/></bibl></note> met deuren op de voorseyde kerckens
+                    hooghs-autaer staende, met myn handt ghemaect, ende t’ oirconde de waerheyt
+                    hebbe ick dese quitancie met myn eyghen handt geschreven ende onderteecken.</p>
+                    <closer>
+                        <dateline>Tot <rs type="place" ref="#antwerpen">Antwerpen</rs>, den <date
+                        when="1624-05-02">2. maey 1624</date>.</dateline><lb/>
+                        <signed><rs type="person" ref="#rubens_peter_paul">Pietro Pauolo Rubens.</rs></signed>
+                    </closer>
+            </div>
+        </body>
+    
+    </text>
+</TEI>

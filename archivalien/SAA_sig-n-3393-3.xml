@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_261">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Auszug aus dem Inventar des Nachlasses von Jan Brant, Doktor der Rechte, Alt-Schöffe und Witwer von Clara de
+                    Moy</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-n-3393-3">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Notariaat, 1693, Protocollen, en staten en rekeningen Cantelbeck Jr,
+                            Hendrik van</collection>
+                        <idno type="signatur">N 3393, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Auszug aus dem Inventar des Nachlasses von Jan Brant († <date when="1639-08-23">23.
+                            August 1639</date>), Doktor der Rechte, Alt-Schöffe und Witwer von Clara de
+                            Moy</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate from="1639-08-31" to="1639-09-03">31. August –
+                                1./3. September 1639</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Eric Duverger: Antwerpse kunstinventarissen uit de
+                                zeventiende eeuw [Fontes historiae artis Neerlandicae = Bronnen voor de
+                                kunstgeschiedenis van de Nederlanden]. Bd. 4: 1636-1642. Brüssel 1989. Nr.
+                                1063, S. 267-271</bibl>
+                            <bibl>unvollständig publiziert durch Jan Denucé: De
+                                Antwerpsche Konstkamers. Inventarissen van Kunstverzamelingen te Antwerpen
+                                in de 16e en 17e eeuw [Bronnen voor de geschiedenis van de Vlaamsche Kunst.
+                                2]. Antwerpen 1932. S. 53-56<ptr type="gbv" cRef="303134267"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Uittreksel uit de inventaris van de nagelaten goederen van meester <rs
+                        type="person" ref="#brant_jan">JAN BRANT</rs>, doctor in de rechten,
+                    oud-schepen en weduwnaar van <rs type="person" ref="#moy_clara">CLARA DE MOY
+                        (MOOY)</rs>. Hij is op <date when="1639-08-23">23 augustus 1639</date> in
+                    zijn woning in de Sint-Michielstraat overleden. De kleinkinderen zijn aangeduid
+                    als erfgenamen, nl. : de kinderen van ridder <rs type="person"
+                        ref="#rubens_peter_paul">Pieter Paul Rubens (Rubbens)</rs> en van wijlen <rs
+                        type="person" ref="#brant_isabella">Isabella Brant</rs>, evenals de kinderen
+                    van <rs type="person" ref="#fourment_daniel">Daniël II Fourment</rs>, koopman,
+                    en van wijlen <rs type="person" ref="#brant_clara">Clara Brant</rs>. De
+                    inventaris is door notaris <rs type="person" ref="#cantelbeke_hendrick">H. van
+                        Cantelbeck</rs> opgemaakt op verzoek van P. P. Rubens, in naam van zijn
+                    jongste zoon <rs type="person" ref="#rubens_nikolaas">Nicolaas Rubens</rs>,
+                    thans in het buiten-land ; op verzoek van Jonker <rs type="person"
+                        ref="#rubens_albert">Albertus Rubens</rs>, secretaris van de geheime raad
+                    van de koning en ook een zoon van P. P. Rubens ; alsook op verzoek van Daniël II
+                    Fourment, testamentaire voogd van zijn kinderen. De getuigen zijn <rs
+                        type="person" ref="#stuers_peter">Peter Stuers</rs> en <rs type="person"
+                        ref="#smits_huibrecht">Huibrecht Smidts (Smits)</rs>. </p>
+            </div>
+            <div xml:lang="nld">
+                <head>In ’t Camerken aen den Hoff ende Deurganck :</head>
+                <p>Wat geschildert lijnwaet tegens den muer hangende<lb/> Een geschilderden
+                    schoudoeck<lb/> Twee Bancquetkens op panneel olieverve in lijste<lb/> Drie
+                    Lantschapkens op panneel olieverve in lijste<lb/> Een Fruijtmertken op panneel
+                    olieverve in lijste<lb/> Een Brandeken op panneel olieverve in lijste<lb/> Een
+                    verbrandende Stadt op doeck in lyste voor de schouw staende</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>In ’t Comptoirken neffens de groote Neercamer wtcomende aen den Hoff :</head>
+                <p>Wat vormkens van plaester<lb/> Een leire cofferken met wat kleijnichheyt van
+                    kerckdingen daerinne van cleijn importantie Vier borduerraemkens</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>In de groote Camer aen de Hoff :</head>
+                <p>Een groot stuck schilderije van de Drij Coningen op panneel olieverve in
+                    lijste<lb/> Een stuck <rs type="work" ref="#jaffe_108">schilderij van Heer Petro Paulo Rubbens met sijn ierste
+                        Huijsvrouwe</rs> op panneel olieverve in lijste<note resp="A.H." type="footnote">Zur Identifikation des Gemäldes Vgl. <bibl>Nils Büttner: Herr P. P. Rubens: von der Kunst, berühmt zu werden.
+                            (Rekonstruktion der Künste ; 7) Göttingen: Vandenhoeck &amp; Ruprecht, 2006. S. 104<ptr
+                                type="opac" cRef="515922463"/></bibl> sowie <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S. 169. Nr. 108<ptr type="gbv"
+                                    cRef="022373535"/></bibl></note><lb/> Den Afflivigen in desen ende
+                    sijne Huijsvrouwe respective op panneel olieverve in lijste<lb/> Een stuck
+                    schilderij van Maria Magdalena op doeck sonder lijst<lb/> Wat Blommen op paneel
+                    in lijste<lb/> Een Ouden Man op paneel olieverve in lijste<lb/> Een doeck
+                    olieverve in lijste van Rethorica<lb/> Een Mariebeldeken op panneel olieverve in
+                    lijste<lb/> Twee stucxkens schilderij respective op paneel olieverve in lijste :
+                    d’een van Jan Brant des afflivigens soontken was ende d’ander van <rs
+                        type="person" ref="#rubens_clara_serena">Clara Serena Rubbens</rs>,
+                    dochterken was des voors. Heer Rubbens<lb/> Een Heremijt op panneel in
+                    lijste<lb/> Een groot stuck schilderij van het Leven ende de Doodt op panneel
+                    olieverve in lijste<lb/> Een groot stuck schilderije van wijlen heer <rs
+                        type="person" ref="#moy_hendrick">Henrik de Moij</rs> op panneel olieverve
+                    in lijste<lb/> Een Begraeffenisse Christi op 1 plaetken in ebbenhoute
+                    lijste<lb/> Het Conterfeijtsel van den Afflivigen in desen in lijste<lb/> Het
+                    Conterfeijtsel van desselffs Afflivigens Vader ende Moeder restective op panneel
+                    olieverve in lijste<lb/> Een stuck tegen den solder handende van de voors. Camer
+                    van verscheijden Personagiën olieverve in lijste<lb/> Het goude leir rontomme de
+                    voors. camer hangende van gout op gout</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>In ’t Camerken aen de Straete :</head>
+                <p>Vijf stucxkens oudt tappijt looffwerck tegens de mueren genaegelt zijnde<lb/> Het
+                    Conterdfeijtsel van den voors. meester <rs type="person" ref="#moy_hendrick"
+                        >Henrick de Mooij</rs> op panneel olieverve in lijste<lb/> Een Bancquet van
+                    den Coninck Balthazar op panneel olieverve in lijste<lb/> Den Hertoch <rs
+                        type="person" ref="#albrecht_von_oesterreich">Albartus</rs> hooch loffelycke
+                    memorie in sijn cardinaelscleederen op panneel olieverve in lijste<lb/> Enn
+                    Spaensche Joffrouwe op panneel olieverve in lijste<lb/> Een gebourduert stucxken
+                    schilderije van Marie ende Joseph in lijste<lb/> Den Thoren van Babiloniën op
+                    panneel olieverve in lijste<lb/> Een Lantschapken op panneel in lijste met een
+                    Predicatie daerinne<lb/> Een Fruijtagiken op doeck in lijste<lb/> Een
+                    Boschagieken in een rindeken op panneel in lijste<lb/> Onsen Salichmaecker aen
+                    ‘t cruijs met Onse-Lieve-Vrouwe ende Sint-Jan op een panneeltken olieverve in
+                    lijste<lb/> Den Coninck ende de Coninginne van <rs type="place" ref="#england"
+                        >Engelant</rs> pampiere kunst in lijste respective</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>In de Neercamer neffens ’t voorgaende Camerken :</head>
+                <p>Zes stucken oudt tappijt looffwerck tegens den muer genaegelt sijnde<lb/> Twaalf
+                    Maendekens rondeeltkens pampiere kunst<lb/> Twee cleijn bollekens spera
+                    monde<lb/> Een Affbrekinge van ‘t Casteel van <rs type="place" ref="#antwerpen"
+                        >Antwerpen</rs> op panneel olieverve in lijste<lb/> Den Vader van den
+                    afflivigen in desen op panneel olieverve in lijste<lb/> Een cleijn stucxken van
+                        <rs type="person" ref="#rotterdam_erasmus">Erasmus Roterdamij</rs> op
+                    panneel olieverve in lijste<lb/> Een Onthooffdinge van Sint-Jan Baptista op
+                    doeck olieverve in lijste<lb/> Noch een Conterfeijtsel van des Afflivigens Vader
+                    in lijste<lb/> Een Deurp op panneel olieverve in lijste<lb/> Een Mariebeldeken
+                    op panneel olieverve in lijste<lb/> Drie Lantschappen met geschilderde lijsten
+                    op doecken<lb/> Een gecruijsten Christus op panneel olieverve in lijste<lb/> De
+                    Kerck op den Berch van Calvariën op panneel olieverve in lijste<lb/> De
+                    Hertoginne op pampiere kunst in lijste<lb/> Een houte cruijceficx met 1 albasten
+                    voet<lb/> Vier Figurkens : de 2 van loot ende d’ander 2 van hout respective op
+                    hennen voet<lb/> Een Vrouwenhooft van plaetser</p>
+            </div>
+
+            <div xml:lang="nld">
+
+                <head>In den Vloer :</head>
+                <p>De stadt van Londen pampiere kunst in lijste<lb/> Een Lantschap op doeck in
+                    lijste<lb/> Een blauwen steen op eenen voet</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>In de groote Ceucken :</head>
+                <p>Een stuck schilderije van Phebus op panneel olieverve in lijste<lb/> Een
+                    Fruijtmerct op panneel olieverve in lijste</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>Op de Camer boven den Vloer :</head>
+                <p>Een pant geschildert lijnwaet als in ‘t camerken aen den hoff tegens den muer
+                    genagelt<lb/> Drie witte gestecken stucken van gaeren dienende tottet behangen
+                    van een camerken<lb/> Twee silvere vergulde schalen in d’een gedreven de wapen
+                    van de stadt van Antwerpen ende in d’ander gedreven staende eenige
+                    Goddinnen<lb/> Een groot stuck schilderij van Daniël in den cuijl der leeuwen op
+                    doeck olieverve in lijste<lb/> Een gecruijsten Christus mette scheckers over
+                    beijde sijden op panneel olieverve in lijste<lb/> Een Mariebelt met Joseph op
+                    doeck olieverve in lijste<lb/> Twee Kinderhooffdekens van wasch<lb/> Een jonge
+                    Dochter op panneel in lijste</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>Op de Bovencamer daerneffens :</head>
+                <p>Een houte cruijceficx op sijnen berch<lb/> Een stucxken schilderij van Kaïn ende
+                    Abel wit ende swert op doeck in lijste<lb/> Twee Mariebelten op panneel
+                    olieverve in lijste<lb/> Een Lantschapken op panneel olieverve in lijste<lb/>
+                    Een oude Manstronie op panneel<lb/> Een Munninck op een pinneeltken in
+                lijste</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>Op de Gaelderije :</head>
+                <p>Een herthouten ingelegden lessenaer daerinne niet liggende dan een coperen
+                    compass gebrocken zijnde<lb/> Een cleijn stucxken schilderij van Adam ende Eva
+                    op panneel olieverve in lijste<lb/> Een silveren Godt met noch 6 silvere
+                    Figurkens<lb/> Een Sint-Janneken van wasch<lb/> Een Sotteken op paneel</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>Op ’t Hangende Camerken neffens de voors. Gaelderije :</head>
+                <p>Een Mariebeldeken in lijste</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>Op ’t cleijn Solderken daerneffens :</head>
+                <p>Een Conterfeijtsel van meester <rs type="person" ref="#brant_hendrick">Henrick
+                        Brant</rs> den zoon in desen was</p>
+
+            </div>
+            <div xml:lang="nld">
+                <head>Op den Solder boven de voors. Solders :</head>
+                <p>Een tennen Duijtschen wijnpot<lb/> Een Lantschapken met Sinte-Christoffel
+                    daerinne op panneel in lijste<lb/> Een Kersnacht op panneel in een vergulde
+                    lijste<lb/> Een ouden Mans- met 1 Vrouwetronie respective in lijsten<lb/> Vier
+                    tenneberders met II quade Lantcaerten</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>Op ’t cleijn Comptoirken :</head>
+                <p>Een silveren penninck daerop gesneden sijnde de Borcht der stadt van
+                Antwerpen</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>Op den Solder neffens ‘t groot Comptoir :</head>
+                <p>Een Lantschap op doeck olieverve<lb/> Twee groote stucken schilderij op doeck in
+                    lijste : d’een van 1 Manspersoon ende d’ander van sijn Huijsvrouwe</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>Op den Solder boven den voorgaende :</head>
+                <p>Twee luijten<lb/> Drie quade bassen</p>
+            </div>
+
+            <div xml:lang="nld">
+                <head>Op des Afflivigens Comptoir staende op eenen Solder aen de Straete :</head>
+                <p>Een stuck gouts daerop staende op elcke syde 5 figuren van Keijsers<lb/> Een
+                    dobbelen roosen nobel van <rs type="person" ref="#elisabeth_i_england"
+                    >Elisabeth</rs> coninginne van Engelant<lb/> Een silvere vergulden penninge van
+                    de Cruijsinge Ons Heeren<lb/> Een vergulden penning van <rs type="person"
+                        ref="#nero">Nero</rs><lb/> Een silveren penning daerop staende <rs
+                        type="person" ref="#johanna_österreich">Joanna Austria</rs><lb/> Een
+                    silveren penning van 1 Seevaert<lb/> Een silveren penning daerop staende Adam
+                    ende Eva<lb/> Een silveren penning daerop staende Neptunus<lb/> Een silveren
+                    penning daer Onsen Salichmaecker aen de colomme staet<lb/> Een penning daer
+                    Sint-Jan Onsen Salichmaecker is doopende<lb/> Een silveren penning daerop
+                    staende de Borcht van Antwerpen<lb/> Een goude Agnus Dei met 1 goude cruijsken
+                    ende een goude draetringesken daeraene<lb/> Een goude sonwyserken gemaect
+                    geweest<lb/> Een goude Agnus Dei casken met 1 cleijn goude ketentken daeraene
+                </p>
+            </div>
+        </body>
+      
+    </text>
+</TEI>

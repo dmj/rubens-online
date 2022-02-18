@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_022">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jan Rubens wohnt bei Hermann Koch in Köln</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="deu" xml:id="HAStK_best-45-30">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt (HAStK)</repository>
+                        <collection>Reformations-Akten, Nr. 30</collection>
+                        <idno type="signatur">Best. 45, fol. 11r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jan Rubens wohnt bei Hermann Koch in Köln</title>
+                    </head>
+              
+                    <history>
+                        <origin>
+                          
+                                <origDate when="1569-05-01">1. Mai 1569</origDate>
+                          
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu">Köln</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="best-45-30-11r" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11698" n="11r"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="deu">
+                <p> <pb facs="best-45-30-11r" n="11r"/>Anno <date when="1569-05-01">1569 den eirsten Maÿ</date><lb/>vur sant Mertten<lb/>
+                    <!-- Kölner Kirche Groß St. Martin??? -->
+                    Item beij <rs type="person"
+                        ref="#koch_hermann">Heirman Koch</rs> wondt eyner van <rs type="place"
+                            ref="#antwerpen">Antorff</rs> heist <rs type="person" ref="#rubens_jan">Jan Reubens</rs> 
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

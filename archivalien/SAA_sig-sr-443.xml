@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
+    xml:lang="deu" xml:id="ed_rubens_080">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verkauf einer Rente an Claudius d’Ongnyes, des Herrn von Morckhoven</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> 
+                &register-corporate; 
+                &register-person; 
+                &register-place;
+                &register-work; 
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-443">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1601/ IV: Moy &amp; Neesensen</collection>
+                        <idno type="signatur">SR 443, fol. 487v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Verkauf einer Rente an Claudius d’Ongnyes, des Herrn von Morckhoven</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. auch den Erwerb einer Rente
+                                    durch Peter Paul Rubens von Claudius d’Ongnyes am <ref
+                                        type="rubens" cRef="ed_rubens_126">22. September 1614</ref> und ein Dokument <ref type="rubens" cRef="ed_rubens_080a">aus den Stadsrekeningen</ref>  von 1579/80.
+                                   
+                                </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1601-09-06">6. September 1601</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten
+                                meester en zijne bloedverwanten. Antwerpen 1877, S. 342f.<ptr
+                                    type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Rente</term>
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs> weduwe
+                    wijlen Meesters <rs type="person" ref="#rubens_jan">Jan Ruebens</rs>, Schepen
+                    was deser stadt, cum tutore, ende jouffrouwen <rs type="person"
+                        ref="#pypelincx_susanne">Susanna Pypelincx</rs>, heur Sustere, met <rs
+                        type="person" ref="#schot_peeter">Peeter de Schot</rs>, ejus marito et
+                    tutore, bekenden dat zij, volgende den accorde ende contract tusschen den voors.
+                    Peeter de Schot ende Joncker <rs type="person" ref="#doyenbrugge_philip_rene"
+                        >Philips-René Doyenbrugge</rs> als momboir van Joncker <rs type="person"
+                        ref="#dorgnies_claude">Claude Dorgnies</rs>, Heer van <rs type="place"
+                        ref="#morckhoven">Morchoven</rs>, den <date when="1596-02-12">XII<hi
+                            rend="super">en</hi> Februarij anno sessentnegentich</date> lestleden
+                    voor <rs type="person" ref="#prestere_nicasius">Nicasius de Pretre</rs>, als
+                    Notaris tot <rs type="place" ref="#bruessel">Brussel</rs>, in presentie van
+                    sekere getuygen gepasseert, ende mits de voldoeninge hem gedaen vande negen
+                    hondert vierendertich Carolus guldenen 4 stupers <measure type="currency"
+                        quantity="0.45">¾</measure> eens, inden voors. accorde vermelt, overgegeven,
+                    gecedeert ende geretransporteert hebben, gaven over, etc. <rs type="person"
+                        ref="#wauzijn_anthonis">Anthoni de Wauzijn</rs>, als rentmeester ende tot
+                    behoeff vanden voors. Joncker Claude Dorgnies, Heer van Morchoven, hier mede
+                    comparerende ende tselve tot behoeff als vore accepterende, de viertich Carolus
+                    guldenen erffelijck metten achterstelle daeraff verloopen tsedert <term
+                        type="stw">Kersmisse<index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Weihnachten</term>
+                        </index></term> negenentachtentich lestleden herwaerdere, die men jaerlicx
+                    heeft ende heffende is opt corpus deser stadt, wesende gereduceert gelt, staende
+                    te boecke op <rs type="person" ref="#herbaeys_loyse">Loyse Herbaeys</rs>,
+                    daerinne sij comparanten opden <date when="1584-04-17">XVII<hi rend="super"
+                        >en</hi> Aprilis, anno vierentachtentich</date> lestleden bij Joncker <rs
+                        type="person" ref="#stralen_jan">Jan van Stralen</rs>, Heer van <rs
+                        type="place" ref="#merksem">Marcxem</rs> ende <rs type="place"
+                        ref="#dambrugge">Dambrugge</rs>, Amptman inder stadt alhier nomine officii,
+                    gegoeyt sijn geweest, prout litteræ quas tradidernt, droegen oppe, te waerne van
+                    allen commeren ende calaengien, die zij oft ijemant anders san hennentwegen
+                    daerop gemaect mouchten hebben ende anders nijet; voorts is te wetene dat de
+                    voors. rente van viertich guldenen erffelijck sal blijven verbonden voor
+                    onderpande vande hoeve met huysinge, hove, lande, bossche, bempde, gronde ende
+                    toebehoorten, geheeten Morchoven, in diversche parcheelen, gelegen onder de
+                    heerlicheyt van Morchoven, daerop de voors. Jouffrouwe Maria ende Susanna
+                    Pypelincx jaerlijcx heffende sijn vijftich guldenen erffelijck volgende den
+                    constitutiebrieff de date <date when="1552-01-10">X<hi rend="super">a</hi>
+                        Januarij anno tweentvijftich</date> lestleden daeraff sijnde.</p>
+                <lb/>
+                <closer>
+                    <dateline>
+                        <date when="1601-09-06">Sexta Septembris 1601</date>. </dateline>
+                </closer>
+            </div>
+
+
+        </body>
+
+    </text>
+</TEI>

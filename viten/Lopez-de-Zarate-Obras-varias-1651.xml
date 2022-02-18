@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_285">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="person" ref="#zarate_francisco">Francisco López de Zarate</rs>:
+                    Obras varias, 1651</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="zarate_obras_1651">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Charles Ruelens: Pierre Paul Rubens. Documents et lettres</collection>
+                        <idno>Brief des Francisco López de Zarate</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens porträtiert Philipp IV. zu Pferd, Beschreibung durch Francisco López de Zarate</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Charles Ruelens: Pierre Paul Rubens. Documents et lettres</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Charles Ruelens: Pierre Paul Rubens. Documents et lettres. Brüssel 1877. S.
+                                153f.<ptr type="gbv" cRef="455974233"/></bibl>
+                            <bibl>Francisco López de Zarate: Obras varias. Alcalá: M. Fernández, 1651. S. 56<ptr type="gbv" cRef="135908132"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">López de Zárate, Francisco</term>
+                    <term type="stw" xml:lang="spa">Obras varias</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="spa">
+                <p><pb n="56"/>A la magestad del <rs type="person" ref="#philipp_iv_spanien">Rey D.
+                        felipe</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
+                    </index> nuestro Señor, que pinto <rs type="person" ref="#rubens_peter_paul"
+                        >Pedro Pablo Rubens</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                    </index><rs type="work" ref="#jaffe_932"> a cavallo armado</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Reiterporträt Philipp IV.</term>
+                        </index>
+                    </index>; dandole la fée (como a su defensor) con la derecha mano una corona, y
+                    clavando con la izquierda una Cruz en el globo della tierra, y el furor divino
+                    fulminando a sus enemigos; y un Indio figura del nuevo mundo, que le tiene el
+                    hielmo; que es como sustentarle con sus riquezas el peso de las guerras.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

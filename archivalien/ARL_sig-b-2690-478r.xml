@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_157a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein Honorar als Hofmaler und wird für weitere
+                    Arbeiten entlohnt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-2690-478r">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte septième d’Ambroise Van Oncle, du 1er janvier au 31 décembre
+                            1621)</collection>
+                        <idno type="signatur">B. 2690, fol. 478r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens wird von den Erzherzögen für
+                            weitere Arbeiten neben seiner Tätigkeit als Hofmaler entlohnt (1621)</title>
+                    </head>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1621" notAfter="1621">? 1621</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord, in: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, Antwerpen 1888,
+                            S. 125</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="stw" xml:lang="deu">Hofmaler</term>
+                    <term type="stw" xml:lang="deu">Honorar</term>
+                    <term type="stw" xml:lang="deu">Bezahlung</term>
+                    <term type="stw" xml:lang="deu">Brüssel</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p>
+                    <pb n="325v"/>
+                    500 livres à <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>,
+                    peintre de l’hôtel de Leurs Altesses, pour gaiges et traictement du <date
+                        when="1619-09-23">23<hi rend="super">e</hi> de septembre 1619</date> au <date
+                        when="1620-09-22">22<hi rend="super">e</hi> de septembre 1620</date>.</p>
+            </div>
+
+            
+        </body>
+      
+    </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_028">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akte über Jan und Baptist Rubens in Köln. Beide werden unter den wehrfähigen
+                    Bürgern des 6. Quartiers (St. Kolumba) als Bewohner der Breitgasse
+                genannt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="HAStK_best-30-1463">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt (HAStK)</repository>
+                        <collection>Verfassung und Verwaltung, Nr. N 1463</collection>
+                        <idno type="signatur">Best. 30, fol. 32r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Akte über Jan und Baptist Rubens in Köln. Beide werden unter den
+                            wehrfähigen Bürgern des 6. Quartiers (St. Kolumba) als Bewohner der
+                            Breitgasse genannt</title>
+                    </head>
+                   
+                    <history>
+                        <origin>                            
+                                <origDate notBefore="1582" notAfter="1583">? 1583</origDate>
+                         </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                        <bibl>Leonard Ennen: Über den Geburtsort des Peter Paul Rubens: mit
+                            Beilagen. Köln 1861, S. 24<ptr type="gbv" cRef="146162528"/></bibl>
+                    </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu" type="psw">Baptist Rubens</term>
+                    <term xml:lang="deu">Köln</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="best-30-1463-32r" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11707" n="32r"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="lat">
+                <p><pb facs="best-30-1463-32r" n="32r"/> <hi rend="underline">Breidstraiß</hi> <gap resp="N.B." reason="cancelled"/> <rs type="person" ref="#rubens_jan"> Johan Robins</rs>
+                    <rs type="place" ref="#windeck"> Windeck</rs>| <rs type="person"
+                        ref="#rubens_baptist">Johann Robins</rs>, filius, Malergaff:<note resp="N.B." type="footnote">i.e. Malergaffel</note> 
+              </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_053">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Auszug aus dem Taufbuch der niederländischen Reformierten Gemeinde 1588-1591,
+                    S. 262</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="taufbuch_reymont_ringout_15810429">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <repository>Staatsarchiv Brühl</repository>
+                        <collection>Leonard Ennen: Über den Geburtsort des Peter Paul Rubens</collection>
+                        <idno>Auszug aus dem Taufbuch der niederländischen Reformierten Gemeinde 1588-1591,
+                            S. 262</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Auszug aus dem Taufbuch der niederländischen Reformierten Gemeinde vom 29. April 1581</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu den Eintrag vom <ref type="rubens"
+                                    cRef="ed_rubens_046">8. November 1579</ref> im selben Taufbuch.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1581-04-29">29. April 1581</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Das Dokument befindet sich heute vermutlich im
+                                Staatsarchiv Brühl.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Leonard Ennen: Über den Geburtsort des Peter Paul Rubens</bibl></source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Leonard Ennen: Über den Geburtsort des Peter Paul Rubens: mit Beilagen. Köln
+                            1861, S. 79, Nr. 36<ptr type="gbv" cRef="146162528"/></bibl>
+                    </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu">Taufbuch</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p> Den <date when="1581-04-29">29 april anno 1581</date>, <rs type="person"
+                        ref="#koninck_hans">Hans de Koninck</rs> syn kint ghetuygen <rs
+                        type="person" ref="#ringout_reymont">Reymont Ringout</rs>, Mr. <rs
+                        type="person" ref="#rubens_jan">Jan Ruebens</rs> inde syn huysvrau. </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

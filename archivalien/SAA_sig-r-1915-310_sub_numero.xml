@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_050a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bestätigung über den Empfang der Leibrente zu Gunsten von Jan Rubens durch
+                    Maria Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-r-1915-310_sub_numero">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Kwijtbrieven. Stadsrekenkamer 1578-1580</collection>
+                        <idno type="signatur">R 1915, sub numero</idno>
+                    </msIdentifier>
+                    <head>
+                        <title><!-- Hier muss der Text angepasst werden!!!  -->
+                            Die ebenfalls am 15. Januar 1580 durch Maria Pypelincx empfangene Rente, wurde am 27. Januar Peeter Panhuys für die
+                            Lieferung von Wein und Zucker zugesagt und ihm am 17. März ausbezahlt </title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <title>                              
+                                </title>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch folgende Dokumente: 
+                                    <ref type="rubens" cRef="ed_rubens_037">1568, 27. Juni</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_041">1576, 13. Juli</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_044">1578, 2. Mai</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_047">1579, 2. September</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_045">1578/79</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_048">1579/80</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_049">1580, 4. Februar</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_50">1580, 15. Januar</ref>
+                                    <ref type="rubens" cRef="ed_rubens_051">1580/81</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_055">1581/82</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_056">1582/83</ref>; 
+                                    1607, 9. Mai </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1580-01-15" notAfter="1580-03-17">am 15. Januar &amp; 17. März 1580</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                                bloedverwanten. Antwerpen 1877, S. 188ff.<ptr type="gbv" cRef="146162595"/></bibl>
+                            
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu">Leibrente</term>
+                    <term xml:lang="deu">Erbrente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>                     
+
+            <div xml:lang="nld">
+               
+                <p>  <pb n="2213"/>Meestere Jan Rubbens een jaer <date when="1579-06-27">27 Junij
+                79</date>.</p>
+                <p>Ick Maria Pypelinckx, huysvrouwe van Meester Jan Ruebens,
+                    bekenne ende belijde, midts dese mijn hantschrift, dat ick ontfanghen hebbe ende
+                    te vollen betaelt ben van een jaer renten van vijfenveertich guldens van
+                    twintich stuvers tstuck, den penninck twintich, verschenen ende vervallen den
+                        <date when="1579-06-27">sevenentwintichsten Junij XV<hi rend="super"
+                        >c</hi> neghenentseventich</date>, wt handen vanden Rentmeester generael
+                    deser stadt van Antwerpen. In oorconde der waerheyt, hebbe ick dit selver
+                    gescreven ende onderteeckent desen <date when="1580-01-15">XV<hi rend="super"
+                            >den</hi> Januario XV<hi rend="super">c</hi> tachentich</date>.</p>
+                <p>Somma  <measure type="currency" quantity="45">XLV</measure> ₤ art<hi rend="super"
+                        >oise</hi> </p>
+                <closer rend="text-align:right"><signed rend="text-align:right">Maria Pypelinckx.</signed><lb/>
+                    N<hi rend="super">o</hi> 2213 </closer>
+            </div>
+            <div xml:lang="nld">
+                <p>Dese is bij mij betaelt ende verleet op reeckeninge van <rs type="person"
+                        ref="#panhuys_peeter">Peeter Panhuys</rs>, schuldich van wijn ende suycker,
+                    desen <date when="1580-01-27">27 Januarij 1580</date>. Is kennelijck <rs
+                        type="person" ref="#vroenhout_paulus">Paulus Vroenhout</rs>. </p>
+                <p rend="text-align:right">Betaelt <date  when="1580-03-17">17 Martij 1580</date></p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

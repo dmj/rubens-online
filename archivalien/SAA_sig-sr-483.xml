@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_005">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akten über den Verkauf des Anwesens Het Moeriaenshooft (ehemals
+                    de Vliegende Hert) in Borgerhout durch Philipp und Peter Paul
+                    Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-483">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1610/ I: Neesen &amp; Kieffelt</collection>
+                        <idno type="signatur">SR 483, fol. 232r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Akten über den Verkauf des Anwesens Het Moeriaenshooft (ehemals
+                            de Vliegende Hert) in Borgerhout durch Philipp und Peter Paul
+                            Rubens</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <p>
+                                <origDate when="1610-06-15">15. Juni 1610</origDate>
+                            </p>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877. S. 421-423<ptr type="gbv"
+                                    cRef="146162595"/>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="nld">Moeriaenshooft</term>
+                    <term xml:lang="nld">Vliegende Hert</term>
+                    <term xml:lang="nld">Borgerhout</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Meester <rs type="person" ref="#rubens_philipp">Philips Rubbens</rs>, Secretaris
+                    deser stadt, voor hem selven, voer een derdendeel vande erve naerbescreven, <rs
+                        type="person" ref="#rubens_peter_paul">Peetert Pauwel Rubbens</rs>, sijnen
+                    broeder, voor gelijck derdendeel vande selve erve, beyde voer hen selven ende
+                    inden name ende als testamentelijcke momboiren vande wettige kinderen van wijlen
+                    jouffrouwe <rs type="person" ref="#rubens_blandina">Blandina
+                    Rubbens</rs>Blandina Rubbens, hunne sustere was, welcke kinderen sij hierinne
+                    vervingen ende geloeffden te vervane, hun daervoore sterck maeckende, voor
+                    tresterende derdendeel vande selve naerbescrevcn erve, in dyer qualiteyt, ter
+                    eenre, ende <rs type="person" ref="#regebaert_hans">Hans Regebaert</rs>,
+                    chirurgijn, ende <rs type="person" ref="#barssemaeckers_clara">Clara
+                        Barssemaeckers</rs>, sijne huysvrouwe, ter andere sijden, bekenden ende
+                    verclaerden onderlinge ten beyden sijden, dat de voors. M<hi rend="super">r</hi> <rs
+                        type="person" ref="#rubens_philipp">Philips</rs> ende <rs type="person"
+                        ref="#rubens_peter_paul">Peeter Paulo Rubbens</rs>, voor hun ende inder
+                    qualiteyt als vooren, gegeven hebben ende gaven terve ende in erffelijcken
+                    rechte den voors. Hans Regebaert ende sijne huysvrouwe te houdene eeuwelijck
+                    ende erffelijck te besittene ende te gebruyckene, een stuck lediger erven metten
+                    gronde, materialen ende toebehoorten, da er eertijts een huys genaempt geweest
+                    sijnde het Moriaenshooft op gestaen heeft, gelegen in <rs type="place"
+                        ref="#borgerhout">Borgerhout</rs> alhier, van welcke huys ende erve wijlen
+                    Meester <rs type="person" ref="#rubens_jan">Jan Rubbens</rs>, hun comparanten
+                    vader was, opden sesten Augusti vijftien hondert sessentseventich bij scheydinge
+                    ende deylinge te deele bevallen is, blijckende bijder selver scheydinge ende de
+                    declaratie daernaer gevolcht ende gelijck tselve huys ende erve eertijts terve
+                    gegeven is geweest bij jouffrouwe <rs type="person" ref="#pypelincx_maria">Maria
+                        Pypelincx</rs>, weduwe desselfs wijlen M<hi rend="super">r</hi> Jan Rubbens, hunne moedere,
+                    als bijden selven heuren manne daertoe gemechticht, aen <rs type="person"
+                        ref="#homissen_peeter">Peeter Homisse</rs>n ende <rs type="person"
+                        ref="#biestmans_lucia">Lucia Biestmans</rs>, sijne huysvrouwe, die opden
+                        <date when="1605-04-29">XXIX<hi rend="super">en</hi> April anno XVI<hi
+                            rend="super">c</hi> ende vijff</date>, voor schepenen deser stadt vande
+                    voors. erve heeft gerenuncieert tot behoeff der voors. wijlen jouffrouwe Maria
+                    Pypelincx, als rentheffersse daervan, hun deselve erve toecommen, bleven ende
+                    verstorven is volgende den bescheede daervan sijnde, dwelck sij mede overgaven,
+                    tsjaers erffelijck omme twintich Rinsguldens, van twintich stuvers tot drije
+                    grooten Brabants, den stuver voer elcken gulden gerekent, goet van goude ende
+                    swaer van gewichte oft de weerde daervoore in anderen goeden ganckbaren gelde,
+                    naer advenant, jaerlicker ende erffelijcker rente, dandum alle jaren tSint
+                    Jansmisse, daeraff dierste jaer renten vallen ende verschijnen sal tSint Jans
+                    misse anno <date when="1611">XVI<hi rend="super">c</hi> elve</date>. Te waerne
+                    ende op niet daer jaerlicx vooren vuytgaende, anders dan dat deselve erve
+                    medepant is ende blijft over acht guldenen erffelijck <rs type="person"
+                        ref="#lodewiycx_peeter">Peeter Lodewiycx</rs> die jouffrouwe <rs
+                        type="person" ref="#lantmeter_maria">Maria Lantmeters</rs> jaerlicx betalen
+                    moet vuyt heuren speelhoff metten huyse daerbij gelegen, sonder dese erve cost,
+                    last oft schade. Met conditie dat de voors. erfnemeren dese erve terstont
+                    loffelijck sullen betimmeren gelijck sij geloven mits desen ende vande voors.
+                    erffgeveren erffrente van twintich guldenen erffelijck aff te lossen ende te
+                    quyten binnen vier jaeren toecommende, vijff guldenen erffelijck, met
+                    verschenender renten. Item, binnen andere vier jaren daernaer volgende, gelijcke
+                    vijff guldenen erffelijck, ende de resterende thien guldenen erffelijck selen
+                    sij oft heuren naercommelinghen mogen lossen ende quyten theurer goeder moyten
+                    metter helft daervan te male, niet min maer wel meer, opdat sij willen, elcken
+                    penninck altijts met sesthiene penningen in alsulcken gelde als ten dage vande
+                    affquytinge cours ende ganck hebben sal ende met verschenender renten. Ende omme
+                    dat de voers. erffgeveren ende hunne naercommelingen van hunne voers.
+                    erffelijcke rente te bat gehouden ende versekert souden sijn ende blijven tallen
+                    dagen ende oick omme daffquytinge te doene gelijck voors. is, soo hebben de
+                    voors. erffnemeren, omme der meerder sekerheyt, totte erve bij hun als boven
+                    terve genomen, mede verbonden ende tonderpande geseth <span from="" xml:lang="lat">se et sua</span>.</p>
+                <closer>
+                    <dateline>
+                        <date when="1610-06-15">Decima quinta Junii 1610</date>.
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

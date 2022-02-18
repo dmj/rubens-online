@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_280">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Johann Wilhelm Neumayrs von Ramssla: wahrhaftige Beschreibung der Reise, 1734</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="ramssla_beschreibung_1734">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>Herzog August Bibliothek Wolfenbüttel</repository>
+                        <idno type="signatur">M: Cc 442</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Herzog Johann Ernst von Sachsen Weimar besucht die Maler Peter Paul Rubens und Jan Brueghel d.Ä.</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Johann Wilhelm Neumayr von Ramssla: Wahrhaftige Beschreibung der Reise</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Johann Wilhelm Neumayr von Ramssla: Wahrhaftige Beschreibung der Reise, Welche [...] Johann Ernst der
+                                Jüngere genandt In Franckreich, Engelland und Niederland innerhalb
+                                Jahres Frist von den 27. Mertz 1613. bis den 19. Mertz 1614. glücklich
+                                hinterleget. Jena: Cröker, 1734. S. 372f.<ptr type="opac" cRef="13723869X"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw">Neumayr von Ramssla, Johann Wilhelm</term>
+                    <term type="psw">Johann Ernst (Sachsen-Weimar, Herzog, I.)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="deu">
+                <p><pb n="372"/>J. F. G. sahen auch des <rs type="person" ref="#plantin_christophe"
+                        >Plantini</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Plantin, Christoph</term>
+                    </index> Druckerey<index indexName="stw">
+                        <term type="SWD" xml:lang="lat">Officina Plantiniana</term>
+                    </index>, welche vor die vornehmste in <rs type="place" ref="#europa"
+                    >Europa</rs> gehalten wird. Derselben sind viele Characteres grosse und kleine
+                    in allerley Sprachen gezeiget worden. Ferner wurden J. F. Gn. auch in ein Hauß
+                    geführet, darinnen in unterschiedenen Cammern ein grosser Vorrath von
+                    Tapezereyen mit Landschaften und allerley Historien, aus Gold, Silber, Seyden
+                    und andern Gezeuge gar schön und künstlich gewircket, feil waren. Hierauf sahen
+                    Sie auch bey den beyden vortrefflichen Mahlern <rs type="person"
+                        ref="#rubens_peter_paul">Peter Paul Rybent</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                    </index> und <rs type="person" ref="#brueghel_jan_aeltere">Brügeln</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Breughel, Jan (der Ältere)</term>
+                    </index> viele herrliche Gemählde und Kunststücke. Rybent mahlet meist grosse
+                    Stücke und alles in rechter na<pb n="373"/>türlicher Grösse, aber überaus
+                    künstlich schön, und nach dem Leben. Alle Wochen soll Er auf 100 Gülden arbeiten
+                    können. Leicht mag ein Stück seyn, so verkauffet Er solches um 2. 3. 4. auch 500
+                    Reichsgülden. Brügel aber mahlet kleine Täfelgen mit Landschaften, aber so
+                    subtil und künstlich, daß mans mit Verwunderung ansehen muß. J. F. Gn. wurde
+                    auch der Ort gezeiget, da man Gläser auf Venedische Art machet, welche an
+                    Schönheit fast den Muranischen oder Venedischen gleich gehen, und sind es
+                    Jtaliäner, so sie machen. Allhier läst der Ertz-Hertzog, als ein Hertzog von <rs
+                        type="place" ref="#brabant">Braband</rs>, müntzen. Uber dem Eingange des
+                    Müntzhauses stehen diese Worte mit güldenen Buchstaben: Moneta Ducis Brabantiæ.
+                    Man müntzt täglich darinnen.<lb/> J. F. Gn. lagen allhier sechs Tage stille. Den
+                        <date when="1614-02-06">6. Februarii</date> reiseten J. F. Gn. nach
+                    eingenommenem Frühstück biß nach <rs type="place" ref="#mechelen"
+                        >Mecheln</rs>.<note resp="N.B." type="footnote"><rs type="place"
+                            ref="#antwerpen">Antorff</rs>. Nach einer ausführlichen Würdigung der
+                        Befestigungsanlagen folgt dem üblichen Schema gemäß die Beschreibung der
+                        wichtigsten öffentlichen Gebäude [erst Kathedrale, dann Börse und Rathaus].
+                        Dem schließen sich Beschreibungen der weiteren Sehenswürdigkeiten an. vgl.
+                        S. 368.</note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

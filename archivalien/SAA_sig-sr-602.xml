@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_196">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens und Cornelis vander Gheest lassen Willem Panneels (um
+                    1605–1634) ein Empfehlungsschreiben ausstellen, in dem Rubens öffentlich für
+                    Panneels treue Dienste dankt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-602">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1630/ VI: van Huffel jr. &amp; H. Duys</collection>
+                        <idno type="signatur">SR 602, fol. 269r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens und Cornelis vander Gheest lassen Willem
+                            Panneels (um 1605–1634) ein Empfehlungsschreiben ausstellen, in dem
+                            Rubens öffentlich für Panneels treue Dienste dankt</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1630-06-01">1. Juni 1630</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: Petrus Paulus Rubens en Willem Panneels,
+                                in: Rubens-Bulletijn - Bulletin-Rubens. Bd. 1. 1882. S. 222f.</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="lat">
+               
+                     <salute>Universis et singulis praesentes litteras visuris vel audituris, Consules et
+                     Senatus civitatis <rs type="place" ref="#antwerpen">Antverpiae</rs> salutem.</salute>
+               
+                <p>Notum facimus et tenore praesentium attestamur, die in calce praesentium scripto,
+                    coram nobis personaliter comparuisse magnificum virum D. <rs type="person"
+                        ref="#rubens_peter_paul">Petrum Paulum Ruebens</rs>, Celsitudinis suae
+                    serenissimae domesticum nobilem et Majestatis suae catholicae Domini nostri
+                    clementissimi in suo Privato Consilio a Secretis, etc. et solemni suo juramento
+                    in manibus nostris praestito ad instantiam et requisitionem probi juvenis <rs
+                        type="person" ref="#panneels_willem">Guilielmi Panneels</rs><index
+                        indexName="psw">
+                        <term type="PND">Panneels, Willem</term>
+                    </index> aetatis triginta annorum, dixisse, asseruisse et affirmasse eundem
+                    Guilielmum Panneels a se affirmante, quinque annis et dimidio, pingendi artem
+                    addidicisse et tyrocinium suum probe et honeste perfecisse; nec non, cum
+                    praedictus affirmans nuper in <rs type="place" ref="#spanien">Hispaniam</rs> se
+                    contulisset et Majestatis suae Catholicae publica negotia in <rs type="place"
+                        ref="#england">Anglia</rs> navaret, eidemque Guilielmo domum resque suas et
+                    supellectilem custodiendum hic Antverpiae tradidisset, praefatum Guilielmum summa
+                    cum fidelitate id munus gessisse et actorum suorum perfectissimam rationem sibi
+                    affirmanti in patriam reverso cum summo suo beneplacito reddidisse. Pariter
+                    quoque, coram nobis in eodem instanti, personaliter constitutus fuit <rs
+                        type="person" ref="#geest_cornelis">Cornelius vander Geest</rs><index
+                        indexName="psw">
+                        <term xml:lang="deu">Gheest, Cornelis van der</term>
+                    </index>, hujus urbis vir honestissimius, mercator perprobus et antiquitatum
+                    amator studiosissimus, qui se praedictum Gilielmum recte novisse omniaque
+                    praemisse vera et ex summa familiaritate qua cum praedicto domino Petro Paulo
+                    Rubens usus est in diesque utitur, sibi comperta esse suo juramento attestatus
+                    est. Cum autem ex parte praefati Guilielmi Panneels expositum nobis sit illum
+                    variarum regionum peragrationem sibi statuisse, idcirco obnixe rogamus et
+                    requirimus universos et singulos dominos judices, justiciarios, officiarios
+                    ceterosque omnes ad quos spectare poterit et praesentes pervenerint quatenus
+                    praedictum Guilielmum Panneels in eorum aut cujuslibet ipsorum dominia et
+                    jurisdictiones appellantem aut inhabitantem omni favore juvenibus probis et
+                    honestis exhiberi solito, benignius prosequi dignentur, paria et majora a nobis
+                    officia erga se suosque praestolaturi, sine dolo malo.</p>
+                <closer><salute> In quorum fidem, etc.</salute><lb/>
+                    <dateline><date when="1630-06-01">Prima Junii 1630</date></dateline>
+                </closer>
+                
+            </div>
+        </body>
+       
+    </text>
+</TEI>

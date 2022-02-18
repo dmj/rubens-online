@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_219">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Anfrage von Peter Paul Rubens bezüglich einer seit 1597 bestehenden Belastung
+                    des Grundes am Wapper</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> 
+                &register-corporate; 
+                &register-person; 
+                &register-place;
+                &register-work; 
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-735">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Rekwestboek 1634-1635</collection>
+                        <idno type="signatur">Pk. 735, fol. 248r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Anfrage von Peter Paul Rubens bezüglich einer seit 1597
+                            bestehenden Belastung des Grundes am Wapper</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Der Text wurde durch Pierre Génard publiziert.
+                                Vgl. <bibl>Pierre Génard: Het laatste Testament van P. P. Rubens, in:
+                                    Rubens-Bulletijn - Bulletin-Rubens. Bd. 4, 1896, S. 125f.</bibl></note>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zu dieser Anfrage Rubens' ein weiteres
+                                    Dokument vom <ref type="rubens" cRef="ed_rubens_220">7. März 1635</ref>. Zu
+                                    Rubens' Erwerbungen von Grund und Immobilien am Wapper sowie den Transaktionen
+                                    dazu Vgl. auch die Akten vom <ref type="rubens" cRef="ed_rubens_012">1. November
+                                        1610</ref>, <ref type="rubens" cRef="ed_rubens_013">4. Januar 1611</ref>,
+                                    <ref type="rubens" cRef="ed_rubens_114">30. Mai 1613</ref>, <ref
+                                        type="rubens" cRef="ed_rubens_181">28. Juli 1627</ref> und <ref type="rubens"
+                                            cRef="ed_rubens_184">16. Juni 1628</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1635-02-27">27. Februar 1635</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
+                            Gerechtsgebouw, 15.-30. Oktober 1977, S. 256, Nr. 252</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Verthoont reverentelyck Jonker <rs type="person" ref="#rubens_peter_paul">Pietro
+                        Paulo Rubens</rs> secretaris van syne Majesteit zoo dat den ontfangher van
+                    dese stadt chijnsen, compt pretendern op syne huysen ende panden gestaen aen de
+                        Wapper<index indexName="stw">
+                        <term xml:lang="deu">Wapper</term>
+                    </index> ende by het Lammekensraem alhier, twee chijsen over den 100en
+                    chijnspenning van den castele den eenen van 30 st. tsjaers verachtert tsedert
+                        <date when="1597-12-25">kersmisse 1597</date> ende den anderen van 13⅓ st.
+                    tsjaers verachtert oock tsedert den selven <date when="1597-12-25">kersmisse
+                        1597 </date>ende hoewel den suppleant by syne ghoedenisbrieven de voorseyde
+                    chijnsen niet en syn vuytgesteken gheweest ende dat hy gheen verhael daeraff en
+                    weet te becomen van syne vercoopers die tsedert tot decadebtie syn ghecomen ende
+                    dat hy oock ter saecken van dyen niet geerne mette heeren tresoriers en de
+                    rentmeesters deser stadt en souden questie oft proces vallen soo bidt de
+                    suppliant dat U.E. ghelieven willen den voorseyden heeren tresoriers ende
+                    rentmeester t’ordonneren dat hy ’t capitael der voorseyde twee chynsen teghen
+                    den penning 24 gherekent (ghelyck diergelycke chynsen daeghelycks worden
+                    gequeten) mette voorseyde onbetaelde verloopen bedraeghende tsaemen 132 gulden
+                    ende 13 st. sal moghen lossen ende voldaen met drye jaeren verloopen van sekere
+                    rente van 40 gulden tsjaers die hy heffende is op dese voorseyde stadt van <rs
+                        type="place" ref="#antwerpen">Antwerpen</rs> staende te boecke op den naeme
+                    van <rs type="person" ref="#herbaeys_loyse">Louyse Herbais</rs> Se numera 442
+                    Vachtert <date when="1628-12-25">Kersmisse 1628</date> – <date when="1629-12-25"
+                        >1629</date> ende <date when="1630-12-25">1630</date> waeraff de leste
+                    betaelinghe is den <date when="1634-04-29">29en Aprilis van den voorleden jaer
+                        1634</date> bedraeghende tsamen 120 gulden eens sijnde treden de resterende
+                    twelff gulden ende 13 st. contant op te leggen d’welck doende etc.<lb/> Sy dese
+                    gestelt in handen van tresorier ende rentmeester omme etc.</p>
+                <closer><dateline>Actum <date when="1635-02-27">27 Febr. 1635</date></dateline>
+                    <lb/>
+                    <signed><rs type="person" ref="#fabri_g">G. Fabri</rs></signed></closer>
+            </div>
+            <div>
+                <p> Daernaer gehoort tresoriers ende rentmeester myne heeren burgemeester en
+                    secretaris hebben den suppleant ’t versoeck by den dispositien deser ghedaen
+                    gheaccordeert.</p><closer><dateline>Actum <date when="1635-03-07">7 Marty 1635</date> geparagrapheert</dateline><lb/>
+                        <signed><rs type="person" ref="#fabri_d">D. Fabri</rs></signed></closer> 
+              </div>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_071">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quittung von Simeon du Parcq über die Mitgift von Blandina Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="quittung_mitgift_blandina_15940831">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: Aanteekeningen over den grooten meester en zijne
+                        bloedverwanten</collection>
+                        <idno>Quittung von Simeon du Parcq über die Mitgift von Blandina Rubens vom 31. August 1594</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Quittung von Simeon du Parcq über die Mitgift von Blandina Rubens</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1594-08-31">31. August 1594</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich 1877 im
+                            Besitz des Baron van Havre.</p>
+                            <p>Ihr heutiger Verbleib ist unbekannt.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Pierre Génard: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 325<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Siméon du Parcq</term>
+                    <term xml:lang="deu" type="psw">Simeon du Parcq</term>
+                    <term xml:lang="deu" type="psw">Blandina Rubens</term>
+                    <term xml:lang="deu">Mitgift</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="fra">
+                <p> Je soubsigné confesse avoir receu de Mademoiselle <rs type="person"
+                        ref="#pypelincx_maria"><hi rend="smallCaps">Marie</hi> PIPELINCX</rs>, vefve
+                    de feu Maistre <rs type="person" ref="#rubens_jan"><hi rend="smallCaps">Jean
+                        </hi>RUEBENS</rs>, ma belle merre, la somme de deulx cens trente quattre
+                    florins, huict pattars, <measure type="currency" quantity="6">VI</measure>
+                    deniers sur et à bon compte de plus grande somme qu’elle me doibz de deux cens
+                    florins de rente; de laquelle somme de <measure type="currency" quantity="234"
+                            >II<hi rend="super">c</hi>XXXIIII</measure> florins, <measure
+                        type="currency" quantity="8">VIII</measure> pattars, <measure
+                        type="currency" quantity="6">VI</measure> deniers, je me lien content.
+                    Tesmoing ce <date when="1594-08-31">dernier jour d’Aoust 1594</date>.<lb/>
+                    Somma: <measure type="currency" quantity="234">II<hi rend="super"
+                    >c</hi>XXXIIII</measure> florins, <measure type="currency" quantity="8"
+                        >VIII</measure> patars, <measure type="currency" quantity="6">VI</measure> deniers.</p>
+                
+                <closer>
+                    <signed><rs type="person" ref="#parcq_simeon">S. du PARCQ</rs>.</signed><lb/>
+                    <dateline><date when="1594">1594</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

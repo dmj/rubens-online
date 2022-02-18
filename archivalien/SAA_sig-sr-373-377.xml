@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_060">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maria Pypelincx vor dem Antwerpener Magistrat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-373-377">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1583/ I: Kessel &amp; Gillis</collection>
+                        <idno type="signatur">SR 373, fol. 377r-383r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Maria Pypelincx vor dem Antwerpener Magistrat</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1583-10-27">27. Oktober 1583</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877, S. 306-321<ptr type="gbv"
+                                    cRef="146162595"/></bibl>
+                            <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
+                                Gerechtsgebouw, 15.-30. Oktober 1977, S. 241, Nr. 150</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu">Antwerpen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>,
+                    Henricxdochter wijlen, daer moeder aff was jouffrouwe <rs type="person"
+                        ref="#touion_clara">Clara de Touion</rs>, die men hiet Colyns, wettighe
+                    huysvrouwe van Meester <rs type="person" ref="#rubens_jan">Jan Ruebens</rs>,
+                    oude-schepen deser stadt, die heur, omme tgene des nabescreven staet te moegen
+                    doene volcomelijcken geauthoriseert ende gemechticht heeft, breedere blijckende
+                    bij eenre opender procuratie in papiere gescreven, gepasseert onder den segel
+                    der stadt van <rs type="place" ref="#koeln">Coelen</rs> in date des <date
+                        when="1583-08-22">XXII<hi rend="super">en</hi> Augusti anno XV<hi
+                            rend="super">c</hi>LXXXIII</date>, die wij saghen ende hoopden lesen,
+                    ende, in dijer qualiteyt, met eenen momboir heur gegeven metten rechte, midts
+                    der absentien heurs mans, voor heur selven in deen partije, ende jouffrouwe <rs
+                        type="person" ref="#pypelincx_susanne">Susanna Pypelincx</rs>, haere
+                    sustere, nagelatene weduwe wijlen <rs type="person" ref="#moleneer_peeter"
+                        >Peeters de Moeleneer</rs>, met eenen momboir heur gegeven metten rechte,
+                    voor heur selven in dander partije, bekenden ende verlijden onderlinge, in
+                    beyden partijen, dat zij, volgende den testamente der voors. wijlen jouffrouwe
+                    Clara de Touion, heure moedere, bij heur gepasseert opden <date
+                        when="1500-07-18">XVIII<hi rend="super">en</hi> Julio anno XV<hi
+                            rend="super">c</hi></date> lestleden voor <rs type="person"
+                        ref="#rubens_severijn">Severijn Rubbens</rs>, openbaer Notaris, in presentie
+                    van sekere getuygen, wel ende minnelijck met malcanderen gepaert, gescheyden
+                    ende gedeylt zijn van ende aengaende alle ende ijegelijcke de goeden, hoedanich
+                    die wesen magen, als hen comparanten voorgenoempt aencomen, bleven ende
+                    verstorven zijn, midts der doot ende afflijvicheyt vande voors. wijlen henne
+                    ouders, inder manieren hiernaer volgende: ende ierst, aengaende den ruerende
+                    haefflijcke goeden, daeraff bekenden zij, comparanten, met malckanderen wel eens
+                    ende te vreden te sijne, overmidts dijen elcken van hen tsijne daeraff wiste
+                    ende themwaerdere hadde, ende als aengaende den onruerenden goeden, daeraff zoo
+                    is der voors. Jouffrouwe Marie Pypelincx, eerst, bij lotinge ende cavelinghe,
+                    opden <date when="---24">XXIIII<hi rend="super">en</hi></date> deser loopender
+                    maent, tusschen henlieden geschiet voorden voors. Notaris Rubbens, aengecavelt
+                    ende te deele bevallen ende sal hebben ende behouden voor heur ende heuren
+                    nacomelinghen, te wetene: inden iersten, een rente van vijffentzeventich Carolus
+                    guldenen erfflijck, vrij van allen ongelde, die <rs type="person"
+                        ref="#stapele_cornelis">Cornelis van Stapele</rs>, opden <date
+                        when="1571-05-19">XIX<hi rend="super">en</hi> Mey anno XV<hi rend="super"
+                        >c</hi>LXXI</date>, voor scepenen deser stadt vercocht, beset ende
+                    gehipoticeert heeft den voors. wijlen <rs type="person"
+                        ref="#pypelincx_hendrick">Henrick Pypelinck</rs> ende jouffrouwe Clara de
+                    Touion, zijn huysvrouwe, ierst op een hoeve met huysinge, schuere, stallinghe,
+                    gronde ende allen den toebehoirten; groot omtrent vijffentzeventich gemeten,
+                    gelegen al aen een inden polder, genaempt den Ruggenhille onder <rs type="place"
+                        ref="#bergen">Bergen</rs>; item op noch een hoeve met huysinge, schuere,
+                    boomgaerde, gronde ende toebehoorten, genaempt Deckershoff, groot omtrent
+                    drijentwintich gemeten, ende op noch een hoeve groot omtrent twintich gemeten,
+                    gelegen onder <rs type="place" ref="#steenbergen">Steenbergen</rs> in <rs
+                        type="place" ref="#sinte_oncommerspolder">Sinte-Oncommers polder</rs>,
+                    verschijnende jaerlijcx <date when="--05-17">17 mey</date>. Item noch een rente
+                    van sevenendertich Carolus guldenen thien stuyvers erfflijck, die Meester <rs
+                        type="person" ref="#gavarelles_jan">Jan van Gavarelles</rs> ende sijne
+                    broederen, opden <date when="1571-05-31">lesten Mey anno XV<hi rend="super"
+                        >c</hi>LXXI</date>, voer Scepenen deser stadt vercocht, beset ende
+                    gehipoticeert hebben den voors. wijlen Henrick Pypelinck ende zijn huysvrouwe
+                    voors., ierst op een stede met huyse, hove ende lande, groot drije vierendeel
+                    bunders, gestaen ende gelegen tot <rs type="place" ref="#edegem">Edeghem</rs>
+                    inder <rs type="place" ref="#elst">Elst</rs>; item op noch een stuck lants,
+                    geheeten tgroot Halff Bundere, gelegen <rs type="place" ref="#edegem"
+                    >tEedeghem</rs> opt Hoochvelt, ende op meer andere panden aldaer gelegen inden
+                    brieve geruert, verschijnende jaerlijcx <date when="--06-01">1<hi rend="super"
+                        >a</hi> Junij</date>. Item noch tseventich Karolus guldenen sestien stuyvers
+                    erfflijck, wesende deen helft vande een hondert eenenviertich Karolus guldenen
+                    tweelff stuyvers erfflijck, daeraff dander helft der voors. Jouffrouwe Susanna
+                    Pypelincx, gelijck hiernaer is blijckende, te deele bevallen is, die men noch
+                    jaerlijcx hoffende is vande een hondert vijftich Carolus guldenen erfflijck
+                    daeraff de reste gesneeft is, die <rs type="person" ref="#henricus_augustijn"
+                        >Augustijn Henricus</rs>, coopman, opden <date when="1564-05-27">27<hi
+                            rend="super">en</hi> mey anno XV<hi rend="super">c</hi>LXIIII</date>,
+                    vercocht heeft den voors. wijlen Henrick Pypelinck ende jouffrouwe Clara de
+                    Touion, zijn huysvrouwe, ende deselve beset ende gehipoticeert op zijn huysinge
+                    metten hove, plaetsse ende toebehoorten, gelegen inde Meere alhier, geheeten
+                    tHerttewout. Item noch vijftich Carolus guldenen erflijck vande een hondert
+                    Carolus guldenen erfflijck, daeraff dander resterende vijftich Carolus guldenen
+                    erfflijck der voors. Jouffrouwe Susanna Pypelincx, gelijck oick hiernaer is
+                    blijckende, te deele bevallen is, die men (vuyt crachte vande voluntaire
+                    condempnatie bij Vrouw <rs type="person" ref="#wyck_catlijne">Catlyne van
+                    Wyck</rs>, weduwe Joncher <rs type="person" ref="#wyck_huybrecht">Huybrechts van
+                        Wyck</rs>, Heer van Wardenborch, opten <date when="1572-06-25">XXV<hi
+                            rend="super">en</hi> Junij anno XV<hi rend="super">c</hi>LXXII</date>, onder
+                    den segel ten zaecken deser stadt gepasseert, jaerlijcx heffende is op een hoeve
+                    met huysinghe, hove, lande, bosschen ende bempden, groot omtrent dertich
+                    bunderen ende een vierendeei, metten wintmoelen daerbij, gelegen onder <rs
+                        type="place" ref="#itegem">Iteghem</rs>. Item noch vierentwintich Carolus
+                    guldenen erfflijck, die men jaerlijcx in een rente van tachtentich Carolus
+                    guldenen erfflijck heffende is op twee huysen metten hove ende draybane, gelegen
+                    buiten de Cristeerne poorte, ende op noch een bleyckerije, groot omtrent twee
+                    gemeten, daerbij gelegen, bijde voors. Jouffrouwe Clara de Touion, eensdeels
+                    opden <date when="1570-12-12">12<hi rend="super">en</hi> Decembris anno XV<hi
+                            rend="super">c</hi>LXX</date>, bij transporte voere Scepenen alhier
+                    gepasseert, vercregen jegens <rs type="person" ref="#touion_andries">Andries de
+                        Touion</rs>, die men heet Colyns, ende haer eensdeels verstorven van wijlen
+                    jouffrouwe <rs type="person" ref="#alteren_mechtelt">Mechtelt van Alteren</rs>,
+                    haere moedere. Item noch een rente van sesse Karolus guldenen vijff stuyvers
+                    erflijck, die men jaerlijcx heffende is opde demeynen vanden coninck van <rs
+                        type="place" ref="#spanien">Spaignien</rs>. Item noch een rente van sesse
+                    Karolus guldenen vijff stuyvers erfflijck, die men jaerlijcx te Kersmisse
+                    heffende is op een hoeve gelegen ter Hoeven onder <rs type="place"
+                        ref="#eeckeren">Eeckeren</rs>, toebehoorende <rs type="person"
+                        ref="#duycker_cornelis">Cornelise van Duyckere</rs>. Item noch drije Carolus
+                    guldenen erfflijck, die men jaerlijcx heffende is op twee stucken lants gelegen
+                    tot Capellen, onder Eeckeren, toebehoorende <rs type="person"
+                        ref="#janssens_laureys">Laureys Janssens</rs>, bijde voors. Jouffrouwe Clara
+                    de Touion met lestgeruerde rente tsaemen opden <date when="1571-05-15">XV<hi
+                            rend="super">en</hi> Mey anno XV<hi rend="super">c</hi>LXXI</date>, bij
+                    transporte voor Scepenen alhier, vercregen jegens <rs type="person"
+                        ref="#raet_heylwich">Heylwich Raet</rs>, weduwe <rs type="person"
+                        ref="#spelmaker_aert">Aerts Spelmakers</rs>, met eenen momboir heur gegeven
+                    metten rechte. Item noch vier Carolus guldenen erfflijck gereduceerde rente die
+                    men jaerlijcx, <date when="--02-19">XIX<hi rend="super">a</hi> Februarij</date>,
+                    met eenen chartere in date des <date when="1489-08-19">XIX<hi rend="super"
+                        >en</hi> Augusti anno XIIII<hi rend="super">c</hi>LXXXIX</date>, in een rente
+                    van thien Carolus guldenen erfflijck, heffende is op dese stadt van <rs
+                        type="place" ref="#antwerpen">Antwerpen</rs>, welcke vier Carolus guldenen
+                    erflijck der voors. wijlen jouffrouwe Clara de Touion verstorven zijn vande
+                    voors. wijlen jouffrouwe <rs type="person" ref="#alteren_mechtelt">Mechteld van
+                        Alteren</rs>, haere moedere. Item noch vijffentwintich Carolus guldenen
+                    erfflijck vande vijftich Carolus guldenen erfflijck, daeraff dander
+                    vijffentwintich Carolus guldenen erfflijck, gelijck hiernaer is blijckende, der
+                    voors. Jouffrouwe Susanna Pypelinck te deele bevallen zijn, die <rs
+                        type="person" ref="#crol_jan">Jan Crol</rs>, als gemechticht van Joncher <rs
+                        type="person" ref="#meere_jan">Jan vander Meere</rs> ende Vrouwe <rs
+                        type="person" ref="#noot_maximiliana">Maximiliana vander Noot</rs>, opden
+                        <date when="1562-01-10">X<hi rend="super">en</hi> Januarij anno XV<hi
+                            rend="super">c</hi>LVII</date>, voor scepenen deser stadt vercocht, beset
+                    ende gehipoticeert heeft den voors. wijlen Henrick Pypelinck, op een hoeve met
+                    huysinghe, hove, lande, bosschen, bempde, heyde, gronde ende toebehoirten,
+                    geheeten Morickhoven, gelegen onder de heerlijckheyt van Morickhoven, bij <rs
+                        type="place" ref="#herentals">Herenthals</rs>, ende daervoore tonderpande
+                    gesteld een rente van vijftich Carolus guldenen erfflijck op dese stadt van
+                    Antwerpen, ende noch eenentwintich Carolus guldenen vijftien stuyvers een blanck
+                    erfflijck vande vijffendertich Carolus guldenen seventhien ende eenen halven
+                    stuvers erfflijck daeraf de reste, gelijck nabescreven staet, der voors.
+                    Jouffrouwe Susanna Pypelincx te deele bevallen is, die men jaerlijcx, vuyt
+                    crachte vanden schultbrieffve bij <rs type="person" ref="#francx_amant">Amant
+                        Francx</rs> ende <rs type="person" ref="#verlinden_anna">Anna
+                    Verlinden</rs>, zijn huysvrouwe, opden <date when="1574-11-16">XVI<hi
+                            rend="super">en</hi> November anno XV<hi rend="super">c</hi>LXXIIII</date>,
+                    voor scepenen alhier, gepasseert, heffende is op een huys, genaempt Sinte
+                    Adriaen, daer nu ter tijt vuythanght de Witte Duyve, gestaen inde Jodenstrate
+                    alhier. Item zoo is der voors. Jouffrouwe Marie Pypelincx alnoch te deele
+                    gelaten, ende zal oick hebben ende behouden, voor heur ende heuren nacomelingen,
+                    de twee parcheelen van boeren ende landen daerane gelegen, hiernaer volgende.
+                    midts de recompentie, die zij, bij aceorde ende tusschenspreken van henlieden
+                    vrienden, is doende de voors. Jouffrouwe Susanna Pypelincx haere sustere, in
+                    respeete vande meerweerde vande zelve parcheelen dan deghene die derzelver
+                    Jouffrouwc Susanna Pypelincx hiertegens, als nabescreven staet, te deele gelaten
+                    zijn, vande helft heur jouffrouwe <rs type="person" ref="#pypelincx_maria"
+                    >Marie</rs> competerende inde rente van een hondert vijffentwintich guldenen
+                    erfflijck opt huys genaempt Breda gestaen ende gelegen inde Nieuwstadt alhier,
+                    toebehoorende <rs type="person" ref="#gramay_jacob">Jacob Gramaye</rs>, inder
+                    vueghen dat deselve rente alleene blijft ten proffijte derselver jouffrouwe
+                    Susanna Pypelincx, te wetene: inden iersten allen alzulcken erffgoeden, gronde
+                    ende chijnsgoeden gecommen, tanderen tijden, vanden Heere <rs type="person"
+                        ref="#belloys_van">van Belloys</rs>, des egeen leengoeden en zijn, gelegen
+                    tot <rs type="place" ref="#nispen">Nispen</rs> inden Cingel ende beweempt vanden
+                    Hove van <rs type="place" ref="#moerendael">Moerendael</rs>, gelijck tselve
+                    aldaer gelegen is. Item noch de helft van vijff ende een halff gemeten erven
+                    liggende in diversche parcheelen met Heer <rs type="person" ref="#clercxen_jan"
+                        >Janne Clercxen</rs>, gemeene ende ongedeelt inden zelven begrijpe vanden
+                    voors. hove van Moerendael, ende noch twee hondert roeden bempts liggende in den
+                    block van seven hondert roeden erven tot Nispen voors. inde Suytberct, gelijck
+                    den voors. wijlen Henrick Pypelinck de voors. parcheelen tsaemen, opden <date
+                        when="1553-04-10">thiensten Aprilis anno XV<hi rend="super"
+                    >c</hi>LIII</date> voor scepenen van <rs type="place" ref="#roosendaal"
+                        >Roosendael</rs>, respective bij transporte gecocht ende gecregen heeft
+                    jegens <rs type="person" ref="#goortszone_erasmus">Erasmus Goortszone</rs>, als
+                    gemechticht van <rs type="person" ref="#berghen_johan">Johan Marcquis van
+                        Berghen</rs>, Heere tot <rs type="place" ref="#borchvliet">Borchvliet</rs>,
+                    ende <rs type="person" ref="#lauwers_joos">Joos Lauwers</rs>, als gemechticht
+                    van Joncvrouwe <rs type="person" ref="#elst_barbara">Barbara vander Elst</rs>,
+                    huysvrouwe Heeren <rs type="person" ref="#schoonhoven_jan">Jans van
+                    Schoonhoven</rs>, ende jouffrouwe <rs type="person" ref="#elst_marie">Marie
+                        vander Elst</rs>, huysvrouwe Joncher <rs type="person"
+                        ref="#werve_jan_vanden">Jans vanden Werve</rs>, vervangende jouffrouwe. <rs
+                        type="person" ref="#werve_marie">Marien vanden Werve</rs> ende <rs
+                        type="person" ref="#adriaenssens_jacob">Jacob Adriaenssens, alias
+                    Porys</rs>, als man ende momboir van <rs type="person"
+                        ref="#lenaerts_magdaleena">Magdaleena Lenaerts</rs> met zijne consoirten.
+                    Item noch allen ende ijegelijcken den leenen totten voors. goeden <rs
+                        type="person" ref="#henricus_augustijn">Henricus</rs>, coopman, opden <date
+                        when="1564-05-27">27<hi rend="super">en</hi> Mey anno XV<hi rend="super"
+                        >c</hi>LXIIII</date> vercocht heeft den voors. wijlen Henrick Pypelinck ende
+                    jouffrouwe Clara de Touion, zijn huysvrouwe, ende, deselve beset ende
+                    gehipoticeert op zijn huysinge metten hove, plaetsse ende toebehoorten gelegen
+                    inde Meere alhier; item noch vijftich Carolus guldenen erfflijck vande een
+                    hondert Carolus guldenen erfflijck daeraff de resterende vijftich Carolus
+                    guldenen erfflijck der voors. Jouffrouwe Marie Pypelincx, gelijck hiervoore is
+                    blijckende, te deele bevallen zijn, die men vuyt crachte vande voluntaire
+                    condempnatie bij Vrouw <rs type="person" ref="#wyck_catlijne">Catlijne van
+                    Wyck</rs>, weduwe des Heeren van Wardenborch, opten <date when="1572-06-25"
+                            >XXV<hi rend="super">en</hi> Junij anno XV<hi rend="super"
+                    >c</hi>LXXII</date> onder den segel ten zaecken deser stadt gepasseert,
+                    jaerlijcx heffende is op een hoeve met huysinghe, hove, lande, bosschen ende
+                    bempden, groot omtrent dertich bunderen ende een vierendeel, gelegen onder
+                    Iteghem; item noch sesthien Carolus guldenen vier stuyvers erfflijck die men
+                    jaerlijcx in <num type="cardinal" value="2">2</num> partijen heffende is op
+                    diversche huysen, gelegen buyten de buytenste Kipdorpoorte alhier, der voors.
+                    wijlen jouffrouwe Clara de Touion verstorven vande voors. Jouffrouwe Mechteld
+                    van Alteren, haare moedere, die deselve opden <date when="1544-01-30">30<hi
+                            rend="super">en</hi> Januarij anno XV<hi rend="super">c</hi>XLIIII</date>
+                    bij transporte gecocht ende vercregen heeft jegens <rs type="person"
+                        ref="#ryt_marie">Marie vander Ryt</rs> met <rs type="person"
+                        ref="#meuleneer_pauwel">Pauwels de Meuleneer</rs>, heuren manne; item noch
+                    een rente van thien Carolus guldenen erfflijck die <rs type="person"
+                        ref="#celen_merchelis">Merchelis Celen</rs>, in <num type="cardinal"
+                        value="2">2</num> partijen, respective opden <date when="1526-06-21"
+                            >21<hi rend="super">en</hi> Junij XV<hi rend="super">c</hi>XXVI</date> ende
+                    opden <date when="1528-05-22">XXII<hi rend="super">en</hi> Maij anno XV<hi
+                            rend="super">c</hi>XXVIII</date>, tot behoeff van <rs type="person"
+                        ref="#alteren_geerd">Geerde van Alteren</rs>, beset ende gehipoticeert heeft
+                    op een huys metten hove, gronde ende toebehoorten, gestaen ende gelegen opt
+                    Vleemincxvelt alhier, genaempt dWit Peert, ende welcke rente de voors.
+                    Jouffrouwe Clara de Touion aencomen, bleven ende verstorven is vande voors.
+                    wijlen haare moedere; item noch een rente van vijffentwintich Carolus guldenen
+                    erfflijck die scepenen, rentmeesteren, rade, poorteren ende ingesetenen vande
+                    stadt ende bijvange van <rs type="place" ref="#lier">Liere</rs>, opden <date
+                        when="1576-01-06">VI<hi rend="super">en</hi> Januarij anno XV<hi
+                            rend="super">c</hi>LXXVI</date>, vercocht, beset ende gehipoticeert hebben
+                    den voors. wijlen Henrick Pypelinck ende jouffrouwe Clara de Touion, zijn
+                    huysvrouwe, opde voors. stadt van Liere, verschijnende jaerlijcx, deen helft,
+                    den <date when="--01-06">VI<hi rend="super">en</hi> Januarij</date>, ende dander
+                    helft, opden <date when="--06-06">VI<hi rend="super">en</hi> Julij</date>; item
+                    noch vijffentwintich Karolus guldenen erfflijck vande vijftich Carolus guldenen
+                    erfflijck daeraff dander vijffentwintich Carolus guldenen erfflijck, gelijck
+                    hiervoore is blijckende, der voors. Jouffrouwe Maria Pypelincx te deele bevallen
+                    zijn, die Jan Crol, als gemechticht van Joncher Jan vander Meere ende vrouwe
+                    Maximiliana vander Noot, opden <date when="1557-01-10">X<hi rend="super"
+                        >en</hi> Januarij anno XV<hi rend="super">c</hi>LVII</date>, voor Scepenen
+                    deser stadt, vercocht beset ende gehipoticeert heeft den voors. wijlen Henrick
+                    Pypelinck, op een hoeve met huysinghe, hove, lande, bosschen ende bempde, heyde,
+                    gronde ende toebehoorten, geheeten Morickhoven, gelegen onder de heerlijckheyt
+                    van Morickhoven, bij Herenthals, ende daervoore tonderpande gestelt een rente
+                    van vijftich Carolus guldenen erfflijck op dese stadt van Antwerpen; ende noch
+                    vierthien Carolus guldenen eenen stuyver een blanck erfflijck vande
+                    vijffendertich Carolus guldenen seventhien ende eenen halven stuyvers erfflijck,
+                    daeraff de reste, gelijck voors. is, der voors. Jouffrouwe Maria Pypelincx te
+                    deele bevallen is, die men jaerlijcx, vuyt crachte vanden schultbrieve, bij
+                    Amant Francx ende Anna Verlinden, zijn huysvrouwe, opten <date
+                        when="1564-11-16">XVI<hi rend="super">en</hi> Novembris anno XV<hi
+                            rend="super">c</hi>LXIIII</date>, voor scepenen, alhier gepasseert,
+                    heffende is op hen huys genaempt Sinte-Adriaen, daer nu ter tijt vuythanght de
+                    Witte Duyve, gestaen inde Jodenstrate alhier. Item zoo is der voors. Jouffrouwe
+                    Suzanna Pypelincx, in respecte vande voors. twee hoeven van Moerendael ende te
+                        <rs type="place" ref="#micke">Micke</rs> ende de parcheelen daerane gelegen,
+                    oick te deele gelaten ende sal hebben ende behouden, voor heur ende heuren
+                    naeomclingen: inden iersten, een hoeve met huysinge, hove, lande, bempden,
+                    gronde ende toebehoorten, gelegen binnen Edeghem, groot omtrent twintich
+                    bunderen, geheeten de Hoeve te Ghijpeghem, bijden voors. wijlen Henrick
+                    Pypelinck ende zijn huysvrouwe voors., in coope vercregen, te wetene, deen helft
+                    daeraff opden <date when="1552-07-26">XXVI<hi rend="super">en</hi> Julij anno
+                            XV<hi rend="super">c</hi>LII</date>, voor scepenen van Edeghem, jegens
+                    Heer <rs type="person" ref="#meere_philips">Philips van der Meere</rs>, Canonick
+                    tot <rs type="place" ref="#luydick">Luydick</rs>, ende dander helft daeraff
+                    opden <date when="1554-12-03">III<hi rend="super">en</hi> Decembris anno XV<hi
+                            rend="super">c</hi>LIIII</date>, voor scepenen alhier, jegens <rs
+                        type="person" ref="#tichelt_elizabeth">Elizabeth van Tichelt</rs>, weduwe
+                        <rs type="person" ref="#lint_cornelis">Cornelis Lints</rs>, met eenen
+                    momboir heur gegeven metten rechte, opten commer ende last van acht guldenen
+                    erfflijck Heer <rs type="person" ref="#bourdon_peeter">Peeter Bourdon</rs>,
+                    Cappellaen alhier, ende vijff Carolus guldenen erfflijck aen <rs type="person"
+                        ref="#lauwers_jan">Jan Lauwers</rs>. Item noch een schoon steenen huys met
+                    eender steden daerneffens gelegen, met huyse, hove, lande, gronde ende
+                    toebehoorten, groot zijnde tsaemen omtrent vier ende een halff bunderen, gelegen
+                    tot <rs type="place" ref="#bouchout">Bouchout</rs>, daeraff thalff bunder te
+                    leene gehouden wordt vanden Heere van Canticrode<note resp="A.H."
+                        type="footnote">Canticrode (auch Cantecroy) ist eine Feste bei Mortsel in
+                        der Umgebung von Antwerpen.</note> tot <rs type="place" ref="#mortsel"
+                        >Mortssele</rs>, bijden voors. wijlen Henrick Pypelinck ende zijn
+                    huysvrouwe, opden <date when="1553-06-27">XXVII<hi rend="super">en</hi> Junij
+                        anno XV<hi rend="super">c</hi>LIII</date>, voor Lathen des Hoeffs van <rs
+                        type="place" ref="#wildert">Wildaert</rs>, binnen Bochout, gecocht ende
+                    gecreghen van Meester <rs type="person" ref="#verspreet_antonis">Antonis
+                        Verspreet</rs>, als gemechticht vanden Pater vande Cellebroederen ende
+                    andere crediteuren van wijlen <rs type="person" ref="#mangouts_christoffel"
+                        >Christoffel Mangouts</rs>, opden last van <measure type="currency"
+                        quantity="14">XIIII</measure> stuyvers Brabants erfflijck, den Hertoghe van
+                        <rs type="place" ref="#brabant">Brabant</rs>, item <measure type="currency"
+                        quantity="7">VII</measure> deniers ende <measure type="currency"
+                        quantity="4">IIII</measure> quart evenen den Prelaet van Sinter-Baefs; item
+                        <measure type="currency" quantity="14">XIIII</measure> deniers <measure
+                        type="currency" quantity="1">1</measure> moken rogx den Prochiaen van
+                    Bouchout; item eenen ouden Engels, een vat evenen ende twee grooten Lovens,
+                    Joncher <rs type="person" ref="#bonsele_cornelis">Cornelis van Bonsele</rs>,
+                    daer jaerlijcx op vuytgaende. Item noch twee stucken lants, groot, deen, drije
+                    vierendeel bunders ende, dander, vijff vierendeelen bunders, gelegen tot
+                    Bouchout voors., nieuwers mede belast zijnde, bijden voors. wijlen Henrick
+                    Pypelincx, opden <date when="1566-05-20">XX<hi rend="super">en</hi> Mey anno
+                            XV<hi rend="super">c</hi>LXVI</date>, vermangelt tegen <rs type="person"
+                        ref="#contant_peeter">Peeter Contant</rs>, Canonick tot Liere, tegen
+                    gelijcke twee bunderen bijden selven wijlen Henrick Pypelinck genomen venden
+                    voors. hove tot Micke, hiervoore der voors. Jouffrouwe Maria Pypelincx
+                    aengedeylt. Item noch een stuck lants metten gronde ende toebehoorten, geheeten
+                    Sneppenboschvelt, groot een halff bunder ende XVI roeden, gelegen tot Bouchout
+                    voors. opt Groot Velt, opten commer van vijff stuyvers den prelaet van
+                    Sinter-Baeffs, bijden voors. wijlen Hendrick Pypelinck, opden <date
+                        when="1565-07-31">lesten Julij anno XV<hi rend="super">c</hi>LXV</date>,
+                    voor scepenen van Liere, in coope vercregen jegens <rs type="person"
+                        ref="#myntens_jan">Jan Myntens</rs> met zijne consoorten. Item noch een
+                    halft bunder bempts, metten gronde ende toebehoorten, gelegen int Broeck, tot
+                    Bouchout, achter de kercke aldaer, bijden voors. wijlen Henrick Pypelinck in
+                    coope vercregen jegens <rs type="person" ref="#molder_peeter">Peeter de
+                    Molder</rs> van <rs type="place" ref="#moerbeeck">Moerbeeck</rs>. Item noch een
+                    vierendeel bunder bosch, beplant met opgaende haut, gelegen tot Bouchout,
+                    voors., aende Heerstrate aldaer. Item noch twee steden, daeraff deene nu ter
+                    tijt affgebroken is, met huyse, schuere, hove, boomgaerde, gronde ende allen den
+                    toebehoorten, groot omtrent een bunder, gestaen ende gelegen neffens een, tot
+                    Bouchout, tegens over de hoeve vande weduwe ende erffgenaemen wijlen <rs
+                        type="person" ref="#dycx_cornelis">Cornelis Dycx</rs>, tusschen <rs
+                        type="person" ref="#eynde_cornelis">Cornelis van Eynde</rs> erve oostwaerts,
+                    den voetwech van Antwerpen naer Liere zuytwaerts. Item noch een stuck lants
+                    groot omtrent vijff vierendeelen, gelegen oick aldaer noortwaerts aenden
+                    voetwech, ende noch een stuck lants, groot omtrent drije vierendeelen, oick tot
+                    Bouchout voors. gelegen, welcke twee stucken lants te leene gehouden worden van
+                    Joncher <rs type="person" ref="#bonsele_ambrosius">Ambrosius van Bonsele</rs>,
+                    opten commer ende last van twee capuynen ende een oude hinne erfflijck den
+                    Capittel tOnser Vrouwen<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Antwerpen</term><index indexName="stw"><term xml:lang="deu">Liebfrauenkathedrale</term></index>
+                    </index> alhier, ende eenen halven braspenninck tsjaers ten heerenchijnse,
+                    bijden voors. wijlen Henrick Pypelinck ende zijn huysvrouwe de voors. drije
+                    leste parcheelen tsaemen in coope vercregen jegens <rs type="person"
+                        ref="#frans_franchois">Franchois Frans</rs> ende <rs type="person"
+                        ref="#dueren_anna">Anna van Dueren</rs>, zijn huysvrouwe, als blijckt bijden
+                    scepenenbrieve van Antwerpen in date des <date when="1567-11-22">XXII<hi
+                            rend="super">en</hi> Novembris anno XV<hi rend="super">c</hi>LXVII</date>,
+                    ende daertoe noch een rente van een hondert vijffentwintich Carolus guldenen
+                    erfflijck, metten achterstelle van dijen daeraff te verschijnene vanden <date
+                        when="--11-03">derdden Novembris</date> naestcomende voordane, die <rs
+                        type="person" ref="#gramay_jacob">Jacob Grammeye</rs> opden <date
+                        when="1564-11-06">VI<hi rend="super">en</hi> Novembris anno XV<hi
+                            rend="super">c</hi>LXIIII</date> vercocht ende gehipoticeert heeft den
+                    voors. wijlen Henrick Pypeplinck ende zijn huysvrouwe, op een huys met vloere,
+                    coeckene, neercamere, gronde ende toebehoirten, geheeten Breda, ende op noch een
+                    huysinge wesende een mouterije, genaempt de Zwane, gespleten vanden voors. huyse
+                    Breda, gestaen ende gelegen inde Nieuwstadt alhier. Ende mits desen zoo vertegen
+                    zij comparanten voors. van malcanderen ende elck den anderen van allen den
+                    goeelen ende versterffenissen voors. ende schauden malcanderen ende, elck den
+                    anderen, daeraff claerlijcken quyte, tallen daghen; ghelovende dat zij
+                    malcanderen noch deen den anderen hierenboven daeraff nemmermeer meer
+                    aenspreken, heysen noch moyen en selen in geenen rechte, geestelijck oft
+                    weerlijck, bij ben selven, oft bij ijemanden anders van hennentwegen, in eeniger
+                    manieren; dies blijven de voors. comparanten gesamenderhant alnoch onverscheyden
+                    ende onverdeylt behoudende: eerst, een huysinge, dwelck nu twee wooningen zijn,
+                    genaempt Sinte-Aernaut, inde Meere alhier gestaen, bijden voors. wijlen Henrick
+                    Pypelinck ende zijn huysvrouwe voors. opden <date when="1545-11-24"
+                            >XXIIII<hi rend="super">en</hi> Novembris anno XV<hi rend="super"
+                    >c</hi>XLV</date> in coope vercregen jegens <rs type="person"
+                        ref="#gielis_franchois">Francjois Gielis</rs>, opten last van <measure
+                        type="currency" quantity="30">XXX</measure> stuyvers Brabants tsjaers, in
+                    diversche grontchijnsen, daeroppe nu ter tijt jaerlijcx vuytgaende; item noch
+                    alle de vuytstaende schulden, verloopen, renten ende verschenen pachten die men
+                    den sterffhuyse der voors. wijlen hender moeder schuldich is tot Bamisse<note
+                        resp="A.H." type="footnote">Der Begriff "Bamisse" (Messe des hl. Bavo) wurde
+                        in den Niederlanden oft zur Datierung verwendet: 1.Oktober.</note>
+                    lestleden, alswanneer elck van hen comparanten zijne aengedeylde partijen zijn
+                    aenveerdende omme de proffijten daeraff, van dan voordane, respective bij hen
+                    genoten te wordden, ende de lasten ende commeren elcken van hen op zijne voors.
+                    aengecavelde partijen hiervoore ten laste gestelt, van dan voordane, eeuwelijck
+                    duerende te geldene ende te betalene sonder deen des anders cost, last oft
+                    schade; ende sal vande voors. vuytstaende schulden, renten ende pachten,
+                    midtsgaders vande voors. commeren ende lasten opde voors. parcheelen als voore
+                    vuytgaende, verschijnende tot Bamisse voors. ende van noch sekere andere
+                    schulden die tvoors. sterffhuys alnoch schuldich is, een cohier apart wordde
+                    gemaeckt omme deen den anderen dijen volgende daeraff te vergelijcken, met
+                    conditien, hierinne ondersproken, zoo verre eenighe vande voors. parcheelen van
+                    hoeven ende landen, elcken hiervoore aengedeylt, geraeckten met rechte henlieden
+                    affgewonnen te worddene, dat, in dijen gevalle, zij comparanten gehouden ende
+                    schuldich selen wesen ende geloven, midts desen, deen den anderen de schade te
+                    helpen dragen ende tegens daffgewonnen goeden verlijcken.</p>
+                <closer><salute>Sonder argelist.</salute><lb/>
+                    <dateline><date when="1583-10-27">XXVII die octobris anno 1583</date>.</dateline></closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

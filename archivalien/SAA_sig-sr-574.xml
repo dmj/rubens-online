@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_169">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens, Cornelis Schut und Hendrick van Balen treten beim Verkauf
+                    eines Hauses, das zwischen Meirsteeg und Hoplant liegt, als
+                    <term>Testamentsvollstrecker</term> und Vormund der Kinder von Jan Brueghel auf</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-574">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1626/ I: Waerbeeck, Ketgen &amp; Guyot</collection>
+                        <idno type="signatur">SR 574, fol. 68r-69r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens, Cornelis Schut und Hendrick van Balen treten
+                            beim Verkauf eines Hauses, das zwischen Meirsteeg und Hoplant liegt,
+                            als Testamentsvollstrecker und Vormund der Kinder von Jan Brueghel
+                            auf</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1626-06-04">4. Juni 1626</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Jean Denucé: Brieven en documenten betreffend Jan Breugel
+                                I en II. (Bronnen voor de geschiedenis van de Vlaamsche kunst. Bd. 3) Antwerpen
+                                1934, S. 51f.<ptr type="gbv" cRef="450500136"/></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term type="SWD" xml:lang="deu">Vormundschaft</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Jouffrouwe <rs type="person" ref="#marienberghe_catharina">Catharina van
+                        Marienberghe</rs>, weduwe van wijlen <rs type="person"
+                        ref="#brueghel_jan_aeltere">Jan Breugel</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Breughel, Jan (der Ältere) </term>
+                    </index>, met eenen momboire haer gegeven metten rechte voor heur, selven, voor
+                    d’eene helft, ende eene sevenste deel in dander helft van de huysen ende erven
+                    naerbescreven, Jouffrouwe <rs type="person" ref="#brueghel_paeschina">Paesschina
+                        Breugel</rs>, deeselfs wijlen heurs mans voordochtere, met <rs type="person"
+                        ref="#kessel_jeronimus">Jeronimus van Kessel</rs>, heuren wettigen manne
+                    ende mombore, <rs type="person" ref="#jode_peeter">Peeter de Jode</rs> ende <rs
+                        type="person" ref="#schut_cornelis">Cornelis Schut</rs>, als
+                    testamentelijcke momboiren over Jan Breugel, der voors. Paesschina broedere,
+                    oick van den voorbedde, daer moeder van beyden van was Jouffrouwe <rs
+                        type="person" ref="#jode_elisabeth">Elisabeth de Jode</rs>; Jonker <rs
+                        type="person" ref="#halmale_pauwel">Pauwels van Halmale</rs>, out tresorier
+                    ende tegenwoirdelijck schepene deser stadt, Signor <rs type="person"
+                        ref="#rubens_peter_paul">Peeter Paulo Rubbens</rs>, de voors. Cornelis Schut
+                    ende <rs type="person" ref="#balen_hendrik">Henrick van Balen</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Balen, Hendrik van (Künstler,
+                        1575-1632)</term>
+                    </index>, als testamentelijcke momboiren<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index> over de vier naerkinderen van den voors. wijlen Jan Breugel daer de
+                    voors. Jouffrouwe Catharina van Marienberge moeder van is, t’samen voor de
+                    resterende sesse sevenste deelen van d’ander helft der nabeschreven huysen ende
+                    erve, in dyer qualiteyt. Vercochten omme eene somme gelts etc., <rs
+                        type="person" ref="#deuren_geerart">Geerarde van Deuren</rs> ende Jouffrouwe
+                        <rs type="person" ref="#bolgero_anna_maria">Anna Maria Bolgero</rs>, sijne
+                    huysvrouwe, een huys wesende twee wooningen bij wijlen <rs type="person"
+                        ref="#ydelet_peeter">Peeter Ydelet</rs> ende <rs type="person"
+                        ref="#raet_peryne">Peryne de Raet</rs>, sijn wijff gebout ende gestelt op
+                    d’erve die sij den <date when="1566-10-02">tweeden Octobris in den Jare XV<hi
+                            rend="super">c</hi> ende sessentsestich</date> jegen <rs type="person"
+                        ref="#reyns_jacob">Jacob Reyns</rs> ende consoirten gecreghen ende t’erve
+                    genomen hebben metter selver erven groot badt dan acht roeden, behalven dat
+                    daervan is gespleten ende in dese vercoopinge niet begrepen seker reepken erven,
+                    dat de voors. Peeter Ydelet vercoocht heeft aen <rs type="person"
+                        ref="#clerq_nicolaes">Nicolaes de Clerq</rs>, halven borneputte, gronde ende
+                    allen den toebehoorten, gestaen ende geleghen aen de strate, loopende neffens
+                    den wal van der stadts vesten, tusschen het Mersteecxken ende de strate van den
+                        <rs type="place" ref="#hoplant">Hoplande</rs> vuytcommende aende voors. wal
+                    tusschen de voors. strate loopende neffens der stadts wal ooswaerts des <rs
+                        type="person" ref="#liedekercken_van">Heere van Liedekercken</rs> erve was
+                    westwaerts ende ’t voors. affgespleten reepken erve eens deels ende eens deels
+                    des voors. <rs type="person" ref="#clerq_nicolaes">Nicolaes de Clercx</rs> erve,
+                    suytwaerts commende noortwaerts aen des voors. Jacobs Reyns ende consoirten erve
+                    was Gelyck ende in alle der manieren <rs type="person" ref="#willighen_francois"
+                        >Francois vander Willighen</rs>, coopman, ende <rs type="person"
+                        ref="#sailly_susanna">Jouffrouwe Susanna de Sailly</rs>, sijne huysvrouwe ’t
+                    voors. huys ende erve op den <date when="1614-01-24">voerentwintichsten dach
+                        Januari in den Jare XVI<hi rend="super">c</hi> vierthiene</date> vercoocht
+                    ende getransporteert hebben aen den voorsceven Jan Breugel ende de voornoempte
+                    comparanten sijne huysvrouwe ende omme d’welck te hoochsten proffyte te brengen
+                    hebben de voors. genoempde comparanten altyt ’t selve ter Vrijdaghgs merct doen
+                    vercoopen door <rs type="person" ref="#halen_peeter">Peeter van Halen</rs>,
+                    oudcleercooper alhier, waerbij als hoochste ende verdierdere in marge verum den
+                        <date when="--05-15">15 may</date> lestleden. Cooper gebleven is de
+                    voorgenoempde <rs type="person" ref="#deuren_geerart">Geerart van Deuren</rs>
+                    voor de somme van tweelfhondert tweendertich gulden eens volgens de coopcedulle
+                    onderteekent <rs type="person" ref="#cauwenberge_m">M. van Cauwenberge</rs> ende
+                    de brieven ende bescheeden daervan sijne die sij mede overgave, droeghe oppe
+                    etc., te waerne etc. ende op niet daer yaerlicx vuytgaende.<lb/>
+                    <date when="1626-06-04">Quarta Juny 1626</date>.</p>
+            </div>
+            <div xml:lang="nld">
+                <p>Pantgelt bedragende 7 gulden, 12 stuivers, rexepit</p>
+                <closer>
+                    <signed><rs type="person" ref="#fabri_d">D. Fabri</rs></signed>.
+                    <dateline><date when="1626-06-09">9 Juni</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

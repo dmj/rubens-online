@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="es_rubens_026">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>In einem „Catalogus Hereticos“ erscheint auch eine Ketzerfamilie,
+                    die vermutlich mit der Familie Rubens identisch war, wie aus einem
+                    Verhörprotokoll hervorgeht.</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="HAStK_best-45-39">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt (HAStK)</repository>
+                        <collection>Reformations-Akten, Nr. 39</collection>
+                        <idno type="signatur">Best. 45, S. 73</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>In einem „Catalogus Hereticos“ erscheint auch eine Ketzerfamilie,
+                            die vermutlich mit der Familie Rubens identisch war, wie aus einem
+                            Verhörprotokoll hervorgeht</title>
+                    </head>
+               
+                    <history>
+                        <origin>
+                           
+                                <origDate when="1571-03-13">13. März 1571</origDate>
+                           
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Leonard Ennen: Über den Geburtsort des Peter Paul Rubens: mit Beilagen.
+                                Köln 1861. S. 65, Nr. 29<ptr type="gbv" cRef="146162528"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Familie</term>
+                    <term xml:lang="lat">Catalogus Hereticos</term>
+                    <term xml:lang="deu">Köln</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="best-45-39-73" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11706" n="73"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="deu">
+                <p><pb facs="best-45-39-73" n="73"/><rs type="person" ref="#hansen">Hansen</rs> des Hernn vonn <rs type="person"
+                        ref="#rubens_jan">Rubbens</rs> dhiener<note place="margin-left"> in Jonkher <rs type="person"
+                        ref="#rinck_d">Rincken</rs> hauß</note> eins Erf. raths befelch angezeigt, welch er
+                    seinem Hernn woll ansagen und sonst <rs type="person" ref="#hontom_gerhard"
+                        >Gerhardum vonn Hontom</rs> so alle bescheidt hab, der dann darzu
+                    bescheiden. 
+                </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

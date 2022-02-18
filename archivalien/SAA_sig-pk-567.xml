@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_094">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brabantisierung von Philipp Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-567">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Collegiale Actenboeken 1607-1610</collection>
+                        <idno type="signatur">Pk. 567, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Brabantisierung von Philipp Rubens</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                         
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch das Dokument vom 
+                                    <ref type="rubens" cRef="ed_rubens_091">15. November 1606 </ref>; 
+                                    zur Naturalisierung von Philipp Rubens Vgl. die Urkunde vom <ref type="rubens"
+                                        cRef="ed_rubens_097">19. Januar 1609</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1607-04-28">28. April 1607</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
+                                Schilderschool. Antwerpen 1883, S. 372<ptr type="gbv" cRef="194552292"/></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Philipp</term>
+                    <term xml:lang="deu">Brabantisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Borgemeesteren ende Schepenen der stadt van <rs type="place" ref="#antwerpen"
+                        >Antwerpen</rs>, gesien de requeste bij Meester <rs type="person"
+                        ref="#rubens_philipp">Philips Rubbens</rs>, aen de Heeren Staten van <rs
+                        type="place" ref="#brabant">Brabant</rs> gepresenteert, omme te vercrijgen
+                    acte van Brabantizatie, mits redenen in de selve verhaelt, gesien totten dyen
+                    dattestie van wijlen <rs type="person" ref="#lipsius_justus">Justus Lipsius</rs>
+                    ende d’opienie bij de twee iersten Staten daerop gemaeckt, de welcke consenteren
+                    in de vorschreve versochte Brabantizatie, seggen dat zij hen conformeren met de
+                    voorschreve opinie.</p>
+                <closer>Actum in Collegio, 
+                    <dateline><date when="1607-04-28">XXVIII
+                    Aprilis 1607</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

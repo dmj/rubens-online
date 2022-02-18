@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_224">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erwirbt das Landgut Steen in Elewijt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> 
+                &register-corporate; 
+                &register-person; 
+                &register-place;
+                &register-work; 
+                <msDesc xml:lang="deu" xml:id="kauf_landgut_steen_16350512">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: Het laatste Testament van P. P. Rubens</collection>
+                        <idno>Auszug aus dem Testament von Peter Paul Rubens zum Erwerb von Steen am 12. Mai 1635</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erwirbt das Landgut Steen in Elewijt</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B" type="footnote">Die entsprechenden Urkunden sind nicht mehr
+                                nachweisbar. Den Beleg für dieses Datum liefert Rubens Testament. Die
+                                entsprechende Textpassage wurde von Pierre Génard publiziert.</note>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. das von Notar Toussaint Guyot aufgezeichntete
+                                    Testament Rubens' vom 
+                                    <ref type="rubens" cRef="ed_rubens_246">27. Mai 1640</ref>. 
+                                    Zum Erwerb von Het Steen vergleiche. auch die Akten vom 
+                                    <ref type="rubens" cRef="ed_rubens_225">1. Dezember 1635</ref> und 
+                                    <ref type="rubens" cRef="ed_rubens_227">23. Februar 1636</ref>, zum Verkauf des Landguts das
+                                    <ref type="rubens" cRef="ed_rubens_255">Verkaufsplakat (Oktober 1682)</ref>
+                                </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1635-05-12">12. Mai 1635</origDate>
+                        </origin>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Pierre Génard: Het laatste Testament van P. P. Rubens</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 32<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="nld">Het Steen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p>Behoudelyck nochtans dat syns testateurs kinderen van syn tegenwoordich houwelyck
+                    sullen mogen aanveerden ende behouden de helft vanhet hoff ende heerlyckheit van
+                        Steen<index indexName="stw">
+                        <term xml:lang="deu">Steen</term>
+                    </index> mette landen, bosschen ende bempden daartoe behoorende, soo ende gelyck
+                    hy allentselve inden jaer <date when="1635-05-12">XVI<hi rend="super">c</hi> ende
+                        vyffendertich op den tweelfsten dach van meye</date> by decret van voors.
+                    Raede van <rs type="place" ref="#brabant">Brabant</rs> heeft gecocht, mette
+                    nieuw edificien tsedert daerop gemaeckt ende ten coste syns sterffhuyse te
+                    volmaeckene, ende de dry bunderen ende een dachwant bempts daerby gecocht van
+                        <rs type="person" ref="#vrancx_franchois">Franchois Vrancx</rs> mitsgaeders
+                    den bosch genaemt den platten Steen ende den leenbosch van <rs type="place"
+                        ref="#attenorde">Attenorde</rs> mits voor deselve helft inde massa
+                    scheydinge ende deylingen goet doende de somme van vyftich duysent guldenen
+                    eens. </p>
+            </div>
+        </body>
+       </text>
+</TEI>

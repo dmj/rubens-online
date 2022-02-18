@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_159">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Infantin Isabella wendet sich an den Magistrat von Antwerpen, um Schutz für
+                    Peter Paul Rubens zu erwirken, der „par les agressions d’un certain insolent“
+                    bedroht wird</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;<msDesc xml:lang="deu" xml:id="AGRB_sig-1225-1622">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Brüssel</settlement>
+                        <repository>Archives générales du Royaume (AGRB)</repository>
+                        <collection>Manuscrits divers (Collection)</collection>
+                        <idno type="signatur">1225</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Infantin Isabella wendet sich an den Magistrat von Antwerpen, um
+                            Schutz für Peter Paul Rubens zu erwirken, der „par les agressions
+                            d’un certain insolent“ bedroht wird</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch das zweite Dokument gleichen
+                                    Themas, ebenfalls vom <ref type="rubens" cRef="ed_rubens_160">29. April
+                                        1622</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1622-04-29">29. April 1622</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Alexandre Pinchart: Archives des arts, sciences et
+                                lettres: ocuments inédits publiés et annotés. Bd. 2 Gent 1860 (Neudruck: Brüssel
+                                1994), S. 173f. <ptr type="gbv" cRef="231294484"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p> Au chieff président du conseil privé de Sa Majesté, Certain zéleus du bien et
+                    repos publicq, résidens en la ville d’<rs type="place" ref="#antwerpen"
+                        >Anvers</rs><index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    </index> à leur grand regret ont veu ces jours passez, que <rs type="person"
+                        ref="#rubens_peter_paul">Pierre-Paulo Rubens</rs>, demeurant en icelle
+                    ville, personne douée de très-belles qualitez, oultre l’art de peindre qu’il
+                    possède avecq admiration de tout le monde, auroit le mesme temps couru grand
+                    hazard de sa vie, par les agressions d’un certain insolent, à jugement de
+                    plusieurs troublé d’esprit, ce que leur auroit occasionné d’implorer
+                    l’assistence du magistrat de ladict ville à la conversation dudict Rubens,
+                    laquelle leur ayant esté refusée, ils prennent leur recours à son Altèze<index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
+                    </index>, et supplient vostre seigneurie qu’elle soit servie soubz le paraphe de
+                    sa main et signature de sadict Altèze faire despécher lettres à ceux du
+                    magistrat de la ville d’Anvers, leur enchargeant bien expressément la
+                        protexion<index indexName="stw">
+                        <term xml:lang="deu">Schutz</term>
+                    </index> dudict Rubens, comme de personne de laquelle son Altèze commande qu’on
+                    prenne partieulier soing. Quoy faisant, etc. </p>
+            </div>
+        </body>
+      
+    </text>
+</TEI>

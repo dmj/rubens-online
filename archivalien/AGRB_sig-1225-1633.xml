@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_213">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quittung von Peter Paul Rubens über sein Honorar als Sekretär des Conseil
+                    Privé der Erzherzöge in der Zeit vom 27. April 1632 bis 26. April 1633</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="AGRB_sig-1225-1633">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Brüssel</settlement>
+                        <repository>Archives générales du Royaume (AGRB)</repository>
+                        <collection>Manuscrits divers</collection>
+                        <idno type="signatur">1225</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Quittung von Peter Paul Rubens über sein Honorar als Sekretär des Conseil
+                            Privé der Erzherzöge in der Zeit vom <date when="1632-04-27">27. April 1632</date> bis <date when="1633-04-26">26. April 1633</date></title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1633-07-31">31. Juli 1633</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Omtrent J. Breughel de Oude, P. P. Rubens, A. van
+                                Dijck: Kunst en kunstenaars in de Rijksarchieven, Ausstellung: Brüssel, Algemeen
+                                Rijksarchief, 9. November - 24. Dezember 1999. bearbeitet von Marleen Forrier
+                                u.a. (Algemeen Rijksarchief en Rijksarchief in de provinciën: educatieve dienst,
+                                catalogussen, Bd. 162), Brüssel 1999, S. 113, Nr. 93</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Gehalt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p> e <rs type="person" ref="#rubens_peter_paul">Pierre Paul Rubbens</rs>, chevalier
+                        secretaire<index indexName="stw">
+                        <term xml:lang="deu">Sekretär</term>
+                    </index> du Conseil Privé du Roy, confesse avoir receu de messire <rs
+                        type="person" ref="#oncle_ambroise">Ambroise van Oncle</rs>, chevalier
+                    conseillier et receveur general des domaines et finances de sa Majesté, la somme
+                    de noeuf cens quatre vingtz douze livres six solz six deniers ob. du pris de
+                    quarante gros monnoye de <rs type="place" ref="#flandern">Flandres</rs> la livre
+                    que a l’ordonnance de son Alteze il m’at baillé et delivré en une lettre de
+                    descharge de pareille somme datée du jourdhuy levée sur <rs type="person"
+                        ref="#baetens_guillaume">Guillaume Baetens</rs> receveur des contributions
+                    de <rs type="place" ref="#zevenbergen">Zevenberge</rs>, <rs type="place"
+                        ref="#steenbergen">Steenberghe</rs> etc. pour une annee de mes gaiges de
+                    secretaire susdit, commencée le <date when="1632-04-27">vingtseptiesme d’apvril
+                            XVI<hi rend="super">c</hi> trente deux</date> et finie le <date
+                        when="1633-04-26">vingtsixiesme d’apvril enssuivant XVI<hi rend="super">c</hi>
+                        trentetrois</date>, de laquelle somme de <measure type="currency"
+                        quantity="992">IX<hi rend="super">c</hi>IIII<hi rend="super">xx</hi> XII
+                    </measure>₤ <measure type="currency" quantity="6">VI</measure> st. <measure
+                        type="currency" quantity="6">VI</measure> d. ob. dudict pris je suis content
+                    et bien payé. Tesmoing mon seing manuel cy mis le <date when="1633-07-31"
+                        >dernier de juillet seize cens trente trois</date>. </p>
+            </div>
+        </body>
+        </text>
+</TEI>

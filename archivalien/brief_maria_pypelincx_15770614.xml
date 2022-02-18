@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_312">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Maria Pypelickx an Graf <rs type="person" ref="#nassau_johan"
+                        >Johann von Nassau</rs></title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_maria_pypelincx_15770614">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Maria Pypelickx an Graf Johann von Nassau vom 14. Juni 1577</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Brief von Maria Pypelickx an Graf Johann von Nassau vom 14. Juni 1577</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1577-06-14">14. Juni 1577</origDate>
+                            <origPlace>Siegen</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 201-204<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                    </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Jan</term>
+                    <term type="psw" xml:lang="deu">Pypelincx, Maria</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <salute>Monseigneur, </salute>
+                <p>Aiant maintenant plus de six ans continuèlement pleuré ce nostre désastre,
+                    calamité et affliction l’une sur l’aultre, il a pleu à ce bon Dieu, source de
+                    toute miséricorde, me consoler un peu, m’ayant donné le moyen inespéré de
+                    pouvoir supplier à Monsieur <rs type="person" ref="#oranien_nassau_moritz">le
+                        Prince D'ORANGE</rs>, vostre frère, (affin qu'il nous laisse avec la
+                    généralité iouyr aussi un peu par sa grâce de ceste paix, que par sa saincte et
+                    sage conduite nostre pays a recouvert) avec l'espérance qu'il (suyvant son doux
+                    naturel et l'exemple de celuy qui luy a fait tant de bien, iusques à l’avoir
+                    élevé si hault et fait glorieux par dessus tous autres) nous n'esconduira point
+                    du tout, mais comme ceste cause touche aussi principalement à V.-Ill.-S. (aiant
+                    tousiours (mercy vostre grâce) la commodité de me ietter avec mes requestes à
+                    voz piedz et désirant surtout, ce que ie viens demander, devoir à vostre
+                    clémence et le recognoistre d'elle), je m'advance, me confiant au comble de voz
+                    vertus à prier pour une grâce, laquelle proprement concerne ma personne, mes
+                    parens et enfans (qui n avons offensë personne), et nous soulageroit un peu,
+                    mais mon mary en demoureroit autant et plus grevé qu'il n'est pour le présent.
+                    C'est, Monseigneur, pour ce que mes parens sont fort vieux, que noz enfans
+                    commencent à devenir grandz et que leur saison est qu'on les advance, et que noz
+                    misères ont dure si longtemps, que je supplie très-humblement, que puisque
+                    maintenant le pays est ouvert, je y puisse aller demourer pour me pouvoir
+                    acquitter envers eux, et me refaire du doux air de la patrie; mais comme cela ne
+                    se peut faire, que mon mary vostre prisonnier ne vienne quant et quant avec moy,
+                    n'estant bien que soions séparez si long d'ensemble, nous demandons pour
+                    l’honneur de Dieu, que le nous veuillës rendre en don et aumosne, affin qu'il y
+                    puisse aller avec nous finir le reste de ses iours, changeant sa prison d'une
+                    bonne ville, comme est celle-cy, en un petit village appelé <rs type="place"
+                        ref="#nispen">Nispen</rs>, subiect à Monsieur le Prince d ORANGES, solitaire
+                    et esloigné des bonnes villes et gens, où mes parens ont une maison aux champs
+                    propre pour se cacher et nous nourrir sans schandale. Il y a une petite ville
+                    deux lieues de là, dite <rs type="place" ref="#bergen_op_zoom"
+                        >Berghen-op-ten-Zoom</rs>, guerres fréquentée, laquelle luy estant avec lad.
+                    maison attribuée, pour y estre quand il ne fait pas bon au village, la grâce que
+                    nous feriés deviendroit d'autant plus illustre ; le tout à mesme condition et
+                    caution qu'il est icy, spécialement qu'il ne bougera iamais de là sans vostre
+                    congé. Si cela ne se peut faire, il s'enclorra estroictement en une seule maison
+                    oü mes parens se tiennent à Lire, petite ville en <rs type="place"
+                        ref="#brabant">Brabant</rs>, sans en sortir sur la rue, ce que luy pèseroit
+                    plus que ne fait l'estre icy en plus grande liberté, mais il sy condamneroit
+                    volontiers pour le respect de nous autres. Si aussi il fault qu’il demeure au
+                    prison en exil hors du pays, nous prions derechef dévotement qu'il puisse estre
+                    confiné en quelque aultre lieu plus près du pays, comme seroit <rs type="place" ref="#aachen">Aix</rs>, <rs type="place" ref="#duisburg">Duysburch</rs>,
+                    le territoire de <rs type="place" ref="#kleve">Clève</rs>, <rs type="place"
+                        ref="#juelich">Juilliers</rs> etc. pour pouvoir de prés mieux entendre à noz
+                    affaires et n'estre tant esloigné de nous. Tant que pouvons comprendre (sauve
+                    Monseigneur vostre discrétion) il n'y a en cecy nul inconvénient, n'estant qu’un
+                    changement de prison en quelqu'endroit plus dure, et sy aura ce bien que la
+                    mémoire du fait n'y sera tousiours si fraische, comme elle est icy sur voz
+                    yeulx, et la bonne intention que vostre Ill. S. a de le conserver y sera mieux
+                    suyvie qu'elle ne seroit icy, où il est tousiours en danger d'être émené ou tué,
+                    croissant avec l’aage des enfans de Son Exce. A tant. Monseigneur, nous
+                    réclamons affectueusemént vostre piété et prions très-humblement quil vous
+                    plaise avoir pitié de nous, et quant et quant, quand il viendra à propos, nous
+                    favoriser aussi envers Monsieur le Prince, et faire tant que puissions impétrer,
+                    tout tant que bonnement voz honneurs permettent, et à voz clémences convient
+                    bien; cependant nous nous assuiettons tousiours tant que sommes et pouvons au
+                    plaisir et service de V.-Il.-S. et prions Dieu vouloir augmenter ses sainctes
+                    grâces sur elle et les siens. </p>
+                <closer><dateline>Ce <date when="1577-06-14">14 de juin Tan de salut
+                        1577</date>,</dateline>de <placeName><rs type="place" ref="#siegen"
+                            >Sieghen</rs></placeName>. <salute>De Vostre lllustre Seigneurie
+                        très-humble servante. </salute><signed><rs type="person"
+                            ref="#pypelincx_maria">MARIE RUEBENS.</rs></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

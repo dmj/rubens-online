@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_164">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens beantragt am 29. Januar
+                    1624 ein Adelsprädikat. Dieser Antrag wird durch den
+                    Vertreter des flämischen Staatsrates in Madrid bei Philip IV. zur Entscheidung
+                    vorgelegt</title>
+                <respStmt>
+                    <resp>Übersetzung</resp>
+                    <name type="person">Nils Büttner</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="rubens_antrag_adelsprädikat_16240129">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Louis Prosper Gachard: Histoire politique et diplomatique de Pierre-Paul Rubens</collection>
+                        <idno>Brief des Bischofs von Segovia vom 29. Januar
+                            1624, in dem er Rubens` Antrag auf ein Adelsprädikat unterstützt</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens beantragt am <date when="1624-01-29">29. Januar
+                            1624</date> ein <term>Adelsprädikat</term>. Dieser Antrag wird durch den
+                            Vertreter des flämischen Staatsrates in Madrid bei Philip IV. zur Entscheidung
+                            vorgelegt</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. die Ernennung Rubens' zum Hofmaler vom
+                                    Albrecht und Isabella am <ref type="rubens" cRef="ed_rubens_100">23. September
+                                        1609</ref>, die Bewilligung des Adelsprädikates vom <ref type="rubens" cRef="ed_rubens_166">14. September 1624</ref>, 
+                                    sowie das Ritterdiplom, dass er am <ref type="rubens" cRef="ed_rubens_205">15. Dezember 1630</ref> vom englischen König Karl I. erhält.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1624-01-29">29. Januar 1624</origDate>
+                            <origPlace>Madrid</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Das originale Dokument befand sich im 19. Jahrhundert im
+                                Staatsarchiv in Simancas.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Louis Prosper Gachard: Histoire politique et diplomatique de Pierre-Paul Rubens</bibl>
+                    </source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Louis Prosper Gachard: Histoire politique et
+                            diplomatique de Pierre-Paul Rubens. Brüssel: Office de Publicite, 1877, S.
+                            266f.<ptr type="opac" cRef="306740680"/></bibl>
+                        <bibl>Pierre Génard: Les Armes de la famille Rubens, in:
+                            Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, 1888, S. 68f.</bibl>
+                        <bibl>Max Rooses, Charles Ruelens: Correspondance
+                            de Rubens et documents épistolaires concernant sa vie et ses auvres. (Codex
+                            diplomaticus Rubenianus ; T. 1-6), Bd. 3, Antwerpen 1900, S. 295-298<ptr
+                                type="gbv" cRef="446864137"/></bibl>
+                    </listBibl>
+                </additional></msDesc>
+            </sourceDesc>
+            
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="stw" xml:lang="deu">Adelsprädikat</term>
+                    <term type="stw" xml:lang="deu">Adelspatent</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <linkGrp>
+                <link targets="ed_rubens_164_deu ed_rubens_164_spa" type="translation"/>
+            </linkGrp>
+            <text xml:id="ed_rubens_164_spa">
+        <body>
+            <div part="Y" xml:lang="spa">
+                
+                    <salute>Señor,</salute>
+                <lb/>
+                <p><rs type="person" ref="#rubens_peter_paul">Pedro Pablo Rubens</rs>, pintor<index
+                        indexName="stw">
+                        <term xml:lang="deu">Hofmaler</term>
+                    </index> de la señora infanta doña <rs type="person" ref="#isabella_von_spanien"
+                        >Isabel</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin) </term>
+                    </index>, refiere en su memorial que descende de parientes honrrados, que
+                    siempre han sido muy fieles vasallos de la corona de V. M<hi rend="super"
+                        >d</hi><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.) </term>
+                    </index> y servido en oficios príncipales: su padre<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Jan</term>
+                    </index>, doctor en leyes, esclavin de la ciudad de <rs type="place"
+                        ref="#antwerpen">Anveres</rs>; <rs type="person" ref="#rubens_philipp"
+                        >Phelipe Rubens</rs>, su hermano, secretario della; y el suplicante se ha
+                    aplicado desde su niñez à la pintura, frecuentando muchas tierras para
+                    habilitarse mas; y por la grande experiencia y plàtica que tiene, el señor
+                    archiduque <rs type="person" ref="#albrecht_von_oesterreich">Alberto</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog, VII.)</term>
+                    </index> le recibió por su pintor con doscientos escudos de sueldo al año.
+                    Suplica á V. M<hi rend="super">d</hi> de sirva de concederle letras de nobleza sin
+                    pagar finanzas, atento á que es criado doméstico de S. A.<lb/></p><p>El suplicante
+                    Pedro Pablo Rubens es muy raro en son arte y muy estimado en toda <rs
+                        type="place" ref="#europa">Europa</rs>; y cierto que muchos príncipes della
+                    le han procurado sacar de Anveres con grandes promesas de honrra y dinero, y
+                    juntándose á esto ser hijo de padres honrrados y fieles vasallos de V. M<hi
+                        rend="super">d</hi>, y que el suplicante, además de la excelencia y primor de
+                    la pintura, tiene otras buenas calidades de letras y noticia de historias y
+                    lenguas, y se ha tratado siempre muy lucidamente, teniendo mucho caudal para
+                    ello. Y assí parece podria V. M<hi rend="super">d</hi> servirse de hacerle la
+                    merced y honrra que pretende de nobleza, y dispensar en la paga de
+                    finanzas.</p>
+                <closer>
+                    <salute>Ordenará V. M<hi rend="super">d</hi> lo que fuere servido.</salute><lb/>
+                    <dateline>En <rs type="place" ref="#madrid">Madrid</rs>, à <date when="1624-01-29">29 de
+                    enero 1624</date>.</dateline><lb/>
+                    <signed><rs type="person" ref="#artiaga_inigo">Obsipio de Segovia</rs></signed>
+                </closer>
+            </div>
+                <div xml:lang="spa">
+                    <p><note resp="N.B" type="footnote">Darunter die Entscheidung des Königs und seine
+                    Paraphe</note>Como parece.</p>
+                </div>           
+        </body>
+            </text>
+            <text xml:id="ed_rubens_164_deu">
+        <body>
+            <div xml:lang="deu">
+                <head>Übersetzung:</head>
+                <salute>Senor,</salute><lb/> 
+                <p><rs type="person" ref="#rubens_peter_paul">Peter Paul Rubens</rs>, Maler der
+                    Infantin Doña <rs type="person" ref="#isabella_von_spanien">Isabella</rs>,
+                    berichtet in seiner Bittschrift, daß er von ehrenhaften Verwandten abstammt, die
+                    immer sehr treue Untertanen der Krone Eurer Majestät gewesen sind, und in
+                    Hauptämtern gedient haben: Sein Vater, Doktor der Rechte, als Schöffe der Stadt
+                        <rs type="place" ref="#antwerpen">Antwerpen</rs>, <rs type="person"
+                        ref="#rubens_philipp">Philipp Rubens</rs>, sein Bruder, als Sekretär in
+                    derselben Stadt; und der Bittsteller hat sich seit seiner Kindheit mit Eifer
+                    seiner Malerei gewidmet, ist oft in vielen Ländern gereist, um sich
+                    fortzubilden; und für seine große Erfahrung und Übung hat der Herr Erzherzog <rs
+                        type="person" ref="#albrecht_von_oesterreich">Albrecht</rs> ihn mit einem
+                    Gehalt von 200 Escudos im Jahr als Maler angestellt. Er bittet Ihre Majestät,
+                    ihm den Adelstitel zu gewähren, ohne Zahlung von Abgaben, angesichts der
+                    Tatsache, daß er Diener seiner fürstlichen Hoheit ist. Der Bittsteller Peter
+                    Paul Rubens ist sehr außergewöhnlich in seiner Kunst und sehr geschätzt in ganz
+                        <rs type="place" ref="#europa">Europa</rs>; und es ist wahr, daß viele
+                    Europäische Fürsten versucht haben, ihn mit großen Versprechen von Ehre und Geld
+                    aus Antwerpen fort zu bekommen; und darüber hinaus ist er der Sohn von
+                    ehrenhaften Eltern und treuen Landsleuten Eurer Majestät; und neben der
+                    Exzellenz und Vollkommenheit seiner Malerei, hat er andere gute Qualitäten und
+                    Kenntnisse in Geschichte und Sprachen und hat sich immer prächtig verhalten. Und
+                    deshalb könnten Eure Majestät ihm einen Gefallen tun, denn er wünscht sich das
+                    Adelsrädikat und die Freistellung von der Zahlung von Lasten.</p>
+                <closer>
+                    <salute>Befehlen Sie, ihre Majestät, was geschehen soll.</salute>
+                    <dateline><rs type="place" ref="#madrid">Madrid</rs>, den <date when="1624-01-29">29. Januar 1624</date>.</dateline>
+                    <signed>Bischof von <rs type="place" ref="#segovia">Segovia</rs></signed>
+                </closer><lb/>
+            </div>            
+                <div xml:lang="deu">
+                    <p><note resp="N.B." type="footnote">Darunter die Entscheidung des Königs und seine
+                Paraphe</note>Wie vorgeschlagen.</p>
+                </div>           
+        </body>
+        </text>
+        </group>
+        
+    </text>
+</TEI>

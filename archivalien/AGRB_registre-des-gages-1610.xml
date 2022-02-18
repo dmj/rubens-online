@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" 
+    xml:lang="deu" xml:id="ed_rubens_004">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mitteilung an den Antwerpener Magistrat über die Anstellung von Rubens als
+                    Hofmaler und dessen Steuerbefreiung</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> 
+                &register-corporate; 
+                &register-person; 
+                &register-place;
+                &register-work; 
+                <msDesc xml:lang="deu" xml:id="AGRB_registre-des-gages_1610">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Brüssel</settlement>
+                        <repository>Archives générales du Royaume (AGRB)</repository>
+                        <collection>Collection des Papiers d’État et de l’audience (Registre des gages et pensions de 1625 à 1639)</collection>
+                        <idno type="signatur">fol. iiijxxij, no 45873</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Mitteilung an den Antwerpener Magistrat über die Anstellung von
+                            Rubens als Hofmaler und dessen Steuerbefreiung</title>
+                    </head>
+                    <msContents>
+                        <msItem>                          
+                         <filiation>
+                           <note resp="N.B." type="footnote">Vgl. hierzu auch zwei Einträge vom <date
+                               when="1630-08-08">8. August 1630</date> im 
+                               <ref type="rubens" cRef="ed_rubens_199">Rekwestboek 1630-1631</ref> und den 
+                               <ref type="rubens" cRef="ed_rubens_200">Collegiale Actenboeken 1629-1631</ref> 
+                               (jeweils im Stadsarchief Antwerpen)
+                           </note>
+                       </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                           
+                                <origDate when="1610-01-20">20. Januar 1610</origDate>
+                           
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Alexandre Pinchart: Archives des arts, sciences et lettres: documents
+                                inédits publiés et annotés. Gent 1860 (Neudruck: Brüssel 1994). Bd. 2. S.
+                                170<ptr type="gbv" cRef="231294484"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Steuerbefreiung</term>
+                    <term xml:lang="deu">Hofmaler</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p>Les archiducqz, etc. Chers et bien amez. Comme nous ayons retenu en nostre
+                    service maistre <rs type="person" ref="#rubens_peter_paul">Pierre-Paul
+                    Rubbens</rs>, peinctre, résident en nostre <rs type="place" ref="#antwerpen"
+                        >ville d’Anvers</rs>, à cincq cens florins de gages par an, nostre intention
+                    et volonté est que le faciez jouir de l’exemption et franchise des impostz et
+                    assises, ainsi qu’en jouissent tous aultres exemptz par les escroueues de nostre
+                    hostel; et Dieu vous ait, chers et bien amez, en sa continuèle garde.</p>
+                    <closer>
+                        <dateline>A <rs type="place" ref="#bruessel">Bruxelles</rs>, le <date when="1610-01-20"
+                            >XX<hi rend="super">e</hi> janvier 1610</date>.
+                        </dateline>
+                    </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

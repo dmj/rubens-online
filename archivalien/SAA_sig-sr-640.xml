@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_233">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens empfängt als testamentarischer Vormund der Kinder von Jan
+                    Brueghel, von Peter van Kraenenborch und Susanna Gillis eine Auszahlung von 80
+                    Gulden aus einer Rente auf das Haus De Sterre</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-640">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1637/ I: Waerbeeck, Ketgen, Guyot &amp; Lievens
+                            unter van der Donck resp. unter Guyot</collection>
+                        <idno type="signatur">SR 640, fol. 416r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens empfängt als testamentarischer Vormund der
+                            Kinder von Jan Brueghel, von Peter van Kraenenborch und Susanna
+                            Gillis eine Auszahlung von 80 Gulden aus einer Rente auf das Haus De
+                            Sterre</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1637-07-20">20. Juli 1637</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Rente</term>
+                    <term xml:lang="deu">Immobilien</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Comparante Jonker <rs type="person" ref="#halmale_pauwel">Pauwels van
+                    Halmale</rs>, onsen mede schepene inder weth alhier inde naeme ende als
+                    wethouder, <rs type="person" ref="#rubens_peter_paul">Petro Paulo Ruebens</rs>,
+                    riddere, testamentayre momboirs<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormundschaft</term>
+                    </index> over de onbejaerde kinderen wijlen <rs type="person"
+                        ref="#brueghel_jan_aeltere">Jans Bruegel</rs><index indexName="psw">
+                        <term type="PND">Breughel, Jan (der Ältere)</term>
+                    </index> voor welcken ende synen medemomboir hy hemselve sterckmaeckende ende
+                    inder qualiteyt bekende opgebeurt ende ontfangen te hebben van <rs type="person"
+                        ref="#kraenenborg_peeter">Peeter van Kraenenborg</rs>, oudecleercooper, ende
+                        <rs type="person" ref="#gillis_susanna">Susanna Gillis</rs>, sijne
+                    huysvrouwe de capitaele penning vande achtthien Carolus guldenen ende vijfthien
+                    stuyvers tjaars metten achterstelle, daeraff tot nu toe verschenen, die de selve
+                    Peeter van Kraenenborg ende seine huysvrouwe opden <date when="1631-06-04"
+                        >vierden Juni anno 16<hi rend="super">c</hi> eenentdertig</date>, vercocht
+                    ende bepandt hebben tot behoeve vande vors. kinderen Jans Bruegel opde helft van
+                    een rente van tweensestig gulden thien stuyvers erffelyck, die <rs type="person"
+                        ref="#moonssere_hans">Hans Moonssere</rs>, waschcooper alhier ende
+                    consoorten opde <date when="1628-08-02">tweede augusti 16<hi rend="super">c</hi>
+                        achtentwintig</date> verlede hebben tot beoeve des voors. Peeter van
+                    Kraenenborg ende seine huysvrouwe op deser huys metter gronde ende toebehoorende
+                    genaamt De Sterre<index indexName="stw">
+                        <term xml:lang="nld">De Sterre</term>
+                    </index>, gestaen opde Vlaschmerct, alhier <span from="" xml:lang="lat">probas litteras quas tradidit</span>.</p>
+                <closer><salute>Quitant ende gelovende.</salute><lb/>
+                    <dateline><date when="1637-07-20">Vigesima Juli 1637</date>.<lb/> Solutum 24 st. R. 3 st.</dateline></closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

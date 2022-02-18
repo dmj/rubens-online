@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_304">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verteilung des Nachlasses von Peter Paul Rubens. Urkunde des Notars Toussaint
+                    Guyot vom 11. Juli 1645; zur Aufteilung des Vermögens zwischen Albert und
+                    Nicolaas Rubens und Helena Fourment und ihren Kindern, in Anwesenheit von
+                    Philipp Rubens jun.</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+                
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="nachlass_rubens_vermoegensteilung_16450711">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Urkunde zurVerteilung des Nachlasses von Peter Paul Rubens vom 11. Juli 1645</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Verteilung des Nachlasses von Peter Paul Rubens. Urkunde des Notars Toussaint
+                            Guyot vom 11. Juli 1645; zur Aufteilung des Vermögens zwischen Albert und
+                            Nicolaas Rubens und Helena Fourment und ihren Kindern, in Anwesenheit von
+                            Philipp Rubens jun.</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1645-07-11">11. Juli 1645</origDate>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 82-84.<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+                </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <dateline>Die <date when="1645-06-11">11 Juin
+                    1645</date>.</dateline>
+                <p>Compareerde Joncker <rs type="person" ref="#rubens_nikolaas">Nicolaes
+                    RUBENS</rs>, Heere van <rs type="place" ref="#rameye">Ramay</rs>,
+                    tegenwoordelyck wesende binnen deser stadt, my Notaris bekent synde et
+                    constituit Heer ende Meester <rs type="person" ref="#rubens_philippus">PHILIPS
+                        RUBENS</rs>, Schepen deser stadt, synen neve, hem gevende volcomen ende
+                    absolute macht om van wegen ende inden naem van hem constituant te heysschen,
+                    maenen, recouvreren ende tontfangen alle ende iegelycke syne schulden, verloopen
+                    renten, huyshueren, pachten ende gebreken die men hem constituant nu ter tyt
+                    schuldich is ende naemaels worden sal, alomme, waer ende tot wat plaetsen ende
+                    van wat persoonen dattet sy.</p>
+                <p> Item om tontfangen de capitael penningen vande renten hem competerende ende die
+                    de rentgelders sullen quyten schepene ende manuel quittancie daeraff in
+                    behoirlycker forme te passeren, te geven ende te verlyden. Item om te passeren
+                    ende te teeckenen oft wettelyck te verlyden ende te vernieuwen alsulcken
+                    minnelyck accordt, compositie ende transactie als synen broeder Joncker <rs
+                        type="person" ref="#rubens_albert">ALBERT RUBENS</rs> ende hy constituant
+                    souden mogen aengaen met Vrouwe <rs type="person" ref="#fourment_helene">HELENA
+                        FOURMENT</rs>, hunne schoonmoeder, ende de momboirs van haere minderjarighe
+                    kinderen, over het proces te Hove hangende noch ter tyt ongedecideert. </p>
+                <p>Item om lotinge, scheydinghe ende deylinge te passeren met syne medeerffgenaemen,
+                    nae voorgaenden staet ende rekeninghe, van wylen Heer <rs type="person"
+                        ref="#rubens_peter_paul">PIETRO-PAULO RUBENS</rs>, syns vaeders sterffhuys,
+                    van alle ende iegelycke de goeden by hem achtergelaeten, brieven ende bescheeden
+                    daeraff in behoorlycker forme te passeren, cum potestate substituendi, etc. ende
+                    voorts.</p>
+                <closer><dateline> Gelovende, etc. Actum <rs type="place" ref="#antwerpen"
+                            >Antverpiae</rs>, ter presentien vanden voors. Joncker ALBERT RUBENS
+                        ende <rs type="place" ref="#langhenberge_andreas">ANDRIES VAN
+                            LANGENBERGE</rs>, incolis testibus.</dateline>
+                    <signed>NICOLAES RUBENS.</signed>
+                    <signed><rs type="person" ref="#guyot_toussaint">T. GUYOT.</rs></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

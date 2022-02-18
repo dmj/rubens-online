@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_306">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verteilung des Nachlasses von Peter Paul Rubens. Schöffenakte zur öffentlichen Versteigerung
+                    des Hauses von Peter Paul Rubens am Wapper</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+                
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="versteigerung_rubenshaus_16600916">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Schöffenakte vom 16. September 1660 zur öffentlichen Versteigerung
+                        des Hauses von Peter Paul Rubens am Wapper</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Verteilung des Nachlasses von Peter Paul Rubens. Schöffenakte vom 16. September 1660 zur öffentlichen Versteigerung
+                            des Hauses von Peter Paul Rubens am Wapper</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1660-09-16">16. September 1660</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 107-111<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="stw" xml:lang="deu">Rubenshaus</term>
+                    <term type="stw" xml:lang="deu">Rubenshuis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+
+                <p>Compareerden Heer ende Meester <rs type="person" ref="#rubens_philippus">PHILIPS
+                        RUBENS</rs>, Secretaris deser stadt, ende S<hi rend="super">r</hi>
+                    <rs type="person" ref="#lunden_guillaume">GUILLAUME LUNDEN</rs>, negotiant ter
+                    Borse alhier, als momboiren vande kinderen van Heer <rs type="person"
+                        ref="#rubens_albert">ALBERT RUBENS</rs>, in sijnen leven Secretaris was van
+                    Zijne Majesteyts Secreten Rade ende wettich sone van wijlen Heer <rs
+                        type="person" ref="#rubens_peter_paul">PEETER-PAULUS RUBENS</rs>, Riddere,
+                    Heere van Steene, ende Jouffrouwe <rs type="person" ref="#brant_isabella"
+                        >ISABELLA BRANDT</rs>, gestelt ende geordonneert bij desselfs testamente,
+                    opden <date when="1647-01-13">XIII<hi rend="super">en</hi> Januarij anno XVI<hi
+                            rend="super">c</hi> sevenenvijftich</date> voor Meester <rs
+                        type="person" ref="#perre_gaspard">Gaspar VANDER PERRE</rs>, openbaer
+                    Notaris tot <rs type="place" ref="#bruessel">Bruessel</rs>, ende sekere getuygen
+                    gepasseert, ende Jouffrouwe <rs type="person" ref="#helman_constantia"
+                        >CONSTANTIA HELMAN</rs>, Vrouwe van Rameyen, weduwe van wijlen Joncker <rs
+                        type="person" ref="#rubens_nikolaas">NICLAES RUBENS</rs>, in sijnen leven
+                    Heere vande selve plaetse, etc, des voors. Heer ALBERTS broeder, ende als bij
+                    desselfs testamente gepasseert voorden Notaris <rs type="person"
+                        ref="#rousseau_guillaume">GUILLAUME LE ROUSSEAU</rs> ende sekere getuygen
+                    den <date when="1655-05-27">XXVII<hi rend="super">en</hi> Meye anno XVl<hi
+                            rend="super">c</hi> vijffenvijftich</date>, desselfs geinstitueerde
+                    erffgename voorde tochte ende momboiresse van heure kinderen, cumm tutore, de
+                    voors. comparanten in desen gebruyckende de authoriteyt hun totte vercoopinge
+                    vande nabeschreven huysingen verleent bij mijne Heeren Borgermeesteren ende
+                    Schepenen deser stadt, bij apostille gestelt op hunlieder requeste vander date
+                    den <date when="--06-18">XVIII<hi rend="super">en</hi> Junij</date> lestleden,
+                    onderteeckent <rs type="person" ref="#zegers_jan_baptista">J.-B. ZEGERS</rs>,
+                    ten desen originelijck gethoont, tsamen voorde gerechte helft vande huysingen
+                    nabeschreven, den voornoemden Heer ALBERT ende Joncker NICLAES verstorven van
+                    wijlen de voors, Jouffrouwe ISABELLA BRANDT, hunne moeder, Joncker <rs
+                        type="person" ref="#rubens_franciscus">FRANCISCUS RUBENS</rs>, tegenwoirdich
+                    Schepene deser stadt, inden name ende als tot tgene nabeschreven wordt
+                    geconstitueert ende gemachticht bij Vrouwe <rs type="person"
+                        ref="#fourment_helene">HELENA FOURMENT</rs>, te vorens weduwe vanden
+                    voornoemden wylen Heer PEETER-PAULUS RUBENS, geassisteert met Heer <rs
+                        type="person" ref="#broechoven_jan_baptista">JOANNES-BAPTISTA VAN
+                        BROECHOVEN</rs>, Heere van Bercheyck, Steene, etc, Raedt ende Commis van
+                    Sijne Majesteyts domeynen ende financien, heuren tegenwoirdigen man, bij
+                    procuratie opden <date when="--07-24">XXIIII<hi rend="super">en</hi>
+                        Julij</date> lestleden voor <rs type="person" ref="#coentzen_jacques"
+                        >JACQUES COENTZEN</rs>, openbaer Notaris tot Bruessel, ende sekere getuygen
+                    gepasseert, ten desen mede originelijck gethoont, voor een vierendeel vande
+                    nabeschreven huysingen de voornoemde Vrouwe HELENA toecommende als weduwe
+                    gebleven zijnde vanden voors. wijlen Heer PEETER-PAULUS RUBENS, ende
+                    dijenvolgens gerechticht totte helft vande haefdeylige goeden in conformiteyt
+                    vande costumen deser stadt, de voors. Heer ende Meester PHILIPS RUBENS ende S<hi
+                        rend="super">r</hi> GUILLAUME LUNDEN, inde voors. qualiteyt, ende Jouffrouwe
+                    CONSTANTIA HELMAN, oick inder qualiteyt als vore, mitsgaders de voors. Joncker
+                    FRANCISCUS RUBENS, voor hem selven ende uytten name vande voors. Vrouwe HELENA
+                    FOURMENT, sijne moeder, ende uyt crachte vande voors. heure procuratie, alsmede
+                    inden name ende als gemachticht tot tgene nabeschreven wordt van Joncker
+                    PEETER-PAULUS RUBENS, sijnen broeder, bij procuratie opden <date
+                        when="1660-09-09">negensten deser maendt Septembris</date> voorden
+                    voornoemden Notaris JACQUES COENTZEN ende sekere getuygen tot Bruessel
+                    gepasseert, ten desen oick originelijck gethoont, ende Jouffrouwe <rs
+                        type="person" ref="#rubens_clara_johanna">CLARA-JOANNA RUBENS</rs>, hunne
+                    sustere, met Joncker <rs type="person" ref="#parijs_philipp">Philips van
+                        PARIJS</rs>, Heere van <rs type="place" ref="#merksem">Mercxem</rs> ende <rs
+                        type="place" ref="#dambrugge">Dambrugge</rs>, Raedt ende Rentmeestere
+                    generael vande Heeren Staten van Brabant int quartier deser stadt, alle de
+                    voors, Joncker FRANCISCUS, Joncker <rs type="person" ref="#rubens_peter_pauwel"
+                        >PEETER-PAUWELS</rs> ende Jouffrouwe CLARA-JOANNA, kinderen vanden
+                    voornoemden wijlen Heer PEETER-PAULUS RUBENS ende vande voors. Vrouwe HELENA
+                    FOURMENT, tsamen mede als erfgenamen van wijlen Jouffrouwe <rs type="person"
+                        ref="#rubens_isabella_helena">ISABELLA-HELENA RUBENS</rs>, overledene, ende
+                    Jouffrouwe <rs type="person" ref="#rubens_constantia_albertina"
+                        >CONSTANTIA-ALBERTINA RUBENS</rs> geprofesside religieusen inden cloostere
+                    ter Cameren, hunne susteren, uyt crachte van hunlieder testamenten respective
+                    opden <date when="1652-09-10">X<hi rend="super">en</hi> Septembris anno XVI<hi
+                            rend="super">c</hi> tweenvyftich</date> voor Meester JACQUES COENTSEN,
+                    openbaer Notaris tot Bruessel, ende opden <date when="1657-04-27">XXVII<hi
+                            rend="super">en</hi> Aprilis anno XVI<hi rend="super">c</hi>
+                        sevenenvijftich</date> voorden selven Notaris JACQUES COENTSEN ende sekere
+                    getuygen gepasseert, in desen gebruyckende ten regarde van het gedeelte vande
+                    voors. Jouffrouwe ISABELLA (alsoo zij tselve hadde belast met fidecomisse) de
+                    authorisatie hunlieden totte vercoopinge vande nabeschreven huysingen vergunt
+                    bij mijne voornoemde Heeren Borgermeesteren ende Schepenen deser stadt, bij
+                    apostille gestelt op hunne requeste, wesende vander date den <date
+                        when="--06-29">XIX<hi rend="super">en</hi> Junij</date> lestleden,
+                    onderteeckent <rs type="person" ref="#gevaerts_caspar">C. GEVART</rs>S, ten
+                    desen insgelijcx originelijck gethoont, alle tsamen voor het resterende
+                    vierendeel vande nabeschreven huysingen, ende bekenden dat sij, omme eene somme
+                    gelts die hun al ende wel is vergouden, vercocht hebben wel ende wettelijck aen
+                        S<hi rend="super">r</hi>
+                    <rs type="person" ref="#eyck_jacob">JACOMO VAN EYCKE</rs>, negotiant ter Borsen
+                    deser stadt, eene groote huysinge metten grooten hove ende schilderhuyse ende
+                    allen tgene daerinne aerdvast ende nagelvast is, gronde ende toebehoorten, soo
+                    deselve tegenwoirdelijck staende ende gelegen is inde strate loopende vande
+                    Meire na den Wapper, tusschen de huysinge ende erve van wijlen <rs type="person"
+                        ref="#hoons_henrich">HENRICK HOENS</rs>, aen deen zijde, noortwaerts, ende
+                    de nabeschreven huyskens, aen dander sijde, zuytwaerts, comende achter
+                    oostwaerts tegens den muer vanden hoff vande Coloveriersgulde deser stadt, met
+                    twee besundere uytgangen, den eenen inde selve strate tusschen het voors.
+                    schilderhuys ende nabeschreven cleyne huysen, ende den anderen int <rs
+                        type="place" ref="#hoplant">Hoplandt</rs>, ende daertoe noch drije huyskens
+                    oft wooningen, elck met sijn hofken, gronde ende toebehoorten, gestaen ende
+                    gelegen neffens malcanderen inde voors. strate naer den Wapper, tusschen den
+                    uytganck vande voorgemelde groote huysinge aen deen zijde noortwaerts ende
+                    Meester <rs type="person" ref="#man_cornelis">CORNELIS DE MAN</rs> huysen ende
+                    erven aen dander zijde suytwaerts, comende achter oostwaerts tegens den hove
+                    vande voors. groote huysinge, gelijck ende in alle der manieren, ende met
+                    alsulcke servituten van waterloopen ende gemeynschappe van mueren als alle de
+                    voors. huysingen ende erven den vercooperen toebehoorende zijn, ende de
+                    voornoemde wijlen Heer PEETER PAUWELS RUBENS deselve vercregen heeft, te weten
+                    de voors. groote huysinge metten hove (doen ter tijt eenen bleychoff wesende,)
+                    bij transporte van <rs type="person" ref="#caers_christoffel">CHRISTOFFEL
+                        CAERS</rs> inder qualiteyt soo hij compareerde den <date when="1611-01-04"
+                        >vierden Januarij anno XVI<hi rend="super">c</hi> ende elff</date><note
+                        resp="A.H." type="footnote">Vgl. die entsprechende <ref type="rubens"
+                            cRef="ed_rubens_013">Akte zum Ankauf des Hauses</ref> an Wapper.</note>,
+                    ende de voors. drije huyskens, beneffens ander drije, bij hem daernae wederom
+                    vercocht bij transporte van <rs type="person" ref="#smeken_hans">HANS
+                        SMEKENS</rs> ende <rs type="person" ref="#hendricx_tanneke">TANNEEKEN
+                        HENRICX</rs>, zijne huysvrouwe, prout litterae quas tradiderunt, ende om
+                    alle welcke huysingen ten hoochsten ende meesten proffijte te brengene, hebben
+                    de voors. vercooperen deselve ter vrijer Vrydachsmerct alhier openbaerlijck doen
+                    uytroepen ende veylen te coope eenen ijegelijcken even naer, door <rs
+                        type="person" ref="#rubens_peter_pauwel">PEETER-PAUWELS DE JONGE</rs>,
+                    gesworen roeper ende oudecleercooper alhier, waeraff, nae vele ende lange
+                    roepens, namentlijck des Vrijdacbs den derden deser voors. maendt Septembris,
+                    als leste, ende hoochste verdierder ende meest daervore biedende, don coop ende
+                    palmslach ontfangen ende behouden heeft <rs type="person" ref="#bertryn_artus"
+                        >ARTUS BERTRYN</rs>, voor ende ten behoeve vanden voornoemden S<hi
+                        rend="super">r</hi> IACOMO VAN EYCKE, present ende den coop accepterende,
+                    voorde somme van twintich duysent guldenen eens, volgens de coopcedulle daervan
+                    zijnde, onderteeckent bijden Notaris <rs type="person" ref="#doppegitter_notar"
+                        >DOPPEGIETER</rs>; droegen oppe, te waerne van alle commeren ende calaengien
+                    ende op niet daer uytgaende, behoudelijck dat den hoff vande voors. groote
+                    huysinge, eertijts eenen raemhoff oft bleychoff geweest zijnde, eensdeels
+                    medepandt is voor vijffentwintich groten Brabants den <rs type="corporate"
+                        ref="#antwerpen_abtei_st_michiels">godshuyse van St<hi rend="super">e</hi>.
+                        Michiels</rs>, die men uyt sekere andere huysen ende erven daeromtrent
+                    gelegen betalen moet, sonder desselfs raemhoffs cost, last oft schade. volgens
+                    de brieven daeraff zijnde ende anders niet, overmits de belastinge van eenen
+                    gulden sjaers ende duysent vierenvijftich guldens, seven stuyvers, een oort
+                    capitaels opde vier achtste deelen van het voorgemelde leste vierde paert der
+                    voors. groote huysinge bij provisie gestelt, afgedaen is ende beseth opde vier
+                    vijfde deelen van eene hoeve met huysinge, stallinge, landen ende toebehoorten
+                    gelegen tot <rs type="place" ref="#eeckeren">Eeckeren</rs>, groot inde 50
+                    gemeten onbegrepen, alsoick den prijs van het XXXII<hi rend="super">c</hi> deel
+                    van dese voors. huysingen, bedragende sesse hondert vijffentwintich guldenen,
+                    toebehoort hebbende Jouffrouwe ISABELLA-HELENA RUBENS, ende bij haer belast met
+                    fidecommisse, als vore, tot versekeringe vanden voors. cooper, beseth is opde
+                    voors. vier vijfde deelen vande voorgemelde hoeve, alles bij sekeren anderen
+                    brieve voor ons op heden gepasseert ende in conformiteyt vande voors. apostille
+                    van mijne Heeren Borgermeesteren ende Schepenen deser stadt vander date den
+                        <date when="1660-06-19">XIX<hi rend="super">en</hi> Juny</date>
+                    lestleden.</p>
+                <closer><salute>Sonder argelist. </salute><dateline><date when="1660-09-16">Decima
+                            sexta Septembris 1660</date>. </dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

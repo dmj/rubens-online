@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_324">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Erzherzog Albrecht an den Herzog von Manuta, Vincenzo Gonzaga</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_erzherzog_albrecht_16070804">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Erzherzog Albrecht an den Herzog von Manuta, Vincenzo Gonzaga vom 4. August 1607</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Brief von Erzherzog Albrecht an den Herzog von Manuta, Vincenzo Gonzaga vom 4. August 1607</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1607-08-04">4. August 1607</origDate>
+                            <origPlace>Brüssel</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 380 f.<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="spa">
+                <salute>Serenissimo Principe, </salute>
+                <p>
+                    <rs type="person" ref="#rubens_peter_paul">PEDRO-PAULO RUBENS</rs>, pintor,
+                    natural de Estos Estados, segun me han informado le tiene Vosra Serenidad en su
+                    servicio en algunas obras de su officio y porque tiene necessidad de acudir aqui
+                    a poner en orden algunas cosas suyas que estando absente no podra con le
+                    comodidad que dessea haverlas por terceras personas, y sus parientes me han
+                    supplicados escriva a Vosra Serenidad para quesesirva de darle licencia por
+                    loque le importa, siendo las causas que representan tan justas hequerido pedir a
+                    Vosra Serenidad le conceda dicha licencia para que usando della, pueda venir
+                    acumplir con las obligationes desus deados y hacienda y contodo lo mas que aqui
+                    se le puede offrecer y porque deseo darle satisfaction por ser mi vassallo
+                    estimare y agradecere mucho lo qae Vosra Serenidad hiciere por al Suya
+                    Serenissima persona nosro Señor guarde y prospere como dessea. </p>
+                <closer><placeName><rs type="place" ref="#bruessel">Brussellas</rs>,
+                            </placeName><dateline><date when="1607-08-04">Agosto 4,
+                        1607</date>.</dateline><salute>A Servicio de Vosra Serenidad, </salute><signed>
+                        <rs type="person" ref="#albrecht_von_oesterreich">ALBERTO.</rs></signed>
+                    <salute>al Serenissimo Senor <rs type="person" ref="#gonzaga_vincenzo_i">Duque
+                            de Mantua </rs></salute></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

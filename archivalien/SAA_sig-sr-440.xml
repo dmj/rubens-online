@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_078">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maria Pypelincx verkauft eine Rente an Alexandrina Balbani, Witwe von Peeter
+                    van der Goes</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-440">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1601/ I: Kieffelt &amp; Bogge</collection>
+                        <idno type="signatur">SR 440, fol. 282v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Maria Pypelincx verkauft eine Rente an Alexandrina Balbani, Witwe
+                            von Peeter van der Goes</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1601-06-01">1. Juni 1601</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                        bloedverwanten. Antwerpen 1877, S. 339<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Joufrrouwe <rs type="person" ref="#pypelincx_maria">Maria Pypelincx</rs>, weduwe
+                    wijlen Meesters <rs type="person" ref="#rubens_jan">Jans Ruebens</rs>, met eenen
+                    momboor heur gegeven metten rechte, bekende dat zij, omme eene somme gelts die
+                    heur al ende wel is vergouden, vercocht heeft wel ende wettelijck jouffrouwe <rs
+                        type="person" ref="#balbani_alexandrina">Alexandrina Balbani</rs>, weduwe
+                    wijlen <rs type="person" ref="#goes_peter">Peters vander Goes</rs>, tzeventich
+                    Karolus guldenen sestien stuvers erflic metten achterstelle daeraf verloopen
+                    zedert den <date when="1599-11-07">VII<hi rend="super">en</hi> dach Novembris
+                        anno XV<hi rend="super">c</hi>XCIX</date> herwaerdere, die heur comparantc,
+                    bij versterf ende testamente van wijlen jouffrouwe <rs type="person"
+                        ref="#touion_clara">Clara Colyns alias de Touion</rs>, heure moeder, den
+                        <date when="1583-07-18">XVIII<hi rend="super">en</hi> Julij anno XV<hi
+                            rend="super">c</hi>LXXXIII</date>, voor <rs type="person"
+                        ref="#rubens_severijn">Severijne Rubbens</rs>, Notaris, ende seker getuyghen
+                    gepasseert, zijn met vollen recht competerende ende in scheydinghe ende
+                    deylinghe, den <date when="1583-07-18">XVIII<hi rend="super">en</hi> Julij
+                        anno XV<hi rend="super">c</hi>LXXXIII</date>, tusschen heur ende <rs
+                        type="person" ref="#pypelincx_susanne">Susanna</rs>, heure suster, voor
+                    schepenen alhier gepasseert, te deele bevallen, wesende deen helft ierst vande
+                    een hondert vijvendertich <note resp="N.B." type="footnote">guldenen</note>
+                    seven ende eenen halven stuvers erflijck daerop, mits vercoopinghe geschiet bij
+                    executie vanden pande nabescreven, zijn gereduecert de een hondert vijftich
+                    Karolus guldenen sjaers erflicker renten die <rs type="person"
+                        ref="#henricus_augustijn">Augustijn Henricques</rs>, coopman, opden <date
+                        when="1564-05-27">XXVII<hi rend="super">en</hi> dach Maij anno XV<hi
+                            rend="super">c</hi>LXIIII</date> heeft vercocht wijlen <rs type="person"
+                        ref="#pypelincx_hendrick">Henricke Pypelincx</rs> ende der voornoemde <rs
+                        type="person" ref="#touion_clara">Clare Colyns</rs>, zijnen wijve, heuren
+                    vader ende moeder, op eene huysinghe met hove, plaetse, gronde ende
+                    toebehoorten, gestaen ende geleghen inde Meere, tusschen <rs type="person"
+                        ref="#becler_baudewijn">Baudewijns Becler</rs> huys ende erve aen deen zijde
+                    ende der erfghenamen <rs type="person" ref="#style_willem">Willems van
+                    Style</rs> huys ende erve aen dander zijde, comende achter aen derve van <rs
+                        type="corporate" ref="#sinte_clareclooster">Sinte-Clareclooster</rs>, ende
+                    noch vande sesse guldenen vier stuyvers ende tweelff mijten Brabants erflijck
+                    die dAmptman deser stadt<index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    </index> van weghen zijnder offitien, opden <date when="1579-01-22">XXII<hi
+                            rend="super">en</hi> Januarij anno XV<hi rend="super">c</hi>LXXIX</date>,
+                    den voornoemden Henricke Pypelinc getransporteert ende opgedraghen heeft ende
+                    opden <date when="--12-02">II<hi rend="super">en</hi> Decembris</date> daer te
+                    voren van <rs type="person" ref="#hulscher_henrick">Henrick Hulscher</rs>
+                    bewesen ende geassigneert waren orte voors. huysinghe metten toebehoorten, al
+                    prout litteræ die zij der coopersse mede overgaf.</p>
+                <closer>
+                    <salute >Droegh op, te waerne, etc.</salute><lb/>
+                    <dateline>
+                        <date when="1601-06-01">1<hi rend="super">a</hi> Junij 1601</date>.
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

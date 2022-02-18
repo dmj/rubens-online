@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_179">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens, Jan van Halmale und Cornelis Schut treten als Vormund der
+                    vier minderjährigen Kinder von Jan Brueghel auf und verkaufen in deren Namen
+                    eine Rente auf ein Haus namens De Wijngaert in der Korte Kammerstraat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-581-22">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1627/ I: Waerbeeck, Ketgen, Guyot &amp;
+                            Borremans</collection>
+                        <idno type="signatur">SR 581, fol. 22r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens, Jan van Halmale und Cornelis Schut treten als
+                            Vormund der vier minderjährigen Kinder von Jan Brueghel auf und
+                            verkaufen in deren Namen eine Rente auf ein Haus namens De Wijngaert
+                            in der Korte Kammerstraat</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Rubens, van Halmale und Schut traten am selben Tag
+                                    noch mehrere Male als Vormund der Kinder von Jan Brueghel auf: Vgl. den <ref
+                                        type="rubens" cRef="ed_rubens_175">Verkauf des Hauses De Meerminne</ref>,
+                                    den <ref type="rubens" cRef="ed_rubens_176">Verkauf einer Rente auf das Haus Den
+                                        Bok</ref> , den <ref type="rubens" cRef="ed_rubens_177">Verkauf einer Rente
+                                            des Jan Brueghel</ref> sowie einen weiteren <ref type="rubens"
+                                                cRef="ed_rubens_178">Verkauf einer Rente</ref>, und den <ref type="rubens"
+                                                    cRef="ed_rubens_180">Verkauf des Hauses Sint Marten</ref>. </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1627-06-23">23. Juni 1627</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> De voors. comparanten<note resp="A.H." type="footnote">Peter Paul Rubens, jan
+                    van Halmale und Cornelis Schut.</note> <span from="" xml:lang="lat">dicta qualitate</span><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormundschaft</term>
+                    </index>, vercocht omme eene somme gelts aen de voors. Jouffrouwe <rs
+                        type="person" ref="#marienberghe_catharina">Catharina Van Marienberge</rs>,
+                    weduwe van de voors. wijlen <rs type="person" ref="#brueghel_jan_aeltere">Janne
+                        Breugel</rs> de sesse sevenste deel van d’eene helft, daervan d’ander helft
+                    ende het resterende sevenste gedeelte inde helft is heur van te voren toebehoort
+                    heeft, van eene rente van achtendertich guldene, viertien stuivers siaars,
+                    wesende de rente van sevenenvijftich guldene negen stuivers eenen grooten siaars
+                    daeromme heer <rs type="person" ref="#montfort_jan">Jan van Montfort</rs> Raet
+                    van hunnen hoocheden opde <date when="1617-09-02">tweede dach September
+                        sesthienhondert seventhiene</date> ‘t erve gegeven heeft <rs type="person"
+                        ref="#anthoniser">Anthoniser</rs>, boekbindere ende <rs type="person"
+                        ref="#vereyt_maria">Maria Vereyt</rs> sijne huysvrouwe eene huysinge mette
+                    stalle, neercamere, gronde ende alle de toebehoorten geheeten de Wijngaert<index
+                        indexName="stw">
+                        <term xml:lang="nld">De Wijngaert</term>
+                    </index> gestaen ende gelegen inde Corte Cammerstrate alhier, tusschen het huys
+                    geheeten Het Handvat aen d’een sijde ende <rs type="person"
+                        ref="#loemele_nicolaes">Nicolaes Cleys van Loemele</rs> huysingen aen
+                    d’ander sijde, ende welcke rente <rs type="person" ref="#waerbeke_jan">Jan
+                        Waerbeke</rs>, notaris alhier inde name ende als gemechticht vande voors.
+                    Montfort aen de voorgenoempde wijlen Janne Breugel vercocht ende getransporteert
+                    heeft opde <date when="1618-11-27">27<hi rend="super">ste</hi> dach Novembris
+                        vande Jare 16<hi rend="super">c</hi> ende achthiene</date>, volgende de
+                    brieven ende bescheeden daervan sijnde die sijnere overgave droeghe oppe ende te
+                    waerne etc.</p> 
+                <closer>
+                    <dateline>Eo die.<lb/> Soluit 24 st.</dateline>
+                </closer>
+            </div>
+        </body>
+      
+    </text>
+</TEI>

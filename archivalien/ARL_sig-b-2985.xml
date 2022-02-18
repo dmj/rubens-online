@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_216">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen Rates</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-2985">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte 20e d’Ambroise van Oncle du 1er janvier au 31 décembre 1634)</collection>
+                        <idno type="signatur">B. 2985, fol. 487v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen
+                            Rates</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate notBefore="1634" notAfter="1634">? 1634</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                                archives du Nord, in: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, Antwerpen 1888,
+                                S. 129</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Sekretär</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                    <term xml:lang="deu">Gehalt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p> 992 livres, 6 sols, 6 deniers à messire <rs type="person"
+                        ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>, chevalier, secrétaire du
+                    Conseil privé du Roi, pour une année de ses gaiges de secrétaire susdit,
+                    commencée le <date when="1633-04-27">27<hi rend="super">e</hi> d’apvril
+                    1633</date> et finie le <date when="1634-04-26">26<hi rend="super">e</hi> apvril
+                        ensuivant 1634</date>, par quictance veue en l’estat de <date when="--07"
+                        >juillet</date>, folio 45, verso, veu le compte précédent folio 477, il siut
+                    bien. </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_074">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rubens’ früherer Lehrer Adam van Noort wird durch Collegialen Beschluß zum
+                    Dekan der Lukas-Gilde ernannt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-563">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Collegiale Actenboeken 1597-1599</collection>
+                        <idno type="signatur">Pk. 563, fol. 38v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens’ früherer Lehrer Adam van Noort wird durch Collegialen
+                            Beschluß zum Dekan der Lukas-Gilde ernannt</title>
+                    </head>
+                  
+                    <history>
+                        <origin>
+                            <origDate when="1597-09-30">30. September 1597</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
+                                Schilderschool. Antwerpen 1883, S. 396<ptr type="gbv" cRef="194552292"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Noort, Adam van</term>
+                    <term xml:lang="deu">Lukasgilde</term>
+                    <term xml:lang="deu">Lukas-Gilde</term>
+                    <term xml:lang="deu">Antwerpen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Geordonneert <rs type="person" ref="#noort_adam">Adam van Oirt</rs>, schildere,
+                    woonende beneden d’Oude Borse, in de Hoffstraete, in den Engel, omme te wesen
+                    Deken van <rs type="corporate" ref="#lukasgilde_antwerpen">Sinte Lucasgulde</rs>
+                    binnen dese stadt, mits doende den behoorlijcken eedt daertoe staende,</p> 
+                    <closer><dateline>Actum
+                    <date when="1597-09-30">ultima Septembris 1597</date>.</dateline></closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

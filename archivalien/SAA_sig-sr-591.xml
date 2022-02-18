@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_183">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hans Smekens gibt an ein Haus an Peter Paul Rubens verkauft zu haben, das im
+                    Hoplant gegenüber Lammekens Rame gelegen ist</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-591">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1628/ V: D. Fabri &amp; van Huffel jr.</collection>
+                        <idno type="signatur">SR 591, fol. 325r-326r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Hans Smekens gibt an ein Haus an Peter Paul Rubens verkauft zu
+                            haben, das im Hoplant gegenüber Lammekens Rame gelegen ist</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zu diesem Kauf auch das im Text erwähnte
+                                    Dokument vom <ref type="rubens" cRef="ed_rubens_181">28. Juli 1627</ref> und am
+                                    <ref type="rubens" cRef="ed_rubens_184">16. Juni 1628</ref> verfasste
+                                    Akte.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1628-06-15">15. Juni 1628</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#smeken_hans">Hans Smekens</rs> in houwelycke gehadt
+                    hebbende wijlen <rs type="person" ref="#alsdorp_geertruyt">Geertruyt Van
+                    Alsdorf</rs>, ende <rs type="person" ref="#hendricx_tanneke">Tanneke
+                    Henricx</rs>, nu ter tijt zijne wettighe huysvrouwe, ende bekenden dat hij omme
+                    eene somme gelts die hen al ende wel is vergouden, vercocht hebben wel ende
+                    wettelyck S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>, edelman
+                    vande huyse van hare doorluchtichste hoocheyt een huysken oft wooninghe metten
+                    hofken, gronde ende alle de toebehoorten gestaen ende gelegen int <rs
+                        type="place" ref="#hoplant">Hoptlandt</rs> alhier, tegens over de Lammekens
+                    Rame, tusschen de andere dry huyskens oft wooninghen ende erve der voors.
+                    coopere van te vooren toebehoorende ende van hen comparanten in de voorleden
+                        <date when="1627">Jare 16<hi rend="super">c</hi> ende sevenentwintich</date>
+                    oock gercocht aen desen zijde Oostwaerts, ende der voors. comparanten
+                    vercooperen anderen huyse oft wooninghe, mitsgaders de voors. hoeckhuyse De
+                    witte Roose die hij vercooperen alnoch ’thenwaerdere behoudende blijven aen
+                    d’ander zijde westwaerts, commende achter aen des voors. coopers andere erve op
+                    alzulcken voorwaerden, conditie lasten ende servituten, te wetene dat de voors.
+                    comparanten vercooperen, henne huysen die hij alnoch zijn behoudende tot geene
+                    dagen ende sullen moghen hoogher opmetsen oft betimmeren dan de zelve nu ter tyt
+                    ende zijn noch oock de erve vande zelve achter mogen betimmeren, noch bemetsen,
+                    om nyet te benemen de sonne van de hoft ende erver dewelcke eertyts eene
+                    bleyckhoff wesen plach, nu oock den voors. coopere toebehoorden, ende dat de
+                    waterloop commende vande borneputte gestaen achter de huysen, eertijds oock
+                    desen pant aengegaen hebbende ende nu insgelyck de voors. coopere
+                    toebehoordende, maer en is loopende van gedoochsaemheid door de scheydemuer inde
+                    gote vande voorscreven bleyckhoff, ende dat het water commende vande gemeynen
+                    borneputte, gestaen achter voors. huyse int Hoplandt diemen inde voors.
+                    bleyckhoff halff is gebruyckende zijne loop ende gansch zal blijven behoudende,
+                    gelyck ’t zelve nu ter tyt zijne loop heeft ende altyt gehadt heeft, ende voorts
+                    zoo gelyck ende in alle der manieren hij comparanten ’t zelve huysken oft
+                    wooninge mette hoffken, gronde ende toebehoorten, aenden voornompden coopere
+                    gewesen ende gedesigneert hebbende ende ’t zelve op nu vande voors. vercooperen
+                    andere erve die zij als voore, alnoch behoudende blijven gesepareert ende
+                    gescheyden wort mette scheydemuer daertusschen beyde byde voors. coopere op
+                    sijne cost alleen ende sonder last der voors. vercooperen te maecken ende te
+                    stellen, den welcken scheydemuer dyennyet tegenstaende gmeyn zal zijn ende
+                    blijven halff ende half, midts betaelen by de voors. vercoopers oft henne
+                    naecommelinge (als zij die zelve willen gebruycken) alleenlyck deen helft vanden
+                    zelven muer, naer rechte verheyscht wordt ende voorder nyet, alles in
+                    conformiteyt vande goedenisse vande <date when="1627-07-28">28<hi rend="super"
+                            >sten</hi> July</date> lestleden, daerbij de voors. coopere, andere
+                    sesse huyskens, dry op de Wapper<index indexName="stw">
+                        <term xml:lang="deu">Wapper</term>
+                    </index><index indexName="gsw">
+                        <term type="GKD" xml:lang="deu">Antwerpen</term><index indexName="stw"><term xml:lang="deu">Rubenshaus</term></index>
+                    </index><index indexName="gsw">
+                        <term type="GKD" xml:lang="nld">Antwerpen</term><index indexName="stw"><term xml:lang="nld">Rubenshuis</term></index>
+                    </index> ende de voors. dry int Hoplandt neffens dit op nu vercocht huysken als
+                    voore, Oostwaerts gestaen, van hen comparanten gecocht heeft, ende de notarialen
+                    contracte daerinne vermelt, ende in welck vernoempde op nu vercocht huysken,
+                    mitdtsgadere inde voors. andere sesse huyskens, de voors. <date
+                        when="1627-07-28">28<hi rend="super">e</hi> July</date> lestleden bij hen
+                    comparanten, als voore, vercocht ende mede oock inde voorschreven hoeckhuyse De
+                    Witte Roose ende de andere huysen die hem comparanten vercooperen, als voore,
+                    ’thenwaerdere behoudende blijven, geweest zijnde ’t samen elff in getaele, mette
+                    hoven ende toebehoorten de vernoempde Hans Smekens ende Geertruyt van Alsdorp
+                    zijne eerste huysvrouwe was, opte <date when="1606-10-14">veerthiende Octobris
+                        inde Jare 16<hi rend="super">c</hi> ende sesse</date>, hij erffgevinghe van
+                        <rs type="person" ref="#meer_catlijne">Cathijne de Meere</rs> Jansdochtere
+                    wijlen, daer moeder aff was <rs type="person" ref="#valcx_anna">Anna Valcx</rs>
+                    ende heure consorte, inder qualiteyt zoo hij compareerde, gegoyt ende geerft
+                    zijn geweest sijnde voorts alle de zelven elff huysen den voors. vercooperen
+                    alleene ende int geheele blijven toebehoorende, vut crachte vande scheydinge
+                    ende deylinghe tusschen hem ende <rs type="person" ref="#smeken_elisabeth"
+                        >Elisabeth Smekens</rs>, daer moeder aff was de voors. Geertruyt van
+                    Alsdorp, met <rs type="person" ref="#lambrecht_henrick">Henrick Lambrechts</rs>
+                    heure man ende momboir, opte <date when="1622-02-21">21<hi rend="super">e</hi>
+                        February anno 16<hi rend="super">c</hi> ende tweentwintich</date> voor
+                    schepene deser stadt gepasseert, al naer luydt der brieven daeraff zijnde, als
+                    wij verstonden, alzoo dat de voors. comparanten vercooperen ’t voors. huysken
+                    oft wooninghe mette hoffken, gronde ende toebehoorten, gelijck voors. stadt, op
+                    droeghen met verscheydene ende claerlycke quyte schonden t’allen dage des voors.
+                        <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Ruebens</rs> ende ’t
+                    zijne naecommelinghe behoeff, met allen de rechte etc. te waerne etc. van alle
+                    commeren ende claengiën ende op nyet daer vutgaende,</p>
+                <closer>
+                    <salute>sonder argelist, ende behoudeliyck.</salute><lb/>
+                    <dateline><date when="1628-06-15">Decima Quincta Juny 1628</date>.</dateline>
+                </closer>                
+                </div>
+            
+            <div xml:lang="nld"><p>Pantgelt beloopende vier gulden, vier stuyvers recepit </p>
+                <closer><signed><rs type="person" ref="#fabri_d">d. Fabri</rs></signed>
+                    <dateline><date when="1628-06-21">21 Juny</date>.<lb/> Solutum 2 gl. 8 st.</dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

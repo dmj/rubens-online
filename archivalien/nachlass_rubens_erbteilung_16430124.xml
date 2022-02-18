@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_299">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verteilung des Nachlasses von Peter Paul Rubens. Urkunde des Notars Toussaint
+                    Guyot vom 24. Januar 1643 zur Erbteilung zwischen den Kindern des Malers Rubens
+                    aus erster und zweiter Ehe und deren Mutter Helena Fourment</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+                
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="nachlass_rubens_erbteilung_16430124">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Urkunde zurVerteilung des Nachlasses von Peter Paul Rubens vom 24. Januar 1643</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Verteilung des Nachlasses von Peter Paul Rubens. Urkunde des Notars Toussaint
+                            Guyot vom 24. Januar 1643 zur Erbteilung zwischen den Kindern des Malers Rubens
+                            aus erster und zweiter Ehe und deren Mutter Helena Fourment</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1643-01-24">24. Januar 1643</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 76f.<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <dateline>Die <date when="1643-01-24">24 Januarii
+                    1643</date>.</dateline>
+                <p> Vrouwe <rs type="person" ref="#fourment_helene">Helena FOURMENT</rs>, weduwe van wylen Heer <rs type="person" ref="#rubens_peter_paul">PETRO-PAULO RUBENS</rs>, Riddere, Heere
+                    van Steene, etc, soo voor heur selve als inden naeme ende oppertestamentelycke
+                    momboiresse van heure ende desselffs wylen heurs mans minderjaerighe kinderen,
+                    Heer ende Meester <rs type="person" ref="#rubens_philippus">Philips RUBBENS</rs>, Licentiaet in beyden rechten ende Schepen
+                    deser stadt, ende S<hi rend="super">r</hi> <rs type="person" ref="#hanikart_peeter">PEETER HANEKAERT</rs>, tsamen als medetestamentelycke momboirs
+                    over deselve kinderen, hen daervoren sterckmaeckende, alle my Notario bekent
+                    synde, diewelcke gesien hebbende de brieven van daechsele by Jonckers <rs type="person" ref="#rubens_albert">Albert</rs>
+                    ende <rs type="person" ref="#rubens_nikolaas">NICOLAES RUBBENS</rs> inden Raede van <rs type="place" ref="#brabant">Brabant</rs> opden <date when="1643-01-13">derthiensten deser maent
+                    January</date> geobtineert, metten dagement vuyt crachte van dyen thunnen laste byde
+                    selve doen doen voor Commissarisen vanden selven Raede, ten opsiene van eenige
+                    vrempde pretensien die sy meynen te hebben opden sterffhuysc van wylen Heer
+                    PETRO-PAULO RUBBENS, hunnen vaeder, verclaeren dat sy dimpetreren vande selve
+                    brieven metten voornoemden daegemente houden voor eene openbaere contraventie
+                    tegens den testamente ende vuyttersten wille vanden selven hunnen vaeder, soo
+                    door dyen daerby is geordonneert dat soo verre daer eenighe geschillen quamen te
+                    rysen opt verstandt vanden selven synen testamente oft op eenighe andere saecken
+                    van synen sterffhuyse, deselve souden moeten gedecideert worden int minnelyck
+                    ende sonder forme van proces, byde dry persoonen inden selven testamente
+                    gedenomineert, als oyck dat deselve henne pretentien metten inhouden vanden
+                    selven testamente nyet en connen bestaen, maer daeraen merckelyck syn
+                    contrarierende, mits welcke contraventie ende contrarieteyt de comparanten
+                    consequentelyck verstaen dat de voors. Jonckers ALBERT ende NICOLAES RUBBENS
+                    selen syn ende blyven vervallen van het legaet hun byden selven testamente
+                    gemaeckt, al in conformiteyt vande conditie ende clausule restrictiff onder
+                    dewelcke hun tselve legaet gelaeten is, waervan de comparanten wel hebben willen
+                    protesteren gelyck sy doen mits desen, versueckende aen my Notaris ende alle
+                    andere des versocht synde hiervan aende voors. Jonckers ALBERT ende NICOLAES
+                    RUBENS insinuatie ende lecture gedaen te worden ende daervan, mitsgaeders van
+                    dantwoorde byde selve te geven, henlieden comparanten gelevert te worden een
+                    ofte meer acten in behoirlycker forme.</p> <closer>Actum <rs type="place" ref="#antwerpen">Antverpiae</rs>, praesentibus <rs type="person" ref="#langhenberge_andreas">ANDREA de
+                        LANGHENBERGE</rs> et <rs type="person" ref="#guyot_daniel">DANIELE GUYOT</rs>, testibus. 
+                <signed>HELENA FOURMENT.</signed>
+                        <signed><rs type="person" ref="#hanikart_peeter">PIETER HANNECAERT.</rs></signed>
+                        <signed><rs type="person" ref="#rubens_philippus">PHls RUBENS</rs>. </signed>
+                        <signed><rs type="person" ref="#guyot_toussaint">T. GUYOT.</rs></signed></closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_065">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akte über die Anstellung von Konstantijn Rubens zur Unterstützung des Andries
+                    Symons zur Unterstützung bei der Wahrnehmung seiner Pflichten für Maria
+                    Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-cert-48">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Certificatieboek 1587</collection>
+                        <idno type="signatur">Cert. 48, fol. 244r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Akte über die Anstellung von Konstantijn Rubens zur Unterstützung
+                            des Andries Symons zur Unterstützung bei der Wahrnehmung seiner
+                            Pflichten für Maria Pypelincx</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch folgendes Dokument: 
+                                    <ref type="rubens" cRef="ed_rubens_061">1583, 27. Oktober</ref>
+                                </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1587-06-15">15. Juni 1587</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Frédéric Verachter (Hrsg.): Généalogie de Pierre Paul Rubens et de sa
+                                famille. Antwerpen 1840, S. 39<ptr type="gbv" cRef="146162420"/></bibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877, S. 322<ptr type="gbv" cRef="146162595"
+                                /></bibl>
+                            <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
+                                Gerechtsgebouw, 15.-30. Oktober 1977, S. 242, Nr. 154</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Konstantijn Rubens</term>
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu" type="psw">Andries Symons</term>
+                    <term xml:lang="deu">Antwerpen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p><rs type="person" ref="#symons_andries">Andries Symons</rs> jngeseten poorter jn
+                    den name ende als volcomelic gemechticht van jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="#pypelincx_maria">Marie Pypclincx</rs>
+                    <rs type="person" ref="#pypelincx_hendrick">Henricx</rs> dogtere wylen, daer
+                    moeder aff was jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="#touion_clara">Clara de Tonion</rs> die men hiet Colyns
+                    wettighe huysvrouwe M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_jan">Jan Ruebens</rs> mitsgaders van jouff<hi
+                        rend="super">r</hi>
+                    <rs type="person" ref="#pypelincx_susanne">Suzanna Pypelincx</rs> huere zustere,
+                    nagelatene weduwe wylen <rs type="person" ref="#moleneer_peeter">Peeter de
+                        Moeleneer</rs> elek met eenen momboir heur gegeven metten rechte omme tgene
+                    nabeschreven staet te mogen doene, breeder blyckende by eene opene procuratie op
+                    den <date when="1583-10-27">27 Octobris 1583</date> onder den segel ter zake
+                    deser stadt<index indexName="stw">
+                        <term xml:lang="deu">Antwerpen</term>
+                    </index> gepasseert ondert<hi rend="super">t</hi> Gillis. <span from="" xml:lang="lat">
+                        quam vidimus, substituit</span>
+                    etc., <rs type="person" ref="#rubens_konstantijn">Constantin Ruebens</rs>
+                    woonachtig tot <rs type="place" ref="#herentals">Herenthals</rs>, <span from="" xml:lang="lat">ad petendam
+                        recipiendam</span> alsulcken verloopen alsser alreide verschenen is ende alnoch
+                    verschynen zal mogen van de <measure type="currency" quantity="50">50</measure>
+                    Carol. guld. tjaers als de voirs. constituanten by versterve van wylen hennen
+                    vader ende moeder jaers heffende zyn op de hoeve met huys, hove, lande,
+                    bosschen, bemden, <abbr>enz.</abbr> geheeten Morckhoven<index indexName="stw">
+                        <term xml:lang="nld">Morckhoven</term>
+                    </index>, gelegen jn diversche parcheelen onder de heerlicheyt van Morckhoven by
+                    Herenthals, <abbr>enz.</abbr>,</p>
+                <closer>
+                    <salute>sonder argelist</salute>.<lb/>
+                    <dateline>
+                        <date when="1587-06-15">XV. Juny 1587</date>.
+                    </dateline>
+                </closer> 
+            </div>
+        </body>
+       
+    </text>
+</TEI>

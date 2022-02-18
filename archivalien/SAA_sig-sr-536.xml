@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_147">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jan Brand, als Bevollmächtigter von Peter Paul Rubens und Vormund der Kinder
+                    von Philipp Rubens, erklärt von Jaques Lemans eine Rente über 100 Gulden auf
+                    eine Liegenschaft mit neuen Häusern am Falconplein erworben zu haben</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-536">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1619/ II: Cauwenberge, vanden Berghe, Rousseau, van
+                            Hove &amp; Hemselroy</collection>
+                        <idno type="signatur">SR 536, fol 218v-219r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jan Brand, als Bevollmächtigter von Peter Paul Rubens und Vormund
+                            der Kinder von Philipp Rubens, erklärt von Jaques Lemans eine Rente
+                            über 100 Gulden auf eine Liegenschaft mit neuen Häusern am
+                            Falconplein erworben zu haben</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1619-08-23">23. August 1619</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Immobilien</term>
+                    <term type="psw" xml:lang="deu">Rubens, Philipp</term>
+                    <term xml:lang="deu">Familie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> M<hi rend="super">r</hi>
+                    <rs type="person" ref="#brant_jan">Jan Brants</rs>, greffier deser stadt, soo
+                    voor hem selven als in den naeme ende als tot ‘tnaerbeschreven gemechticht ende
+                    gevonstitueert sijnde van <rs type="person" ref="#rubens_peter_paul">Pedro Paulo
+                        Ruebens</rs> tzelf in den naeme ende als momboir metten rechte gelevert over
+                    de wettige kinderen wijlen Mr. <rs type="person" ref="#rubens_philipp">Philips
+                        Ruebens</rs>, secretaris deser stadt was, daer moeder aff is Joe<hi
+                        rend="super">ffr</hi>
+                    <rs type="person" ref="#moy_maria">Maria de Moy</rs>, blijckende ‘tselve
+                    naerderbij eender procuratie op den <date when="1619-08-14">vierthiensten
+                        deser maendt</date> voor <rs type="person" ref="#hoppen_davidt">Davidt van
+                        der Hoppen</rs> als notaris alhier in procuratier, voor getuigen gepasseert,
+                    hier toe oock gebruickende ‘tconsent bij hem tot ‘tnabeschreven verwerven van de
+                    weesmeesters deser stadt opden voors. vierthiensten deser voorscreven maendt ons
+                    mette voors screven procuratier te desen originelijck gethoont, dicta
+                    qualitate-bekende opgebuert ende ontfangen te hebben van <rs type="person"
+                        ref="#geerdts_aerdt">Aerdt Geerdts</rs>, backer alhier, de capitale
+                    penningen metten verloopen daeraff verschenen tot desen dage toe, van den
+                    eenhondert carolus gulden ‘tsiaers, erfflijcke renten quytbaer den penninck
+                    seventhien, die <rs type="person" ref="#loemans_jaques">Jaques Loemans</rs>,
+                    oudecleercooper alhier op den <date when="1613-04-01">iersten Aprilis XVI<hi
+                            rend="super">c</hi> ende derthien</date>, vercocht ende gehipothiceert
+                    heeft hem comparant ende den voors. Pedro Paulo Ruebens, als mombore ende tot
+                    behoef als voore op een stuck erve metten gronde ende toebehoirten, groot thien
+                    hondert eenentwintich voeten ende drije quaert maeckende twee ende een halft
+                    roeden eenentwintich roeden ende drije vierendeel, daerop nutertijt negen huysen
+                    oft wooningen gestaen sijn, gestaen ende gelegen bij oft omtrent de Facon pleyne
+                    alhier, nuesch tegensover het cruys aen de Ruy aldaer.</p>
+                <closer>
+                    <salute>Quitant etc. Gelovende etc. Sonder argelist.</salute><lb/>
+                    <dateline><date when="1619-08-23">Vigesima tertia Augusti 1619</date></dateline>
+                </closer> 
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_194">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Als 1629 der sogenannte kleine Kirchhof umgebaut wird, stellt Cornelis van
+                    der Gheest einen Antrag bezüglich des Sarges von Quinten Massys</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-729">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Rekwestboek 1629-1630</collection>
+                        <idno type="signatur">Pk. 729, fol. 90r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Als 1629 der sogenannte kleine Kirchhof umgebaut wird, stellt
+                            Cornelis van der Gheest einen Antrag bezüglich des Sarges von
+                            Quinten Massys</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1629-12-12">12. Dezember 1629</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Verthoont met behoorelycke reverentie <rs type="person" ref="#geest_cornelis"
+                        >Cornelis vander Gheest</rs><index indexName="psw">
+                        <term xml:lang="deu">Gheest, Cornelis van der</term>
+                    </index> als dat hy inden tyt datter geordonneert was dat men de serken ruymen
+                    soude van ’t cleyn kerckhoff<index indexName="stw">
+                        <term xml:lang="nld">Kleiner Kirchhof</term>
+                    </index> by de hantschoen craemen dat alsdan mynheer <rs type="person"
+                        ref="#behagel_anthonis">Anthoni Behagel</rs> bouwmeester synde my thuys zont
+                    den sarck van M<hi rend="super">r</hi>
+                    <rs type="person" ref="#massys_quinten">Quinten Metsys</rs><index
+                        indexName="psw">
+                        <term type="PND">Massys, Quentin</term>
+                    </index> die door ouderdom uitgesleten was, om te laten verhouwen dwelcke nu
+                    over eenighe jaeren geschiet is overgevoort by der thoren daer ik segge desen
+                    voers. Quinten begraven is geweest int jaer <date when="1529">1529</date> ende
+                    nu juist hondert jaer geleden als synde ter eeren godts anno <date when="1629"
+                        >1629</date> Ende alsoo alsulcken fameusen meester de memorie niet ende
+                    behoort te versterven die in synen tyt grofsmit synde den constigen bornput
+                    heeft gemackt voor de stadt van <rs type="place" ref="#antwerpen">Antwerpen</rs>
+                    die int voorleden tyde int middel opde groote merckt plach te staen, verciert
+                    boven op met een Brabon ende int ronde met wildemannen ende wildewyven al van
+                    yser welcken voors. bornput v<ex>ande</ex>n merckt getransporteert is ende
+                    gestelt op het cleyn kerckhoff int jaer a<hi rend="super">o</hi>
+                    <date when="1557">1557</date>, waerop weynich letten dan die de const beminnen
+                    Noch staet te weten dat voors. Quinten hem was begeevende door seker occasie van
+                    groffsmit tot de schilderconste van wiens hant een famois constig stuck is
+                    staende in Onse <choice>
+                        <expan>L<ex>ieve</ex></expan>
+                        <abbr>L</abbr>
+                    </choice>-Vrouwen kercken<index indexName="stw">
+                        <term xml:lang="deu">Liebfrauenkathedrale Antwerpen</term>
+                    </index> inde besnijdenis choor, aengaende de magistraet alhier dat in dander
+                    regeringe vercocht was aen die van <rs type="place" ref="#england">Engelant</rs>
+                    voor vyff duysent roose nobels in specie ende is dan door interesse van <rs
+                        type="person" ref="#vos_marten">Marten de Vos </rs><index indexName="psw">
+                        <term type="PND">Vos, Maarten de</term>
+                    </index> const schilder, dit werdet niet geendt. Nu so is als dat de heeren van
+                    de magistraet over dese voors. sarck hebbe te disponeeren so wert consent
+                    versogt den ditto. sarck tegen de muer van de thoren met yser doken vast te
+                    maken tot memorie van de voors. <del rend="overstrike">Q</del> fameusen Quinten
+                    massys tot loft deser stadt dit doende etc.</p>
+                <p>Is by <choice><expan>my<ex>n</ex>e E<ex>erwaerdige</ex> H<ex>eeren</ex>
+                            B<ex>orgermeester</ex> en<ex>de</ex> S<ex>chepenen</ex></expan>
+                        <abbr>mye E H B en S</abbr></choice> gekommitteert <rs type="person" ref="#behagel_anthonis">Anthony
+                        Behagel</rs>
+                    <choice> <expan> schicken<ex>den</ex></expan> <abbr>schicken</abbr>
+                    </choice> om hem opt dinhout van desen tinformeren ende syn rapport gehoort
+                    voorts gedaen te worden naer behooren </p><closer><dateline>Actum <date when="1629-12-12">12 decembris
+                        1629</date> ondergeschreven.</dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

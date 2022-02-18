@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_235b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen Rates und
+                    eventuelle weitere Zahlungen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-3002-654v">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte 23e d’Ambroise van Oncle, receuveur
+                            général des finances des Pays-Bas, du 1er janvier au
+                            31 décembre 1637)</collection>
+                        <idno type="signatur">B. 3002, fol. 654v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen
+                            Rates und eventuelle weitere Zahlungen</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                         
+                            <filiation>
+                                <note resp="A.H." type="footnote">bzgl. seines Honorars als Sekretär des Geheimen Rates vergleiche die folgenden Dokumente, die alle um das Jahr 1637 datiert sind:
+                                    <ref type="rubens" cRef="ed_rubens_235">Dokument Nr. 235</ref>;
+                                    <ref type="rubens" cRef="ed_rubens_235a">Dokument Nr. 235a</ref>.<lb/>
+                                  
+                                    Zur Bezahlung der Bilder für den Landsitz El Pardo
+                                   vergleiche auch die Akten vom <ref type="rubens" cRef="ed_rubens_231">9. Dezember
+                                        1636</ref> sowie Eintragungen über eine weitere Zahlung aus dem Jahr <ref
+                                            type="rubens" cRef="ed_rubens_239">1638</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1637" notAfter="1637">? 1637</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3. Antwerpen 1888.
+                            S. 129f.</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div xml:lang="fra">
+                <p><pb n="654v"/>7500 livres à messire <rs type="person"
+                    ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>, chevalier, por la parpaye
+                    de 10000 paereilles livres que Son Altèze, par son ordonnance du <date
+                        when="1636-12-09">nœufiesme de décembre 1636</date>, at ordonné de luy
+                    furnir à bon compte de ce que consteroyent les peinctures qu’Icelle at faict
+                    faire par ordre exprès de Sa Majesté et pour ornement de certaine maisin de
+                    plaisance à Pardo, à payer les dites mille livres en quatre termes, à sçavoir un
+                    quart promptement et les restans trois quarts de trois en trois mois après ledit
+                    premier payement, et ce des deniers desdits licentes, et se faisant ce présent
+                    payement pour les trois derniers payements, ayant receu le précédent payement de
+                    2500 livres au mois de <date when="--01">janvier</date> dernier, porté cy-devant
+                    folio 647, par ladite ordonnance de Son Altèze exhibée audit premier payement et
+                    quictance pour ceste partie y servante, veue en l’estate dudit mois, folio
+                    eodem; cy-rend ladicte somme 7500 livres; par ordonnance alléguée et rendue
+                    cy-devant, folio 647 et quictance conforme au texte cy-rendu. </p>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

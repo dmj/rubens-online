@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_207">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein Honorar als Hofmaler und als Sekretär des
+                    Geheimen Rates</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-2962">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte seizième d’Ambroise van Oncle, du 1 janvier au 31 décembre
+                            1630)</collection>
+                        <idno type="signatur">B. 2962, fol. 627r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erhält sein Honorar als Hofmaler</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. auch ein weiteres Dokument gleichen Datums im
+                                    ARL mit der Signatur <ref type="rubens" cRef="ed_rubens_208">B. 2919</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1629" notAfter="1630">? 1629/30</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord, in: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, Antwerpen 1888,
+                            S. 126</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Hofmaler</term>
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                    <term xml:lang="deu">Sekretär</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p> 500 livres à messire <rs type="person" ref="#rubens_peter_paul">Pierre-Paul
+                        Rubens</rs>, chevalier, gentilhomme de la maison de Son Altesse
+                        Sérénissime<index indexName="psw">
+                        <term type="PND">Isabella (Spanien, Infantin)</term>
+                    </index>, pour une année de son traitement commencée le <date when="1628-09-23"
+                        >23e de septembre 1628</date> et finie le <date when="1629-09-22">22e
+                        septembre ensuivant 1629</date>. </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_197">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens gibt zu Protokoll von Peeter und Jan van Weerde Geld für
+                    ein Haus in der Meisstraat empfangen zu haben</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-597-267">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1630/ I: Waerbeeck, Ketgen, Cauwenberg &amp;
+                            Guyot</collection>
+                        <idno type="signatur">SR 597, fol. 267r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens gibt zu Protokoll, von Peeter und Jan van Weerde
+                            Geld für ein Haus in der Meisstraat empfangen zu haben</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           <filiation>
+                               <note resp="A.H." type="footnote">Jan Hesius verkaufte im Namen seiner Frau eine
+                               jährliche Rente auf Den gulden Arent an Peter Paul Rubens. Vgl. die hier
+                               erwähnte Akte vom <ref type="rubens" cRef="ed_rubens_118">9. Mai
+                                   1614</ref>.</note>
+                           </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1630-06-27">27. Juni 1630</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="deu">Finanzen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Heer <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>
+                    secretaris van de secreten readt van sijne majesteit ende edelman vande huyse
+                    van haere hoocheyt bekende opgebeurt ende ontfangen te hebben van <rs
+                        type="person" ref="#weerde_peeter">Peeter</rs> ende <rs type="person"
+                        ref="#weerde_jan">Jan van Weerde</rs> proprietaris en uyter tyt vande huysen
+                    naebescreven de capitaele penningen vande vijffentseventich carolusguldens
+                    erffelyck mette achterstelle daeraff verschenen die <rs type="person"
+                        ref="#hesius_jean">Jan Hesius</rs> voor hem selven ende inde naeme van
+                    jouffrouwe <rs type="person" ref="#esche_helene">Helene van Esche</rs>, sijne
+                    huysvrouwe opden <date when="1614-05-09">9 Meye anno 16<hi rend="super">c</hi>
+                        ende vierthien</date>, hem comparant vercocht ende getransporteert heeft op
+                    eene huysinge mette hove, gronde ende toebehoorten geheeten Den gulden
+                        Arent<index indexName="stw">
+                        <term xml:lang="ndl">Den gulden Aerent</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="ndl">Den gulden Arent</term>
+                    </index>, gestaen ende gelegen inde Meirstraete met dry kleyne huysen in ’t <rs
+                        type="place" ref="#hoplant">Hoplant</rs> gestaen prout <span from="" xml:lang="lat">littera quam
+                            tradidit, quitavit, promittens res</span>.</p> <closer>Sonder argelist.<lb/>
+                    <dateline><date when="1630-06-27">Vigesima septima Juny 1630</date>.<lb/> Solutus 24 st.
+                    </dateline></closer>
+            </div>
+        </body>
+    
+    </text>
+</TEI>

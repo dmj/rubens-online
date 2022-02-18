@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_088">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Auflösungsbescheid einer Hypothek auf den Hof zu Hombeek</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-459">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1605/ IV: Moy &amp; Neesen</collection>
+                        <idno type="signatur">SR 459, fol. 133r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Auflösungsbescheid einer Hypothek auf den Hof zu Hombeek</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1605-02-17">17. Februar 1605</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 360-362<ptr type="gbv" cRef="146162595"
+                            /></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Hypothek</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Comparerende jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie
+                    Pypelincx</rs>, weduwe van wijlen M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_jan">Jan Ruebens</rs>, met eenen momboir haer
+                    gegeven metten rechte, voorde twee derdendeelen valide rente naebeschreven, ende
+                    jouffrouwe <rs type="person" ref="#pypelincx_susanne">Susanna Pypelincx</rs> met
+                        <rs type="person" ref="#schot_peeter">Peeter de Schot</rs> haeren man, voor
+                    het resterende derdendeel vande selve rente naergeruert, hebben bekent dat <rs
+                        type="person" ref="#helmans_ferdinando">Ferdinando Helmans</rs> ende
+                    jouffrouwe <rs type="person" ref="#veckte_caterina">Caterina vander Veckte</rs>,
+                    sijn huysvrouwe, als dactie hebbende van <rs type="person" ref="#lange_gillis"
+                        >Gillis de Lange alias de Papegays</rs> ende sijne kinderen, woonende tot
+                    Mechelen, ende daertoe bij hun specialijck gcconstitueert ende machtich gemaect
+                    als in rem propriam, hun comparanten wel ende deuchdelijck betaelt ende in
+                    baeren gelde getelt heeft de capitaele penningen van een hondert gulden
+                    erffelijck, tegens den pennink sesthiene, vande rente van drij hondert guldens
+                    erffelijck die sij comparanten jacrelycx waeren heffende op des voirnoempden
+                    Papegais, nu des voirnoempden Hellemans ende zijnder huysvrouwe hoeve, groot
+                    tweentwintich bunderen oft daer ontrent, gelegen tot <rs type="place"
+                        ref="#hombeek">Hombeke</rs><index indexName="stw">
+                        <term xml:lang="nld">Hombeek</term>
+                    </index> in <rs type="place" ref="#smal_brabant">Smal-Brabant</rs> ende Semps,
+                    soo dat deselve rente voortaen maar blijven en sal, tot laste vande voors.
+                    hoeve, twee hondert guldens tsjaers ende dat in voldoeninge vanden minnelijcken
+                    accorde ende transactie bijde comparanten ghemaect metten voornoempden Papegays,
+                    bij willeg condamnatie gepasseert voor mijne Heeren vanden grooten Raede te <rs
+                        type="place" ref="#mechelen">Mechelen</rs>, opden <date when="1602-12-02"
+                        >tweeden Decembris duysent ses hondert ende twee</date>, daervande
+                    voirnoempde Hellemans schuldich is den voernoempden Papegays ende kinderen
+                    costelooos ende schadeloos te garanderen ende indempneren, mits welcken de
+                    voors. comparanten bekennen ende belijden vande voors. hondert guldens erfflijck
+                    wel vernuecht ende gecontenteert te sijne, scheldende daeraff den voors.
+                    Hellemans ende zijnder huysvrouwe ende de goeden daervoren verbonden vrij ende
+                    quyt. Tot voldoeninge vande voors. transactie ende tot meerder versekeringhe des
+                    voors. Hellemans, (voor soo vele des noot sij,) hebben sij comparanten de voors.
+                    een hondert guldens erffelijckere rente met allen trecht hun daerover
+                    competerende, gecedeert ende getransporteert, cederen ende transporteren, bij
+                    desen, aenden voors. Hellemans ende sijne huysvrouwe; dies sijn den voors.
+                    Hellemans ende sijne huysvrouwe te vreden dat de resterende twee hondert guldens
+                    erflijck altijts sullen sijn ende blijven geprefereert voorde voors. hondert
+                    guldens bij desen door hen betaelt ende hiermede tot hennen behoeve gecedeert
+                    ende opgedragen. Constituerende voorts onwederroepelijck alle de voors.
+                    comparanten <gap reason="illegible"/> tsamen ende elcken besundere omme tgene des voors. is, inder
+                    voorseyder oft betere forme voor Heer ende Weth, daer des behoort, te vernieuwen
+                    ende anderwerven te passeren. Ende voorts, etc. alwaert, etc. </p>
+                <closer>
+                    <salute>Gelovende</salute>, etc.
+                    <salute>Sonder argelist</salute>.<lb/> 
+                    <dateline>Die <date when="1605-02-17">XVII<hi rend="super">o</hi>Februarii 1605</date>.
+                    </dateline> 
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

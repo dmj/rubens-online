@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_176">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens, Jan van Halmale und Cornelis Schut treten als Vormund der
+                    vier minderjährigen Kinder von Jan Brueghel auf und verkaufen in deren Namen
+                    eine Rente auf ein Haus namens Den Bok in den Gasthuisbeemden</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-581-21">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1627/ I: Waerbeeck, Ketgen, Guyot &amp;
+                            Borremans</collection>
+                        <idno type="signatur">SR 581, fol. 21r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens, Jan van Halmale und Cornelis Schut treten als
+                            Vormund der vier minderjährigen Kinder von Jan Brueghel auf und
+                            verkaufen in deren Namen eine Rente auf ein Haus namens Den Bok in
+                            den Gasthuisbeemden</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           <filiation>
+                               <note resp="A.H." type="footnote">Rubens, van Halmale und Schut traten am selben Tag
+                                   noch mehrere Male als Vormund der Kinder von Jan Brueghel auf: Vgl. den <ref
+                                       type="rubens" cRef="ed_rubens_175">Verkauf des Hauses De Meerminne</ref>,
+                                   den <ref type="rubens" cRef="ed_rubens_177">Verkauf einer Rente des Jan
+                                       Brueghel</ref>, einen weiteren <ref type="rubens" cRef="ed_rubens_178">Verkauf
+                                           einer Rente</ref>, die <ref type="rubens" cRef="ed_rubens_179">Veräußerung
+                                               einer Rente auf das Haus De Wijngaert</ref> und den <ref type="rubens"
+                                                   cRef="ed_rubens_180">Verkauf des Hauses Sint Marten</ref>. Am <ref
+                                                       type="rubens" cRef="ed_rubens_187">17. Juli 1628</ref> dann verkauften
+                                   Rubens, Pauwel van Halmale, Hendrick van Balen und Cornelis Schut das Haus Den
+                                   Bok an Franciscus de Raet.</note>
+                           </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1627-06-23">23. Juni 1627</origDate>
+                        </origin>
+                    </history>
+                   
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> De voors. comparanten<note resp="A.H." type="footnote">Peter Paul Rubens, Jan
+                van Halmale und Cornelis Schut.</note> <span from="" xml:lang="lat">dicta qualitate</span>
+                    <index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormundschaft</term>
+                    </index> vercocht omme eene somme gelts de voors. Jouffrouwe <rs type="person"
+                        ref="#marienberghe_catharina">Catharina van Marienverge</rs>, weduwe vande
+                    voors. wijlen <rs type="person" ref="#brueghel_jan_aeltere">Jan
+                        Breugel</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Breughel, Jan (der Ältere) </term>
+                    </index> de sesse sevenste deelen van d’eene helft daervan heur d’ander helft
+                    het resterende sevenste deel is toecomende ende competeerende van eene schoone
+                    groote huysinge eertijds tweewooningen geweest sijnde met diversche cameren,
+                    plaetse, hove, borneputte, regenbacke, gronde ende allen den toebehoerten,
+                    genaempt Den Bock<index indexName="stw">
+                        <term xml:lang="nld">Den Bock</term>
+                    </index>, gestaen ende gelegen inde Gasthuysbempten alhier waren achter de
+                    nieuwe Tapissiers pant, tusschen <rs type="person" ref="#snouck_gaspar">Gaspars
+                        Snouck</rs> huys aen d’eene sijde ende <rs type="person"
+                        ref="#lambrecht_michiel">Michiels Lambrechts</rs> huys ende erve aen d’ander
+                    sijde, behalvens dat de pompe opde plaetse van dese huysinge in desselfs.
+                    Michiels Lambrechts muer hangende is bij gedoochsaemheyt, gelyck oick is de
+                    venstere ende groote ceuckenvaende Noortsijde staende huysinge opde <date
+                        when="1619-03-09">negenste dach Meerts van de Jare 16<hi rend="super">c</hi>
+                        negenthiene</date> vercocht ende getransporteert heeft aen voors. wijlen
+                    Janne Breugel van wijlen hen comparante selve sesse sevenste deel inde helft
+                    toecomende bleven ende verstorven sijn ende omme welcke hhuysinge ten hoochste
+                    ende meeste proffyte te brengene is de selve door <rs type="person"
+                        ref="#halen_peeter">Peeter van Hale</rs>, oudcleercooper tot vele ende
+                    diversche vrijdagen ter Vrijdags merct te coope geveylt waaarvan als leste ende
+                    hoogste verdierdere ende meest daervore biedende cooperse gebleven is, de voors.
+                    Jouffrouwe <rs type="person" ref="#marienberghe_catharina">Catharina van
+                        Marienberge</rs> voorde somme van vijffhondert tweenseventich guldene
+                    erffelyck alvolgende breiven ende bescheden daervan sijnde die sijn mede
+                    overgaven, droege oppe ende te waerne ende vuytgenomen Casteelchys, soo wesen
+                    die daervuyt gaet sonder meer.</p>
+                <closer>
+                    <dateline>Eo die.<lb/> Soluit ut ante.</dateline>
+                </closer>
+            </div>
+        </body>
+     
+    </text>
+</TEI>

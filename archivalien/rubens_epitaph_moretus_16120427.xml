@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_111">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rubens quittiert Balthasar Moretus den Empfang von 600 Gulden als Honorar für
+                    das von ihm gemalte Epitaph von Jan Moretus</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="rubens_epitaph_moretus_16120427">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Rubens-bulletijn. Bd. 1</collection>
+                        <idno>Quittung über die Bezahlung des Epitaphs für Jan Moretus vom 27.04.1612</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens quittiert Balthasar Moretus den Empfang von 600 Gulden als Honorar für
+                            das von ihm gemalte Epitaph von Jan Moretus</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Die Abschrift wurde durch Max Rooses zusammen
+                                mit einer Abbildung des originalen Dokumentes publiziert.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1612-04-27">27. April 1612</origDate>
+                        </origin>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Max Rooses</bibl>
+                                         
+                    </source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Bulletin Rubens: annales de la Commission Officielle instituée par le Conseil
+                            Communal de la Ville d'Anvers pour la publication des documents relatifs à la
+                            vie et aux oeuvres de Rubens = Rubens-bulletijn. Bd. 1. Antwerpen 1882, S.
+                            274-276<ptr type="gbv" cRef="167057901"/></bibl>
+                        <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989, S. 179,
+                            Nr. 167 A-E.<ptr type="gbv" cRef="022373535"/></bibl>
+                    </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="stw" xml:lang="deu">Auferstehung</term>
+                    <term type="psw" xml:lang="deu">Balthasar Moretus</term>
+                    <term type="psw" xml:lang="deu">Jan Moretus</term>
+                    <term type="stw" xml:lang="deu">Epitaph</term>
+                    <term type="stw" xml:lang="deu">Liebfrauenkathedrale</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p> Ic onderscreven bekenne ontfanghen te hebben van S<hi rend="super">r</hi>
+                    <rs type="person" ref="#moretus_balthasar">Balthasar Moretus</rs> de somme van
+                    seshondert guldens eens tot betalinghe van syn vaders<note resp="A.H."
+                        type="footnote">Der 1610 verstorbene <rs type="person" ref="#moretus_jan"
+                            >Jan Moretus</rs>.</note> saligher <rs type="work" ref="#jaffe_167"
+                        >epitaphium</rs><index indexName="stw">
+                        <term xml:lang="deu">Auferstehung</term>
+                    </index><note resp="A.H." type="footnote">Das Tryptichon mit der Auferstehung
+                        Christi befindet sich in der Liebfrauenkathedrale zu Antwerpen. Vgl.
+                            <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989, S. 179,
+                            Nr. 167 A-E.<ptr type="gbv" cRef="022373535"/></bibl></note> door mij
+                            geschildert.</p>
+                    <closer>
+                        <dateline>Tot bevestinghe der waerheyt hebbe des quittantie met mijn handt
+                        ghescreven en onderteekent desen <date when="1612-04-27">27 aprill 1612</date>.</dateline><lb/>
+                        <signed><rs type="person" ref="#rubens_peter_paul">Pietro Pauolo Rubens.</rs></signed>
+                    </closer>
+            </div>
+        </body>
+        </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_217">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Auf Rat von Peter Paul Rubens werden an der St. Joriskerk Baumaßnamen
+                    durchgeführt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-579">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Collegiale actenboeken, 1633-1635</collection>
+                        <idno type="signatur">Pk. 579, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Auf Rat von Peter Paul Rubens werden an der St. Joriskerk
+                            Baumaßnamen durchgeführt</title>
+                    </head>
+                  
+                    <history>
+                        <origin>
+                            <origDate when="1635-02-05">5. Februar 1635</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Geconsenteert aen het pegma begonst te stellen aen St. Joriskercke<index
+                        indexName="stw">
+                        <term xml:lang="nld">Sint-Joriskerk</term>
+                    </index> te doen de veranderinghen by den Heere <rs type="person"
+                        ref="#tucher_robert">Robert Tucher</rs> gheproponeert ende met heer <rs
+                        type="person" ref="#rubens_peter_paul">Pedro Paulo Rubens</rs> gheraedich
+                        ghevonden.</p>
+                <closer><dateline>Actum in Collegio, <date when="1635-02-05">5 Februarij
+                    1635</date>. </dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

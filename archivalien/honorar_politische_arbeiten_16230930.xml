@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_163">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Infantin Isabella gewährt Rubens ein Gehalt von monatlich 10 Gulden für
+                    politische Arbeiten</title>
+                <respStmt>
+                    <resp>Übersetzung</resp>
+                    <name type="person">Nils Büttner</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="honorar_politische_arbeiten_16230930">
+                    <msIdentifier>
+                        <!-- richtig??? die Angaben im Buch stimmen wohl nicht mit der aus der provenance überein-->
+                        <country>Niederlande</country>
+                        <settlement type="city">Den Haag</settlement>
+                        <repository>Königliche Bibliothek</repository>
+                        <collection></collection>
+                        <idno type="signatur">[71 D 60 fol. 48]</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Infantin Isabella gewährt Rubens ein Gehalt von monatlich 10 Gulden für
+                            politische Arbeiten</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="A.H." type="footnote">Ein Faksimile des Originaldokuments findet sich auf
+                                der <ref target="http://www.kb.nl/uitgelicht/vondst/vondst200403.html">Homepage
+                                    der Königlichen Bibliothek in Den Haag</ref>: Vondsten uit de collectie
+                                tijdens tijdens werkzaamheden bij het Retroproject handschriften 2004-2006
+                                (maart 2004); Stand 27.01.2010</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1623-09-30">30. September 1623</origDate>
+                            <origPlace>Brüssel</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Das originale Dokument befindet sich in der Königlichen
+                                Bibliothek in Den Haag [71 D 60 fol. 48].</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Louis Prosper Gachard: Histoire politique et diplomatique de Pierre-Paul Rubens</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Louis Prosper Gachard: Histoire politique et
+                                diplomatique de Pierre-Paul Rubens. Brüssel: Office de Publicite, 1877, S.
+                                265f.<ptr type="opac" cRef="306740680"/>
+                            </bibl>
+                            <bibl>Max Rooses, Charles Ruelens: Correspondance
+                                de Rubens et documents épistolaires concernant sa vie et ses auvres. (Codex
+                                diplomaticus Rubenianus ; T. 1-6) Antwerpen 1887-1909, Bd. 3, S. 248f., Nr.
+                                CCCXLIX.<ptr type="gbv" cRef="446864137"/></bibl>
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Diplomat</term>
+                    <term xml:lang="deu">Politik</term>
+                    <term xml:lang="deu">Gehalt</term>
+                    <term xml:lang="deu">Honorar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <linkGrp>
+                <link targets="ed_rubens_163_deu ed_rubens_163_spa" type="translation"/>
+            </linkGrp>
+            <text xml:id="ed_rubens_163_spa">
+        <body>
+            <div part="Y" xml:lang="spa">
+                <p>
+                    <hi rend="smallCaps">Dona <rs type="person" ref="#isabella_von_spanien">Isabel
+                            Clara Eugenia</rs><index indexName="psw">
+                            <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
+                        </index>, por la gracia de Dios, Infanta de <rs type="place" ref="#spanien"
+                            >Spana</rs>, etc.,</hi><lb/>Don <rs type="person" ref="#pereda_caspar"
+                        >Gaspar Ruiz de Pereda</rs>, del habito de <rs type="corporate"
+                        ref="#orden_von_santiago">S. Tiago</rs>, del consejo de guerra del rey<index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
+                    </index>, mi senor, en estos Estados y veedor general deste su felicissimo
+                    exercito, y <rs type="person" ref="#maeda_luis">Luis de Casuso Maeda</rs>,
+                    contador del, saved que teniendo consideracion a las buenas partes de <rs
+                        type="person" ref="#rubens_peter_paul">Pedro Paulo Rubens</rs> y a lo que ha
+                    servido a Su Magestad, para que pueda continuarlo con mas comodidad, hemos
+                    tenido por bien de senalarle, como por tenor de la presente le senalamos, diez
+                    escudos de entretenimiento al mes en el castillo de <rs type="place"
+                        ref="#antwerpen">Anveres</rs>, sin obligacion de presentarse a las muestras.
+                    Por tanto os ordenamos y mandamos se los asenteis y hagais buenos en los libros
+                    de vuestros officios, para que goze dellos desde el dia de la data desta en
+                    adelante: que tal es nuestra voluntad, y que se le libren y paguen segun y como
+                    a los demas entretenidos en el dho castillo.</p>
+                <closer>
+                    <dateline> Datta en <rs type="place" ref="#bruessel">Brusselas</rs> a <date when="1623-09-30">treinta de
+                    setiembre de mill y seiscientos y veinte y tres anos</date>.
+                    </dateline><lb/>
+                    <signed><hi rend="smallCaps">Isabel</hi></signed><lb/>
+                    <salute>Por mandado de Su Alteza:</salute><lb/>
+                    <signed><rs type="person" ref="#urquina_matheo">Matheo de Urquina</rs>.</signed>
+                </closer>
+            </div>
+
+                <div xml:lang="spa"><p> V.A. señala á Pedro Paulo Rubens diez escudos de entretenimiento al mes en el
+                    castillo de Anveres, sin obligacion de presentarse á las nuestras.</p></div>
+           
+        </body>
+            </text>
+            
+                
+            <text xml:id="ed_rubens_163_deu">
+        <body>
+            <div xml:lang="deu">
+                <head>Übersetzung:</head>
+                <p> Doña <rs type="person" ref="#isabella_von_spanien">Isabella Clara Eugenia</rs>,
+                    von Gottes Gnaden Infantin von <rs type="place" ref="#spanien">Spanien</rs>,
+                    usw.<lb/> Don Caspar Ruiz de Pereda, Mitglied des <rs type="corporate"
+                        ref="#orden_von_santiago">Ordens von Santiago</rs>, Mitglied des
+                    Militärgerichts des Königs<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
+                    </index>, mein Herr in diesen Staaten, und Hüter Ihrer Armee, und Luis de Casuso
+                    Maeda, dessen Buchhalter, nehmen Sie zur Kenntnis, daß auf Grund der guten <note
+                        resp="N.B." type="footnote">Seiten</note> von <rs type="person"
+                        ref="#rubens_peter_paul">Peter Paul Rubens</rs> und der guten Dienste für
+                    Ihre Majestät, damit er mit mehr Komfort weiter dienen kann, wir ihm, wie wir
+                    Ihnen in diesem Brief mitteilen, 10 Gulden Unterhalt im Monat in der Festung <rs
+                        type="place" ref="#antwerpen">Antwerpen</rs> zugeteilt und ihn von der
+                    Verpflichtung entbunden haben, sich mustern lassen zu müssen. Von daher befehlen
+                    wir Ihnen, daß Sie ihm dies erteilen und in eure Bücher eintragen, damit er es
+                    vom heutigen Tag an erhält. Das ist unserer Willen, und daß es so geschieht, wie
+                    es in der Festung Antwerpen für alle andere Unterhaltenen die Norm ist.</p>
+                <closer>
+                    <dateline><rs type="place" ref="#bruessel">Brüssel</rs>, den <date when="1623-09-30"
+                    >30.September 1623</date>.</dateline><lb/>
+                    <signed>Isabel</signed><lb/>
+                    <salute>Mit dem Befehl Euer Hoheit</salute><lb/>
+                    <signed>Matheo de Urquina</signed>
+                </closer>
+            </div>
+                <div xml:lang="deu"><p>Ihre Hoheit gewährt <rs type="person" ref="#rubens_peter_paul">Pedro Pablo
+                    Rubens</rs> 10 Gulden Unterhalt im Monat in der Festung Antwerpen ohne die
+                    Verpflichtung, zur Armee zu erscheinen.</p></div>
+            
+        </body>
+        </text>
+        </group>
+        
+    </text>
+</TEI>

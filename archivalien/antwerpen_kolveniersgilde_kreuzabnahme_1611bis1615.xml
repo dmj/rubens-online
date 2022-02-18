@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_110">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verzeichnung von Bestellung und Lieferung des Retabels mit der
+                    Kreuzaufrichtung in den Büchern der Kolveniersgilde</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="antwerpen_kolveniersgilde_kreuzabnahme_1611bis1615">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten</collection>
+                        <idno>Einträge zu Bestellung und Lieferung des Rentabels in den Büchern der Gilde in den Jahren 1611 bis 1615</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Verzeichnung von Bestellung und Lieferung des Retabels mit der
+                            Kreuzaufrichtung in den Büchern der Kolveniersgilde</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zum Auftrag der Kolveniersgilde an Rubens
+                                    auch folgende Dokumente vom <ref type="rubens" cRef="ed_rubens_108">7. September
+                                        1611- 16. Dezember 1622</ref> und <ref type="rubens" cRef="ed_rubens_109"
+                                            >Rubens Bestätigung der Zahlung</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate from="1611" to="1615">1611 und 1615</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl>
+                        </source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Frans Baudouin: Altars and altarpieces before 1620, in: Rubens before
+                                1620. The Art Museum, Princeton University, hg. John Rupert Martin.
+                                Princeton/New Jersey 1972, S. 61f.<ptr type="gbv" cRef="306896001"/></bibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877, S. 456f<ptr type="gbv"
+                                    cRef="146162595"/></bibl>
+                            <bibl>Max Rooses, In: Bulletin Rubens: annales de la Commission Officielle
+                                instituée par le Conseil Communal de la Ville d'Anvers pour la publication
+                                des documents relatifs à la vie et aux oeuvres de Rubens = Rubens-bulletijn.
+                                Bd. 5. Antwerpen 1910, S. 230-233<ptr type="gbv" cRef="167057901"/></bibl>
+                            
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p>
+                    <table>
+                        <row>
+                            <cell>Op drij visitatien van het paneel<index indexName="stw">
+                                    <term xml:lang="deu">Kreuzabnahme</term>
+                                </index><note resp="A.H." type="footnote">Das Tryptichon mit der <rs
+                                        type="work" ref="#jaffe_189ABC">Kreuzabnahme</rs> befindet
+                                    sich in der Liebfrauenkathedrale Antwerpen.</note> in huyse van
+                                ditto <rs type="person" ref="#rubens_peter_paul">Rubens</rs> anno
+                                    <date when="1611">1611</date>, is betaelt aen drinckgelt aende
+                                discipels ende beschenckinge van wijn</cell>
+                            <cell>gl. 9-10</cell>
+                        </row>
+                        <row>
+                            <cell>Int jaar <date when="1612">1612</date> is het stuck uytgehaelt uyt
+                                het huys van ditto Rubbens. betaelt aende arbeyders voor het voeren
+                                vande stoffen van houtwerck, peneel, als het afdoen van het stuck
+                                vanden solder tot inden vloer ten huyse van P.P. Rubens, van uyt
+                                hetselven huys te voeren naer de capelle, leveringe van berdt
+                                daertoe verbesight ende andere materialen, mitsgaders oock van
+                                verscheyde gelaeghen, soo int besteden met de aennemers als
+                                wercklieden, bij specificatie</cell>
+                            <cell>gl. 17-14 ¼</cell>
+                        </row>
+                        <row>
+                            <cell>Op <date when="1615-01-08">8 Januarij 1615</date> is
+                                geaccordeert met P.P. Rubens ende <rs type="person"
+                                    ref="#remeeus_david">David Remeeus</rs> vergulder, nopende hun
+                                naerwerckt, ende alsdan met hun, present de oude dekens, verteert</cell>
+                            <cell>gl. 46-18</cell>
+                        </row>
+                        <row>
+                            <cell>Item alsdan aen P.P. Rubens betaelt op rekeninge van sijne
+                                tachterheyt, bij quittanticie</cell>
+                            <cell>gl. 1000, –</cell>
+                        </row>
+                        <row>
+                            <cell>Item oock betaelt aen David Remeeus, vergulder, voor tvergulden
+                                vande schilderye ende bijvalle, bij quittancie</cell>
+                            <cell>gl. 110</cell>
+                        </row>
+                        <row>
+                            <cell>Anno <date when="1615">1615</date> betaelt<lb/>Voor een paer
+                                hantschoenen geschoncken aende huysvrouwe<index indexName="psw">
+                                    <term xml:lang="deu">Isabella Brant</term>
+                                </index> van P.P. Rubens, als besproken.</cell>
+                            <cell>gl. 8-10</cell>
+                        </row>
+                    </table>
+                </p>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

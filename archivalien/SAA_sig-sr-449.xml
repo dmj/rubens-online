@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_083">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quittung über eine Rente auf das Haus St. Arnoldus auf dem Meir zu Gunsten
+                    von Susanna und Maria Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-449">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1603/ II: Kieffelt &amp; Bogge</collection>
+                        <idno type="signatur">SR 449, fol. 63r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Quittung über eine Rente auf das Haus St. Arnoldus auf dem Meir
+                            zu Gunsten von Susanna und Maria Pypelincx</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1603-01-28">28. Januar 1603</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 348<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu" type="psw">Susanna Pypelincx</term>
+                    <term xml:lang="deu">Sint Arnold</term>
+                    <term xml:lang="deu">Rente</term>
+                 </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Jouffrouwe <rs type="person" ref="#pypelincx_susanne">Susanna Pypelinck</rs> met
+                        <rs type="person" ref="#schot_peeter">Peteren de Schot</rs>, <span from="" xml:lang="lat">ejus marito et
+                            tutore</span>, bekende ende verlijde, mits desen, opgebeurt ende ontfangen te hebbene
+                    van <rs type="person" ref="#hoons_henrich">Henricke Hoons</rs>, coopmanne, de
+                    hooftpenningen, jegens den penninck sesthiene, metten onbetaelden achterstelle
+                    vande een hondert Karolus guldenen erflijck die heur comparante quamen vande
+                    twee hondert Karolus guldenen tsjaers erflijcker renten, daeromme jouffrouwe <rs
+                        type="person" ref="#pypelincx_maria">Marie Pypelinck</rs>, weduwe wijlen
+                    Meesters <rs type="person" ref="#rubens_jan">Jans Rubbens</rs>, <span from="" xml:lang="lat">cum tutore</span>, ende
+                    sij comparante, <span from="" xml:lang="lat">cum marito et tutore prædicto</span>, <date when="1601-10-31"
+                        >ultimo octobris anno XVI<hi rend="super">c</hi> een</date>, terve gegeven
+                    hebben den voirs. Henricke Hoons, een huys metten neercameren, dwelck een
+                    wooninge op heur selve plach te sijne, metter wooninge ende paarte daerneffens,
+                    metter stoven achter tvoirs. huys, metten kelder onder deselve stove, metter
+                    plaetsen, gange dienende totter selver poirten, metten hove, <span from="" xml:lang="lat">fundo et omnibus
+                    pertinentiis</span>, gestaen ende gelegen inde Meire alhier<index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    </index>, tusschen <rs type="person" ref="#zuero_diego">Diego Lopez Zuero</rs>
+                    huysinge ende erve genaempt den Gulden Cop<index indexName="stw">
+                        <term xml:lang="deu">Gulden Cop</term>
+                    </index>, ex una, oistwaerts ende des voirs. Henrix Hoons andere huysinge ende
+                    erve, genaempt Sint Arnoult<index indexName="stw">
+                        <term xml:lang="deu">Sint Arnoult</term>
+                    </index>, ex altera, westwaerts, comende achter aen <rs type="person"
+                        ref="#gielis_franchois">Franchois Gillis</rs>’ raemhoff was, verschijnende
+                    jaerlix <date when="--10-31">ultimo octobris</date> prout litteræ, daeraf sij
+                    heuren triplex brief overgaff.</p>
+                
+                <closer>Quitandum; 
+                    <salute>gelovende</salute>.<lb/>
+                        <dateline>Die <date when="1603-01-28">XXVIII Januarij 1603</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

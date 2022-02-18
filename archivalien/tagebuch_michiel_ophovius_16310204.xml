@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_258">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rubens trifft sich mit Michiel Ophovius (1571–1637) um über einen Entwurf
+                    für dessen Grabmal zu sprechen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="tagebuch_michiel_ophovius_16310204">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Max Rooses: Rubens en Ophovius</collection>
+                        <idno>Tagebucheintrag von Michiel Ophovius vom 4. Februar 1631</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens trifft sich mit Michiel Ophovius (1571–1637) um über einen Entwurf
+                            für dessen Grabmal zu sprechen</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Auszug aus einem Tagebuch von <rs
+                                type="person" ref="#ophovius_michael">Ophovius</rs> unter dem Datum vom
+                                4. Februar, dessen Einträge vom 4. August 1629 bis zum 1. Januar 1631
+                                reichen.</note>                            
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch Ophovius' Tagebucheinträge vom
+                                    <ref type="rubens" cRef="ed_rubens_259">7. und 8.</ref> sowie vom 
+                                    <ref type="rubens" cRef="ed_rubens_260">23. August 1631</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>                            
+                            <origDate when="1631-02-04">4. Februar 1631</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Das Tagebuch befand sich im 19. Jahrhundert im
+                                Groot Seminarie van ’s-Hertogenbosch te Haaren.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Max Rooses: Rubens en Ophovius</bibl>
+                    </source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Max Rooses: Rubens en Ophovius. In: Rubens-Bulletijn -
+                            Bulletin Rubens. Bd. 5. Antwerpen: de Backer, 1910. S. 161-163</bibl>
+                    </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw">Ophovius, Michael</term>
+                    <term xml:lang="deu">Grabmal</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="lat">
+                <p>Ivi ad D. <rs type="person" ref="#rubens_peter_paul">Rubbenium</rs> pro
+                    disponenda sepultura</p>
+            </div>
+        </body>
+        </text>
+</TEI>

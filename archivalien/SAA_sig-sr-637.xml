@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_229">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jeremias Wouters verbürgt den guten Zustand eines schwarzen Hengstes, ein
+                    Pferd, das Peter Paul Rubens von Henrich Janssens aus Bergen-op-Zoom gekauft
+                hat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-637">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1636/ IV: van Huffel sr., D. Fabri &amp; van
+                            Huffel jr.</collection>
+                        <idno type="signatur">SR 637, fol. 517r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jeremias Wouters verbürgt den guten Zustand eines schwarzen
+                            Hengstes, ein Pferd, das Peter Paul Rubens von Henrich Janssens aus
+                            Bergen-op-Zoom gekauft hat</title>
+                    </head>
+                  
+                    <history>
+                        <origin>
+                            <origDate when="1636-07-05">5. Juli 1636</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p><rs type="person" ref="#wouters_jeronimus">Jeronimus Wouters</rs> hem geneirende
+                    met Peerden, wonende op de Peerdenmerckt, in’t Sweert, heeft geloft en is borge
+                    gebleven geloffde ende bleef borge als principael mits dese voors. <rs
+                        type="person" ref="#janssens_henrick">Henrick Janssens</rs> wonende in ’t
+                    Nieuw Vosmeer bij <rs type="place" ref="#bergen_op_zoom">Bergen op Zoom</rs> aen
+                        <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Rubens</rs>, riddere
+                    etc. voor de dencxt van alsulcken peert, wesende eene zwertte hencxt, hebbende
+                    eene witte colle voor het voorhooft ende achter eene witte voet, als den selven
+                    Henrick Janssens van sondage lestleden aende voors. heer Rubens heeft vercocht,
+                    te wetene dat ’t selve peert gedurende den tijt van ses weken nyet ende sal
+                    wesen dempich, snottich oft wormich achter volgend d’ordonnantie van de roscam,
+                    daerop gemaeckt sijnde <span from="" xml:lang="lat">unde obligavit se et sua quicumque et ubiquinquo</span> mede
+                    compareerde de voors. Hendrich Janssen ende geloffde de voors. Jeronimus Wouters
+                    sijne borge vande voors. sijne gelofte ende bochtochte altijts wel ende wel
+                    menelyck te ontheffen ende te bevrijen tegens eenen yegelycken talle dagen, unde
+                    <span from="" xml:lang="lat">obligavit etiam se et sua</span>.</p>
+                <closer>
+                    <dateline><date when="1636-07-05">Quinta july 1636</date><lb/> Solutum 26 st.</dateline>
+                </closer> 
+            </div>
+        </body>
+    </text>
+</TEI>

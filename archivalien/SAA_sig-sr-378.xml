@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_063">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maria Pypelincx vor dem Antwerpener Magistrat, um ihren Anteil am Haus Sint
+                    Arnold auf dem Meir als Sicherheit für die Bezahlung eines Betrages verzeichnen
+                    zu lassen, den Jan Rubens einem Kind seiner verstorbenen Halbschwester Barbara
+                    de Lantmeter schuldig war</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-378">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1584/ II: Gillis &amp; Zeverius</collection>
+                        <idno type="signatur">SR 378, fol. 38r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Maria Pypelincx vor dem Antwerpener Magistrat, um ihren Anteil am
+                            Haus Sint Arnold auf dem Meir als Sicherheit für die Bezahlung eines
+                            Betrages verzeichnen zu lassen, den Jan Rubens einem Kind seiner
+                            verstorbenen Halbschwester Barbara de Lantmeter schuldig war</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1584-02-24">24. Februar 1584</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877, S. 259<ptr type="gbv" cRef="146162595"
+                                /></bibl>
+                            <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
+                                Schilderschool. Antwerpen 1883, S. 377<ptr type="gbv" cRef="194552292"
+                                /></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu" type="psw">Barbara de Lantmeter</term>
+                    <term type="TGN" xml:lang="deu">Antwerpen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Jouff<hi rend="super">r</hi><rs type="person" ref="#pypelincx_maria">Marie
+                        Pypelincx</rs>, <rs type="person" ref="#pypelincx_hendrick">Henricx</rs>
+                    dogtere wylen, wettige huysvrouwe M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_jan">Jan Rubens</rs> oudschepen deser stadt, coopvrouwe dryvende heurs selfs handel, 
+                    zoo zy verclaerde, met eenen
+                    vremden momboir heur gegeven metten rechte, mits dat den voors. heuren man nu
+                    jegenwordelyk is tot <rs type="place" ref="#koeln">Ceulen</rs> ende bekende
+                    schuldig te zyn van goeder rechtveerdige schult, <rs type="person"
+                        ref="#lantmeter_philipp">Philips de Lantmetere</rs> oock oudschepenen nu
+                    tertyt keurmeester dezer stadt, enz., de somme van <measure type="currency"
+                        quantity="1200">xij<hi rend="super">c</hi></measure> Carolus guldens eens van
+                        <measure type="currency" quantity="20">xx</measure>. stuyv. tstuck,
+                    toecomende van gelykcn somme by heur comparant in gereeden penningen alsnu
+                    olltfangen soo zy verclaerde, welcke somme zy comparante geloeft heeft te
+                    restitueren tusschen dit en vier jaeren naestcommende, enz. unde obligavit
+                    specialyck de helft van heur huysinge metten woonhuyse, enz. genaemt S.
+                        Arnoult<index indexName="stw">
+                        <term xml:lang="deu">Sint Arnold </term>
+                    </index>, gestaen in de Meere<index indexName="stw">
+                        <term xml:lang="deu">Meir</term>
+                    </index> alhier,</p> 
+                <closer>
+                    <salute>sonder argelist.</salute><lb/>
+                        <dateline>
+                            <date when="1584-02-24">xxiiij. February 1584</date>.
+                        </dateline>
+                </closer> 
+            </div>
+        </body>
+    
+    </text>
+</TEI>

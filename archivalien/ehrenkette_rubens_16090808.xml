@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_099">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Zahlungsbeleg über ein für Rubens angefertigtes Geschenk der Erzherzöge: eine
+                    goldene Ehrenkette mit dem Bildnis des Herrscherpaares</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ehrenkette_rubens_16090808">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Alexandre Pinchart: Archives des arts, sciences et lettres</collection>
+                        <idno>Zahlungbeleg über eine Ehrenkette für Peter Paul Rubens vom 8. August 1609</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Zahlungsbeleg über ein für Rubens angefertigtes Geschenk der Erzherzöge: eine
+                            goldene Ehrenkette mit dem Bildnis des Herrscherpaares</title>
+                    </head>
+                    <history>
+                        <origin>
+                            <origDate when="1609-08-08">8. August 1609</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Das Dokument befand sich im 19. Jahrhundert in
+                                Brüssel, im Archives générales du Royaume.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Alexandre Pinchart: Archives des arts, sciences et lettres </bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Alexandre Pinchart: Archives des arts, sciences et lettres: ocuments
+                                inédits publiés et annotés. Gent 1860, Bd. 2, S. 170<ptr type="gbv"
+                                    cRef="231294484"/></bibl>
+                            <bibl>Max Rooses, Charles Ruelens: Correspondance de Rubens et documents
+                                épistolaires concernant sa vie et ses auvres. (Codex diplomaticus Rubenianus
+                                ; T. 1-6) Antwerpen 1887-1909, Bd. 2, S. 5<ptr type="gbv" cRef="446864137"/></bibl>
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Rubens, Peter Paul</term>
+                    <term xml:lang="deu">Ehrenkette</term>
+                    <term xml:lang="deu">Geschenk</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="spa">
+                <p>Señor, Su Alteza me ha mandado diga á Vm. de su parte, que Vm. mande hazer una
+                    órden de 600 fl. sobre nosotros, para darlos á <rs type="person"
+                        ref="#staes_roberto">Roberto Staes</rs>, su platero de oro: los 300, para
+                    hazer dellos una cadena de oro con una medalla de los rostros de Suz Altezas,
+                    para darla á un pintor que se llama <rs type="person" ref="#rubens_peter_paul"
+                        >Pedro Paulo Rubens</rs>, vezino de <rs type="place" ref="#antwerpen"
+                        >Amberes</rs>, que Su Alteza le haze merced della, y los otros 300 á buena
+                    quenta de las obras que está haziendo y haze hazer el dicho platero. Y con esto
+                    guarde Nuestro-Señor Vm. como puede y Vm. dessea.</p>
+                
+                <closer>
+                    <dateline>De palacio, oy <date when="1609-08-08">8 de agosto 1609</date>.</dateline>
+                    <salute>Soy muy cierto servitor de Vm.</salute> 
+                    <signed><rs type="person" ref="#encenhaer_joachim"><hi rend="smallCaps">Joachim</hi>
+                    </rs>.</signed>
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

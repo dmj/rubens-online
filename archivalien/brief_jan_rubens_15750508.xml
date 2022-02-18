@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_311">
+    <!-- ID vergeben -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Jan Rubens an die Grafen von Nassau</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:id="brief_jan_rubens_15750508" xml:lang="deu">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Brief des Jan Rubens vom 8. Mai 1575</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Brief von Jan Rubens an die Grafen von Nassau vom 8.
+                            Mai 1575</title>
+                    </head>
+                    <history>
+                        <origin>
+                            <origDate when="1575-05-08">8.
+                        Mai 1575</origDate>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 147 f., Anm. 1.<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Jan</term>
+                    <term type="psw" xml:lang="deu">Pypelincx, Maria</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <salute>Tres illustres Seigneurs,</salute>
+                <p> Il est impossible que ma femme puisse trouver pleige en ce pays icy; nous sommes
+                    povres mon bien est confisqué et le bien de ma femme est en voz mains; le père
+                    et la mère vivent et personne ne vouldroit pour telle cause et chose incertaine,
+                    comme est, plaiger pour les péchez d’aultruy, généralement pour une somme
+                    incertaine. <rs type="person" ref="#raymond">Raymond</rs> le feroit, par avanture, mais il n’a point des biens et est
+                    petit marchand, qui parderoit son crédit, s'on sçavoit qu'ii fût obligé si
+                    avant: mon beau père et mère, mes frères et seurs sont en Anvers et ne le
+                    pourroyent, ny vouldroyent faire de poeur de perdre corps et biens. Si nous
+                    parvenions à meilleur fortune, nous ferons tout ce que VV. SS. vouldront.....
+                    baise les mains de VV. SS. </p>
+                <closer><salute>Leur très-humble serviteur et prisonnier.</salute><signed><rs
+                            type="person" ref="#rubens_jan">J. RUEBENS.</rs></signed><dateline><date
+                            when="1575-05-08">8 May (1575)</date>.</dateline></closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

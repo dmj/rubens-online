@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
+    xml:lang="deu" xml:id="ed_rubens_266">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Joost van Vondel: Poëzy, of verscheide gedichten</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="vondel_poezy_1651">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Wofenbüttel</settlement>
+                        <repository>Herzog August Bibliothek</repository>
+                        <idno type="signatur">M: Lp 168</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Joost van den Vondel veröffentlicht in seiner "Poëzy, of verscheide
+                            gedichten" die Übersetzung eines Gedichts auf Rubens' Gemälde "Hero und
+                            Leander" aus Giambattista
+                                Marinos "La Galleria".</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. das in der "Galleria" erschienene <ref type="rubens" cRef="ed_rubens_267">Gedicht auf  "Hero und Leander"</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Joost van den Vondel: Poëzy, of verscheide
+                                    gedichten</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Joost van den Vondel: Poëzy, of verscheide gedichten. Leeuwarden:
+                                Sybes, 1651. S. 486<ptr type="opac" cRef="237817632"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld" type="title_page">
+                <index indexName="fsw">
+                    <term type="structure" target="#title_page" xml:lang="deu">Titelblatt</term>
+                </index>
+                <p rend="text-align:center">
+                    <rs type="person" ref="#vondel_joost">J. v. Vondels <index indexName="psw">
+                            <term type="PND" xml:lang="deu">Vondel, Joost van den</term>
+                            <index indexName="fsw">
+                                <term type="structure" target="#author" xml:lang="deu"
+                                >Verfasser</term>
+                            </index>
+                        </index></rs><lb rend="line-height:150%"/> POËZY<lb/> OF<lb/>
+                    VERSCHEIDE<lb/> GEDICHTEN,<lb rend="line-height:150%"/> By een vergadert,
+                    vermeert, en op een<lb/> nieuw oversien.<lb rend="line-height:150%"/> Mitsgaders
+                    een Aenleidinge ter Nederduitsche<lb/> DICHTKUNSTE.<lb rend="line-height:150%"/>
+                    To <hi rend="smallCaps">
+                        <rs type="place" ref="#leeuwarden">Leewarden</rs>
+                    </hi>,<lb rend="line-height:150%"/>
+                    <hi rend="italic">By</hi>
+                    <rs type="person" ref="#sybes_gysbert">Gysbert Sybes</rs>
+                    <hi rend="italic">Boeckvercooper, woonende in de<lb/> Clock-straet. Anno</hi>
+                    <date when="1651">1651</date>. </p>
+            </div>
+            <div part="Y" xml:lang="nld">
+                <pb n="486"/>
+                <head rend="text-align:center"><rs type="work" ref="#jaffe_51">OP DEN DOODE
+                        LEANDER<lb/> In d´armen der ZEEGODINNEN</rs><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Hero und Leander</term>
+                        </index>
+                    </index>,<lb/>
+                    <hi rend="smallCaps">Door <rs type="person" ref="#rubens_peter_paul">Rubens</rs>
+                        Geschildert</hi>.<lb/> Uit <hi rend="smallCaps">
+                        <rs type="person" ref="#marino_giambattista">Marino</rs>
+                        <note resp="A.H." type="footnote">Bei dem in New Haven aufbewahrten Gemälde
+                            handelt es sich wahrscheinlich um das von Giambattista Marino in seiner
+                            Galleria besungene Bild. vgl. das <ref type="rubens"
+                                cRef="ed_rubens_267">Gedicht von Marino</ref> in <bibl>Giovanni
+                                Battista Marino: La Galeria. Bd. 1. Padua 1979. S. 19. Nr. 19</bibl>
+                            und <bibl>Michael Jaffé: Rubens - Catalogo completo. Milano 1989. S.
+                                156f. Nr. 51<ptr type="gbv" cRef="022373535"/></bibl></note>
+                        <index indexName="psw">
+                            <term type="SWD" xml:lang="deu">Marino, Giambattista</term>
+                            <index indexName="stw">
+                                <term xml:lang="ita">La Galeria</term>
+                            </index>
+                        </index>
+                    </hi></head>
+
+                <p> Waer draeght ghy uit verkeerr ontfarmen,<lb/> Wo Nimfen, Godtheên van de
+                    zeen,<lb/> Op deze dootbaer van uwe armen,<lb/> Den drenckling van Abidus
+                    heen,<lb/> Diet met de stormen omgedreven;<lb/> Wert in uw schuimende
+                    element,<lb/> Het welck zijn minnevier en leven<lb/> Al teffens bluschte? o
+                    Nimfen, went;<lb/> Wat voertge met zijn natte hairen<lb/> Den dooden Sestus te
+                    gemoet?<lb/> Ziet hem zijn Joffer in de baren<lb/> Aen´t zeestrant drobbren op
+                    den vloet,<lb/> Dat will tot grooter ramp uitspatten<lb/> Dan ofze´t lijck al
+                    kost omvatten.<lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

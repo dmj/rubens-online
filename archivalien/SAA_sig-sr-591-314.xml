@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_185">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens gibt zu Protokoll für sich und im Namen seiner Kinder ein
+                    bei Doel gelegenes Stück Land an Daniel de la Brecque verkauft zu haben</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-591-314">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1628/ V: D. Fabri &amp; van Huffel jr.</collection>
+                        <idno type="signatur">SR 591, fol. 314r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens gibt zu Protokoll für sich und im Namen seiner
+                            Kinder ein bei Doel gelegenes Stück Land an Daniel de la Brecque
+                            verkauft zu haben</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1628-07-05">5. Juli 1628</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Landbesitz</term>
+                    <term xml:lang="deu">Grundbesitz</term>
+                    <term xml:lang="deu">Liegenschaften</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Jonker <rs type="person" ref="#rubens_peter_paul">Petro Paulo Ruebens</rs>
+                    edelman van de huyse van hare doorluchtichste hoocheyt, soo voor hem selven als
+                    inde name van zijne kinderen daer moeder aff was jouffrouwe <rs type="person"
+                        ref="#brant_isabella">Isabella Brant</rs> de welcke zijne kinderen hij
+                    comparante in desen is vervangende ende hem daer voore sterckmaekende ende
+                    laverende <span from="" xml:lang="lat">de rato constituit</span> S<hi rend="super">r</hi>
+                    <rs type="person" ref="#brecque_daniel">Daniel de la Brecque</rs>, omme inde
+                    name van hem constituant in voors. qualiteyt, te vercoopken, cederen,
+                    transporteren ende op te dragen aen alzulcken persoon oft persone, voor zulcken
+                    prijs, somme van penninghe ende op alzulcken conditie bespreken ende voorwaerden
+                    als hem gemachticht, goetduncken ende gelieven zal, achtentachtich gemeten
+                    eenhondert sessendertich roeyen landts gelegen in vijff verscheydenen percheele
+                    in de bedijkte Polder voor <rs type="place" ref="#doel">Doel</rs>, te wetene een
+                    stuck van 22<hi rend="super">tich</hi> gemeeten = 230 roeden, een stuck van
+                    dertich gemeten 143¾ roeden, een stuck van vijffthien gemeten, een stuck van
+                    achthien gemeten = 54 roeten ende een stuck van twee gemeeten = negen roede, de
+                    cooper oft coopers daer inne te goeden, te erve ende te vestighen ende hem
+                    constituant ende zijne kinderen daeraff te ontgoeden ende te onterven, met
+                    brieven oft anderssints soo behooren sal halven etc., de penninck etc.,</p>
+                    <closer>
+                        <salute>quitandum, ende voorts. etc., alwaert etc., geloevende etc., <span from="" xml:lang="lat">sub observantie
+                        salvo</span> competerende. Sonder argelist, ende des ’toirconde etc.</salute><lb/>
+                        <dateline>
+                            <date when="1628-07-05">Quinta July 1628</date>.</dateline>
+                    </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

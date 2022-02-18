@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_298">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Urkunde des Notars van Cantelbeck vom mit Hinweisen auf die finanzielle Situation von Isabella
+                    Brant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+                
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="isabella_brant_16401025">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Urkunde des Notars van Cantelbeck vom 25. Oktober 1640</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Urkunde des Notars van Cantelbeck vom 25. Oktober 1640 mit Hinweisen auf die finanzielle Situation von Isabella
+                            Brant</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1640-10-25">25. Oktober
+                        1640</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 74f., Anm. 4<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p>Compareerden in propre persoenen Jonchers <rs type="person" ref="#rubens_albert"
+                        >ALBARTUS</rs> ende <rs type="person" ref="#rubens_nikolaas">NICOLAES
+                        RUBBENS</rs>, zonen van wylen heer <rs type="person"
+                        ref="#rubens_peter_paul">Petro PAULO RUBBENS</rs>, Ridder was, ende van
+                    wylen Vrouwe <rs type="person" ref="#brant_isabella">ISABEELE BRANT</rs>,
+                    inwoonderen deser stadt, my Notario bekent, constituerunt onwederroepelyck M<hi
+                        rend="super">r</hi>
+                    <rs type="person" ref="#cantelbeke_hendrick">HENRICK VAN CANTELBECK</rs>,
+                    licentiaet in beyde rechten ende advocaet alhier ende. <gap reason="illegible"/>
+                    tsamen ende elck van ben int bezondere om, inden naeme van hen constituanten
+                    ende van hennen twegen te compareren voor de heeren Schepenen deser stadt van
+                        <rs type="place" ref="#antwerpen">Antwerpen</rs> ende aldaer te
+                    transporteren aen ende tot behoeff vande kinderen van S<hi rend="super">r</hi>
+                    <rs type="person" ref="#fourment_daniel">DANIEL FOURMENT</rs> die jonge, daer
+                    moeder aff was JO<hi rend="super">e</hi>
+                    <rs type="person" ref="#brant_clara">CLARA BRANT</rs>, de twee negenste doelen
+                    hen comparanten competerende van een rentken van seven gulden vier stuyvers
+                    erffelyck, alsoo gereduceert tegens den penninck 20, metten onbetaelden verloop
+                    derzelver, geheven wordende op deser stadt van Antwerpen, heure ende die gemeyue
+                    ingesetenen goeden derselver, opden naem van <rs type="person"
+                        ref="#haze_peeter">PEETER DE HAZE</rs>, sub Nº 1502, daeraff die resterende
+                    zeven negenste deelen de voors. kinderen FOURMENT van te vooren toebehoorden
+                    ende hen de voors. constituerende onder andere toecomende als geinstitueerde
+                    erffgenaemen van wylen beer ende M<hi rend="super">r</hi>
+                    <rs type="person" ref="#brant_jan">Jan BRANT</rs> ende J<hi rend="super">o</hi>
+                    <rs type="person" ref="#moy_clara">CLARA De MOY</rs>, zyne huysvrouwe was,
+                    hennen grootvader ende grootmoeder was, welcke rente <rs type="person"
+                        ref="#huybrechts_jan">JAN HUYBRECHTS</rs>, onder andere, opden <date
+                        when="1684-06-29">29<hi rend="super">en</hi> Juny anno 1684</date>, voor
+                    Schepenen alhier van <rs type="person" ref="#haze_jan">Jan</rs> ende <rs
+                        type="person" ref="#haze_andries">ANDRIES de HAZE</rs>, gebroederen, PEETERS
+                    zonen wylen, gecocht ende gecregen heeft, hebbende denzelven Jan HUYBRECHTS by
+                    bescheet manuael, in date <date when="--07-26">26 July</date> daernae, onder
+                    andere verclaert den coop derzelver rente gedaen te hebben tot behoeff van M<hi
+                        rend="super">r</hi>
+                    <rs type="person" ref="#moy_hendrick">Henrick de MOY</rs>, Secretaris deser
+                    stadt, ende zynde diezelve rente die voornoemde JO<hi rend="super">e</hi> CLARA
+                    de MOY, onder andere, aengedeylt by scheydinge ende deylinge den <date
+                        when="1614-08-08">Vlll<hi rend="super">en</hi> Augusti anno XVI<hi
+                            rend="super">c</hi> vierthien</date>, voer Schepenen deser stadt
+                    gepasseert, vande naergelaelen goeden van wylen JO<hi rend="super">e</hi>
+                    <rs type="person" ref="#gulick_clara">Clara van GULICK</rs>, die geinstitueerde
+                    erffgenaeme was des voors. wylen M<hi rend="super">r</hi> Henrick de MOY, hen
+                    constituanten daeraff. tontgoyen ende tonterven, wettelycke gifte te geven,
+                    warantschappe te doen ende te geloven ende te bekennen dat zy constituanten
+                    vanden coopperen vande twee negenste deelen der voors. seven guldens voers.
+                    erffelyck metten verloop zyn betaelt ende voldaen. Ende voerts al daerinne te
+                    doene. Alwaert, etc. Gelovende, etc. onder tverbant naer rechte, sonder
+                    argelist.</p> <closer>Aldus gedaen binnen deser stadt van Antwerpen, te wetene de stipulatie
+                    des voors. JO<hi rend="super">r</hi> ALBARTUS RUBBENS, <dateline>opden <date when="1640-10-23">XXIII<hi
+                        rend="super">en</hi> Octobris XVI<hi rend="super">c</hi> viertich</date>,</dateline> present
+                        <rs type="person" ref="#moermans_jacques">JACQUES MOERMANS</rs> ende <rs
+                        type="person" ref="#mildert_petrus_paulus">PEETER-PAUWELS van MILDERT</rs>,
+                    beyde schilders, ende de stipulatie des voors. JO<hi rend="super">r</hi>
+                    Nicolaes RUBBENS den <date when="1640-10-25">XXV Octobris</date> daernaer,
+                    present heer <rs type="person" ref="#hove_jan_augustyn">JAN AUGUSTYN VAN
+                        HOVE</rs> ende <rs type="person" ref="#asch_everaert">EVERAERT VAN
+                    ASCH</rs>, als getuygen, respective hiertoe versocht. 
+
+                <signed>A. RUBENS.</signed>
+                    <signed>Nicolaes RUBENS.</signed>
+                    <signed>H. van Cantelbeck, Nots.</signed></closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

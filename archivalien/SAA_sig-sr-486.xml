@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_007">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rubens erwirbt von Adam Lermans eine städtische Rente über 150 Gulden, die
+                    ursprünglich von Jehan Gribeaumont zu Gunsten seiner Tochter Idelet erworben
+                    wurde</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-486">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadtsarchief (SAA)</repository>
+                        <collection>Schepenregister 1610/ IV Rubens &amp; Uwens</collection>
+                        <idno type="signatur">SR 486, fol. 297r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens erwirbt von Adam Lermans eine städtische Rente über 150
+                            Gulden, die ursprünglich von Jehan Gribeaumont zu Gunsten seiner
+                            Tochter Idelet erworben wurde</title>
+                    </head>
+                    <history>
+                        <origin>
+                           <origDate when="1610-07-08">8. Juli 1610</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+            <p>
+                <rs type="person" ref="#lermans_adam">Adam Lermans</rs>, Mattheussene wijlen,
+                coopman, verkocht omme eene somme gelts, <rs type="person" ref="#rubens_peter_paul"
+                    >Peter Paulo Rubens</rs>, Mrs Janssone wijlen, de eenhonder vijtich karolus
+                guldenen erfel. <index indexName="stw">
+                    <term xml:lang="deu">städtische Rente</term>
+                </index>(metten den achterstelle van negene jaren dairaf verschenen den desthiensten
+                Juny lestleden ende voorts sedert herwaerden) daerof van de penningen tweelve tegens
+                den penningtwintich sijn gereduceert, de tweehondert vijftich karolus guldenen
+                tjaers erflicke rehten, die Borgermeeteren, Schepenen, Trezoriers, Rentmeesters,
+                Raede, Poorteren ende gemeyne Ingesetene deser, van der selver stad wegen hebben
+                vercocht <rs type="person" ref="#gribeaumont_jehan">Jehan Gribeaumon</rs> tot
+                behoeve van <rs type="person" ref="#gribeaumont_idelet">Idelet</rs> syne dochter,
+                waar moeder af was <rs type="person" ref="#hubert_marie">Marie de St. Hubert</rs>,
+                omme jaerlig mediatien decimosexte decembries et Juny ten laste deser voirs. stadt
+                ende vander selve gemeyne ingesetene betaelt te wordene, prout den chartre in date
+                des 16 Juni Anno 1565 quam tradidit, welcke voirs. rente hij, vomparant, 3<hi
+                    rend="super">den</hi> September Anno 1598, bij transporte vercregen heeft, tegen
+                    <rs type="person" ref="#soy_franchoise">Franchoise de Soy</rs> Franchoissone
+                wijlen, daar moeder af is Joufrouwe <rs type="person" ref="#gribeaumont_idelet"
+                    >Idelette Griebumont</rs> voirs. Prout litteras, daeraf hij hem copie
+                auctenticque overgaff, droegh oppe te waire van allen commerce ende calangien</p>
+                <closer>
+                    <dateline>Die <date when="1610-07-08">8 July 1610</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

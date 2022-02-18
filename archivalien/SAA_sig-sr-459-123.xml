@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_089">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akte der Überschreibung eines Hofs zu Borchout durch Maria an Susanna
+                    Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-459-123">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1605/ IV: Moy &amp; Neesen</collection>
+                        <idno type="signatur">SR 459, fol. 123</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Akte der Überschreibung eines Hofs zu Borchout durch Maria an
+                            Susanna Pypelincx</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1605-04-06">6. April 1605</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                                bloedverwanten. Antwerpen 1877, S. 362-365<ptr type="gbv" cRef="146162595"
+                                /></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu" type="psw">Susanna Pypelincx</term>
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Borchout</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Comparerende voor Schepenen jouffrouwe <rs type="person" ref="#pypelincx_maria"
+                        >Maria Pypelincx</rs>, weduwe wijlen Meesters <rs type="person"
+                        ref="#rubens_jan">Jans Ruebens</rs>, met eenen momboir haer gegeven metten
+                    rechte, bekende dat sij (mits der somme van drij hondert ponden grooten Vlems
+                    eens die <rs type="person" ref="#schot_peeter">Peeter de Schot</rs> ende
+                    jouffrouwe <rs type="person" ref="#pypelincx_susanne">Susanna Pypelincx</rs>,
+                    sijne huysvrouwe, heur comparante in gereede penningen opgeleet ende voldaen
+                    hebben, ende mits het afdragen vande renten ende commer nabeschreven,) vercocht
+                    heeft wel ende wettelijcken den voors. Peeteren de Schot ende jouffrouwe Susanna
+                    Pypelincx, sijnder huysvrouwe, haere hoeve metten hove, lande, aerde, gronde
+                    ende toebehoorten, groot geweest hebbende vijfthien bunderen min een vierendeel
+                    ende nu ter tijt maer groot twelff ende drij quaert bunderen, mits den twee
+                    bunderen die daeraf bij <rs type="person" ref="#pypelincx_hendrick">Heynrick
+                        Pypelinck</rs>, haer vader, vermangelt sijn aen tCapittel van <rs
+                        type="plave" ref="#lier">Liere</rs>, tegens gelijcke twee bunderen lants,
+                    gelegen op Poeyegemvelt, den voors. cooperen ooek toebehoorende, gestaen ende
+                    gelegen de voors. hoeve in diversche parceelen binnen <rs type="place"
+                        ref="#bouchout">Bouchout</rs>, geheeten de oude hoeve ten Micke, comende
+                    aender Coralen van <rs type="place" ref="#antwerpen">Antwerpen</rs> erve,
+                    westwaert, ende sHeerenstrate, oostwaert, gelijck ende in alle der maniere haer
+                    comparante vercoopersse deselve hoeve aengecavelt ende te deele bevallen is in
+                    scheydinge ende deylinge opten <date when="1583-10-27">XXVII<hi rend="super"
+                            >en</hi> Octobris anno XV<hi rend="super">c</hi> ende
+                    drijentachentich</date> voor Sehepenen alhier gepasseert vande achtergelatene
+                    goeden des voors. <rs type="person" ref="#pypelincx_hendrick">Henricx
+                    Pypelincx</rs> ende jouffrouwe <rs type="person" ref="#touion_clara">Clara de
+                        Touion</rs> haer ouders, die deselve, voor Sehepenen des Heeren van <rs
+                        type="corporate" ref="#st_bavo_gent">St<hi rend="super">e</hi>.
+                        Baefs</rs><index indexName="stw">
+                        <term xml:lang="deu">St. Bavo Gent</term>
+                    </index>, in zijnen hove van Sombeken binnen Bouchout, opten <date
+                        when="1550-08-05">vijfden Augusti anno XV<hi rend="super">e</hi> ende
+                        vijftich</date>,in coope vercregen hadden tegens <rs type="person"
+                        ref="#sneeuwaters_jan">Janne Sneeuwaters</rs>, als gemeehticht van <rs
+                        type="person" ref="#deym_jan">Jan</rs> ende <rs type="person"
+                        ref="#deym_adriaen">Adriaen Deym</rs> ende <rs type="person"
+                        ref="#sneeuwaters_digna">Digna Sneeuwaters</rs>, naer inhoudt der brieven
+                    ende bescheeden daervan sijnde, die sij den voors. cooperen mede overgaf, als
+                    wij verstonden, alsoo dat de voors. comparante de voors. hoeve metten lande,
+                    gronde ende toebehoorten ende den Schepenenbrieven, gelijck voors. is, opdroech
+                    met verthijdene ende claerlijck quyte schoudt tallen dagen, tes voors. Peeters
+                    de Schot, Susanna sijnder huysvrouwe, ende tot hunne naecomelingen behoeff, met
+                    allen den rechte dat sij daerane hadde ende houdende was ende bekende dat sij
+                    egeen recht meer daerane behielt, ende geloefde hun die te waerne, jaer ende
+                    dach, jegens alle degene die terechte comen willen, ende te claerne los, vrij
+                    ende quyte van allen commer ende calengien, vuytgenomen sessendertich
+                    schellingen ende drij penningen Brabants erflijck, in gelde, ende seven ende een
+                    half veertelen rogx, erffelijck vuyter voorgenoemde hoeve jaerelijcx gaende,
+                    oock naer inhoudt der brieven ende anders nyet. Ende dyen commer ende chijs
+                    hebben de voors. coopers, die oock mede compareerden, voor hun ende hunne
+                    naecomeliogen van half Meerte lestleden (want sij de voors. hoeve alstoen
+                    aenveert hebben,) voordane eeuwelijck duerende jaerelijcx te gelden ende te
+                    betaelen, sonder der voors. vercoopersse, heuren goeden ende, naecomelingen
+                    cost, last oft schade, de voors. hoeve metten toehehoorten ende voorts hunne
+                    persoonen ende andere goeden daervoore verbindende ende te pande settende.
+                    Voorts heeft de voors. Jouffrouwe Maria Pypelincx metten voors. haeren
+                    rechtelijcken momboir, bij desen, <gap reason="illegible"/> onwederroepelijck geconstitueert ende
+                    machtich gemaect, tsamen ende elcken van hun besundere, omme van heurentwegen
+                    ende vuyt heuren name te gaen ende te compareren voor alle anderen Heeren,
+                    hoven, bancken ende gerechten daer des behoort oft van noode wesen sal, ende
+                    aldaer dese vercoopinge ende opdracht te vernieuwen ende inde voors. oft betere
+                    forme anderwerven te passeren ende verlijden ende daerinne alles anders te doene
+                    wes sij constituante, selver present sijnde, doen soude mogen, alwaert dat de
+                    saecke breeder oft speciaelder macht behoefde dan voors. is Gelovende in goeder
+                    trouwen te houden voor goet, vast ende van weerden tgene bij deselve, heure
+                    gemechtichde ende elcken van hun, gedaen ende gepasseert sal wesen, sonder
+                    daertegens te comen oft te doen in eeniger manieren, onder verbintenisse van
+                    heuren persoon ende goeden; alles met sulcken verstande dat de voors.
+                    vercoopersse den cooperen geen hooger oft voorder groote ende mate den voors.
+                    landen toe en seght dan van twelf bunderen ende dat de coopers gehouden sijn
+                    alleene te gelden ende dragen alle lasten ende rechten van kerckgeboden,
+                    goedenisse, erfenisse, pontpenningen ende dyergelijcke, egeene vuytgesteken.
+                </p>
+                <closer>
+                    <salute>Sonder argelist</salute>.<lb/> 
+                    <dateline>Die <date when="1605-04-06">VI<hi rend="super">o</hi> Aprilis 1605</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

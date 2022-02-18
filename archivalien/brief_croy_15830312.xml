@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_322">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Charles de Croy an Jan Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_croy_15830312">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Charles de Croy an Jan Rubens vom 12. März 1583</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Brief von Charles de Croy an Jan Rubens vom 12. März 1583</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1583-03-12">12. März 1583</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>                    
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 252 f.<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Jan</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+              <head>A Monsieur <rs type="person" ref="#rubens_jan">RUEBENS</rs>, Docteur
+                  ès lois à <rs type="place" ref="#koeln">Coloigne</rs>.</head> <salute>Monsieur
+                        RUEBENS, </salute>
+                <p> J’ay reçu la lettre que m’avez envoyée datée du <date when="1583-02-28">dernier
+                        du mois passé</date>, et quand à ce que dites de la paix, vous ne serez en
+                    rien trompé de vous être addressé à moy, car je puis bien vous assurer qu’il n y
+                    a personne en tout le monde, qui soit plus désireux d’icelle que moy, et qui, de
+                    meilleure volonté et affection, se vouldroit employer au rétablissément de ces
+                    pouvres et désolez pays, en leur première prospérité et splendeur, sans y rien
+                    espargner, mais plustot que d’en traiter ainsi, le Roy d’<rs type="person"
+                        ref="#rubens_jan">Espagne</rs><index indexName="psw">
+                        <term type="GND" xml:lang="deu">Philipp &lt;Spanien, König, II.&gt;</term>
+                    </index> nous subjugue derechef, par son barbare et tyrannique gouvernement dont
+                    nous avons la mémoire encore si fraische, j’aimerois mieuls, de ma part,
+                    dendurer touttes les traverses du monde, pour nous défendre jusqu’à la dernière
+                    goutte de mon sang; mais si ceulx d’Artois et Haynault étant cause de toutes nos
+                    misères et désunion, voulussent une fois ouvrir yeulx, et donner remède pour
+                    guérir ceste playe, qui est de chasser de leur costé ceste nation étrangère
+                    qu’ils ont appellée, je ne doute que lors les affaires se pourroient bien
+                    facilement accomoder; vous priant que si vous n’avez aultre matière pour traiter
+                    la susdite paix, sinon avec le dit Roy d’Espagne, de vous déporter m’en écrire
+                    ultérieurement, continuant néanmoins toujours la bonne affection que démonstrez
+                    porter en mon endroit, et en l’avancement de ces pouvres pays, que me veuillez
+                    advertir, par toutes commodités, de toutes nouvelles qui succèderont par delà,
+                    en quoy me ferez plaisir bien singulier, lequel recognoistray bien volontiers à
+                    toutes occasions qui se présenteront d’aussi bonne affection; sur quoy je prie
+                    le Créatear vous donne. </p>
+                <closer><salute>Monsieur RUEBENS, en bonne santé longue et heureuse vie.
+                            </salute><placeName>D'<rs type="place" ref="#antwerpen">Anvers</rs>,
+                        </placeName><dateline>le <date when="1583-03-12">XII de Mars 1583</date>.
+                        </dateline><salute>Votre bon ami, </salute><signed><rs type="person"
+                            ref="#croy_charles">CHARLES de CROY.</rs></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

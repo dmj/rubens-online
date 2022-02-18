@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_186">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens und Arnoult Lunden erbitten von den Vertreter des
+                    Magistrates Hilfe, um den Herren van Haicltyn zu bewegen, die vorliegende Sache
+                    nicht weiter zu verzögern</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-727">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Rekwestboek 1628</collection>
+                        <idno type="signatur">Pk. 727, fol. 96r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens und Arnoult Lunden erbitten von den Vertreter
+                            des Magistrates Hilfe, um den Herren van Haicltyn zu bewegen, die
+                            vorliegende Sache nicht weiter zu verzögern</title>
+                    </head>
+                  
+                    <history>
+                        <origin>
+                            <origDate when="1628-07-06">6. Juli 1628</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Verthoonen met behoorlijcke reverentie Sr <rs type="person"
+                        ref="#rubens_peter_paul">Pedro Paulo Rubens</rs> ende <rs type="person"
+                        ref="#lunden_arnoult">Arnoult Lunden</rs> als executeurs vanden
+                        testamente<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Testament</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="deu">Testamentsvollstrecker</term>
+                    </index> van wijlen <rs type="person" ref="#nispen_balthasar">Balthasar van
+                        Nispen</rs> hoe dat hij suppleant inde selve qualiteyt te hove hebben
+                    geexpedieert brieven van purge met commitimus voor voorseyde vuyt crachte de
+                    welcke de suppleant onder andere hebben doen dagen den heere <rs type="person"
+                        ref="#haicltyn_van">van Haicltyn</rs> ende dat voor den derden reyse, als
+                    wanneer den procureur <rs type="person" ref="#rinckens">Rinckens</rs> voor deze
+                    daghe opden <date when="--06-27">27 Juny</date> heeft comen versuecken doch dan
+                    is ten selven daghe geapporteert dat mits bij hen purgerende de twee voornoemde
+                    deffaulten ad octo dat hij alsdan soude hebben dach als dat de stucken souden
+                    worden gecolligeert welcken tijt oick van Dynstag is geexpireert sonder hen in
+                    conformiteyt van de selve appointenement comen provoceren enckel om den
+                    suppleant te beletten den voortganck van de selve procedure welcken aengemerct
+                    ende dat dese saecke is verheyschende acceleratie bieden daeromme U<hi
+                        rend="super">w</hi> E<hi rend="super">d</hi> gedient te syn, partye te
+                    ordonneren de saecke van provocatie item commen bedinghen ad cras onder de
+                    saecken van pollicie dwelck dezen openen van bescheyden.</p>
+                <closer>
+                    <salute><span from="" xml:lang="lat">Fiat ut petitur salvo</span>
+                    wettelyck.</salute><lb/>
+                    <dateline> Actum <date when="1628-07-06">6 July 1628</date></dateline><lb/>
+                        <signed><rs type="person" ref="#gevarts">Gevarts</rs></signed>
+                </closer>
+               
+            </div>
+        </body>
+    </text>
+</TEI>

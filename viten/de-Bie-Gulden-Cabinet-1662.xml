@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_288">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="person" ref="#bie_cornelis">Cornelis de Bie</rs>: Het Gulden Cabinet vande edele vry Schilderconst, 1662</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate; &register-person; &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="bie_cabinet_1661">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                    </msIdentifier>
+                    <head>
+                        <title>Gedichte auf Peter Paul Rubens und seine Werke in Cornelis de Bies Het Gulden Cabinet vande edele vry Schilderconst, 1662</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Cornelis de Bie: Het Gulden Cabinet vande edele vry Schilderconst</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Cornelis de Bie: Het Gulden Cabinet van de edel vry Schilderconst.
+                                Antwerpen: Montfort, 1662. S. 56-60; S. 360.<ptr type="opac"
+                                    cRef="35281876X"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Bie, Cornelis de</term>
+                    <term type="stw" xml:lang="nld">Het Gulden Cabinet</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <head rend="text-align:center"><rs type="person" ref="#rubens_peter_paul">PETRUS PAULUS RUBENS</rs>.<index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term></index><lb/>
+                    <hi rend="italic">Edel Schilder van <rs type="place" ref="#antwerpen">Antwerpen</rs></hi>.</head>
+                <p><pb n="56"/>De schoon Schilrijen van de oud’ Egyptenaren<lb/>
+                    Eertijts bij’t Griecxe volck in groote achtingh waren<lb/>
+                    ’T verstant van <hi rend="italic">Ludius, Orestes</hi> en noch meer<lb/>
+                    Van <hi rend="italic">Iphis</hi> en <hi rend="italic">Leon</hi> behaelden groote eer.<lb/>
+                    <hi rend="italic">Aristiphonis</hi> Const was wonder aen te mercken<lb/>
+                    Als hy geschildert had <hi rend="italic">Anceus</hi> met t’ wilt vercken<lb/>
+                    Het gen’ <hi rend="italic">Astiphale</hi> met grooten schroom aensach<lb/>
+                    Ter wijl hy in sijn bloedt daer by verslagen lach.<lb/>
+                    Den <hi rend="italic">Persiaenschen</hi> strijdt vol lancien en sabels<lb/>
+                    Daer <hi rend="italic">Schillis</hi> met ghewelt af snijt de ancker cabels<lb/>
+                    Die had <hi rend="italic">Androbius</hi> soo gheestich af-ghebeldt<lb/>
+                    Dat een mirakel scheen soo wonder was’t gehstelt<lb/>
+                    <hi rend="italic">Antichides</hi> Eel Const gehouden wert in weerden<lb/>
+                    Als hy geschildert had den wagen met twee peerden<lb/>
+                    Daer de victorie alleen den voerman was,<lb/>
+                    Siet wat een Const bedreef eenen <hi rend="italic">Oenias</hi><lb/>
+                    Eenen <hi rend="italic">Simonides Tauriscus</hi> en <hi rend="italic">Craterus</hi><lb/>
+                    <hi rend="italic">Nealces Clesides, Artemon</hi> en <hi rend="italic">Severus</hi><lb/>
+                    Daer by oock <hi rend="italic"><rs type="person" ref="#tizian">Titiaen</rs></hi><index indexName="psw"><term type="PND" xml:lang="deu">Tizian</term></index> uytstekende van gheest<lb/>
+                    Die by de hondert jaer een Schilder is gheweest.<lb/>
+                    Maer als ick overloop de dry-en-sestich jaeren<lb/>
+                    Die <hi rend="italic">Rubbens</hi> heeft beleeft en was in Const ervaren<lb/>
+                    Soo vindt ick wel te recht dat hy heeft overtreft<lb/>
+                    De oude Meesters die de Faem ons soo verheft,<lb/>
+                    Die door sijn eel pinceel, die wereldt maeckt verwondert<lb/>
+                    De Faem in <rs type="place" ref="#niederlande">Nederlandt</rs> om sijne Conste dondert,<lb/>
+                    Die van het <rs type="place" ref="#spanien">Spaensche Rijck </rs>gehadt heeft groot faveur<lb/>
+                    Die wert van <rs type="place" ref="#england">Engelandt</rs> ghemaeckt Ambassadeur <lb/>
+                  <pb n="58"/> 
+                    T’is <hi rend="italic">Rubbens</hi> die ick meyn, die Edel is gheboren<lb/>
+                    Nochtans en liet hy noyt den tijdt eens gaen verloren<lb/>
+                    Die hy soo neerstelijck in groote sorghen nam<lb/>
+                    Dat hy daerom niet veel in het gheselschap quam,<lb/>
+                    Om dat hy dese Const op’t hoochste sou betreffen<lb/>
+                    Om eeuwlijck sijnen Naem door Const te doen verheffen<lb/>
+                    Ghelijck hy heeft ghedaen, want die de Const bemint<lb/>
+                    En heeft geen groote Const daermen niet <hi rend="italic">Rubbens</hi> vint.<lb/>
+                    Seght! wie en sou dan niet op sijne Eelheydt roemen<lb/>
+                    En hem het fondament van dese Conste noemen<lb/>
+                    Hy is van Edel stam, noch Eelder door de Const<lb/>
+                    Waer door hy oock vercreegh een jeder diepste jonst.<lb/>
+                    Wie isser oyt gheweest van over hondert jaeren<lb/>
+                    Die soo in d’edel Const van teeck’nen was ervaren?<lb/>
+                    En in Poëtery, jae alderhande tael<lb/>
+                    In’t leven ende spraeck hy wist het allemael.<lb/>
+                    Hoe wonder heeft hy niet het licht van sijn verstandt<lb/>
+                    Onsteken aen t’pincel van <hi rend="italic">Titiaen</hi> in brandt<lb/>
+                    Hy was in sin soo fray in groot en cleyn figuren<lb/>
+                    In Landtschap heel plaisant, wist alles uyt te vueren.<lb/>
+                    Gaet naer’t Escoriael in Spanien vermaert<lb/>
+                    Daer heeft sijn cloeck verstant het merck der Const ghebaert,<lb/>
+                    Hoe menich geestich quant can sijn verstant verscherpen<lb/>
+                    Als hy sijn Conste siet in d’edel stadt Antwerpen<lb/>
+                    In ons Lieffvrouwen Kerck, een recht Const Cabinet<note resp="A.H." type="footnote">vgl. das Tryptichon der <rs type="work" ref="#jaffe_189ABC">Kreuzabnahme</rs><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term xml:lang="deu">Kreuzabnahme</term></index></index> und das <rs type="work" ref="#jaffe_167ABCDE">Tryptichon für Jan Moretus</rs>.</note><lb/>
+                    Daer hy heeft menich stuck van sijn pinceel gheset<lb/>
+                    Tot <rs type="place" ref="#bruessel">Brussel</rs>, <rs type="place" ref="#mechelen">Mechelen</rs>, tot <rs type="place" ref="#gent">Gendt</rs> en ander steden<lb/>
+                    Iae in <rs type="place" ref="#italien">Italien</rs> wordt sijn Schildry beleden<lb/>
+                    Te wesen d’uyterste dat naer het leven treckt<lb/>
+                    Die door de Edel Const het leven schier ontdeckt.<lb/>
+                    <pb n="59"/>
+                    Het Keysers Cabinet, des Coninckx groote Saelen<lb/>
+                    En’t Princen Hoff daer by sijn Faem ghenoch verhaelen,<lb/>
+                    Ten is hier niet van noy te segghen wie hy is<lb/>
+                    Sijn werck geeft ons ghenoch daer van ghetuygenis.<lb/>
+                    Sijn Ordonantien soo rijckelijck vercieren<lb/>
+                    En met een groot verstant in een soo geestich swieren<lb/>
+                    Soo wel ghecoloriert en net op sijnen dach<lb/>
+                    Dat niemandt lasteringh daer teghen spreken mach,<lb/>
+                    Want t’Werck verheft sijn self en ons can claer bewijsen<lb/>
+                    Dat <hi rend="italic">Rubbens</hi> in’t pinceel ten hoochsten is te prijsen,<lb/>
+                    So wel in drappery als in het poesel naeckt<lb/>
+                    In Landtschap en het Fruyt was <hi rend="italic">Rubbens</hi>  heel volmaeckt.<lb/>
+                    <rs type="place" ref="#rom">Room</rs>, en <rs type="place" ref="#florenz">Florentien</rs>, <rs type="place" ref="#venedig">Veneten</rs> en <rs type="place" ref="#mailand">Milaenen</rs><lb/>
+                    En noch veel plaetsen meer, die meest de weghen banen<lb/>
+                    Der diepste wetenschap van d’edel Schilder-const<lb/>
+                    (Die in Italien oprecht eerst is begonst,)<lb/>
+                    Die heeft hy met vermaeck in’t eersten doorwandelt<lb/>
+                    Daer heeft hy dese Const al lanck ghenoech ghehandelt,<lb/>
+                    Daer heeft hy sijn vernuft met sulcken cracht ghewet<lb/>
+                    Dat hy in d’eerste plaets der Schilders wordt gheset.<lb/>
+                    Schoon hy door ouderdom daer naer niet meer cont reysen<lb/>
+                    Hy sach t’modernich werck van Room in sijn ghepeysen:<lb/>
+                    Sijn hooch begaeft verstant (het licht van d’edel siel)<lb/>
+                    Ghedurich op de cracht der Consten soo verviel,<lb/>
+                    Dat niet van sijne handt ten voorschijn is ghecomen<lb/>
+                    Oft t’schijnt dat al sijn werck heeft t’leven aengenomen.<lb/>
+                    Waer door oock sijnen Naem onsterff’lijck blijven sal<lb/>
+                    Om dat sijn soete Const nu uytsteckt boven al.<lb/>
+                    <pb n="60"/> 
+                    Cuncta qusi effari poterit? quis viuida mentis<lb/>
+                    Munera diffuso promet ab ore sono?<lb/>
+                    Quis plausus memoret, suum quibus incola civem<lb/>
+                    Vltraiectinus semper Lonore colit?<lb/>
+                    Plurima restabat tibi gloria Paule, ferenda:<lb/>
+                    Pallida sed nimium mors jnimica fuit.
+                </p>
+            </div>
+            <div part="Y" xml:lang="nld"><p>
+                    <pb n="360"/>
+                    Wijders is Dock te sien in een wonder fraey beldt vanden edelen Heer Petrus Paulus Rubbens daer Psiches als een druckelijcke Bruydt gheleyt wordt naer de Rots van eenen hooghen bergh/ daer sy alleen verlaten sijnde van haer anders en alle vrienden/ verwachtende haeren Bruydegom (dat eenen draeck ende vreeden Tyran sonde wesen) soo d'Orakel voorseyt hadde om daer van versionden te worden. Dese droefheyt ende lijdende allendt die in Psiches te sien waren / worden inde Const soo ontdeckt dat niet in 't leven selfs en can soo wesentlijck uyt ghewerckt worden t'ghene aen deze Const sou overtreffen.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

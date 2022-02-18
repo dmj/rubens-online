@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_077">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Für seine Reise nach Italien läßt Peter Paul Rubens sich einen Reisepass
+                    ausstellen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-cert-61">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Certificatieboek 1600</collection>
+                        <idno type="signatur">Cert. 61, fol. 205v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Für seine Reise nach Italien läßt Peter Paul Rubens sich einen
+                            Reisepass ausstellen</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Dieses Zeugnis diente als Nachweis über die
+                                Gesundheit des Reisenden. Es wird neben dieser Tatsache auch erwähnt, daß
+                                Rubens Vater Sekretär der Stadt ist. Als Grund für die Reise sind <quote>seine
+                                    Geschäfte</quote> angegeben – <quote>negociorum suorum</quote>.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1600-05-08">8. Mai 1600</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877, S. 337f.<ptr type="gbv"
+                                    cRef="146162595"/></bibl>
+                            <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
+                            Gerechtsgebouw, 15.-30. Oktober 1977, S. 254, Nr. 239</bibl>
+                            <bibl>Max Rooses: Rubens' Leven
+                                en Werken. Amsterdam/Antwerpen/Gent 1903, S. 54</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Rubens, Peter Paul</term>
+                    <term xml:lang="deu">Italien</term>
+                    <term xml:lang="deu">Reisepass</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <linkGrp>
+                <link targets="ed_rubens_077_deu ed_rubens_077_lat" type="translation"/>
+            </linkGrp>
+            <text xml:id="ed_rubens_077_lat"> 
+           <body>
+            <div xml:lang="lat">
+                <p> Universis et singulis praesentes litteras visuris sive legi audituris, Consules
+                    et Senatus civitatis <rs type="place" ref="#antwerpen">Antverpiae</rs> salutem.
+                    Votum facimus ac harum serie testamur, apud nos et in confinibus nostris, divina
+                    favente clementia, salubrem spirare auram, nec ullam pestis aut contagii labern
+                    grassari. Tum quoque die in calce praesentium scripto, ex parte <rs type="person"
+                        ref="#rubens_peter_paul">Petri Rubbens</rs>, quondam Magistri <rs
+                        type="person" ref="#rubens_jan">Joannis</rs> filii, expositum nobis esse,
+                    eumdem Petrum nunc temporis ex hac civitate Antverpiae <rs type="place"
+                        ref="#italien">Italiam</rs> versus profecturum, negociorum suorum causa, et
+                    ut absque ulla difficultate et suspicionc morbi praesertim contagiosi, ubicumque
+                    admitteretur et venire possit, cum nimirum ipse et tota haec civitas (Dei
+                    beneficio) sit immunis a peste similique morbo contagioso, idcirco nos Consules
+                    et Senatus praedicti, ad veritatis testimonium prohibendum requisiti, eidem has
+                    praesentes litteras nostras concessimus, sigillo ad causas huius civitatis
+                    Antverpiae munitas, die <date when="1600-05-08">octava Maii 1600</date>.
+                </p>
+            </div>
+           </body>
+           </text>
+            <text xml:id="ed_rubens_077_deu">
+           <body>
+            <div xml:lang="deu">
+                <head>Übersetzung<note resp="A.H." type="footnote">Übersetzung nach <bibl>Max Rooses: Rubens' Leven
+                    en Werken. Amsterdam/Antwerpen/Gent 1903, S. 54</bibl></note>:</head>
+                <p>Allen und jeden, die diesen Brief lesen oder hören werden, wünschen die
+                    Bürgermeister und der Rat von <rs type="place" ref="#antwerpen">Antwerpen</rs>
+                    Heil. Wir sprechen den Wunsch aus und bestätigen hiermit, daß man in unserer
+                    Stadt und in unserer Umgegend durch eine gütige Schickung Gottes eine gesunde
+                    Luft einatmet und hier weder die Pest noch sonst eine andere ansteckende
+                    Krankheit herrscht. Ferner, da uns an dem hierunter bezeichneten Tage von <rs
+                        type="person" ref="#rubens_peter_paul">Petrus Rubbens</rs>, Sohn von <rs
+                        type="person" ref="#rubens_jan">Joannes</rs>, ehemals Ratsmitglied,
+                    angezeigt ist, daß er jetzt Geschäfte halber nach <rs type="place"
+                        ref="#italien">Italien</rs> zu reisen beabsichtige, und damit er ohne jede
+                    Schwierigkeit noch Verdacht, daß er mit irgendeiner und besonders einer
+                    ansteckenden Krankheit behaftet sei, überall aus- und eingehen könne, weil er ja
+                    selbst und diese ganze Stadt (durch Gottes Gnade) verschont ist von der Pest
+                    oder einer anderen ansteckenden Krankheit, so geschieht es, daß wir, vorgenannte
+                    Bürgermeister und Rat, aufgefordert, ein Zeugnis nach der Wahrheit auszustellen,
+                    ihm das vorliegende Schriftstück ausgehändigt haben, nachdem wir es mit dem
+                    Siegel dieser Stadt Antwerpen versehen haben. So geschehen am heutigen Tage, den
+                        <date when="1600-05-08">achten Tag des Mai 1600</date>.
+                </p>
+            </div>
+           </body>
+           </text>
+        </group>
+       
+       </text>
+</TEI>

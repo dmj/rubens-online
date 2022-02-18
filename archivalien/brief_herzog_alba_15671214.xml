@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_308">
+    <!-- ID vergeben -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Anfrage des Herzogs Alba bezüglich des Verhaltens der Stadtverordneten der Stadt Antwerpen während der
+                    Zeit des Aufstandes; darin namentlich erwähnt: Jan Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:id="brief_herzog_alba_15671214" xml:lang="deu">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Brief des Herzog von Alba vom 14. Dezember 1567</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Anfrage des Herzogs Alba bezüglich des Verhaltens der Stadtverordneten der Stadt Antwerpen während der
+                            Zeit des Aufstandes; darin namentlich erwähnt: Jan Rubens</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation><note resp="A.H." type="footnote">Vgl. das auf diese Anfrage bezogene Schreiben des Jan Rubens an Jan Gillis vom <ref type="rubens" cRef="ed_rubens_309">15. Januar 1567</ref>.</note></filiation>
+                        </msItem>
+                    </msContents>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1567-12-14">14. Dezember 1567</origDate>
+                            <origPlace>Brüssel</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 123<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+               <salute>Très-chiers et bons amys, </salute>
+                <p>Comme nous estant dernièrement en la ville d'<rs type="place" ref="#antwerpen"
+                        >Anvers</rs>, vous ayons ordonné de rédiger bien particulièrement par
+                    escript tout ce que trouverez servir à vostre justiffication et descharge des
+                    troubles, émotions et désordres advenuz en la dicte ville, et depuis vous faict
+                    encharger le mesme par les Commissaires de Sa Majesté y députez, et que, ce
+                    nonobstant, voyons le peu d'office que y avez faict, et l'apparence qu'il y a de
+                    tirer ce debvoir à la longue, à ceste cause, vous avons bien voullu faire ceste
+                    rencharge et, par Sa Majesté, ordonner bien acertes que incontinent et, sans
+                    plus de dilay. ayez à nous envoyer tout ce qu'entendrez alléguer à vostre dicte
+                    justiffication et descharge, ou, à faulte de ce, vous trouverez devers nous, en
+                    personne, pour en faire vos excuses; et en ce ne faictes faulte. A tant,
+                    très-chiers et bons amis, Nostre Seigneur vous ait en sa saincte garde. </p>
+                <closer><dateline>De <rs type="place" ref="#bruessel">Bruxelles</rs>, le <date
+                            when="1567-12-14">XIIII<hi rend="super">e</hi> de Décembre
+                        1567</date>.</dateline><salute> Desoubz escript: Bien vostre, <rs
+                            type="person" ref="#alba_herzog_iii">A. duc d'ALVA</rs>, et signé:
+                        MESDACH. Sur I<hi rend="super">e</hi> doz estoit escript: A nous très-chiers
+                        et bon amis, les Marcgrave, Borgmaistres, Eschevins et Conseil de la ville
+                        d'Anvers.</salute></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

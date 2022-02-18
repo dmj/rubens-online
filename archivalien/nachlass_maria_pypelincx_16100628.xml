@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_006">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Staet van Goeden und Inventar des Nachlasses von Maria Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="nachlass_maria_pypelincx_16100628">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Nachlass von Maria Pypelincx vom 28. Juni 1610</idno></msIdentifier>
+                    <head>
+                        <title>Staet van Goeden und Inventar des Nachlasses von Maria Pypelincx</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1610-06-28">28. Juni 1610</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich 1877 im
+                            Besitz des Baron van Havre.</p>
+                            <p>Ihr heutiger Verbleib ist unbekannt.</p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        
+                        <adminInfo>
+                            <recordHist><source>
+                                <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
+                                    zijne bloedverwanten</bibl>
+                            </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877. S. 423-435<ptr type="gbv"
+                                    cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Maria Pypelincx</term>
+                    <term xml:lang="deu">Nachlass</term>
+                    <term xml:lang="deu">Inventar</term>
+                    <term xml:lang="nld">Staet van goeden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Staet ende rekeningen van alle ende yegelijcke de goeden, beyde haeffelijcke ende
+                    erfferlijcke, bevonden in den sterfhuyze wan wijlen jouffrouwe <rs type="person"
+                        ref="#pypelincx_maria"><hi rend="smallCaps">Marie</hi> PYPELINCX</rs>,
+                    weduwe was wijlen M<hi rend="super">r</hi>
+                    <rs type="rubens_jan" ref="#rubens_jan"><hi rend="smallCaps">Jan</hi>
+                    RUBENS</rs>, in sijnen levene Schepen deser stadt, die binnen deser stadt van
+                        <rs type="place" ref="#antwerpen">Antwerpen</rs> deser werelt is overleden
+                    den <date when="1608-10-19">negenthiensten dach der maendt Octobris vanden
+                        jare XVI<hi rend="super">c</hi> ende acht</date>, binnen haren huyse gestaen
+                    ende gelegen inde Cloosterstrate alhier, neffens <rs type="corporate"
+                        ref="#antwerpen_abtei_st_michiels"/> aldaer, hebbende, bij haren besloten
+                    testamente, onder heur hanteecken gepasseert den sesthiensten December sesthien
+                    hondert sesse ende toegecachetteert met heuren cachette ende den cachette vanden
+                    Notaris <rs type="person" ref="#rubens_peeter"><hi rend="smallCaps">Peeter</hi>
+                        RUBENS</rs>, den <date when="1607-01-09">negensten Januarij anno XVI<hi
+                            rend="super">c</hi> seven</date>, voorden voors. Notaris ende seker
+                    getuygen gerecognosceert, achtergelaten ende geinstitueert voor heure erfgenamen
+                        M<hi rend="super">r</hi>
+                    <rs type="rubens_philipp" ref="#rubens_philipp"><hi rend="smallCaps"
+                        >Philips</hi> RUBENS</rs>, Licentiaet inde rechten, tegenwoordelijck
+                    Secretaris deser stadt, ende S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul"><hi rend="smallCaps">Peeter</hi>
+                        RUEBENS</rs>, heure sonen, ende de sesse kinderen van wijlen jouffrouwe <rs
+                        type="person" ref="#rubens_blandina"><hi rend="smallCaps">Blandina</hi>
+                        RUBENS</rs>, daer vader aff ist <rs type="person" ref="#parcq_simeon"><hi
+                            rend="smallCaps">Simon Du</hi> PARCK</rs>, midtsgaders voor executeurs
+                    vanden selven heuren testamente ende momboirs vande voors. heurs dochters sesse
+                    kinderen, minderjarich wesende, genoempt de voors. M<hi rend="super">r</hi>
+                    <hi rend="smallCaps">Philips</hi> ende S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul"><hi rend="smallCaps"
+                        >Peeter-Paulo</hi> RUBENS</rs> , welcken staet ende rekeninge de voors. M<hi
+                        rend="super">r</hi>
+                    <hi rend="smallCaps">Philips</hi> RUBENS, als momboir vande voors. minderjarige
+                    kinderen der voors. Jouffrouwe <hi rend="smallCaps">Blandina</hi> RUBENS, doende
+                    ende overgevende is aenden voors. S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul"><hi rend="smallCaps">Petro-Paulo</hi>
+                        RUBENS</rs>, voor hem selven ende inden name ende oock testamentlijck
+                    momboir vande voors. kinderen, soo ende gelijck hiernaer volght: </p>
+
+                <table>
+                    <row>
+                        <cell>Inden eersten, ten overlijden vande voors. Jouffrouwe <rs
+                                type="person" ref="#pypelincx_maria"><hi rend="smallCaps">Maria</hi>
+                                PYPELINCX</rs>, is, binnen desen sterfhuyse, bevonden, in gereeden
+                            gelde, nae luydt vanden inventaris gemaeckt bijden voors. Notaris
+                            RUBENS, in presentie van getuygen, opten <date when="1608-11-13"
+                                >derthiensten November anno XVI<hi rend="super">c</hi> acht</date>, de
+                            somme van sesse hondert ende vier guldenen;<lb/> compt alhier</cell>
+                        <cell><measure type="currency" quantity="604">VI<hi rend="super">c</hi>.
+                            IIII</measure>guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, alsoo de voors. wijlen jouffrouwe <hi rend="smallCaps"
+                            >Marie</hi> PYPELINCX, bijden voors. heuren testamente, alle heure
+                            meuble goederen, huysraet, bedden ende ledicanten, stoelen ende bancken,
+                            tresooren, cussens, tafelcleeden ende allet lijnwaet, vuytgenomen een
+                            paer fijne slaepelakenen die sij aen <rs type="person" ref="#constantia">
+                                <hi rend="smallCaps">Constantia</hi>
+                            </rs>, haerder dochters dochter, voren vuyte gegeven, gelaten ende
+                            gemaeckt heeft aenden voors. M<hi rend="super">r</hi>
+                            <hi rend="smallCaps">Philips</hi> ende S<hi rend="super">r</hi>
+                            <hi rend="smallCaps">Petro-Paulo</hi>, heure sonen, soo sijn deselve
+                            bijden voors. M<hi rend="super">r</hi>
+                            <hi rend="smallCaps">Philips</hi> ende S<hi rend="super">r</hi>
+                            <hi rend="smallCaps">Petro-Paulo</hi> RUBENS (naer voorgaende
+                            schattinge, die sij daervan bij twee gesworen schatters hebben doen
+                            doene, bijde welcke de voors. goederen geschadt sijn op negen hondert
+                            sessentseventich guldenen tweelff stuyvers, volgende den schatboeck
+                            daeraff zijnde,) aenveert ende naer hen genomen geweest;<lb/> ergo compt
+                            daervan alhier</cell>
+                        <cell>nyet</cell>
+                    </row>
+                    <row>
+                        <cell>Item, alsoo de voors. afflijvige, bijden voors. heuren testamente,
+                            geordonneert ende gewilt heeft dat heure cleederen, lijnen ende wullen,
+                            souden bij eenen oudecleercooper worden vercocht sonder daeromme
+                            openbaren vuytroep te houden, soo heeft de rendant alle deselve bij <rs
+                                type="person" ref="#essen_Dierick"><hi rend="smallCaps">Dierick
+                                van</hi> ESSEN</rs> ende <rs type="person" ref="#govaertsen_willem"
+                                    ><hi rend="smallCaps">Willem</hi> GOVAERTSEN</rs>, gesworen
+                            oudecleercoopers, alhier ter vrijer Vrijdachsmerct doen vuytroepen, den
+                                <date when="1609-06-06">sesten Junij XVI<hi rend="super">c</hi>
+                                negen</date>, ende hebben alle deselve, volgens den vercoopboeck
+                            daeraff zijnde, geteeckent bijden selven <rs type="person"
+                                ref="#essen_Dierick"><hi rend="smallCaps">Dierich van</hi>
+                            ESSEN</rs> ende <rs type="person" ref="#govaertsen_willem"><hi
+                                    rend="smallCaps">Willem</hi> GOVAERTSSEN</rs><lb/>, vuytgebrocht
+                            de somme van</cell>
+                        <cell><measure type="currency" quantity="126">I<hi rend="super"
+                            >c</hi>XXVI</measure> gl. <measure type="currency" quantity="4.5">IIII ½
+                            </measure>st.</cell>
+                    </row>
+                    <row>
+                        <cell>Item volgende de brieven inden voors. inventaris gequoteert N° 1, is
+                            desen stershuyse competerende een hoeve met slotken omwatert ende andere
+                            huysingen daertoe behoorende ende metten hovingen, lande, bempden, soo
+                            wel leenen als erve, genaempt Moerendael, gelegen bij <rs type="place"
+                                ref="#nispen">Nispen</rs>, groot wesende in alles omtrent <gap reason="illegible"/>,
+                            welcke hoeve jaerlijcx in pachte beseten is gheweest bij <rs
+                                type="person" ref="#adriaenssen_jan"><hi rend="smallCaps">Jan</hi>
+                                ADRIAENSSEN</rs>, voorde somme van vierenvijftich guldenen, ende was
+                            die ten dage vander afflijvicheyt vander voors. wijlen jouffrouwe <hi
+                                rend="smallCaps">Marie</hi> PYPELINCX schuldich negenentachtentich
+                            guldenen, twee stuyvers; daernaer heeft den rendant ontfangen achthien
+                            guldenen vijfthien stuyvers; item vierenvijftich guldenen met tsestich
+                            pont boteren woorde voors. S<hi rend="super">r</hi>
+                            <hi rend="smallCaps">Petro-Paulo</hi> tot vier stuyvers tpont, bedraecht
+                            tweelff guldenen, welck is tsamen vierentachtentich guldenen vijffthien
+                            stuyvers, ende vier guldenen ende seven stuyvers die hij, ter saken van
+                            reparatie, heeft affgecort, commen de voors. negenentachtentich
+                            guldenen, twee stuyvers daeraff de rendant alhier goet doet de voors.</cell>
+                        <cell><measure type="currency" quantity="84">LXXXIIII</measure> g. <measure
+                                type="currency" quantity="15">XV</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Ende alsoo de voors. afflijvige bij heuren voors. testamente geeft den
+                            rendant keuse om de hoeve van Moerendael te nehmen oft twee hondert
+                            guldenen erffelijck daervore, te meer gemerct de voors. hoeve eendeels
+                            leen wesende hem evenwell soude toecommen als wesende den outsten sone,
+                            soo ist dat de voors. rendant deselve hoeve daervore aenveerdt; dient
+                            daeromme alleen voor</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, naer luydt vanden chartere inden voors. inventaris gequoteert N°
+                            2, competeert desen sterfhuyse eene rente van vijffentseventich guldenen
+                            erffelijck, gereduceert op vijvenveertich guldenen tsjaers,
+                            gehypothiceert opt corpus deser stadt, heure ende der gemeynre
+                            inengesetene goeden derselver, verachtert wesendse tsedert Sint
+                            Jansmisse vanden jare vijfthien hondert negenentnegentich, daerbij den
+                            rendant, tsedert dafflijvicheyt vande voors. overledene, ontfangen
+                            geweest drije jaren verschenen St. Jansmisse <date from="1601" to="1602"
+                                    >XVI<hi rend="super">c</hi> een ende XVI<hi rend="super">c</hi>
+                            twee</date>, maeckende tsamen</cell>
+                        <cell><measure type="currency" quantity="135">I<hi rend="super"
+                            >c</hi>XXXV</measure>guld.<lb/></cell>
+                    </row>
+                    <row>
+                        <cell>Item, naer vuytwijse den chartere inden inventaris gequoteert N° 3,
+                            competerende desen sterfhuyse vijff gulden erffelijck; naemaels
+                            gereduceert op vier guldenen tsjaers, op dese voors. stadt van
+                            Antwerpen, verachtert wesende tsedert Augusto vijfthien hondert
+                            seventnegentich, daeraff, tsedert den overlijden der voors. afflijvige,
+                            bijden rendant ontfangen sijn vier jaren verschenen in Augusto
+                            vijffthien hondert achtentnegentich, <date when="1599">XV<hi rend="super"
+                                    >c</hi> negenentnegentich</date>, <date from="1600" to="1601"
+                                    >XVI<hi rend="super">c</hi> ende XVI<hi rend="super">c</hi>
+                            een</date>, beloopende tsamen</cell>
+                        <cell><measure type="currency" quantity="16">XVI</measure>guld.<lb/></cell>
+                    </row>
+                    <row>
+                        <cell>Item, bijden brieve inden voors. inventaris gequoteert N<hi rend="super"
+                                >o</hi> 4, soo competeert desen sterfhuyse eene rente van
+                            vijventseventich guldenen erfferlijck geheven worddende op eene hoeve
+                            groot vijventseventich gemeten inden polder genoempt Ruygenhil, onder
+                                <rs type="place" ref="#bergen_op_zoom">Bergen-op-Zoom</rs>; item op
+                            noch een stuck lants gelegen in <rs type="place" ref="#henricxpolder"
+                                >Graeff Henricxpolder</rs> onder <rs type="place" ref="#steenbergen"
+                                >Steenbergen</rs>; item op noch een hoeve genaempt Deckershoff,
+                            groot omtrent drijentwintich gemeten; item op noch een hoeve gelegen
+                            onder den <rs type="place" ref="#noort_geest">Noort-Geest</rs>, groot
+                            omtrent vijfthien gemeten; item op noch een hoeve groot twintich
+                            gemeten, al gelegen onder Steenbergen, in <rs type="place"
+                                ref="#sinte_outcommerspolder">Sinte Outcommerspolder</rs>, welcke
+                            rente verachtert was tsedert den <date when="1607-05-27">XVII<hi
+                                    rend="super">en</hi> Mey XVI<hi rend="super">c</hi> seven</date>,
+                            daeraff bijden rendant ontfangen is een jaer verschenen den <date
+                                when="1608-05-17">seventhiensten Mey XVI<hi rend="super">c</hi>
+                                acht</date></cell>
+                        <cell><measure type="currency" quantity="75">LXXV</measure> guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, in conformiteyt vande brieven gequoteert inden voors. inventaris
+                            N° 5, competeert desen sterfhuyse eene rente van hondert drijentertich
+                            guldenen seven stuyvers vande twee hondert guldenen daeraff de reste
+                            jouffrouwe <rs type="person" ref="#pypelincx_susanne"><hi
+                                    rend="smallCaps">Susanne</hi> PYPELINCX</rs>, der afflijvigen
+                            suster, is toebehoorende, vuyt eene meerdere rente van drije hondert
+                            guldenen erffelijck, geheven wordende op seker speelhuys, metten hove,
+                            bogaerde, landthuyse, mit noch tweelff hunderen saeylants ende omtrent
+                            seven hunderen bempden ende sekere wijthammekens, ofte theenbosselkens,
+                            ende op noch eenen bosch groot twee en halve hunderen, metten gronde
+                            ende toebehoorten, gelegen tot <rs type="place" ref="#hombeek"
+                            >Hombeke</rs> onder <rs type="place" ref="#mechelen">Mechelen</rs>,
+                            verachtert wesende tsedert <date when="1608-01-01">prima Januarij
+                                    XVI<hi rend="super">c</hi> acht</date>, ende alsoo totten
+                            sterfdagen vande voors. afflijvige, te weten tot den <date
+                                when="1608-10-20">XX<hi rend="super">en</hi> Octobris XVI<hi
+                                    rend="super">c</hi> acht</date>, van negen maenden twintich dagen,
+                            bedragende hondert seven guldenen, acht stuyvers, een ort, tweelff
+                            mijten, die bijden rendant sijn ontfangen ende worden alhier
+                            vuijtgetrocken</cell>
+                        <cell><measure type="currency" quantity="107">I<hi rend="super"
+                            >c</hi>VII</measure> guld. <measure type="currency" quantity="8"
+                            >VIII</measure> st. <measure type="currency" quantity="1">1</measure>
+                            ort <measure type="currency" quantity="12">XII</measure> mijten.</cell>
+                    </row>
+                    <row>
+                        <cell>Ende want de voors. rente van hondert drijendertich guldenen seven
+                            stuyvers erffelijck midtsgaders de lestvoorgaende rente van
+                            vijfentseventich guldenen erffelijk, geheven wordende op een hoeve ende
+                            diverse parceelen van lande genaempt den Ruygenhil, tsedert de doot
+                            vande overledene, vuyt crachte ende naer vermogen vanden testamente
+                            derselver bijden voors. S<hi rend="super">r</hi>
+                            <rs type="person" ref="#rubens_peter_paul"><hi rend="smallCaps"
+                                    >Petro-Paulo</hi> RUEBENS</rs> aenveert sijn ende midts desen
+                            aenveert worden voorde tweehondert guldenen erffelijck die hem voor
+                            sijne houwelijcxsche goederen sijn competerende, soo zijn de verloopen,
+                            dier tsedert gevallen sijn, staende tot sijnen proffijte; dan moet
+                            daertegens goetdoen ende competeert desen sterfhuyse acht guldenen seven
+                            stuyvers erffelijck die hij meer als de voors. twee hondert guldenen
+                            erffelijck genyetende is, daeraff hij oock de rente moet betaelen
+                            tsedert den <date when="1608-10-20">XX<hi rend="super">en</hi>
+                                Octobris XVI<hi rend="super">c</hi> ach</date>t, hier dienende voor
+                            memorie</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, naer vuijtwijsen vanden bescheeden gequoteert inden selven
+                            inventaris N° 6, is desen sterfhuijse alnoch competerende eene rente van
+                            achtenveertich guldenen ende thien stuyvers erffelijck, van ende vuyt
+                            eene rente van hondert ende vijftich guldenen erffelijck die men
+                            heffende is opde Staten slantsvan <rs type="place" ref="#brabant"
+                                >Brabant</rs> int quartier deser stadt van Antwerpen, welcke rente
+                            verachtert is tsedert den <date when="1582-07-15">vijfthiensten
+                                Julij anno XV<hi rend="super">c</hi> tweentachtentich</date>, daeraff
+                            bijden rendant tsdert is ontfangen een jaer verschenen den <date
+                                when="1583-07-15">XVen Julij XV<hi rend="super">c</hi>
+                                drijentachtentich</date> beloopende</cell>
+                        <cell><measure type="currency" quantity="48">XLVIII</measure> guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, volgende de brieven inden inventaris gequoteert N° 7, competeren
+                            desen sterfhuyse sesthien guldenen erffelijck vuyte tachtentich guldenen
+                            erffelijck geheven wordende op twee huysen voor aen tstraete, met eender
+                            lediger erven daerneffens, eene groote plaetse ende noch twee huysen
+                            ende somerhuyse, met hove, draeyhoome, gestaen ende gelegen buyten de
+                                <rs type="place" ref="#gisternepoorte">Gisternepoorte</rs> was; item
+                            op noch eenen bleyckhoff groot omtrent twee gemeten genaempt Het Bylken,
+                            in welcke rente, voben de voors. sesthiene guldenen erffelijck, der
+                            voors. aflijvige alnoch competerende waren andere sesthien guldenen van
+                            hare moeder verstorven ende acht guldenen heur bij Jouffrouwe <rs
+                                type="person" ref="#touion_clara"><hi rend="smallCaps">Clara de</hi>
+                                TOUION</rs> getransporteert, aeckende tsamen veertich guldenen
+                            erffelijck, die verachtert geweest sijn tsedert half Meerte anno <date
+                                when="1607">XVI<hi rend="super">c</hi> seven</date>, daerop, ten tijde
+                            vande afflijvige, in bier was gehaelt vanden brouwer woonende inde
+                            Goublomme, die de voors. rente jaerlijcx moet betaelen, de somme van
+                            acht guldenen ende veerthien stuyvers, ende voorts en is vande voors.
+                            rente tot noch toe bijden rendant nyet ontfangen hier dienende voor</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, naer vuytwijsen vanden brieven inden inventaris gequoteert N° 8,
+                            competeert desen sterfhuyse eene rente van sevenendertich guldenen ende
+                            thien stuyvers erffelijck, geheven wordende op een huys genoempft
+                            tPapegaeyken, gestaen ende gelegen inde Cammerstrate, met vijve cameren
+                            inde Oudaenstraete achter aen tvoors.huys tPapagaeyken gestaen opden
+                            hoek vanden Oudane, waeraff deerste jaer, verschenen den elfsten April
+                            anno 1609, bijden rendant is ontfanghen</cell>
+                        <cell><measure type="currency" quantity="37">XXXVII</measure> guld. <measure
+                                type="currency" quantity="10">X</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, navolgende de brieven inden voors. inventaris gequoteert
+                            respective N° 9 ende N° 12, competeren desen sterfhuyse twee afgebrande
+                            erven genaempt deene daeraff den Beerendans ende dander dMoriaenshooft,
+                            beyde gelegen tot <rs type="place" ref="#borgerhout">Borgerhoudt</rs>
+                            opden steenwech, alzoo deselve tot noch toe nyet en sijn vercocht ende
+                            ledich liggen, soo en ist daervan nyet ontfangen, hier dienende voor
+                            memorie, compt als vore</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, naer vuytwsen des brieffs gequoteert inden vorrs. inventaris N°
+                            10, competeren desen sterffhuyse vijventwintich guldenen erffelijck van
+                            ende vuyt de vijftich guldenen erffelijck die men heffende is op een
+                            hoeve met buysinge, hove, lande, bossche, bempde, heyde, weyde, gronde
+                            ende allen den toebehoorten, geheeten Morckhoven, gelegen in diversche
+                            parcheelen onder de heerlijckheyt van <rs type="place" ref="#morckhoven"
+                                >Morckhofen</rs> bij <rs type="place" ref="#herentals"
+                            >Herentals</rs>, welcke vijventwintich guldenen erffelijck verachtert
+                            sijn tsedert den thiensten Januari sesthien hondert vijff, ende en heeft
+                            de rendant tot noch toe nyet ontfangen, hier oock dienende voor memorie</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, bijde brieven inden inventaris gequoteert N° 11, competeren
+                            desen sterfhuyse twee renten, eene van eenendertich schellingen drije
+                            penningen Brabants erffelijck, geheven wordende op seker goeden gelegen
+                            ter Hoeven onder <rs type="place" ref="#eeckeren">Eeckeren</rs>,
+                            verachtert wesene tsedert Kersmisse anno <date when="1605">XVI<hi
+                                    rend="super">c</hi> vijff</date>, ende dander van vijfthien
+                            schellinghen grooten Brabants erffelijck, die men heffende is op twee
+                            stucken lants, metten gronde, gelegen ter Capellen onder Eeckeren,
+                            daeraff schijnt nyet ontfangen te sijne tsedert den jare vojfthien
+                            hondert negenentachtentich, hier dienende voor</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, volgende de brieven gequoteert inden inventaris N° 13,
+                            competeert desen sterfhuyse het vijffde deel van twee gereduceerde
+                            renten, geheven wordende op deser stadt van Antwerpen, deene van
+                            tsestich guldenen tsjaers, ende dandere van eenenvijftich guldenen ende
+                            vier stuyvers tsjaers, verachtert wesende de voors. sestich guldenen
+                            erffelijck tsedert <date when="1601-10-01">prima Octobris XVI<hi
+                                    rend="super">c</hi> een</date>; ende heeft de rendant ontfangen
+                            een jaer bedragende tweelff guldenen, verschenen <date
+                                when="1602-10-01">prima Octobris XVI<hi rend="super">c</hi>
+                            twee</date>, ende dander van eenenvijftich guldenen ende vier stuyvers
+                            tsjaers, verachtert wesende tsedert den <date when="1596-12-25"
+                                >vijventwintichsten Decembris XV<hi rend="super">c</hi>
+                                sessentnegentich</date>, ende heeft de rendant oock ontfanghen een
+                            jaer, te weten vijfthien hondert sevenentnegentich, bedragende thien
+                            guldenen vier stuyvers een blanck, maeckende tsamen</cell>
+                        <cell><measure type="currency" quantity="22">XXII</measure> guld. <measure
+                                type="currency" quantity="4">IIII</measure> st. <measure
+                                type="currency" quantity="1">1</measure> bl.</cell>
+                    </row>
+                    <row>
+                        <cell>Item volgende de brieven gequoteert inden selven inventaris Nr. 14
+                            ende 15, competeren desen sterffhuyse twee rentkens, deene van twee
+                            guldenen ende dander van eenen guldenen, op een huys metten hove,
+                            gestaen tot <rs type="place" ref="#berchem">Berchem</rs>, dewelcke men
+                            bevindt ontfanghen te sijne bij <rs type="person" ref="#lantmeter_jan"
+                                >Jan de LANTMETERE</rs> tot halff Meerte vanden jare vijfthien
+                            hondert eenentachtentich stilo novo, hier dienende voor</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, volgende de brieven gequoteert inden selven inventaris Nr. 16,
+                            competeert desen sterfhuyse eene rente van sesse veertelen rogs, geheven
+                            wordende op een stede groot vier ende een halff bunderen, gelegen ter
+                                <rs type="place" ref="#beke">Beke</rs> onder <rs type="place"
+                                ref="#loenhout">Loenhoudt</rs>, dewelcke men nyet en weet hoe langhe
+                            verachtert is, hier dienende oock voor</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, naer vuytwijsen vande brieven inden voors. sterfhuyse gevonden,
+                            gequoteert N<hi rend="super">o</hi> 17, is <rs type="person"
+                                ref="#maniaert_thomas"><hi rend="smallCaps">Thomas</hi>
+                            MANIAERT</rs>, inwoonder deser stadt, desen sterfhuyse schuldich de
+                            somme van seventhien hondert Carolus guldenen eens, hebbende daervore
+                            verbonden seker sijn goet ende leen gelegen tot Beveren ende, bij
+                            afrekeninge gemaeckt totten eenentwintichsten Julij naestcommende,
+                            blijckt dat de voors. <rs type="person" ref="#maniaert_thomas"
+                            >MANIART</rs>, ter causen vande voors. seventhien hondert guldenen ende
+                            verloopen van ende anderssints schuldich blijft aen desen sterfhuyse de
+                            somme van twee duysent tweelff guldenen vijfthien stuyvers, een oort,
+                            hier oock dienende pro.</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Item soo compdt desen sterfhuyse tderdendeel van eenen bempt gelegen
+                            tot <rs type="place" ref="#muyse">Muyse</rs> bij Mechelen, waeraff inden
+                            sterfhuyse geene brieven bevonden en zijn, ende was de huere vanden
+                            selven bempt betaelt tot Sinte Martensmisse XVI<hi rend="super">c</hi>
+                            seven; tsedert is bijden voors. rendant ontfangen een jaer hueren tot
+                            eenentsestich guldenen derthien stuyvers, verschenen Sinte Mertensmisse
+                            anno <date when="1608">XVI<hi rend="super">c</hi> acht</date>, waeraff
+                            getrocken tweentwintich guldenen vier stuyvers drij quaert over een
+                            vijffde deel vande rente opde stadt, competerende <rs type="person"
+                                ref="#mockenborch_barbara"><hi rend="smallCaps">Barbara van</hi>
+                                MOCKENBORCH</rs> ende ontfanghen in leven vande afflijvige, rest
+                            noch negenendertich guldenen acht stuyvers een oort, ende tzedert noch
+                            een jaer huere ontfanghen te weten anno sesthien hondert negen,
+                            verschenen, dwelck is dierste jaer vande nijeuwe hure van sessentsestich
+                            guldenen derthien stuyvers een halven tsjaers, dewelcke, gevuecht mette
+                            voors. <measure type="currency" quantity="39">XXXIX</measure> guldenen
+                                <measure type="currency" quantity="8">VIII</measure> stuyvers een
+                            oort, maken.</cell>
+                        <cell><measure type="currency" quantity="106">I<hi rend="super"
+                            >c</hi>VI</measure> guld. st. <measure type="currency" quantity="1"
+                            >I</measure> bl.</cell>
+                    </row>
+                    <row>
+                        <cell>Item, soo compt desen sterfhuyse tvijfde deel, bedragende drije
+                            guldenen vijfthien stuyvers, van eene rente geheven wordende opde
+                            Domeynen int quartier van Antwerpen van achthien guldenen vijfthien
+                            stuyvers, verachtert tsedert <date when="1590-08-31">ultima Augusti
+                                    XV<hi rend="super">c</hi> tnegentich</date>, daeraff bij <hi
+                                rend="smallCaps">Thomas</hi> MANIAERT tsedert ontfangen sijn twee
+                            jaren, te weten eenentnegentich ende tweentnegentich; hier en is geenen
+                            brieff af inden sterfhuyse bevonden, maer is onder den voors. <rs
+                                type="person" ref="#maniaert_thomas">MANAERT</rs> oft <gap reason="illegible"/>
+                            <hi rend="smallCaps">de</hi> LANTMETER berustende geweest ende schijnt
+                            verloren te wesen ende daer wordt mentie aff gemaeckt inde scheydinge
+                            ende deylinge van des voors. LANTMETERS goeden dienende hier voor</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                    <row>
+                        <cell>Voorts competeert desen sterfhuyse een rente opde Domeynen alhier van
+                            ses guldenen vijff stuyvers erffelijck, waeraff niet en is ontfangen
+                            ende is verachtert tsedert den lesten <date when="1595-06">Junij anno
+                                    XV<hi rend="super">c</hi> vijventnegentich</date>; hier en wordt
+                            oock geenen brieff aff gevonden, maer inden inventaris van wijlen <rs
+                                type="person" ref="#touion_clara"><hi rend="smallCaps">Clara</hi>
+                                COLYNS</rs>, Juffrouwe <hi rend="smallCaps">Marie</hi> PYPELINCX
+                            moeder was, staet datter een vidimus aff geweest is onden den segel ten
+                            saecken der stadt van Antwerpen geexpedieert vuyt eenen chartere Nr. 27
+                            hier oock dienende alleenlijck voor</cell>
+                        <cell>Memorie.</cell>
+                    </row>
+                </table>
+                <p> Somma sommarum vanden geheelen ontfanck bedraecht in alles de somme van een
+                    duysent drye hondert tweentsestich guldenen, vier stuyvers, een ort. </p>
+                <p rend="text-align:center"> VUYTGEVEN TEGEN DEN VOORS. ONTFANCK: </p>
+                <table>
+                    <row>
+                        <cell>Inden eersten, betaelt aen <rs type="person" ref="#wouere_jan"><hi
+                                    rend="smallCaps">Jan vanden</hi> WOUERE</rs>, wijntcoopman, voor
+                            wijn int leven vande afflijvige gelevert</cell>
+                        <cell><measure type="currency" quantity="69">LXIX</measure> guld. <measure
+                                type="currency" quantity="12">XII</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Betaelt aenden coster van <rs type="corporate"
+                                ref="#antwerpen_abtei_st_michiels">Sinte Michiels</rs> voorde
+                            begraefenisse</cell>
+                        <cell><measure type="currency" quantity="39">XXXIX</measure> guld. <measure
+                                type="currency" quantity="10">X</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Betaelt aenden waschmaker</cell>
+                        <cell><measure type="currency" quantity="77">LXXVII</measure> guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Aende Cellebroeders alhier</cell>
+                        <cell><measure type="currency" quantity="3">III</measure> guld. <measure
+                                type="currency" quantity="3">III</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Voor dbehangen vanden huyse met bay ende thueren van dbaercleet,
+                            tsamen betaelt</cell>
+                        <cell><measure type="currency" quantity="22">XXII</measure> guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Betaelt aende Aelmoesseniers</cell>
+                        <cell><measure type="currency" quantity="25">XXV</measure> guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Betaelt voor andere cleyne oncosten als aenden Prochiaen, medecijn,
+                            offergelt, aelmoessen, etc. volgens de particuliere rekeningen van
+                            rendant, tsamen</cell>
+                        <cell><measure type="currency" quantity="38">XXXVIII</measure> guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Voor acht maenden huere vanden huyse, daerinne de afflijvige overleden
+                            ist, betaelt</cell>
+                        <cell><measure type="currency" quantity="83">LXXXIII</measure> guld.
+                                <measure type="currency" quantity="6">VI</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Betaelt aenden apothecaris voor diversche medicamenten aende
+                            afflijvighe ghedaen</cell>
+                        <cell><measure type="currency" quantity="24">XXIIII</measure> guld. <measure
+                                type="currency" quantity="10">X</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Betaelt voor diversche montcosten bijden rendant gehadt gedurende de
+                            sesse weken dat hij na de doot vande aflijvige inden sterfhuyse gebleven
+                            is</cell>
+                        <cell><measure type="currency" quantity="39">XXXIX</measure> guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Item tsedert bijden rendant betaelt aenden deurweerdere <rs
+                                type="person" ref="#bossuyt">BOSSUYT</rs> voorde costen van seker
+                            proces gesustineert tot <rs type="place" ref="#bruessel">Brussele</rs>
+                            tegens Mevrou van Jericho cum suis.</cell>
+                        <cell><measure type="currency" quantity="11">XI</measure> guld. <measure
+                                type="currency" quantity="11">Xi</measure> st. <measure
+                                type="currency" quantity="27">XXVII</measure> mijten.</cell>
+                    </row>
+                    <row>
+                        <cell>Item ter causen vanden selven processe betaelt voor vacatien ende
+                            rapportten</cell>
+                        <cell><measure type="currency" quantity="11">XI</measure> guld. <measure
+                                type="currency" quantity="3.5">III ½</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Item betaelt aen het meyssen die bijde afflijvige bleeff, door ordre
+                            vande selve aflijvige</cell>
+                        <cell><measure type="currency" quantity="7">VII</measure> guld. <measure
+                                type="currency" quantity="18">XVIII</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Item betaelt voorde erven tot Borgerhout te visiteren ende meten</cell>
+                        <cell><measure type="currency" quantity="3">III</measure> guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Item betaeldt aenden steenhouwer voorden sarck geleedt opt graff vande
+                            afflijvighe</cell>
+                        <cell><measure type="currency" quantity="41">XLI</measure> guld.</cell>
+                    </row>
+                    <row>
+                        <cell>Item betaelt voor keerssen ende was opt jaegetijde vande afflijvighe</cell>
+                        <cell><measure type="currency" quantity="17">XVII</measure> st.</cell>
+                    </row>
+                    <row>
+                        <cell>Somma vanden geheelen vuytgeeff bedraecht de somme van</cell>
+                        <cell><measure type="currency" quantity="496">IIII<hi rend="super">c</hi>
+                            XCVI</measure> guld. <measure type="currency" quantity="10">X</measure>
+                            st. <measure type="currency" quantity="1">I</measure> bl. <measure
+                                type="currency" quantity="1">I</measure> negenmanneken.</cell>
+                    </row>
+                    <row>
+                        <cell>Dewelcke gecort aende een duysent drye hondert tweentsestich guldenen,
+                            vier stuyvers, een oort, tweelff mijten, die den geheelen vuytgeeff
+                            bedraecht, resteert meer ontfangen als vuytghegeven</cell>
+                        <cell><measure type="currency" quantity="865">VIII<hi rend="super">c</hi>
+                            LXV</measure> guld. <measure type="currency" quantity="13"
+                            >XIII</measure> st. <measure type="currency" quantity="0.5">½</measure>
+                            <measure type="currency" quantity="3">III</measure> mijten.</cell>
+                    </row>
+                </table>
+                <closer>
+                    <salute> Desen staet is aldus bij mij <rs type="person" ref="#rubens_peeter"><hi
+                            rend="smallCaps">Peeter</hi> RUEBENS</rs>, openbaer Notaris tAntwerpen
+                    residerende gemaect in conformiteyt vanden testamente der voors. Jouffrouwe <hi
+                        rend="smallCaps">Marie</hi> PYPELINCX enden vanden inventaris bij mij van
+                    heure achtergelatene goeden genomen, ende is voorts denselven staet, mitsgaders
+                    dese rekeninge bij Meester <hi rend="smallCaps">Philips</hi> RUBENS gedaen ende
+                    overgegeben van sijnder administratie, gelaudeert ende geapprobeert geweest
+                    bijden voors. S<hi rend="super">r</hi>
+                    <hi rend="smallCaps">Peeter-Paulo</hi> RUBENS, voor hem selven ende als
+                    medemomboir over de voors. wijlen sijnder susters kinderen.</salute>
+                    <dateline>Actum desen <date when="1610-06-28">achtentwintichsten Junij anno XVI<hi rend="super">c</hi>
+                    thien</date>.
+                    </dateline> 
+
+                    <signed rend="text-align:left"><rs type="person" ref="#rubens_peter_paul"><hi rend="smallCaps"
+                    >Pietro Pauolo</hi> RUBENS</rs>
+                    </signed>
+                    <signed rend="text-align:right">Mij Notario daerbij sijnde<lb/>P. RUEBENS, Notarius.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

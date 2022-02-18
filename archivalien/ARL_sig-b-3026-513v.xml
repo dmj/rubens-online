@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_250a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nachweis über Zahlungen an Peter-Paul und Albert Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-3026-513v">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte 27e d’Ambroise van Oncle, chevalier,
+                            receveur général des finances du Roi, etc. du 1er janvier au 31 décembre
+                            1641. Archives du Nord)</collection>
+                        <idno type="signatur">B. 3026, fol. 513v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Nachweis über Zahlungen an Peter-Paul und Albert Rubens</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch den folgenden Nachweis über Zahlungen an Peter-Paul und Albert Rubens von 
+                                    <ref type="rubens" cRef="ed_rubens_250">1641</ref>.</note>
+                                                                    
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1641" notAfter="1641">? 1641</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3. Antwerpen 1888.
+                            S. 132.</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Gehalt</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div xml:lang="fra">
+                <p><pb n="513v"/>1979 livres, 3 sols, 4 deniers aux vefve et héritiers de feu le
+                    secrétaire <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>,
+                    en une lettre de descharge de pareille somme datée du <date when="1641-07-31">
+                        dernier de juillet 1641</date>, levée sur <rs type="person"
+                        ref="#blyleven_baulduyen">Baulduyen Blyleven</rs>, conseiller et recepveur
+                    général de <rs type="place" ref="#brabant">Brabant</rs> au quartier de <rs
+                        type="place" ref="#loewen">Louvain</rs> dont est faict recepte cy-devant
+                    folio IX, à quoy montent quatre années moins quinze jours de gaiges dudict
+                    défunt comme peintre de Son Altèze, que Sa Majesté par ses lettres patentes du
+                        <date when="1636-04-15">15<hi rend="super">e</hi> d’apvril 1636</date><note
+                        resp="A.H." type="footnote">An diesem Tag wurde Peter Paul Rubens zum
+                        Hofmaler des Kardinal-Infanten Ferdinand ernannt; das entsprechende Dokument
+                        ist aber nicht mehr nachweisbar. Aus einem Auszahlungsbeleg an Helene
+                        Fourment gehen jedoch die Daten der Ernennung und seiner Vereidigung (13.
+                        Juni 1636) hervor. Vgl. <bibl xml:id="rooses_ruelens_1887">Max Rooses,
+                            Charles Ruelens: Correspondance de Rubens et documents épistolaires
+                            concernant sa vie et ses auvres. (Codex diplomaticus Rubenianus ; T.
+                            1-6). Bd. 6. Antwerpen 1909. S. 126f. Nr. 819<ptr type="gbv"
+                                cRef="446864137"/></bibl></note>, luy at accordé de gaiges à
+                    l’advenant de 500 pareilles livres par an, à raison de son dit estat, lesdites
+                    quatre années moins quinze jours commencées le <date when="1636-06-15">15<hi
+                            rend="super">e</hi> de juing 1636</date>, jour qu’il at presté son serment
+                    et finies le <date when="1640-05-28">28<hi rend="super">e</hi> de mai ensuivant
+                        1640</date>, par ordonnance de reliefvement lesdittes lettres patentes
+                    originelles, certification du jour de son trespas et quictance vérifiée, veues
+                    en l’estat de <date when="--07">juillet</date>.</p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

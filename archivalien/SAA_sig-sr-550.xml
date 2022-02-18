@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_153">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens und Jan Brueghel erteilen Thomas Test aus Danzig die
+                    Vollmacht, bei Pieter Philipssone einen Geldbetrag zu empfangen, den Pedro
+                    Feronsquy ihnen schuldet</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-550">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1621/ IV: Kimpe &amp; D. Fabri</collection>
+                        <idno type="signatur">SR 550, fol. 268r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens und Jan Brueghel erteilen Thomas Test aus
+                            Danzig die Vollmacht, bei Pieter Philipssone einen Geldbetrag zu
+                            empfangen, den Pedro Feronsquy ihnen schuldet</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1621-09-17">17. September 1621</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Senior <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> ende
+                        <rs type="person" ref="#brueghel_jan_aeltere">Jan van Breugel</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Breughel, Jan (der Ältere)</term>
+                    </index>, schilders van heure doorluchtichste hoocheyt, constituerende <rs
+                        type="person" ref="#tets_thomas">Thomas Tets</rs>, schilder waren tot <rs
+                        type="place" ref="#danzig">Danzick</rs><index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Danzig</term>
+                    </index>, gevende den selven vollmacht,<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vollmacht</term>
+                    </index> auctoriteyt ende sunderlinge bevel, midts desen, om van hennen twegen
+                    ende in den name bij hem constituanten te manen, innen op beuxren ende
+                    t’ontfangen van <rs type="person" ref="#maseyck_pieter">Pieter Philipssone van
+                        Maseyck</rs> coopman tot <rs type="place" ref="#wolinien">Wolinien</rs>
+                    tegenwoordelijck tot Danzick voorschreven, eerst de somme van sevenhondert
+                    vijftich ducaten Polsche munt hen constituanten t’voorseyde competerende ende
+                    daeraff zij hem hennen wisselbrieff gegeven hebben omme de voorseyde som
+                    t’ontfangen van Senoir <rs type="person" ref="#feronsquy_pedro">Petro
+                    Feronsquy</rs> ende noch de somme van drijhondert vijvent zeventich ducaten,
+                    munt voorseyd, des voorseyden Pietro Paulo Ruebens allen commer gegeven ende
+                    daeraff hij, aen den Senior Philips sone van Maseyck zijnde wisselbrieff gegeven
+                    heeft omme devoorseyde som t’ontfangen van de voorseyde Senior <rs type="person"
+                        ref="#feronsquy_pedro">Pietro Feronsky</rs> ende welcke voorseyde resterende
+                    somme de voorseyde Senior Philis sone van Maseyck hen constituanten gelooefft
+                    heeft te doen betalen als hij die ontfangen soude hebben volgende de bescheeden
+                    daeraff zijnde van date den <date when="1620-08-19">19<hi rend="super">den</hi>
+                        Augustus anno XVI<hi rend="super">c</hi> twinitch</date> ende ingevalle de
+                    voorseyde Senior Philipssone van Maseyck de voorseyde penningen nyet ontfangen
+                    en hadde de voorseyde wisselbrieven van hem weerom te heysschen ende hem doen
+                    overcomen;</p>
+                <closer>
+                    <salute>
+                        <span from="" xml:lang="lat">Quitaverunt et si opus sit etc. si testant et omnes dies etc. Juravit
+                        etc. Attestavit etc. Cum potestate sub</span> etc. Ende voorts etc. Alwaert etc. Gelovende etc.
+                    </salute><lb/>
+                    <dateline>
+                        <date when="1621-09-17">Decima septima Septembris 1621</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

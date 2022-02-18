@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_252">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacob Jordaens vor dem Notar Hendrick van Cantelbeck Jr.</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-n-3399">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Notariaatsarchief: Hendrick van Cantelbeck Jr.: Protocollen, en
+                            staten van rekeningen 1647-1648</collection>
+                        <idno type="signatur">N 3399, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jacob Jordaens vor dem Notar Hendrick van Cantelbeck Jr.</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1648-03-02">2. März 1648</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <head><date when="1648-08-25">25 Augusty A<hi rend="super">o</hi>
+                    <hi rend="underline">1648</hi></date>. </head><p>Compareerde in propren persoone S<hi
+                        rend="super">r</hi>
+                    <rs type="person" ref="#jordaens_jacob">Jacques Jordaens</rs><index
+                        indexName="psw">
+                        <term type="PND">Jordaens, Jacob</term>
+                    </index> constschilder alhier my notaris bekent, Ende heeft hij comparant voor
+                    de gerechte waerheyt, geseyt, verc1aert ende geaffirmeert, waerachtig te sijne
+                    dat de vyff stucken schilderye die S<hi rend="super">r</hi>
+                    <rs type="person" ref="#langenhoven_martinus">Martinus van Langenhoven</rs> van
+                    hem comparant heeft gecocht bat dan twee jaeren geleden geheelycken van zyn
+                    eygen hant geschildert herschildert ende verandert zyn in dier voeghen dat
+                    niettegenstaende van hem comparant den selven zinne noch voor dato geschildert
+                    is geweest, naer welckers consept de selve huer beginsel ontfangen hebben, door
+                    het welcke hy comparant gemoveert zynde, heeft de selve laeten copieren, ende
+                    omme te verbeteren ende te amplieren tgene hem comparant int voorgaende
+                    misnoegde, heeft die veranderende alle met zyn eygen hant geschildert,
+                    overschildert ende herschildert, in der vuegen dat hy comparant die hout voor
+                    principalen, zoo goet als zyne andere ordinaere wercken, te weten het stuck <rs
+                        type="work" ref="#jordaens_wiediealtensungen">zoo doude zongen</rs><index
+                        indexName="stw">
+                        <term xml:lang="deu">Wie die Alten sungen</term>
+                        </index> ende <rs type="work" ref="#jordaens_candaules">candaula</rs><index indexName="stw">
+                        <term xml:lang="deu">Candaulis</term>
+                    </index>, den <rs type="work" ref="#jordaens_argus_merkur">argus</rs><index
+                        indexName="stw">
+                        <term xml:lang="deu">Merkur und Argus</term>
+                    </index> ende den vulcanus<index indexName="stw">
+                        <term xml:lang="deu">Vulkan</term>
+                    </index> heeft hij comparant van eerst aen begonst, sonder argelist. Aldus
+                    gedaen tell woonhuyse mijns notaris ter presentien van <rs type="person"
+                        ref="#craesbeck_guilliam">Guilliam van Craesbeck</rs> meester van Zyne
+                    Majesteyts munte ende <rs type="person" ref="#cantelbeck_gaspar">Gaspar van
+                        Cantelbeck</rs> coopman, inwoonderen deser stadt als getuygen hiertoe
+                        geroepen ende versocht.</p> 
+                <closer>
+                    <signed>Jacques Jordaens.</signed><lb/>
+                    <signed><rs type="person" ref="#cantelbeke_hendrick">H.van Cantelbeck</rs> Notaris </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

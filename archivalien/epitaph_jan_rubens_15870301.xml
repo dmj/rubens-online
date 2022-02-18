@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_064">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tod von Jan Rubens in Köln</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="epitaph_jan_rubens_15870301">
+                    <msIdentifier>
+                    <country>Deutschland</country>
+                    <settlement type="city">Köln</settlement>
+                    <repository>St. Petri</repository>
+                        <idno type="signatur">Epitaph</idno>
+                </msIdentifier>
+                    <head>
+                        <title>Tod von Jan Rubens in Köln, Epitaph in St. Petri</title>
+                    </head>
+                    <history>
+                        <origin>
+                            <origDate notAfter="1587-03-01">vor dem 1. März 1587</origDate>
+                            <origPlace>Köln</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Das Epitaph befindet sich in der Kölner Kirche St. Petri.</p>
+                        </provenance>
+                    </history>
+                   <additional><adminInfo><recordHist><source>
+                       <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl>
+                   </source></recordHist></adminInfo>
+                       <listBibl>
+                           <bibl>Johann Jacob Merlo: Nachrichten von dem Leben und den Werken Kölnischer
+                               Künstler. (Kunst und Künstler in Köln: Abtheilung der Künstlernachrichten),
+                               Köln 1850, S. 353<ptr type="opac" cRef="150479808"/></bibl>
+                           <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                               zijne bloedverwanten. Antwerpen 1877, S. 264f.<ptr type="gbv"
+                                   cRef="146162595"/></bibl>
+                           <bibl>Rosine de Dijn: Liebe, Last und Leidenschaft : Frauen im Leben von
+                               Rubens. Stuttgart [u.a.] 2002, S. 106<ptr type="gbv" cRef="460138448"/></bibl>
+                       </listBibl>
+                   </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu">Köln</term>
+                    <term xml:lang="deu">St. Petri</term>
+                    <term xml:lang="deu">Epitaph</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <linkGrp>
+                <link targets="ed_rubens_064_deu ed_rubens_064_lat" type="translation"/>
+            </linkGrp>
+            <text xml:id="ed_rubens_064_lat">
+                <body>
+                    <div xml:lang="lat">
+                        <p rend="text-align:center"> DEO OPTIMO MAXIMO SACRUM.<lb/>
+                            <rs type="person" ref="#rubens_jan"><hi rend="smallCaps">Joanni</hi>
+                                RUBENIO</rs><lb/>
+                            <hi rend="smallCaps">clarissimo jurisconsulto, qui</hi>
+                            <rs type="place" ref="#italien">
+                                <hi rend="smallCaps">Italiam</hi>
+                            </rs><lb/>
+                            <hi rend="smallCaps">per septennium, maximamque<lb/> sequanorum partem
+                                ad capiendum<lb/> ingenii cultum judiciumque confirmandum<lb/>
+                                peragravit, seduloque lustravit.<lb/> deinde, in <rs type="place"
+                                    ref="#belgien">belgium</rs> reversus, <rs type="place"
+                                    ref="#antwerpen">antverpiae</rs><lb/> scabinorum senatus collegio
+                                adlectus<lb/> id munus, per annos sex integros,<lb/> magna cum laude
+                                gessit<lb/> ac demum, civilibus bellis exortis,<lb/> quo procul ab
+                                eis nimirum quietis<lb/> amans ageret, patriam, cui propter<lb/>
+                                administratae reipublicae justitiaeque<lb/> merita charus erat ultro
+                                reliquit<lb/> seque</hi>
+                            <rs type="place" ref="#koeln">
+                                <hi rend="smallCaps">Coloniam Agrippinam</hi>
+                            </rs>
+                            <hi rend="smallCaps">omni<lb/> cum familia recepit<lb/> in eaque</hi> 19
+                                <hi rend="smallCaps">annos transegit.<lb/> viro itaque antiquae
+                                nostrique temporis<lb/> historiae cognitione longe praestanti<lb/>
+                                universis ab humanitate, morum suavitate,<lb/> benificientiaeque
+                                promptitudine<lb/> pergrato<lb/>
+                                <rs type="person" ref="#pypelincx_maria">maria pypelinga</rs>
+                                uxor<lb/> septem ex eo liberorum mater,<lb/> cum qua annis</hi> 26
+                                <hi rend="smallCaps">concorditer sine<lb/> ulla querula vixit,<lb/>
+                                marito dulcissimo bene merenti<lb/> posuit<lb/> natus</hi>
+                            <hi rend="smallCaps">Antverpiae</hi>
+                            <date when="1530-03-14">XIX<sic/> <hi rend="smallCaps">CALEND</hi>.<lb/>
+                                <hi rend="smallCaps">Aprilis ANNO</hi> 1530</date>.<lb/>
+                            <hi rend="smallCaps">DENATUS</hi>
+                            <rs type="place" ref="#koeln">
+                                <hi rend="smallCaps">Coloniae</hi>
+                            </rs>
+                            <date when="1587-03-01"><hi rend="smallCaps">CALEND. MARTII.<lb/>
+                                ANNO</hi> 1587</date>. </p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="ed_rubens_064_deu">
+                <body>
+                    <div xml:lang="deu">
+                        <head>Übersetzung<note resp="A.H." type="footnote">Übersetzung durch Rosine de Dijn. Vgl. <bibl>Rosine de Dijn: Liebe, Last und Leidenschaft : Frauen im Leben von
+                            Rubens. Stuttgart [u.a.] 2002, S. 106<ptr type="gbv" cRef="460138448"/></bibl></note>:</head>
+                        <p> Dem besten und höchsten Gott geweihtes Grabmal für den äußerst berühmten
+                            Rechtsgelehrten <rs type="person" ref="#rubens_jan">Johnnes Rubens</rs>,
+                            der sieben Jahre lang <rs type="place" ref="#italien">Italien</rs> und
+                            den größten Teil der Freigrafschaft <rs type="place" ref="#burgund"
+                                >Burgund</rs> aufmerksam bereiste, um Geistesbildung zu erwerben und
+                            seine Urteilskraft zu stärken. Anschließend nach <rs type="place"
+                                ref="#belgien">Belgien</rs> zurückgekehrt, wurde er in <rs
+                                type="place" ref="#antwerpen">Antwerpen</rs> in das Kollegium des
+                            Schöffenrates gewählt. Dieses Amt bekleidete er sechs Jahre lang in
+                            höchst lobenswerter Weise. Als schließlich der Bürgerkrieg ausbrach,
+                            hielt er sich, der zweifellos den Frieden liebte, weit von ihm fern und
+                            verließ das Vaterland, in welchem er wegen seiner Verdienste um die
+                            Verwaltung des Gemeinwesens und des Rechtswesens berühmt war. Er suchte
+                                <rs type="place" ref="#koeln">Köln</rs> auf, das ihn mit der ganzen
+                            Familie aufnahm, und verbrachte dort 19 Jahre. Zudem gewidmet einem Mann
+                            von herausragender Kenntnis der antiken sowie zeitgenössischen
+                            Geschichte, der allen durch seine Menschlichkeit, seine liebenswerten
+                            Sitten und seine Bereitschaft zur Wohltätigkeit sehr angenehm war. Seine
+                            Frau, <rs type="person" ref="#pypelincx_maria">Maria Pypelincx</rs>, die
+                            ihm Mutter von sieben Kindern wurde und mit der er 26 Jahre einträchtig
+                            ohne jeden Streit zusammenlebte, hat es <note resp="N.B."
+                                type="footnote">das Grabmal</note> ihrem geliebten und würdigen
+                            Ehemann errichtet. Geboren zu Antwerpen am <date when="1530-03-14">14.
+                                März des Jahres 1530</date>, gestorben zu Köln am <date
+                                when="1587-03-01">1. März 1587</date>. </p>
+                        
+                    </div>
+                </body>
+            </text>
+        </group>
+        
+    </text>
+</TEI>

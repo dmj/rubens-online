@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_119">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Schuldbekenntnis von Jan Baptista Arnouts über 150 ₤ die er in sechs Raten an
+                    Peter Paul Rubens zu zahlen sich verpflichtet. Als Unterpfand für diesen Betrag
+                    stellen er und sein Bruder Jacques das Land zur Verfügung, das sie auf dem
+                    Hoogen Doel geerbt haben</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-512-238">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1614/ V: Uwens, Neesen, Waerbeeck &amp;
+                            Colijns</collection>
+                        <idno type="signatur">SR 512, fol 238r-239v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Schuldbekenntnis von Jan Baptista Arnouts über 150 ₤ die er in
+                            sechs Raten an Peter Paul Rubens zu zahlen sich verpflichtet. Als
+                            Unterpfand für diesen Betrag stellen er und sein Bruder Jacques das
+                            Land zur Verfügung, das sie auf dem Hoogen Doel geerbt haben</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1614-05-26">26. Mai 1614</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Schuldbekenntnis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p><rs type="person" ref="#arnouts_jan_baptista">Jan Baptista Arnoute</rs>, coopman
+                    alhier ter borssen, openbaerlijck sijnen eygen handel drijvende ende van de
+                    Eertshertogen onse genadige Heeren ende Princen, in hennen Rade van <rs
+                        type="place" ref="#brabant">Brabant</rs>, op den <date when="1613-07-20"
+                        >twintichsten July van den voorleden jare XVI<hi rend="super">c</hi> ende
+                        derthiene</date> geobtineert hebbende opene brieven van venia statis welcke
+                    brieven van venia statis wij originalijcker gesien hebben ende hooren lesen,
+                    dewelck ten bijsijne ende met wille ende consente van <rs type="person"
+                        ref="#arnouts_jacques">Jaques Arnouts</rs> te desen mede comperende, sijn
+                    broeder ende testametelen momboir, bekende schuldich te van goeder
+                    rechtveerdiger schult S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> de somme
+                    van hondert vijftich ponden grooten Vlems eens, toecommende ter causen van
+                    gelijcke somme die de voors. S<hi rend="super">r</hi> Pietro Paulo Ruebens hem
+                    goetgedaen ende voldaen heeft welcke voors. somme hij comparant geloeft heeft
+                    ende geloefde mitdts desen, wel ende volcoomlijck aenden voors. Pietro Paulo
+                    Ruebens, oft aen den brenger van desen brieve op te leggen ende te restitueren,
+                    binnen den tijt van drij eerstoomende jaaren, in sesse payen, te wetenen in alle
+                    sesse maenden eerstvomende vijventwintich ponden Vlems, sonder langen vertreck
+                    of dilay. Ende tot versekerheyt van dyen heeft hij comparant verbonden ende te
+                    pande gestelt sijnen persoon ende alle sijne goeden, rurende ende oprurende,
+                    tegenwoordige ende toecomende ende specialijcker de twee hondert dertich gemeten
+                    ende sevenenegentich roeden lants, metten vruchten daeraf, te procederen die de
+                    voors. Jaques Arnouts hem comparant, op rekeninge van sijne vaderlijcke goeden
+                    ende andere susterlijcke ende broederlijcke versterffenissen op den <date
+                        when="--02-13">13 February</date> lestleden bewesen ende overgegeven heeft
+                    gehadt gelegen deselve landen in den Hoogen Doel, te wetene hondert
+                    negenenveertich gemeten negentien roeden, in eene partije van vierhondert
+                    vijftien gemeten negenentwintich roeden gecavelt, mette gemeyne crediteuren van
+                    den sterffhuyse van wijlen S<hi rend="super">r</hi>
+                    <rs type="person" ref="#haeften_robbert">Robbert van Haeften</rs>. Item
+                    eenentwintich gemeten achtenseventich roeden die de voors. Jaques Arnouts bij
+                    transporte vercregen hadde den <date when="--10-17">17<hi rend="super">den</hi>
+                        Octobris</date> lestleden aen Joncker <rs type="person" ref="#vool_jacques"
+                        >Jacques Vool</rs> oock gecavelt vuytte voorseyden vierhondert vijftien
+                    gemeten een hondert negenentwintich roeden ende noch tsestich gemeten gelegen in
+                    ’t bedijckt <rs type="place" ref="#polderken">Polderken</rs> van den voorscreven
+                    Hoogen Doel den gemeyne crediteuren des voors. sterffhuys wijlen S<hi rend="super"
+                        >r</hi> Robert van Haeften op den <date when="1612-03-09">9 Meerte anno
+                            XVI<hi rend="super">c</hi> ende twelve</date>, voor schepenen deser stadt
+                    ende al ist dat hij comparant op den <date when="--03-27">27<hi rend="super"
+                        >sten</hi> Meerte</date> lestleden de voors. partijen van tsestich gemeten
+                    in ’t <rs type="place" ref="#cleyn_polderken">Cleyn Polderken</rs>, met noch
+                    vijventwintich gemeten vuyte reste daernaest liggende getransporteert heeft aen
+                        S<hi rend="super">r</hi>
+                    <rs type="person" ref="#haeften_godevaert">Godevaert van Haeften</rs> ende sijne
+                    mede erfgenamen van wijlen Jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="#steenwinckel_elisabet">Elisabet van Steenwinckel</rs>,
+                    weduwe des voors. wijlen <rs type="person" ref="#haeften_robbert">Robrecht van
+                        Haeftten</rs> soo is nochtans bij denselven instrumenta gepermitteert
+                    deselve mede voor de geschoten ende dijckpenningen te mogen verbinden, alles
+                    blijckende bij den bescheede daeraff sijnde ende dit al op heerlijcke ende reele
+                    ende parate executie ende opt vonnis ende al op ’t vonnislijck alsoo daer inne
+                    gedoemt ende gecondempneert ware, gelijck wij hem tot sijnen versuecke daer inne
+                    doemen ende condemperen, midts desen renuncierende tot dyen eynde de comparant
+                    van allen exceptien, subterfugien, municipale ende andere rechten, stede ende
+                    merct vrijheden, brieven van gratien, atterminatien cessien, relivementen ende
+                    gereralijcke van allen anderen behulpen die hen hier tegens eenichsints te stade
+                    ende bate souden mogen comen ende besundere den rechte dicterende, dat generale
+                    renuntiatie nyet en valideert, ten sij dat speciale voorgaet ende affirmerende
+                    onder eedt, de selve verbondene landen, voor date deser, nyet voorder verbonden
+                    oft belast te sijn, dan voor de somme van achthondert ponden groot Vlems, aen
+                    Joncker <rs type="person" ref="#visscher_jan">Jan de Visschere</rs>, behoudens
+                    dat bovendyen de voors. tsestich gemeten van ’t Cleyn Polderken toecomende den
+                    voors. S<hi rend="super">r</hi> Godevaert van Haeften ende consorten, door voors.
+                    Jaques Arnouts voor date van den voors. transporte sijns comparants belast sijn
+                    met tweehondert gulden erff<hi rend="super">el</hi> aen Jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="#haeften_barbara">Barbara van Haeften</rs> sonder meer.
+                    Voorts heeft de voors Jaques Arnouts, in sijnen eygenen name, geloeft ende is
+                    borge gebleven, geloefde ende bleef borge, midts desen als principael, voor de
+                    voldoening ende betalinge der voors. hooftsomme, bijde ende in der manieren
+                    boven verhaelte, verbindende daervore ingsgelijcx sijnen persoon ende alle sijne
+                    goeden, oock op heerlijcke, reele ende parate executie ende opt vonnisse als
+                    vore ende beyde de voors. comparanten onwederroepelijck geconstitueert ende
+                    machtich gemaeckt des crediteuren des voors. sterffhuys wijlen S<hi rend="super"
+                    >r</hi> Robert van Haeften op den <date when="1612-03-09">9 Meerte anno
+                            XVI<hi rend="super">c</hi> ende twelve</date>, voor schepenen deser stadt
+                    ende al ist dat hij comparant op den <date when="--03-27">27<hi rend="super"
+                        >sten</hi> Meerte</date> lestleden de voors. partijen van tsestich gemeten
+                    in ’t Cleyn Polderken, met noch vijventwintich gemeten vuyte reste daernaest
+                    liggende getransporteert heeft aen S<hi rend="super">r</hi> Godevaert van Haeften
+                    ende sijne mede erfgenamen van wijlen Jouff<hi rend="super">r</hi> Elisabet van
+                    Steenwinckel pariter et infeldium, omme allen ’t gene voorts is in den grooten
+                    rade van <rs type="place" ref="#mechelen">Mechelen</rs>, provincialen rade van
+                        <rs type="place" ref="#flandern">Vlaanderen</rs>, wethouderen van <rs
+                        type="place" ref="#kieldrecht">Kieldrecht</rs> ende alomme elders, daer ’t
+                    den voorn. S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paule Rubens</rs> soude mogen
+                    begeeren ende behoort te vernieuwen ander werven te passeren ende hun ende
+                    elcken van hun vonnislijck daerinne te doen ende laten condemneren ende voorts
+                    ende alwaert ende gelovende ende tot noch naerder ende meerder versekerheyt des
+                    voors. Pietro Paulo Ruebens sijn de voors. comparanten tevreden ende consenteren
+                    bij desen dat de selve Ruebens in handen sal mogen hebben ende behouden, de
+                    quitantien des voors. penninckmeesters ende daertoe allen al sulcken recht ende
+                    actie als den penninckmeester ter saken van de geschoten op de voors. landen
+                    compaterende is, sulcx dat hij bij faulte van de voors. restitutie, der voors.
+                    te verschietene penningen, deselve landen bij reele ende parate executie daer
+                    vore sal mogen aenveerden ende doen vercoopen.</p>
+                    <closer>
+                        <dateline>Die <date when="1614-05-26">26 May 1614</date>
+                        </dateline>
+                    </closer>
+                 </div>
+        </body>
+    </text>
+</TEI>

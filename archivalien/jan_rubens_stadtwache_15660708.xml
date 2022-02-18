@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_307">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dokumentarischer Beleg dafür,
+                    dass Jan Rubens mit dem Bewachen der Stadttore von Antwerpen betraut war</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="jan_rubens_stadtwache_15660708">
+                    <msIdentifier><repository>unbekannt</repository><collection>P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Dokumentarischer Beleg vom 8. Juli 1566</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Dokumentarischer Beleg vom <date when="1566-07-08">8. Juli 1566</date> dafür,
+                            dass Jan Rubens mit dem Bewachen der Stadttore von Antwerpen betraut war</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1566-07-08">8. Juli 1566</origDate>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 122, Anm. 2.<ptr type="gbv" cRef="146162595"/></bibl>
+                            
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Jan</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+
+                <p>Is geordonneer, bij mijnen Heeren Burgermeesteren ende Scepenen, dat de Heeren
+                    nabescreven hen sullen vinden aen deser stadt poorte, om die gade te slaen ende
+                    te assisteren die vander waken, voir desen avont: </p>
+                <p>Namelick:<lb/>
+                    <rs type="person" ref="#etten_henrick">HENRICK VAN ETTEN</rs>, aende Keyserspoort;<lb/>
+                    <rs type="person" ref="#rubens_jan">JAN RUBENS</rs>, aende Kidorppoorte;<lb/>
+                    <rs type="person" ref="#happart_g">G. HAPPART</rs>, aende Croonenborch;<lb/>
+                    <rs type="person" ref="#longin_g">G. DE LONGIN</rs>, aende Roodepoorte;<lb/>
+                    <rs type="person" ref="#ranst_m">M. RANST</rs>, aende Pisternepoorte. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

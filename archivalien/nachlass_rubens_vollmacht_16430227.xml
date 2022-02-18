@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_301">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verteilung des Nachlasses von Peter Paul Rubens. Urkunde des Notars Toussaint
+                    Guyot vom 27. Februar 1643 zur Bestätigung der am 24. Januar erteilten Vollmacht
+                    durch den Vormund Philipp Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+                
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="nachlass_rubens_vollmacht_16430227">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Urkunde zurVerteilung des Nachlasses von Peter Paul Rubens vom 27. Februar 1643</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Verteilung des Nachlasses von Peter Paul Rubens. Urkunde des Notars Toussaint
+                            Guyot vom 27. Februar 1643 zur Bestätigung der am 24. Januar erteilten Vollmacht
+                            durch den Vormund Philipp Rubens</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1643-02-27">27. Februar 1643</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 79f.<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+               <dateline>Die <date when="1643-02-27">27 Februarii 1643</date>.
+                    </dateline>
+                <p>Comparuit Heer ende Meester <rs type="person" ref="#rubens_philippus">PHILIPS
+                        RUBENS</rs>, Schepen deser stadt, my Notari obekent synde, inden naeme ende
+                    als medetestamentlycken momboir over de minderjaerige kinderen van wylen Heer
+                        <rs type="person" ref="#rubens_peter_paul">PIETRO-PAULO RUBENS</rs>, Heere
+                    van Steene, etc. daer moeder aff is Vrouwe <rs type="person"
+                        ref="#fourment_helene">HELENA FOURMENT</rs>, hem daervore sterckmaeckende,
+                    ende indyer qualiteyt constituit Meester <rs type="person" ref="#gerardi_gillis"
+                        >GIELIS GERARDI</rs>, Procureur postulerende voor den Raede van <rs
+                        type="place" ref="#brabant">Brabant</rs>, hem gevende volcommen ende
+                    absolute macht, om te vervolgen ende te verantwoorden alsulcke saecke, questie
+                    ende proces als Joncker <rs type="person" ref="#rubens_albert">ALBERT
+                        RUBENS</rs>, Secretaris van den Secreten Raidt ende Joncker <rs
+                        type="person" ref="#rubens_nikolaas">NICOLAES RUBENS</rs>, synen broeder,
+                    aldaer hebben geintenteert tegen de voors. minderjaerige kinderen ende
+                    heurlieder momboirs, te litiscontesteren, domicilie te kiesen, jurandum, etc.
+                    sententias executioni mandandum. Et generaliter etc. Promittens, etc.</p>
+                <closer><salute>Actum <rs type="place" ref="#antwerpen">Antverpiae</rs>, ter
+                        presentien van <rs type="person" ref="#langhenberge_andreas">ANDRIES VAN
+                            LANGENBERGE</rs> ende <rs type="person" ref="#guyot_daniel">DANIEL
+                            GUYOT</rs>, incolis testibus.</salute>
+                    <signed><rs type="person" ref="#rubens_philippus">PH<hi rend="super">ls</hi>.
+                            RUBENS </rs></signed>
+                    <signed><rs type="person" ref="#guyot_toussaint">T. GUYOT.</rs></signed>
+                </closer>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

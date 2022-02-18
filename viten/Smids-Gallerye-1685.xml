@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_290">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="person" ref="#smids_ludolph">Ludolph Smids</rs>: Gallerye, orte Proef van syne Dichtoefeningen; met noodige verklaaringen verrykt. <date when="1685">1685</date></title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate; &register-person; &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="smids_gallerye_1685">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                    </msIdentifier>
+                    <head>
+                        <title>Ludolph Smids beschreibt in seiner "Gallerye" 1685 eine Darstellung der Psyche aus der Hand des Peter Paul Rubens</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Ludolph Smids: Gallerye</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Ludolph Smids: Gallerye, orte Proef van syne Dichtoefeningen; met noodige verklaaringen verrykt. Groningen: Pieman, 1685. S. 27</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Smids, Ludolph</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <head>17. PSYCHE,<lb/>
+                    op een Berg verwachtende d' uytslag va't Orakel: Door<lb/>
+                    <rs type="person" ref="#rubens_peter_paul">RUBBENS</rs>.<index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term xml:lang="deu">Psyche</term></index></index>
+                </head>
+                <p>T'Orakel was wel wreed, O Rubbens! gy noch wreeder:<lb/>
+                    Gy laat haar al te lang op 't hoogh gebergte staan.<lb/>
+                    Set, met een dwarrelwind, haar op dit padt eens fieder;<lb/>
+                    Doe PSYCHE na 't paleys van haaren Brui'gom gaan. Sy schreyd; sy schrikt; sy weet niet waarse sich sal wenden.<lb/>
+                    Ah! PSYCHE! Rubbens soekt sijn lof in uw' elenden.<lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_211">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Rubens wird in den Ritterstand erhoben</title>
+                <respStmt>
+                    <resp>Übersetzung</resp>
+                    <name type="person">Nils Büttner</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="erhebung_ritterstand_spanien_16310716">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Louis Prosper Gachard: Histoire politique et diplomatique de Pierre-Paul Rubens</collection>
+                        <idno>Zustimmung von Philipp IV. zur Erhebung von Peter-Paul Rubens in den Ritterstand vom 16. Juli 1631</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens wird in den Ritterstand erhoben</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zu diesem Vorgang auch die Urkunde über die Zuerkennung des 
+                                    Adels-Privileges vom <ref type="rubens" cRef="ed_rubens_212">20. August 1631</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1631-07-16">16. Juli 1631</origDate>
+                            <origPlace>Madrid</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Das originale Dokument befand sich im 19.
+                                Jahrhundert im Staatsarchiv in Simancas [Secretarias provinciales, leg.
+                                2435].</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Louis Prosper Gachard: Histoire politique et diplomatique de Pierre-Paul Rubens</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Louis Prosper Gachard: Histoire politique et
+                                diplomatique de Pierre-Paul Rubens. Brüssel: Office de Publicite, 1877, S.
+                                316f.<ptr type="opac" cRef="306740680"/></bibl>
+                            <bibl>Max Rooses, Charles Ruelens: Correspondance
+                                de Rubens et documents épistolaires concernant sa vie et ses auvres. (Codex
+                                diplomaticus Rubenianus ; T. 1-6), Bd. 5 Antwerpen 1907, S. 392, Nr.
+                                DCCVIII<ptr type="gbv" cRef="446864137"/></bibl>
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <linkGrp>
+                <link targets="ed_rubens_211_deu ed_rubens_211_spa" type="translation"/>
+            </linkGrp>
+            <text xml:id="ed_rubens_211_spa">
+        <body>
+            <div part="Y" xml:lang="spa">
+                <p> Señor,<lb/>
+                    <rs type="person" ref="#rubens_peter_paul">Pablo Rubens</rs>, secretario de V.
+                        M<hi rend="super">d</hi><index indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index> en su consejo privado en <rs type="place" ref="#flandern">Flándes</rs>,
+                    representa que ha servido á V. M<hi rend="super">d</hi> en los negocios que á V.
+                        M<hi rend="super">d</hi> y á sus ministros son notorios, y con toda fidelidad
+                    y satisfacion. Y desseando continuarlo con mas lustre y autoridad en las
+                    ocasiones que se ofrecieren, supplica á V. M<hi rend="super">d</hi> se sirva de
+                    honrarle con título de cavallero<index indexName="stw">
+                        <term xml:lang="deu">Ritter</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="deu">Ritterstand</term>
+                    </index>.<lb/> La serenissima infante<index indexName="psw">
+                        <term type="PND">Isabella (Spanien, Infantin)</term>
+                    </index> escrive á V. M<hi rend="super">d</hi> en recommendacion désta pretension
+                    con mucho encarecimiento, representando los servicios del suplicante, y
+                    suplicando á V. M<hi rend="super">d</hi> se sirva de hazerle la merced que pide.
+                    V. M<hi rend="super">d</hi> le conoce y sus buenas partes, y save quan raro es en
+                    su profession: por lo qual y sus servicios hechos en cosas de importancia, y ser
+                    ya secretario de V. M<hi rend="super">d</hi>, no podrá causar consequencia para
+                    otros de su arte el hazerle la dha merced. El emperador <rs type="person"
+                        ref="#kaiser_karl_v">Carlos Quinto</rs><index indexName="psw">
+                        <term type="PND">Karl (Römisch-Deutsches Reich, Kaiser, V.)</term>
+                    </index> la hizo á <rs type="person" ref="#tizian">Ticiano</rs><index
+                        indexName="psw">
+                        <term type="PND">Tizian</term>
+                    </index> de un hábito de <rs type="corporate" ref="#orden_von_santiago"
+                    >Santiago</rs>, Y assí parece al consejo que V. M<hi rend="super">d</hi>. podrá
+                    servirse de hazersela al suplicante del título de cavallero que pretende.
+                    Ordenará V. M<hi rend="super">d</hi>. lo que más fuere servido.</p> 
+                <closer><dateline>En <rs
+                        type="place" ref="#madrid">Madrid</rs>, á <date when="1631-07-16">16 de
+                        julio 1631</date>.</dateline></closer>
+                
+                <note type="contemporary" place="margin" resp="#philipp_iv_spanien"
+                    >Hagasse.</note><note resp="N.B" type="footnote">Randglosse des
+                    Königs</note>
+                
+            </div>
+        </body>
+            </text>
+            <text xml:id="ed_rubens_211_deu">
+        <body>
+            <div xml:lang="deu">
+                <head>Übersetzung:</head>
+                <p> Herr <rs type="person" ref="#rubens_peter_paul">Pablo Rubens</rs>, Sekretär
+                    Eurer Majestät in Eurem privaten Rat in <rs type="place" ref="#flandern"
+                        >Flandern</rs>, stellt dar, daß er Euer Majestät in den Geschäften gedient
+                    hat, die Euer Majestät und den Ministern notwendig waren, und dies mit Treue und
+                    Freude. Und mit dem Wunsch mit mehr Glanz und Autorität in vorkommenden
+                    Gelegenheiten weiter dienen zu dürfen, bittet er Euer Majestät, ihm mit dem
+                    Titel des Kavalier zu ehren.</p>
+                    <p>Die Serenisima Infantin schreibt Euer Majestät
+                    und empfiehlt eindringlich diesen Anspruch in Vertretung des Bittstellers, und
+                    bittet Ihre Majestät, ihm diesen Gefallen zu tun. Euer Majestät kennt ihn und
+                    seine guten Seiten und weiß, wie selten dies in seinem Beruf vorkommt. Darum und
+                    aufgrund seiner in wichtigen Angelegenheiten durchgeführten Dienste und auch
+                    deshalb, weil er schon Sekretär Ihrer Majestät ist, dürfte die Erfüllung seines
+                    Wunschs zu keinen Konsequenzen für andere führen. Kaiser <rs type="person"
+                        ref="#kaiser_karl_v">Karl der Fünfte</rs> billigte dereinst <rs
+                        type="person" ref="#tizian">Tizian</rs> ein Ordenskleid <note resp="N.B."
+                        type="footnote">die Ordenszugehörigkeit</note> von Santiago zu. Und so
+                    scheint es dem Rat, daß Ihre Majestät auch dem Bittsteller den beanspruchten
+                    Titel des Kavaliers erteilen könnte. Befehle Euer Majestät, was getan werden soll.</p>
+                    <closer><dateline><rs type="place" ref="#madrid">Madrid</rs>, den <date when="1631-07-16">16. Juli
+                    1631</date></dateline></closer>
+                
+                <note type="contemporary" place="margin" resp="#philipp_iv_spanien">Soll geschehen.</note> <note resp="N.B"
+                        type="footnote">Randglosse des Königs</note>
+                
+            </div>
+        </body>
+         </text>
+        </group>
+      
+    </text>
+</TEI>

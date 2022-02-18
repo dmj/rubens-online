@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI version="5.0" xml:base="edoc/ed000083" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+		 <titleStmt>
+		  
+		  <title>Rubens-online: Quellen zu literarischen Bezügen, Werk, Leben des flämischen Malers Peter Paul Rubens (1577–1640)</title>
+		  
+		  <respStmt>
+		  	<name>Prof. Dr. Nils Büttner</name>
+		  	<orgName>Staatliche Akademie der Bildenden Künste Stuttgart</orgName>
+		  	<resp>Redaktion</resp>
+		  </respStmt>
+		  <respStmt>
+		  	<name>Prof. Dr. Ulrich Heinen</name>
+		  	<orgName>Bergische Universität Wuppertal</orgName>
+		  	<resp>Redaktion</resp>
+		  </respStmt>
+		  <respStmt xml:id="hab_editor">
+		   <name>Agnes Heine</name>
+		   <resp>Editorin elektronische Publikation</resp>
+		  </respStmt>
+		  <respStmt>
+		  <name>Björn Nils Götz</name>
+		   <resp>wissenschaftliche Hilfskraft Wuppertal/Heidelberg</resp>
+		   <resp>Übersetzung</resp>
+		  </respStmt>
+		 	<respStmt>
+		 		<name>Anja Bigiel</name>
+		 		<resp>studentische Hilfskraft Stuttgart/Heidelberg</resp>
+		 	</respStmt>
+		<respStmt>
+			<name>Daniela Schulz</name>
+			<resp>Praktikantin (Köln)</resp>
+		</respStmt>
+		 	
+		 </titleStmt>
+			<editionStmt>
+				<edition>Elektronische Publikation nach  TEI P5</edition>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+					<address>
+						<street>Lessingplatz 1</street>
+						<name type="city">Wolfenbüttel</name>
+						<postCode>D-38299</postCode>
+						<name type="country">Germany</name>
+					</address>
+				</publisher>
+				<date>2007-04-09</date>
+				<distributor>Herzog August Bibliothek Wolfenbüttel</distributor>
+				<availability status="free">
+					<p xml:id="copyright"></p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblFull>
+					<titleStmt>
+					 <title>Rubens-online: Quellen zu literarischen Bezügen, Werk, Leben des flämischen Malers Peter Paul Rubens (1577–1640)</title>
+					</titleStmt>
+					<publicationStmt>
+						<idno></idno>
+						<idno></idno>
+						<idno></idno>
+						<publisher></publisher>
+						<pubPlace></pubPlace>
+						<date></date>
+					</publicationStmt>
+				</biblFull>
+			</sourceDesc>
+		</fileDesc>
+	 <revisionDesc>
+	  <change></change>
+	 </revisionDesc>
+	</teiHeader>
+	<text>
+	  <body>
+	    <div type="preface">
+	    <head>Vorwort</head>
+	    	<p>Das in Kooperation mit der Staatlichen Akademie der Bildenden Künste in Stuttgart (Prof. Nils Büttner) und der Bergischen Universität Wuppertal (Prof. Ulrich Heinen) durchgeführte Forschungsprojekt macht Quellen und Dokumente zu literarischen Bezügen, Leben und Werk des Malers, Unternehmers und Hofmannes Peter Paul Rubens (1577-1640) wissenschaftlich erschlossen und im Internet zugänglich. Neben Bekanntem wird hier auch bislang unpubliziertes Material zugänglich gemacht sowie erstmals auch die zeitgenössischen gedruckten Quellen des 17. und frühen 18. Jahrhunderts und die in Rubens' näherer Umgebung publizierten Schriften.	    		
+	    	</p><p>Die hier versammelten Quellen geben in bisher nicht gekannter Geschlossenheit einen Überblick über die familiäre Situation des Malers Rubens bis zum Jahr 1600, sowie zu seinem Leben und Werk zwischen 1608 und 1640. Dadurch wird eine umfassende Neubewertung der gesellschaftlichen Stellung, ökonomischen Situation, künstlerischen Wirkung und intellektuellen Positionierung eines für die Epoche paradigmatischen Künstlers aus zeitgenössischer Perspektive möglich.
+	    	</p>
+	  	    </div>
+	   
+<div type="introduction_person">
+ <head>Peter Paul Rubens (1577–1640)</head>
+	<list type="biography">
+	<label>28. Juni 1577</label>
+		<item>
+		Peter Paul Rubens wird in Siegen (Nassau) geboren. Seine Eltern, der Antwerpener Jurist Jan Rubens (1530 – 1587) und Maria Pypelincx (1538 – 1608), waren 1568 nach Köln gegangen. Dort trat Jan Rubens bei Anna von Sachsen (1544 – 1577) in Dienst, der Gattin Wilhelms des Schweigers (1533 – 1584). Einer Affäre mit ihr bezichtigt, wurde er als Gefangener der Grafen von Oranien-Nassau in Siegen inhaftiert.
+		</item>
+	
+	<label>1578</label>
+			<item> 
+		Jan Rubens wird aus der Haft entlassen, die Familie geht zurück nach Köln.
+			</item>
+	<label>1587</label>
+		<item> 
+		Nach dem Tod ihres Mannes kehrt Maria Pypelincx mit ihren Kindern nach Antwerpen zurück. Peter Paul Rubens besucht dort gemeinsam mit anderen Söhnen aus gutem Hause die Lateinschule von Rumoldus Verdonck (1541 – 1620). Nach Ende der Schulzeit tritt Rubens als Page in den Dienst von Marguerite de Ligne (1552 – 1611), der Witwe von Philipp de Lalaing (1537 – 1582), seines Zeichens Gouverneur des Hennegau. Über die Dauer dieser Pagenzeit lassen sich keine Angaben machen.
+		</item>
+	<label>18. Oktober 1598 </label>
+		<item>
+		Rubens wird in den Liggeren, dem Mitgliederverzeichnis der Antwerpener Lukasgilde, als Freimeister verzeichnet. Seine Lehrzeit absolvierte er in den Werkstätten von Tobias Verhaecht (1561 – 1631), Adam Van Noort (1562 – 1641) und Otto van Veen (1556 – 1629). Rubens‘ künstlerische Anfänge liegen weitgehend im Dunkeln. Seine frühesten bekannten Arbeiten sind gezeichnete Kopien nach Druckgraphiken des 15. und 16. Jahrhunderts; die ersten Gemälde erweisen die Nähe zu van Veen.
+		</item>
+	<label>8. Mai 1600 </label>
+		<item>
+		Rubens läßt sich durch den Antwerpener Magistrat ein Gesundheitszeugnis für die Reise nach Italien ausstellen.
+		</item>
+	<label>1600 – 1608 </label>
+		<item>
+		Rubens tritt noch im Jahr seiner Abreise als Hofmaler in den Dienst von Vincenzo I. Gonzaga (1587 – 1612), Herzog von Mantua. In der Zeit seines Italienaufenthaltes besucht Rubens auch Venedig, Rom und Genua. Er setzt sich intensiv mit den Zeugnissen der Antike und den Meisterwerken der italienischen Renaissance auseinander, darüber hinaus beschäftigt er sich intensiv mit der Kunst seiner Zeit. Auch sein Bruder Philipp Rubens (1574 – 1611) hält sich zu dieser Zeit in Rom auf. Die Brüder verkehren dort in einem intellektuell regen Freundeskreis, zu dem der deutsche Arzt Johan Faber (1574 – 1629), der Philologe Gaspar Schoppe (1576 – 1649), Jan Hemelaer (1580 – 1655) und zahlreiche Künstler zählen, darunter Adam Elsheimer (1578 – 1610) und Paul Bril (1554 – 1626). Zum intellektuellen Umfeld der Brüder Rubens und ihres Freundeskreises gehörten auch die Angehörigen der 1603 durch Federico Cesi (1585 – 1630) gegründeten Accademia dei Lincei, der „Akademie der Luchse“, einer naturwissenschaftlichen Gesellschaft, der seit 1611 auch Galileo Galilei (1564 – 1642) angehörte.
+		</item>
+	<label>1601/02 </label>
+		<item>
+		In Rom entstehen im Auftrag des niederländischen Souveräns Erzherzog Albrecht (1559 – 1621) drei Gemälde für die Kirche Croce in Gerusalemme.
+		</item>
+	<label>1603 – 1605 </label>
+		<item>
+		Im Auftrag des Mantuaner Herzogs begleitet Rubens eine diplomatische Gesandtschaft mit Geschenken für König Philipp II. (1578 – 1621) nach Madrid. In Spanien fertigt er etliche Werke, darunter das Reiterbildnis des Herzogs von Lerma (1553 – 1625). Im Frühjahr 1604 kehrt er nach Mantua zurück, wo bis 1605 drei gewaltige Bilder für den Chor der Jesuitenkirche Santa Trinita entstehen. 
+		</item>
+	<label>1606 – 1608</label>
+		<item>
+		Zwischen 1606 und 1608 hält Rubens sich mehrfach in Rom auf. Mit dem Auftrag für den Hochaltar der Kirche Santa Maria in Vallicella sichert Rubens sich einen Platz unter den ersten Künstlern Roms.
+		</item>
+	<label>19. Oktober 1608</label>
+		<item> 
+		Maria Pypelincx stirbt. Rubens bricht umgehend aus Italien auf und kehrt am 11. Dezember nach Antwerpen zurück, wo er ihr Haus in der Kloosterstraat bezieht.
+		</item>
+	<label>26. März 1609 </label>
+		<item>
+		Philipp Rubens heiratet Maria (*1586), die jüngste Tochter des Stadtsekretärs Hendrik de Moy (1534 – 1610). Philipp hatte zuvor dem Contubernium des Justus Lipsius (1547 – 1606) angehört und als Schüler des berühmten Philosophen in dessen Haus gelebt, bevor er nach seinem Italienaufenthalt am 20. Januar 1609 in Antwerpen zum Stadtsekretär ernannt worden war.
+		</item>
+	<label>29. Juni 1609</label>
+		<item> 
+		Rubens wird unter dem Vorsitz von Jan Brueghel (1568 – 1625) in die Romanisten-Gilde (Confratrum collegii Romanorum apud Antuerpienses) aufgenommen. Am 1. Juni 1613 wird Rubens Dekan der Gilde.
+		</item>
+	<label>23. September 1609</label>
+		<item> 
+		Rubens wird zum Hofmaler der niederländischen Souveräne Infantin Isabella Clara Eugenia (1566 – 1633) und Erzherzog Albrecht von Habsburg (1559 – 1621). Er ist dabei nicht an den Brüsseler Hof gebunden und darf auf eigene Rechnung arbeiten. Zudem wird er von allen Steuern und bürgerlichen Lasten befreit.
+		</item>
+	<label>3. Oktober 1609</label>
+		<item> 
+		Durch seine Hochzeit mit Isabella Brant (1591 – 1626), Tochter des Stadtsekretärs Jan Brant (1559 – 1639), festigt Rubens seine gesellschaftliche Position innerhalb der Antwerpener Elite.
+		</item>
+	<label>1609 – 1621</label>
+		<item> 
+		Rubens erhält zahlreiche bedeutende Aufträge und baut seinen Ruf als herausragender Maler aus. Durch Gemäldeverkäufe realisiert er ein gewaltiges Einkommen. Daneben fließen ihm aus Renten, Vermietungen und Verpachtungen durchschnittlich 1500 Gulden im Jahr zu, mehr als das Dreifache seines Jahreseinkommens als Hofmaler. 
+		Die Reihe der großen Aufträge nimmt ihren Anfang mit der Anbetung der Könige für das Rathaus (heute: Madrid, Prado), es folgen die Anbetung der Hirten und das Altarsakrament in der Dominikanerkirche, die Kreuzaufrichtung in St. Walburgis und zahlreiche weitere Großaufträge und kleinere Arbeiten.
+		</item>
+	<label>1. November 1610</label>
+		<item> 
+		Rubens erwirbt ein Grundstück am Wapper, um sich dort ein Haus zu bauen. Dieses neue Haus bezieht er vermutlich im Sommer 1615.
+		</item>
+	<label>28. August 1611 </label>
+		<item>
+		Tod von Philipp Rubens.
+		</item>
+	<label>5. Juni 1614</label>
+		<item> 
+		Taufe des ersten Sohnes Albert (†1657) in der St. Andrieskerk. Taufpate ist Erzherzog Albrecht.
+		</item>
+	<label>April 1618</label>
+		<item> 
+		Von dem englischen Diplomaten Sir Dudley Carleton (1574 – 1632) erwirbt Rubens eine bedeutende Sammlung antiker Skulpturen.
+		</item>
+	<label>23. März 1618 </label>
+		<item>
+		Taufe des zweiten Sohnes Nikolaas (†1655) in der St. Jacobskerk. Taufpate ist der Genueser Bankier Nicolò Pallavicini (1563 – 1619).
+		</item>
+	<label>1619 – 1620 </label>
+		<item>
+		Rubens betreibt systematisch die druckgraphische Reproduktion seiner Gemälde und sichert sich Privilegien für die Stiche nach seinen Werken. Er erhält weiterhin zahlreiche große Aufträge aus dem In- und Ausland, u.a. von Pfalzgraf Wolfgang Wilhelm von Pfalz-Neuburg (1578 – 1653). Es entstehen die Deckengemälde für die Antwerpener Jesuitenkirche St. Carolus-Borromeus.
+		</item>
+	<label>21. April 1621 </label>
+		<item>
+		Otto Sperling (1602 – 1681), der aus Hamburg stammende Leibarzt des dänischen Königs, besucht das Rubens-Haus.
+		</item>
+	<label>13. Juli 1621 </label>
+		<item>
+		Tod von Erzherzog Albrecht. Die südlichen Niederlande fallen zurück an Spanien. Infantin Isabella regiert noch bis zu ihrem Tod als Statthalterin des spanischen Königs. 1621 endet auch der zwölfjährige Waffenstillstand mit den Vereinten Provinzen. Die Kampfhandlungen werden wieder aufgenommen.
+		</item>
+	<label>26. Februar 1622</label>
+		<item> 
+		Seit Januar hält Rubens sich in Paris auf, wo er einen Vertrag über die Dekoration zweier Galerien des Palais de Luxembourg abschließt, die der Verherrlichung der Maria de Medici (1573 – 1642) und Heinrichs IV. (1553 – 1610) gewidmet sein sollen.
+		</item>
+	<label>März 1623 </label>
+		<item>
+		Rubens wird consultor der Sodalitas latina maior, der lateinischen Solidität im Profeßhaus der Jesuiten.
+		</item>
+	<label>24. Mai – 29. Juni 1623 </label>
+		<item>
+		Rubens hält sich in Paris auf, leidet unter der Gicht. Nach seiner Rückkehr gewährt Infantin Isabella Rubens am 30. September erstmals ein Gehalt von monatlich 10 Gulden für diplomatische Dienste.
+		</item>
+	<label>5. Januar 1624 </label>
+		<item>
+		Rubens wird in den Adelsstand erhoben. Er hält sich mehrfach in Brüssel auf und besucht Ambrogio Spinola (1569 – 1630) in dessen Feldlager.
+		</item>
+	<label>Juli 1624 </label>
+		<item>
+		Abraham Göllnitz (†1642), der aus Danzig stammende Sekretär des dänischen Königs, besucht das Rubens-Haus. Rubens arbeitet zu dieser Zeit an den Gemälden für die Medici-Galerie. Es entstehen das Altarbild für St. Bavo in Gent und die Anbetung der Könige für die Abteikirche St. Michiels.
+		</item>
+	<label>4. Februar – 9. Juni 1625 </label>
+		<item>
+		Rubens hält sich in Paris auf, vollendet die Medici-Galerie.
+		</item>
+	<label>11. Mai 1625 </label>
+		<item>
+		Rubens wohnt in Paris der Hochzeit des englischen Königs Charles I. (1600 – 1649) mit Henrietta Marie de Bourbon (1609 – 1669) bei, der Tochter von Maria de Medici.
+		</item>
+	<label>10. Juli 1625 </label>
+		<item>
+		Infantin Isabella besucht das Rubens-Haus.
+		</item>
+	<label>25. August 1625 – 20. Februar 1626 </label>
+		<item>
+		Rubens unternimmt verschiedene Reisen nach Brüssel und Dünkirchen.
+		</item>
+	<label>20. Juni 1626 </label>
+		<item>
+		Tod von Isabella Brant.
+		</item>
+	<label>19. November 1626 </label>
+		<item>
+		George Villiers (1592 – 1628), der 1. Herzog von Buckingham, besucht das Rubens-Haus. Rubens verkauft ihm seine Antikensammlung. 
+		</item>
+	<label>25. Dezember 1626</label>
+		<item>
+		Rubens hält sich in Paris auf, leidet stark unter der Gicht.
+		</item>
+	<label>10. Juli – 6. August 1627 </label>
+		<item>
+		Rubens unternimmt eine Reise durch die nördlichen Provinzen der Niederlande. In Utrecht macht er die Bekanntschaft seines späteren Biographen Joachim von Sandrart (1606 – 1688).
+		</item>
+	<label>15. – 16. September 1627 </label>
+		<item>
+		Rubens trifft in Brüssel Don Diego Messia (†1655), den Marqués von Leganés.
+		</item>
+	<label>18. Oktober 1628 </label>
+		<item>
+		Willem Panneels (1600 – 1634) wird nach dreijähriger Lehrzeit bei Peter Paul Rubens als Freimeister in die Lukasgilde aufgenommen. Rubens ist in dieser Zeit vor allem als Diplomat aktiv. In der Zeit seiner Abwesenheit leitet Panneels das Atelier.
+		</item>
+	<label>28. August 1628 – 29. April 1629 </label>
+		<item>
+		Rubens reist in diplomatischer Mission nach Spanien, wo zahlreiche Gemälde entstehen.
+		</item>
+	<label>27. April 1629 </label>
+		<item>
+		Ernennung zum Sekretär des spanischen Staatsrates. Am 29. April reist Rubens über Paris und Brüssel zurück nach Antwerpen.
+		</item>
+	<label>18. Mai 1629 </label>
+		<item>
+		Rubens reist zu Friedensverhandlungen nach London, wo er sich bis März 1630 aufhält. Neben zahlreichen anderen Werken für Charles I. entstehen u.a. die Entwürfe für die Deckenbilder der Banqueting Hall von Whitehall. In Cambridge wird Rubens am 3. Oktober 1629 der Grad eines Magister artium verliehen.
+		</item>
+	<label>3. März 1630 </label>
+		<item>
+		Erhebung in den Ritterstand durch Charles I.
+		</item>
+	<label>23. März 1630 </label>
+		<item>
+		Rückreise über Dover nach Antwerpen.
+		</item>
+	<label>7. – 18. Juni 1630 </label>
+		<item>
+		Rubens hält sich in Brüssel auf, wo er u.a. als Sekretär des Geheimen Rates vereidigt wird.
+		</item>
+	<label>6. Dezember 1630 </label>
+		<item>
+		Heirat mit Helene Fourment (1614 – 1673).
+		</item>
+	<label>4. Februar 1631 </label>
+		<item>
+		Vereinbarung über ein Epitaph für Michiel Ophovius (1571 – 1637).
+		</item>
+	<label>16. Juli 1631 </label>
+		<item>
+		Erhebung in den Ritterstand der spanischen Krone durch Philipp IV.
+		</item>
+	<label>26. Juli – 1. August 1631 </label>
+		<item>
+		Rubens nimmt in Avesnes an den Verhandlungen mit Maria de Medici teil, die in den Niederlanden Zuflucht sucht.
+		</item>
+	<label>10. September 1631 </label>
+		<item>
+		Maria de Medici besucht das Rubens-Haus. Am 2. Oktober verpfändet sie Juwelen an Rubens.
+		</item>
+	<label>Dezember 1631 </label>
+		<item>
+		Rubens reist nach Holland, wird in Den Haag durch Frederik Hendrik von Oranien (1584 – 1647) empfangen. 
+		</item>
+	<label>Februar 1632</label>
+		<item> 
+		In geheimer diplomatischer Mission unternimmt Rubens verschiedene Reisen. Zwischen Juli und August 1632 reist er an den Hof nach Brüssel, nach Lüttich und Maastricht und verhandelt mit nordniederländischen Diplomaten.
+		</item>
+	<label>Januar 1633 </label>
+		<item>
+		Rubens ist auf dem Höhepunkt seiner politischen Karriere. Er hält sich verschiedentlich in Brüssel auf, plant eine weitere Reise nach Holland und erhält hierfür einen Reisepaß. Die militärische Situation der habsburgischen Niederlande ist kritisch und der von Isabella einberufene Staatsrat setzt auf einen Frieden um jeden Preis. Rubens hingegen setzt sich in völliger Loyalität für die habsburgischen Belange ein. Philippe-Charles d’Arenberg (1587 – 1640), dem Herzog von Aarschot, kommt diese Einmischung so ungelegen, daß er unter Verweis auf Rubens’ niedere Abkunft die von der Infantin angeordnete Zusammenarbeit verweigert.
+		</item>
+	<label>12. Juni 1633 </label>
+		<item>
+		Taufe von Frans Rubens (†1678) in der St. Jacobskerk, Taufpate ist Francisco de Moncada (1586 – 1635), der Marquis von Aytona.
+		</item>
+	<label>1. Dezember 1633 </label>
+		<item>
+		Tod von Infantin Isabella. Der Markies von Aytona übernimmt vorläufig die Amtsführung.
+		</item>
+	<label>10. Juni 1634 </label>
+		<item>
+		Rubens reist zu Gesprächen mit Aytona nach Brüssel.
+		</item>
+	<label>28. November 1634 </label>
+		<item>
+		Rubens arbeitet an Entwürfen für die Festdekorationen des Pompa Introitus Ferdinandi, des feierlichen Einzugs des neuen Statthalters Kardinal-Infant Ferdinand von Österreich (1609 – 1641) in Antwerpen.
+		</item>
+	<label>27. Februar 1635 </label>
+		<item>
+		Rubens läßt sich durch den Magistrat der Stadt Antwerpen sein Privileg der Steuerbefreiung bestätigen. Zu etwa der gleichen Zeit prozessiert er in Paris gegen Raubdrucke und illegale Nachstiche seiner Werke. 
+		</item>
+	<label>17. April 1635 </label>
+		<item>
+		Feierlicher Einzug Erzherzog Ferdinands in Antwerpen. Rubens, der zu dieser Zeit erkrankt ist, wird durch den Kardinal-Infanten in seinem Hause besucht. 
+		</item>
+	<label>12. Mai 1635 </label>
+		<item>
+		Rubens erwirbt das Landgut Het Steen bei Elewijt. 
+		</item>
+	<label>20. Dezember 1635 </label>
+		<item>
+		Die Gemälde für die Decke in Whitehall sind in London angekommen.
+		</item>
+	<label>15. April 1636 </label>
+		<item>
+		Nachdem Rubens im März des Jahres etliche Tage in Brüssel verbracht hat, wird er zum Hofmaler des Kardinal-Infanten ernannt und in diesem Amt am 13. Juni vereidigt.
+		</item>
+	<label>Sommer 1636 </label>
+		<item>
+		Rubens hält sich für mehrere Monate auf seinem Landgut Het Steen auf.
+		</item>
+	<label>20. November 1636 </label>
+		<item>
+		Es entstehen die ersten Entwürfe für die Ausstattung des Jagdschlosses von Philipp IV., Torre de la Parada.
+		</item>
+	<label>April 1637 </label>
+		<item>
+		Kardinal-Infant Ferdinand besucht das Rubens-Haus.
+		</item>
+	<label>24. Juni 1637</label>
+		<item> 
+		Rubens’ Freund und Korrespondent Nicolas-Claude Fabri de Peiresc (1580 – 1637) stirbt. Am 4. November 1637 stirbt auch Michiel Ophovius.
+		</item>
+	<label>1. Mai 1638 </label>
+		<item>
+		112 Gemälde für das Jagdschloss Torre de la Parada sind in Madrid angekommen.
+		</item>
+	<label>Juli – Oktober 1638 </label>
+		<item>
+		Rubens wird von der Gicht geplagt, verbringt den Sommer auf Het Steen. Seine Krankheit verschlimmert sich dermaßen, daß er am 11. Dezember die letzte Ölung erhält.
+		</item>
+	<label>8. August 1639 </label>
+		<item>
+		Tod von Jan Brant (1559 – 1639), dem Vater von Rubens’ erster Frau. 
+		</item>
+	<label>7. Oktober 1639 </label>
+		<item>
+		Charles I. dediziert Rubens eine schwere goldene Kette.
+		</item>
+	<label>Winter 1639/40 </label>
+		<item>
+		Rubens leidet stark unter Gichtanfällen. Vermutlich im Februar 1640 wird er zum Ehrenmitglied der Academia di San Luca in Rom ernannt.
+		</item>
+	<label>5. April 1640</label>
+		<item>
+		Die Gicht beginnt seine Hände zu lähmen. Er kann seinen Amtspflichten nicht mehr nachkommen, so geht am 19. April 1640 sein Amt als Sekretär des Geheimen Staatsrates auf seinen Sohn Albert über.
+		</item>
+	<label>30. Mai 1640 </label>
+		<item>
+		Am 27. Mai macht Rubens sein letztes Testament. Drei Tage später stirbt er.
+		</item>
+	</list>
+</div>
+
+<div type="editionStmt">
+<head>Editorische Praxis</head>
+<p>Basis der Edition sind die von Prof. Nils Büttner in den jeweiligen Archiven angefertigten Transkriptionen von Akten und Abschriften von Passagen zu Leben und Wirkung von Peter Paul Rubens aus unterschiedlichen Materialien wie Vitensammlungen, lexikalischen Schriften und Dichtung sowie Traktatliteratur.
+ </p><p>Teile dieser Abschriften wurden nach in der Herzog August Bibliothek aufbewahrten Exemplaren erstellt .
+ </p><p>Dazu kommen verschiedene im Double-Keying-Verfahren angefertigte Volltexte verschiedener kunsttheoretischer, lexikalischer und naturwissenschaftlicher Werke, die neben Briefsammlungen wie der gesammelten Korrespondenz Rubens' einen Einblick in das intellektuelle Netzwerk des Malers geben.
+ </p><p>Die Rechtschreibung wurde bei der Transkription aus den Originalen übernommen. 
+ </p><p>Eine Unterscheidung zwischen Antiqua und Fraktur in der Typographie wurde nicht gemacht. 
+ </p><p>Zeilenumbrüche wurden stillschweigend egalisiert, lediglich bei der Transkription von Gedichten und Epitaphien wurde die ursprüngliche Zeilenstruktur übernommen und darstellbar gemacht. Worttrennungen an Zeilenumbrüchen wurden ebenfalls egalisiert.
+ </p><p>Interpunktion und Spationierung wurden stillschweigend an den nötigen Stellen zugunsten der Les- und Verstehbarkeit vereinheitlicht.
+ </p><p>Abkürzungen wurden entgegen der sonst an der Herzog August Bibliothek üblichen Editionspraxis nicht aufgelöst. Aus Gründen zahlreicher Reformen der niederländischen Sprache seit dem späten 16. und dem 17. Jahrhundert ist eine zuverlässige Auflösung der in den Akten verwendeten Abkürzungen nicht möglich.
+ </p>
+ <p>Bis auf diese Ausnahme wurde in der Regel nach den <ref target="http://www.hab.de/bibliothek/wdb/doku/index.htm">Richtlinien der Wolfenbüttler Digitalen Bibliothek</ref> für digitale Editionen vorgegangen.</p>
+</div>
+	   
+<div type="encodingStmt">
+<head>Kodierung</head>
+ <p>Das gesamte Material wurde nach den Regeln der Text Encoding Initiative (TEI) nach der aktuellen Version P5 bearbeitet. Die Kodierung folgt der an der HAB etablierten Praxis. 
+</p>
+</div>
+	   
+
+<div type="bibliography">
+<head>Bibliographie</head>
+<p>
+	Im Rahmen der Edition genutze Literatur finden sie in der <ref rendition="inline"  target="http://diglib.hab.de/content.php?dir=edoc/ed000083&amp;distype=optional&amp;xml=register/register-bibl.xml&amp;xsl=tei-bibliography.xsl">Bibliographie</ref>.  Weiterführende, 	jeweils aktuelle Literatur wird über den <ref target="http://opac.lbs-braunschweig.gbv.de/DB=2/SET=2/TTL=1/CMD?ACT=SRCHA&amp;IKT=1016&amp;SRT=YOP&amp;TRM=sww+Rubens%2C+Peter+Paul">OPAC der Bibliothek</ref> nachgewiesen. 
+</p>
+</div>
+  </body>
+</text>
+</TEI>
+	

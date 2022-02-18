@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_123">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Schuldbekenntnis von Junker Jacques van Ephem, Junker Peeter van Oostendorp
+                    und Junker Johan Wielandt über 8000 Gulden, die Peter Paul Rubens für
+                    Bedeichungsarbeiten ausgelegt hat. Als Sicherheit für diese Summe verbürgen sie
+                    sich als Person und mit ihrem Land</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-511-161">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1614/ IV: Gaverelle &amp; Kieffelt</collection>
+                        <idno type="signatur">SR 511, fol. 161v-162v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Schuldbekenntnis von Junker Jacques van Ephem, Junker Peeter van
+                            Oostendorp und Junker Johan Wielandt über 8000 Gulden, die Peter
+                            Paul Rubens für Bedeichungsarbeiten ausgelegt hat. Als Sicherheit
+                            für diese Summe verbürgen sie sich als Person und mit ihrem
+                            Land</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           
+                            <filiation>
+                                <note resp="A.H." type="footnote">Jacques van Ephem, Peeter von Oostendorp und
+                                    Johann Wielant legten noch ein weiteres Schulbekenntnis über 1000 Gulden
+                                    gegenüber Peter Paul Rubens ab. Vgl. dieses Dokument vom <ref type="rubens"
+                                        cRef="ed_rubens_122">4. Juli 1614</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1614-07-04">4. Juli 1614</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Schuldbekenntnis</term>
+                    <term xml:lang="deu">Finanzen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Compareerden J<hi rend="super">or</hi>
+                    <rs type="person" ref="#ephem_jacques">Jacques van Ophem</rs>, generael van de
+                    licenten van henne Hoocheden, bynnen deser stadt<index indexName="gsw"><term type="TGN" xml:lang="deu">Antwerpen</term></index> ende J<hi rend="super">or</hi>
+                    <rs type="person" ref="#oostendorp_peeter">Peeter van Oostendorp</rs>, beijde
+                    voor hen selven ende voorts de voors. comparanten noch in den name ende als ten
+                    nabeschreven gemechticht van J<hi rend="super">or</hi>
+                    <rs type="person" ref="#wielant_johann">Johan Wielandt</rs>, baillu der stede
+                    ende lande van <rs type="place" ref="#goere">Goere</rs> dat men noemt <rs
+                        type="place" ref="#westvoers">Westvoeren</rs>, bij procuratie ons te desen
+                    gethoont ende gepasseert voor schepenen v<hi rend="super">an</hi>
+                    <rs type="place" ref="#santvliet">Santvliet</rs> opten <date
+                        when="1614-07-03">derden dach deser maent July</date>, bekenden
+                    schuldich te sijn van goeder rechtveerdiger schult S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> de somme
+                    van acht duijsent guldenen van twintich stuyvers Brabants ’t stuck eens,
+                    toecommende ter causen van gelijcke somme die de voors. S<hi rend="super">r</hi>
+                    Pietro Paulo Ruebens aenneempt voor hen comparanten ende theurder begeerten te
+                    betalen tot herdijckinge der nabeschreven landen, in handen van de voors. S<hi
+                        rend="super">r</hi> Peeter van Oostendorp, penninckmeester der selver
+                    dijcaigie, welcke voorn. somme van achtduysent gulden, hebben de voors.
+                    comparanten gesamenderhandt ende elck van hen, een voor al als principael ende
+                    onder divisie geloeft ende geloeffden midts desen, wel ende volcommelijck
+                    opteleggen ende te betaelen aende voors. S<hi rend="super">r</hi> Pietro Paulo
+                    Ruebens oft aenden brenger deser, bynnen der tijt van twee jaren naestcommende
+                    sonder eenich langer vertreck oft dilay, verbindende daervore ende te pande
+                    settende, henne persoonen ende goeden, ruerende ende onruerende, tegenwoordige
+                    ende toecommende en specialijck alsulcke drij mael tweentzeventich ende een
+                    halff gemeten lants gelegen inden bedijckten noorlande van Santvliet voors. soo
+                    ende gelijck hen comparanten ende den voors. Jonker <rs type="person"
+                        ref="#wielant_johann">Janne Wielandt</rs>, elcken van hen de voors. 72
+                    gemeten lants, volgende de cavelinge daeraff gemaect te deele bevallen zijn ende
+                    hen die dienvolgende zijn toebehoorden ende dat mette vruchten, baten ende
+                    emolumenten daeraff te procederen, ende dit oock elck heurer een voor al ende
+                    als principael als vore, ende op vonnissse ende al oft sij comparanten vonnis<hi
+                        rend="super">el</hi> ter manissen des amptmans bij schepenen alhier, als van
+                    henne competente rechters, alzoo daerinne gedoemt ende gecondemneert waren
+                    gelijck wij hen ende elcken van hen tot hennen versuecke daerinne doemen ende
+                    condemneren midts desen ende op parate, reelle ende heerlijcken executie,
+                    renunchierende tot meerdere sekerheyt van 'tgene voors. is voors. comparant van
+                    alle beneficien ende exceptien van recht, subterfugien, municipale ende andere
+                    rechten, heeren diensten, brieven van relievemente ende voorts van alle andere
+                    behulpen, die hen ende elcken van hier tegens te stade ende baten souden mogen
+                    commen in eeniger manieren ende besundere den rechte dicterende dat generale
+                    renuncitatie sonder voorgaende speciale nyst en valideert, voorts hebben de
+                    voors. comparanten bij solemnelen eede geswooren ende geaffirmeert, dat de
+                    parcheelen van lande hier vore gespecifieert bij hen, voor date van desen, aen
+                    nyemanden anders verbonden oft veralieneert en sijn, constituerende voorts ende
+                    machtich makende midts desen ’tsamen ende elcken van hen besundere comme te gaen
+                    ende te vompareren voor wethouderen van Santvliet ende alomme elders daer ’t van
+                    noode wesen ende de voors. Pietro Paulo Rubens begeren sal ende aldaer tgene
+                    voors. is te vernieuwen ende ander werden te passeren ende hen comparant ende
+                    elcken van hen uit onderhoudt van dyen vonniss<hi rend="super">el</hi> te doen
+                    ende laten condemneren ende voorts alles anders daerinne te doen dat zij
+                    constituanten prent sijnde doen souden mogen.</p>
+                <closer><salute>Alwaert etc. Gelovende etc.</salute><lb/>
+                    <dateline><date when="1614-07-04">Quarta July 1614</date> soluit</dateline></closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_101">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tod von Maria Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> 
+                &register-corporate; 
+                &register-person; 
+                &register-place;
+                &register-work; 
+                <msDesc xml:lang="deu" xml:id="epitaph_maria_pypelincx_16081019">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement type="city">Antwerpen</settlement>
+                        <repository>St. Michiels</repository>
+                        <idno type="signatur">Epitaph</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Tod von Maria Pypelincx</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="A.H." type="footnote">Vgl. auch die <ref type="rubens"
+                                cRef="ed_rubens_277">Inschrift des Epitaphs</ref>, wie sie in <bibl>Frans
+                                    Sweerts: Monumenta sepulctalia. Antwerpen: Bellerus, 1613. S. 143ff.<ptr
+                                        type="opac" cRef="240275292"/></bibl> publiziert ist.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1608-10-19">19. Oktober 1608</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Das Epitaph befindet sich in St. Michiels zu Antwerpen.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten</bibl>
+                    </source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                                bloedverwanten. Antwerpen 1877, S. 390.<ptr type="gbv" cRef="146162595"/></bibl>
+                            <bibl>Frans Sweerts: Monumenta sepulctalia. Antwerpen: Bellerus, 1613. S. 143ff.<ptr
+                                    type="opac" cRef="240275292"/></bibl>
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Maria Pypelincx</term>
+                    <term xml:lang="deu">Epitaph</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="lat">
+                <p rend="text-align:center">
+                    <hi rend="smallCaps">D. O. M. S.<lb/>
+                        <rs type="person" ref="#pypelincx_maria">Mariae PIPELINGAE</rs><lb/>
+                        prudentissimae<lb/> lectissimae faeminae<lb/> quae matrimonio juncta fuit<lb/>
+                        <rs type="person" ref="#rubens_jan">Joanni RUBENIO</rs> J. C. Senatori <rs
+                            type="place" ref="#antwerpen">Antverpiensi</rs><lb/> eoque orbata
+                        viduitatem ad diem fati<lb/> per annos XXII. religiose coluit.<lb/>
+                        <rs type="person" ref="#rubens_philipp">Philippus</rs> et <rs type="person"
+                            ref="#rubens_peter_paul">Petrus-Paulus<lb/> RUBENII</rs>,<lb/> cum
+                        nepotibus e filia <rs type="person" ref="#rubens_blandina"
+                        >Blandina</rs><lb/> piae matri<lb/> et<lb/> B. M. F.<lb/> vixit annos LXX, menses VI, dies XXIX<lb/>
+                        obiit <date when="1608-10-19">XIV. kalend. novemb.<lb/> anno CI&#x0186;.
+                            I&#x0186;CVIII</date><lb/> R. I. P.</hi>
+                </p>
+            </div>
+        </body>
+      
+    </text>
+</TEI>

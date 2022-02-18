@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_247">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tod von Peter Paul Rubens und Bestattung in der St. Jacobskerk zu Antwerpen</title>
+                <respStmt>
+                    <resp>Übersetzung</resp>
+                    <name type="person">Nils Büttner</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="epitaph_peter_paul_rubens_16400530">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>St. Jacobskerk</repository>
+                        <collection>Kapelle</collection>
+                        <idno type="signatur">Epitaph</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Tod von Peter Paul Rubens und Bestattung in der St. Jacobskerk zu Antwerpen</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="A.H." type="footnote">Das von Caspar Gevaerts für Rubens verfasste Epitaph charakterisiert 
+                               den Verstorbenen ausdrücklich zuallererst als Sohn eines Stadtschöffen und Herr des Steen, bevor die
+                           im Laufe seines Lebens erworbenen Würden und Auszeichnungen genannt werden.</note>
+                        </msItem>
+                    </msContents>
+                   
+                    <history>
+                        <origin>
+                            <origDate notAfter="1640-05-30">vor dem 30. Mai 1640</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Das Epitaph befindet sich in der St.
+                                Jacobskerk zu Antwerpen.</p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Max Rooses: Rubens' Leven en Werken. Amsterdam 1903. S. 629f.<ptr type="gbv" cRef="630206384"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+           <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Epitaph</term>
+                    <term xml:lang="nld">St. Jacobskerk</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <linkGrp>
+                <link targets="ed_rubens_247_deu ed_rubens_247_lat" type="translation"/>
+            </linkGrp>
+            <text xml:id="ed_rubens_247_lat">
+                <body>
+                    <div xml:lang="lat">
+                        <p rend="text-align:center">D. O. M.<note resp="N.B." type="footnote">Deo Optimo Maximo</note><hi
+                            rend="smallCaps"><lb/> <rs type="person" ref="#rubens_peter_paul">Petrus Paulus
+                                Rubenius</rs> Eques<lb/> <rs type="person" ref="#rubens_jan">Joannis</rs>,
+                            hujus Urbis Senatoris,<lb/> filius Steini Toparcha:<index indexName="stw">
+                                <term xml:lang="nld">Het Steen</term>
+                            </index><lb/> qui inter caeteras quibus ad miraculum<lb/> excelluit doctrinae historiae
+                            priscae,<lb/> omniumq<hi rend="super">;</hi> bonarum artium et elegantiarum dotes,<lb/>
+                            non sui tantum saeculi,<lb/> sed et omnes aevi<lb/> <rs type="person" ref="#apelles"
+                                >Apelles</rs><index indexName="psw">
+                                    <term xml:lang="deu">Apelles</term>
+                                </index> dici meruit:<lb/> atque ad Regum Principumq<hi rend="super">;</hi>
+                            Virorum amicitias<lb/> gradum sibi fecit:<lb/> a <rs type="person"
+                                ref="#philipp_iv_spanien">Philippo IV</rs>. <rs type="place"
+                                    ref="#spanien">Hispaniarum</rs>
+                            <rs type="place" ref="#indien">Indiarumq</rs><note resp="A.H."
+                                type="footnote">Gemeint sind Ost- und Westindien.</note><hi rend="super"
+                                    >;</hi> Rege<lb/> inter sanctioris Concilii Scribas adscitus,<lb/> et<lb/> ad <rs
+                                        type="person" ref="#charles_i_england">Carolum</rs>
+                            <rs type="place" ref="#grossbritannien">Magnae Britanniae</rs> Regem<lb/> Anno
+                            <date when="1629">M D. C. XXIX.</date> delegatus,<lb/> pacis inter eosdem
+                            Principes mox initiae<lb/> fundamenta feliciter posuit.<lb/> Obiit anno Sal. <date
+                                when="1640-05-30">M. D. C. XL. XXX maii</date> aetatis LXIV. </hi>
+                        </p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="ed_rubens_247_deu">
+                <body>
+                    <div xml:lang="deu">
+                        <head>Übersetzung:</head>
+                        <p>Dem besten und höchsten Gott. <rs type="person" ref="#rubens_peter_paul">Peter
+                            Paul Rubens</rs>, Ritter, des <rs type="person" ref="#rubens_jan"
+                                >Johannes</rs>, Senators dieser Stadt Sohn, Herr von Steen; der unter anderen
+                            Gaben, in denen er wunderbar leuchtete, in den alten Sprachen und Geschichte und
+                            allen schönen und edlen Künsten, nicht nur seines Jahrhunderts, sondern aller
+                            Zeiten Apelles genannt zu werden verdiente; und zu der Könige und fürstlichen
+                            Männer Freundschaft einen Zugang sich schuf; der von <rs type="person"
+                                ref="#philipp_iv_spanien">Philipp IV.</rs>, dem König von <rs type="place"
+                                    ref="#spanien">Spanien</rs> und beider Indien unter die Sekretäre des
+                            geheimen Rates berufen und zu <rs type="person" ref="#charles_i_england"
+                                >Charles</rs>, dem König von <rs type="place" ref="#grossbritannien"
+                                    >Großbritannien</rs> im Jahre <date when="1629">1629</date> gesandt, des
+                            baldigen Friedens zwischen beiden Fürsten Grundlagen glücklich legte. Er starb
+                            im Jahre des Herrn <date when="1640-05-30">1640 am 30. Mai</date>, im 64. Lebensjahr. </p>
+                    </div>
+                </body>
+            </text>
+        </group>
+       </text>
+</TEI>

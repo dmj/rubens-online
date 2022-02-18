@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
+    xml:lang="deu" xml:id="ed_rubens_273">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Joost van den Vondel: Gebroeders, 1650</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="vondel_gebroeders_1650">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>Herzog August Bibliothek Wolfenbüttel</repository>
+                        <idno type="signatur">M: Lp 181 (11)</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Joost van den Vondel beschreibt in einer Widmung an Gerardus Joannes Vossius die Malerei des Peter Paul Rubens</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Joost van den Vondel: Gebroeders</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Joost van den Vondel: Gebroeders. Amsterdam: Abraham de Wees, 1650. A3r-v<ptr type="opac" cRef="150433999"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="title_page" xml:lang="nld">
+                <index indexName="fsw">
+                    <term type="structure" target="#title_page" xml:lang="deu">Titelblatt</term>
+                </index>
+                <p rend="text-align:center"><rs type="person" ref="#vondel_joost">J. V.
+                        VONDELS</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Vondel, Joost van den</term>
+                        <index indexName="fsw">
+                            <term type="structure" target="#author" xml:lang="deu">Verfasser</term>
+                        </index>
+                    </index><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Vondel, Joost van den</term>
+                        <index indexName="stw">
+                            <term xml:lang="nld">Gebroeders</term>
+                        </index>
+                    </index><lb rend="line-height:120%"/> GEBROEDERS.<lb rend="line-height:120%"/>
+                        TREURSPEL.<lb rend="line-height:120%"/> Fuimus Troës.<lb
+                        rend="line-height:120%"/> t'<hi rend="smallCaps">Amsterdam</hi>:<lb
+                        rend="line-height:120%"/> Voor <rs type="person" ref="#wees_abraham">Abraham
+                        de Wees<index indexName="psw">
+                            <term xml:lang="deu">Wees, Abraham de</term>
+                            <index indexName="fsw">
+                                <term type="structure" target="#printer" xml:lang="deu"
+                                >Drucker</term>
+                            </index>
+                        </index></rs>, Boeckverkooper op den Middeldam,<lb/> in 't Nieuwe Testament.
+                        <hi rend="smallCaps">Anno</hi>
+                    <date when="1650">1650</date><lb/>
+                </p>
+            </div>
+            <div type="preface" part="Y" xml:lang="nld">
+                <index indexName="fsw">
+                    <term type="structure" target="#preface" xml:lang="deu">Vorrede</term>
+                </index>
+                <head rend="text-align:center"><pb n="A2"/>Den zeer eerwaerdigen en
+                    voortreflycken<lb/> HEERE,<lb/>
+                    <rs type="person" ref="#vossius_gerhard">GEERAERT VOSSIUS</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Vossius, Gerardus Joannes</term>
+                    </index>,<lb/> Kanonick der Aertsbisschoppelycke Kercke<lb/> Te <hi
+                        rend="smallCaps">
+                        <rs type="place" ref="#canterbury">Kantelbergh</rs>
+                    </hi>. </head>
+                <p><pb n="A3r"/>Hier word ick belust om door <rs type="person"
+                        ref="#rubens_peter_paul">Rubens</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                    </index>, de glori der penseelen onzer eeuwe, een heerlyck en koninglyck
+                    tafereel, als een treurtoneel, te stoffeeren. Hy valt aen het tekenen, or
+                    dineeren, en schilderen, nochte zjin wackere geest rust eer het werckstuck
+                    voltoit zy. David zit' er zwaermoedig op den hoogen troon. Men ziet' er, door
+                    een poort in 't verschiet, de drooge dorre en dorstige landouw quynen. Boven in
+                    't gewelf van 't prachtige marmeren en cederen hof zwieren zommige Engelkens,
+                    die, naer de gewoone zinrijckheit des allervernuftighsten schilders, elck om
+                    strijt bezigh zijn om net uit te beelden 't geen ter zaecke dient. 't Een
+                    schijnt het vonnis der Gebroederen nit een half ingerolt bladt te vellen. Een
+                    ander beduit met een dompige fackel, een ander, met eenen waeier in 't aenzicht
+                    waeiende, hitte en benaeuwtheit. Twee andere schijnen twee stammen uit te
+                    beelden, te weten; het een, dat, vrolijck van opzicht, met kroon en scepter in
+                    top vlieght, Iuda; het ander dat, verbaest en treurigh van gelaet, en met den
+                    hoofde neêrwaert vallende naer de vallende kroon grypt, Benjamin. Andere maken
+                    een yzere keten klaer om der misdadigen halzen te sluiten. Een ander druckt met
+                    weeghschael en <pb n="A3v"/>zwaert de rechtvaerdigheit der straffe uit. Sauls
+                    verweze nakomelingen staen voor den rechterstoel, en zien zeer deerlijck,
+                    overmits Benajas den lammen Mesiboseth en het kleentje Micha, op het wencken van
+                    's Konigs oogen, en wijzen des uitgestreckten scepters, uit den hoop treckt;
+                    terwyl de Gabaonners met wraeckgierige en gloeiende aengezichten, aen d'eene
+                    zijde, op hun Recht dringen, en aen d' andre zyde hem benauwen het misbaer en de
+                    traenen der allerbedruckste Michol: waer nevens de stockoude weduwe, al bevende
+                    met de rechte hant op haer stoxken, en met de slincke op de rechte schouder van
+                    hare kamenier leunende, met een lachende aenschyn melt, datze, van rouwe aen 't
+                    mymeren geslaegen, niet weet watze zeit.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

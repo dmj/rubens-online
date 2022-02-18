@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
+    xml:lang="deu" xml:id="ed_rubens_289">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="person" ref="#bellori_giovanni_pietro">Giovanni Pietro
+                    Bellori</rs>: Le Vite de' Pittori, Scultori et Architetti moderni, 1672</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="bellori_vite_rom_1672">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>Herzog August Bibliothek Wolfenbüttel</repository>
+                        <idno type="signatur">Microfiche 497:1,24-26</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Biographie des Peter Paul Rubens in Giovanni Pietro Belloris Le Vite de' pittori, Scultori et
+                            architetti moderni, 1672</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Giovanni Pietro Bellori: Le Vite de' pittori, Scultori et
+                                        architetti moderni. Rom: Mascardi 1672.</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Giovanni Pietro Bellori: Le Vite de' pittori, Scultori et
+                                architetti moderni. Rom: Mascardi 1672. S. 221-247<ptr type="opac"
+                                    cRef="34308189X"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Bellori, Giovanni Pietro</term>
+                    <term type="stw" xml:lang="ita">Le vite de' pittori, scultori et architetti
+                        moderni</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="ita">
+                <p><pb n="221"/>: <rs type="person" ref="#rubens_peter_paul">PIETRO PAOLO
+                        RUBENS</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                    </index> Quanto ne gli antichi tempi fosse in pregio la pittura gli honori ad
+                    essa conferiti dalli Rè, e dalle Republiche, &amp; il consentimento de’
+                    popoli, che sempre l’hanno havuta in ammiratione, lo dimostrano, premiandola, e
+                    riputandola cosa divina. Onde gli Atheniesi de gli altri Savii della <rs
+                        type="place" ref="#griechenland">Grecia</rs> sapientissimi la stabilirono,
+                    per legge, fra le arti liberali, essendo ella di più collegata con le scienze, e
+                    con le più dotte discipline. E se bene in questi moderni secoli non è mancato à
+                    nostri Artefici l’industria, e la gloria dell’opere loro, che ancora arrecano
+                    stupore; e la pittura si mantiene l’honorato nome dell’arti ingenue <pb n="222"
+                    />nella somma estimatione de’ Principi, e delle nationi, contuttociò venendo
+                    essa trattata da molti, che non impiegano l’animo, ma solo la mano alla pratica,
+                    &amp; ad un sordido guadagno; per lo disprezzo di costoro, diviene ella
+                    mecanica, e vile nell opinione delle genti, con pregiuditio de’ nobili ingegni
+                    che si affaticano di perpetuare in essa il nome loro. Il qual male commune
+                        all’<rs type="place" ref="#italien">Italia</rs>, &amp; all’altre
+                    regioni, contaminaua ancora la <rs type="place" ref="#flandern">Fiandra</rs>,
+                    quando nella Città di <rs type="place" ref="#antwerpen">Anversa</rs> si vidde
+                    scintillare un lume, che nobilitò la pittura, e questo si diffuse da Pietro
+                    Paolo Rubens nato nella medesima Città di famiglia molto ciuile, &amp;
+                    honorata. Il suo natale seguì il giorno <date when="1577-06-28">28. di Giugno
+                        nell’anno 1577</date>. &amp; educato ne’ costumi, e nelle discipline, da
+                    primi anni si approfittò in esse, per essere egli di natura sobrio, e ritirato
+                    da ogni piacere giovanile. Auuenne che trovandosi in Anversa <rs type="person"
+                        ref="#veen_otto">Ottavio Van Veen</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Veen, Otto van</term>
+                    </index> da <rs type="place" ref="#leyden">Leiden</rs> pittore del <rs
+                        type="person" ref="#farnese_alessandro">Principe di Parma</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Farnese, Alessandro</term>
+                    </index>, e dopo dell’<rs type="person" ref="#albrecht_von_oesterreich">Arciduca
+                        Alberto</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog,
+                        VII.)</term>
+                    </index>; di cui mano è <rs type="work" ref="#veen_abendmahl">la Cena del
+                        Signore</rs> nella Catedrale della medesima Città, il Rubens, che giovinetto
+                    per suo diletto, imparaua disegnare da costui, restò preso dall’amore
+                    dell’imitatione. Nè potendo altrimente far resistenza alla sua forte
+                    inclinatione, si lasciò tutto à questo studio, che parve in lui un liberal dono
+                    del Cielo, portandosi senza intervallo dal disegno alli colori, non per l’uso
+                    commune de’ giovini in Fiandra, che tosto si mettono à colorire, ma per l’impeto
+                    dello ingegno. Trasferitosi in Italia si trattenne in <rs type="place"
+                        ref="#mantua">Mantoua</rs> nella corte del Duca <rs type="person"
+                        ref="#gonzaga_vincenzo_i">Vincenzo</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Vincenzo (Mantua, Herzog, I.)</term>
+                    </index>, dove fece <rs type="work" ref="#jaffe_41AB">i ritratti di que’
+                        Principi</rs>, essendo nell’età di venti anni.<note resp="A.H."
+                        type="footnote">vgl. <bibl>Giovanni Pietro Bellori: The lives of the modern
+                            painters, sculptors and architects. übers. von Alice Sedgwick Wohl,
+                            Cambridge [u.a.] 2005. S. 194. Anm. 5.<ptr type="opac" cRef="091582040"
+                            /></bibl></note> Dopò si condusse à <rs type="place" ref="#rom"
+                    >Roma</rs>, nel qual tempo rimanendo à farsi li quadri ad olio nella Chiesa di
+                    Santa Croce in Gerusalemme, entro la Cappella di Santa Helena<index
+                        indexName="stw">
+                        <term type="SWD" xml:lang="deu">Rom</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Santa Croce in Gerusalemme</term>
+                            <index indexName="stw">
+                                <term xml:lang="deu">Helena-Kapelle</term>
+                            </index>
+                        </index>
+                    </index> ristaurata dal Cardinale Arciduca Alberto d’<rs type="place"
+                        ref="#oesterreich">Austria</rs> titolare di quella Chiesa, furono dati à
+                    dipingere al Rubens <rs type="work" ref="#jaffe_16">la Santa con la Croce
+                        nell’altare di mezzo</rs>, e nelli due laterali <rs type="work"
+                        ref="#jaffe_18">la Coronatione di spine</rs>, e <rs type="work"
+                        ref="#jaffe_19">la Crocifissione del Signore</rs>, nelle quali opere egli si
+                    mostrò pratico nel colorire dal naturale. Andatosene dopo à studiare à <rs
+                        type="place" ref="#venedig">Venetia</rs>, vi si fermò, e rivolse tutto il
+                    suo studio sopra <rs type="person" ref="#tizian">Titiano</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Tizian</term>
+                    </index>, e <rs type="person" ref="#veronese_paolo">Paolo Veronese</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Veronese, Paolo</term>
+                    </index>; onde tornato à Roma <pb n="223"/>dipinse nella Chiesa nuova de’ Padri
+                        dell’Oratorio<index indexName="stw">
+                        <term type="SWD" xml:lang="deu"> Rom</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Santa Maria in Vallicella</term>
+                        </index>
+                    </index>, il quadro del maggiore altare con <rs type="work" ref="#jaffe_82a">gli
+                        Angeli che adorano la Vergine</rs>, e ne i lati del coro gli altri due
+                    quadri grandi con <rs type="work" ref="#jaffe_82c">alcuni Santi</rs> in piedi,
+                    trà li quali sono bellissime figure <rs type="work" ref="#jaffe_82b">San
+                        Gregorio Papa, e San Mauro martire in habito militare</rs> eseguite con
+                    l’intentione di Paolo Veronese. <rs type="work" ref="#jaffe_64">La prima
+                        inventione di questa opera</rs> si trova nella Badia di San Michele di
+                    Anversa, dove la trasportò il Rubens nel suo ritorno in Fiandra<note resp="A.H."
+                        type="footnote">Die Madonna della Vallicella wurde am <date
+                            when="1610-09-29">29. September 1610</date> am Grabmal von Maria
+                        Pypelincx, die dort begraben liegt, angebracht. vgl. <bibl>Michael Jaffé:
+                            Rubens - Catalogo completo. Milano 1989. S. 159. Nr. 64<ptr type="gbv"
+                                cRef="022373535"/></bibl></note>. Di Roma egli si trasferì à <rs
+                        type="place" ref="#genua">Genova</rs>, e quivi fermossi più che in altro
+                    luogo d’Italia: nella Chiesa del Giesù fece la tavola dell’<rs type="work"
+                        ref="#jaffe_54">altare maggiore con la Circoncisione</rs><index
+                        indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Genua</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="ita">Chiesa del Gesù</term>
+                        </index>
+                    </index><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Beschneidung Christi</term>
+                        </index>
+                    </index>, e l’altra di <rs type="work" ref="#jaffe_480">Santo Ignatio, che
+                        libera infermi, e storpiati</rs>. Dipinse varii quadri, e ritratti per
+                    Signori Genovesi, <rs type="work" ref="#jaffe_27">Hercole, e Iole</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Herkules und Omphale</term>
+                        </index>
+                    </index>, Adone morto in braccio di Venere<note resp="A.H." type="footnote"
+                        >Sammlung T. A. Van Dijcken, Den Haag. vgl. <bibl>Giovanni Pietro Bellori:
+                            The lives of the modern painters, sculptors and architects. übers. von
+                            Alice Sedgwick Wohl, Cambridge [u.a.] 2005. S. 194. Anm. 14.<ptr
+                                type="opac" cRef="091582040"/></bibl></note> al Signor <rs
+                        type="person" ref="#imperiale_giovanni_vincenzo">Gio: Vincenzo
+                    Imperiale</rs>. Attese egli quivi all’architettura, e si esercitò in disegnare
+                    li palazzi, di Genova con alcune Chiese, formandone piante, alzate, e profili,
+                    con li loro tagli di dentro in croce, in più vedute, e misure delli membri,
+                    com’egli dopò publicò in un libro stampato in Anversa l’anno <date when="1622"
+                        >1622</date>.<note resp="A.H." type="footnote">
+                        <bibl>Peter Paul Rubens: Palazzi di Genova. Antwerpen 1622.<ptr type="opac"
+                                cRef="150778597"/></bibl>
+                    </note><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="ita">Palazzi di Genova</term>
+                        </index>
+                    </index> per fine, com’egli dice, di torre in Fiandra l’architettura barbara, ed
+                    introdurvi la buona forma italiana. Tornatosene alla patria erudito nella
+                    pittura, accrebbe con l’opere il concetto, che di se già correva per la Fiandra,
+                    donde à poco, à poco si sparse in tutte le parti il suo nome, richiesto da
+                    maggiori Principi di <rs type="place" ref="#europa">Europa</rs>, e con molta
+                    gloria dell’arte del pennello, che egli faceva risplendere nelle Corti col saper
+                    suo, e con la nobiltà de’ costumi, come raccoglieremo dopo havere accennato le
+                    cose fatte in Fiandra. Fra le prime ch’egli dipingesse in Anversa, nella Chiesa
+                    di Burgh vedesi <rs type="work" ref="#jaffe_135ABC">la tavola del Crocifisso con
+                        le Marie ne’ portelli</rs>. In San Domenico nell’altare del Sacramento <rs
+                        type="work" ref="#jaffe_88">li quattro Dottori<index indexName="psw">
+                            <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                            <index indexName="stw">
+                                <term xml:lang="deu">Disputà</term>
+                            </index>
+                        </index>, che parlano del Divino pane</rs>. Si avanzò dopo nel quadro della
+                        Catedrale<index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Liebfrauenkathedrale</term>
+                        </index>
+                    </index>, con la <rs type="work" ref="#jaffe_189a">Depositione di Christo dalla
+                        croce</rs>, e nelle storie di dentro nè portelli, <rs type="work"
+                        ref="#jaffe_189b">la Visitatione</rs>, e <rs type="work" ref="#jaffe_189c"
+                        >la Purificatione</rs>, e di fuori <rs type="work" ref="#jaffe_189d">San
+                        Christoforo figura grande col bambino in collo</rs>.<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Kreuzabnahmealtar</term>
+                        </index>
+                    </index> Onde li Canonici della medema Catedrale lo elessero all’altra <rs
+                        type="work" ref="#jaffe_814">tavola dell’Assunta </rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Himmelfahrt Mariens</term>
+                        </index>
+                    </index>dentro il Coro, sollevata <pb n="224"/>la Vergine in gloria con le
+                    braccia aperte, e sotto gli Apostoli la riguardano alzando altri di loro la
+                    pietra del monumento, altri con le Marie ammirano le rose, e i fiori. Nella qual
+                    tavola sodisfece il Rubens alle parti di un ottimo pittore; &amp; acrebbe à
+                    se stesso fama grandissima venendo riputata fra le megliori di sua mano. Dipinse
+                    dopo un altra <rs type="work" ref="#jaffe_241">Assunta nella Chiesa de Padri
+                        Giesuiti</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Himmelfahrt Mariens</term>
+                        </index>
+                    </index>;<index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="nld">Sint-Carolus Borromaeuskerk</term>
+                        </index>
+                    </index> e per l’altare maggiore due tavole grandi, che sogliono mutarsi
+                    vicendeuolmente in alcuni tempi dell’anno: <rs type="work" ref="#jaffe_480"
+                        >Santo Ignatio</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Wunder des hl. Ignatius</term>
+                        </index>
+                    </index>, che fornito il sacrificio della Messa, libera gl’indemoniati. Fintavi
+                    una donna, che agitata dalle furie si sforza uscire dalle mani di alcuni, che la
+                    ritengono, &amp; un huomo ignudo scontorto per terra nel partire li demoni
+                    in aria con diversi, che ricorrono al Santo. Nell’altro quadro dipinse <rs
+                        type="work" ref="#jaffe_481">San Francesco Xaverio, che predica à gl’Indiani
+                        idolatri</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Wunder des hl. Franz Xaver</term>
+                        </index>
+                    </index>, autenticando la fede co’ miracoli: vedesi uno che scava la terra con
+                    la pala, uscendone un morto in atto di sciorsi da un lenzuolo, &amp;
+                    un’altro sopra il monumento tornato in vita riguarda il Santo, che benedice,
+                    accostandosi molti per vederlo; in alto per l’aria apparisce la Religione, e la
+                    fede col calice, e con la croce, &amp; altri sacri misteri, concorrendo
+                    varii infermi per essere risanati. Nell’intavolato della soffitta sono riportati
+                    diversi quadri ad olio co’ misteri di Christo, e della Vergine. Seguitò à fare
+                    per la Chiesa de’ Francescani la tavola del <rs type="work" ref="#jaffe_1366"
+                        >Crocifisso in mezzo alli due ladroni</rs>, e Longino à cavallo, che con la
+                    lancia lo trafigge<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Christus am Kreuz</term>
+                        </index>
+                    </index>; dove apparisce l’affetto di Madalena, che apre le braccia, e pare
+                    voglia ritenere il colpo, mentre la Vergine à piedi la croce vien meno fra le
+                    Marie, e San Giovanni. Dipinse in San Michele sopra il maggiore altare <rs
+                        type="work" ref="#jaffe_780">l’adoratione de’ Magi</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Anbetung der Könige</term>
+                        </index>
+                    </index>; &amp; in Santo Agostino<index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                        <term type="SWD" xml:lang="nld">Sint-Augustinuskerk</term>
+                    </index>
+                    <rs type="work" ref="#jaffe_902">la tavola della Madonna con San
+                    Sebastiano</rs>, &amp; alcuni altri Santi; nella Chiesa di San Francesco <rs
+                        type="work" ref="#jaffe_501">il Santo moribondo</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Die letzte Kommunion des hl. Franziskus</term>
+                        </index>
+                    </index>, il quale mancando alla terra pare che respiri al cielo. Nell’Abbadia
+                    di Santo Amante trovasi di mano del Rubens <rs type="work" ref="#jaffe_422A">la
+                        lapidatione di Santo Stefano</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Steinigung des hl. Stephanus</term>
+                        </index>
+                    </index> circondato da percussori, che gli auventano sassi; mentre uno di loro
+                    nel librare in alto una pietra con le mani contro il Santo, l’urta insieme d’un
+                    calcio, <pb n="225"/>e lo spinge à terra. Piegasi il Santo ferito nella fronte,
+                    e cade con gli occhi elevati, mirando il Padre eterno, e Giesù Christo
+                    dall’apertura di una nubbe, con Angeli, che gli portano palme, e corone: sono
+                    dipinte nè portelli figure dello stesso soggetto.<lb/> Oltre le quali tavole,
+                    che sono in Anversa, dipinse il Rubens per li Cappuccini di Bruselles <rs
+                        type="work" ref="#jaffe_339">la bella inventione della Pietà</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="ita">Pietà</term>
+                        </index>
+                    </index> figurato il Redentore morto in un antro, &amp; assiso sopra il
+                    sasso del monumento: lo regge dietro la Madre conversa al cielo in atto di
+                    dolore; e di fianco vi sono due Angeli, l’uno spiega il lenzuolo, &amp;
+                    addita la piaga del costato, l’altro tiene la lancia, &amp; addita il ferro
+                    sanguinoso. A piedi di Christo piange Madalena con due chiodi nelle mani, e due
+                    altri in terra con la corona di spine, e ’l titolo della croce, e S. Francesco
+                    medita la passione. Questa historia riceve il lume dalla bocca dell’antro, doue
+                    incontro l’aria campeggiano li due Angeli, e la maggior luce si diffonde sopra
+                    il corpo del Signore, con effetto molto proprio e naturale. Nella Chiesa de’
+                    Padri Domenicani della medesima Città, nella cappella del Rosario della Natione
+                    Spagnuola vi è l’altro <rs type="work" ref="#jaffe_672">quadro della Vergine,
+                        che tiene il bambino in gloria</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Maria mit dem Kind</term>
+                        </index>
+                    </index>, San Domenico, San Francesco, Santa Caterina, &amp; altri Santi; e
+                    sotto il Rè <rs type="person" ref="#philipp_iv_spanien">Filippo IV.</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
+                    </index> e gli Arciduchi ginocchioni. Viene ancora riputata frà le buone opere
+                    del Rubens, nella Chiesa di San Nicolò, la tavola di <rs type="work"
+                        ref="#hiob_daemonen">San Iob travagliato da Demoni,</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term type="PND" xml:lang="deu">Hiob</term>
+                        </index>
+                    </index> che gli avuentano faci, e serpenti, mentre il Santo sopra il fieno
+                    della stalla si volge al cielo con le braccia aperte; e la moglie appresso lo
+                    sgrida, e lo tenta di patientia contro Dio: nelli portelli vi sono altre figure
+                    appartenenti al Santo. Nella Chiesa della Cappella di sua mano è <rs type="work"
+                        ref="#jaffe_294">il martirio di San Lorenzo</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Marter des heiligen Laurentius</term>
+                        </index>
+                    </index> spinto dal manigoldo sù la graticola; dietro un Armato lo tira per le
+                    spalle, e di rincontro un Sacerdote gli addita la statua di Giove. Nel qual
+                    componimento tutta la forza del lume si diffonde sopra l’ignudo del Santo, e di
+                    un manigoldo, che sotto versa carboni, restando indietro i soldati, e l’Alfiere
+                    à cavallo; e l’Angelo in aria porta la corona, e la palma. Trovasi nel Domo di
+                    Gantes la tavola <pb n="226"/>di San Sebastiano<note resp="A.H." type="footnote"
+                        >Das Gemälde ist nicht identifiziert. vgl. <bibl xml:id="bellori_2005"
+                            >Giovanni Pietro Bellori: The lives of the modern painters, sculptors
+                            and architects. übers. von Alice Sedgwick Wohl, Cambridge [u.a.] 2005.
+                            S. 195. Anm. 35.<ptr type="opac" cRef="091582040"/></bibl></note>,
+                    &amp; in <rs type="work" ref="#lille">Lilla</rs> entro la Chiesa de PP.
+                    Giesuiti l’altra di <rs type="work" ref="#jaffe_498">San Michele
+                        Arcangelo</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Michael (Erzengel)</term>
+                        </index>
+                    </index>, eseguita con inventione spirito e felicità di pennello. Impugna
+                    Michele lo scudo scintillante, col nome di Dio, e con la destra vibra il
+                    fulmine, precipitando dal cielo lucifero, e gl’altri ribelli nelle fiamme
+                    infernali. Vi sono altri Angeli, che con l’hasta, e col fulmine ancora
+                    percuotono que’ demoni con volti mostruosi di fiere, in contrasegno della loro
+                    perduta bellezza.<lb/> Nel fine dell’anno <date when="1620">1620</date>. la
+                    Regina Madre <rs type="person" ref="#medici_maria">Maria de’ Medici</rs><index
+                        indexName="psw">
+                        <term type="GND" xml:lang="deu">Medici, Maria /de'</term>
+                    </index> essendo tornata à <rs type="place" ref="#paris">Parigi</rs> dopo
+                    l’aggiustamento col Rè <rs type="person" ref="#ludwig_xiii_frankreich"
+                        >Luigi</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Ludwig (Frankreich, König, XIII.)</term>
+                    </index> suo figliuolo, si propose di adornare la nuova fabbrica del suo Palazzo
+                    di Lucemburgo<index indexName="stw">
+                        <term type="SWD" xml:lang="fra">Paris</term>
+                        <index indexName="stw">
+                            <term xml:lang="fra">Palais du Luxembourg</term>
+                        </index>
+                    </index>, e frà l’altre cose di far dipingere la Galeria.<note resp="A.H."
+                        type="footnote">vgl. den <ref type="rubens" cRef="ed_rubens_001">zwischen
+                            Maria de' Medici und Peter Paul Rubens geschlossenen Vertrag</ref> über
+                        die Ausstattung vom <date when="1622-02-26">26. Februar 1622</date>.</note>
+                    Al quale effetto, per la fama, che in <rs type="place" ref="#frankreich"
+                    >Francia</rs> correva del Rubens, fù egli chiamato, e si trasferì à Parigi
+                    honorato, e liberalissimamente trattato. Il soggetto fù la vita di essa Regina
+                    Maria, moglie di <rs type="person" ref="#heinrich_iv">Henrico Quarto</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Heinrich (Frankreich, König, IV.)</term>
+                    </index>; cominciando dalla nascita sino la pace, e reintegratione col
+                    figliuolo, dopo la ritirata à <rs type="place" ref="#blois">Blois</rs>. E perche
+                    questa Galeria è situata in modo che dall’uno, e l’altro lato riguarda nel
+                    giardino, con dieci fenestre per lato, collocò ne’ vani infraposti le storie trà
+                    una fenestra, e l’altra, che sono in tutto ventuno quadri ad olio alti dodici
+                    piedi, e noue larghi; cioè dieci quadri per lato, ed uno in testa li quali il
+                    Rubens dipinse in Anversa, con poetiche inventioni corrispondenti alla grandezza
+                    della Regina.<lb/>
+                </p>
+            </div>
+            <div xml:lang="ita">
+                <head>IMMAGINI DELLA REGINA MARIA MOGLIE DEL RE HENRICO IV. DIPINTE NELLA GALERIA DI
+                        LUCEMBURGO.<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Medici-Zyklus (1622-1625)</term>
+                        </index>
+                    </index></head>
+                <p> 1 Finse <rs type="work" ref="#jaffe_710">le Parche, le quali filano la vita
+                        della Regina</rs>, sotto regia, e felice costelatione di Giove, accarezzato
+                    da Giunone, che seco assiste à felicitare il parto: siedono due di loro
+                    sollevate sù le nubbi, la terza in terra, trahendo lo stame della nobil
+                    vita.<lb/>
+                </p>
+                <p>2 Dopò figurò Lucina ignuda, che con la face rischiara la notte, ed havendo reso
+                    facile il parto, da una nubbe lo porge <pb n="227"/>ad una donna coronata di
+                    torri, che è la Città di Fiorenza, la quale sedendo, l’accoglie, e la riceve frà
+                    le braccia, ammirando la regia sorte, e ’l genio felice dell’infanta, espresso
+                    sopra in un fanciullo con lo scettro, la corona, e ’l corno d’abbondanza. Siede
+                    avanti il fiume Arno col leone Mediceo, e dall’acque sue fuori sorge un putto,
+                    mentre un altro tiene lo scudo con l’impresa del Giglio della Città di Fiorenza,
+                    &amp; altri sopra spargono fiori, soprastando il sagittario in cielo,
+                    ascendente <rs type="work" ref="#jaffe_713">al natale</rs>.<lb/>
+                </p>
+                <p>3 Dipinse appresso <rs type="work" ref="#jaffe_716">l’educatione della
+                    Regina</rs>: siede Minerva, &amp; insegna à leggere alla Real fanciulla; dal
+                    lato destro vi è l’Harmonia figurata avanti in uno, che suona il basso della
+                    viola, à sinistra vi assistono le tre Gratie, l’una delle quali tiene una corona
+                    per donarla alla Regina, mentre dal cielo scende Mercurio à farla eloquente; e
+                    sù ’l piano vi sono istrumenti d’arti liberali. Il fondo di queste figure è un
+                    antro forato in cima da un apertura, onde cadono acque, e deriua il lume sù le
+                    trè Gratie, che si avuiuano al giorno nella nudità loro. Non però l’ombra
+                    asconde la bellezza del volto della Regina, trasparendo ne’ riflessi la gratia,
+                    e la giocondità dell’aspetto.<lb/>
+                </p>
+                <p>4 L’altro quadro rappresenta <rs type="work" ref="#jaffe_718">li Regii sponsali
+                        col Rè Henrico Quarto</rs>: un Amore sospeso in aria sù l’ali, gli mostra il
+                    ritratto della Regina. Risplende egli nell’armi d’acciaio fregiate d’oro, e
+                    vittorioso addolcisce l’animo guerriero, rivolto alla bellezza della Regia
+                    Sposa, che Amore gli addita. Lo segue, e lo sollecita la Francia, e sopra una
+                    nubbe siede Gioue appresso Giunone con l’Aquila, e ’l carro de Pauoni
+                    accompagnati da gli Amori. A piedi del Rè vi sono due Amori l’uno tiene l’elmo,
+                    e l’altro lo scudo.<lb/>
+                </p>
+                <p>5 Succede appresso <rs type="work" ref="#jaffe_721">il maritaggio</rs> celebrato
+                    in <rs type="place" ref="#florenz">Fiorenza</rs> dal <rs type="person"
+                        ref="#bellegarde_roger">Maresciallo di Bellagarda</rs>, speditoui dal Rè in
+                    suo nome; vaghissima è la figura della Regina in bianca veste ricamata d’oro,
+                    con velo sopra il capo: la segue Himeneo, il quale con una mano tiene la face, e
+                    con l’altra alza il longo manto. Nel mezzo vi è il Cardinale Legato <rs
+                        type="person" ref="#aldobrandini_pietro">Pietro Aldobrandino</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Aldobrandini, Pietro (Kardinal)</term>
+                    </index> Nipote del Papa<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Clemens (Papst, VIII.)</term>
+                    </index>, che in habito, con la mitra avanti l’altare, tiene la <pb n="228"
+                    />mano della Regina, mentre il Maresciallo di rincontro le pone in dito
+                    l’anello, seguitato da <rs type="person" ref="#sillery_nicolas">Monsignor di
+                        Sillery</rs>, e dalla Nobiltà Francese; e la Regina servita dalla Gran
+                    Duchessa, e da altre Dame principali, ciascuno ne gli habiti loro.<lb/>
+                </p>
+                <p>6 Vedesi dopo <rs type="work" ref="#jaffe_723">lo sbarco al porto di
+                    Marsilia,</rs> figuratovi la Francia, il Vescovo che vanno incontro à riceuer la
+                    Regina nel baldacchino, sopra un ponte di barche riccamente adorno Scorre in
+                    aria la fama, e con la tromba annuntia à i popoli la sua venuta, e seco Tritone
+                    nel mare suona la buccina, con Nettunno, e le Sirene, restando nel porto le
+                    galere del Pontefice, di <rs type="place" ref="#florenz">Fiorenza</rs>, con
+                    quelle di <rs type="place" ref="#malta">Malta</rs>, scorgendosi sopra la più
+                    ricca d’oro, un Cavaliere vestito di nero con la croce bianca, &amp; allo
+                    sparo de’ cannoni lampeggia di lieta caligine il cielo.<lb/>
+                </p>
+                <p>7 Segue <rs type="work" ref="#jaffe_725">l’incontro della Città di Lione</rs>
+                    alla comparsa del Regio sposo in sereno cielo assiso sù le nubbi in sembianza di
+                    Giove con l’aquila. Seco siede Ia Regina sù le nubbi, col carro appresso à guisa
+                    di novella Giunone, con gli occhi bassi, e vergognosa. Evui dietro Himeneo
+                    inghirlandato di fiori, che tiene la face maritale, con altre faci in aria
+                    portate da gli Amori. Sotto in terra la Città di Lione vestita di purpureo
+                    manto, e tirata nel carro da suoi leoni, con due Amori, riguarda in alto, e
+                    contempla li Regii sposi.<lb/>
+                </p>
+                <p>8 Nell’altra immagine vien figurato il parto della Regina, la quale assisa sopra
+                    un’addobbato letto, rimira <rs type="work" ref="#jaffe_727">il nato Delfino</rs>
+                    il Rè <rs type="person" ref="#ludwig_xiii_frankreich">Luigi Decimoterzo</rs> il
+                    Giusto suo figliuolo: lo tiene la Giustitia, e lo porge al buon Genio salutare
+                    col serpente avuolto al braccio. A destra vi è la Fecondità col corno
+                    d’abbondanza, donde escono due gemelli ignudi. Dietro il letto della Regina vi è
+                    un altro Genio alato, e ridente, il quale tiene un gran panno appeso ad un
+                    tronco; e trà l’uno, e l’altro vi è ombreggiata la Fortuna col temone, scorrendo
+                    in cielo Apolline nel carro luminoso.<lb/>
+                </p>
+                <p>9 Avanti l’incoronatione della Regina, precede la sua Reggenza, quando il Rè
+                    Henrico con terrore dell’Europa, si appresta all’armi; ma prima di partire di
+                    Parigi, <rs type="work" ref="#jaffe_729">costituisce Maria Reggente e
+                        moderatrice del Regno</rs>. Comparisce il Rè <pb n="229"/>medesimo, che
+                    seguitato da suoi guerrieri armati à lei porge il globo sparso di Gigli d’oro,
+                    &amp; in mezzo di loro vi è il pargoletto Delfino, seguitata la Regina dalla
+                    Corte.<lb/>
+                </p>
+                <p>10 Dopo si celebra <rs type="work" ref="#jaffe_732">l’Incoronatione della Regina
+                        Maria</rs> ginocchione inaugurata in San Dionigi avanti l’altare: risplende
+                    ella nel suo regio manto celeste sparso di gigli d’oro, tenendo dietro una Dama
+                    lo strascino. Il Cardinale <rs type="person" ref="#joyeuse_francois">di
+                    Gioiosa</rs> le pone in capo la corona, mentre in aria un coro d’Angioletti
+                    versano sopra di lei felicità. e tesori. Viene ella accompagnata à destra dal
+                    Delfino vestito di bianco, à sinistra dalla Principessa sua figliuola,
+                    seguitando due Signori con li due scettri de’ Regni di Francia, e di <rs
+                        type="place" ref="#navarra">Navarra</rs>, e trà questi apparisce la <rs
+                        type="person" ref="#valois_margarete">Regina Margherita</rs> prima moglie
+                    repudiata dal Rè Henrico, la quale assiste alla ceremonia, seguitando Cardinali
+                    Vescoui, e Dame risplendenti anch’esse in habito di color celeste sparso di
+                    gigli. Stà il Rè à vedere da una fenestra, accompagnato da Principi, e Senatori
+                    frà cori di musici, e palchi di spettatori, risuonando dietro il popolo fauste
+                    acclamationi.<lb/>
+                </p>
+                <p>11 Queste dieci historie compiscono un lato della Galeria nella cui testa segue
+                    un altro <rs type="work" ref="#jaffe_735">quadro grande con la vedovanza della
+                        Regina, morto il Rè Henrico suo marito</rs>. Siede ella vestita à bruno nel
+                    soglio, e dietro l’accompagna Minerva intesa per la prudenza; &amp; in aria
+                    vien figurata la Reggenza in una Donna col temone. La Francia, e la Nobiltà
+                    piegando un ginocchio à terra, honorano, e si offeriscono alla loro Regina;
+                    &amp; avanti nel mezzo la fama tiene l’hasta del Rè, alla quale stà appesa
+                    la lorica; la Guerra si duole, e si lacera i capelli. La Vittoria siede sù
+                    l’armi, trafitto à suoi piedi un serpente, e con le mani giunte riguarda, e si
+                    raccomanda al Rè Henrico che dal Tempo condotto al cielo viene abbracciato da
+                    Giove<lb/>
+                </p>
+                <p>12 Cominciando dall’altro lato di rincontro, nel <rs type="work" ref="#jaffe_737"
+                        >primo quadro viene rappresentata la Providenza della Regina</rs>: vi
+                    assistono Apolline, e Minerva, che à basso combattono i vitii; l’uno li saetta
+                    con l’arco, l’altra li percuote con l’hastà, calcando la Discordia, il Furore,
+                    la Fraude, e gli altri mostri frà <pb n="230"/>l’ombre illuminati dal fuoco
+                    delle loro ardenti faci, e dalla luce, che mal sofferir ponno del luminoso
+                    Arciero. Concorrono gli altri Dei nel Cielo sù le nubbi, Saturno, e Mercurio
+                    guardano à basso il conflitto, e Venere ritiene Marte che impugna la spada per
+                    iscendere à combattere. Siede Giove nel mezzo appresso Giunone la quale addita
+                    Amore, che placidamente conduce il globo del mondo tirato dalle Colombe di
+                    Venere, alludendo alla bellezza, &amp; al soave imperio della Regina. E per
+                    essere l’inventione finta di notte, scorre per lo cielo Diana nel suo
+                    carro.<lb/>
+                </p>
+                <p>13 Vedesi dopo<rs type="work" ref="#jaffe_739"> la Regina armata di elmo sopra un
+                        candido destriere</rs>, in bianca veste, &amp; in manto di color d’oro,
+                    sedando i tumulti de’ sollevati. Risplende la Vittoria in luminoso cielo, e
+                    dietro l’accompagnano, la fama, e la fortezza col leone. Non lungi apparisce una
+                    Città assediata, il campo, e la nobiltà che esce da un bosco.<lb/>
+                </p>
+                <p>14 Si rappresentano appresso <rs type="work" ref="#jaffe_741">li Regii sponsali e
+                        lo scambio</rs> dell’Infanta D.<rs type="person" ref="#anna_von_oesterreich"
+                        > Anna di Spagna</rs> sposa del Rè <rs type="person"
+                        ref="#ludwig_xiii_frankreich">Luigi Decimoterz</rs>o con la Principessa D.
+                        <rs type="person" ref="#bourbon_elisabeth">Isabella Borbone</rs> sposa del
+                        <rs type="person" ref="#philipp_iv_spanien">Principe</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Philipp (Spanien, König, IV.)</term>
+                    </index> di <rs type="place" ref="#spanien">Spagna</rs> figliuolo di <rs
+                        type="person" ref="#philipp_iii_spanien">Filippo Terzo</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Philipp (Spanien, König, III.)</term>
+                    </index>. Apparisce il ponte sù ’l fiume Vidasco ne’ confini delli due regni,
+                    sopra due navigli riccamente adorno, seguitando la nobiltà dell’una, e l’altra
+                    natione. Vi sono espresse la Francia, e la Spagna, che ricevono, e donano le due
+                    spose; e la Felicità dal cielo versa sopra di loro i suoi tesori, in mezzo à gli
+                    Amori, che danzano con le faci geniali. Vi è figurato il fiume accompagnato da
+                    un Tritone, che suona la buccina, e da una Ninfa, che offerisce perle, e coralli
+                    in dono.<lb/>
+                </p>
+                <p>15 Nell’immagine che segue mostrasi <rs type="work" ref="#jaffe_745">la Regina
+                        nel suo trono di giustitia</rs> con le bilancie nella destra vestita di
+                    regio manto: Le assistono Minerva, &amp; Amore, che al ginocchio di lei si
+                    appoggia. Euui una Donna che tiene li suggelli e la Felicità col corno di
+                    abbondanza; da un lato un fanciullo ridente tiene legata l’Ignoranza con gli
+                    orecchi asinini, la Maledicenza finta in un satiro con la lingua fuori, e
+                    l’Invidia prostrata à terra. Nel mezzo vi sono altri fanciulli, l’uno de quali
+                    significa <pb n="231"/>la pittura, che tira gli orecchi dell’Ignoranza, e calca
+                    la testa dell’Invidia. Dall’altro lato vi è il Tempo, che conduce la francia al
+                    secolo d’oro.<lb/>
+                </p>
+                <p>16 Succede <rs type="work" ref="#jaffe_747">la maggioranza del Rè Luigi
+                        Decimoterzo</rs> al governo del Regno, figurata in una nave, dou’egli
+                    regiamente adorno tiene il temone datogli dalla Regina Madre vestita nell’habito
+                    della vedovanza Le virtù remigando conducono il legno, &amp; alla vela vi è
+                    Pallade frà le due stelle Castore, e Polluce.<lb/>
+                </p>
+                <p>17 Trà queste felici imprese volle insieme la Regina si leggesse la memoria delle
+                    agitationi della sua fortuna, fece però dipingere nell’altro quadro la sua <rs
+                        type="work" ref="#jaffe_749">fuga da Blois</rs>, quando ella scese dalla
+                    fenestra del castello. Figurasi in aria la notte, che la ricuopre nel suo nero
+                    manto, accompagnata à sinistra da Minerva, e circondata da custodie d’armati.
+                    Precedono alcuni nobili, trà quali il <rs type="person"
+                        ref="#epernon_jean_louis">Duca di Epernone</rs> la riverisce, e la guida,
+                    &amp; in segno del fatto si vede l’una delle sue Damigelle, che scende dalla
+                    torre.<lb/>
+                </p>
+                <p>18 Si tratta appresso in <rs type="place" ref="#angers">Angiers</rs>
+                    <rs type="work" ref="#jaffe_750">l’aggiustamento con li Deputati del Rè suo
+                        figliuolo</rs>. Siede la Regina Maria nel trono vestita di nero, pavonazzo;
+                    e bianco; alla dritta di lei vi è il Cardinale di Guisa, alla sinistra Minerva;
+                    e ’l Cardinale della Rosciafocò le addita Mercurio, che scende, e le presenta un
+                    ramo di uliuo in contrasegno di pace.<lb/>
+                </p>
+                <p>19 Attende dopo <rs type="work" ref="#jaffe_752">la Regina à riunirsi col Rè suo
+                        figliuolo</rs> condotta da Mercurio avanti il Tempio della Pace. Euvi la
+                    Pace stessa, che estingue la face della guerra sopra un cumulo d’armi, e
+                    Mercurio presenta alla Regina il caduceo. Da un canto si affliggono la furia, e
+                    la fraude con gli altri vitii dolenti.<lb/>
+                </p>
+                <p>20 Alla pace succede il congresso, e <rs type="work" ref="#jaffe_754">l’unione iu
+                        cielo</rs>: fingesi il Rè Luigi Decimoterzo, che scende ad incontrar la
+                    Madre assisa in sù le nubbi, donde sereni Zeffiri spirano aure d’amore. Appresso
+                    di lei vi è la Carità con li bambini ignudi, e nella luce risplende la speranza
+                    vestita di verde à sedere sopra il globo della Francia, e più avanti il Valore
+                    giovine in abito <pb n="232"/>rosseggiante, che abbatte l’hidra della Ribellione
+                    con serpenti uccisi, e ravuolti.<lb/>
+                </p>
+                <p>In ultimo vedesi <rs type="work" ref="#jaffe_711">il Tempo, che discuopre la
+                        Verità</rs>, e la solleva, mentre sù in cielo il Rè, e la Regina ricoperta
+                    di un velo si toccano le destre, sedendo sopra le nubbi.<lb/>
+                </p>
+                <p>Nell’altra testa della Galeria, sopra il camino è collocato il <rs type="work"
+                        ref="#jaffe_704">ritratto della Regina in habito di Bellona</rs> avanti
+                    varie armi di guerra, e sopra le porte laterali vi sono ancora li <rs
+                        type="work" ref="#jaffe_707">ritratti del Gran Duca</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Medici, Francesco de’</term>
+                    </index>, e <rs type="work" ref="#jaffe_708">della Gran Duchessa</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Johanna (Österreich, Erzherzogin)</term>
+                    </index>: tali sono li concetti delle inventioni.<lb/> Espose il Rubens in
+                    questi componimenti la gran prontezza, e ’l fuoco del suo spirito, hauendo usato
+                    una marauigliosa sicurezza, e libertà di pennello. Si tiene però che la maniera
+                    del dipingere non possa essere nè più facile, nè più naturale. Si seruì in essa
+                    delle massime de’ Pittori Veneti nella distributione de’ colori, e nelle
+                    oppositioni de’ lumi, e dell’ombre, riflessi, e sbattimenti; onde in tal parte
+                    egli è commendabilissimo, e questa Galeria avanza ogn’altra opera sua, &amp;
+                    in essa risplendono li tratti megliori del suo pennello. Tralasciansi gli
+                    ornamenti, che non sono in consideratione; poiche li quadri vengono collocati in
+                    cornici nere di legno arabescate d’oro, con altri lavori, e scompartimenti,
+                    maschere, e paesi, che non sono d’elettione del Rubens. Ma poiche li quadri
+                    furono ridotti à perfettione, egli stesso li portò à Parigi, e li collocò nella
+                    Galeria con applauso della Corte, così per lo merito della pittura, come per la
+                    bellezza delle poetiche inventioni, e con sodisfattione della Regina Maria,
+                    dalla cui munificenza egli riportò premi, e ricchezze, Dopo quest’opera l’anno
+                        <date when="1623">1623</date>. fù egli chiamato in Ispagna, in tempo che il
+                    Principe di <rs type="place" ref="#wales">Cales</rs><index indexName="psw">
+                        <term type="PND" xml:lang="eng">Charles (England, King, I.)</term>
+                    </index> trasferitosi à quella Corte, per lo maritaggio dell’Infanta, essendo
+                    egli studiosissimo della pittura, s’invogliò de’ più belli originali di <rs
+                        type="person" ref="#tizian">Titiano</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Tizian</term>
+                    </index>, <rs type="work" ref="#jaffe_977">l’Europa</rs>, <rs type="work"
+                        ref="#jaffe_1078">il Bagno di Diana</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Raub der Europa</term>
+                        </index>
+                    </index><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Diana und Aktäon</term>
+                        </index>
+                    </index>, &amp; altri li quali volêdo il Rè donare à questo Principe fece
+                    copiare al Rubens per ritener le copie; se bene poi restarono con gli originali
+                    in <rs type="place" ref="#madrid">Madrid</rs>, nô essendosi quel matrimonio
+                    effettuato. Dopo havendo is Rè di Spagna <rs type="person"
+                        ref="#philipp_iv_spanien">Filippo Quarto</rs>
+                    <pb n="233"/>fabbricato il palazzo della Torre della Parada<index
+                        indexName="stw">
+                        <term xml:lang="spa">Torre da la Parada</term>
+                    </index> tre leghe distante da Madrid, così nominato da una gran Torre, alle cui
+                    falde è posto l’edificio, volle adornarlo tutto di pitture ne’ sopraporti, e
+                    soprafenestre, e ne gli altri vani, e sin ne gli anditi, e ripiani delle scale.
+                    Furono in Madrid fatte le tele à misura, e mandate al Rubens à <rs type="work"
+                        ref="#torre_parada">dipingere in Anversa con favole delle Metamorfosi</rs>,
+                    &amp; altri componimenti tanto aggiustati che un quadro con l’altro si
+                    congiunge, havendovi infraposto in alcuni vani scherzi d’animali fatti da <rs
+                        type="person" ref="#snyders_frans">Sneyers</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Snyders, Frans</term>
+                    </index> Pittore eccellentissimo in questo genere. Fece ancora il Rubens per
+                    servigio del medesimo Rè Filippo, li quadri, e li cartoni per una muta di
+                    tapezzerie tessute in Fiandra con soggetti sacri; cioè li Trionfi della nuova
+                    legge, della Chiesa, l’Idolatria abbattuta, e la Verità del Vangelo<index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Triumph der Eucharistie</term>
+                        </index>
+                    </index> rappresentate le figure frà compartimenti di colonne ritorte à vite,
+                    che reggono l architraue, collegate con putti, imprese, &amp; ornamenti. E
+                    perche l’inventioni sono degnissime si accennano con breve descrittione.<lb/>
+                </p>
+            </div>
+            <div>
+                <head>
+                    <rs type="work" ref="#jaffe_838">TRIONFO DELLA NUOVA LEGGE.</rs>
+                </head>
+                <p>Rappresentò prima il Trionfo della nuova legge di Christo figurata in una maesto
+                    sa Donna ritta in piedi sopra un carro tirato da due Angeli; stende avanti con
+                    la destra il calice soprastando la sfera del Diuino Pane; e scintillante di luce
+                    volge la faccia indietro verso gli antichi Padri, che escono dall’ombre. Avanti
+                    di essa un Angelo piega il ginocchio sopra il carro, &amp; abbraccia la
+                    croce, precedendo iu aria due Amoretti celesti con li chiodi, e con la corona di
+                    spine simboli della nostra Redentione. un’altro Angelo con la face in mano la
+                    Real Donna addita; e traggono dietro il carro il primo padre Adamo stanco
+                    appoggiato al bastone, Eva mesta guardando à terra, cagione del peccato, e della
+                    morte, con le mani al seno in forma di prigione, &amp; in pena del suo
+                    partorire con dolore. Con loro vi è uno de’ figliuoli di Seth inventore
+                    dell’Astronomia, con l’astrolabio, &amp; un libro. Sotto gli ornamenti vi è
+                    l’impresa di un cuore trà le fiamme sopra un vaso.<lb/>
+                </p>
+            </div>
+            <div>
+                <head>
+                    <rs type="work" ref="#jaffe_844">TRIONFO DELLA CHIESA.</rs>
+                </head>
+                <p>
+                    <pb n="234"/> Segue la Chiesa trionfante, e questa ancora è una nobil Donna à
+                    sedere nel carro in habito sacerdotale: sostiene con ambedue le mani la custodia
+                    col Diuino Pane, incontro Cherubini, e lo Spirito Santo; e dietro un’Angelo le
+                    auvicina al capo la sacra Mitra Papale. Sotto le ruote del carro giacciono
+                    calpestate l’Heresia crinita di serpenti, il Demonio in horrida faccia; e dietro
+                    il carro seguono la verità, che porta con una mano la lucerna, con l’altra mano
+                    scaccia due huomini deformi l’Errore bendato, e l’Ignoranza con gli occhi
+                    asinini. Vien tirato il carro da quattro candidi corsieri; sopra di uno cavalca
+                    un giovine alato coronato di lauro, portando il confalone della Chiesa, à cui
+                    sono legate le chiavi, e sopra l’altro la Vittoria col ramo della palma, e la
+                    corona, suonando gli Angeli le trombe del trionfo. Reggono i freni de’ cavalli
+                    la Fortezza, che è un giovine robusto con la spoglia del leone in capo,
+                    impugnando la spada. Tiene avanti il freno dell’altro cavallo la Giustitia,
+                    &amp; impugna la spada radiante, scorgendosi dietro i cavalli, alcune teste
+                    di giovini coronati di lauro. Vi è sotto l’impresa dell’Eterna monarchia della
+                    Chiesa il globo del mondo circondato dal serpente che si morde la coda, e col
+                    temone per lo suo perpetuo reggimento.<lb/>
+                </p>
+            </div>
+            <div>
+                <head>
+                    <rs type="work" ref="#jaffe_832">L’IDOLATRIA ABBATTUTA.</rs>
+                </head>
+                <p> Dalla nuova legge, e dalla illuminatione de gli antichi Padri segue la caduta
+                    dell’Idolatria; da un lato si solleva un Angelo risplendente in lampi di luce;
+                    con una mano inalza il calice con l’ostia sacramentale, e con l’altra impugna il
+                    fulmine, e nel profano tempio cade l’ara percossa cò i vasi d’oro à terra.
+                    Fuggono spaventati li Sacerdoti, e li vittimarii, uno de’ quali si arresta
+                    ginocchione tenendo per le corna un toro inghirlandato, e lungi vedesi la statua
+                    di Giove Capitolino con gli Idolatri intenti al sacrificio.<lb/>
+                </p>
+            </div>
+            <div>
+                <head>LA VERITA DEL SACRO VANGELO.</head>
+                <p><pb n="235"/> Precedono <rs type="work" ref="#jaffe_851">San Luca, e San
+                    Marco</rs>, li quali rivolti indietro alle parole dell’Angelo, che sospeso in
+                    mezzo sù l’ali con una mano addita la luce con l’altra accenna il libro de’
+                    Vangeli che San Matteo tiene aperto nelle mani. Appresso San Giovanni solleva il
+                    calice col serpente, e ’l volto in contemplatione; seguono <rs type="work"
+                        ref="#jaffe_848">li Dottori della Chiesa</rs> Santo Ambrogio col pastorale
+                    in habito di Vescovo, San Gregorio Papa con la mitra, e con la croce, &amp;
+                    in mezzo di loro Santo Agostino si vede per di dietro anch’egli in habito con la
+                    mitra Episcopale. Succede San Tomaso d’Aquino, il quale tiene il libro,
+                    &amp; alza il dito in atto disputativo, e l’accompagna Santa Chiara, che è
+                    l’Arciduchessa Isabella Chiara Eugenia, tenendo la custodia sacramentale.
+                    Succede San Bonaventura in cui; e figurato il Cardinale Infante, con la berretta
+                    rossa, &amp; in ultimo San Girolamo in habito anch’egli di Cardinale col
+                    cappello, fermandosi intento à leggere un libro che tiene nelle mani.<lb/> Fece
+                    il Rubens altre inventioni, e cartoni per arazzi, trà li quali sono lodatissime
+                        <rs type="work" ref="#jaffe_350_364">l’historie di Decio Console</rs>,
+                    quando egli votò se stesso per la salute del Popolo Romano contro i Galli, e
+                    Sanniti: vi è il parlamento all’esercito, l’imprecatione del Pontefice contro i
+                    nemici, e Decio stesso, che corre sopra un cavallo bianco, &amp; incontra la
+                    morte, cadendo alle saette de’ Galli, &amp; in vltimo il suo funerale,
+                    attorniato il cadavero da soldati con titoli, bandiere, e trofei. Ma tanti
+                    furono i lauori, e li quadri di questo maestro, che le cose descritte sono la
+                    minor parte, non vi essendo in Fiandra Chiesa principale, che non si adorni del
+                    suo pennello, si come appresso varii Principi, &amp; in varie parti l’opere
+                    sue lo rendono famoso, incontrandosi spesso a gli occhi, &amp; alle lodi de
+                    gli amatori della pittura. Parmi nondimeno di non tralasciare le sue belle <rs
+                        type="work" ref="#pompa_introitus">inventioni de gli Archi trionfali</rs>,
+                    per l’entrata del Cardinale Infante in Anversa<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="lat">Pompa Introitus Ferdinandi</term>
+                        </index>
+                    </index>; ancorche condotte in parte da suoi discepoli, le quali si conservano
+                    tuttavia in <rs type="place" ref="#bruessel">Bruselles</rs> nel Palazzo del <pb
+                        n="236"/>Principe e sono degne di memoria. Celebrandosi dunque nella
+                    medesima Città l’anno <date when="1635">1635</date>. l’entrata del Cardinale
+                    Infante <rs type="person" ref="#ferdinand_von_spanien">Ferdinando</rs><index
+                        indexName="psw">
+                        <term type="GND" xml:lang="deu">Ferdinand &lt;Österreich, Erzherzog,
+                            1609-1641&gt;</term>
+                    </index> d’Austria, mandato dal fratello il Rè di Spagna Filippo Quarto à
+                    governare li paesi bassi, fù data la cura al Rubens di fare, e dipingere gli
+                    archi con l’altre macchine dell’apparato. E perche l’Infante venendo di Spagna,
+                    nel passare per la <rs type="place" ref="#deutschland">Germania</rs> unitosi con
+                    Ferdinando Terzo Rè de’ Romani sotto <rs type="place" ref="#noerdlingen"
+                        >Norlinga</rs>, era stato à parte della vittoria contro gli Svedesi con
+                    l’acquisto della piazza. Fecesi però più solenne l’entrata simile ad un trionfo,
+                    celebrandosi insieme la vittoria con pitture, e con elogi, che si veggono in un
+                    libro in foglio grande stampato in Anversa<note resp="A.H." type="footnote">vgl.
+                            <bibl>Jean Gaspard Gevaerts: Pompa introitus honori Ferdinandi [...].
+                            Antwerpen: Joannes Meursius, 1641. [Nachdruck Unterschneidheim 1971]<ptr
+                                type="opac" cRef="02585836X"/></bibl>, vgl. auch das Faksimile auf
+                        den Seiten der <ref
+                            target="http://special-1.bl.uk/treasures/festivalbooks/BookDetails.aspx?strFest=0152"
+                            >British Library</ref></note>, con le figure del Rubens, e con
+                    l’espositioni dell’eruditissimo <rs type="person" ref="#gevaerts_caspar">Gaspare
+                        Gevartio</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Gevaerts, Jean Gaspard</term>
+                    </index> autore de gli elogi medesimi, col quale il Rubens communicava le sue
+                    inventioni nel modo, che noi compendiosamente anderemo descrivendo.<lb/>
+                </p>
+            </div>
+            <div>
+                <head><rs type="work" ref="#willkommenstribuene">LA PRIMA MACCHINA</rs>.</head>
+                <p> La Navigatione dell’Infante, l’incontro col Rè de Romani, e l’entrata in
+                    Anversa.<lb/> Entrato il Cardinale à cavallo entro la Città nell’habito
+                    militare, la prima macchina era collocata sù la piazza della Chiesa di San
+                    Giorgio con architettura di ordine Ionico fra sei pilastri, soprastando col
+                    frontespitio all’altezza di ottanta piedi, quasi in altrettanta larghezza. Dal
+                    lato destro frà li pilastri rappresentò la navigatione dell’Infante da <rs
+                        type="place" ref="#barcelona">Barcellona</rs> à Genova per lo mare tirreno.
+                    Nettunno in piedi sopra una conca à guisa di carro con una mano impugna il
+                    tridente, e con l’altra scaccia Aquilone. Questo vento è finto in senile aspetto
+                    con le chiome, e con le braccia alate, che nel mezzo si cangiano in penne, e con
+                    le gambe ritorte in serpenti. Egli fugge per l’aria al comandamento di Nettunno,
+                    e vien perseguitato da Austro col fulmine, e da Zeffiro Hispano con l’ali al
+                    crine, e ‘n giovanil sembiante, alludendosi alla futura vittoria contro gli
+                    Svedesi popoli <pb n="237"/>Aquilonari. Il carro di Nettunno è tirato da quattro
+                    cavalli marini, e Tritone nel mezzo reggendo il freno, suona la buccina, mentre
+                    le Nereidi coronate di gemme spingono le ruote; e seguitano i legni sopra il
+                    mare tranquillo. Dal lato sinistro veniva figurato l’incontro fatto all’Infante
+                    dal Rè de’ Romani; l’uno, e l’altro smontato da cavallo si porgono
+                    vicendevolmente le destre, volando due aquile sopra di loro con la corona di
+                    lauro nel rostro, e ’l fulmine ne gli artigli. Sotto si allegra il Danubio
+                    appoggiato con una mano all’urna versante acque sanguigne, e con l’altra addita
+                    gli Heroi Austriaci à due Donne giacenti in atto mesto, l’una delle quali è la
+                    Germania con l’Imperiale insegna. Riconoscesi <rs type="person"
+                        ref="#ferdinand_iii_kaiser">Ferdinando Terzo</rs> nell’habito del Regno suo
+                    di <rs type="place" ref="#ungarn">Ungheria</rs>, seguitato da suoi Guerrieri, il
+                    Principe <rs type="person" ref="#medici_mattias">Mattia de’ Medici</rs>, Borso
+                    da Este, Conti <rs type="person" ref="#gallas_matthias">Galasso</rs>, e <rs
+                        type="person" ref="#piccolomini_ottavio">Piccolomini</rs>, &amp; altri
+                    capitani; e l’Infante col seguito del <rs type="person" ref="#guzman_diego"
+                        >Marchese di Leganes</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Guzmán de Leganés, Diego Felipe de</term>
+                    </index>, di Este, d’Orange, e di altri della sua Corte. Nell’historia di mezzo
+                    vedevasi l’entrata dell’Infante con la destra distesa alla Fiandra, calpestando
+                    col cavallo cadeveri di nemici estinti. Lo seguitano di fianco la Virtù con
+                    l’elmo, Marte gradivo armato col trofeo sù la spalla. Tiene la fortuna con una
+                    mano la briglia del cavallo, e con l’altra solleua la Fiandra inclinata con la
+                    testa coronata di torri, e col leone a piedi, seguitando dietro la salute, col
+                    serpente, e sopra la Vittoria con la corona di alloro. Ne gl’intervalli de’
+                    pilastri vi erano le statue del Genio della Città, formato all’antica con la
+                    patera, e ’l corno di abbondanza, e l’altra della letitia publica con la corona,
+                    e ’l temone nelle mani. Nell’arcata del frontispitio di sopra era situata la
+                    statua della Speranza col solito simbolo del fiore in mano, e nella sommità
+                    un’albero di palma col globo del mondo in mezzo à i rami, e ’l motto SUMIT DE
+                    PONDERE VIRES, Di quà, e di là sopra i modiglioni sedevano due fame con la
+                    tromba alla bocca; ad una era vicina l’Aquila Imperiale, l’altra veniva
+                    accompagnata da leone insegna della Fiandra, e vi erano interposti altri vari
+                    scherzi di Amoretti con palme, insegne, corone, denotanti la felicità del
+                    tempo.<lb/>
+                </p>
+            </div>
+            <div>
+                <head><rs type="work" ref="#philippsbogen">L’ARCO FILIPPINO CON LA PROGENIE, E
+                        MONARCHIA DI CASA DI AUSTRIA</rs>.</head>
+                <p><pb n="238"/> Dopo che l’Infante hebbe passato un alrro Arco erettogli dalla <rs
+                        type="place" ref="#portugal">Natione Portoghese</rs>, gli si fece incontro
+                    l’altro nella strada dell’arte del cuoio, il maggiore, e ’l più ricco di
+                    ciascuno di ordine composito alto 75. piedi chiamato il Filippino dalla progenie
+                    de’ Regi di Spagna, contenendo l’unione dell’Augustissima Casa di Austria con
+                    quelle di <rs type="place" ref="#burgund">Borgogna</rs>, di <rs type="place"
+                        ref="#aragon">Aragona</rs>, di <rs type="place" ref="#kastilien"
+                    >Castiglia</rs>, e di leone, cioè la sua Monarchia seguita con la felicità di
+                    due matrimonii. Nella <rs type="work" ref="#jaffe_1122">facciata anteriore</rs>
+                    sopra l’elevatione dell’Arco, nel mezzo del frontispitio erano dipinti
+                    l’Arciduca <rs type="person" ref="#maximilian_i_kaiser">Massimiliano</rs>, e <rs
+                        type="person" ref="#burgund_maria">Maria di Borgogna</rs>, che si porgono le
+                    destre con Himeneo avanti, che guida la sposa, e con la Fiandra coronata di
+                    torri, che porta in mano il globo col leone. A lato Massimiliano eravi il padre
+                    Ferdinando Quarto Imperatore, &amp; appresso la sposa <rs type="person"
+                        ref="#karl_der_kuehne">Carlo il Bellicoso</rs> suo padre Duca di Borgogna
+                    armato, col manto, e con le chiome cinte di gemme. Sopra questa pittura erano
+                    scolpiti di rilieuo due amoretti con le faci, e sotto nella elevatione
+                    dell’Arco, nel mezzo di una balaustrata, la statua d’Himeneo giovine alato con
+                    un canestro di fiori in capo, coronato il collo di rose, con la face, e ’l corno
+                    di abbondanza. E perche da questo matrimonio discesero <rs type="work"
+                        ref="#jaffe_1124">Massimiliano Primo Imperadore</rs>, <rs type="person"
+                        ref="#philipp_ii_spanien">Filippo Secondo Rè di Spagna</rs>, l’<rs
+                        type="work" ref="#jaffe_1125">Augustissimo Carlo Quinto</rs>, Filippo
+                    Secondo, <rs type="work" ref="#jaffe_1128">Filippo Terzo</rs>, <rs type="work"
+                        ref="#jaffe_1129">Filippo Quarto</rs>, di quà, e di là ne gli intercolunnii
+                    stavano disposte per ordine le statue loro. Nell’ultima sommità dell’arco erano
+                    collocate le statue di Giove, e di Giunone, che deliberano le nozze: Giove con
+                    una mano addita sotto gli sposi, con l’altra abbraccia Giunone, la quale tiene
+                    il globo del mondo. Eravi da un lato la Providenza alata con l’occhio sopra la
+                    fronte, e col mondo in mano, dall’altro l’Eternità sotto la figura di Saturno
+                    con la falce, e col serpente, che si morde la coda, &amp; alquanto più basso
+                    nè modiglioni sedevano la fiandra, e la Borgogna laureate <pb n="239"/>con le
+                    loro insegne. Nella <rs type="work" ref="#jaffe_1123">facciata posteriore
+                        dell’arco</rs> rappresentavasi la Monarchia di casa d’Austria accresciuta al
+                    sommo con l’altro matrimonio di <rs type="person" ref="#philipp_i_kastilien"
+                        >Filippo il Bello</rs> Principe di Fiandra con <rs type="person"
+                        ref="#johanna_kastilien">Giovanna</rs> figliuola di <rs type="person"
+                        ref="#ferdinand_ii_aragon">Ferdinando Rè</rs> di <rs type="place"
+                        ref="#aragon">Aragona</rs>, e d’<rs type="person"
+                        ref="#isabella_i_kastilien">Isabella</rs> Regina di <rs type="place"
+                        ref="#kastilien">Castiglia</rs>, e di <rs type="place" ref="#leon"
+                    >Leone</rs>, con la dote della Spagna, e dell’<rs type="place" ref="#indien"
+                        >Indie</rs> hereditate dopo la mancanza della casa reale. Sopra l’arco
+                    dunque corrispondeva l’altro quadro figuratovi l’Arciduca Filippo d’Austria, che
+                    guida per mano Giovanna Infanta di Spagna, seguitato dalla fiandra turrita in
+                    guisa di Cibele col suo leone. Vanno loro incontro Giunone pronuba col globo
+                    della Monarchia nelle mani, accompagnata dal Tempo in contrasegno della futura
+                    successione, che di questi regni doveva seguire. Vedevasi come nell’altra
+                    facciata avanti la statua d’Himeneo, e l’altre de gli Heroi <rs type="person"
+                        ref="#ferdinand_ii_aragon">Ferdinando</rs>, &amp; <rs type="person"
+                        ref="#isabella_i_kastilien">Isabella</rs> Cattolici: quegli con lo scettro,
+                    questa col globo del nuovo mondo ritrouato con l’armi sue dal Colombo, l’<rs
+                        type="work" ref="#jaffe_1132">Arciduca Ernesto</rs> figliuolo di <rs
+                        type="person" ref="#maximilian_ii_kaiser">Massimiliano Secondo</rs>
+                    Gouernatore di Fiandra, l’<rs type="work" ref="#jaffe_1130">Arciduca
+                    Alberto</rs>, e la moglie <rs type="work" ref="#jaffe_1131">Isabella</rs>, e
+                    l’Infante medesimo Ferdinando vestito di sacra porpora. Nella sommità dell’arco
+                    sedeva la Monarchia Austriaca in habito di nobil Donna, &amp; avanti di essa
+                    il Genio alato, piegando un ginocchio à terra, le offeriva il mondo, sopra ’l
+                    quale essa con una mano posaua lo scettro insigne con la croce, e con l’altra
+                    teneva il caduceo trà spiche, e papaveri di felicità. Sopra il capo di essa
+                    scintillava la stella di Hespero Hispano, e volgevasi dietro la fascia del
+                    Zodiaco per l’ampiezza dell’imperio. Da un lato Apolline Laureato teneva la
+                    testa dell’Oriente radiata nella destra mano, e l’insegna di Portogallo con la
+                    sinistra, sedendo à suoi piedi l’Indi Orientale ornata di gemme il capo, il
+                    collo, e le braccia ignude, col corno abboudante di aromati odorati. Dall’altro
+                    lato Diana teneva in una mano la luna occidentale con l’altra l’isegna di
+                    Castiglia, &amp; à suoi piedi volgevasi l’India occidentale coronata di
+                    penne di varii colori, e con l’orecchie inanellate, spargendo dal vaso monete
+                    d’oro, e di argento.<lb/>
+                </p>
+            </div>
+            <div>
+                <head><rs type="work" ref="#kaiserportikus">THEATRO DELLI DODICI IMPERADORI
+                        AUSTRIACI</rs>, E <rs type="work" ref="#buehne_isabella">MONUMENTO
+                        DELL’INFANTA ISABELLA.</rs></head>
+                <p><pb n="240"/> Arrivandosi dopo alla strada della Mera appariva un portico in
+                    forma di Teatro con le statue de’ dodici Imperadori Austriaci, ciascuna nel suo
+                    tabernacolo di quattro colonne col frontespitio, cominciando da Rodolfo Primo,
+                    sino à Ferdinando Secondo. Nè lungi poi dalla Chiesa di San Giacinto inalzavasi
+                    il Monumento dell Infanta <rs type="person" ref="#isabella_von_spanien">Isabella
+                        Chiara Eugenia </rs>ultima Governatrice. Nel secondo ordine eravi un quadro
+                    con l’Infanta medesima sedente sopra le nubbi in mezzo la luce ricevuta in cielo
+                    nell’habito monacale di Santa Chiara vestito da lei nella vedouanza, e col
+                    titolo di madre della patria. Seco insieme siede la Carità co’ bambini ignudi, e
+                    sotto una Matrona ginocchione in habito bruno stende le mani inuocando l’aiuto
+                    d’Isabella, la quale addita in terra il Rè di Spagna Filippo Quarto, che invia
+                    l’Infante Ferdinando. Da i lati del Rè sono figurati Giove, e Pallade, e
+                    l’Infante è guidato da due Genii giovini alati, che scendono dal soglio: l’uno
+                    rappresenta la guerra coronato di lauro con la gorgone nello scudo, l’altro è
+                    simbolo della pace, coronato di fiori col caduceo, e ’l corno di
+                    abbondanza.<lb/>
+                </p>
+            </div>
+            <div>
+                <head><rs type="work" ref="#ferdinandsbogen">ARCO DEDICATO ALL’INFANTE COL TRIONFO
+                        PER LA VITTORIA DI NORLINGA</rs>.</head>
+                <p> Nella via longanuova seguitava l’altro arco dedicato al medesimo Infante
+                    trionfante: nella faccia anteriore sopra la circonferenza era egli dipinto à
+                    cavallo d’armi risplendente col Rè de’ Romani con la clava, con la berretta
+                    fodrata di pelli, e col manto ungheresco sopra l’armi, l’uno, e l’altro in atto
+                    di correre fugando i nemici al campo di Norlinga. Sopra ad ornamento della
+                    immagine eranvi due Aquile, che col rostro, e con gli artigli lacerano un
+                    serpente col <pb n="241"/>motto CONCORDIA FRATRUM da i lati le statue della
+                    Religione, e della Germania, quella velata col calice, e la patena, questa con
+                    l’Aquila Imperiale nello scudo. Ne’ vani de’ pilastri erano situate le statue
+                    dell’uno, e l’altro Ferdinando, e sopra di loro, entro due corone di alloro, li
+                    ritratti di Ferdinando Secondo Imperatore, e di Filippo Quarto Rè di Spagna,
+                    sotto gli auspici de’ quali si era ottenuta la vittoria. In cima l’arco l’Aurora
+                    alata in piedi sopra la quadriga, portando due corone, e due palme nelle mani; e
+                    questa significava l’età giouanile dell’Infante, risplendente di heroiche
+                    imprese. Da i lati erano dirizzati trofei con prigioni, e nelle due estremità li
+                    due fratelli Castore, e Polluce, che con una mano frenano i corsieri, e con
+                    l’altra tengono le vittoriose insegne. Nella faccia posteriore dell’arco eravi
+                    dipinto l’Infante Ferdinando trionfante in carro d’oro tirato da quattro candidi
+                    destrieri, col volto circondato di luce, ponendogli la Vittoria sù la testa
+                    l’alloro. avanti veniva portata in trionfo la statua della Città di Norlinga, e
+                    da i lati al carro seguivano prigioni legati con le mani avanti, trà soldati con
+                    insegne, e trofei, soprastando in aria un’altra Vittoria col trofeo, e con la
+                    palma, accompagnata dalla Speranza di nuovi acquisti. Da i lati v’erano le
+                    statue dell’Honore, e della Virtù, e della Liberalità, che sparge monete dal
+                    corno, e della Providenza che tiene il globo del mondo sopra il temone. Nella
+                    sommità del frontespitio risplendeva in mezzo Lucifero laureato con la stella
+                    sopra la fronte, sollevato in aria dal Pegaso alato con titoli di allegrezza, e
+                    di trionfo, seguitando di quà, e di là vittorie, trofei, Fame, le quali davano
+                    fiato alla tromba.<lb/>
+                </p>
+            </div>
+            <div>
+                <head><rs type="work" ref="#janustempel">TEMPIO DI GIANO CO’ BENI DELLA PACE, E MALI
+                        DELLA GUERRA</rs>.</head>
+                <p> Appresso nella piazza del latte vedevasi il tempio di Giano: era il primo ordine
+                    Dorico; e la pittura nel mezzo rappresentava la porta del tempio aperta, donde
+                    escono fuori scatenato il Furore con gli occhi bendati, impugnando il <pb
+                        n="242"/>ferro, e la face. A sinistra la Discordia con serpentine chiome,
+                    apre un lato della porta, e l’aiuta Tisifone co’ i serpenti nelle mani,
+                    rovesciando col piede un’urna di sangue, e sopra volgesi un’Arpia rapace. A
+                    destra la Pace col caduceo riserra l’altro lato della porta, aiutandola
+                    l’Infanta Chiara Eugenia Isabella, e la Religione velata appresso l’ara, e di
+                    sopra Amore con la face aiuta à chiudere il tempio. Ne gli intercolunnii
+                    laterali presso le Furie compagne eravi la Crudeltà figurata in un huomo armato,
+                    che strascina per li capelli una madre col figliuolino per terra, la Pestilenza
+                    finta in uno schelatro velato con la falce, e con la face, la Fame pallida,
+                    asciutta con bocca anhelante, e coda di serpente. Nell’angolo vi erano due
+                    Termini di Donne ad uso di Cariatidi, che sostenevano l’architrave; cioè la
+                    Rissa, e la Discordia magre, e contentiose, le quali si guardano l’una l’altra
+                    con gli occhi torui, e dispettosi. Tengono sù la testa un cesto di serpenti, e
+                    sù ’l cornicione pendeva appesa una medaglia con le teste del Timore, e del
+                    Pallore. Sopra il medesimo cornicione, dove il tempio si cangia in forma rotonda
+                    eravi la Pouertà lacera, e scalza, col capo basso, appoggiata in cubito, e seco
+                    il Pianto donna lagrimosa e velata con le mani insieme congiunte. Queste erano
+                    due statue, con un candelliere in mezzo di loro, nella cui base stavano due faci
+                    rovesciate à terra, in segno di morte, col titolo CALAMITAS PUBLICA. Seguitava
+                    appresso nell’angolo del cornicione un trofeo d’armi, e bandiere nere, con teste
+                    tronche affisse all’haste. Dal lato contrario, cioè nell’intercolunnio destro
+                    seguitavano li beni della Pace, presso la quale stavano la Sicurezza, e la
+                    Tranquillità, questa à sedere velata, &amp; appoggiata il braccio ad un’ara
+                    in riposo, con papaveri, e spiche nelle mani, quella in piedi appoggiata con la
+                    destra alla medesima ara. Nell’angolo reggevano l’architrave, e si abbracciavano
+                    le due Cariatidi in forma di termini, e rappresentavano l’unione, e la
+                    Concordia, rallegrandosi insieme e guardandosi amorevolmente. Tenevano nelle
+                    mani un fascietto di verghe unite, e legate, e sopra il capo un canestro di
+                    varii pomi, e fiori, e nella medaglia pendente <pb n="243"/>in mezzo il
+                    cornicione, vi erano le teste della Virtù, e dell’Honore. Seguitaua sopra il
+                    cornicione medesimo l’Abbondanza, e l’Ubertà, questa versando monete, e tesori
+                    dal corno, quella col seno pieno di frutti, e ’l cornucopia nella destra, col
+                    candelliere nel mezzo di loro nella cui base vedevansi le teste di due gemelli,
+                    in cima à due corni di abbondanza, col titolo FELICITAS TEMPORUM. Nell’ultimo
+                    angolo vi era il trofeo composto di rastri, e di aratri, e d’instrumenti di
+                    pace, frutti, spiche, e candide insegne, e nel mezzo il nido con due
+                    tortorelle.<lb/>
+                </p>
+            </div>
+            <div>
+                <head>
+                    <rs type="work" ref="#merkurstribuene">MERCURIO</rs>
+                </head>
+                <p> Preghiere della città d’Anversa per lo stabilimento della Mercatura.<lb/> Verso
+                    la Schelda al ponte San Giovanni inalzavasi un altra macchina di opera rustica
+                    di pezzi di scogli, e di altre cose maritime. Eravi nel mezzo un quadro
+                    figuratavi la Città di Anversa, che si lagna della quasi perduta navigatione, e
+                    mercatura, e nel passare l’Infante, lo pregava, che arrestasse Mercurio in atto
+                    di partire, sciogliendo il piede dal suo basamento. Appresso la Città vedevasi
+                    l’otioso, e mesto nocchiere col braccio in cubito sopra il rovesciato naviglio,
+                    l’ancora, e ’l temone per terra. Di rincontro sedeva il fiume Schelda
+                    sonnacchioso anch’egli sù le reti, appoggiato all’urna, con li piedi incatenati.
+                    Nell’altro quadro à destra eravi figurata l’Opulentia à sedere sopra le merci e
+                    le bilancie, à cui l’Abbondanza versa in seno dal corno ogni sorte di ricchezze.
+                    Dalla parte sinistra era dipinta la Povertà à sedere in lacera veste con la
+                    conocchia, e ’l fuso, porgendo ad un putto radiche, &amp; herbe per cibarsi,
+                    &amp; appresso un Marinaro, che si straccia i capelli con la zappa in mano.
+                    Ne gli angoli à destra con le ricchezze v’era Como Dio de’ conuiti, e de’ balli
+                    in forma di Bacco cinto di pelle con la face nuttiale, e con un grappolo di vue
+                    in mano; à sinistra l’Industria, che percuote la selce, e ne fà scintillare il
+                    fuoco. Il quadro di mezzo di Mercurio era locato in mezzo una gran porta, sopra
+                    la quale appariva la <pb n="244"/>testa dell’Oceano con la barba, e le chiome
+                    humide, e stillanti. Sopra l’Oceano il globo del mondo, e più in alto Nettunno à
+                    sedere sopra scogli, e Delfini, col tridente, e ’l temone. Seco sedeva Anfitrite
+                    col corno di felicità in una mano, appoggiando l’altra ad un rostro di nave;
+                    mentre da i lati due Tritoni davano fiato alla buccina, tenendo l’insegne della
+                    Città, in memoria de’ felici tempi, ne’ quali Anversa fioriva per la
+                    navigatione.<lb/> Restaci hora di dire alcuna cosa de’ costumi, e doti di questo
+                    maestro, il quale certamente più dì ogn’altro moderno nobilitò il pennello.
+                    Erano in lui modi gravi, &amp; accorti, e fù egli saggio quanto ciascuno del
+                    suo tempo, godendo le sue doti naturali di bontà, e di prudenza affinata con
+                    l’uso de’ grandi, e nelle corti: onde non fù pittore alcuno à nostri giorni, che
+                    con maggior decoro usasse l’arte nell’estimatione. Valeva in oltre nelle
+                    lettere, e nelle scienze con molta eruditione, &amp; eloquenza, &amp;
+                    era versatissimo nell’hstorie, e nella poesia. Possedeua molte lingue, e gli
+                    erano famigliarissime la Latina, e l’Italiana, con le quali scriveva, &amp;
+                    annotava gli studii suoi della pittura. Tali virtù non solo gli concitavano la
+                    stima, e l’amore de’ suoi eguali, ma lo inalzavano alla benevolenza de’ Grandi,
+                    giudicato habile à cose gravi, &amp; importanti. Siche per consiglio del
+                    Marchese <rs type="person" ref="#spinola_ambrogio">Ambrogio Spinola</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Spinola, Ambrogio</term>
+                    </index>, fù egli eletto Ambasciadore in Inghilterra per la pace, e passato à
+                    questo effetto in Ispagna, gli fù data dal Rè la carica dell’ambasciata, che gli
+                    sortì felicemente con l’esecutione della pace. Gran sodisfattione hebbe il Rè
+                        <rs type="person" ref="#charles_i_england">Carlo</rs><index indexName="psw">
+                        <term type="PND" xml:lang="eng">Charles (England, King, I.)</term>
+                    </index> della venuta del Rubens, e come egli era studiosissimo della pittura,
+                    lo raccolse, e lo trattò con insolito honore in <rs type="place" ref="#london"
+                        >Londra</rs>, dove anche si trattenne à dipingere, e fece <rs type="work"
+                        ref="#banqueting_house">nove quadri per la sala d’udienza de gli
+                        Ambasciadori</rs><index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">London</term>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="eng">Banqueting Hall</term>
+                        </index>
+                    </index>, riportati nell’intauolato della soffitta, con li fatti del Rè <rs
+                        type="person" ref="#james_i_england">Giacomo</rs><index indexName="psw">
+                        <term type="PND" xml:lang="eng">James (England, King, I.)</term>
+                    </index>, quando entrò in <rs type="place" ref="#england">Inghilterra</rs>
+                    vittorioso dal suo regno di <rs type="place" ref="#schottland">Scotia</rs>.
+                    Prima ch’egli facesse partenza dalla Corte, il Rè volle honorarlo, e rimunerarlo
+                    straordinariamente, e lo creò suo Cavaliere.<note resp="A.H." type="footnote"
+                        >vgl. das <ref type="rubens" cRef="ed_rubens_205">Ritterdiplom Charles' I.
+                            für Peter Paul Rubens</ref> vom <date when="1630-12-15">15. Dezember
+                            1630</date>.</note> Onde nel Parlamento toltasi la spada dal fianco, la
+                    porse à lui, e frà li doni gli diede un diamante, che il <pb n="245"/>Rè ancora
+                    si levò di dito, aggiuntovi un cintiglio di altri diamanti al valore di dieci
+                    mila scudi. Ritornato dopo in Ispagna con sodisfattione della Corte, il Rè lo
+                    fece gentilhuomo della sua camera, con l’honore della chiave d’oro, &amp;
+                    hauendo fatto li ritratti del Rè, e della Regina, rimunerato regiamente riportò
+                    in Fiandra molte ricchezze, con le quali viveva splendidamente honorato, e da
+                    gli Arciduchi, e dal Cardinale Infante. L’Arciduchessa Isabella Eugenia lo fece
+                    ancora suo gentil huomo, come egli s’intitolava ne gli atti publici, nobile
+                    domestico della Serenissima Infante. Haveva egli adunato marmi, e statue, che
+                    portò, e fece condursi di Roma con ogni sorte di antichità, medaglie, camei,
+                    intagli, gemme, e metalli; e fabbricò nella sua casa in Anversa una stanza
+                    rotonda con un solo occhio in cima à similitudine della Rotonda di Roma per la
+                    perfettione del lume uguale, &amp; in questa collocò il suo pretioso museo,
+                    con altre diverse curiosità peregrine. Raccolse ancora molti libri, &amp;
+                    adornò le camere parte di quadri suoi originali, e parte di copie di sua mano
+                    fatte in Venetia, &amp; in Madrid da Titiano<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Tizian</term>
+                    </index>, da Paolo Veronese<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Veronese, Paolo</term>
+                    </index>, e da altri pittori eccellenti. Era perciò egli visitato, e da gli
+                    huomini di lettere, &amp; eruditi, e da gli amatori della pittura; non
+                    passando forestiere alcuno in Anversa che non vedesse il suo Gabinetto, e molto
+                    più lui, che l’animaua colmo di virtù, e di fama. Con la quale occasione fece i
+                    ritratti di molti Principi, e personaggi: Visitato da <rs type="person"
+                        ref="#sigismund_iii_polen">Sigismondo Principe</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Sigismund Wasa (Polen, König, III.)</term>
+                    </index> di <rs type="place" ref="#polen">Polonia</rs>, che andò à vedere
+                    l’assedio di <rs type="place" ref="#breda">Bredà</rs>, lo ritrasse al naturale.
+                    Presa Bredà l’Infanta Isabella col Marchese Spinola tornando à Bruselles, nel
+                    passare per Anversa, si trasferirono a casa sua per la curiosità delle sue
+                    opere, e Museo, &amp; egli fece i loro ritratti, nelli quali riusciva
+                    vivamente, e con forza naturale. Con l’occasione ch’egli poi andò in
+                    Inghilterra, come habbiamo raccontato, vendè tutto il suo studio al <rs
+                        type="person" ref="#buckingham_herzog_villiers">Duca di Buchingan</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="eng">Buckingham, George Villiers of
+                        (1592-1628)</term>
+                    </index> cento mila fiorini, e per non attristarsi nella perdita di quelle cose,
+                    che gli erano carissime, formò le statue di gesso, e le ripose ne’ luoghi de gli
+                    originali, e rifece altre pitture per ornamento.<lb/>
+                    <pb n="246"/>Così viveva Pietro Paolo Rubens per l’honorato suo merito, e per li
+                    suoi nobili, e sinceri costumi, con somma veneratione di se stesso, e dell’arte;
+                    era egli travagliato dalle gotte, e spesso veniva impedito à dipingere, finche
+                    pervenuto all’età di 63. anni quasi compiti, venne meno con dolore di tutti, il
+                    giorno <date when="1640-05-30">30. di Maggio 1640</date><note resp="A.H."
+                        type="footnote">vgl. <ref type="rubens" cRef="ed_rubens_247">Rubens'
+                        Epitaph</ref> in der St. Jacobskerk, Antwerpen.</note>. Et essendo egli
+                    vissuto felicemente, fù felicissimo nel salire al cielo, come si può credere,
+                    per la sua religiosa pietà, havendo lasciato dopò di se un meritissimo figliuolo
+                        <rs type="person" ref="#rubens_albert">Alberto Rubens</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Albert</term>
+                    </index> eruditissimo nelle lettere greche, e latine, ed ottimamente indirizzato
+                    dal padre, si avanzò appresso il Rè Cattolico, alla carica di Segretario di
+                    stato in Fiandra. Fù sepolto Pietro Paolo nella Chiesa di San Giacomo avanti
+                    l’altare, dove è il quadro da esso dipinto, San Bonaventura ginocchione in
+                    habito da Cardinale, che bacia la mano à Giesù Bambino in seno la Madre, egli
+                    presenta il calice. Dietro vi è Santa Margherita, e San Giorgio armato con la
+                    bandiera, &amp; à piedi la Madonna, San Girolamo ginocchione, in aria
+                    Angioletti con palme, e corone. Leggesi nel medesimo luogo l’inscrittione sù ’l
+                    marmo sepolcrale di Alberto sepolto insieme col padre Pietro Paolo, giacendo
+                    insieme nel medesimo monumento; e li seguenti versi appendiamo per riverire la
+                    sua memoria.<lb/>
+                </p>
+                <p>Ipsa suos Iris, dedit ipsa Aurora colores,<lb/> Nox umbras, Titan lumina clara
+                    tibi;<lb/> Das tu Rubenius vitam, mentemque figuris,<lb/> Et per te vivit lumen,
+                    &amp; umbra, color.<lb/> Quid te Rubeni nigro mors funere voluit:<lb/>
+                    Viuis, vita tuo picta colore rubet.<lb/></p>
+                <p> Fù egli di statura grande, ben formato, e di bel colore, e temperamento; Era
+                    maestoso insieme &amp; humano, e nobile di maniere, e d’habiti, solito
+                    portare collana d’oro al collo, e cavalcare per la Città, come gli altri
+                    Cavalieri, e persone di titolo, e con questo decoro il Rubens manteneva in
+                    Fiandra il nobilissimo nome di Pittore.<lb/>
+                    <pb n="247"/> Restaci à dire alcuna cosa delli modi suoi tenuti nell’arte; non
+                    era egli semplice pratico, ma erudito, essendosi veduto un libro di sua
+                        mano<note resp="A.H." type="footnote">vgl. <bibl>Arnout Balis: Rubens und
+                            Inventio. Der Beitrag seines theoretischen Studienbuches. In: Ulrich
+                            Heinen, Andreas Thielemann (Hrsg.): Rubens Passioni. Kultur der
+                            Leidenschaften im Barock. Göttingen 2001. S. 11-40<ptr type="opac"
+                                cRef="322305152"/></bibl></note>, in cui si contengono osservationi
+                    di ottica, simmetria, proportioni, anatomia, architettura, &amp; una ricerca
+                    de’ principali affetti, ed attioni cavati da descrittioni di Poeti, con le
+                    dimostrationi de’ pittori. Vi sono battaglie, naufragi, giuochi, amori,
+                    &amp; altre passioni &amp; avuenimenti, trascritti alcuni versi di <rs
+                        type="person" ref="#vergil">Virgilio</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Vergil</term>
+                    </index>, e d’altri, con rincontri principalmente di <rs type="person"
+                        ref="#raffael">Rafaelle</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Raffael</term>
+                    </index>, e dell’antico. Circa il colore, hebbe il Rubens una stupenda libertà,
+                    egli studiò in Venetia, e mirò sempre à Titiano, Paolo Veronese, e <rs
+                        type="person" ref="#tintoretto">Tintoretto</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Tizian</term>
+                    </index><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Veronese, Paolo</term>
+                    </index><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Tintoretto</term>
+                    </index> con le osservationi del chiaroscuro, e delle masse delle tinte. Colorì
+                    dal naturale<index indexName="stw">
+                        <term xml:lang="ita">Colore</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="ita">Vivacità</term>
+                    </index>, e fù vehemente nelle mistioni, radiando il lume con la contrarietà de’
+                    corpi ombrosi, siche fù mirabile nelle oppositioni dell’ombre, e de’ lumi. Si
+                    mantenne si unito, e risoluto che sembrano la sue figure eseguite in un corso di
+                    pennello, &amp; inspirate in un fiato, come si riconosce nella Galeria di
+                    Lucemburgo, che è tutta harmoniosa, e ritiene gli effetti più stupendi del
+                    colore, &amp; è il più bello, e ’l più glorioso parto del suo pennello.
+                    Hebbe egli natural dono, spirito vivo, ingegno universale, nobile, e coltivato
+                    nella letteratura di buoni autori d’historia, e di poesia, ond’era capace
+                    d’inuentioni, e sapeva spiegare i soggetti con le parti più proprie, e più
+                    opportune; era efficace all’attione, &amp; in esse esprimeva, &amp;
+                    animaua li moti, e gli affetti. Oltre le cose da esso disegnate, e copiate in
+                    Italia, &amp; in altri luoghi, &amp; oltre il gran numero delle stampe
+                    raccolte d’ogni sorte, tenne prouisionati alcuni giovini in Roma, &amp; in
+                    Venetia, e <rs type="place" ref="#lombardei">Lombardia</rs>, perche gli
+                    disegnassero quanto si trova di eccellente. Nel comporre poi se ne seruiva di
+                    motiuo, e ne arricchiva li suoi componimenti, &amp; in vero che alla copia
+                    dell’inventioni, e dell’ingegno, aggiunta la gran prontezza, e la furia del
+                    pennello, si stese la mano del Rubens, à tanto gran numero d’opere, che ne sono
+                    piene le Chiese, &amp; i luoghi di Fiandra, e d’altre parti ancora; e molte
+                    di esse grandi, e copiose se ne veggono publicate alla Stampa. Si può opporre
+                    nondimeno al Rubens di haver mancato <pb n="248"/>alle belle forme naturali, per
+                    la mancanza del buon disegno, per la quale, e per un certo suo genio, che non
+                    patiua riforma, veniva egli rimosso dalla venustà dell’aria delle teste, e dalla
+                    gratia de’ contorni, che egli alterava con la sua maniera. Accommodò le sue
+                    figure ad una idea di volti, e di barbe senza varietà, e non dissimili frà loro,
+                    e più tosto vulgari. Nel vestire, ò se fingeva armati, ò habiti anche di
+                    personaggi antichi, li accommodava all’uso moderno, e per lo più copriva
+                    l’ignudo con un semplice panno non corretto dall’arte. Con la libertà del
+                        colorito<index indexName="stw">
+                        <term xml:lang="ita">Colore</term>
+                    </index> spesse volte si dimostrò troppo pratico, nè si riteneva alle parti
+                    emendate della natura; e benche egli stimasse sommamente Rafaelle, è l’antico,
+                    non però imitò mai l’uno, ò l’altro in parte alcuna; e se havesse voluto
+                    seguitare i lineamenti delle statue di Apolline, di Venere, ò del Gladiatore, li
+                    alteraua tanto con la sua maniera, che non lasciava di esse forma, ò vestigio
+                    per riconoscerle. Riportò egli in Fiandra il buon colorito Venetiano; in cui
+                    fondò la sua fama; ancorche in Anversa lo precedessero di poco nell’età, <rs
+                        type="person" ref="#pourbus_frans">Francesco Purbus</rs><index
+                        indexName="psw">
+                        <term xml:lang="deu">Pourbus, Frans</term>
+                    </index> chiaro ne’ ritratti,<lb/> &amp; <rs type="person"
+                        ref="#mor_anthonis">Antonio Moro</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Mor, Anthonis</term>
+                    </index>, l’uno, e l’altro pittori eccellenti. Molti si accostarono alla sua
+                    maniera in Fiandra; ma trà suoi scolari più chiaro d’ogn’altro divenne <rs
+                        type="person" ref="#dyck_anthonis_van">Antonio Van Dyck</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Dyck, Anthonis van</term>
+                    </index> di cui hora siamo per iscrivere.<lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

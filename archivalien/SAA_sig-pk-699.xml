@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_010">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Philipp und Peter Paul Rubens treten als Vormund für die Interessen der
+                    Kinder ihrer verstorbenen Schwester Blandina ein</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-699">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Rekwestboek 1610-1611</collection>
+                        <idno type="signatur">Pk. 699, fol. 94v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Philipp und Peter Paul Rubens treten als Vormund für die
+                            Interessen der Kinder ihrer verstorbenen Schwester Blandina
+                            ein</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <p>
+                                <origDate when="1610-08-26">26. August 1610</origDate>
+                            </p>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Vormundschaft</term>
+                    <term xml:lang="deu">Familie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Verthoonen M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_philipp">Philips</rs> en <rs type="person"
+                        ref="#rubens_peter_paul">Peeter Pauwels Rubens</rs> gebrueders hoe dat hun
+                    de kinderen van haer suster wijlen<note resp="A.H." type="footnote">Blandina
+                        Rubens war 1606 verstorben.</note> onverdeylt ende tesamenderhandt syn
+                    competerende twee ledighe erven tot <rs type="place" ref="#borgerhout"
+                        >Borgerhoudt</rs> daer twee huysen voortyts op gestaen hebben genaempt deene
+                    den Beerendans en dander Tmoriaenshooft. Ende alsoo hun nyet gelegen en is
+                    deselve erve te betimmeren noch oock geraden die ledich te laten liggen sonder
+                    eenich proffyt daer van te trecken Soo ist dat de requestranten bidden dat Uwer
+                    E. gelieve hun als testamtelycke momboiren van de voorseyde kinderen toe te
+                    laten ende consenterende voorseyde ledighe erven (voor den derdendeel den
+                    voorseyden kinderen toecommende) te moghen vercoopen tsy vuyter handt sonder
+                    openbare vuytroepenighe oft anderssints soo best gelegen bequaemp ende mittelycx
+                    by de remonstranten bevonden zal worden,</p> 
+                    <closer>
+                        <salute>dwelck doende etc.</salute>
+                    </closer><lb/>
+            </div>
+                
+                    <div xml:lang="nld">
+                    <p>By myne Heeren Borgemeester ende Schepenen gecommitteert M<hi rend="super">r</hi>
+                    <rs type="person" ref="#soy_franchoise">Franchois De Schot</rs> Schepene om hem
+                    op de gelegentheyt deser saecke te informeren ende desselffd rapport gehoort
+                    voorts geordenneert te worden naerbehort</p>
+                        <closer>
+                            <dateline> Actum <date when="1610-08-26">XXVI Augusty 1610</date>
+                            </dateline> 
+                        <signed>a <rs type="person" ref="#dyck">Dyck</rs>.
+                        </signed>
+                        </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

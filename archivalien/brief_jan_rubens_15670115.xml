@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_309">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Schreiben von Jan Rubens
+                    an Jan Gillis bezüglich der Anfrage des
+                    Herzogs Alba vom 14. Dezember 1567</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:id="brief_jan_rubens_15670115" xml:lang="deu">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Brief des Jan Rubens vom 15. Januar 1567</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Schreiben von Jan Rubens
+                            an Jan Gillis bezüglich der Anfrage des
+                            <rs type="person" ref="#alba_herzog_iii">Herzogs Alba</rs> vom <date when="1567-01-14">14. Dezember 1567</date></title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation><note resp="A.H." type="footnote">Vgl. den Brief mit der Anfrage des Herzogs Alba vom <ref type="rubens" cRef="ed_rubens_308">14. Dezember 1567</ref>.</note></filiation>
+                        </msItem>
+                    </msContents>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1567-01-15">15. Januar 1567</origDate>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 126-128<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Jan</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <salute>Mon cousin,</salute>
+                <p>Ick gebiede mij aen uwe goede gracie. Ick hadde wel gemeynt dat ik Uwe Eer., voer
+                    u vertreck soude hebben gesproken, ende gecommuniceert mijne saken, maer ghij
+                    hebt mij verrascht. </p>
+                <p>Ick hebbe daeraf met mijnen Heere <rs type="person" ref="#oudaert_nikolaas"
+                        >OUDAERT</rs> gesproken, maer hij heeft mij geantwoert dat den Raet van <rs
+                        type="place" ref="#brabant">Brabant</rs> van dese saken geene kennisse en
+                    heeft, noch oock dat hy daerinne adviseren sal, presenterende nietemin, soo
+                    verre ick ijet wilde in geschrifte overgeven, bij maniere van particuliere
+                    justificatie, dat hij dat, neffens de gemeyne generde, aenden Hertoghe
+                    overseynden soude, hoe wel dat hem dochte dat tselve beter gelaten ware, dwelck
+                    mij namaels oock wel soo goet dunckt, maer soude wel begheeren u advis te wetene
+                    oft quaet ware dat ick ennighe vande Commissarissen, neffens Sijne Excellentie,
+                    gecommitteert totter kennisse van dese saken, informeerde, als <rs type="person"
+                        ref="#rio_ludovico">del RIO</rs>, dije ik verstaen dat onse stucken in
+                    handen heeft. Ick en hebbe geene kennisse noch addres aen Sijne Eer. lek bidde
+                    dat ghij mijnen Heere uwen oom daeraf spreken wilt ende Sijn Eer. communiceren
+                    het geschrifte dwelck ick gestelt hadde om OUDAERT te geven, ende is den teneure
+                    van tgene ick DEL RIO soude verthoonen ende in effecte solutie op tgene dat tot
+                    mijnen laste soude gedeponeert sijn. </p>
+                <p>Mij dunckt, dat mijnen Heere u oom geen swaricheyt en behoort te maken mij
+                    daerinne te raden ende assisteren, want dije vanden Rade van Brabant geene
+                    kennisse en hebben van dese saken. Zoo verre Uwe Eerw. duncke dat ick behoore
+                    daer te comen, wilt mij dat terstont laten weten, ten ware dat beter ware dat
+                    tselve bij eenen anderen gedaen werde, dije credit ende gehoor neffens DEL RIO
+                    hadde, ende hem dinhouden vanden voers. gescrifte van mijnen weghen verthoonde,
+                    maer ick en ken nijmant dije daer propijs soude sijn; ick bidde u, wilt mij aen
+                    ijmanden addresseren. Ick en vermane niet van tgene dat <rs type="person"
+                        ref="#helleweghen">HELLEWEGHEN</rs> geseet heeft, dat ick, ommegaende,
+                    tegens hem (alsoo hij hem beclaechde dat hij sien moeste, tgene hij niet
+                    beletten en mochte), soude geseet hebben: houdt u stille; want dat woert niet en
+                    infereert, dan dat hij hem stillen soude, alsoo hij was luyde tierende teghens
+                    sijne geburen, gelijck hy furieux is; oock verstane ick dat hijt tot geenen
+                    anderen eynde soude geseet hebben, oft van mij verstaen, hoe wel ick niet en
+                    wete dat ick sulcx soude geseet hebben, op mijne salicheyt. Men soude moghen
+                    qualick nemen dat ick, van punte tot punte, wiste te zegghen alle tgene dat
+                    teghens mij gedeponeert is. Ick hebbe bij mij dattestatie vanden Prochiaen
+                    nopende de disputatie tot <rs type="person" ref="#perez_marcus">M. PERES</rs>.
+                    Soo verre ghij ijmant wist die mijne saken soude bij DEL RIO kunnen oft willen
+                    besteken, ick soude seer aen hem verobligeert sijn. Ingevalle dat van noode is
+                    dat ick dat selve doen, ick sal daer comen, biddende dat ghij mij daerinne raden
+                    wilt, gelijck ick u betrouwe. Godt de Heere sal u ende uwe kinderen loonen ende
+                    ick altijt arbeyden om te verdienen. Ghebiedt my sunderlinghe aen mijnen Heere
+                    uwen oom. <note type='contemporary' place="in-margin">Wilt dit gescrifte, hierinne gesloten,
+                        bewaren, want icker geene copie af en hebbe</note></p>
+                <closer>Gescreven <dateline><date when="1567-01-11">XI Januarij
+                        1567</date></dateline><lb/><salute>Alle uwen </salute><signed><rs
+                            type="person" ref="#rubens_jan">J. RUEBENS</rs></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

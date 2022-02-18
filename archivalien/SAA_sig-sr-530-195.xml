@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_143">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jan van Houssem verkauft Peter Paul Rubens eine Erbrente über 60 Gulden, die
+                    auf den Namen von Elisabeth Senellinx und Jan Bazeliers lautet</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-530-195">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1618/ III: Lafaille, Roose &amp; Kimpe</collection>
+                        <idno type="signatur">SR 530, fol. 195r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jan van Houssem verkauft Peter Paul Rubens eine Erbrente über 60
+                            Gulden, die auf den Namen von Elisabeth Senellinx und Jan Bazeliers
+                            lautet</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1618-09-07">7. September 1618</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#houssem_jan">Jan van Houssem</rs>, 
+                    <rs type="person"
+                        ref="#houssem_henrik">Henrixssone</rs> wijlen, daer moeder aff Jou<hi
+                        rend="super">ffr</hi>
+                    <rs type="person" ref="#bazeliers_catharina">Catharina Bazeliers</rs>, vercocht
+                    omme een somme gelts aen S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs> schilder
+                    van heure doorlichtichste hoocheden, de tsestich gulden erffelijck metten
+                    achterstelle daeraff verschenen zedert den <date when="1603-08-31">lesten
+                        dach Augusti anno XVI<hi rend="super">c</hi> ende drij</date> herwaerders die
+                        <rs type="person" ref="#snellinx_elisabeth">Elisabeth Snellinx</rs>
+                    <rs type="person" ref="#snellinx_joos">Joos</rs> dochter met <rs type="person"
+                        ref="#bazeliers_jan">Janne Bazeliers</rs> Willemssone, heuren wettigen man
+                    ende momboir opten <date when="1565-10-10">10<hi rend="super">den</hi> dach
+                        Octobris anno XV<hi rend="super">c</hi> ende vijventzestich</date> vercocht
+                    heeft den voors. <rs type="person" ref="#bazeliers_willem">Willem Bazeliers</rs>
+                    ende die de voors. Elisabeth opten <date when="1562-02-28">lesten February
+                        anno XV<hi rend="super">c</hi> ende tweentzestich</date> gecoht heeft op de
+                    dry staten ’slants van Brabant ende daertoe bij handen van de rentmeestere der
+                    selver staten in ’t quartier deser stadt betaelt worden halft den <date
+                        when="--08-31">lesten Augusty</date>, halft den <date when="--02-28">lesten
+                        February</date> prout de chartre ende brieve daeraft zijnde quas tradidit
+                    gelijck ende in alle der maneiren hem comparant de voors. rente toecommen bleven
+                    ende verstorven is van de voors. wijlen Jou<hi rend="super">ffr</hi> Catharina
+                    Baseliers zijne moeder ende in scheydinge ende deylinge voor Schepenen alhier
+                    gepasseert op ten <date when="1615-12-12">12<hi rend="super">de</hi> Decembris
+                        anno XVI<hi rend="super">c</hi> vijfthien</date> tegen zijne broeders ende
+                    zusters (onder andere te bevallen) ende der welcker zijne moeder de selve rente
+                    te voren in scheydinge ende deylinge oock voor Schepenen alhier gepasseert opten
+                        <date when="1608-09-13">13<hi rend="super">den</hi> dach Septembris anno
+                            XVI<hi rend="super">c</hi> acht</date> te deele bevallen was volgende de
+                    bescheden daeraff zijn. droegh op etc. te waerne etc.</p>
+                <closer>
+                    <dateline><date when="1618-09-07">Septima Septembris 1618</date></dateline>
+                </closer>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

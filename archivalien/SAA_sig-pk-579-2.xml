@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_220">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Beschluß des
+                    Schöffenkollegiums zu einer Anfrage von Peter Paul Rubens bezüglich einer seit 1597 bestehenden Belastung
+                    des Grundes am Wapper</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> 
+                &register-corporate; 
+                &register-person; 
+                &register-place;
+                &register-work; 
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-579-2">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Collegiale actenboeken, 1633-1635</collection>
+                        <idno type="signatur">Pk. 579, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Beschluß des
+                            Schöffenkollegiums zu einer Anfrage von Peter Paul Rubens bezüglich einer seit 1597 bestehenden Belastung
+                            des Grundes am Wapper</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Der Text wurde durch Pierre Génard publiziert.
+                                Vgl. <bibl xml:id="genard_1896">Pierre Génard: Het laatste Testament van P. P.
+                                    Rubens, in: Rubens-Bulletijn - Bulletin-Rubens. Bd. 4, 1896, S. 125f.</bibl></note>
+                        
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zu diesem Beschluss das Dokument vom
+                                    <ref type="rubens" cRef="ed_rubens_219">27. Februar 1635</ref>. Zu Rubens'
+                                    Erwerbungen von Grund und Immobilien am Wapper sowie den Transaktionen dazu Vgl.
+                                    auch die Akten vom <ref type="rubens" cRef="ed_rubens_012">1. November
+                                        1610</ref>, <ref type="rubens" cRef="ed_rubens_013">4. Januar 1611</ref>, <ref
+                                            type="rubens" cRef="ed_rubens_114">30. Mai 1613</ref>, <ref type="rubens"
+                                                cRef="ed_rubens_181">28. Juli 1627</ref> und <ref type="rubens"
+                                                    cRef="ed_rubens_184">16. Juni 1628</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1635-03-07">7. März 1635</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung: Antwerpen,
+                            Gerechtsgebouw, 15.-30. Oktober 1977, S. 256, Nr. 252</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Op de rerequeste van Joncheer <rs type="person" ref="#rubens_peter_paul">Pedro
+                        Paulo Rubens</rs>, secretaris van syne majesteit, hebben mijne heeren
+                    borgermeester ende schepenen gehoort tresoriers ende rentmeester den supplianten
+                    geaccordert de twee chynsen in de requeste vermelt te moghen laten corten aen
+                    eene verloopen van de rente die hy op dese stadt heffende.</p> 
+                <closer><dateline>Actum <date when="1635-03-07">7<hi rend="super">a</hi> Martij 1635</date></dateline>
+                    <signed> P.</signed>
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

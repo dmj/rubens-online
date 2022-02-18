@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_139">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacques Speelberch und Lucia Goyvaert verkaufen Peter Paul Rubens eine
+                    jährliche Rente auf ein Haus namens de Sterre in der Antwerpener Jodenstraat.
+                    Dieses Haus ist mit Verpflichtungen gegen die Liebfrauenbrüder belastet und mit
+                    regelmäßigen Zahlungen an Janne de Keescoopere und die Witwe Vanden
+                Berch</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-530">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1618/ III: Lafaille, Roose &amp; Kimpe</collection>
+                        <idno type="signatur">SR 530, fol. 21v-22r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jacques Speelberch und Lucia Goyvaert verkaufen Peter Paul Rubens
+                            eine jährliche Rente auf ein Haus namens de Sterre in der
+                            Antwerpener Jodenstraat. Dieses Haus ist mit Verpflichtungen gegen
+                            die Liebfrauenbrüder belastet und mit regelmäßigen Zahlungen an
+                            Janne de Keescoopere und die Witwe Vanden Berch</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           
+                            <filiation>
+                                <note resp="A.H." type="footnote">Rubens kaufte später das Haus De Sterre und
+                                    verpflichtete sich, die darauf liegenden Renten zu übernehmen. Vgl. hierzu das
+                                    Dokument vom <ref type="rubens" cRef="ed_rubens_162">14. Mai 1622</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1618-02-27">27. Februar 1618</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Rente</term>
+                    <term xml:lang="deu">Immobilien</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#speelberch_jacques">Jacques Speelberch</rs>,
+                    diamantsnijder ende J<hi rend="super">v</hi>
+                    <rs type="person" ref="#coyvaert_lucia">Lucia Coyvaert</rs> <span from="" xml:lang="lat">eus uxor</span>, bekenden
+                    dat zij omme ende midts de somme van tweeduysent sevenhondert gulden eens, die
+                    hen al ende wel is vergouden, vercocht hebben wel ende wettlijck S<hi rend="super"
+                        >r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs>, schilder
+                    van hunne doorluchtichste Hoochheden<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog, VII.)</term>
+                    </index><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
+                    </index> tsiaers erff<hi rend="super">el</hi>, eenhondert vijftich guldenen van
+                    twintich stuvers de drij grooten Brabants tstuck, goets ganckbaers ende
+                    gepermutierts gelts ten dage van elcken betalinge jaerlijcker ende erffelijcker
+                    renten op een huys genemt De Sterre<index indexName="stw">
+                        <term xml:lang="nld">de Sterre</term>
+                    </index>, van de twee huysen oostwaerts gestaen metten plaetzen, halven
+                    borneputte, geheelen regenbacke, hove, gronden ende allen den toebehoorten,
+                    gestaen ende gelegen in der Vaertstraat alhier<index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    </index> anders geheeten de Jodenstrate tusschen M<hi rend="super">r</hi>
+                    <rs type="person" ref="#lange_philip">Philips Lange</rs> huys, <span from="" xml:lang="lat">ex una</span>,
+                    westwaerts ende <rs type="person" ref="#hutsvels_jeronymus">Jeronymi
+                    Hutsvels</rs> huys aen dander zijde oostwarts, commende achter zuytwaerts aen
+                    den voors. M<hi rend="super">r</hi> Philips andere erve van zijnen huyse in de
+                    Schuttershoffstrate, gestaen gelijck ende in alle der manieren de voors. Jacques
+                    Speelberch ’tvoors. huys, <span from="" xml:lang="lat">cum fundis et pertinentis etc. predictis</span> opten
+                    naestesten dach <date when="1607-10">Octobris anno XVI<hi rend="super">c</hi> ende
+                        seve</date>n tegens <rs type="person" ref="#loomans_jacques">Jacques
+                    Loomans</rs> oudecleercooper Jacquessone gecregen ende terve genomen heeft prout
+                    litt. daeraff zijn; <span from="" xml:lang="lat">et alterius super se et sua querinimum dandum</span>, alle jare den
+                        <date when="--02-26">26 February</date>, daeraff de ierste jaerrente vallen
+                    ende verschijnen sal den <date when="1619-02-26">26 dach February anno 16<hi
+                            rend="super">c</hi> negenthien</date>, te waere op nyet daer jaerl. voren
+                    utgaende anders dan dat ’verschreven huys meepant is ende blijft, eerst over
+                    seven ponden drij penningen B<hi rend="super">ra</hi> erf<hi rend="super">el</hi>
+                    den <rs type="corporate" ref="#kloster_liebfrauenbrueder_antwerpen">cloostere
+                        van de Vrouwen Broederen</rs> alhier, met twee brieven, item over thien
+                    ponden B<hi rend="super">ra</hi> erf<hi rend="super">el</hi>
+                    <rs type="person" ref="#keescoopere_jan">Janne de Keescoopere</rs> ende over
+                    sesse ponden B<hi rend="super">ra</hi> erf<hi rend="super">el</hi> de weduwe <rs
+                        type="person" ref="#berch_jacob">Jacobs op den Berch</rs>, welcken commer
+                    ende meepandtschapen den voors. M<hi rend="super">r</hi> Philips de Lange geloeft
+                    heeft te betalen utten west ende noortwartsch huyse, prout litt. daraff zijnde
+                    ende anders nyet, behoudelijck dat hij oft henne nacomelingen de voors
+                    eenhondert vijftich gulden erffelijck aft selen mogen lossen ende quyten theuer
+                    goeder moeytten, teenemale elcken pe<hi rend="super">nn</hi> daeraff altijt met
+                    achtien pe<hi rend="super">nn</hi> goet gancbaers ende gepermitteerts gelts ten
+                    dage van de affquytingen ende met verschenen renten</p>
+                <closer>
+                    <dateline><date when="1618-02-27">Vigesima septima Februar 1618</date> soluit</dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

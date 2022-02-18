@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_091">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brabantisierung von Philipp Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brabantisierung_philipp_rubens_16061115">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Urkunde über die Brabantisierung von Philipp Rubens vom 15. November 1606</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Brabantisierung von Philipp Rubens</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="A.H." type="footnote">Aufgrund seiner Geburt in Köln war es für Philipp
+                                Rubens schwierig, in Brabant ein Amt zu bekleiden. Aus diesem Grund strebte er
+                                die Brabantisierung an. Vgl. <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen
+                                    over den grooten meester en zijne bloedverwanten. Antwerpen 1877, S.
+                                    367f.<ptr type="gbv" cRef="146162595"/></bibl></note>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Zu Philipp Rubens' Brabantisierung vergleiche auch das
+                                    Dokument vom <ref type="rubens" cRef="ed_rubens_094">28. April 1607</ref>; zur
+                                    Naturalisierung von Philipp Rubens vergleiche die Urkunde vom <ref type="rubens"
+                                        cRef="ed_rubens_097">19. Januar 1609</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1606-11-15">15. November 1606</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich 1877 im Besitz des Barons van Havre.</p>
+                            <p>Ihr heutiger Verbleib ist unbekannt.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 368-370<ptr type="gbv" cRef="146162595"/></bibl>
+                    </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Philipp Rubens</term>
+                    <term xml:lang="deu">Brabantisierung</term>
+                    <term xml:lang="deu">Brabant</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <head>Akte van Brabantisatie.</head> 
+                <p>Alzoe M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_philipp"><hi rend="smallCaps">Philips</hi>
+                        RUBENIUS</rs> mijne Heeren Prelaeten, Edelen ende Gedeputeerde vande vier
+                    hooftsteden, representerende de drije Staeten des Landts ende Hertochdoms van
+                        <rs type="place" ref="#brabant">Brabant</rs>, bij zekere zijne supplicatie
+                    verthoont ende te kennen gegeven hadde, hoe dat zijnen vader Meester <rs
+                        type="person" ref="#rubens_jan"><hi rend="smallCaps">Jan</hi> RUBENS</rs>
+                    waere geweest een geboren Brabanter ende Poorter der stadt van <rs type="place"
+                        ref="#antwerpen">Antwerpen</rs>, hebbende aldaer gepasseert den besten tijdt
+                    van zijn leven ende oyck mede geweest vande Weth aldaer, dan alsoe ondertusschen
+                    waeren opgestaen de leste troublen, dairdoire vele persoonen hunne wooningen
+                    ende vaderlant hadden moeten verlaeten, zoo waere mede gebeurt dat zijnen voirs.
+                    vader hem oyck eenigen tijdt hadde gehouden tot <rs type="place" ref="#koeln"
+                        >Ceulen</rs>, alwaer hij alnoch eenige kinderen bij zijne huysvrouwe hadde
+                    vercregen ende naementlijck den verthoondere met intentie nochtans, om daeromme
+                    het landt van Brabant nyet te verlaeten, hebbende oversulcx soo lange hij hadde
+                    geleeft ende naer zijn doet zijne huysvrouw, deselve kinderen, als zij
+                    eenichssints beguaem waeren geweest, herwarts over geschickt ende naer de
+                    reconsiliatie vanden steden van Antwerpen ende <rs type="place" ref="#bruessel"
+                        >Brussele</rs>, waere des suppliants moeder metter geheele woenstede binnen
+                    Antwerpen voirs. wedergekeert, alwaer deselve supliant geheel jonck wesende zijn
+                    ierste studien hadde begonst ende daernae tot <rs type="place" ref="#loewen"
+                        >Loven</rs> onder wylen Heere ende Meester <rs type="person"
+                        ref="#lipsius_justus"><hi rend="smallCaps">Justo</hi> LIPSIO</rs>, in wiens
+                    familie hij oock vier jaeren hadde gewoont; van daer waere getrocken naer <rs
+                        type="place" ref="#rom">Roomen</rs> ende zijne studien aldaer soe vervolght,
+                    dat hij <span from="" xml:lang="lat">gradum doctoratus utriusque juris</span> hadde vercregen, soe dat hij hopte,
+                    sonder jactantie gesprocken, dat hij nyet teenemael onbequaem en soude worden
+                    bevonden om Hunne Hoocheden<note resp="A.H." type="footnote">Infantin Isabella
+                        Clara Eugenia von Spanien und Portugal und Erzherzog Albrecht VII. von
+                        Österreich als Statthalter der spanischen Niederlande.</note> ende den lande
+                    in toecommende tyden eenighen dienst te moghen doen; ende hoewel hij behoirde
+                    gehouden te worden al oft hij hier in Brabant waere geboren; nyettegenstaende
+                    het casuweel inliggen van zijne voirs. moedere buytens tslants, dwelck neffens
+                    de gratie die hij doir de voirs. Heeren Staeten hopte te vercrijghen, hem nyet
+                    en behoorde de beletten oft benehmen dmiddel om tvoirs. lant van Brabant
+                    daervuyt hij gesproten waere, soe bequaemelijck te moghen dienen, gelijck hij
+                    wel den wille ende intentie hadde, Badt daeromme zeer oytmoedelijck dat
+                    denselven Staeten aenschouw nemende opt tgene voirs. waere ende dat zijnen vader
+                    ende moeder, soe van vaederlijcke als moderlijcke zijde, waeren originelijck
+                    geboren Brabanters, geliefde te verclaeren dat hij mede voer sulcx te houden
+                    waere ende behoirde te genieten alle de previlegien ende vrijdommen den
+                    ingeboren Brabanders competerende, nyettegenstaende hij te Ceulen geboren waere
+                    ende dat hij nu, soe vele des noets waere, worde genaturaliseert ende hdaervan
+                    te doen despecheren acte in behoirlijcke forme, soe ende gelijck aen andere
+                    persoonen geduerende eenigen tijdt herwaerts vuyt gelijcke redene gedaen waere,
+                    welche supplicatie int langhe ende te diversche reysen bij mijne Heeren Staeten
+                    gesien ende daerop serieuselijck geleth wesende, midtsgaders oyck op zekere
+                    bijgevueghde attestatie des voirs. heeren LIPSII, Soe hebben eyntelijck,
+                    overmidts de voirs. redenen ende andere goede consideratien hun moverende te
+                    vreden geweest ende consenteren midts desen de voirs. Staeten, soe vele hun
+                    aengaet, inden versuecke bijden dispositijffve der voirs. supplicatie gedaen
+                    ende dat oversulcx die voirs. Meester <hi rend="smallCaps">Philips</hi>
+                    RUBENIUS, nyettegenstaende zijn geboirte buyten slants, sal voirtane gehouden
+                    worden voor eenen innegeboren Brabanter ende genieten allen rechten ende
+                    previlegien denselven Brabanters toecommende. Alleth maer voor dese reyse ende
+                    sonder tselve te willen doen oft laeten trecken in consequentie voor den
+                    toecommenden tijdt ende ten respecte van andere.</p> 
+                <closer><salute>Dus gedaen ende geresolveert tot Brussele, inde vergaederinge vanden voirs. Heeren Staeten respective, opden</salute>
+                        <dateline>
+                            <date when="1606-11-15">XV<hi rend="super">en</hi> November anno 1606</date>, 
+                            <date when="1607-07-17">XVII</date>, 
+                            <date when="1607-07-18">XVIII</date> ende 
+                            <date when="1607-07-19">XXIIII Julij anno 1607</date>.
+                        </dateline><lb/> 
+                    <salute>Mij darbij zijnde</salute><lb/>
+                    <signed><rs type="person" ref="#masius_p">P. MASIUS</rs>.</signed> 
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

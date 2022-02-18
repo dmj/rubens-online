@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_279">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Balthasar Gerbier: eer ende Claght-Dicht er Eeren van den lofweerdighen Constrijcken ende Gheleerden Henricus Golnus, 1620</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate; &register-person; &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="gerbier_claghtdicht_1620">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                    </msIdentifier>
+                    <head>
+                        <title>Gedicht auf die Malerei Rubens' in Balthasar Gerbier: eer ende Claght-Dicht, 1617</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Balthasar Gerbier: eer ende Claght-Dicht</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Balthasar Gerbier: eer ende Claght-Dicht er Eeren van den lofweerdighen Constrijcken ende Gheleerden Henricus Golnus Constrijcken Schilder, Plaetsnijder, ende Meester van de Penne. Overleden tot Haerlem, den 29. December ANNO 1617. 's-Gravenhage: Aert Meurs, 1620. S. 5f.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p><pb n="4"/>Hier stelt hy <note resp="N.B." type="footnote">Coeberger</note> boven aen een <pb n="5"/>Phoebus vol van stralen, Hier is een cloecken Gheest dien ick niet can afmalen,<lb/>
+                    Hier staet een, d'eerst' van al, die vol Gongt 't voorhooft verght Aen allen die hier zijn, aen dees’ zijd van't Gheberght.<lb/>
+                    Die toont sich als een heldt, die niet en heeft te dencken<lb/>
+                    Dat cortheyt van den Tijt hem Gongt oft gheest sou crencken, Biedt hier sijn rappe handt, en beeld daer af geer cIoeck<lb/>
+                    Een Emblema vol gins, op eenen grooten doeck.<lb/>
+                    Daer swierdt sijn snel ghesicht! den borstel wil hier baren,<lb/>
+                    Niet een beeldt twee of dry, maer in een stondt veel scharen,<lb/>
+                    ’t En is het Pinceel niet, het is sijn rijpen Gheest<lb/>
+                    Die noyt gheen vorm en slaet van ander lieden leest.<lb/>
+                    Hier maelt hy af den Berch waer Apollo sijn snaren,<lb/>
+                    Laet drillen in den strijdt, daar Pan cruypt uyt sijn tiaren,<lb/>
+                    Met sijn Satyr'sche hoop daer't oordeel is ghegaen,<lb/>
+                    Wie dat van beyden heeft het alderbest ghedaen.<lb/>
+                    Hier beeld hy Constich by de neghen wijse Maeghden<lb/>
+                    Daer toe d'onheyl'ghe Rots' daer Andromeda claechden,<lb/>
+                    En duysent dinghen meer, ghehaelt uit d'Heydens boeck.<lb/>
+                    Daer naer neemt hy sijn vlucht naer 's Hemels heyl'ge wegen,<lb/>
+                    En stelt veel sinnen voor in 't heylich woord beschreven,<lb/>
+                    Zoo werd tot d'hoochste eer des overleden laff<lb/>
+                    De Passy afghemaelt, val mergh, val constich stoff.<lb/>
+                    Doch 't geen hier 't schoonst' verschijnt zijn zes geer groote stucken<lb/>
+                    Die Nijdicheyt 't hoofd bien, en Momus 't Mom afrucken,<lb/>
+                    Wett daer u Tanden op ghy broeders in de Can,<lb/>
+                    Ghy Coppen val van wißt, stom' bocken voor de Man.<lb/>
+                    Dit is het eerste deel, wear in men licht can mercken<lb/>
+                    Dat haere schars' omvaet de uytegekipste wercken,<lb/>
+                    Dien hy voort heeft ghebracht, en die hier zijn gesteldt<lb/>
+                    Op dat soo wel mijn Dicht, als Fama, daer van meldt.<lb/>
+                    Maer sacht wat, spalt, oft swart, laet dijn pinceel nu vloeyen,<lb/>
+                    't Schijnt oft droetheyt moet zijn dat op dees' grant sal groeyen, 'Cipres, Atropos cruyt: woelt hier op dese Strandt,<lb/>
+                    'k En gien den Lauwer niet hier spruyten uyt dit Landt.<lb/>
+                    Het is een teghendeel, hier wilt Charon verschijnen<lb/>
+                    Met sijn ghelapte Boot, wie sou schier connen pijnen,<lb/>
+                    Te schrijven van den hont, daer comt hy aenghestoeyet, Crom-rugghich door het nat van Acheron ghegroeyet;<lb/>
+                    Daer loopt hem 't sweet van 't lijff, daer siet den bill eens hijgen, Om sijn Ziel-slockigh schip door dese vloet te crijghen.<lb/>
+                    Versinckt vry onderweegh, naeckt hier noyt met u schuyt,<lb/>
+                    Maer smooret in de Sticx, hier is voor u gheen buyt.<lb/>
+                    Noch drijft hy dapper aen, wat haft ghy sult doch <pb n="6"/>wenden,<lb/>
+                    Want dien waer ghy naer tracht is vry van u eIlenden,<lb/>
+                    Ghevaren door de Locht, en rust, in vreed' en vreught,<lb/>
+                    De Heerlickheyt besit by 't Centrum van de Deught.<lb/>
+                    Ey siet den calen cop, hoe sIecht dat hy sal wijcken,<lb/>
+                    Hoort hOf jij trullen wil als ledich hy moet strijcken,<lb/>
+                    Sijn leden zijn ghereckt, val cronckels is sijn huyt,<lb/>
+                    't Is <rs type="person" ref="#rubens_peter_paul">Rubens</rs> cloecken Gheest die dit al beeldet uyt.<lb/>
+                    Charon gheen spiren heeft, gheen soo mismaeckte fronssen<lb/>
+                    Oft sijn handt plant het recht met een veegh of twee gonssen,<lb/>
+                    Soo dat wie sijn werck gift denckt stracks dat het alleeft,<lb/>
+                    Wat dat sijn Gheest, sijn handt, en sijn Pinceel ans gheeft.<lb/>
+                    Met recht soo heeft de Faem hem in dit stuck verkoren<lb/>
+                    Dewijl de Gongt met hem schijnet te zijn gheboren,<lb/>
+                    En dat daer niemant is die 't wesen soo uytbeelt,<lb/>
+                    Waer door ficke Figuer haer rechte rolle speelt.<lb/>
+                    Maer terwijl ick verhael, hij is my al ontvloghen,<lb/>
+                    Mijn Pell die cruypt vast voort en volght hem met de ooghen,<lb/>
+                    Hy eyndicht nu dit werck, Cnaron sijn lappen light,<lb/>
+                    Ontmoetend' op dit pas niemant die voor hem swight.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

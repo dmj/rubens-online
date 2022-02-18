@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
+    xml:lang="deu" xml:id="ed_rubens_270">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Giambattista Marino: La Galleria, 1620</title>
+                <respStmt>
+                    <resp>Übersetzung</resp>
+                    <name type="person">Ulrich Heinen</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="marino_galleria_1620">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                    </msIdentifier>
+                    <head>
+                        <title>Beschreibung zweier Gemälde von Rubens in Giambattista Marinos
+                            Galleria, 1620</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">vgl. die von Joost van den Vondel 1651 in seiner <ref type="rubens" cRef="ed_rubens_266">"Poëzy, of verscheide gedichten"</ref> veröffentlichte Übersetzung des Gedichts auf "Hero und Lander".</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Giambattista Marino: La Galleria,
+                                    1620</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Giambattista Marino: La Galeria: Distinta in pitture e sculture.
+                                Venedig: Ciotti, 1619-1620.<ptr type="gbv" cRef="242911919"/></bibl>
+                            <bibl>Giambattista Marino: La Galleria. ed. von Marzio Pieri. Padua
+                                    1979.<ptr type="opac" cRef="032420269"/></bibl>
+                               <bibl>Ulrich Heinen: Concettismo und Bilderleben bei Marino und Rubens, in: Barocke Bildkulturen: Dialog der Künste in Giovan Battista Marinos Galeria, hrsg. von Christiane Kruse und Rainer Stillers (in Druckvorbereitung)</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="PND" xml:lang="deu">Marino, Giambattista</term>
+                    <term type="SWD" xml:lang="ita">La Galeria</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text xml:id="marino_galleria_1620_ita">
+                <body>
+                    <div>
+                        <head><rs type="work" ref="#jaffe_51">Leandro morto tra le braccia delle
+                                Nereidi</rs> di <rs type="person" ref="#rubens_peter_paul">Pietro
+                                Paolo Rubens</rs>.<index indexName="stw">
+                                <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term>
+                                <index indexName="stw">
+                                    <term xml:lang="deu">Hero und Leander</term>
+                                </index>
+                            </index>
+                        </head>
+                        <p>Dove dove portate,<lb/> Ninfe del mar, nela pietà spietate,<lb/> Il
+                            feretro funesto<lb/> Del misero d'Abido,<lb/> Che l'amoroso foco, e'l
+                            vital lume<lb/> Tra le torbide spume – insieme ha spento<lb/> Del vostro
+                            crudo, e Barbaro elemento ?<lb/> Deh no ! perché di Sesto<lb/> Esporlo
+                            essangue al Lido,<lb/> E far che sia dala sua Donna scorto,<lb/> Fia
+                            maggior crudeltà c'haverlo morto.<note resp="A.H." type="footnote">vgl.
+                                    <bibl>Giambattista Marino: La Galeria: Distinta in pitture e
+                                    sculture. Venedig: Ciotti, 1619-1620. Bd. 2. S. 12.<ptr
+                                        type="gbv" cRef="242911919"/></bibl>;hier zitiert nach:
+                                    <bibl>Giambattista Marino: La Galeria. Hrsg. von Marzio Pieri
+                                    und Alessandra Ruffino (Opere di Giambattista Marino, Bd. 3),
+                                    Trient 2005. S. 21 (Favola 19).<ptr type="gbv" cRef="492158282"
+                                    /></bibl>. Zu diesem Gedicht vgl. <bibl>Gavriel Moses: Care
+                                    Gemelle d’un Parto Nate: Marino’s Picta Poesis, in: Modern
+                                    Language Notes 100 (1985). Baltimore: Johns Hopkins Press. S.
+                                    82-110. hier S. 105</bibl>; Amy Golahny: Rubens’ „Hero and
+                                Leander“ and its poetic progeny, in: Yale University Art Gallery
+                                Bulletin [1990], S. 21-38. hier S. 27-29, 32.<ptr type="gbv"
+                                    cRef="130638846"/></note></p>
+                    </div>
+                    <div>
+                        <head><rs type="work" ref="#jaffe_484">Meleagro con Atalanta</rs> di Pietro
+                            Paolo Rubens.<note resp="A.H." type="footnote">Die Zuordnung ist nicht
+                                vollständig sicher. vgl. <bibl>Michael Jaffé: Rubens - Catalogo
+                                    completo. Milano 1989. S. 239. Nr. 483, 484.<ptr type="gbv"
+                                        cRef="022373535"/></bibl></note>
+                            <index indexName="psw">
+                                <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                                <index indexName="stw">
+                                    <term xml:lang="deu">Meleager und Atalante</term>
+                                </index>
+                            </index>
+                        </head>
+                        <p> Feristi al fier Cinghiale <lb/> Il fianco a un punto, e saëttasti
+                            saettasti il core<lb/> A l'Arciera gentil con altro strale, <lb/> Felice
+                            amante, e miser cacciatore.<lb/> Felicissimo amore, <lb/> Ma caccia
+                            insieme misera e mortale,<lb/> Ond'irata la Dea, <lb/> Infurïata Altea,
+                            <lb/> Con poch'ésca in poc'hore<lb/> La tua vita spegnendo a poco a
+                            poco,<lb/> Spenser foco per foco.<note>vgl. <bibl>Giambattista Marino:
+                                    La Galeria. Hrsg. von Marzio Pieri und Alessandra Ruffino (Opere
+                                    di Giambattista Marino, Bd. 3), Trient 2005. S. 10 [Favola
+                                        14]<ptr type="gbv" cRef="492158282"/></bibl></note></p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="marino_galleria_1620_deu">
+                <body>
+                    <div>
+                        <head>Der tote Leander in den Armen der Nereïden von Peter Paul Rubens:</head>
+                        <p><lb/>Wohin, wohin bringt ihr,<lb/>Nymphen des Meeres, in Eurem Erbarmen
+                            erbarmungslos,<lb/>die unheilbringende Bahre<lb/>des Unglücklichen aus
+                            Abydos<lb/>der seine Liebesglut und sein Lebenslicht<lb/>zusammen im
+                            stürmischen Schaum<lb/>eures rauhen und grausamen Elementes ausgelöscht
+                            hat?<lb/>Oh nein! Warum am Strand von Sestos<lb/>ihn blutleer zur Schau
+                            stellen<lb/>und veranlassen, daß er von seiner Geliebten gesehen
+                            wird;<lb/>das ist größere Grausamkeit als ihn [bloß] als Toten zu
+                        haben</p>
+                    </div>
+                    <div>
+                        <head>Meleager mit Atalante von Peter Paul Rubens:</head>
+                        <p>Verletzt hast Du dem rasenden Wildschwein<lb/>die Flanke mit einem Stich,
+                            und das Herz durchbohrt<lb/>der edlen Bogenschützin mit einem anderen
+                            Pfeil.<lb/>Glücklicher Liebender und unglückseliger
+                            Jäger.<lb/>Glücklichste Liebe,<lb/>aber unglückselige und zugleich
+                            tödliche Jagd,<lb/>derentwegen die erzürnte Göttin,<lb/>die wütende
+                            Althaia,<lb/>mit wenig Zunder in wenigen Stunden<lb/>Dein Leben nach und
+                            nach auslöschte,<lb/>Feuer durch Feuer verlöschen ließ. </p>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

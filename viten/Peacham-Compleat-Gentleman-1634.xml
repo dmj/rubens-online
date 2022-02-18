@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_268">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Henry Peacham: The compleat Gentleman, 1634</title>
+                <respStmt>
+                    <resp>Übersetzung</resp>
+                    <name type="person">Nils Büttner</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="peacham_gentleman_1634">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                    </msIdentifier>
+                    <head>
+                        <title>Henry Peacham beschreibt die Sammlung des Herzogs von Buckingham in York House, die dieser von Rubens erworben hatte</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Henry Peacham: The compleat gentleman, 1634</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Henry Peacham: 	
+                                The compleat gentleman. London: Legat, 1634. S. 108, 110f<ptr type="gbv" cRef="55287888X"/></bibl>
+                            <bibl>Henry Peacham: The The compleat Gentleman 1634. hrsg. von George Stuart Gordon. Oxford 1906.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Peacham, Henry</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text xml:id="ed_rubens_268_eng">
+                <body>
+                    <div xml:lang="eng">
+                        <p><pb n="108"/>At Yorke-house<note resp="A.H." type="footnote">George
+                                Villiers, erster Herzog von Buckingham, kaufte York House in den
+                                1620er Jahren.</note>, also the Galleries and Roomes are ennobled
+                            with the possession of those Romane Heads, and Statues, which lately
+                            belonged to Sir <rs type="person" ref="#rubens_peter_paul">Peter Paul
+                                Rubens</rs> Knight, that exquisit Painter of <rs type="place"
+                                ref="#antwerpen">Antwerp</rs>. </p>
+                    </div>
+                    <div xml:lang="eng">
+                        <p><pb n="110"/>And if a Painter will meddle with History, then are old
+                            Statues to him the onely life it selfe. I call Reubens to witnesse, (the
+                            best story-painter of these times) whether his knowledge in this kind
+                            hath not been his onely making. But his Statues, before named, and his
+                            workes doe testifie it for him: yea while he is at worke, he useth to
+                            have some good historian or Poet read to him, which is rare in men of
+                            his profession, yet absolutely necessary.<gap resp="N.B."
+                                reason="cancelled"/>
+                        </p>
+                    </div>
+                    <div xml:lang="eng">
+                        <p>
+                            <pb n="111"/> And therefore I may justly conclude that the study of
+                            Statues is profitable for all ingenuous Gentlemen, who are the onely men
+                            that imploy Poets, Painters, and Architects, if they be not all these
+                            themselves. And if they bee not able to judge of their workes, they well
+                            deserve to be couzened.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="ed_rubens_268_deu">
+                <body>
+                    <div xml:lang="deu">
+                        <head>Übersetzung:</head>
+                        <p><pb n="108"/> Im York House sind auch die Galerien und Räume mit
+                            römischen Büsten und Statuen veredelt, und zwar mit jenen, die zuvor
+                            Ritter Sir Peter Paul Rubens, dem ausgezeichneten Maler aus Antwerpen,
+                            gehörten. </p>
+                    </div>
+                    <div xml:lang="deu">
+                        <p><pb n="110"/>Falls ein Künstler sich mit der Geschichte beschäftigt, so
+                            sind alte Statuen für ihn das einzige Zeugnis des lebendigen Modells.
+                            Ich rufe Rubens (den besten Geschichten-Maler dieser Zeit) als Zeugen
+                            an, ob es nicht seine Kenntnis dieser gewesen sei, die ihn zu einem
+                            erfolgreichen Mann gemacht habe. Aber seine bereits genannten Statuen
+                            und seine Werke sprechen für ihn: Wahrlich, während er arbeitet, lässt
+                            er sich von einem guten Historiker oder Dichter vorlesen, was man bei
+                            Männern seines Standes/seiner Profession nur selten antrifft und doch
+                            absolut notwendig ist. <gap resp="N.B." reason="cancelled"/>
+                        </p>
+                    </div>
+                    <div xml:lang="deu">
+                        <p><pb n="111"/> Und so darf ich gerechtfertigt folgern, dass das Studium
+                            von Statuen von Vorteil ist für alle aufrichtigen Gentlemen, die - so
+                            sie denn nicht selbst all dies sind - als einzige Dichter, Maler und
+                            Architekten beschäftigen. Und sollten sie nicht in der Lage sein, deren
+                            Werke zu beurteilen, so verdienen sie es betrogen zu werden. </p>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

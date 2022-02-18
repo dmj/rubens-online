@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_272">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scaliger hypobolimaeus</title>
+                <author>Caspar Scioppius</author>
+                <respStmt>
+                    <resp>Übersetzung</resp>
+                    <name type="person">Nils Büttner</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="scioppius_scaliger_hypobolimaeus_1607">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>Herzog August Bibliothek</repository>
+                        <idno type="signatur">A: 146.7 Hist.</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens wird in Caspar Schoppes Scaliger Hypobolimaeus erwähnt</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note type="reference">Die gesamte elektronische Ressource ist einzusehen in der<ref
+                                target="http://diglib.hab.de/drucke/146-7-hist/start.htm"
+                                > Wolfenbütteler Digitalen Bibliothek</ref><ptr type="opac" cRef="55865603X"/></note>
+                        </msItem>
+                    </msContents> <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Caspar Schoppe: Scaliger Hypobolimaeus</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Caspar Schoppe: Scaliger Hypobolimaeus. Mainz: Albinus, 1607. fol. 110r-111r. <ptr type="opac" cRef="150189192"/></bibl>
+                            <!-- VD 17 Nr: 23:235409H -->
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Scioppius, Caspar</term>
+                    <term type="psw" xml:lang="deu">Scaliger, Joseph Justus</term>
+                    <term xml:lang="lat">Scaliger Hypobolimaeus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="hypobolimaeus_110r" url="http://diglib.hab.de/drucke/146-7-hist/start.htm?image=00243" n="110r"/>
+        <graphic xml:id="hypobolimaeus_110v" url="http://diglib.hab.de/drucke/146-7-hist/start.htm?image=00244" n="110v"/>
+        <graphic xml:id="hypobolimaeus_111r" url="http://diglib.hab.de/drucke/146-7-hist/start.htm?image=00245" n="111r"/>
+    </facsimile>
+    <text>
+        <group>
+            <text xml:id="ed_rubens_272_lat">
+                <body>
+                    <div part="Y" xml:lang="lat">
+                        <p><pb facs="hypobolimaeus_110r" n="110r"/>Verumtamen meliusculè ex scrutaria illa sua provenit,
+                            &amp; nescio quid raudusculi ac summulae pecuniariae redegit, ita ut
+                            iam maiora animo agitans tamquam angustè <rs type="place" ref="#padua"
+                                >Patavii</rs> habitaret, <rs type="place" ref="#venedig"
+                            >Venetias</rs>, licet iam senior, affectarit viam. ubi in foro tabernam
+                            sub scalis S. Marci conduxit (quem locum sibi Venetiis ab Urbis
+                            Senatoribus commonstratum esse Illustrissimus &amp; Reverendissimus
+                            Cardinalis <rs type="person" ref="#peronius_kardinal">Peronius</rs> mihi
+                            confirmat) Scalas etiam in tabula pictas signi gratia in tabernae ipsius
+                            fronte suspendit. Ex eo passim<hi rend="italic"> Messer <rs type="person"
+                                ref="#bordone_benedetto">Benedetto della Scala</rs></hi> appellari
+                            caepit, quod cognomen sic postea patri tuo Iulio complacuit, ut cum in
+                            Galliam venisset, velut eiurato BURDONIS nomine,<note place="margin-right">Unde Burdonibus Scaligeri nomen.</note> <hi rend="italic"><rs type="person"
+                                ref="#scaliger_julius_caesar">Iulius Caesar della Scala</rs></hi> sive
+                            <hi rend="italic">Scaliger</hi><index indexName="psw">
+                                <term type="PND" xml:lang="deu">Scaliger, Julius Caesar</term>
+                            </index> vocari praeoptauerit. Ceterùm sicut Dionysius olim <rs
+                                type="place" ref="#sizilien">Siciliae</rs> regno depulsus, ut
+                            aliquam saltem regnandi formam adhuc retinere videretur, Iudum aperuit;
+                            ita <rs type="person" ref="#bordone_benedetto">Benedictus
+                                Burdo</rs><index indexName="psw">
+                                <term type="PND" xml:lang="deu">Bordone, Benedetto</term>
+                            </index> quod, cum etiamnum ludimagister <rs type="place" ref="#verona"
+                                >Veronae</rs>
+                            <pb facs="hypobolimaeus_110v" n="100v"/>esset, saepe <hi rend="italic">pigmentis ulmeis</hi> puerorum pygas pinxisset, ne
+                            prorsus consuetudinem pingendi perderet praeter scrutariam, <hi rend="italic">Miniaturam</hi>,
+                            quam vulgò dicunt, exercere caepit, hoc est, tabulas Geographicas
+                            &amp; chorographicas, vel potiùs provincias singulas coloribus
+                            distinxit, &amp; ut nonnullis appellare placet, <hi rend="italic">illuminavit</hi>.
+                            Eiusmodi operae artifices etiam <rs type="place" ref="#rom">Romae</rs> <hi rend="italic">Miniatores</hi> se vocari volunt. Neque
+                            tamen nego fieri potuisse, ut eum quamvis iam grandaeuum aemulatio
+                            propinqui sui <hi rend="italic"><rs type="person" ref="#bordone_paris">Paridis
+                                Burdonis</rs></hi><index indexName="psw">
+                                <term type="PND" xml:lang="lat">Bordone, Paris</term>
+                            </index>, cuius amitam Veronicam in matrimonio habebat, ad huius generis
+                            sive quaestum sive studium traduxerit. Paris hic Burdo, <rs type="place"
+                                ref="#treviso">Sartore Tarvisino</rs> natus, Titiani pictoris paene
+                            à puero discipulus fuit, cum quo &amp; mox certauit, fortasse impar,
+                            certè aemulus. Eum <rs type="person" ref="#vasari_giorgio">Georgius
+                                Vasarius</rs><index indexName="psw">
+                                <term type="PND" xml:lang="deu">Vasari, Giorgio</term>
+                                <index indexName="stw">
+                                    <term type="SWD" xml:lang="ita">Le vite de' più eccellenti
+                                        architetti, pittori et sculptori italiani da Cimabue insino
+                                        a' tempi nostri</term>
+                                </index>
+                            </index> in tertia parte operis de Vitis Pictorum, Sculptorum &amp;
+                            Architectorum, in ipsius Titiani vita, Mediolani mortuum scribit, ubi
+                            &amp; picturas eius artificio commendatas complures recenset. Sed
+                            operarum typographicarum erratum esse, quod <hi rend="italic"><rs type="person"
+                                ref="#bordone_paris">Paride Bondone</rs></hi> ibi vocatur, discet qui
+                            apud Illustres DD. Fuggeros Augustae rindelicorum, quorum Paris atria
+                            picturis suis exornavit, itemque Venetiis &amp; Mediolani sciscitari
+                            voluerit. <hi rend="bold">Amicus quidem meus <hi rend="italic"><rs type="person"
+                                    ref="#rubens_peter_paul">Petrus Paulus Rubenius</rs></hi><index
+                                    indexName="psw">
+                                    <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                                </index>, in quo utrum commendem magis nescio, pingendi ne
+                                artificium, ad cuius ipse summam, si aetatis huius quisquam
+                                peruenisse intelligentibus videtur, an omnis humanioris literaturae
+                                peritiam politumque iudicium cum singulari sermonis &amp;
+                                convictus suavitate coniunctum:</hi><note resp="A.H."
+                                type="footnote">Hervorhebung durch Nils Büttner.</note> is ergò non
+                            paucas in <rs type="place" ref="#italien">Italia</rs> tabulas passim
+                            videri mihi affirmat, in quibus <hi rend="smallCaps">Paridis Burdonis</hi> nomen planè &amp;
+                            probe perscriptium visatur. Sed siue hunc aemulatus, sive compendio
+                            ductus lucelloque inhians Benedictus tuus coloribus chorographicas
+                            tabulas variaverit, aliquam certè chorographiae peritiam inde consecutus
+                            est, ut à Indias profectus tonsoris &amp; chirurgi operas locarat,
+                            itaque. <pb facs="hypobolimaeus_111r" n="111r"/>Multorum mores hominum cognorat &amp; urbes.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="ed_rubens_272_deu">
+                <body>
+                    <div part="Y" xml:lang="deu">
+                        <head>Übersetzung fol. 110v (hervorgehobene Passage)</head>
+                        <p>Mein Freund Peter Paul Rubens, von dem ich nicht weiß, was am meisten an
+                            ihm zu loben ist, seine Malkunst, in der er den höchsten Rang einnimmt –
+                            wenn dies überhaupt einem unserer Zeit gelang –, oder seine Kenntnis der
+                            schönen Wissenschaften, sein erlesener Geschmack oder der
+                            außergewöhnliche Reiz seiner Rede und seines Umgangs. <note resp="N.B."
+                                type="footnote"><rs type="person" ref="#schoppe_caspar">Caspar
+                                    Scioppius</rs> (Schoppe) erwies <date when="1607">1607</date> in
+                                seinem umfangreichen Werk Scaliger hypobolimaeus (d.h. der
+                                untergeschobene Scaliger) die <rs type="person"
+                                    ref="#scaliger_joseph_justus">Joseph Justus Scaliger</rs>
+                                beanspruchte adelige Herkunft als unrichtig. * Das vielzitierte Lob
+                                des Malers, dessen Kunst nur eine seiner vielen lobenswerten
+                                Eigenschaften sei, ist topisch: Vgl. Brief von Papst <rs
+                                    type="person" ref="#pius_iv_papst">Pius IV</rs><index
+                                    indexName="psw">
+                                    <term type="PND" xml:lang="deu">Pius (Papst, IV.)</term>
+                                </index> an <rs type="person" ref="#anguissola_sofonisba">Sofonisba
+                                    Anguissola</rs><index indexName="psw">
+                                    <term type="PND" xml:lang="deu">Anguissola, Sofonisba</term>
+                                </index>. <bibl>Giorgio Vasari: Leben der augezeichnetsten Maler,
+                                    Bildhauer und Baumeister. hrsg. und übers. von Ludwig Schorn und
+                                    Ernst Förster. Bd. 3. Stuttgart; Tübingen 1832-1849. S. 428.<ptr
+                                        type="opac" cRef="198506813"/></bibl></note>
+                        </p>
+                    </div>
+                </body>
+            </text>
+        </group>
+        <back>
+            <linkGrp>
+                <link targets="ed_rubens_272_deu ed_rubens_272_lat" type="translation"/>
+            </linkGrp>
+        </back>
+    </text>
+</TEI>

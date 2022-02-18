@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_001">
+       <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vertrag mit Maria Medici über zwei Galerien des Palais du
+                    Luxembourg</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="sig-ma-386">
+                    <msIdentifier>
+                        <country>USA</country>
+                        <settlement>New York</settlement>
+                        <repository>Pierpont Morgan Library</repository>
+                        <idno type="signatur">MA 386 (26 February 1622)</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Vertrag mit Maria Medici über zwei Galerien des Palais du
+                            Luxembourg</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                          <note resp="A.H." type="footnote">Im Hinblick auf Rubens arbeitsteiliges Verfahren findet sich in diesem Schriftstück die explizite Forderung, dass wirklich jede Figur eigenhändig vom Meister auszuführen sei.</note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>                           
+                                <origDate when="1622-02-26">26. Februar 1622</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Max Rooses: Les contrats passés entre Rubens et Marie de Médicis
+                                concernant les deux galeries du Luxembourg, in: Rubens-Bulletijn - Bulletin
+                                Rubens. Bd. 5. 1910, S. 216-220<ptr type="gbv" cRef="167057901"/></bibl>
+                            <bibl>Ronald Forsyth Millen, Robert Erich Wolf: Heroic
+                                Deeds and Mystic Figures: A new reading of Rubens' "Life of Maria
+                                de'Medici", Princeton, NJ : Princeton Univ. Press, 1989<ptr type="gbv"
+                                    cRef="026857650"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Medici-Zyklus</term>
+                    <term xml:lang="deu">Vertrag</term>
+                    <term xml:lang="fra">Palais du Luxembourg</term>
+                    <term xml:lang="deu" type="psw">Medici, Maria /de'</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                
+                
+                
+                <p> Fut pn&#x0305;t en sa personne le s<hi rend="super">r </hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pierre Paul Rubens</rs> excellent
+                    peintre flament demourant en <rs type="place" ref="#antwerpen">la ville
+                    d’Anvers</rs> et estant de pn&#x0305;t en ceste <rs type="place"
+                        ref="#paris">Ville de Paris</rs> loe&#x0305;t près le Pont Neuf sur le
+                    qūay et parvé S<hi rend="super">t</hi> Germain l’Auxer. lequel a recongneu et
+                    confessé avoir faict marché, promis, promect et s’oblige à très haulte très
+                    puissante et très illustre <rs type="person" ref="#medici_maria">princesse
+                    Marie</rs> par la Grâce de Dieu Royne de <rs type="place" ref="#frankreich"
+                        >France</rs> et de <rs type="place" ref="#navarra">Navarre</rs> mère du Roy
+                    n&#x0305;re sire ce acceptante &amp; présente en personne en la p<hi
+                        rend="super">ce</hi> aussy de M<hi rend="super">r</hi>
+                    <rs type="person" ref="#bouthillier_claude">Claude Boutillier</rs> cons<hi
+                        rend="super">r</hi> du Roy nre Sire en son conseil d’estat et privé secrétaire
+                    des commendaments de lad. dame Royne de faire, parfaire et peindre de sa propre
+                    main touttes et chacunnes des figures des tableaux et quadres des deux galleries
+                    du pallays que sa ma<hi rend="super">te</hi> faict bastir à S<hi rend="super">t</hi>
+                    Germain des Prez en <rs type="place" ref="#paris">paris</rs> Et de
+                    repn&#x0305;ter dans lesd. tableaux touttes les histoires qui sont portées
+                    et desduictes tout au long par escript selon l’intention de sa ma<hi rend="super"
+                        >té</hi> qui en a donné une coppie aud. S<hi rend="super">r</hi> de Rubens
+                    paraphé par led. sieur Boutillier secrétaire. Et en a Rubens aultant &amp;
+                    devers eux paraphé comme l’aūre. affin que led. de Rubens sattisface entièrement
+                    à l’intention de lad. dame Royne comme il s’est obligé de faire Et premièrement
+                    dans l’une des galleries qui est desjà faicte et de laquelle les sollyves et
+                    poultres sont dorées et peinctes led. de Rubens <index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Medici-Zyklus</term>
+                    </index>sera tenu et s’oblige de desseigner et peindre de sa propre main vingt
+                    quatre tableaux dans lesquels seront
+                    repn&#x0305;tez les <rs type="work" ref="#jaffe_707_754">histoires de la vie
+                        très illustre &amp; gestes héroiques de lad. dame Royne</rs><index indexName="stw"><term type="SWD" xml:lang="deu">Rubens, Peter Paul<index indexName="stw"><term xml:lang="deu">Medici-Zyklus (1622-1625)</term></index></term></index> selon les
+                    devis <note type="contemporary" place="margin-left">en subjectz jusqu’au nombre de dix-neuf </note><note
+                            resp="A.H." type="footnote">Anmerkung zum Vertrag von Rubens mit Pietro
+                            Pauolo Rubens gegengezeichnet</note> qui en ont este donnez comme
+                    dict est aud. S<hi rend="super">r</hi> de Rubens par sad Ma<hi rend="super">te</hi>
+                    <note type="contemporary" place="margin-left">dequi luy en seront donnez Þr les cinq restant pend.
+                        qu’il travaillera aux premiers</note><note resp="A.H." type="footnote">Anmerkung zum
+                            Vertrag von Rubens mit Pietro Pauolo Rubens
+                    gegengezeichnet</note>. Et pour la gallerie de l’aultre costé qui n’est
+                    encore faicte s’oblige aussy led. de Rubens de f<hi rend="super">e</hi> et peindre
+                    de sa pÞpre main tous les tableux qu’il fauldra mectre et apposer dans les
+                    lieulx destinés po&#x0305; chacun. Et dans lesd. tableaux y représenter et
+                    peindre toutes les bailles du deffunct <rs type="person" ref="#heinrich_iv">Roy
+                        Henry le Grand</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Heinrich (Frankreich, König, IV.)</term>
+                    </index> les recontres qu’il a faictes, ses combatz, prises et sièges de villes
+                    avec les triomphes desd. victoires en la façon des triomphes des Romains suivant
+                    le devis qui luy en sera donné par sa ma<hi rend="super">té</hi><index indexName="stw"><term type="SWD" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term xml:lang="deu">Medici-Zyklus (1628-1631)</term></index></index>. Tous lequels
+                    tableaux desdictes deux galleries led. S<hi rend="super">r</hi> de Rubens promet
+                    et s’oblige de fe&#x0305; &amp; achepver au mieulx qu’il luy sera
+                    possible et n’en livrer aulcun qui soit faict à la légère désirant comme sa
+                        ma<hi rend="super">té</hi> luy en accordé le prix et donné tout contantemt de
+                    la serviraussy de tout son pouvoir et selon sa vollonté et recongnoist led. de
+                    Rubens que lad. dame Royne s’est reservée le pouvoir d’augmenter ou diminuer les
+                    subjects desd. tableaux avant quilz seront commancés et de faire retoucher et
+                    changer les figures qui ne luy seront agréables lorsque lesd. tableaux seront
+                    par deçà. Aussy entend sa ma<hi rend="super">té</hi> ne recepvoir aulcun tableau
+                    qui ne soist tout peint de la pÞre main dud. de Rubens Þr ce qui concerne les
+                    figures partant promect et s’oblige led. de Rubens fre&#x030C; &amp;
+                    parfaire tous lesd. tableaux et quadres qu’il conviendra aux deux galleries du
+                    susd. palays de sa ma<hi rend="super">te</hi> dedans quatre ans par dessus les
+                    desseigner &amp; peindre comme dict est de sa propre main et le tout pour et
+                    moyennant le pris et somme de soixante mil livres t. payable comme sera cy aprez
+                    dict. Et rendre par deçà de Rubens ceulx de la gallerie qui est à
+                    pn&#x0305;t faicte et ce dedans deux ans pchain et les faire poser en leur
+                    lieu et place et les aūres douze dedans l’année suivante. Et promect aussi led.
+                    de Rubens en apportant les douze premiers tableaux faire tenir à la dame Royne
+                    les desseings qu’il aura faicts des batailles du deffunct Roy Henry le Grand
+                    pour l’aultre gallerrye de sa ma<hi rend="super">té</hi> et ceux qui resteront à
+                    faire de lad. p<hi rend="super">re</hi> gallerye. Laquelle dicte somme de soixante
+                    mil livres t. lad. dame Royne fera payer aud. de Rubens en quatre
+                    payeme&#x0305;ts esgaux chūn de quinze mil livres dont le premier payemt se
+                    fera quand led. de Rubens aura faict parfaict et mis en leur lieu et place les
+                    douze premiers tableaux faisant la moictié des vingt quatre destinés pour lad.
+                    première gallerye. Le second payemen lorsqu’il aura achevé les douze autres
+                    faisant le reste de lad. gallerye. Et en à fre et terminer les deux autres
+                    payements au feur et à mesure qu’il livrera moictié des autres tableaux destinés
+                    pour lad. seconde gallerye et qu’ils seront faictz parfaictz et posés en leur
+                    lieu et place ainsi que dessus. Car ainsi a este entendu accordé convenu et
+                    arresté entre sa ma<hi rend="super">té</hi> et ledit s<hi rend="super">r</hi> de
+                    Rubens promectant et s’obligeant mesmement led. de Rubens l’octroyer en lieux
+                    recommandés.</p> 
+                <closer><dateline>Faict et passé au cha&#x0305;u du Louvre l’an six cent
+                    vingt deux 8 h. samedy avant midy vingt sixiesme jour de febvrier et ont la dite
+                    Royne et sieur Boutillier et de Rubens signé la presente et posés les deux
+                    apostilles estant en marge de la p<hi rend="super">e</hi> page.</dateline><lb/>
+               
+                    <signed rend="text-align:left"><rs type="person" ref="#medici_maria">Marie.</rs></signed>
+                
+                    <signed rend="text-align:right"><rs type="person" ref="#bouthillier_claude">Bouthillier</rs>,</signed>
+                    <signed rend="text-align:right"><rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs>,</signed>
+                    <signed rend="text-align:right"><rs type="person" ref="#guerreau_jacques">Jacques Guerreau.</rs></signed></closer>
+            </div>
+
+            <div xml:lang="frz">
+                <p> Je soubzsigné Pierre Paul Rubens peintre flamens demourant à anvers recongnois
+                    et confesse de bonne foy ancores que par contract qu’ay ce jourdhuy faict avecq
+                    la Royne mère du Roy pour raison des peinctures quelle désire estre par moy
+                    faictes aux deux galleries de son pallais de Sainct Germain des prez lez Paris
+                    et aplain mentionnées audict contract, la dicte Dame Royne mayt promis donner et
+                    bailler pour icelles la somme de soixante mil Livres tournois paiables en quatre
+                    paiements esgaux chacun de quinze mil livres.</p>
+                <p>Néanmoings la vérité est
+                    qu’avons convenu et accordé ensemble à la sommede cinquante quatre mil livres
+                    dont me sera paié à chacun paiement la somme de treize mil cinq cents livres aux
+                    termes dudict contract. Au moyen de quoy demeurera ladite dame Royne quitte et
+                    dechargée comme moy des six mil livres faisant le reste desdictz soix<hi
+                        rend="super">te</hi> mil livres. Sinon que de sa grâce et courtoisie sa
+                    majesté me voullust donner ladicte somme de six mil livres partie ou portion
+                    d’icelle selon que mes dictz ouvrages de peinctures luy seront agréables
+                    remettant ceste libéralité à la discrétion et soubz le bon plaisir de sa dicte
+                    ma<hi rend="super">tè</hi>.</p> <closer><dateline>Faict ce vingt six<hi rend="super">me</hi> febvrier
+                    en XVI<hi rend="super">c</hi> vingt deux en pn&#x0305;ce des no<hi rend="super">re</hi>s soubs<hi rend="super">és</hi> qui
+                        ont pour approbation signé à ma requeste la présente.</dateline>
+                
+                        <signed rend="text-align:left">Pietro Paulo Rubens.</signed><lb/>
+                    <signed>Jacques.<lb/> Guerreau.</signed></closer>
+                
+            </div>
+        </body>
+       
+    </text>
+</TEI>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_246">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letztes Testament von Peter Paul Rubens, aufgezeichnet durch den Notar
+                    Toussaint Guyot zu Antwerpen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="testament-rubens-1640">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: Rubens-Bulletijn</collection><idno>Testament von Peter Paul Rubens vom 27. Mai 1640</idno></msIdentifier>
+                    <head>
+                        <title>Letztes Testament von Peter Paul Rubens, aufgezeichnet durch den Notar
+                            Toussaint Guyot zu Antwerpen</title>
+                    </head>
+                 
+                    <history>
+                        <origin>
+                            <origDate when="1640-05-27">27. Mai 1640</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich im 19.
+                                Jahrhundert im Archief des Casteel van Gaasbeek.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard</bibl>
+                    </source></recordHist></adminInfo>
+                        <listBibl><bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den
+                            grooten meester en zijne bloedverwanten. Antwerpen 1877. S. 28-36<ptr type="gbv"
+                                cRef="146162595"/></bibl></listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>In den Naeme ons Heeren amen. By desen tegenworordigen openbaeren, instrumente
+                    van Testamente<index indexName="stw">
+                        <term xml:lang="deu">Testament</term>
+                    </index>, zy condt ende kenneliyck eenen yelycken dat op den <date
+                        when="1640-05-27">sevenentwintichsten dach der maent van meye van tjaer
+                        desselfs ons Heeren XVI<hi rend="super">c</hi> ende viertich</date> voor my
+                        <rs type="person" ref="#guyot_toussaint">Toussein Guyot</rs> openbaer
+                    notaris by den secreten Raedt van Syne Majesteyt ende van <rs type="place"
+                        ref="#brabant">Brabant</rs> geadmitteert ende geapprobeert t’Antwerpen
+                    residerende ende de getuygen naergenoempt compareerden Heer <rs type="person"
+                        ref="#rubens_peter_paul">Pietro Pauolo Rubens</rs> Ridder en de vrouwe <rs
+                        type="person" ref="#fourment_helene">Helena Fourment</rs> syne wettige
+                    huysvrouwe inwoonderen deser voors. stadt van <rs type="place" ref="#antwerpen"
+                        >Antwerpen</rs> beyde my notario bekend zynde, gesont van herten, hunne
+                    sinnen memorie ende verstant overal wel machtich ende volcommentlyck
+                    gebruyckende, gelyck dat aen hem claerlyck bleeck, hoe wel dat de voors.
+                    comparant sieckelijck naer den lichaeme te bedde was liggende. </p>
+                <p>Ende verclaerden dat sy met welbedachten sinnen onbedwongen ende overleyt,
+                    gemaeckt hebben ende maecken mits desen hen testament ende wttersten wille inder
+                    vuegen ende manieren naevolgende. </p>
+                <p>Begeerenden wterlyck, dat het selve sal stadt grypen ende syn volcommen effect
+                    sorteren, by forme van Testament Codicille donatie ter saecken vande doot oft
+                    anderssints inde beste forme ende maniere, soo ende gelyck iemants testament
+                    ende wttersten wille alderbest stadt grijpen ende effect sorteren can. </p>
+                <p>Nyettegenstaende dat alle ende yegelycke de solemniteyten die van rechts wegen
+                    daerinne souden mogen behooren onderhouden te worden, hierinne nyet al noch
+                    volcommentlyck en souden wesen onderhouden ende achtervolcht. Oock
+                    nyettegenstaende eenige costuymen wetten municipaele stadt- oft lantrechten ter
+                    contarie, daer onder sy souden mogen comen t’overlijden ende hunne goeden
+                    gelegen oft bevonden souden mogen worden, alle deselve, voor soo vele die desen
+                    hunnen testamente oft andere dispositie van wttersten wille souden mogen
+                    contrarieren, derogeerende ende willende gederogeert wesen mits desen. </p>
+                <p>Wederoepende oock ende nyet doende alle ende yegelycke andere testamenten
+                    codecillen donatien ter saecken van de doot en hoedanige andere dispositien van
+                    wttersten wille die sy testateuren gesaemenderhandt oft elcke besundere voor
+                    daete desen gemaeckt oft gepasseert souden mogen hebben. </p>
+                <p>Inden eersten soo beveelden de voors. testateuren henne silen nu ende soo wanneer
+                    die bei den wille Godts wt henne lichaeme scheyden sullen, aen Godt almachtich,
+                    sijne gebenedyde moeder altijts Maeget Maria ende allen den hemelschen
+                    geselschappe, ende henne doode lichaemen der gewyder aerden, kiesende henne <rs
+                        type="work" ref="#jaffe_1368">sepulture</rs> inde parochiaele <rs
+                        type="corporate" ref="#st_jacob_antwerpen">kercke van St.-Jacob</rs><index
+                        indexName="stw">
+                        <term xml:lang="deu">St. Jakobskirche</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="nld">St. Jacobskerk</term>
+                    </index> binnen deser stadt ter plaetsen daer het den lancxlevenden best goet
+                    duncken sal, stellende d’wytvaert ter discretie vanden selven lancxlevenden ende
+                    de naetenoemene executeurs van desen hunnen testamente ende momboiren van henne
+                    minderjarige kinderen. Laetende ende maeckende der fabricque van der voors.
+                    kercke d’ierste van hen Testateuren te overlijdene de somme van hondert guldenen
+                    eens. </p>
+                <p>Aen den Aelmoesseniers deser stadt ten behoeve van de schaemele huysarmen de
+                    somme van vyffhondert guldenen eens. </p>
+                <p>Bevelende voorts de voors. Testateur dat ingevalle hy binnen syn leven aen <rs
+                        type="person" ref="#moermans_jacques">Jacques Moermans</rs> nyet gelevert en
+                    heeft eene schilderye gelyck hy daer inne verbonden is dat men den selven
+                    Moermans daervan contentement sal doen geven terstont naer syn overlyden. </p>
+                <p>Prelegaterende ende voorwtmaeckende aen Joncker <rs type="person"
+                        ref="#rubens_albert">Albert Rubens</rs> daer moeder aff was Vrouwe <rs
+                        type="person" ref="#brant_isabella">Isabella Brant</rs> saliger gedachte
+                    synen outsten sone secretaris van Syne Majesteyts Secreten Raede alle ende
+                    iegelycke de boecken van syne <term type="stw">bibliothecque<index
+                            indexName="stw">
+                            <term xml:lang="deu">Bibliothek</term>
+                    </index></term>, ende aenden selven Joncker Albert<index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Albert</term></index> met Joncker <rs
+                        type="person" ref="#rubens_nikolaas">Nicolaes Ruebens</rs><index indexName="psw"><term xml:lang="deu">Nikolaas Rubens</term></index> oock synen sone
+                    tsaemen elcke voord e helft alle de agaten ende medallien wtgenomen de vasen van
+                    aganten, jaspis ende andere costelycke gesteenten, met conditie dat sy de voors.
+                    agaten ende medallien nyet en sullen mogen vercoopen dan tsaemen ende met
+                    gemeynen consenten op conditie van het tegenwoordich testament, in het minste
+                    poinct nyet te mogen bestrijden oft contravenieren op pene van affneminge der
+                    selver prelegaeten. </p>
+                <p>Ende aengaende d’ander goeden van de Testateuren ruerende ende onruerende,
+                    huysen, lant, sant, renten, gout, silver, gemunt ende ongemunt, schulden, actien
+                    ende crediten alomme waer ende tot wat plaetsen deselve gelegen syn oft bevonden
+                    sullen worden, overschietende boven alle schulden kerckenrechten en andere
+                    lasten van des eerst afflyvigens sterffhuys, allen deselven hebben sy
+                    Testateuren by wille ende consent deen aen den anderen gemaeckt, gegeven en
+                    gelaeten, maecken, geven ende laeten mits desen als volcht. </p>
+                <p>Te weten indenval dat de voorgen. heer Testateur eerst comt afflyvich te worden,
+                    soo heeft hy gemaeckt gegeven en gelaeten, maeckt, geeft ende laet mits desen
+                    aende voorgen. Vrouwe Testatrice syne huysvrouwe een kintsgedeelte in alle ende
+                    iegelycke syne naegelaetene goeden ende dat boven ende behalvens de juweelen
+                    voorden houwelyck aen haer gegeven naementlyck twee goude ketenen met diamanten,
+                    een goude ketene met Indiaens werck bestaende in derthien touren, noch eene
+                    ketene van Musques gegarniseert in gout, noch eene goude ketene geemalieert met
+                    swert ende wit. Dry touren perlen, eene bagge met diamanten tsedert bekeert in
+                    eene boeyte, eenen gouden Ancker met diamanten, eenen gouden appretador met
+                    diamenten, een paar oorpendanten met diamenten, eenen rinck met eenen grooten
+                    diamant gecommen van <rs type="place" ref="#england">Engelant</rs>, eene partye
+                    gouden cnoppen soo effene als geemmalierde ende eene borsse met verscheyden
+                    stucken gouts. Boven alsnoch de cleederen, wolle, syde, goude, silvere ende
+                    lijne thaeren lyve dienende, mitsgaeders de hellicht van alle en iegelycke
+                    haeffelycke ende haeffdeylige goeden ende geconquesteerde erffgoeden haer
+                    toecomende naer deser stadt recht, ende hunne houwelycx voorwaerde voor mij
+                    notaris gepasseert op den <date when="1630-12-04">vierden decembris van den
+                        jaere XVI<hi rend="super">c</hi> ende dertich</date><index indexName="stw">
+                        <term xml:lang="deu">Ehevertrag</term>
+                    </index><note resp="A.H." type="footnote">Vgl. den Ehevetrag zwischen Peter Paul
+                        Rubens und Hélène Fourment vom <ref type="rubens" cRef="ed_rubens_202">4.
+                            Dezember 1630</ref>.</note>, ende tvoordeel naer deser voors. stadts
+                    rechten den vrouwen toecommende in de meubelen. </p>
+                <p>Maeckende gevende end laetende de reste aen de voorgen. Joncker Albert ende
+                    Joncker Nicolaes Rubens syne sonen van den voorbedde, ende aende kinderen by hem
+                    verweckt ende die hy mette gratie Godts alnoch soude mogen verwecken in synen
+                    tegenwoordigen houwelyck, om alle de selve syns testateurs goeden byde voorgen.
+                    sijne jegenwoordige huysvrouwe ende kinderen gelyckelyck aenveert gescheyden
+                    ende gedeylt te worden, behoorlycken inventaris ende staet daervan gemaeckt
+                    synde, ende dat hooftsgelyck; daer onder oock begrepen de leengoeden sonder dat
+                    yemant van de selve kinderen outste oft joncxte sone oft andere in oft totte
+                    selve leengoeden eenich voordeel sal mogen hebben in eeniger maniere, hiertoe
+                    gebruyckende d’opene brieven van Octroy by hem testateur ende de voorgen, syne
+                    tegenwoordige huysvrouwe om van henne leengoeden te mogen testeren, in den
+                    souverainen raed van Brabant verworven op den <date when="1637-01-02">tweeden
+                        dach der maent january van het jaar XVI<hi rend="super">c</hi> en
+                    sevendertich</date> besegelt met syne Majestyts grooten segele in rooden wassche
+                    geparaheert, Boischot V<hi rend="super">t</hi> ende op de plycke geteeckent
+                    Mastelyn, ten desen origenelijck gesien.<note resp="N.B." type="footnote">Am 2.
+                        Januar 1637 erging das Privileg des spanischen Königs an Peter Paul Rubens,
+                        über seine Lehngüter verfügen zu dürfen. Vgl. <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                            zijne bloedverwanten. Antwerpen 1877. S. 19.<ptr type="gbv"
+                                cRef="146162595"/></bibl>Das originale Dokument ist nicht
+                        nachzuweisen, ein weiterer Hinweis darauf findet sich auch im gemeinsamen
+                        Testament von Peter Paul Rubens und Hélène Fourment vom <ref type="rubens"
+                            cRef="ed_rubens_242">16. September 1639</ref>.</note></p>
+                <p>Behoudelyck nochtans dat syns testateurs kinderen van syn tegenwoordich houwelyck
+                    sullen mogen aanveerden ende behouden de helft vanhet hoff ende heerlyckheit van
+                        Steen<index indexName="stw">
+                        <term xml:lang="nld">Het Steen</term>
+                    </index> mette landen, bosschen ende bempden daartoe behoorende, soo ende gelyck
+                    hy allentselve inden jaer <date when="1635-05-12">XVI<hi rend="super">c</hi> ende
+                        vyffendertich op den tweelfsten dach van meye</date> by decret van voors.
+                    Raede van Brabant heeft gecocht<note resp="A.H." type="footnote">Am <ref
+                            type="rubens" cRef="ed_rubens_224">12. Mai 1635</ref> erwarb Rubens das
+                        Landgut Steen in Elewijt.</note>, mette nieuw edificien tsedert daerop
+                    gemaeckt ende ten coste syns sterffhuyse te volmaeckene, ende de dry bunderen
+                    ende een dachwant bempts daerby gecocht van <rs type="person"
+                        ref="#vrancx_franchois">Franchois Vrancx</rs> mitsgaeders den bosch genaemt
+                    den platten Steen ende den leenbosch van <rs type="place" ref="#attenorde"
+                        >Attenorde</rs> mits voor deselve helft inde massa scheydinge ende deylingen
+                    goet doende de somme van vyftich duysent guldenen eens, Willende voorts ende
+                    wtterlyck begeerende dat de Vrouwe Testatrice d’anderhelft van tvoors. hoff,
+                    heerlyckheyt, landen, weiden, bosschen, leenboeck ende edificien, ende alle
+                    andere goeden haer toebehoorende als concquest, sal hebben ende blijven behouden
+                    met vollen rechte ende vrye dispositie, nyettegenstaende de costuimelycke
+                    devolutie die daer comt te vallen bij het afsterven van d’een der conjoincten,
+                    oft eenich ander beletsel, sulck als het soude mogen wesen ter contrarie, alle
+                    deselve voor soovele alst noot doet mits desen derogerende. </p>
+                <p>Willende alsnoch dat deselve Juweelen van gout, silver, diamanten ende andere
+                    synen sterffhuyse toecomende sullen gepriseert worden by persoonen hun des
+                    verstaende, ende daer naer gestelt in soovele cavels oft deelen als hy
+                    erfgenaemen naer laeten sal ende tusschen deselve worden gedeylt bij cavelinge
+                    oft lotinge. </p>
+                <p>Maer aengaende de schilderyen statuen ende dyergelyck frayecheyt, beveelt deselve
+                    tot bequaemen ende gelegenen tydt openbaerlyck oft wtterhant zoo men best
+                    bevinden sal te behooren, vercocht te wordene, ende dit met advys van S<hi
+                        rend="super">rs</hi>
+                    <rs type="person" ref="#snyders_frans">Franchois Snyders</rs><index
+                        indexName="psw">
+                        <term type="PND">Snyders, Frans</term>
+                    </index>, <rs type="person" ref="#wildens_jan">Jan Wildens</rs><index
+                        indexName="psw">
+                        <term type="PND">Wildens, Jan</term>
+                    </index> ende voorgen. Jacques Moermans, wttgenomen de Conterfeytsels van syns
+                    testateurs huysvrouwe ende van hem selven daerop corresponderende, die hij
+                    begeert dat volgen sullen aen henne respective kinderen, ende de <term
+                        type="stw">
+                        <rs type="work" ref="#jaffe_1634">schilderye genaemt het Pelsken</rs>
+                        <index indexName="stw">
+                            <term xml:lang="nld">Het Pelsken</term>
+                        </index>
+                    </term> aen syne tegenwoordige huysvrouwe sonder yet daervan te moeten geven oft
+                    intebrengen. Wytgenomen alnoch de teeckeningen bij hem testateur vergaedert ende
+                    gemaeckt dewelcke hy beveelt opgehouden ende bewaert te wordene tot behoeve van
+                    yemant sijnder sonen die hem soude mogen willen oeffenen inde conste van
+                    schilderen, oft bij gebreke van dyen tot behoeve van eender sijnder dochteren de
+                    welcke soude mogen come te trouwen met eenen vermaerden schilder ende dat
+                    soolange totdat de joncxste synder kinderen sal gecomen wesen tot ouderdom van
+                    achttien jaeren, alswanneer soo verre nyemant van de sonen hem totte voors
+                    conste begegen <sic/> en heeft oft geene vande dochteren met eenen vermaerden
+                    schilder gehouwt en sij, de voors. teekeningen mede sullen moeten vercocht
+                    worden, ende den prys daervan te procederen gedeylt als syne andere goeden. </p>
+                <p>Ende indyen de voorgen. Vrouwe Testatrice geraeckte d’eerste te overlyden, soo
+                    maeckt geeft ende laet zy mits desen allen en yegelycke haere goeden, ruerende
+                    ende onruerende, oock leengoeden daertoe mede gebruyckende d’opene brieven van
+                    Octroy, heirboven breeder gemelt, aen den voors. Heer Testateur haeren man, om
+                    synen vryen wille daermede te mogen doene, op den last alleenlyck dat hy
+                    gehouden sal syn hender beyder kinderen die sy nu hebben ende mette gratie Godts
+                    noch souden mogen verwecken, t’onderhouden naer syne conditie, ende gecomen
+                    synde tot geapprobeert staet, elcken van hen alsdan wttereycken de somme van
+                    vier duysent ponden grooten vlems eens, ende boven dyen elcken syn deel van alle
+                    ende iegelycke de juweelen, ringen, baggen, goude ketenen, perlen ende andere,
+                    mitsgaders cleederen thaeren lyve ende hoofde gedient ende toebehoort hebbende,
+                    ende dit alles voor moederlycke goeden, maer ingevalle sy Testatrice eerst
+                    afflyvich wert sonder kinderen achter te laten, dat de voors. Testateur sal
+                    gestaen mits aen haere naeste vrienden ende erffgenaemen ab intestato onder hen
+                    allen wytreyckende de somme van duysent ponden vlems eens. </p>
+                <p>Hebben voorts de voors. Testateuren begeert ende geordonneert, begeeren ende
+                    ordonneren mits desen dat soo verre eenich van de kinderen van hunnen
+                    tegenwoordigen houwelyck quaeme te sterven minder van jaeren synde, oft sonder
+                    wettige geboorte achtertelaeten, oft van syne goeden gedsiponeert te hebbene,
+                    dat deselve goeden van sulcken aflyvich kint toecomen ende devolueren sullen op
+                    de broeders en susters soo van den halven als geheelen bedde, die tselve nu
+                    heeft oft van desen houwelyck noch soude mogen crygen gelyckelyck. </p>
+                <p>Insgelycx hebben de voors. Testateuren beyde begeert ende geordonnert, begeeren
+                    ende ordonneren mits desen zoo verre de Testatrice quaeme te sterven naer de
+                    doot van henne voors. gemeyne kinderen, ende sonder kinderen van eenich
+                    naehouwelyck achtertelaeten, dat inden selven val de voors. des Testateurs
+                    voorkinderen sullen trecken en genieten een gerecht derdendeel, ende de naeste
+                    vrienden ende erffgenaemen van haer Testatrice tsy geinstitueerde oft ab
+                    intestato de resterende twee derdendeelen van alle ende iegelycke de haeffelycke
+                    ende erffelycke goeden by hae Testarice achtertelaeten, sonder dat sy ter
+                    contrarie van dyen sal mogen disponeren, gelijck sy Testatrice oock geloeft
+                    heeft ende geloeffde mits desen in prejudicie oft achterdeel vande selve des
+                    Testateurs voorkinderen daervan nyet te disponeren. </p>
+                <p>De voorgen. Testateuren malcanderen ende henne gemeyne kinderen mitsgaeders die
+                    Testateur syne voorkinderen in allen tgene voors. is henne erffgenaemen
+                    noemende, instituerende ende substituerende met vollen rechte van institutie
+                    ende substitutie. Ende op dat het tegenwordich hun testament ter executie
+                    gestelt worde ende hunne minderjaerige kinderen mogen versien syn van
+                    testamentelycke momboiren, so hebben de voors. Testateuren daer toe gecosen die
+                    heer Testateur eerst afflyvich synde de voors. Testatrice metten voorgen.
+                    Joncker Albert Ruebens synen outsten sone, S<hi rend="super">r</hi>
+                    <rs type="person" ref="#hanikart_peeter">Peeter Hanikart</rs>, synen swaeger,
+                    heer ende M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_philippus">Philips Ruebens</rs> Licentiaet in de
+                    rechten synen neve, ende heer ende M<hi rend="super">r</hi>
+                    <rs type="person" ref="#weerdt_gregorius">Gregorius de Weerdt</rs>, oock
+                    Licentiaet in de rechten ende Secretaris deser stadt, sijnen behouden neve. Ende
+                    de vrouwe Testatrice ierste afflyvige synde, den heer Testateur alleen, nyet
+                    willende, wytterlyck verbiedende de persoonen oft goeden van hunne voors.
+                    kinderen in eenigen tijt onderworpen te syne der Weescamer deser stadt. </p>
+                <p>Eyndelinge begeeren de testateuren alnoch, dat soo verre opt verstant van dit hen
+                    testament oft ander saecken van des eerst afflyvigens sterffhuys, eenige
+                    geschillen quaemen te rysen, twaere tusschen de voors henne erffgenaemen, oft
+                    tusschen de voors. executeurs ende momboirs, dat deselve int minnelyck ende
+                    sonder forme van proces sullen gedecideert worden by de seer Eerw. heere <rs
+                        type="person" ref="#zype_franchois">Franchois vander Zype</rs>, priester,
+                    Archidiaken ende Canonick vande Cathedrale kercke, den seer Edelen Heere <rs
+                        type="person" ref="#tucher_robert">Robert Tucher</rs>, Ridder, Borgemeester
+                    deser stadt ende heer en M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peeter">Peeter Ruebens</rs>, Licentiaet inde
+                    rechten ierst gecommitteerde over de Judicatien van de Licenten alhier, des
+                    Testateurs cosyn, de selve daer toe mits desen versueckende ende committerende. </p>
+                <p>Ende dit al mitsdiversche pregnante redenen hen Testateuren daertoe porrende ende
+                    moverende, soo sy verclaerden; van allen dwelck versochten de voors. Testateuren
+                    bij mij Notaris voorgen. een oft meer openbaere instrumenten gemeckt ende
+                    geexpedieert te worden. Aldus gedaen ende gepasseert t’Antwerpen ten huyse der
+                    voors. Testateuren op den Wapper<index indexName="stw">
+                        <term xml:lang="deu">Wapper</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="deu">Rubenshaus</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="nld">Rubenshuis</term>
+                    </index> alhier gestaen, er presentie an <rs type="person"
+                        ref="#vekene_franchois">Franchois vander Vekene</rs> ende <rs type="person"
+                        ref="#schoonhove_melchior">Melchior van Schoonhove</rs>, ingesetene deser
+                    stadt als getuygen hier toe versocht ende gebeden, hebbende de voors.
+                    Testateuren mette getuygen de minute deser intregister myns notaris met henne
+                    naemen onderteeckent beneffens my Notaris.<lb/></p> <closer><salute><span from="" xml:lang="lat">In quorum omnium et singulorum
+                    fidem presens testamenti instrumentum signo meo manuali solito signari
+                    rogatus</span></salute>.<lb/> <signed>T. Guyot Nots pub<hi rend="super">us</hi></signed>
+                    </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

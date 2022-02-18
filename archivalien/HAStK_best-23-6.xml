@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_031">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dr. Jan Rubens vor dem Kölner Magistrat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="HAStK_best-23-6">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt (HAStK)</repository>
+                        <collection>Briefausgänge, Juli – Dezember 1586</collection>
+                        <idno type="signatur">Best. 23/ 6</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Dr. Jan Rubens vor dem Kölner Magistrat</title>
+                    </head>
+                 
+                    <history>
+                        <origin>
+                         
+                                <origDate when="1586-07-02">2. Juli 1586</origDate>
+                          
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu">Köln</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="best-23-6-unpaginiert" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11713" n="unpaginiert"/>
+    </facsimile>
+    <text>
+        <body>
+            <!-- Faksimile HAStK Best. 23_6-->
+            <div xml:lang="lat">
+                <p><pb facs="best-23-6-unpaginiert" n="unpaginiert"/>Nos Consules tenore p<hi rend="super">re</hi>sentium notum facimus et attestamur
+                    quod <note type="contemporary" place="margin-left">ad instantiam</note>
+                    spectabilis vir <rs type="person" ref="#cassina_hieronymus">Jeronimus
+                    Cassina</rs> concivis no<hi rend="super">st</hi>r<hi rend="super">i</hi>
+                    personaliter coram nobis comparueri<hi rend="super">n</hi>t honesti <rs
+                        type="person" ref="#rubens_jan">Johannes Rubens</rs> doctor et <rs
+                        type="person" ref="#amodeis_caesar">Caesar de Amodeis</rs> concives ac incolae
+                    nostri testes fide digni et ad sincerum veritatis testimonium habiles per
+                    preconem nostrum etc., qui quidem sic constituti ad manus nostras stipulando
+                    assecurauerunt et deinde medio suo corporali iuramento deposuerunt atque
+                    attestati sunt se retro suprascriptam copiam cum suo vero sigillato nobisque
+                    exhibito et oblato originali fideliter collationasse deque verbo ad verbum cum
+                    eo concordantem reperisse absque dolo et fraude, attestamur preterea nos
+                    consules et senatus praefati praetactam originale illustrissimi principis ac
+                    domini <rs type="person" ref="#farnese_alessandro">Alexandri</rs> principis
+                    Parmensis regiae catholicae ma<hi rend="super">tis</hi> inferiorum terrarum
+                    gubernatoris generalis ac supremi capitanei, propria manu ac sigillo nobis ex
+                    comparatione aliarum literarum <note type="contemporary" place="margin-left">nec
+                        non fide dignorum testium</note> optime scriptum et subscriptum fuisse, in
+                        fidem ac testimonium.</p> 
+                <closer>
+                    <dateline>Datum <date when="1586-07-02">II Julii Anno etc. 86</date>.
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

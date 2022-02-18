@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_230">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens, Junker Pauwels van Halmale und Cornelis versuchen, im
+                    Rahmen ihrer Vormundschaft über die Kinder des verstorbenen Jan Brueghel eine
+                    Untersuchung zu erwirken, da ein in deren Besitz befindliches Haus zu hoch
+                    taxiert ist</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-737">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Rekwestboek 1636-1637</collection>
+                        <idno type="signatur">Pk. 737, fol. 135r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens, Junker Pauwels van Halmale und Cornelis
+                            versuchen, im Rahmen ihrer Vormundschaft über die Kinder des
+                            verstorbenen Jan Brueghel eine Untersuchung zu erwirken, da ein in
+                            deren Besitz befindliches Haus zu hoch taxiert ist</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1636-07-30">30. Juli 1636</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Gaven met behoorlijcke reverentie te kennen S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs> ridder,
+                    Jonker <rs type="person" ref="#halmale_pauwel">Pauwels van Halmale</rs> ende
+                        S<hi rend="super">r</hi>
+                    <rs type="person" ref="#schut_cornelis">Cornelis Schut</rs>, als testamentelycke
+                        momboiren<index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormundschaft</term>
+                    </index> over donbejaerde kinderen wijlen S<hi rend="super">r</hi>
+                    <rs type="person" ref="#brueghel_jan_aeltere">Jan Bruegel</rs><index
+                        indexName="psw">
+                        <term type="PND">Breughel, Jan (der Ältere</term>
+                    </index> hoe dat zijlieden in dyer qualiteyt gehadt hebben eene rente van
+                    hondert vyffentnegentich gulden thien stuyvers erffelyck den penninck sesthiene
+                    daervoren hun verbonden is geweest seckere ganck met eenige cleyne huyskens
+                    gestaen alhier opde Peerdemerct commende achter aende ruye. ende mits de quade
+                    betaelinge soo syn de voornoemde suppleanten genootsaeckt geweest den selven
+                    ganck mette huyskens ter hooger vierschaeren vuyt te winnen ende staen de selve
+                    huyskens alnoch in handen van den amman sonder dat de suppleanten tot nochtoe
+                    daer inne gegoyt ofte geerft syn ende alsoo geduerende den tyt van procedure ter
+                    hooger vierschaeren by borgemeester ende schepenen geordonneert is geweest de
+                    ruyen te suyveren ende te ruymen. Soo is dat de vornoemde momboirs aengesproken
+                    worden ende gemerct de voorseyde huyskens alle te samen wel verhuert synde
+                    egeene hondert vyff ende dertich gulden vuytbrengen dat die oyck dickwils ledich
+                    ende onverhuert blijven staen, dat oyck de huerlinghen dickwils by nachte
+                    verhuysen donder goeden nacht te segghen ende dat de suppleanten meenen dat
+                    sylieden te seer swaerlyck by dyen tax beswaert sijn, soo bidden de suppleanten
+                    dat Uwe E<hi rend="super">d</hi>. gelieven thunnen versoecke te committeren min
+                    ofte meer commissen vuyter weth die den selven sullen visiteren omme hun rapport
+                    gehoort, daernaer geordonneert te worden sulcx men naer rechte ende equiteyt sal
+                    bevinden te behooren dwelck doende etc. ondergetekende P. Van Halmale ende <rs
+                        type="person" ref="#rubens_peter_paul">Petro Paulo Rubens</rs>. </p>
+            </div>
+            <div>
+                <p> Mijne heeren borgemeester ende schepenen hebben gecommitteert Jonker <rs
+                        type="person" ref="#tassis_charles">Charles de Tassis</rs> schepen ende M<hi
+                        rend="super">r</hi>
+                    <rs type="person" ref="#cuelen_adriaen">Adriaen van Cuelen</rs> Greffier deser
+                    stadt om te doen ende te besoigneren daer inhoudt deser. 
+                </p>
+                <closer><dateline>Actum <date when="1636-07-30">30 July 1636</date></dateline><lb/>
+                    <signed><rs type="person" ref="#fabry_e">E. Fabry</rs></signed>.<lb/> 
+                    <salute><span from="" xml:lang="lat">Collatum cum originali concordat.</span></salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

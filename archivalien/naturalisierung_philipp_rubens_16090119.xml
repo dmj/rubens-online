@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_097">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Naturalisierung von Philipp Rubens durch das Erzherzogspaar</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="naturalisierung_philipp_rubens_16090119">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Naturalisierung von Philipp Rubens durch das Erzherzogspaar vom 19. Januar 1609</idno></msIdentifier>
+                    <head>
+                        <title>Naturalisierung von Philipp Rubens durch das Erzherzogspaar</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Der Text ist hier nach Génard 1877, S. 403-405, zitiert.</note>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch die Dokumente zur Brabantisierung
+                                    von Philipp Rubens vom <ref type="rubens" cRef="ed_rubens_091">15. November
+                                        1606</ref> und <ref type="rubens" cRef="ed_rubens_094">28. April
+                                            1607</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1609-01-19">19. Januar 1609</origDate>
+                            <origPlace>Brüssel</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich 1877 im
+                            Besitz des Baron van Havre.</p>
+                            <p>Ihr heutiger Verbleib ist unbekannt.</p>
+                        </provenance>
+                    </history><additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl>
+                        </source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                                bloedverwanten. Antwerpen 1877, S. 403-406<ptr type="gbv" cRef="146162595"/></bibl></listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Philipp Rubens</term>
+                    <term xml:lang="deu">Naturalisierung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="fra">
+                <p><rs type="person" ref="#albrecht_von_oesterreich">
+                        <hi rend="smallCaps">Albert</hi>
+                    </rs> et <rs type="person" ref="#isabella_von_spanien">
+                        <hi rend="smallCaps">Isabel-Clara-Eugenia</hi>
+                    </rs>, Infante d’<rs type="place" ref="#spanien">Espaigne</rs>, par la grâce de
+                    Dieu, Archiducqz d’<rs type="place" ref="#oesterreich">Austrice</rs>, Ducqz de
+                        <rs type="place" ref="#burgund">Bourgoigne</rs>, de <rs type="place"
+                        ref="#lothringen">Lothier</rs>, de <rs type="place" ref="#brabant"
+                    >Brabant</rs>, de <rs type="place" ref="#limburg">Lembourg</rs>, de <rs
+                        type="place" ref="#luxemburg">Luxembourg</rs> et de <rs type="place"
+                        ref="#geldern">Geldres</rs>, Contes de <rs type="place" ref="#habsburg"
+                        >Habsbourg</rs>, de <rs type="place" ref="#flandern">Flandres</rs>, d’<rs
+                        type="place" ref="#artois">Arthois</rs>, de Bourgoigne, de <rs type="place"
+                        ref="#tirol">Thirol</rs>, <rs type="place" ref="#palatin">Palatins</rs>, et
+                    de <rs type="place" ref="#haynnau">Haynnau</rs>, de <rs type="place"
+                        ref="#holland">Hollande</rs>, de <rs type="place" ref="#zeeland"
+                    >Zelande</rs>, de <rs type="place" ref="#namur">Namur</rs> et de <rs
+                        type="place" ref="#zutphen">Zutphen</rs>, Marquiz du <rs type="place"
+                        ref="#roemisches_reich">St. Empire de Rome</rs>, Seigneur et Dame de <rs
+                        type="place" ref="#friesland">Frize</rs>, de <rs type="place" ref="#salins"
+                        >Salins</rs>, de <rs type="place" ref="#mechelen">Malines</rs>, des Cité,
+                    villes et pays d’<rs type="place" ref="#utrecht">Utrecht</rs>, d’<rs
+                        type="place" ref="#overijssel">Overijssel</rs> et de <rs type="place"
+                        ref="#groningen">Groeninge</rs>, à tous ceulx, qui ces présentes verront,
+                    Salut. Receu avons l’humble supplication de nostre bien-aimé Maistre <rs
+                        type="person" ref="#rubens_philipp"><hi rend="smallCaps">Philippe</hi>
+                        RUBENS</rs>, docteur ès droitz, contenant comme depuis naguères vacant en
+                    nostre ville d’<rs type="place" ref="#antwerpen">Anvers</rs> l’office de
+                    Secrétaire par le trespas de fut <rs type="person" ref="#boghe_jehan"><hi
+                            rend="smallCaps">Jehan</hi> BOGHE</rs>, ceulx de nostre Magistrat illecq
+                    ont trouvé convenir en pourveoir ledict suppliant et est desjà en possession et
+                    combien que ce considéré et que la collation dudict office, comme des aultres
+                    semblables, sans aulcun débat ou contradiction, appertient ausdicts du
+                    Magistrat, il ne debvroit estre permis à qui que ce soit d’y s’opposer ou faire
+                    aulcun obstacle audict suppliant en la joyssance d’icelluy, si est ce toutefoiz
+                    que aulcuns se vantent à ce que l’on entend de vouloir présenter requeste à nous
+                    pour l’impétrer comme vacant, soubz prétext que ledict suppliant, pour estre né
+                    à <rs type="place" ref="#koeln">Couloigne</rs>, ne seroit Brabançon et par ainsi
+                    incapable pour déservir le dict office, en quoy toutesfoiz (soubz très-humble
+                    correction,) il n’y a apparence ny raison, car encoires qu’il soit vray,
+                    qu’estant le père dudict suppliant durant les troubles retiré audict Couloigne,
+                    il y soit nay, ce néantmoins cestuy défault (si aulcun y a) at esté purgé, et
+                    vient à cesser par le consentement des Estatz de nostre pays et Ducé de Brabant,
+                    lesquelz ont déclairé le tenir pour Brabançon suivant l’acte sur ce à nous
+                    exhibé, de tant plus que ses parens, comme natifz de nostre dicte ville
+                    d’Anvers, où que son dict père at diverses foiz esté Eschevin et conséquamment
+                    icelluy suppliant estoit originaire de nostre dict pays de Brabant, et par
+                    ainsi, selon droit et raison, capable pour déservir tous estatz et joyr des
+                    priviléges de nostre dict pays, selon que en tous aultre lieux et villes bien
+                    policées a esté praeticqué et s’y practique journellement, quoy eonsidéré et que
+                    ledict suppliant, de sa jeunessc, a esté nourry en nostre dict pays de Brabant
+                    et, ayant veu le monde, s’est addonné du tout aux estudes, pour, avec le temps,
+                    se faire idoine à nous rendre le service qu’il doibt à ses souverains seigneurs
+                    et princes naturelz, il nous a très-humblement supplié de ne vouloir permettre
+                    que luy soit fait alcun destoursbier on obstacle en ce que dessus, ains que
+                    nostre plaisir soit, en aggréant et confirmant, en tant que besoing soit, le
+                    consentement et déclaration desdicts Estatz, de maintenir et faire maintenir
+                    ledict suppliant en la joyssance des priviléges et prérogatives que son origine
+                    et ladicte déclaration des Estatz luy donnent et signamment au regard dudict
+                    office dont il est en possession et sur ce luy faire despescher noz lettres
+                    patentes wn tel cas pertinentes: sçavoir faisons que, les choses susdictes
+                    considérées et veu le consentement desdicts Estatz de nostre pays et Ducé de
+                    Brabant, nous pour ces causes et aultres à ce nous mouvans, inclinans
+                    favorablement à la supplication et requeste dudict Maistre <hi rend="smallCaps"
+                        >Philppe</hi> RUBENS, suppliant, luy avons consenty, accordé et octroyé,
+                    voullons et déclairons qu’il soit tenu pour originellement nay et naturel
+                    d’icelluy nostre pays et Ducé de Brabant, et commc tel puisse et pourra joyr de
+                    tous et quelzconcques priviléges, franchises et immunitez et déservir tous et
+                    quelzeoncques estatz et offices appertenans et réservez aux naturelz d’icelluy
+                    nostre pays, et particulièrement retenir celluy de secrétaire de nostre ville
+                    d’Anvers, dont il a esté pourveu par ceulx du Magistrat illecq, le tout
+                    nonobstant qu’il ait esté nay en la dicte ville de Couloigne, le mesme Maistre
+                        <hi rend="smallCaps">Philippe</hi> RUBENS (en tant que besoing est)
+                    naturalisant et ès privilèges de cestuy nostre dict pays et Ducé de Brabant, sa
+                    patrie, restituant et redintégrant. Si donnons en mandement à noz très-chiers et
+                    féaulx los Chancellier et gens de nostre Conseil audict Brabant, et à tous
+                    aultres noz justiciers, officiers et subjetz de nostre dict pays et Ducé de
+                    Brabant, ausquelz ce peult ou pourra toucher et regarder, qu’ilz facent,
+                    seuffrent et laissent ledict Maistre <hi rend="smallCaps">Philippe</hi> RUBENS
+                    de ceste nostre présente déclaration et accord plainement et paisiblement joyr
+                    et user, sans luy faire, mettre ou donner, ny souffrir estre fait, mis ou donné,
+                    ores ny en temps advenir, aulcun trouble, destourbier ou empeschement au
+                    contraire, car ainsi nous plaist-il.</p>
+                <closer>
+                    <salute>En tesmoing de ce, nous avos fait mettre nostre séel à ces présentes. Donné en nostre ville de 
+                        <rs type="place" ref="#bruessel">Bruxelles</rs>
+                    </salute>, 
+                    <dateline>le <date when="1609-01-19">dix-neufiesme jour de Janvier l’an de grâce mil-six cent et neuf</date>.
+                    </dateline><lb/> 
+                    <salute>Par les Archiducqz</salute> <lb/> <signed><rs type="person" ref="#verreycken_louis">VERREYCKEN</rs>.</signed>
+                </closer>
+                
+            </div>
+        </body>
+       
+    </text>
+</TEI>

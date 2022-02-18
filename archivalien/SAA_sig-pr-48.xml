@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_138">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Taufakte des zweiten Sohnes von Peter Paul Rubens und Isabella Brant:
+                    Nikolaas Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pr-48">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Sint-Jacobs: Doopregister 1607-1627</collection>
+                        <idno type="signatur">PR 48, fol. 171r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Taufakte des zweiten Sohnes von Peter Paul Rubens und Isabella
+                            Brant: Nikolaas Rubens</title>
+                    </head>
+                
+                    <history>
+                        <origin>
+                            <origDate when="1618-03-23">23. März 1618</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                                bloedverwanten. Antwerpen 1877, S. 18<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Nikolaas Rubens</term>
+                    <term xml:lang="deu">Familie</term>
+                    <term xml:lang="deu">Taufe</term>
+                    <term xml:lang="nld">St. Jacobskerk</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#rubens_nikolaas">Nikolaas Rubens</rs>, gedoopt in <rs
+                        type="corporate" ref="#st_jacob_antwerpen">St. Jacobskerk</rs>, den <date
+                        when="1618-03-23">23<hi rend="super">n</hi> Maart 1618</date>; zijn peter
+                    was S<hi rend="super">r</hi>
+                    <rs type="person" ref="#picheneotti_andreas">Andreas Picheneotti</rs>, in den
+                    naam van S<hi rend="super">r</hi>
+                    <rs type="person" ref="#palavicini_nikolaas">Nikolaas Palavicini</rs>; zijne
+                    meter: S<hi rend="super">a</hi>
+                    <rs type="person" ref="#moy_maria">Maria de Moy</rs>. </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

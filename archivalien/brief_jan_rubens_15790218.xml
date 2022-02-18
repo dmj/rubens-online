@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_314">
+    <!-- ID vergeben -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Jan Rubens an Jan Gillis</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_jan_rubens_15790218">
+                    <msIdentifier><repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Brief von Jan Rubens an Jan Gillis vom 18. Februar 1579</idno>
+                    </msIdentifier>
+                    
+                    <head>
+                        <title>Brief von Jan Rubens an Jan Gillis vom 18. Februar 1579</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1579-02-18">18. Februar
+                        1579</origDate>
+                            <origPlace>Köln</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 213-218<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+              <head>Aen mijn Heere mijn Heere Meester <rs type="person"
+                  ref="#gillis_jan">Jan Gillis</rs></head> <salute>Eerw. wijse, voersinighe Heer
+                        ende beminde neve. </salute>
+                <p> Ick hebbe ghelaten tot noch toe op Uwer E. brief vanden <date when="1579-01-27"
+                        >27 Januarij</date> te antwoerden, deur grooter oorsake dije voerhanden is,
+                    te weten, dat <rs type="person" ref="#gillis_joachim">JOACHIM</rs> Uwer Eer.
+                    sone gheresolveert is binnen thien oft elff daghen af te comen, om met Uwer Eer.
+                    te beraden belanghende sijn houwelijck, dat schijnt dat Godt hem te goeden heeft
+                    toegeschickt, ende grootelijck tsijnen vordeel ende eere ende troost van Uwer
+                    Eer. is. Hij heeft hier kennisse ghecreghen aen eene edele jonghe Jouffrouwe van
+                        <rs type="place" ref="#holland">Hollant</rs>, ghenaempt <rs type="person"
+                        ref="#rapars_isabella">ISABEAU RAPARS, alias van WALEN</rs>, woonende
+                    teghenwoerdich bij hare moeder weduwe, te <rs type="place" ref="#vianen"
+                        >Vianen</rs>. Sij is seer wijs, eerlck ende ghemannieert ende voorts al’wat
+                    eene jonghe dochter mach sijn. Sij heeft ghewoont bij Mevrouwe <rs type="person"
+                        ref="#meghen_frau_van">VAN MEGHEN</rs> ende heeft gracie in Uwer E. sone
+                    ghevonden ende het schijnt dat sij met em wel te vreden soude sijn ende hare
+                    vrinden daertoe lichtelijck verstaen souden: sij heeft soo veel te Hove ghesien,
+                    dat sij liever eenen vanden langhen tabbaert hadde dan eenen hovelinck. Sij
+                    heeft haers vaders goet, te weten, vijf hondert gulden erffelijck in sware
+                    gronden van erve ende chijnsen, ende hacr comen, na de doot vande moeder, noch
+                    drij oft vier hondert ghelijcker gulden. Sij is van dese vier seer edele
+                    cartieren: VANDE RAPARS, VAN WAEL, VAN ERKELEN, VAN ASPEREN. Joachim isser oock
+                    seer toe gheaffectionneert, ende Uwer E. sal lichtelick accorderen belanghende
+                    sijn houwelickgoet. Sijne meyninghe soude sijn, het houwelick voertsgaende, dat
+                    hij een jaer in Hollant blijven soude, ende dan hij Uwer E, comen ende de stadt
+                    inde Weth dienen, oft anderssins soo best gheraden soude worden. De voors.
+                    Jouffrouwe is over vijff weken van hier naer huys te Vianen ghetrocken; JOACHIM
+                    soude gherne, naer Antwerpen comende, daer lanckx sijnen wech nemen ende haer
+                    besueken ende voorts met Uwer Eer. van als communiceren, maer hj is ten huyse
+                    daer hij ghelogeert heeft, voer sijn costen, inde dertich daelders schuldich.
+                    Oock heeft hij wat cleeren moeten maken, soo hij wel van doene hadde ende wel
+                    gherequireet is, dat dese reyse doende, hy wat eerlicker int habijt is. Hij moet
+                    oock wat inde borsse hebben, om aldaer ses oft acht daghen met eenen knecht te
+                    teren; het sal dan van noode wesen dat Uwer E. hem van gelt provideere ende hem
+                    libberalick helpe, soo toch hij sonder gelt van hier niet en mach, ende deur
+                    faute van gelde dese occasie verbij ghaen moechte, daer schijnt dat sijn
+                    welvaren aen gheleghen is. Ick wist hem hier wel gheholpen ende soude daer voer
+                    spreken, maer nu Uwer Eer. niet verder van hier en is, sij en kan in thien
+                    daghen hieraf gheadverteert worden ende wederom antwoerden, soo hebben wy Uwer
+                    Eer. willen orlof vraghen, oft wij hem soo veel doen hebben sullen sonder
+                    interest als wij rekenen sullen ten scherpsten wat hem van noode is, ende oft
+                    Uwer Eer. dat betalen sal, ons tselve wel afnemende, een letterken dat Uwer Eer.
+                    aen mij oft aen <rs type="person" ref="#gillis_joachim">JOCHEM</rs> sal believen
+                    te schrijven, daermede te kennen ghevende dat het voors. geit opghelicht synde,
+                    betaelt sal worden; sal ghenouch sijn om dat te vinden, oft wel mach Uwer Eer.
+                    aen <rs type="person" ref="#chyni_cosmo">COSMO CHYNI</rs> oft ymant anders dijen
+                    aengaende schrijven. Niemant en soude, meynende dienst ende vrintschap te doen,
+                    gherne ondanck hebben. Hoe langher dat Uwer Eer. uytstelt, hoe hij meer verteren
+                    sal, want daer hij is, daer vallen groote costen. Sijnen tijt gaet dese maent
+                    uyt, hij en dient daer niet langher, ende is ghansselijck ghedelibereert thuys
+                    te comen, soo oock hij niet beter en kan ghedoen, maer Uwer Eer. moet terstont,
+                    als desen ontfanghen is, ordoneren dat hij gelt crijghe, om meerder schade
+                    tontghaen, ende dese goede occasie niet te verhinderen. Daer sijn alle weken
+                    twee oft drij ordinarisse boden op Cuelen, soo volcken als desen aencomen is,
+                    tsanderdaechs vertreckt eenen herwaerts. Mijn huys is wel vintbaer, als het
+                    opgheschrift luyt soo volcht: Ten huyse van <rs type="person" ref="#rubens_d">D.
+                        RUEBENS</rs>, onder Spenrenmachere, zu <rs type="place" ref="#gulich"
+                        >Gulich</rs>, naest <rs type="person" ref="#souderman_d">D. SOUDERMAN</rs>,
+                    inde huysinghe vanden Burghemeester <rs type="person" ref="#pijl_buergermeister"
+                        >PIJLL</rs>. Ick wete wel dat dese tijdinghe Uwer Eer. vrempt om hooren sal
+                    sijn, maer ick wil noch een ander schrijven daer Uwer E. haer oock in verblijden
+                    sal. Dat is, dat JOACHIM ghisteren heeft beghost openbaerlick te lesen inde
+                    groot schole vande juristen, titulum: inst. de fidejussoribus. Hij quyt hem seer
+                    wel ende behaell groote eere. Dit heeft hij ghedaen om Uwer Eer. rekeninghe te
+                    gheven van het ghene dat hij hier heeft ghedaen, om hem texerceren, ende om
+                    reputacie ende naem te crijghen. Hier sijn oock wat oosten ghevallen belanghende
+                    de cleeren, want hij wat deghelijcker opten stoel moet compareren. lek en kan
+                    niet vernemen dat hij quade costen ghedaen heeft; dan, hij is eerghirich ende
+                    goet. Uwer Eer. moet haer ghetroosten; hij is gheleert ende van alle ghaven wel
+                    verciert, hij heeft hem daerna moeten draghen. Ick hope dat Uwer Eer. ende allen
+                    de vrinden daerdeur gheeert sullen wesen; oock soo is hier de manniere dat
+                    deghene dije willen licentiaet worden moeten eerst ennighen titel openbaerlick
+                    lesen. JOACHIM hoeft dat beter kunnen doen, omdat hij over langhe in huys sijne
+                    medeghesellen ende jonghers heeft ghedoceert. Uwer Eer. hadde vermaent om hier
+                    sijnen graet van licentie te nemen, daer deur is hij oock ghemoveert gheweest
+                    dat te anticiperen, hoe wel dat hier groote costen vallen int licentieren; het
+                    soude luttel min dan 300 daelders costen; oock en heeft hij daer gheenen grooten
+                    sin toe. Daer schijnt oock niet veel aen te ligghen, als men deur dese lessen
+                    weet dat hij gheleert ghenouch is, ende pretenderende de Stat te dienen, en
+                    soude daarom gheen vordeel hebben. In eenen noot, kant hij dat te Douay oft in
+                        <rs type="place" ref="#frankreich">Vranckerijck</rs> doen sonder grooten
+                    cost. Belanghende voorder de sake van sijn houwelijck. Uwer Eer. sal duncken dat
+                    hij noch te jonck is, ende behoorde te voren de practique ende Franchois ghesien
+                    ende gheleert te hebden, maer als hij totten dienst vander Stat soude verstaen,
+                    soo kant hij dat al leeren inden dienst wesende. Oock soo sijn de tijden soo
+                    dangereus voer de jonghe mans, dat alle wijse ouders behooren gherne te sien dat
+                    de sonen vroech besteden. Hij heeft een ghesont dispost lichaem, het waer jammer
+                    dat bedorven wert, soo lichtelijck soude gheschieden oft mueghelick deur diverse
+                    oorsaken quader comen moecht, als hy niet houwende hier bleef oft voorder in
+                    Vranckerijck oft <rs type="place" ref="#italien">Italien</rs> (soo de jonghe
+                    mans al reysen willen) vertrock. Oock soo is Uwer Eer. oudt; soo oock sijn
+                    grootvader ende grootmoeder ende sijne moeder weeck. Uwer Eer. behoorden seer te
+                    begheren hem ende allen dander binnen uwen leven te besteden, soo om hen beter
+                    te advanceren als om van hen ghedient ende gheert te worden, misgaders te sien
+                    in henne afcompste uwe ontsterfelijckheit. Dat hij soo grooten haest heeft is,
+                    om datter er een ander seer solliciteert, ende wilt hij winnen, hij moet
+                    terstont alle neersticheit ende uyterste vervolch doen, maer hij en kan van hier
+                    niet sonder gelt, want noch ick noch niemant en derf hem assisteren, sonder te
+                    weten oft Uwer Eer. daermede ghedient is. Daerom, wilt, dimportancie vande sake
+                    insiende, terstont hierop antwoorden; hij sal daer na wachten, ende, om min te
+                    verteren, bij mij sijn. Ickk hadde gherne ghesien dat hij selve gheschreven
+                    hadde, maer hij schaempt hem (soo Uwer Eer. soo verwonderen sullen) van deser
+                    saken breet (soo van noode) te rueren, opdat men niet meynen en soude, dat
+                    naeckte liefde hem transporteerde. Hij sal daerna in persoone comen, biddende
+                    dat Uwer Eer. hem, voer dese reyse, excusere ende assistere ende doccasie niet
+                    en late voorbijgaen. Hem ende allen anderen dunckt dat een groot gheluck voer
+                    hem ende Uwer Eer. allen soude wesen, dat hij tot dit houwelick cost ghecomen,
+                    want de dochter al is dat sij soude kunnen sijn, ende het huys ende goet is oock
+                    groot. Uwer Eer. sal voortaen van alle costen ontlast sijn ende sijne reysen
+                    (daer groot perijkle in leet) sullen ghestaeckt wesen ende hij sal thuys (daert
+                    beste is) syn. Ick rade hem dat hij hem exercere mede inde eloquencie ende
+                    stellen bij gheschrifte ende van Uwer Eer. ghane, hooren ende leeren den staet
+                    ende secreten vanden lande ende stadt, ende uwe pampieren ende memorien
+                    oversiene, ende hem fatsonere, om, als Uwer Eer. sal willen rusten, uwen staet
+                    te bedienen. Maer dit moet voer ghaen, men moet het ijser smeden te wijle dat
+                    werm is. Belieft Uwer Eer. na de dochter te vernemen, daer is des griffiers <rs
+                        type="person" ref="#martini_willem">MARTINI</rs> huysvrouwe, dije kentse
+                    wel; sij heeft den voerleden somer <rs type="place" ref="#antwerpen"
+                        >tHantwerpen</rs> bij haer gheweest. Ick en weet niet voorder dan JOACHIM
+                    mij en seet ende opgheeft ende <rs type="person" ref="#aricon">ARICON</rs> oock.
+                    Ick en hebbe de dochter niet ghesien ende en weet anders niet te raden dan dat
+                    niet dan goet en is, dat hij wel houdt, ende dat Uwer Eer. hem daertoe helpe,
+                    ende in allen gheval providere van gelt, om hier te betalen dat hij schuldich is
+                    ende om af te comen, ende dat terstont, opdat meerder inconvenient worde
+                    gheschout. Soo hij ende ARICON segghen, soo ist een groot vordeel, dwelck
+                    ghepresupponeert, en moecht hem deur faute van gelde in dese eerlijcke ende
+                    godlicke sake niet verlaten. Hiermede bevele ick mij ende mijne huysvrouwe
+                    hertelijck aen Uwer Eer. goede gracien ende bidde Godt dat hij ten besten rade
+                    ende leere dese ende allen syne ende uwe saken. </p>
+                <closer>Gheschreven, <dateline>den <date when="1579-02-18">18 Februarij
+                        1579</date></dateline> in <placeName><rs type="place" ref="#koeln"
+                            >Cuelen</rs>.</placeName><salute>Uwer Eer. dienaer ende neve,
+                            </salute><signed><rs type="person" ref="#rubens_jan">J.
+                        RUEBENS.</rs></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

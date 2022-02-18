@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_205">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ritterdiplom Charles’ I. für Peter Paul Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="england_ritterdiplom_16301215">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: Les Armes de la famille Rubens</collection>
+                        <idno>Ritterdiplom Charles’ I. für Peter Paul Rubens vom 15. Dezember 1630</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Ritterdiplom Charles’ I. für Peter Paul Rubens</title>
+                    </head>
+                    <history>
+                        <origin>
+                            <origDate when="1630-12-15">15. Dezember 1630</origDate>
+                            <origPlace>London</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich im 19.
+                                Jahrhundert im Besitz des Grafen van der Stegen in Leuven.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: Les Armes de la famille Rubens</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: Les Armes de la famille Rubens, in:
+                            Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, 1888, S. 65-81</bibl>
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Ritterdiplom</term>
+                    <term xml:lang="deu">Ritterstand</term>
+                    <term xml:lang="deu">Ritterschlag</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="lat">
+                <p><rs type="person" ref="#charles_i_england">Carolus</rs> Dei gratia <rs
+                        type="place" ref="#england">Magnae Britanniae</rs>, <rs type="place"
+                        ref="#frankreich">Franciae</rs> et <rs type="place" ref="#irland"
+                    >Hiberniae</rs> Rex<index indexName="psw">
+                        <term type="PND">Charles (England, King, I.)</term>
+                    </index><index indexName="psw">
+                        <term type="PND">Karl (England, König, I.)</term>
+                    </index>, fidei Defensor, etc., universis et singulis, Regibus, Princibus,
+                    Ducibus, Marchionibus, Comitibus, Baronibus, Proceribus, Dominis ac Nobilibus
+                    quibuscumque ad quos praesentes litterae pervenerint, salutem. Cum nihil habeat
+                    nec natura nostra melius, quam ut velimus, nec fortuna nostra majus, quam ut
+                    possimus virtutem condignis praemiis afficere, et eo dignitatis nos sciamus à
+                    divina bonitate evectos, ut habeant boni quem suspiciant meritorum humanorum
+                    remuneratorem publicum, a Summo proximum, nos ex bonorum numero selegimus <rs
+                        type="person" ref="#rubens_peter_paul">Petrum Paulum Rubenium</rs> ex urbe
+                        <rs type="place" ref="#antwerpen">Antverpiae</rs> oriundum, Serenissimi Regis
+                        <rs type="place" ref="#spanien">Hispaniarum</rs>
+                    <rs type="person" ref="#philipp_iv_spanien">Philippi</rs><index indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index> Secretarium et ejusdem Senatus privati in <rs type="place"
+                        ref="#flandern">Flandria</rs> Consiliarum, serenissimae Infantae <rs
+                        type="person" ref="#isabella_von_spanien">Isabellae Clarae Eugeniae</rs><index
+                        indexName="psw">
+                        <term type="PND">Isabella (Spanien, Infantin)</term>
+                    </index> ex Famulitio Aulico Nobilem et virum, cum, magno erga nos et subditos
+                    nostros affectu et meritis, nobis apprime charum, tum vero maxime, insigni erga
+                    Regem Dominum suum fide et morum sapientia scientiaeque rerum, quibus ingenii et
+                    generis sui nobilitatem illsutravit, Regiae nostrae curiae commendabilem, quin
+                    etiam memores sumus quanta integritate et industria sese publicae tranquilitatis
+                    necnon pacis inter Nos et Regem suum novissime sanctiae studiosum apud nos
+                    praestitit, quamobrem Nos, in affectus Nostri et virtutis suae monumentum
+                    supradicto Petro Paulo Rubenio ad avitam nobilitatem insuper Equitis aurati
+                    gardum contulimus, eaque illum dignitate lubenter merentem insignivimus, tum
+                    gladium quo Equitem creavimus ipsi dono dedimus, atque ut gratiae nostrae etiam ad
+                    posteros ejus luculentum aliquod argumentum derivetur, maturo consilio, certa
+                    scientia et plenitudine Regiae nostrae potestatis, ejusdem Petri Pauli Rubenii
+                    clypeo armorum gentilitiorum additamentum ex insignibus nostris regiis
+                    excerptum, videlicet Leonem aureum in cantone rubro, sicut in margine praesentium
+                    clarius depictum cernitur, adjunximus. Volentes et confirmantes quod praefatus
+                    Petrus Paulus Rubenius et haeredes ejus masculi de corpore suo legitime procreati
+                    additamentum praedictum in clypeis et insignibus suis gestare atque uti possint
+                    in perpetuum, eademque haec omnia et singula Serenissimos Regem Hispaniarum et
+                    Archiducissam <rs type="place" ref="#oesterreich">Austriae</rs> praefatos grata
+                    habituros minime dubitamus.</p> <closer><salute>In quorum testimonium has litteras nostras fieri
+                    fecimus patentes.</salute>
+                        <dateline> Dat. apud Palatium nostrum <rs type="place" ref="#westminster"
+                        >Westmonasteriense</rs>
+                    <date when="1630-12-15">decima quinta die Decembris, anno regni nostri sexto,
+                        verum a Virginis partu salutifero supra millesimum sexcentesimum
+                        tricesimo</date>.</dateline>
+                    </closer>
+            </div>
+        </body>
+       </text>
+</TEI>

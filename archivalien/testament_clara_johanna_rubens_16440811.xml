@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_303">
+    <!-- ID vergeben -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Testament der Clara-Joanna Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+                
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="testament_clara_johanna_rubens_16440811">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Testament der Clara-Joanna Rubens vom 11. August 1644</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Testament der Clara-Joanna Rubens vom 11. August 1644</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1644-08-11">11. August
+                        1644</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 82-84<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <dateline>Die <date when="1644-08-11">11 Augusti 1644</date>.
+                    </dateline>
+                <p>Compareerde Jouffrouwe <rs type="person" ref="#rubens_clara_johanna">CLARA-JOHANNA RUBENS</rs>, dochtere van wylen Heer <rs type="person" ref="#rubens_peter_paul">PIETRO-PAULO
+                    RUBENS</rs>, Riddere, Heere van Steen, etc. out ontrent derthien jaeren, soo sy
+                    verclaerde, my Notario bekent synde, ende bekende ende verclaerde dat sy,
+                    aenmerckende der menschelycker natueren broosheyt, datter nyet sekerder en is
+                    dan die doot, ende nyet onsekerder dan d'ure derselver, daeromme met
+                    welbedachten sinnen onbedwongen ende onverleyt synde van iemanden, soo sy
+                    verclaerde, gemaeckt, gesloten ende geordonneert heeft mits desen haer testament
+                    ende vuyttersten wille inder vuegen ende mannieren naevolgende, willende ende
+                    vuytterlyck begeerende, etc. nyettegenstaende, etc. </p>
+                <p> Inden iersten, soo bevoelde de voors. testatrice haere siele nu ende soo wanneer
+                    die vut haer lichaem scheyden sal, Godt Almachtich, fontaine der bermherticheyt,
+                    den gebeden synre Heyligher ende gebenedyder Moeder ende Maget Maria ende van
+                    allen den hemelschen geselschappe, ende haer doot lichaem der gewyden aerden,
+                    kiesende haer begraefenisse inde capelle voor haeren vader gemaect in Sint
+                    Jacobskercke alhier, laetende ende maeckende aen JONCKERS <rs type="person" ref="#rubens_albert">Albert</rs> ende <rs type="person" ref="#rubens_nikolaas">NICOLAES
+                    RUBENS</rs>, haere halve broeders, elcken van hun de somme van vyftich guldenen eens,
+                    deselve daerinne instituerende ende willende dat sylieden daermede sullen blyven
+                    vuytten sterffhuys ende goeden by haer achter te laetene. </p>
+                <p> Ende daermede commende tot dispositie van alle ende iegelycke haere goeden,
+                    ruerende ende onruerende, haeffelycke ende erffelycke, allomme waer ende tot wat
+                    plaetsen die gelegen syn ende bevonden sullen worden, haeren sterffhuyse te
+                    competerene, egeene daeraff vutgenomen noch gereserveert, alle deselve heeft de
+                    voors. testatrice gegeven, gemaeckt ende gelaeten, gelyck sy geeft, laet ende
+                    maeckt mits desen, aen haere broeders ende susters van geheelen bedde, daer
+                    moeder aff is Vrouw <rs type="person" ref="#fourment_helene">HELENA FOURMENT</rs>, om alle ende yegelycke deselve goeden
+                    terstont naer de doot ende afflyvicheyt van haer testatrice byde voorgenoempde
+                    haere broeders ende susters oft, ingevalle van eenighe minderjaericheyt, by
+                    hunne momboirs tot heurlieder behoeff aenveert ende geapprehendeert te worden,
+                    die gelyckelyck te scheyden ende te deylen ende hunnen vryen wille daermede te
+                    mogen doen, sonder tegenseggen van iemanden, in eeniger mannieren, deselve haere
+                    broeders ende susters van geheelen bedde daerinne instituerende met vollen
+                    rechte van institutie ende haere gerechte erffgenaemen noemende mits desen. </p>
+                <p> Ende waert dat yemant van deselve haere broeders ende susters alnoch
+                    minderjaerich synde ende sonder van syne goeden gedisponeert te hebben quam
+                    afflyvich te worden, soo begeert ende ordonneert de voors. testatrice dat
+                    desselffs afflyvigens kints paert ende contingent in haere achtertelaetene
+                    goeden sal toecommen, succederen ende devolueren op haere andere heel broeders
+                    ende susters alsdan levende, oft by gebreke van hun, op hunne wettige kinderen
+                    ende descendenten, maer by aldyen alle de voors. haere broeders ende susters, in
+                    heure minderjaericheyt ende sonder hoir achter te laeten, quamen afflyvich te
+                    worden, dat alle deselve haere goeden sullen devolueren opde voorgenoemde Vrouw
+                    HELENA FOURMENT, haere moeder, alle deselve daerinne oyck instituerende ende
+                    substituerende mits desen, ende dit al mits diversche redenen haer testatrice
+                    daertoe porrende ende moverende, soo sy verclaerde; van allen dwelck, etc.</p>
+                <closer><salute> Actum <rs type="place" ref="#antwerpen">Antverpiae</rs>, ten huyse myns Notaris aende Borsse der
+                    cooplieden gestaen, ter presentien van <rs type="person" ref="#langhenberge_andreas">ANDRIES VAN LANGENBERGE</rs> ende <rs type="person" ref="#guyot_daniel">DANIEL
+                        GUYOT</rs>, incolis testibus.</salute>
+                    <signed><rs type="person" ref="#rubens_clara_johanna">CLARA-JOANNA RUBENS</rs>,</signed>
+                    <signed><rs type="person" ref="#langhenberge_andreas">A. VAN LANGHENBERGHE</rs> ut testis.</signed>
+                    <signed><rs type="person" ref="#guyot_daniel">D. GUYOT</rs> ut testis. </signed>
+                    <signed><rs type="person" ref="#guyot_toussaint">T. GUYOT.</rs></signed>
+                </closer>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

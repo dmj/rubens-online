@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_234">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens und Junker Pauwels van Halmale haben als testamentarischer
+                    Vormund der Kinder des verstorbenen Jan Brueghel 56 Gulden von Elisabeth
+                    Smeeters empfangen, aus einer Erbrente auf das Haus De Swaene in der
+                    Beddenstraat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-642">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1637/ III: Jaspers, B. vanden Berghe jr., Breusegem
+                            &amp; Hemselroy</collection>
+                        <idno type="signatur">SR 642, fol. 102v-103r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens und Junker Pauwels van Halmale haben als
+                            testamentarischer Vormund der Kinder des verstorbenen Jan Brueghel
+                            56 Gulden von Elisabeth Smeeters empfangen, aus einer Erbrente auf
+                            das Haus De Swaene in der Beddenstraat</title>
+                    </head>
+                  
+                    <history>
+                        <origin>
+                            <origDate when="1637-11-12">12. November 1637</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Rente</term>
+                    <term xml:lang="deu">Immobilien</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Jonker <rs type="person" ref="#halmale_pauwel">Pauwels van Halmale</rs> onsen
+                    medescepene inde weth alhier inde name ende als testamentelycke momboir<index
+                        indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormundschaft</term>
+                    </index> (beneffens Heer <rs type="person" ref="#rubens_peter_paul">Petro Paulo
+                        Rubbens</rs>, riddere daar voire hij hem midts desen sterckmaekt) over de
+                    kinderen van wijlen <rs type="person" ref="#brueghel_jan_aeltere">Jan
+                        Bruegel</rs><index indexName="psw">
+                        <term type="PND">Breughel, Jan (der Ältere)</term>
+                    </index>, daer moeder aff was Juffrouwe <rs type="person"
+                        ref="#marienberghe_catharina">Catharina van Marienberge</rs>, bekende midts
+                    desen opgebeurt ende ontfangen te hebben van <rs type="person"
+                        ref="#smeesters_elisabeth">Elisabeth Smeesters</rs>, jonge dochter, de
+                    capitale penninge vande sessenvijftig gulden ende vijff stuyvers erfelijk,
+                    quytbare den penninge sesthiene die huns van voor de cooper werckelick de <date
+                        when="1630-02-16">16 Februari anno 16<hi rend="super">c</hi> ende
+                    dertig</date> vercocht ende bepant heeft der voors. kinderen Jans Bruegel op een
+                    huys metten gronde ende toebehoirte gestaen ende gelegen in ’t Beddestraatken
+                    alhie naast den hoeckhuyse genaemt De Swaene<index indexName="stw">
+                        <term xml:lang="nld">De Swaene</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="nld">De Swane</term>
+                    </index>, al prout literas quas tradidit quitant ende gelovende ende gebracht
+                    aende affquytinge voors. hoc promisit de voors. heer comparant satisfacere ende
+                    obligavit specialyck een rente van twee hondert ende vijvenseventich guldens
+                    erfelijk gereduceerde rente, die de voorscreven heffende sijn op dese stadt van
+                        <rs type="place" ref="#antwerpen">Antwerpen</rs> staende te boeken sub Nr
+                        2150,</p> <closer>
+                            <salute>sonder argelist.</salute><lb/>
+                    <dateline><date when="1637-11-12">Duodecim Novembris 1637</date>.<lb/> Solutum 24 st., P. 3 st. </dateline>
+                        </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

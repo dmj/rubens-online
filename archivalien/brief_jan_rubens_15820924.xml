@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_315">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Jan Rubens an Graf Johann von Nassau</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_jan_rubens_15820924">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                        en zijne bloedverwanten</collection><idno>Brief von Jan Rubens an Graf Johann von Nassau vom 24. September 1582</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Brief von Jan Rubens an Graf Johann von Nassau vom 24. September 1582</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1582-09-24">24. September 1582</origDate>
+                            <origPlace>Köln</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 221-227<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <salute>Monseigneur!</salute>
+                <p> J’ay receu la lettre qu’il a pleu a v. Ill. S. m’escrire, et entendu ce qu’en
+                    vertu d’icelle le Docteur <rs type="person" ref="#christianus_andreas"
+                        >CHRISTIANI</rs> m’a dict, à sçauoir que ie m’eusse contre le <date
+                        when="--11-01">premier du Nouembre</date> à transporter à <rs type="place"
+                        ref="siegen">Sighen</rs>, sans auoir volu autrement asseurer ma personne.
+                    Sur quoy ie luy ay allégué mes excuses, telles, qu’il a trouué bon que ie les
+                    eusse préallablement à représenter par escrit à v. Ill. S. ce que par cestes en
+                    toute réuérence ie feray, priant très-humblement que les vueillés prendre de
+                    bonne part, et y auoir le regard que le comble de nostre entière ruine qui de
+                    ceste venue suist, requiert, et vostre accoustumée piété vous enseigne. </p>
+                <p>Premièrement, Monseigneur, le Duc de Brabant mon souuerain maitre et Seigneur,
+                    par son edict daté le <date when="1582-09-10">10<hi rend="super">e</hi> de ce
+                        mois</date>, et depuis publié en <rs type="place" ref="#antwerpen"
+                        >Anvers</rs>, m’appelle, sur peine de confiscation de biens et note d’estre
+                    tenu pour ennemy auec tous aultres qui se treuuent absens en lieu neutrel, pour
+                    venir proposer noz excuses endedans six septmaines prochaines, terme propre que
+                    v. Ill. S. me prescript que ie vienne a Sighen, et comme Monseigneur <rs
+                        type="person" ref="#oranien_nassau_moritz">le Prince d’ORANGES</rs> est auec
+                    les autres Estats aussi de cest aduis, je puis dire qu’il ne veult point que ie
+                    vous aille trouuer. Je supplie doncques, que v. Ill. S. ne vueille estre cause
+                    que je perde mes biens ou bien se daigne de faire mes excuses, car je ne sçay
+                    quel prétext prendre pour iustifier ceste allée vers vous. </p>
+                <p>Secondement, le Magistrat de ceste ville m’a commandé auec touz aultres qui ne
+                    sont de leur religion, de vuyder la ville et, pour cela, sommes nous aussi en
+                    peine ne sachans que faire, et où deuenir, si d’auenture nostre retour au pays
+                    pouuoit estre excusé ou que v. Ill. S. l’empeschast. Or, Monseigneur, ie ne puis
+                    sans félonie, en ceste persécution, délaisser ma femme et enfans. </p>
+                <p>Tiercement, nous auons une fille<index indexName="psw">
+                        <term xml:lang="deu">Rubens, Blandina</term>
+                    </index>, laquelle nous traictons de marier bientost auec vn homme de bien; si
+                    maintenant, deuant la conclusion. il me fault obéir è vostre commandement, ce
+                    mariage et tout aultre est rompu, quand personne ne vouldroit prendre vne dont
+                    le père estoit en prison, et si asprement et longuement poursuiui par si grands
+                    personnages, pour telle cause qu’est, élas! la mienne. </p>
+                <p>Quartement, pour sauver ma vie, et sortir de seruitude, mesmes pour le regard de
+                    nos enfans, pour les instuire et aduancer, nous auons donné plus que n’estoit
+                    nostre portée, lors qu’auions espérance que nos parens nous laisseroient quelque
+                    chose, et maintenant la calamité commune du temps leur a osté, et si ie reviens
+                    là, tout cela retourne quant et quant, et l’aultrè m’est empesché. </p>
+                <p>Pour le cincquiesme, nous sommes si très-pauures, qu’il me conuient nuict et iour
+                    trauailler pour gaigner le petit pain quotidien pour mes sept enfans,
+                        femme<index indexName="psw">
+                        <term xml:lang="deu">Pypelincx, Maria</term>
+                    </index> et ma personne, par quelque labourieuse practique, que ma profession de
+                    loix me donne, et ay maintenant trois ou quatre bonnes causes en main de
+                    certains bons Seigneurs qui sont absens et s’en reposent entièrement sur moy,
+                    lesquelles ie ne puis, en ceste coniunctur, sans irréparable dommage et nostre
+                    destruction leur abandonner; i’ay eu beaucop de peine pour y paruenir, et si
+                    maintenant ie ne les puis acheuer pour m’en aller d’icy, i’auray perdu ma peine
+                    et practique auec nostre grande confusion et charge, et n’aurons plus nul moien
+                    pour viure, ayans dernièrement, à la surprinse de Lire, perdu aussi tout ce que
+                    nous restoit, mesmes en espérance, s ‘en estant l’ennemi saisy tant des muebles
+                    que des fons de terre que nous et nos parens là et à l’enuiron y auons eu, comme
+                    aussi sous <rs type="place" ref="#breda">Breda</rs> il a naguerres bruslé une
+                    bonne maison et celle petite pension que, pour alimenter un si grand mesnage,
+                    nous doibt v. Ill. S., vient si lentement, et par dessus cela, il nous fauldra
+                    rompre nostre maison, et que quelques gens de bien qui logent auec nous, et nous
+                    aident à viure, nous laissent ; mesmement ma femme ne pourra plus continuer sa
+                    petite trafique qu’elle faict, estant délibérée de me suiure, ou pour ce,
+                    qu’elle ne pourra doresenauant trouuer personne qui nous vouldra fyer, et
+                    perdrons nostre crédit, comme il aduient aux gens affligez et prisonniers, et
+                    nous ne faisons rien sinon sur crédit. Je taise que nous ne sçaurons comment
+                    recouurer ce qu’on nous doibt, et payer ce que debuons, de sorte qu’il nous
+                    fauldra mourir de faim, nous estant pas vous osté le moien de viure, et nos
+                    enfans sen iront perduz. </p>
+                <p>Pour le sixiesme, jo suis malade d’vne maladie incurable et parfois intolérable,
+                    laquelle a prinse son commencement en celle longue et estroicte prison, où i’ay
+                    tant souffert, et depuis tousiours par l’une ou l’aultre voye, et me faict du
+                    tout inhabile à voyager, ne pouuant aller n’à cheual n’à chariot, moins à pied
+                    sans vn inéuitable empirement et excessiue douleur, comme aussi ie ne puis estre
+                    esloigné du médicin qui me soulage le mieulx qu’il peut, et auec ccla ie n’ay
+                    nul moien pour me faire accompagner comme mon mal requierd bien, moins de
+                    l’argent pour despendre par le chemin en hostelries et en prison, mesmement le
+                    chemin est mal seur, plain de voleurs, et i ay tant d’ennemiz par tout que ie ne
+                    m’y ose fyer. </p>
+                <p>Et pour tout dire, Monseigneur, ie me trouue pas (è correction) la cause sur
+                    laquelle est fondè le rappel, bastante ou telle, qu’elle ne puisse aussi bien
+                    estre traictée icy comme par delà, car posé le cas que l’enfant m’apertient,
+                    pour cela (ayant esté telle dès le commencement et tousiours vostre opinion et
+                    persuasion) ma punition ne doibt estre plus grièue pourtant, et si maintenant on
+                    en doubte, et l’on sen veult mieulx esclaircir, quant à moy, ie ne feray iamais
+                    nulle difficulté d’en dire et escrire icy sur mon serment tout ce que j’en sçay
+                    è la vérité et sans cela mes itératiues confessions que si souuent partout ay
+                    faict son entre voz mains. Je ne puis imaginer ce qu’on y pourroit requérir
+                    d’auantaige, s’on ne veult sur ce prétext m’oster la peur, pour cuider me faire
+                    venir plus volontiers sans autre arrière pensée, et puis, le laissant, faire mon
+                    procès au principal. </p>
+                <p>Il me souuient Monseigneur, autre fois à vostre réquisition auoir au long
+                    démonstré, par viues raisons et indubitables passages de droict, que le dit
+                    enfant doibt, en toute maniere, estre réputé et tenu pour légitime, et qualifiè
+                    à succeder, auec les autres enfans légitimes, ès biens tant de son Excellence,
+                    que de la mère, non obstant que son Excellence ne le vueille cognoistre pour
+                    sien et le désaduoue. Et lorsqu’il fust, hors de doubte, notoirement spurius,
+                    que la mère tousiours luy pouuoit laisser , par testament et donnation, quelque
+                    chose selon son estat, pour son alimentation ou dot, et qu’elle y estoit tenue,
+                    voire les biens qu’elle peult auoir laissé. </p>
+                <p>D’autre part Monseigneur, celle condition en vertu de laquelle vostre Ill. S.
+                    m’appelle, n’est point pour-parlée effectuelement assauoir qu’elle doibue opérer
+                    contre moy, mais pro forma pour vostre plus grande satisfaction enuers les
+                    autres Seigneurs, non que de faict l’on me vouldroit par là contraindre de
+                    retourner vn iour et recommencer mes misères (comme assés expressément porte
+                    l’escrit sur ce faict à part, et vostre agent a veu) mais qu’il failloit par là
+                    iustifier enuers les moins miséricordieux vostre grâce, de laquelle vsiés auec
+                    moy. Or ce n’est pas raison (sauue vostre réuérence,) que ce que, pour bon
+                    respect, a esté obmis à coucher en termes exprès, soit portant oublié, et qu’on
+                    s’arreste seulement au pied de la lettre, sans vouloir admettre la susdite
+                    modification; voire Monseigneur, pour plus grande asseurance mienne, il y est
+                    adiousté, afin que ie n’eusse nulle peur, qu’aduenant qu’on me rappellast, que
+                    l’on nous rendroit incontinent nostre argent, et que nostre réciproque contract
+                    seroit annullé. </p>
+                <p>De quoy Monseigneur, et de ce que dessus, nous supplions très-humblement, par la
+                    passion de nostre commun Sauueur et Seigneur JESUS-CHRIST, que vostre Ill. S.
+                    pour le présent se vueille contenter, sans remettre c’est affaire préiudiciable
+                    aux autres enfans, qui sont maintenant grands, de nouueau sur le burreau en la
+                    bouche des gens, et ouurir ceste playe que si longtemps a saignée, et maintenant
+                    s’en alloit bellement cicatriser, et me ruiner auec les miens qu’auons assés en
+                    vers les hommes souffert, de fons en comble, maintenant que ne le pourriés faire
+                    auec si bonne raison, qu’aués bien peu deuant vnze ans et demy. Au reste, ie ne
+                    désire rien plus qu’obéir à vos commandemens, et mourir, s’il est besoing, pour
+                    vostre seruice; mais s’il se peult faire, pour l’honneur de Dieu, que, pour
+                    ceste fois, en saison tant malpropre, ie soye excusé me venir perdre, maintenant
+                    que plus que, par double prescription, mon délict, selon droict, est faict
+                    impunissable, et qu’ay tant souffert iusques à auoir gousté plus qu’vne fois la
+                    mort, comme vostre Ill. S. sçait très-bien, et que, d’autres costez, sommes tant
+                    persécutès et affligés, et pourtant Monseigneur, nous confyans en vostre
+                    clémence, nous supplions derechef, par voz vertus propres et tout ce qu’il y a
+                    de sacré au ciel et en la terre, que vueillés généreusement maintenir saufs,
+                    ceulx qu’aués miséricordieusement sauvés et qui vous sont très-humbles esclaues
+                    sans iamais auoir failly, en nous laissant (sans plus troubler,) iouyr de ce peu
+                    de vie que nous reste assés pesante, sans me contraindre de venir mourir
+                    (encores que de vostre part il n’y auroit nul mal,) de pur regret et douleur, et
+                    donner occasion que nous nous perdions et précipitions tous de désespoir.
+                    J’escris d’autant plus lamentablement et rondement, que vostre Docteur ne me
+                    sceut ou voulut dire ce qu’on feroit de moy, après ma venue: tant seulemént,
+                    auec vne contenance séuère, en peu de parolles, restraignant ses espaules, il se
+                    faisoit oyr, que Monseigneur le Lantgraue vouloit faire vne fin de la fillette
+                    et qu’il nous rendroit nostre argent, monstrant, au reste, que j’estois en grand
+                    danger, comme certes pour bien l’on ne nous rendroit le dit argent, pour le
+                    moins point sans préallables prières, ce que nous a, maintenant que pensions
+                    estre vn peu à repos et commencions quitter celle longue et hideuse peur,
+                    tellement estonnés el troublés, que sommes comme transix et hors de nous et
+                    auons besoing que vostre clémence nous face, par vne bonne response, reuenir, et
+                    nous en sçaurons le bon gré a vostre pieté, comme ceux, qui, par la seconde
+                    fois, reccuons la vie d’elle, sont tenuz. </p>
+                <p>Sur quoy Monseigneur, attendant vostre bénigne dispensation, pour le moins, pour
+                    ceste fois, nous prierons le bon Dieu, qu’il vous maintienne en sa sauuegarde,
+                    vous gouuerne par l’esprit de prudence, équité et force, et vous enrichisse de
+                    toutes sortes de bénédictions. </p>
+                <closer rend="text-align:center">De<placeName><rs type="place" ref="#koeln"
+                    >Couloigne</rs>,</placeName><dateline rend="text-align:center">le <date when="1582-09-24">24 iour
+                            de Septembre 1582</date>. </dateline>
+                </closer>
+                <closer><salute>A Monseigneur Seigneur <rs type="person"
+                            ref="#nassau_johan">JEAN COMTE de NASSAU</rs> Catzenellenbogen à
+                        Dillenbourg</salute></closer>
+                <closer rend="text-align:right"><salute rend="text-align:right">De vostre Illustre Seigneurie, très-humble
+                    serviteur et prisonier,</salute><signed rend="text-align:right"><rs type="person" ref="#rubens_jan"
+                            >Jean RUEBENS.</rs></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

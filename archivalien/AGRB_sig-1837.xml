@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_121">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Auszahlungsbefehl über 250 Gulden von Erzherzog Albrecht an Juan de Elorde y
+                    Silva, der für diesen Betrag einen Kelch gekauft und diesen in Albrechts Namen
+                    anlässlich der Taufe von Albert Rubens den Eltern dediziert hatte</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="AGRB_sig-1837">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Brüssel</settlement>
+                        <repository>Archives générales du Royaume (AGRB)</repository>
+                        <collection>Chambre des Comptes</collection>
+                        <idno type="signatur">Nr. 1837, fol. 288r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Auszahlungsbefehl über 250 Gulden von Erzherzog Albrecht an Juan
+                            de Elorde y Silva, der für diesen Betrag einen Kelch gekauft und
+                            diesen in Albrechts Namen anlässlich der Taufe von Albert Rubens den
+                            Eltern dediziert hatte</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           
+                            <filiation>
+                                <note resp="A.H." type="footnote">Zur Taufe von Albert Rubens vgl. das Dokument vom
+                                <ref type="rubens" cRef="ed_rubens_120">5. Juni 1614</ref></note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1614-07-17">17. Juli 1614</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Marcel De Maeyer: Albrecht en Isabella en de schilderkunst : bijdrage tot de
+                                geschiedenis van de XVII.-eeuwsw schilderkunst in de zuidelijke Nederlanden.
+                                (Verhandelingen van de Koninklijke Vlaamse Academie voor wetenschappen, letteren
+                                en schone kunsten van België. Klasse der Schone Kunsten. Bd. 9) Brüssel 1955. S.
+                                311, Nr. 97</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Albert</term>
+                    <term xml:lang="deu">Taufe</term>
+                    <term type="psw" xml:lang="deu">Albrecht (Österreich, Erzherzog, VII</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="spa">
+                <p> El Archiduque <rs type="person" ref="#albrecht_von_oesterreich">Alberto</rs>
+                        ett<hi rend="super">a</hi>
+                    <rs type="person" ref="#rovelasca_antonio">Antonio Rovelasca</rs>, thessorero
+                    primero de mi camara, de quales quier dineros que ayan entrado en vuestro poder
+                    para el gasto de mi cassa, dareis a <rs type="person" ref="#silva_juan">Juan de
+                        Elorde y Silva</rs>, garda joyas y ropa de la Infante mi Señora<index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
+                    </index>, docientos y cinquanta florines de a veinte placas cada florin, que se
+                    le dan para pague un copon de plata dorada, que compro y mande que le diese en
+                    mi nombre a <rs type="person" ref="#rubens_peter_paul">Rubens</rs>, pintor, por
+                    un hijo que le mande sacar de pila, por le que no se ha de hacer cargo a persona
+                    alguna; y tomareis su carta de pago, con la qual y esta cedula, sciendo señalada
+                    del <rs type="person" ref="#anober">conde de Añober</rs>, nuestro mayordomo mayor y mi sumiller de corps; y tomada la
+                    raçon por <rs type="person" ref="#mendoza_pablo">Pablo de Mendoza</rs>, mi
+                    greffier, seran biendados los dichos 250 fl. y os seran recividos en quenta
+                    fechada en <rs type="place" ref="#bruessel">Bruselas</rs> a <date
+                        when="1614-07-17">diez i siete de julio mill y seiscientos y
+                    catorze</date> años. Alberto. Por mandado de Su Alteza, <rs type="person"
+                        ref="#suarez_antonio">Antonio Suarez de Arguello</rs>. Tomo la raçon Pablo
+                    de Mendoza. </p>
+            </div>
+        </body>     
+    </text>
+</TEI>

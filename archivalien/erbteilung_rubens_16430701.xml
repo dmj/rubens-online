@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_302"><!-- ID vergeben -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verteilung des Nachlasses von Peter Paul Rubens. Urkunde des Notars Toussaint Guyot vom 1. Juli 1643 zur Erbteilung zwischen Helena Fourment und Nikolaas Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="erbteilung_rubens_16430701">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Urkunde des Notars Toussaint Guyot vom 1. Juli 1643 zur Erbteilung zwischen Helena Fourment und Nikolaas Rubens</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Verteilung des Nachlasses von Peter Paul Rubens. Urkunde des Notars Toussaint Guyot vom 1. Juli 1643 zur Erbteilung zwischen Helena Fourment und Nikolaas Rubens</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1643-07-01">1. Juli 1643</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                     
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 81f.<ptr type="gbv" cRef="146162595"/></bibl>
+                            
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld"><dateline>Die <date when="1643-07-01">prima Juli 1643</date>.</dateline>
+                <p>Joncker <rs type="person" ref="#rubens_nikolaas">NICOLAES RUEBENS</rs>, Heer van <rs type="place" ref="#rameye">Rameye</rs>, gehout ende 
+                    syne selfs synde, my Notario bekent synde, ende bekende ende verlyde opgebeurt ende ontfangen te hebben van Vrouwe <rs type="person" ref="#fourment_helene">HELENA 
+                        FOURMENT</rs>, weduwe van wylen Heer <rs type="person" ref="#rubens_peter_paul">PIETRO-PAULO RUEBENS</rs>, 
+                    Riddere, etc. syne schoonmoedere, de somme van seventhien duysent 
+                    ende vyff hondert guldenen eens, over den coop van syn vierde 
+                    paert van negen differente parceelen van erffgoeden ende renten die 
+                    hy comparant opden <date when="--05-29">negenentwintichsten dach der maent van 
+                    Meye</date> lestleden voor Schepenen deser stadt haer vercocht ende getransporteert heeft, welcke penningen by hem bekeert ende geemployeert syn totten coope vande voors. heerlyckheyt van Rameye, scheldende de voorgenoemde Vrouwe HELENA FOURMENT, 
+                    syne schoonmoeder, ende hare naecommelingen daeraff van al tot al 
+                    claerlyck quyte tallen daegen. Geloovende, etc. Geloovende voorts 
+                    de voors. comparant alle deselve transporten te ratificeren ende 
+                    tapproberen, besundere ten respecte vande renten tot <rs type="place" ref="#bruessel">Brussel</rs> ende in 
+                    <rs type="place" ref="#flandern">Vlaenderen</rs> gelegen, soo wanneer hy tot behoorlycken ende competenten ouderdom vande jaren daertoe gerequireert gecomen sal 
+                    wesen, verbindende daervore se et sua ende speciaelyck syn vierde 
+                    paert vande groote huyssinge metten hove, gronde ende toebehoorten, gestaen ende gelegen aenden Wapper alhier, daerinne wylen 
+                    synen voors. Heer vaeder gestorven is ; constituerende voorts 
+                    onwederroepelyck <gap reason="illegible"/>, om allen tselve voor Schepenen deser 
+                    stadt te vernieuwen ende anderwerven te passeren.</p><closer><salute> Actum 
+                    <rs type="place" ref="#antwerpen">Antverpiae</rs>, praesentibus ut ante.</salute> 
+                    
+                        <rs type="person" ref="#rubens_nikolaas">NICOLAES RUBENS</rs>.</closer> 
+                    
+                
+            </div>
+        </body>
+    </text>
+</TEI>

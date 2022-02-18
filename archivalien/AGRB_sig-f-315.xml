@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_231">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rubens wird für Gemälde bezahlt, die er im Auftrag Philipps IV. für dessen
+                    Landsitz El Pardo ausgeführt hat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="AGRB_sig-f-315">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Brüssel</settlement>
+                        <repository>Archives générales du Royaume</repository>
+                        <collection>Archives de la chambre des comtes</collection>
+                        <idno type="signatur">Registre n° F. 315</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens wird für Gemälde bezahlt, die er im Auftrag Philipps IV.
+                            für dessen Landsitz El Pardo ausgeführt hat</title>
+                    </head>                    
+                    <msContents>
+                        <msItem>                            
+                            <filiation><note resp="A.H." type="footnote">Zur Bezahlung der Bilder für den Landsitz El Pardo
+                                vergleiche auch die Eintragungen aus den Jahren <ref type="rubens"
+                                    cRef="ed_rubens_235">1637</ref> und <ref type="rubens" cRef="ed_rubens_239"
+                                        >1638</ref>.</note></filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1636-12-09">9. Dezember 1636</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Svetlana Alpers: The Decorations of the Torre de la
+                                Parada (Corpus Rubenianum Ludwig Burchard. Bd. 9). Brüssel 1971. S.
+                                280-288<ptr type="opac" cRef="125032544"/></bibl>
+                            <bibl>Alexandre Pinchart: Archives des arts, sciences et
+                            lettres: documents inédits publiés et annotés. Bd. 2. Gent 1860 (Neudruck:
+                            Brüssel 1994), S. 173<ptr type="gbv" cRef="231294484"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p> A messire <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubbens</rs>,
+                    chevalier, secrétaire du conseil privé du roy<index indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index>, la somme de 2.500 livres, en tant moings de 10.000 livres que son
+                    Altéze, par son ordonnance du <date when="1635-12-09">9 de décembre
+                    dernier</date>, at ordonné ly estre furniz à bon compte de ce que consteront les
+                    peintures que sadicte Altèze ait faict fair par ordre exprès de Sa Majesté, et
+                    pour ornement de certain maison de plaisance d’icelle au <rs type="work" ref="#torre_parada">Pardo</rs><index
+                        indexName="stw">
+                        <term type="SWD" xml:lang="spa">El Pardo</term>
+                    </index><index indexName="stw">
+                        <term type="GKD" xml:lang="spa">Madrid<index indexName="stw"><term xml:lang="spa">Palacio Real</term></index></term>
+                    </index><index indexName="stw">
+                        <term xml:lang="spa">Torre de la Parada</term>
+                    </index>, et ce en quatre termes.<note resp="A.H." type="footnote">Zu den
+                        Zahlungen vgl. <bibl>Svetlana Alpers: The Decorations of the Torre de la
+                            Parada (Corpus Rubenianum Ludwig Burchard. Bd. 9). Brüssel 1971. S.
+                                280-288<ptr type="opac" cRef="125032544"/></bibl></note></p>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

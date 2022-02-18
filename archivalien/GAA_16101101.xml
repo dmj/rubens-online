@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_012">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akte über den Erwerb eines Grundstücks am Wapper durch Peter Paul Rubens,
+                    dessen Eigner Hans Thijs in Amsterdam wohnte, wo das Dokument ausgefertigt
+                wurde; auf dem Gelände wurde auch das bis heute erhaltene Ateliergebäude errichtet, das in späteren Dokumenten "schilderhuis" genannt wird</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="GAA_16101101">
+                    <msIdentifier>
+                        <country>Niederlande</country>
+                        <settlement>Amsterdam</settlement>
+                        <repository>Gemeentearchief (GAA)</repository>
+                        <collection>Protokollen Notaris J. F. Bruyningh</collection>
+                        <idno type="signatur">1. November 1610, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Akte über den Erwerb eines Grundstücks am Wapper durch Peter Paul
+                            Rubens, dessen Eigner Hans Thijs in Amsterdam wohnte, wo das
+                            Dokument ausgefertigt wurde</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="A.H." type="footnote">Auf dem hier erworbenen Grundstück am Wapper wurde auch das bis heute erhaltene Ateliergebäude errichtet, 
+                                das in späteren Dokumenten "schilderhuis" - zu deutsch "Malerhaus" - genannt wird.</note>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Zu Rubens Erwerbungen von Grund und Immobilien am 
+                                    Wapper sowie den Transaktionen dazu vergleiche auch die Akten vom
+                                <ref type="rubens" cRef="ed_rubens_013">4. Januar 1611</ref>, 
+                                <ref type="rubens" cRef="ed_rubens_114">30. Mai 1613</ref>, 
+                                <ref type="rubens" cRef="ed_rubens_181">28. Juli 1627</ref>, 
+                                <ref type="rubens" cRef="ed_rubens_184">16. Juni 1628</ref>, 
+                                <ref type="rubens" cRef="ed_rubens_219">27. Februar</ref> und 
+                                <ref type="rubens" cRef="ed_rubens_220">7. März 1635</ref></note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>                            
+                                <origDate when="1610-11-01">1. November 1610</origDate>
+                         </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Abraham Bredius: Een onbekend Rubens-Document. in: Oud Holland 30. 1912. S. 215-218.</bibl>
+                            <bibl>Adrien Jean Joseph Delen: Het huis van Pieter Pauwel Rubens : wat het was,
+                                wat het werd, wat het werden kan. Brüssel 1933. S. 21-33 <ptr type="gbv"
+                                    cRef="306747251"/></bibl>
+                            
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Rubenshaus</term>
+                    <term xml:lang="nld">Rubenshuis</term>
+                    <term xml:lang="deu">Wapper</term>
+                    <term xml:lang="deu">Antwerpen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Op huyden den eersten Novembris Anno Sestienhondert ende tien, compareerden voor
+                    my <rs type="person" ref="#bruyningh_jan">Jan Fransen Bruyningh</rs> etc. ter
+                    presentie van de onderschreven getuygen d’eersame <rs type="person"
+                        ref="#thijs_hans">Hans Thysz</rs>, coopman binnen der voorsz. stede, ter
+                    eenre, en <rs type="person" ref="#coop_nicolaes">Nicolaes Coop</rs>, burger der selver stede,
+                    uyten name, en van wegen Sr <rs type="person" ref="#rubens_peter_paul">Pietro
+                        Pauli Rubbens</rs>, wonende tot <rs type="place" ref="#antwerpen"
+                    >Antwerpen</rs>, ter andere syden, ende verclaerden, dat sy comparanten in der
+                    voorsz. qualité geaccordeert en verdragen syn, over de conditien ende
+                    voorwaarden van coope hiernae beschreven, te weten, dat de voorn. Hans Thysz
+                    vercocht heeft en vercoopt mits desen aen den voorsz. Nicolaes Coop, dewelcke
+                    voor ende ten behoeve van den voorsz. Pietro Pauli Rubbens van denselven Hans
+                    Thysz bekendt gecocht te hebben een huijs ende Bleeckerye off erven ende gronden
+                    met eenen vryen gangh aen ’t Bleekvelt, streckende nae den Lammekens raem, in
+                    allen schijne ’t voorsz. huys, genaemt de Wapper binnen de stadt van Antwerpen
+                    voorsz. op de Wapper gestaen ende gelegen is<index indexName="stw">
+                        <term xml:lang="deu">Rubenshaus</term>
+                    </index> <ref
+                            target="http://www.rubenshuis.be/smartsite.dws?id=MCD_LANDING&amp;ch=MCD"
+                        />, beheymt en betimmert staet, met alle vrydommen ende
+                    gerechticheden, daertoe behoorende ende belendt wesende, alles vermogens die
+                    Schepenbrieven ende bescheyden daervan synde, te leveren tegens Kersmisse<note
+                        resp="A.H." type="footnote">Der Begriff Kersmisse bezeichnete als Datierung
+                        den 25. Dezember.</note> eerstcomende; ende dat voor de somme van
+                    vijffhonderd en tsestich carolus guldens erffelyck tot 40 gr. den gulden,
+                    bedragende in hoofdsomme (tegens den penninck sestien te reeckenen) achtduysent
+                    negen honderd ende tsestich carolus guldens, welcke cooppenningen de voorsz.
+                    Pietro Pauli Rubbens gehouden sal wesen (als hij aenneemt en belooft mits desen)
+                    aen den voorsz. Hans Thysz oft sijnder actie hebbende costeloos en schadeloos
+                    binnen Antwerpen voorsz. te voldoen ende te betalen; namentlyck en gerechte
+                    derdepart gereet, nevens de leveringe ende opdracht, Item een glycke derdepart
+                    een Jaer daerna, wesende Kersmisse 1611, ende ’t leste derdepart totte volle en
+                    geheele betalinge toe van de voorsz. Cooppenningen Kersmisse Anno 1612, alles
+                    vrij, costeloos ende schadeloos gelt, sonder eenige cortinge. Met dese
+                    expresseconditie (also ’t voorsz. huys, gronden ende, appendentien van dien
+                    belast is mette somme van vijff ende tachentich guldens erffelyck, mede ter
+                    losse den penninck sestien, wesende in hooftsomme dertien hondert en tsestich
+                    gulden corent,) dat de voorn. cooper alsulke erffeliycke rente t’sijnen laste
+                    sal moeten nemen enden vercooper mitsgaders sijnen erven en naecomelingen
+                    daervan ten eeuwigen dagen bevrijden, dies dat hij de voorsz. hooftsomme van
+                    dertienhondert tsestich guldens aen de eerste paye van de voorsz. cooppenningen
+                    gereet te betalen, den vercooper sal defalcqueren en afftrecken; voorts vrij
+                    huys en erve, sonder vordere belastinge. Dies is noch geconditioneert, soo verre
+                    den voorn. <rs type="person" ref="#rubens_peter_paul">Petro Pauli Rubbens</rs>
+                    eenige difficulteyt soude mogen moveren, oft hem beswaert vinden wegen de
+                    belastinghe van tsestich guldens erffelyck, oft wat meerder off minder, die op
+                    andere panden uijtgaen en betaelt werden, daervooren dese pant eertijts mede
+                    mochte sijn <choice><sic>geipotequeert</sic><corr>gehipotequeert</corr></choice> en verbonden, dat hij alsdan vermogen sal en alleen
+                    sijn vrije optie en keure hebben, omme alsulcke erffelycke renten t’sijnder
+                    meerder verseeckeringe en bewaringe op dit voorsz. vercochte hujs mette
+                    appendentien van dien te houden, ende in de leste paye van de cooppenningen die
+                    hooftsomme tegens den penninck sestien te defalcquere, en de renten daervan alle
+                    Jaers aen den voorsz. vercooper oft sijnder vercrijgende, opleggen en betalen,
+                    costeloos en schadeloos als voyren. Is mede geaccordeert, dat de voorsz. Pietro
+                    Pauli Rubbens boven de voorgeroerde cooppenningen tot een recognitie ende
+                    gedachtenisse van dese coope den voorsz. Hans Thysz sal toegeven en leveren en
+                    stuck schilderije by syn eigen handt gemaeckt, soo groot en cleyn als hem <rs
+                        type="person" ref="#rubens_peter_paul">Rubbens</rs> goetduncken sal, daer hy
+                    eere van sal begeren, en noch bovendien een soon van den voorsz. Hans Thysz
+                    leeren en onderwysen sonder daer vooren yets te genieten de conste van
+                    schilderen en voor hem niets secreet houden, volgende syne belofte, mits dat de
+                    Jonghman syn eigen coste sal doen, alleen de vrye leeringe sal hy by de Meester
+                    genieten, en daertoe by hem vry acces hebben.</p>
+                    <p>Eyntelyck is noch bevoirwaert, dat den voorsz. vercooper oft sijn commis tot 
+                    Antwerpen ende den voorn. <rs type="person" ref="#rubens_peter_paul">Petro Paulo Rubbens</rs> beyde haer
+                    beste ende uyterste vlijt sullen doen, voor en aleer dese coope voortganck sal
+                    hebben, t’ voorgeroerde huys metten appendentien ende de gronden van dien te
+                    ontlasten ende te bevrijden van den Exu, en dat voor soodanigen redelijcken
+                    penninck als doenlijck sal wesen. Ende soo sulex niet en conde geschieden op
+                    thoochste ter somme van tien ponden grooten vlaems, die den voorsz. Hans Thysz,
+                    soo ’t van noode is, daertoe gehouden is te betalen aen den Exumeester, dat in
+                    dien gevalle dese coope ende alle de conditien vooren breeder uytgedruct nul en
+                    van geen der waerden sal en sullen wesen min noch meer, oft desen niet en ware
+                    beschreven, ende de coope effect hebbende, sal de leveringe en opdrachte
+                    geschieden binnen Antwerpen voorsz. naer costume aldaer geobserveert soo by den
+                    Erentfesten Doctor <rs type="person" ref="#backer_andries">Andries Backer</rs>,
+                    raedt en Medicus van syne Fe Dt van <rs type="place" ref="#braunschweig"
+                        >Bruynswyck</rs> als by den voorn. Hans Thysz vercooper selffs oft hare
+                    respective volmachtigers. Sonder fraude, ende versochten sy comparanten
+                    etc.</p>
+                
+                <closer>
+                    <salute>Gedaen binnen der voorsz. stede van <rs type="place" ref="#amsterdam"
+                        >Amsterdam</rs> ten huijse van den voorn. Nicolaes Coop ter presentie van
+                        <rs type="person" ref="#boudaen_hans">Hans Boudaen</rs>, <rs type="person"
+                        ref="#goris_harmen">Harmen Goris</rs> en <rs type="person"
+                            ref="#velt_cornelis">Cornelis Velt</rs>, getuygen hier toe versocht.
+                    </salute><lb/>
+
+                        <signed rend="text-align:right">
+                            <rs type="person" ref="#thys_johan">Johan Thys</rs><lb/>
+                            Nicolaes Coop<lb/> 
+                            Hans Boudaen<lb/> 
+                            Cornelis Feldt<lb/>
+                            Herman Gooris
+                        </signed>
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

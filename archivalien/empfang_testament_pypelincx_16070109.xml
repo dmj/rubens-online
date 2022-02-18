@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_093">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Empfangsbestätigung über das Testament von Maria Pypelincx durch den Notar
+                    Peeter Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="empfang_testament_pypelincx_16070109">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Empfangsbestätigung über das Testament von Maria Pypelincx durch den Notar Peeter Rubens vom 9. Januar 1607</idno>
+                    </msIdentifier>
+                    <head>Empfangsbestätigung über das Testament von Maria Pypelincx durch den Notar
+                    Peeter Rubens</head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zu diesem Vorgang auch das Testament von Maria Pypelincx, welches 
+                                auf den <ref type="rubens" cRef="ed_rubens_092">18. Dezember 1606</ref> datiert ist.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1607-01-09">9. Januar 1607</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich 1877 im
+                            Besitz des Baron Henri van Havre.</p>
+                            <p>Ihr heutiger Verbleib ist
+                                unbekannt.</p>
+                        </provenance>
+                    </history>
+                    <additional>
+                    
+                        <adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 377<ptr type="gbv" cRef="146162595"/></bibl></listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Maria Pypelincx</term>
+                    <term xml:lang="deu">Testament</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p> Inden jare Ons Heeren <date when="1607-01-09">duysent zesse hondert ende
+                        seven, den negensten dach der maent Januarij</date>, comareerde voor mij <rs
+                        type="person" ref="#rubens_peeter"><hi rend="smallCaps">Peeter</hi>
+                    RUEBENS</rs>, openbaer Notaris <rs type="place" ref="#antwerpen"
+                    >tAntwerpen</rs>, ende den getuygen naergenoepmt, jouffrouwe <rs type="person"
+                        ref="#pypelincx_maria"><hi rend="smallCaps">Marie</hi> PYPELINCX</rs>,
+                    weduwe wijlen Meesters <rs type="person" ref="#rubens_jan"><hi rend="smallCaps"
+                            >Jans</hi> RUEBENS</rs>, in sijnen tijt Schepen was deser stadt,
+                    dewelcke gaende, staende ende gesont van herten (scot claerlijck aen heur
+                    bleke), bekende dat dinhouden van die papier, dwelck met haer eygen handt is
+                    geschreven ende onderteeckent ende bij haar ende mij Notaris voornoempt
+                    toegecachetteert, ist haer testament ende vuytersten wille, willende dat
+                    denselven in allen sijnen poincten ende clausulen achtervolcht worde,
+                    nyettegenstaende dat alle de solempniteyten die na den geschreven geestelijcken
+                    oft weerlijcken rechten hierinne behooren geobserveert te worden, nyet al noch
+                    volcomelijck en souden wesen geachtervolcht, nyettegenstaende oock eenige
+                    costumen, stadt- oft lantrechten disponerende ter contrarien, alle dewelcke zij
+                    revoceerde ende derogeerde mits desen, voor soo vele die desen heuren testamente
+                    souden mogen contrarieren. Aldus gedaen ende gepasseert tAntwerpen, ten
+                    comptoire mijns Notaris, ter presentien van <rs type="person"
+                        ref="#rousseau_guillaume"><hi rend="smallCaps">Guillaume</hi>
+                        <hi rend="smallCaps">le</hi> ROUSSEAU</rs> ende <rs type="person"
+                        ref="#steelant_joos"><hi rend="smallCaps">Joos van</hi> STEELANT</rs>, als
+                        getuygen hiertoe versocht.</p> 
+                <closer><salute>Quod attestor.</salute><lb/> 
+                    <signed>P. RUEBENS,<lb/> Nots.
+                        publicus admissus.</signed></closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

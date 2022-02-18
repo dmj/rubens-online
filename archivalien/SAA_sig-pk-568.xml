@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_008">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Die Stadtverwaltung von Antwerpen bezahlt an Abraham Lissau 82 Gulden 18
+                    stuyvers für eine silberne Schale, die Peter Paul Rubens zum Geschenk gemacht
+                    werden soll</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-568">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Collegiale actenboeken, 1610-1612</collection>
+                        <idno type="signatur">Pk. 568, fol.44v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Die Stadtverwaltung von Antwerpen bezahlt an Abraham Lissau 82
+                            Gulden 18 stuyvers für eine silberne Schale, die Peter Paul Rubens
+                            zum Geschenk gemacht werden soll</title>
+                    </head>
+                   
+                    <history>
+                        <origin>                           
+                                <origDate when="1610-08-20">20. August 1610</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Antwerpen</term>
+                    <term xml:lang="deu">Stadtverwaltung</term>
+                    <term xml:lang="deu">Geschenk</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Geordenneert den Tresoriers ende Rentmeesteren vuyt te reycken ende te betaelen
+                    aen <rs type="person" ref="#lissau_abraham">Abraham Lissau</rs> de somme van
+                    tweentachentich guldens achtien stuyvers en halven ter saecken van eene silvere
+                    schaele wegende 26 oncen 15 engelschen tot drye guldens 2 stuyvers donce, by hem
+                    de stad gelevert daermede myne heeren hebben vereert ende beschoncken <rs
+                        type="person" ref="#rubens_peter_paul">Peeter Rubbens</rs> schildere ter
+                        saecken van diensten by hem de stadt gedaen.</p>
+                <closer>
+                    <dateline>Actum <date when="1610-08-20">XX Augusty 1610</date>.
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

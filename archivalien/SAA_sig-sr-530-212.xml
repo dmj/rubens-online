@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_144">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Philipote de Lantmeter verkauft eine jährliche Rente von 12 Gulden 10 Stuiver
+                    auf ein Haus in Wilrijk, die sie von ihrem Vater geerbt hat, an Peter Paul
+                    Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-530-212">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1618/ III: Lafaille, Roose &amp; Kimpe</collection>
+                        <idno type="signatur">SR 530, fol. 212r-213r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Philipote de Lantmeter verkauft eine jährliche Rente von 12
+                            Gulden 10 Stuiver auf ein Haus in Wilrijk, die sie von ihrem Vater
+                            geerbt hat, an Peter Paul Rubens</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1618-10-10">10. Oktober 1618</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Jouffrouwe <rs type="person" ref="#lantmeter_philipoote">Phillipote de
+                        Lantmetere</rs>, Philips dochtere wijlen wettige huysvrouwe van <rs
+                        type="person" ref="#borcht_gielis">Gielis van der Borcht</rs>, wyens goeden
+                    zij ter hooger vierscharen alhier voor heure dotatie ende innegebrochte goeden
+                    utgewonnen ende gevinceert heeft zoo zij verclaerde, met eenen vremden momboir
+                    heur gegeben metten rechte, vercocht omme eene somme gelts, die heur al ende wel
+                    is vergouden S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs>, schilder
+                    van heure doorluchtichste Hoocheden, tsjaers erffelijck twelff guldenen ende
+                    thien stuvers den gulden van 20 stuyvers van drij grooten Brabants goets
+                    gancbaers ende gepermitteerts gelts jaerlijcker ende erffelijcker renten, ierst
+                    op een huys metten hove, gronden ende toebehoorten gesten ende gelegen ter <rs
+                        type="place" ref="#wilrijk">Wilrick</rs><index indexName="stw">
+                        <term xml:lang="deu">Wilrijk</term>
+                    </index> aen de Biest, groot altsamen eenentachtentich roeden, gelijck heur
+                    comparante ’t voors. huys metten hove, gronden ende toebehoorten, toecommende
+                    bleven ende verstorven is van den voors. wijlen <rs type="person"
+                        ref="#lantmeter_philipp">Philips de Lantmetere</rs> heuren vadere, als
+                    eenige dochtere ende erffgename desselffs, aen welcken tsamen in scheydinge end
+                    edeylinge voor Schepenen alhier gepasseert opten <date when="1576-08-06"
+                        >sesten dach Augusty anno XV<hi rend="super">c</hi> ende
+                    sessentzeventich</date> onder andre te deele bevallen was: item op noch een
+                    stuck erve metten hove, gronde ende toebehoorten, groot omtrent veertich roeden,
+                    luttel min of meer, onbegrepen der maten, gelegen neffens 'tvoors. huys ende
+                    hove ende daertoe geappliceert noortwaerts, des Godtshuys van <rs
+                        type="corporate" ref="#antwerpen_abtei_st_michiels">St. Michiels</rs> erve
+                    oostwaerts, commende zuytwaerts aen d’erffgenamen <rs type="person"
+                        ref="#bogaerde_cornelis">Cornelis van den Bogaerde</rs> erve ende voor aende
+                    Biest voors., in welck stuck erve de voors. Gillis van der Borcht ende zij
+                    comparante opten <date when="1609-06-25">25<hi rend="super">sten</hi> Juny
+                        anno XVI<hi rend="super">c</hi> negen</date> bij notaris <rs type="person"
+                        ref="#slootmans">Slootmans</rs> voor schepenen van <rs type="place"
+                        ref="#wilrijk">Wilrijcke</rs> gegoevt ende geerft zijn prout litteras ende
+                    de bescheede daeraff zijn; <span from="" xml:lang="lat">et ulterius super se et sua quaecumque</span>, dandum alle
+                    jaere den <date when="--10-09">negensten dach Octobris</date> daeraft d'ierste
+                    jaer renten vallen ende verschijnen sal den <date when="1619-10-09"
+                        >negensten dach Octobris anno XVI<hi rend="super">c</hi> ende
+                    negenthien</date>; los ende vrij etc. te waerne op eenen schelling Brabants
+                    erffelijck te chijnse des voors. godtshuyse van St. Michiels alhier; item den
+                    schelling seven ende een halven grooten Brabants erffelijck de kercken van
+                    Wilrijck voors., utten voors. huyse metten hove ende vijfthien stuvers ende vier
+                    nuyts Brabants erffelijck der voors. kercke van Wilrijck utten voors. stuck
+                    erve, jaerlijcx voren utgaende, prout litteras, ende anders nyet samen <span from="" xml:lang="lat">quod ipsa
+                    aut sui quitabunt ad plurimum</span>, teenemale elcken penning daeraft altijt met <num
+                        type="ordinal" value="16">16<hi rend="super">de</hi></num> penningen der
+                    voors. munten ende met verschenen renten.</p>
+                <closer>
+                    <dateline>Die <date when="1618-10-10">decima Octobris 1618</date><lb/>Soluit</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

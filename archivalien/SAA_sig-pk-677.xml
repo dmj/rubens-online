@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_073">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Antrag von Maria Pypelincx wegen einer Rente der Stadt Brüssel, Erklärung,
+                    daß sie unter Geldmangel leide</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-677">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Requestboeck 1596-1597</collection>
+                        <idno type="signatur">Pk. 677, fol. 141v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Antrag von Maria Pypelincx wegen einer Rente der Stadt Brüssel,
+                            Erklärung, daß sie unter Geldmangel leide</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1596-12-10">10. Dezember 1596</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877, S. 333<ptr type="gbv" cRef="146162595"
+                                /></bibl>
+                            <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
+                                Schilderschool. Antwerpen 1883, S. 382<ptr type="gbv" cRef="194552292"
+                                /></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu">Brüssel</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <salute>Aen mijne Heeren.</salute><lb/> 
+                <p>Gheeft te kennen <rs type="person" ref="#pypelincx_maria"
+                        >Marie Pypelincx</rs>, weduwe van wijlen Meester <rs type="person"
+                        ref="#rubens_jan">Jans Ruebens</rs>, die de suppliante, bij sijnen
+                    testamente, daeraff dextract auctenticq hieraine gehecht is, alleen gestelt ende
+                    gedenomineert heeft testamentelijcke momboiresse over hunne gemeyne kinderen
+                    ende hunne goeden, met machte om die te moigen vercoopen, veranderen, beswaeren
+                    ende anderssins daeraff disponeren nae heure geliefte, hoe dat den voors. haere
+                    kinderen, onder andere, toecomende is een rentken van <measure type="currency"
+                        quantity="10">X</measure> guldens tsjaers, gehipoticeert opde stadt van <rs
+                        type="place" ref="#bruessel">Brussel</rs>, van vele jaeren verachtert
+                    sijnde, sonder dat sij an eenige betalinge can geraecken, waerdore ende, mits
+                    dat sij tot onderhout vande voors. heure kinderen seer grooten noot van gelde
+                    heeft, sij, suppliante, met consente ende bijwesen van twee heure bejaerde
+                    kinderen ende voorts vuyten name ende als momboiresse van <rs type="person"
+                        ref="#rubens_philipp">Philips</rs>, out <num type="cardinal" value="22"
+                    >XXII</num>, ende <rs type="person" ref="#rubens_peter_paul">Peeter
+                    Ruebens</rs>, out <num type="cardinal" value="20">XX</num> jaeren, beyde haere
+                    onbejaerde sonen, dese rente geerne souden vercoopen, hebbende daertoe eenen
+                    coopman gevonden die, <note resp="N.B." type="footnote">met</note> seer cleyn
+                    verlies, heur dese rente presenteert aff te coopen, maer want hij, cooper,
+                    swaricheyt moveert de goedenisse der voors. rente te aenveerden, pretenderende
+                    dat sij, suppliante, nijettegenstaende dat sij, gelijck voors. is, alleene
+                    bijden voors. testamente daertoe ghenoch is gequalificeert, daertoe soude moeten
+                    oirloff ende consent hebben van U.A., Bidt daeromme dat U.A. gelieve wille, als
+                    oppermomboirs van alle weesen, haer suppliante, om tgene voors. is te moighen
+                    doen, te authoriseren. </p>
+                    <closer>
+                        <salute>Dwelck doende</salute>.
+                    </closer><lb/>
+                    </div>
+             
+                <div xml:lang="nld">
+                <p>Mijne Heeren Burgermeester ende Schepenen hebben de suppliante geauthoriseert
+                    ende authoriseren, mits desen, de rente, in desen vermelt, te moighen vercoopen,
+                    de penningen daeraff tontfangen ende den coop vande selve behoorlijck te moighen
+                    goeden.<lb/></p> 
+                    
+                <closer>
+                    <dateline>Actum <date when="1596-12-10">X Decembris 1596</date>.</dateline><lb/>
+                    <signed><rs type="person" ref="#dyck">Dyck.</rs></signed>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_023">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unter den in Köln gemeldeten Ausländerfamilien ist der Hausstand
+                    der Familie Rubens verzeichnet</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xml:lang="deu" xml:id="HAStK_best-45-37" >
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt (HAStK)</repository>
+                        <collection>Reformations-Akten, Nr. 37</collection>
+                        <idno type="signatur">Best. 45, fol. 1r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Unter den in Köln gemeldeten Ausländerfamilien ist der Hausstand
+                            der Familie Rubens verzeichnet</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                           
+                                <origDate when="1570-08">August 1570</origDate>
+                           
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Leonard Ennen: Über den Geburtsort des Peter Paul Rubens: mit
+                                Beilagen. Köln 1861. S. 64, Nr. 26<ptr type="gbv" cRef="146162528"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu">Familie</term>
+                    <term xml:lang="deu">Köln</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="best-45-37-1r" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11702" n="1r"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="lat">
+                <p><pb facs="best-45-37-1r" n="1r"/>
+                    <rs type="person" ref="#rubens_jan">D. Joannes Rubens</rs> cum uxore 4 liberis
+                    duobus famulis duabus ancillis, duabus prolibus principis Vraniae &amp; cum
+                    familia 4 ancillis &amp; tribus officialibus. 
+                </p>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

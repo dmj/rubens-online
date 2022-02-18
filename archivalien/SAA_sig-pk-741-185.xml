@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_245">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens und Pauwels van Halmale bringen im Rahmen ihrer
+                    Vormundschaft über Clara Brueghel Jan Baptista Borrekens vor Gericht, da er ihr
+                    Eigentum entwendet und Geld unterschlagen hat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-741-185">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Rekwestboek 1639-1640</collection>
+                        <idno type="signatur">Pk. 741, fol. 185r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens und Pauwels van Halmale bringen im Rahmen ihrer
+                            Vormundschaft über Clara Brueghel Jan Baptista Borrekens vor
+                            Gericht, da er ihr Eigentum entwendet und Geld unterschlagen
+                            hat</title>
+                    </head>                    <history>
+                        <origin>
+                            <origDate when="1640-04-27">27. April 1640</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Verthoont reverente Sr <rs type="person" ref="#rubens_peter_paul">Pedro Paulo
+                        Ruebens</rs> ende Jonker <rs type="person" ref="#halmale_pauwel">Pauwels van
+                        Halmale</rs> mede schepenen in de weth alhier zoo dat zij lieden als
+                        momboiren<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormundschaft</term>
+                    </index> van jouffrouwe <rs type="person" ref="#brueghel_clara_eugenia">Clara
+                        Breughel</rs> op den <date when="1640-04-03">derden deser loopende maendt
+                        Aprilis</date> te rechte betrecken hebben <rs type="person"
+                        ref="#borrekens_jan_baptista">Jan Baptista Borrekens</rs><index
+                        indexName="psw">
+                        <term xml:lang="deu">Borrekens, Jan Baptista</term>
+                    </index> om te hebben restitutie vander selffve weese eenckle goederen de welcke
+                    hy tegens haren danck ende will vuyt enkele quaetwillicheyt werden gedetineert
+                    ende in grootelycx gebruick hadde ende totten dyen van de selffven Borrekens
+                    geheischt betaelinge van de somme van 7 gulden ende eenen halven braspenninck
+                    die deselve Borrekens haer schuldich was by affrekeninge waerover selve
+                    Borrekens by appointement van den <date when="1640-04-17">17<hi rend="super"
+                        >e</hi> Aprilis</date> daernaer waerby geseght was dat hy soude hebben
+                    t’ontwaerden de: fed: ghegeven geweest synde alnochtydt ad primam, is woorts tot
+                    illusie van de selffve appointement met seker twee frivole versuecken waerover
+                    de suppleanten, hebbende geexcipeert op de voornoemde appointement den <date
+                        when="1640-04-17">17<hi rend="super">e</hi></date> ghegeven ende deselve
+                    Borrekens welwetende dat deselffve exceptie hier effect moest hebben heeft den
+                        <date when="1640-04-21">21<hi rend="super">e</hi></date> deser aen U. E.
+                    collegialiteyt versoecht comissarissen onder pretext datter te liquideren was
+                    versweghende de voorseyde appointement ende actitaten wegens ergers toediende
+                    dan om de suppleanten ende hare wese te travailleren ende in langdurich proces
+                    te goien wart hun mogelyck ende gemerckt oock d’affrekeninge waeruyt geageert is
+                    over den selven Borrekens is erustende ende datter egeene liquidatie meer des
+                    aengaende en is te doene, soo bidden suppleanten oodtmoedig dat B. S. gedient
+                    syn hen te permitteren ’t voorseyde appointment collegiael den <date
+                        when="1640-04-21">21<hi rend="super">e</hi></date> deser op syns Borrekens
+                    request gestelt te mogen debatteren van sub- ende obceptie, by Saterdach
+                    toecomende voor den noene in U. E. collegio oft wel ter extraordinae rolle daer
+                    de saecke is duerende dwelck van dese Myne Heeren R. S. hebben de suppleanten
+                    geconsenteert d’appointement alhier gheruert te debatteren van sub- ende
+                    obceptie opden extract rolle partye daertoe geroepen synde. </p>
+                    <closer>
+                        <dateline>Actum 27 Aprilis 1640.</dateline><lb/>
+                        <signed><rs type="person" ref="#vequemans_f">F. Vequemans.</rs></signed>
+                    </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

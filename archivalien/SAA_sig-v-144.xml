@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_035">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hendrick Pypelincx, der Schwiegervater von Jan Rubens, legt seinen Bürgereid
+                    ab</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-v-144">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Vierschaer-Boeck der Stadt van Antwerpen 1541-1544</collection>
+                        <idno type="signatur">V 144, fol. 117v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Hendrick Pypelincx, der Schwiegervater von Jan Rubens, legt
+                            seinen Bürgereid ab</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1544-08-08">8. August 1544</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Juristen en rechtsleven ten tijde van Rubens. Ausstellung:
+                                Antwerpen, Gerechtsgebouw. 15.-30. Oktober 1977. S. 225. Nr. 62</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Hendrick Pypelincx</term>
+                    <term xml:lang="deu" type="TGN">Antwerpen</term>
+                    <term xml:lang="deu">Bürgereid</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#pypelincx_hendrick">Hendrick Popelinck</rs>, Janssone,
+                    van <rs type="place" ref="#kuringen">Curingen</rs>, Tapissier </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

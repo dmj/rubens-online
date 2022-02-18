@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_212">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+               <title>Rubens bekommt durch Philipp IV. das Adels-Privileg zuerkannt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="adelsprivileg_spanien_16310820">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: Les Armes de la famille Rubens</collection>
+                        <idno>Urkunde des Adels-Privilegs für Peter-Paul Rubens durch Philipp IV. vom 20. August 1631</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens bekommt durch Philipp IV. das Adels-Privileg zuerkannt</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           <filiation>
+                               <note resp="A.H." type="footnote">Vgl.  die Beantragung des Adelsprädikates vom <ref type="rubens" cRef="ed_rubens_164">29. Januar 1624</ref>, 
+                                die Bewilligung vom <ref type="rubens" cRef="ed_rubens_166">14. September 1624</ref>,
+                                sowie das Ritterdiplom, das er am <ref type="rubens" cRef="ed_rubens_205">15. Dezember 1630</ref> vom englischen König Karl I. erhielt.</note>
+                           </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1631-08-20">20. August 1631</origDate>
+                            <origPlace>Madrid</origPlace>
+                        </origin>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: Les Armes de la famille Rubens</bibl></source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Pierre Génard: Les Armes de la famille Rubens, in:
+                            Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, 1888, S. 79f.</bibl>
+                        <bibl>Max Rooses, Charles Ruelens: Correspondance
+                            de Rubens et documents épistolaires concernant sa vie et ses auvres. (Codex
+                            diplomaticus Rubenianus ; T. 1-6), Bd. 5 Antwerpen 1909, S. 420-422, Nr.
+                            DCCXIV<ptr type="gbv" cRef="446864137"/></bibl>
+                    </listBibl>
+                </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="fra">
+              <salute><rs type="person" ref="#philipp_iv_spanien">Philippe</rs><index indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index> par la grâce de Dieu, roi de <rs type="place" ref="#kastilien"
+                        >Castille</rs>, etc.</salute>   <p>Sçavoir faisons que pour la bonne relation que fait
+                    nous a esté de nostre cher et féal <rs type="person" ref="#rubens_peter_paul">
+                        <hi rend="smallCaps">Paul-Rubens</hi>
+                    </rs>, secrétaire de nostre conseil privé ès <rs type="place" ref="#niederlande"
+                        >Pays-Bas,</rs> et des bons et aggréables services qu’il nous a rendus en
+                    différentes occasions, tant en nosditz Pays-Bas, en ceste nostre court qu’en <rs
+                        type="place" ref="#england">Angleterre</rs>, où il a esté envoyé de nostre
+                    part pour affaires concernans grandement nostre service et le bien public,
+                    s’estant en tout honorablement et utilement acquitté de son debvoir, à nostre
+                    entière satisfaction et avecq particulier tesmoignage de son zèle, dextérité et
+                    souffiance: pour ces causes, et tout ce que dessus considéré, mesmes afin de le
+                    stimuler davantage et luy donner occasion par quelque marque d’honneur, de
+                    s’esvertuer de plus en plus en nostre service, nous, désirans favorablement le
+                    traicter, décorer et eslever, avons à l’advis et favorable intercession de
+                    nostre très chère et très amée bonne tante madame <rs type="person"
+                        ref="#isabella_von_spanien">Isabel-Clara-Eugenia</rs><index indexName="psw">
+                        <term type="PND">Isabella (Spanien, Infantin)</term>
+                    </index>, par la grâce de Dieu infante d’<rs type="place" ref="#spanien"
+                    >Espagne</rs>, etc., ledit <hi rend="smallCaps">Paul Rubens</hi> faict et créé,
+                    faisons et créons chevalier par les présentes, voulans et entendans que
+                    doresnavant il soit tenu et réputé pour tel en tous ses actes et besoignes, et
+                    jouissance des droicts, libertez et franchises dont jouyssent et ont accoustumé
+                    de jouyr tous autres chevaliers par touttes nos terres et seigneuries, signament
+                    en nos Pays-Bas, tout ainsy et en la mesme forme et manière comme s’il eust esté
+                    fait et créé chevalier de nostre propre main.<index indexName="stw">
+                        <term xml:lang="deu">Adelsprivileg</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="deu">Adelsstand</term>
+                    </index></p>
+                <p>Mandons et commandons à tous nos lieutenans et gouverneurs,
+                    mareschaux et autres nos justiciers, officiers et subjects, à qui ce peult
+                    toucher en quelque manière que ce soit, que ledit <hi rend="smallCaps">Paul
+                        Rubens</hi> ils souffrent et laissent dudict titre de chevalier et de tout
+                    le contenu en ces dittes patentes plainement et paisiblement jouyr et user, sans
+                    luy faire, mettre ou donner ni souffrir estre fait, mis ou donné aucun trouble,
+                    destourbier ou empeschement, au contraire, car ainsy nous plaist-il, pour ce
+                    qu’au prélable ces dittes présentes soient présentées à Don <rs type="person"
+                        ref="#castille_juan">Juan de Castille</rs>, nostre secrétaire du registre
+                    des mercèdes, afin d’en estre tenue note et mémoire ès livres de sa charge. En
+                    tesmoignage de quoy nous avons signé ces présentes de nostre main, et à icelles
+                    faict mettre nostre grand scel.</p> 
+                
+                <closer><dateline>Donné en nostre ville de <rs type="place"
+                        ref="#madrid">Madrid</rs>, royaume de Castille, le <date when="1631-08-20"
+                        >vingtième jour du mois d’aoust, l’an de grâce 1631</date> et de nos règnes
+                        le onzième.</dateline><lb/>
+                        <signed><hi rend="smallCaps">Philippe.</hi></signed>
+                    </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_235">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen Rates und
+                    eventuelle weitere Zahlungen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-3002">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte 23e d’Ambroise van Oncle, receuveur
+                            général des finances des Pays-Bas, du 1er janvier au
+                            31 décembre 1637)</collection>
+                        <idno type="signatur">B. 3002, fol. 469v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen
+                            Rates und eventuelle weitere Zahlungen</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                         
+                            <filiation>
+                                <note resp="A.H." type="footnote">Bzgl. seines Honorars als Sekretär des Geheimen Rates vergleiche auch die folgenden Dokumente, die alle um das Jahr 1637 datiert sind:
+                                    <ref type="rubens" cRef="ed_rubens_235a">Dokument Nr. 235a</ref> und 
+                                    <ref type="rubens" cRef="ed_rubens_235b">Dokument Nr.235b</ref>.<lb/>
+                                  
+                                    </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1637" notAfter="1637">? 1637</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3. Antwerpen 1888.
+                            S. 129f.</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p>
+                    <pb n="469v"/>992 livres, 6 sols, 6 deniers à messire <rs type="person"
+                        ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>, chevalier, secrétaire du
+                    Conseil privé de Sa Majesté, por une année de ses gaiges de secrétaire susdit,
+                    commencée le <date when="1636-04-27">27<hi rend="super">e</hi> apvril 1636</date>
+                    et finier le <date when="1637-04-26">26<hi rend="super">e</hi> d’apvril ensuivant
+                        1637</date>, par deux quictances veues ès estatz de janvier, folio 39 et
+                    juillet folio 32, cy-rend ladite somme de 992 livres, 6 sols, 6 deniers obole,
+                       
+                    <note type="contemporary" place="margin">veu le compte précédent, folio 474,
+                        il suit bien.</note>
+                </p>
+            </div>
+                     
+           
+        </body>
+       
+    </text>
+</TEI>

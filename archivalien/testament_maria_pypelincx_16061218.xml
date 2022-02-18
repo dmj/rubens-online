@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_092">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Testament von Maria Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="testament_maria_pypelincx_16061218">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                        bloedverwanten</collection>
+                        <idno>Testament von Maria Pypelincx vom 18. Dezember 1606</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Testament von Maria Pypelincx </title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. zu diesem Vorgang auch die Empfangsbestätigung des Testamentes durch
+                                    den Notar Peeter Rubens vom <ref type="rubens" cRef="ed_rubens_093">9. Januar 1607</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1606-12-18">18. Dezember 1606</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich 1877 im
+                            Besitz des Baron Henri van Havre.</p>
+                            <p>Ihr heutiger Verbleib ist
+                                unbekannt.</p>
+                        </provenance>
+                    </history>
+                    <additional>
+                        <adminInfo><recordHist>
+                            <source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                                bloedverwanten</bibl>
+                     </source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                                bloedverwanten. Antwerpen 1877, S. S. 371-376<ptr type="gbv" cRef="146162595"
+                                /></bibl></listBibl></additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Maria Pypelincx</term>
+                    <term xml:lang="deu">Testament</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <salute>Inden Name Ons Heeren Amen.</salute> <p>Ick <rs type="person" ref="#pypelincx_maria"><hi
+                            rend="smallCaps">Maria</hi> PYPELINCX</rs>, weduwe wijlen Meester <rs
+                        type="person" ref="#rubens_jan"><hi rend="smallCaps">Jan</hi> RUEBENS</rs>,
+                    in sijnen tijt Schepen, aenmerckende de broosheydt der menschelijcker natueren
+                    ende dat wij niet sekerder en hebben dan de doot ende niet onsekerder dan de ure
+                    derselver ende willende hierom in tijts van mijne tijtelijcke goeden disponeren
+                    ende verhueden allen twist onder mijne kinders ende mijne conscientie in respect
+                    van elck van hun quyten, heb daeromme met mijnen voerbedachten rijpen rade ende
+                    volcomen verstande, onbedwonghen ende overleyt ende sonder inductie oft
+                    persuasie van yemanden, gemaeckt ende gheordineertmijn testament ende wtersten
+                    wille inder manieren naervolgende, willende ende begeerende dat tselve sal stadt
+                    grijpen ende effect hebben, het sij bij forme van testamente, codicille oft
+                    anderen wtersten wille, gelijck eens yegelijcx goet Cristen menschens testament
+                    behoort ende mach stadt grijpen, al en sijn alle solemniteyten naer de
+                    geestelijcke oft wereltlijcke rechten hierinne niet onderhouden oft
+                    achtervolcht:</p> 
+                    <p>Voort eerste bevele ick mijne siele aen Godt van Hemelrijck,
+                    ende mijn lichaem der heyligher eerden; begeerende <rs type="corporate"
+                        ref="#antwerpen_abtei_st_michiels">tSinte Michiels</rs> begraven te worden
+                    sonder pomperye, ende in alle mijne naer te laetene goeden daerinne institueere
+                    ick, noeme ende institueere, midts desen, voer mijne gerechte erfgenamen mijne
+                    twee sonen <rs type="person" ref="#rubens_philipp"><hi rend="smallCaps"
+                        >Philips</hi> RUEBENS</rs> ende <rs type="person" ref="#rubens_peter_paul"
+                            ><hi rend="smallCaps">Peeter-Paulo</hi> RUEBENS</rs> ende mijne dochter
+                    saliger <rs type="person" ref="#rubens_blandina"><hi rend="smallCaps"
+                        >Blandina</hi> RUEBENS</rs>’ ses kinders, om onder hunlieden staecxghewijse
+                    ghepaert, ghescheyden ende gedeylt te worden, wel verstaende dat overmidts mijne
+                    dochtere mij seer veel heeft gecost in bruyloft en cleederen en cleynodien en
+                    allen mijn beste muebels heeft ghehadt, soe in een bedde van 20, jae nu wel 25
+                    ponden Vlems, ledecant, schoon sijden behancksel en noch een metten behancksel,
+                    vier schoon oorcussen, vier paer fijne gewrochte flouwijnen tot de grootste
+                    oorcussens, saergien, eenen indiaenschen gewrochten hemel die wel pleech te
+                    gelden 200 guldens, gruen laken tafelcleet en mijn ses beste gesteken cussens,
+                    breede slapelakens en smalle, dertich ammelakens en ses dosijnen en acht
+                    servetten, daeronder drij dosijnen fijne, fijn dwaelen en cuecken langhe
+                    servetten, hantdoecken, ses en ses, lijnwaetten, en allen mijn fijne en
+                    dagelijckse kintsdoecken, lijnen en wullen, boesemen en baghijnen en veel
+                    kinderhemden, dat tsamen mij wel heeft gecost en weert was sesthien hondert
+                    guldens, soe sullen mijn twee sonen daervoren hebben ende behouden altemael mijn
+                    muebels, huysraet, bedden en ledecanten, stoelen en bancken, tresooren, cussens,
+                    tafelcleederen en allet lijwaet, behalven een paer fijne breede slapelakens die
+                    ick <rs type="person" ref="#constantia">
+                        <hi rend="smallCaps">Constantia</hi>
+                    </rs> mijns dochters dochter begeere gegeven; ick salder (wilt Godt) een
+                    briefken op naeyen, soe dat men geenen wtroep en hoeft houden; want potten en
+                    pannen mit alle de rest, soet nu altemael ist, staet ende hangt, geve ick hun
+                    beyden mijne sonen altemael, met oock alle de boecken, pampieren ende scriften
+                    mij toebehoorende ende hier oft elders wesende (met de schilderyen dieder sijn
+                    van mij, want ten en sijn maer conterfeytsels, allen dandere schildereyen, die
+                    fraey sijn, behooren <hi rend="smallCaps">Peeteren</hi> toe diese ghemaeckt
+                    heeft), soe bij forme van prelegate als in verlijckinghe van tgene de voers.
+                    mijne dochtere, als boven, mij gecost ende man mij ewech heeft. Mijne cleederen,
+                    lijnen ende wullen, moghen sij ergens laeten vercoopen tot eenen oucleercooper
+                    om gelt af te maken om schulden en oncosten en legaten mede te betaelen.
+                    aengaende mijn fijn lijnwaet, is seer gemindert, want icks mijn dochter een deel
+                    gaf, ende ick hebs, tot twee reysen, vele doen vercoopen, ende overmidts voorts
+                    beloopet wel, tgene mijn dochter en haeren man van mij, in verscheyden reysen,
+                    hebben ghehadt, so dat ick voer hun hebbe moeten coopen als in gelt staende
+                    hunnen huwelijck, soe voer capitael als voer verloop, twee dusent ende sesse
+                    hondert guldens ende ick groote schaden hebbe ghehadt voer, en meest nae hunnen
+                    houwelyck, niet alleene vant verbranden van mijn hoeven, maar, duer den quaden
+                    tijt, heel renten van vijfentwintich guldens erffelijck met verloop en al
+                    verloren ende de banckeroete van <rs type="person" ref="#wedeghe_caspar"><hi
+                            rend="smallCaps">Caspar de </hi>WEDEGHE</rs> van 1146 guldens; twee
+                    huysen in <rs type="place" ref="#borgerhout">Borgerhout</rs> verbrandt, wel
+                    twintich jaeren verloopen op lant heb moeten quyt schelden: een corenrente van u
+                    vader heel verloren ende aende rente van 200 gulden tsjaers tot <rs type="place"
+                        ref="#hombeek">Hombeke</rs>, soe van tproces als quytscheldinghe, wel twee
+                    dusent en vier hondert guldens verloren: aen <rs type="person" ref="#truyken">
+                        <hi rend="smallCaps">Truyken</hi>
+                    </rs> moeten geben, voer mijn suster<index indexName="psw">
+                        <term xml:lang="deu">Susanna Pypelincx</term>
+                    </index>, omdat ons moeder borghe voer haren man was, neghen hondert gulden
+                    capitaels en neghen hondert en vierentwintich guldens verloops, daeromme ick
+                    renten en anders heb moeten vercoopen om te betalen, soe al blijckt in mijn
+                    lanck smal rekenboecxken, waeromme ick haer geen verloopen en soude kunnen geven
+                    van deen hondert guldens erffelijck (want sesthien hondert guldens heb ick eens
+                    tseffens aen mijn dochters mans getelt ende gegeven voer capitael,) oft sij
+                    soude alleen mijn erfgenaem sijn, dwelck onbehoorlijck waer, want mijn sonen
+                    oock mijn kinders sijn ende en hebben mij niet vele gecost, hebbende terstont,
+                    nae mijns dochter houwelijck, wtghewoont en hunnen cost ghewonnen, ende allt
+                    goet datter is ende ick hebbe ist van mijnentwegen, want ick noch aen mijn
+                    ingebrocht goet al veel te cort come (soe oock blijckt bij mijns mans salighers
+                    testament van sijn hant gescreven,) soe dat ick mijn dochter gheen vaderlijck
+                    goet schuldich en ben; het huys Sint Jan<index indexName="stw">
+                        <term xml:lang="nld">Sint Jan</term>
+                    </index>, dat van haeren ende mijnder sonen vader was, daer hebben wij 175
+                    guldens erffelijck aen verloren, nae haren houwelijck, en tverloop van 24
+                    jaeren, sonder meer als twaelf hondert guldens die ick aen thuys vanden mijnen
+                    ghehangen hebbe, betaelende de rente vande 200 guldens tsjaers ende reparatie,
+                    en thuys stondt ledich ende wert verhuert voer 50 oft tsestich guldens tsjaers;
+                    daeromme, opdat alle gae int ghelijck, soe sullen mijn dochters kinderen moeten
+                    te vreden sijn met soe vele alsser gebreeckt aen tgene sij gehadt hebben tot
+                    vervallinghe vande somme van drij dusent twee hondert guldens, ende hiermede
+                    stil staen tot dat mijne twee voers. sonen elck soe veel hebben ende trecken als
+                    mijn dochter gehadt heeft in gelde, renten oft lant soot daer is, te weten: <hi
+                        rend="smallCaps">Philips</hi>, mijnen sone, sal voer sijn twee hondert
+                    guldens erffelijck nemen de hoeve ende landen genoempt Moerendael<index
+                        indexName="stw">
+                        <term xml:lang="nld">Moerendael</term>
+                    </index>, eensdeels leen wesende (dwelck leen hij evenwel voren wt soude mogen
+                    nehmen,) te <rs type="place" ref="#nispen">Nispen</rs> geleghen, met allen
+                    heuren appenditien ende dependentien oft twee hondert guldens erffelijck
+                    daervore tsijnen keuse ende optie, daer toe de helft vande muebels, huysraet,
+                    boecken, etc. als voerseyt is, ende <hi rend="smallCaps">Peeter</hi>, mijnen
+                    sone, dander helft wtgenommen de ses silveren lepels, daer sullen <hi
+                        rend="smallCaps">Philips</hi> ende <hi rend="smallCaps">Peeter</hi> elck
+                    twee af hebben, daeronder die daer St. Jan op staet, ende <rs type="person"
+                        ref="#constantia">
+                        <hi rend="smallCaps">Constancie</hi>
+                    </rs> mijn nichtken, dander twee, omdat mijn peetken ist, oft sij den eenen en
+                    haer suster <rs type="person" ref="#crestienne">
+                        <hi rend="smallCaps">Crestienne</hi>
+                    </rs> den anderen. Ende voort sal <hi rend="smallCaps">Peeter-Paulo</hi> oock
+                    vande gereetste renten oft anders twee hondert guldens erffelijck, voeren wt
+                    hebben. Ende de reste datter soude moghen over blijvensal, dan staecxsgewijse
+                    onder hun gedeylt worden, willende ende wterlijck begeerende dat mijne twee
+                    kinderen ende kintskinderen hun hiernae sullen reguleren een yegelijck van hun
+                    en hun daermede contenteren, sonder yet voorders meer tot elck anders laste oft
+                    tegens mijnen sterfhuyse ende naer te latene goeden, twaer bij preferentie
+                    eenighe mijne gheloeften, voergaende obligatie oft anderssins te moghen
+                    pretenderen, op pene van daer vouyt te moeten blijven met hunne rigoureuse
+                    legitime portie, aen welcke legitime portie den opponent oft contravenient van
+                    desen mijnen vuytersten wille, oock sal corten ende ter rekeninghe brenghen,
+                    tgene deselve mij gecost mach hebben, ende anderssins van mij sal hebben
+                    ontfanghen, twaer van houwelijcx goet oft anderssins, soo ick bij desen
+                    denghenen of deghene die ter, contrarien doen souden daermede vuytsluyte, jae,
+                    exheredere bij desen, ende daerenboven ende besundere, soe verre mijns dochters
+                    man voer hem en sijn kinders yet voorder oft meer dan voers. ist, wilde
+                    pretenderen ter saecken vande twee hondert guldenen erffelijck die ick heur te
+                    houwelijck comende gheloeft hadde, twaere van tcapitael oft verloop, soe
+                    verstaen ende begeere ick dat sij vervallen sijn inde voers. penen ende dat
+                    bovendien; in sulck gevalle, de voers. mijne sonen sullen elck mogen eysschen
+                    ende trecken verloop van gelijcke twee hondert guldenen erffelijck tsedert den
+                    dach van mijns dochtere houwelijck, te meer oock want sijlieden beyde van doen
+                    af oft corts daernaer vuyt mijnen cost ende last gheweest sijn; ende omdat dit
+                    mijne tegenwordich testament ende vuytersten wille ter executien mach worden
+                    gestelt, ende de voers. kinderen mijnder dochter Blandina versien wesen van
+                    momboiren, soe hebbe ick daertoe ghecosen ende ghedenomineert, bij desen, de
+                    voers. twee mijne sonen ende elcken bij hun alleene ende besundere, hun gevende
+                    volcomen en absolute comissie om alles te doen wes goede executeurs ende
+                    testamentelijcke momboiren naer recht ende costuyme vermoghen te doen, hen
+                    tselve volcomelijck betrouwende, interdicerende oversulex den Weesmeesteren ende
+                    generalijck alle andere gerechten en persoonen eenich gesach te nehmen over mijn
+                    sterfhuys ende naer te latene goeden oft oock over de voers. mijnder dochter
+                    kinderen. Ende want mijne meyninghe, wttersten wille ende intencie sulcx is als
+                    voerscreven slaet, soo hebbe ick dit met mynder eygehener hant geschreven ende
+                    onterteeckent in <rs type="place" ref="#antwerpen">Antwerpen</rs> opten <date
+                        when="1606-12-18">achtienden December sestien hondert ende sesse</date>;
+                    oock begeere ick wat men bevinden sal naer datum van desen dat ick voer mijns
+                    dochters man oft haer kinderen heb verschoten, gecocht en betaelt, sal al
+                    afgerekent worden aen haere tweendertich hondert guldens, en daeraen
+                    ghecort.</p>
+                <closer><signed>Maria PYPELINCX.</signed></closer> 
+            </div>
+        </body>
+   
+    </text>
+</TEI>

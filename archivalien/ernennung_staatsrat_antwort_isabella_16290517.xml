@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_193">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Antwort der Infantin Isabella auf die Mitteilung der Ernennung von Peter Paul
+                    Rubens zum Sekretär des geheimen Staatsrates, die ihr durch Philipp IV. am 27.
+                    April 1629 übermittelt wurde</title>
+                <respStmt>
+                    <resp>Übersetzung</resp>
+                    <name type="person">Nils Büttner</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ernennung_staatsrat_antwort_isabella_16290517">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Louis Prosper Gachard: Histoire politique et diplomatique de Pierre-Paul Rubens</collection>
+                        <idno>Antwort der Infantin Isabella auf die Mitteilung der Ernennung von Peter Paul
+                        Rubens zum Sekretär des geheimen Staatsrates, die ihr durch Philipp IV. am 27.
+                        April 1629 übermittelt wurde</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Antwort der Infantin Isabella auf die Mitteilung der Ernennung von Peter Paul
+                            Rubens zum Sekretär des geheimen Staatsrates, die ihr durch Philipp IV. am 27.
+                            April 1629 übermittelt wurde</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           <filiation>
+                            <note resp="A.H." type="footnote">Vgl. hierzu die beiden Akten über die Ernennung
+                                Rubens'' vom 27. April 1629. Gachard kopierte sie im <ref type="rubens"
+                                    cRef="ed_rubens_191">Archives générales du Royaume, Brüssel (AGBR)</ref> und
+                                <ref type="rubens" cRef="ed_rubens_192"> im Staatsarchiv in Simancas</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1629-05-17">17. Mai 1629</origDate>
+                            <origPlace>Brüssel</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Das originale Dokument befand sich im 19.
+                                Jahrhundert in den Archives générales du Royaume, Brüssel (AGBR).</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Louis Prosper Gachard: Histoire politique et diplomatique de Pierre-Paul Rubens</bibl></source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Louis Prosper Gachard: Histoire politique et
+                            diplomatique de Pierre-Paul Rubens. Brüssel: Office de Publicite, 1877, S.
+                            294f.<ptr type="opac" cRef="306740680"/></bibl>
+                    </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Sekretär</term>
+                    <term xml:lang="deu">Diplomat</term>
+                    <term xml:lang="deu">Politik</term>
+                    <term xml:lang="deu">Karriere</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <linkGrp>
+                <link targets="ed_rubens_193_deu ed_rubens_193_spa" type="translation"/>
+            </linkGrp>
+            <text xml:id="ed_rubens_193_spa">
+        <body>
+            <div part="Y" xml:lang="spa">
+                <p>La carta de V. M<hi rend="super">d</hi><index indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index> de <date when="1629-04-27">27 del passado</date> he recivido con <rs
+                        type="person" ref="#rubens_peter_paul">Pedro Pablo Rubens</rs>, y en la
+                    conformidad que me manda V. M<hi rend="super">d</hi>, partirá luego para <rs
+                        type="place" ref="#england">Inglaterra</rs> á tratar lo de la suspension de
+                        armas<index indexName="stw"><term xml:lang="deu">Waffenstillstand</term>
+                    </index><index indexName="stw"><term xml:lang="deu">Friedensverhandlungen</term>
+                    </index> entre la corona de V. M<hi rend="super">d</hi> y aquella<index
+                        indexName="psw"><term type="PND">Charles (England, King, I.) </term>
+                    </index><index indexName="psw"><term type="PND">Karl (England, König, I.)</term>
+                    </index>. Y no lleva órden para tratar de incluir en ella á Olandeses, porque el
+                    comis Juan Khesseler está platicando de la tregua con ellos en <rs type="place"
+                        ref="#roosendaal">Rossendal</rs>, y hasta agora pareze que ay alguna
+                    aparencia: pero con lo que he dispuesto y ordenado, se verá presto su intencion
+                    y inclinacion, de que daré quenta á V. M<hi rend="super">d</hi>. Y si acaso se
+                    rompiere la plática que Khesseler trae con ellos y no se viere aparecia de
+                    conseguir lo que dessea, entónzes se avisará á Pedro Pablo Rubens que, ántes que
+                    salga de Inglaterra, trate de que sean incluidos los Olandeses en la suspension
+                    de armas con los demás; y espero que llegará á tiempo la órden que se le
+                    embiare. Y yo he dado á Rubens las instruciones convinientes, conforme á la
+                    mente de V. M<hi rend="super">d</hi>.</p>
+                <closer>
+                    <dateline>De <rs type="place" ref="#bruessel">Brusselas</rs>, á <date when="1629-05-17">17 de mayo de 1629</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+            </text>
+            <text xml:id="ed_rubens_193_deu">
+        <body>
+            <div part="Y" xml:lang="deu">
+                <head>Übersetzung:</head>
+                <p>Den Brief Euer Majestät vom <date when="1629-04-27">27. letzten Monats</date>
+                    habe ich mit Pedro Pablo Rubens bekommen und in Übereinstimmung mit dem Befehl
+                    von Euer Majestät wird er gleich Richtung <rs type="place" ref="#england"
+                        >England</rs> abreisen, um über den Waffenstillstand zwischen der Kronen
+                    Euer Majestät und der englischen Krone zu verhandeln. Und er trägt nicht den
+                    Befehl, die Holländer darin einzuschließen, denn der Kommissar Jan Khesseler
+                    bespricht bereits die Waffenruhe mit ihnen in <rs type="place" ref="#roosendaal"
+                        >Roosendaal</rs>, und bis jetzt scheint es einige Fortschritte zu geben.
+                    Aber nachdem was ich angeordnet und befohlen habe, wird man schnell ihre Absicht
+                    und die Tendenz sehen, über die ich Euer Majestät berichten werde. Und für den
+                    Fall, daß die Verhandlung zwischen Khesseler und den Holländern scheitert und
+                    das gewünschte Ziel nicht erreicht wird, dann wird Pedro Pablo Rubens
+                    benachrichtigt, damit er, bevor er England erreicht, versucht, daß die Holländer
+                    in den Waffenstillstand miteingeschlossen werden; und ich hoffe, daß der Befehl
+                    ihn dann rechtzeitig erreicht. Und ich habe Rubens die passenden Instruktionen
+                    in Übereinstimmung mit der Meinung Ihrer Majestät gegeben.<lb/></p>
+                    <closer>
+                        <dateline><rs type="place" ref="#bruessel">Brüssel</rs>, den <date when="1629-05-17">17.
+                        Mai 1629</date></dateline>
+                    </closer>
+                
+            </div>
+        </body>
+            </text>
+        </group>
+        
+    </text>
+</TEI>

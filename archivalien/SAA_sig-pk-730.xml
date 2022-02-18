@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_199">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akte über die Steuerbefreiung von Peter Paul Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-730">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Rekwestboek 1630-1631</collection>
+                        <idno type="signatur">Pk. 730, fol. 86v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Akte über die Steuerbefreiung von Peter Paul Rubens</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu ein <ref type="rubens"
+                                    cRef="ed_rubens_200">zweites Dokument gleichen Datums</ref> sowie die
+                                    Mitteilung über Rubens' Anstellung als Hofmaler und seine Steuerbefreiung vom
+                                    <ref type="rubens" cRef="ed_rubens_004">20. Januar 1610</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1630-08-08">8. August 1630</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl>Franz Jozef Peter van den Branden: Geschiedenis
+                            der Antwerpsche Schilderschool. Antwerpen 1883, S. 542<ptr type="gbv"
+                                cRef="194552292"/></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Steuerbefreiung</term>
+                    <term xml:lang="deu">Hofmaler</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Verthoont reverentelyck <rs type="person" ref="#rubens_peter_paul">Pietro Paulo
+                        Rubens</rs> secretaris van den secreten rade van syne Majesteyt<index
+                        indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index> etc. hoedat hij by ten over de twintich jaeren nu vuyten paisible
+                    possessie is gestelt van te geneten vrijdomme van alle imposten accijsen wachten
+                    contributen ende allerande gemeynen borgelyke lasten ende qualiteyt als wesende
+                    doen tertyt alleenlyck domestrye dinaer van haere doorluchtichste Hoocheyt etc.
+                    welcken vrydomme al is saecke dat nu tertyt niet en behouden worden vermindert
+                    maer vermeerdert als hebbende hij suppleant tsedert totte voorseyde qualiteyt
+                    noch geacquireert ende vercregen te syn Edelman vande huyse van haere hoocheyt
+                    met particuliere permissie van, niettegenstaende syn residentie binnen dese
+                    stadt, te genieten sulckdanigen vrydom als syn genietende deghene die resideren
+                    by haeren doorluchtichsten persoon ende daerenboven by syne conincklycke
+                    mayestyt noch synde verguut en tretiement van viertich croonen ter maent. Als
+                    oock den staet van secretaris van secreten raede van welcken hy oock heeft
+                    possessie genomen ende gedaen den eedt daertoe staende hiertoe gevueght dat syn
+                    reysen soo naer <rs type="place" ref="#spanien">Spaenghien</rs> als <rs
+                        type="place" ref="#england">Engelant</rs> door expresse ordre van syne
+                    Majesteit eenich faveur behoorden te meriteren soo is nochtans ter contrarien,
+                    dat hem in syne oude ende paisible possessie van vrydomme by eenige obstackelen
+                    beleth wort gedaen riet daeromme dat van gelieve te ordonneren allen diegenen
+                    die het selve soude mogen aengaen dat sy den voorseyden suppleant laeten
+                    genieten alle syn voorseyde vrydommen ende exemptien van conformiteyt van
+                    ordonnantie van hare doorluchtichste hoocheyt hier omme dwelck etc.</p><p> M<hi
+                        rend="super">r</hi> Burgemeester ende Schepenen hebben met ams van Tresoriers
+                    van renten geordonneert ende ordonneeren mits desen allen den ghene die het
+                    selve al aengaende dat sy den suppleant laeten genieten syne ouden vrydomme ende
+                    aemte van allen accijsen, wachten contributien van allen andren gemeyne en
+                    borgerlycke lasten deser stadt, behoudelyck alleen dat hij suppleant sal
+                    schuldich syn mede te betalen de acht stuyvers onlancx op elcke tonne witte
+                    poorters bieren gestelt.</p><closer><dateline> Actum in collegio <date when="1630-08-08">8 Augusty
+                        1630</date>.</dateline><lb/>
+                        <signed><rs type="person" ref="#gevarts">Gevarts.</rs></signed></closer> 
+            </div>
+        </body>
+      
+    </text>
+</TEI>

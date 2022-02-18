@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_107">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tod von Philipp Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="epitaph_philipp_rubens_16110828">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement type="city">Antwerpen</settlement>
+                        <repository>St. Michiels</repository>
+                        <idno type="signatur">Epitaph</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Tod von Philipp Rubens
+                            </title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="N.B." type="footnote">Peter Paul Rubens wird Vormund der unmündigen
+                                    Kinder seines Bruders. Vgl. <ref type="rubens" cRef="ed_rubens_135">1616, 28.
+                                        September</ref> et alibi</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1611-08-28">28. August 1611</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Das Epitaph befindet sich in St. Michiels zu Antwerpen.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 449<ptr type="gbv" cRef="146162595"/></bibl>
+                    </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Philipp Rubens</term>
+                    <term xml:lang="deu">Epitaph</term>
+                    <term xml:lang="deu">St. Michiels</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="lat">
+                <p rend="text-align:center">
+                    <hi rend="smallCaps">D. O. M. S.<lb/>
+                        <rs type="person" ref="#rubens_philipp">Philippo RUBENIO</rs> I. C.<lb/>
+                        <rs type="person" ref="#rubens_jan">Ioannis</rs> civis et senatoris <rs
+                            type="place" ref="#antwerpen">Antverp</rs>. fil.<lb/> magni <rs
+                            type="person" ref="#lipsius_justus">LIPSII</rs> discipulo et
+                        alumno.<lb/> cuius doctrinam poene adsecutus,<lb/> modestiam feliciter adaequavit:<lb/>
+                        <rs type="place" ref="#bruessel">Bruxellae</rs> Praesidi <rs type="person"
+                            ref="#richardot">RICHARDOTO</rs>, <rs type="place" ref="#rom">Romae</rs>
+                        <rs type="person" ref="#colonna_ascanio">ASCANIO Cardinali
+                        COLUMNAE</rs>,<lb/> ab Epistolis et Studiis;<lb/> S. P. Q. Antverpiensi a
+                        Secretis.<lb/> Abiit non obiit, virtute et scriptis sibi superstes<lb/>
+                        <date when="1611-08-28">v. kal. Septemb. an. Christi
+                            CI&#x0186;.I&#x0186;C.XI</date>. aetat. XXXIIX,<lb/> marito bene merenti <rs type="person"
+                            ref="#moy_maria">Maria de MOY</rs><lb/> duum ex illo liberorum <rs
+                            type="person" ref="#rubens_clara">Clarae</rs> et <rs type="person"
+                            ref="#rubens_philippus">Philippi</rs> mater<lb/> propter illius eiusque
+                        matris <rs type="person" ref="#pypelincx_maria">Mariae PYPELINCX</rs>
+                        sepulchrum<lb/> hoc maeroris et amoris sui monumentum P. C.<lb/> bonis viator
+                        bene precare manibus<lb/> et cogita, praeivit ille, mox sequar. </hi>
+                </p>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_253">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nachweis über Zahlungen an die Nachkommen des Sekretärs Peter Paul
+                Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-3038">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte 29e d’Ambroise van Oncle receveur général
+                            des finances, du 1er janvier au 31 décembres
+                            1643)</collection>
+                        <idno type="signatur">B. 3038, fol. 418v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Nachweis über Zahlungen an die Nachkommen des Sekretärs Peter
+                            Paul Rubens</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate notBefore="1642" notAfter="1644">? 1643</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3. Antwerpen 1888.
+                            S. 134.</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Gehalt</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p>475 livres, 15 sols, 6 deniers à la vefve et tuteur des enfans de feu messire <rs
+                        type="person" ref="#rubens_peter_paul">Pierre-Paul Rubbens</rs>, vivant,
+                    chevalier, secrétaire du Conseil privé du Roi, en une lettre de descharge de
+                    pareille somme datée du <date when="1643-04-20">vingtiesme d’apvril 1643</date>,
+                    levée sur messire <rs type="person" ref="#ophen_jacques">Jacques van Ophen</rs>,
+                    chevalier, conseiller et receveur général de <rs type="place" ref="#brabant"
+                        >Brabant</rs> au quartier de <rs type="place" ref="#bruessel"
+                    >Bruxelles</rs>, dont est faict recepte cy-devant folio VII, pour semblable
+                    somme à quoy montent 175 jours de ses gaiges à l’advenant de 54 sols, 4 deniers
+                    par jour, à raison de son dict estat, et ce depuis le <date when="1639-10-27"
+                        >vingt septiesme d’octobre 1639</date> jusqu’au <date when="1640-04-18">18e
+                        apvril ensuivant 1640</date>, jour que le filz dudict défunct <rs
+                        type="person" ref="#rubens_albert">Albert Rubbens</rs><index indexName="psw">
+                        <term type="PND">Rubens, Albert</term>
+                    </index> presta le serment dudict estat et entra en la déservitude d’icelluy,
+                    ayant receu le précédent payement au compte de l’an <date when="1640"
+                    >1640</date>, porté en icelluy, folio 381, verso par extraict autenticque du
+                    testament du défunct et quictance vérifiée veue en estat du mois d’<date
+                        when="--04">apvril</date>, folio 42, verso. </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

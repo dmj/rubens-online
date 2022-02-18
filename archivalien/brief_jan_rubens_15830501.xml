@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_320">
+  
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Jan Rubens an Graf Johann von Nassau</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_jan_rubens_15830501">
+                    <msIdentifier><repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Brief von Jan Rubens an Graf Johann von Nassau vom 5.  Januar 1583</idno>
+                    </msIdentifier>
+                    
+                    <head>
+                        <title>Brief von Jan Rubens an Graf Johann von Nassau vom 5.  Januar 1583</title>
+                    </head>
+                    
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Alexandre Pinchart kopierte das originale Dokument dieser Quittung, um es 
+                                in seinem <bibl>Alexandre Pinchart: Archives des arts, sciences et lettres:
+                                    documents inédits publiés et annotés. 3 Bde. Gent 1860 (Neudruck: Brüssel 1994).<ptr
+                                        type="gbv" cRef="231294484"/></bibl> zu publizieren.</note>
+                        </msItem>
+                    </msContents>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1583-01-05">5.  Januar 1583</origDate>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 248 f.<ptr type="gbv" cRef="146162595"/></bibl>
+                            <bibl>Alexandre Pinchart: Archives des arts, sciences et lettres:
+                                documents inédits publiés et annotés. 3 Bde. Gent 1860 (Neudruck: Brüssel 1994).<ptr
+                                    type="gbv" cRef="231294484"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Ick <rs type="person" ref="#rubens_jan">JANNE RUEBENS</rs> bekenne hiermede dat
+                    myn ghenadighe Heere, myn heere Graff <rs type="person" ref="#nassau_johan"
+                        >JEHAN, Graff van NASSOU</rs> etc. mynen persoon vande ghevanckenisse daer
+                    Syne Ghenaden my inne gehadt heeft, deur enckele gracie eude bermhertigheyt
+                    ghemoveert wesende, daer beneffens van het ootmoedelick bidden van myne
+                    huysvrouwe ende intercessien van goede heeren ende vrinden, sonder ennich gelt
+                    oft ghifte, groot oft cleyn, daervoer gegeven te hebben aen Syne voors. Ghenade
+                    oft andere deur hem selve oft syne huysvrouw — ende alsoo ben, met alle de
+                    mynen, inder eewicheit in Syne voors. Ghenade ende syne erven gehouden, ende en
+                    kan Henne Ghenade mo (maer?) niet meer ghenouch ghedancken, belovende dese
+                    voors. gracie te verdienen altyt in al wat my mogelyck sal syn. </p>
+                <closer><salute>In teeken der waerheyd hebben desen geschreven ende onderschreven op
+                        heden den</salute><dateline><date when="1583-01-05">vyfden January
+                            1583</date><note resp="A.H." type="footnote">Vgl. auch einen <ref
+                                type="rubens" cRef="ed_rubens_321">weiteren Brief gleichen
+                                Datums</ref> der Eheleute Rubens an den Grafen Johann von
+                            Nassau.</note></dateline>bei. <signed>RUEBENS.</signed><signed
+                        rend="text-align:right">JANNE RUEBENS J. V. D. </signed><signed
+                        rend="text-align:right"><rs type="person" ref="#pypelincx_maria">MARIA
+                            RUEBENS alias PYPELINCK.</rs></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

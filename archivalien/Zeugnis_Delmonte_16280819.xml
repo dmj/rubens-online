@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_188">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>In einem Zeugnis für seinen Freund und Schüler Deodat Delmonte (1582–1644),
+                    das in Anwesenheit von Joost Egmont und Willem Paneels durch den Notar Pieter de
+                    Breuseghem ausgefertigt wird, bezeichnet man Rubens als Pictorumque
+                        huius saeculi omnium facile Princeps</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="Zeugnis_Delmonte_16280819">
+                    <msIdentifier>
+                    <repository>unbekannt</repository>
+                    <collection>Cornelis de Bie: Het Gulden Cabinet
+                    van de edel vry Schilderconst</collection>
+                    <idno>Zeugnis für Deodat Delmonte vom 19. August 1628</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>In einem Zeugnis für seinen Freund und Schüler Deodat Delmonte (1582–1644),
+                            das in Anwesenheit von Joost Egmont und Willem Paneels durch den Notar Pieter de
+                            Breuseghem ausgefertigt wird, bezeichnet man Rubens als <quote>Pictorumque
+                                huius saeculi omnium facile Princeps</quote></title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                             <note resp="A.H." type="footnote">Cornelis de Bie verfasste eine Biographie Deodat
+                                Delmontes. Vgl. <bibl>Cornelis de Bie: Het Gulden Cabinet
+                                    van de edel vry Schilderconst. Antwerpen: Montfort, 1662, S. 134-138
+                                    (Neudruck: Soest, Niederlande 1971)<ptr type="opac" cRef="35281876X"
+                                    /></bibl></note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1628-08-19">19. August 1628</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Cornelis de Bie: Het Gulden Cabinet
+                        van de edel vry Schilderconst</bibl></source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Franz Jozef Peter van den Branden:
+                            Geschiedenis der Antwerpsche Schilderschool. Antwerpen 1883, 503<ptr
+                                type="gbv" cRef="194552292"/></bibl>
+                        <bibl>Max Rooses, Charles Ruelens: Correspondance
+                            de Rubens et documents épistolaires concernant sa vie et ses auvres. (Codex
+                            diplomaticus Rubenianus), Bd. I, Antwerpen 1887. S. 439<ptr type="gbv"
+                            cRef="446864137"/></bibl>
+                        <bibl>Cornelis de Bie: Het Gulden Cabinet
+                            van de edel vry Schilderconst. Antwerpen: Montfort, 1662, S. 134-138
+                            (Neudruck: Soest, Niederlande 1971)<ptr type="opac" cRef="35281876X"
+                            /></bibl>
+                    </listBibl></additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="lat">
+                <salute><pb n="135"/>In Die Nomine Amen,</salute><lb/>
+                <p> Noverint universi praesens publicum
+                    instrumentum visuri, inspecturi, vel legi audituri quod Anno a Christo nato
+                        <date when="1628-08-19">Millesimo Sexcentesimo Vigesimo Octavo, indictione
+                        undecima Die vero Decima Nona Mensis Augusti</date>, in mein <rs
+                        type="person" ref="#breuseghem_pieter">Petri de Breuseghem</rs> Notary ac
+                    Tabellionis Publici Regio Consilio, in Ducatu <rs type="place" ref="#brabant"
+                        >Brabantiae</rs> ordinato admißi &amp; approbati, testiumque infra
+                    scriptorum praesentia personaliter comparauit, Illustris Dominus <rs
+                        type="person" ref="#rubens_peter_paul">Petrus Paulus Rubbens</rs>, Nobilis
+                    Domesticus Serenißimae Infantis<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
+                    </index> harum Regionum faelicis Gubernatricis, uniuerso fere terrarum orbe
+                    celeberrimus, Pictorumque huius saeculi omnium facile Princeps, qui condescendens
+                    honesta petitioni, nobilis Domini <rs type="person" ref="#delmonte_deodat"
+                        >Deodati vander Mont</rs><index indexName="stw">
+                        <term xml:lang="deu">Delmonte, Deodat </term>
+                    </index>, nempe ut tetsimonium veritatis daret juramento solemni in manibus mei
+                    Notary tamquam personae authenticae ac publicae praestito dixit, affirmavit ac
+                    testatus est verum esse. Quod ipse, eundem Dominum Deodatum, quod vitam, mores
+                    religionem, nomen ac famam omnium novit. <pb n="136"/>Hac de causa, quod
+                    scilicet multis abhinc Annis eum in domum suam &amp; victum recepit, ut apud
+                    ipsum Dominum comparentem artem pictoriam disceret, quam quidem dictus Dominus
+                    Deodatus ab ipsis fundamentis ita amplexus est, ut bervi tempore mirum in eadem
+                    arte progressum fecerit ipso Domino comparente varias interim Regiones praesertim
+                        <rs type="place" ref="#italien">Italiam</rs><index indexName="stw">
+                        <term xml:lang="deu">Grand Tour</term>
+                    </index><note resp="A.H." type="footnote">Deodat Delmonte bereiste Italien
+                        während seiner Grand Tour von 1600-1608.</note> aliasque mundi partes, ac
+                    loci perlustrante, quo ipse Dominus Deodatus eum semper secutus ac per itinera
+                    ubique comitatus est, nec non semper ac ubique locorum ita obtemperantem
+                    integrum, veracem solertem, suae aliorumque bonarum artium, studiosum, probum,
+                    honestum, ac denique humanum, &amp; precipue verae orthodoxaeque catolicae
+                    romanae religionis amatorem, atque sequacem se praebuit ut non tantum dicto Domio
+                    comparente Domino suo Magisto charus omnino satis fecerit, sed etiam omnibus eum
+                    cognoscentibus gratus &amp; acceptus fuerit. Constituto demum tempore
+                    elapso, dictus Dominus Deodatus convocatis Parentibus eius cum honore amicitia
+                    ac summa laude ab ipso Domino Comparente disceßit denique Matrimonio junctus ita
+                    recte, honorifice ac laudabiliter in hac urbe se geßit, ut omnium cum eo
+                    tractantium sibi amorem ac benevolentiam paraverit, praecipue dicti Domini
+                    comparentis cum que indies fere versatur de quibus omnibus consentijt dictus
+                    Dominus Comparens, &amp; petijt praefatus Dominu Deodatus publicum sive
+                    publica unum vel plura, optima forma sibi confici instrumentum vel instrumenta,
+                    quae acta vel gesta sunt <rs type="place" ref="#antwerpen">Antverpiae</rs> in domo
+                    dicti Domini Comparentis praesentibus ibidem <rs type="person"
+                        ref="#egmont_joost">Justo Egmont</rs> &amp; <rs type="person"
+                            ref="#panneels_willem">Guilielmo Paneels</rs> testibus ad praemissa vocatis
+                    habitis atque rogatis. Et signavit Dictus Dominus Comparens suo nomine notam
+                    huius in Registro mei Notary in quorum fidem praesens jnstrumentum signavi,
+                    rogatus &amp; requisitus. Et erat subsignatum P. de Breuseghem Not.
+                    Publicus.</p> 
+                
+                <closer><salute>Paulo inferius scriptum erat, Nos jurascripti testamur fidemque
+                    facimus Petrum de Breuseghem (qui praecedens instrumentum scripsit ac signavit)
+                    esse Notarium Publicum in hac Civitate Antverpiae residentem, boni nominis ac
+                    famae scripturisque per eum ita signates omnino fuisse adhibitum, &amp; adhuc
+                    adhiberi plenam fidem in judicio &amp; extra illud.</salute>
+                
+                            
+               
+                    <dateline>Datum Antverpiae Die <date when="1628-08-26">Vigesima Sexta Augusti Anno 
+                        Milesimo Sexcentesimo Vigesimo Octavo</date></dateline> subsignaverunt 
+                    <signed><rs type="person" ref="#waerbeke_jan"> J. Waerbeque</rs>: Notarius.</signed>
+                    <signed><rs type="person" ref="#halle_l">L. de Halle</rs> Notarius;</signed> 
+                    <signed>Mr. <rs type="person" ref="#couwenberge_van">van Couwenberghe</rs> Notarius.</signed>
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

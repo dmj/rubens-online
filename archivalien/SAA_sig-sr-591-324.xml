@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_184">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erwirbt von Hans Smekens und seiner Frau Anneke Hendricx
+                    einige kleine, am Wapper gelegene Häuser mit den dazugehörigen Gärten</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="SAA_sig-sr-591-324">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1628/ V: D. Fabri &amp; van Huffel jr.</collection>
+                        <idno type="signatur">SR 591, fol. 324r-325r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erwirbt von Hans Smekens und seiner Frau Anneke
+                            Hendricx einige kleine, am Wapper gelegene Häuser mit den
+                            dazugehörigen Gärten</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. das im Text erwähnte Dokument vom <ref
+                                    type="rubens" cRef="ed_rubens_181">28. Juli 1627</ref> und die am voherigen
+                                    Tag, dem <ref type="rubens" cRef="ed_rubens_183">15. Juni 1628</ref>,
+                                    aufgesetzte Akte. </note>
+                                <note resp="A.H." type="footnote">Zu Rubens' Erwerbungen von Grund und Immobilien am
+                                    Wapper sowie den Transaktionen dazu Vgl. auch die Akten vom <ref type="rubens"
+                                        cRef="ed_rubens_012">1. November 1610</ref>, <ref type="rubens"
+                                            cRef="ed_rubens_013">4. Januar 1611</ref>, <ref type="rubens"
+                                                cRef="ed_rubens_114">30. Mai 1613</ref>, <ref type="rubens"
+                                                    cRef="ed_rubens_181">28. Juli 1627</ref>, <ref type="rubens"
+                                                        cRef="ed_rubens_219">27. Februar</ref> und <ref type="rubens"
+                                                            cRef="ed_rubens_220">7. März 1635</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1628-06-16">16. Juni 1628</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#huybrechts_jan">Jan Huybrechts</rs>, coopman van lackene
+                    als man ende momboir van Jouffrouwe <rs type="person" ref="#roosendael_maria"
+                        >Maria van Roosendael</rs> Diericxs dochter wijlen daer moeder aff was
+                    Jouffrouwe <rs type="person" ref="#marttens_agneta">Agneta Marttens</rs> ende
+                    als van de zelfve zijne huysvrouwe (onder andere) tottet gene naerbescreven
+                    gemachticht ende geconstitueert bij procuratie opden <date when="1625-06-17"
+                        >seventhienden Juny inde Jare 16<hi rend="super">c</hi> ende
+                    vijventwintich</date> voor schepenen deser stadt gepasseert ende onder de zegel
+                    te zencken der zelver stadt geexpedieert ons te desen originelyck gethoont voor
+                    hem zelve, de zelve Jan Huybrechts ende <rs type="person"
+                        ref="#cornynssen_franchoys">Franchoys Cornynssen</rs> beyde inde naeme ende
+                    als momboiren bij mijnen heeren borgemeester ende schepenen dezer stadt gestelt
+                    ende gheordonneert, over der voors. Jouffrouwe Maria Roosendael, onbejaerde
+                    broeders ende zusters, die hij hier inne vervingen ende geloffden te vervaene,
+                    hem daervoore sterckmaeckende ende bekende dat <rs type="person"
+                        ref="#smeken_hans">Hans Smekens</rs> ende <rs type="person"
+                        ref="#hendricx_tanneke">Tanneke Henricx</rs> zijne huysvrouwe in hande van
+                    hen comparanten inder voorschreven qualitejt teghens de penninck sesthiene,
+                    affgelost ende gequeten hebben erffelyck met alle de onbetaelde achterstelle
+                    daeraff verschenen tot desen daghe toe vande eenhondert sevenentachtentich
+                    carolus guldenen ende thien stuyvers erffelyck die hij comparanten inde voors.
+                    qualiteyt alnoch heffende waren vande dryehondert vijventwintich carolus
+                    guldenen sjaars erffelyckere rente, daer van de voors. Hans Smekens ende zijne
+                    huysvrouwe opden <date when="1627-07-28">achtentwintichste July</date> lestleden
+                    (noch gequeten hebben eenhondert sevenendertich carolus guldens ende thien
+                    stuyvers erffelyck die deselve Hans Smekens ende zijne huysvrouwe opden <date
+                        when="1625-07-03">derden July inde Jare 16<hi rend="super">c</hi> ende
+                        vijventwintich</date> vercocht ende bepandt hebben gehadt tot behoeff vande
+                    voorschreven kinderen <rs type="person" ref="#roosendael_dierick">Diericx van
+                        Roosendael</rs>, op elff huysen oft wooninghen mette haven, gronde ende alle
+                    de toebehoorten, gestaen ende gelegen respectieve, op den Wapper<index
+                        indexName="stw">
+                        <term xml:lang="deu">Wapper</term>
+                    </index><index indexName="gsw">
+                        <term type="GKD" xml:lang="deu">Antwerpen</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Rubenshaus</term>
+                        </index>
+                    </index><index indexName="gsw">
+                        <term type="GKD" xml:lang="nld">Antwerpen</term>
+                        <index indexName="stw">
+                            <term xml:lang="nld">Rubenshuis</term>
+                        </index>
+                    </index> ende int <rs type="place" ref="#hoplant">Hoplandt</rs> alhier, tegens
+                    over de Lammekens Rame, al neffens malcanderen waer van ’t hoeckhuys is genaempt
+                    De Witte Roose tusschen den Bleyckhoff oft erve van S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Ruebens</rs> aen
+                    wederzijden ende oock achtere, maer breeder utwijzen vande brieve daeraff zijn
+                    de sulcx dat der voors. kinderen <rs type="person" ref="#roosendael_dierick"
+                        >Diericx van Roosensaels</rs>. rente van nu voordane nyet meer ende is
+                    blijvende den eenhondert achtentsestich gulden ende vijfthien stuyvers
+                    erffelyck, als wij verstonden alzoo dat de voors comparanten inder voors.
+                    qualiteyt daeraff van als tot als klaerlycke quyte schonden ‘tallen dagen de
+                    voors. Hans Smekens Tanneken Henricx zijne huysvrouwe henne goeden etc.
+                    gelovende etc voors. zoo verclaerden de voors. comparantenin voors. qualiteyt,
+                    te vrede te zijn, de voors. henne resterende rente van eenhondert achtensestich
+                    gulden 20 st. erffelyck, van nu voordaene alleen te blijven heffende op de
+                    resterende pande de voors. affquytene alnoch toebehoorende ende die jij hen, int
+                    vercoopen van seker huysken gestaen int Hoplandt van deser pant alsnu
+                    gesepareert wordene aan S<hi rend="super">r</hi> Pedro Paulo Ruebens gereserveert
+                    zijn, ontslaende also ende ontlastende zij comparanten, gans ende geheelycke
+                    mits dese ’tzelve huysken mette hoffken, gronde ende toebehoortenbij den voors.
+                        S<hi rend="super">r</hi> Ruebens op nu vande voors. affquyters gecocht ende op
+                    heden gegoeyt van allen pandt, onderpandt oft medepandt van oft voor voors.
+                    henne resterende rente van eenhondert achtentsestich gulden ende vijftich;
+                    stuyvers erffelyck, nu ende ten eeuwigen daghe, zoo ende gelyck oft de voors.
+                    rente daeroppe int geheel noch in deele nyet geconstitueert en ware geweest,</p>
+                <closer><salute>sonder argelist in kennisse etc.</salute><lb/>
+                    <dateline><date when="1628-06-16">Decima sexta Juny 1628</date>.</dateline></closer> 
+                
+                <note type="contemporary" place="margin"
+                        n="324v">achthien guldenen ende vijfthien stuyvers</note>
+                
+            </div>
+        </body>
+       
+    </text>
+</TEI>

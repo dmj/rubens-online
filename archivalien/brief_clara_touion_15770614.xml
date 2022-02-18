@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_313">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Clara de Touion an Graf <rs type="person" ref="#nassau_johan"
+                        >Johann von Nassau</rs> vom <date when="1577-06-14">14. Juni
+                    1577</date></title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_clara_touion_15770614">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Clara de Touion vom 14. Juni
+                            1577</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Brief von Clara de Touion an Graf Johann von Nassau vom 14. Juni
+                                1577</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1577-06-14">14. Juni
+                                1577</origDate>
+                            <origPlace>Siegen</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 204 f. <ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Pypelincx, Maria</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <salute>Monseigneur,</salute>
+                <p> L’envie que j’ai que V.-Il.-S. octroye ce que ma fille luy demande<note
+                        resp="A.H." type="footnote">Vgl. den Brief gleichen Datums der <ref
+                            type="rubens" cRef="ed_rubens_312">Maria Pypelincx an den Grafen Johann
+                            von Nassau</ref>.</note>, ma induit sans avoir esgard à mon aage,
+                    indisposition et difficultez du chemin, de venir m’incliner à vostre clémence et
+                    la prier très-humblement pour l’amour de nostre commun sauveur et rédempteur
+                    JÉSUS-CHRIST et vostre natife bonté et piété, que j’entens que souliés user avec
+                    tous misérables, et sçay qu’avés en plusieurs endroicts usé avec mon
+                        beau-fils<index indexName="psw">
+                        <term type="GND" xml:lang="deu">Rubens, Jan</term>
+                    </index>, vostre prisonnier : qu’il vous plaise prendre de bonne part ce qu’elle
+                    remonstre et requiert, et s’il est aucunement possible luy intériner sa
+                    requeste. laquelle je seconde de tout mon cueur, et fay aussi de ma part et pour
+                    mon bien propre en toute dévotion et révérence, jugeant n’estre besoing la
+                    répéter pour ne vous fascher par redite. Quoyfaisant, Monseigneur, vous
+                    acquerrés une infinité des esclaves qui tiendrons de vostre libéralité tout tant
+                    que nous sommes et pouvons et employerons promptement le tout à vostre service,
+                    et je m’en retourneray consolée finir mes iours en paix, que ceste seule
+                    espérance me fait désirer la vie. Sur ce, Monseigneur, je prieray Dieu vous
+                    maintenir en sa protection et vous enrichir de toutes sortes de bénédictions. </p>
+                <closer>De <placeName><rs type="place" ref="#siegen">Sieghen</rs>,
+                        </placeName><dateline>ce <date when="1577-06-14">14 juin
+                        1577</date>.</dateline><salute>De Vostre lllustre Seigneurie très-humble
+                        servante.</salute><signed><rs type="person" ref="#touion_clara">CLARA
+                            PYPELYNCKX.</rs></signed></closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

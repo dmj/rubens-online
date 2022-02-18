@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_133">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens wird mit 300 Gulden für seine Porträts der Erzherzöge und
+                    weiteren 300 für ein Madonnenbild bezahlt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="AGRB_sig-1838">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Brüssel</settlement>
+                        <repository>Archives générales du Royaume</repository>
+                        <collection>Archives de la chambre des comtes</collection>
+                        <idno type="signatur">Registre n° F. 1838, fol. 39r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens wird mit 300 Gulden für seine Porträts der
+                            Erzherzöge und weiteren 300 für ein Madonnenbild bezahlt</title>
+                    </head>
+                   <history>
+                        <origin>
+                            <origDate when="1615-10-13">13. Oktober 1615</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Alexandre Pinchart: Archives des arts, sciences et lettres: ocuments inédits
+                                publiés et annotés. Bd. 2. Gent 1860 (Neudruck: Brüssel 1994), S. 172<ptr
+                                    type="gbv" cRef="231294484"/></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Porträt</term>
+                    <term xml:lang="deu">Madonna</term>
+                    <term xml:lang="deu">Maria</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="spa">
+                <p>A <rs type="person" ref="#rubens_peter_paul">Pietro-Paulo Rubens</rs>, pintor,
+                    300 florines, por dos retratos que a hecho, uno de la <rs type="work"
+                        ref="#jaffe_329">infante</rs>, mi Señora<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Albrecht (Österreich, Erzherzog, VII.)</term>
+                    </index><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
+                    </index>, y otro <rs type="work" ref="#jaffe_328">mio</rs><note resp="A.H."
+                        type="footnote">Vgl. zu den Porträts Michael Jaffé: Rubens - Catalogo
+                        completo. Milano 1989, S. 210 <ptr type="gbv" cRef="022373535"/>.</note>,
+                    los quales mande ynbiar à <rs type="place" ref="#spanien">España</rs> al marques
+                    de <rs type="person" ref="#siete_yglesias">Siete-Yglesias</rs>, y otros 300
+                    florines por una pintura de <rs type="work" ref="#jaffe_296">Nuestra-Señora con
+                        el niño Jesus</rs>.<note resp="A.H." type="footnote">Vgl. Michael Jaffé:
+                        Rubens - Catalogo completo. Milano 1989, S. 204 <ptr type="gbv"
+                            cRef="022373535"/></note></p>              
+                <closer>
+                    <dateline><rs type="place" ref="#bruessel">Brusselas</rs>, á 13 de ottobre de 1615.</dateline>
+                </closer> 
+            </div>
+        </body>
+       
+    </text>
+</TEI>

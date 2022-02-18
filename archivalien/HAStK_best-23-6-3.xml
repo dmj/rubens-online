@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_034">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maria Pypelincx wegen einer Erbrente vor dem Kölner Magistrat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="HAStK_best-23-6-3">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt (HAStK)</repository>
+                        <collection>Briefausgänge, Juni 1587</collection>
+                        <idno type="signatur">Best. 23/ 6</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Maria Pypelincx wegen einer Erbrente vor dem Kölner
+                            Magistrat</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                        
+                                <origDate when="1587-06-03">3. Juni 1587</origDate>
+                         
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="deu">Köln</term>
+                    <term xml:lang="deu">Erbrente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#pypelincx_maria">Maria Pipelingk</rs> quondam <rs
+                        type="person" ref="#rubens_jan">Johannis Rubens</rs> contra <rs
+                        type="person" ref="#mantels_margareta">Margaretham</rs>, die witwe von <rs
+                        type="person" ref="#mantels_adrian">Adrian Mantels</rs>, <rs type="place"
+                        ref="#middelburg">Mittelburgi</rs> residentem, um ein erffrenthe liggende in
+                    der Rogenhill, zu behorende den Erffgenamen con <rs type="person"
+                        ref="#stapell_cornelis">Corneliß de Stapell</rs>, jahrlix 75 Carolus-gulden.</p>
+                <closer>
+                    <dateline>Actum <date when="1587-06-03">iii. Jun. 1587</date>.</dateline>
+                </closer> 
+            </div>
+        </body>
+    </text>
+</TEI>

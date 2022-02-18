@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_221">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rubens wird für zwei Bilder entlohnt, die während des Pompa Introitus
+                    Ferdinandi an der St. Joriskerk hängen sollten</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-579-3">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Collegiale Actenboeken 1633-1635</collection>
+                        <idno type="signatur">Pk. 579, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens wird für zwei Bilder entlohnt, die während des Pompa
+                            Introitus Ferdinandi an der St. Joriskerk hängen sollten</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                          <filiation>
+                              <note resp="A.H." type="footnote">Am <ref type="rubens" cRef="ed_rubens_232">30.
+                                  April 1637</ref> erhielt Rubens eine weitere Zahlung für zwei Gemälde für
+                                  den Einzug des Kardinalinfanten in Antwerpen.</note>
+                          </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1635-04-30">30. April 1635</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl>Franz Jozef Peter van den Branden: Geschiedenis
+                            der Antwerpsche Schilderschool. Antwerpen 1883, S. 557<ptr type="gbv"
+                                cRef="194552292"/></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="stw" xml:lang="deu">Pompa Introitus Ferdinandi</term>
+                    <term type="stw" xml:lang="deu">Honorar</term>
+                    <term type="stw" xml:lang="deu">Bezahlung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Geordoneert <rs type="person" ref="#breyel_jacques">Jacques Breyel</rs>,
+                    Tresoriers, etc. vuyttereycken ende te betalen aen S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Rubens</rs>, Secretario
+                    d’Estado, de somme van vijff dusent guldens eens, voor <rs type="work"
+                        ref="#pompa_introitus">de twee stucken</rs> bij hem gemaeckt, ende gestelt
+                    in het pegma aen Sint Joriskercke<note resp="A.H." type="footnote">Die
+                        Willkommensbühne stand als erste der Dekorationen am Mechelseplein hinter
+                        der St. Joriskerk. Vgl. <bibl>John Rupert Martin: The Decorations for the
+                            Pompa Introitus Ferdiandi. (Corpus Rubenianum Ludwig Burchard. Bd. 16).
+                            Brüssel1972. S. 36-64<ptr type="opac"
+                                cRef="125032625"/></bibl></note><index indexName="stw">
+                        <term xml:lang="nld">Sint-Joriskerk</term>
+                    </index>, ’t retocqueren van de schilderijen, ende contrefeytsels in de andere
+                    arcken gestelt, schitsen bij hem van de selve gemaeckt, ende verscheyden moyten
+                    ende travaillien in ’t vervoorderen ende corrigeren van de selve wercken
+                    genomen.</p>
+                <closer>
+                    <dateline> Actum in Collegio <date when="1635-04-30">30 Aprilis 1635</date></dateline>
+                </closer>
+                
+            </div>
+        </body>
+       
+    </text>
+</TEI>

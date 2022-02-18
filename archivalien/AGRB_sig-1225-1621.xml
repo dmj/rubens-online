@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_151">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quittung von Peter Paul Rubens über die Zahlung von 530 ₤ für das Gemälde mit
+                    St. Joseph für die Karmeliterkirche von Marlagne bei Namur</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="AGRB_sig-1225-1621">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Brüssel</settlement>
+                        <repository>Archives générales du Royaume (AGRB)</repository>
+                        <collection>Manuscrits divers (Collection)</collection>
+                        <idno type="signatur">1225</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Quittung von Peter Paul Rubens über die Zahlung von 530 ₤ für das
+                            Gemälde mit St. Joseph für die Karmeliterkirche von
+                            Marlagne bei Namur</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch das <ref type="rubens"
+                                    cRef="ed_rubens_152">in Lille befindliche Dokument</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1621-07-21">21. Juli 1621</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl> 
+                            <bibl>Omtrent J. Breughel de Oude, P. P. Rubens, A. van Dijck: Kunst en kunstenaars
+                            in de Rijksarchieven, Ausstellung: Brüssel, Algemeen Rijksarchief, 9. November -
+                            24. Dezember 1999. bearbeitet von Marleen Forrier u.a. (Algemeen Rijksarchief en
+                            Rijksarchief in de provinciën: educatieve dienst, catalogussen, Bd. 162),
+                            Brüssel 1999, S. 112, Nr. 82</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p> Je <rs type="person" ref="#rubens_peter_paul">Pierre Paul Rubens</rs> paincte de
+                    l’hostel de son a<hi rend="super">lteze</hi> confesse avoir receu de <rs
+                        type="person" ref="#oncle_ambroise">Ambroise van Oncle</rs> conseiller et
+                    recepveur general de finances du roy la somme de cincq cens trente livres du
+                    pris de quarante gros monnoye de <rs type="place" ref="#flandern">Flandres</rs>
+                    la livre. Que à l’ordonnance de sadite alteze il m’a baillé et delivré comptant
+                    pour semblable somme que leur a<hi rend="super">ltezes</hi> par leur ordonnance de
+                    plus grand somme en date du <date when="1621-03-29">vingtnœufiesme de mars seize
+                        cens vingt ung</date> m’ont tauxé et ordonné pour une <rs type="work"
+                        ref="#rubens_hl_joseph">paincture de Joseph</rs><index indexName="stw">
+                        <term xml:lang="deu">Joseph</term>
+                    </index><index indexName="psw">
+                        <term xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term xml:lang="deu">St. Joseph</term></index>
+                    </index> servant sur grand aultel de <rs type="corporate"
+                        ref="#karmeliterkloster_marlagne_namur">l’églize des pères
+                        carmelites</rs><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Unbeschuhte Karmeliten</term>
+                    </index> de <rs type="place" ref="#marlagne">Morlaigne</rs><index
+                        indexName="stw">
+                        <term xml:lang="deu">Karmeliterkirche</term>
+                    </index> proche <rs type="place" ref="#namur">Namur</rs><note resp="A.H."
+                        type="footnote">Vgl. den entsprechenden Eintrag bei <ref
+                            target="http://www.rubensonline.be/showDetail.asp?artworkID=101565"
+                            >www.rubensonline.be</ref></note><index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Namur</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="deu">Marlagne</term>
+                    </index>, de laquelle somme de V<hi rend="super">c</hi>XXX ₤ dudit pris je souis
+                    content et bien payé. Tesmoing mon seing manuel cy miz le <date
+                        when="1621-07-21">vingtungiesme jour de juliett seize cens vingt une</date>.
+                </p>
+            </div>
+        </body>
+       </text>
+</TEI>

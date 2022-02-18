@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_137a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein jährliches Honorar als Hofmaler</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-2690-395v">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte troisième d’Ambroise Van Oncle du 1er janvier au 31 décembre
+                            1617)</collection>
+                        <idno type="signatur">B. 2690, fol. 395v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erhält sein jährliches Honorar als
+                            Hofmaler</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                          
+                            <filiation>
+                                <note resp="A.H." type="footnote">Bzgl. Rubens als Hofmaler vergleiche auch seine Ernennung am 
+                                    <ref type="rubens" cRef="ed_rubens_100">23. September 1609</ref>.
+                                </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1617" notAfter="1617">? 1617</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Marcel
+                                De Maeyer: Albrecht en Isabella en de schilderkunst : bijdrage tot de
+                                geschiedenis van de XVII.-eeuwsw schilderkunst in de zuidelijke Nederlanden.
+                                (Verhandelingen van de Koninklijke Vlaamse Academie voor wetenschappen,
+                                letteren en schone kunsten van België. Klasse der Schone Kunsten. Bd. 9)
+                                Brüssel 1955, S. 337, Nr. 134<ptr type="opac" cRef="303752092"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Hofmaler</term>
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Brüssel</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:lang="fra">
+                <p>
+                    <pb n="395v"/> A <rs type="person" ref="#noveliers_david">David Noveliers</rs>,
+                    painctre, la somme de 1000 livres dudict pris comptant, que Leurs Altèzes<index
+                    indexName="psw">
+                    <term type="PND">Albrecht (Österreich, Erzherzog, VII.)</term>
+                    </index><index indexName="psw">
+                        <term type="PND">Isabella (Spanien, Infantin)</term>
+                    </index>, eu
+                    sur ce l’advis de maistre <rs type="person"
+                    ref="#rubens_peter_paul">Pierre-Paul Rubbens</rs>, leur painctre, luy avoient tauxé
+                    et accordé pour diverses pièces de painctures par luy faites pour Leurs Altézes,
+                    y comprins ce qu’il pouvoit avoir receu. Par ordonnance et quitance y servante,
+                    veues en l’estat de <date when="1617-05">may XVI<hi rend="super">c</hi>
+                    dix-sept</date>, fol XXIII verso,
+                    cx-rendus ladict somme de 1000 ₤. 
+                </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

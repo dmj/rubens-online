@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_114">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Doktor Godefried Verreycken erklärt, daß Peter Paul Rubens ihm 20 Gulden
+                    bezahlt habe, als eine Rente, die er auf Häuser am Wapper und im Hopland
+                besitzt</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="SAA_sig-sr-503">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1613/ II: Gaverelle &amp; Kieffelt</collection>
+                        <idno type="signatur">SR 503, fol. 260v-261v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Doktor Godefried Verreycken erklärt, daß Peter Paul Rubens ihm 20
+                            Gulden bezahlt habe, als eine Rente, die er auf Häuser am Wapper und
+                            im Hopland besitzt</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           <filiation>
+                                <note resp="A.H." type="footnote">Zu Rubens' Erwerbungen von Grund und Immobilien am
+                                    Wapper sowie den Transaktionen dazu Vgl. auch die Akten vom 
+                                    <ref type="rubens" cRef="ed_rubens_012">1. November 1610</ref>, 
+                                    <ref type="rubens" cRef="ed_rubens_013">4. Januar 1611</ref>, 
+                                    <ref type="rubens" cRef="ed_rubens_181">28. Juli 1627</ref>, 
+                                    <ref type="rubens" cRef="ed_rubens_184">16. Juni 1628</ref>, 
+                                    <ref type="rubens" cRef="ed_rubens_219">27. Februar</ref> und 
+                                    <ref type="rubens" cRef="ed_rubens_220">7. März 1635</ref>.
+                                </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1613-05-30">30. Mai 1613</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Wapper</term>
+                    <term xml:lang="deu">Hopland</term>
+                    <term xml:lang="deu">Rente</term>
+                    <term xml:lang="deu">Finanzen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> M<hi rend="super">r</hi>
+                    <rs type="person" ref="#verreycken_godefried">Gidefridus Verreycken</rs>, doctor
+                    in medecijnen, in houwelijk gehadt hebbende wijlen Jouff<hi rend="super">vr</hi>
+                    <rs type="person" ref="#boots_margareta">Margareta Boots</rs>, de ouders van de
+                    welcke hij comparant van heure nagelaten goede utgecocht heeft soo hij seyde,
+                    bekenden dat <rs type="person" ref="#rubens_peter_paul">Pietro Paulo
+                    Rubens</rs>, in handen van hem comparant, jegens den penninck sesthiene,
+                    afgequeten, opgebeurt ende voldaen heeft, alsulcke twintich carolus gulden
+                    erflijck met allen den onbetaelden achterstelle derselven als <rs type="person"
+                        ref="#gelre_melchior">Melchior van Gelre</rs> opten <date when="1604-02-28"
+                        >28 Februarii 1600 ende vier</date> vercocht ende opgedragen heeft hem
+                    comparant ende de voors. Margareta Boots alsoo ende sijnder huysvrouwe ende die
+                        <rs type="person" ref="#gielis_franchois">Franchois Gielis</rs> opten <date
+                        when="1569-07-14">14<hi rend="super">den</hi> July anno 1500 ende
+                        negenentsestich</date> vercocht ende bepandt heeft <rs type="person"
+                        ref="#sgreven_melchior">Melchiore Sgreven</rs> tot behoeve van <rs
+                        type="person" ref="#bernthuysers_jan">Janne</rs>, <rs type="person"
+                        ref="#bernthuysers_lucas">Lucas</rs>, <rs type="person"
+                        ref="#bernthuysers_coenrart">Coenrart</rs>, <rs type="person"
+                        ref="#bernthuysers_mechtelt">Mechtelt</rs>, ende <rs type="person"
+                        ref="#bernthuysers_agneeta">Agneeta Bernthuysers</rs>, daer moeder af was
+                        Jouff<hi rend="super">vr</hi>. <rs type="person" ref="#imhoff_agnete">Agnete
+                        Imhoff</rs>, ierst op eene groote huysinghe met plaetse, hove, borneputte,
+                    gronden ende toebhoorten, gestaen ende gelegen op den Wapper alhier<index
+                        indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    </index> tusschen vrouwe <rs type="person" ref="#halmale_agnes">Agnese van
+                        Halmale</rs> erve, <span from="" xml:lang="lat">ex una</span>, ende sekere ledige erve, wesende, een
+                    bleyckerije, <span from="" xml:lang="lat">ex altera</span>, ende op noch drije huysen neffens een int <rs
+                        type="place" ref="#hoplant">Hopland</rs>, alhier gestaen tusschen derve van
+                    den Colveniers hove, <span from="" xml:lang="lat">ex una</span>, en thuys geheeten Breda,</p>
+                    <closer>
+                        <salute><span from="" xml:lang="lat">ex altera, prout litteras
+                        quas tradidit, quitavit</span>, gelovende.</salute><lb/>
+                        <dateline>Die <date when="1613-05-30">30 May 1613</date></dateline>
+                    </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_242">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notiz zum gemeinsamen Testament von Peter Paul Rubens und Helena
+                Fourment</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-n-3393-2">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Notariaatsarchief: Hendrick van Cantelbeck Jr.: Protocollen, en
+                            staten van rekeningen 1639</collection>
+                        <idno type="signatur">N 3393, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Notiz zum gemeinsamen Testament von Peter Paul Rubens und Helena
+                            Fourment</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Der Text wurde publiziert durch <bibl>Pierre Génard: Het laatste Testament van P. P. Rubens.
+                                In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 4. Antwerpen: de Backer, 1896.
+                                S. 130-132.</bibl></note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                             <origDate when="1639-09-16">16. September 1639</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den
+                            grooten meester en zijne bloedverwanten. Antwerpen 1877. S. 24-26.<ptr type="gbv"
+                            cRef="146162595"/></bibl>
+                            <bibl>Pierre Génard: Het laatste Testament van P. P. Rubens.
+                                In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 4. Antwerpen: de Backer, 1896.
+                                S. 130-132.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <head><date when="1639-09-16">Decima sexta Septembris A<hi rend="super">o</hi>
+                    1639</date>.</head> <p>Compareerden in propre persoonen Heer <rs type="person"
+                        ref="#rubens_peter_paul">Petro Paulo Rubens</rs>, Riddere, ende Vrouwe <rs
+                        type="person" ref="#fourment_helene">Helena Fourment</rs><index
+                        indexName="psw">
+                        <term type="PND">Fourment, Hélène</term>
+                    </index>, zijne wettige huysvrouwe, inwoonderen deser stadt, mij notaris bekent,
+                    beyde gesont van hertten, met ons gaende, staende ende op der aerden
+                    wandelenden, hen zinnen, memorie ende verstant over al wel machtich ende
+                    volcomenlijcken gebruyckende gelijck dat aen hen wel bleeck ende scheen, Ende
+                    bekenden dat zij wt hennen vrijen enden eijgenen wille, gerechter wetendtheyt
+                    ende goeder deliberatie, ombedwongen ende overleyt zijnde van yemanden, al noch
+                    gelaudeert, geratificeert ende geapprobeert hebben, laudere, ratificeren ende
+                    approberen bij desen, het testament<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Testament</term>
+                    </index> ende dispositie van wtersten wille hij hen gesamentlijcken gemaect ende
+                    binnen deerste jaer hens houwelijcx voor den Notaris Meester <rs type="person"
+                        ref="#guyot_toussaint">Toussein Guyot</rs>, alhier residerende, in presentie
+                    van getuygen gepasseert, daertoe vuegende bij forme van codicille, als volcht,
+                    te weten dat deerste afflijvige van hen codicillateuren wilt ende begeert dat
+                    allen de leengoeden bij den zelven eersten afflijvigen met zijn doodt te ruymen
+                    ende nae te latene, egeen gereserveert, van wat nature ende qualiteyt die mogen
+                    zijn ende tot wat plaetsen die gestaen, gelegen zijn ende bevonden zelen mogen
+                    woirden, altsamen tusschen zijn eerst afflivigens kinderen gepaert, gescheyden
+                    ende gedeylt zullen woirden hooftgelijcke, deen kint zoo veel als dander;
+                    daeronder oick begrijpende hij Heer codicillateur zijn twee voorkinderen<index
+                        indexName="psw">
+                        <term type="PND">Rubens, Albert</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="deu">Nikolaas Rubens</term>
+                    </index>, zonder dat yemant van zijn eerst afflivigens kinderen, outste oft
+                    joncxste sone oft andere eenich recht van premenentie oft vordeel totte zelve
+                    leengoeden zal mogen hebben oft pretenderen in eeniger manieren, om redenen hem
+                    oft haer daertoe moverende, zoo zij zeyden, ende tot meerderen effecte van tgene
+                    voors. hiertoe gebruyckende dopene brieven van octroy bij hen codicillateuren om
+                    van henne leengoeden ende zoodanige andere te mogen testeren, te Hove verworven
+                    den <date when="1637-01-02">tweeden January A<hi rend="super">o</hi> XVI<hi
+                            rend="super">e</hi> zevenendertich</date>, luyt den brieve daeraff zijnde,
+                    besegelt met zijne Conincklicke Majestijts zegele van rooden wassche,
+                    geparagrapheert: Boisschot vidit, ende geteeckent op de plijcke: Bijden coninck:
+                    Mastlijn, ten desen originalijcken gesien<note resp="N.B." type="footnote">Am 2.
+                        Januar 1637 erging das Privileg des spanischen Königs an Peter Paul Rubens,
+                        über seine Lehngüter verfügen zu dürfen. Vgl. <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                            zijne bloedverwanten. Antwerpen 1877. S. 19.<ptr type="gbv"
+                                cRef="146162595"/></bibl> Das originale Dokument ist nicht
+                        nachzuweisen. Hinweise darauf finden sich auch im letzten Testament Rubens'
+                        vom <ref type="rubens" cRef="ed_rubens_246">27. Mai 1640</ref>.</note>. Ende
+                    al is zoo hij Heer codicillateur bij eender codicille voor den Notaris <rs
+                        type="person" ref="#bruijn_peeter">Peeter de Bruijn</rs>, tot <rs
+                        type="place" ref="#wolvertem">Wolfferteem</rs> in cleyn Brabant residerende,
+                    in presentie van getuygen gepasseert, gewilt ende begeert heeft dat aen J<hi
+                        rend="super">or</hi>
+                    <rs type="person" ref="#rubens_nikolaas">Nicolaes Rubens</rs>, zijnen joncxten
+                    voorzoon, fideicommis zoude zijn alle tgene hij J<hi rend="super">or</hi> Nicolaes
+                    door zijn Heer codicillateurs doodt meer zoude beerven als zijn legittime portie
+                    zal comen te bedraegen, dat hij codicillateur zulcx is veranderende ende
+                    derogerende bij desen, begeerende expresselijck hij J<hi rend="super">or</hi>
+                    Nicolaes zijn patrimoniael goeden, ruerende ende onruerende, haeffelijcke ende
+                    erffelijcke, actien, schulden, crediten ende gerechticheden, vrij ende ombelast
+                    ende zonder eenich restoir geniete, als zijn ander kinderen doen; voirder
+                    willende hij codicillateur dat de schilderijen, statuen, agaten, medalien,
+                    teeckeningen ende diergelijcke fraycheyt tzijn eerste afflivigens sterffhuyse te
+                    bevinden, tot bequaemen ende gelegender tijt vercocht zelen woirden,
+                    openbaerlijck oft wter hant, zoo men gevuechelijck bevinden zal te behooren. Dit
+                    verclaerden zij codicillateuren alnoch te wesen hennen wtersten wille dien zij
+                    willen van alzulcken effect ende weerden te zijn alwaer den inhout van dien mede
+                    in hennen voors. testamente begrepen ende gecomprehendeert; verzueckende etc.
+                    etc.</p> <p>Aldus gedaen thennen woonhuyse<index indexName="stw">
+                        <term xml:lang="deu">Rubenshaus</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="nld">Rubenshuis</term>
+                    </index> gestaen aen den Wapper<index indexName="stw">
+                        <term xml:lang="deu">Wapper</term>
+                    </index> alhier, in de strate loopende van de Brabantsche coremerct naer de
+                    Mere, ter presentien van <rs type="person" ref="#floris_jan">Jan
+                        Floris</rs><index indexName="psw">
+                        <term xml:lang="deu">Floris, Jan</term>
+                    </index> ende <rs type="person" ref="#mildert_petrus_paulus">Petrus Paulus van
+                        Mildert</rs><index indexName="psw">
+                        <term xml:lang="deu">Mildert, Peter Paul van</term>
+                        </index>, beyde schilders alhier, als getuygen hiertoe geroepen ende versocht.</p> 
+                <closer>
+                    <signed><rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens</rs></signed><lb/> 
+                    <signed>Helena Fourment</signed><lb/> 
+                    <signed>Jan Floris</signed><lb/> 
+                    <signed>Petrus Paulus van Mildert</signed><lb/>
+                    <signed><rs type="person" ref="#cantelbeke_hendrick">H. van Cantelbeck</rs>, Not<hi
+                        rend="super">s</hi></signed>
+                </closer>
+                
+            </div>
+        </body>
+      
+    </text>
+</TEI>

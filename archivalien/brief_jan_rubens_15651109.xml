@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_257">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jan Rubens bittet in einem Schreiben an seinen Neffen, den Pensionaris <rs type="person" ref="#gillis_jan">Jan
+                    Gillis</rs> in Brüssel, diesen um Intervention bei <rs type="person" ref="#rio_ludovico">Ludovico del Rio</rs>, Mitglied des
+                    Raad van Beroerte, um die rechtliche Stellung des Antwerpener Magistrates zu
+                    prüfen. Angfügt: Eine Schilderung der Sachlage</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_jan_rubens_15651109">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Juristen en rechtsleven ten tijde van Rubens</collection>
+                        <idno type="signatur">Brief von Jan Rubens vom 9. November 1565</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Jan Rubens bittet in einem Schreiben an seinen Neffen, den Pensionaris <rs type="person" ref="#gillis_jan">Jan
+                            Gillis</rs> in Brüssel, diesen um Intervention bei <rs type="person" ref="#rio_ludovico">Ludovico del Rio</rs>, Mitglied des
+                            Raad van Beroerte, um die rechtliche Stellung des Antwerpener Magistrates zu
+                            prüfen. Angfügt: Eine Schilderung der Sachlage</title>
+                    </head>
+                    <msContents>
+                         <msItem>
+                             <note resp="N.B." type="footnote">Ein Hinweis auf dieses Stück in <bibl>Juristen en rechtsleven ten tijde van Rubens.
+                                 Ausstellungskatalog. Antwerpen. Gerechtsgebouw. 15.-30. Oktober 1977. S. 238f. Nr. 135f</bibl>.</note>                                         
+                         </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1565-11-09">9. November 1565</origDate>
+                        </origin>
+                        <provenance>
+                            <p>Das Dokument befindet sich in Privatbesitz.</p>
+                        </provenance>
+                        </history>
+                    <additional>
+                        <adminInfo><recordHist><source>
+                            <bibl>Nils Büttner nach: Juristen en rechtsleven ten tijde van Rubens</bibl>
+                        </source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Juristen en rechtsleven ten tijde van Rubens.
+                                Ausstellungskatalog. Antwerpen. Gerechtsgebouw. 15.-30. Oktober 1977. S. 238f.,
+                                Nr. 135f.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Jan</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Die Schilderung der Sachlage endet mit
+                folgenden Worten:</p>
+                <p><quote><gap resp="N.B." reason="cancelled"/>Ick hebbe mij
+                    gequeten na mijne qualiteyt, mij nerghens inne sparende daer men mij heeft
+                    willen employeren, ende van eets weghen schuldich was te doene, gelijck eenen
+                    ijgelick vande wethouders ende borgheren notoir ende kenlick is. Ick hebbe alle
+                    neersticheyt gedaen metten anderen omme de stat te conserveren voer Sijne
+                    Majesteyt, den volcke goet exempel te geven, den quaden te wederstane ende de
+                    goede te beschermen <gap resp="N.B." reason="cancelled"/></quote></p>
+            </div>
+        </body>
+     
+    </text>
+</TEI>

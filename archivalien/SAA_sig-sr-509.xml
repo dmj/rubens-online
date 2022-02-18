@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_117">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Als Vormund der Kinder von Blandina Rubens empfängt Peter Paul Rubens den
+                    Zins aus einer Rente, die Willem van Hoboken zu Gunsten von Maria Pypelincx auf
+                    das Haus De Papegaeyken ausgesetzt hat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-509">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1614/ II: Gaverelle &amp; Kieffelt</collection>
+                        <idno type="signatur">SR 509, fol. 31r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Als Vormund der Kinder von Blandina Rubens empfängt Peter Paul
+                            Rubens den Zins aus einer Rente, die Willem van Hoboken zu Gunsten
+                            von Maria Pypelincx auf das Haus De Papegaeyken ausgesetzt
+                            hat</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch die Dokumente vom 
+                                    <ref type="rubens" cRef="ed_rubens_095">11. April 1608</ref> und 
+                                    <ref type="rubens" cRef="ed_rubens_115">17. Dezember 1613</ref> sowie die
+                                    Verteilung des Nachlasses der Maria Pypelinx am 
+                                    <ref type="rubens" cRef="ed_rubens_011">17. September 1610</ref>
+                                </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1614-01-08">8. Januar 1614</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="SWD" xml:lang="deu">Vormundschaft</term>
+                    <term xml:lang="deu">Blandina Rubens</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#rubens_peter_paul">Pietre Paulo Ruebens</rs> in den
+                    naeme ende als testamelijcken momboir<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index> over de kinderen van de wijlen J<hi rend="super">ve</hi>
+                    <rs type="person" ref="#rubens_blandina">Blandina Ruebens</rs>, sijne sustere,
+                    daer vaeder aff is <rs type="person" ref="#parcq_simeon">Simeon du Parck</rs>,
+                    die hij hierinne vervinck ende geleefde te vervaene, hem daervore
+                    sterckmaeckende ende in dyer qualiteyt, bekende opgebeurt ende ontfangen te
+                    hebben van <rs type="person" ref="#velde_maria">Maria van de Velde</rs>, weduwe
+                    van wijlen <rs type="person" ref="#hoboken_guillaume">Guillaums van
+                    Hoboken</rs>, de capitaele penningen van de sevenendertich guldenen ende thien
+                    stuyvers erfflijck, metten achterstelle daeraff, tot dese toe verschenen, die de
+                    voors. wijlen Guillaume van Hoboken den <date when="1608-04-11">elfsten dach
+                        der maent Aprilis anno 1600 ende acht</date>, tot behoeve van wijlen J<hi
+                        rend="super">ve</hi>
+                    <rs type="person" ref="#pypelincx_maria">Maria Pijpelincx</rs>, der voors.
+                    kinderen grootmoedere was, bewesen ende geasigneert heeft, op een huys genaemt
+                    ’t Papegaeyken<index indexName="stw">
+                        <term xml:lang="nld">Papegaeyken</term>
+                    </index> gestaen ende gelegen in de Cammerstraete, metten gange van de
+                    borneputte gemeynen doorgange gemeynder bleyckplaetse eende eynde hofs daer
+                    teynden aene met vijve cameren in de Oudaenstraete achter aent voors. huys,
+                    geheeten ’t Papegaeyken, gronden enden toebehoorten gestaen inde Cammerstraete
+                    op den hoeck van de Oudaene, gelijckende in alle der manieren de voors. rente,
+                    den voors. kinderen (onder andere) aengedeylt ende te deele bevallen is bij
+                    scheydinge ende deylinge tusschen hem comparant ende sijnen broeder mede oyck
+                    momboir was over de voors. kinderen met henne consoirten, den <date
+                        when="1610-09-17">seventhiensten dach der maent Septembris anno 1600
+                        ende thien</date> voor schepenen deser stadt<index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                        </index> gepasseert,</p>
+                <closer>
+                    <salute> prout <span from="" xml:lang="lat">litteras quas tradidit</span>.<lb/>
+                            Quitatvit ende gelovende ende sonder argelist</salute>.<lb/>
+                    <dateline><date when="1614-01-08">Octava Januarii 1614</date>.<lb/>
+                        Soluit</dateline>
+                </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

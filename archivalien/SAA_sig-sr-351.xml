@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_043">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maria Pypelincx verkauft ihren Anteil an einem Anwesen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-351">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1576/ IV: Moy &amp; Neesen</collection>
+                        <idno type="signatur">SR 351, fol. 337r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Maria Pypelincx verkauft ihren Anteil an einem Anwesen</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1576-09-13">13. September 1576</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                        <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 291<ptr type="gbv" cRef="146162595"/></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, <rs type="person" ref="#pypelincx_dionisius">
+                        Dionijs</rs>dochtere, daer moeder aff was <rs type="person" ref="#weuluwe_johanna">Johanna
+                    Weuluwe</rs>, met <rs type="person" ref="#landuyt_peeter">Peeteren Landuyt</rs>,
+                    haeren wettighen manne ende mombore, vercocht, omme eene, somme gelts, <rs
+                        type="person" ref="#venne_willem">Willem vande Venne</rs>, tengietere, ende
+                        <rs type="person" ref="#caret_catlijne">Catlijnen Caret</rs>, ejus uxori,
+                    tvierendeel ende alle haer recht ende actie haer competerende in ende aene sesse
+                    huysen voor aen tstraete metten ganghe ende sevene wooninghen inden selven
+                    ganghe, met borneputte, fundo et omnibus pertinentiis, geheeten de Roode
+                    Cameren, gestaen ende gelegen inde Vekenstrate alhier, achter t’ Vlies, daeraff
+                    deen helft den voors. <rs type="person" ref="#pypelincx_dionisius">Dionijse
+                        Pypelinck</rs> ende tresterende vierendeel Dionijse Pypelinck, der
+                    comparanten vadere ende broedere, is toebehoorende, gelijck ende in alle der
+                    manieren haer comparante tvoors. vierendeel vande voorgenoemde huysen toceomen,
+                    bleven ende verstorven is midts der doot ende aff1ijvicheyt van wijlen <rs
+                        type="person" ref="#weuluwe_johanna">Jehanna van Weuluwe</rs>, haere moedere
+                    voorgenoempt. Droech op, etc. Te waerne van allen commere ende calaengien die
+                    sij oft ijemandt anders van heuren twegen daeroppe gemaect mochten hebben in
+                    eeniger manieren.</p> <closer><salute>Sonder argelist.</salute><lb/>
+                        <dateline><date when="1576-09-13">XIII Septembris 1576</date>.</dateline></closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

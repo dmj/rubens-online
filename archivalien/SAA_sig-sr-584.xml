@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_172">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander vanden Broecke gibt als Vertreter verschiedener Kleriker an, daß
+                    Peter Paul Rubens alle auf einem Haus in der Schutterstege und auf dem Haus
+                    Breda liegenden erblichen Verpflichtungen ausbezahlt und endgültig abgelöst
+                hat</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-584">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1627/ IV: Peter Fabri, Peter Wouters &amp; L. van
+                            Huffel</collection>
+                        <idno type="signatur">SR 584, fol. 181r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Alexander vanden Broecke gibt als Vertreter verschiedener
+                            Kleriker an, daß Peter Paul Rubens alle auf einem Haus in der
+                            Schutterstege und auf dem Haus Breda liegenden erblichen
+                            Verpflichtungen ausbezahlt und endgültig abgelöst hat</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1627-05-06">6. Mai 1627</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> S<hi rend="super">r</hi>
+                    <rs type="person" ref="#broecke_alexander">Alexander van den Broecke</rs>,
+                    oudschepene deser stadt in de name ende als omme ’t geene nabeschreben onder
+                    andere te doene gemachticht ende geconstitueert van deerweerde Heer, here ende
+                    Meester <rs type="person" ref="#fabricius_willem">Willem Fabricius</rs>
+                    Choordeken van <rs type="corporate" ref="#st_pieterskerk_loewen">St. Pieters
+                        kerck</rs> tot leven here ende Meester <rs type="person"
+                        ref="#paludanis_jan">Jan Paludanis</rs>, Canoninck ende plebaen der selver
+                    kercke beyde als procurateurs der collegio van <rs type="person"
+                        ref="#hadrian_vi_papst">Adriamus de sesde</rs> Paus<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Hadrian (Papst, VI.) </term>
+                    </index> van dyen name gefondeert binnen <rs type="place" ref="#loewen"
+                    >Leuven</rs> met Heere ende Meester <rs type="person" ref="#merchier_willem"
+                        >Willem Merchier</rs>, oock Canunick van St. Pieters als proviseur der
+                    voorseide collegie alle doctoren ende proffesseuren inde hylige Godheyt, breed
+                    blijven bij procuratie opden <date when="1626-04-16">16<hi rend="super">e</hi>
+                        Aprilis anno 16<hi rend="super">c</hi> ende sessentwintich</date>, gepasseert
+                    voor <rs type="person" ref="#hermans_jan">Jan Hermans</rs>, als notaris tot
+                    Leuven voors. in presentie van getuygen ons te desen origineelen gethoont;
+                    bekend mits desen dat <rs type="person" ref="#rubens_peter_paul">Pietro Paulo
+                        Rubens</rs> in hande van hem comparant inder voors. qualiteyt jegens de
+                    penninck sesthiene afgelost ende gequeten heeft de tweee partyen van erfrenten,
+                    nabeschreen met alle de onbetaelde verloope derselver, namelyck soo de dertich
+                    gulden erfelyck die <rs type="person" ref="#pamphi_horatio">Horatio Pamphi</rs>
+                    ende <rs type="person" ref="#paulet_franchoise">Franchoise Paulet</rs>, sijne
+                    huysvrouwe, opden <date when="1610-03-23">23 Meert anno 16<hi rend="super">c</hi>
+                        ende thien</date> vercocht ende bepandt heeft hem <rs type="person"
+                        ref="#broecke_ghysbrecht">Gysbrecht vanden Broecke</rs>, priester alhier
+                    was; daeraff op een huys ende <span from="" xml:lang="lat">cum fundo et pertinentis</span>, gestaen ende gelegen int
+                    Hoplandt oft Schutterstege, alhier neffens ’t nabeschreven huys genaempt Breda,
+                    ende noch opte selve huys Breda oock int Hoplandt neffens voors. eerste huyse
+                    gestaen, als oock de seven gulden erffelyck, die alnoch geheven worden voor
+                    rechte van thien gulden (daerby de drye gulden erffelyck voor date deselfde
+                    afgequeten sijn geweest van binnen den leve des voors. Guysbrecht van den
+                    Broecke die de voors. <rs type="person" ref="#pamphi_horatio">Horetio
+                    Pamphi</rs> ende Franchoise Paulet, sijn huysvrouwe opden <date
+                        when="1609-12-12">12<hi rend="super">e</hi> Decembrs anno 16<hi rend="super"
+                        >c</hi> negen</date> vercocht ende bepandt hebben de voors heer Gysbrecht
+                    vanden Broecke opt huys <span from="" xml:lang="lat">cum fundo et pertinentiis</span> genaamt Breda<index
+                        indexName="stw">
+                        <term xml:lang="deu">Breda</term>
+                    </index> gestaen ende gelegen int <rs type="place" ref="#hoplant">Hoplaadt</rs>
+                    als voore, al prout litteras quas tradidit. Sijnde de voors. twee op nu gequeten
+                    renten der voors. collegio kruisje van Adrianus de sesde gemaeckt ende gelaten
+                    geweest tot fondatie van eene borsse, byde codicile des voors. wijlen Heer
+                    Gysbrechts van den Broecke bij hem gemackt in gevolghe hierin besloten
+                    testamenten, gelyck hem comparant (als executeur geweest sijn van voors.
+                    testamenten ende uitersten wille des voors. wijlen Heer Gysbrecht vanden Broecke
+                    ende van welcken hij comparanten andersints, mede erfgenamen sonder wesen ab
+                    intestate) wel kennelyck is, quitant.</p>
+                <closer> 
+                    <salute>Gelove<hi rend="super">nde</hi> etc.</salute><lb/>
+                        <dateline><date when="1627-05-06">Sexta Mey 1627</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

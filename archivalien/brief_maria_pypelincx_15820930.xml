@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_317">
+    <!-- ID vergeben -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brief von Maria Pypelincx an Dr. Schwartz </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="brief_maria_pypelincx_15820930">
+                    <msIdentifier><repository>unbekannt</repository><collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection><idno>Brief von Maria Pypelincx an Dr. Schwartz vom 30. September 1582</idno></msIdentifier>
+                    
+                    <head>
+                        <title>Brief von Maria Pypelincx an Dr. Schwartz vom 30. September 1582</title>
+                    </head>
+                    <history>
+                        <origin>
+                            <origDate when="1582-09-30">30.
+                        September 1582</origDate>
+                            <origPlace>Köln</origPlace>
+                        </origin>
+                    </history>
+                    
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877. S. 233-237<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Rubens, Jan</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <salute>Monsieur, </salute>
+                <p>Estant naguerres aduenu que Monseigneur le Compte <rs type="person"
+                        ref="#nassau_johan">JEHAN</rs> ait rappellé mon mari contre <date
+                        when="--11-01">le premier de Novembre</date> à <rs type="place"
+                        ref="#siegen">Sighen</rs>, n’ayant toutes fois son agent, le Docteur <rs
+                        type="person" ref="#christianus_andreas">ANDRIEN CHRISTIANI</rs>, qui nous
+                    en a fait le rapport, sceu ou volu asseurer sa personne, ains assés monstrant,
+                    par sa contenance, que mon mari estoit en danger, ce que je crains d’autant plus
+                    qu’il dist que Monseigneur le Lantgrave nous rendroit nostre argent, car cela ne
+                    peult estre pour bien, n’estant par nous le dit Seigneur prié pour le vouloir
+                    faire; nous en sommes merueillieusement troublés et déconfortez, n’ayans rien
+                    moins attendu, que, après onze ans et demy (11 ½ Ja.), deuoir recommencer noz
+                    maulx, quand auons perdu le nostre, sommes vieilz, malades, et noz enfans sont
+                    grands, ce que vous ay par cestes bien volu plaindre comme celuy qui sçait
+                    mieulx que nul autre, ce quest passé en c’est affaire, si d’auenture vous y
+                    pouuiés par vostre conseil remédier, et tant faire que sa illustre Seigneurie
+                    acceptast les excuses que mon mari lui a fait, et fust content que, pour ceste
+                    fois, il ne soyt contrainct d’obéir à son commandement, ce que je vous supplie
+                    cordialement, Monsieur, vouloir faire, vous souuenant que celle clausule de
+                    retourner quand il seroyt appellé en vertu de laquelle on le réuoque, fust
+                    inséré en l’escrit de la déliurance de mon mari, non point pour nous per là
+                    ruiner, mais tant seulement pour plus grande satisfaction de sa Ill. S. enuers
+                    les autres Seigneurs qui auroient peu prendre de mauuaise part qu’il fust aussi
+                    remis en pleine liberté, comme aussi en la dite lettre est dist expressément
+                    qu’on ne pouuoit craindre qu’on le rappellast iamais, comme aussi, pour plus
+                    grande asseurance nostre, fust conuenu, qu’aduenant qu’on le rappelast, que l’on
+                    nous renderoit quant et quant nostre argent, et que nostre transaction seroit
+                    nulle, de sorte que par là ne debuons estre inquiétez. Vous sçaués aussi,
+                    Monsieur, que lors quand ie vins de <rs type="place" ref="#bilstein"
+                        >Bilstein</rs> veoir mon mari en sa prison après qu’il y auoit esté 19 mois,
+                    vous, de la part de sa Ill. S., asseurastes sa vie et promettiés qu’il seroit
+                    rélaxé, sans rien réseruer, et, à telle condition, ay-ie donné tout mon bien,
+                    combien que depuis il fust encores 7 mois à <rs type="place" ref="#dillenburg"
+                        >Dillenbergh</rs>, et un an entier serré en sa maison sans en pouuoir sortir
+                    et tout le reste du temps qu’il fust à Sighen exclus de l’église. Vous disiés
+                    bien dauantaige au mesme temps, que mon mari n’auroit iamais nul mal des aultres
+                    Seigneurs, et que Sa Ill. S. ne suffriroit point qu’ilz meissent la main sur
+                    luy, comme aussi i’ay une copie d’une lettre où le dit sieur Lantgraue escrit
+                    qu’il ne se vouloit nullement mesler de la personne de mon mari, et nous auons
+                    veu la protestation que les commissaires des Sieurs Électeur et Lantgraues
+                    feirent à Bilstein, lorsque mon mary leur fust monstré, et fust registrée par
+                    escrit qu’ilz ne vouloient rien cognoistre de son faict; d’autre part, le curé
+                    Mr. <rs type="person" ref="#crellig">CRELLIG</rs>, le receueur <rs type="person"
+                        ref="#martinus">MARTINUS</rs> se peuuent souuenir, que quand ilz vindrent
+                    premièrement traicter auec nous sur nostre partement de Sighen, pour nous faire
+                    haster, ilz dirent que s’en estant allé Sa Ill. S. en Gueldres, que le Sr.
+                    Lantgraue demeureroit surveillant sur son pais et notamment sur la ville de
+                    Sighen. Là où il viendroit aussi à la fois à grand danger de mon mari, et que
+                    pourtant nous ferions bien de ne viser à un peu d’argent plus au moins, et nous
+                    retirer à <rs type="place" ref="#koeln">Couloigne</rs> pour nostre plus grande
+                    seureté ou au pays. De sorte qu’il est bien estrange et inique (à correction,)
+                    que maintenant quand, plus que par doublé prescription, le délict de mon mari
+                    est rendu impunissable, que commencions à gaigner quelque chose, l’on le retire
+                    en prison ou à la mort, et qu’on veuille ouurir la vieille playe que s’en alloit
+                    bellement cicatrisant, sans auoir esgard aux enfans, quy sont grands, et à nous,
+                    qui auons tant souffert, et aurions besoing de consolation, pour le moins qu’on
+                    m’eust laissé aller à <rs type="place" ref="#cassel">Cassel</rs> supplier le
+                    Sieur Lantgraue comme pour cela i’estois venu de Couloigne à Dillenberg et les
+                    susditz commissaires n’auoient (m’auoient?) promiz de me faire auoir accès vers
+                    le dit Sr. Lantgraue, et faueur; mais vous me l’empeschastes, disant qu’il
+                    n’estoit pas besoing, et que c’estoil le Comte JEAN, qui auoit puissance sur mon
+                    mari, que ayant fait auec luy, que ne deuions plus craindre. </p>
+                <p>La raison vouldroit aussi qu’on me restituast mon argent deuant qu’attenter
+                    contre mon mari, chose de telle conséquence, dont dépend nostre ruine, comme
+                    aussi a esté pourparlé, quoy considérant, Monsieur, et vous souuenant de tout ce
+                    qu’a esté faict en c’est affaire et examinant les excuses que mon mari fait à sa
+                    Ill. S.y vous feriés un œuure de piété qu’intercedés pour nous enuers sa Ill. S.
+                    affin que mon mari puisse demeurer icy et gaigner pour moy (qui ay tout perdu
+                    pour luy,) et pour noz sept enfans, le petit pain quotidien. Le Duc de Brabant
+                    nous appelle au pays sur peine de confiscation de noz biens, le magistrat de
+                    Couloigne nous chasse hors la ville pour n’estre de leur religion; voyés s’il
+                    conuient qu’en ceste persécution mon mari nous laisse. Nous sommes pour marier
+                    nostre fille; s’il fault qu’il retourne en prison, le dit mariage n’yra plus
+                    auant. Mon mari est tous iours malade d’une incurable et souuent intolérable
+                    passion; il ne peut estre esloigné du médecin; nous n’auons rien plus pour
+                    viure, si mon mari ne peut vacquer à sa practique; moy je n’auray nul crédit et
+                    serai contrainte de laisser ma petite trafique; il nous fauldra licencier noz
+                    gens qui logent auec nous et en payant bien, leurs despens nous soulagent; ie ne
+                    pourrai cacher mon dueil; mesmement suis délibéré de suiure mon mari ou m’en
+                    aller à Cassel supplier son Excellence pour une fin de ceste cause que
+                    recommence tousiours. Nous n’auons point d’argent, n’estant payés de nostre
+                    pension que Sa Ill. S. nous doibt, pour nourir mon mari en la prison, et mon
+                    mari sera quitte de sa practique et, à sa confusion et grand dommage de ses
+                    parties, il abandonnera ses causes; bref nous serons ruiné de fons en comble. A
+                    tant Monsieur, je vous prie, pour l’honneur de Dieu, que nous vueillés ayder
+                    enuers sa Ill. S. affin qu’elle vueille, pour ceste mauuaise conjuncture,
+                    dispenser auec nous, et permettre que mon mari demeure icy, où ceste cause de
+                    l’enfant pourra estre si bien expédié que là, et auec moindre bruict; nous
+                    prierons Dieu pour vous et vous en sçaurons tel gré que l’importance du fait
+                    requiert, </p>
+                <closer>Escrit à <placeName>Couloigne</placeName><dateline> le <date
+                            when="1582-09-30">dernier de Septembre 1582</date>.</dateline></closer>
+                <closer>Clarissimo Viro ac Domino Dr. <rs type="person"
+                        ref="#schwartz_jacob">JACOBO SCHWARTZ</rs><lb/> I. V. Doctori.</closer>
+                <closer rend="text-align:right"><salute rend="text-align:right">Vostre seruante,</salute>
+                    <signed rend="text-align:right"><rs type="person" ref="#pypelincx_maria">MARIA
+                    RUEBENS.</rs></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

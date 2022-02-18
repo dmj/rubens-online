@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_236a">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Übereinkunft zwischen Peter Paul Rubens und seinem Nachbarn Nicolaes de Man,
+                    sich die Unkosten für das Errichten einer Gartenmauer zwischen ihren
+                    Grundstücken zu teilen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-649-187v">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1638/ IV: van Huffel &amp; Fighé</collection>
+                        <idno type="signatur">SR 649, fol. 187v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Übereinkunft zwischen Peter Paul Rubens und seinem Nachbarn
+                            Nicolaes de Man, sich die Unkosten für das Errichten einer
+                            Gartenmauer zwischen ihren Grundstücken zu teilen</title>
+                    </head>
+                    <msContents>
+                        <msItem>  
+                            <note resp="N.B." type="footnote">Der Text wurde durch <bibl>Pierre Génard: Het laatste Testament van P. P. Rubens. In: Rubens-Bulletijn
+                                - Bulletin-Rubens. Bd. 4. Antwerpen: de Backer, 1896. S. 129f.</bibl>
+                                publiziert.</note>
+                            <filiation><note resp="A.H." type="footnote">Vgl. hierzu auch das Dokument, das ebenfalls auf den <ref type="rubens" cRef="ed_rubens_236">7. August 1638 </ref>datiert ist.</note></filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1638-08-07">7. August 1638</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: Het laatste Testament van P. P. Rubens. In: Rubens-Bulletijn
+                            - Bulletin-Rubens. Bd. 4. Antwerpen: de Backer, 1896. S. 129f.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+         
+
+            <div xml:lang="nld">
+                <p><pb n="187v"/><rs type="person" ref="#princen_gillis">Gielis Princen</rs> als gemachticht van Senior Pedro Paulo Rubbens
+                    riddere, ten eenre ende <rs type="person" ref="#man_nicolaes">Nicolaes de Man</rs>, brouwer ter andere sijden passeren
+                    seker contract van gemeynschap van muren op den <date when="1638-08-07"
+                        >sevensten Augusti 1638</date> ende staet bewesen handt van <rs type="person" ref="#huffel_j">van Huffel</rs> in’t
+                    jaer <date when="1638">1638</date>. </p>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

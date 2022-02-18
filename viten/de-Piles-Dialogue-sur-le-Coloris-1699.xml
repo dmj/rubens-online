@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_262">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Roger de Piles: Dialogue sur le Coloris, 1699</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="piles_dialogue_1699">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                    </msIdentifier>
+                    <head>
+                        <title>Roger de Piles: Dialogue sur le Coloris. Paris: Langlois, 1699</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Agnes Heine nach einem Digitalisat vom 13. März 2009 bei <ref target="http://books.google.com/books?id=48lAAAAAYAAJ&amp;hl=de&amp;pg=PA1#v=onepage&amp;q&amp;f=false">Google</ref> [01. 06. 2010]</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Roger de Piles: Dialogue sue le Coloris. Paris: Langlois, 1699.<ptr type="gbv" cRef="45574310X"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="title_page">
+                <index indexName="fsw">
+                    <term type="structure" target="#title_page" xml:lang="deu">Titelblatt</term>
+                </index>
+                <p rend="text-align:center">
+                    <!--(leere Seite)--> DIALOGUE<lb/> SUR<lb/> LE COLORIS<lb/> A <rs type="place"
+                        ref="#paris">PARIS</rs>,<lb/> Chez <hi rend="smallCaps">
+                        <rs type="person" ref="#langlois_nicolas">Nicolas Langlois <index
+                                indexName="psw">
+                                <term type="PND" xml:lang="deu">Langlois, Nicolas</term>
+                                <index indexName="fsw">
+                                    <term type="structure" target="#publisher">Verleger</term>
+                                </index>
+                            </index></rs>
+                    </hi> , ruë<lb/> Saint Jacques , à la Victoire.<lb/>
+                    <date when="1699">M. DC. XCIX</date>.<lb/> AVEC PRIVILEGE DU ROI </p>
+            </div>
+
+            <div type="chapter">
+                <index indexName="fsw">
+                    <term type="structure" target="#chapter" xml:lang="deu">Kapitel</term>
+                </index>
+                <head rend="text-align:center">DIALOGUE<lb/> SUR<lb/> LE COLORIS.</head>
+                <p>
+                    <!--(leere Seite)-->
+                    <pb n="1"/><hi rend="smallCaps">PAmphile</hi> &amp; Damon sortant il y a
+                    quelques jours de l'<rs type="corporate" ref="#academie_royale_peinture"
+                        >Academie de Peinture</rs><index indexName="stw">
+                        <term type="SWD" xml:lang="fra">Paris</term>
+                        <index indexName="stw">
+                            <term xml:lang="fra">Académie Royale de Peinture et de Sculpture</term>
+                        </index>
+                    </index>, &amp; ne sçachant que faire pour employer le reste de
+                    l'apresdinée, s'aviserent de me venir voir: Et comme ce sont gens de merite, qui
+                    ayment les Arts, &amp; qui s'y connoissent tres-bien, je crû ne pouvoir
+                    mieux reconnoître leur civilité, qu'en leur faisant voir quelques Tableaux
+                    &amp; quelques autres curiositez que j'avois receuës de <rs type="place"
+                        ref="#rom">Rome</rs> le jour precedent. Je leur montray donc d'abord cinq ou
+                    six Tableaux de mediocre grandeur qu'ils trouverent fort à <pb n="2"/> leur gré;
+                    &amp; apres avoir fait retourner une grande Baccanale<index indexName="stw">
+                        <term type="SWD" xml:lang="deu"> Vecellio, Tiziano</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Bacchanal</term>
+                        </index>
+                    </index> qu'un habile homme m'avoit copiée d'apres le <rs type="person"
+                        ref="#tizian">Titien</rs><note resp="A.H." type="footnote">vgl. Das <rs
+                            type="work" ref="#tizian_bacchanal_andrier">Bacchanal der Andrier von
+                            Tizian</rs> und <rs type="work" ref="#jaffe_1340">Rubens' Kopie</rs>
+                        davon.</note>
+                    <index indexName="psw">
+                        <term type="PND" xml:lang="deu">Tizian</term>
+                    </index>: Voila, s'écria brusquement Damon, le sujet de nostre querelle;
+                    &amp; se tournant vers Pamphile: Hé bien, dit-il, voila dequoy vous
+                    satisfaire, puisque vous aimez tant le beau Coloris. (lb) <lb/>II est vray, dit
+                    Pamphile, que je suis sensiblement touché des beautez que je voy dans ce
+                    Tableau, &amp; que j'ay fort sur le cœu, que la pluspart des Peintres ne
+                    veüillent pas seulement tascher de les découvrir pour les mettre en pratique.
+                    <lb/>Ne sçaurois-je estre arbitre de votre different, interrompis-je, &amp;
+                    quelle est donc cette querelle? <lb/>Nous sortons de l'Academie de Peinture,
+                    reprit Pamphile, &amp; chemin faisant, nous nous entretenions Damon
+                    &amp; moy des choses qui se sont dites dans la Conference<index
+                        indexName="stw">
+                        <term type="SWD" xml:lang="deu">Paris</term>
+                        <index indexName="stw">
+                            <term xml:lang="fra">Académie Royale de Peinture et de Sculpture</term>
+                            <index indexName="stw">
+                                <term xml:lang="fra">Conférences</term>
+                            </index>
+                        </index>
+                    </index>. <lb/>Je me doutay aussi tost, puisque <pb n="3"/> mon Tableau du
+                    Titien avoit donné lieu de reveiller la querelle, qu'on avoit parlé du Coloris.
+                    Je les priay de me faire part de ce qu'ils avoient oüi dans cette Conference,
+                    (ce qu'ils voulurent bien m'accorder): &amp; pour les y engager davantage,
+                    je les retins à souper. Cependant nous achevâmes de voir les nouveautez qui
+                    m'étoient venuës. A table nous ne parlâmes que de nouvelles; &amp; nous
+                    étant ensuite approchez du feu, je les remis sur les voyes, les faisant souvenir
+                    de ce qu'ils m'avoient promis. Damon dit d'abord que pour me faire tout entendre
+                    &amp; me donner plus de plaisir, il faloit reprendre la chose dés son
+                    commencement; qu'il interrogeroit Pamphile, s'il le vouloit bien, &amp;
+                    qu'il luy feroit toutes les objections qui luy viendroient dans I'esprit contre
+                    le merite du Coloris dont on avoit parlé à l'Academie; car Pamphile aymoit
+                    extremement cette par<pb n="4"/> tie de la Peinture. Je leur témoignay que cela
+                    seroit le mieux du monde; Pamphile y consentit, &amp; Damon regardant
+                    Pamphile commença en cette sorte. <lb/>Souffrez, dit-il, avant toutes choses que
+                    je vous demande ce que vous appellez Coloris ? <lb/>C'est, répondit Pamphile,
+                    une des parties de la Peinture, par laquelle le Peintre sçait imiter la couleur
+                    de tous les objets naturels, &amp; distribuer aux artificiels celle qui leur
+                    est la plus avantageuse pour tromper la veuë. <lb/>Et qu'appellez vous, Couleur,
+                    continua Damon ? <lb/>Pour vous répondre en Peintre, dit Pamphile, &amp;
+                    laisser là les disputes des Philosophes, sçavoir si c'est quelque chose de réel,
+                    ou si c'est seulement la refraction de la lumiere avec la modification du corps
+                    coloré; je vous diray que la Couleur est ce qui rend les objets sensibles à la
+                    vûë. <pb n="5"/> Or comme les Peintres doivent considerer deux sortes d'objets;
+                    le naturel ou celuy qui est veritable; &amp; l'artificiel ou céluy qui est
+                    peint; ils doivent aussi considerer deux sortes de Couleurs, la naturelle
+                    &amp; l'artificielle. La couleur naturelle est celle qui nous rend
+                    actuellement visibles tous les objets qui sont dans la nature; &amp;
+                    l'artificielle est une matiere dont les Peintres se servent pour imiter ces
+                    mesmes objets: c'est dans ce sens-là que l'on peut appeller artificielles les
+                    Couleurs qui sont sur la palette du Peintre, d'autant que ce n'est que par
+                    l'artifice de leur mélange que l'on peut imiter la couleur des objets naturels.
+                    Le Peintre doit avoir une parfaite connoissance de ces deux forces de Couleurs;
+                    de la naturelle, afin qu'il sçache ce qu'il doit imiter; &amp; de
+                    l'artificielle, pour en faire une composition &amp; une teinte capable de
+                    representer parfaitement la Couleur <pb n="6"/> naturelle. Il faut qu'il sçache
+                    encore, que dans la Couleur naturelle, il y a la Couleur veritable de l'objet,
+                    la Couleur reflechie, &amp; la Couleur de la lumiere; &amp; parmy les
+                    Couleurs artificielles, il doit connoître celles qui ont amitié ensemble (pour
+                    ainsi dire) &amp; celles qui ont antipathie; il en doit sçavoir les valeurs
+                    separement, &amp; par comparaison des unes aux autres. <lb/>Mais que
+                    sert-il, reprit Damon, de sçavoir cette amitié &amp; cette antipathie des
+                    Couleurs; puisqu'il n'y a qu'à imiter par le mélange des Couleurs artificielles
+                    celles qui sont naturelles à l'objet qui est devant nos yeux. <lb/>La nature,
+                    reprit Pamphile, n'est pas toujours bonne à imiter; il faut que le Peintre la
+                    choisisse selon les regles de son Art; &amp; s'il ne la trouve pas telle
+                    qu'il la cherche, il faut qu'il corrige celle qui luy est presente. Et de mesme
+                    que celuy qui dessine n'i <pb n="7"/> mite pas tout ce qu'il voit dans un modele
+                    defectueux, &amp; qu'au contraire, il change en des proportions &amp;
+                    des contours avantageux les défauts qu'il y trouve: ainsi le Peintre ne doit pas
+                    imiter toutes les couleurs qui se presentent indifféremment, il ne doit choisir
+                    que celles qui luy conviennent, ausquelles (s'il le juge à propos) il en ajoute
+                    d'autres qui puissent produire un effet tel qu'il l'imagine pour la beauté de
+                    son Ouvrage; il songe non-seulement à rendre ses objets en particulier beaux,
+                    naturels &amp; veritables; mais encore il a soin de l'union du
+                    Tout-ensemble: tantost il diminuë de la vivacité dit Naturel, &amp; tantost
+                    il encherit sur l'éclat &amp; sur la force des couleurs qu'il y trouve.
+                    <lb/>Je sçay bien, dit Damon, qu'on doit corriger les défauts du Naturel, mais
+                    je ne croyois pas que cela allast jusqu'â donner plus de vivacité &amp; plus
+                        <pb n="8"/> de force qu'il n'y en paroist lorsque le Peintre l'imite.
+                    <lb/>Mais que diriez-vous, repliqua Pamphile, si l'on vous faisoit connoître que
+                    cette force &amp; cette vivacité, dont vous parlez, ne sont que pour imiter
+                    plus parfaitement la Nature; &amp; que les Tableaux où cela ne se trouve pas
+                    sont foibles. Il faut donc pour vous satisfaire que vous fassiez reflexion,
+                    Qu'un Tableau est une superficie plate, Que les couleurs n'ont plus leur
+                    premiere fraîcheur quelque temps aprés qu'elles sont employées, Qu'enfin la
+                    distance du Tableau luy fait perdre de son éclat et de sa force; &amp;
+                    qu'ainsi il est impossible de suppléer a ces trois choses sans artifice. Un
+                    habile Peintre ne doit point estre esclave de la Nature, il en doit estre
+                    Arbitre, &amp; judicieux imitateur: &amp; pourvû qu'un Tableau fasse son
+                    effet, &amp; qu'il impose agreablement aux yeux, c'est tout ce qu'on en peut
+                    attendre. <lb/><pb n="9"/> Je voy bien, dit Damon, que vous voulez que le
+                    Peintre ne laisse rien échapper de tout ce qui est de plus avantageux dans son
+                    Art. <lb/>Non sans doute, repartit Pamphile, &amp; vous sçavez bien qu'un
+                    Tableau ne peut estre parfait, si l'une des parties de la Peinture y manque;
+                    &amp; qu'un Peintre n'est pas habile en son Art, s'il ignore quelqu'une des
+                    parties qui le composent. Je blâmeray donc également un Peintre pour avoir
+                    negligé le Coloris, comme pour n'avoir pas disposé ses figures aussi
+                    avantageusement qu'il le pouvoit faire, ou pour les avoir mal dessinées. <lb/>Il
+                    est certain, reprit Damon, qu'un Ouvrage n'est jamais parfait quand il y manque
+                    quelque chose: mais voudriez vous que le Coloris fust une partie aussi
+                    necessaire à la Peinture que le Dessein? <lb/>En doutez-vous ? dit Pamphile, ne
+                    sçavez-vous pas que vous detruisez le tout si vous en retranchez une par<pb
+                        n="10"/> tie, principalement quand elle est aussi essentielle à son tout,
+                    comme est celle du Coloris à l'Art de Peinture. <lb/>Je juge assez, reprit
+                    Damon, que vous voulez dire que tous les objets ne tombant sous la veuë que par
+                    la Couleur, &amp; n'estant distinguez les uns des autres que par là, ils
+                    doivent estre imitez par leur Couleur aussi bien que par leur forme exterieure:
+                    j'en tombe d'accord. Mais que me répondrez vous quand je vous feray voir des
+                    Tableaux de <rs type="person" ref="#caldara_poliodoro">Polidore de
+                        Caravage</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Polidoro (da Caravaggio)</term>
+                    </index> qui passent pour de tresbeaux Ouvrages de Peinture, quoy qu'ils ne
+                    soient peints que d'une mesme Couleur de clair-obscur? <lb/>Il est vray, dit
+                    Pamphile, que ce sont de tres-beaux Tableaux; mais il est vray ausi que ce ne
+                    sont point de veritables Ouvrages de Peinture, &amp; qu'ils sont fort
+                    éloignez de tromper la veuë; car vous tombez vous-mesme d'accord que pour imiter
+                    la Nature, il faut l'imiter comme elle nous <pb n="11"/> paroist, &amp;
+                    qu'elle ne paroist à nos yeux que sous les apparences de la Couleur. <lb/>Mais,
+                    poursuivit Damon, quoy que l'Ouvrage ne soit que d'une mesme couleur, s'il est
+                    tellement bien conduit de lumiere &amp; d'ombre, qu'il semble que ce soit un
+                    Ouvrage de Sculpture, qu'aurez vous à dire ? <lb/>Je diray pour lors que rien
+                    n'y manque, repliqua Pamphile, &amp; que c'est un veritable Ouvrage de
+                    Peinture, puis qu'il imitera par le Dessein &amp; par la Couleur l'ouvrage
+                    de Sculpture que vous suppofez. La beauté du Coloris ne consiste pas dans une
+                    bigarure de couleurs differentes: mais dans leur juste distribution, en sorte
+                    que les objets qui sont peints ayent la même Couleur que les veritables; que la
+                    pierre peinte, par exemple, ressemble à la pierre naturelle, que les carnations
+                    paroissent de veritables chairs: Et enfin que non seulement chaque objet
+                    particulier repre<pb n="12"/> sente parfaitement la Couleur de ceux qu'il imite;
+                    mais que tous ensemble fassent une agreable union dans tout le Tableau.
+                    <lb/>Puisque nous en sommes sur les ouvrages de clair-obscur, interrompit Damon,
+                    dites-moy, je vous prie, sous quelle partie de la Peinture est comprise
+                    l'intelligence des lumieres, &amp; des ombres? <lb/>Sous le Coloris,
+                    répondit Pamphile; puisque dans la Nature la lumière &amp; la Couleur sont
+                    inséparables; que par tout où il y a de la lumiere, il y a de la Couleur;
+                    &amp; par tout où vous trouverez de la Couleur vous y trouverez aussi de la
+                    lumiere. Ainsi le Coloris comprend deux choses, la couleur locale &amp; le
+                    clair-obscur. La couleur locale est celle qui est naturelle à chaque objet,
+                    &amp; que le Peintre doit faire valoir par la comparaison, &amp; cette
+                    industrie comprend encore la connoissance de la nature des couleurs:
+                    c'est-à-dire de leur union; &amp; de leur antipathie. <lb/><pb n="13"/> Et
+                    le clair-obscur est l'art de distribuer avantageusement les lumieres &amp;
+                    les ombres, non seulement sur les objets particuliers, mais encore sur le
+                    general du Tableau. Cet artifice, qui n'a été connu que d'un petit nombre de
+                    Peintres est le plus puissant moyen de faire valoir les couleurs locales,
+                    &amp; toute la composition d'un Tableau. <lb/>Je le croy comme vous, reprit
+                    Damon, &amp; je suis persuadé qu'un Peintre est fort avancé dans la partie
+                    du Coloris quand il entend bien les lumieres: neanmoins ce qui pourrait faire
+                    croire que cette intelligence dépendrait du Dessein, c'est qu'on appelle Dessein
+                    un ouvrage de blanc-&amp;-noir, où les lumieres &amp; les ombres sont
+                    observées: &amp; j'enay vû plusieurs de la main de Rubens de cette maniere
+                    qui faisoient un effet merveilleux, &amp; qu'on ne nommoit point autrement.
+                    <lb/>C'est aussi de cette maniere qu'ils <pb n="14"/> doivent être nommez, dit
+                    Pamphile; puisque c'est l'usage, &amp; que nous n'avons pas d'autres termes
+                    pour nous expliquer. Mais le nom de Dessein, qu'on leur donne n'est pas celuy
+                    qui convient à l'une des parties de la Peinture. Le Dessein est fort équivoque
+                    &amp; se prend de differentes façons, qu'on peut reduire à trois, comme a
+                    fait <rs type="person" ref="#felibien_andre">M. Felibien</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Félibien, André</term>
+                    </index> dans ses Entretiens<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Félibien, André</term>
+                        <index indexName="stw">
+                            <term xml:lang="fra">Entretiens sur les vies et ouvrages des plus
+                                excellents peintres anciens e modernes</term>
+                        </index>
+                    </index> sur les vies des Peintres<note resp="A.H." type="footnote">
+                        <bibl>
+                            <ref type="opac" target="#PPN_150738331">André Félibien: Entretiens sur
+                                les vies et sur les ouvrages des plus excellens peintres anciens et
+                                modernes. Paris: LePetit, 1699</ref>
+                        </bibl>
+                    </note>. L'on appelle Dessein, la volonté de faire ou de dire quelque chose,
+                    &amp; c'est dans ce sens-là qu'on dit, Un tel est venu à bon ou à mauvais
+                    dessein. L'on appelle encore Dessein la pensée d'un Tableau que le Peintre met
+                    au dehors sur du papier ou sur de la toile pour juger de l'effet de l'Ouvrage
+                    qu'il medite; &amp; de cette maniere l'on peut appeller du nom de Dessein
+                    non seulement un esquisse: mais encore un Ouvrage bien entendu de lumieres
+                    &amp; d'ombres, ou même un Tableau bien colorié. C'est de cette sorte que
+                        <pb n="15"/> Rubens faisoit presque tous ses Desseins, &amp; de la
+                    maniere qu'ont été faits ceux dont vous parlez. Enfin â'on appelle Desein, les
+                    justes mesures, les proportions de les formes exterieures que doivent avoir les
+                    objets, qui sont imitez d'aprés la Nature. Et c'est de cette derniere sorte que
+                    l'on entend le Dessein qui fait une des parties de la Peinture. Ainsi lors qu'on
+                    ajoute aux contours les lumieres &amp; les les ombres, on ne le peut faire
+                    sans le blanc &amp; le noir, qui sont deux des principales Couleurs dont le
+                    Peintre a coûtume de se servir, &amp; donc l'intelligence est comprise sous
+                    celle de toutes les Couleurs, laquelle n'est autre chose que le Coloris.
+                    <lb/>Pensez-vous, reprit Damon, que tout le monde veuïlle convenir, que la
+                    partie de la Peinture qu'on appelle Dessein, soie seulement les proportions
+                    &amp; les concours? Il faut bien en convenir vrayment, dit Pamphile.<lb/>
+                    <pb n="16"/> Et que diriez-vous, continua Damon, si quelqu'un vous soûtenoit que
+                    c'est aussi cette seconde sorte de Dessein que vous venez de définir; c'est à
+                    dire la pensée d'un plus grand Tableau que l'on médite; soit que cette pensée ne
+                    fust qu'un leger crayon, ou bien qu'on la vist exprimée par le clair-obscur,
+                    &amp; par toutes les Couleurs qui doivent entrer dans le grand Ouvrage dont
+                    elle est l'effay &amp; le racourcy? <lb/>Alors, repliqua Pampliile, je
+                    dirois que le Dessein ne seroit plus une des parties de la Peinture; mais qu'il
+                    en seroit le tout: puis qu'il contiendroit non seulement les lumieres &amp;
+                    les ombres, mais aussi le Coloris &amp; l'Invention mesme: Et pour lors il
+                    faudroit toujours convenir de nouveaux termes, &amp; demander à ce quelqu'un
+                    que vous supposez, comment il voudrait que l'on appellast la partie du Dessein,
+                    laquelle trouve les objets qui composent une Histoi<pb n="17"/> re, &amp;
+                    comment il voudroit encore qu'on nommast cette autre partie du Dessein qui
+                    distribuë les Couleurs, les Lumieres &amp; les Ombres. Ainsi vous voyez,
+                    qu'il n'importe pas de quelle façon l'on appelle les choses pourvû que l'on
+                    s'entende &amp; que l'ort convienne de leur nom; c'est un point, comme vous
+                    sçavez, dont il ne faut jamais disputer. <lb/>Je croy, dit Darnon, que sans se
+                    mettre dans l'embarras de chercher de nouveaux termes ausquels on auroit de la
+                    peine à s'accoûtumer, il vaut mieux s'en tenir à ceux dont on est convenu depuis
+                    long-temps. Mais tandis qu'il m'en souvient, je ne veux pas vous laisser passer
+                    la raison que vous avez donnée, pour prouver que l'intelligence des lumieres
+                    dépendoit du Coloris: c'est, dites-vous, parce que dans la nature l'une est
+                    inséparable de l'autre. Et ne peut-on pas dire la mesme chose du Dessein,
+                    puisque sans lumiere l''œil ne sçauroit voir pa<pb n="18"/> reillement dans la
+                    nature, les contours ny les proportions des figures. <lb/>N'avez-vous point oüi
+                    parler, dit Pamphile, d'un certain Sculpteur aveugle, qui faisoit des portraits
+                    de cire fort ressemblans? <lb/>Non seulement j'en ay oüi parler; reprit Damoiv,
+                    mais je l'ay veu à Rome, &amp; je me suis entretenu plusieurs fois avec luy.
+                    Il estoit de <rs type="place" ref="#gambassi">Cambassi</rs> dans la <rs
+                        type="place" ref="#toskana">Toscane</rs>. C'estoit un homme fort bien fait,
+                    de belle taille, &amp; qui paroissoit âgé d'environ 50. ans; il avoit
+                    beaucoup d'esprit &amp; de bon sens, aymant à parler, &amp; disant
+                    agreablement les choses. Un jour entr'autres l'ayant rencontré dans le Palais
+                        Justinien<index indexName="stw">
+                        <term type="SWD" xml:lang="deu"> Rom</term>
+                        <index indexName="stw">
+                            <term xml:lang="ita">Palazzo Giustiniani</term>
+                        </index>
+                    </index> qu'il copioit une <rs type="work" ref="#athena_giustinani">statuë de
+                        Minerve</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Minerva</term>
+                    </index><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Athene</term>
+                    </index>, je pris occasion de luy demander s'il ne voyoit pas un peu, pour
+                    copier aussi juste qu'il faisoit? Je ne voy rien, me dit-il, &amp; mes yeux
+                    sont au bout de mes doigts. Mais encore, luy dis je, comment est il pos<pb
+                        n="19"/> sible que ne voyant goûte du tout, vous fassiez de si belles
+                    choses? Je taste, dit-il, mon Original, j'en examine attentivement les
+                    dimensions, les éminences &amp; les cavitez, je tasche de les retenir dans
+                    ma memoire, puis-je porte la main sur ma cire, &amp; par la comparaison que
+                    je fais de' l'un à l'autre, portant &amp; rapportant ainsi plusieurs fois la
+                    main, je termine le mieux que je puis mon Ouvrage. En effet, il n'y a nulle
+                    apparence qu'il eust aucun usage de la veuë, puiscque le Duc de <rs type="place"
+                        ref="#bracciano">Bracciane</rs>, pour éprouver ce qui en estoit, luy fit
+                    faire son portrait dans une cave fort obscure, &amp; que ce portrait fut
+                    trouvé tres- bien &amp; tres ressemblant. Mais quoyque cet Ouvrage fust
+                    admiré de tous ceux qui le voyoient, on ne laissa pas d'objecter à l'ouvrier que
+                    la barbe du Duc estoit un grand avantage pour le faire reslembler, &amp;
+                    qu'il n'auroit pas cette mesme facilité s'il luy faloit imiter un visage sans
+                    barbe. Hé bien, <pb n="20"/> dit-il, qu'on m'en donne un autre. On luy proposa
+                    de faire le portrait de l'une des Demoiselles de la Duchesse; il l'entreprit,
+                    &amp; le fit tres ressemblant. J'ay encore vû de la main de ce Sculpteur le
+                    portrait du feu Roy d'<rs type="place" ref="#england">Angleterre</rs>, &amp;
+                    celuy du Pape <rs type="person" ref="#barberini_maffeo">Urbain VIII.</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Urban (Papst, VIII.)</term>
+                    </index> tous deux copiez d'aprés le marbre tres-finis &amp;
+                    tres-ressemblans. <lb/>Sans aller plus loin, interrompit Pamphile, nous avons à
+                    Paris un portrait de sa main. <lb/>N'est ce pas celuy de seu <rs type="person"
+                        ref="#hesselin_louis">M. Hesselin</rs>, repliqua Damon. <lb/>Celuy-là mesme,
+                    reprit Pamphile, &amp; M. Hesselin en fut si content, &amp; trouva la
+                    chose si merveilleuse, qu'il pria cet illustre aveugle de vouloir bien se
+                    laisser peindre pour emporter son portrait en France, &amp; pour y conserver
+                    sa memoire. J'ay vû autrefois ce portrait, &amp; je m'apperceus en le
+                    regardant, que le Peintre luy avoit mis un œil à chaque bout de doigt <pb n="21"
+                    /> pour faire voir que ceux qu'il avoir ailleurs, luy estoient tout à fait
+                    inutiles. Enfin, vous voyez par là; continua Pamphile , qu'il n'est pas toûjours
+                    necessaire pour juger des contours que l'œil les voye, c'est assez que les mains
+                    puissent les toucher. En effet, il n'y a personne qui dans la plus grande
+                    obscurité, ne sente les contours d'un homme ou d'une statuë, &amp; ne juge
+                    des éminences &amp; des cavitez en y portant seulement la main: au lieu
+                    qu'il est impossible de voir aucune Couleur ny d'en juger sans Lumiere. <lb/>Il
+                    en faut tomber d'accord, reprit Damon, mais vous voyez aussi par I'histoire de
+                    cet Aveugle que son Art qui est tout dans le Dessein, luy avoir donné moyen de
+                    satisfaire son esprit, &amp; de se consoler en quelque façon de la perte
+                    qu'il avoit faite d'un sens aussi pretieux qu'est celuy de la veuë: &amp;
+                    que s'il avoit este Peintre, il auroit esté privé de cette consolation. <lb/><pb
+                        n="22"/> C'est, repartit Pamphile, que Ia Couleur &amp; la Lumiere ne
+                    sont l'objet que de la veuë, &amp; que le Dessein l'est encore du toucher,
+                    comme je vous l'ay déja dit. Je vous avouë que la pureté &amp; la
+                    delicatesse du Dessein est un grand charme pour moy; mais vous m'avoüerez aussi
+                    que sans le Coloris qui est l'autre partie essentielle de l'Art, le contour ne
+                    sçauroit representer aucun objet comme nous le voyons dans la Nature. <lb/>Je
+                    m'estois imaginé, poursuivit Damon, que le Coloris n'estoit dans la Peinture
+                    qu'une partie integrante (comme appellent les Philosophes) &amp; qui rend le
+                    tout plus entier &amp; plus parfait: de la mesme forte que l'on considere un
+                    bras ou une jambe, ou quelqu'autre partie sans laquelle l'homme ne laisse pas
+                    d'estre homme quoy qu'il soit moins entier &amp; moins parfait; &amp;
+                    qu'ainsi sans le Coloris un Tableau ne laissoit pas d'estre un ouvrage de
+                    Peinture; mais un ouvra<pb n="23"/> ge de Peintre moins parfait. <lb/>Je voy
+                    bien, dit Pamphile, que vous n'avez jamais fait reflexion sur ce que c'est que
+                    Peinture, &amp;: que vous ne sçavez pas qu'on la définit, <cit>
+                        <quote>
+                            <hi rend="italic">Un Art qui par le moyen de la forme extérieure
+                                &amp; des Couleurs, imite sur une superficie plate, tous les
+                                objets qui tombent sous le sens de la veuë.</hi>
+                        </quote>
+                    </cit>
+                    <note resp="A.H." type="footnote">Das Zitat hier ist eine verkürzte Form einer
+                        Passage aus <bibl>Jean-Baptiste Corneille: Les premiers élémens de la
+                            peinture pratique, Paris: Nicolas Langlois, 1684. S. 2</bibl></note>
+                    Cette definition est juste, ce me semble; puis qu'elle donne une idée parfaite
+                    de la Peinture, &amp; qu'elle la distingue de tous les autres Arts. <lb/>Je
+                    vous avoië, dit Damon, que je n'y avois jamais bien pensé. <lb/>Hé bien, si vous
+                    y prenez garde, dit Pamphile, vous verrez que le Coloris est non seulement une
+                    partie essentielle de la Peinture; mais encore qu'il est sa difference;
+                    &amp; par consequent la partie qui fait le Peintre; de mesme que la raison
+                    qui est la difference de l'homme est ce qui fait l'homme. <lb/>Et que deviendra
+                    le Dessein, reprit Damon? <lb/><pb n="24"/> Le Dessein, repliqua Pamphile; tient
+                    sort bien sa place: puisque c'est une partie essenirelle de la Peinture,
+                    &amp; sans laquelle la Peinture ne peut subsister non plus que le Coloris.
+                    <lb/>Enfin, vous voulez, dit Damon, que le Dessein soit le genre de la Peinture,
+                    &amp; le Coloris s difference? <lb/>Cela mesme, répondit Pamphile; car le
+                    genre, comme vous sçavez, se communique à plusieurs especes, &amp; c'est
+                    pour cela qu'il est moins noble que la difference qui est un bien propre à sa
+                    seule espece. Et c'est ainsi que le degré d'animal qui est le genre de l'homme,
+                    se communique indifferemment à l'homme &amp; à la beste; &amp; que le
+                    degré de raisonnable qui est la difference de l'homme, ne se communique qu'a
+                    l'homme seul. <lb/>A quels autres Arts, reprit Damon, voulez vous que le Dessein
+                    se communique? <lb/>A la Sculpture, répondit Pamphi<pb n="25"/> le, à la
+                    Graveure , à l'Architecture, &amp; aux autres Arts qui donnent des mesures
+                    &amp; des proportions. <lb/>Mais le Dessein du Sculpteur, repliqua Damon,
+                    n'est pas le mesme que celuy du Peintre; car l'un est Geometral, &amp;
+                    l'autre Perspectif. <lb/>Je vous répons premierement, dit Pamphile, que la
+                    maniere differente de se communiquer, n'empesche pas que la chose ne se
+                    communique. Secondement, il est certain que le Dessein du Sculpteur &amp;
+                    celuy du Peintre est le mesme essentiellement, que l'un &amp; l'autre sont
+                    fondez sur des proportions certaines, &amp; que ce qui est en Perspective se
+                    peut mesurer, comme ce qui est Geometral: &amp; enfin, il est constant que
+                    les Sculpteurs se servent de Perspective dans leurs Bas-reliefs, comme les
+                    Peintres font dans leurs Tableaux. <lb/>Je conviens, dit Damon, que le Dessein
+                    se communique à plusieucs sortes d'Arts: mais ne pourroit-on <pb n="26"/> pas
+                    vous dire que la Couleur se communique aussi de la mesme maniere, &amp; que
+                    les Tapissiers &amp; les Teinturiers s'en servent aussi bien que les
+                    Peintres. <lb/>Pour l'ouvrage des Tapissiers, repliqua Pamphile, je ne trouve
+                    pas qu'il soit different de celuy des Peintres; les Tapissiers representent
+                    comme les Peintres, les Couleurs &amp; les formes qui sont dans la Nature.
+                    Leurs Couleurs sont attachées aux laines, &amp; celles des Peintres aux
+                    terres ou aux mineraux qu'ils employent: &amp; cette difference de matiere,
+                    comme vous sçavez, n'est jamais essentielle. Pour l'objection des Teinturiers;
+                    vous pouviez bien vous passer de me la faire, &amp; de mettre en compromis
+                    les Peintres avec les Teinturiers: neanmoins il faut vous satisfaire. Il est
+                    vray que les Teinturiers entendent quelque chose aux Couleurs; mais non pas au
+                    Coloris dont il est icy question. L'on appelle souvent du <pb n="27"/> nom de
+                    Couleur la partie de Peinture qui s'appelle Coloris, l'usage en est assez
+                    ordinaire, &amp; cette equivoque vous a fait faire l'objection des
+                    Teinturiers: Cependant, il y a grande difference entre Couleur &amp;
+                    Coloris, &amp; je vous ay fait voir que le Coloris n'estoit point, ny le
+                    blanc, ny le noir, ny le jaune, ny le bleu, ny aucune autre Couleur semblable:
+                    mais que c'estoit l'intelligence de ces mesmes Couleurs dont le Peintre se sert
+                    pour imiter les objets naturels; ce que n'ont pas les Teinturiers.
+                    <lb/>Cependant, reprit Damon, vous m'avouërez que le Dessein est le fondement du
+                    Coloris, qu'il le soûtient, que le Coloris en dépend, au lieu qu'il ne dépend
+                    pas du Coloris; puisque le Dessein peut subsister sans le Coloris, &amp; que
+                    le Coloris ne peut subsister sans le Dessein. <lb/>Quand tout cela seroit, dit
+                    Pamphile, quelle consequence en voudriez-vous tirer? <lb/><pb n="28"/> Que le
+                    Dessein, reprit Damom, est plus necessaire, plus considerable &amp; plus
+                    noble que le Coloris. <lb/>Vous ne prenez pas garde, continua Pamphile, que tout
+                    ce que vous croyez dire en faveur du Dessein ne conclud rien d'avantageux pour
+                    luy au préjudice du Coloris. Au contraire, vous faites voir par là que le
+                    Dessein tout seul est quelque chose d'imparfait à l'égard de la Peinture: Car le
+                    Dessein n'est le fondement du Coloris &amp; ne subsiste avant luy que pour
+                    en recevoir toute sa perfection; &amp; il n'est pas surprenant que ce qui
+                    reçoit ait son estre, &amp; subsiste avant ce qui <unclear>dot</unclear>
+                    <!--do t = doit?--> estre receu. Il en est ainsi de toutes les matieres, qui
+                    doivent efsre disposées avant que de recevoir leur perfection des formes
+                    substantielles. Le corps de l'homme, par exemple, doit estre entierement formé
+                    &amp; organisé ayant que l'ame y soit receuë. Et c'est avec cet ordre que
+                    Dieu fit le premier homme; il prit de la ter<pb n="29"/> )re, il en forma un
+                    corps, il y mit toutes les dispositions necessaires; puis il crea l'ame qu'il y
+                    infusa pour le perfectionner, &amp; pour en faire un homme. Ce corps ne
+                    dépendoit point de l'ame pour subsister; puis qu'il estoit avant l'ame:
+                    Cependant vous ne voudriez pas soûtenir que le corps fust la partie de l'homme
+                    la plus noble &amp; la plus considerable. La Nature commence toûjours par
+                    les choses les moins parfaites &amp; par consequence l'Art qui en est
+                    l'imitateur; ainsi l'on ébauche avant que de finir. <lb/>A l'égard d'estre plus
+                    ou moins necessaire, je vous ay déja dit que pour faire un tout, les parties
+                    sont également necessaires; il n'y a point d'homme si l'ame n'est jointe au
+                    corps; aussi n'y a-t-il point de Peinture si le Coloris n'est joint au Dessein.
+                    <lb/>Je veux bien vous avouër, reprit Damon, que le Coloris est aussi necessaire
+                    à la Peinture que le Dessein: <pb n="30"/> mais il faut aussi que vous
+                    m'accordiez que celuy-cy est plus necessaire pour le Peintre. <lb/>Oüy pour le
+                    Peintre, répondit Pamphile, qui veut expedier quantité d'ouvrages sans se mettre
+                    en peine de les achever, ny de satisfaire pleinement les yeux. Je vous avoüeray
+                    encore qu'il luy est plus necessaire, c'est à dire, plus utile que le Coloris,
+                    en ce qu'il y a beaucoup plus d'occasions de s'en servir que du Coloris. C'est
+                    un instrument dont on a besoin en toutes rencontres dans la pluspart des Arts:
+                    &amp; par rapport à cette grande utilité, je l'estimeray avec vous davantage
+                    que le Coloris, de la mesme maniere que j'estimerois beaucoup plus un gros
+                    diamant qu'une plante, quoy que la moindre de toutes les plantes soit plus noble
+                    &amp; plus estimable en elle-mesme, que toutes les pierres precieuses
+                    ensemble. <lb/>Tout le monde court à l'utile, repartit Damon en riant, &amp;
+                    d'abord <pb n="31"/> on envisage les choses par ce côté-là. Ne vous étonnez donc
+                    pas si le Dessein estant pIus d'usage &amp; par consequent plus utile dans
+                    le monde, on l'estime generalement davantage. Mais avec tout cela, je ne
+                    sçaurois m'empescher de vous dire ingenuëment, que je trouve dans le beau
+                    Dessein une noblesse qui me charme. Je suis de bonne foy là-dessus, dit
+                    Pamphile, &amp; je croy que le beau Dessein doit charmer un esprit bien
+                    fait; d'autant plus qu'il exprima une partie des mouvemens de l'ame qui luy
+                    tiennent lieu de Couleur, &amp; luy donnent une espece de vie tresagreable.
+                    Mais en tout <unclear reason="illegible"
+                    >c</unclear><!--(Tintenfleck, wahrsch. cela)-->, il n'y a rien que le Sculpteur
+                    ne puisse faire; &amp; ces choses considerées par rapport à un ouvrage de
+                    Peinture, demeureront toûjours imparfaites sans le secours du Coloris, lequel
+                    met le Peintre au dessus du Sculpteur, &amp; fait que les objets peints
+                    ressemblent plus parfaitement aux veritables ? <lb/><pb n="32"/> Vous dites,
+                    repartit Damon, que le beau Dessein charme l'esprit; &amp; n'y a t il pas
+                    plus d'avantage à charmer l'esprit que les yeux ? <lb/>Lorsque le beau Dessein,
+                    repliqua Pamphile, charme les yeux de l'esprit, ce n'est que par ceux du corps,
+                    pour lesquels la Peinture est faite immediatement. <lb/>Si vous aviez des
+                    Tableaux à choisir, interrompis-je, lesquels prendriez vous, ou ceux qui sont
+                    mieux Dessinez que Coloriez, ou ceux qui sont mieux Coloriez que Dessinez?
+                    <lb/>Vous pouvez bien croire, me repondit Pamphile, qu'aprés ce que j'ay dit du
+                        <unclear reason="illegible"
+                    >Coris</unclear><!--(Coloris,
+                    Tintenfleck)--> à l'égard d'un
+                    ouvrage de Peinture, je dois preferer les Tableaux où la Couleur sera mieux
+                    entenduë, pourveu que le Dessein n'y soit point trop mal. La raison de cela est,
+                    que le Dessein se trouve ailleurs que dans les Tableaux: il se rencontre dans
+                    les Estampes, dans les Statuës &amp; dans les Bas-reliefs, sans <pb n="33"/>
+                    )compter qu'il se trouve encore dans la Nature mesme: Mais une belle
+                    intelligence de Couleurs ne se trouve que dans un tres-petit nombre de Tableaux.
+                    Ainsi supposé que je voulusse faire Cabinet, j'y ferois entrer de toutes sortes
+                    de Tableaux où je verrois de la beauté dans quelque partie que ce soit: mais je
+                    préfererais toujours ceux du Titien aux autres, pour sa raison que je viens de
+                    vous dire. <lb/>Et lequel de ces deux Peintres aimeriez-vous mieux estre,
+                    continuay-je, de <rs type="person" ref="#raffael">Raphaël</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Raffael</term>
+                    </index> ou du Titien ? <lb/>Vous m'embarassez fort, repondit Pamphile; attendez
+                    que j'y pense un peu. <lb/>Je ne croyois pas, repris-je, que vous dûssiez
+                    balancer de cette forte, aprés ce que je viens de vous entendre dire.
+                    <lb/>J'aimerois mieux estre Raphaël, continua Pamphile, &amp; j'estime que
+                    le Titien est un plus grand Peintre. <lb/>Je vous entends bien, luy dis-je, <pb
+                        n="34"/> c'est à-dire, que Raphaël avec la correction de son Dessein, avoit
+                    plusieurs autres talerns, &amp; que tout cela ensemble vous plaist davantage
+                    que le Coloris du Titien. <lb/>Je vous avouë, dit Pamphile, que je suis encore
+                    assez irresolu: neantmoius la correction du Dessein de Raphaël, l'élegance de
+                    ses contours, sa maniere de drapper, ses expressions si touchantes, la facilité
+                    de son genie, ses comportions nobles, riches &amp; abondantes, la grandeur,
+                    la simplicité &amp; la vray-semblance de ses attitudes &amp; enfin, les
+                    graces qu'il répandoit dans tous ses ouvrages, me l'ont fait preferer au Titien.
+                    <lb/>Quoy au Titien, s'écria Damon, le plus grand Peintre, selon vous, qui ait
+                    jamais esté &amp; qui sera peut-estre jamais. <lb/>Je vous l'avouë, dit
+                    Pamphile, mais Raphaël, avec tous les avantages que je viens de vous dire, avoit
+                    encore celuy, d'estre entré sur la fin de sa vie <pb n="35"/> dans l'inteligence
+                    des Lumieres &amp; des Ombres, &amp; d'avoir déja fait un si grand
+                    progrés dans le Coloris, qu'il auroit bientost possedé cette partie dans sa
+                    derniere perfection. Ainsi je me persuade, si j'estois Raphaël, que dans peu de
+                    temps je serois encore le Titien. <lb/>Il semble, interrompis-je , que la
+                    pluspart des Peintres ne sont gueres persuadez que le Coloris soit aussi
+                    necessaire que vous le dites; car leurs Ouvrages ne font pas extremement
+                    connoistre que cette partie leur plaise, ny qu'ils se mettent fort en peine de
+                    la pratiquer. <lb/>Comment voulez-vous, dit Pamphile, qu'ils la pratiquent, puis
+                    qu'ils ne la sçavent pas (je parle pour la pluspart) &amp; comment
+                    l'aimeront-ils , puis qu'ils ne l'ont jamais connuë? <lb/>Il est vray, luy
+                    dis-je, qu'ils s'attachent beaucoup plus au Dessein. <lb/>Je le veux croire?
+                    repartit Pam<pb n="36"/> )phile; mais je ne voy pas que ce soit avec beaucoup de
+                    succés, puisque j'ay mesme lieu de douter qu'ils en sçachent tous les principes.
+                    <lb/>Comment pouvez-vous dire cela, reprit Damon, puis qu'on les voit dessiner
+                    avec tant de facilité d'après le Modele ? <lb/>Tant de facilité qu'il vous
+                    plaira, dit Pamphile, mais je vous assure que c'est bien tout ce qu'ils
+                    pourroient faire que de rendre raison de ce qu'ils dessinent. <lb/>Mais ils font
+                    ce qu'ils voyent, dit Damon. <lb/>Et s'ils ne sçavent ce qu'ils voyent, repliqua
+                    Pamphile. <lb/>Il faut bien qu'ils le sçachent vrayment, continua Damon, depuis
+                    le temps qu'ils dessinent. <lb/>Ils ne le sçavent pas, vous dis je, poursuivit
+                    Pamphile: car cette conoissance dépend en partie de l'Anatomie, &amp; il y
+                    en a tres-peu qui la sçachent. <lb/><pb n="37"/> Je m'en estonne, repris-je, car
+                    cela n'est pas aprés tout si difficile, puis qu'il n'y a pas un petit Chirurgien
+                    qui n'en apprenne en un mois beaucoup plus qu'il n'en faut pour un Peintre.
+                    <lb/>Cela est vray, dit Pamphile, &amp; sans faire reflexion que par
+                    l'Anatomie, ils abregeroient un grand nombre d'années qu'ils passent dans une
+                    aveugle pratique du Dessein, ils s'en tiennent à une certaine routine dont il
+                    leur est impossible de rendre aucune raison. Je tombe d'accord que pour estre
+                    habile Dessinateur, il faut beaucoup de pratique: mais cette pratique ne sert de
+                    rien, si elle n'est fondée sur la speculation. Si vous vouliez aller à Rome,
+                    continua t il <sic/> en me regardant, vous ne vous contenteriez pas de prendre
+                    un bon cheval, vous voudriez encore sçavoir la distance des lieux &amp; tous
+                    les chemins que vous auriez à tenir. <lb/>Il est vray, luy dis-je, que sans
+                        ce<pb n="38"/> la, je n'y arriverois que par le plus grand hazard du monde.
+                    Mais comment les Peintres n'instruisent-ils pas leurs Eleves de cette science?
+                    poursuivis-je. <lb/>Il faut la bien sçavoir pour la bien montrer, répondit
+                    Pamphile, &amp; je ne voudrois pas estre garant de leur capacité sur cela.
+                    <lb/>Tout au moins, repartis-je, devroient-ils en conseiller l'étude, &amp;
+                    faire connoistre la necessité. <lb/>Les mieux sensez, me dit-il, en usent ainsi
+                    pour seconder les desseins du Roy<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Ludwig (Frankreich, König, XIV.)</term>
+                    </index>, qui pour faire fleurir la Peinture dans son Royaume, y a étably <rs
+                        type="corporate" ref="#academie_royale_peinture">une Academie de ce bel
+                        Art</rs><index indexName="stw">
+                        <term type="SWD" xml:lang="fra">Paris</term>
+                        <index indexName="stw">
+                            <term xml:lang="fra">Académie Royale de Peinture et de Sculpture</term>
+                        </index>
+                    </index>, &amp; a voulu que parmy les Professeurs qu'il y a gagez, il y en
+                    eust un specialement pour enseigner l'Anatomie, ce qui est un avantage
+                    considerable pour les Peintres de nostre Nation: pouryeu toutefois que ce
+                    Professeur soit Peintre, &amp; qu'il sçache accommoder l'Anatomie à la
+                    Peinture: car un Chi<pb n="39"/> rurgien sera plûtost capable de donner aux
+                    Peintres de l'aversion pour cette science, que de les en instruire facilement.
+                    <lb/>Il est vray, dit Damon, que de la maniere dont me parla dernierement un des
+                    plus habiles de cette Academie, les choses n'ont jamais esté plus favorablement
+                    disposées en nul lieu du monde pour faire d'excellens Peintres, qu'elles le sont
+                    aujourd'huy dans nostre France. <lb/>De sorte, continua-t-il, que vous croyez,
+                    que l'Anatomie est un des principes du Dessein, par où doivent commencer les
+                    jeunes gens qui vont à l'Academie. <lb/>Oüy, sans doute, dit Pamphile, s'ils
+                    veulent devenir habiles, &amp; s'ils ont d'ailleurs ce qu'il faut pour cela.
+                    <lb/>Je sçay bien, reprit Damon, qu'il faut supposer l'habitude dans la main,
+                    &amp; la facilité d'imiter avec le crayon tout ce qui sera devant les yeux.
+                        <lb/><pb n="40"/> Ce n'est pas assez, dit Pamphile, il faut encore avoir le
+                    goust bon, &amp; sçavoir les belles proportions pour corriger le Naturel,
+                    qui d'ordinaire est mesquin &amp; defectueux. <lb/>Je connois des Peintres,
+                    interrompit Damon, qui dessinent, ce me semble, d'une grande maniere, &amp;
+                    quin'estiment pas que l'Anatomie soit necessaire pour bien dessiner. <lb/>Il est
+                    vray, dit Pamphile, qu'elle demande une grande discretion qui dépend de bien
+                    sçavoir l'office des muscles: mais il est vray aussi que sans cette science, ce
+                    que l'on appelle bien souvent grande maniere, ne sert qu'à ébloüir les yeux des
+                    ignorans. Ceux dont vous parlez, ont peut-estre esté touchez, de quelques
+                    endroits bien ressentis, qu'ils ont remarquez dans les Antiques, ils ont crû
+                    qu'ils ne pouvoient mieux faire que de les bien retenir, ils s'en servent en
+                    toutes rencontres, sans sçavoir si l'action le demande ainsi; ils exagerent
+                    mesme <pb n="41"/> d'autant d'autant plus ces endroits qu'ils croyent par là
+                    attirer plus d'admiration pour leurs ouvrages, &amp; plus d'estime pour
+                    eux-mesmes; &amp; c'est ce qu'ils appellent dessiner de grand goust
+                    &amp; de grande maniere. <lb/>Peu de gens y prennent garde aprés tout,
+                    reprit Damon, &amp; cela ne laisse pas de passer pour estre fort bien.
+                    <lb/>C'est que peu de gens s'y connoissent, repliqua Pamphile; &amp; dans la
+                    verité, tel qui se pâme d'admiration en voyant ces belles Antiques, &amp;
+                    qui veut passer pour grand Connoisseur, est tres-souvent fort éloigné de sçavoir
+                    la raison des beautez qu'il admire. <lb/>Mais croyez-vous, poursuivit Damon, que
+                    tous les Peintres qui ont eu de la reputation, ayent esté sçavans dans
+                    l'Anatomie? <lb/>Non pas tous, répondit Pamphile, mais les plus habiles: car
+                    vous sçavez qu'il y a des genies assez heu<pb n="42"/> reux pour apprendre
+                    toutes choses sans autres regles que celle de leur bon sens, avec une certaine
+                    lumiere naturelle qui leur fait suivre ce qui est bien, &amp; fuir ce qui
+                    est mal. Et cela par des moyens qui leurs sont toûjours inconnus dans les
+                    commencemens, &amp; qui dans la suite leur servent de regles qu'ils se sont
+                    établies par leur propre experience: mais comme il est presque impossible qu'ils
+                    soient assurez de leur experience, ils ne peuvent pas non plus estre assurez de
+                    leurs regles: au lieu que le principe dont je vous parle, est un chemin
+                    infaillible pour s'acquerir dans le Dessein une maniere trés-sçavante &amp;
+                    tres-solide. Et si vous voulez en estre persuadé, prenez la peine de lire
+                    quelques vies des Peintres qui vivoient du temps de <rs type="person"
+                        ref="#medici_giovanni_papst">Leon X.</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Leo X. (Papst)</term>
+                    </index> &amp; de <rs type="person" ref="#franz_i_frankreich">François
+                        premier</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Franz (Frankreich, König, I.)</term>
+                    </index>; &amp; vous verrez que ceux qui avoient le plus de connoissance
+                    dans le Dessein, se l'étoient acquise par le moyen de l'Anatomie. <lb/><pb
+                        n="43"/> Ah! vous parlez d'un sicele bien different du nostre, interrompit
+                    Damon en soûpirant; les Peintres de ce temps-là travailloient à s'établir une
+                    solide reputation, &amp; ceux d'aujourd'huy ne travaillent la pluspart que
+                    pour amasser de l'argent. Cependant, ils ne laissent pas de se croire de fort
+                    grands personnages. <lb/>Et c'est en quoy leur mal est desesperé, repartit
+                    Pamphile, puis qu'ils ne sentent pas combien ils sont malades. Mais que
+                    dites-vous de moy, ajoûta t-il, de vous parler des Peintres de cette sorte?
+                    <lb/>Nous sçavons, dit Damon, que vous parlez de bonne foy, &amp; que vous
+                    dites ce que vous pensez. Mais quand vous parlez d'eux de cette maniere, vous ne
+                    les y comprenez pas tous? <lb/>Dieu m'en garde, repartit Pamphile; vous sçavez
+                    bien que nous en connoissons de tres-habiles, &amp; d'autres qui s'avancent
+                    à grands pas dans <pb n="44"/> le chemin de la perfection qu'ils ont
+                    heureusement rencontré. <lb/>Mais dites-moy, je vous prie, continuay-je, d'où
+                    vous croyez que vienne l'indifference qu'ont la pluspart des Peintres pour le
+                    beau Coloris? <lb/>Cela vient à mon avis de plusieurs choses, dit Pamphile. Je
+                    vous ay déja répondu, que ce n'est point l'ordinaire d'estimer une chose,
+                    &amp; d'en avoir le cœur touché quand on ne la connoist pas, &amp; qu'il
+                    y a peu de Peintres qui connoissent cette partie de la Peinture. <lb/>Il semble,
+                    Iuy dis-je, à vous entendre parler, que le Coloris soit une chose fort
+                    difficile. <lb/>Plus difficile que vous ne pensez, me dit il, &amp; tout ce
+                    que j'ay à vous dire là-dessus, c'est que depuis prés de trois cent ans que la
+                    Peinture est resuscitée, à peine peut-on conter six Peintres qui ayent bien
+                    Colorié, &amp; l'on en conteroit pour le moins trente qui ont esté de
+                    tres-bons Dessina<pb n="45"/> teurs. Et la raison de cela est, que le Dessein a
+                    des regles fondées sur les proportions, sur l'Anatomie &amp; sur une
+                    experience continuelle de la mesme chose: au lieu que le Coloris n'a point
+                    encore de regles bien connuës, &amp; que l'experience qu'on y fait, estant
+                    quasi toûjours differente, à cause des differens sujets que l'on traite, n'a pû
+                    encore en établir de bien precises. <lb/>Quoy le Coloris n'a point de regles?
+                    repeit Damon. <lb/>Je ne dis pas cela, repartit Pamphile; mais seulement
+                    qu'elles ne sont gueres connuës. <lb/>Le Titien à vostre avis, continua Damon,
+                    &amp; les autres bons Coloristes ne les ont-ils pas connuës ces regles?
+                    <lb/>Je croy, dit Pamphile, qu'ils en ont connu la meilleure partie: mais <rs
+                        type="person" ref="#giorgione">Giorgion</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Giorgione</term>
+                    </index>, Titien<index indexName="psw">
+                        <term type="PND" xml:lang="deu">Tizian</term>
+                    </index>, <rs type="person" ref="#rubens_peter_paul">Rubens</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                    </index> &amp; <rs type="person" ref="#dyck_anthonis_van">Vandeik</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Dyck, Anthonis van</term>
+                    </index>, plus que les autres. <lb/>Hé bien, dit Damon, ce qu'ils nous ont
+                    laissé sont autant de Livres <pb n="46"/> publics qui peuvent instruire tous les
+                    Peintres. Il n'y a qu'à bien examiner leurs ouvrages, les copier pendant un
+                    temps considerable, &amp; faire dessus toutes les remarques qu'on croira
+                    necessaires pour en tirer du profit. <lb/>Ce n'est pas encore assez, repartit
+                    Pamphile, quantité de Peintres ont fait ce que vous dites sans aucun succés.
+                    <lb/>Dites donc, réprit Damon, comment vous voulez que l'on s'y prenne? <lb/>Je
+                    veux, dit Pamphile, que ce soit de la façon que vous venez de prescrire: mais
+                    outre cela, il faut avoir l'esprit tourné d'une maniere à profiter de tout, à ne
+                    remarquer que ce qui est remarquable, &amp; à penetrer les veritables causes
+                    des effets qu'on admire. Vous avez fort bien dit, que les Ouvrages de ces grands
+                    Hommes estoient des Livres où les preceptes du Coloris estoient écrits: <pb
+                        n="47"/> mais ignorez-vous que toutes sortes de personnes ne sont pas
+                    capables d'entendre tous les Livres &amp; d'en profiter, principalement
+                    quand ils sont aussi difficiles à entendre que ceux-là? Il y a des Peintres qui
+                    ont copié le Titien durant beaucoup d'années, qui l'ont examiné avec soin,
+                    &amp; qui ont fait dessus toutes les reflexions dont ils ont esté capables;
+                    cependant pour n'avoir pas fait celles qu'ils devoient, ils ne l'ont jamais
+                    compris: &amp; c'est pour cela que les copies qu'ils ont faites avec tout le
+                    soin possible, &amp; qu'ils croyent estre dans une grande exactitude, sont
+                    encore fort éloignées de la conduite qui se trouve dans les Originaux. <lb/><rs
+                        type="person" ref="#poussin_nicolas">Le Poussin</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Poussin, Nicolas</term>
+                    </index>, luy dis-je, n'auroit-il point esté de ces gens-là? (parlez-nous
+                    franchement;) car pour avoir autant copié, qu'il a fait, les Ouvrages du Titien,
+                    les siens n'en tiennent gueres. <lb/>Vous parlez-là, me répondit Pam<pb n="48"/>
+                    phile, d'un homme dont la mémoire sera toûjours en veneration à la posterité. Il
+                    a possedé si parfaitement le Dessein, il a traité si doctement ses sujets, enfin
+                    il a sceu tant d'autres parties necessaires à la Peinture, qu'on peut bien luy
+                    pardonner si les soins qu'il a pris à chercher le beau Coloris ne luy ont pas
+                    reussi. <lb/>Vous tombez donc d'accord, reprit Damon, qu'il n'a pas compris
+                    l'artifice qui est dans les Tableaux du Titien. <lb/>Non assurément, dit
+                    Pamphile; &amp; la plus grande partie de ses Ouvrages le font assez
+                    connoistre. <lb/>II est bien vray, qu'aprés avoir copié des Ouvrages du Titien,
+                    ses Tableaux en avoient quelque chose; mais ce n'en estoit que la superficie: Et
+                    s'il avoit veritablement compris les maximes, les finesses &amp; les
+                    delicatesses du Titien, il en aurait profité, &amp; les auroit sans doute
+                    fait valoir; il avoit trop de bon sens pour <pb n="49"/> n'en pas user de ce
+                    cette forte. Le mesme esprit qui Iuy fit trouver des beautez dans les Ouvrages
+                    du Titien jusqu'à s'attacher fortement à les copier, pour en imiter le Coloris,
+                    ce mesme esprit, bien loin de le luy faire abandonner, le luy auroit fait
+                    cultiver soigneusement, s'il avoit penetré dans cette partie, &amp; ses
+                    derniers Tableaux qui sont les plus foibles en Couleur, auroient dû estre les
+                    plus forts. <lb/>On pourra vous dire à cela, reprit Damon, que Ie Poussin dans
+                    ses commencemens, fût d'abord attiré par la force que l'on voit dans les
+                    Tableaux du Titien, qu'il se laissa surprendre aux attraits de leur Coloris,
+                    &amp; que c'est pour cette raison qu'il fir tous les efforts pour se
+                    l'acquerir: mais que s'en etant approché de plus prés, pour ainsi dire,
+                    &amp; ses études luy ayant donné plus de lumiere, il avoit trouvé que cette
+                    partie étoit dangereuse, (comme parlent quelques-uns) &amp; de <pb n="50"/>
+                    peu de consequence, &amp; qu'ainsi il devoit l'abandonner. <lb/>Je vous
+                    répondray d'abord, dit Pamphile, que la Peinture n'est faite que pour surprendre
+                    les yeux, que celle qui surprend le plus est la meilleure, &amp; que si le
+                    Coloris du Titien a surpris ceux du Poussin, il en peut surprendre d'autres,
+                    &amp; ne fera en cela que ce qu'il doit faire. Pour ce qui est de dire qu'il
+                    est dangereux de bien Colorier; un homme de bon sens ne doit point parler de la
+                    sorte; les parties qui composent un Art sont également necessaires pour sa
+                    perfection. <lb/>La raison que l'on donne, reprit Damon, pour confirmer ce que
+                    je viens de vous dire, c'est qu'en s'attachant au Coloris, on néglige le
+                    Dessein, &amp; que le charme de l'un fait oublier la necessité de l'autre.
+                    <lb/>Pour lors, repliqua Pamphile, ce n'est pas la faute du Coloris; mais de
+                    l'esprit qui a trop peu d'étenduë pour faire attention à deux choses en même <pb
+                        n="51"/> temps. Ce ne sont pas de ces sortes d'esprits que demande la
+                    Peinture, elle n'admet dans ses bonnes graces que ceux qui sont capables
+                    d'embrasser plusieurs objets, ou qui sont si bien tournez &amp; qui sçavent
+                    si bien se ménager qu'ils ne s'attachent qu'aux choses qui doivent augmenter par
+                    degrez leurs connoissances. Les nouvelles études qu'ils entreprennent ne leur
+                    font point oublier celles qu'ils ont déja faites, au contraire, ils fortifient
+                    les unes par les autres, de s'efforcent de les acquerir toutes, comme des moyens
+                    necessaires pour arriver à leur fin. C'est de ce caractere qu'étoit l'esprit de
+                    Raphaël, l'ordre &amp; la netteté avec laquelle il concevoit les choses, ne
+                    luy ont jamais permis de rien oublier, il augmentoit toûjours ses connoissances,
+                    &amp; fortifioit par les nouvelles lumieres qu'il acqueroit, celles qu'il
+                    avoit déja acquises. <lb/>Quoy, repartit Damon, ne croyez-vous pas que le
+                    Poussin ait eu l'es<pb n="52"/> prit d'une assez grande étenduë pour la Peinture
+                    ? <lb/>Pardonnez-moy, répondit Pamphile, &amp; c'est ce qui me fait croire
+                    que les recherches qu'il a si heureusement faites, du Dessein, de l'Antiquité
+                    &amp; de tant d'autres belles choses, ne luy auroient point fait oublier
+                    l'artifice du Coloris, s'il l'avoit une fois bien conçeu. Ainsi quoy que pour
+                    être favorisé de la Peinture, il faille avoir, comme je viens de vous dire,
+                    l'esprit d'une grande étenduë ou l'avoir bien tourne, il ne s'enfuit pas que
+                    tous ceux qui ont lesprit<sic/> de cette maniere, reçoivent également toutes les
+                    faveurs à la fois, dont elle est dispensatrice: Elle en donne à celuy-cy pour le
+                    Dessein, à cet autre pour le Coloris, tantôt pour le païsage, tantôt pour les
+                    animaux, &amp; tantôt enfin pour quelqu'autre talent, soit qu'elle les verse
+                    liberalement, ou qu'on les ait meritées par les recherches assiduës qu'on en
+                    aura faites. (<lb/><pb n="53"/> Mais encore, poursuivit Damon, d'où vient que
+                    cette connoissance du Coloris, que vous dites, que la plûpart des Peintres n'ont
+                    pas, leur est si difficile à acquerir ? <lb/>C'est, répondit Pamphile, qu'ils
+                    commencent par où il faut finir; ils se jettent dans le Coloris avant que d'être
+                    suffisamment fondez dans le Dessein, &amp; que l'ignorance de celuy-cy les
+                    embarassant dans la pratique de l'autre, fait qu'ils n'en attrapent pas un.
+                    C'est encore parce que les jeunes gens ayant pris d'abord une méchante maniere,
+                    s'en font une habitude, dont, pour l'ordinaire, ils ne se retirent jamais. Ils
+                    n'ont pour modeles que les Ouvrages de leurs Maîtres &amp; ceux qui sont
+                    publics &amp; ils estiment naturellement les premiers, &amp; se
+                    nourrissent insensiblement l'esprit par la veuë des autres. Et cela se fait avec
+                    d'autant plus de facilité, que ces ouvrages sont les objets qui se presentent
+                    les premiers à leurs yeux &amp; à leur <pb n="54"/> esprit. C'est enfin
+                    cotte premiere liqueur, laquelle étant mise dans un vaisseau tout neuf, y
+                    communique tellement son odeur, que quoy qu'on puisse faire pour l'en ôter, elle
+                    y demeure tres-long-temps. Ainsi les Peintres qui se sont nourris l'esprit de
+                    cette forte, ont deux choses à faire fort difficiles; l'une de sortir de leur
+                    mauvaise maniere, &amp; l'autre d'en prendre une bonne: Mais bien souvent
+                    leur vie se passe, sans qu'ils ayent seulement fait la premiere de ces deux
+                    choses. <lb/>D'où vient cela? luy dis-je. <lb/>C'est, continua-t-il, que
+                    l'habitude a passé jusqu'à l'organe, &amp; que les yeux du Peintre voyent
+                    les objets naturels colorez, comme ils ont accoûtumé de les peindre. <lb/>Et
+                    quel moyen donc de sortir de là? poursuivis-je. <lb/>Pour moy, dit Pamphile, je
+                    croirois(supposé qu'on en eut bien envie) qu'il faudroit changer du blanc au <pb
+                        n="55"/> nôir, &amp; porter les choses dans l'autre extremité pendant
+                    quelque temps. Et si l'on faisoit bien (poursuivit il d'un ton railleur) l'on
+                    interposeroit l'autorité des Magistrats, afin d'interdire pour six ans aux
+                    Peintres, la Laque &amp; la Terre verte. <lb/>C'est en effet, repartit
+                    Damon, porter les choses dans l'extremité. Je sçay bien que les grands maux
+                    demandent de grands remedes: mais quel moyen de se passer d'une couleur aussi
+                    necesaire qu'est la Laque? <lb/>Je ne la retranche pas pour toûjours, reprit
+                    Pamphile; on y reviendroit, comme un convalescent revient à la viande solide,
+                    qu'on lui a défenduë pendant sa maladie, &amp; d'autant plus que cette
+                    maladie étoit causée de repletion. <lb/>Je vous entends fort bien, dit Damon;
+                    mais quand on revient en convalescence, sçavez-vous que l'on a ordinairement un
+                    trop grand appetit, &amp; principalement des viandes qui <pb n="56"/> ont
+                    été defenduës pendant la maladie? <lb/>Je le sçay fort bien, repliqua Pamphile;
+                    &amp; c'est pour cela que l'on ordonne au convalescent un regime de vivre,
+                    jusques à ce que son estomac soit en état de digerer toutes fortes de viandes,
+                    &amp; d'en faire de bonsang. C'est pourquoy aprés le remede de six ans, dont
+                    je viens de vous parler, je voudrais que les Peintres copiassent sans
+                    discontinuer deux ou trois ans, des Tableaux du Titien, &amp; des autres qui
+                    ont bien entendu le Coloris; &amp; quiils<sic/> fissent tous leurs efforts
+                    pour en découvrir l'artifice, jusqu'à ce qu'ils eussent pris une bonne habitude,
+                    &amp; qu'ils suffent en état de &amp; servir utilement de toutes leurs
+                    Couleurs. <lb/>Le regime est merveilleux, dit Damon en se mettant à rire: mais
+                    je ne tiens pas, continua-t-il, que l'exécution en soit aisée. Les Tableaux bien
+                    conduits de Lumieres &amp; de Couleurs, <pb n="57"/> tels que vous les
+                    demandez, sont rares, &amp; la difficulté de les avoir pour quelque temps,
+                    est assez grande. <lb/>L'amour est ingenieux, repliqua Pamphile, &amp; quand
+                    on aime bien, l'on ne trouve rien de difficile. <lb/>Quoy vous voulez, luy
+                    dis-je, que le Peintre traite son Art, comme un amant fait sa maîtresse?
+                    <lb/>Oüy, répondit Pamphile, si Iuymême à son tour en veut être caresse: c'est
+                    pourquoy je vous disois tout à l'heure: que pour obtenir les bonnes graces de la
+                    Peinture, le plus seur est de les meriter. Il est vray que l'on trouve peu de
+                    beaux Tableaux à copier: mais si l'on ne peut pas avoir toûjours des Originaux,
+                    que l'on se contente des belles copies; que l'on en termine seulement les bons
+                    endroits, &amp; qu'on neglige, si l'on veut, le reste: que l'on voye souvent
+                    les Cabinets des particuliers, &amp; celuy du Roy, toutes les fois qu'on le
+                    pourra. <lb/>Vous abandonnez bien vôtre amy <pb n="58"/> Rubens dans l'occasion,
+                    interrompit Damon. Estes-vous broüillé avec luy, depuis que je vous ay oüy tant
+                    priser ses Ouvrages ? <lb/>Je vous en allois parler, quand vous m'avez
+                    interrompu, dit Pamphile, quoy que je n'aye rien à ajoûter à ce que je vous en
+                    ay dit autrefois. Je vous diray seulement à cause de la matiere que nous
+                    traitons, &amp; de l'endroit où nous sommes tombez, que le meilleur conseil
+                    que j'aurois à donner aux Peintres, dont nous parIons (si j'étois capable de
+                    leur en donner) ce seroit de voir pendant un an, tous les huit jours une fois,
+                    la gallerie du Luxembourg, de quitter toutes choses, &amp; de ne rien
+                    épargner pour cela. Ce jour seroit sans doute le plus utilement employé de la
+                    semaine. Rubens est ce me semble celuy de tous les Peintres, qui a rendu le
+                    chemin qui conduit au Coloris, plus facile &amp; plus débarassé: Et
+                    l'Ouvrage dont je vous parle, est la main se<pb n="59"/> )courable qui peut
+                    tirer le Peintre du naufrage où il se seroit innocemment engagé. , <lb/>Il faut
+                    joindre cela au régime, dit Damon en souriant. Je sçay bien, continua-t-il, que
+                    Rubens est un de vos Heros de Peinture, &amp; que vous avez toûjours estimé
+                        l'<rs type="work" ref="#jaffe_707_754">Ouvrage qui est dans la gallerie du
+                        Luxembourg</rs><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Paris</term>
+                        <index indexName="stw">
+                            <term xml:lang="fra">Palais du Luxembourg</term>
+                        </index>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Medici-Zyklus (1622-1625)</term>
+                        </index>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Medici-Zyklus (1628-1631)</term>
+                        </index>
+                    </index>, comme une des plus belles choses qui soient dans l'<rs type="place"
+                        ref="#europa">Europe</rs>, si l'on en retranchoit (disiez-vous) en beaucoup
+                    d'endroits le goût de Dessein dont il n'est pas question presentement. Mais tout
+                    le monde n'est pas de vôtre goût, &amp; ceux qui sont d'un sentiment
+                    contraire, disent qu'on trouve peu de verité dans les Ouvrages de Rubens, quand
+                    on les examine de prés, que les Couleurs &amp; les Lumieres y sont
+                    exagerées, que ce n'est qu'un fard, &amp; qu'enfin ce n'est point ainsi que
+                    l'on voit ordinairement la Nature. <lb/>O le beau fard! s'écria Pamphile, <pb
+                        n="60"/> &amp; plût à Dieu, mon cher Damon, que les Tableaux qu'on fait
+                    aujourd'huy, fussent fardez de cette sorte; ne sçavez-vous pas que la Peinture
+                    n'est qu'un fard, qu'il est de son essence de tromper, &amp; que le plus
+                    grand trompeur en cet Art est le plus grand Peintre. La Nature est ingrate
+                    d'elle-même, &amp; qui s'attacheroit à la copier simplement comme elle est
+                    &amp; sans artifice, seroit toûjours quelque chose de pauvre &amp; d'un
+                    tres-petit goût. Ce que vous nommez exageration dans les Couleurs &amp; dans
+                    les Lumieres, est une admirable industrie, qui fait paroître les objets peints
+                    plus veritables (s'il faut ainsi dire) que les veritables mêmes. C'est ainsi que
+                    les Tableaux de Rubens sont plus beaux que la Nature, laquelle semble n'être que
+                    la copie des Ouvrages de ce grand Homme. Et quand les choses apres être bien
+                    examinées ne se trouveroient pas justes, comme vous le <pb n="61"/> supposez,
+                    qu'importe, pourvû qu'elles le paroissent; puisque la fin de la Peintura n'est
+                    pas tant de convaincre l'esprit que de tromper les yeux. <lb/>Cet artifice, dit
+                    Damon, me semble merveilleux dans les grands Ouvrages. <lb/>C'est aussi dans
+                    ceux-là, reprit Pamphile, où l'on voie que Rubens l'a rendu plus sensible à ceux
+                    qui sont capables d'y faire attention &amp; de l'examiner: car aux personnes
+                    qui ne s'y connoissent que peu, rien n'est plus caché que cet Artifice. <lb/>Et
+                    Vandeik; interrompit Damon, ne trouvera-t-il point icy quelque place ?
+                    <lb/>Quand je parle de Rubens, reprit Pamphile, j'entens, comme vous sçavex,
+                    toute son école. Neanmoins, vous avez raison de vouloir que l'on fasse un cas
+                    particulier de cet illustre Disciple; puisque s'il n'a pas eu tant de Genie que
+                    son Maistre, ny tant de talent pour les grandes <pb n="62"/> exécutions, il l'a
+                    surpassé en bien des rencontres dans certaines delicatesses de l'Art, &amp;
+                    il est constant qu'il a fait des carnations plus fraîches &amp; plus
+                    veritables que Rubens. <lb/>De sorte, dit Damon, que vous seriez fort étonné si
+                    vous voyiez un prompt changement dans les Peintres qui sont dans l'habitude d'un
+                    mauvais Coloris. <lb/>Oüy certes, répondit Pamphile: car ils prennent un chemin
+                    fort opposé à celuy dont je viens de vous parler: mais ce qui me surprend
+                    extremement, c'est que la plupart de ceux qui loüent &amp; qui admirent les
+                    Tableaux bien Coloriez, bien loin de prendre la peine de vouloir les imiter dans
+                    ce qu'ils font, veulent qu'on donne des loüanges à leurs Tableaux qui à l'égard
+                    de certe partie, en sont extrêmement éloignez. Ainsi jugez vous-même, s'il y a
+                    lieu d'esperer ce changement si prompt, lequel ne se peut faire <pb n="63"/>
+                    qu'en profitant de la veuë des belles choses. <lb/>II ne laisse pas, interrompit
+                    Damon, d'y avoir dans Paris beaucoup de beaux Tableaux. <lb/>Ce que vous dites
+                    est vray, reprit Pamphile: mais quoique tout le monde les regarde, tout le monde
+                    ne les voit pas: &amp; ce que chacun y voit n'est que par rapport à sa
+                    connoissance. Je vois par exemple que la foule de nos Peintres admire les
+                    Ouvrages de <rs type="person" ref="#testa_pietro">Pietre Teste</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Testa, Pietro</term>
+                    </index>, qui sont un cahos de bizareries, pendant qu'ils ne connoissent pas
+                    seulement le nom d'<rs type="person" ref="#veen_otto">Otho Vaenius</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Veen, Otto van</term>
+                    </index>, dont les Ouvrages meritent assurement beaucoup de <unclear
+                        reason="illegible">lange</unclear>
+                    <!--(Tintenfleck, evtl. louange?)-->. <lb/>Otho Vaenius? repeta Damon. N'est-ce
+                    pas luy qui a fait les <term type="stw">emblèmes d'<rs type="person"
+                            ref="#horaz">Horace</rs><note resp="A.H." type="footnote">Eine <ref
+                                target="http://emblems.let.uu.nl/va1612.html">Web-Edition der Q.
+                                Horatii Flacci Emblemata von 1612</ref> wird vom <ref
+                                target="http://emblems.let.uu.nl/">Emblem Project Utrecht</ref>
+                            präsentiert.</note>
+                        <index indexName="stw">
+                            <term type="SWD" xml:lang="deu">Veen, Otto van</term>
+                            <index indexName="stw">
+                                <term xml:lang="lat">Horatii Flacci Emblemata</term>
+                            </index>
+                        </index></term><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Horaz</term>
+                    </index>, celles des Amours divin<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Veen, Otto van</term>
+                        <index indexName="stw">
+                            <term xml:lang="lat">Amoris divini Emblemata</term>
+                        </index>
+                    </index> &amp; profane<note resp="A.H." type="footnote">Das <ref
+                            target="http://emblems.let.uu.nl/">Emblem Project Utrecht</ref>
+                        präsentiert Web-Editionen der <ref
+                            target="http://emblems.let.uu.nl/v1608.html">Amorum emblemata
+                        (1608)</ref> und seinem Gegenstück, den <ref
+                            target="http://emblems.let.uu.nl/v1615.html">Amoris divini emblemata
+                            (1615)</ref>.</note><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Veen, Otto van</term>
+                        <index indexName="stw">
+                            <term xml:lang="lat">Amorum emblemata</term>
+                        </index>
+                    </index>, &amp; la vie de saint <rs type="person" ref="#aquin_thomas">Thomas
+                        d'Aquin</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Thomas (von Aquin)</term>
+                    </index>? <lb/>Luy-même, dit Pamphile. <lb/>Il est vray que je n'en ay jamais
+                        <pb n="64"/> oüy parler à aucun Peintre, continua Damon, &amp; c'est
+                    peut-être qu'il n'a pas fait beaucoup d'ouvrages. <lb/>C'est pour cela, repliqua
+                    Pamphile, qu'on les doit d'autant plus tenir chers &amp; les conserver plus
+                    soigneusement. <lb/>Mais il semble, dit Damon, que ses figures sont un peu
+                    courtes. <lb/>Si cet excellent Homme, répondit Pamphile, a quelquefois dessiné
+                    ses figures un peu courtes, il a bien dequoy se faire estimer d'ailleurs. II
+                    avoit un Genie facile, sage, moderé, &amp; n'empruntoit jamais rien des
+                    œuvres d'autruy. Il donnoit à ses Figures tel caractere de passion qu'il
+                    vouloir, &amp; les expressions esont (unleserlich, Tintenfleck) pour la
+                    plûpart, belles &amp; naturelles. Les pieds &amp; les mains en sont
+                    correctement dessinez, les Draperies bien jettées, les plis beaux &amp; dans
+                    la place qu'il est necessaire pour marquer agréablement le nud, &amp; pour
+                    en conserver les masses. Mais ce qui se <pb n="65"/> voit par excellence dans
+                    ses Ouvrages, c'est une admirable intelligence de Lumieres &amp; d'Ombres
+                    sur les Figures en particulier, &amp; dans toute l'œconomie de l'ouvrage:
+                    enfin l'on y voit un grand art par tout. Aussi ne vous en étonnerez-vous pas,
+                    quand je vous diray qu'il étoit le Maistre de Rubens. Et avec tous ces
+                    avantages, les Livres que vous venez de me nommer, demeurent dans l'oubly,
+                    &amp; sont comme enterrez à l'egard des Peintres dont nous parIons, qui ne
+                    les connoissent pas. <lb/>Il ne faut pas s'en étonner, dit Damon, car il y en a,
+                    ce me semble, bien peu qui ayent du goust pour ces sortes d'effets de Lumieres.
+                    Mais n'y a-t-il que les Livres d'Otho Vaenius, où l'on voye cet agreable artifice
+                    du Jour &amp; de l'Ombre. <lb/>Pardonnez-moy, répondit Pamphile; tout ce qui
+                    se voit de bien gravé d'aprés les Ouvrages du Titien, &amp; d'après ceux de
+                    l'école de <pb n="66"/> Rubens, en donne encore l'intelligence. <lb/>Et
+                    qu'appellez-vous bien graver, reprit Damon? Est-ce couper le cuivre hardiment
+                    comme <rs type="person" ref="#goltzius_hendrick">Goltius</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Goltzius, Hendrik</term>
+                    </index>, ou poliment comme <rs type="person" ref="#bloemaert_abraham"
+                        >Bloëmart</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Bloemaert, Abraham</term>
+                    </index> &amp; <rs type="person" ref="#natalis_michel">Natalis</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Natalis, Michel</term>
+                    </index>? <lb/>Ce n'est pas cela précisement, repliqua Pamplile, la premiere
+                    façon que vous attribuez à Goltius n'y est pas mesme fort propre; puisque pour
+                    bien graver, il ne faut pas, s'il est possible, que le Graveur se fasse
+                    reconnoistre dans son Ouvrage: il doit simplement faire en sorte que l'Estampe
+                    gravée fasse le mesme effet (à la Couleur prés) que le Tableau qu'on se propose
+                    d'imiter. <lb/>Tous les Graveurs, dit Damon, ne font-ils pas cela? <lb/>Non
+                    vrayement, repartit Pamphile, &amp; il y en a peu qui Ie sachent faire, lors
+                    principalement qu'ils ont à graver un Tableau bien Colorié &amp; bien
+                    entendu de Lumieres &amp; d'Om<pb n="67"/> bres. Ils en imitent les figures
+                    comme si elles estoient de Sculpture, &amp; comme d'une même Couleur.
+                    Cependant les oppositions qui se trouvent dans les Tableaux par les differens
+                    tons de Couleurs, contribuant extrêmement à leur donner de la force, il n'est
+                    pas étonnant que leurs Estampes paroissent fades, &amp; que bien loin de
+                    donner de l'estime pour les Originaux, elles ne servent qu'à les deshonorer. Ce
+                    n'est pas qu'il soit toûjours necessaire d'imiter les corps des Couleurs par les
+                    degrez du clairobscur; mais il se trouve souvent des occasions où il le faut
+                    faire indispensablement. Pour les manieres polies que vous attribuez à Bloëmart
+                    &amp; à Natalis, elles sont sans contredit les plus agréables, quand les
+                    choses, dont je viens de vous parler, s'y rencontrent. Mais parmy toutes les
+                    Estampes où l'on voit ce bel artifice du clair-obscur, celles qui ont été
+                    gravées d'aprés les œuvres de Rubens, <pb n="68"/> me semblent d'une beauté
+                    incomparable. <lb/>Et moy, dit Damon, j'ay veu de nos Peintres &amp; des
+                    plus habiles, qui ne pouvoient souffrir ces Estampes; parce que, disoient-ils,
+                    elles sentoient <term type="psw">le Flamand <index indexName="psw">
+                            <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        </index></term>. <lb/>Si par sentir le Flamand, reprit Pamphile, ils
+                    entendent estre dessiné d'un goust qui sente l'air du païs, on peut leur
+                    pardonner cette délicatesse; mais si par sentir le Flamand, ils entendent faire
+                    un grand effet, &amp; tromper les yeux par des objets qui paroissent
+                    veritables, &amp; par l'artifice des Lumieres &amp; des Ombres qu'ils
+                    n'ont pas accoûtumé de voir ailleurs, ils n'ont assurement pas raison. Il faut
+                    estimer les choses pour ce qu'elles valent: Il n'y a point de Tableau parfait,
+                    &amp; les plus beaux ne sont estimez tels, que pour estre les moins mal. Il
+                    est donc ridicule de mépriser un Ouvrage qui n'est defectueux que par une seule
+                    chose, quand il est re<pb n="69"/> commandable par beaucoup d'autres: Si le
+                    Dessein n'est pas ce qu'on doit estimer davantage dans les Estampes de Rubens,
+                    il y a assez d'autres parties qui les rendent considerables, &amp; qui
+                    malheureusement pour les Peintres dont vous parlez, ne leur sont point connuës,
+                    &amp; la maniere dont vous dites qu'ils les rejettent, est une grande
+                    conviction de leur ignorance. <lb/>Je les interrompis là-dessus, pour leur
+                    demander ce que l'Academie avoit conclud sur cette matiere. <lb/>Rien, me
+                    répondit Pamphile, &amp; je trouve qu'ils ont fait sagement. II ne faut pas
+                    se presser si fort de conclure; il est bon de reprendre à plusieurs fois les
+                    matieres qui sont de quelque conséquence: les lumieres ne viennent pas tout d'un
+                    coup; &amp; ce que l'on a condamné dans un temps, est bien souvent approuvé
+                    dans un autre, par des raisons plus fortes. Il faut chercher de bonne foy la
+                    vérité, <pb n="70"/> &amp; s'y rendre quand on l'a une fois trouvée. <lb/>Il
+                    est vray, dit Damon, que voila la troisiéme Conference<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Paris</term>
+                        <index indexName="stw">
+                            <term xml:lang="fra">Académie Royale de Peinture et de Sculpture</term>
+                            <index indexName="stw">
+                                <term xml:lang="fra">Conférences</term>
+                            </index>
+                        </index>
+                    </index> qui se fait sur cette matiere. Mais quand on auroit décidé quelque
+                    chose, seroit-ce un crime de revenir contre, &amp; de proposer ses raisons?
+                    <lb/>Je ne le croy pas, dit Pamphile. La verité doit estre toûjours bien receuë,
+                    &amp; l'on doit fléchir le genoüil devant elle en tout temps &amp; en
+                    tout lieu. <lb/>Damon voulut encore demander quelque chose; mais Pamphile le
+                    faisant(oder faifant) souvenir qu'il estoit tard, luy dit que ce seroit pour une
+                    autre fois. Là-dessus après quelques civilitez de part &amp; d'autre, ils se
+                    retirerent chez-eux, &amp; me laisserent fort satisfait de leur entretien. </p>
+                <p rend="text-align:center"> De l'Imprimerie d'<rs type="person"
+                        ref="#lambin_antoine">Antoine Lambin <index indexName="psw">
+                            <term xml:lang="deu">Lambin, Antoine</term>
+                            <index indexName="fsw">
+                                <term type="structure" target="#printer">Drucker</term>
+                            </index>
+                        </index></rs>,<lb/>
+                    <date when="1699">1699</date>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

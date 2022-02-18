@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_173">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rubens läßt durch den Notar Toussaint Guyot eine Vollmacht ausstellen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-ib-821">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Insovente Boedelskamer</collection>
+                        <idno type="signatur">Nr. 821, sub dato</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens läßt durch den Notar Toussaint Guyot eine Vollmacht
+                            ausstellen</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Am <ref type="rubens" cRef="ed_rubens_174">29. Mai
+                                    1627</ref> gibt Jacques Loemans an, das Landhaus Hof van Ursele an Rubens
+                                    verkauft zu haben.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1627-05-27">27. Mai 1627</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl>Jean Denucé: Na Peter Pauwel Rubens: Documenten uit den
+                            kunsthandel te Antwerpen in de XVII<hi rend="super">e</hi>eeuw van Matthijs Musson
+                            (Bronnen voor de geschiedenis van de Vlaamsche Kunst, 5), Antwerpen:De Sikkel
+                            [u.a.], 1949, S. 1<ptr type="gbv" cRef="306747782"/></bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <head>
+                   Die <date when="1627-05-27">Vigesima septima May 1627</date>
+                </head> 
+                <p>Compareerde S<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pietro Paulo Ruebens</rs>
+                    constschilder van haere Hoocheyt woonende binnen deser Stadt my Notaris bekend
+                    synde. <span from="" xml:lang="lat">Et constituit</span> <rs type="person" ref="#guyot_toussaint">Toussein
+                    Guyot</rs> oick Notharius alhier, hem gevende volcommen ende absolute
+                        macht<index indexName="stw">
+                        <term xml:lang="deu">Vollmacht</term>
+                    </index> Om te gaen ende compareren voor Heer en Hove ende Wetth daert van noode
+                    wesen sal ende aldaer tot synen behoeve t’aenveerden ende t’ontfangen de
+                    goedenisse ende erffenisse van de huyssinge ende hoeve mette landen daertoe
+                    behoorende genaemt thoff van Urssel<index indexName="stw">
+                        <term xml:lang="nld">Hof van Ursele</term>
+                    </index> gelegen tot <rs type="place" ref="#eeckeren">Eeckeren</rs><index
+                        indexName="stw">
+                        <term xml:lang="deu">Eeckeren</term>
+                    </index> by <rs type="person" ref="#loemans_jaques">Jacques Loemans</rs> te
+                    doene ende te passerene, de commeren ende lasten daerop wytgaende tot syns
+                    constituants laste te nehmen ende geloven te betaelen, brieven ende bescheeden
+                    daeraff in behoorlycker forme te passeren <span from="" xml:lang="lat">Et generatliter etc. Promittens</span> etc.
+                </p>
+                <closer><dateline>Actum <rs type="place" ref="#antwerpen">Antverpie</rs> ter presentiën van <rs
+                        type="person" ref="#pont_philipp">Philips de Pont</rs> ende <rs
+                        type="person" ref="#panneels_guillaume">Guill<hi rend="super">e</hi>
+                            Panneels</rs> <span from="" xml:lang="lat">Incolis testibus.</span></dateline><lb/>
+                    <signed><rs type="person" ref="#rubens_peter_paul">Pietro Paulo Rubens.</rs></signed></closer> 
+            </div>
+        </body>
+        
+    </text>
+</TEI>

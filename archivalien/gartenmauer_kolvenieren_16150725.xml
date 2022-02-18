@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_132">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rubens errichtet eine Gartenmauer zu den benachbarten Kolvenieren, <date when="1615-07-25"
+                        >25. Juli 1615</date></title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="gartenmauer_kolvenieren_16150725">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Max Rooses: De Afdoening van het Kruis</collection>
+                        <idno>Auszüge aus dem Rechnungsbuch der Antwerpener
+                            Kolveniersgilde vom 25. Juli 1615</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Rubens errichtet eine Gartenmauer zu den benachbarten Kolvenieren</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                            <origDate when="1615-07-25">25. Juli 1615</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo><recordHist><source><bibl>Nils Büttner nach: Max Rooses: De Afdoening van het Kruis</bibl></source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877. S. 447f.<ptr type="gbv" cRef="146162595"/></bibl>
+                            <bibl>Max Rooses: De Afdoening van het Kruis: Uit het Rekenboek der Antwerpsche Kolveniersgilde. In: Bulletin Rubens: annales de la Commission Officielle instituée par le
+                                Conseil Communal de la Ville d'Anvers pour la publication des documents
+                                relatifs à la vie et aux oeuvres de Rubens = Rubens-bulletijn. Bd. 5. Antwerpen
+                                1910. S. 233<ptr type="gbv" cRef="167057901"/></bibl>
+                        </listBibl></additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Rubenshaus</term>
+                    <term xml:lang="nld">Rubenshuis</term>
+                    <term xml:lang="deu">Antwerpen</term>
+                    <term xml:lang="deu">Wapper</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nl">
+                <p>
+                    <table>
+                        <row>
+                            <cell>Item betaelt aen <rs type="person" ref="#vos_andries">Andries de
+                                    Vos</rs>, voor 323 potten biers aldaer gedroncken by de
+                                arbeyders in ’t maeken van de muer ende huysken, daer aff S<hi
+                                    rend="super">r</hi>
+                                <rs type="person" ref="#rubens_peter_paul">Rubbens</rs> de helft van
+                                het bier moet gelden in respecte van de muer en voorders nyet, ’t
+                                samen bedragende volgens de twee kerven gespecifieerd N° 33</cell>
+                            <cell><measure type="currency" quantity="40">xl</measure> gl. <measure
+                                    type="currency" quantity="2">ij</measure> st.</cell>
+                        </row>
+                        <row>
+                            <cell>Item betaelt de erffscheyders voort meten van den nieuwen
+                                gemetsten muer daer aff Rubbens voors. de eene helft moet dragen pr
+                                quittancie N° 34</cell>
+                            <cell><measure type="currency" quantity="4">iiij</measure> gl. –
+                            st</cell>
+                        </row>
+                        <row>
+                            <cell>Item 1615 compt <rs type="person" ref="#craeyer_franchoys"
+                                    >Franchoys De Craeyer</rs> voort opmaeken vanden muer boven den
+                                accoirde met hem aengegaen aengaende synen frydom</cell>
+                            <cell><measure type="currency" quantity="149">j<hi rend="super">c</hi>
+                                    xlix</measure> gl. – st.</cell>
+                        </row>
+                    </table>
+                </p>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

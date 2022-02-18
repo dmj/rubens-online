@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_223">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens und Gregorius de Weerdt geben zu Protokoll von Clara
+                    Barssemaeckers eine Auszahlung von 20 Gulden erhalten zu haben, zugunsten von
+                    Clara Rubens, Philip Rubens und Christina du Parcq</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-629">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1635/ II: Louis vanden Berghe, Rousseau &amp;
+                            Marcelis</collection>
+                        <idno type="signatur">SR 629, fol. 19v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens und Gregorius de Weerdt geben zu Protokoll von
+                            Clara Barssemaeckers eine Auszahlung von 20 Gulden erhalten zu
+                            haben, zugunsten von Clara Rubens, Philip Rubens und Christina du
+                            Parcq</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Philipp und Peter Paul Rubens hatten das Anwesen
+                                    Het Moeriaenshooft am <ref type="rubens" cRef="ed_rubens_005">15. Juni
+                                        1610</ref> verkauft.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1635-10-12">12. Oktober 1635</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Heer <rs type="person" ref="#rubens_peter_paul">Peter Pauwels Rubbens</rs>
+                    riddere, pro se jouffrouwe <rs type="person" ref="#rubens_clara">Clara
+                    Rubbens</rs>, dochter van wijlen H<hi rend="super">r</hi> ende M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_philipp">Philips Rubbens</rs>, secretaris was
+                    deser stadt, daer moeder af was Jouff<hi rend="super">r</hi>
+                    <rs type="person" ref="#moy_maria">Maria de Moy</rs>, met heer ende M<hi
+                        rend="super">r</hi>
+                    <rs type="person" ref="#weerdt_gregorius">Gregorius de Weerdt</rs>, secretaris
+                    deser stadt, soo voor huns selve als hun sterckmaeckende voor M<hi rend="super"
+                    >r</hi> Philips Ruebens, licensiaet inde rechten der voors. J<hi rend="super"
+                    >f</hi> Claren broedere ende J<hi rend="super">fe</hi>
+                    <rs type="person" ref="#parcq_christina">Christina du Parck</rs>, dochter van
+                    wijlen Jonker <rs type="person" ref="#parcq_simeon">Simeon du Parcq</rs>, daer
+                    moeder af was jouffrouwe <rs type="person" ref="#rubens_blandina">Blandina
+                        Rubbens</rs>, ongehouwt maer bejaere ende haers zelfs zijnde, zoo voor haer
+                    selven als in den naeme van haere broedere ende sustere, voor deselve haer
+                    sterckmaeckende, dicta qualitate bekenden ongebeurt ende ontfangen te hebben van
+                        <rs type="person" ref="#barssemaeckers_clara">Clara Barssemaeckers</rs> de
+                    capitale penningen van de twintich Carolus guldenen erfelyck daeromme de voors.
+                    wijlen heer ende M<hi rend="super">r</hi> Philips Rubbens cum suis op den <date
+                        when="1610-06-15">vijfthienden juni 1600 ende thiene</date> ’terve gegeven
+                    hebbende M<hi rend="super">r</hi>
+                    <rs type="person" ref="#regebaert_hans">Hans Regenaert</rs> ende de voors. Clara
+                    Barssemaeckers sijne huysvrouwe, een stuck erve daer eertijts een huys genaempt
+                    het Moeriaenshooft<index indexName="stw">
+                        <term xml:lang="nld">Moeriaenshooft</term>
+                    </index><index indexName="stw">
+                        <term xml:lang="nld">Vliegende Hert</term>
+                    </index> op gestaen heeft, gelegen in <rs type="place" ref="#borgerhout"
+                        >Borgerhoudt</rs> alhier prout <span from="" xml:lang="lat">littera quitaverunt etc.</span></p> 
+                <closer><salute>gelovende etc.</salute><lb/>
+                    <dateline><date when="1635-10-12">Duodecima octobris 1635</date><lb/> Solutum 24 st.</dateline></closer>
+            </div>
+        </body>
+      
+    </text>
+</TEI>

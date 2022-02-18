@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_061">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Anstellung von Andries Symons als Verwalter der Antwerpener
+                Liegenschaften</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-373-382">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1583/ 1: Kessel &amp; Gillis</collection>
+                        <idno type="signatur">SR 373, fol. 382v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Anstellung von Andries Symons als Verwalter der Antwerpener
+                            Liegenschaften</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch: <ref type="rubens"
+                                    cRef="ed_rubens_065">1587, 15. Juni</ref></note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1583-10-27">27. Oktober 1583</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 321<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl> 
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Andries Symons</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Deselve, inder voors. qualiteyt, constituerunt <rs type="person"
+                        ref="#symons_andries">Andries Symons</rs> omme alle ende ijegelijcke heure
+                    goeden te regeren, te gouverneren ende tadministreren ende tot redelijcken
+                    termijnen te verhueren ende verpachten, brieven van hueringen daeraff te
+                    passeren ende te verlijdene, <span from="" xml:lang="lat">item ad petendum et recipiendum omnia et quæcumque
+                    eorum census, reditus, debita et debenda ubicumque, quitandum, et si opus
+                    fuerit, litem jurandum, arrestandum, executandum, cum potestate substituendi</span>,
+                    ende voorts al waert, gelovende, salvo computu. die eodem. </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

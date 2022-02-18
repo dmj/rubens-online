@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_209b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen Rates und
+                    eventuelle weitere Zahlungen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-2968-794v">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte dix-septième d’Ambroise Van Oncle du er janvier au 31 décembre
+                            1617)</collection>
+                        <idno type="signatur">B. 2968, fol. 794v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen
+                            Rates und eventuelle weitere Zahlungen</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                         <filiation>
+                             <note resp="A.H." type="footnote">Bzgl. Rubens` Honorar als Sekretär des Geheimen Rates vergleiche auch die folgenden Dokumente, die alle um das Jahr 1630 datiert sind:
+                                 <ref type="rubens" cRef="ed_rubens_209">Dokument Nr. 209</ref>;
+                                 <ref type="rubens" cRef="ed_rubens_209a">Dokument Nr. 209a</ref>;
+                                 <ref type="rubens" cRef="ed_rubens_209c">Dokument Nr. 209c</ref>;
+                                 <ref type="rubens" cRef="ed_rubens_209d">Dokument Nr. 209d</ref>
+                              </note>
+                         </filiation>
+                          
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1630" notAfter="1630">? 1630</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord, in: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, Antwerpen 1888,
+                            S. 127</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Sekretär</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                    <term xml:lang="deu">Reisen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>     
+
+            <div xml:lang="fra">
+                <p><pb n="794v"/>6374 livres à <rs type="person"
+                    ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>, secrétaire du Conseil privé du
+                    Roi<index indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index>, en une lettre de descharge de pareille somme datée du <date
+                        when="1631-03-24">24<hi rend="super">e</hi> de mars 1631</date>, levée sur <rs
+                        type="person" ref="#boet_ange">Ange Boet</rs>, conseiller et resepveur
+                    général de <rs type="place" ref="#haynnau">Haynault</rs>, dont est faicte
+                    recepte cy-devant folio 182, pour le parfurnissement de 12, 374 livres, à quoy
+                    montent les fraiz et despens par luy exposés ès années <date when="1629"
+                    >1629</date> et <date when="1630">30</date> aux voyaiges par luy faictz vers
+                    Espaigne et <rs type="place" ref="#england">Angleterre</rs>, allant et venant
+                    pour le service de Sa Majesté dont n’est besoing faire plus ample déclaration.
+                </p>
+            </div>
+           
+        </body>
+       
+    </text>
+</TEI>

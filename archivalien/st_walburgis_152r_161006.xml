@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu"
+    xml:id="ed_rubens_020b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bestellung des Altars mit der Kreuzaufrichtung für St. Walburgis</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="st_walburgis_152r_161006">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
+                            zijne bloedverwanten</collection>
+                        <idno>Kirchenrechnung vom Juni 1610 zur Bestellung des Altars mit der Kreuzaufrichtung für St. Walburgis</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Bestellung des Altars mit der Kreuzaufrichtung für St. Walburgis</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Die zugehörigen Urkunden und Dokumente erstmals
+                                publiziert durch Victor van Grimberghen.</note>
+                            <note resp="N.B." type="footnote">Weitere Zahlungen erfolgten in den Jahren 1611 und
+                                1613, in welchem Jahr Rubens der Gemeinde 10 Gulden schenkte, die ebenfalls in
+                                den Rechnungsbüchern verzeichnet wurden.</note>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch die weiteren Kirchenrechnungen:
+                                 <ref type="rubens" cRef="ed_rubens_020">1610</ref>;
+                                <ref type="rubens" cRef="ed_rubens_020a">1610</ref>;
+                                <ref type="rubens" cRef="ed_rubens_020c">17. Juni 1610</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1610-06">Juni 1610</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
+                                        zijne bloedverwanten</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens : Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877. S. 419f.<ptr type="gbv"
+                                    cRef="146162595"/></bibl>
+                            <bibl>Victor van Grimberghen (Grimbergen): Verzameling van oorkonden, aengaende
+                                het concept van vergrooting der stad Antwerpen van het jaer 1580. Antwerpen
+                                1858</bibl>
+                        </listBibl>
+                      </additional>
+                    </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">St. Walburgis</term>
+                    <term xml:lang="deu">Hochaltar</term>
+                    <term xml:lang="deu">Altar</term>
+                    <term xml:lang="deu">Kreuzaufrichtung</term>
+                    <term xml:lang="deu">Tryptichon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>          
+            
+            <div xml:lang="nld">
+                <p>
+                    <pb n="152r"/>
+                    <table>
+                        <row>
+                            <cell>Betaelt in <rs type="place" ref="#klyn_zeelant">Klyn-Zeelant</rs>,
+                                ende verteert daer men met <rs type="person"
+                                    ref="#rubens_peter_paul">Peeter Rubbens</rs>, schilder, heeft
+                                geaccordeert vant <rs type="work" ref="#jaffe_135ABC">schilderen vanden hoogen autaer</rs><index indexName="psw">
+                                    <term type="GND" xml:lang="deu">Rubens, Peter Paul</term><index indexName="stw"><term type="GND" xml:lang="deu">Kreuzaufrichtungsaltar</term></index>
+                                </index>, present mijnheer
+                                den Pastor en <rs type="person" ref="#geest_cornelis">Cornelis van
+                                    der Geest</rs> ende kerckmeesters<lb/></cell>
+                            <cell>gl. 9 – 10.</cell>
+                        </row>
+                    </table>
+                </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_055">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Auszahlung einer Leibrente zu Gunsten von Jan Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-r-303">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Corpus 1578-1786: Lijfrenten 1581-1582</collection>
+                        <idno type="signatur">R 303, fol. 272v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Auszahlung einer Leibrente zu Gunsten von Jan Rubens</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch folgende Dokumente: 
+                                    <ref type="rubens" cRef="ed_rubens_037">1568, 27. Juni</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_041">1576, 13. Juli</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_044">1578, 2. Mai</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_045">1578/79</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_047">1579, 2. September</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_048">1579/80</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_050">1580, 15. Januar &amp; 17. März</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_049">1580, 4. Februar</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_051">1580/81</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_056">1582/83</ref>; 1607, 9. Mai</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1581">1581/82</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester
+                                en zijne bloedverwanten. Antwerpen 1877, S. 189<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu">Leibrente</term>
+                    <term xml:lang="deu">Erbrente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>
+                    <table>
+                        <head>
+                            <hi rend="underline">2213</hi>
+                        </head>
+                        <row>
+                            <cell>3606 <rs type="person" ref="#rubens_jan">Jan
+                        Rubbens</rs> is heffende een rente van <measure type="currency"
+                        quantity="75">LXXV</measure> ₤, gereduceert op <measure type="currency"
+                        quantity="45">XLV</measure> ₤, vervallende <date when="---27">XVII</date>
+                    Decembris ende Junij, waer op gheen betalinge en is geschiet</cell>
+                            <cell>Nyet.</cell>
+                        </row>
+                    </table>
+                </p>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

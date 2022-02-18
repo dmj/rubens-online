@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_086">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quittung über eine Rente auf das Haus St. Arnoldus auf dem Meir zu Gunsten
+                    von Maria Pypelincx</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-453">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1604/ II: Kieffelt &amp; Bogge</collection>
+                        <idno type="signatur">SR 453, fol. 44r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Quittung über eine Rente auf das Haus St. Arnoldus auf dem Meir
+                            zu Gunsten von Maria Pypelincx</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1604-07-05">5. Juli 1604</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 349f.<ptr type="gbv" cRef="146162595"
+                            /></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term xml:lang="nld">Sint Arnold</term>
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Joufrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelinck</rs>, weduwe
+                    wijlen Meesters <rs type="person" ref="#rubens_jan">Jans Rubbens</rs>, <span from="" xml:lang="lat">cum
+                        tutore</span>, bekende ende verlijde, mits desen, opgebeurt ende ontfangen te hebbene
+                    van <rs type="person" ref="#hoons_henrich">Henricke Hoons</rs>, coopmanne, de
+                    hooftpenningen, jegens den penninck sesthiene, metten onbetaelden achterstelle,
+                    ende in afquytinge vande een hondert Karolus guldenen erflijck, heur comparante
+                    competerende vande twee hondert Karolus guldenen tsjaers erflijcker renten
+                    (daeraf de reste te voren gequeten is,) daeromme sij comparante, <span from="" xml:lang="lat">cum tutore</span>,
+                    ende Joufrouwe <rs type="person" ref="#pypelincx_susanne">Susanna
+                    Pypelinck</rs>, heur sustere, met <rs type="person" ref="#schot_peeter">Peteren
+                        Schot</rs>, <span from="" xml:lang="lat">ejus marito et tutore, ultimo</span> <date when="1601-10-31"
+                        >octobris anno XVI<hi rend="super">c</hi> een</date>, terve gegeven hebben den
+                    voors. Henricke Hoons, een huys metter neercameren, dwelck een wooninge op heur
+                    selven plach te sijne, metter wooninge ende poorte daerneffens, metter stoven
+                    achter tvoirs. huys, hove, fundo et pertinentiis, gestaen ende gelegen inde
+                    Meire alhier<index indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    </index>, tusschen <rs type="person" ref="#zuero_diego">Diego Lopez Suero</rs>
+                    huysinghe ende erve, genaempt den Gulden Cop<index indexName="stw">
+                        <term xml:lang="nld">Gulden Cop</term>
+                    </index>, <span from="" xml:lang="lat">ex una</span>, oostwaerts, ende des voors. Hoons ander huysinghe ende erve,
+                    genaempt Sint Arnoult<index indexName="stw">
+                        <term xml:lang="nld">Sint Arnoult</term>
+                    </index>, <span from="" xml:lang="lat">ex altera</span>, westwaerts, comende achtere aen <rs type="person"
+                        ref="#gielis_franchois">Franchois Gillis</rs>’ raemhof was, verschijnende
+                    jaerlix ultimo octobris, prout litteræ, daeraf sij hem den heuren overgaf.
+                </p>
+                <closer>Quitavit; <salute>gelovende</salute>.<lb/> 
+                    <dateline>Die <date when="1604-07-05">quinta Julii anno
+                    1604</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+       
+    </text>
+</TEI>

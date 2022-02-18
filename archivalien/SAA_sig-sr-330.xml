@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_039">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cornelis van Veen, der Vater von Rubens’ drittem Lehrer, schildert vor der
+                    Antwerpener Schöffenbank seine Motive für die Übersiedlung nach Antwerpen und
+                    die näheren Umstände seiner Flucht aus der Heimatstadt Leiden</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-330">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1572/ I: Asseliers &amp; Martini</collection>
+                        <idno type="signatur">SR 330, fol. 499v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Cornelis van Veen, der Vater von Rubens’ drittem Lehrer,
+                            schildert vor der Antwerpener Schöffenbank seine Motive für die
+                            Übersiedlung nach Antwerpen und die näheren Umstände seiner Flucht
+                            aus der Heimatstadt Leiden</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1573-02-07">7. Februar 1573</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Franz Jozef Peter van den Branden: Geschiedenis der Antwerpsche
+                                Schilderschool. Antwerpen 1883, S. 402 f.<ptr type="gbv" cRef="194552292"
+                                /></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Cornelis van Veen</term>
+                    <term xml:lang="deu">Antwerpen</term>
+                    <term xml:lang="deu">Leiden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Meester <rs type="person" ref="#veen_cornelis">Cornelis van Veen</rs>, Janssone
+                    wijlen, borger binnen der stadt van <rs type="place" ref="#leiden">Leyden</rs>
+                    in <rs type="place" ref="#holland">Hollant</rs> Bekende ende verclaerde mits
+                    desen, hoe dat hy naer lange voorgaende opset ende voornemen entlicken soo veel
+                    gedaen heeft dat hy opten <date when="---20">XX</date>.<hi rend="super">en</hi>
+                    van October lestleden hem uyt der voirschreve stadt van Leyden heeft gemaect
+                    ende nyet sonder grooten ongemaek ende pericule van synen persoone opten <date
+                        when="---24">XXIIII</date>.<hi rend="super">en</hi> der selver maent octobris
+                    binnen deser stadt van <rs type="place" ref="#antwerpen">Antwerpen</rs> is
+                    gecomen daervan wy hem onder letteren van attestatie hebben vercleert, ende
+                    alsoo hy comparant hem sichtent der selver tyt stadelicken binnen deser stadt
+                    heeft gehouden hem in alles dragende als een getrouwen ondersaet van syne
+                    majesteyt toebehoirt, ende die tertyt van meyningen is te reysen van hier naer
+                        <rs type="place" ref="#aachen">Aken</rs> ende hem aldaer int badt te begeven
+                    omme te besoecken oft hij, deur die gratie van Godt den Heere, aldaer eenige
+                    bate in sijne indispositie van den huepe soude connen gecrijgen, begeerende
+                    darvan hy comparant onser brieven van attestatie de welcke wy hem hebben gegunt
+                    ende gegeven, mits dat voor ons wede ter selver tyt gecompareert syn in heure
+                    propre persoonen <rs type="person" ref="#verhulst_adam">Adam Verhulst</rs>
+                    coopman etc. s’ oudt <num type="cardinal" value="20">XX</num> jaren ende <rs
+                        type="person" ref="#schaarlaken_jan">Jan van Schaarlaken</rs> inwoonder
+                    derselver stadt oudt <num type="cardinal" value="28">XXVIII</num> jaren
+                    juraverunt et affirmaverunt dat zy den voirgenoempten Meesteren Cornelise van
+                    Veen zeer wel kennen gelyck zy opten <date when="---30">XXX</date>.
+                    <hi rend="super">en</hi> van October lestleden breeder voor ons verclaert hebben
+                    ende dat de selve Meester Cornelis opten <date when="---24">XXIIII</date>.
+                    <hi rend="super">en</hi> der selver maendt binnen deser stadt gewesen synde, syn
+                    residentie met syne familie alhier zedert altoos letten dage van heden toe heeft
+                    gehouden hem in alles dragende als een goet ende getrouwe ondersaet van syne
+                    majesteyt behoort ende schuldich is te doene.</p>
+                   <closer>
+                    <dateline>
+                        <date when="1572-02-07">VII.<hi rend="super">a</hi> Februari 1572</date>
+                    <note resp="N.B." type="footnote">recte: 1573</note>
+                        
+                    </dateline>
+                   </closer>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

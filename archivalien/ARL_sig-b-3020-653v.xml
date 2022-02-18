@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_248b">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nachweis über  Zahlungen an Peter Paul Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-3020-653v">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte 26e d’Ambroise van Oncle, receveur général
+                            des finances etc. du 1er janvier au 31 decembre
+                            1640)</collection>
+                        <idno type="signatur">B. 3020, fol. 653v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Nachweis über  Zahlungen an Peter Paul Rubens</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <filiation><note resp="A.H." type="footnote">Vgl. hierzu auch die folgenden Nachweise über Zahlungen an Rubens, die alle um das Jahr 1640 datiert sind:
+                                <ref type="rubens" cRef="ed_rubens_248">Nachweis über Zahlungen</ref>;
+                                <ref type="rubens" cRef="ed_rubens_248a">Nachweis über Zahlungen</ref>;
+                                <ref type="rubens" cRef="ed_rubens_248c">Nachweis über Zahlungen</ref>.
+                            </note></filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1640" notAfter="1640">? 1640</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl xml:id="finot_1888">Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord. In: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3. Antwerpen 1888.
+                            S. 131f.</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="spa">Torre de la Parada</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Gehalt</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:lang="fra">
+                <p><pb n="653v"/>4200 livres à don <rs type="person" ref="#contreras_francisco"
+                        >Franscisco de Contreras y Rojas</rs>, garde-jouaux de son Altesse, en une
+                    lettre de descharge de pareille somme datée du <date when="1640-11-08"
+                        >huictiesme de novembre 1640</date>, levée sur l’avant dit <rs type="person"
+                        ref="#philipp_iv_spanien">Philippe</rs> Le Roy, dont est faict recepte
+                    cy-devant, folio 271, verso, pour de ce payer les héritiers de feu messire <rs
+                        type="person" ref="#rubens_peter_paul">Pierre-Paul Rubbens</rs>, chevalier,
+                    pour quatre peinctures entreprins de faire par leur dit feu père pour le service
+                    de Sa Majesté, par ordonnance de Son Altèze et quictance y servante veue en
+                    l’estat de <date when="--11">novembre</date>, folio 48, verso, cy-rendu ladite
+                    somme de 4200 livres. </p>
+            </div>
+        
+        </body>
+        
+    </text>
+</TEI>

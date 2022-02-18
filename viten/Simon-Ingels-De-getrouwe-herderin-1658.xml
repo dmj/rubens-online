@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
+    xml:lang="deu" xml:id="ed_rubens_286">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="person" ref="#ingen_simon">Simon Ingen</rs>: De Getrouwe Herderin,
+                    1658</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="ingels_herderin_1658">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                    </msIdentifier>
+                    <head>
+                        <title>Simon Ingels beschreibt in "De Getrouwe Herderin" Gemälde des Peter
+                            Paul Rubens, darunter ein "Raub der Europa"</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Simon Ingels: De Getrouwe
+                                    Herderin</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Simon Ingels: De Getrouwe Herderin. Lantspel. Met eenige Gedichten
+                                vati de zelve. Amsterdam: Abraham van Blanken, 1658. S. 10f. und
+                                    17-20.<ptr type="gbv" cRef="378525700"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw" xml:lang="deu">Ingen, Simon</term>
+                    <term type="stw" xml:lang="nld">De Getrouwe Herderin</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <head>Op de ontschaking van <rs type="work" ref="#jaffe_1316">PLUTO en
+                    PROZERPINA</rs>, Van <rs type="person" ref="#rubens_peter_paul">P. P.
+                        RUBBENS</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="psw">
+                            <term xml:lang="deu">Raub der Proserpina</term>
+                        </index>
+                    </index>.</head>
+                <p><pb n="10"/>Vati daar zy las rOD Roozen en Fiolen,<lb/> Wert Prozerpijn haar
+                    Speelgenoots ontstolen Vati FluiD, en in zijn duyster Rijk getogen; Maar had
+                    hell eerst gestoIen met haar Dogen. De Schildery heeft 't zelve in alle
+                    deelen,<lb/> Is waard te zijn gestoIen, en kau steelen.<lb/>
+                </p>
+            </div>
+            <div part="Y" xml:lang="nld">
+                <head><rs type="work" ref="#jaffe_1317">POLYFEMUS in DUYN</rs> Van de zelfde<index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Polyphem</term>
+                        </index>
+                    </index></head>
+                <p><pb n="11"/>Dit 's Polyfeem, de Zoon van Godt Neptuyn,<lb/> Die by de Zee, in
+                    schaduw van een Duyn,<lb/> Zijn' Bokken en ruyglokte Scharen weyt:<lb/> Een
+                    moije Vrijer voor zo moije Meyt<lb/> Als Galatee: die hy nu zit en wacht,<lb/>
+                    En in zijn arm al kust met zijn gedacht.<lb/> Loop, Grovaart, loop, al zijgt g'
+                    een Zee-godts Zoon, G' hebt maar een oog, zy twee, en die noch schoon. Loop,
+                    Grovaart, loop, vrijd' in uw Vaders Rijk<lb/> Een Wallevis: zo vrijdt gy uws
+                    gelijk. </p>
+            </div>
+            <div part="Y" xml:lang="nld">
+                <head>Op een<lb/>
+                    <rs type="work" ref="#jaffe_1266">JUPITER en EUROPA</rs> van<lb/> P.P.
+                        RUBBENS<lb/><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Raub der Europa</term>
+                        </index>
+                    </index></head>
+                <p>
+                    <pb n="17-18"/> Zie! hoe der Goden opper-Godt, (Uit wiens ontzaghelijke
+                    hallt<lb/> De Donder rolt, en Blixem braut, Die 't al heeft onder zijn gebodt)
+                    Hem wisselt in een Stier, en leyt, En weyt, en loeyt een heele dag,<lb/> In 't
+                    midden van alzulke slag,<lb/> Ter liefde van een moije Meyt.<lb/> Zie! hoe zijn
+                    oogen vyeren; doch<lb/> Niet schrikkelijke, maar heel rief,<lb/> En val van 't
+                    vriend'lijk minne-vyer. Hoe konstig dekt hy zijn bedrog:<lb/> Hoe slingerstaert,
+                    en vrijt hy, nu<lb/> Hy ziet het Schoontje tot hem aan<lb/> Met kruyt, en
+                    bloemen kamen gaan. Hy toont hem netelig noch schuw'.<lb/> Zy strookt en streelt
+                    hem, en wort stout Om dat hy is zo mak en schoon,<lb/> En krallst zijn Hoornen
+                    met een Kroon, Hem aangenamer als van Gout.<lb/> Hy lekt haar schoone en blanke
+                    hallt, Zo blank als in gevalle Snee:<lb/> En wellst, en jookt met haar
+                    alree<lb/> In Zee te zijn, en verr' van Strant.<lb/> Zie voorje Euroop, vertrouw
+                    dit Beest Niet al te veel: dees schoone Stier, Gedreven van het zelve vyer,<lb/>
+                    Is kort'ling ook een Swaan geweest. </p>
+            </div>
+            <div part="Y" xml:lang="nld">
+                <head>Op de<lb/>
+                    <rs type="work" ref="#jaffe_974">MARS en VENUS</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                        <index indexName="stw">
+                            <term xml:lang="deu">Mars und Venus</term>
+                        </index>
+                    </index>, van<lb/> RUBBENS.</head>
+                <p>
+                    <pb n="19-20"/>Hoe onbezorgt leyt Velins met<lb/> Godt Mars, hier op 't
+                    bebloemde bedt: En strookt en streelt, en kust en vrijt, Terwijl haar Man op 't
+                    Aambeelt smijt, En arbeyt aan de Wapens kloek,<lb/> Van Eneas, op haar
+                    verzoek.<lb/> Of aan Achillis Schilt, ter bee<lb/> Van de Godinne van de
+                    Zee.<lb/> Of Ariadnes Kroon. Of aan<lb/> De Blixem van Jupijn. De Raan<lb/> En
+                    Wagen van de ZOll. 't Kleynoot<lb/> Hermiones van Goude fOOt.<lb/> AI werken
+                    daar een naerstig Man Niet, als hy wil, afscheyden kau. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

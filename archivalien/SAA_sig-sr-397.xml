@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_066">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maria Pypelincx vor dem Antwerpener Magistrat wegen der Brauerei De
+                Goubloeme</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-397">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1589/ II: Moy &amp; Neesen</collection>
+                        <idno type="signatur">SR 397, fol. 402v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Maria Pypelincx vor dem Antwerpener Magistrat wegen der Brauerei
+                            De Goubloeme</title>
+                    </head>
+                  
+                    <history>
+                        <origin>
+                            <origDate when="1589-08-29">29. August 1589</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                                bloedverwanten. Antwerpen 1877, S. 328<ptr type="gbv" cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Maria Pypelincx</term>
+                    <term type="TGN" xml:lang="deu">Antwerpen</term>
+                    <term xml:lang="nld">De Goubloeme</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Jouffrouwe <rs type="person" ref="#pypelincx_maria">Marie Pypelincx</rs>, weduwe
+                    wijlen meester <rs type="person" ref="#rubens_jan">Jans Rubens</rs>, <span from="" xml:lang="lat">
+                        cum tutore</span>,
+                    heeft gedesisteert ende desisteert, bij desen, vander leveringe bij haer
+                    genomen, ten lesten omrijden van mijnen Heere den Amptman, opte brouwerije
+                    genaempt de Goublomme<index indexName="stw">
+                        <term xml:lang="nld">De Goubloeme</term>
+                    </index>, tmuerhof ende bleyckerije daerane, gelegen inde Nieuwstadt alhier,
+                    constituerende Meesteren <rs type="person" ref="#prestere_nicasius">Nicasium de
+                        Prestere</rs>, Meesteren <rs type="person" ref="#lanschot_jan">Jannen
+                        Lanschot</rs>, Procureurs inden Rade van <rs type="person" ref="#brabant"
+                        >Brabant</rs>, pariter et insolidum ad files in forma, ende specialijck, soo
+                    verre des noot zij, de voors. desisteringe inden Rade van Brabant te vernieuwen,
+                    ende voorts alwart. </p>
+                <closer>
+                    <salute>Ghelovende, etc.</salute><lb/>
+                    <dateline>
+                        <date when="1589-08-29">XXIX<hi rend="super">a</hi> Autgutsti 1589</date>.
+                    </dateline>
+                </closer>
+                
+            </div>
+        </body>
+       
+    </text>
+</TEI>

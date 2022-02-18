@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_160">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Infantin Isabella wendet sich an den Magistrat von Antwerpen, um Schutz für
+                    Peter Paul Rubens zu erwirken, der „par les agressions d’un certain insolent“
+                    bedroht wird</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="AGRB_papiers-etat_1622">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Brüssel</settlement>
+                        <repository>Archives générales du Royaume (AGRB)</repository>
+                        <collection>Collection des Papiers d’État et de l’audience (liasses)</collection>
+                        <idno type="signatur"/>
+                    </msIdentifier>
+                    <head>
+                        <title>Infantin Isabella wendet sich an den Magistrat von Antwerpen, um
+                            Schutz für Peter Paul Rubens zu erwirken, der „par les agressions
+                            d’un certain insolent“ bedroht wird</title>
+                        
+                    </head>
+                    <msContents>
+                        <msItem>
+                           
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch das zweite Dokument gleichen
+                                Themas, ebenfalls vom <ref type="rubens" cRef="ed_rubens_159">29. April
+                                1622</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1622-04-29">29. April 1622</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Alexandre Pinchart: Archives des arts, sciences et
+                                lettres: ocuments inédits publiés et annotés. Bd. 2 Gent 1860 (Neudruck: Brüssel
+                                1994), S. 173f. <ptr type="gbv" cRef="231294484"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                 <head>A ceulx du magistrat d’<rs type="place" ref="#antwerpen">Anvers</rs><index
+                        indexName="gsw">
+                        <term type="TGN" xml:lang="deu">Antwerpen</term>
+                 </index>.</head> <p><rs type="person" ref="#isabella_von_spanien">Isabel</rs><index
+                        indexName="psw">
+                        <term type="PND" xml:lang="deu">Isabella (Spanien, Infantin)</term>
+                    </index>, etc. Chers et bien amez, estant informez que <rs type="person"
+                        ref="#rubens_peter_paul">Pierre-Paulo Rubens</rs>, nostre pensionnaire<index
+                        indexName="stw">
+                        <term xml:lang="deu">Hofmaler</term>
+                    </index>, auroit couru et court encore danger de sa personne par les agressions
+                    d’un sein malveillant, que l’on dit avoir juré sa mort, nous sommes occasionnez
+                    de vous faire ceste, a fin que ne permettiez que luy soit faict aulcun tort ou
+                        préjudice<index indexName="stw">
+                        <term xml:lang="deu">Schutz</term>
+                    </index>, ains que doniez incontinent l’ordre qu’il convient pour son repos et
+                    assurance, et Dieu vous ait (en sa saincte garde).<lb/> Le <date
+                        when="1622-04-29">29 d’avril 1622</date>. </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

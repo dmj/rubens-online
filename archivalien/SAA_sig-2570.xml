@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_041">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dionys Pypelincx nimmt in Antwerpen die Interessen von Jan Rubens und Maria
+                    Pypelincx wahr und fordert eine fällige Erbschuld ein</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-2570">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Reductie. Registers inhoudend de verbalen van de Commissarissen
+                            raeckende de gereduceerde erfrenten ten laste vant Corpus</collection>
+                        <idno type="signatur">2570, sub numero</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Dionys Pypelincx nimmt in Antwerpen die Interessen von Jan Rubens
+                            und Maria Pypelincx wahr und fordert eine fällige Erbschuld
+                            ein</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                           
+                            <filiation>
+                                <note resp="A.H." type="footnote">Die Auszahlung dieser Leibrente erfolgte erst im
+                                    folgenden Jahr. Vgl. hierzu: 
+                                    <ref type="rubens" cRef="ed_rubens_044">1578, 2. Mai</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_037">1568, 27. Juni</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_044">1578, 2. Mai</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_045">1578/79</ref>;
+                                    <ref type="rubens" cRef="ed_rubens_047">1579, 2. September</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_048">1579/80</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_050">1580, 15. Januar &amp; 17. März</ref>
+                                    <ref type="rubens" cRef="ed_rubens_049">1580, 4. Februar</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_051">1580/81</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_055">1581/82</ref>; 
+                                    <ref type="rubens" cRef="ed_rubens_056">1582/83</ref>; 
+                                    1607, 9. Mai </note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1576-07-13">13. Juli 1576</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en
+                                zijne bloedverwanten. Antwerpen 1877, S. 186f.<ptr type="gbv"
+                                    cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> 
+                    <table>
+                        <row>
+                            <cell>2213. – <rs type="person" ref="#rubens_jan">Jan Rubens</rs>, jaerlicx <measure
+                        type="currency" quantity="75">LXXV</measure> ₤<lb/> Opden <date
+                        when="1576-07-13">XIII<hi rend="super">en</hi> Julij anno XV<hi rend="super"
+                            >c</hi>LXXVI</date> is gecompareert <rs type="person"
+                        ref="#pypelincx_dionisius">Denys Pypelinck</rs>, heeft gepresenteert eenen
+                    erfrentbrieff luydende op Meester <rs type="person" ref="#rubens_jan">Jan
+                        Rubbens</rs>, Scepen deser stadt, van <measure type="currency" quantity="75"
+                        >LXXV</measure> Karolus gulden tsjaers, te quytene den penninck <measure
+                        type="currency" quantity="12">XII<hi rend="super">e</hi></measure>, in date
+                        <date when="1565-06-27">XXVII Junij anno XV<hi rend="super"
+                    >c</hi>LXV</date>, onder den grooten segel opt octroye van <measure
+                        type="currency">V<hi rend="super">c</hi>M</measure> ponden van <measure
+                        type="currency" quantity="40">XL</measure> groten Vlems tpont.<lb/>
+                    Gereduceert vanden penninck <measure type="currency" quantity="12">XII</measure>
+                    op XX<gap reason="illegible"/>XLV ₤ Artois Tachter <date when="1575-12-27">XXVII Decembris
+                    LXXV</date>, <num type="cardinal" value="5">V</num> jaren: <measure
+                        type="currency" quantity="375">III<hi rend="super">c</hi>LXXV</measure> ₤,
+                    afgenomen twee jaren, rest <measure type="currency" quantity="225">II<hi
+                            rend="super">c</hi>XXV</measure> ₤, compt, in <num type="cardinal"
+                        value="12">XII</num> jaren, alle jare:</cell>
+                            <!-- müsste hier  eine <gap> stehen oder ist gemeint, dass die folgende Angabe rechtsbündig ist??? -->
+                            <cell><measure type="currency" quantity="18">XVIII</measure> ₤ <measure type="currency"
+                        quantity="15">XV</measure> st. </cell></row></table></p></div>
+                                
+                         <div  xml:lang="nld" type="note" rend="margin" >
+                             <head>Marginalie:</head>
+                       <p>Nota. Hieraff eenen nieuwen schuldbrief geexpedieert te sijne ten behoeve van Meester <rs
+                            type="person" ref="#rubens_jan">Jan Ruebens</rs>, overmits Joncker <rs
+                            type="person" ref="#stembor_jan">Jan van Stembor</rs>, Schepen deser
+                            stadt, verclaerde den ouden brief verloren te sijne. </p>
+                             <closer><dateline> Actum den <date  when="1607-05-09">IX Maij 1607</date>.</dateline><lb/> 
+                                 <signed><rs type="person" ref="#moy_hendrick">H. de Moy</rs></signed></closer>
+                           
+              
+            </div>
+        </body>
+        
+    </text>
+</TEI>

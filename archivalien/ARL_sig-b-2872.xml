@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_130">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein jährliches Honorar als Hofmaler</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-2872">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume (ARL)</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte de Pierre Godin, conseiller et maître extraordinaire de la
+                            Chambre des Comptes des Archiducs à Bruxelles pour les affaires du pays
+                            et duché de Luxembourg et du compté de Chiny, naguère commis par acte de
+                            Leurs Altesses du 12 juillet 1614 à la recette générale des finances
+                            etc., du 12 juillet 1614 au 28 février 1615)</collection>
+                        <idno type="signatur">B. 2872, fol. 334v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erhält sein jährliches Honorar als
+                            Hofmaler</title>
+                    </head>
+                 
+                    <history>
+                        <origin>
+                            <origDate notBefore="1614" notAfter="1615">? 1614/15</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Jules Finot: Documents relatifs à Rubens, conservés aux archives du Nord, in:
+                                Rubens-Bulletijn - Bulletin-Rubens. Bd. 3. Antwerpen 1888. S. 124f.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Hofmaler</term>
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Brüssel</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p> 500 livres à <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>,
+                    peintre de l’hôtel des Archiducs<index indexName="psw">
+                        <term type="PND">Albrecht (Österreich, Erzherzog, VII.)</term>
+                    </index><index indexName="psw">
+                        <term type="PND">Isabella (Spanien, Infantin)</term>
+                    </index>, que, à l’ordonnance que dessus ce dit compteur luy avoit baillées et
+                    délivrées en l’avant dite lettre de descharge datée du <date
+                        when="1615-02-09">nœufiesme jour de febvier 1615</date>, levée sur ledit
+                        <rs type="person" ref="#vermeeren_henry">Henry Vermeeren</rs>, conseiller et
+                    receveur général du droit qui se léve sur les alluns arrivans par deça, dont est
+                    faict recepte cy-devant, folio 164, su semblable somme à luy deue, à cuase de
+                    500 pareilles livres que Leurs dictes Altèzes luy avoient ordonnées et accordées
+                    de gaiges et traictement par chacun an, à raison de son dit estat de painctre
+                    susdit, et ce, pour une année de ladite pension commencée le <date
+                        when="1613-09-23">23<hi rend="super">e</hi> de septembre 1613</date> et
+                    finie le <date when="1614-09-22">22<hi rend="super">e</hi> septembre ensuivant
+                        1614</date>. </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

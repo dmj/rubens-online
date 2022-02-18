@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listOrg type="bibliography"  xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu">
+    
+    <org xml:id="academie_royale_peinture">
+        <orgName>Académie royale de peinture et de sculpture, Paris</orgName>
+        <!-- 1648 während der Minderjährigkeit Ludwigs XIV.  gegründete Gelehrtengesellschaft,  nach Ausbruch der französischen Revolution vom Nationalkonvent im Jahr 1793 geschlossen wurde. Ihre Nachfolgeinstitution  heutige Académie des Beaux-Arts. -->
+    </org>
+    <org xml:id="archivo_general_simancas">
+        <orgName>Archivo General de Simancas, Simancas</orgName>
+    </org>
+    <org xml:id="bibliotheque_mejanes">
+        <orgName>Bibliothèque Méjanes, Aix-en-Provence</orgName>
+    </org>
+    <org xml:id="bibliotheque_inguimbertine">
+        <orgName>Bibliothèque Inguimbertine, Carpentras</orgName>
+    </org>
+    <org xml:id="bibliotheque_national_paris">
+        <orgName>Bibliothèque nationale de France, Paris</orgName>
+    </org>
+    <org xml:id="bibliotheque_royal_belgique">
+        <orgName>Bibliothèque royale de Belgique, Brüssel</orgName>
+    </org>
+    <org xml:id="bibliotheque_royal_haye">
+        <orgName>Bibliothèque royale, Den Haag</orgName>
+    </org>
+    <org xml:id="kloster_roosenberghe_waasmunster">
+        <orgName>Kloster Roosenberghe</orgName>
+        <!-- Waasmunster, Ostflandern, Flämisch Region, Belgien -->
+    </org>
+    <org xml:id="abtei_tongerlo">
+        <orgName>Abtei Tongerlo in Westerlo bei Antwerpen</orgName>
+    </org>
+    <org xml:id="abtei_st_winoksbergen">
+        <orgName>Abtei Sint-Winoksbergen</orgName>
+    </org>
+    <org xml:id="antwerpen_abtei_st_michiels">
+        <orgName>Abtei Sint Michiels Antwerpen</orgName>
+    </org>
+    <org xml:id="abtei_ter_kameren">
+        <orgName>Ter Kamerenabtei, Elsene</orgName>
+        <!-- Abbaye de la Cambre -->
+    </org>
+    <org xml:id="jesuitenkolleg_antwerpen">
+        <orgName>Jesuitenkolleg Antwerpen</orgName>
+    </org>
+    <org xml:id="karmeliterkloster_marlagne_namur">
+        <orgName>Karmeliterkloster von Marlagne bei Namur</orgName>
+    </org>
+    <org xml:id="karmeliter_antwerpen">
+        <orgName>Kloster der Unbeschuhten Karmeliter in Antwerpen</orgName>
+        <!-- Dieser Klosterorden ließ sich zu Beginn des 17. Jahrhunderts in Antwerpen nieder und baute auf einem Gelände am Hopland und an der Meistraat zwischen 1624 und 1626 ein Kloster. -->
+    </org>
+    <org xml:id="kloster_liebfrauenbrueder_antwerpen">
+        <orgName>Kloster der Liebfrauenbrüder zu Antwerpen</orgName>
+    </org>
+    <org xml:id="michaelsorden_frankreich">
+        <!-- Ordre de Saint-Michel. 1469-Auflösung 1830-->
+        <orgName>Michaelsorden</orgName>
+    </org>
+    <org xml:id="museum_plantin_moretus">
+        <orgName>Museum PLantin-Moretus, Antwerpen</orgName>
+    </org>
+    <org xml:id="officina_plantiniana">
+        <orgName>Officina Plantiniana, Antwerpen</orgName><!--   	 Officina Plantiniana &lt;Anvers&gt;   -->
+    </org>
+    <org xml:id="public_record_office_london">
+        <orgName>Public Record Office, Londond</orgName>
+    </org>
+    <org xml:id="sinte_clareclooster">
+        <orgName>Sinte-Clareclooster (KlarissenKloster in Lier, bei Antwerpen)?</orgName>
+    </org>
+    <org xml:id="st_bavo_gent">
+        <orgName>St. Bavo Kathedrale zu Gent</orgName>
+    </org>
+    <org xml:id="st_hubertus_elewijt">
+        <orgName>Pfarrei Sint-Hubertus in Elewijt</orgName>
+        <!-- St. Huybrechts Edewijt -->
+    </org>
+    <org xml:id="st_jakobsorden">
+        <orgName>Orden des St. Jakob vom Schwert</orgName>
+        <!-- Ritterorden in Portugal u. Spanien -->
+    </org>
+    <org xml:id="st_jacob_antwerpen">
+        <orgName>Sint-Jacobskerk zu Antwerpen</orgName>
+    </org>
+    <org xml:id="st_jans_mechelen">
+        <orgName>St. Janskirche zu Mechelen</orgName>
+    </org>
+    <org xml:id="st_pieterskerk_loewen">
+        <orgName>Collegiale Sint-Pieterskerk, Löwen</orgName>
+    </org>
+    <org xml:id="st_servaas_grimbergen">
+        <orgName>Kloster Sint Servaas, Grimbergen</orgName>
+    </org>
+    <org xml:id="lukasgilde_antwerpen">
+        <orgName>St. Lukas-Gilde Antwerpen</orgName>
+    </org>
+    <org xml:id="orden_von_santiago">
+        <orgName>Orden von Santiago</orgName>
+    </org>
+    <org xml:id="pitzenborch_mechelen">
+        <orgName>Deutsch Ordens-Haus Pitzenborch zu Mechelen</orgName>
+    </org>
+    <org xml:id="rhetorikerkammer_de_violieren">
+        <orgName>Rhetorikerkammer De Violieren zu Antwerpen</orgName><!-- gehören zur dortigen St- Lukasgilde -->
+    </org>
+    <org xml:id="romanistengilde_antwerpen">
+        <orgName>Romanisten-Gilde in Antwerpen</orgName><!-- Rubens Eintritt ist für den 29. Juni 1609 belegt -->
+        <!-- 5172 gegründete Bruderschaft zur Verehrung der heiligen Petrus und Paulus -->
+    </org>
+    <org xml:id="verlagshaus_elzeviriana_leiden">
+        <orgName>Verlagshaus Elzevier, Leiden (Officina Elzeviriana)</orgName>
+    </org>
+</listOrg>

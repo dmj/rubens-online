@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_112">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Joanna und Adriana Bredenbach erklären, daß Rubens den ihnen aus einer Rente
+                    auf 14 Häuser im Hopland zustehenden Betrag von 46 Gulden ausbezahlt
+                habe</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-506">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1613/ V: Uwens &amp; Neesen</collection>
+                        <idno type="signatur">SR 506, fol. 295r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Joanna und Adriana Bredenbach erklären, daß Rubens den ihnen aus
+                            einer Rente auf 14 Häuser im Hopland zustehenden Betrag von 46
+                            Gulden ausbezahlt habe</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1613-03-02">2. März 1613</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Rubens, Peter Paul</term>
+                    <term xml:lang="deu">Rente</term>
+                    <term xml:lang="nld">Hopland</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p> Jouffvrouwe, <rs type="person" ref="#bredenbach_johanna">Johanna
+                    Bredenbach</rs>, wed<hi rend="super">w</hi>. wijlen <rs type="person"
+                        ref="#smit_andries">Andries de Smit</rs>, <span from="" xml:lang="lat">cum tutore</span>, voor deene helft van
+                    den erfrente nabeschreven ende <rs type="person" ref="#andriessen_godevaert"
+                        >Godevaert Andriessen</rs> doude, als actie ende transport hebbende van <rs
+                        type="person" ref="#bredenbach_adriana">Adriana Bredenbach</rs>, der
+                    voorseide Johanna suster was, bij brieve in date den <date when="1610-07-31"
+                        >lesten July anno 1610</date>, voor d’ander helft van den voor enden
+                    nabeschreben erffrente, bekenden ende verlijden mits dese opgebeurt ende
+                    ontfangen te hebben van M<hi rend="super">r</hi>
+                    <rs type="person" ref="#rubens_peter_paul">Pedro Paulo Ruebens</rs>, de
+                    hooftpenningen (met allen den achterstellen daeraff, verloopen ende verschenen
+                    tot desen daghe toe) van de sessenviertich gulden erffelijck, die voors. twee
+                    gesusteren toecommen bij verstarff van wytlen <rs type="person"
+                        ref="#piggen_anna">Anna Piggen</rs> wed<hi rend="super">w</hi>. ende
+                    geinstitueerde erfgename van wijlen <rs type="person" ref="#borcht_jan">Jan
+                        vander Borcht</rs> henne moeder ende welche voor. <rs type="person"
+                        ref="#boult_jan">Jan van der Boult</rs>, de voors. sessenviertich gulden
+                    erffelijck, den <date when="1563-09-16">16 Sept. anno 1563</date> bij
+                    transporte gecregen heeft van <rs type="person" ref="#fils_catlijne">Catlijne
+                        Fils</rs>, <rs type="person" ref="#fils_anthonis">Anthonis</rs> dochter.
+                    Geschreven wordenen van ende vuytte drijentwintich ponden groote gelts, die <rs
+                        type="person" ref="#hoons_peeter">Peeter Hoons</rs> den <date
+                        when="1516-11-06">6 Novembris anno 1516</date> verkocht heeft <rs
+                        type="person" ref="#reyniers_jan">Janne Reyniers</rs>, op vierthien huysen
+                    metten hoven, <span from="" xml:lang="lat">fundo et pertinentiis</span>, 
+                    gestaan ende gelegen in de <rs type="place"
+                        ref="#hoplant">Meere int Hoplant</rs>, tusschen den Colveniershoff ex una,
+                    oostwaerts ende de strate ende der <rs type="person" ref="#arenberch">vrouwe van
+                        Arenberch</rs> erve was, ex altera westwaert, commende suitwaert aan de
+                    strate van den Hoplande ende noortwaert aen den erve van den huyse geheeten St.
+                        Arnout<index indexName="stw">
+                        <term xml:lang="nld">Sint Arnold</term>
+                        </index> ende meer andere erven.</p>
+                <closer>
+                    <salute>Prout<span from="" xml:lang="lat">litteras quas tradiderunt quitant</span>.
+                    Geloiven, etc. Sub ob. sonder argelist.</salute><lb/>
+                    <dateline>
+                        <date when="1613-03-02">2 Maart 1613</date>.
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

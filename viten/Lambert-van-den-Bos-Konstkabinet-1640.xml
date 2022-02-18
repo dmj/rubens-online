@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd"
+    xml:lang="deu" xml:id="ed_rubens_282">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><rs type="person" ref="#bos_lambert">Lambert van den Bos</rs>: Konstkabinet
+                    van <rs type="person" ref="#kretzer_maerten">Marten Kretzer</rs>, 1640</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc> &register-corporate; &register-person; &register-place;
+                &register-work; <msDesc xml:lang="deu" xml:id="bos_konstkabinet_1640">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens und Jacob Jordaens im Konstkabinet des Marten Kretzer, 1640</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Nils Büttner nach: Lambert van den Bos: Konstkabinet</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Lambert van den Bos: Konstkabinet van Marten Kretzer. Amsterdam: Nicolaes van Ravestynn, 1640. fol. B2</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term type="psw">Bos, Lambert van den</term>
+                    <term type="psw">Kretzer, Maerten</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="nld">
+                <p><pb n="B2"/>Maer sacht wal schoon, wal aengenaem Komt <rs type="person"
+                        ref="#tizian">Titiaen</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Tizian</term>
+                    </index> ans weer vertoogen,<lb/> ach! ach 't is <rs type="person"
+                        ref="#rubens_peter_paul">Rubbens</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Rubens, Peter Paul</term>
+                    </index>, 'k ben bedrogen Hoe wel alleenigh door de naem.</p>
+
+                <p>Wal dartele ongemeene deught<lb/> Gaet hier de deught aen welvaert huwen! O
+                    waerdigh Man hel is den uwen,<lb/> Die wal ghy wilt en kont, en meught.</p>
+
+                <p>Wal overvloedt van konst en geest Komt hier met schal de Minnaers laven! Waer is
+                    'er meer van sulcke gaven<lb/> Of in u handt of breyn geweest?</p>
+
+                <p><rs type="person" ref="#jordaens_jacob">Iordaens</rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Jordaens, Jacob</term>
+                    </index> wal 's dit, benijdt ghy noch, Benijdt ghy desen Man sijn deughden? Door
+                    overvloedt van dartle vreughden, Gespeelt door Satyrs en gedrogh?</p>
+
+                <p>Laet af wy kennen hel geweldt,<lb/> De kracht en treck van u penceelen, Men
+                    schrickt voor sulcke konst-paneelen En sulck een wijdt beploeghde veldt. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

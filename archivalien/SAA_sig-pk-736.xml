@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_222">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens und Jan Brant, Vormunde von Albert und Nikolaas Rubens
+                    versuchen, die Auszahlung einer Rente auf die Stadt Brüssel zu erreichen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-pk-736">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Requestboeck 1635-1636</collection>
+                        <idno type="signatur">Pk. 736, fol. 19v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens und Jan Brant, Vormunde von Albert und Nikolaas
+                            Rubens versuchen, die Auszahlung einer Rente auf die Stadt Brüssel
+                            zu erreichen</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Der Text wurde durch <bibl>Pierre Génard: Het laatste Testament van P. P. Rubens, in: Rubens-Bulletijn
+                                - Bulletin-Rubens. Bd. 4, 1896, S. 128f.</bibl> publiziert. </note>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1635-05-12">12. Mai 1635</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Pierre Génard: Het laatste Testament van P. P. Rubens, in: Rubens-Bulletijn
+                                - Bulletin-Rubens. Bd. 4, 1896, S. 128f.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Finanzen</term>
+                    <term xml:lang="deu">Geldgeschäfte</term>
+                    <term xml:lang="deu">Rente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>Verthoonen reverentelyck heer <rs type="person" ref="#rubens_peter_paul">Peitro
+                        Paulo Rubens</rs> ridder ende secretaris van den secreten raedt van syne
+                    majesteyt ende M<hi rend="super">r</hi>
+                    <rs type="person" ref="#brant_jan">Jan Brandt</rs> oudt schepenen deser stadt
+                    hoe dat sy suppleant syn oppermomboir ende medemomboir<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormund</term>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Vormundschaft</term>
+                    </index> respective over <rs type="person" ref="#rubens_albert">Albertus</rs>
+                    ende <rs type="person" ref="#rubens_nikolaas">Nicolaes Rubens</rs> des voorseyde
+                    ierst suppleants sonen, daer moeder aff was Jouff<hi rend="super">r</hi> Isabella
+                    Brandt, tot wiens behoeve voor d’een helft ende van hem ierst suppleant voor
+                    d’ander helft dan <date when="1627-10-02">tweeden octobris anno 1627</date>
+                    ghecocht is eene rente van dusent gulden erffelyck op ’t schipvaert ende
+                    weergelt van <rs type="place" ref="#bruessel">Brussel</rs>,<index
+                        indexName="gsw">
+                        <term type="TGN">Brüssel</term>
+                    </index> op <rs type="place" ref="#vilvoorde">Vilvoorden</rs> ende <rs
+                        type="place" ref="#antwerpen">Antwerpen</rs> midzsgaders op andere nieuwe
+                    gheoctroyeerde middelen derseffver stadt, de welcke de heeren tresoriers ende
+                    rentmeestere van Brussel begeeren aff te quyten tot welcken eynde de suppleanten
+                    inde voorseyde respective qualiteyt ghepasseert ende ghesonden hebbende op
+                    procuratie opden commisaris <rs type="person" ref="#ramires">Ramires</rs>
+                    aldaer, soo weygeren de voorseyde heeren tresoriers ende rentmeestere hen de
+                    capitaele penning der voorseyde rente te betaelen onder ’t pretext dat sy
+                    suppleanten niet en souden syn versien van authorisatie van U.E.
+                    nietteghenstaende dattet alhier altyt ghebruyck is gheweest dat testamentelycke
+                    momboors vermoghen de capitaele penningen van de renten tot behoeve van henne
+                    weesen ghecocht wel te ontfanghen ende schepenen quitantien daeraff te passeren
+                    als wesende dierghelycke gecochte renten naer gehouden voor schat schulden ende
+                    om die eenghaende mette voorseyde heeren van Brussel van gheen disput te vallen
+                    soo bidden de suppleanten dat U.E. als oppermomboirs van alle weesen ghelieve
+                    wille ex superabundante totte quytinghe der voorseyde rente van passeringhe van
+                    de behoorlycke quitantien te authoriseren dwelck doende etc., mijne heeren
+                    burggemeester ende schepenen voor so vele ende hun is den suppleanten ’t
+                    versoeck by den dispositien deser ghedaen gheaccordeert ende dyenvolghende
+                    deselve totte quytinge ende passeringhe van de quitantien in desen gheruert
+                    gheautoriseert.</p> 
+                <closer><dateline>Actum <date when="1635-05-12">12 May 1635</date></dateline><lb/>
+                    <signed><rs type="person" ref="#fabry_e">E. Fabri</rs></signed></closer>
+                
+            </div>
+        </body>
+         </text>
+</TEI>

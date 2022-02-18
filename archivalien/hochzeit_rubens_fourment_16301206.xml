@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_203">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Akte zur Hochzeit von Peter Paul Rubens und Helena Fourment</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="hochzeit_rubens_fourment_16301206">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Akte zur Hochzeit von Peter Paul Rubens und Helena Fourment</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Akte zur Hochzeit von Peter Paul Rubens und Helena Fourment vom 6. Dezember 1630</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            <note resp="N.B." type="footnote">Laut Génard wurde die Trauung in der St.
+                                Jacobskerk am 6. Dezember 1630 vollzogen.</note>
+                            <note resp="N.B." type="footnote">Vgl. Génard 1877, S. 17: "In St. Jacobskerk, op 6
+                                December 1630, met Helena FOURMENT, dochter van Daniel FOURMENT, koopman, en van
+                                Clara STAPPAERTS. Zij was zuster van Daniel FOURMENT, den jonge, echtgenoot van
+                                Clara BRANT, zuster van RUBENS’ eerste huisvrouw."</note>
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. hierzu auch den Ehevertrag von Peter Paul Rubens und Helena Fourment
+                                vom <ref type="rubens" cRef="ed_rubens_202">4. Dezember 1630</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1630-12-06">6. Dezember 1630</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                    </history>
+                    <additional><adminInfo><recordHist><source>
+                        <bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl>
+                        </source></recordHist></adminInfo>
+                        <listBibl>
+                            <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den
+                            grooten meester en zijne bloedverwanten. Antwerpen 1877, S. 17<ptr type="gbv"
+                                cRef="146162595"/></bibl>
+                        </listBibl>
+                    </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Heirat</term>
+                    <term xml:lang="deu">Hochzeit</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="lat">
+                <p><rs type="person" ref="#rubens_peter_paul"><hi rend="smallCaps"
+                        >Petrus-Paulus</hi> RUEBENS</rs><lb/>
+                    <rs type="person" ref="#fourment_helene"><hi rend="smallCaps">Henlena</hi>
+                        FOURMENT</rs><index indexName="psw">
+                        <term type="PND">Fourment, Hélène</term>
+                    </index><lb/> Solemnisatum ipso <date when="1630-12-06">Nicolai (festo)
+                        1630</date>, cum dispensatione proclamationum et temporis clausi, coram <rs
+                        type="person" ref="#fourment_peeter"><hi rend="smallCaps">Petro</hi>
+                        FOURMENT</rs> et <rs type="person" ref="#fourment_daniel"><hi
+                            rend="smallCaps">Daniele</hi> FOURMENT</rs>. </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_156">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erwirbt ein Haus namens Breda im Hoplant und übernimmt drei
+                    auf diesem Anwesen liegende Erbrenten</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-551">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1621/ V: Ardenbodegem, van Huffel jr., De Witte
+                            &amp; Herck</collection>
+                        <idno type="signatur">SR 551, fol. 209r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erwirbt ein Haus namens Breda im Hoplant und
+                            übernimmt drei auf diesem Anwesen liegende Erbrenten</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1621-12-23">23. Dezember 1621</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Immobilien</term>
+                    <term xml:lang="deu">Geschäfte</term>
+                    <term xml:lang="deu">Rente</term>
+                    <term xml:lang="deu">Erbrente</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p><rs type="person" ref="#roy_peeter">Peeter Le Roy</rs> gesworen procureur alhier
+                    ende bekende dat hij omme eene somme gelts die hem al ende wel is vergouden
+                    vercocht heeft wel ende wettelijck Senior <rs type="person"
+                        ref="#rubens_peter_paul">Pietro Paulo Rubbens</rs> schilder van hare
+                    Hoocheid, twee huysen de welcke nu tertijt een wooninghe is met hove halven
+                    borneputte, kelders, coeckene cameren, gronde ende allen den toebehoorten,
+                    geheeten, d’een daer aff, Brida<index indexName="stw">
+                        <term xml:lang="deu">Breda</term>
+                    </index>, gestaan, ende glegen in ’t <rs type="place" ref="#hoplant"
+                    >Hoplant</rs> alhier tegens over den muer van de lammekensraeme tusschen ’thuys
+                    van <gap resp="N.B." reason="cancelled"/> aen deen sijde westwaerts ende <rs
+                        type="person" ref="#huybrechtssen">Huybrechtssens</rs> huys ende erve was
+                    aen d’ander sijde oostwart commende achter aenden raemhoff van wijlen
+                    d’erffgenamen <rs type="person" ref="#gills_franchois">Franchoys Gills</rs> met
+                    den voorseyden cooper toebehoorende gelijck ende in alle der manieren de voors.
+                    vercooper daerinne op heden date. dese bij den stadthouder mijns heer des
+                    amptmans nieuwe officie gegoeyt ende geerft is naer luyt de brieven daeraff
+                    sijnde die hij mede overgaff. Droegh oppe etc. te waerne etc. vuytgenomen 26 gl.
+                    erffelijck d’erffgenamen <rs type="person" ref="#hove_digna">Digna van Hove</rs>
+                    wijlen. Item 37 gl. erffelijck Heer <rs type="person" ref="#broecke_ghysbrecht"
+                        >Ghysbrecht van den Broecke</rs>, priester, met twee brieven Item drije
+                    guldens erffelijck <rs type="person" ref="#thijs_jan">Janne Thijs</rs> oft sijns
+                    acte hebbende ende vijffentwintich gulden erffelijck Heer <rs type="person"
+                        ref="#rel_henrick">Henricke Rel</rs>, daer jaerlijck vuytgaende naer luyt
+                    den brieven daeraff sijnde die hij mede overgaff ende desen voornoemden comme
+                    ende last heeft geloeft ende geloeffde midts desen de voorseyde senior <rs
+                        type="person" ref="#rubens_peter_paul">Pieter Paulo Rubbens</rs> die mede
+                    voors ons quitanties van Kersmeisse<note resp="A.H." type="footnote">Mit
+                        Kersmisse bezeichnete man den 25. Dezember</note> naestcommende alswanneer
+                    hij de voorseyde huyse aenvaerden sal. voordaene eeuwlijck durende jaerlijcks te
+                    geldene ende te betaelene souden ’t vorseyde huys metten gronden ende
+                    toebehoorten <span from="" xml:lang="lat">et ulterius se et sua</span>, daervore verbinden ende te pande settende,
+                    behoudelijck dat de voorseyde huysinghe medepant over vier oude grooten 10
+                    penningen geeft t’onzer Lieven Vrouwen<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">	
+                            Antwerpen</term><index indexName="stw"><term xml:lang="deu">Liebfrauenkathedrale</term></index>
+                    </index> alhier. Item over zesse oude grooten ende 60 Ingelsen erffelijck den
+                        <rs type="corporate" ref="#antwerpen_abtei_st_michiels">Godshuyse van St.
+                        Michiels</rs> dien jaerlijcx betaelen, mede vuyt den voorseyden raemhove
+                    metten huyse, panden deser huysinghe oft last oft schade ende in respect van de
+                    andere medepantschappen oock, uytgesteeken hare oude brieven dan alsooc
+                    presumeert ende vastelijck gelooft dat de selve al gequeten sijn uyt dyen de
+                    selve most betaelt wordden uyt den huysinghe van Senior <rs type="person"
+                        ref="#arnout_senior">Arnout</rs> gesten is mede toebehoordende <rs
+                        type="person" ref="#cools_henrick">Henricke Cools</rs> alsoock vuyt den
+                    voorseyden raemhove, soo en worden de selve hier mede vuytgesteecken ende waert
+                    dat den noornoemden Senior Pieter Paulo Rubbens oft sijne naecomelingen aan den
+                    voornoemden coop opdracht, waernisse ende claernisse vernoemt hier aff naermaels
+                    in de gebraecke of dat hen ter saecken van dyen eenighen heysch oft petitie
+                    aengedaen werden bij wijsen ende te wat oorsaecke datte waren, hoe peomisit de
+                    voorseyde comparant <span from="" xml:lang="lat">satisfacere unde obligare se de suo</span>.</p>
+                <closer>
+                    <salute>Sonder argelist</salute>
+                    <dateline> <date when="1621-12-23">Vigesima tertia Decembris 1621</date><lb/> Solutum</dateline>
+                </closer>
+            </div>
+            
+            <div xml:lang="nld">
+                <p>Pantgelt 17 gl. is bethaalt <date when="1646-10-20">20 Octobris 1646</date></p>
+            </div>
+        </body>
+    </text>
+</TEI>

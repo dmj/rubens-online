@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_208">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens erhält sein Honorar als Hofmaler und als Sekretär des
+                    Geheimen Rates</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="ARL_sig-b-2919-847">
+                    <msIdentifier>
+                        <country>Frankreich</country>
+                        <settlement>Lille</settlement>
+                        <repository>Archives du Royaume</repository>
+                        <collection>Archives du Nord. Chambre des Comptes de Lille (Compte huitième d’Ambroise van Oncle, du 1 janvier au 31 décembre
+                            1622)</collection>
+                        <idno type="signatur">B. 2919, fol. 847v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens erhält sein Honorar als Sekretär des Geheimen Rates</title>
+                    </head>
+                    <msContents>
+                        <msItem>
+                            
+                            <filiation>
+                                <note resp="A.H." type="footnote">Vgl. auch ein weiteres Dokument gleichen Datums im
+                                    ARL mit der Signatur <ref type="rubens" cRef="ed_rubens_207">B. 2962</ref>.</note>
+                            </filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1629" notAfter="1630">? 1629/30</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl>Jules Finot: Documents relatifs à Rubens, conservés aux
+                            archives du Nord, in: Rubens-Bulletijn - Bulletin-Rubens. Bd. 3, Antwerpen 1888,
+                            S. 126</bibl></listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu">Hofmaler</term>
+                    <term xml:lang="deu">Honorar</term>
+                    <term xml:lang="deu">Bezahlung</term>
+                    <term xml:lang="deu">Sekretär</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="fra">
+                <p>7500 livres à <rs type="person" ref="#rubens_peter_paul">Pierre-Paul Rubens</rs>,
+                    secrétaire du Conseil privé du Roi<index indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index>, en une lettre de décharge de pareille somme
+                    datée du <date when="1630-03-18">18e de mars 1630</date>, levée sur <rs
+                        type="person" ref="#gobin_jean">Jean Gobin</rs>, conseiller et recepveur
+                    général de <rs type="place" ref="#luxemburg">Luxembourg</rs>, dont est faict
+                    recepte cy-devant folio 64, pour semblable somme à quoy monte le pris des
+                    pinctures qu’il at faict et faict faire par ordre de Son Altèze
+                        Sérénissime<index indexName="psw">
+                        <term type="PND">Isabella (Spanien, Infantin)</term>
+                    </index> pour service de Sa Majesté<index indexName="psw">
+                        <term type="PND">Philipp (Spanien, König, IV.)</term>
+                    </index> et envoyées en <rs type="place" ref="#spanien">Espaigne</rs>, comme est
+                    plus amplement spécifié et déclairé en certaine d´claration portant au pied
+                    ordonannce et quictance y servante, veue en l’estat dudit <date
+                        when="1630-03-18">mois de mars</date>, folio 61, verso.</p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

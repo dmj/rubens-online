@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_068">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Eheschließung von Blandina Rubens und Simeon du Parcq</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="eheschliessung_blandina_rubens_15900805">
+                    <msIdentifier>
+                        <repository>unbekannt</repository>
+                        <collection>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</collection>
+                        <idno>Urkunde über die Eheschließung von Blandina Rubens und Simeon du Parcq vom 5. August 1590</idno></msIdentifier>
+                    <head>
+                        <title>Eheschließung von Blandina Rubens und Simeon du Parcq</title>
+                    </head>
+                    <history>
+                        <origin>
+                            <origDate when="1590-08-05">5. August 1590</origDate>
+                            <origPlace>Antwerpen</origPlace>
+                        </origin>
+                        <provenance>
+                            <p>Die originale Urkunde befand sich 1877 im
+                            Besitz des Baron van Havre.</p>
+                            <p>Ihr heutiger Verbleib ist unbekannt.</p>
+                        </provenance>
+                    </history>
+                    <additional><adminInfo><recordHist><source><bibl>Nils Büttner nach: Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne bloedverwanten</bibl>
+                    </source></recordHist></adminInfo>
+                    <listBibl>
+                        <bibl>Pierre Génard: P. P. Rubens: Aanteekeningen over den grooten meester en zijne
+                            bloedverwanten. Antwerpen 1877, S. 324f.<ptr type="gbv" cRef="146162595"
+                            /></bibl>
+                    </listBibl>
+                </additional></msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Blandina Rubens</term>
+                    <term xml:lang="deu" type="psw">Siméon du Parcq</term>
+                    <term xml:lang="deu" type="psw">Simeon du Parcq</term>
+                    <term xml:lang="deu">Eheschließung</term>
+                    <term xml:lang="deu">Heirat</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div part="Y" xml:lang="fra">
+                <p> Damoiselle <rs type="person" ref="#pypelincx_maria">MARIE PIPELlNCK</rs>, vefve
+                    de feu le Docteur <rs type="person" ref="#rubens_jan">RUEBENS</rs>, assisté du
+                    Sieur <rs type="person" ref="#lantmeter_philipp"><hi rend="smallCaps">Philippe
+                            de</hi> LANTMETERE</rs>, sou beaufrère, traictant avecq le Sieur <rs
+                        type="person" ref="#parcq_simeon"><hi rend="smallCaps">Siméon du
+                    </hi>PARCQ</rs> du mariaige du dict <hi rend="smallCaps">du </hi>PARCQ avecq sa
+                    fille <rs type="person" ref="#rubens_blandina">
+                        <hi rend="smallCaps">Blandine</hi>
+                    </rs>, a conditioné et sont parties tombées d’accord en manilère qui s’ensuit,
+                    assçavoir: que le dict Sieur <hi rend="smallCaps">Siméon du </hi>PARCQ apportera
+                    en mariaige les biens acquis qu’il at estimé passer quattre cens florins de
+                    rente, en plusieurs parties, selon la déclaration qu’il en a donnée à la dicte
+                    Damoiselle PIPELINCK, laquelle, pardessus accoustrements, banquet et meubles,
+                    qu’elle donnera à sa discrétion, baillera en advanchement de ce mariage, deux
+                    cents florins de rente héritable sur l’obligation de sa personne et de ses
+                    biens, ayant le dict Sieur <hi rend="smallCaps">du</hi> PARCQ constitué à la
+                    dicte Damoiselle <hi rend="smallCaps">Blandine</hi>, pour douaire conventionel,
+                    la somme de deux cents florins par an sur ses plu, apparens biens et la dicte
+                    Damoiselle PIPELINCK, au nom de sa fille, constitué au dict Sieur <hi
+                        rend="smallCaps">du</hi> PARCQ la somme de deux cents semblables florins par
+                    an, à semblable tiltre de duaire, et au cas d’enfans, le survivant des conjoints
+                    joyra des biens du premier décédé, à charge de l’entretènement des enfans selon
+                    leur qualité et estat, dérogans toutes coustumes, usances ou droictz qui
+                    pourroient estre au contraire.</p>
+                <closer>
+                    <dateline>Faict en <rs type="place" ref="#antwerpen">Anvers</rs>, le 
+                        <date when="1590-08-05">5<hi rend="super">e</hi> Aougst 1590</date>.
+                    </dateline><lb/>
+                    
+                    <signed rend="text-align:left">S. <hi rend="smallCaps">du</hi> PARCQ<lb/>
+                        <rs type="person" ref="#perre_josse"><hi rend="smallCaps">Josse de</hi>
+                        PERRE</rs> comme amis et tesmoing.</signed>
+                    
+                    <signed rend="text-align:right"><hi rend="smallCaps">Marie</hi> PIPELINCK<lb/>
+                    <rs type="person" ref="#lantmeter_philipp"><hi rend="smallCaps">Philips de</hi>
+                        LANTMETER.</rs></signed>
+                 </closer>
+            </div>
+        </body>
+      
+    </text>
+</TEI>

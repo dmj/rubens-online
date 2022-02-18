@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_029">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verfügung des Magistrates von Köln für Jan Rubens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel </name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="HAStK_best-20-102">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Köln</settlement>
+                        <repository>Historisches Archiv der Stadt (HAStK)</repository>
+                        <collection>Briefbücher, 8. März 1577 – 18. März 1578, Nr. 102</collection>
+                        <idno type="signatur">Best. 20, fol. 312v-314r</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Verfügung des Magistrates von Köln für Jan Rubens</title>
+                    </head>
+                    
+                    <history>
+                        <origin>
+                           
+                                <origDate when="1583-02-26">26. Februar 1583</origDate>
+                          
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="rubens">
+                    <term xml:lang="deu" type="psw">Jan Rubens</term>
+                    <term xml:lang="deu">Köln</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic xml:id="best-20-102-312v" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11708" n="312v"/>
+        <graphic xml:id="best-20-102-313r" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11709" n="313r"/>
+        <graphic xml:id="best-20-102-313v" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11710" n="313v"/>
+        <graphic xml:id="best-20-102-314r" url="http://www.historischesarchivkoeln.de/archivdetail.php?id=11711" n="314r"/>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:lang="lat">
+                <head>
+                    <pb facs="best-20-102-312v" n="312v"/>Approbatio.</head><p>Universis etc. Nos consules et senatus imperialis
+                    civitatis <rs type="place" ref="#koeln">Coloniae Agrippinae</rs>, tenore
+                    praesentium <pb facs="best-20-102-313r" n="313r"/>notum facimus et attestamur, quod spectabilis vir <rs
+                        type="person" ref="#frycke_johannes">Johannes Frycke</rs> Generosorum et
+                    illustrissimum dominorum <rs type="person" ref="#fugger_marcus">Marci
+                    Fuggeri</rs> et fratrum mandatarius et negotiorum gestor, certas paten<hi
+                        rend="super">tes</hi> literas originales, hispanico idiomate exaratas, ac
+                    propria manu regiae catho<hi rend="super">cae</hi> ma<hi rend="super">tis</hi> (:ut
+                    videbatur:) eiusdemque secretarii subscriptas, una cum copia earundem literarum
+                    in eadem lingua, nobis exhibuerit, petens quia originales earundem in Hispanias
+                        transmitten<hi rend="super">dae</hi> essent, nos dignaremur, post factam
+                    diligentem collationem, originale restituere, ipsamque copiam in formam vidimus
+                    redactam sibi communicare, ad quam collationem faciendam, simul et manus
+                    praecominatorum regiae majest<hi rend="super">is</hi> et secretarij agnoscen<hi
+                        rend="super">dam</hi> et verifican<hi rend="super">dam</hi> produxit coram nobis
+                    dictus mandatarius honorados ac nobiles viros Boucho ab Agta praepositum s<hi
+                        rend="super">ti</hi>
+                    <rs type="person" ref="#bavo_von_gent">Bavonis</rs> apud <rs type="place"
+                        ref="#gent">Gandaven<hi rend="super">tis</hi></rs><index indexName="psw">
+                        <term type="PND" xml:lang="deu">Bavo</term>
+                    </index> et <rs type="person" ref="#pignoranda_ludovicus">Ludovicum
+                    Pignoranda</rs> praenominatae regiae ma<hi rend="super">tis</hi> in rebus bellicis
+                    commissarium et <rs type="person" ref="#rubens_jan">Johannem Rubens</rs>
+                    doctorem, omnes concives et incolas nostros, hsipanicae linguae peritissimos,
+                    testes citatos habiles et fide digniss<hi rend="super">imos</hi>, qui sic
+                    comparentes, manibus nos<hi rend="super">tris</hi> stipulan. ad sancta die
+                    evangelia, se ad interrogata <pb facs="best-20-102-313v" n="313v"/>veritatem dicturos solemniter
+                    jurarunt, quibus sic peractis praedicti <rs type="person"
+                        ref="#pignoranda_ludovicus">Ludowicus Pignoranda</rs> et doctor Johannes
+                    Rubens medio suo juramento praestito attestati sunt, se ad praemissam instantiam
+                    praesentem copiam cum originali suo subscriptio diligenter collationasse ac
+                    revidisse eandemque de verbo ad verbum, concordantem reperisse absque dolo.
+                    Similiter praedictus dominus praepositus sancti Bauonis unaque cum illo Ludowicus
+                    Pignoranda, subscriptionem regiae catho<hi rend="super">cae</hi> majestatis ac suae
+                    majestatis secretarii diligenter inspicientes ambo agnouerunt ac deposerunt
+                    subscriptarum manuum alteram regis catholici alteram verum secretarii Erasso
+                    esse, causam scientiae addentes, quod ipsi testes easdem subscriptiones in
+                    pluribus similibus patentibus nec non aliis literis saepius vidissent, imo et a
+                    sua maj<hi rend="super">te</hi> similes litteras subscriptas habuisset. His uti
+                    permittitur perceptis, nos consules et senatus praedicti, quia praedictus regiae
+                        catho<hi rend="super">cae</hi> maj<hi rend="super">tis</hi> patentes literas cum
+                    hac copia diligenter collationata et concordantes <pb facs="best-20-102-314r" n="314r"/>sanas pariter
+                    integras et illaesas omnibusque vitiis carentes invenimus, qua propter
+                    transumptum hoc exinde fieri ac testimonio veritatis sigillo nostro secretiore
+                    corroborari mandavimus.</p> 
+                <closer>
+                    <dateline>Datae anno post partum Virginis <date when="1583-02-26"
+                        >millesimo quingentesimo octuagesimo tertio, die quidem Martis XXVI. Mensis
+                        Februarii</date>.</dateline>
+                </closer> 
+            </div>
+        </body>
+    </text>
+</TEI>

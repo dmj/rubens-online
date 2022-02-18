@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_236">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Übereinkunft zwischen Peter Paul Rubens und seinem Nachbarn Nicolaes de Man,
+                    sich die Unkosten für das Errichten einer Gartenmauer zwischen ihren
+                    Grundstücken zu teilen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-649">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1638/ IV: van Huffel &amp; Fighé</collection>
+                        <idno type="signatur">SR 649, fol. 68r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Übereinkunft zwischen Peter Paul Rubens und seinem Nachbarn
+                            Nicolaes de Man, sich die Unkosten für das Errichten einer
+                            Gartenmauer zwischen ihren Grundstücken zu teilen</title>
+                    </head>
+                    <msContents>
+                        <msItem>  
+                            <title><note resp="N.B." type="footnote">Der Text wurde durch <bibl>Pierre Génard: Het laatste Testament van P. P. Rubens. In: Rubens-Bulletijn
+                                - Bulletin-Rubens. Bd. 4. Antwerpen: de Backer, 1896. S. 129f.</bibl>
+                                publiziert.</note></title>
+                            <filiation><note resp="A.H." type="footnote">Vgl. hierzu auch das Dokument, das ebenfalls auf den <ref type="rubens" cRef="ed_rubens_236a">7. August 1638 </ref>datiert ist.</note></filiation>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <origDate when="1638-08-07">7. August 1638</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p><pb n="68r-v"/><rs type="person" ref="#princen_gillis">Gillis Princen</rs> inde
+                    name ende als (onder andere) tottet gene naebescreven, procuratie hebbende van
+                    den heer <rs type="person" ref="#rubens_peter_paul">Petro Paulo Ruebens</rs>,
+                    ridders, (op den <date when="1634-12-19">negenthienste Decembris anno 16<hi
+                            rend="super">c</hi> ende vierendertig</date>, voorde notaris M<hi
+                        rend="super">r</hi>
+                    <rs type="person" ref="#nicoleis_j">J. Nicoleis</rs> ende prefectie vanden
+                    getuygen gepasseert, ons te desen originelycken gethoont, in dyer qualiteyt ter
+                    eenre, ende van <rs type="person" ref="#man_nicolaes">Nicolaes de Man</rs>,
+                    brouwer alhier, ten andere zijde, ende bekende ende verclaerde ter beiden zijden
+                    aaengaende der scheymueren gemaeckt bij den voors. S<hi rend="super">r</hi> Petro
+                    Paulo Ruebens, tusschen zijn huys ende erve ende thuys ende erve van voors.
+                    Nicolaes de Man, beyde opden Wapper<index indexName="stw">
+                        <term xml:lang="deu">Wapper</term>
+                    </index><index indexName="stw">
+                        <term type="GKD" xml:lang="deu">Antwerpen</term><index indexName="stw"><term xml:lang="deu">Rubenshaus</term></index>
+                    </index><index indexName="stw">
+                        <term type="GKD" xml:lang="nld">	
+                            Antwerpen</term><index indexName="stw"><term xml:lang="nld">Rubenshuis</term></index>
+                    </index> alhier gestaen. Alzoo derselven mueren eerst bij den voors. S<hi
+                        rend="super">r</hi> Rubbens gemaect zijnde tot redelycke hoichte, gecocht
+                    heeft in alles ter somme van eenhondert elft gulden seventhien ende eene halven
+                    stuyver eens. Daervan de voors. de Man bereet is te dragen de helft van de
+                    honderdvijfenvijftig achthien stuyvers een blanck, ende deselve mueren nyet
+                    hoich genoeg sijnde naer den sinne en intentie van voors. de Man, is door den
+                    zelven de Man verhoocht, met consent van voors. S<hi rend="super">r</hi> Ruebens,
+                    hen gecost hebbende achtien guldens, waarbij de helft bedraeght negen gulden
+                    bijden voors. heer Ruebens, moet gedraeghen worden inder vuyghe dat de voors.
+                    Nicolas de Man aen de voors. S<hi rend="super">r</hi> Pietro Paulo Ruebens tot
+                    verlyckingen opgeleet, betaelt ende voldaene heeft inde handen van voors. Gillis
+                    Princens, zijne gemachtigde, de somme van sessenveertig gulden achthien stuyvers
+                    ende een blanck eens, midts den welke zoo verklaerden de selven Gillis Princen
+                    inder voors. qualiteyt, metter voors. Nicolaes de Man, geaccordeert te zijn dat
+                    dese voors. scheymuren van nu vordane, zalen zijn ende blijven gemeyn
+                    toebehoorende tusschen de voors. S<hi rend="super">r</hi> Rubbens ende voors.
+                    Nicolaes de Man halft ende halft ende salen alzoo tot gelijcken costen moeten
+                    onderhouden worden, ende by hen ende hunne, naecomelingen worden gebruyckt
+                    gelyck men naer costume deser stadt, gemeynen mueren mach gebruycken ’t allen
+                    dage.</p> 
+                <closer><salute>Sonder argelist, in kennisse.</salute><lb/>
+                    <dateline><date when="1638-08-07">Septima Augusti 1638</date>.</dateline> </closer>
+            </div>
+
+          
+        </body>
+       
+    </text>
+</TEI>

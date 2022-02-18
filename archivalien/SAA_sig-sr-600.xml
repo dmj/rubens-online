@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_198">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peter Paul Rubens tritt mit Arnold Lunden zusammen als Testamentsvollstrecker
+                    des verstorbenen Balthasar van Nispen auf</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+
+
+
+
+
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate;
+                &register-person;
+                &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="SAA_sig-sr-600">
+                    <msIdentifier>
+                        <country>Belgien</country>
+                        <settlement>Antwerpen</settlement>
+                        <repository>Stadsarchief (SAA)</repository>
+                        <collection>Schepenregister 1630/ IV: van Hove &amp; Marcelis</collection>
+                        <idno type="signatur">SR 600, fol. 184r-v</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Peter Paul Rubens tritt mit Arnold Lunden zusammen als
+                            Testamentsvollstrecker des verstorbenen Balthasar van Nispen
+                            auf</title>
+                    </head>
+                   
+                    <history>
+                        <origin>
+                            <origDate when="1630-07-26">26. Juli 1630</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="nld">
+                <p>M<hi rend="super">r</hi>
+                    <rs type="person" ref="#nispen_cornelis">Cornelis van Nispen</rs> Licensiaet
+                    inde rechte, bekende ende verclaerde, alsoo hij onder andere opden <date
+                        when="1629-04-19">achthiende April 16<hi rend="super">c</hi> ende
+                        negenentwintich</date> comparerende voor schepen deser stadt tot
+                    versekerheyt van het vuytreycken van eenen stooter daighs aen yeder vande
+                    tweelff oude mannekens, volgens den testamente ende codicille van wijlen <rs
+                        type="person" ref="#nispen_balthasar">Balthasar van Nispen</rs> sijns
+                    comparants oome, mede oock tot versekerheyt ende indemniteyt van Jonker <rs
+                        type="person" ref="#rubens_peter_paul">Petro Paulo Ruebens</rs> ende <rs
+                        type="person" ref="#lunden_arnoult">Arnoult Lunden</rs> executeurs vande
+                        testamente<index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Testament</term>
+                    </index><index indexName="stw">
+                        <term type="SWD" xml:lang="deu">Testamentsvollstrecker</term>
+                    </index> ende vuytersten wille des voors. Balthasar van Nispen, verbonden ende
+                    veroblegeert heeft de twee hondert ende vijventwintich guldene erffelijk die <rs
+                        type="person" ref="#andriessen_abraham">Abraham Melys Andriessen</rs> opden
+                        <date when="1622-05-02">tweeden May 16<hi rend="super">c</hi> ende
+                        tweentwintich</date> vercocht heeft den voors. Balthasar van Nispen. Op een
+                    huysinge mette gronde ende toebehoirten genaemt Den Rosenhoet<index
+                        indexName="stw">
+                        <term xml:lang="nld">Den Rosenhoet</term>
+                    </index> gestaen ende gelegen inde Keyserstrate tusschen thuys genaempt De seven
+                    sterre aen d’een sijde ende de ganck vande huysinge genaempte Sinte Digna aen
+                    d’ander sijde ende alsoo de voors. comparanten de voors. rente vande voors
+                    verbintenisse wilt ontalsten d’welck hij can ende vermach te doene midts in
+                    plaetse vande selve doende andere verbintenisse van rente oft hypotheque, soo is
+                    dat de voors comparanten in plaetse der selver specialyck verbonden ende
+                    verobligeert heeft de twee hondert vijventwintich guldenen erffelyck vuyt
+                    meerdere rente van drye hondert vyijvendertich guldene, vijfthien stuyvers
+                    erffelyck te penninck twintich hem comparanten competerende ten laste vanden
+                    persoon ende goeden van Heer <rs type="person" ref="#fourneau_theodor">Theodore
+                        de Fourneau</rs> diet de Cruyckenborch Riddere Heere van Sinte Ulricx,
+                    Capelle Raedt ordinaris van sijne majesteit Raede in <rs type="place"
+                        ref="#brabant">Brabant</rs> etc. ende waer voore diversche andere renten
+                    verbonden sijn volgende de brieven bij <rs type="person"
+                        ref="#dieltkens_sebastiaen">Sebastiaen Dieltkens</rs>, qualitate qua opden
+                        <date when="---24">24</date>. deser voor Schepene deser Stadt gepasseert,
+                </p>
+                <closer><salute>sonder argelist.</salute><lb/>
+                    <dateline><date when="1630-07-26">Vigesima Sexta July 1630</date><lb/> Solutum 2 gulden, 8
+                        st.</dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

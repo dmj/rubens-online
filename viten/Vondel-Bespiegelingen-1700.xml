@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI [
+<!ENTITY register-person SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-person.xml">
+<!ENTITY register-place SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-place.xml">
+<!ENTITY register-corporate SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-corporate.xml">
+<!ENTITY register-work SYSTEM "http://diglib.hab.de/edoc/ed000083/register/register-work.xml">
+]
+>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/teiP5/tei-p5-transcr.xsd" xml:lang="deu" xml:id="ed_rubens_274">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Joost van den Vondel: Bespiegelingen van Godt en godtsdienst, 1700</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+                    <ptr type="crossRef" target="http://www.hab.de"/>
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                &register-corporate; &register-person; &register-place;
+                &register-work;
+                <msDesc xml:lang="deu" xml:id="vondel_bespiegelingen_1700">
+                    <msIdentifier>
+                        <country>Deutschland</country>
+                        <settlement>Wolfenbüttel</settlement>
+                        <repository>Herzog August Bibliothek Wolfenbüttel</repository>
+                        <idno type="signatur">M: Lp 185 (1)</idno>
+                    </msIdentifier>
+                    <head>
+                        <title>Joost van den Vondel vergleicht Gottes Schöpfung mit den Werken verschiedener Maler, darunter neben Peter Paul Rubens und Seghers auch Raffael, Michelangelo, Tizian und Veronese</title>
+                    </head>
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <bibl>Joost van den Vondel: Bespiegelingen</bibl>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Joost van den Vondel: Bespiegelingen van Godt en godtsdienst. Rotterdam: Barent Bos, 1700. S. 22-24 und 91-93.<ptr type="opac" cRef="150433832"/></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="title_page" xml:lang="nld"><index indexName="fsw"><term type="structure" target="#title_page" xml:lang="deu">Titelblatt</term></index>
+                <p><rs type="person" ref="#vondel_joost">J. v. Vondels<index indexName="psw"><term type="PND" xml:lang="deu">Vondel, Joost van den</term><index indexName="fsw"><term type="structure" target="#author" xml:lang="deu">Verfasser</term></index></index></rs><index indexName="psw"><term type="PND" xml:lang="deu">Vondel, Joost van den</term><index indexName="stw"><term type="SWD" xml:lang="nld">Bespiegelingen van Godt en godtsdienst</term></index></index><lb rend="line-height:120%"/>
+                    
+                    BESPIEGELINGEN<lb rend="line-height:120%"/>
+                    
+                    Van<lb rend="line-height:120%"/>
+                    
+                    GODT en GODTSDIENST.<lb rend="line-height:120%"/>
+                    
+                    Tegens d'ongodisten, verlochenaers<lb/>
+                    der Godtheit of goddelijcke voorzienigheit.<lb rend="line-height:120%"/>
+                    
+                    In den brief aen de Hebreen.<lb rend="line-height:120%"/>
+                    
+                    Wie Gode genaekt moet bekennen dat hy is,<lb/>
+                    en beloont die hem zoeken.<lb rend="line-height:120%"/>
+                    
+                    DEN TWEEDEN DRUK.<lb rend="line-height:120%"/>
+                    
+                    
+                    Te <rs type="place" ref="#rotterdam">ROTTERDAM</rs>,<lb/>
+                    By <rs type="person" ref="#bos_barent">BARENT BOS<index indexName="psw"><term type="PND" xml:lang="deu">Bos, Barent</term><index indexName="fsw"><term type="structure" target="#printer" xml:lang="deu">Drucker</term></index></index></rs> Boekverkooper, op't Westnieuwlant.<lb rend="line-height:120%"/>
+                    
+                    <date when="1700">MDCC</date>.
+                </p>
+            </div>
+            <div xml:lang="nld">
+                <p><pb n="22"/>Het schijnt of <rs type="person" ref="#raffael">Rafels</rs><index indexName="psw"><term type="PND" xml:lang="deu">Raffael</term></index> geest, of <rs type="person" ref="#tizian">Titiaen</rs><index indexName="psw"><term type="PND" xml:lang="deu">Tizian</term></index> verrees,<lb/>
+                    Of <rs type="person" ref="#michelangelo">Angeloos</rs><index indexName="psw"><term type="PND" xml:lang="deu">Michelangelo</term></index> vernuft, Baffaen, of <rs type="person" ref="#veronese_paolo">Veronees</rs><index indexName="psw"><term type="PND" xml:lang="deu">Veronese, Paolo</term></index>;<lb/>
+                    Maer neen, zy staen beschaemt, en roepen dat de stoffen<lb/>
+                    Van 't wilt geval natuur en 't leven overtroffen;<lb/>
+                    Gelijk het op zijn tijt verwondring heeft gebaert,<lb/>
+                    Toen 't meesterlijk vernunft niet zag 't schuimbekkend paert<lb/>
+                    Te malen naer den eisch, als d'oogen in het leven<lb/>
+                    Aen 't leuterend gebit het witte schuim zien kleven.<lb/>
+                    De schilder worpt van spijt de spongi, nat van spog,<lb/>
+                    Naer't paert toe, en verneemt het geestige bedrog,<lb/>
+                    Het montgebit met schuim natuurelijk bestreken,<lb/>
+                    En zulks dat geen verstant dit oit heeft afgekeken.<lb/>
+                    De schilderwijsheit, strax verlaten van de kunst,<lb/>
+                    Bedankt nu 't wilt geval, voor zulk een eere en gunst.<lb/>
+                    Hy volg' 't geval, wien 't lust, terwijl zijne ooren jeuken:<note place="margin-left">Gelijkenissen, die het geval wederleggen</note><lb/>
+                    Een dolle houd geen streek. hy raeskaelt wonderspreuken,<lb/>       
+                    En louter hemelval, of schud de menscheit uit,<lb/>
+                    De reden en 't verstant, en slaet een diersch geluit.<lb/>
+                    Een woest gebou, dat, vuil beslagen, en beschimmelt,<lb/>
+                    Van vezelingen krielt, en van gedaenten grimmelt,<lb/>
+                    Naerdat de wint en lucht die vormt, en 't zamenstuwt,<lb/>
+                    Waerin iet aertigs speelt, of iet daer 't oog voor gruwt;<lb/>
+                    Wat laed dit meer dan stof, of groog of nat van waessem,<lb/>
+                    Een asch, die licht verstuift, en 't blazen van den aessem<lb/>
+                    <pb n="23"/>Niet weêrstaet? eveneens gelijk de lucht om hoog,<lb/>
+                        Betrokken met een wolk en nevelen, her oog<lb/>
+                        Misleit door beelt op beelt, daer reuzen in verschijnen,<lb/>
+                        En lant- en zeegedrogt; gedaenten, die verdwijnen<lb/>
+                        In eenen oogenblik, of zich op ons gezicht<lb/>
+                        Verandren naer de drift des wints, of naer het licht<lb/>
+                        Der zonne haer beschijn'. wat will hy nu besluiten<lb/>
+                        Om Godts voorziengheit op dit geval te stuiten,<lb/>
+                        Gelijk een licht ranket een' ysren oorlogsbal?<lb/>
+                        Zoo hier verstant iut straelt, het is geen los geval,<lb/>
+                        Maer 't eeuwige vernuft, dat alles kann bewegen,<lb/>
+                        Waerdoor ook 't minste stof zijn wezen heeft gekregen,<lb/>
+                        En al het zant voor wint tot berg, en duinen zwelt,<lb/>
+                        Daer d'Oceaen op breekt, en al het zeegewelt.<lb/>
+                        Maer wat gelijkenis kann dit by 't scheppen halen!<lb/>
+                        Ik zie hier iet uit wat; geen mijnen, geen metalen,<lb/>
+                        Geen bloemen, geen gewas, geen water, lucht, noch vier,<lb/>
+                        Noch steenrots, nochte berg; geen ' vogel, visch, en dier'<lb/>
+                        Geen mensch,geen diamant, geen perlen, geen robijnen,<lb/>
+                        Geen hemelhoog gewelf, waeruit de starren schijnen,<lb/>
+                        En houden haren tred, gelijk een heirkracht breet<lb/>
+                        In 't vierkant op trompet en trom des maerschalks treet:<lb/>
+                        't Natuurlijk werkstuk en het kunstig melt zijne oorzaek,<lb/>
+                        Een oorzaek vol verstants. 't geval behoeft de voorspraek<lb/>
+                        Van een krankzinnig hooft, dat nutter lag geboeit,<lb/>
+                        Daer 't stof van zijn geval tot zulk een wonder groeit,<lb/>
+                        Dat dit de heerlijkheit des Scheppers kann verdooven,<lb/>
+                        Terwijl de weerelt komt dus heerlijk aengestoven.<lb/>
+                        Zoo 't reukeloons geval, versteken van vernuft<lb/>
+                        En geest, in 't werken Godts voorzienigheit verbluft,<lb/>
+                        Dat most ons blijken door geschiktheit, stijl, en orden:<lb/>  
+                        Nu zienwe by geval van 't stuiven iet geworden,<lb/>
+                        Daer niet dan wildernis en woestheit in verschijnt,<lb/>
+                        En 't keurig oog, hoe naeu het zoekt, en zich verpijnt,<lb/>
+                        <pb n="24"/>Geen evenredenheit noch eind in kann bemerken,<lb/>
+                            Waer op de werker oogt, eer hy begint te werken.<lb/>
+                            Bespreng een blad mit ink, war ziet ge? een ongestalt<lb/>
+                            Van vlakken, kleen of groot, naer dat sprenkel valt;<lb/>
+                            Geen letters, nochte spreuk, gespelt uit woorden, namen,<lb/>
+                            Voorzetselen, en lid, en bywoort, die te zamen<lb/>
+                            Ons melden, dat de pen van een geleerde hant<lb/>
+                            Getrokken wiert. hoe zou 't geval dan met verstant<lb/>
+                            In 't werk te rade gaen, het welk men dus begunstig?<lb/>
+                            Geen kenners schatten ooit den dollen schilder kunstig,<lb/>
+                            Die 't dolhuis zinneloos misverst met schildery.<lb/>
+                    Gelijkt nu <rs type="person" ref="#rubens_peter_paul">Rubens</rs><index indexName="psw"><term type="PND" xml:lang="deu">Rubens, Peter Paul</term></index> kunst en tafereel hierby,<lb/>
+                            Daer tekeninge en verwe, in 't hoogen en verdiepen,<lb/>
+                            Als tegens vrou Natuur, om strijt in 't kunstwerk liepen,<lb/>
+                            Waer zal dees nachtuil zich verbergen voor den dag,<lb/>
+                            In zijne schaduwen van spinneweb, en rag?<lb/>
+                            De meesters zullen zich van lachen naeu onthouden.<lb/>
+                            Dat nu de vezelaers, die deze weerelt bouden<lb/>
+                            Uit vezelinge en gruis, eens opstaan uit dien droom,<lb/>
+                            En weigeren 't geval in 't wilt den vryen toom,<lb/>
+                            Door kennis van Godts kunst, waer voor wy, onder 't stuiven,<lb/>
+                            Eerbiedig een gordijn van zijde en purper schuiven.<lb/>  
+                </p>
+            </div>
+            <div xml:lang="nld">
+                <p><pb n="91"/>Hoe kann d'ontelbaerheit der dingen ons verstommen, <note place="margin-right">in de verscheidenheit.</note><lb/>
+                    Als Godts volkomenheên in alle wezens brommen,<lb/>
+                    En 't endeloos getal, verscheiden uitgespreit,<lb/>
+                    Ons in de kennis voert van d'eenige enkelheit!<lb/>
+                    <pb n="92"/>Noch wonderlijker blijkt de Godtheit in 't schakeeren<lb/>
+                        Zoo veeler schepzelen, die hunnen Schepper eeren,<lb/>
+                        Als door den horen, vol van overvloet gestopt,<lb/>
+                        Met allerhande vrucht, en tot de keel verkropt,<lb/>
+                        Gevult, en opgehoopt, in haren schat en miltheit,<lb/>
+                        Zoo rijk en uitgestort: want drukt een' zegelring<lb/>
+                        Alleen een eenig beelt en wapen in en ding,<lb/>
+                        En kann een drukvorm slechts een zelve boekstaef drukken;<lb/>
+                        Wie twijfelt dan dat Godt, in endelooze stukken,<lb/>
+                        Door 't scheppen zijne magt en miltheit heeft getoont,<lb/>
+                        En in dit wonderwerk zijn majesteit gekroont?<lb/>
+                        Ik sla verscheidenheên in zoo veel dingen over.<lb/>
+                        Hoe rijk schakeert hy plant, en kruit, en bloem, en lover,<lb/>
+                        En geur, en kleur, en smaek, en zappen, en gestalt!<lb/>
+                    Schoon <rs type="person" ref="#seghers_daniel">Zegers</rs><index indexName="psw"><term type="PND" xml:lang="deu">Seghers, Daniel</term></index> bloempenseel het vorstenoog gevalt,<lb/>
+                        Zijn verf is zonder ziel, en geur, en kracht, en leven;<lb/>
+                        En Chinaes bloempenseel moet lof den schilder geven,<lb/>
+                        Die zulk een'  regenboog en krans van bloemen maelt,<lb/>
+                        In paeu, en papegaey, en fenixveeren praelt,<lb/>
+                        En levende festoen, gewasschen aen de boomen;<lb/>
+                    Daer 't water na Peking, door d´aders van de stroomen,<lb/>
+                        Het Oostersch hof bevloeit, waerin de Tarter pronkt,<lb/>
+                        Met zonnegout gekroont, aen 't morgenlicht ontvonkt;<lb/>
+                        Dat rijzende uit den daeu, in roozen opgeloken,<lb/>
+                        Dien rijksmuur ziet gesloopt, zijn noortstar ingebroken.<lb/>
+                        Indienwe gadeslaen het wilt en tam gediert,<lb/>
+                        Dat in de golven zwemt, of in de wolken zwiert,<lb/>
+                        Of in de beemden weit, woestijnen, en waranden;<lb/>
+                    Moet <rs type="person" ref="#snyders_frans">Snijders</rs><index indexName="psw"><term type="PND" xml:lang="deu">Snyders, Frans</term></index> het penseel niet worpen uit zijn handen,<lb/>
+                        En roepen: al ons kunst is niet bespieglens waert.<lb/>
+                        Hier is verscheidenheit van onnavolgbren aert.<lb/>
+                        Heeft Rubens niet geklaegt, in 't schilderen en strijken<lb/>
+                        Op zijn panneelen, dat hy naeulijks twee gelijken<lb/>
+                        <pb n="93"/>In alle tronien van 's Konings Neêrlant vont?<lb/>
+                            Ik zwijk van elks natuur. ook melt ons d'avontstont<lb/>
+                            Hoe alle heiren, die in 't gulden harnas spelen,<lb/>
+                            En monstren aen de lucht, in hunnen glans veschelen:<lb/>
+                            Waeruit men zeker sluit en sterkt, in allen schijn,<lb/>
+                            Dat dees verscheidenheên in Godt oneinding zijn;<lb/>
+                            Dewijlze alleen uit hem, die noit verwelkt in 't bloeien,<lb/>
+                            En zijnen rijken schoot, en vollen boezem vloeien.<lb/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
